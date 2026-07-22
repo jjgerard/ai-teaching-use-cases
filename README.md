@@ -1,7 +1,8 @@
-# Field Notes — Case Study Catalog
+# Case Study Catalog
 
-A public catalog of real, concrete AI-in-education case studies, with a submission form
-and a password-gated dashboard for approving new entries before they go live.
+A starter template for a public catalog of anything you want to collect examples of, with
+a submission form and a password-gated dashboard for approving new entries before they go
+live. Fork it, replace the seed data and branding with your own topic, and deploy.
 
 - `GET /` — public catalog (search + facets)
 - `GET /submit` — public submission form
@@ -9,8 +10,8 @@ and a password-gated dashboard for approving new entries before they go live.
 
 ## How it works
 
-- 159 curated entries ship as `data/seed.json` and are loaded into the database once, the
-  first time the server starts against an empty database.
+- Your own curated entries ship as `data/seed.json` and are loaded into the database once,
+  the first time the server starts against an empty database.
 - Public submissions land in the same database with `status = 'pending'` and are invisible
   to `/api/catalog` until approved.
 - The admin dashboard (`/admin`) is gated by a single shared password (`ADMIN_PASSWORD`).
@@ -27,9 +28,9 @@ as the sender) whenever someone submits through `/submit`. Set three env vars:
 
 | Var | Meaning |
 |---|---|
-| `GMAIL_USER` | The Gmail address that **sends** the notification (e.g. `jgerard417@gmail.com`) |
+| `GMAIL_USER` | The Gmail address that **sends** the notification |
 | `GMAIL_APP_PASSWORD` | An app password for that account (see below) — not your regular Gmail password |
-| `NOTIFY_EMAIL` | Where notifications are **delivered** — can be any address, including a different Gmail account (e.g. `gerard.juliana@gmail.com`) or an institutional inbox like `ai@ulster.ac.uk` |
+| `NOTIFY_EMAIL` | Where notifications are **delivered** — can be any address, including a different Gmail account or an institutional/shared team inbox |
 
 To get an app password: the `GMAIL_USER` account needs 2-Step Verification turned on
 (Google Account → Security), then generate one at
@@ -132,6 +133,6 @@ public/
   admin.html   — password-gated review dashboard + "Add from email" box
   shared.css   — shared design system used by all three pages
 data/
-  seed.json      — the 159 curated entries, imported once on first boot
+  seed.json      — your curated entries, imported once on first boot
   community.json — approved community submissions, kept in sync by gitStore.js
 ```
