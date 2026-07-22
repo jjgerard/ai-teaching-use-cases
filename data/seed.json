@@ -2840,6 +2840,1607 @@
       ],
       "yr": 2026,
       "s": "An undergraduate module on Chaucer's Canterbury Tales at Queen's University Belfast piloted using Voyant Text Analysis, AntConc and ChatGPT to surface lexical patterns and initial thematic summaries (e.g. repeated references to 'gentillesse'), which then served as a springboard for close reading and discussion rather than a substitute for it. Seminars included debate on the ethics of using AI to hypothesise missing narrative content, such as the incomplete Cook's Tale, and documented cases where tools like AntConc misread Middle English spellings."
+    },
+    {
+      "t": "AI Ventures — entrepreneurship module redesign",
+      "u": "https://www.imperial.ac.uk/about/education/resources/ai-education-hub/case-studies/ai-ventures/",
+      "by": "David Shrier",
+      "inst": "Imperial College Business School",
+      "repo": "imperial",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2023,
+      "s": "Redesigned the \"AI Ventures\" entrepreneurship elective (Global Online MBA) to have students use an LLM as a \"thought partner\" for business plan creation, restructuring prompts to force critical evaluation of AI output."
+    },
+    {
+      "t": "Embedding AI into Assessment — critique-the-AI-output assignment",
+      "u": "https://www.imperial.ac.uk/staff/educational-development/teaching-toolkit/anatomy-of-assessment/case-studies/embedding-ai-into-assessment/",
+      "by": "David Shrier",
+      "inst": "Imperial College Business School",
+      "repo": "imperial",
+      "reg": "UK",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2023,
+      "s": "Students had an LLM generate a business-strategy explanation, then wrote a 250-word critique of what the output got right and wrong; the instructor reports responses \"bucketed\" into clear categories that enabled efficient feedback."
+    },
+    {
+      "t": "Exploring Generative AI in Essay Writing and Marking",
+      "u": "https://www.kcl.ac.uk/research/generative-ai-in-essay-writing-and-marking",
+      "by": "Dr Margherita de Candia, with student researchers Camille Bacha De Carvalho, Duru Karadeniz and Ziti Lei",
+      "inst": "Dept of Political Economy, King's College London",
+      "repo": "kcl",
+      "reg": "UK",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2024,
+      "s": "Two full-day workshops with 20 Political Science students who composed essays using the \"PAIR\" framework; essays were then marked by both human assessors and generative AI, with unattributed feedback given back to students, plus pre/post surveys on trust and inclusivity."
+    },
+    {
+      "t": "AI as tutor and critic: using tech to personalise education",
+      "u": "https://www.timeshighereducation.com/campus/ai-tutor-and-critic-using-tech-personalise-education",
+      "by": "Michael Butler",
+      "inst": "Dickson Poon School of Law, King's College London",
+      "repo": "kcl",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Law"
+      ],
+      "yr": 2024,
+      "s": "In a Commercial Law module, students used LLM \"tutor prompts\" to learn about NDAs and then drafted their own, comparing drafts to precedent in class; separately, GPT-4 was given a Land Law formative question, a student answer, and marking guidance to generate feedback, which closely matched the tutor's own."
+    },
+    {
+      "t": "Is it worth paying for GenAI?",
+      "u": "https://www.timeshighereducation.com/campus/it-worth-paying-genai",
+      "by": "Sophia De Arez Cintra",
+      "inst": "Dickson Poon School of Law, King's College London",
+      "repo": "kcl",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "ChatGPT",
+        "Gemini",
+        "Other"
+      ],
+      "disc": [
+        "Law"
+      ],
+      "yr": 2024,
+      "s": "While updating a constitutional/administrative law module, systematically compared free vs paid tiers of ChatGPT, Claude and Gemini for tasks like selecting session topics and drafting workshop scenarios; found only Gemini Advanced justified its price."
+    },
+    {
+      "t": "AI-Augmented Formative Feedback",
+      "u": "https://blogs.qub.ac.uk/digitallearning/ai/ai-in-education/teaching-and-learning/case-studies",
+      "by": "Dr Gary McKeown and Dr Paddy O'Connor",
+      "inst": "School of Psychology, Queen's University Belfast",
+      "repo": "qubdl",
+      "reg": "UK",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2024,
+      "s": "ChatGPT was used to generate feedback on student essays, which was then compared against original tutor feedback, with student perceptions of AI-feedback quality studied alongside."
+    },
+    {
+      "t": "AI in Business and Society — blog-writing assignment",
+      "u": "https://blogs.qub.ac.uk/digitallearning/ai/ai-in-education/teaching-and-learning/case-studies",
+      "by": "Dr Laura Steele and Dr Bahareh Ansari",
+      "inst": "Queen's Business School",
+      "repo": "qubdl",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2024,
+      "s": "Generative AI was integrated into a blog-writing assignment on the MSc \"AI in Business and Society\" module; student reflective statements showed a range of engagement from idea generation to full blog drafting, capturing both benefits and challenges."
+    },
+    {
+      "t": "Contemporary Technologies and Accounting (ACC3043)",
+      "u": "https://blogs.qub.ac.uk/digitallearning/ai/ai-in-education/teaching-and-learning/case-studies",
+      "by": "Dr Danielle McConville",
+      "inst": "Queen's Business School",
+      "repo": "qubdl",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2024,
+      "s": "The module was restructured to include a guest lecture on prompt engineering plus structured discussion of AI use cases and ethics in accounting practice."
+    },
+    {
+      "t": "A Data Science Course Utilizing GenAI",
+      "u": "https://pure.qub.ac.uk/en/publications/a-data-science-course-utilizing-genai/",
+      "by": "Jonathan W. Browning, John Bustard, Neil Anderson and Leo Galway",
+      "inst": "School of EEECS, Queen's University Belfast",
+      "repo": "qubdl",
+      "reg": "UK",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Computer Science"
+      ],
+      "yr": 2024,
+      "s": "ChatGPT was integrated into a postgraduate data-analysis course with a \"dual-report\" assessment evaluating both project outcomes and students' prompt-engineering skill; students showed enhanced analysis skills but struggled to frame effective queries."
+    },
+    {
+      "t": "Unit-specific AI chatbots: Reducing the search burden for students",
+      "u": "https://bilt.online/case-study-unit-specific-ai-chatbots-reducing-the-search-burden-for-students/",
+      "by": "Marios Kremantzis, Hua Jin, Anthi Chondrogianni, Aniekan Essien and Sophie Lythreatis",
+      "inst": "Faculty of Arts, Law and Social Sciences, University of Bristol",
+      "repo": "bristol",
+      "reg": "UK",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2026,
+      "s": "Custom chatbots grounded in approved teaching materials were built and embedded in Blackboard Ultra for three units (about 750 students) with three matched control units; roughly 60% of use was outside working hours, assessment queries made up 43% of questions, with 81% positive feedback on deadline queries but only 49% on summative-assessment detail."
+    },
+    {
+      "t": "Teaching with AI in higher education: insights from practice with Blackboard Ultra",
+      "u": "https://digitallearning.uwe.ac.uk/teaching-with-ai-in-higher-education-some-of-my-insights-from-practice-with-blackboard-ultra/",
+      "by": "Zheng Ma",
+      "inst": "College of Health, Science and Society, UWE Bristol",
+      "repo": "uwe",
+      "reg": "UK",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2025,
+      "s": "Used Blackboard Ultra's AI Conversation tool to run Socratic-questioning/role-play scenarios modelling public health workplace situations, and had students compare human peer feedback against AI-generated feedback in a \"Qualitative Peer Review\" assignment, including reported benefits for international students using AI-assisted translation."
+    },
+    {
+      "t": "'Perfectly Frank' — using performance to demystify AI",
+      "u": "https://www.timeshighereducation.com/campus/demystify-ai-your-students-use-performance",
+      "by": "Will Shüler, Chris Hogg and Karim Shohdy",
+      "inst": "School of Performing and Digital Arts, Royal Holloway",
+      "repo": "royalholloway",
+      "reg": "UK",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT",
+        "ElevenLabs",
+        "Other"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2024,
+      "s": "A 50-minute theatrical lecture-demonstration updating Frankenstein: audience \"lab assistants\" were recorded and used to build an AI creature — ChatGPT (custom-prompted), ElevenLabs (voice), Midjourney (body), Runway (animation/lip-sync) — to teach AI literacy through creative practice."
+    },
+    {
+      "t": "Will AI revolutionise marking?",
+      "u": "https://www.timeshighereducation.com/campus/will-ai-revolutionise-marking",
+      "by": "Rohim Mohammed",
+      "inst": "University College Birmingham",
+      "repo": "ucbirmingham",
+      "reg": "UK",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2025,
+      "s": "Uploaded his own assessment rubric to ChatGPT-4 and compared its grading of student work against his own marks; found initial AI over-scoring by up to 20%, persistent hallucinated details, and proposed an \"AI sandwich\" (human-framed task, AI first-pass feedback, human final grade) over full automation."
+    },
+    {
+      "t": "The LOV AI Co-Creation Approach: Creating Business Teaching Cases with Deep Research AI",
+      "u": "https://microsites.ncl.ac.uk/casestudies/2025/09/01/the-lov-ai-co-creation-approach-creating-business-teaching-cases-with-deep-research-ai/",
+      "by": "Dr David Grundy",
+      "inst": "Newcastle University Business School",
+      "repo": "newcastle",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "ChatGPT",
+        "Gemini",
+        "ElevenLabs"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2025,
+      "s": "A six-step \"Lecturer Oversight and Verification\" workflow used ChatGPT o3 Deep Research, Gemini 2.5 Pro and ElevenLabs to generate and verify a full MBA Finance & Investment teaching case, condensed into student summaries, games, chatbots and vodcasts; case development time fell from weeks to about 4 hours, and the 11-student MBA module scored 4.5/5 satisfaction with improved exam performance versus prior years."
+    },
+    {
+      "t": "Transparency and Disclosure of the Use of Gen-AI Co-Created Teaching Materials with MBA Students",
+      "u": "https://microsites.ncl.ac.uk/casestudies/2026/03/16/transparency-and-disclosure-of-the-use-of-gen-ai-co-created-teaching-materials-with-mba-students/",
+      "by": "Dr David Grundy",
+      "inst": "Newcastle University Business School (NBS8122)",
+      "repo": "newcastle",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Gemini",
+        "NotebookLM",
+        "Other"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2026,
+      "s": "Deployed weekly HeyGen-made summary videos, Gemini-generated formative HTML tests, and a NotebookLM chatbot in an MBA accounting/finance module, disclosing AI use to students upfront; 18 of 25 students responded to a survey rating the module 4.5/5, and students went on to use the same tools independently in other modules."
+    },
+    {
+      "t": "Incorporating generative AI into a module",
+      "u": "https://www.ucl.ac.uk/teaching-learning/case-studies/2025/apr/incorporating-generative-ai-module",
+      "by": "Dr Jenny Crawley",
+      "inst": "UCL Energy Institute",
+      "repo": "ucl",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Data Science & Analytics"
+      ],
+      "yr": 2025,
+      "s": "GenAI was deliberately excluded from the statistics-learning component of an energy data-analysis course but permitted for coding help; students used it to debug error messages and discussed how GenAI might approach data analysis and stakeholder priorities, finding it \"very helpful\" for debugging and time-saving while the instructor stressed it can't replace statistical understanding."
+    },
+    {
+      "t": "Putting GenAI to work with writing rubrics",
+      "u": "https://www.ucl.ac.uk/teaching-learning/case-studies/2025/jan/putting-genai-work-writing-rubrics",
+      "by": "Dr Jamie Cawthra",
+      "inst": "University College London (business ethics module)",
+      "repo": "ucl",
+      "reg": "UK",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "Copilot"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2025,
+      "s": "Used Microsoft Copilot (Enterprise Data Protection model) with an iterative prompt structure to draft and refine an analytic marking rubric for an undergraduate business ethics module, reducing time and tedium and easing future updates to the rubric."
+    },
+    {
+      "t": "Embracing AI: transforming teaching with responsible prompts",
+      "u": "https://www.ucl.ac.uk/teaching-learning/case-studies/2024/feb/embracing-ai-transforming-teaching-responsible-prompts",
+      "by": "Dr Chekfoung Tan, Liam Perez and Kartik Gupta",
+      "inst": "UCL Centre for Systems Engineering / Dept of Space and Climate Physics",
+      "repo": "ucl",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Engineering"
+      ],
+      "yr": 2024,
+      "s": "Students submitted notes on business-change frameworks (e.g. Porter's Five Forces) to ChatGPT to get expanded notes and suggestions, using progressively refined prompts to explore links between organisational-change models."
+    },
+    {
+      "t": "Generative AI: Discussing proper use with students",
+      "u": "https://www.ucl.ac.uk/teaching-learning/case-studies/2024/dec/generative-ai-discussing-proper-use-students",
+      "by": "Dr Vitor Zimmerer and Dr Alice Liefgreen",
+      "inst": "Division of Psychology and Language Sciences, UCL",
+      "repo": "ucl",
+      "reg": "UK",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2024,
+      "s": "Delivered a 90-minute first-year tutorial, including a live student poll, where students used ChatGPT to answer questions about a pre-read article at varying Bloom's-taxonomy cognitive levels, then evaluated the AI answers themselves; feedback was largely positive."
+    },
+    {
+      "t": "Developing students' GenAI literacy through hackathons",
+      "u": "https://www.ucl.ac.uk/teaching-learning/case-studies/2024/oct/developing-students-genai-literacy-hackathons",
+      "by": "Tom Gurney, with Dr Flaminia Ronca",
+      "inst": "Dept of Targeted Intervention, Sport & Exercise Medical Sciences, UCL",
+      "repo": "ucl",
+      "reg": "UK",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT",
+        "Other"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2024,
+      "s": "A CofFEE-funded hackathon put 10 students in 5 teams through six tasks — pick a health topic, research public perceptions, compare with scientific evidence, write a report, deliver a lay talk — using ChatGPT, Google Bard, Evidence Hunt and Tome."
+    },
+    {
+      "t": "Using AI with literature searches",
+      "u": "https://www.ucl.ac.uk/teaching-learning/case-studies/2025/may/using-ai-literature-searches",
+      "by": "Dr Zahra Mohri and Dr Alia Galadari",
+      "inst": "Division of Surgery & Interventional Science, UCL",
+      "repo": "ucl",
+      "reg": "UK",
+      "th": "Research Methods",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2025,
+      "s": "A student-staff partnership on a Research Project module tested ChatGPT's ability to refine PICO research questions, generate synonyms, and build database-specific search strings across Ovid Medline, Embase and Web of Science, finding it helpful for question refinement but only partially useful for search-string translation."
+    },
+    {
+      "t": "Artificial intelligence and rethinking coursework assessments",
+      "u": "https://reflect.ucl.ac.uk/education-conference-2024/2024/03/26/artificial-intelligence-and-redesigning-coursework-assessments/",
+      "by": "Andrew Williams, with student co-creator Ellie Ingle",
+      "inst": "BSc Applied Medical Sciences, UCL Medicine",
+      "repo": "ucl",
+      "reg": "UK",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2024,
+      "s": "As part of a UCL Co-Creator: AI Project, a Year 2 \"Molecular Basis of Disease\" coursework gave students a ChatGPT-generated grant proposal on scleroderma-associated vasculopathy and asked them to critically evaluate its scientific accuracy, rationale, experimental design and patient benefit, alongside a broader review of Year 1–2 coursework's susceptibility to ChatGPT-generated answers."
+    },
+    {
+      "t": "Art Meets AI",
+      "u": "https://ctl.stanford.edu/opportunities/art-meets-ai-short-assignment",
+      "by": "Gerui Wang",
+      "inst": "Art History / East Asian Studies, Stanford University",
+      "repo": "stanfordaimes",
+      "reg": "US",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Image Generation"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2024,
+      "s": "In ARTHIST 254A / EASTASN 254A, students used AI image and video tools to build a virtual museum exhibition pairing human- and AI-generated artworks, presented as a \"curator tour.\""
+    },
+    {
+      "t": "Decolonizing Archives: Video & AI",
+      "u": "https://ctl.stanford.edu/opportunities/decolonizing-archives-video-and-ai-long",
+      "by": "Morehshin Allahyari",
+      "inst": "Art Practice, Stanford University",
+      "repo": "stanfordaimes",
+      "reg": "US",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Image Generation"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2025,
+      "s": "In ARTSTUDI 122, students used Midjourney to generate 40 images exploring AI bias in \"re-imagining futures,\" with a documented prompt/process log and a critique session."
+    },
+    {
+      "t": "Music and AI",
+      "u": "https://ctl.stanford.edu/opportunities/music-and-ai-long-assignment",
+      "by": "Ge Wang",
+      "inst": "Music / Computer Science, Stanford University",
+      "repo": "stanfordaimes",
+      "reg": "US",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2024,
+      "s": "In MUSIC 356 / CS 470, progressive assignments moved from etudes to genre-classification and generative-music systems, building toward a prototyped interactive AI music application."
+    },
+    {
+      "t": "Media, Mind, and Black Mirror",
+      "u": "https://ctl.stanford.edu/opportunities/media-mind-and-black-mirror-final",
+      "by": "Robby Ratan",
+      "inst": "Communication, Stanford University",
+      "repo": "stanfordaimes",
+      "reg": "US",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2025,
+      "s": "In COMM 173A/273A, students customized a personal ChatGPT chat partner, conversed with it 2-3 times a week for a quarter, logged surveys, then wrote an auto-observational research essay using media psychology methods."
+    },
+    {
+      "t": "Human-Centered AI",
+      "u": "https://ctl.stanford.edu/opportunities/human-centered-ai-1",
+      "by": "Peter Norvig and Daniel M. Russell",
+      "inst": "Computer Science, Stanford University",
+      "repo": "stanfordaimes",
+      "reg": "US",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT",
+        "Gemini",
+        "Image Generation"
+      ],
+      "disc": [
+        "Computer Science"
+      ],
+      "yr": 2024,
+      "s": "In CS 139, three assignments had students write a reflective essay on AI and learning; compare designing a party invitation via AI image tools (Dall-E/Midjourney) versus a search engine; and prototype a \"Wizard of Oz\" human-in-the-loop system."
+    },
+    {
+      "t": "Technology, Innovation, and Great Power Competition",
+      "u": "https://ctl.stanford.edu/opportunities/technology-innovation-and-great-power-competition-long",
+      "by": "Steve Blank, Joseph Felter and Eric Volmar",
+      "inst": "Management Science & Engineering / International Policy, Stanford University",
+      "repo": "stanfordaimes",
+      "reg": "US",
+      "th": "Research Methods",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2024,
+      "s": "In MS&E 296 / INTLPOL 340, the final project requires students to use AI for policy-document synthesis and to disclose and reflect on their AI use in a final presentation and 2,500-word policy memo delivered to real-world sponsors."
+    },
+    {
+      "t": "Equity and Governance for Artificial Intelligence",
+      "u": "https://ctl.stanford.edu/opportunities/equity-and-governance-artificial-intelligence-0",
+      "by": "Cynthia Bailey",
+      "inst": "Computer Science, Stanford University",
+      "repo": "stanfordaimes",
+      "reg": "US",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Computer Science"
+      ],
+      "yr": 2025,
+      "s": "In CS 121, a group project has students red-team and evaluate AI models using methods drawn from real AI-governance policy proposals, as if advising a congressional staffer, then present their findings."
+    },
+    {
+      "t": "Use of Synthetic Personas in Communication Research",
+      "u": "https://ctl.stanford.edu/opportunities/use-synthetic-personas-communication-research",
+      "by": "Byron Reeves",
+      "inst": "Communication, Stanford University",
+      "repo": "stanfordaimes",
+      "reg": "US",
+      "th": "Research Methods",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2025,
+      "s": "In a graduate seminar (COMM 372A), students run experiments with LLM-generated synthetic personas during seminar sessions to evaluate their validity as a substitute research method."
+    },
+    {
+      "t": "Accelerating Project Development in EECS 485 with Maizey",
+      "u": "https://genai.umich.edu/use-cases/228",
+      "by": "Andrew DeOrio",
+      "inst": "Computer Science and Engineering, University of Michigan",
+      "repo": "michigan",
+      "reg": "US",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Computer Science"
+      ],
+      "yr": 2024,
+      "s": "Built a custom Maizey (U-M's RAG chatbot) assistant scoped to one course project; 40.1% of students said it saved time versus office hours or forums, 30.5% said it helped them code faster, and it scored 100% accuracy on debugging queries and over 90% on spec/conceptual queries."
+    },
+    {
+      "t": "Teaching U-M GPT and AI to Prepare Students for the New Era",
+      "u": "https://genai.umich.edu/use-cases/227",
+      "by": "David Jurgens",
+      "inst": "School of Information / CSE, University of Michigan",
+      "repo": "michigan",
+      "reg": "US",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Computer Science"
+      ],
+      "yr": 2024,
+      "s": "A dedicated course, \"How to Use AI Effectively,\" taught students to use generative AI as a critique, idea-generation and feedback tool rather than a replacement, reporting effects on how students approached coursework such as essay feedback and budgeting."
+    },
+    {
+      "t": "Integrating U-M GPT for Enhanced Student Presentations in French Language Courses",
+      "u": "https://genai.umich.edu/use-cases/189",
+      "by": "Sabine Gabaron",
+      "inst": "LSA Romance Languages, University of Michigan",
+      "repo": "michigan",
+      "reg": "US",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Languages & Linguistics"
+      ],
+      "yr": 2024,
+      "s": "In French 280 and 232, students used U-M GPT as a pre-presentation research and organising tool; the instructor collected survey data on student attitudes, including concerns about accuracy, ethics and over-reliance."
+    },
+    {
+      "t": "Utilizing Maizey to Enhance Exam Preparation in SQL and Databases Course",
+      "u": "https://genai.umich.edu/use-cases/187",
+      "by": "Michael Hess",
+      "inst": "School of Information, University of Michigan",
+      "repo": "michigan",
+      "reg": "US",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Computer Science"
+      ],
+      "yr": 2024,
+      "s": "Built a Maizey bot for SI 564 that answers common exam-prep questions around the clock, freeing office hours for harder questions."
+    },
+    {
+      "t": "Enhancing Coding Proficiency with Code Tailor",
+      "u": "https://genai.umich.edu/use-cases/186",
+      "by": "Barbara Ericson",
+      "inst": "School of Information / Engineering, University of Michigan",
+      "repo": "michigan",
+      "reg": "US",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Computer Science"
+      ],
+      "yr": 2024,
+      "s": "Built \"Code Tailor,\" a GPT-based system that iteratively refines feedback and prompts on students' incorrect code and generates personalised mixed-up-code puzzles after repeated failures."
+    },
+    {
+      "t": "Enhancing Grading Quality with GraderGPT in Large Courses",
+      "u": "https://genai.umich.edu/use-cases/183",
+      "by": "Peter Bodary",
+      "inst": "School of Kinesiology, University of Michigan",
+      "repo": "michigan",
+      "reg": "US",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2024,
+      "s": "Built GraderGPT using real Canvas submissions, rubrics and grader notes to auto-score writing assignments as a check against human grader variance, piloted in two courses with preliminary positive feedback."
+    },
+    {
+      "t": "Virtual Mock Patient in Doctorate of Physical Therapy Program at U-M Flint",
+      "u": "https://genai.umich.edu/use-cases/359",
+      "by": "UM-Flint Doctor of Physical Therapy Program & UM-Ann Arbor Kinesiology",
+      "inst": "University of Michigan-Flint",
+      "repo": "michigan",
+      "reg": "US",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2024,
+      "s": "An AI-simulated patient was integrated into the curriculum so first-year Doctor of Physical Therapy students can repeatedly practise communication skills without relying solely on standardized-patient actors."
+    },
+    {
+      "t": "Doctoring Abdominal Case",
+      "u": "https://genai.umich.edu/use-cases/464",
+      "by": "Michigan Medical School",
+      "inst": "University of Michigan",
+      "repo": "michigan",
+      "reg": "US",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2024,
+      "s": "A virtual ER patient simulation (a nausea/vomiting case) with guardrails preventing the AI from giving diagnoses is used for history-taking and physical-exam practice."
+    },
+    {
+      "t": "Gender Informed Health Care",
+      "u": "https://genai.umich.edu/use-cases/463",
+      "by": "Michigan Medical School",
+      "inst": "University of Michigan",
+      "repo": "michigan",
+      "reg": "US",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2024,
+      "s": "A virtual-patient exercise lets students repeatedly practise gender-affirming, trauma-informed history-taking and full case presentation to build confidence."
+    },
+    {
+      "t": "SciTrunk – Navigating U-M Medical School Year 1",
+      "u": "https://genai.umich.edu/use-cases/459",
+      "by": "Michigan Medical School",
+      "inst": "University of Michigan",
+      "repo": "michigan",
+      "reg": "US",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2024,
+      "s": "About 170 first-year medical students use Maizey to query 500+ files of lecture slides and transcripts and generate practice questions that guide rather than give away their reasoning."
+    },
+    {
+      "t": "AI Literacy Instruction in First-Year Writing Courses",
+      "u": "https://blogs.cornell.edu/teachingcasestudies/gai/ai-literacy-instruction-in-first-year-writing-courses/",
+      "by": "Tracy Hamler Carrick",
+      "inst": "John S. Knight Institute for Writing, Cornell University",
+      "repo": "cornell",
+      "reg": "US",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2023,
+      "s": "In WRIT 1370/80, ran parallel \"AI-free zone\" and \"generative AI integration\" assignment tracks (brainstorming, outlining, summarizing with ChatGPT), each with required student reflections."
+    },
+    {
+      "t": "Building AI Literacy through Visualizing Innovative Textile Projects",
+      "u": "https://blogs.cornell.edu/teachingcasestudies/gai/building-ai-literacy-through-visualizing-innovative-textile-projects/",
+      "by": "Juan Hinestroza",
+      "inst": "Fiber Science & Apparel Design, Cornell University",
+      "repo": "cornell",
+      "reg": "US",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Image Generation"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2023,
+      "s": "In FSAD 4660 (19 seniors), students used Midjourney weekly to generate and refine design images, culminating in a poster recreating past semesters' physical designs using AI."
+    },
+    {
+      "t": "Color-coding Strategy to Improve Student Written Argumentation",
+      "u": "https://blogs.cornell.edu/teachingcasestudies/gai/color-coding-strategy-to-improve-student-written-argumentation/",
+      "by": "Amie Patchen and Kim Scholl",
+      "inst": "Public and Ecosystem Health, Vet College, Cornell University",
+      "repo": "cornell",
+      "reg": "US",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2023,
+      "s": "In VTPEH 6107 (50 MPH students), a color-coded claim/evidence-marking technique was used across three assignments specifically as a response to AI-written essays lacking argument structure."
+    },
+    {
+      "t": "Exploring AI Image Generation for Landscape Architecture Designs",
+      "u": "https://blogs.cornell.edu/teachingcasestudies/gai/exploring-ai-image-generation-for-landscape-architecture-designs/",
+      "by": "Jennifer Birkeland",
+      "inst": "Landscape Architecture, Cornell University",
+      "repo": "cornell",
+      "reg": "US",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Image Generation"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2024,
+      "s": "In LARCH 5060 (20 graduate students), students generated 80 AI images from varied prompts using DALL-E2 and Midjourney, critiqued the outputs for bias and limitations, then hand-built a 3D model from a chosen AI image."
+    },
+    {
+      "t": "Writing about Controversies in American Politics: Using AI to Examine Counterarguments and Definitions",
+      "u": "https://blogs.cornell.edu/teachingcasestudies/gai/writing-about-controversies-in-american-politics-using-ai-to-examine-counterarguments-and-definitions/",
+      "by": "Peter Katzenstein",
+      "inst": "Government, Cornell University",
+      "repo": "cornell",
+      "reg": "US",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2023,
+      "s": "In GOVT 2817 (73 students), students first argued a position on a political controversy independently, then prompted ChatGPT to do the same task and compared the outputs for specificity and quality."
+    },
+    {
+      "t": "Integrating Generative AI in Quantitative Courses",
+      "u": "https://ctl.gatech.edu/project/integrating-generative-ai-in-quantitative-courses/",
+      "by": "Tatiana Rudchenko",
+      "inst": "Scheller College of Business, Georgia Tech",
+      "repo": "gatech",
+      "reg": "US",
+      "th": "Discipline Teaching",
+      "tool": [
+        "ChatGPT",
+        "Custom GPT"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2025,
+      "s": "In Management Statistics (255 students), students built personalized GPT agents paired with Excel for business problems, with weekly Excel-vs-ChatGPT homework, a case-based AI mini-capstone, and a guest lecture from PwC on GenAI in practice."
+    },
+    {
+      "t": "Integrating AI Literacy into GT Writing and Communication Courses",
+      "u": "https://ctl.gatech.edu/project/integrating-ai-literacy-into-gt-writing-and-communication-courses/",
+      "by": "Andy Frazee and Dori Coblentz",
+      "inst": "Ivan Allen College, Georgia Tech",
+      "repo": "gatech",
+      "reg": "US",
+      "th": "Writing & Literacy",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2025,
+      "s": "Piloted four course redesigns and faculty workshops across 1,637 students and 22 faculty on critically engaging with ChatGPT in academic writing."
+    },
+    {
+      "t": "Integrating AI-Driven Collaborative Learning Tools in High Enrollment CS Courses",
+      "u": "https://ctl.gatech.edu/project/integrating-ai-driven-collaborative-learning-tools-in-high-enrollment-computer-science-courses/",
+      "by": "Nimisha Roy and Rodrigo Borela Valente",
+      "inst": "College of Computing, Georgia Tech",
+      "repo": "gatech",
+      "reg": "US",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Computer Science"
+      ],
+      "yr": 2025,
+      "s": "Built a GenAI-powered learning platform for CS 1301 (970 students) giving error identification, tailored feedback, and problem recommendations via deep knowledge tracing."
+    },
+    {
+      "t": "Portrait of Practice: Generative AI in Writing 201",
+      "u": "https://ctl.duke.edu/caradite/portraits/",
+      "by": "Jennifer Ahern-Dodson",
+      "inst": "Thompson Writing Program, Duke University",
+      "repo": "duke",
+      "reg": "US",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2024,
+      "s": "Added a dedicated AI unit to Writing 201 (History of Writing Studies) and hosted Duke's Vice Provost for Learning Innovation as a guest speaker; students then chose AI as the topic for their capstone Sustained Inquiry Research projects, with three student projects documented."
+    },
+    {
+      "t": "Debating Dead Philosophers with Generative AI",
+      "u": "https://tech.asu.edu/features/asu-students-debate-famous-philosophers-using-generative-ai",
+      "by": "David McElhoes",
+      "inst": "School for Historical, Philosophical and Religious Studies, Arizona State University",
+      "repo": "asu",
+      "reg": "US",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2024,
+      "s": "In Introduction to Philosophy of Science, students role-play a philosopher (e.g. Karl Popper) and use ChatGPT to debate an AI-generated rival (e.g. Rudolf Carnap) across three assignments; scores improved from the first to second assignment, engagement was higher (voluntary repeat use), and final-exam performance improved."
+    },
+    {
+      "t": "'Charlie' AI Essay Feedback Tool",
+      "u": "https://www.purdue.edu/provost/innovation-hub/innovation-hub-announces-first-ai-innovation-fellow-lindsay-hamm",
+      "by": "Lindsay Hamm",
+      "inst": "Sociology, Purdue University",
+      "repo": "purdue",
+      "reg": "US",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2023,
+      "s": "A custom AI tool, \"Charlie,\" gives instant rubric-based feedback on drafts so students can revise before the deadline, used across her classes over roughly six years and recognized in EDUCAUSE's 2023 Horizons Report."
+    },
+    {
+      "t": "ChatLTV: AI Faculty Co-Pilot",
+      "u": "https://bussgang.medium.com/teaching-at-harvard-with-an-ai-faculty-co-pilot-c412d86de2e7",
+      "by": "Jeff Bussgang",
+      "inst": "Harvard Business School",
+      "repo": "harvard",
+      "reg": "US",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "ChatGPT",
+        "Custom GPT"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2023,
+      "s": "Built a RAG chatbot (GPT-4 + Pinecone) trained on 200 course documents (about 15M words) for the MBA \"Launching Tech Ventures\" course (about 250 students across 3 sections), embedded in Slack; 170+ students sent 3,000+ queries, about 40% rated it 4-5/5, and 99% used it privately."
+    },
+    {
+      "t": "'I Secretly Let ChatGPT Take My Final Exam'",
+      "u": "https://slate.com/technology/2023/08/chatgpt-vs-algorithms-class.html",
+      "by": "Dan Arena",
+      "inst": "Computer Science, Vanderbilt University",
+      "repo": "vanderbilt",
+      "reg": "US",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Computer Science"
+      ],
+      "yr": 2023,
+      "s": "In an Algorithms course, ran weekly in-class demos comparing ChatGPT's answers to students' on algorithm questions, then secretly submitted ChatGPT's final-exam answers under a fake name for blind grading; every student in the morning section outscored it (a C-minus, 72.5), while the afternoon section's AI score fell in the bottom third."
+    },
+    {
+      "t": "GenAI as an 'assisted format' for research rationales",
+      "u": "https://www.education.unsw.edu.au/news-events/news/ai-case-study-genai-assisted-format-generating-research-rationale",
+      "by": "Gee Chong Ling and A/Prof Jai Tree",
+      "inst": "School of Biotechnology and Biomolecular Science, UNSW",
+      "repo": "unsw",
+      "reg": "Australia",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Life Sciences"
+      ],
+      "yr": 2023,
+      "s": "In MICR2011 (Microbiology 1), students were permitted to use GenAI as an \"assisted format\" for developing lab research rationales; in Week 1 the instructors showed students an AI-generated response with fabricated references to demonstrate its limitations, and required screenshotted reference lists to verify authentic sourcing."
+    },
+    {
+      "t": "Critiquing ChatGPT output to build communication skills",
+      "u": "https://www.education.unsw.edu.au/news-events/news/ai-case-study-critiquing-output-strength-communication-skills",
+      "by": "A/Prof Jenny Richmond",
+      "inst": "School of Psychology, UNSW",
+      "repo": "unsw",
+      "reg": "Australia",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2023,
+      "s": "In PSYC2061, students used ChatGPT to draft a 500-word media release on published research, then critiqued it against a marking rubric, produced two further drafts without AI, and finished with a recorded video abstract."
+    },
+    {
+      "t": "Simulated NSC role-play to minimise GenAI reliance",
+      "u": "https://www.education.unsw.edu.au/news-events/news/ai-case-study-2",
+      "by": "A/Prof Andrea Benvenuti",
+      "inst": "Politics and International Relations, UNSW",
+      "repo": "unsw",
+      "reg": "Australia",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2023,
+      "s": "In ARTS3783, essay assessment was replaced with a foreign-policy review plus a simulated National Security Council role-play; GenAI produced \"generic, incoherent\" outputs unsuited to the live-negotiation format, reportedly increasing engagement."
+    },
+    {
+      "t": "Process-based group assessment with AI-assisted brainstorming",
+      "u": "https://www.education.unsw.edu.au/news-events/news/ai-case-study-1",
+      "by": "A/Prof Zixiu Guo and A/Prof Carmen Leong",
+      "inst": "UNSW Business School",
+      "repo": "unsw",
+      "reg": "Australia",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2023,
+      "s": "In INFS5848, the group assignment was redesigned from a final report into an iterative process with weekly check-ins; students could use ChatGPT for brainstorming project ideas but had to personalise and justify them."
+    },
+    {
+      "t": "Standardising project-assessment design with ChatGPT",
+      "u": "https://educationexpress.uts.edu.au/blog/2023/03/14/ai-in-assessments-4-case-studies/",
+      "by": "Anna Lidfors Lindqvist",
+      "inst": "School of Mechanical and Mechatronic Engineering, UTS",
+      "repo": "uts",
+      "reg": "Australia",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Engineering"
+      ],
+      "yr": 2023,
+      "s": "Used ChatGPT to standardise project-assessment design across academics in the School of Mechanical and Mechatronic Engineering."
+    },
+    {
+      "t": "Redesigning written assessments into visual-artefact assessments",
+      "u": "https://educationexpress.uts.edu.au/blog/2023/03/14/ai-in-assessments-4-case-studies/",
+      "by": "Samuel Yu",
+      "inst": "TD School, UTS",
+      "repo": "uts",
+      "reg": "Australia",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2023,
+      "s": "Tested ChatGPT against original written assessment tasks, then redesigned them into visual-artefact assessments."
+    },
+    {
+      "t": "AI-related legal and technology issues assessment",
+      "u": "https://educationexpress.uts.edu.au/blog/2023/03/14/ai-in-assessments-4-case-studies/",
+      "by": "Evana Wright",
+      "inst": "Faculty of Law, UTS",
+      "repo": "uts",
+      "reg": "Australia",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Law"
+      ],
+      "yr": 2023,
+      "s": "Built an assessment asking students to respond to new AI-related legal and technology issues."
+    },
+    {
+      "t": "Comparing ChatGPT output against expert material",
+      "u": "https://educationexpress.uts.edu.au/blog/2023/03/14/ai-in-assessments-4-case-studies/",
+      "by": "Mike Rennie",
+      "inst": "School of Sport, Exercise and Rehabilitation, UTS",
+      "repo": "uts",
+      "reg": "Australia",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2023,
+      "s": "Had students compare and contrast ChatGPT output against expert material in the field."
+    },
+    {
+      "t": "'Don't be sorry, just declare it' — GenAI disclosure appendix",
+      "u": "https://herdsa.org.au/herdsa-connect/don%E2%80%99t-be-sorry-just-declare-it-safeguarding-integrity-essay",
+      "by": "A/Prof Benito Cao",
+      "inst": "Politics/Social Science, University of Adelaide",
+      "repo": "adelaide",
+      "reg": "Australia",
+      "th": "Institutional Policy",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2025,
+      "s": "Ran a disclosure-based system requiring a mandatory \"GenAI appendix\" in essays across two consecutive course offerings (214 combined students), combined with evidence retention and partial in-person assessment; reports students \"responded well.\""
+    },
+    {
+      "t": "'Virtual Peer' AI chatbot pilot",
+      "u": "https://news.microsoft.com/source/asia/2025/03/24/macquarie-university-students-exam-scores-up-by-nearly-10-per-cent-thanks-to-new-ai-powered-chatbot/",
+      "by": "Patrick Nalepka and Phil Laufenberg",
+      "inst": "School of Psychological Sciences, Macquarie University",
+      "repo": "macquarie",
+      "reg": "Australia",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2025,
+      "s": "A RAG-based chatbot built on Azure OpenAI/Copilot Studio was piloted in a second-year psychology unit with 1,400 students; students using it scored 9.45% higher on average, sent 20,800+ messages (80% after-hours), with an NPS of 92."
+    },
+    {
+      "t": "NotebookLM + RISE framework for responsible AI critique",
+      "u": "https://teachwell.auckland.ac.nz/sharing-practice/case-studies-in-teaching/teaching-tips/responsible-ai-critical-thinking-in-business-education/",
+      "by": "Katherine Jensen",
+      "inst": "Faculty of Business and Economics, University of Auckland",
+      "repo": "auckland",
+      "reg": "Other",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "NotebookLM"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2026,
+      "s": "In BUS202 (1,000+ students per semester), loaded NotebookLM with deliberately contradictory sources on AI-driven brand personas and had students run structured RISE prompts, iteratively critiquing and refining the AI's output, moving students from passive acceptance to evidence-based critique."
+    },
+    {
+      "t": "Interactive oral assessment vs. AI-suspected lab reports",
+      "u": "https://teachwell.auckland.ac.nz/sharing-practice/case-studies-in-teaching/teaching-tips/interactive-oral-assessment-lab-reports/",
+      "by": "Dr Thomas Loho",
+      "inst": "Chemical and Materials Engineering, University of Auckland",
+      "repo": "auckland",
+      "reg": "Other",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "NotebookLM"
+      ],
+      "disc": [
+        "Engineering"
+      ],
+      "yr": 2026,
+      "s": "After suspecting AI-written lab reports in CHEMMAT 206, replaced one written report with a 10-minute oral interview where students critique an AI-generated paragraph built from a NotebookLM trained on the lab procedure, with grades and feedback recorded for the following semester."
+    },
+    {
+      "t": "Cogniti AI agent as Socratic tutor for large first-year biology cohort",
+      "u": "https://teachwell.auckland.ac.nz/sharing-practice/case-studies-in-teaching/teaching-tips/cogniti-ai-agent-large-cohorts/",
+      "by": "Dr Suzanne Reid",
+      "inst": "School of Biological Sciences, University of Auckland",
+      "repo": "auckland",
+      "reg": "Other",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Life Sciences"
+      ],
+      "yr": 2026,
+      "s": "Embedded a steered Cogniti AI agent, configured as a first-year cell biology lecturer persona, into Canvas for 24/7 Socratic support in BIOSCI 107 (1,600+ students), reporting over 60% engagement — double the participation of prior discussion boards — and real-time insight into student struggles via anonymised logs."
+    },
+    {
+      "t": "Cogniti pilot across first-year courses",
+      "u": "https://teachwell.auckland.ac.nz/sharing-practice/case-studies-in-teaching/teaching-insights/cogniti-gen-ai-student-experiences-recommendations/",
+      "by": "Dr Marion Blumenstein, Dr Andrea Kolb, Dr Bettina Schwenger and Prof Jason Stephens",
+      "inst": "Science, Engineering & Design, Arts & Education, University of Auckland",
+      "repo": "auckland",
+      "reg": "Other",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Institutional / Cross-Disciplinary"
+      ],
+      "yr": 2025,
+      "s": "A cross-faculty team piloted Cogniti (built by the University of Sydney) as course-admin and Socratic-tutor agents in 3 courses in Semester 1 2025, expanding to 18 courses across all faculties in Semester 2, running SRL surveys (400-530 responses per semester) and focus groups that found it supported deeper learning and task completion for many students."
+    },
+    {
+      "t": "GenAI use case in Data Structures / Numerical Optimization",
+      "u": "https://ctl.ok.ubc.ca/2024/11/27/genai-for-teaching-learning-a-use-case-from-computer-science/",
+      "by": "Prof. Yves Lucet",
+      "inst": "Computer Science, UBC Okanagan",
+      "repo": "ubc",
+      "reg": "Canada",
+      "th": "Discipline Teaching",
+      "tool": [
+        "ChatGPT",
+        "Copilot",
+        "Gemini",
+        "Other"
+      ],
+      "disc": [
+        "Computer Science"
+      ],
+      "yr": 2024,
+      "s": "In COSC 222 and COSC 406, had AI tools generate solutions for students to critique alongside peer solutions, used AI to double-check instructor-written solutions, and generated MCQ variants; found it useful for efficiency but flagged AI math errors requiring verification."
+    },
+    {
+      "t": "Generative AI chatbots for large biology courses",
+      "u": "https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/yip-genai-chatbots/",
+      "by": "Kenneth Yip",
+      "inst": "Cell & Systems Biology, University of Toronto",
+      "repo": "toronto",
+      "reg": "Canada",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Life Sciences"
+      ],
+      "yr": 2025,
+      "s": "Built custom chatbots \"ChatBIO130\"/\"ChatBIO230\" for BIO130H1/BIO230H1, giving 24/7 practice Q&A integrated with lecture and lab content, reporting reduced student anxiety and heavy pre-exam use."
+    },
+    {
+      "t": "Copilot-generated clinical case studies",
+      "u": "https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/wood-copilot-clinical-cases/",
+      "by": "Emily Wood",
+      "inst": "Speech-Language Pathology, University of Toronto",
+      "repo": "toronto",
+      "reg": "Canada",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Copilot"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2025,
+      "s": "Used a 7-step prompting process with Microsoft Copilot to build bilingual child-language clinical cases for formative and summative use in SLP courses, with strong positive student feedback."
+    },
+    {
+      "t": "LLMs for real-world global affairs tasks",
+      "u": "https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/goldfarb-global-affairs/",
+      "by": "Danielle Goldfarb",
+      "inst": "Munk School of Global Affairs, University of Toronto",
+      "repo": "toronto",
+      "reg": "Canada",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT",
+        "Gemini",
+        "Other"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2025,
+      "s": "In \"Real Time Data and AI for Global Affairs Intelligence,\" students used ChatGPT, Gemini and DeepSeek on self-chosen policy problems, compared model outputs, and ran adversarial tests on them."
+    },
+    {
+      "t": "'Beat the Machines' recruitment assignment",
+      "u": "https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/seward-beat-the-machines/",
+      "by": "Bradley Seward",
+      "inst": "Industrial Relations & Human Resources, University of Toronto",
+      "repo": "toronto",
+      "reg": "Canada",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2026,
+      "s": "In IRE348, students used AI for job and organisational analysis, then had to critique and out-write AI-drafted job advertisements."
+    },
+    {
+      "t": "AI in financial data analysis essays",
+      "u": "https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/mackay-financial-data-analysis/",
+      "by": "Alexandra MacKay",
+      "inst": "Rotman School of Management, University of Toronto",
+      "repo": "toronto",
+      "reg": "Canada",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2025,
+      "s": "In RSM230, ran two contrasting essay conditions — AI-drafted-then-revised versus self-written-then-AI-edited — on news and equity-price analysis."
+    },
+    {
+      "t": "Literature review with Research Rabbit + ChatGPT",
+      "u": "https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/khazra-literature-review/",
+      "by": "Nazanin Khazra",
+      "inst": "Economics, University of Toronto",
+      "repo": "toronto",
+      "reg": "Canada",
+      "th": "Research Methods",
+      "tool": [
+        "ChatGPT",
+        "ResearchRabbit"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2023,
+      "s": "In ECO225, students built visual citation maps in Research Rabbit and AI-assisted summary tables in ChatGPT, with required source verification."
+    },
+    {
+      "t": "Critical comparison of student vs. Copilot literature reviews",
+      "u": "https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/manolson-literature-review-analysis/",
+      "by": "Morris F. Manolson",
+      "inst": "Faculty of Dentistry, University of Toronto",
+      "repo": "toronto",
+      "reg": "Canada",
+      "th": "Research Methods",
+      "tool": [
+        "Copilot"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2024,
+      "s": "In HMB474H1F, a three-part assignment compared a student-written literature review to Copilot-generated reviews, with a guest session from a Google executive on effective AI use."
+    },
+    {
+      "t": "AI-assisted physiology lab analysis",
+      "u": "https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/bentley-laboratory-assignment/",
+      "by": "Robert Bentley",
+      "inst": "Kinesiology & Physical Education, University of Toronto",
+      "repo": "toronto",
+      "reg": "Canada",
+      "th": "Discipline Teaching",
+      "tool": [
+        "ChatGPT",
+        "Copilot"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2024,
+      "s": "In KPE360, students collected real physiological data, then used ChatGPT and Copilot to generate an analysis response they had to critically evaluate against the published literature."
+    },
+    {
+      "t": "Graphic Novel",
+      "u": "https://www.curtin.edu.au/assessment2030/assessment-design-studio/graphic-novel/",
+      "by": "Dr Renee Ralph",
+      "inst": "School of Management & Marketing, Curtin University",
+      "repo": "curtin",
+      "reg": "Australia",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Image Generation"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2025,
+      "s": "Postgraduate HR Development students select and use a GenAI tool of their choice to generate imagery for a training manual on HR themes, graded on storytelling and content rather than image quality."
+    },
+    {
+      "t": "Theoretical Audit",
+      "u": "https://www.curtin.edu.au/assessment2030/assessment-design-studio/theoretical-audit/",
+      "by": "Dr Michael Borck",
+      "inst": "School of Management & Marketing, Curtin University",
+      "repo": "curtin",
+      "reg": "Australia",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2025,
+      "s": "Business Information Systems students conduct a simulated security audit of a fictional AI company, interacting with AI chatbot \"employees\" and using an LLM of their choice as a \"junior intern\" whose outputs they must validate."
+    },
+    {
+      "t": "Avatar Simulation with AI Feedback",
+      "u": "https://www.curtin.edu.au/assessment2030/assessment-design-studio/avatar-simulation-with-ai-feedback/",
+      "by": "Kate Gray",
+      "inst": "School of Allied Health (Physiotherapy), Curtin University",
+      "repo": "curtin",
+      "reg": "Australia",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2025,
+      "s": "Physiotherapy students practise clinical communication with \"Michael,\" an AI-powered patient avatar giving immediate conversational feedback, combined with staff and peer feedback."
+    },
+    {
+      "t": "Critical AI Comparison Report",
+      "u": "https://www.curtin.edu.au/assessment2030/assessment-design-studio/critical-ai-comparison-report/",
+      "by": "Dr Jose Loureiro",
+      "inst": "Faculty of Business & Law, Curtin University",
+      "repo": "curtin",
+      "reg": "Australia",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2025,
+      "s": "In ECOM1000, students first analyse investment portfolios manually using Modern Portfolio Theory and the Sharpe Ratio, then re-run the same analysis with AI tools, then critically compare the two, documenting prompts and outputs throughout."
+    },
+    {
+      "t": "Integrating Generative AI into Live Case Studies for Experiential Learning in Operations Management",
+      "u": "https://www.mdpi.com/2227-7102/16/1/15",
+      "by": "David Ernesto Salinas-Navarro, Eliseo Vilalta-Perdomo, Jaime Alberto Palma-Mendoza and Martina Carlos-Arroyo",
+      "inst": "Aston Business School, Aston University (course institution)",
+      "repo": "mdpieducsci",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2026,
+      "s": "A UK postgraduate operations management module ran a live case study with a real local ethnic restaurant, using GenAI as a scaffolding \"cognitive partner\" through Kolb's experiential learning cycle; thematic analysis of module outputs and feedback surveys showed engagement and critical decision-making, though outcomes varied with students' GenAI literacy."
+    },
+    {
+      "t": "Just ask Mattie: Supporting first-year business maths students with a custom-built AI tutor",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/2650",
+      "by": "Malgorzata Korolkiewicz, Wolfgang Mayer and Nicholas Fewster-Young",
+      "inst": "University of South Australia",
+      "repo": "ascilite2025",
+      "reg": "Australia",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2025,
+      "s": "Built and deployed \"Mattie.AI,\" a RAG-based Socratic-style chatbot tutor, for a first-year business mathematics course aimed at students reluctant to ask for help publicly; evaluated via interaction logs and student surveys, finding it a promising supplement that needs more scaffolding for effective use."
+    },
+    {
+      "t": "Building capacity for AI-powered learning: A collaborative trial of conversational agents in higher education",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/2647",
+      "by": "Antony Tibbs",
+      "inst": "Edith Cowan University",
+      "repo": "ascilite2025",
+      "reg": "Australia",
+      "th": "Staff Development",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Institutional / Cross-Disciplinary"
+      ],
+      "yr": 2025,
+      "s": "26 university staff built and tested conversational learning agents on the Cogniti platform over six months in 2024, producing 20 agents across disciplines, 9 of which were deployed into actual teaching, with unanimous usability satisfaction and 95% willingness to recommend."
+    },
+    {
+      "t": "The AI prescription: Educating future doctors for a tech-driven clinic",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/2700",
+      "by": "Sarah-Jane Gregory and Suzzanne Burgess",
+      "inst": "Central Queensland University",
+      "repo": "ascilite2025",
+      "reg": "Australia",
+      "th": "Discipline Teaching",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2025,
+      "s": "Ran a half-day residential-school AI activity for pre-medical students, combining hands-on AI exploration, scenario-based learning and design-thinking ideation, with follow-up focus groups showing improved understanding of AI's capabilities and limits."
+    },
+    {
+      "t": "Smart scaffolds, smarter learners? Analysing the cognitive outcomes of AR and chatbot feedback",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/2676",
+      "by": "Jerry Chih-Yuan Sun, Even Yi-Wen Liu and Jocelyn Ting-Yu Shen",
+      "inst": "National Yang Ming Chiao Tung University",
+      "repo": "ascilite2025",
+      "reg": "Other",
+      "th": "Research Methods",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Physical Sciences"
+      ],
+      "yr": 2025,
+      "s": "A randomised experiment with 118 university students in a scientific-simulation inquiry task compared traditional, chatbot-only, AR-only, and combined chatbot+AR feedback, finding chatbot scaffolding significantly increased cognitive and intrinsic load, and combined chatbot-AR increased extraneous load compared to AR alone."
+    },
+    {
+      "t": "Enhancing self-regulated learning with large language models: A pilot study on the feasibility of local deployment",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/2654",
+      "by": "Xiaoyu Zhuang and Aneesha Bakharia",
+      "inst": "University of Queensland",
+      "repo": "ascilite2025",
+      "reg": "Australia",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Education"
+      ],
+      "yr": 2025,
+      "s": "Co-designed a self-regulated-learning chatbot with 61 students, then ran a two-week field trial with 7 participants comparing a locally-deployed (offline/private) LLM against a cloud version; the chatbot supported goal-setting and reflection, with users trusting the local version more despite slower responses."
+    },
+    {
+      "t": "Design and evaluation of an LLM literature review assistant",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/2703",
+      "by": "Zichen Xia and Aneesha Bakharia",
+      "inst": "University of Queensland",
+      "repo": "ascilite2025",
+      "reg": "Australia",
+      "th": "Research Methods",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Education"
+      ],
+      "yr": 2025,
+      "s": "Built a RAG-based web tool giving honours and postgraduate students rubric-aligned LLM feedback on draft literature reviews; a 10-participant user study showed measurable writing improvement and positive feedback on citation and structure guidance."
+    },
+    {
+      "t": "'Alex' — GenAI use in a HASS subject",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/1234",
+      "by": "Josephine Hook, Andrew Junor, Cathy Sell and Carmen Sapsed",
+      "inst": "Faculty of Arts, Monash University",
+      "repo": "ascilite2024",
+      "reg": "Australia",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2024,
+      "s": "In one HASS subject, a class activity had students prompt a GenAI tool together, then gave explicit permission to use AI on a final independent research project; none of 80 students chose to use it, and the case concluded GenAI was a \"distraction\" for that discipline."
+    },
+    {
+      "t": "'Brodie' — optional AI-assisted essay task in cultural studies",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/1234",
+      "by": "Josephine Hook, Andrew Junor, Cathy Sell and Carmen Sapsed",
+      "inst": "Faculty of Arts, Monash University",
+      "repo": "ascilite2024",
+      "reg": "Australia",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2024,
+      "s": "In a cultural studies subject, an optional alternative essay task let students ask GenAI to draft an essay, then critique and edit it with a tracked-changes and prompt-transcript submission; 20% of students opted in, reporting higher satisfaction and, on average, higher-quality work than the conventional-essay group."
+    },
+    {
+      "t": "'Cal' — ATLAS policy-simulation platform",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/1234",
+      "by": "Josephine Hook, Andrew Junor, Cathy Sell and Carmen Sapsed",
+      "inst": "Faculty of Arts, Monash University",
+      "repo": "ascilite2024",
+      "reg": "Australia",
+      "th": "Custom GPTs & Chatbots",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2024,
+      "s": "A cross-faculty team built \"ATLAS,\" a custom LLM-based platform simulating a live social-media environment, for a role-play during a public-health-crisis policy-simulation unit; students who engaged received higher grades on average and reported high engagement."
+    },
+    {
+      "t": "'Dana' — AI recruiter feedback on job applications",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/1234",
+      "by": "Josephine Hook, Andrew Junor, Cathy Sell and Carmen Sapsed",
+      "inst": "Faculty of Arts, Monash University",
+      "repo": "ascilite2024",
+      "reg": "Australia",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "Custom GPT"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2024,
+      "s": "Used the same ATLAS platform to build an AI \"recruiter\" giving students in a creative-discipline career-development unit structured feedback on job and grant applications against real industry standards, freeing the human lecturer to give higher-level specialist feedback."
+    },
+    {
+      "t": "Challenges and opportunities in using ChatGPT as a team member to promote code review education",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/1152",
+      "by": "Paula de Barba and Chakkrit (Kla) Tantithamthavorn",
+      "inst": "Monash University",
+      "repo": "ascilite2024",
+      "reg": "Australia",
+      "th": "Discipline Teaching",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Computer Science"
+      ],
+      "yr": 2024,
+      "s": "Novice and experienced programmers used ChatGPT as a \"team member\" during code-review exercises; novices reported deeper understanding and experienced students engaged in iterative prompt optimisation, though researchers found mixed results, with some concerns for students lacking foundational knowledge."
+    },
+    {
+      "t": "Exploring the integration of Generative AI in assessment in a tertiary context",
+      "u": "https://open-publishing.org/publications/index.php/APUB/article/view/1537",
+      "by": "Eleni Petraki",
+      "inst": "University of Canberra",
+      "repo": "ascilite2024",
+      "reg": "Australia",
+      "th": "Assessment & Feedback",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Education"
+      ],
+      "yr": 2024,
+      "s": "Pre-service language-teacher postgraduate students used GenAI tools to plan and generate ideas for an academic essay assignment; thematic analysis of student reflections and surveys identified benefits for idea generation alongside risks from inaccuracy and bias."
     }
   ],
   "REPOS": {
@@ -2938,6 +4539,180 @@
       "short": "Avoidance to Adoption",
       "url": "https://www.dropbox.com/scl/fi/8wg04y33nii6qfunklt6j/Frontiers-special-topic-From-Avoidance-to-Adoption-accepted.pdf?rlkey=0qr2f4c9mted17dv8jmmh53ni&dl=0",
       "blurb": "Four discipline-specific case studies (Engineering, Linguistics, NLP, Literature) from a paper accepted to a Frontiers special issue on integrating AI in higher education. Not yet DOI-assigned — linked to the author's accepted manuscript pending formal publication."
+    },
+    "imperial": {
+      "label": "Imperial College London — AI Education Hub / Teaching Toolkit Case Studies",
+      "short": "Imperial",
+      "url": "https://www.imperial.ac.uk/about/education/resources/ai-education-hub/case-studies/",
+      "blurb": "Case studies from Imperial's AI Education Hub and Educational Development teaching toolkit."
+    },
+    "kcl": {
+      "label": "King's College London — Generative AI Case Studies",
+      "short": "King's College London",
+      "url": "https://www.kcl.ac.uk/research/generative-ai-in-essay-writing-and-marking",
+      "blurb": "Individual case studies and Times Higher Education Campus pieces from King's College London staff on generative AI in teaching and assessment."
+    },
+    "qubdl": {
+      "label": "Queen's University Belfast — Digital Learning: AI in Teaching Case Studies",
+      "short": "QUB Digital Learning",
+      "url": "https://blogs.qub.ac.uk/digitallearning/ai/ai-in-education/teaching-and-learning/case-studies",
+      "blurb": "Case studies from QUB's Digital Learning blog on generative AI in teaching, plus a peer-reviewed data-science course paper by QUB researchers. Distinct from the Frontiers 'From Avoidance to Adoption' collection, which draws on different QUB and Ulster modules."
+    },
+    "bristol": {
+      "label": "University of Bristol — BILT Case Studies",
+      "short": "Bristol (BILT)",
+      "url": "https://bilt.online/case-study-unit-specific-ai-chatbots-reducing-the-search-burden-for-students/",
+      "blurb": "Case studies from the Bristol Institute for Learning and Teaching (BILT)."
+    },
+    "uwe": {
+      "label": "University of the West of England (UWE Bristol) — Digital Learning Case Studies",
+      "short": "UWE Bristol",
+      "url": "https://digitallearning.uwe.ac.uk/teaching-with-ai-in-higher-education-some-of-my-insights-from-practice-with-blackboard-ultra/",
+      "blurb": "Practitioner case studies from UWE Bristol's Digital Learning team."
+    },
+    "royalholloway": {
+      "label": "Royal Holloway, University of London — THE Campus Case Study",
+      "short": "Royal Holloway",
+      "url": "https://www.timeshighereducation.com/campus/demystify-ai-your-students-use-performance",
+      "blurb": "A Times Higher Education Campus case study from Royal Holloway's School of Performing and Digital Arts."
+    },
+    "ucbirmingham": {
+      "label": "University College Birmingham — THE Campus Case Study",
+      "short": "Univ. College Birmingham",
+      "url": "https://www.timeshighereducation.com/campus/will-ai-revolutionise-marking",
+      "blurb": "A Times Higher Education Campus case study from University College Birmingham."
+    },
+    "newcastle": {
+      "label": "Newcastle University Business School — Case Studies",
+      "short": "Newcastle",
+      "url": "https://microsites.ncl.ac.uk/casestudies/2025/09/01/the-lov-ai-co-creation-approach-creating-business-teaching-cases-with-deep-research-ai/",
+      "blurb": "Case studies from Newcastle University Business School's teaching-practice microsite."
+    },
+    "ucl": {
+      "label": "University College London — Generative AI Case Studies",
+      "short": "UCL",
+      "url": "https://www.ucl.ac.uk/teaching-learning/case-studies/?f.Subjects%7CUclSubject=Generative+Artificial+Intelligence",
+      "blurb": "Individual case studies from UCL's teaching & learning case-study hub, plus one from the UCL Education Conference blog; the collection's own filtered list renders client-side, so entries here were found via direct links to the underlying pages."
+    },
+    "stanfordaimes": {
+      "label": "Stanford University — AIMES Library of Teaching Examples",
+      "short": "Stanford (AIMES)",
+      "url": "https://ctl.stanford.edu/aimes",
+      "blurb": "Faculty-submitted teaching artifacts from real Stanford courses using generative AI, via the Center for Teaching and Learning's AIMES library — distinct from the Stanford Accelerator for Learning repository used only as a UI model for this catalog."
+    },
+    "michigan": {
+      "label": "University of Michigan — GenAI Use Cases",
+      "short": "Michigan",
+      "url": "https://genai.umich.edu/use-cases",
+      "blurb": "Teaching-specific entries from U-M's public generative AI use-case collection (admin/clinical-operations-only entries excluded)."
+    },
+    "cornell": {
+      "label": "Cornell University — Center for Teaching Innovation Case Study Library",
+      "short": "Cornell",
+      "url": "https://teaching.cornell.edu/teaching-spotlight/teaching-innovation-case-study-library",
+      "blurb": "Faculty-documented case studies of real classroom trials from Cornell's Center for Teaching Innovation."
+    },
+    "gatech": {
+      "label": "Georgia Tech — Center for Teaching and Learning Project Showcase",
+      "short": "Georgia Tech",
+      "url": "https://ctl.gatech.edu/project/integrating-generative-ai-in-quantitative-courses/",
+      "blurb": "Faculty projects from Georgia Tech's Center for Teaching and Learning showcase."
+    },
+    "duke": {
+      "label": "Duke University — Center for Teaching and Learning Portraits of Practice",
+      "short": "Duke",
+      "url": "https://ctl.duke.edu/caradite/portraits/",
+      "blurb": "Faculty portraits of practice from Duke's Center for Teaching and Learning."
+    },
+    "asu": {
+      "label": "Arizona State University — Case Study",
+      "short": "Arizona State",
+      "url": "https://tech.asu.edu/features/asu-students-debate-famous-philosophers-using-generative-ai",
+      "blurb": "A case study from ASU's technology news coverage of classroom AI use."
+    },
+    "purdue": {
+      "label": "Purdue University — Innovation Hub",
+      "short": "Purdue",
+      "url": "https://www.purdue.edu/provost/innovation-hub/innovation-hub-announces-first-ai-innovation-fellow-lindsay-hamm",
+      "blurb": "A case study from Purdue's Provost Innovation Hub."
+    },
+    "harvard": {
+      "label": "Harvard Business School — Faculty Case Study",
+      "short": "Harvard",
+      "url": "https://bussgang.medium.com/teaching-at-harvard-with-an-ai-faculty-co-pilot-c412d86de2e7",
+      "blurb": "A faculty-written case study from Harvard Business School."
+    },
+    "vanderbilt": {
+      "label": "Vanderbilt University — Case Study",
+      "short": "Vanderbilt",
+      "url": "https://slate.com/technology/2023/08/chatgpt-vs-algorithms-class.html",
+      "blurb": "A widely-reported classroom experiment from a Vanderbilt computer science course."
+    },
+    "unsw": {
+      "label": "UNSW Sydney — AI Case Study News Series",
+      "short": "UNSW",
+      "url": "https://www.education.unsw.edu.au/news-events/news/ai-case-study-genai-assisted-format-generating-research-rationale",
+      "blurb": "A news series of named, concrete case studies from UNSW's Portfolio of Education."
+    },
+    "uts": {
+      "label": "University of Technology Sydney — AI in Assessments Case Studies",
+      "short": "UTS",
+      "url": "https://educationexpress.uts.edu.au/blog/2023/03/14/ai-in-assessments-4-case-studies/",
+      "blurb": "Four named academics' case studies from a single UTS Education Express blog post."
+    },
+    "adelaide": {
+      "label": "University of Adelaide — HERDSA Connect Case Study",
+      "short": "Adelaide",
+      "url": "https://herdsa.org.au/herdsa-connect/don%E2%80%99t-be-sorry-just-declare-it-safeguarding-integrity-essay",
+      "blurb": "A practitioner case study published via HERDSA Connect."
+    },
+    "macquarie": {
+      "label": "Macquarie University — Virtual Peer AI Chatbot Pilot",
+      "short": "Macquarie",
+      "url": "https://news.microsoft.com/source/asia/2025/03/24/macquarie-university-students-exam-scores-up-by-nearly-10-per-cent-thanks-to-new-ai-powered-chatbot/",
+      "blurb": "A Microsoft-covered pilot of an AI chatbot in a Macquarie University psychology unit."
+    },
+    "auckland": {
+      "label": "University of Auckland — TeachWell Case Studies in Teaching",
+      "short": "Auckland",
+      "url": "https://teachwell.auckland.ac.nz/sharing-practice/case-studies-in-teaching/",
+      "blurb": "Case studies from the University of Auckland's TeachWell Digital practice-sharing hub."
+    },
+    "ubc": {
+      "label": "University of British Columbia Okanagan — Centre for Teaching and Learning",
+      "short": "UBC Okanagan",
+      "url": "https://ctl.ok.ubc.ca/2024/11/27/genai-for-teaching-learning-a-use-case-from-computer-science/",
+      "blurb": "A practitioner case study from UBC Okanagan's Centre for Teaching and Learning."
+    },
+    "toronto": {
+      "label": "University of Toronto — Teaching with Generative AI Example Library",
+      "short": "Univ. of Toronto",
+      "url": "https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/",
+      "blurb": "Named instructor examples from U of T's Centre for Teaching Support & Innovation."
+    },
+    "curtin": {
+      "label": "Curtin University — Assessment Design Studio Case Studies",
+      "short": "Curtin",
+      "url": "https://www.curtin.edu.au/assessment2030/assessment-design-studio/",
+      "blurb": "Individual case studies from Curtin's Assessment 2030 Design Studio; most of the studio's 26 case studies don't involve generative AI — only the ones that do are catalogued here."
+    },
+    "mdpieducsci": {
+      "label": "MDPI Education Sciences — Live Case Study Paper",
+      "short": "MDPI Educ. Sci.",
+      "url": "https://www.mdpi.com/2227-7102/16/1/15",
+      "blurb": "A peer-reviewed journal paper describing a live-case-study teaching trial."
+    },
+    "ascilite2025": {
+      "label": "ASCILITE 2025 Conference Proceedings",
+      "short": "ASCILITE 2025",
+      "url": "https://open-publishing.org/publications/index.php/APUB/article/view/2650",
+      "blurb": "Peer-reviewed conference papers describing real classroom or institutional trials of generative AI, screened the same way as the AdaptEdu 2024 proceedings — proposals and work-in-progress reports excluded."
+    },
+    "ascilite2024": {
+      "label": "ASCILITE 2024 Conference Proceedings",
+      "short": "ASCILITE 2024",
+      "url": "https://open-publishing.org/publications/index.php/APUB/article/view/1234",
+      "blurb": "Peer-reviewed conference papers describing real classroom trials, including four individually reported case studies from one Arts Faculty paper — screened the same way as the AdaptEdu 2024 proceedings."
     }
   }
 }
