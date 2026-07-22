@@ -297,7 +297,7 @@
   .modal-close:hover { border-color: var(--accent); color: var(--accent); }
   .modal-sub { font-size: 0.85rem; color: var(--ink-faint); margin: -0.4rem 0 1rem; }
 
-  .card-footer { margin-top: 0.7rem; }
+  .card-footer { margin-top: 0.7rem; text-align: right; }
   .edit-request-btn {
     font-family: var(--face-body);
     font-weight: 700;
@@ -653,7 +653,6 @@
   .summary {
     font-size: 0.9rem;
     color: var(--ink);
-    max-width: 74ch;
     margin: 0 0 0.5rem;
   }
   .quote {
