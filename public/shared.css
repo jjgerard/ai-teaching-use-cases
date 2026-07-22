@@ -517,21 +517,10 @@
   }
 
   .specimen {
-    display: grid;
-    grid-template-columns: 3.6rem 1fr;
-    gap: 0.9rem;
     padding: 1.1rem 0;
     border-bottom: 1px solid var(--line);
   }
   .specimen:last-child { border-bottom: none; }
-  .no {
-    font-family: var(--face-body);
-    font-weight: 700;
-    font-size: 0.9rem;
-    color: var(--accent);
-    padding-top: 0.15rem;
-  }
-  .no::before { content: "No."; display: block; font-size: 0.58rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); opacity: 0.8; }
 
   .spec-title {
     font-family: var(--face-display);
@@ -585,9 +574,8 @@
   .pill.theme { background: var(--accent-soft); color: var(--accent-ink); }
   .pill.tool { background: var(--cool-soft); color: var(--cool); }
   .pill.disc { background: var(--disc-soft); color: var(--disc); }
-  .pill.year { border: 1px solid var(--line-strong); color: var(--ink-faint); background: none; margin-left: auto; }
+  .pill.year { border: 1px solid var(--line-strong); color: var(--ink-faint); background: none; }
   .pill.repo {
-    margin-left: auto;
     color: var(--ink-faint);
     background: none;
     border: 1px solid var(--line-strong);
