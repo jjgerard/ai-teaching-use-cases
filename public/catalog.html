@@ -77,7 +77,13 @@
   <main>
     <div class="results-head">
       <span class="results-count"><b id="shownCount">0</b> of <span id="totalCount">0</span> specimens shown</span>
-      <span class="sort-note">grouped by collection</span>
+      <span class="group-by-control">
+        <label class="sort-note" for="groupBySelect">Group by</label>
+        <select id="groupBySelect">
+          <option value="repo">Collection</option>
+          <option value="inst">Institution</option>
+        </select>
+      </span>
     </div>
     <div id="results"></div>
     <div class="empty-state hidden" id="emptyState">No specimens match these filters — try clearing one.</div>
@@ -213,6 +219,28 @@ function updateFacetBadges() {
   });
 }
 
+// Grouping options for the "Group by" dropdown — each defines how to derive
+// a group key from a specimen, how that key sorts (a distinct concern from
+// display, e.g. collections sort by their short label, not their object
+// key), and how to render the divider header for that group.
+const NO_INST_KEY = "(No institution listed)";
+const GROUP_OPTIONS = {
+  repo: {
+    keyFor: s => s.repo,
+    sortKey: key => (REPOS[key] ? REPOS[key].short : key).toLowerCase(),
+    renderHeader: key => {
+      const r = REPOS[key];
+      return `<h2><a href="${r.url}" target="_blank" rel="noopener">${r.label}</a></h2><p>${r.blurb}</p>`;
+    },
+  },
+  inst: {
+    keyFor: s => s.inst || NO_INST_KEY,
+    sortKey: key => (key === NO_INST_KEY ? "￿" : key.toLowerCase()),
+    renderHeader: key => `<h2>${key}</h2>`,
+  },
+};
+let groupBy = "repo";
+
 function render() {
   updateFacetBadges();
   const filtered = S.filter(matches);
@@ -222,19 +250,28 @@ function render() {
   totalCountEl.textContent = S.length;
   tallyTotalEl.textContent = S.length;
 
-  let lastRepo = null;
-  filtered.forEach(s => {
-    if (s.repo !== lastRepo) {
-      lastRepo = s.repo;
-      const r = REPOS[s.repo];
+  const group = GROUP_OPTIONS[groupBy];
+  // Stable sort: groups cluster together while each group's own internal
+  // order (the API's year-desc order) is preserved, since equal-key items
+  // keep their relative order under Array#sort.
+  const sorted = [...filtered].sort((a, b) =>
+    group.sortKey(group.keyFor(a)).localeCompare(group.sortKey(group.keyFor(b)))
+  );
+
+  let lastKey = null;
+  sorted.forEach(s => {
+    const key = group.keyFor(s);
+    if (key !== lastKey) {
+      lastKey = key;
       const div = document.createElement("div");
       div.className = "collection-divider";
-      div.innerHTML = `<h2><a href="${r.url}" target="_blank" rel="noopener">${r.label}</a></h2><p>${r.blurb}</p>`;
+      div.innerHTML = group.renderHeader(key);
       resultsEl.appendChild(div);
     }
     const idx = S.indexOf(s) + 1;
     const art = document.createElement("article");
     art.className = "specimen";
+    const instPill = s.inst ? `<span class="pill inst">${s.inst}</span>` : "";
     const toolPills = s.tool.filter(v => !SILENT_VALUES.has(v)).map(tg => `<span class="pill tool">${tg}</span>`).join("");
     const discPills = s.disc.filter(v => !SILENT_VALUES.has(v)).map(d => `<span class="pill disc">${d}</span>`).join("");
     const yearPill = SILENT_VALUES.has(String(s.yr)) ? "" : `<span class="pill year">${s.yr}</span>`;
@@ -246,6 +283,7 @@ function render() {
         ${s.q ? `<p class="quote">${s.q}</p>` : ""}
         <p class="summary">${s.s}</p>
         <div class="pillrow">
+          ${instPill}
           <span class="pill theme">${s.th}</span>
           ${toolPills}
           ${discPills}
@@ -257,6 +295,11 @@ function render() {
     resultsEl.appendChild(art);
   });
 }
+
+document.getElementById("groupBySelect").addEventListener("change", e => {
+  groupBy = e.target.value;
+  render();
+});
 
 searchEl.addEventListener("input", () => { state.q = searchEl.value.trim().toLowerCase(); render(); });
 document.getElementById("clearFilters").addEventListener("click", () => {

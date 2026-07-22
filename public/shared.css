@@ -503,6 +503,18 @@
     text-transform: uppercase;
     letter-spacing: 0.07em;
   }
+  .group-by-control { display: flex; align-items: center; gap: 0.5rem; }
+  .group-by-control select {
+    font-family: var(--face-body);
+    font-weight: 700;
+    font-size: 0.78rem;
+    color: var(--ink);
+    background: var(--paper-card);
+    border: 1.5px solid var(--line-strong);
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+  }
 
   .specimen {
     display: grid;
@@ -573,7 +585,8 @@
   .pill.theme { background: var(--accent-soft); color: var(--accent-ink); }
   .pill.tool { background: var(--cool-soft); color: var(--cool); }
   .pill.disc { background: var(--disc-soft); color: var(--disc); }
-  .pill.year { border: 1px solid var(--line-strong); color: var(--ink-faint); background: none; }
+  .pill.inst { border: 1px solid var(--line-strong); color: var(--ink-faint); background: none; }
+  .pill.year { border: 1px solid var(--line-strong); color: var(--ink-faint); background: none; margin-left: auto; }
   .pill.repo {
     margin-left: auto;
     color: var(--ink-faint);
