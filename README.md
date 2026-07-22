@@ -159,3 +159,20 @@ data/
   seed.json      — your curated entries, imported once on first boot
   community.json — approved community submissions, kept in sync by gitStore.js
 ```
+
+## About this project
+
+This catalog and its content were built by Juliana Gerard. The application code
+was written with [Claude Code](https://claude.com/claude-code) (Anthropic);
+the case study curation — sourcing, screening against the inclusion criteria,
+and writing every entry — is original human work.
+
+## License
+
+This repository is dual-licensed:
+
+- **Code** (`src/`, `public/`) — [MIT](LICENSE). Use, fork, and modify freely.
+- **Case study data** (`data/seed.json`, `data/community.json`) —
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse it anywhere,
+  including commercially, as long as you credit this project and link back to
+  the source repository.
