@@ -1,14 +1,2886 @@
 [
   {
-    "t": "UI fix test",
-    "by": "QA",
-    "inst": "",
-    "u": "https://example.com",
-    "reg": "",
-    "yr": "",
-    "th": "",
-    "disc": [],
-    "tool": [],
-    "s": "Verifying UI fixes: checkbox text wrapping and the return-to-catalog button."
+    "t": "Mapping literature with ResearchRabbit, then applying the CRAAP test",
+    "by": "Dr Panna Karlinger",
+    "inst": "School of Education",
+    "u": "https://wordpress.aber.ac.uk/e-learning/2025/06/12/generative-ai-in-learning-and-teaching-case-study-series/",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Research Methods",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "ResearchRabbit"
+    ],
+    "s": "Students map related literature from a seed paper using ResearchRabbit, then critically evaluate sources with the CRAAP test (currency, relevance, accuracy, authors, purpose).",
+    "repo": "aber",
+    "source": "seed"
+  },
+  {
+    "t": "Building on (or ignoring) a ChatGPT essay answer",
+    "by": "Dr Megan Talbot",
+    "inst": "Dept of Law and Criminology",
+    "u": "https://wordpress.aber.ac.uk/e-learning/2025/06/19/generative-ai-in-learning-and-teaching-case-study-series-2/",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Law"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students receive a ChatGPT essay response on prenuptial agreements and must demonstrably 'add value that an AI cannot' when using, building on, or ignoring it.",
+    "repo": "aber",
+    "source": "seed"
+  },
+  {
+    "t": "Classroom evaluation of a ChatGPT summary, then redesigned exam questions",
+    "by": "Dr Gareth Hoskins",
+    "inst": "Dept of Geography and Earth Sciences",
+    "u": "https://wordpress.aber.ac.uk/e-learning/2025/07/11/generative-ai-in-learning-and-teaching-case-study-series-3/",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students critique a ChatGPT summary of 'flashbulb memory' for bias and limitations in class, then answer exam questions redesigned to be problem-based and applied.",
+    "repo": "aber",
+    "source": "seed"
+  },
+  {
+    "t": "Using GAI as a research tool in group marketing-strategy assessments, then reflecting on its role",
+    "by": "Lucill Curtis, Associate Professor in Marketing",
+    "inst": "University of East Anglia, Norwich Business School",
+    "u": "https://www.advance-he.ac.uk/knowledge-hub/enhancing-assessment-and-feedback-case-study-compendium-2025",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "ChatGPT",
+      "Copilot",
+      "Gemini"
+    ],
+    "s": "On an MBA 'Marketing and Customer Focus' module (35 students), two group formative tasks had students use GAI as a research tool to identify market segments and build campaign plans for a company, before an individual summative task asked them to design and justify their own marketing strategy.",
+    "repo": "advancehe",
+    "source": "seed"
+  },
+  {
+    "t": "The '4Rs' method: rewriting exam questions until ChatGPT can no longer answer them",
+    "by": "Zeenat Soobedar de Villeneuve",
+    "inst": "King's College London, King's Foundation",
+    "u": "https://www.advance-he.ac.uk/knowledge-hub/enhancing-assessment-and-feedback-case-study-compendium-2025",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Data Science & Analytics"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Each online maths-for-social-science test question was run through ChatGPT-3.5 in a Reflect-Rewrite-Retest-Review cycle; any question it could answer correctly was rewritten to demand higher-order thinking (per Bloom's Taxonomy) and retested, repeating until AI-resistant — 66 original questions were reviewed and turned into 89 redesigned ones across three tests.",
+    "repo": "advancehe",
+    "source": "seed"
+  },
+  {
+    "t": "Generate-summarise-reflect: a staff CPD exercise using an AI-written cannabis-legalisation essay",
+    "by": "Stephen Bunbury, Reader in Law",
+    "inst": "University of Westminster",
+    "u": "https://www.advance-he.ac.uk/knowledge-hub/enhancing-assessment-and-feedback-case-study-compendium-2025",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "In a staff CPD workshop, academics used AI to generate a 500-word essay on 'Should cannabis be legalised?', summarised it in their own words within a 100-word limit, then wrote a 500-word reflection on the skills the exercise developed — modelling an authentic-assessment exercise staff could adapt for students.",
+    "repo": "advancehe",
+    "source": "seed"
+  },
+  {
+    "t": "A two-part AI-literacy assessment: an AI-output portfolio, then a live 'Professional Discussion'",
+    "by": "Liam Newton, Senior Lecturer in Business and Management",
+    "inst": "University of South Wales",
+    "u": "https://s3.eu-west-2.amazonaws.com/assets.creode.advancehe-document-manager/documents/advance-he/A%26F_compendium_2026_AI_final_1782469133.pdf",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "A new AI-literacy module has BA Business students produce a portfolio of three distinct AI-generated business outputs (each from a different AI tool) with reflections and process logs, then defend their critical understanding in a 30-minute in-person 'Professional Discussion' on an unseen AI case study.",
+    "repo": "advancehe",
+    "source": "seed"
+  },
+  {
+    "t": "'Liam Chat': a custom AI generating personalised, deliberately flawed SQL scripts for each student",
+    "by": "Prof. Rania Shibl and Dr Judy Watson",
+    "inst": "Southern Cross University & University of the Sunshine Coast",
+    "u": "https://s3.eu-west-2.amazonaws.com/assets.creode.advancehe-document-manager/documents/advance-he/A%26F_compendium_2026_AI_final_1782469133.pdf",
+    "reg": "Australia",
+    "yr": 2026,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Computer Science"
+    ],
+    "tool": [
+      "ChatGPT",
+      "Custom GPT"
+    ],
+    "s": "A custom tool built on OpenAI's API, 'Liam Chat', generates a unique flawed SQL schema and dataset for each student in a 200-student database design course; students must diagnose and correct the errors themselves rather than just produce a solution.",
+    "repo": "advancehe",
+    "source": "seed"
+  },
+  {
+    "t": "Critiquing a deliberately flawed Copilot essay, under exam conditions",
+    "by": "Dr Emma Reid, Lecturer",
+    "inst": "University of Glasgow",
+    "u": "https://s3.eu-west-2.amazonaws.com/assets.creode.advancehe-document-manager/documents/advance-he/A%26F_compendium_2026_AI_final_1782469133.pdf",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "Copilot"
+    ],
+    "s": "For a final-year Physiological Disorders exam, the lecturer used Microsoft Copilot to generate an 800-word essay on diabetic retinopathy, deliberately inserted one obvious and one subtle factual error, then had students critique it in 90 minutes under exam conditions — replacing the traditional blank-page essay exam.",
+    "repo": "advancehe",
+    "source": "seed"
+  },
+  {
+    "t": "Splitting a literature review into essay + annotated bibliography + reflective table to make research reasoning visible",
+    "by": "Denise Hough, Victoria Paterson, and Prof. Barbara K Mable",
+    "inst": "University of Glasgow",
+    "u": "https://s3.eu-west-2.amazonaws.com/assets.creode.advancehe-document-manager/documents/advance-he/A%26F_compendium_2026_AI_final_1782469133.pdf",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "A final-year literature review (around 100 students/year) was restructured into three parts — an 80%-weighted essay, an ungraded annotated bibliography of the top 20 search results, and a 20%-weighted reflective table — with explicit stage-by-stage GenAI guidance embedded rather than a blanket ban or requirement.",
+    "repo": "advancehe",
+    "source": "seed"
+  },
+  {
+    "t": "Enhancing Design Thinking in Education",
+    "by": "—",
+    "inst": "ANTF Gen AI Innovation Project",
+    "u": "https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/1-enhancing-design-thinking-in-education",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Applies generative AI within a design-thinking teaching framework.",
+    "repo": "antf",
+    "source": "seed"
+  },
+  {
+    "t": "The use of GenAI in teaching arts management",
+    "by": "—",
+    "inst": "ANTF Gen AI Innovation Project",
+    "u": "https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/2-the-use-of-genai-in-teaching-arts-management",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "GenAI integrated into an arts management curriculum.",
+    "repo": "antf",
+    "source": "seed"
+  },
+  {
+    "t": "Student-Staff Co-Creation of Politics of Artificial Intelligence",
+    "by": "—",
+    "inst": "ANTF Gen AI Innovation Project",
+    "u": "https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/4-student-staff-co-creation-of-politics-of-artificial-intelligence",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Students and staff co-created course content examining the politics of AI.",
+    "repo": "antf",
+    "source": "seed"
+  },
+  {
+    "t": "Openly using AI in a French Hotel Management School",
+    "by": "—",
+    "inst": "ANTF Gen AI Innovation Project",
+    "u": "https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/5-openly-using-ai-in-a-french-hotel-management-school-learning-about",
+    "reg": "France",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Transparent, sanctioned AI use within a hospitality-management programme.",
+    "repo": "antf",
+    "source": "seed"
+  },
+  {
+    "t": "AI Client Simulation for Counselling Skills Development",
+    "by": "Beverley Pickard-Jones, Luke Sanders, Fay Short",
+    "inst": "Bangor University, School of Psychology and Sport Science",
+    "u": "https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/6-developing-counselling-skills-through-ai-client-simulation",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Trainee counsellors run simulated therapy sessions with ChatGPT 3.5 prompted to embody clients with varied presentations and personalities, then request AI performance feedback.",
+    "repo": "antf",
+    "source": "seed"
+  },
+  {
+    "t": "Use of GenAI in healthcare education to enhance representation",
+    "by": "—",
+    "inst": "ANTF Gen AI Innovation Project",
+    "u": "https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/8-use-of-genai-in-healthcare-education-to-enhance-representation",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "Accessibility & Wellbeing",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Image Generation"
+    ],
+    "s": "Uses GenAI imagery to diversify representation in healthcare teaching materials.",
+    "repo": "antf",
+    "source": "seed"
+  },
+  {
+    "t": "Above board: explicit use of ChatGPT and other online tools",
+    "by": "—",
+    "inst": "ANTF Gen AI Innovation Project",
+    "u": "https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/9-above-board-results-of-the-explicit-use-of-chatgpt-and-other-online",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "Institutional Policy",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "A transparency-first case study on openly sanctioned ChatGPT use in coursework.",
+    "repo": "antf",
+    "source": "seed"
+  },
+  {
+    "t": "Integrating ChatGPT in Authentic Peer Marking Assessment",
+    "by": "Salman Shahid, Antonis Theodorou",
+    "inst": "University of Manchester, Chemical Engineering",
+    "u": "https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/10-integrating-chatgpt-in-authentic-peer-marking-assessment",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Engineering"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Student groups design chemical process plants with ChatGPT at each stage, then peer-evaluate each other's AI-assisted designs across groups; over 80% reported the integration positively.",
+    "repo": "antf",
+    "source": "seed"
+  },
+  {
+    "t": "Turning written feedback into an AI-generated poem",
+    "by": "Chrissi Nerantzi",
+    "inst": "School of Education, University of Leeds",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Fed real summative-assignment feedback (577 words) into ChatGPT to generate a feedback poem, and trialled it with one student, who found the experiment useful but flagged concerns about using it on a failing piece of work.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Comparing ChatGPT-3's moral and critical reasoning across two contexts",
+    "by": "Antonio Martínez-Arboleda",
+    "inst": "School of Languages, Cultures and Societies, University of Leeds",
+    "u": "https://martinezarboleda.wordpress.com/2023/02/03/critical-and-moral-reasoning-in-chatgpt-3/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Put the same real oral-history interview extract (a Spanish Civil War child refugee) to ChatGPT-3 in two threads with differing context, then compared the scientific, educational and moral quality of its answers, publishing the full dialogues on a personal blog.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "A working AI persona simulator for research-interview practice",
+    "by": "Soroush Sabbaghan",
+    "inst": "Werklund School of Education, University of Calgary",
+    "u": "https://participant-simulator.onrender.com/",
+    "reg": "Canada",
+    "yr": 2023,
+    "th": "Research Methods",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "Built and deployed a live web tool using the OpenAI API that impersonates a user-defined persona so student-researchers can practice interview technique and generate authentic-feeling qualitative data without ethics review.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "A working GPT-3 rubric generator for educators",
+    "by": "Soroush Sabbaghan",
+    "inst": "Werklund School of Education, University of Calgary",
+    "u": "https://streamlit-ai-rubric-generator.onrender.com/",
+    "reg": "Canada",
+    "yr": 2023,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "Built and deployed a live GPT-3 tool that generates a draft marking rubric from a given learning outcome, including adjustments for non-native English users, as a starting point for educators to customise.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Drafting most of a module's activities with ChatGPT",
+    "by": "Christopher Ireland",
+    "inst": "Sukhothai Thammathirat Open University",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "Other",
+    "yr": 2023,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Used ChatGPT prompts to draft most of a module's student activities (writer's purpose, blurbs, topic sentences, thesis statements) and feedback comments, editing the output before publication in a coursebook.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Generating phonetic-script practice questions with ChatGPT",
+    "by": "Christopher Ireland",
+    "inst": "Sukhothai Thammathirat Open University",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "Other",
+    "yr": 2023,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Discovered ChatGPT could produce International Phonetic Alphabet script and used it to build a 10-item multiple-choice vowel-sound identification activity.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Using ChatGPT as a translation buddy for an open educational game",
+    "by": "Chrissi Nerantzi",
+    "inst": "School of Education, University of Leeds",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Used ChatGPT to produce a first-draft Greek translation of instructions for an open educational game under development, then critically revised the output as a qualified translator.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Self-assessment against ChatGPT's own exam answers",
+    "by": "Malek El Diri",
+    "inst": "University of Leeds",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Formative assessment activity where students solve an exam-style question, compare it against ChatGPT's answer and feedback, then critique and mark both their own and ChatGPT's responses.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Writing with ChatGPT and submitting the edits as evidence of critical thinking",
+    "by": "Lynn Gribble",
+    "inst": "UNSW Sydney",
+    "u": "https://www.education.unsw.edu.au/news-events/news/surviving-start-2023-generative-ai",
+    "reg": "Australia",
+    "yr": 2023,
+    "th": "Writing & Literacy",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "In a compulsory core business course with mainly international students, has students write with ChatGPT and then submit their edits, requiring them to demonstrate deep thinking and fact-checked, linked practice.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Testing ChatGPT for extracting UML conceptual classes",
+    "by": "Francisco José García-Peñalvo",
+    "inst": "University of Salamanca",
+    "u": "https://doi.org/10.14201/eks.31279",
+    "reg": "Other",
+    "yr": 2023,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Computer Science"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Tested ChatGPT's ability to extract a list of candidate conceptual classes from a natural-language specification, to give Software Engineering students a critically-assessed first draft for their UML class diagrams.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "A fully AI-generated podcast, script to audio",
+    "by": "Chris Wood",
+    "inst": "University of Portsmouth",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "ChatGPT",
+      "DALL-E",
+      "Voice/Audio AI"
+    ],
+    "s": "Produced a podcast entirely generated by AI — script by ChatGPT, cover art by DALL-E 2, narration by Speechify, mastered in iZotope oZone — documented in a companion 'how we did it' blog post.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "AI-generated absurd-premise texts to teach genre conventions",
+    "by": "Karen Amanda Harris",
+    "inst": "Language Centre, University of the Arts London",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Writing & Literacy",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Used the OpenAI playground/ChatGPT to generate deliberately absurd texts (a job application for 'the King's toothpaste squeezer', an obituary for a toothbrush) so students could identify genre conventions before writing their own.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "A Foundation Year exercise comparing ChatGPT output to real academic profiles",
+    "by": "Sarah Hack and Lewis Jayes",
+    "inst": "University of Surrey",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Foundation Year Psychology students research a real academic from their own department via ChatGPT and compare its output against the academic's actual staff profile page, revising prompts to test accuracy.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Ongoing classroom experiments applying ChatGPT to sentence-level style",
+    "by": "Ben Good",
+    "inst": "Appalachian State University",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "US",
+    "yr": 2023,
+    "th": "Writing & Literacy",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Extended existing sentence-imitation and sentence-combining exercises by having students and instructor experiment together with ChatGPT to explore syntactic fluency and stylistic choice at the sentence level.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Testing ChatGPT's consistency on the same essay question, reworded",
+    "by": "Chloe Courtenay",
+    "inst": "Canterbury Christ Church University",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Ran a real post-structuralism essay title through ChatGPT with slight rewordings to test how consistent and well-sourced its answers were, designing a fact-checking exercise for students to replicate on their own assessment titles.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Rehearsing real fieldwork interview questions on a ChatGPT-roleplayed flood warden",
+    "by": "Katharine Welsh",
+    "inst": "University of Chester",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Research Methods",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Second-year Natural Hazard Management students converse with ChatGPT prompted to role-play an experienced, previously-flooded community flood warden, to refine their interview questions before interviewing a real warden.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "A weekly prompt-and-response query log with generative AI",
+    "by": "Lance Eaton",
+    "inst": "College Unbound",
+    "u": "http://www.byanyothernerd.com",
+    "reg": "US",
+    "yr": 2023,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students maintain a weekly log recording their generative-AI questions and answers, varying prompting strategies week to week, using a shared template to practice and observe iterative prompting.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "A course where students use AI to draft institutional AI-usage policy",
+    "by": "Lance Eaton",
+    "inst": "College Unbound",
+    "u": "http://www.byanyothernerd.com",
+    "reg": "US",
+    "yr": 2023,
+    "th": "Institutional Policy",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Facilitated a full course where students used ChatGPT and other tools to research and draft real institutional AI-usage policy recommendations, publishing syllabi and a first draft of the students' usage policy online.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Students blog on ChatGPT explanations of philosophical concepts",
+    "by": "Richard Higgs",
+    "inst": "University of Cape Town",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "Other",
+    "yr": 2023,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "MPhil Digital Curation students used ChatGPT to source explanations of two philosophical concepts, then blogged on their affective experience of the tool, their resulting understanding, and the appropriateness of the AI-generated text for academic discourse, followed by a live discussion.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "DALL-E emotion cards for a Dixit-style peer feedback game",
+    "by": "Ioannis Lefkos",
+    "inst": "University of Macedonia, Greece",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "Other",
+    "yr": 2023,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "DALL-E"
+    ],
+    "s": "Students describe an emotion and its context, turn the description into a DALL-E prompt, and select the generated image that best captures it, then use the resulting cards to play a Dixit-style emotion-guessing board game.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Marking AI-generated courseworks against real assessment criteria",
+    "by": "Nurun Nahar",
+    "inst": "Greater Manchester Business School, University of Bolton",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "ChatGPT",
+      "Copilot"
+    ],
+    "s": "Used in an HE6 module: generated AI-written courseworks from real assessment prompts using ChatGPT, Copilot and Bard, then had students mark them against the module's actual criteria to expose gaps in technical language and critical analysis.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "A song written and translated by ChatGPT, tested against a real dialect",
+    "by": "Verena Roberts",
+    "inst": "Concordia University of Edmonton",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "Canada",
+    "yr": 2023,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "The Dean of Science wrote a song with ChatGPT and had it translate the lyrics into his own local dialect, testing — and being surprised by — the translation quality.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "AI-generated art as a mediator for peer feedback",
+    "by": "Paola Corti, Daniela Casiraghi and Bianca Santolini",
+    "inst": "Politecnico di Milano",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "Other",
+    "yr": 2023,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "ChatGPT",
+      "DALL-E"
+    ],
+    "s": "Peer reviewers write text feedback against a negotiated rubric, then use ChatGPT to craft a DALL-E prompt and generate an accompanying image, publishing the method as an open Art-based Feedback Toolkit.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "A research assignment using ChatGPT and elicit.org alongside academic sources",
+    "by": "Eyal Rabin",
+    "inst": "The Open University of Israel",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "Other",
+    "yr": 2023,
+    "th": "Research Methods",
+    "disc": [
+      "Data Science & Analytics"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Final-course assignment where learning-analytics students write a 3-page article on AI's impact on their field using ChatGPT and elicit.org together with 3 academic and 2 popular articles as required sources.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Recreando el pasado con IA: generating images of daily life in the Porfiriato",
+    "by": "Tania Itzel Nieto Juárez",
+    "inst": "Facultad de Filosofía y Letras, UNAM, Mexico",
+    "u": "https://padlet.com/tania_nieto/uso-de-la-ia-porfiriato-zkc9gvg15sy4rpqq",
+    "reg": "Other",
+    "yr": 2023,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "DALL-E",
+      "Image Generation"
+    ],
+    "s": "Pedagogy undergraduates generated images of everyday life and education under Mexico's Porfiriato using DALL-E 2, Stability AI and Deep AI, then posted them with titles and descriptions to a class Padlet for a History of Education course.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Generating tailored counselling case studies for practice discussion",
+    "by": "Fay Short",
+    "inst": "Bangor University",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Used ChatGPT to generate novel clinical case studies tailored to the specific ethical and clinical topics counselling students were currently finding difficult, for small-group discussion practice.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Redesigning a mock job application so each student gets an AI-generated unique role",
+    "by": "Fay Short",
+    "inst": "Bangor University",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Redesigned a mock counselling job-application assessment, at students' own suggestion, so each student uses ChatGPT to generate their own unique job description to apply for, replacing a shared 'describe and evaluate' essay.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Peer-marking ChatGPT's own generated answers before marking each other",
+    "by": "Katharine Jewitt",
+    "inst": "The Open University",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students generate a range of ChatGPT responses to a real assessment question, then synthesise, critique and mark them against set criteria — building confidence before peer-assessing each other's work.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Feeding a student's full memoir essay into DALL-E to generate illustrations",
+    "by": "Christopher Sean Harris",
+    "inst": "California State University, Los Angeles",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "US",
+    "yr": 2023,
+    "th": "Writing & Literacy",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "DALL-E"
+    ],
+    "s": "When students wondered how to illustrate their multimodal memoirs, the instructor plugged an entire student essay into DALL-E as a prompt and worked with the class to iteratively refine it into more relevant images.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Demonstrating gender bias in DALL-E's 'Robotics Engineer' images",
+    "by": "Lakshmy Mohandas",
+    "inst": "Purdue University",
+    "u": "https://openai.com/dall-e-2/",
+    "reg": "US",
+    "yr": 2023,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Engineering"
+    ],
+    "tool": [
+      "DALL-E"
+    ],
+    "s": "Generated DALL-E images for the prompt 'Robotics Engineer', found them predominantly male, and used the result to teach engineering faculty and students about implicit bias reflected in AI training data.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Comparing a real ChatGPT critical assessment against a human-written one",
+    "by": "Anna Mills",
+    "inst": "College of Marin",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "US",
+    "yr": 2023,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students annotate orientation videos on ChatGPT, then read a real NYT article alongside a sample ChatGPT critical assessment and a human-written one, published as an activity via Canvas Commons.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Critiquing a ChatGPT answer against academic literature in Project Management",
+    "by": "Jean-Paul Van Belle",
+    "inst": "University of Cape Town",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "Other",
+    "yr": 2023,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students pose a Project Management question to ChatGPT, then write a mini-essay giving both positive and negative academically-referenced criticism of its answer, including its hallucinations.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Testing ChatGPT's ability to generate code for real programming assessments",
+    "by": "Amaal Alhejaily",
+    "inst": "University of Leeds",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Computer Science"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "PhD researcher tested ChatGPT's ability to translate real programming-assessment specifications into working code segments, assessing how well its output met the assessment prompt.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Piloting ChatGPT for co-creating target-language content",
+    "by": "Maria D Iglesias Mora",
+    "inst": "UCLan",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Currently piloting having language students use ChatGPT to help generate content in the target language, extending existing student co-creation work built around MS Forms quizzes and ThingLink mind maps.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Playing Google's QuickDraw and Autodraw to surface AI training bias",
+    "by": "Maha Bali",
+    "inst": "American University in Cairo",
+    "u": "https://blog.mahabali.me/uncategorized/googles-quickdraw-more-cultural-dominance-in-machine-learning-a-kind-of-ai/",
+    "reg": "Other",
+    "yr": 2023,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Computer Science"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "Played Google's QuickDraw (which guesses a doodle in progress) and Autodraw, and documented on a blog how the training data's cultural assumptions surfaced — e.g. failing to recognise an Arabic-labelled doodle of an angel.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "A proof-of-concept branching nursing scenario authored end-to-end by AI",
+    "by": "Dominic Slauson",
+    "inst": "OpenRN Project, Codaptive Labs LLC",
+    "u": "https://www.cvtc.edu/landing-pages/grants/open-rn",
+    "reg": "US",
+    "yr": 2023,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "ChatGPT",
+      "Image Generation"
+    ],
+    "s": "Built a proof-of-concept branching therapeutic-communication nursing scenario with all dialogue and feedback generated by ChatGPT and imagery by Midjourney, flagged as requiring subject-matter-expert vetting before use, as part of a federally funded $2.5M OER nursing project.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Writing and self-publishing a book using ChatGPT and DALL-E",
+    "by": "Abhishek Gurumadhva",
+    "inst": "University of Leeds / Kreative School",
+    "u": "https://youtu.be/v_iGupRK6so",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Writing & Literacy",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "ChatGPT",
+      "DALL-E"
+    ],
+    "s": "Wrote and self-published a book, retaining copyright, using ChatGPT for text and DALL-E for illustrations, distributed via the Google Play Books Partner Center.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "Iteratively refining a DALL-E2 image to match a written concept",
+    "by": "John Parkin",
+    "inst": "Anglia Ruskin University",
+    "u": "https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/",
+    "reg": "UK",
+    "yr": 2023,
+    "th": "Writing & Literacy",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "DALL-E"
+    ],
+    "s": "Students select a term, describe it in words fed to DALL-E2, write a five-minute reflective essay on the resulting image, then adapt their prompt wording to produce an improved image reflecting their understanding.",
+    "repo": "creativehe",
+    "source": "seed"
+  },
+  {
+    "t": "From exemplars to GAI: activating assessment literacy",
+    "by": "Dr Helen Thompson, Dr Tim Davies",
+    "inst": "Biosciences",
+    "u": "https://dcad-resourcebank.webspace.durham.ac.uk/2025/12/10/from-exemplars-to-gai-activating-assessment-literacy/",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Students mark anonymized exemplars, compare against real grades on Padlet, then use GenAI to analyze assessment-criteria language and simulate peer feedback. Fewer 2:2 grades and higher confidence followed over two years.",
+    "repo": "durham",
+    "source": "seed"
+  },
+  {
+    "t": "Assessment and marking criteria in light of generative AI",
+    "by": "—",
+    "inst": "DCAD Team",
+    "u": "https://dcad-resourcebank.webspace.durham.ac.uk/2025/08/27/assessment-and-marking-in-light-of-generative-ai/",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Surveys the ongoing debate on how assessment design and marking should adapt to generative AI since early 2023.",
+    "repo": "durham",
+    "source": "seed"
+  },
+  {
+    "t": "Integrating an AI Chatbot for enhanced student learning in a laboratory module",
+    "by": "Dr Arin Mizouri",
+    "inst": "Physics Education and Scholarship Group",
+    "u": "https://dcad-resourcebank.webspace.durham.ac.uk/2025/05/07/integrating-an-ai-chatbot-for-enhanced-student-learning-in-a-laboratory-module/",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "Video case study on embedding a chatbot within physics laboratory teaching.",
+    "repo": "durham",
+    "source": "seed"
+  },
+  {
+    "t": "Exploring the impact of Generative AI on Modern Language Learning",
+    "by": "Dr Aziza Zaher, James Youdale",
+    "inst": "Modern Languages",
+    "u": "https://dcad-resourcebank.webspace.durham.ac.uk/2025/05/07/exploring-the-impact-of-generative-ai-on-modern-language-learning-mfl-in-higher-education/",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Investigates how generative AI is affecting modern-language instruction and outcomes.",
+    "repo": "durham",
+    "source": "seed"
+  },
+  {
+    "t": "Understanding student experiences and attitudes towards Generative AI",
+    "by": "Dr Trevor James, Candace Nolan-Grant, et al.",
+    "inst": "Department of Psychology",
+    "u": "https://dcad-resourcebank.webspace.durham.ac.uk/2025/05/07/understanding-student-experiences-and-attitudes-towards-generative-ai/",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Research into how students perceive and actually use generative AI tools.",
+    "repo": "durham",
+    "source": "seed"
+  },
+  {
+    "t": "Using ChatGPT 4.0 to create essay plans",
+    "by": "History (Level 3) lecturer",
+    "inst": "North West Regional College, Derry (FE)",
+    "u": "https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/",
+    "reg": "UK",
+    "yr": 2024,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "A single detailed prompt on the Great Irish Famine produced a ready-to-use essay structure students found reassuring and easy to follow, needing little refinement.",
+    "repo": "jiscstories",
+    "source": "seed"
+  },
+  {
+    "t": "A 5-minute AI image activity using Microsoft Copilot",
+    "by": "Head of Digital Learning",
+    "inst": "South Staffordshire College (FE)",
+    "u": "https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/",
+    "reg": "UK",
+    "yr": 2024,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Copilot"
+    ],
+    "s": "A quick, structured in-class activity: students prompt Bing/Copilot for a themed AI image, then share and discuss results as a light introduction to AI tools.",
+    "repo": "jiscstories",
+    "source": "seed"
+  },
+  {
+    "t": "Creating multiple-choice quizzes with ChatGPT + Microsoft Forms",
+    "by": "Lead Practitioner: eLearning",
+    "inst": "New College Durham (FE)",
+    "u": "https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/",
+    "reg": "UK",
+    "yr": 2024,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Engineering"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "A single prompt to ChatGPT 3.5 generates a 10-question self-marking quiz on plumbing health & safety, imported straight into Microsoft Forms for instant student feedback and staff analytics.",
+    "repo": "jiscstories",
+    "source": "seed"
+  },
+  {
+    "t": "Building an emergency cover lesson plan overnight with ChatGPT",
+    "by": "Lead Practitioner: eLearning",
+    "inst": "New College Durham (FE)",
+    "u": "https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/",
+    "reg": "UK",
+    "yr": 2024,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "With a colleague off sick and no cover, a scheme-of-learning export was fed into ChatGPT 3.5 to produce two full 2-hour lesson plans with activities and quizzes in 30 minutes.",
+    "repo": "jiscstories",
+    "source": "seed"
+  },
+  {
+    "t": "An 'Immunology Wars' mega game built with ChatGPT4 and DALL-E 3",
+    "by": "Lecturer of Immunology",
+    "inst": "Cardiff University",
+    "u": "https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/",
+    "reg": "UK",
+    "yr": 2024,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "ChatGPT",
+      "DALL-E"
+    ],
+    "s": "Multi-session prompting built a Star Wars-themed trading game where student groups collect immune components to fight infections; DALL-E 3 generated the imagery.",
+    "repo": "jiscstories",
+    "source": "seed"
+  },
+  {
+    "t": "Educational podcasts using a cloned voice and ChatGPT-written scripts",
+    "by": "Director of Digital Education",
+    "inst": "Newcastle University",
+    "u": "https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/",
+    "reg": "UK",
+    "yr": 2024,
+    "th": "Writing & Literacy",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "ChatGPT",
+      "ElevenLabs"
+    ],
+    "s": "ElevenLabs clones the lecturer's own voice; ChatGPT4 writes revision-podcast scripts from a fixed template, cutting a 5-minute podcast's production time from 2 hours to about 10 minutes.",
+    "repo": "jiscstories",
+    "source": "seed"
+  },
+  {
+    "t": "A scalable approach to creating 130+ Custom GPTs for vocational marking",
+    "by": "Paul Scott, project lead",
+    "inst": "Kirklees College (FE)",
+    "u": "https://nationalcentreforai.jiscinvolve.org/wp/2025/11/05/ai-in-marking-and-feedback-pilot-good-practice-case-studies-kirklees-college/",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Custom GPT",
+      "ChatGPT"
+    ],
+    "s": "130+ Custom GPTs, each aligned to specific units and awarding-body standards, generate feedback and support moderation; learners get 48-hour access to a self-assessment GPT before final submission. Est. 10–15 hrs/week saved per staff member.",
+    "repo": "jiscpilot",
+    "source": "seed"
+  },
+  {
+    "t": "Feedback Tutor in Your Pocket",
+    "by": "AI Working Group",
+    "inst": "London South Bank University",
+    "u": "https://nationalcentreforai.jiscinvolve.org/wp/2025/11/05/ai-in-marking-and-feedback-pilot-good-practice-case-studies-london-south-bank-university/",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Custom GPT",
+      "ChatGPT"
+    ],
+    "s": "Custom GPTs configured with module rubrics give students rubric-aligned draft feedback before submission, across Law, Computing, and Health disciplines. In Therapeutic Radiography, average grade rose 51%→54% and fail rate fell 20%→17%.",
+    "repo": "jiscpilot",
+    "source": "seed"
+  },
+  {
+    "t": "Generating ideas and images in MA Advertising and Design",
+    "by": "Francisco Oliveira de Queiroz",
+    "inst": "Arts, Humanities and Cultures",
+    "u": "https://generative-ai.leeds.ac.uk/ai-for-student-education/case-studies/",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Image Generation"
+    ],
+    "s": "Students use GenAI for ideation (morphological matrix technique) and may submit AI-generated images, since image-craft skill isn't the module's focus; polished AI images didn't always communicate ideas better.",
+    "repo": "leeds",
+    "source": "seed"
+  },
+  {
+    "t": "Critical comparisons: students vs ChatGPT",
+    "by": "Malek El Diri",
+    "inst": "Business",
+    "u": "https://generative-ai.leeds.ac.uk/ai-for-student-education/case-studies/",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students solve an exam question alone, then compare against and critique ChatGPT's answer and feedback, before marking both and discussing in class.",
+    "repo": "leeds",
+    "source": "seed"
+  },
+  {
+    "t": "Critical thinking in public history",
+    "by": "Katie Carpenter",
+    "inst": "Arts, Humanities and Cultures",
+    "u": "https://generative-ai.leeds.ac.uk/ai-for-student-education/case-studies/",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Instead of a standard essay prompt, the instructor feeds the question to ChatGPT for a short answer; students' 2,000-word essay is their agreement or disagreement with it.",
+    "repo": "leeds",
+    "source": "seed"
+  },
+  {
+    "t": "Abstracting 500 pages of 20th-century wasp taxonomy into a spreadsheet",
+    "by": "Charles Godfray, Director",
+    "inst": "Oxford Martin School",
+    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Research Methods",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "Gemini"
+    ],
+    "s": "A single detailed prompt abstracted 500 pages of scientific papers into a 10-column spreadsheet; a 50-row accuracy check found just two minor errors.",
+    "repo": "oxnarr",
+    "source": "seed"
+  },
+  {
+    "t": "ChatGPT as both admin assistant and 'critical friend' reviewer",
+    "by": "Sara Ratner, PI, AIEOU Research Hub",
+    "inst": "Dept of Education",
+    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Uses ChatGPT to draft newsletters and reshape research for policymakers, and separately assigns it a role-prompted 'critical reviewer' to flag weaknesses in her own drafts.",
+    "repo": "oxnarr",
+    "source": "seed"
+  },
+  {
+    "t": "Socratic revision partner during the Astrophoria Foundation Year",
+    "by": "Physical Sciences Foundation Year cohort",
+    "inst": "Astrophoria Foundation Year",
+    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students used ChatGPT Edu's voice mode, image upload, and Projects for Socratic step-by-step tutoring and note summarizing during revision.",
+    "repo": "oxnarr",
+    "source": "seed"
+  },
+  {
+    "t": "Debugging a PyTorch Lightning pipeline and redesigning a GNN fusion strategy",
+    "by": "Yuhan Zhou, ML Researcher",
+    "inst": "Oxford-GSK Institute of Molecular and Computational Medicine",
+    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Research Methods",
+    "disc": [
+      "Computer Science"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "ChatGPT caught a tensor-dimension bug in a contrastive-learning pipeline and proposed a cross-modal transformer approach over a basic GNN fusion strategy.",
+    "repo": "oxnarr",
+    "source": "seed"
+  },
+  {
+    "t": "Mining aviation and manufacturing literature for surgical QA ideas",
+    "by": "Riadh Salem, Surgeon & Research Fellow",
+    "inst": "Nuffield Dept of Surgical Sciences",
+    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Research Methods",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Uses Deep Research to ask how intraoperative quality assurance is solved in aviation and manufacturing, turning weeks of literature search into an afternoon.",
+    "repo": "oxnarr",
+    "source": "seed"
+  },
+  {
+    "t": "Replacing radioactive contrast injections with a GenAI 'digital tracer'",
+    "by": "Regent Lee, Professor of Interdisciplinary Innovation",
+    "inst": "Nuffield Dept of Surgical Sciences",
+    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Research Methods",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "Patented a deep-learning method synthesizing 'digital contrast' that removes the need for radiopharmaceutical injections in CT/PET cancer imaging.",
+    "repo": "oxnarr",
+    "source": "seed"
+  },
+  {
+    "t": "Drafting grant sections and turning transcripts into formatted minutes",
+    "by": "Emmanuelle Denis, Senior Operations Manager",
+    "inst": "Pandemic Sciences Institute",
+    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Institutional Policy",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Uses ChatGPT Projects as a persistent reference base to draft grant sections and turn permitted meeting transcripts into minutes with action owners.",
+    "repo": "oxnarr",
+    "source": "seed"
+  },
+  {
+    "t": "A custom GPT trained on the division's own finance regulations",
+    "by": "Kanza Basit, Senior Research Facilitator",
+    "inst": "Social Sciences Division",
+    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Custom GPT",
+      "ChatGPT"
+    ],
+    "s": "Built a custom GPT trained on university financial regulations so colleagues can self-serve reimbursement questions instead of asking staff directly.",
+    "repo": "oxnarr",
+    "source": "seed"
+  },
+  {
+    "t": "A custom GPT primed with exact server/OS/tooling context",
+    "by": "Matt Reid, Web Developer",
+    "inst": "Dept for Continuing Education",
+    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Computer Science"
+    ],
+    "tool": [
+      "Custom GPT",
+      "ChatGPT"
+    ],
+    "s": "A custom GPT pre-loaded with his OS/server/institutional context, integrated with VS Code, cut bug-fixing time by roughly a third.",
+    "repo": "oxnarr",
+    "source": "seed"
+  },
+  {
+    "t": "A custom GPT that mines a work diary for underused skills",
+    "by": "Becca Chesworth, Digital Communications Officer",
+    "inst": "Keble College",
+    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Custom GPT",
+      "ChatGPT"
+    ],
+    "s": "A custom GPT ingests her daily work diary to surface hard/soft skills demonstrated each week against her job description.",
+    "repo": "oxnarr",
+    "source": "seed"
+  },
+  {
+    "t": "AI-assisted Annotations for Histology",
+    "by": "Sharmila Saran Rajendran, Helen Christian, Mary McMenamin, Damion Young, Rumyana Smilevska",
+    "inst": "Medical Sciences Division",
+    "u": "https://www.ctl.ox.ac.uk/ai-assisted-annotations-for-histology-practicals",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Grant-funded project on AI-assisted annotation of histology practicals.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "AI-assisted Simulated Patient for Clinical Communication Skills Training",
+    "by": "Sofia I R Pereira, Philip Drennan, Damion Young, et al.",
+    "inst": "Medical Sciences Division",
+    "u": "https://www.ctl.ox.ac.uk/simulated-patient-chatbot-for-medical-students-to-practice-communication-and-reasoning",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "A simulated-patient chatbot lets medical students practice clinical communication and reasoning.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "AI-driven Feedback Loops for Student Evaluation",
+    "by": "Judy Irving, Daniel Long, Kate Forrester, Matthew Hurst",
+    "inst": "Medical Sciences Division",
+    "u": "https://www.ctl.ox.ac.uk/ai-driven-feedback-loops",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Explores AI-driven feedback loops for evaluating student progress.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "AI for Learning: Foundation Year Students Using ChatGPT Effectively",
+    "by": "Christopher Patrick, Rachel Quarrell, Nicole Miranda",
+    "inst": "MPLS Division",
+    "u": "https://www.ctl.ox.ac.uk/ai-for-learning",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Helps Physical Sciences Foundation Year students learn to use ChatGPT effectively for study.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "AIID (Artificial Intelligence for Interdisciplinary Discussion)",
+    "by": "Jeremy Knox, Rebecca Eynon, Lulu Shi",
+    "inst": "Social Sciences Division",
+    "u": "https://www.ctl.ox.ac.uk/interdisciplinary-collaboration-matching",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Uses AI to match and structure interdisciplinary discussion among students.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "Brainard the Fox (Interactive Bibliography Tool)",
+    "by": "Juliana Dresvina, Daniel Gerrard, Leif Dixon, Gavin Thomas",
+    "inst": "Humanities Division",
+    "u": "https://www.ctl.ox.ac.uk/brainard-the-fox",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Research Methods",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Custom GPT",
+      "ChatGPT"
+    ],
+    "s": "An interactive AI bibliography tool built for humanities research and teaching.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "Compsci Course Guide Chatbot",
+    "by": "Jennifer Watson, Edward Crichton, Lucy Sajdler",
+    "inst": "MPLS Division",
+    "u": "https://www.ctl.ox.ac.uk/cs-course-guide-chatbot",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Computer Science"
+    ],
+    "tool": [
+      "Custom GPT",
+      "ChatGPT"
+    ],
+    "s": "A chatbot that guides computer science students through course structure and options.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "pAIpercast: Paper to Podcast Project",
+    "by": "Stephen Taylor, Delia O'Rourke, Bana Alamad",
+    "inst": "Medical Sciences Division",
+    "u": "https://www.ctl.ox.ac.uk/paper-to-podcast-project",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Writing & Literacy",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Voice/Audio AI"
+    ],
+    "s": "Converts academic papers into podcast-style audio using generative AI.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "Support for Neurodiverse Humanities Students",
+    "by": "Simon Park, Machilu van Bever Donker, Phillip Rothwell, Siân Grønlie",
+    "inst": "Humanities Division",
+    "u": "https://www.ctl.ox.ac.uk/support-for-neurodiverse-humanities-students",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Accessibility & Wellbeing",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Explores GenAI tools to support neurodiverse humanities students.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "Teaching Research Reproducibility Through AI-Human Collaboration",
+    "by": "Lucy Bowes, Nicholas Yeung, Laurence Hunt, Juuso Repo",
+    "inst": "Medical Sciences Division",
+    "u": "https://www.ctl.ox.ac.uk/reproducibility-of-research",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Research Methods",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Uses AI-human collaboration to teach the principles of reproducible research.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "Voice Chatbot for Language Learning",
+    "by": "Marion Sadoux, Cornelia Wiedenhofer, Jieun Kiaer, Emine Cakir",
+    "inst": "OUDCE & Humanities Division",
+    "u": "https://www.ctl.ox.ac.uk/voice-chatbot-for-language-learning",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "Voice/Audio AI"
+    ],
+    "s": "A voice-based AI chatbot for practicing spoken language learning.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "Writing and Translation Feedback Tool",
+    "by": "Claudia Kaiser, Cornelia Wiedenhofer, Nadine Buchmann",
+    "inst": "Humanities Division",
+    "u": "https://www.ctl.ox.ac.uk/writing-and-translation-feedback-tool",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "Writing & Literacy",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "An AI feedback tool built for writing and translation coursework.",
+    "repo": "oxfund",
+    "source": "seed"
+  },
+  {
+    "t": "Addressing Institutional Generative AI Challenges through a Systems Approach",
+    "by": "Prof. Gunter Saunders, Director of Digital Capability Development and AI Leadership",
+    "inst": "University of Westminster",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-1",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "Piloted 'LIDE', an internal chatbot trained on Westminster's own learning-technology content to triage routine student and colleague queries, as part of a wider institutional response — governed by a public 'Westminster Position on Generative AI' setting out ethical, transparent use.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Using AI to Support Undergraduate Game Programming",
+    "by": "Dr Darrel Greenhill, Associate Professor, School of Computer Science and Mathematics",
+    "inst": "Kingston University",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-4",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Computer Science"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Deploys AI to support discipline-specific coding instruction in game programming.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Embedding AI Literacy through a School-Wide, Nuanced Approach",
+    "by": "SOCET academic staff, all levels",
+    "inst": "Robert Gordon University, Aberdeen",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-6",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Copilot"
+    ],
+    "s": "In SOCET, one module leader required students to submit their Copilot prompt logs alongside assignments as a reflective record of AI use; another permitted AI tools for asset creation provided the core project work remained the student's own.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Using Generative AI to Help Productivity and Wellbeing of Professional Services Staff",
+    "by": "Learning Innovation and Digital Engagement team",
+    "inst": "University of Westminster",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-7",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Accessibility & Wellbeing",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Supports administrative staff productivity and wellbeing via AI tools.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Trialling and Experimentation of AI Technologies to Support L&T&A",
+    "by": "Wayne Leung and Tim Linsey, Learning and Teaching Enhancement Centre",
+    "inst": "Kingston University",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-8",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Institutional Policy",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Ran ongoing formal trials of chatbot tools, AI-assisted marking systems and AI research-assistants — including supplier-run demo sessions on campus and staff/student feedback surveys — to keep pace with fast-moving tools such as Google's NotebookLM without over-relying on any single AI environment.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Implementing AI Turnitin Detection",
+    "by": "Steering group led by the Vice Principal Academic Development and Student Experience",
+    "inst": "Robert Gordon University",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-11",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Deploys Turnitin's AI-detection tooling with accompanying staff support.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Using AI to Support Students' Understanding of Statistical Applications",
+    "by": "Dr Owen Spendiff, Head of Dept of Applied & Human Sciences",
+    "inst": "Kingston University",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-15",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Research Methods",
+    "disc": [
+      "Data Science & Analytics"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Applies AI tools to research-methods and statistics instruction.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Fostering Critical Thinking and Creativity in Spatial Design through AI Image Generation",
+    "by": "Dr Sarah Stevens, Dr Marcus Winter, and Edward Crump",
+    "inst": "University of Brighton",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-16",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Image Generation"
+    ],
+    "s": "Integrates AI image-generation tools into spatial-design pedagogy.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Bringing AI into Creative Courses",
+    "by": "Industry, University QA, and course Showrunner lead",
+    "inst": "University of Hertfordshire",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-17",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Embeds AI tools within creative-discipline curricula.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Using AI to Build Confidence in Language Teaching",
+    "by": "MA TESOL practical teaching module lecturer",
+    "inst": "University of Hertfordshire",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-18",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Deploys AI to support and build confidence among language learners.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "How AI is Supporting Patient Communication Assessments",
+    "by": "Aniko, Genomics Programme Team",
+    "inst": "University of the West of England, Bristol",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-19",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Uses AI to support healthcare students practicing patient-communication assessments.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Using Co-Pilot to Teach Critical Reasoning in Social Sciences",
+    "by": "Beth Benker, Sociology lecturer",
+    "inst": "University of the West of England, Bristol",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-20",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Copilot"
+    ],
+    "s": "Employs Microsoft Copilot to develop critical-reasoning skills in social science courses.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Student 'Pop-Ups': AI@KU Be Critical, Be Transparent",
+    "by": "Wayne Leung, Learning Technologist, LTEC",
+    "inst": "Kingston University",
+    "u": "https://www.qaa.ac.uk/docs/qaa/members/case-study-24",
+    "reg": "UK",
+    "yr": 2026,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Image Generation"
+    ],
+    "s": "Ran seven campus pop-up events handing out AI-illustrated stickers and a spot-the-AI-manipulation photo quiz (over 1,200 student completions) to build critical, transparent engagement with generative AI, alongside live demos of Kingston's licensed AI tools.",
+    "repo": "qaa",
+    "source": "seed"
+  },
+  {
+    "t": "Patient Medication Counselling Coach",
+    "by": "Andrew Bartlett",
+    "inst": "Pharmacy (PHAR5910/PHAR5920)",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/enhancing-pharmacy-education-using-ai-coaches/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "A Cogniti-built AI coach generates varied simulated patient scenarios for dispensing practice, giving different responses each time and feedback aligned to Pharmacy Council case discussions.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "Pharmacy Management Finance Tutor",
+    "by": "Andrew Bartlett",
+    "inst": "Pharmacy management unit",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/enhancing-pharmacy-education-using-ai-coaches/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "A Cogniti agent embedded in Canvas gives Socratic responses on difficult financial topics; unit survey response rates more than doubled after launch.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "Dr MattTabolism — an AI assistant for biochemistry",
+    "by": "Matthew Clemson, Minh Huynh, Alice Huang",
+    "inst": "School of Life and Environmental Sciences (BCMB2001)",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/dr-matttabolism-an-ai-assistant-that-helps-me-help-students-with-biochemistry/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "A Cogniti assistant configured as a biochemistry expert, linked to lecture resources in Canvas, used Socratic dialogue; over 180 of 800 students engaged with it for revision.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "OT intervention-planning chatbot workshop",
+    "by": "Joanne Hinitt",
+    "inst": "Faculty of Medicine and Health",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/ai-as-an-authentic-and-engaging-teaching-tool-for-occupational-therapy-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "Customized Cogniti chatbots role-play a child with handwriting difficulties and his teacher, so OT students practice building and presenting intervention plans with realistic pushback.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "Live ChatGPT demo on law and technology questions",
+    "by": "Kim Weatherall",
+    "inst": "Sydney Law School",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Law"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Live in-class demonstration of ChatGPT answering law & technology questions, followed by small-group discussion recorded in a shared collaborative document.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "Exposing ChatGPT's failures on exam questions",
+    "by": "Charlie Warren",
+    "inst": "Faculty of Science",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Demonstrated ChatGPT's limitations on exam questions about carbon sequestration; student groups then critiqued and marked up the errors in a shared document.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "Generate, critique, and re-prompt on familiar topics",
+    "by": "Hamish Fernando",
+    "inst": "Faculty of Engineering",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Engineering"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Students generate AI responses on topics they already know well, then critique the output's quality and collaboratively improve the prompt.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "Trialling ChatGPT in French for research tasks",
+    "by": "Carolyn Stott",
+    "inst": "Faculty of Arts and Social Sciences",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students trial ChatGPT in French for research tasks, then see its failures demonstrated live on literary-analysis questions.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "ChatGPT as pre-class discussion kickstarter in finance units",
+    "by": "JJ de Vries Robbé",
+    "inst": "Sydney Law School",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Law"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Uses ChatGPT in pre-class exercises to seed discussion in postgraduate finance units.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "Contextualizing quantitative study design with ChatGPT examples",
+    "by": "Tatjana Seizova-Cajic",
+    "inst": "Faculty of Medicine and Health",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students request field-specific examples from ChatGPT to make quantitative study-design concepts concrete, then the class evaluates the outputs together.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "An AI double for Fundamentals of Chemistry",
+    "by": "Toby Hudson",
+    "inst": "Faculty of Science",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "A Cogniti agent keeps answers succinct, checks comprehension with questions, and is deliberately programmed to avoid quiz answers and admin topics.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "An AI double for group-work facilitation and OSCE roleplay",
+    "by": "Rebecca Roubin",
+    "inst": "Faculty of Medicine and Health",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "One Cogniti agent facilitates group projects and mediates discussion; another roleplays clinical exam scenarios with real-time feedback on communication and reasoning.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "An AI double for synthesis-task writing feedback",
+    "by": "Paola Clews",
+    "inst": "University of Sydney",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "A Cogniti agent checks argument coherence and paraphrasing quality in practice assessment writing against the marking rubric.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "An AI double for OT goal-setting supervision",
+    "by": "Joanne Hinitt",
+    "inst": "Faculty of Medicine and Health",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "Acts as a clinical supervisor, guiding students to construct their own SMART goals through questioning rather than writing the goals for them.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "An AI double as a classroom simulator for emerging academics",
+    "by": "Vicki-Anh Winfield",
+    "inst": "University of Sydney",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "Poses realistic, discipline-specific classroom scenarios requiring quick thinking, then gives constructive feedback on new tutors' responses.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "'Study Buddy' — an AI double for self-regulated learning",
+    "by": "Adrian Norman",
+    "inst": "Business",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Custom GPTs & Chatbots",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "An evidence-based learning-theory coach helps students set goals, develop strategy, and monitor progress toward becoming self-regulated learners.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "An AI double as a UN Sustainable Development Goals tutor",
+    "by": "Cameron Esslemont",
+    "inst": "University of Sydney",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "Runs Socratic conversations helping students contextualize the UN SDGs for company strategy, aimed at building a responsible business mindset.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "An AI double for ANZCA pharmacology exam prep",
+    "by": "Matt Doane",
+    "inst": "Faculty of Medicine and Health (Anaesthesiology)",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "Gives trainees 24/7 access to exam-style pharmacology questions spanning Bloom's taxonomy, with hints on incomplete answers.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "An AI double for Socratic quantitative genetics tutoring",
+    "by": "Alice Huang",
+    "inst": "Faculty of Science",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "One-question-at-a-time Socratic dialogue built from lecture notes; chat logs help the teaching team see exactly where students get stuck.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "'Molecules on the Menu' administrative helper",
+    "by": "Peter Rutledge",
+    "inst": "Faculty of Science",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Institutional Policy",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "Answers routine student queries on unit organization, assessments, and deadlines from Canvas resources, aimed at faster response in an asynchronous course.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "An AI double for reliability-statistics Socratic tutoring",
+    "by": "Jacqueline Wesson",
+    "inst": "Faculty of Medicine and Health",
+    "u": "https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/",
+    "reg": "Australia",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Custom GPT"
+    ],
+    "s": "Teaches psychometric properties using a Socratic technique built around rubrics and resources, guiding exploration rather than handing over answers.",
+    "repo": "sydney",
+    "source": "seed"
+  },
+  {
+    "t": "Using Generative AI for Legal Tutorial Assignments",
+    "by": "—",
+    "inst": "Coordinator: Sjoerd Dirksen",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/knowledge_item/using-generative-ai-for-legal-tutorial-assignments/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Law"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Explores how GenAI could support legal-education tutorial assignment design.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "GenAI for Improving Experimental Design in Cognitive Psychology",
+    "by": "—",
+    "inst": "Coordinator: Sjoerd Dirksen",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-for-improving-experimental-design-for-cognitive-psychology-assignment/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Research Methods",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Investigates AI assistance for helping students develop better research methodologies.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Human-AI Collaboration for Inclusive Science Communication",
+    "by": "—",
+    "inst": "Coordinator: Sjoerd Dirksen",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/human-ai-collaboration-for-inclusive-science-communication/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Writing & Literacy",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Examines partnering with AI tools to make scientific content more accessible.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Generative AI and Hybrid Intelligence for Fostering Teacher Noticing",
+    "by": "—",
+    "inst": "Coordinator: Sjoerd Dirksen",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-hybrid-intelligence-for-fostering-teacher-noticing/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Develops hybrid AI systems supporting educators' ability to notice and respond to student learning patterns.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Generative AI and the Usefulness of ChatGPT in a Mathematics Learning Activity",
+    "by": "—",
+    "inst": "Coordinator: Sjoerd Dirksen",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-the-usefulness-of-chatgpt-within-a-mathematics-learning-activity/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Tests LLM integration within a quantitative mathematics course activity.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "GenAI and Constructive Alignment in STEM",
+    "by": "—",
+    "inst": "Coordinator: Sjoerd Dirksen",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-constructive-alignment-in-stem-hybrid-intelligence-for-designing-learning-activities/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Discipline Teaching",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Applies hybrid intelligence to keep STEM course objectives, instruction, and assessment coherent.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Generative AI and Basic Psychological Needs of BA Students",
+    "by": "—",
+    "inst": "Coordinator: Sergey Sosnovsky",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-basic-psychological-needs-of-ba-students/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Accessibility & Wellbeing",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Investigates how AI tools affect student autonomy, competence, and relatedness.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Student-AI Interactions Pilot Study, Co-Created with First-Year Science Students",
+    "by": "—",
+    "inst": "Coordinator: Sergey Sosnovsky",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/student-ai-interactions-pilot-study-in-co-creation-with-first-year-science-students/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Participatory research with novice learners on optimal AI-integration approaches.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "GenAI-Generated Exemplars to Improve Student Scientific Writing",
+    "by": "—",
+    "inst": "Coordinator: Sergey Sosnovsky",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/genai-generated-exemplars-to-improve-student-scientific-writing/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Writing & Literacy",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Uses AI-generated model exemplars to scaffold academic scientific-writing skills.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Effect of 'AI Tasks' on Student AI Literacy in a Fact-Check Assignment",
+    "by": "—",
+    "inst": "Coordinator: Sergey Sosnovsky",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/knowledge_item/effect-van-ai-taken-op-de-ai-geletterdheid-van-studenten-bij-een-fact-check-opdracht/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Evaluates whether AI-integrated verification tasks improve student information literacy.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Generative AI and Assessment of AE",
+    "by": "—",
+    "inst": "Coordinator: Laurence Frank",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-assessment-of-ae/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Institutional / Cross-Disciplinary"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Addresses validity concerns when GenAI can produce assessment-relevant outputs.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "GenAI and Writing Assignments in Legal Education",
+    "by": "—",
+    "inst": "Coordinator: Laurence Frank",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-en-schrijfopdrachten-kennis-en-vaardighedenleerdoelen-in-het-juridisch-onderwijs/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Writing & Literacy",
+    "disc": [
+      "Law"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Redesigns law-school writing assignments to distinguish knowledge mastery from AI capability.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Generative AI and Critical Coding",
+    "by": "—",
+    "inst": "Coordinator: Karin van Es",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-critical-coding/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Computer Science"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Teaches students to interrogate AI-generated code and algorithmic decision-making.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Generative AI and Cultural Biases",
+    "by": "—",
+    "inst": "Coordinator: Karin van Es",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-cultural-biases/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Explores how language models embed and perpetuate cultural assumptions.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Generative AI Being Used for Essay Co-writing",
+    "by": "—",
+    "inst": "Coordinator: Karin van Es",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/knowledge_item/generative-ai-using-genai-for-essay-co-writing/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Writing & Literacy",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Examines authorship and transparency when students co-write essays with an LLM.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Understand Your LLM With the Use of a Psychology Experiment",
+    "by": "—",
+    "inst": "Coordinator: Karin van Es",
+    "u": "https://teaching-and-learning-collection.sites.uu.nl/project/understand-your-large-language-model-llm-with-the-use-of-a-psychology-experiment/",
+    "reg": "Netherlands",
+    "yr": "Unspecified",
+    "th": "Research Methods",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Designs behavioral experiments letting students empirically test AI model capabilities and limitations.",
+    "repo": "utrecht",
+    "source": "seed"
+  },
+  {
+    "t": "Chatbot-based feedback + revision and reflection for lab reports",
+    "by": "Janie Brennan",
+    "inst": "Engineering Education",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/13",
+    "reg": "US",
+    "yr": 2026,
+    "th": "Assessment & Feedback",
+    "disc": [
+      "Engineering"
+    ],
+    "tool": [
+      "Custom GPT",
+      "ChatGPT"
+    ],
+    "s": "Students upload lab-report drafts to a custom chatbot trained on course guidelines; it gives structured feedback, they revise, then write a reflection.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Oral History Project (for \"Global Game Industries\")",
+    "by": "James Fleury",
+    "inst": "Film & Media Studies",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/11",
+    "reg": "US",
+    "yr": 2026,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Students interview a video-game industry professional, edit the transcript, and present the process in class.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Strengthening Your AI Fluency: Building Community Resilience",
+    "by": "Suzanne Loui",
+    "inst": "Education",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/15",
+    "reg": "US",
+    "yr": 2026,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "NotebookLM",
+      "Gemini"
+    ],
+    "s": "Guided use of NotebookLM and Gemini to generate and evaluate disaster-resilience planning ideas for a chosen location.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "US Latino Demographics Exploration",
+    "by": "Ally Milner",
+    "inst": "Spanish Linguistics",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/9",
+    "reg": "US",
+    "yr": 2026,
+    "th": "Research Methods",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Students use AI for basic census-data analysis to trace Latino demographic change across three geographies.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "AI for Regression Analysis and More",
+    "by": "Eli Snir",
+    "inst": "Business Analytics",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/10",
+    "reg": "US",
+    "yr": 2026,
+    "th": "Research Methods",
+    "disc": [
+      "Data Science & Analytics"
+    ],
+    "tool": [
+      "Copilot",
+      "NotebookLM"
+    ],
+    "s": "Copilot and NotebookLM used together to build a dataset and run statistical/regression analyses.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Client Communication Strategy Pitch Deck",
+    "by": "Staci Thomas",
+    "inst": "Marketing",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/12",
+    "reg": "US",
+    "yr": 2026,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "A business pitch-deck assignment built around client communication strategy.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Intro to AI Literacies Discussion",
+    "by": "Miranda Rectenwald",
+    "inst": "Education",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/14",
+    "reg": "US",
+    "yr": 2025,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "A structured discussion activity on the literacies required to use generative AI responsibly.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Activity: Students find conceptual errors in AI output",
+    "by": "Janie Brennan",
+    "inst": "Chemistry / Engineering / Physics",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/6",
+    "reg": "US",
+    "yr": 2024,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Instructor pre-tests ChatGPT to find a wrong answer, then has students locate and explain the conceptual error.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Employing AI to enhance in-class role playing scenarios",
+    "by": "Eric Fournier",
+    "inst": "Social & Behavioral Sciences",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/2",
+    "reg": "US",
+    "yr": 2024,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Students use AI to build characters and arguments ahead of in-class role-play scenarios.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Exploring cultural stereotypes via AI-generated images",
+    "by": "Eric Fournier",
+    "inst": "Social & Behavioral Sciences",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/1",
+    "reg": "US",
+    "yr": 2024,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Image Generation"
+    ],
+    "s": "Students generate AI images of cultural groups, then critique the outputs to surface embedded stereotypes.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Teaching Evolutionary Principles with AI Image Generators",
+    "by": "Jacqueline Garnett",
+    "inst": "Biology",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/3",
+    "reg": "US",
+    "yr": 2024,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "Image Generation"
+    ],
+    "s": "Students generate a grid of AI images of one organism and use trait variation to build a phylogenetic tree.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Does AI Ask Good Questions? A Discussion Activity",
+    "by": "Katherine Tilghman",
+    "inst": "English / Philosophy",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/5",
+    "reg": "US",
+    "yr": 2024,
+    "th": "Discussion & Critical Thinking",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students prompt ChatGPT for discussion questions, then evaluate and improve them.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Traduttore, Traditore: A Comparative Translation Activity",
+    "by": "Katherine Tilghman",
+    "inst": "Translation Studies",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/4",
+    "reg": "US",
+    "yr": 2024,
+    "th": "Discipline Teaching",
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Students translate a passage themselves, then compare it against ChatGPT's translation.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Incorporating GenAI into Information Literacy: Engineering Standards",
+    "by": "Lauren Todd",
+    "inst": "Mechanical Engineering",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/8",
+    "reg": "US",
+    "yr": 2024,
+    "th": "Research Methods",
+    "disc": [
+      "Engineering"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Students prompt GenAI for relevant engineering standards, then must verify the responses themselves.",
+    "repo": "washu",
+    "source": "seed"
+  },
+  {
+    "t": "Using GenAI to teach information literacy in Engineering Technical Writing",
+    "by": "Lauren Todd, Eliot Boden, Sam Lindgren",
+    "inst": "Science & Math Education",
+    "u": "https://openscholarship.wustl.edu/ai_teaching/7",
+    "reg": "US",
+    "yr": 2024,
+    "th": "Research Methods",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Students use GenAI to generate research keywords, then verify findings via the library's own search tools.",
+    "repo": "washu",
+    "source": "seed"
   }
 ]
