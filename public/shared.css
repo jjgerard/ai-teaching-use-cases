@@ -486,6 +486,9 @@
     gap: 1.4rem;
     padding-right: 0.3rem;
   }
+  @media (max-width: 880px) {
+    .rail { position: static; top: auto; }
+  }
   .facet-group { position: relative; }
   .facet-toggle {
     width: 100%;
