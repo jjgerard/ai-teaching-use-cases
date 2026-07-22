@@ -24,6 +24,9 @@
   .success-panel .big-check { font-size: 2.6rem; margin-bottom: 0.6rem; }
   .success-panel h2 { font-family: var(--face-display); margin: 0 0 0.6rem; }
   .success-panel p { color: var(--ink-soft); max-width: 48ch; margin: 0 auto 1.2rem; }
+  .add-tag-row { display: flex; gap: 0.5rem; margin-top: 0.5rem; }
+  .add-tag-row input { flex: 1; background: var(--paper-card); border: 1.5px solid var(--line-strong); border-radius: 3px; padding: 0.45rem 0.6rem; font-family: var(--face-body); font-size: 0.85rem; color: var(--ink); }
+  .add-tag-row .ghost-btn { padding: 0.45rem 0.8rem; font-size: 0.72rem; }
 </style>
 </head>
 <body>
@@ -67,7 +70,8 @@
     <div class="field-grid">
       <div class="field-row">
         <label for="f-reg">Region</label>
-        <select id="f-reg"></select>
+        <input type="text" id="f-reg" list="reg-list" placeholder="Pick an existing one, or type a new one">
+        <datalist id="reg-list"></datalist>
       </div>
       <div class="field-row">
         <label for="f-yr">Year published</label>
@@ -76,15 +80,24 @@
     </div>
     <div class="field-row">
       <label for="f-th">Theme</label>
-      <select id="f-th"></select>
+      <input type="text" id="f-th" list="th-list" placeholder="Pick an existing one, or type a new one">
+      <datalist id="th-list"></datalist>
     </div>
     <div class="field-row">
-      <label>Discipline(s) — tick any that apply</label>
+      <label>Discipline(s) — tick any that apply, or add a new one</label>
       <div class="check-grid" id="f-disc"></div>
+      <div class="add-tag-row">
+        <input type="text" id="f-disc-new" placeholder="Add another discipline…">
+        <button type="button" class="ghost-btn" id="f-disc-add">+ Add</button>
+      </div>
     </div>
     <div class="field-row">
-      <label>AI tool(s) used — tick any that apply</label>
+      <label>AI tool(s) used — tick any that apply, or add a new one</label>
       <div class="check-grid" id="f-tool"></div>
+      <div class="add-tag-row">
+        <input type="text" id="f-tool-new" placeholder="Add another tool…">
+        <button type="button" class="ghost-btn" id="f-tool-add">+ Add</button>
+      </div>
     </div>
     <div class="field-row">
       <label for="f-summary">Summary *</label>
@@ -135,22 +148,56 @@
 </div>
 
 <script>
-function fillSelect(sel, options, placeholder) {
-  sel.innerHTML = `<option value="">${placeholder}</option>` + options.map(o => `<option value="${o}">${o}</option>`).join("");
+function fillDatalist(list, options) {
+  list.innerHTML = options.map(o => `<option value="${o.replace(/"/g,'&quot;')}">`).join("");
 }
 function fillCheckGrid(container, options) {
   container.innerHTML = options.map(o => `<label><input type="checkbox" value="${o.replace(/"/g,'&quot;')}"> ${o}</label>`).join("");
 }
 function uniqueSorted(arr) { return [...new Set(arr)].sort(); }
 
+// Lets a submitter add a discipline/tool that isn't in the existing list yet —
+// added as its own, already-checked checkbox rather than a separate field, so
+// it's treated identically to picking an existing one.
+function wireAddTag(containerId, inputId, buttonId) {
+  const container = document.getElementById(containerId);
+  const input = document.getElementById(inputId);
+  function addTag() {
+    const value = input.value.trim();
+    if (!value) return;
+    const exists = [...container.querySelectorAll("input")].some(
+      (c) => c.value.toLowerCase() === value.toLowerCase()
+    );
+    if (!exists) {
+      const label = document.createElement("label");
+      label.innerHTML = `<input type="checkbox" checked value="${value.replace(/"/g,'&quot;')}"> ${value.replace(/</g,"&lt;")}`;
+      container.appendChild(label);
+    } else {
+      container.querySelectorAll("input").forEach((c) => {
+        if (c.value.toLowerCase() === value.toLowerCase()) c.checked = true;
+      });
+    }
+    input.value = "";
+  }
+  document.getElementById(buttonId).addEventListener("click", addTag);
+  input.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      addTag();
+    }
+  });
+}
+
 (async function init() {
   const res = await fetch("/api/catalog");
   const data = await res.json();
   const entries = data.entries;
-  fillSelect(document.getElementById("f-reg"), uniqueSorted(entries.map(e => e.reg).filter(Boolean)), "— choose region —");
-  fillSelect(document.getElementById("f-th"), uniqueSorted(entries.map(e => e.th).filter(Boolean)), "— choose theme —");
+  fillDatalist(document.getElementById("reg-list"), uniqueSorted(entries.map(e => e.reg).filter(Boolean)));
+  fillDatalist(document.getElementById("th-list"), uniqueSorted(entries.map(e => e.th).filter(Boolean)));
   fillCheckGrid(document.getElementById("f-disc"), uniqueSorted(entries.flatMap(e => e.disc)));
   fillCheckGrid(document.getElementById("f-tool"), uniqueSorted(entries.flatMap(e => e.tool)).filter(v => v !== "Unspecified"));
+  wireAddTag("f-disc", "f-disc-new", "f-disc-add");
+  wireAddTag("f-tool", "f-tool-new", "f-tool-add");
 })();
 
 const feedbackEl = document.getElementById("formFeedback");
