@@ -2736,6 +2736,74 @@
       ],
       "yr": 2024,
       "s": "Students use GenAI to generate research keywords, then verify findings via the library's own search tools."
+    },
+    {
+      "t": "Piloting GPT-based asynchronous learning in a digital marketing module supporting tourism enterprises in LDCs",
+      "u": "https://www.mdpi.com/2504-3900/114/1/1",
+      "by": "John Bustard and Mihaela Ghisoiu",
+      "inst": "Ulster Business School; Northern Regional College",
+      "repo": "adaptedu2024",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2025,
+      "s": "A pilot project incorporated generative pretrained transformers into an asynchronous digital marketing module, exposing learners to GPT tools while focusing coursework on supporting tourism enterprises in Botswana, Uganda, and Zambia."
+    },
+    {
+      "t": "Cómo Entrenar tu Dragón: an ECTS-accredited GenAI literacy module for new HE lecturers",
+      "u": "https://www.mdpi.com/2504-3900/114/1/2",
+      "by": "Mari Cruz García Vallejo",
+      "inst": "Universidad de Las Palmas de Gran Canaria",
+      "repo": "adaptedu2024",
+      "reg": "Spain",
+      "th": "Staff Development",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Institutional / Cross-Disciplinary"
+      ],
+      "yr": 2025,
+      "s": "An optional, ECTS-accredited module ('CETD23') within ULPGC's staff teacher-training programme was delivered to build new lecturers' critical AI literacy; it received a 4.84/5 satisfaction score and 100% completion of its final summative project."
+    },
+    {
+      "t": "Trialling ChatGPT to co-author a problem-based-learning medical case scenario",
+      "u": "https://www.mdpi.com/2504-3900/114/1/5",
+      "by": "Enjy Abouzeid and Patricia Harris",
+      "inst": "School of Medicine, Ulster University",
+      "repo": "adaptedu2024",
+      "reg": "UK",
+      "th": "Discipline Teaching",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2025,
+      "s": "Ulster's School of Medicine trialled a single author working in dialogue with ChatGPT to draft a full PBL clinical case (a cerebral-haemorrhage headache scenario) against the school's standard template; six experienced PBL tutors then quality-checked the output and recommended further revisions before use."
+    },
+    {
+      "t": "Using ChatGPT as a simulated interview subject to teach critical thinking in a 'Politics of Sport' module",
+      "u": "https://www.mdpi.com/2504-3900/114/1/8",
+      "by": "Conor Heffernan",
+      "inst": "School of Sport and Exercise Science, Ulster University",
+      "repo": "adaptedu2024",
+      "reg": "UK",
+      "th": "Discussion & Critical Thinking",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2025,
+      "s": "Undergraduate students on a 'Politics of Sport' module conducted interviews with a ChatGPT proxy playing an imagined sports figure, using questions drawn from peer-reviewed research, to practise applying academic literature to real-world scenarios and to critically probe the model's limitations."
     }
   ],
   "REPOS": {
@@ -2822,6 +2890,12 @@
       "short": "WashU",
       "url": "https://openscholarship.wustl.edu/ai_teaching/",
       "blurb": "Faculty-submitted teaching activities, each a downloadable PDF of the assignment as actually run."
+    },
+    "adaptedu2024": {
+      "label": "AdaptEdu 2024 — Online Workshop on Adaptive Education: Harnessing AI for Academic Progress",
+      "short": "AdaptEdu 2024",
+      "url": "https://www.mdpi.com/2504-3900/114/1",
+      "blurb": "Peer-reviewed proceedings (MDPI Proceedings journal) from an online workshop on generative AI in higher education, held 12 April 2024 and organised by Ulster University; only papers describing an actual trial are catalogued here, not the editorials, synthesis report, or explicit best-practices/guidance paper in the same issue."
     }
   }
 }

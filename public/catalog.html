@@ -7,7 +7,7 @@
     <div>
       <p class="catalog-mark">Field survey · logged, not modeled</p>
       <h1 class="title">Specimen Catalog of Real AI Case Studies in Education</h1>
-      <p class="lede">Every entry here is a named person, course, or institution describing exactly what they did with generative AI — collected across 14 repositories at universities and sector bodies worldwide. No frameworks; only specimens.</p>
+      <p class="lede">Every entry here is a named person, course, or institution describing exactly what they did with generative AI — collected across <span id="repoCount">—</span> repositories at universities and sector bodies worldwide. No frameworks; only specimens.</p>
     </div>
     <div class="tally">
       <span class="big" id="tallyTotal">—</span>
@@ -362,6 +362,7 @@ async function loadData() {
   const data = await res.json();
   REPOS = data.repos;
   S = data.entries;
+  document.getElementById("repoCount").textContent = Object.keys(REPOS).length;
   buildAllFacets();
   render();
 }
