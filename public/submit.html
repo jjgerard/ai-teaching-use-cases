@@ -93,8 +93,8 @@
 
     <div class="attest-list">
       <div class="attest-heading">Before you submit — please confirm</div>
-      <label><input type="checkbox" id="f-attest1"> This describes something that was <strong>actually built, run, or trialled</strong> — not a proposal, framework, or guidance document.</label>
-      <label><input type="checkbox" id="f-attest2"> I have a <strong>real, working source link</strong> for this.</label>
+      <label><input type="checkbox" id="f-attest1"><span>This describes something that was <strong>actually built, run, or trialled</strong> — not a proposal, framework, or guidance document.</span></label>
+      <label><input type="checkbox" id="f-attest2"><span>I have a <strong>real, working source link</strong> for this.</span></label>
     </div>
 
     <div id="formFeedback"></div>
@@ -107,7 +107,10 @@
     <div class="big-check">✓</div>
     <h2>Thanks — it's in the review queue</h2>
     <p>The maintainer screens every submission against the same criteria used throughout this catalog before it goes live. You'll see it on the public catalog once approved.</p>
-    <a class="primary-btn" href="/submit" style="text-decoration:none; display:inline-block;">Submit another</a>
+    <div style="display:flex; gap:0.7rem; justify-content:center; flex-wrap:wrap;">
+      <a class="primary-btn" href="/submit" style="text-decoration:none; display:inline-block;">Submit another</a>
+      <a class="ghost-btn" href="/" style="text-decoration:none; display:inline-block;">Return to catalog</a>
+    </div>
   </div>
 </div>
 
