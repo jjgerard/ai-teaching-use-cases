@@ -64,11 +64,12 @@
         <h2 style="font-family: var(--face-display); font-size: 1rem; margin: 0;">Add from email</h2>
       </div>
       <p style="font-size: 0.82rem; color: var(--ink-soft); margin: 0 0 0.8rem;">
-        Paste the JSON block from a notification email here to publish it directly — this works even
-        if the original submission is no longer sitting in the queue below.
+        Paste a notification email here — the JSON block, the plain-text part, or the whole
+        email — to publish it directly. Works even if the original submission is no longer
+        sitting in the queue below.
       </p>
       <div class="field-row">
-        <textarea id="pasteBox" style="min-height: 5rem; font-family: var(--face-mono); font-size: 0.78rem;" placeholder='{"t":"…","by":"…","u":"…","s":"…", …}'></textarea>
+        <textarea id="pasteBox" style="min-height: 5rem; font-family: var(--face-mono); font-size: 0.78rem;" placeholder="Paste the notification email here…"></textarea>
       </div>
       <div id="pasteFeedback"></div>
       <div class="export-row">
@@ -153,14 +154,56 @@ document.getElementById("logoutBtn").addEventListener("click", async () => {
   checkAuth();
 });
 
+// Accepts the JSON block, the whole email pasted in (JSON block included
+// somewhere in it), or just the plain-text part of the email — the "Title: /
+// Contributor: / Source: / Summary:" format mailer.js always sends, JSON
+// block or not.
+function parseEmailText(raw) {
+  const get = (re) => {
+    const m = raw.match(re);
+    return m ? m[1].trim() : "";
+  };
+  const title = get(/^Title:\s*(.+)$/m);
+  const contributorLine = get(/^Contributor:\s*(.+)$/m);
+  let by = contributorLine;
+  let inst = "";
+  const instMatch = contributorLine.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+  if (instMatch) {
+    by = instMatch[1].trim();
+    inst = instMatch[2].trim();
+  }
+  const u = get(/^Source:\s*(.+)$/m);
+  const reg = get(/^Region:\s*(.+)$/m);
+  const th = get(/^Theme:\s*(.+)$/m);
+  const discLine = get(/^Discipline\(s\):\s*(.+)$/m);
+  const toolLine = get(/^Tool\(s\):\s*(.+)$/m);
+  const disc = discLine ? discLine.split(",").map((s) => s.trim()).filter(Boolean) : [];
+  const tool = toolLine ? toolLine.split(",").map((s) => s.trim()).filter(Boolean) : [];
+  const summaryMatch = raw.match(/Summary:\s*\n+([\s\S]*?)\n\s*\n\s*Review normally:/);
+  const s = summaryMatch ? summaryMatch[1].trim() : "";
+  if (!title && !u && !s) return null;
+  return { t: title, by, inst, u, reg, yr: "", th, disc, tool, s };
+}
+
+function parseEntryInput(raw) {
+  try {
+    return JSON.parse(raw);
+  } catch (err) {}
+  const jsonMatch = raw.match(/\{[\s\S]*\}/);
+  if (jsonMatch) {
+    try {
+      return JSON.parse(jsonMatch[0]);
+    } catch (err) {}
+  }
+  return parseEmailText(raw);
+}
+
 document.getElementById("publishBtn").addEventListener("click", async () => {
   const feedbackEl = document.getElementById("pasteFeedback");
   const raw = document.getElementById("pasteBox").value.trim();
-  let entry;
-  try {
-    entry = JSON.parse(raw);
-  } catch (err) {
-    feedbackEl.innerHTML = `<div class="badge bad">That's not valid JSON — paste the exact block from the email.</div>`;
+  const entry = parseEntryInput(raw);
+  if (!entry) {
+    feedbackEl.innerHTML = `<div class="badge bad">Couldn't read that — paste the JSON block, or the plain-text part of the email, or the whole email.</div>`;
     return;
   }
   const res = await fetch("/api/admin/publish", {
