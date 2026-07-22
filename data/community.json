@@ -2918,5 +2918,79 @@
     "s": "Undergraduate students on a 'Politics of Sport' module conducted interviews with a ChatGPT proxy playing an imagined sports figure, using questions drawn from peer-reviewed research, to practise applying academic literature to real-world scenarios and to critically probe the model's limitations.",
     "repo": "adaptedu2024",
     "source": "seed"
+  },
+  {
+    "t": "Embedding AI tools into Mechatronics and Engineering Programming modules",
+    "u": "https://www.dropbox.com/scl/fi/8wg04y33nii6qfunklt6j/Frontiers-special-topic-From-Avoidance-to-Adoption-accepted.pdf?rlkey=0qr2f4c9mted17dv8jmmh53ni&dl=0",
+    "by": "Muhammad Usman Hadi",
+    "inst": "School of Engineering, Ulster University",
+    "repo": "avoidance2026",
+    "reg": "UK",
+    "th": "Discipline Teaching",
+    "tool": [
+      "ChatGPT",
+      "Copilot"
+    ],
+    "disc": [
+      "Engineering"
+    ],
+    "yr": 2026,
+    "s": "Instructors on the Mechatronics 1 and Engineering Programming modules introduced AI tools (MATLAB's AI apps, generative-design software, code assistants like ChatGPT and Copilot) through structured, problem-based tutorials. Students were required to cite AI contributions in reports as they would a human collaborator, debated ethical scenarios such as an AI design relying on unauthorised proprietary data, and were taught to cross-check AI outputs against traditional engineering analysis after several submitted solutions exceeded the module's scope or reliability.",
+    "source": "seed"
+  },
+  {
+    "t": "Comparing AI and student definitions to teach a language acquisition theory",
+    "u": "https://www.dropbox.com/scl/fi/8wg04y33nii6qfunklt6j/Frontiers-special-topic-From-Avoidance-to-Adoption-accepted.pdf?rlkey=0qr2f4c9mted17dv8jmmh53ni&dl=0",
+    "by": "Juliana Gerard",
+    "inst": "School of Communication and Media, Ulster University",
+    "repo": "avoidance2026",
+    "reg": "UK",
+    "th": "Discussion & Critical Thinking",
+    "tool": [
+      "Unspecified"
+    ],
+    "disc": [
+      "Languages & Linguistics"
+    ],
+    "yr": 2026,
+    "s": "In an undergraduate module on children's language acquisition, students first define and apply a core theoretical concept (e.g. syntactic bootstrapping) in groups without AI, then generate an AI definition of the same concept, then compare the two and discuss the differences. Run weekly as a flipped-classroom activity, the exercise is designed to build theoretical understanding and AI literacy at the same time.",
+    "source": "seed"
+  },
+  {
+    "t": "Comparing AI-generated word embeddings and model outputs against theory",
+    "u": "https://www.dropbox.com/scl/fi/8wg04y33nii6qfunklt6j/Frontiers-special-topic-From-Avoidance-to-Adoption-accepted.pdf?rlkey=0qr2f4c9mted17dv8jmmh53ni&dl=0",
+    "by": "Muskaan Singh",
+    "inst": "School of Computing, Engineering and Intelligent Systems, Ulster University",
+    "repo": "avoidance2026",
+    "reg": "UK",
+    "th": "Discussion & Critical Thinking",
+    "tool": [
+      "Other"
+    ],
+    "disc": [
+      "Computer Science"
+    ],
+    "yr": 2026,
+    "s": "In a postgraduate Deep Learning and NLP module, students manually predict word-embedding analogies and text classifications before comparing their predictions against outputs from pretrained embedding models (Word2Vec/GloVe) and transformer models (BERT/T5), analysing where and why the models diverge from theoretical expectations, including cases of bias and adversarial sensitivity.",
+    "source": "seed"
+  },
+  {
+    "t": "Using AI text analysis and ChatGPT alongside close reading of Chaucer's Canterbury Tales",
+    "u": "https://www.dropbox.com/scl/fi/8wg04y33nii6qfunklt6j/Frontiers-special-topic-From-Avoidance-to-Adoption-accepted.pdf?rlkey=0qr2f4c9mted17dv8jmmh53ni&dl=0",
+    "by": "Aisling Reid",
+    "inst": "School of Arts, English and Languages, Queen's University Belfast",
+    "repo": "avoidance2026",
+    "reg": "UK",
+    "th": "Discipline Teaching",
+    "tool": [
+      "ChatGPT",
+      "Other"
+    ],
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "yr": 2026,
+    "s": "An undergraduate module on Chaucer's Canterbury Tales at Queen's University Belfast piloted using Voyant Text Analysis, AntConc and ChatGPT to surface lexical patterns and initial thematic summaries (e.g. repeated references to 'gentillesse'), which then served as a springboard for close reading and discussion rather than a substitute for it. Seminars included debate on the ethics of using AI to hypothesise missing narrative content, such as the incomplete Cook's Tale, and documented cases where tools like AntConc misread Middle English spellings.",
+    "source": "seed"
   }
 ]
