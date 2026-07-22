@@ -95,21 +95,22 @@
   /* ---------- masthead ---------- */
   .masthead {
     background: linear-gradient(155deg, var(--navy-deep) 0%, var(--navy) 78%);
-    border-bottom: 4px solid var(--sky);
-    padding: 2.8rem 1.5rem 2.2rem;
+    border-bottom: 3px solid var(--sky);
+    padding: 1.3rem 1.5rem;
   }
   .masthead-inner {
     max-width: 1180px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    gap: 2rem;
+    align-items: center;
+    gap: 1.5rem;
     flex-wrap: wrap;
   }
+  .masthead-text { flex: 1 1 420px; min-width: 0; }
   .catalog-mark {
     font-family: var(--face-body);
-    font-size: 0.74rem;
+    font-size: 0.68rem;
     font-weight: 700;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -117,20 +118,20 @@
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    margin: 0 0 0.8rem;
+    margin: 0 0 0.35rem;
   }
   .catalog-mark::before {
     content: "";
-    width: 26px;
-    height: 3px;
+    width: 20px;
+    height: 2px;
     background: var(--sky);
     display: inline-block;
   }
   h1.title {
     font-family: var(--face-display);
-    font-size: clamp(1.6rem, 3.4vw, 2.35rem);
+    font-size: clamp(1.25rem, 2.2vw, 1.6rem);
     line-height: 1.15;
-    margin: 0 0 0.6rem;
+    margin: 0 0 0.3rem;
     text-wrap: balance;
     font-weight: 700;
     letter-spacing: -0.005em;
@@ -140,31 +141,33 @@
     max-width: 58ch;
     color: #c3d4e6;
     margin: 0;
-    font-size: 0.97rem;
+    font-size: 0.85rem;
   }
   .tally {
     text-align: right;
     font-family: var(--face-body);
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
   }
   .tally .big {
     font-family: var(--face-display);
-    font-size: 2.6rem;
+    font-size: 1.9rem;
     line-height: 1;
     color: #ffffff;
     font-weight: 700;
   }
   .tally .cap {
-    font-size: 0.68rem;
+    font-size: 0.6rem;
     font-weight: 700;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     color: var(--sky);
     display: block;
-    margin-top: 0.35rem;
+    margin-top: 0.2rem;
   }
   .contribute-btn {
-    margin-top: 0.7rem;
     font-family: var(--face-body);
     font-weight: 700;
     font-size: 0.72rem;
@@ -173,14 +176,15 @@
     text-decoration: none;
     display: inline-block;
     color: var(--navy-deep);
-    background: linear-gradient(180deg, #7cc0ea 0%, var(--sky) 100%);
+    background: linear-gradient(180deg, #ffffff 0%, #d7dde3 100%);
     border: none;
     border-radius: var(--radius);
     padding: 0.55rem 0.9rem;
     cursor: pointer;
     box-shadow: var(--btn-shadow);
   }
-  .contribute-btn:hover { background: var(--sky); }
+  .contribute-btn:hover { background: linear-gradient(180deg, #ffffff 0%, #c3cad2 100%); }
+  .tally-count { text-align: right; }
 
   
 
