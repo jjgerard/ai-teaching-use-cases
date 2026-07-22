@@ -4,7 +4,15 @@ const path = require("node:path");
 const express = require("express");
 const session = require("express-session");
 const db = require("./db");
-const { notifyNewSubmission, notifyNewLead } = require("./mailer");
+const {
+  notifyNewSubmission,
+  notifyNewLead,
+  notifyEditRequest,
+  sendEditRequestConfirmation,
+  sendSubmissionConfirmation,
+} = require("./mailer");
+
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const { syncApprovedEntriesToGit } = require("./gitStore");
 
 function syncGit() {
@@ -84,6 +92,8 @@ app.post("/api/submissions", (req, res) => {
   res.status(201).json({ id });
   const adminUrl = `${req.protocol}://${req.get("host")}/admin`;
   notifyNewSubmission(entry, adminUrl);
+  const submitterEmail = String(body.email || "").trim();
+  if (EMAIL_RE.test(submitterEmail)) sendSubmissionConfirmation(submitterEmail, entry);
 });
 
 // ---- admin: auth ----
@@ -152,6 +162,22 @@ app.post("/api/admin/publish", requireAuth, (req, res) => {
   const published = db.setStatus(id, "approved");
   res.status(201).json({ entry: published });
   syncGit();
+});
+
+// ---- public: request an edit (or removal) of an existing entry ----
+app.post("/api/edit-requests", (req, res) => {
+  const body = req.body || {};
+  const email = String(body.email || "").trim();
+  const description = String(body.description || "").trim().slice(0, 4000);
+  const entryTitle = String(body.entryTitle || "").trim().slice(0, 300) || "(untitled entry)";
+  const entryUrl = String(body.entryUrl || "").trim().slice(0, 500);
+  if (!description) return res.status(400).json({ error: "missing_description" });
+  if (!EMAIL_RE.test(email)) return res.status(400).json({ error: "invalid_email" });
+
+  const payload = { email, description, entryTitle, entryUrl };
+  res.status(201).json({ ok: true });
+  notifyEditRequest(payload);
+  sendEditRequestConfirmation(payload);
 });
 
 // ---- public: "here's a repository of case studies, go look" leads ----

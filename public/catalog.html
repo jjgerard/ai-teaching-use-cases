@@ -19,6 +19,28 @@
   </div>
 </div>
 
+<div class="modal-overlay hidden" id="editRequestOverlay">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="editRequestTitle">
+    <div class="modal-head">
+      <h2 id="editRequestTitle">Request an edit</h2>
+      <button class="modal-close" id="closeEditRequest" type="button">✕ Close</button>
+    </div>
+    <p class="modal-sub" id="editRequestEntryTitle"></p>
+    <div class="field-row">
+      <label for="er-email">Your email *</label>
+      <input type="email" id="er-email" placeholder="you@example.com">
+    </div>
+    <div class="field-row">
+      <label for="er-desc">Describe the requested edit *</label>
+      <textarea id="er-desc" placeholder="What should change? You can also request that this entry be removed entirely."></textarea>
+    </div>
+    <div id="editRequestFeedback"></div>
+    <div class="export-row">
+      <button class="primary-btn" id="submitEditRequest" type="button">Send request</button>
+    </div>
+  </div>
+</div>
+
 <div class="layout">
   <aside class="rail" id="rail">
     <div class="searchbar">
@@ -316,7 +338,11 @@ function render() {
         ${yearPill}
         <span class="pill repo">${s.reg}</span>
       </div>
+      <div class="card-footer">
+        <button class="edit-request-btn" type="button">Request an edit</button>
+      </div>
     `;
+    art.querySelector(".edit-request-btn").addEventListener("click", () => openEditRequest(s));
     resultsEl.appendChild(art);
   });
 }
@@ -368,5 +394,58 @@ async function loadData() {
   render();
 }
 loadData();
+
+// ---------- "request an edit" popup ----------
+const editRequestOverlay = document.getElementById("editRequestOverlay");
+let editRequestTarget = null;
+
+function openEditRequest(entry) {
+  editRequestTarget = entry;
+  document.getElementById("editRequestEntryTitle").textContent = entry.t;
+  document.getElementById("er-email").value = "";
+  document.getElementById("er-desc").value = "";
+  document.getElementById("editRequestFeedback").innerHTML = "";
+  editRequestOverlay.classList.remove("hidden");
+}
+function closeEditRequest() { editRequestOverlay.classList.add("hidden"); }
+
+document.getElementById("closeEditRequest").addEventListener("click", closeEditRequest);
+editRequestOverlay.addEventListener("click", e => { if (e.target === editRequestOverlay) closeEditRequest(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape" && !editRequestOverlay.classList.contains("hidden")) closeEditRequest(); });
+
+document.getElementById("submitEditRequest").addEventListener("click", async () => {
+  const feedbackEl = document.getElementById("editRequestFeedback");
+  const email = document.getElementById("er-email").value.trim();
+  const description = document.getElementById("er-desc").value.trim();
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    feedbackEl.innerHTML = `<div class="badge bad">Please enter a valid email address.</div>`;
+    return;
+  }
+  if (!description) {
+    feedbackEl.innerHTML = `<div class="badge bad">Please describe the requested edit.</div>`;
+    return;
+  }
+  const btn = document.getElementById("submitEditRequest");
+  btn.disabled = true;
+  try {
+    const res = await fetch("/api/edit-requests", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        email,
+        description,
+        entryId: editRequestTarget.id,
+        entryTitle: editRequestTarget.t,
+        entryUrl: editRequestTarget.u,
+      }),
+    });
+    if (!res.ok) throw new Error("failed");
+    feedbackEl.innerHTML = `<div class="badge ok">Sent — you'll get a confirmation email shortly.</div>`;
+    setTimeout(closeEditRequest, 1600);
+  } catch (err) {
+    feedbackEl.innerHTML = `<div class="badge bad">Something went wrong — please try again in a moment.</div>`;
+  }
+  btn.disabled = false;
+});
 
 </script>

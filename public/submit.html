@@ -66,6 +66,10 @@
       <label for="f-url">Source URL *</label>
       <input type="url" id="f-url" placeholder="https://… a page, PDF, or post describing it">
     </div>
+    <div class="field-row">
+      <label for="f-email">Your email (optional)</label>
+      <input type="email" id="f-email" placeholder="you@example.com — only used to send you a confirmation">
+    </div>
     <div class="field-grid">
       <div class="field-row">
         <label for="f-reg">Region</label>
@@ -207,6 +211,7 @@ function readForm() {
     by: document.getElementById("f-by").value.trim(),
     inst: document.getElementById("f-inst").value.trim(),
     u: document.getElementById("f-url").value.trim(),
+    email: document.getElementById("f-email").value.trim(),
     reg: document.getElementById("f-reg").value,
     yr: document.getElementById("f-yr").value ? Number(document.getElementById("f-yr").value) : "",
     th: document.getElementById("f-th").value,

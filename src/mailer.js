@@ -84,4 +84,77 @@ async function notifyNewLead(lead, adminUrl) {
   }
 }
 
-module.exports = { notifyNewSubmission, notifyNewLead };
+async function notifyEditRequest(req) {
+  if (!transporter) return;
+  const lines = [
+    `Someone requested an edit to an existing catalog entry:`,
+    "",
+    `Entry: ${req.entryTitle}`,
+    req.entryUrl ? `Catalog source: ${req.entryUrl}` : null,
+    `Requester email: ${req.email}`,
+    "",
+    "Requested change:",
+    req.description,
+  ].filter((l) => l !== null);
+
+  try {
+    await transporter.sendMail({
+      from: GMAIL_USER,
+      to: NOTIFY_EMAIL,
+      subject: `Edit request: ${req.entryTitle}`,
+      text: lines.join("\n"),
+    });
+  } catch (err) {
+    console.error("Failed to send edit-request notification email:", err.message);
+  }
+}
+
+async function sendEditRequestConfirmation(req) {
+  if (!transporter) return;
+  const lines = [
+    `Thanks — your edit request for "${req.entryTitle}" has been sent to the maintainer for review.`,
+    "",
+    "What you asked for:",
+    req.description,
+    "",
+    "You don't need to do anything else — this is just a confirmation, not a request for a reply.",
+  ];
+  try {
+    await transporter.sendMail({
+      from: GMAIL_USER,
+      to: req.email,
+      subject: `Received your edit request for "${req.entryTitle}"`,
+      text: lines.join("\n"),
+    });
+  } catch (err) {
+    console.error("Failed to send edit-request confirmation email:", err.message);
+  }
+}
+
+async function sendSubmissionConfirmation(email, entry) {
+  if (!transporter) return;
+  const lines = [
+    `Thanks — your submission "${entry.t}" has been sent to the maintainer for review.`,
+    "",
+    "It'll appear in the public catalog once it's been checked against the site's inclusion criteria.",
+    "You don't need to do anything else — this is just a confirmation, not a request for a reply.",
+  ];
+  try {
+    await transporter.sendMail({
+      from: GMAIL_USER,
+      to: email,
+      subject: `Received your submission: ${entry.t}`,
+      text: lines.join("\n"),
+    });
+  } catch (err) {
+    console.error("Failed to send submission confirmation email:", err.message);
+  }
+}
+
+module.exports = {
+  notifyNewSubmission,
+  notifyNewLead,
+  notifyEditRequest,
+  sendEditRequestConfirmation,
+  sendSubmissionConfirmation,
+};
