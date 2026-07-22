@@ -101,18 +101,19 @@ Visit `http://localhost:3000` (or whatever `PORT` you set).
 
 ### Important: persistence and cost
 
-`render.yaml` requests Render's **Starter** plan (currently ~$7/month) specifically because
-it's the cheapest tier with a **persistent disk** — without one, Render's free tier wipes
-the filesystem (and your SQLite database, including anything pending review) on every
-redeploy or restart. If you don't want a paid plan:
+`render.yaml` runs on Render's **free** tier, which has no persistent disk — the local
+SQLite file resets on every rebuild/restart. That's fine here specifically *because* git
+persistence (above) is set up: approved entries are re-seeded from `data/community.json`
+on every boot, and pending ones are backed up by the notification email. Without
+`GITHUB_TOKEN`/`GITHUB_REPO` configured, approved entries would be lost on every restart —
+so treat git persistence as required, not optional, if you're staying on the free tier.
 
-- Set up **git persistence** (see above) and switch `plan: starter` to `plan: free` (and
-  delete the `disk:` block) in `render.yaml`. Approved entries survive rebuilds via
-  `data/community.json`; pending ones are backed up by the notification email instead of a
-  disk. This is the recommended free option once `GITHUB_TOKEN`/`GITHUB_REPO` are set.
+If you'd rather not depend on git for this, two alternatives:
+- Switch `plan: free` to a paid plan (e.g. `starter`, ~$7/month) and add a `disk:` block
+  mounting somewhere like `/var/data`, with `DB_PATH` pointing into it — a real persistent
+  disk, no git involvement needed.
 - Or swap the storage layer for a free external database (e.g. Turso/libSQL, Neon Postgres)
-  if you'd rather not rely on git for this — that's a change to `src/db.js`, not the rest
-  of the app.
+  — that's a change to `src/db.js`, not the rest of the app.
 
 ### Changing the admin password later
 

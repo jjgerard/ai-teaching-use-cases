@@ -2,20 +2,14 @@ services:
   - type: web
     name: case-study-catalog
     runtime: node
-    plan: starter
+    plan: free
     buildCommand: npm install
     startCommand: npm start
-    disk:
-      name: catalog-data
-      mountPath: /var/data
-      sizeGB: 1
     envVars:
       - key: ADMIN_PASSWORD
         sync: false
       - key: SESSION_SECRET
         generateValue: true
-      - key: DB_PATH
-        value: /var/data/catalog.db
       - key: GMAIL_USER
         sync: false
       - key: GMAIL_APP_PASSWORD
@@ -27,4 +21,4 @@ services:
       - key: GITHUB_REPO
         sync: false
       - key: GITHUB_BRANCH
-        value: main
+        value: master
