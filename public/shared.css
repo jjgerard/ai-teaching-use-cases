@@ -546,6 +546,7 @@
     padding: 0.4rem;
   }
   .facet-group.open .facet-panel { display: block; }
+  #facet-repo .facet-panel { max-height: 280px; overflow-y: auto; }
   .facet-list { display: flex; flex-direction: column; gap: 0.05rem; }
   .facet-row {
     display: flex;
