@@ -1,9 +1,10 @@
-require("dotenv").config();
+require("dotenv").config({ quiet: true });
 const crypto = require("node:crypto");
 const path = require("node:path");
 const express = require("express");
 const session = require("express-session");
 const db = require("./db");
+const { notifyNewSubmission } = require("./mailer");
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 const SESSION_SECRET = process.env.SESSION_SECRET;
@@ -68,6 +69,8 @@ app.post("/api/submissions", (req, res) => {
   };
   const id = db.insertSubmission(entry);
   res.status(201).json({ id });
+  const adminUrl = `${req.protocol}://${req.get("host")}/admin`;
+  notifyNewSubmission(entry, adminUrl);
 });
 
 // ---- admin: auth ----

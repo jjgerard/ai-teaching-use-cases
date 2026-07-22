@@ -17,12 +17,37 @@ and a password-gated dashboard for approving new entries before they go live.
   Approve, reject, edit, or permanently delete any submission there.
 - Storage is SQLite via Node's built-in `node:sqlite` module — no native build step, no
   separate database service to run.
+- Every new submission also fires an email notification (see below) — this is optional
+  and skipped silently if not configured.
+
+## Email notifications
+
+Sends via Gmail SMTP (not a new account — reuses whichever Gmail address you designate
+as the sender) whenever someone submits through `/submit`. Set three env vars:
+
+| Var | Meaning |
+|---|---|
+| `GMAIL_USER` | The Gmail address that **sends** the notification (e.g. `jgerard417@gmail.com`) |
+| `GMAIL_APP_PASSWORD` | An app password for that account (see below) — not your regular Gmail password |
+| `NOTIFY_EMAIL` | Where notifications are **delivered** — can be any address, including a different Gmail account (e.g. `gerard.juliana@gmail.com`) or an institutional inbox like `ai@ulster.ac.uk` |
+
+To get an app password: the `GMAIL_USER` account needs 2-Step Verification turned on
+(Google Account → Security), then generate one at
+[myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords). It's a
+16-character code, not your login password — paste it into `GMAIL_APP_PASSWORD`.
+
+If any of the three vars is missing, the server logs a warning on startup and simply
+skips sending — submissions still work normally, they just won't trigger an email.
+
+The recipient doesn't need to be related to the sending account or match any domain —
+Gmail SMTP can deliver to any inbox, so pointing `NOTIFY_EMAIL` at an institutional
+address works the same as pointing it at a personal one.
 
 ## Local development
 
 ```bash
 npm install
-cp .env.example .env   # then edit ADMIN_PASSWORD and SESSION_SECRET
+cp .env.example .env   # then edit ADMIN_PASSWORD, SESSION_SECRET, and the email vars above
 npm start
 ```
 
