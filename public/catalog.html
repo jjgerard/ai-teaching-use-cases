@@ -81,6 +81,11 @@
         <label class="sort-note" for="groupBySelect">Group by</label>
         <select id="groupBySelect">
           <option value="repo">Collection</option>
+          <option value="reg">Region</option>
+          <option value="disc">Discipline</option>
+          <option value="th">Theme</option>
+          <option value="tool">AI tool</option>
+          <option value="yr">Year published</option>
           <option value="inst">Institution</option>
         </select>
       </span>
@@ -220,24 +225,51 @@ function updateFacetBadges() {
 }
 
 // Grouping options for the "Group by" dropdown — each defines how to derive
-// a group key from a specimen, how that key sorts (a distinct concern from
-// display, e.g. collections sort by their short label, not their object
-// key), and how to render the divider header for that group.
+// a group key from a specimen, how two keys compare for ordering groups (a
+// distinct concern from display — e.g. collections order by short label, not
+// object key, and years order newest-first rather than alphabetically), and
+// how to render the divider header for that group.
 const NO_INST_KEY = "(No institution listed)";
+const UNSPECIFIED = "Unspecified";
+function alphaCompare(a, b) { return String(a).toLowerCase().localeCompare(String(b).toLowerCase()); }
+// Puts a given sentinel key (e.g. "no institution listed", "Unspecified")
+// last regardless of alphabetical order, otherwise falls back to alphaCompare.
+function alphaCompareSentinelLast(sentinel) {
+  return (a, b) => {
+    if (a === sentinel) return b === sentinel ? 0 : 1;
+    if (b === sentinel) return -1;
+    return alphaCompare(a, b);
+  };
+}
+const plainHeader = key => `<h2>${key}</h2>`;
+// disc/tool are array-valued (an entry can carry several) — grouping uses
+// just the first tag as a representative bucket rather than duplicating the
+// card into every group it could belong to.
 const GROUP_OPTIONS = {
   repo: {
+    label: "Collection",
     keyFor: s => s.repo,
-    sortKey: key => (REPOS[key] ? REPOS[key].short : key).toLowerCase(),
+    compare: (a, b) => alphaCompare(REPOS[a] ? REPOS[a].short : a, REPOS[b] ? REPOS[b].short : b),
     renderHeader: key => {
       const r = REPOS[key];
       return `<h2><a href="${r.url}" target="_blank" rel="noopener">${r.label}</a></h2><p>${r.blurb}</p>`;
     },
   },
-  inst: {
-    keyFor: s => s.inst || NO_INST_KEY,
-    sortKey: key => (key === NO_INST_KEY ? "￿" : key.toLowerCase()),
-    renderHeader: key => `<h2>${key}</h2>`,
+  reg: { label: "Region", keyFor: s => s.reg || UNSPECIFIED, compare: alphaCompareSentinelLast(UNSPECIFIED), renderHeader: plainHeader },
+  th: { label: "Theme", keyFor: s => s.th || UNSPECIFIED, compare: alphaCompareSentinelLast(UNSPECIFIED), renderHeader: plainHeader },
+  disc: { label: "Discipline", keyFor: s => (s.disc && s.disc[0]) || UNSPECIFIED, compare: alphaCompareSentinelLast(UNSPECIFIED), renderHeader: plainHeader },
+  tool: { label: "AI tool", keyFor: s => (s.tool && s.tool[0]) || UNSPECIFIED, compare: alphaCompareSentinelLast(UNSPECIFIED), renderHeader: plainHeader },
+  yr: {
+    label: "Year published",
+    keyFor: s => String(s.yr || UNSPECIFIED),
+    compare: (a, b) => {
+      if (a === UNSPECIFIED) return 1;
+      if (b === UNSPECIFIED) return -1;
+      return Number(b) - Number(a);
+    },
+    renderHeader: plainHeader,
   },
+  inst: { label: "Institution", keyFor: s => s.inst || NO_INST_KEY, compare: alphaCompareSentinelLast(NO_INST_KEY), renderHeader: plainHeader },
 };
 let groupBy = "repo";
 
@@ -254,9 +286,7 @@ function render() {
   // Stable sort: groups cluster together while each group's own internal
   // order (the API's year-desc order) is preserved, since equal-key items
   // keep their relative order under Array#sort.
-  const sorted = [...filtered].sort((a, b) =>
-    group.sortKey(group.keyFor(a)).localeCompare(group.sortKey(group.keyFor(b)))
-  );
+  const sorted = [...filtered].sort((a, b) => group.compare(group.keyFor(a), group.keyFor(b)));
 
   let lastKey = null;
   sorted.forEach(s => {
@@ -271,7 +301,6 @@ function render() {
     const idx = S.indexOf(s) + 1;
     const art = document.createElement("article");
     art.className = "specimen";
-    const instPill = s.inst ? `<span class="pill inst">${s.inst}</span>` : "";
     const toolPills = s.tool.filter(v => !SILENT_VALUES.has(v)).map(tg => `<span class="pill tool">${tg}</span>`).join("");
     const discPills = s.disc.filter(v => !SILENT_VALUES.has(v)).map(d => `<span class="pill disc">${d}</span>`).join("");
     const yearPill = SILENT_VALUES.has(String(s.yr)) ? "" : `<span class="pill year">${s.yr}</span>`;
@@ -286,7 +315,6 @@ function render() {
           <span class="pill theme">${s.th}</span>
           ${toolPills}
           ${discPills}
-          ${instPill}
           ${yearPill}
           <span class="pill repo">${s.reg}</span>
         </div>

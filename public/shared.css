@@ -585,7 +585,6 @@
   .pill.theme { background: var(--accent-soft); color: var(--accent-ink); }
   .pill.tool { background: var(--cool-soft); color: var(--cool); }
   .pill.disc { background: var(--disc-soft); color: var(--disc); }
-  .pill.inst { border: 1px solid var(--line-strong); color: var(--ink-faint); background: none; margin-left: auto; }
   .pill.year { border: 1px solid var(--line-strong); color: var(--ink-faint); background: none; margin-left: auto; }
   .pill.repo {
     margin-left: auto;
