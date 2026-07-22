@@ -43,6 +43,41 @@ The recipient doesn't need to be related to the sending account or match any dom
 Gmail SMTP can deliver to any inbox, so pointing `NOTIFY_EMAIL` at an institutional
 address works the same as pointing it at a personal one.
 
+Every notification email also includes the submission as a single-line JSON block,
+formatted to be pasted straight into the admin dashboard's "Add from email" box (see
+below) — the email itself is the durable record of a submission, independent of whether
+its row in the database is still there by the time you get to it.
+
+## Git persistence for approved entries (avoids the paid Render plan)
+
+Without this, approved entries only exist in the SQLite file, so a host with no
+persistent disk (e.g. Render's free tier) loses them on every rebuild. With it, every
+approve/edit/delete of a community submission commits the full current list of approved
+entries to `data/community.json` in this repo via the GitHub API — so a freshly rebuilt
+instance has them baked in again at boot (`src/db.js` loads `community.json` the same way
+it loads the curated `seed.json`).
+
+| Var | Meaning |
+|---|---|
+| `GITHUB_TOKEN` | A GitHub personal access token, scoped to just this repo, with **Contents: Read and write** permission |
+| `GITHUB_REPO` | `your-username/case-study-catalog` |
+| `GITHUB_BRANCH` | Defaults to `main` |
+
+To create the token: GitHub → Settings → Developer settings → Personal access tokens →
+Fine-grained tokens → New token → restrict "Repository access" to just this repo, and
+under "Permissions" set **Contents** to **Read and write**. Paste the generated token into
+`GITHUB_TOKEN` — never into this repo or into chat.
+
+If either var is missing, git syncing is silently skipped (a warning is logged once on
+startup) — approving/editing/deleting still works normally, it just won't survive a
+from-scratch rebuild without a persistent disk.
+
+**The one gap this doesn't close**: submissions still sitting in *pending* review only
+exist in the database until you act on them. The notification email is the safety net for
+those — its copy-paste JSON block (see "Add from email" in the admin dashboard) lets you
+publish a submission directly even if its row never makes it, without needing the original
+row to still exist.
+
 ## Local development
 
 ```bash
@@ -70,11 +105,13 @@ it's the cheapest tier with a **persistent disk** — without one, Render's free
 the filesystem (and your SQLite database, including anything pending review) on every
 redeploy or restart. If you don't want a paid plan:
 
-- Switch `plan: starter` to `plan: free` in `render.yaml` — the app will still work, but you
-  risk losing pending/approved submissions whenever Render restarts the instance (which it
-  does periodically on the free tier), unless you also move storage to an external database.
+- Set up **git persistence** (see above) and switch `plan: starter` to `plan: free` (and
+  delete the `disk:` block) in `render.yaml`. Approved entries survive rebuilds via
+  `data/community.json`; pending ones are backed up by the notification email instead of a
+  disk. This is the recommended free option once `GITHUB_TOKEN`/`GITHUB_REPO` are set.
 - Or swap the storage layer for a free external database (e.g. Turso/libSQL, Neon Postgres)
-  if this becomes a real concern — that's a change to `src/db.js`, not the rest of the app.
+  if you'd rather not rely on git for this — that's a change to `src/db.js`, not the rest
+  of the app.
 
 ### Changing the admin password later
 
@@ -86,12 +123,15 @@ service redeploys with the new value. No code change needed.
 ```
 src/
   server.js   — Express app, routes, session auth
-  db.js       — schema, seed import, all queries
+  db.js       — schema, seed import (seed.json + community.json), all queries
+  mailer.js   — Gmail SMTP notification on new submissions
+  gitStore.js — commits data/community.json to GitHub on approve/edit/delete
 public/
   catalog.html — public browse/search page (fetches /api/catalog)
   submit.html  — public submission form (posts to /api/submissions)
-  admin.html   — password-gated review dashboard
+  admin.html   — password-gated review dashboard + "Add from email" box
   shared.css   — shared design system used by all three pages
 data/
-  seed.json    — the 159 curated entries, imported once on first boot
+  seed.json      — the 159 curated entries, imported once on first boot
+  community.json — approved community submissions, kept in sync by gitStore.js
 ```

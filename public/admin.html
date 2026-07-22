@@ -58,6 +58,24 @@
       <h1>Review queue</h1>
       <button class="logout-btn" id="logoutBtn" type="button">Log out</button>
     </div>
+
+    <div class="card" style="margin-bottom: 1.6rem;">
+      <div class="admin-head" style="margin-bottom: 0.6rem;">
+        <h2 style="font-family: var(--face-display); font-size: 1rem; margin: 0;">Add from email</h2>
+      </div>
+      <p style="font-size: 0.82rem; color: var(--ink-soft); margin: 0 0 0.8rem;">
+        Paste the JSON block from a notification email here to publish it directly — this works even
+        if the original submission is no longer sitting in the queue below.
+      </p>
+      <div class="field-row">
+        <textarea id="pasteBox" style="min-height: 5rem; font-family: var(--face-mono); font-size: 0.78rem;" placeholder='{"t":"…","by":"…","u":"…","s":"…", …}'></textarea>
+      </div>
+      <div id="pasteFeedback"></div>
+      <div class="export-row">
+        <button class="primary-btn" id="publishBtn" type="button">Add &amp; publish</button>
+      </div>
+    </div>
+
     <div class="status-tabs">
       <button class="status-tab active" data-status="pending" type="button">Pending</button>
       <button class="status-tab" data-status="approved" type="button">Approved</button>
@@ -133,6 +151,32 @@ document.getElementById("pw").addEventListener("keydown", e => {
 document.getElementById("logoutBtn").addEventListener("click", async () => {
   await fetch("/api/admin/logout", { method: "POST" });
   checkAuth();
+});
+
+document.getElementById("publishBtn").addEventListener("click", async () => {
+  const feedbackEl = document.getElementById("pasteFeedback");
+  const raw = document.getElementById("pasteBox").value.trim();
+  let entry;
+  try {
+    entry = JSON.parse(raw);
+  } catch (err) {
+    feedbackEl.innerHTML = `<div class="badge bad">That's not valid JSON — paste the exact block from the email.</div>`;
+    return;
+  }
+  const res = await fetch("/api/admin/publish", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(entry),
+  });
+  if (res.status === 401) { checkAuth(); return; }
+  if (!res.ok) {
+    const data = await res.json().catch(() => ({}));
+    feedbackEl.innerHTML = `<div class="badge bad">${data.error === "missing_fields" ? "Missing: " + data.missing.join(", ") : "Something went wrong."}</div>`;
+    return;
+  }
+  feedbackEl.innerHTML = `<div class="badge ok">Published.</div>`;
+  document.getElementById("pasteBox").value = "";
+  if (currentStatus === "approved" || currentStatus === "") loadList();
 });
 
 document.querySelectorAll(".status-tab").forEach(btn => {

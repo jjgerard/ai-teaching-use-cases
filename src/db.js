@@ -57,17 +57,27 @@ function rowToEntry(row) {
   };
 }
 
+function loadJsonSafe(relPath, fallback) {
+  try {
+    return require(relPath);
+  } catch (err) {
+    return fallback;
+  }
+}
+
 function seedIfEmpty() {
   const { count } = db.prepare("SELECT COUNT(*) AS count FROM entries").get();
   if (count > 0) return;
 
   const seed = require("../data/seed.json");
+  const community = loadJsonSafe("../data/community.json", []);
+
   const insertRepo = db.prepare(
     "INSERT OR REPLACE INTO repos (key, label, short, url, blurb) VALUES (?, ?, ?, ?, ?)"
   );
   const insertEntry = db.prepare(`
     INSERT INTO entries (t, by_name, inst, u, reg, yr, th, disc, tool, s, repo, status, source, submitted_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', 'seed', ?)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
   `);
 
   const now = new Date().toISOString();
@@ -89,6 +99,24 @@ function seedIfEmpty() {
         JSON.stringify(e.tool || []),
         e.s || "",
         e.repo || "",
+        "seed",
+        now
+      );
+    }
+    for (const e of community) {
+      insertEntry.run(
+        e.t || "",
+        e.by || "",
+        e.inst || "",
+        e.u || "",
+        e.reg || "",
+        e.yr || null,
+        e.th || "",
+        JSON.stringify(e.disc || []),
+        JSON.stringify(e.tool || []),
+        e.s || "",
+        "community",
+        "submission",
         now
       );
     }
@@ -97,7 +125,9 @@ function seedIfEmpty() {
     db.exec("ROLLBACK");
     throw err;
   }
-  console.log(`Seeded ${seed.S.length} curated entries and ${Object.keys(seed.REPOS).length} collections.`);
+  console.log(
+    `Seeded ${seed.S.length} curated entries, ${community.length} previously-approved community entries, and ${Object.keys(seed.REPOS).length} collections.`
+  );
 }
 
 function getApprovedEntries() {
@@ -181,6 +211,27 @@ function deleteEntry(id) {
   db.prepare("DELETE FROM entries WHERE id = ?").run(id);
 }
 
+// Plain-schema export (no id/status/source/timestamps) of every approved
+// community submission — this is what gets committed to data/community.json
+// so approved entries survive a from-scratch rebuild without a persistent disk.
+function getApprovedCommunityEntriesForExport() {
+  const rows = db
+    .prepare("SELECT * FROM entries WHERE source = 'submission' AND status = 'approved' ORDER BY id ASC")
+    .all();
+  return rows.map(rowToEntry).map((e) => ({
+    t: e.t,
+    by: e.by,
+    inst: e.inst,
+    u: e.u,
+    reg: e.reg,
+    yr: e.yr,
+    th: e.th,
+    disc: e.disc,
+    tool: e.tool,
+    s: e.s,
+  }));
+}
+
 seedIfEmpty();
 
 module.exports = {
@@ -191,4 +242,5 @@ module.exports = {
   updateEntry,
   setStatus,
   deleteEntry,
+  getApprovedCommunityEntriesForExport,
 };

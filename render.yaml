@@ -22,3 +22,9 @@ services:
         sync: false
       - key: NOTIFY_EMAIL
         sync: false
+      - key: GITHUB_TOKEN
+        sync: false
+      - key: GITHUB_REPO
+        sync: false
+      - key: GITHUB_BRANCH
+        value: main

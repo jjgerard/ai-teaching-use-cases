@@ -5,6 +5,11 @@ const express = require("express");
 const session = require("express-session");
 const db = require("./db");
 const { notifyNewSubmission } = require("./mailer");
+const { syncApprovedEntriesToGit } = require("./gitStore");
+
+function syncGit() {
+  syncApprovedEntriesToGit(db.getApprovedCommunityEntriesForExport());
+}
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 const SESSION_SECRET = process.env.SESSION_SECRET;
@@ -46,16 +51,12 @@ app.get("/api/catalog", (req, res) => {
 // ---- public: submissions ----
 const REQUIRED_FIELDS = ["t", "by", "u", "s"];
 
-app.post("/api/submissions", (req, res) => {
-  const body = req.body || {};
-  if (!body.attest1 || !body.attest2) {
-    return res.status(400).json({ error: "attestation_required" });
-  }
-  const missing = REQUIRED_FIELDS.filter((f) => !String(body[f] || "").trim());
-  if (missing.length) {
-    return res.status(400).json({ error: "missing_fields", missing });
-  }
-  const entry = {
+function missingRequiredFields(body) {
+  return REQUIRED_FIELDS.filter((f) => !String(body[f] || "").trim());
+}
+
+function sanitizeEntry(body) {
+  return {
     t: String(body.t).trim().slice(0, 300),
     by: String(body.by).trim().slice(0, 200),
     inst: String(body.inst || "").trim().slice(0, 200),
@@ -67,6 +68,18 @@ app.post("/api/submissions", (req, res) => {
     tool: Array.isArray(body.tool) ? body.tool.map(String).slice(0, 20) : [],
     s: String(body.s).trim().slice(0, 4000),
   };
+}
+
+app.post("/api/submissions", (req, res) => {
+  const body = req.body || {};
+  if (!body.attest1 || !body.attest2) {
+    return res.status(400).json({ error: "attestation_required" });
+  }
+  const missing = missingRequiredFields(body);
+  if (missing.length) {
+    return res.status(400).json({ error: "missing_fields", missing });
+  }
+  const entry = sanitizeEntry(body);
   const id = db.insertSubmission(entry);
   res.status(201).json({ id });
   const adminUrl = `${req.protocol}://${req.get("host")}/admin`;
@@ -102,23 +115,43 @@ app.put("/api/admin/submissions/:id", requireAuth, (req, res) => {
   const updated = db.updateEntry(id, req.body || {});
   if (!updated) return res.status(404).json({ error: "not_found" });
   res.json({ entry: updated });
+  if (updated.status === "approved") syncGit();
 });
 
 app.post("/api/admin/submissions/:id/approve", requireAuth, (req, res) => {
   const entry = db.setStatus(Number(req.params.id), "approved");
   if (!entry) return res.status(404).json({ error: "not_found" });
   res.json({ entry });
+  syncGit();
 });
 
 app.post("/api/admin/submissions/:id/reject", requireAuth, (req, res) => {
   const entry = db.setStatus(Number(req.params.id), "rejected");
   if (!entry) return res.status(404).json({ error: "not_found" });
   res.json({ entry });
+  syncGit();
 });
 
 app.delete("/api/admin/submissions/:id", requireAuth, (req, res) => {
   db.deleteEntry(Number(req.params.id));
   res.json({ ok: true });
+  syncGit();
+});
+
+// Publish an entry straight from a pasted JSON block (e.g. copied out of the
+// notification email) — bypasses the review queue entirely, so it works even
+// if the original pending row never made it or already got lost.
+app.post("/api/admin/publish", requireAuth, (req, res) => {
+  const body = req.body || {};
+  const missing = missingRequiredFields(body);
+  if (missing.length) {
+    return res.status(400).json({ error: "missing_fields", missing });
+  }
+  const entry = sanitizeEntry(body);
+  const id = db.insertSubmission(entry);
+  const published = db.setStatus(id, "approved");
+  res.status(201).json({ entry: published });
+  syncGit();
 });
 
 app.get("/submit", (req, res) => {
