@@ -34,6 +34,14 @@ db.exec(`
     submitted_at TEXT NOT NULL,
     reviewed_at TEXT
   );
+
+  CREATE TABLE IF NOT EXISTS leads (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    url TEXT NOT NULL,
+    note TEXT,
+    status TEXT NOT NULL DEFAULT 'new',
+    submitted_at TEXT NOT NULL
+  );
 `);
 
 function rowToEntry(row) {
@@ -57,6 +65,10 @@ function rowToEntry(row) {
   };
 }
 
+function rowToLead(row) {
+  return { id: row.id, url: row.url, note: row.note || "", status: row.status, submittedAt: row.submitted_at };
+}
+
 function loadJsonSafe(relPath, fallback) {
   try {
     return require(relPath);
@@ -65,69 +77,78 @@ function loadJsonSafe(relPath, fallback) {
   }
 }
 
-function seedIfEmpty() {
-  const { count } = db.prepare("SELECT COUNT(*) AS count FROM entries").get();
-  if (count > 0) return;
-
-  const seed = require("../data/seed.json");
-  const community = loadJsonSafe("../data/community.json", []);
-
-  const insertRepo = db.prepare(
-    "INSERT OR REPLACE INTO repos (key, label, short, url, blurb) VALUES (?, ?, ?, ?, ?)"
-  );
-  const insertEntry = db.prepare(`
+const insertEntryStmt = () =>
+  db.prepare(`
     INSERT INTO entries (t, by_name, inst, u, reg, yr, th, disc, tool, s, repo, status, source, submitted_at)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
   `);
 
+function insertApprovedRow(stmt, e, now) {
+  stmt.run(
+    e.t || "",
+    e.by || "",
+    e.inst || "",
+    e.u || "",
+    e.reg || "",
+    e.yr || null,
+    e.th || "",
+    JSON.stringify(e.disc || []),
+    JSON.stringify(e.tool || []),
+    e.s || "",
+    e.repo || "community",
+    e.source || "submission",
+    now
+  );
+}
+
+// data/repos metadata (collection labels/urls/blurbs) always comes from the
+// curated seed.json — collections themselves aren't edited through the admin
+// dashboard, only individual entries are.
+function seedRepos() {
+  const seed = require("../data/seed.json");
+  const insertRepo = db.prepare(
+    "INSERT OR REPLACE INTO repos (key, label, short, url, blurb) VALUES (?, ?, ?, ?, ?)"
+  );
+  for (const [key, r] of Object.entries(seed.REPOS)) {
+    insertRepo.run(key, r.label || "", r.short || "", r.url || "", r.blurb || "");
+  }
+  return seed;
+}
+
+// Once anything has ever been approved/edited/deleted via the admin
+// dashboard, data/community.json holds a full living snapshot of every
+// approved entry — both originally-curated and community-submitted — because
+// edits/deletes apply to any entry, not just submitted ones, and that needs
+// to survive a from-scratch rebuild the same way new submissions do. Only on
+// the very first boot ever (before any admin action has happened) does the
+// app fall back to bootstrapping straight from the curated seed.json.
+function seedIfEmpty() {
+  const { count } = db.prepare("SELECT COUNT(*) AS count FROM entries").get();
+  if (count > 0) return;
+
+  const seed = seedRepos();
+  const community = loadJsonSafe("../data/community.json", []);
+  const insertEntry = insertEntryStmt();
   const now = new Date().toISOString();
+
   db.exec("BEGIN");
   try {
-    for (const [key, r] of Object.entries(seed.REPOS)) {
-      insertRepo.run(key, r.label || "", r.short || "", r.url || "", r.blurb || "");
-    }
-    for (const e of seed.S) {
-      insertEntry.run(
-        e.t || "",
-        e.by || "",
-        e.inst || "",
-        e.u || "",
-        e.reg || "",
-        e.yr || null,
-        e.th || "",
-        JSON.stringify(e.disc || []),
-        JSON.stringify(e.tool || []),
-        e.s || "",
-        e.repo || "",
-        "seed",
-        now
-      );
-    }
-    for (const e of community) {
-      insertEntry.run(
-        e.t || "",
-        e.by || "",
-        e.inst || "",
-        e.u || "",
-        e.reg || "",
-        e.yr || null,
-        e.th || "",
-        JSON.stringify(e.disc || []),
-        JSON.stringify(e.tool || []),
-        e.s || "",
-        "community",
-        "submission",
-        now
-      );
+    if (community.length > 0) {
+      for (const e of community) insertApprovedRow(insertEntry, e, now);
+    } else {
+      for (const e of seed.S) insertApprovedRow(insertEntry, { ...e, source: "seed" }, now);
     }
     db.exec("COMMIT");
   } catch (err) {
     db.exec("ROLLBACK");
     throw err;
   }
-  console.log(
-    `Seeded ${seed.S.length} curated entries, ${community.length} previously-approved community entries, and ${Object.keys(seed.REPOS).length} collections.`
-  );
+
+  if (community.length > 0) {
+    console.log(`Seeded ${community.length} entries from community.json (full living snapshot).`);
+  } else {
+    console.log(`Seeded ${seed.S.length} curated entries and ${Object.keys(seed.REPOS).length} collections.`);
+  }
 }
 
 function getApprovedEntries() {
@@ -148,10 +169,13 @@ function getRepos() {
   return out;
 }
 
-function getSubmissions(status) {
+// Every entry regardless of source (seed or submission) — the admin
+// dashboard needs to see and manage all of it, not just community
+// submissions.
+function getAllEntries(status) {
   const rows = status
-    ? db.prepare("SELECT * FROM entries WHERE source = 'submission' AND status = ? ORDER BY id DESC").all(status)
-    : db.prepare("SELECT * FROM entries WHERE source = 'submission' ORDER BY id DESC").all();
+    ? db.prepare("SELECT * FROM entries WHERE status = ? ORDER BY id DESC").all(status)
+    : db.prepare("SELECT * FROM entries ORDER BY id DESC").all();
   return rows.map(rowToEntry);
 }
 
@@ -211,13 +235,13 @@ function deleteEntry(id) {
   db.prepare("DELETE FROM entries WHERE id = ?").run(id);
 }
 
-// Plain-schema export (no id/status/source/timestamps) of every approved
-// community submission — this is what gets committed to data/community.json
-// so approved entries survive a from-scratch rebuild without a persistent disk.
-function getApprovedCommunityEntriesForExport() {
-  const rows = db
-    .prepare("SELECT * FROM entries WHERE source = 'submission' AND status = 'approved' ORDER BY id ASC")
-    .all();
+// Plain-schema export of every currently-approved entry, regardless of
+// source — this is the full snapshot committed to data/community.json.
+// Includes repo/source so originally-curated entries keep their real
+// collection attribution (and provenance) when reloaded on a fresh boot,
+// rather than being folded into "community".
+function getAllApprovedEntriesForExport() {
+  const rows = db.prepare("SELECT * FROM entries WHERE status = 'approved' ORDER BY id ASC").all();
   return rows.map(rowToEntry).map((e) => ({
     t: e.t,
     by: e.by,
@@ -229,7 +253,39 @@ function getApprovedCommunityEntriesForExport() {
     disc: e.disc,
     tool: e.tool,
     s: e.s,
+    repo: e.repo,
+    source: e.source,
   }));
+}
+
+// ---- leads: "here's a whole repository of case studies, go look" ----
+// Lightweight and not git-persisted like entries are — these are a
+// maintainer to-do list, not part of the public catalog, and (like pending
+// submissions) are backed up by the notification email if the database
+// doesn't survive until they're processed.
+function insertLead(url, note) {
+  const now = new Date().toISOString();
+  const result = db
+    .prepare("INSERT INTO leads (url, note, status, submitted_at) VALUES (?, ?, 'new', ?)")
+    .run(url, note || "", now);
+  return Number(result.lastInsertRowid);
+}
+
+function getLeads(status) {
+  const rows = status
+    ? db.prepare("SELECT * FROM leads WHERE status = ? ORDER BY id DESC").all(status)
+    : db.prepare("SELECT * FROM leads ORDER BY id DESC").all();
+  return rows.map(rowToLead);
+}
+
+function setLeadStatus(id, status) {
+  db.prepare("UPDATE leads SET status = ? WHERE id = ?").run(status, id);
+  const row = db.prepare("SELECT * FROM leads WHERE id = ?").get(id);
+  return row ? rowToLead(row) : null;
+}
+
+function deleteLead(id) {
+  db.prepare("DELETE FROM leads WHERE id = ?").run(id);
 }
 
 seedIfEmpty();
@@ -237,10 +293,14 @@ seedIfEmpty();
 module.exports = {
   getApprovedEntries,
   getRepos,
-  getSubmissions,
+  getAllEntries,
   insertSubmission,
   updateEntry,
   setStatus,
   deleteEntry,
-  getApprovedCommunityEntriesForExport,
+  getAllApprovedEntriesForExport,
+  insertLead,
+  getLeads,
+  setLeadStatus,
+  deleteLead,
 };

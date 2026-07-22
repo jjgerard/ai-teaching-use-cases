@@ -26,6 +26,11 @@
   .save-btn { font-family: var(--face-body); font-weight: 700; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--accent-ink); background: var(--accent-soft); border: 1.5px solid var(--accent); border-radius: 3px; padding: 0.5rem 0.9rem; cursor: pointer; }
   .meta-line { font-size: 0.75rem; color: var(--ink-faint); margin: 0.3rem 0 0.6rem; }
   .logout-btn { font-family: var(--face-body); font-weight: 700; font-size: 0.72rem; color: var(--ink-faint); background: none; border: 1.5px solid var(--line-strong); border-radius: 3px; padding: 0.4rem 0.8rem; cursor: pointer; }
+  .badge.info { background: var(--disc-soft); color: var(--disc); }
+  .lead-card { background: var(--paper-raised); border: 1.5px solid var(--line-strong); border-radius: 5px; padding: 0.8rem 1rem; margin-bottom: 0.7rem; }
+  .lead-card a { color: var(--accent-ink); word-break: break-all; }
+  .lead-note { font-size: 0.83rem; color: var(--ink-soft); margin: 0.3rem 0 0; }
+  .lead-actions { display: flex; gap: 0.6rem; margin-top: 0.6rem; }
 </style>
 </head>
 <body>
@@ -77,6 +82,17 @@
       </div>
     </div>
 
+    <div class="card" style="margin-bottom: 1.6rem;">
+      <div class="admin-head" style="margin-bottom: 0.6rem;">
+        <h2 style="font-family: var(--face-display); font-size: 1rem; margin: 0;">Repository suggestions (<span id="leadsCount">0</span>)</h2>
+      </div>
+      <p style="font-size: 0.82rem; color: var(--ink-soft); margin: 0 0 0.8rem;">
+        Links someone suggested as a whole repository of case studies worth going through.
+        Once you've extracted what's useful (using the form/paste-box above), mark it done.
+      </p>
+      <div id="leadsList"></div>
+    </div>
+
     <div class="status-tabs">
       <button class="status-tab active" data-status="pending" type="button">Pending</button>
       <button class="status-tab" data-status="approved" type="button">Approved</button>
@@ -124,10 +140,49 @@ async function checkAuth() {
     loginView.classList.add("hidden");
     dashView.classList.remove("hidden");
     loadList();
+    loadLeads();
   } else {
     loginView.classList.remove("hidden");
     dashView.classList.add("hidden");
   }
+}
+
+async function loadLeads() {
+  const res = await fetch("/api/admin/leads?status=new");
+  if (res.status === 401) return;
+  const data = await res.json();
+  renderLeads(data.leads);
+}
+
+function renderLeads(leads) {
+  document.getElementById("leadsCount").textContent = leads.length;
+  const listEl = document.getElementById("leadsList");
+  if (leads.length === 0) {
+    listEl.innerHTML = `<div class="queue-empty">Nothing suggested yet.</div>`;
+    return;
+  }
+  listEl.innerHTML = "";
+  leads.forEach((lead) => {
+    const card = document.createElement("div");
+    card.className = "lead-card";
+    card.innerHTML = `
+      <div><a href="${lead.url.replace(/"/g,'&quot;')}" target="_blank" rel="noopener">${lead.url.replace(/</g,"&lt;")}</a></div>
+      ${lead.note ? `<p class="lead-note">${lead.note.replace(/</g,"&lt;")}</p>` : ""}
+      <div class="lead-actions">
+        <button class="save-btn" type="button">Mark done</button>
+        <button class="delete-btn" type="button" style="margin-left:0;">Dismiss</button>
+      </div>
+    `;
+    card.querySelector(".save-btn").addEventListener("click", async () => {
+      await fetch(`/api/admin/leads/${lead.id}/done`, { method: "POST" });
+      loadLeads();
+    });
+    card.querySelector(".delete-btn").addEventListener("click", async () => {
+      await fetch(`/api/admin/leads/${lead.id}`, { method: "DELETE" });
+      loadLeads();
+    });
+    listEl.appendChild(card);
+  });
 }
 
 document.getElementById("loginBtn").addEventListener("click", async () => {
@@ -249,6 +304,7 @@ function renderList(submissions) {
   submissions.forEach(entry => {
     const missing = scoreCompleteness(entry);
     const crit = scoreCriteria(entry);
+    const provenance = entry.source === "seed" ? `seed · ${entry.repo || "?"}` : "community";
     const card = document.createElement("div");
     card.className = "queue-card";
     card.innerHTML = `
@@ -258,6 +314,7 @@ function renderList(submissions) {
       </div>
       <div class="meta-line">Submitted ${new Date(entry.submittedAt).toLocaleString()}</div>
       <div class="badge-row">
+        <span class="badge info">${provenance}</span>
         <span class="badge ${missing.length ? 'warn' : 'ok'}">${missing.length ? 'Missing: ' + missing.join(', ') : 'All fields complete'}</span>
         <span class="badge ${crit.level}">${crit.label}</span>
       </div>
@@ -277,8 +334,8 @@ function renderList(submissions) {
       <div class="field-row"><label>Summary</label><textarea data-f="s">${(entry.s||"").replace(/</g,"&lt;")}</textarea></div>
       <div class="action-row">
         <button class="save-btn" type="button">Save changes</button>
-        <button class="approve-btn" type="button">Approve</button>
-        <button class="reject-btn" type="button">Reject</button>
+        ${entry.status !== "approved" ? '<button class="approve-btn" type="button">Approve</button>' : ""}
+        ${entry.status !== "rejected" ? '<button class="reject-btn" type="button">Reject</button>' : ""}
         <button class="delete-btn" type="button">Delete permanently</button>
       </div>
     `;
@@ -300,7 +357,7 @@ function renderList(submissions) {
       });
       loadList();
     });
-    card.querySelector(".approve-btn").addEventListener("click", async () => {
+    card.querySelector(".approve-btn")?.addEventListener("click", async () => {
       await fetch(`/api/admin/submissions/${entry.id}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
@@ -309,7 +366,7 @@ function renderList(submissions) {
       await fetch(`/api/admin/submissions/${entry.id}/approve`, { method: "POST" });
       loadList();
     });
-    card.querySelector(".reject-btn").addEventListener("click", async () => {
+    card.querySelector(".reject-btn")?.addEventListener("click", async () => {
       await fetch(`/api/admin/submissions/${entry.id}/reject`, { method: "POST" });
       loadList();
     });

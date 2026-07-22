@@ -15,7 +15,10 @@ live. Fork it, replace the seed data and branding with your own topic, and deplo
 - Public submissions land in the same database with `status = 'pending'` and are invisible
   to `/api/catalog` until approved.
 - The admin dashboard (`/admin`) is gated by a single shared password (`ADMIN_PASSWORD`).
-  Approve, reject, edit, or permanently delete any submission there.
+  It shows **every** entry — originally-curated and community-submitted alike — with
+  approve/reject/edit/delete on any of them, plus an "Add from email" box that publishes
+  straight from a pasted notification email, and a "Repository suggestions" list for links
+  someone flagged as worth going through by hand.
 - Storage is SQLite via Node's built-in `node:sqlite` module — no native build step, no
   separate database service to run.
 - Every new submission also fires an email notification (see below) — this is optional
@@ -47,16 +50,35 @@ address works the same as pointing it at a personal one.
 Every notification email also includes the submission as a single-line JSON block,
 formatted to be pasted straight into the admin dashboard's "Add from email" box (see
 below) — the email itself is the durable record of a submission, independent of whether
-its row in the database is still there by the time you get to it.
+its row in the database is still there by the time you get to it. The "Add from email" box
+also accepts the plain-text part of the email on its own, or the whole email pasted in —
+it isn't JSON-only.
+
+## Repository suggestions
+
+`/submit` also has a small secondary form for "I know of a whole page/PDF/collection of
+these, not just one" — it takes a URL and an optional note, emails you the same way a
+regular submission does, and lists it under "Repository suggestions" in the admin
+dashboard. There's no automatic extraction (see the note in `/submit` about why a
+published page can't fetch or read an arbitrary URL for you) — you visit the link
+yourself, and add whatever qualifies through the normal form or paste box. Mark a
+suggestion done once you've gone through it.
 
 ## Git persistence for approved entries (avoids the paid Render plan)
 
 Without this, approved entries only exist in the SQLite file, so a host with no
 persistent disk (e.g. Render's free tier) loses them on every rebuild. With it, every
-approve/edit/delete of a community submission commits the full current list of approved
-entries to `data/community.json` in this repo via the GitHub API — so a freshly rebuilt
-instance has them baked in again at boot (`src/db.js` loads `community.json` the same way
-it loads the curated `seed.json`).
+approve/edit/delete/reject of **any** entry — originally-curated or community-submitted,
+since the admin dashboard can edit or delete either — commits the full current list of
+approved entries to `data/community.json` via the GitHub API, including which collection
+each one belongs to and whether it was seeded or submitted. Once that first sync has ever
+happened, `community.json` becomes the living snapshot of the whole catalog: a freshly
+rebuilt instance loads *from it* rather than from the original `seed.json` (which stays
+untouched as the initial bootstrap for a repo that's never synced yet).
+
+Writes retry automatically on a conflicting commit (e.g. two syncs landing at nearly the
+same moment) by re-reading the current database state and trying again, rather than
+silently dropping whichever one loses the race.
 
 | Var | Meaning |
 |---|---|

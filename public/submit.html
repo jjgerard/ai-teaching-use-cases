@@ -112,6 +112,26 @@
       <a class="ghost-btn" href="/" style="text-decoration:none; display:inline-block;">Return to catalog</a>
     </div>
   </div>
+
+  <div class="card" id="leadCard" style="margin-top: 1.4rem;">
+    <h2 style="font-family: var(--face-display); font-size: 1.05rem; margin: 0 0 0.4rem;">Know of a whole repository of case studies?</h2>
+    <p style="font-size: 0.85rem; color: var(--ink-soft); margin: 0 0 1rem;">
+      If you know of a page, PDF, or collection with several case studies rather than just one,
+      send the link instead — the maintainer will go through it and add what qualifies.
+    </p>
+    <div class="field-row">
+      <label for="lead-url">URL *</label>
+      <input type="url" id="lead-url" placeholder="https://…">
+    </div>
+    <div class="field-row">
+      <label for="lead-note">Note (optional)</label>
+      <input type="text" id="lead-note" placeholder="Anything worth knowing before they look, e.g. how many entries, who runs it">
+    </div>
+    <div id="leadFeedback"></div>
+    <div class="export-row">
+      <button class="ghost-btn" id="leadSubmitBtn" type="button">Send this link</button>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -179,6 +199,32 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
     btn.disabled = false;
     btn.textContent = "Submit for review";
   }
+});
+
+document.getElementById("leadSubmitBtn").addEventListener("click", async () => {
+  const leadFeedbackEl = document.getElementById("leadFeedback");
+  const url = document.getElementById("lead-url").value.trim();
+  const note = document.getElementById("lead-note").value.trim();
+  if (!url) {
+    leadFeedbackEl.innerHTML = `<div class="badge bad">Please enter a URL.</div>`;
+    return;
+  }
+  const leadBtn = document.getElementById("leadSubmitBtn");
+  leadBtn.disabled = true;
+  try {
+    const res = await fetch("/api/leads", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ url, note }),
+    });
+    if (!res.ok) throw new Error("lead_failed");
+    leadFeedbackEl.innerHTML = `<div class="badge ok">Sent — thank you.</div>`;
+    document.getElementById("lead-url").value = "";
+    document.getElementById("lead-note").value = "";
+  } catch (err) {
+    leadFeedbackEl.innerHTML = `<div class="badge bad">Something went wrong — please try again in a moment.</div>`;
+  }
+  leadBtn.disabled = false;
 });
 </script>
 </body>

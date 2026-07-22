@@ -61,4 +61,27 @@ async function notifyNewSubmission(entry, adminUrl) {
   }
 }
 
-module.exports = { notifyNewSubmission };
+async function notifyNewLead(lead, adminUrl) {
+  if (!transporter) return;
+  const lines = [
+    `Someone suggested a repository of case studies to look through:`,
+    "",
+    `URL: ${lead.url}`,
+    lead.note ? `Note: ${lead.note}` : null,
+    "",
+    `See it in the dashboard: ${adminUrl}`,
+  ].filter((l) => l !== null);
+
+  try {
+    await transporter.sendMail({
+      from: GMAIL_USER,
+      to: NOTIFY_EMAIL,
+      subject: `New repository suggestion: ${lead.url}`,
+      text: lines.join("\n"),
+    });
+  } catch (err) {
+    console.error("Failed to send repository-suggestion notification email:", err.message);
+  }
+}
+
+module.exports = { notifyNewSubmission, notifyNewLead };

@@ -4,11 +4,11 @@ const path = require("node:path");
 const express = require("express");
 const session = require("express-session");
 const db = require("./db");
-const { notifyNewSubmission } = require("./mailer");
+const { notifyNewSubmission, notifyNewLead } = require("./mailer");
 const { syncApprovedEntriesToGit } = require("./gitStore");
 
 function syncGit() {
-  syncApprovedEntriesToGit(db.getApprovedCommunityEntriesForExport());
+  syncApprovedEntriesToGit(() => db.getAllApprovedEntriesForExport());
 }
 
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
@@ -104,10 +104,10 @@ app.get("/api/admin/me", (req, res) => {
   res.json({ authed: !!(req.session && req.session.authed) });
 });
 
-// ---- admin: review queue (protected) ----
+// ---- admin: review queue (protected) — every entry, seed or submitted ----
 app.get("/api/admin/submissions", requireAuth, (req, res) => {
   const status = typeof req.query.status === "string" ? req.query.status : undefined;
-  res.json({ submissions: db.getSubmissions(status) });
+  res.json({ submissions: db.getAllEntries(status) });
 });
 
 app.put("/api/admin/submissions/:id", requireAuth, (req, res) => {
@@ -152,6 +152,34 @@ app.post("/api/admin/publish", requireAuth, (req, res) => {
   const published = db.setStatus(id, "approved");
   res.status(201).json({ entry: published });
   syncGit();
+});
+
+// ---- public: "here's a repository of case studies, go look" leads ----
+app.post("/api/leads", (req, res) => {
+  const body = req.body || {};
+  const url = String(body.url || "").trim();
+  if (!url) return res.status(400).json({ error: "missing_url" });
+  const note = String(body.note || "").trim().slice(0, 1000);
+  const id = db.insertLead(url.slice(0, 500), note);
+  res.status(201).json({ id });
+  const adminUrl = `${req.protocol}://${req.get("host")}/admin`;
+  notifyNewLead({ url, note }, adminUrl);
+});
+
+app.get("/api/admin/leads", requireAuth, (req, res) => {
+  const status = typeof req.query.status === "string" ? req.query.status : undefined;
+  res.json({ leads: db.getLeads(status) });
+});
+
+app.post("/api/admin/leads/:id/done", requireAuth, (req, res) => {
+  const lead = db.setLeadStatus(Number(req.params.id), "done");
+  if (!lead) return res.status(404).json({ error: "not_found" });
+  res.json({ lead });
+});
+
+app.delete("/api/admin/leads/:id", requireAuth, (req, res) => {
+  db.deleteLead(Number(req.params.id));
+  res.json({ ok: true });
 });
 
 app.get("/submit", (req, res) => {
