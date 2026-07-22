@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Review queue — Field Notes admin</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/shared.css">
+<style>
+  .admin-wrap { max-width: 900px; margin: 0 auto; padding: 2.4rem 1.5rem 5rem; }
+  .admin-head { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.4rem; flex-wrap: wrap; gap: 0.8rem; }
+  .admin-head h1 { font-family: var(--face-display); font-size: 1.5rem; margin: 0; }
+  .login-card { max-width: 380px; margin: 4rem auto; background: var(--paper-raised); border: 1.5px solid var(--line-strong); border-radius: 6px; padding: 1.8rem; box-shadow: var(--shadow); }
+  .login-card h2 { font-family: var(--face-display); margin: 0 0 1rem; font-size: 1.2rem; }
+  .status-tabs { display: flex; gap: 0.5rem; margin-bottom: 1.2rem; flex-wrap: wrap; }
+  .status-tab {
+    font-family: var(--face-body); font-weight: 700; font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase;
+    color: var(--ink-soft); background: var(--paper-card); border: 1.5px solid var(--line-strong); border-radius: 999px;
+    padding: 0.4rem 0.9rem; cursor: pointer;
+  }
+  .status-tab.active { color: #fff; background: var(--accent); border-color: var(--accent); }
+  .queue-empty { padding: 2rem 0; }
+  .action-row { display: flex; gap: 0.6rem; flex-wrap: wrap; margin-top: 0.8rem; }
+  .approve-btn { font-family: var(--face-body); font-weight: 700; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; color: #fff; background: var(--cool); border: none; border-radius: 3px; padding: 0.5rem 0.9rem; cursor: pointer; }
+  .reject-btn { font-family: var(--face-body); font-weight: 700; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--ink); background: none; border: 1.5px solid var(--line-strong); border-radius: 3px; padding: 0.5rem 0.9rem; cursor: pointer; }
+  .delete-btn { font-family: var(--face-body); font-weight: 700; font-size: 0.72rem; color: #a3272c; background: none; border: none; text-decoration: underline; cursor: pointer; margin-left: auto; }
+  .save-btn { font-family: var(--face-body); font-weight: 700; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.03em; color: var(--accent-ink); background: var(--accent-soft); border: 1.5px solid var(--accent); border-radius: 3px; padding: 0.5rem 0.9rem; cursor: pointer; }
+  .meta-line { font-size: 0.75rem; color: var(--ink-faint); margin: 0.3rem 0 0.6rem; }
+  .logout-btn { font-family: var(--face-body); font-weight: 700; font-size: 0.72rem; color: var(--ink-faint); background: none; border: 1.5px solid var(--line-strong); border-radius: 3px; padding: 0.4rem 0.8rem; cursor: pointer; }
+</style>
+</head>
+<body>
+<div class="masthead">
+  <div class="masthead-inner">
+    <div>
+      <p class="catalog-mark">Field survey · maintainer view</p>
+      <h1 class="title" style="font-size: 1.6rem;">Review queue</h1>
+    </div>
+  </div>
+</div>
+
+<div class="admin-wrap">
+  <div id="loginView" class="hidden">
+    <div class="login-card">
+      <h2>Sign in</h2>
+      <div class="field-row">
+        <label for="pw">Admin password</label>
+        <input type="password" id="pw" placeholder="••••••••">
+      </div>
+      <div id="loginFeedback"></div>
+      <div class="export-row">
+        <button class="primary-btn" id="loginBtn" type="button">Sign in</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="dashView" class="hidden">
+    <div class="admin-head">
+      <h1>Review queue</h1>
+      <button class="logout-btn" id="logoutBtn" type="button">Log out</button>
+    </div>
+    <div class="status-tabs">
+      <button class="status-tab active" data-status="pending" type="button">Pending</button>
+      <button class="status-tab" data-status="approved" type="button">Approved</button>
+      <button class="status-tab" data-status="rejected" type="button">Rejected</button>
+      <button class="status-tab" data-status="" type="button">All</button>
+    </div>
+    <div id="list"></div>
+  </div>
+</div>
+
+<script>
+const loginView = document.getElementById("loginView");
+const dashView = document.getElementById("dashView");
+let currentStatus = "pending";
+
+const POLICY_SIGNALS = ["guidance","policy","framework","governance","strategy","workshop","training session","literacy programme","literacy program","capacity building","community of practice","roadmap","regulations","toolkit for staff","awareness campaign","microlearning"];
+const USE_SIGNALS = ["used","use of","built","ran a","ran the","trialled","trialed","piloted","deployed","generated","created","wrote","implemented","tested","designed","produced","asked chatgpt","prompted","fed","uploaded","published"];
+
+function scoreCriteria(entry) {
+  const hay = ((entry.t || "") + " " + (entry.s || "")).toLowerCase();
+  const useHits = USE_SIGNALS.filter(k => hay.includes(k)).length;
+  const policyHits = POLICY_SIGNALS.filter(k => hay.includes(k)).length;
+  if (useHits > 0) return { level: "ok", label: "Reads like an actual use" };
+  if (policyHits > 0) return { level: "bad", label: "⚠ Reads like guidance/policy, not use" };
+  return { level: "warn", label: "Add more concrete detail" };
+}
+function scoreCompleteness(entry) {
+  const missing = [];
+  if (!entry.t) missing.push("title");
+  if (!entry.by) missing.push("contributor");
+  if (!entry.u) missing.push("source URL");
+  if (!entry.s || entry.s.length < 60) missing.push("summary (60+ chars)");
+  if (!entry.reg) missing.push("region");
+  if (!entry.th) missing.push("theme");
+  if (!entry.disc || !entry.disc.length) missing.push("discipline");
+  if (!entry.tool || !entry.tool.length) missing.push("AI tool");
+  if (!entry.yr) missing.push("year");
+  return missing;
+}
+
+async function checkAuth() {
+  const res = await fetch("/api/admin/me");
+  const data = await res.json();
+  if (data.authed) {
+    loginView.classList.add("hidden");
+    dashView.classList.remove("hidden");
+    loadList();
+  } else {
+    loginView.classList.remove("hidden");
+    dashView.classList.add("hidden");
+  }
+}
+
+document.getElementById("loginBtn").addEventListener("click", async () => {
+  const pw = document.getElementById("pw").value;
+  const feedbackEl = document.getElementById("loginFeedback");
+  const res = await fetch("/api/admin/login", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ password: pw }),
+  });
+  if (res.ok) {
+    document.getElementById("pw").value = "";
+    checkAuth();
+  } else {
+    feedbackEl.innerHTML = `<div class="badge bad">Wrong password.</div>`;
+  }
+});
+document.getElementById("pw").addEventListener("keydown", e => {
+  if (e.key === "Enter") document.getElementById("loginBtn").click();
+});
+
+document.getElementById("logoutBtn").addEventListener("click", async () => {
+  await fetch("/api/admin/logout", { method: "POST" });
+  checkAuth();
+});
+
+document.querySelectorAll(".status-tab").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".status-tab").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    currentStatus = btn.dataset.status;
+    loadList();
+  });
+});
+
+async function loadList() {
+  const url = "/api/admin/submissions" + (currentStatus ? `?status=${currentStatus}` : "");
+  const res = await fetch(url);
+  if (res.status === 401) { checkAuth(); return; }
+  const data = await res.json();
+  renderList(data.submissions);
+}
+
+function renderList(submissions) {
+  const listEl = document.getElementById("list");
+  if (submissions.length === 0) {
+    listEl.innerHTML = `<div class="queue-empty">Nothing here.</div>`;
+    return;
+  }
+  listEl.innerHTML = "";
+  submissions.forEach(entry => {
+    const missing = scoreCompleteness(entry);
+    const crit = scoreCriteria(entry);
+    const card = document.createElement("div");
+    card.className = "queue-card";
+    card.innerHTML = `
+      <div class="queue-card-head">
+        <span>${(entry.t || "(untitled)").replace(/</g,"&lt;")}</span>
+        <span class="badge ${entry.status === 'approved' ? 'ok' : entry.status === 'rejected' ? 'bad' : 'warn'}">${entry.status}</span>
+      </div>
+      <div class="meta-line">Submitted ${new Date(entry.submittedAt).toLocaleString()}</div>
+      <div class="badge-row">
+        <span class="badge ${missing.length ? 'warn' : 'ok'}">${missing.length ? 'Missing: ' + missing.join(', ') : 'All fields complete'}</span>
+        <span class="badge ${crit.level}">${crit.label}</span>
+      </div>
+      <div class="field-row"><label>Title</label><input type="text" data-f="t" value="${(entry.t||"").replace(/"/g,'&quot;')}"></div>
+      <div class="field-grid">
+        <div class="field-row"><label>Contributor</label><input type="text" data-f="by" value="${(entry.by||"").replace(/"/g,'&quot;')}"></div>
+        <div class="field-row"><label>Institution</label><input type="text" data-f="inst" value="${(entry.inst||"").replace(/"/g,'&quot;')}"></div>
+      </div>
+      <div class="field-row"><label>Source URL</label><input type="text" data-f="u" value="${(entry.u||"").replace(/"/g,'&quot;')}"></div>
+      <div class="field-grid">
+        <div class="field-row"><label>Region</label><input type="text" data-f="reg" value="${(entry.reg||"").replace(/"/g,'&quot;')}"></div>
+        <div class="field-row"><label>Year</label><input type="text" data-f="yr" value="${entry.yr||""}"></div>
+      </div>
+      <div class="field-row"><label>Theme</label><input type="text" data-f="th" value="${(entry.th||"").replace(/"/g,'&quot;')}"></div>
+      <div class="field-row"><label>Discipline(s), comma separated</label><input type="text" data-f="disc" value="${(entry.disc||[]).join(', ')}"></div>
+      <div class="field-row"><label>Tool(s), comma separated</label><input type="text" data-f="tool" value="${(entry.tool||[]).join(', ')}"></div>
+      <div class="field-row"><label>Summary</label><textarea data-f="s">${(entry.s||"").replace(/</g,"&lt;")}</textarea></div>
+      <div class="action-row">
+        <button class="save-btn" type="button">Save changes</button>
+        <button class="approve-btn" type="button">Approve</button>
+        <button class="reject-btn" type="button">Reject</button>
+        <button class="delete-btn" type="button">Delete permanently</button>
+      </div>
+    `;
+    function readEdits() {
+      const out = {};
+      card.querySelectorAll("[data-f]").forEach(inp => {
+        const f = inp.dataset.f;
+        if (f === "disc" || f === "tool") out[f] = inp.value.split(",").map(x => x.trim()).filter(Boolean);
+        else if (f === "yr") out[f] = inp.value ? Number(inp.value) || inp.value : "";
+        else out[f] = inp.value;
+      });
+      return out;
+    }
+    card.querySelector(".save-btn").addEventListener("click", async () => {
+      await fetch(`/api/admin/submissions/${entry.id}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(readEdits()),
+      });
+      loadList();
+    });
+    card.querySelector(".approve-btn").addEventListener("click", async () => {
+      await fetch(`/api/admin/submissions/${entry.id}`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(readEdits()),
+      });
+      await fetch(`/api/admin/submissions/${entry.id}/approve`, { method: "POST" });
+      loadList();
+    });
+    card.querySelector(".reject-btn").addEventListener("click", async () => {
+      await fetch(`/api/admin/submissions/${entry.id}/reject`, { method: "POST" });
+      loadList();
+    });
+    card.querySelector(".delete-btn").addEventListener("click", async () => {
+      if (!confirm("Delete this submission permanently? This can't be undone.")) return;
+      await fetch(`/api/admin/submissions/${entry.id}`, { method: "DELETE" });
+      loadList();
+    });
+    listEl.appendChild(card);
+  });
+}
+
+checkAuth();
+</script>
+</body>
+</html>

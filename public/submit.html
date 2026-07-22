@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Suggest a case study — Field Notes</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/shared.css">
+<style>
+  .submit-wrap { max-width: 760px; margin: 0 auto; padding: 2.4rem 1.5rem 5rem; }
+  .submit-head { margin-bottom: 1.6rem; }
+  .submit-head .catalog-mark { color: var(--accent); }
+  .submit-head .catalog-mark::before { background: var(--accent); }
+  .submit-head h1 {
+    font-family: var(--face-display);
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    margin: 0 0 0.5rem;
+    color: var(--ink);
+  }
+  .submit-head p { color: var(--ink-soft); margin: 0; max-width: 62ch; }
+  .back-link { font-size: 0.8rem; color: var(--ink-faint); text-decoration: none; display: inline-block; margin-bottom: 1rem; }
+  .back-link:hover { color: var(--accent); }
+  .card { background: var(--paper-raised); border: 1.5px solid var(--line-strong); border-radius: 6px; padding: 1.6rem 1.8rem 1.8rem; box-shadow: var(--shadow); }
+  .success-panel { text-align: center; padding: 3rem 1.5rem; }
+  .success-panel .big-check { font-size: 2.6rem; margin-bottom: 0.6rem; }
+  .success-panel h2 { font-family: var(--face-display); margin: 0 0 0.6rem; }
+  .success-panel p { color: var(--ink-soft); max-width: 48ch; margin: 0 auto 1.2rem; }
+</style>
+</head>
+<body>
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="submit-head">
+      <p class="catalog-mark">Field survey · submission</p>
+      <h1>Suggest a case study</h1>
+      <p class="lede">Someone actually building, running, or trialling generative AI to do something concrete — not a policy, framework, guidance document, or untested proposal. Submissions go to the maintainer for review before they appear in the catalog.</p>
+    </div>
+  </div>
+</div>
+
+<div class="submit-wrap">
+  <a class="back-link" href="/">&larr; Back to the catalog</a>
+
+  <div class="card" id="formCard">
+    <div class="modal-note">
+      <b>What counts here</b>
+      "We should use AI for X" doesn't qualify; "I used ChatGPT to do X, here's what happened" does.
+    </div>
+
+    <div class="field-row">
+      <label for="f-title">Title *</label>
+      <input type="text" id="f-title" placeholder="A short, specific description of what was done">
+    </div>
+    <div class="field-grid">
+      <div class="field-row">
+        <label for="f-by">Contributor / author *</label>
+        <input type="text" id="f-by" placeholder="Name, or 'Anonymous'">
+      </div>
+      <div class="field-row">
+        <label for="f-inst">Institution</label>
+        <input type="text" id="f-inst" placeholder="Department, university">
+      </div>
+    </div>
+    <div class="field-row">
+      <label for="f-url">Source URL *</label>
+      <input type="url" id="f-url" placeholder="https://… a page, PDF, or post describing it">
+    </div>
+    <div class="field-grid">
+      <div class="field-row">
+        <label for="f-reg">Region</label>
+        <select id="f-reg"></select>
+      </div>
+      <div class="field-row">
+        <label for="f-yr">Year published</label>
+        <input type="number" id="f-yr" placeholder="e.g. 2025" min="2015" max="2030">
+      </div>
+    </div>
+    <div class="field-row">
+      <label for="f-th">Theme</label>
+      <select id="f-th"></select>
+    </div>
+    <div class="field-row">
+      <label>Discipline(s) — tick any that apply</label>
+      <div class="check-grid" id="f-disc"></div>
+    </div>
+    <div class="field-row">
+      <label>AI tool(s) used — tick any that apply</label>
+      <div class="check-grid" id="f-tool"></div>
+    </div>
+    <div class="field-row">
+      <label for="f-summary">Summary *</label>
+      <textarea id="f-summary" placeholder="What exactly was done, with which tool, by whom, and what happened — the more concrete detail, the better."></textarea>
+    </div>
+
+    <div class="attest-list">
+      <div class="attest-heading">Before you submit — please confirm</div>
+      <label><input type="checkbox" id="f-attest1"> This describes something that was <strong>actually built, run, or trialled</strong> — not a proposal, framework, or guidance document.</label>
+      <label><input type="checkbox" id="f-attest2"> I have a <strong>real, working source link</strong> for this.</label>
+    </div>
+
+    <div id="formFeedback"></div>
+    <div class="export-row">
+      <button class="primary-btn" id="submitBtn" type="button">Submit for review</button>
+    </div>
+  </div>
+
+  <div class="card success-panel hidden" id="successCard">
+    <div class="big-check">✓</div>
+    <h2>Thanks — it's in the review queue</h2>
+    <p>The maintainer screens every submission against the same criteria used throughout this catalog before it goes live. You'll see it on the public catalog once approved.</p>
+    <a class="primary-btn" href="/submit" style="text-decoration:none; display:inline-block;">Submit another</a>
+  </div>
+</div>
+
+<script>
+function fillSelect(sel, options, placeholder) {
+  sel.innerHTML = `<option value="">${placeholder}</option>` + options.map(o => `<option value="${o}">${o}</option>`).join("");
+}
+function fillCheckGrid(container, options) {
+  container.innerHTML = options.map(o => `<label><input type="checkbox" value="${o.replace(/"/g,'&quot;')}"> ${o}</label>`).join("");
+}
+function uniqueSorted(arr) { return [...new Set(arr)].sort(); }
+
+(async function init() {
+  const res = await fetch("/api/catalog");
+  const data = await res.json();
+  const entries = data.entries;
+  fillSelect(document.getElementById("f-reg"), uniqueSorted(entries.map(e => e.reg).filter(Boolean)), "— choose region —");
+  fillSelect(document.getElementById("f-th"), uniqueSorted(entries.map(e => e.th).filter(Boolean)), "— choose theme —");
+  fillCheckGrid(document.getElementById("f-disc"), uniqueSorted(entries.flatMap(e => e.disc)));
+  fillCheckGrid(document.getElementById("f-tool"), uniqueSorted(entries.flatMap(e => e.tool)).filter(v => v !== "Unspecified"));
+})();
+
+const feedbackEl = document.getElementById("formFeedback");
+
+function readForm() {
+  return {
+    t: document.getElementById("f-title").value.trim(),
+    by: document.getElementById("f-by").value.trim(),
+    inst: document.getElementById("f-inst").value.trim(),
+    u: document.getElementById("f-url").value.trim(),
+    reg: document.getElementById("f-reg").value,
+    yr: document.getElementById("f-yr").value ? Number(document.getElementById("f-yr").value) : "",
+    th: document.getElementById("f-th").value,
+    disc: [...document.querySelectorAll("#f-disc input:checked")].map(c => c.value),
+    tool: [...document.querySelectorAll("#f-tool input:checked")].map(c => c.value),
+    s: document.getElementById("f-summary").value.trim(),
+    attest1: document.getElementById("f-attest1").checked,
+    attest2: document.getElementById("f-attest2").checked,
+  };
+}
+
+document.getElementById("submitBtn").addEventListener("click", async () => {
+  const entry = readForm();
+  if (!entry.t || !entry.by || !entry.u || !entry.s) {
+    feedbackEl.innerHTML = `<div class="badge bad">Please fill in title, contributor, source URL and summary before submitting.</div>`;
+    return;
+  }
+  if (!entry.attest1 || !entry.attest2) {
+    feedbackEl.innerHTML = `<div class="badge bad">Please confirm both checkboxes above — they're the actual inclusion bar for this catalog.</div>`;
+    return;
+  }
+  const btn = document.getElementById("submitBtn");
+  btn.disabled = true;
+  btn.textContent = "Submitting…";
+  try {
+    const res = await fetch("/api/submissions", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(entry),
+    });
+    if (!res.ok) throw new Error("submit_failed");
+    document.getElementById("formCard").classList.add("hidden");
+    document.getElementById("successCard").classList.remove("hidden");
+  } catch (err) {
+    feedbackEl.innerHTML = `<div class="badge bad">Something went wrong submitting this — please try again in a moment.</div>`;
+    btn.disabled = false;
+    btn.textContent = "Submit for review";
+  }
+});
+</script>
+</body>
+</html>

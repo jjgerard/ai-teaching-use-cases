@@ -1,0 +1,303 @@
+<title>Field Notes — A Specimen Catalog of AI Case Studies in Education</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="/shared.css">
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <div>
+      <p class="catalog-mark">Field survey · logged, not modeled</p>
+      <h1 class="title">Specimen Catalog of Real AI Case Studies in Education</h1>
+      <p class="lede">Every entry here is a named person, course, or institution describing exactly what they did with generative AI — collected across 14 repositories at universities and sector bodies worldwide. No frameworks; only specimens.</p>
+    </div>
+    <div class="tally">
+      <span class="big" id="tallyTotal">—</span>
+      <span class="cap">specimens catalogued</span>
+      <br>
+      <a class="contribute-btn" href="/submit">+ Suggest a case study</a>
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+  <aside class="rail" id="rail">
+    <div class="searchbar">
+      <input id="search" type="text" placeholder="Search titles, people, tools, tags…" autocomplete="off">
+    </div>
+    <button class="clear-filters" id="clearFilters">Reset all filters</button>
+    <div class="facet-group" id="facet-repo" data-key="repo">
+      <button class="facet-toggle" type="button" aria-expanded="false">
+        <span class="facet-toggle-label">Collection</span>
+        <span class="facet-toggle-count" hidden>0</span>
+        <span class="facet-toggle-chevron" aria-hidden="true">⌄</span>
+      </button>
+      <div class="facet-panel"><div class="facet-list"></div></div>
+    </div>
+    <div class="facet-group" id="facet-region" data-key="reg">
+      <button class="facet-toggle" type="button" aria-expanded="false">
+        <span class="facet-toggle-label">Region</span>
+        <span class="facet-toggle-count" hidden>0</span>
+        <span class="facet-toggle-chevron" aria-hidden="true">⌄</span>
+      </button>
+      <div class="facet-panel"><div class="facet-list"></div></div>
+    </div>
+    <div class="facet-group" id="facet-disc" data-key="disc">
+      <button class="facet-toggle" type="button" aria-expanded="false">
+        <span class="facet-toggle-label">Discipline</span>
+        <span class="facet-toggle-count" hidden>0</span>
+        <span class="facet-toggle-chevron" aria-hidden="true">⌄</span>
+      </button>
+      <div class="facet-panel"><div class="facet-list"></div></div>
+    </div>
+    <div class="facet-group" id="facet-theme" data-key="th">
+      <button class="facet-toggle" type="button" aria-expanded="false">
+        <span class="facet-toggle-label">Theme</span>
+        <span class="facet-toggle-count" hidden>0</span>
+        <span class="facet-toggle-chevron" aria-hidden="true">⌄</span>
+      </button>
+      <div class="facet-panel"><div class="facet-list"></div></div>
+    </div>
+    <div class="facet-group" id="facet-tool" data-key="tool">
+      <button class="facet-toggle" type="button" aria-expanded="false">
+        <span class="facet-toggle-label">AI tool</span>
+        <span class="facet-toggle-count" hidden>0</span>
+        <span class="facet-toggle-chevron" aria-hidden="true">⌄</span>
+      </button>
+      <div class="facet-panel"><div class="facet-list"></div></div>
+    </div>
+    <div class="facet-group" id="facet-year" data-key="yr">
+      <button class="facet-toggle" type="button" aria-expanded="false">
+        <span class="facet-toggle-label">Year published</span>
+        <span class="facet-toggle-count" hidden>0</span>
+        <span class="facet-toggle-chevron" aria-hidden="true">⌄</span>
+      </button>
+      <div class="facet-panel"><div class="facet-list"></div></div>
+    </div>
+  </aside>
+
+  <main>
+    <div class="results-head">
+      <span class="results-count"><b id="shownCount">0</b> of <span id="totalCount">0</span> specimens shown</span>
+      <span class="sort-note">grouped by collection</span>
+    </div>
+    <div id="results"></div>
+    <div class="empty-state hidden" id="emptyState">No specimens match these filters — try clearing one.</div>
+  </main>
+</div>
+
+<footer class="note">
+  <h3>Notes on the field survey</h3>
+  <ul>
+    <li>Two Padlet boards were checked for named case studies (Houston H. Harte Center, W&amp;L — <a href="https://padlet.com/hartecenter/ai-resources-fie5iq8myfgvb58h" target="_blank" rel="noopener">link</a>; University of Dundee CTIL — <a href="https://uod.padlet.org/edukewilliams/ai-higher-education-9qe78xx5c6biqdkk" target="_blank" rel="noopener">link</a>) and excluded: both are curated link libraries of tools, guidance and research, not first-person accounts of specific practice.</li>
+    <li><a href="https://www.curtin.edu.au/assessment2030/assessment-design-studio/" target="_blank" rel="noopener">Curtin University's Educator Case Studies</a> and <a href="https://www.ucl.ac.uk/teaching-learning/case-studies/?f.Subjects%7CUclSubject=Generative+Artificial+Intelligence" target="_blank" rel="noopener">UCL's Generative AI case studies</a> are real repositories with genuine entries, but both render their lists client-side behind filters that aren't machine-readable from outside — worth browsing directly rather than treating as excluded.</li>
+    <li>Two Jisc series are catalogued separately: the <em>AI in Marking &amp; Feedback Pilot</em> (deep-dive reports) and <em>Innovative Insights</em> (short community submissions) — same publisher, different projects.</li>
+    <li>Advance HE publishes its assessment &amp; feedback compendium annually; the 2025 and 2026 editions were supplied directly as PDFs and are catalogued as one collection here, distinguished only by each entry's publication year. Of the 15 case studies across both editions, only 7 described a specific activity that was actually run with enough detail to populate every attribute — the rest were institutional frameworks (one explicitly "not yet formally piloted") or, in one case, an authentic-assessment redesign with no generative AI involved at all. All entries link to the compendium's knowledge-hub landing page.</li>
+    <li>A submitted "101 Creative Ideas" PowerPoint first turned out to be a blank contributor template; the actual 168-page #creativeHE collection was supplied afterwards. Of its ~100 crowdsourced submissions, most described a proposed idea ("could be used to…") rather than something the contributor had actually built, run or trialled — only 38 met the same bar applied everywhere else in this catalog and are included.</li>
+    <li>Every entry was re-screened against one test: is this someone <em>using</em> generative AI to do something, or guidance/policy/training <em>about</em> AI use? 21 case studies across ANTF, Durham, QAA and Utrecht that turned out to be institutional frameworks, literacy-building programmes, or policy documents (e.g. an AI assessment-scale adoption, or capacity-building workshops) were removed on this basis; 4 more QAA entries were retagged once a closer read of the source PDF surfaced the concrete tool actually being used underneath a policy-sounding title.</li>
+    <li>"Year published" reflects when the source document or post went up, not necessarily when the activity itself ran (which is sometimes a year or two earlier).</li>
+    <li>The five University of Sydney articles are almost all roundups covering several named academics each; every distinct example is logged as its own specimen rather than one entry per article.</li>
+    <li>Functionality (facets, free-text search) modeled on <a href="https://scale.stanford.edu/ai/repository/all" target="_blank" rel="noopener">Stanford Accelerator for Learning's AI repository</a>.</li>
+  </ul>
+</footer>
+
+<script>
+let REPOS = {};
+let S = [];
+
+// ---------- render ----------
+// Facet keys always match the actual property name on each specimen object
+// (repo, reg, th, yr) except "tool" and "disc", which are array-valued —
+// entries can carry several tools or several disciplines at once.
+const railEl = {
+  repo: document.querySelector("#facet-repo .facet-list"),
+  reg: document.querySelector("#facet-region .facet-list"),
+  disc: document.querySelector("#facet-disc .facet-list"),
+  th: document.querySelector("#facet-theme .facet-list"),
+  tool: document.querySelector("#facet-tool .facet-list"),
+  yr: document.querySelector("#facet-year .facet-list"),
+};
+const resultsEl = document.getElementById("results");
+const shownCountEl = document.getElementById("shownCount");
+const totalCountEl = document.getElementById("totalCount");
+const tallyTotalEl = document.getElementById("tallyTotal");
+const emptyStateEl = document.getElementById("emptyState");
+const searchEl = document.getElementById("search");
+
+const state = { repo: new Set(), reg: new Set(), disc: new Set(), th: new Set(), tool: new Set(), yr: new Set(), q: "" };
+
+function uniqueSorted(arr) { return [...new Set(arr)].sort(); }
+
+// Years sort newest-first as numbers, with "Unspecified" always last.
+function sortYears(arr) {
+  return [...new Set(arr)].sort((a, b) => {
+    if (a === "Unspecified") return 1;
+    if (b === "Unspecified") return -1;
+    return b - a;
+  });
+}
+
+// Repo facet is alphabetised by each collection's short display label,
+// not by object key — so "Advance HE 2025" sorts before "WashU", etc.
+function sortRepos(keys) {
+  return [...keys].sort((a, b) => REPOS[a].short.localeCompare(REPOS[b].short));
+}
+
+function labelFor(key, v) {
+  if (key === "repo") return REPOS[v].short;
+  return v;
+}
+
+// Array-valued keys get counted/matched against every tag in the array
+// rather than a single scalar value.
+const ARRAY_KEYS = new Set(["tool", "disc"]);
+// Values in this set are real answers ("we checked and there isn't one"),
+// so they stay selectable in their facet — they just never render as a
+// pill on a card, per the "don't clutter the entry with a non-answer" rule.
+const SILENT_VALUES = new Set(["Unspecified"]);
+
+function buildFacet(key, values, container) {
+  container.innerHTML = "";
+  values.forEach(v => {
+    const count = ARRAY_KEYS.has(key)
+      ? S.filter(s => s[key].includes(v)).length
+      : S.filter(s => s[key] === v).length;
+    const row = document.createElement("label");
+    row.className = "facet-row";
+    row.innerHTML = `<input type="checkbox" data-key="${key}" value="${String(v).replace(/"/g,'&quot;')}"><span class="fname">${labelFor(key, v)}</span><span class="fcount">${count}</span>`;
+    container.appendChild(row);
+    row.querySelector("input").addEventListener("change", e => {
+      if (e.target.checked) state[key].add(v); else state[key].delete(v);
+      row.classList.toggle("active", e.target.checked);
+      render();
+    });
+  });
+}
+
+function buildAllFacets() {
+  buildFacet("repo", sortRepos(Object.keys(REPOS)), railEl.repo);
+  buildFacet("reg", uniqueSorted(S.map(s => s.reg)), railEl.reg);
+  buildFacet("disc", uniqueSorted(S.flatMap(s => s.disc)), railEl.disc);
+  buildFacet("th", uniqueSorted(S.map(s => s.th)), railEl.th);
+  buildFacet("tool", uniqueSorted(S.flatMap(s => s.tool)), railEl.tool);
+  buildFacet("yr", sortYears(S.map(s => s.yr)), railEl.yr);
+}
+
+// Terms typed into search are checked against the tag/category vocabulary
+// too (theme, tools, disciplines, region, year, collection name) — so typing
+// "Health & Medicine" or "ChatGPT" filters exactly like ticking that facet.
+function matches(s) {
+  if (state.repo.size && !state.repo.has(s.repo)) return false;
+  if (state.reg.size && !state.reg.has(s.reg)) return false;
+  if (state.disc.size && ![...state.disc].some(d => s.disc.includes(d))) return false;
+  if (state.th.size && !state.th.has(s.th)) return false;
+  if (state.tool.size && ![...state.tool].some(t => s.tool.includes(t))) return false;
+  if (state.yr.size && !state.yr.has(s.yr)) return false;
+  if (state.q) {
+    const hay = (
+      s.t + " " + s.by + " " + (s.inst || "") + " " + s.s + " " +
+      s.tool.join(" ") + " " + s.disc.join(" ") + " " + s.th + " " +
+      s.reg + " " + s.yr + " " + REPOS[s.repo].short + " " + REPOS[s.repo].label
+    ).toLowerCase();
+    if (!hay.includes(state.q)) return false;
+  }
+  return true;
+}
+
+// Each facet dropdown shows how many values are currently ticked as a
+// badge on its closed header, since the list itself is hidden until opened.
+function updateFacetBadges() {
+  document.querySelectorAll(".facet-group[data-key]").forEach(group => {
+    const n = state[group.dataset.key].size;
+    const badge = group.querySelector(".facet-toggle-count");
+    badge.hidden = n === 0;
+    badge.textContent = n;
+  });
+}
+
+function render() {
+  updateFacetBadges();
+  const filtered = S.filter(matches);
+  resultsEl.innerHTML = "";
+  emptyStateEl.classList.toggle("hidden", filtered.length > 0);
+  shownCountEl.textContent = filtered.length;
+  totalCountEl.textContent = S.length;
+  tallyTotalEl.textContent = S.length;
+
+  let lastRepo = null;
+  filtered.forEach(s => {
+    if (s.repo !== lastRepo) {
+      lastRepo = s.repo;
+      const r = REPOS[s.repo];
+      const div = document.createElement("div");
+      div.className = "collection-divider";
+      div.innerHTML = `<h2><a href="${r.url}" target="_blank" rel="noopener">${r.label}</a></h2><p>${r.blurb}</p>`;
+      resultsEl.appendChild(div);
+    }
+    const idx = S.indexOf(s) + 1;
+    const art = document.createElement("article");
+    art.className = "specimen";
+    const toolPills = s.tool.filter(v => !SILENT_VALUES.has(v)).map(tg => `<span class="pill tool">${tg}</span>`).join("");
+    const discPills = s.disc.filter(v => !SILENT_VALUES.has(v)).map(d => `<span class="pill disc">${d}</span>`).join("");
+    const yearPill = SILENT_VALUES.has(String(s.yr)) ? "" : `<span class="pill year">${s.yr}</span>`;
+    art.innerHTML = `
+      <div class="no">${String(idx).padStart(3,"0")}</div>
+      <div>
+        <h3 class="spec-title"><a href="${s.u}" target="_blank" rel="noopener">${s.t}</a></h3>
+        <p class="byline">${s.by}${s.inst ? ` — <span class="inst">${s.inst}</span>` : ""}</p>
+        ${s.q ? `<p class="quote">${s.q}</p>` : ""}
+        <p class="summary">${s.s}</p>
+        <div class="pillrow">
+          <span class="pill theme">${s.th}</span>
+          ${toolPills}
+          ${discPills}
+          ${yearPill}
+          <span class="pill repo">${s.reg}</span>
+        </div>
+      </div>
+    `;
+    resultsEl.appendChild(art);
+  });
+}
+
+searchEl.addEventListener("input", () => { state.q = searchEl.value.trim().toLowerCase(); render(); });
+document.getElementById("clearFilters").addEventListener("click", () => {
+  ["repo","reg","disc","th","tool","yr"].forEach(k => state[k].clear());
+  document.querySelectorAll(".rail input[type=checkbox]").forEach(cb => { cb.checked = false; cb.closest(".facet-row").classList.remove("active"); });
+  searchEl.value = ""; state.q = "";
+  render();
+});
+
+// ---------- facet dropdowns: one open at a time, closed by outside click or Escape ----------
+function closeAllFacets(except) {
+  document.querySelectorAll(".facet-group.open").forEach(g => {
+    if (g === except) return;
+    g.classList.remove("open");
+    g.querySelector(".facet-toggle").setAttribute("aria-expanded", "false");
+  });
+}
+document.querySelectorAll(".facet-toggle").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const group = btn.closest(".facet-group");
+    const willOpen = !group.classList.contains("open");
+    closeAllFacets();
+    group.classList.toggle("open", willOpen);
+    btn.setAttribute("aria-expanded", String(willOpen));
+  });
+});
+document.addEventListener("click", e => {
+  if (!e.target.closest(".facet-group")) closeAllFacets();
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeAllFacets();
+});
+
+async function loadData() {
+  const res = await fetch("/api/catalog");
+  const data = await res.json();
+  REPOS = data.repos;
+  S = data.entries;
+  buildAllFacets();
+  render();
+}
+loadData();
+
+</script>
