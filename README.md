@@ -162,11 +162,12 @@ data/
 
 ## About this project
 
-This catalog and its content were built by [Juliana Gerard](https://julianagerard.com).
+This catalog and its content were built by [Juliana Gerard](https://julianagerard.com),
+a lecturer in Linguistics at [Ulster University](https://ulster.ac.uk).
 The application code was written with [Claude Code](https://claude.com/claude-code)
-(Anthropic); the case study curation — sourcing candidates and screening them
-against the inclusion criteria — is original human work, and entries are
-written with AI assistance.
+(Anthropic), which was also used to source candidate case studies, screen them
+against the inclusion criteria, and write entries; the human work is setting
+those criteria, directing the research, and reviewing what actually qualifies.
 
 ## License
 
