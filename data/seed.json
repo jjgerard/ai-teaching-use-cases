@@ -4441,6 +4441,219 @@
       ],
       "yr": 2024,
       "s": "Pre-service language-teacher postgraduate students used GenAI tools to plan and generate ideas for an academic essay assignment; thematic analysis of student reflections and surveys identified benefits for idea generation alongside risks from inaccuracy and bias."
+    },
+    {
+      "t": "Interactive Oral Assessments replacing written exams — zero academic integrity breaches since 2022",
+      "u": "https://scienceblog.com/549717/out-with-exams-in-with-verbal-assessments-the-new-way-to-cut-stress-boost-grades-and-protect-academic-integrity/",
+      "by": "Dr Chris Della Vedova and Dr Sarah Davey",
+      "inst": "UniSA Clinical & Health Sciences",
+      "repo": "unisa-ioa",
+      "reg": "Australia",
+      "th": "Reduced AI Use (Evidenced)",
+      "tool": ["Unspecified"],
+      "disc": ["Health & Medicine"],
+      "yr": 2024,
+      "s": "Replaced the final written, invigilated exam in Laboratory Medicine and Biomedical Science courses with a 20-minute one-on-one Interactive Oral Assessment (IOA): a live conversation with unseen follow-up questions drawn from a pool, probing depth of understanding in real time — a pre-generated AI answer can't survive live follow-up questioning.",
+      "ev": "Zero academic integrity breaches recorded since IOAs were introduced in 2022, versus a nonzero rate under the prior written-exam format; also a reported 15% rise in final assessment scores and 20% rise in overall course performance. Reported via a university press release/instructor interview rather than a peer-reviewed breach-count table, so treat the exact size of the effect with some caution.",
+      "q": "Since implementing the IOAs in 2022, we've not had a single academic integrity breach."
+    },
+    {
+      "t": "Three-year, 25-subject rollout of Interactive Oral Assessment reduces academic dishonesty",
+      "u": "https://www.tandfonline.com/doi/full/10.1080/13562517.2025.2549945",
+      "by": "M. Droulers, A. Krautloher, S. Shaeri",
+      "inst": "",
+      "repo": "ioa-multisubject",
+      "reg": "Australia",
+      "th": "Reduced AI Use (Evidenced)",
+      "tool": ["Unspecified"],
+      "disc": ["Institutional / Cross-Disciplinary"],
+      "yr": 2026,
+      "s": "An institution-wide, three-year project rolled out Interactive Oral Assessment across 25 subjects as a response to GenAI-enabled misconduct risk, surveying 290 students on their experience and comparing oral assessment against written work on validity, reliability and student preference.",
+      "ev": "Reports that IOAs \"reduce academic dishonesty\" across the 25-subject sample, alongside higher student confidence and preference for oral over written assessment. The paper is paywalled beyond the abstract, so it's unclear whether the dishonesty figure comes from actual case counts or from self-report/perception items — worth confirming directly before treating this as strong evidence."
+    },
+    {
+      "t": "AI Assessment Scale institution-wide pilot cuts GenAI misconduct cases while raising attainment",
+      "u": "https://ajet.org.au/index.php/AJET/article/view/9434",
+      "by": "Mike Perkins, Leon Furze, Jasper Roe, Jason MacVaugh",
+      "inst": "British University Vietnam",
+      "repo": "buv-aias",
+      "reg": "Vietnam",
+      "th": "Reduced AI Use (Evidenced)",
+      "tool": ["Unspecified"],
+      "disc": ["Institutional / Cross-Disciplinary"],
+      "yr": 2024,
+      "s": "Rather than a blanket ban, roughly 2,500 students across the institution were given a 5-level AI Assessment Scale (No AI → Full AI) specifying exactly how much GenAI use was permitted per assessment, paired with redesigned rubrics, comparing the 2023 and 2024 academic years.",
+      "ev": "Reports \"a significant reduction in academic misconduct cases related to GenAI\" institution-wide from 2023 to 2024, alongside a 5.9% rise in student attainment and a 33.3% rise in module pass rates over the same period. The exact misconduct case-count/percentage wasn't extractable from the accessible text — only the qualitative \"significant reduction\" framing — so the headline misconduct figure is less precise than the attainment numbers.",
+      "q": "Banning or blocking GenAI tools has proven ineffective."
+    },
+    {
+      "t": "Automatic speech recognition for transcribing child-language-acquisition recordings",
+      "u": "https://adaptiveai.ulster.ac.uk/library",
+      "by": "Dr Juliana Gerard",
+      "inst": "School of Communication and Media, Ulster University",
+      "repo": "ulster-adaptiveai",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": ["Other"],
+      "disc": ["Languages & Linguistics"],
+      "yr": 2025,
+      "s": "Automatic speech recognition (local ASR models, including Batchalign) transcribes recordings of children's speech collected 2013–2020, replacing manual transcription at the data-processing stage of corpus-based linguistic research into language acquisition."
+    },
+    {
+      "t": "NLP-based harmonization of psychology survey items across independent studies",
+      "u": "https://adaptiveai.ulster.ac.uk/library",
+      "by": "Dr Eoin McElroy",
+      "inst": "School of Psychology, Ulster University",
+      "repo": "ulster-adaptiveai",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": ["Other"],
+      "disc": ["Social Sciences"],
+      "yr": 2025,
+      "s": "An NLP tool (Harmony, built on an SBERT transformer model) identifies semantically similar questionnaire items across independently run surveys, enabling researchers to pool and jointly analyse otherwise incompatible psychology/public-health datasets — used at the data-preparation stage of the research pipeline."
+    },
+    {
+      "t": "LLM-driven avatars as a research instrument for conflict-resolution training studies",
+      "u": "https://adaptiveai.ulster.ac.uk/library",
+      "by": "Salvador Alvidrez",
+      "inst": "School of Communication and Media, Ulster University",
+      "repo": "ulster-adaptiveai",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": ["Other"],
+      "disc": ["Social Sciences"],
+      "yr": 2025,
+      "s": "An LLM engine (Convai) drives 3D non-player-character avatars that simulate conflict scenarios, used as the actual research/data-collection instrument for studying and training practitioners' conflict-resolution skills."
+    },
+    {
+      "t": "Text-to-image generation to accelerate sustainable fashion design research",
+      "u": "https://adaptiveai.ulster.ac.uk/library",
+      "by": "Janet Coulter",
+      "inst": "Belfast School of Art, Ulster University",
+      "repo": "ulster-adaptiveai",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": ["Midjourney", "Stable Diffusion"],
+      "disc": ["Arts & Humanities"],
+      "yr": 2025,
+      "s": "Text-to-image tools (Midjourney, Patterned AI, Stable Diffusion XL) speed up design iteration and trend prediction within a sustainability-focused fashion design research project, aimed at reducing material waste from physical prototyping."
+    },
+    {
+      "t": "Vector embeddings and an LLM to rapidly classify combined legal-linguistic datasets",
+      "u": "https://adaptiveai.ulster.ac.uk/library",
+      "by": "Morgan Macleod",
+      "inst": "School of Communication and Media, Ulster University",
+      "repo": "ulster-adaptiveai",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": ["Other"],
+      "disc": ["Languages & Linguistics", "Law"],
+      "yr": 2025,
+      "s": "Vector embeddings paired with a generative LLM classify and retrieve relevant material across a combined legal and linguistic dataset, used at the data-retrieval/thematic-analysis stage of a law-and-language research project."
+    },
+    {
+      "t": "AI co-scientist proposes drug-repurposing hypotheses for liver fibrosis, validated in human liver organoids",
+      "u": "https://advanced.onlinelibrary.wiley.com/doi/10.1002/advs.202508751",
+      "by": "Guan et al.",
+      "inst": "Includes Stanford University collaborators",
+      "repo": "google-aicoscientist",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": ["AI Co-Scientist (Google)"],
+      "disc": ["Health & Medicine"],
+      "yr": 2025,
+      "s": "Google's multi-agent \"AI co-scientist\" system (built on Gemini 2.0) was tasked with proposing epigenomic-modifier drug candidates with anti-fibrotic activity; researchers experimentally tested its top proposals in human liver organoids and validated two of three, including repurposing the already-approved drug vorinostat — AI used at the hypothesis-generation stage, with the biology itself confirmed by wet-lab experiment."
+    },
+    {
+      "t": "AI co-scientist independently proposes the mechanism behind mobile bacterial gene-transfer islands",
+      "u": "https://www.cell.com/cell/fulltext/S0092-8674(25)00973-0",
+      "by": "José R. Penadés et al.",
+      "inst": "Imperial College London, with Google collaborators",
+      "repo": "google-aicoscientist",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": ["AI Co-Scientist (Google)"],
+      "disc": ["Life Sciences"],
+      "yr": 2025,
+      "s": "Tasked only with explaining how mobile genetic islands (cf-PICIs) spread across different bacterial species, Google's AI co-scientist independently proposed the \"tail piracy\" mechanism the human research team had spent years establishing experimentally — reaching the same hypothesis in days, which the team then confirmed in the lab."
+    },
+    {
+      "t": "Using Gemini to generate initial themes from family-planning-clinic interview transcripts",
+      "u": "https://www.childtrends.org/publications/case-study-ai-analyze-qualitative-interview-transcripts",
+      "by": "Claire Kelley, Deja Logan, Bonnie Solomon",
+      "inst": "Child Trends",
+      "repo": "childtrends-qualcoding",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": ["Gemini"],
+      "disc": ["Health & Medicine"],
+      "yr": 2025,
+      "s": "Google Gemini 2.5 Pro generated inductive initial themes from real Title X family-planning-clinic interview transcripts on reproductive health services; researchers then refined those themes and applied them deductively across the dataset, concluding AI should augment rather than replace human qualitative coding."
+    },
+    {
+      "t": "AI-generated initial codes for a cross-EU qualitative study on cancer-prevention literacy",
+      "u": "https://journals.sagepub.com/doi/full/10.1177/16094069251365766",
+      "by": "Barrera, Feliu, Espina, Brand, Zeeb, Ahmed",
+      "inst": "",
+      "repo": "sage-cancerliteracy",
+      "reg": "Unspecified",
+      "th": "AI-Assisted Research",
+      "tool": ["Other"],
+      "disc": ["Health & Medicine"],
+      "yr": 2025,
+      "s": "ATLAS.ti's NLP-driven coding feature generated over 5,000 initial codes from interview data collected across multiple EU case studies on cancer-prevention health literacy; researchers then consolidated and refined the AI-generated codes into the study's final thematic framework."
+    },
+    {
+      "t": "Topic modeling a Civil War-era Richmond newspaper to surface themes invisible to manual reading",
+      "u": "https://dsl.richmond.edu/dispatch/",
+      "by": "Robert K. Nelson",
+      "inst": "Digital Scholarship Lab, University of Richmond",
+      "repo": "richmond-dispatch",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": ["Other"],
+      "disc": ["Arts & Humanities"],
+      "yr": 2011,
+      "s": "LDA-based topic modeling of roughly 1,400 issues of the Richmond Dispatch (1860–65) surfaced recurring themes and shifts in Confederate Richmond's social and political life that weren't visible through manual reading of the archive, feeding into a peer-reviewed Journal of American History article. Note: this predates the generative-AI wave (machine-learning topic modeling, not an LLM) — worth a scope call on whether it fits a GenAI-focused catalog."
+    },
+    {
+      "t": "A custom neural network re-dates Dead Sea Scroll fragments from handwriting analysis",
+      "u": "https://www.science.org/content/article/some-dead-sea-scrolls-are-older-researchers-thought-ai-analysis-suggests",
+      "by": "Mladen Popović et al.",
+      "inst": "Qumran Institute, University of Groningen",
+      "repo": "deadseascrolls-enoch",
+      "reg": "Netherlands",
+      "th": "AI-Assisted Research",
+      "tool": ["Other"],
+      "disc": ["Arts & Humanities"],
+      "yr": 2025,
+      "s": "\"Enoch\", a neural network trained on ink-trace and letterform patterns from radiocarbon-dated fragments, predicted manuscript dates (within about ±30 years) for undated Dead Sea Scroll fragments, agreeing with paleographic estimates 79% of the time and suggesting some scrolls are older than previously thought — part of the ERC-funded \"Hands That Wrote the Bible\" project. Note: a classification neural net, not a generative model — same scope caveat as the topic-modeling entry above."
+    },
+    {
+      "t": "GrantCheck: hybrid NLP/LLM tool flags non-compliant language in real grant applications",
+      "u": "https://formative.jmir.org/2025/1/e79038",
+      "by": "Shi, Oztekin, Matthew, Bortle, et al.",
+      "inst": "UMass Chan Medical School",
+      "repo": "grantcheck-umass",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": ["Other"],
+      "disc": ["Institutional / Cross-Disciplinary"],
+      "yr": 2025,
+      "s": "A hybrid rule-based NLP and LLM tool (via Amazon Bedrock) flags language in draft grant proposals that's misaligned with current NIH/federal policy requirements and suggests compliant alternative phrasing, deployed to help researchers actually writing federal grant applications — an assistive/compliance tool rather than a source of intellectual content."
+    },
+    {
+      "t": "Using ChatGPT and Claude as co-developers to build a behavioral-research data pipeline",
+      "u": "https://www.mdpi.com/2227-9709/13/4/48",
+      "by": "Unspecified",
+      "inst": "",
+      "repo": "cyberball-etl",
+      "reg": "Unspecified",
+      "th": "AI-Assisted Research",
+      "tool": ["ChatGPT", "Claude"],
+      "disc": ["Social Sciences"],
+      "yr": 2026,
+      "s": "Researchers used ChatGPT and Claude as interactive co-developers to build a Docker/n8n ETL pipeline converting FaceReader video-analysis output from a 102-participant Cyberball social-exclusion study into analysis-ready datasets, without needing advanced coding or DevOps skills themselves — AI used at the data-cleaning/pipeline-engineering stage of a real behavioral study."
     }
   ],
   "REPOS": {
@@ -4713,6 +4926,72 @@
       "short": "ASCILITE 2024",
       "url": "https://open-publishing.org/publications/index.php/APUB/article/view/1234",
       "blurb": "Peer-reviewed conference papers describing real classroom trials, including four individually reported case studies from one Arts Faculty paper — screened the same way as the AdaptEdu 2024 proceedings."
+    },
+    "unisa-ioa": {
+      "label": "University of South Australia — Interactive Oral Assessment",
+      "short": "UniSA (IOA)",
+      "url": "https://scienceblog.com/549717/out-with-exams-in-with-verbal-assessments-the-new-way-to-cut-stress-boost-grades-and-protect-academic-integrity/",
+      "blurb": "Press coverage and instructor interviews on UniSA's switch from written exams to live one-on-one oral assessment in health-science courses."
+    },
+    "ioa-multisubject": {
+      "label": "Interactive Oral Assessment — 25-Subject Study (Teaching in Higher Education)",
+      "short": "IOA Multi-Subject Study",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/13562517.2025.2549945",
+      "blurb": "A peer-reviewed, three-year study of Interactive Oral Assessment rolled out across 25 subjects at an Australian university."
+    },
+    "buv-aias": {
+      "label": "British University Vietnam — AI Assessment Scale (AIAS) Pilot",
+      "short": "BUV (AIAS)",
+      "url": "https://ajet.org.au/index.php/AJET/article/view/9434",
+      "blurb": "A peer-reviewed, institution-wide pilot of the AI Assessment Scale across roughly 2,500 students, published in the Australasian Journal of Educational Technology (preprint: arxiv.org/abs/2403.14692)."
+    },
+    "ulster-adaptiveai": {
+      "label": "Ulster University — AdaptiveAI Case Studies",
+      "short": "Ulster (AdaptiveAI)",
+      "url": "https://adaptiveai.ulster.ac.uk/library",
+      "blurb": "Researcher-submitted examples of AI used within real Ulster University research projects, curated by the AdaptiveAI project alongside its 'Start AI Talks' seminar series (blogs.ulster.ac.uk/adaptiveai/start-ai-talks/)."
+    },
+    "google-aicoscientist": {
+      "label": "Google AI Co-Scientist — Independent Research Collaborations",
+      "short": "Google AI Co-Scientist",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12247918/",
+      "blurb": "Peer-reviewed studies in which Google's multi-agent 'AI co-scientist' system generated real scientific hypotheses, later validated experimentally by the human research teams."
+    },
+    "childtrends-qualcoding": {
+      "label": "Child Trends — AI-Assisted Qualitative Interview Analysis",
+      "short": "Child Trends",
+      "url": "https://www.childtrends.org/publications/case-study-ai-analyze-qualitative-interview-transcripts",
+      "blurb": "A published case study on using Google Gemini to support thematic coding of real reproductive-health interview transcripts."
+    },
+    "sage-cancerliteracy": {
+      "label": "SAGE — International Journal of Qualitative Methods",
+      "short": "SAGE (Cancer Literacy)",
+      "url": "https://journals.sagepub.com/doi/full/10.1177/16094069251365766",
+      "blurb": "A peer-reviewed study using ATLAS.ti's AI coding feature within a cross-EU qualitative study on cancer-prevention health literacy."
+    },
+    "richmond-dispatch": {
+      "label": "University of Richmond — Mining the Dispatch",
+      "short": "Richmond (Dispatch)",
+      "url": "https://dsl.richmond.edu/dispatch/",
+      "blurb": "A Digital Scholarship Lab project applying topic modeling to a Civil War-era Richmond newspaper archive, published in the Journal of American History."
+    },
+    "deadseascrolls-enoch": {
+      "label": "University of Groningen — Dating the Dead Sea Scrolls with AI",
+      "short": "Dead Sea Scrolls (Enoch)",
+      "url": "https://www.science.org/content/article/some-dead-sea-scrolls-are-older-researchers-thought-ai-analysis-suggests",
+      "blurb": "The ERC-funded 'Hands That Wrote the Bible' project's use of a custom neural network to re-date Dead Sea Scroll fragments from handwriting analysis, published in PLOS One."
+    },
+    "grantcheck-umass": {
+      "label": "UMass Chan Medical School — GrantCheck",
+      "short": "GrantCheck (UMass)",
+      "url": "https://formative.jmir.org/2025/1/e79038",
+      "blurb": "A JMIR Formative Research paper on a hybrid NLP/LLM tool assisting researchers with real federal grant-compliance drafting."
+    },
+    "cyberball-etl": {
+      "label": "Automating a Behavioral-Research Data Pipeline (Cyberball Paradigm)",
+      "short": "Cyberball ETL",
+      "url": "https://www.mdpi.com/2227-9709/13/4/48",
+      "blurb": "An MDPI Informatics paper on using LLMs as co-developers to build a data pipeline for a real 102-participant social-psychology study."
     }
   }
 }

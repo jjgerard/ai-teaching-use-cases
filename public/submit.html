@@ -41,6 +41,14 @@
     </div>
 
     <div class="field-row">
+      <label for="f-type">Case study type *</label>
+      <select id="f-type">
+        <option value="teaching" selected>Teaching — using AI in a course</option>
+        <option value="reduced">Reduced AI use — evidence student AI use went down</option>
+        <option value="research">AI-assisted research — AI used in a real research project</option>
+      </select>
+    </div>
+    <div class="field-row">
       <label for="f-title">Title *</label>
       <input type="text" id="f-title" placeholder="A short, specific description of what was done">
     </div>
@@ -73,7 +81,7 @@
         <input type="number" id="f-yr" placeholder="e.g. 2025" min="2015" max="2030">
       </div>
     </div>
-    <div class="field-row">
+    <div class="field-row" id="themeFieldRow">
       <label for="f-th">Theme</label>
       <input type="text" id="f-th" list="th-list" placeholder="Pick an existing one, or type a new one">
       <datalist id="th-list"></datalist>
@@ -97,6 +105,10 @@
     <div class="field-row">
       <label for="f-summary">Summary *</label>
       <textarea id="f-summary" placeholder="What exactly was done, with which tool, by whom, and what happened — the more concrete detail, the better."></textarea>
+    </div>
+    <div class="field-row">
+      <label for="f-evidence" id="evidenceLabel">Evidence (optional)</label>
+      <textarea id="f-evidence" placeholder="Only if this reports a measured outcome — e.g. a before/after stat on reduced AI use, or how a research result was later validated. Leave blank otherwise."></textarea>
     </div>
 
     <div class="attest-list">
@@ -183,6 +195,26 @@ function wireAddTag(containerId, inputId, buttonId) {
   });
 }
 
+// The two spun-off categories are identified purely by a fixed "th" (theme)
+// value — see SPUN_OFF_THEMES in catalog.html — so picking one of them here
+// just pins th to that constant and hides the free-text Theme field, rather
+// than needing a separate "category" concept in the data model.
+const TYPE_THEMES = { reduced: "Reduced AI Use (Evidenced)", research: "AI-Assisted Research" };
+const EVIDENCE_COPY = {
+  teaching: { label: "Evidence (optional)", placeholder: "Only if this reports a measured outcome — e.g. a before/after stat, or how a result was later validated. Leave blank otherwise." },
+  reduced: { label: "Evidence *", placeholder: "The measured outcome that AI use actually went down — a before/after stat, a misconduct-case-count comparison, etc. This category doesn't count without it." },
+  research: { label: "Evidence (optional)", placeholder: "If AI proposed a finding, how was it validated (e.g. confirmed experimentally by the research team)? Leave blank if not applicable." },
+};
+
+function updateForType() {
+  const type = document.getElementById("f-type").value;
+  document.getElementById("themeFieldRow").classList.toggle("hidden", type !== "teaching");
+  const copy = EVIDENCE_COPY[type];
+  document.getElementById("evidenceLabel").textContent = copy.label;
+  document.getElementById("f-evidence").placeholder = copy.placeholder;
+}
+document.getElementById("f-type").addEventListener("change", updateForType);
+
 (async function init() {
   const res = await fetch("/api/catalog");
   const data = await res.json();
@@ -193,12 +225,15 @@ function wireAddTag(containerId, inputId, buttonId) {
   fillCheckGrid(document.getElementById("f-tool"), uniqueSorted(entries.flatMap(e => e.tool)).filter(v => v !== "Unspecified"));
   wireAddTag("f-disc", "f-disc-new", "f-disc-add");
   wireAddTag("f-tool", "f-tool-new", "f-tool-add");
+  updateForType();
 })();
 
 const feedbackEl = document.getElementById("formFeedback");
 
 function readForm() {
+  const type = document.getElementById("f-type").value;
   return {
+    type,
     t: document.getElementById("f-title").value.trim(),
     by: document.getElementById("f-by").value.trim(),
     inst: document.getElementById("f-inst").value.trim(),
@@ -206,10 +241,11 @@ function readForm() {
     email: document.getElementById("f-email").value.trim(),
     reg: document.getElementById("f-reg").value,
     yr: document.getElementById("f-yr").value ? Number(document.getElementById("f-yr").value) : "",
-    th: document.getElementById("f-th").value,
+    th: type === "teaching" ? document.getElementById("f-th").value : TYPE_THEMES[type],
     disc: [...document.querySelectorAll("#f-disc input:checked")].map(c => c.value),
     tool: [...document.querySelectorAll("#f-tool input:checked")].map(c => c.value),
     s: document.getElementById("f-summary").value.trim(),
+    ev: document.getElementById("f-evidence").value.trim(),
     attest1: document.getElementById("f-attest1").checked,
     attest2: document.getElementById("f-attest2").checked,
   };
@@ -219,6 +255,10 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
   const entry = readForm();
   if (!entry.t || !entry.by || !entry.u || !entry.s) {
     feedbackEl.innerHTML = `<div class="badge bad">Please fill in title, contributor, source URL and summary before submitting.</div>`;
+    return;
+  }
+  if (entry.type === "reduced" && !entry.ev) {
+    feedbackEl.innerHTML = `<div class="badge bad">Reduced AI use case studies need the actual measured evidence — this category doesn't count without it.</div>`;
     return;
   }
   if (!entry.attest1 || !entry.attest2) {

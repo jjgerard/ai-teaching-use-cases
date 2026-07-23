@@ -399,7 +399,7 @@
   <div class="masthead-inner">
     <div class="masthead-text">
       <p class="catalog-mark">Field survey · aggregated &amp; modeled</p>
-      <h1 class="title">What predicts what, in 258 case studies</h1>
+      <h1 class="title">What predicts what, in <span class="live-count">—</span> case studies</h1>
       <p class="lede">The companion view to the case study catalog: every logged case study is tagged
         by discipline, tool, activity theme, year, and region — this page cross-tabulates those
         tags, tracks them over time, and fits a small logistic-regression model so you can ask
@@ -487,7 +487,7 @@
   <div class="card">
     <div class="card-head">
       <h2>Predictor lab</h2>
-      <p>A multinomial logistic regression, trained in your browser on the 258 catalogued entries.
+      <p>A multinomial logistic regression, trained in your browser on the <span class="live-count">—</span> catalogued entries.
         Choose what to predict and which tags to predict it from, then set a scenario below to see
         the model's probability distribution. With this little data the model is <em>suggestive,
         not validated</em> — read it as a second, model-based way of asking "what predicts what,"
@@ -523,14 +523,14 @@
 <footer class="note">
   <h3>Notes on this view</h3>
   <ul>
-    <li>Data: <code>data/community.json</code> in the case-study-catalog repo, 258 approved entries
+    <li>Data: <code>data/community.json</code> in the case-study-catalog repo, <span class="live-count">—</span> approved entries
       as of the date below. Discipline and tool are multi-select tags, so row/column percentages
       can sum to more than 100%.</li>
     <li>Categories beyond the top 7 per dimension are folded into "+N more" to keep charts legible
       — click through to the association explorer's example drawer to see what's inside a folded
       group.</li>
     <li>The predictor lab's holdout accuracy is reported alongside chance level for a reason: with
-      258 rows and multi-label tags, treat every model output here as a rough signal, not a
+      <span class="live-count">—</span> rows and multi-label tags, treat every model output here as a rough signal, not a
       validated result.</li>
   </ul>
   <p id="provenance"></p>
@@ -550,6 +550,7 @@ function boot(){
   // setup
   // ---------------------------------------------------------------------
   document.getElementById("tallyTotal").textContent = RAW.length;
+  document.querySelectorAll(".live-count").forEach(function(el){ el.textContent = RAW.length; });
   document.getElementById("provenance").textContent =
     RAW.length + " approved entries · generated " + new Date().toISOString().slice(0,10);
 
@@ -1461,7 +1462,12 @@ fetch("/api/catalog")
     return res.json();
   })
   .then(function(data){
-    RAW = data.entries;
+    // Trends is about the teaching catalog only — the two spun-off themes
+    // (Reducing AI (mis)use, Research Case Studies) have their own separate
+    // pages and aren't part of this model/cross-tab, same exclusion as
+    // SPUN_OFF_THEMES in catalog.html.
+    var SPUN_OFF_THEMES = ["Reduced AI Use (Evidenced)", "AI-Assisted Research"];
+    RAW = data.entries.filter(function(e){ return SPUN_OFF_THEMES.indexOf(e.th) === -1; });
     REPO_LABELS = {};
     Object.keys(data.repos).forEach(function(k){ REPO_LABELS[k] = data.repos[k].label; });
     document.getElementById("loadStatus").remove();

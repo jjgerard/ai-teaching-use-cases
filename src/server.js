@@ -75,6 +75,7 @@ function sanitizeEntry(body) {
     disc: Array.isArray(body.disc) ? body.disc.map(String).slice(0, 20) : [],
     tool: Array.isArray(body.tool) ? body.tool.map(String).slice(0, 20) : [],
     s: String(body.s).trim().slice(0, 4000),
+    ev: String(body.ev || "").trim().slice(0, 2000),
   };
 }
 
@@ -216,6 +217,12 @@ app.get("/admin", (req, res) => {
 });
 app.get("/trends", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "public", "trends.html"));
+});
+app.get("/reducing-ai-use", (req, res) => {
+  res.sendFile(path.join(__dirname, "..", "public", "reducing-ai-use.html"));
+});
+app.get("/ai-for-research", (req, res) => {
+  res.sendFile(path.join(__dirname, "..", "public", "ai-for-research.html"));
 });
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "public", "catalog.html"));

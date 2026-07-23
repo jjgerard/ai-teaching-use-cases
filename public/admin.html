@@ -333,6 +333,7 @@ function renderList(submissions) {
       <div class="field-row"><label>Discipline(s), comma separated</label><input type="text" data-f="disc" value="${(entry.disc||[]).join(', ')}"></div>
       <div class="field-row"><label>Tool(s), comma separated</label><input type="text" data-f="tool" value="${(entry.tool||[]).join(', ')}"></div>
       <div class="field-row"><label>Summary</label><textarea data-f="s">${(entry.s||"").replace(/</g,"&lt;")}</textarea></div>
+      <div class="field-row"><label>Evidence (optional)</label><textarea data-f="ev">${(entry.ev||"").replace(/</g,"&lt;")}</textarea></div>
       <div class="action-row">
         <button class="save-btn" type="button">Save changes</button>
         ${entry.status !== "approved" ? '<button class="approve-btn" type="button">Approve</button>' : ""}

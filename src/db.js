@@ -28,6 +28,7 @@ db.exec(`
     disc TEXT NOT NULL DEFAULT '[]',
     tool TEXT NOT NULL DEFAULT '[]',
     s TEXT,
+    ev TEXT,
     repo TEXT,
     status TEXT NOT NULL DEFAULT 'pending',
     source TEXT NOT NULL DEFAULT 'submission',
@@ -44,6 +45,16 @@ db.exec(`
   );
 `);
 
+// Migration for databases created before the "ev" (evidence) column existed —
+// CREATE TABLE IF NOT EXISTS above is a no-op on an existing table, so a
+// pre-existing db needs the column added explicitly. Safe to run on every
+// boot: fails harmlessly once the column is already there.
+try {
+  db.exec("ALTER TABLE entries ADD COLUMN ev TEXT");
+} catch (err) {
+  // already has the column
+}
+
 function rowToEntry(row) {
   return {
     id: row.id,
@@ -57,6 +68,7 @@ function rowToEntry(row) {
     disc: JSON.parse(row.disc || "[]"),
     tool: JSON.parse(row.tool || "[]"),
     s: row.s || "",
+    ev: row.ev || "",
     repo: row.repo || "",
     status: row.status,
     source: row.source,
@@ -79,8 +91,8 @@ function loadJsonSafe(relPath, fallback) {
 
 const insertEntryStmt = () =>
   db.prepare(`
-    INSERT INTO entries (t, by_name, inst, u, reg, yr, th, disc, tool, s, repo, status, source, submitted_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
+    INSERT INTO entries (t, by_name, inst, u, reg, yr, th, disc, tool, s, ev, repo, status, source, submitted_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'approved', ?, ?)
   `);
 
 function insertApprovedRow(stmt, e, now) {
@@ -95,6 +107,7 @@ function insertApprovedRow(stmt, e, now) {
     JSON.stringify(e.disc || []),
     JSON.stringify(e.tool || []),
     e.s || "",
+    e.ev || "",
     e.repo || "community",
     e.source || "submission",
     now
@@ -182,8 +195,8 @@ function getAllEntries(status) {
 function insertSubmission(e) {
   const now = new Date().toISOString();
   const stmt = db.prepare(`
-    INSERT INTO entries (t, by_name, inst, u, reg, yr, th, disc, tool, s, repo, status, source, submitted_at)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'community', 'pending', 'submission', ?)
+    INSERT INTO entries (t, by_name, inst, u, reg, yr, th, disc, tool, s, ev, repo, status, source, submitted_at)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'community', 'pending', 'submission', ?)
   `);
   const result = stmt.run(
     e.t || "",
@@ -196,6 +209,7 @@ function insertSubmission(e) {
     JSON.stringify(e.disc || []),
     JSON.stringify(e.tool || []),
     e.s || "",
+    e.ev || "",
     now
   );
   return Number(result.lastInsertRowid);
@@ -206,7 +220,7 @@ function updateEntry(id, fields) {
   if (!existing) return null;
   const merged = { ...rowToEntry(existing), ...fields };
   db.prepare(`
-    UPDATE entries SET t=?, by_name=?, inst=?, u=?, reg=?, yr=?, th=?, disc=?, tool=?, s=?
+    UPDATE entries SET t=?, by_name=?, inst=?, u=?, reg=?, yr=?, th=?, disc=?, tool=?, s=?, ev=?
     WHERE id=?
   `).run(
     merged.t || "",
@@ -219,6 +233,7 @@ function updateEntry(id, fields) {
     JSON.stringify(merged.disc || []),
     JSON.stringify(merged.tool || []),
     merged.s || "",
+    merged.ev || "",
     id
   );
   return rowToEntry(db.prepare("SELECT * FROM entries WHERE id = ?").get(id));
@@ -253,6 +268,7 @@ function getAllApprovedEntriesForExport() {
     disc: e.disc,
     tool: e.tool,
     s: e.s,
+    ev: e.ev,
     repo: e.repo,
     source: e.source,
   }));

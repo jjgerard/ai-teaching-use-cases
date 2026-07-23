@@ -95,7 +95,6 @@
   /* ---------- masthead ---------- */
   .masthead {
     background: linear-gradient(155deg, var(--navy-deep) 0%, var(--navy) 78%);
-    border-bottom: 3px solid var(--sky);
     padding: 1.3rem 1.5rem;
   }
   .masthead-inner {
@@ -186,6 +185,34 @@
   .contribute-btn:hover { background: linear-gradient(180deg, #ffffff 0%, #c3cad2 100%); }
   .tally-count { text-align: right; }
   .tally-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 0.5rem; }
+
+  /* ---------- top tab nav ---------- */
+  .tab-nav {
+    background: var(--navy-deep);
+    border-bottom: 3px solid var(--sky);
+  }
+  .tab-nav-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    gap: 0.15rem;
+    flex-wrap: wrap;
+    padding: 0 1.5rem;
+  }
+  .tab-link {
+    font-family: var(--face-body);
+    font-weight: 700;
+    font-size: 0.76rem;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #9fb3c8;
+    padding: 0.7rem 0.9rem;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -3px;
+    white-space: nowrap;
+  }
+  .tab-link:hover { color: #ffffff; }
+  .tab-link.active { color: #ffffff; border-bottom-color: var(--accent); }
 
   
 
@@ -668,6 +695,15 @@
     padding-left: 0.65rem;
     margin: 0 0 0.5rem;
   }
+  .evidence {
+    font-size: 0.85rem;
+    color: var(--ink);
+    background: var(--cool-soft);
+    border-radius: 3px;
+    padding: 0.5rem 0.7rem;
+    margin: 0 0 0.5rem;
+  }
+  .evidence strong { color: var(--cool); }
 
   .pillrow { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; margin-top: 0.15rem; }
   .pill {
