@@ -16,7 +16,27 @@
   .stance-note-inner p { margin: 0 0 0.6rem; font-size: 0.85rem; line-height: 1.6; color: var(--ink-soft); }
   .stance-note-inner p:last-child { margin-bottom: 0; }
   .stance-note-inner a { color: var(--accent-ink); }
-  .caveat-mark { color: var(--accent-ink); text-decoration: none; margin-left: 0.15em; font-weight: 700; }
+  .caveat-mark {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.4em;
+    padding: 0.1em 0.45em;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    border-radius: 999px;
+    background: #fbe6c8;
+    color: #8a5a12;
+    text-decoration: none;
+    vertical-align: middle;
+    position: relative;
+    top: -0.3em;
+  }
+  :root[data-theme="dark"] .caveat-mark { background: #3a2c14; color: #f0c584; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .caveat-mark { background: #3a2c14; color: #f0c584; }
+  }
 </style>
 
 <div class="masthead">
@@ -49,9 +69,9 @@
 
 <div class="stance-note" id="examCaveat">
   <div class="stance-note-inner">
-    <h2>* A note on entries that switch to a proctored written exam</h2>
-    <p>Locking down the exam room changes the <em>opportunity</em> to use AI, not necessarily the <em>desire</em> to — it's an escalating, imperfect arms race (students have been caught using hidden earpieces and smartwatches even under supervision), and it carries real surveillance and equity costs of its own. Several sources make this case directly: <a href="https://www.insidehighered.com/news/students/academics/2026/03/05/person-classes-arent-safe-ai-cheating-boom" target="_blank" rel="noopener">"In-Person Classes Aren't Safe From AI Cheating Boom"</a> (Inside Higher Ed), <a href="https://www.eschoolnews.com/digital-learning/2026/03/12/ai-classrooms-designing-assessment/" target="_blank" rel="noopener">"The AI-resistant classroom is a myth"</a> (eSchool News), the Canadian Journal of Learning and Technology's <a href="https://cjlt.ca/index.php/cjlt/article/view/28388" target="_blank" rel="noopener">piece on the academic-integrity "arms race"</a>, and a broader ethics literature on <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8576309/" target="_blank" rel="noopener">algorithmic proctoring</a>.</p>
-    <p>The gold standard for this catalog is evidence that students changed their own AI use by choice — because a redesigned assessment made reaching for it pointless or unappealing — not evidence that they were simply prevented from trying. The entry below marked with an asterisk (*) switches to a proctored written exam and is kept only as a documented data point, not an endorsement of that approach. Interactive Oral Assessment is a different case: it's not just supervision, it's a switch in assessment <em>format</em> that changes what's actually being tested, so it isn't asterisked here.</p>
+    <h2>* A note on entries that work by removing the opportunity to use AI, not the desire to</h2>
+    <p>Putting a student in a supervised room — a proctored written exam or a live oral assessment — changes the <em>opportunity</em> to use AI, not necessarily the <em>desire</em> to. It's an escalating, imperfect arms race (students have been caught using hidden earpieces and smartwatches even under supervision), and it carries real surveillance and equity costs of its own. Several sources make this case directly: <a href="https://www.insidehighered.com/news/students/academics/2026/03/05/person-classes-arent-safe-ai-cheating-boom" target="_blank" rel="noopener">"In-Person Classes Aren't Safe From AI Cheating Boom"</a> (Inside Higher Ed), <a href="https://www.eschoolnews.com/digital-learning/2026/03/12/ai-classrooms-designing-assessment/" target="_blank" rel="noopener">"The AI-resistant classroom is a myth"</a> (eSchool News), the Canadian Journal of Learning and Technology's <a href="https://cjlt.ca/index.php/cjlt/article/view/28388" target="_blank" rel="noopener">piece on the academic-integrity "arms race"</a>, and a broader ethics literature on <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8576309/" target="_blank" rel="noopener">algorithmic proctoring</a>.</p>
+    <p>The gold standard for this catalog is evidence that students changed their own AI use by choice — because a redesigned assessment made reaching for it pointless or unappealing — not evidence that they were simply prevented from trying. Entries below marked with an asterisk (*) work mainly through supervision rather than through changing that underlying desire, and are kept as documented data points, not as an endorsement that supervision is the fix.</p>
   </div>
 </div>
 
@@ -149,7 +169,7 @@
 
 <script>
 const THEME = "Reduced AI Use (Evidenced)";
-const CAVEAT_REPOS = new Set(["brown-serrano"]);
+const CAVEAT_REPOS = new Set(["brown-serrano", "unisa-ioa", "ioa-multisubject"]);
 let REPOS = {};
 let S = [];
 
@@ -305,7 +325,7 @@ function render() {
     const discPills = s.disc.filter(v => !SILENT_VALUES.has(v)).map(d => `<span class="pill disc">${d}</span>`).join("");
     const yearPill = SILENT_VALUES.has(String(s.yr)) ? "" : `<span class="pill year">${s.yr}</span>`;
     art.innerHTML = `
-      <h3 class="spec-title"><a href="${s.u}" target="_blank" rel="noopener">${s.t}</a>${CAVEAT_REPOS.has(s.repo) ? '<a href="#examCaveat" class="caveat-mark" title="See note on switching to a proctored written exam">*</a>' : ""}</h3>
+      <h3 class="spec-title"><a href="${s.u}" target="_blank" rel="noopener">${s.t}</a>${CAVEAT_REPOS.has(s.repo) ? '<a href="#examCaveat" class="caveat-mark" title="See note on removing the opportunity to use AI vs. the desire to">*</a>' : ""}</h3>
       <p class="byline">${s.by}${s.inst ? ` — <span class="inst">${s.inst}</span>` : ""}</p>
       ${s.q ? `<p class="quote">${s.q}</p>` : ""}
       <p class="summary">${s.s}</p>
