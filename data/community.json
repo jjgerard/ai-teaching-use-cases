@@ -5251,5 +5251,158 @@
     "ev": "",
     "repo": "cyberball-etl",
     "source": "seed"
+  },
+  {
+    "t": "Replacing a 6-month outsourced vendor process with AI transcription and translation of qualitative interviews",
+    "by": "Ankita Sharma",
+    "inst": "Nuffield Department of Women's & Reproductive Health, University of Oxford",
+    "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/transcription-and-translation-for-qualitative-research",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Gemini",
+      "NotebookLM"
+    ],
+    "s": "A DPhil candidate replaced a roughly six-month outsourced vendor process for transcribing and translating (primarily Hindi-dialect) qualitative interview audio with Gemini and NotebookLM, cutting turnaround to hours while cross-checking AI output against vendor transcripts for accuracy.",
+    "ev": "",
+    "repo": "oxford-airesearch",
+    "source": "seed"
+  },
+  {
+    "t": "Using OpenAI Codex to re-OCR and structurally analyze medieval manuscript catalogues",
+    "by": "Dr Anthony Harris",
+    "inst": "Regent's Park College & Kellogg College, University of Oxford",
+    "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/improved-access-to-early-manuscripts-using-codex",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Codex"
+    ],
+    "s": "A medievalist and computer scientist used OpenAI's Codex coding assistant and GPT-5.x models to write Python programs that re-OCR poorly scanned manuscript summary catalogues, infer structural fields like genre and manuscript type, and export the results to Excel and TEI-XML for further scholarly analysis.",
+    "ev": "",
+    "repo": "oxford-airesearch",
+    "source": "seed"
+  },
+  {
+    "t": "Using ChatGPT Edu's Deep Research to import cross-industry methods into surgical quality-assurance research",
+    "by": "Riadh Salem",
+    "inst": "Nuffield Department of Surgical Sciences, University of Oxford",
+    "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/unlocking-deep-research-with-chatgpt-edu",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "A surgeon-researcher used ChatGPT Edu's 'Deep Research' function to search literature from unrelated high-stakes industries — aerospace, advanced manufacturing — for quality-assurance methodologies applicable to intraoperative surgical safety, replacing what would previously have required weeks of speculative searching.",
+    "ev": "",
+    "repo": "oxford-airesearch",
+    "source": "seed"
+  },
+  {
+    "t": "ChatGPT Edu for debugging, architecture ideation, and manuscript refinement in a protein-structure prediction project",
+    "by": "Yuhan Zhou",
+    "inst": "Oxford-GSK Institute of Molecular and Computational Medicine, University of Oxford",
+    "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/changing-the-pace-of-research-workflows-with-chatgpt-edu",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "A machine learning researcher used ChatGPT Edu to debug PyTorch code, suggest neural-network architecture changes, and refine manuscript writing while developing a protein-structure-prediction explainability prototype, completing a working prototype in about a week.",
+    "ev": "",
+    "repo": "oxford-airesearch",
+    "source": "seed"
+  },
+  {
+    "t": "Using Gemini Deep Research to cut a week-long literature survey down to a day",
+    "by": "Lyndon Drake",
+    "inst": "Faculty of Theology and Religion, University of Oxford",
+    "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/prioritising-research-by-saving-time-with-gemini",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Gemini"
+    ],
+    "s": "A research fellow used Gemini's Deep Research function to conduct literature surveys that typically took a week in about a day, and separately used Gemini to rapidly prototype a web-based virtual viva-voce examiner tool.",
+    "ev": "",
+    "repo": "oxford-airesearch",
+    "source": "seed"
+  },
+  {
+    "t": "Training a machine-learning model to classify a century of South Carolina statutes as Jim Crow law",
+    "by": "K. Boyd, V. Srivastava, C. Frear, L. DuPre, N. Gupta, B. Donaldson",
+    "inst": "University of South Carolina Libraries, in partnership with UNC-Chapel Hill Libraries",
+    "u": "https://onthebooks.lib.unc.edu/about/project-overview/",
+    "reg": "US",
+    "yr": 2023,
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Law"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "Extending UNC-Chapel Hill's original 'On the Books: Jim Crow and Algorithms of Resistance' project via a Mellon Foundation-funded sub-award, a University of South Carolina Libraries team trained a machine-learning text classifier to sort roughly a century of South Carolina legislative acts (1868–1968) into Jim Crow and non-Jim Crow law, surfacing discriminatory statutes that would be impractical to find through manual archival review alone.",
+    "ev": "",
+    "repo": "onthebooks-jimcrow",
+    "source": "seed"
+  },
+  {
+    "t": "Using ChatGPT to build a low-cost automated data pipeline for a dermatology residency study",
+    "by": "Dr Naveen Manohar, Dr Shruthi S. Prasad",
+    "inst": "The Oxford Medical College, Bangalore & Indira Medical College and Hospitals, Pandur",
+    "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12618945/",
+    "reg": "India",
+    "yr": 2025,
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Two dermatology residency programs in India built a free AI-assisted data-collection workflow — Google Forms feeding into ChatGPT-generated automation scripts — to auto-code survey responses, calculate standardized quality-of-life scores (DLQI, DASS-21), generate PDF case report forms, and send instant notifications, cutting data-entry time by 69% and errors by 72% compared to the prior paper-based process.",
+    "ev": "",
+    "repo": "cureus-dermpilot",
+    "source": "seed"
+  },
+  {
+    "t": "Switching a take-home midterm to an in-person final cut the class average from 96% to 48.6%",
+    "by": "Prof. Roberto Serrano",
+    "inst": "Department of Economics, Brown University",
+    "u": "https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat",
+    "reg": "US",
+    "yr": 2026,
+    "th": "Reduced AI Use (Evidenced)",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "After an unproctored take-home midterm in a welfare economics/social choice theory course produced a 96% class average (versus a historical 65–80%) with 40 perfect scores and answers bearing hallmarks of AI generation, the instructor switched the final exam to an in-person, proctored format.",
+    "ev": "The in-person final's average fell to 48.6% — the course's historic low — with 3 students scoring zero. Of the 27 students who subsequently dropped the course or skipped the final, 22 had scored perfectly on the take-home midterm, a strong proxy signal that the drop-off was concentrated among students who could no longer rely on unproctored AI assistance.",
+    "repo": "brown-serrano",
+    "source": "seed"
   }
 ]

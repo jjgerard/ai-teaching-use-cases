@@ -4450,8 +4450,12 @@
       "repo": "unisa-ioa",
       "reg": "Australia",
       "th": "Reduced AI Use (Evidenced)",
-      "tool": ["Unspecified"],
-      "disc": ["Health & Medicine"],
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
       "yr": 2024,
       "s": "Replaced the final written, invigilated exam in Laboratory Medicine and Biomedical Science courses with a 20-minute one-on-one Interactive Oral Assessment (IOA): a live conversation with unseen follow-up questions drawn from a pool, probing depth of understanding in real time — a pre-generated AI answer can't survive live follow-up questioning.",
       "ev": "Zero academic integrity breaches recorded since IOAs were introduced in 2022, versus a nonzero rate under the prior written-exam format; also a reported 15% rise in final assessment scores and 20% rise in overall course performance. Reported via a university press release/instructor interview rather than a peer-reviewed breach-count table, so treat the exact size of the effect with some caution.",
@@ -4465,8 +4469,12 @@
       "repo": "ioa-multisubject",
       "reg": "Australia",
       "th": "Reduced AI Use (Evidenced)",
-      "tool": ["Unspecified"],
-      "disc": ["Institutional / Cross-Disciplinary"],
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Institutional / Cross-Disciplinary"
+      ],
       "yr": 2026,
       "s": "An institution-wide, three-year project rolled out Interactive Oral Assessment across 25 subjects as a response to GenAI-enabled misconduct risk, surveying 290 students on their experience and comparing oral assessment against written work on validity, reliability and student preference.",
       "ev": "Reports that IOAs \"reduce academic dishonesty\" across the 25-subject sample, alongside higher student confidence and preference for oral over written assessment. The paper is paywalled beyond the abstract, so it's unclear whether the dishonesty figure comes from actual case counts or from self-report/perception items — worth confirming directly before treating this as strong evidence."
@@ -4479,8 +4487,12 @@
       "repo": "buv-aias",
       "reg": "Vietnam",
       "th": "Reduced AI Use (Evidenced)",
-      "tool": ["Unspecified"],
-      "disc": ["Institutional / Cross-Disciplinary"],
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Institutional / Cross-Disciplinary"
+      ],
       "yr": 2024,
       "s": "Rather than a blanket ban, roughly 2,500 students across the institution were given a 5-level AI Assessment Scale (No AI → Full AI) specifying exactly how much GenAI use was permitted per assessment, paired with redesigned rubrics, comparing the 2023 and 2024 academic years.",
       "ev": "Reports \"a significant reduction in academic misconduct cases related to GenAI\" institution-wide from 2023 to 2024, alongside a 5.9% rise in student attainment and a 33.3% rise in module pass rates over the same period. The exact misconduct case-count/percentage wasn't extractable from the accessible text — only the qualitative \"significant reduction\" framing — so the headline misconduct figure is less precise than the attainment numbers.",
@@ -4494,8 +4506,12 @@
       "repo": "ulster-adaptiveai",
       "reg": "UK",
       "th": "AI-Assisted Research",
-      "tool": ["Other"],
-      "disc": ["Languages & Linguistics"],
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Languages & Linguistics"
+      ],
       "yr": 2025,
       "s": "Automatic speech recognition (local ASR models, including Batchalign) transcribes recordings of children's speech collected 2013–2020, replacing manual transcription at the data-processing stage of corpus-based linguistic research into language acquisition."
     },
@@ -4507,8 +4523,12 @@
       "repo": "ulster-adaptiveai",
       "reg": "UK",
       "th": "AI-Assisted Research",
-      "tool": ["Other"],
-      "disc": ["Social Sciences"],
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
       "yr": 2025,
       "s": "An NLP tool (Harmony, built on an SBERT transformer model) identifies semantically similar questionnaire items across independently run surveys, enabling researchers to pool and jointly analyse otherwise incompatible psychology/public-health datasets — used at the data-preparation stage of the research pipeline."
     },
@@ -4520,8 +4540,12 @@
       "repo": "ulster-adaptiveai",
       "reg": "UK",
       "th": "AI-Assisted Research",
-      "tool": ["Other"],
-      "disc": ["Social Sciences"],
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
       "yr": 2025,
       "s": "An LLM engine (Convai) drives 3D non-player-character avatars that simulate conflict scenarios, used as the actual research/data-collection instrument for studying and training practitioners' conflict-resolution skills."
     },
@@ -4533,8 +4557,13 @@
       "repo": "ulster-adaptiveai",
       "reg": "UK",
       "th": "AI-Assisted Research",
-      "tool": ["Midjourney", "Stable Diffusion"],
-      "disc": ["Arts & Humanities"],
+      "tool": [
+        "Midjourney",
+        "Stable Diffusion"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
       "yr": 2025,
       "s": "Text-to-image tools (Midjourney, Patterned AI, Stable Diffusion XL) speed up design iteration and trend prediction within a sustainability-focused fashion design research project, aimed at reducing material waste from physical prototyping."
     },
@@ -4546,8 +4575,13 @@
       "repo": "ulster-adaptiveai",
       "reg": "UK",
       "th": "AI-Assisted Research",
-      "tool": ["Other"],
-      "disc": ["Languages & Linguistics", "Law"],
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Languages & Linguistics",
+        "Law"
+      ],
       "yr": 2025,
       "s": "Vector embeddings paired with a generative LLM classify and retrieve relevant material across a combined legal and linguistic dataset, used at the data-retrieval/thematic-analysis stage of a law-and-language research project."
     },
@@ -4559,8 +4593,12 @@
       "repo": "google-aicoscientist",
       "reg": "US",
       "th": "AI-Assisted Research",
-      "tool": ["AI Co-Scientist (Google)"],
-      "disc": ["Health & Medicine"],
+      "tool": [
+        "AI Co-Scientist (Google)"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
       "yr": 2025,
       "s": "Google's multi-agent \"AI co-scientist\" system (built on Gemini 2.0) was tasked with proposing epigenomic-modifier drug candidates with anti-fibrotic activity; researchers experimentally tested its top proposals in human liver organoids and validated two of three, including repurposing the already-approved drug vorinostat — AI used at the hypothesis-generation stage, with the biology itself confirmed by wet-lab experiment."
     },
@@ -4572,8 +4610,12 @@
       "repo": "google-aicoscientist",
       "reg": "UK",
       "th": "AI-Assisted Research",
-      "tool": ["AI Co-Scientist (Google)"],
-      "disc": ["Life Sciences"],
+      "tool": [
+        "AI Co-Scientist (Google)"
+      ],
+      "disc": [
+        "Life Sciences"
+      ],
       "yr": 2025,
       "s": "Tasked only with explaining how mobile genetic islands (cf-PICIs) spread across different bacterial species, Google's AI co-scientist independently proposed the \"tail piracy\" mechanism the human research team had spent years establishing experimentally — reaching the same hypothesis in days, which the team then confirmed in the lab."
     },
@@ -4585,8 +4627,12 @@
       "repo": "childtrends-qualcoding",
       "reg": "US",
       "th": "AI-Assisted Research",
-      "tool": ["Gemini"],
-      "disc": ["Health & Medicine"],
+      "tool": [
+        "Gemini"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
       "yr": 2025,
       "s": "Google Gemini 2.5 Pro generated inductive initial themes from real Title X family-planning-clinic interview transcripts on reproductive health services; researchers then refined those themes and applied them deductively across the dataset, concluding AI should augment rather than replace human qualitative coding."
     },
@@ -4598,8 +4644,12 @@
       "repo": "sage-cancerliteracy",
       "reg": "Unspecified",
       "th": "AI-Assisted Research",
-      "tool": ["Other"],
-      "disc": ["Health & Medicine"],
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
       "yr": 2025,
       "s": "ATLAS.ti's NLP-driven coding feature generated over 5,000 initial codes from interview data collected across multiple EU case studies on cancer-prevention health literacy; researchers then consolidated and refined the AI-generated codes into the study's final thematic framework."
     },
@@ -4611,8 +4661,12 @@
       "repo": "richmond-dispatch",
       "reg": "US",
       "th": "AI-Assisted Research",
-      "tool": ["Other"],
-      "disc": ["Arts & Humanities"],
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
       "yr": 2011,
       "s": "LDA-based topic modeling of roughly 1,400 issues of the Richmond Dispatch (1860–65) surfaced recurring themes and shifts in Confederate Richmond's social and political life that weren't visible through manual reading of the archive, feeding into a peer-reviewed Journal of American History article. Note: this predates the generative-AI wave (machine-learning topic modeling, not an LLM) — worth a scope call on whether it fits a GenAI-focused catalog."
     },
@@ -4624,8 +4678,12 @@
       "repo": "deadseascrolls-enoch",
       "reg": "Netherlands",
       "th": "AI-Assisted Research",
-      "tool": ["Other"],
-      "disc": ["Arts & Humanities"],
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
       "yr": 2025,
       "s": "\"Enoch\", a neural network trained on ink-trace and letterform patterns from radiocarbon-dated fragments, predicted manuscript dates (within about ±30 years) for undated Dead Sea Scroll fragments, agreeing with paleographic estimates 79% of the time and suggesting some scrolls are older than previously thought — part of the ERC-funded \"Hands That Wrote the Bible\" project. Note: a classification neural net, not a generative model — same scope caveat as the topic-modeling entry above."
     },
@@ -4637,8 +4695,12 @@
       "repo": "grantcheck-umass",
       "reg": "US",
       "th": "AI-Assisted Research",
-      "tool": ["Other"],
-      "disc": ["Institutional / Cross-Disciplinary"],
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Institutional / Cross-Disciplinary"
+      ],
       "yr": 2025,
       "s": "A hybrid rule-based NLP and LLM tool (via Amazon Bedrock) flags language in draft grant proposals that's misaligned with current NIH/federal policy requirements and suggests compliant alternative phrasing, deployed to help researchers actually writing federal grant applications — an assistive/compliance tool rather than a source of intellectual content."
     },
@@ -4650,10 +4712,159 @@
       "repo": "cyberball-etl",
       "reg": "Unspecified",
       "th": "AI-Assisted Research",
-      "tool": ["ChatGPT", "Claude"],
-      "disc": ["Social Sciences"],
+      "tool": [
+        "ChatGPT",
+        "Claude"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
       "yr": 2026,
       "s": "Researchers used ChatGPT and Claude as interactive co-developers to build a Docker/n8n ETL pipeline converting FaceReader video-analysis output from a 102-participant Cyberball social-exclusion study into analysis-ready datasets, without needing advanced coding or DevOps skills themselves — AI used at the data-cleaning/pipeline-engineering stage of a real behavioral study."
+    },
+    {
+      "t": "Replacing a 6-month outsourced vendor process with AI transcription and translation of qualitative interviews",
+      "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/transcription-and-translation-for-qualitative-research",
+      "by": "Ankita Sharma",
+      "inst": "Nuffield Department of Women's & Reproductive Health, University of Oxford",
+      "repo": "oxford-airesearch",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Gemini",
+        "NotebookLM"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2025,
+      "s": "A DPhil candidate replaced a roughly six-month outsourced vendor process for transcribing and translating (primarily Hindi-dialect) qualitative interview audio with Gemini and NotebookLM, cutting turnaround to hours while cross-checking AI output against vendor transcripts for accuracy.",
+      "q": "Instead of transcription and translation taking months, it now takes hours."
+    },
+    {
+      "t": "Using OpenAI Codex to re-OCR and structurally analyze medieval manuscript catalogues",
+      "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/improved-access-to-early-manuscripts-using-codex",
+      "by": "Dr Anthony Harris",
+      "inst": "Regent's Park College & Kellogg College, University of Oxford",
+      "repo": "oxford-airesearch",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Codex"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2025,
+      "s": "A medievalist and computer scientist used OpenAI's Codex coding assistant and GPT-5.x models to write Python programs that re-OCR poorly scanned manuscript summary catalogues, infer structural fields like genre and manuscript type, and export the results to Excel and TEI-XML for further scholarly analysis.",
+      "q": "What I can imagine, I can build at speed."
+    },
+    {
+      "t": "Using ChatGPT Edu's Deep Research to import cross-industry methods into surgical quality-assurance research",
+      "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/unlocking-deep-research-with-chatgpt-edu",
+      "by": "Riadh Salem",
+      "inst": "Nuffield Department of Surgical Sciences, University of Oxford",
+      "repo": "oxford-airesearch",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2025,
+      "s": "A surgeon-researcher used ChatGPT Edu's 'Deep Research' function to search literature from unrelated high-stakes industries — aerospace, advanced manufacturing — for quality-assurance methodologies applicable to intraoperative surgical safety, replacing what would previously have required weeks of speculative searching.",
+      "q": "Treat ChatGPT not as a search engine, but as a tireless interdisciplinary research assistant."
+    },
+    {
+      "t": "ChatGPT Edu for debugging, architecture ideation, and manuscript refinement in a protein-structure prediction project",
+      "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/changing-the-pace-of-research-workflows-with-chatgpt-edu",
+      "by": "Yuhan Zhou",
+      "inst": "Oxford-GSK Institute of Molecular and Computational Medicine, University of Oxford",
+      "repo": "oxford-airesearch",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Life Sciences"
+      ],
+      "yr": 2025,
+      "s": "A machine learning researcher used ChatGPT Edu to debug PyTorch code, suggest neural-network architecture changes, and refine manuscript writing while developing a protein-structure-prediction explainability prototype, completing a working prototype in about a week.",
+      "q": "Treat ChatGPT as a collaborator, not a search engine. Provide context, test assumptions, and validate results."
+    },
+    {
+      "t": "Using Gemini Deep Research to cut a week-long literature survey down to a day",
+      "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/prioritising-research-by-saving-time-with-gemini",
+      "by": "Lyndon Drake",
+      "inst": "Faculty of Theology and Religion, University of Oxford",
+      "repo": "oxford-airesearch",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Gemini"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2025,
+      "s": "A research fellow used Gemini's Deep Research function to conduct literature surveys that typically took a week in about a day, and separately used Gemini to rapidly prototype a web-based virtual viva-voce examiner tool.",
+      "q": "It turned a week's work into about a day's work, but it's important to note that as well as saving time it produced better results than I think I could have achieved by myself."
+    },
+    {
+      "t": "Training a machine-learning model to classify a century of South Carolina statutes as Jim Crow law",
+      "u": "https://onthebooks.lib.unc.edu/about/project-overview/",
+      "by": "K. Boyd, V. Srivastava, C. Frear, L. DuPre, N. Gupta, B. Donaldson",
+      "inst": "University of South Carolina Libraries, in partnership with UNC-Chapel Hill Libraries",
+      "repo": "onthebooks-jimcrow",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Law"
+      ],
+      "yr": 2023,
+      "s": "Extending UNC-Chapel Hill's original 'On the Books: Jim Crow and Algorithms of Resistance' project via a Mellon Foundation-funded sub-award, a University of South Carolina Libraries team trained a machine-learning text classifier to sort roughly a century of South Carolina legislative acts (1868–1968) into Jim Crow and non-Jim Crow law, surfacing discriminatory statutes that would be impractical to find through manual archival review alone."
+    },
+    {
+      "t": "Using ChatGPT to build a low-cost automated data pipeline for a dermatology residency study",
+      "u": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12618945/",
+      "by": "Dr Naveen Manohar, Dr Shruthi S. Prasad",
+      "inst": "The Oxford Medical College, Bangalore & Indira Medical College and Hospitals, Pandur",
+      "repo": "cureus-dermpilot",
+      "reg": "India",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "ChatGPT"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2025,
+      "s": "Two dermatology residency programs in India built a free AI-assisted data-collection workflow — Google Forms feeding into ChatGPT-generated automation scripts — to auto-code survey responses, calculate standardized quality-of-life scores (DLQI, DASS-21), generate PDF case report forms, and send instant notifications, cutting data-entry time by 69% and errors by 72% compared to the prior paper-based process."
+    },
+    {
+      "t": "Switching a take-home midterm to an in-person final cut the class average from 96% to 48.6%",
+      "u": "https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat",
+      "by": "Prof. Roberto Serrano",
+      "inst": "Department of Economics, Brown University",
+      "repo": "brown-serrano",
+      "reg": "US",
+      "th": "Reduced AI Use (Evidenced)",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": 2026,
+      "s": "After an unproctored take-home midterm in a welfare economics/social choice theory course produced a 96% class average (versus a historical 65–80%) with 40 perfect scores and answers bearing hallmarks of AI generation, the instructor switched the final exam to an in-person, proctored format.",
+      "ev": "The in-person final's average fell to 48.6% — the course's historic low — with 3 students scoring zero. Of the 27 students who subsequently dropped the course or skipped the final, 22 had scored perfectly on the take-home midterm, a strong proxy signal that the drop-off was concentrated among students who could no longer rely on unproctored AI assistance.",
+      "q": "This exam was harder than the exams I wrote in the past...take-home is an opportunity to challenge the class a little bit more."
     }
   ],
   "REPOS": {
@@ -4992,6 +5203,30 @@
       "short": "Cyberball ETL",
       "url": "https://www.mdpi.com/2227-9709/13/4/48",
       "blurb": "An MDPI Informatics paper on using LLMs as co-developers to build a data pipeline for a real 102-participant social-psychology study."
+    },
+    "oxford-airesearch": {
+      "label": "University of Oxford AI Competency Centre — AI in Research Case Studies",
+      "short": "Oxford (AI Research Case Studies)",
+      "url": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/",
+      "blurb": "An ongoing, filterable collection of named-researcher case studies on using generative AI within the research process itself, run by Oxford's AI Competency Centre — distinct from the broader 'oxnarr' staff-use collection."
+    },
+    "onthebooks-jimcrow": {
+      "label": "On the Books: Jim Crow and Algorithms of Resistance (UNC / USC Libraries)",
+      "short": "On the Books (Jim Crow)",
+      "url": "https://onthebooks.lib.unc.edu/about/project-overview/",
+      "blurb": "A Mellon Foundation-funded UNC-Chapel Hill project, extended via a University of South Carolina Libraries sub-award, that trained a machine-learning model to classify historical state legislative acts as Jim Crow or non-Jim Crow law."
+    },
+    "cureus-dermpilot": {
+      "label": "Cureus — AI-Assisted Digital Workflow for Dermatology Residency Research",
+      "short": "Cureus (Derm Pilot)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12618945/",
+      "blurb": "A peer-reviewed pilot report from two Indian medical colleges on using ChatGPT to automate data coding, scoring, and reporting for a real clinical observational study."
+    },
+    "brown-serrano": {
+      "label": "Brown University — Economics Exam Format Switch",
+      "short": "Brown (Serrano)",
+      "url": "https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat",
+      "blurb": "Inside Higher Ed coverage of a Brown University economics professor's switch from a take-home to an in-person final exam after suspected widespread AI use, with before/after score data."
     }
   }
 }
