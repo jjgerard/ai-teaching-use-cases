@@ -162,10 +162,11 @@ data/
 
 ## About this project
 
-This catalog and its content were built by Juliana Gerard. The application code
-was written with [Claude Code](https://claude.com/claude-code) (Anthropic);
-the case study curation — sourcing, screening against the inclusion criteria,
-and writing every entry — is original human work.
+This catalog and its content were built by [Juliana Gerard](https://julianagerard.com).
+The application code was written with [Claude Code](https://claude.com/claude-code)
+(Anthropic); the case study curation — sourcing candidates and screening them
+against the inclusion criteria — is original human work, and entries are
+written with AI assistance.
 
 ## License
 
