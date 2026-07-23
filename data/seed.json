@@ -1216,7 +1216,7 @@
       "inst": "Oxford Martin School",
       "repo": "oxnarr",
       "reg": "UK",
-      "th": "Research Methods",
+      "th": "AI-Assisted Research",
       "tool": [
         "Gemini"
       ],
@@ -1263,48 +1263,13 @@
       "s": "Students used ChatGPT Edu's voice mode, image upload, and Projects for Socratic step-by-step tutoring and note summarizing during revision."
     },
     {
-      "t": "Debugging a PyTorch Lightning pipeline and redesigning a GNN fusion strategy",
-      "u": "https://www.ox.ac.uk/gen-ai/case-studies",
-      "by": "Yuhan Zhou, ML Researcher",
-      "inst": "Oxford-GSK Institute of Molecular and Computational Medicine",
-      "repo": "oxnarr",
-      "reg": "UK",
-      "th": "Research Methods",
-      "tool": [
-        "ChatGPT"
-      ],
-      "disc": [
-        "Computer Science"
-      ],
-      "yr": 2025,
-      "s": "ChatGPT caught a tensor-dimension bug in a contrastive-learning pipeline and proposed a cross-modal transformer approach over a basic GNN fusion strategy."
-    },
-    {
-      "t": "Mining aviation and manufacturing literature for surgical QA ideas",
-      "u": "https://www.ox.ac.uk/gen-ai/case-studies",
-      "by": "Riadh Salem, Surgeon & Research Fellow",
-      "inst": "Nuffield Dept of Surgical Sciences",
-      "repo": "oxnarr",
-      "reg": "UK",
-      "th": "Research Methods",
-      "tool": [
-        "ChatGPT"
-      ],
-      "disc": [
-        "Health & Medicine"
-      ],
-      "yr": 2025,
-      "s": "Uses Deep Research to ask how intraoperative quality assurance is solved in aviation and manufacturing, turning weeks of literature search into an afternoon.",
-      "q": "[ChatGPT] saves you time, but perhaps more importantly, energy."
-    },
-    {
       "t": "Replacing radioactive contrast injections with a GenAI 'digital tracer'",
       "u": "https://www.ox.ac.uk/gen-ai/case-studies",
       "by": "Regent Lee, Professor of Interdisciplinary Innovation",
       "inst": "Nuffield Dept of Surgical Sciences",
       "repo": "oxnarr",
       "reg": "UK",
-      "th": "Research Methods",
+      "th": "AI-Assisted Research",
       "tool": [
         "Other"
       ],
@@ -5022,6 +4987,25 @@
       ],
       "yr": 2017,
       "s": "The AHRC-funded 'Linguistic DNA' project applied computational distributional-semantics methods to roughly 60,000 Early Modern English printed texts (EEBO-TCP, later extended with ECCO) to discover 'discursive concepts' — clusters of co-occurring expressions — and trace how they shifted between about 1500 and 1800, aiming to surface relationships between words and ideas that exceed human intuition through big-data computational analysis."
+    },
+    {
+      "t": "Building a secure, private speech-transcription pipeline with Whisper and GitHub Copilot",
+      "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/secure-private-transcription-at-scale-with-whisper-and-github-copilot",
+      "by": "Pablo Bernabeu",
+      "inst": "Department of Education, University of Oxford",
+      "repo": "oxford-airesearch",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Whisper",
+        "Copilot"
+      ],
+      "disc": [
+        "Education"
+      ],
+      "yr": 2025,
+      "s": "A researcher used GitHub Copilot to build a secure, GDPR-compliant, HPC-compatible speech-transcription pipeline around OpenAI's open-source Whisper models, replacing manual interview transcription -- previously hours of typing per hour of audio -- with automated processing in minutes, enabling large-scale qualitative analysis of sensitive audio data that couldn't previously be sent to cloud-based transcription tools.",
+      "q": "Copilot, not autopilot: review and revise the output conscientiously and relentlessly."
     }
   ],
   "REPOS": {

@@ -1350,7 +1350,7 @@
     "u": "https://www.ox.ac.uk/gen-ai/case-studies",
     "reg": "UK",
     "yr": 2025,
-    "th": "Research Methods",
+    "th": "AI-Assisted Research",
     "disc": [
       "Life Sciences"
     ],
@@ -1401,51 +1401,13 @@
     "source": "seed"
   },
   {
-    "t": "Debugging a PyTorch Lightning pipeline and redesigning a GNN fusion strategy",
-    "by": "Yuhan Zhou, ML Researcher",
-    "inst": "Oxford-GSK Institute of Molecular and Computational Medicine",
-    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
-    "reg": "UK",
-    "yr": 2025,
-    "th": "Research Methods",
-    "disc": [
-      "Computer Science"
-    ],
-    "tool": [
-      "ChatGPT"
-    ],
-    "s": "ChatGPT caught a tensor-dimension bug in a contrastive-learning pipeline and proposed a cross-modal transformer approach over a basic GNN fusion strategy.",
-    "ev": "",
-    "repo": "oxnarr",
-    "source": "seed"
-  },
-  {
-    "t": "Mining aviation and manufacturing literature for surgical QA ideas",
-    "by": "Riadh Salem, Surgeon & Research Fellow",
-    "inst": "Nuffield Dept of Surgical Sciences",
-    "u": "https://www.ox.ac.uk/gen-ai/case-studies",
-    "reg": "UK",
-    "yr": 2025,
-    "th": "Research Methods",
-    "disc": [
-      "Health & Medicine"
-    ],
-    "tool": [
-      "ChatGPT"
-    ],
-    "s": "Uses Deep Research to ask how intraoperative quality assurance is solved in aviation and manufacturing, turning weeks of literature search into an afternoon.",
-    "ev": "",
-    "repo": "oxnarr",
-    "source": "seed"
-  },
-  {
     "t": "Replacing radioactive contrast injections with a GenAI 'digital tracer'",
     "by": "Regent Lee, Professor of Interdisciplinary Innovation",
     "inst": "Nuffield Dept of Surgical Sciences",
     "u": "https://www.ox.ac.uk/gen-ai/case-studies",
     "reg": "UK",
     "yr": 2025,
-    "th": "Research Methods",
+    "th": "AI-Assisted Research",
     "disc": [
       "Health & Medicine"
     ],
@@ -5578,6 +5540,26 @@
     "s": "The AHRC-funded 'Linguistic DNA' project applied computational distributional-semantics methods to roughly 60,000 Early Modern English printed texts (EEBO-TCP, later extended with ECCO) to discover 'discursive concepts' — clusters of co-occurring expressions — and trace how they shifted between about 1500 and 1800, aiming to surface relationships between words and ideas that exceed human intuition through big-data computational analysis.",
     "ev": "",
     "repo": "linguisticdna",
+    "source": "seed"
+  },
+  {
+    "t": "Building a secure, private speech-transcription pipeline with Whisper and GitHub Copilot",
+    "by": "Pablo Bernabeu",
+    "inst": "Department of Education, University of Oxford",
+    "u": "https://oerc.ox.ac.uk/ai-centre/ai-in-research-case-studies/secure-private-transcription-at-scale-with-whisper-and-github-copilot",
+    "reg": "UK",
+    "yr": 2025,
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Education"
+    ],
+    "tool": [
+      "Whisper",
+      "Copilot"
+    ],
+    "s": "A researcher used GitHub Copilot to build a secure, GDPR-compliant, HPC-compatible speech-transcription pipeline around OpenAI's open-source Whisper models, replacing manual interview transcription -- previously hours of typing per hour of audio -- with automated processing in minutes, enabling large-scale qualitative analysis of sensitive audio data that couldn't previously be sent to cloud-based transcription tools.",
+    "ev": "",
+    "repo": "oxford-airesearch",
     "source": "seed"
   }
 ]
