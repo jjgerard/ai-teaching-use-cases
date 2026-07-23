@@ -4846,25 +4846,6 @@
       ],
       "yr": 2025,
       "s": "Two dermatology residency programs in India built a free AI-assisted data-collection workflow — Google Forms feeding into ChatGPT-generated automation scripts — to auto-code survey responses, calculate standardized quality-of-life scores (DLQI, DASS-21), generate PDF case report forms, and send instant notifications, cutting data-entry time by 69% and errors by 72% compared to the prior paper-based process."
-    },
-    {
-      "t": "Switching a take-home midterm to an in-person final cut the class average from 96% to 48.6%",
-      "u": "https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat",
-      "by": "Prof. Roberto Serrano",
-      "inst": "Department of Economics, Brown University",
-      "repo": "brown-serrano",
-      "reg": "US",
-      "th": "Reduced AI Use (Evidenced)",
-      "tool": [
-        "Unspecified"
-      ],
-      "disc": [
-        "Social Sciences"
-      ],
-      "yr": 2026,
-      "s": "After an unproctored take-home midterm in a welfare economics/social choice theory course produced a 96% class average (versus a historical 65–80%) with 40 perfect scores and answers bearing hallmarks of AI generation, the instructor switched the final exam to an in-person, proctored format.",
-      "ev": "The in-person final's average fell to 48.6% — the course's historic low — with 3 students scoring zero. Of the 27 students who subsequently dropped the course or skipped the final, 22 had scored perfectly on the take-home midterm, a strong proxy signal that the drop-off was concentrated among students who could no longer rely on unproctored AI assistance.",
-      "q": "This exam was harder than the exams I wrote in the past...take-home is an opportunity to challenge the class a little bit more."
     }
   ],
   "REPOS": {
@@ -5221,12 +5202,6 @@
       "short": "Cureus (Derm Pilot)",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12618945/",
       "blurb": "A peer-reviewed pilot report from two Indian medical colleges on using ChatGPT to automate data coding, scoring, and reporting for a real clinical observational study."
-    },
-    "brown-serrano": {
-      "label": "Brown University — Economics Exam Format Switch",
-      "short": "Brown (Serrano)",
-      "url": "https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat",
-      "blurb": "Inside Higher Ed coverage of a Brown University economics professor's switch from a take-home to an in-person final exam after suspected widespread AI use, with before/after score data."
     }
   }
 }

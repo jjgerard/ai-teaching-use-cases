@@ -3,6 +3,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/shared.css">
+<style>
+  .stance-note { max-width: 1180px; margin: 1.4rem auto 0; padding: 0 1.5rem; }
+  .stance-note-inner {
+    background: var(--accent-soft);
+    border: 1.5px solid var(--line-strong);
+    border-left: 4px solid var(--accent);
+    border-radius: var(--radius-lg);
+    padding: 1.1rem 1.4rem;
+  }
+  .stance-note-inner h2 { font-family: var(--face-display); font-size: 0.95rem; margin: 0 0 0.5rem; color: var(--accent-ink); }
+  .stance-note-inner p { margin: 0 0 0.6rem; font-size: 0.85rem; line-height: 1.6; color: var(--ink-soft); }
+  .stance-note-inner p:last-child { margin-bottom: 0; }
+  .stance-note-inner a { color: var(--accent-ink); }
+</style>
 
 <div class="masthead">
   <div class="masthead-inner">
@@ -31,6 +45,14 @@
     <a class="tab-link" href="/about">About</a>
   </div>
 </nav>
+
+<div class="stance-note">
+  <div class="stance-note-inner">
+    <h2>Why "switch to a proctored exam" isn't treated as a solution here</h2>
+    <p>Locking down the exam room changes the <em>opportunity</em> to use AI, not necessarily the <em>desire</em> to — it's an escalating, imperfect arms race (students have been caught using hidden earpieces and smartwatches even under supervision), and it carries real surveillance and equity costs of its own. Several sources make this case directly: <a href="https://www.insidehighered.com/news/students/academics/2026/03/05/person-classes-arent-safe-ai-cheating-boom" target="_blank" rel="noopener">"In-Person Classes Aren't Safe From AI Cheating Boom"</a> (Inside Higher Ed), <a href="https://www.eschoolnews.com/digital-learning/2026/03/12/ai-classrooms-designing-assessment/" target="_blank" rel="noopener">"The AI-resistant classroom is a myth"</a> (eSchool News), the Canadian Journal of Learning and Technology's <a href="https://cjlt.ca/index.php/cjlt/article/view/28388" target="_blank" rel="noopener">piece on the academic-integrity "arms race"</a>, and a broader ethics literature on <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8576309/" target="_blank" rel="noopener">algorithmic proctoring</a>.</p>
+    <p>The gold standard for this catalog is evidence that students changed their own AI use by choice — because a redesigned assessment made reaching for it pointless or unappealing — not evidence that they were simply prevented from trying. Strategies that only remove the opportunity, without addressing why students wanted to use AI in the first place, aren't catalogued here as a fix.</p>
+  </div>
+</div>
 
 <div class="modal-overlay hidden" id="editRequestOverlay">
   <div class="modal" role="dialog" aria-modal="true" aria-labelledby="editRequestTitle">
