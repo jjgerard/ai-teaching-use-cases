@@ -4951,6 +4951,59 @@
       ],
       "yr": "Unspecified",
       "s": "A Hopkins AI Lab consultation helped a researcher developing a machine-learning model for early brain-tumor detection from MRI scans debug Python code that was producing inaccurate predictions, with AI interpreting the errors and suggesting fixes."
+    },
+    {
+      "t": "Using computational text analysis to detect reader address at scale across 3,000 novels",
+      "u": "https://aihumanities.wustl.edu/projects/",
+      "by": "Gabi Kirilloff",
+      "inst": "AI Humanities Lab, Washington University in St. Louis",
+      "repo": "washu-aihumanities",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": "Unspecified",
+      "s": "The 'Keeping You Close' project uses a computational method that separates dialogue from narration to detect direct reader address at scale across a corpus of more than 3,000 nineteenth- and twentieth-century Anglophone novels, combining that distant-reading approach with close reading to study a literary-historical question about how novels address their readers. Published in College Literature."
+    },
+    {
+      "t": "Using machine learning to study how character descriptions shape literary realism",
+      "u": "https://aihumanities.wustl.edu/projects/",
+      "by": "Claudia Carroll",
+      "inst": "AI Humanities Lab, Washington University in St. Louis",
+      "repo": "washu-aihumanities",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": "Unspecified",
+      "s": "The 'Reading Minds' project uses machine learning to analyze how descriptions of characters' social behavior in literary texts engage readers' real-life social cognition, combining literary studies, narratology, computer science, and cognitive-science theory to build a new account of character realism. Forthcoming in Poetics Today and Digital Scholarship in the Humanities."
+    },
+    {
+      "t": "Using ChatGPT, GitHub Copilot, and PaperQA as co-pilots for a protein-network analysis of invasive cancer",
+      "u": "https://www.biorxiv.org/content/10.1101/2025.05.14.654152",
+      "by": "Hongda Jiang, Jahziel Chase, Lianxiang Fu, Sathvik Shivaram, Anton V. Sinitskiy",
+      "inst": "Northeastern University",
+      "repo": "biorxiv-aicopilot",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "ChatGPT",
+        "Copilot",
+        "PaperQA"
+      ],
+      "disc": [
+        "Life Sciences"
+      ],
+      "yr": 2025,
+      "s": "Researchers used ChatGPT, GitHub Copilot, and PaperQA to automate parts of a real biotech workflow — literature review, code generation, and functional network analysis of public proteomic data — for a study of protein networks in invasive colorectal cancer, identifying cytoskeleton- and signaling-related networks consistent with known biology. A separate attempt to run the same analysis fully autonomously via an AI agent framework failed from hallucinated data, goal misinterpretation, and instability, illustrating that the tools assisted rather than replaced the human researchers."
     }
   ],
   "REPOS": {
@@ -5319,6 +5372,18 @@
       "short": "JHU (Hopkins AI Lab)",
       "url": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
       "blurb": "Short, researcher-anonymized case studies from Johns Hopkins Sheridan Libraries' Hopkins AI Lab, describing real consultations on using AI tools within an ongoing research project — only the institution is named, not the individual researcher."
+    },
+    "washu-aihumanities": {
+      "label": "Washington University in St. Louis — AI Humanities Lab",
+      "short": "WashU (AI Humanities Lab)",
+      "url": "https://aihumanities.wustl.edu/projects/",
+      "blurb": "An interdisciplinary lab applying computational and AI methods to literary and humanities research questions; some of its own projects study AI's behavior directly (not catalogued here) while others use AI/ML as an analysis tool for a separate humanities question (catalogued here)."
+    },
+    "biorxiv-aicopilot": {
+      "label": "bioRxiv — AI Co-Pilot Biotech Case Study (Northeastern University)",
+      "short": "bioRxiv (AI Co-Pilot)",
+      "url": "https://www.biorxiv.org/content/10.1101/2025.05.14.654152",
+      "blurb": "A Northeastern University preprint documenting a real attempt to use ChatGPT, GitHub Copilot, and PaperQA as research co-pilots in a biotech workflow, including an honest account of where a fully autonomous AI agent attempt failed."
     }
   }
 }

@@ -5500,5 +5500,64 @@
     "ev": "",
     "repo": "jhu-ailab",
     "source": "seed"
+  },
+  {
+    "t": "Using computational text analysis to detect reader address at scale across 3,000 novels",
+    "by": "Gabi Kirilloff",
+    "inst": "AI Humanities Lab, Washington University in St. Louis",
+    "u": "https://aihumanities.wustl.edu/projects/",
+    "reg": "US",
+    "yr": "Unspecified",
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "The 'Keeping You Close' project uses a computational method that separates dialogue from narration to detect direct reader address at scale across a corpus of more than 3,000 nineteenth- and twentieth-century Anglophone novels, combining that distant-reading approach with close reading to study a literary-historical question about how novels address their readers. Published in College Literature.",
+    "ev": "",
+    "repo": "washu-aihumanities",
+    "source": "seed"
+  },
+  {
+    "t": "Using machine learning to study how character descriptions shape literary realism",
+    "by": "Claudia Carroll",
+    "inst": "AI Humanities Lab, Washington University in St. Louis",
+    "u": "https://aihumanities.wustl.edu/projects/",
+    "reg": "US",
+    "yr": "Unspecified",
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "The 'Reading Minds' project uses machine learning to analyze how descriptions of characters' social behavior in literary texts engage readers' real-life social cognition, combining literary studies, narratology, computer science, and cognitive-science theory to build a new account of character realism. Forthcoming in Poetics Today and Digital Scholarship in the Humanities.",
+    "ev": "",
+    "repo": "washu-aihumanities",
+    "source": "seed"
+  },
+  {
+    "t": "Using ChatGPT, GitHub Copilot, and PaperQA as co-pilots for a protein-network analysis of invasive cancer",
+    "by": "Hongda Jiang, Jahziel Chase, Lianxiang Fu, Sathvik Shivaram, Anton V. Sinitskiy",
+    "inst": "Northeastern University",
+    "u": "https://www.biorxiv.org/content/10.1101/2025.05.14.654152",
+    "reg": "US",
+    "yr": 2025,
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "ChatGPT",
+      "Copilot",
+      "PaperQA"
+    ],
+    "s": "Researchers used ChatGPT, GitHub Copilot, and PaperQA to automate parts of a real biotech workflow — literature review, code generation, and functional network analysis of public proteomic data — for a study of protein networks in invasive colorectal cancer, identifying cytoskeleton- and signaling-related networks consistent with known biology. A separate attempt to run the same analysis fully autonomously via an AI agent framework failed from hallucinated data, goal misinterpretation, and instability, illustrating that the tools assisted rather than replaced the human researchers.",
+    "ev": "",
+    "repo": "biorxiv-aicopilot",
+    "source": "seed"
   }
 ]
