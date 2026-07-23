@@ -28,6 +28,12 @@ if (!ADMIN_PASSWORD || !SESSION_SECRET) {
 }
 
 const app = express();
+app.use((req, res, next) => {
+  if (req.hostname === "case-study-catalog.onrender.com") {
+    return res.redirect(301, `https://case-study-catalog.fly.dev${req.originalUrl}`);
+  }
+  next();
+});
 app.use(express.json({ limit: "1mb" }));
 app.use(
   session({
