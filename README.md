@@ -64,10 +64,11 @@ published page can't fetch or read an arbitrary URL for you) — you visit the l
 yourself, and add whatever qualifies through the normal form or paste box. Mark a
 suggestion done once you've gone through it.
 
-## Git persistence for approved entries (avoids the paid Render plan)
+## Git persistence for approved entries (avoids paying for a persistent volume)
 
 Without this, approved entries only exist in the SQLite file, so a host with no
-persistent disk (e.g. Render's free tier) loses them on every rebuild. With it, every
+persistent disk (e.g. a bare Fly.io machine with no volume attached) loses them on
+every rebuild. With it, every
 approve/edit/delete/reject of **any** entry — originally-curated or community-submitted,
 since the admin dashboard can edit or delete either — commits the full current list of
 approved entries to `data/community.json` via the GitHub API, including which collection
@@ -111,36 +112,48 @@ npm start
 
 Visit `http://localhost:3000` (or whatever `PORT` you set).
 
-## Deploying to Render
+## Deploying to Fly.io
 
-1. Push this folder to a GitHub repo.
-2. In Render, **New > Blueprint**, point it at the repo — it will read `render.yaml`
-   automatically and provision the service.
-3. Render will prompt for `ADMIN_PASSWORD` (marked `sync: false` in `render.yaml`, so it's
-   never stored in the repo). Set it to whatever password you'll use to log into `/admin`.
-   `SESSION_SECRET` is auto-generated.
-4. Deploy. First boot seeds the database automatically.
+1. Push this repo to GitHub.
+2. Install [`flyctl`](https://fly.io/docs/flyctl/install/) and run `fly launch` from the
+   repo root, or reuse the included `fly.toml` (app name `case-study-catalog`) and run
+   `fly apps create case-study-catalog` to claim it.
+3. Set the secrets `fly.toml` doesn't cover:
+   `fly secrets set ADMIN_PASSWORD=... SESSION_SECRET=...` — plus the email and git-persistence
+   vars above, if you want those features.
+4. `fly deploy --remote-only` for the first deploy — Fly builds from the included
+   `Dockerfile` on their own builders, so no local Docker install is needed. First boot
+   seeds the database automatically.
+
+### Auto-deploy on push
+
+`.github/workflows/fly-deploy.yml` runs `flyctl deploy --remote-only` on every push to
+`master`, authenticated with a `FLY_API_TOKEN` repo secret — a scoped deploy token
+(`fly tokens create deploy --app case-study-catalog`), not your full account token. Once
+that secret is set in the repo's GitHub Actions settings, `git push` is the whole deploy
+step; no manual `fly deploy` needed afterwards.
 
 ### Important: persistence and cost
 
-`render.yaml` runs on Render's **free** tier, which has no persistent disk — the local
-SQLite file resets on every rebuild/restart. That's fine here specifically *because* git
-persistence (above) is set up: approved entries are re-seeded from `data/community.json`
-on every boot, and pending ones are backed up by the notification email. Without
-`GITHUB_TOKEN`/`GITHUB_REPO` configured, approved entries would be lost on every restart —
-so treat git persistence as required, not optional, if you're staying on the free tier.
+The included `fly.toml` has no `[mounts]` section, so — like most free-tier PaaS
+hosting — the local SQLite file resets on every restart/redeploy. That's fine here
+specifically *because* git persistence (above) is set up: approved entries are
+re-seeded from `data/community.json` on every boot, and pending ones are backed up by
+the notification email. Without `GITHUB_TOKEN`/`GITHUB_REPO` configured, approved
+entries would be lost on every restart — so treat git persistence as required, not
+optional, unless you add real storage.
 
 If you'd rather not depend on git for this, two alternatives:
-- Switch `plan: free` to a paid plan (e.g. `starter`, ~$7/month) and add a `disk:` block
-  mounting somewhere like `/var/data`, with `DB_PATH` pointing into it — a real persistent
-  disk, no git involvement needed.
+- Add a [Fly volume](https://fly.io/docs/reference/configuration/#the-mounts-section)
+  and mount it in `fly.toml`, with `DB_PATH` pointing into it — a real persistent disk,
+  no git involvement needed (Fly's free allowance covers a small volume).
 - Or swap the storage layer for a free external database (e.g. Turso/libSQL, Neon Postgres)
   — that's a change to `src/db.js`, not the rest of the app.
 
 ### Changing the admin password later
 
-In the Render dashboard: your service → **Environment** → edit `ADMIN_PASSWORD` → the
-service redeploys with the new value. No code change needed.
+`fly secrets set ADMIN_PASSWORD=newpassword --app case-study-catalog` — the app
+redeploys automatically with the new value. No code change needed.
 
 ## Project layout
 
