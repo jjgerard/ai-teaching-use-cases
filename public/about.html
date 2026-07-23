@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>About — Field Notes</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/shared.css">
+<style>
+  .about-wrap { max-width: 760px; margin: 0 auto; padding: 2.4rem 1.5rem 5rem; display: flex; flex-direction: column; gap: 1.2rem; }
+  .about-wrap .card h2 { font-family: var(--face-display); font-size: 1.05rem; margin: 0 0 0.6rem; color: var(--ink); }
+  .about-wrap .card p { margin: 0 0 0.8rem; color: var(--ink-soft); font-size: 0.87rem; line-height: 1.6; }
+  .about-wrap .card p:last-child { margin-bottom: 0; }
+  .cat-list { display: flex; flex-direction: column; gap: 0.9rem; }
+  .cat-item { border: 1px solid var(--line); border-radius: var(--radius); padding: 0.9rem 1rem; background: var(--paper); }
+  .cat-item a { text-decoration: none; }
+  .cat-item h3 { font-family: var(--face-display); font-size: 0.95rem; margin: 0 0 0.3rem; color: var(--accent-ink); }
+  .cat-item p { margin: 0; font-size: 0.83rem; color: var(--ink-soft); line-height: 1.55; }
+  .about-links { display: flex; flex-wrap: wrap; gap: 0.6rem; margin-top: 0.4rem; }
+</style>
+</head>
+<body>
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-text">
+      <p class="catalog-mark">Field survey · about</p>
+      <h1 class="title">About this catalog</h1>
+      <p class="lede">What's collected here, the bar each entry has to clear, and who built it.</p>
+    </div>
+  </div>
+</div>
+
+<nav class="tab-nav">
+  <div class="tab-nav-inner">
+    <a class="tab-link" href="/">Teaching Case Studies</a>
+    <a class="tab-link" href="/ai-for-research">Research Case Studies</a>
+    <a class="tab-link" href="/reducing-ai-use">Reducing AI (mis)use</a>
+    <a class="tab-link active" href="/about">About</a>
+  </div>
+</nav>
+
+<div class="about-wrap">
+  <div class="card">
+    <h2>Three catalogs, one bar: it has to be real</h2>
+    <p>Every entry across all three catalogs describes something that was actually built, run, or trialled — a named person, course, institution, or research team, with a real source link. Proposals, frameworks, and guidance documents don't qualify anywhere on this site, no matter how sensible they sound.</p>
+    <div class="cat-list">
+      <div class="cat-item">
+        <a href="/"><h3>Teaching Case Studies</h3></a>
+        <p>A named person, course, or institution describing exactly what they did with generative AI in a higher-ed teaching context — collected at universities and sector bodies worldwide. No frameworks; only specific examples.</p>
+      </div>
+      <div class="cat-item">
+        <a href="/ai-for-research"><h3>Research Case Studies</h3></a>
+        <p>A real research project where AI was used at some stage of the actual research process — literature search, data collection, coding, analysis, hypothesis generation, drafting. Research <em>about</em> AI itself (benchmarking a model, studying attitudes toward AI) doesn't qualify — the study's subject has to be something else.</p>
+      </div>
+      <div class="cat-item">
+        <a href="/reducing-ai-use"><h3>Reducing AI (mis)use</h3></a>
+        <p>A strategy an educator or institution actually ran, with concrete measured evidence that student use of generative AI to complete coursework went down as a result — not a proposal, and not just an opinion that it probably helped. Where the source explains <em>why</em> use dropped, that's included too.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>How entries get added</h2>
+    <p>Anyone can suggest a case study through the <a href="/submit">submission form</a> — one form for all three catalogs, with a field to pick which type it is. Every submission is screened against the same criteria above before it goes live; nothing is auto-published.</p>
+  </div>
+
+  <div class="card">
+    <h2>Who built this</h2>
+    <p>This catalog and its content were built by Juliana Gerard. The application code was written with <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a> (Anthropic); the case study curation — sourcing, screening against the inclusion criteria, and writing every entry — is original human work.</p>
+    <p>Case study data (everything in the catalogs) is available under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> — reuse it anywhere, including commercially, as long as you credit this project and link back. The application code is <a href="https://github.com/jjgerard/ai-teaching-use-cases" target="_blank" rel="noopener">MIT-licensed and open source on GitHub</a>.</p>
+    <div class="about-links">
+      <a class="ghost-btn" href="/submit" style="text-decoration:none; display:inline-block;">Suggest a case study</a>
+      <a class="ghost-btn" href="https://github.com/jjgerard/ai-teaching-use-cases" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;">View source on GitHub</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

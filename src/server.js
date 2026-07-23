@@ -224,6 +224,9 @@ app.get("/reducing-ai-use", (req, res) => {
 app.get("/ai-for-research", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "public", "ai-for-research.html"));
 });
+app.get("/about", (req, res) => {
+  res.sendFile(path.join(__dirname, "..", "public", "about.html"));
+});
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "public", "catalog.html"));
 });
