@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="26" r="19" fill="#ffd866" stroke="#0a5fa8" stroke-width="3"/>
+  <path d="M21 41 L43 41 L38 49 L26 49 Z" fill="#0a5fa8"/>
+  <rect x="24" y="49" width="16" height="11" rx="2" fill="#041e42"/>
+  <line x1="25" y1="53" x2="39" y2="53" stroke="#ffd866" stroke-width="1.5"/>
+  <line x1="25" y1="57" x2="39" y2="57" stroke="#ffd866" stroke-width="1.5"/>
+  <rect x="25" y="19" width="14" height="14" rx="1.5" fill="#041e42"/>
+  <g stroke="#041e42" stroke-width="2" stroke-linecap="round">
+    <line x1="29" y1="19" x2="29" y2="15"/>
+    <line x1="35" y1="19" x2="35" y2="15"/>
+    <line x1="29" y1="33" x2="29" y2="37"/>
+    <line x1="35" y1="33" x2="35" y2="37"/>
+    <line x1="25" y1="23" x2="21" y2="23"/>
+    <line x1="25" y1="29" x2="21" y2="29"/>
+    <line x1="39" y1="23" x2="43" y2="23"/>
+    <line x1="39" y1="29" x2="43" y2="29"/>
+  </g>
+</svg>

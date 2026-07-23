@@ -1,4 +1,5 @@
-<title>Field Notes — A Specimen Catalog of AI Case Studies in Education</title>
+<title>Field Notes — A Catalog of AI Case Studies in Education</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="/shared.css">
@@ -15,7 +16,10 @@
         <span class="big" id="tallyTotal">—</span>
         <span class="cap">Case studies</span>
       </div>
-      <a class="contribute-btn" href="/submit">+ Suggest a case study</a>
+      <div class="tally-actions">
+        <a class="contribute-btn" href="/submit">+ Suggest a case study</a>
+        <a class="contribute-btn" href="/trends">📊 View trends</a>
+      </div>
     </div>
   </div>
 </div>
@@ -100,7 +104,7 @@
 
   <main>
     <div class="results-head">
-      <span class="results-count"><b id="shownCount">0</b> of <span id="totalCount">0</span> specimens shown</span>
+      <span class="results-count"><b id="shownCount">0</b> of <span id="totalCount">0</span> case studies shown</span>
       <span class="group-by-control">
         <label class="sort-note" for="groupBySelect">Group by</label>
         <select id="groupBySelect">
@@ -115,7 +119,7 @@
       </span>
     </div>
     <div id="results"></div>
-    <div class="empty-state hidden" id="emptyState">No specimens match these filters — try clearing one.</div>
+    <div class="empty-state hidden" id="emptyState">No case studies match these filters — try clearing one.</div>
   </main>
 </div>
 
@@ -129,7 +133,7 @@
     <li>The "101 Creative Ideas" PowerPoint is a 168-page #creativeHE collection. Of its ~100 crowdsourced submissions, most described a proposed idea ("could be used to…") rather than something the contributor had actually built, run or trialled — only 38 met the same bar applied everywhere else in this catalog and are included.</li>
     <li>Every entry was re-screened against one test: is this someone <em>using</em> generative AI to do something, or guidance/policy/training <em>about</em> AI use? 23 case studies across ANTF, Durham, QAA and Utrecht that turned out to be institutional frameworks, literacy-building programmes, or policy documents (e.g. an AI assessment-scale adoption, or capacity-building workshops) were removed on this basis; 4 more QAA entries were retagged once a closer read of the source PDF surfaced the concrete tool actually being used underneath a policy-sounding title.</li>
     <li>"Year published" reflects when the source document or post went up, not necessarily when the activity itself ran (which is sometimes a year or two earlier).</li>
-    <li>The five University of Sydney articles are almost all roundups covering several named academics each; every distinct example is logged as its own specimen rather than one entry per article.</li>
+    <li>The five University of Sydney articles are almost all roundups covering several named academics each; every distinct example is logged as its own case study rather than one entry per article.</li>
     <li>The "From Avoidance to Adoption" collection is a Frontiers special-issue paper by the maintainer and colleagues at Ulster University and Queen's University Belfast, accepted but not yet formally published; its entries link to the accepted manuscript rather than a DOI, and will be updated once one is assigned.</li>
     <li>A broader research pass added ~93 case studies across 29 new collections spanning UK, US, Australian, New Zealand and Canadian universities, plus ASCILITE and MDPI conference/journal proceedings — each screened against the same test as everywhere else in this catalog. Excluded along the way: a vendor-marketing case study (a third-party platform's own promotional page, not an institutional or neutral source), several single-paragraph tool vignettes too thin to populate every attribute, one page that couldn't be independently re-fetched to verify its content, and a couple of borderline pieces that turned out to be pedagogical responses to AI's existence (e.g. redesigning an assessment to be AI-resistant) or student-attitude surveys rather than an instructor actually using generative AI themselves.</li>
     <li>Functionality (facets, free-text search) modeled on <a href="https://scale.stanford.edu/ai/repository/all" target="_blank" rel="noopener">Stanford Accelerator for Learning's AI repository</a>.</li>

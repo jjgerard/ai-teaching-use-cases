@@ -1,0 +1,1457 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>What predicts what — Field Notes</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .trends-back-link { font-size: 0.8rem; color: var(--ink-faint); text-decoration: none; display: inline-block; }
+  .trends-back-link:hover { color: var(--accent); }
+  :root {
+    --paper: #f4f6f8;
+    --paper-raised: #ffffff;
+    --paper-card: #ffffff;
+    --ink: #041e42;
+    --ink-soft: #33475b;
+    --ink-faint: #6b7c8c;
+    --accent: #0a5fa8;
+    --accent-soft: #dcedfa;
+    --accent-ink: #04407d;
+    --cool: #2f8f76;
+    --cool-soft: #dcf0e9;
+    --disc: #7a4fa0;
+    --disc-soft: #ece1f4;
+    --navy: #041e42;
+    --navy-deep: #030c18;
+    --sky: #c9ced4;
+    --line: rgba(4, 30, 66, 0.13);
+    --line-strong: rgba(4, 30, 66, 0.28);
+    --shadow: 0 1px 2px rgba(4, 30, 66, 0.06), 0 10px 24px -16px rgba(4, 30, 66, 0.35);
+    --radius: 10px;
+    --radius-lg: 14px;
+    --btn-shadow: inset 0 1px 0 rgba(255,255,255,0.18), inset 0 -1px 0 rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.15);
+    --input-shadow: inset 0 1px 0 rgba(255,255,255,0.7), inset 0 2px 5px rgba(4,30,66,0.07), inset 0 6px 14px -4px rgba(4,30,66,0.05);
+    --face-display: "Century Gothic", "Futura PT", "Trebuchet MS", "Segoe UI", sans-serif;
+    --face-body: "Segoe UI", "Open Sans", -apple-system, Helvetica, Arial, sans-serif;
+    /* per-dimension single-hue ramps, step 1 (lightest) -> 7 (deepest); rank within a
+       dimension maps to a step so the biggest category reads boldest */
+    --ramp-th-1: #bad2e7; --ramp-th-2: #9dbfdc; --ramp-th-3: #80acd2; --ramp-th-4: #6299c7;
+    --ramp-th-5: #4585bd; --ramp-th-6: #2772b2; --ramp-th-7: #0a5fa8;
+    --ramp-tool-1: #c5e0d9; --ramp-tool-2: #acd2c8; --ramp-tool-3: #93c5b8; --ramp-tool-4: #7ab7a7;
+    --ramp-tool-5: #61aa97; --ramp-tool-6: #489c86; --ramp-tool-7: #2f8f76;
+    --ramp-disc-1: #dacee4; --ramp-disc-2: #cab9d9; --ramp-disc-3: #baa3ce; --ramp-disc-4: #aa8ec2;
+    --ramp-disc-5: #9a79b7; --ramp-disc-6: #8a64ab; --ramp-disc-7: #7a4fa0;
+    --ramp-reg-1: #ebddc8; --ramp-reg-2: #e3cfb0; --ramp-reg-3: #dac099; --ramp-reg-4: #d2b281;
+    --ramp-reg-5: #c9a369; --ramp-reg-6: #c19552; --ramp-reg-7: #b8863a;
+    --other-fill: #d7dde3;
+    --other-ink: #495a6b;
+    /* colorblind-safe categorical palette (8 hues, validated CVD-safe adjacent pairs) —
+       used for the "Trends by year" stacked bars, where up to 8 categories share one chart */
+    --cat-1: #2a78d6; --cat-2: #eb6834; --cat-3: #1baf7a; --cat-4: #eda100;
+    --cat-5: #e87ba4; --cat-6: #008300; --cat-7: #4a3aa7; --cat-8: #e34948;
+  }
+  :root[data-theme="dark"] {
+    --paper: #0a1220;
+    --paper-raised: #101a2c;
+    --paper-card: #132038;
+    --ink: #e8edf4;
+    --ink-soft: #a8b8cb;
+    --ink-faint: #6f8199;
+    --accent: #6fb4e8;
+    --accent-soft: #12283f;
+    --accent-ink: #9ccdf0;
+    --cool: #6bcbae;
+    --cool-soft: #0e241d;
+    --disc: #c79bea;
+    --disc-soft: #241c33;
+    --navy: #dbe8f6;
+    --navy-deep: #030c18;
+    --sky: #c9ced4;
+    --line: rgba(232, 237, 244, 0.13);
+    --line-strong: rgba(232, 237, 244, 0.28);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px -16px rgba(0, 0, 0, 0.7);
+    --btn-shadow: inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+    --input-shadow: inset 0 1px 0 rgba(255,255,255,0.03), inset 0 2px 5px rgba(0,0,0,0.25), inset 0 6px 14px -4px rgba(0,0,0,0.2);
+    --ramp-th-1: #335476; --ramp-th-2: #3d6489; --ramp-th-3: #47749c; --ramp-th-4: #5184af;
+    --ramp-th-5: #5b94c2; --ramp-th-6: #65a4d5; --ramp-th-7: #6fb4e8;
+    --ramp-tool-1: #325c61; --ramp-tool-2: #3b6e6e; --ramp-tool-3: #45817b; --ramp-tool-4: #4e9388;
+    --ramp-tool-5: #58a694; --ramp-tool-6: #61b8a1; --ramp-tool-7: #6bcbae;
+    --ramp-disc-1: #524b76; --ramp-disc-2: #66588a; --ramp-disc-3: #79669d; --ramp-disc-4: #8d73b0;
+    --ramp-disc-5: #a080c3; --ramp-disc-6: #b48ed7; --ramp-disc-7: #c79bea;
+    --ramp-reg-1: #5b5347; --ramp-reg-2: #71634b; --ramp-reg-3: #877350; --ramp-reg-4: #9d8354;
+    --ramp-reg-5: #b49259; --ramp-reg-6: #caa25d; --ramp-reg-7: #e0b262;
+    --other-fill: #2a3446;
+    --other-ink: #9fb0c4;
+    --cat-1: #3987e5; --cat-2: #d95926; --cat-3: #199e70; --cat-4: #c98500;
+    --cat-5: #d55181; --cat-6: #008300; --cat-7: #9085e9; --cat-8: #e66767;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0a1220;
+      --paper-raised: #101a2c;
+      --paper-card: #132038;
+      --ink: #e8edf4;
+      --ink-soft: #a8b8cb;
+      --ink-faint: #6f8199;
+      --accent: #6fb4e8;
+      --accent-soft: #12283f;
+      --accent-ink: #9ccdf0;
+      --cool: #6bcbae;
+      --cool-soft: #0e241d;
+      --disc: #c79bea;
+      --disc-soft: #241c33;
+      --navy: #dbe8f6;
+      --navy-deep: #030c18;
+      --sky: #c9ced4;
+      --line: rgba(232, 237, 244, 0.13);
+      --line-strong: rgba(232, 237, 244, 0.28);
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px -16px rgba(0, 0, 0, 0.7);
+      --btn-shadow: inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+      --input-shadow: inset 0 1px 0 rgba(255,255,255,0.03), inset 0 2px 5px rgba(0,0,0,0.25), inset 0 6px 14px -4px rgba(0,0,0,0.2);
+      --ramp-th-1: #335476; --ramp-th-2: #3d6489; --ramp-th-3: #47749c; --ramp-th-4: #5184af;
+      --ramp-th-5: #5b94c2; --ramp-th-6: #65a4d5; --ramp-th-7: #6fb4e8;
+      --ramp-tool-1: #325c61; --ramp-tool-2: #3b6e6e; --ramp-tool-3: #45817b; --ramp-tool-4: #4e9388;
+      --ramp-tool-5: #58a694; --ramp-tool-6: #61b8a1; --ramp-tool-7: #6bcbae;
+      --ramp-disc-1: #524b76; --ramp-disc-2: #66588a; --ramp-disc-3: #79669d; --ramp-disc-4: #8d73b0;
+      --ramp-disc-5: #a080c3; --ramp-disc-6: #b48ed7; --ramp-disc-7: #c79bea;
+      --ramp-reg-1: #5b5347; --ramp-reg-2: #71634b; --ramp-reg-3: #877350; --ramp-reg-4: #9d8354;
+      --ramp-reg-5: #b49259; --ramp-reg-6: #caa25d; --ramp-reg-7: #e0b262;
+      --other-fill: #2a3446;
+      --other-ink: #9fb0c4;
+      --cat-1: #3987e5; --cat-2: #d95926; --cat-3: #199e70; --cat-4: #c98500;
+      --cat-5: #d55181; --cat-6: #008300; --cat-7: #9085e9; --cat-8: #e66767;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-tap-highlight-color: transparent; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--face-body);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  a { color: var(--accent); }
+  ::selection { background: var(--accent-soft); color: var(--ink); }
+
+  /* ---------- masthead (matches catalog.html / submit.html / admin.html) ---------- */
+  .masthead {
+    background: linear-gradient(155deg, var(--navy-deep) 0%, var(--navy) 78%);
+    border-bottom: 3px solid var(--sky);
+    padding: 1.3rem 1.5rem;
+  }
+  .masthead-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .masthead-text { flex: 1 1 460px; min-width: 0; }
+  .catalog-mark {
+    font-family: var(--face-body);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sky);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0 0 0.35rem;
+  }
+  .catalog-mark::before { content: ""; width: 20px; height: 2px; background: var(--sky); display: inline-block; }
+  h1.title {
+    font-family: var(--face-display);
+    font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+    line-height: 1.15;
+    margin: 0 0 0.3rem;
+    text-wrap: balance;
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    color: #ffffff;
+  }
+  .lede { max-width: 80ch; color: #c3d4e6; margin: 0; font-size: 0.85rem; }
+  .tally { text-align: right; flex-shrink: 0; display: flex; align-items: center; gap: 0.9rem; }
+  .tally-count { text-align: right; }
+  .tally .big { font-family: var(--face-display); font-size: 1.9rem; line-height: 1; color: #ffffff; font-weight: 700; }
+  .tally .cap { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--sky); display: block; margin-top: 0.2rem; }
+
+  /* ---------- layout ---------- */
+  .layout { max-width: 1180px; margin: 0 auto; padding: 1.6rem 1.5rem 4rem; display: flex; flex-direction: column; gap: 1.6rem; }
+
+  /* ---------- stat strip ---------- */
+  .stat-strip {
+    background: var(--paper-raised);
+    border: 1.5px solid var(--line-strong);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    padding: 1.1rem 1.4rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.6rem;
+  }
+  .stat { display: flex; flex-direction: column; gap: 0.15rem; }
+  .stat .n { font-family: var(--face-display); font-variant-numeric: tabular-nums; font-size: 1.5rem; font-weight: 700; color: var(--ink); }
+  .stat .l { font-size: 0.66rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-faint); }
+
+  /* ---------- section card ---------- */
+  .card { background: var(--paper-raised); border: 1.5px solid var(--line-strong); border-radius: var(--radius-lg); padding: 1.6rem 1.8rem 1.8rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 1.1rem; }
+  .card-head { display: flex; flex-direction: column; gap: 0.35rem; }
+  .card-head h2 { font-family: var(--face-display); font-size: 1.2rem; font-weight: 700; margin: 0; color: var(--ink); text-wrap: balance; }
+  .card-head p { margin: 0; color: var(--ink-soft); font-size: 0.87rem; max-width: 74ch; }
+  .card-head p em { color: var(--ink); font-style: normal; font-weight: 600; }
+
+  /* ---------- controls ---------- */
+  .controls { display: flex; flex-wrap: wrap; gap: 0.7rem 1.3rem; align-items: flex-end; }
+  .control-group { display: flex; flex-direction: column; gap: 0.4rem; }
+  .control-group > label {
+    font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint);
+  }
+  .chipset { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .chip {
+    font-family: var(--face-body);
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    background: linear-gradient(180deg, var(--paper) 0%, var(--paper-card) 30%);
+    border: 1.5px solid var(--line-strong);
+    border-radius: 999px;
+    padding: 0.42rem 0.85rem;
+    cursor: pointer;
+    box-shadow: var(--input-shadow);
+    appearance: none;
+    margin: 0;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--accent-ink); }
+  .chip.active { color: #fff; background: linear-gradient(180deg, var(--accent) 0%, var(--accent-ink) 100%); border-color: var(--accent-ink); box-shadow: var(--btn-shadow); }
+  .chip:focus-visible, td.cell:focus-visible, .rank-row:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
+  select {
+    font-family: var(--face-body);
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--ink);
+    background: linear-gradient(180deg, var(--paper) 0%, var(--paper-card) 30%);
+    border: 1.5px solid var(--line-strong);
+    border-radius: var(--radius);
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+    box-shadow: var(--input-shadow);
+  }
+  .checkrow { display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; background: linear-gradient(180deg, var(--paper) 0%, var(--paper-card) 30%); border: 1.5px solid var(--line-strong); border-radius: var(--radius); padding: 0.6rem 0.7rem; box-shadow: var(--input-shadow); }
+  .checkitem { display: flex; align-items: center; gap: 0.4rem; font-size: 0.82rem; color: var(--ink); cursor: pointer; }
+  .checkitem input { accent-color: var(--accent); cursor: pointer; }
+  .checkitem.disabled { opacity: 0.4; cursor: default; }
+
+  /* ---- trends chart ---- */
+  .chart-scroll { overflow-x: auto; }
+  .bars { display: flex; align-items: flex-end; gap: 1.7rem; height: 250px; padding: 0 0.2rem; min-width: 460px; }
+  .bar-col { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; flex: 1; min-width: 60px; }
+  .bar-stack { width: 100%; max-width: 60px; height: 210px; display: flex; flex-direction: column-reverse; border-radius: 4px 4px 0 0; overflow: hidden; background: var(--paper); border: 1px solid var(--line); border-bottom: none; }
+  .bar-seg { width: 100%; position: relative; }
+  .bar-seg + .bar-seg { border-top: 2px solid var(--paper-raised); }
+  .bar-seg-label {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    line-height: 1.15; font-weight: 700; font-variant-numeric: tabular-nums;
+    pointer-events: none; text-align: center; overflow: hidden;
+  }
+  .bar-col .x-label { font-size: 0.78rem; font-weight: 700; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+  .bar-col .x-total { font-size: 0.68rem; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; padding-top: 0.6rem; border-top: 1px solid var(--line); }
+  .legend-item { display: flex; align-items: center; gap: 0.4rem; font-size: 0.74rem; font-weight: 600; color: var(--ink-soft); }
+  .legend-swatch { width: 10px; height: 10px; border-radius: 2.5px; flex: none; }
+
+  /* ---- top trends panel ---- */
+  .trend-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 720px) { .trend-grid { grid-template-columns: 1fr; } }
+  .trend-card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.55rem; }
+  .trend-card h3 { font-family: var(--face-display); font-size: 0.95rem; font-weight: 700; margin: 0; color: var(--ink); text-wrap: balance; }
+  .trend-card p { margin: 0; font-size: 0.79rem; color: var(--ink-soft); }
+  .trend-stat { font-family: var(--face-display); font-size: 1.5rem; font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1; }
+  .trend-stat .arrow { color: var(--ink-faint); font-weight: 400; font-size: 1.1rem; margin: 0 0.15rem; }
+
+  .spark { display: block; }
+  .spark-legend { display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; }
+  .spark-legend-item { display: flex; align-items: center; gap: 0.35rem; font-size: 0.7rem; font-weight: 600; color: var(--ink-soft); }
+  .spark-legend-item .sw { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+
+  .tbar-row { display: flex; align-items: center; gap: 0.5rem; }
+  .tbar-label { width: 8.5rem; flex: none; font-size: 0.74rem; color: var(--ink-soft); }
+  .tbar-track { flex: 1; height: 14px; background: var(--paper-raised); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
+  .tbar-fill { height: 100%; border-radius: 3px; }
+  .tbar-val { width: 2.6rem; flex: none; font-size: 0.72rem; font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; color: var(--ink); }
+  .tbar-baseline { position: relative; height: 1px; background: var(--line-strong); margin: 0.1rem 0 0.3rem 9rem; }
+  .tbar-baseline span { position: absolute; top: 0.25rem; right: 0; font-size: 0.64rem; color: var(--ink-faint); }
+
+  .trend-card.caveat { background: #fbe6c8; border-color: #e0b262; }
+  .trend-card.caveat h3 { color: #6b4308; }
+  .trend-card.caveat p { color: #6b4308; }
+  :root[data-theme="dark"] .trend-card.caveat { background: #3a2c14; border-color: #6b4308; }
+  :root[data-theme="dark"] .trend-card.caveat h3 { color: #f0c584; }
+  :root[data-theme="dark"] .trend-card.caveat p { color: #f0c584; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .trend-card.caveat { background: #3a2c14; border-color: #6b4308; }
+    :root:not([data-theme="light"]) .trend-card.caveat h3 { color: #f0c584; }
+    :root:not([data-theme="light"]) .trend-card.caveat p { color: #f0c584; }
+  }
+
+  /* ---- tooltip ---- */
+  .tooltip {
+    position: fixed; pointer-events: none;
+    background: var(--navy-deep); color: #eef3f9;
+    font-size: 0.76rem; line-height: 1.45;
+    padding: 0.5rem 0.65rem; border-radius: var(--radius);
+    max-width: 260px; z-index: 50; opacity: 0; transition: opacity .08s;
+    box-shadow: 0 10px 28px rgba(0,0,0,0.35);
+  }
+  .tooltip.show { opacity: 1; }
+  .tooltip b { font-weight: 700; }
+
+  /* ---- association layout ---- */
+  .assoc-layout { display: grid; grid-template-columns: 1.5fr 1fr; gap: 1.6rem; align-items: start; }
+  @media (max-width: 880px) { .assoc-layout { grid-template-columns: 1fr; } }
+
+  .heatmap-scroll { overflow-x: auto; }
+  table.heatmap { border-collapse: collapse; font-size: 0.76rem; }
+  table.heatmap th, table.heatmap td { padding: 0; text-align: left; }
+  table.heatmap th.colhead {
+    font-weight: 700; color: var(--ink-faint); font-size: 0.68rem;
+    padding: 0 0.4rem 0.5rem; writing-mode: vertical-rl; transform: rotate(180deg);
+    max-height: 120px; vertical-align: bottom; white-space: nowrap;
+  }
+  table.heatmap th.rowhead {
+    font-weight: 700; color: var(--ink-soft); font-size: 0.76rem;
+    padding: 0 0.65rem 0 0; white-space: nowrap; text-align: right;
+  }
+  table.heatmap td.cell {
+    width: 32px; height: 28px; text-align: center; vertical-align: middle;
+    font-variant-numeric: tabular-nums; font-weight: 700; font-size: 0.68rem; cursor: default;
+    border: 2px solid var(--paper-raised);
+    border-radius: 3px;
+    color: var(--ink);
+  }
+  table.heatmap td.cell.zero { color: var(--ink-faint); }
+
+  .rank-list { display: flex; flex-direction: column; gap: 0.1rem; }
+  .rank-row { display: flex; align-items: baseline; gap: 0.5rem; padding: 0.55rem 0.3rem; border-bottom: 1px solid var(--line); font-size: 0.8rem; cursor: pointer; border-radius: var(--radius); }
+  .rank-row:hover { background: var(--accent-soft); }
+  .rank-row .lift-badge { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 0.76rem; color: var(--accent-ink); flex: none; min-width: 2.4rem; }
+  .rank-row .txt { color: var(--ink-soft); }
+  .rank-row .txt b { color: var(--ink); font-weight: 700; }
+  .rank-row .n { color: var(--ink-faint); font-size: 0.7rem; flex: none; }
+
+  /* ---- examples drawer ---- */
+  .examples { display: flex; flex-direction: column; gap: 0.5rem; }
+  .examples .hint { color: var(--ink-faint); font-size: 0.8rem; }
+  .example-item { padding: 0.6rem 0.75rem; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); font-size: 0.8rem; }
+  .example-item .et { font-weight: 700; }
+  .example-item .et a { text-decoration: none; background-image: linear-gradient(var(--accent), var(--accent)); background-size: 100% 1px; background-repeat: no-repeat; background-position: 0 100%; }
+  .example-item .et a:hover { color: var(--accent-ink); }
+  .example-item .em { color: var(--ink-faint); font-size: 0.72rem; margin-top: 0.15rem; }
+
+  /* ---- predictor lab ---- */
+  .lab-grid { display: grid; grid-template-columns: 300px 1fr; gap: 1.6rem; }
+  @media (max-width: 880px) { .lab-grid { grid-template-columns: 1fr; } }
+  .lab-panel { display: flex; flex-direction: column; gap: 1.1rem; }
+  .whatif-row { display: flex; flex-direction: column; gap: 0.3rem; }
+  .whatif-row label { font-size: 0.76rem; color: var(--ink-soft); font-weight: 600; }
+  .diagnostics { font-size: 0.74rem; color: var(--ink-faint); background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 0.65rem 0.8rem; line-height: 1.6; }
+  .predbars { display: flex; flex-direction: column; gap: 0.6rem; }
+  .predbar-row { display: flex; align-items: center; gap: 0.6rem; }
+  .predbar-label { width: 12.5rem; flex: none; font-size: 0.8rem; text-align: right; color: var(--ink-soft); }
+  .predbar-track { flex: 1; height: 16px; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
+  .predbar-fill { height: 100%; border-radius: 3px; }
+  .predbar-val { width: 2.8rem; flex: none; font-size: 0.76rem; font-weight: 700; font-variant-numeric: tabular-nums; color: var(--ink); }
+
+  .feat-list { display: flex; flex-direction: column; gap: 0.1rem; margin-top: 0.2rem; }
+  .feat-row { display: flex; justify-content: space-between; gap: 0.5rem; padding: 0.45rem 0.3rem; border-bottom: 1px solid var(--line); font-size: 0.76rem; }
+  .feat-row .fn { color: var(--ink-soft); }
+  .feat-row .fn b { color: var(--ink); font-weight: 700; }
+
+  footer.note { max-width: 1180px; margin: 0 auto; padding: 0 1.5rem 4rem; color: var(--ink-faint); font-size: 0.82rem; }
+  footer.note h3 {
+    font-family: var(--face-body); font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--ink-soft); border-top: 1px solid var(--line); padding-top: 1.5rem; margin-bottom: 0.6rem;
+  }
+  footer.note ul { margin: 0; padding-left: 1.1rem; }
+  footer.note li { margin-bottom: 0.3rem; }
+  footer.note a { color: var(--accent); }
+
+  @media (max-width: 720px) {
+    .stat-strip { grid-template-columns: repeat(3, 1fr); }
+    .assoc-layout, .lab-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-text">
+      <p class="catalog-mark">Field survey · aggregated &amp; modeled</p>
+      <h1 class="title">What predicts what, in 258 case studies</h1>
+      <p class="lede">The companion view to the case study catalog: every logged case study is tagged
+        by discipline, tool, activity theme, year, and region — this page cross-tabulates those
+        tags, tracks them over time, and fits a small logistic-regression model so you can ask
+        "given X, what's likely?" and get a real answer back.</p>
+    </div>
+    <div class="tally">
+      <div class="tally-count">
+        <span class="big" id="tallyTotal">—</span>
+        <span class="cap">Case studies</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+  <a class="trends-back-link" href="/">&larr; Back to the catalog</a>
+
+
+  <div class="stat-strip" id="kpis"></div>
+
+  <div class="card">
+    <div class="card-head">
+      <h2>Trends by year</h2>
+      <p>How the mix of tags has shifted across 2023–2026. Bars are stacked counts; switch to share
+        to normalize away the catalog's overall growth. <em>Unspecified</em> groups entries whose
+        source page didn't state a year.</p>
+    </div>
+    <div class="controls">
+      <div class="control-group">
+        <label>Break down by</label>
+        <div class="chipset" id="trend-dim-chips"></div>
+      </div>
+      <div class="control-group">
+        <label>Metric</label>
+        <div class="chipset" id="trend-metric-chips"></div>
+      </div>
+    </div>
+    <div class="chart-scroll">
+      <div class="bars" id="trend-bars"></div>
+    </div>
+    <div class="legend" id="trend-legend"></div>
+  </div>
+
+  <div class="card">
+    <div class="card-head">
+      <h2>Top trends</h2>
+      <p>A few headline findings, pulled automatically from the data above.</p>
+    </div>
+    <div class="trend-grid" id="top-trends-panel"></div>
+  </div>
+
+  <div class="card">
+    <div class="card-head">
+      <h2>Association explorer</h2>
+      <p>Pick two tag dimensions to cross-tabulate. Each heatmap row is normalized to 100% — darker
+        cells mean a larger share of that row's case studies carry that column's tag. The ranked
+        list surfaces the strongest pairings across <em>all</em> dimensions, not just the two
+        selected, weighted by how much they beat the catalog-wide baseline (lift), with a minimum
+        of 5 case studies behind each claim.</p>
+    </div>
+    <div class="controls">
+      <div class="control-group">
+        <label>Rows</label>
+        <select id="assoc-a"></select>
+      </div>
+      <div class="control-group">
+        <label>Columns</label>
+        <select id="assoc-b"></select>
+      </div>
+    </div>
+    <div class="assoc-layout">
+      <div class="heatmap-scroll">
+        <table class="heatmap" id="heatmap"></table>
+      </div>
+      <div>
+        <div class="rank-list" id="rank-list"></div>
+      </div>
+    </div>
+    <div class="examples" id="examples">
+      <div class="hint">Hover a cell, or click a ranked pairing, to see matching case studies here.</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-head">
+      <h2>Predictor lab</h2>
+      <p>A multinomial logistic regression, trained in your browser on the 258 catalogued entries.
+        Choose what to predict and which tags to predict it from, then set a scenario below to see
+        the model's probability distribution. With this little data the model is <em>suggestive,
+        not validated</em> — read it as a second, model-based way of asking "what predicts what,"
+        alongside the lift ranking above, not as a fitted result you'd publish.</p>
+    </div>
+    <div class="lab-grid">
+      <div class="lab-panel">
+        <div class="control-group">
+          <label>Predict</label>
+          <div class="chipset" id="target-chips"></div>
+        </div>
+        <div class="control-group">
+          <label>Using</label>
+          <div class="checkrow" id="predictor-checks"></div>
+        </div>
+        <div class="control-group" id="whatif-container">
+          <label>Scenario</label>
+        </div>
+        <div class="diagnostics" id="diagnostics"></div>
+      </div>
+      <div>
+        <div class="predbars" id="predbars"></div>
+        <div class="control-group" style="margin-top:1.3rem;">
+          <label>Strongest individual predictors in this model</label>
+          <div class="feat-list" id="feat-list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="note">
+  <h3>Notes on this view</h3>
+  <ul>
+    <li>Data: <code>data/community.json</code> in the case-study-catalog repo, 258 approved entries
+      as of the date below. Discipline and tool are multi-select tags, so row/column percentages
+      can sum to more than 100%.</li>
+    <li>Categories beyond the top 7 per dimension are folded into "+N more" to keep charts legible
+      — click through to the association explorer's example drawer to see what's inside a folded
+      group.</li>
+    <li>The predictor lab's holdout accuracy is reported alongside chance level for a reason: with
+      258 rows and multi-label tags, treat every model output here as a rough signal, not a
+      validated result.</li>
+  </ul>
+  <p id="provenance"></p>
+</footer>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+const RAW = [{"t":"Mapping literature with ResearchRabbit, then applying the CRAAP test","u":"https://wordpress.aber.ac.uk/e-learning/2025/06/12/generative-ai-in-learning-and-teaching-case-study-series/","inst":"School of Education","repo":"aber","reg":"UK","yr":2025,"th":"Research Methods","disc":["Education"],"tool":["ResearchRabbit"]},{"t":"Building on (or ignoring) a ChatGPT essay answer","u":"https://wordpress.aber.ac.uk/e-learning/2025/06/19/generative-ai-in-learning-and-teaching-case-study-series-2/","inst":"Dept of Law and Criminology","repo":"aber","reg":"UK","yr":2025,"th":"Assessment & Feedback","disc":["Law"],"tool":["ChatGPT"]},{"t":"Classroom evaluation of a ChatGPT summary, then redesigned exam questions","u":"https://wordpress.aber.ac.uk/e-learning/2025/07/11/generative-ai-in-learning-and-teaching-case-study-series-3/","inst":"Dept of Geography and Earth Sciences","repo":"aber","reg":"UK","yr":2025,"th":"Discussion & Critical Thinking","disc":["Physical Sciences"],"tool":["ChatGPT"]},{"t":"Using GAI as a research tool in group marketing-strategy assessments, then reflecting on its role","u":"https://www.advance-he.ac.uk/knowledge-hub/enhancing-assessment-and-feedback-case-study-compendium-2025","inst":"University of East Anglia, Norwich Business School","repo":"advancehe","reg":"UK","yr":2025,"th":"Discipline Teaching","disc":["Business & Management"],"tool":["ChatGPT","Copilot","Gemini"]},{"t":"The '4Rs' method: rewriting exam questions until ChatGPT can no longer answer them","u":"https://www.advance-he.ac.uk/knowledge-hub/enhancing-assessment-and-feedback-case-study-compendium-2025","inst":"King's College London, King's Foundation","repo":"advancehe","reg":"UK","yr":2025,"th":"Assessment & Feedback","disc":["Data Science & Analytics"],"tool":["ChatGPT"]},{"t":"Generate-summarise-reflect: a staff CPD exercise using an AI-written cannabis-legalisation essay","u":"https://www.advance-he.ac.uk/knowledge-hub/enhancing-assessment-and-feedback-case-study-compendium-2025","inst":"University of Westminster","repo":"advancehe","reg":"UK","yr":2025,"th":"Discussion & Critical Thinking","disc":["Institutional / Cross-Disciplinary"],"tool":["Unspecified"]},{"t":"A two-part AI-literacy assessment: an AI-output portfolio, then a live 'Professional Discussion'","u":"https://s3.eu-west-2.amazonaws.com/assets.creode.advancehe-document-manager/documents/advance-he/A%26F_compendium_2026_AI_final_1782469133.pdf","inst":"University of South Wales","repo":"advancehe","reg":"UK","yr":2026,"th":"Assessment & Feedback","disc":["Business & Management"],"tool":["Unspecified"]},{"t":"'Liam Chat': a custom AI generating personalised, deliberately flawed SQL scripts for each student","u":"https://s3.eu-west-2.amazonaws.com/assets.creode.advancehe-document-manager/documents/advance-he/A%26F_compendium_2026_AI_final_1782469133.pdf","inst":"Southern Cross University & University of the Sunshine Coast","repo":"advancehe","reg":"Australia","yr":2026,"th":"Assessment & Feedback","disc":["Computer Science"],"tool":["ChatGPT","Custom GPT"]},{"t":"Critiquing a deliberately flawed Copilot essay, under exam conditions","u":"https://s3.eu-west-2.amazonaws.com/assets.creode.advancehe-document-manager/documents/advance-he/A%26F_compendium_2026_AI_final_1782469133.pdf","inst":"University of Glasgow","repo":"advancehe","reg":"UK","yr":2026,"th":"Discussion & Critical Thinking","disc":["Life Sciences"],"tool":["Copilot"]},{"t":"Splitting a literature review into essay + annotated bibliography + reflective table to make research reasoning visible","u":"https://s3.eu-west-2.amazonaws.com/assets.creode.advancehe-document-manager/documents/advance-he/A%26F_compendium_2026_AI_final_1782469133.pdf","inst":"University of Glasgow","repo":"advancehe","reg":"UK","yr":2026,"th":"Assessment & Feedback","disc":["Life Sciences"],"tool":["Unspecified"]},{"t":"Enhancing Design Thinking in Education","u":"https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/1-enhancing-design-thinking-in-education","inst":"ANTF Gen AI Innovation Project","repo":"antf","reg":"UK","yr":"Unspecified","th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["Unspecified"]},{"t":"The use of GenAI in teaching arts management","u":"https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/2-the-use-of-genai-in-teaching-arts-management","inst":"ANTF Gen AI Innovation Project","repo":"antf","reg":"UK","yr":"Unspecified","th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["Unspecified"]},{"t":"Student-Staff Co-Creation of Politics of Artificial Intelligence","u":"https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/4-student-staff-co-creation-of-politics-of-artificial-intelligence","inst":"ANTF Gen AI Innovation Project","repo":"antf","reg":"UK","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["Unspecified"]},{"t":"Openly using AI in a French Hotel Management School","u":"https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/5-openly-using-ai-in-a-french-hotel-management-school-learning-about","inst":"ANTF Gen AI Innovation Project","repo":"antf","reg":"France","yr":"Unspecified","th":"Discipline Teaching","disc":["Business & Management"],"tool":["Unspecified"]},{"t":"AI Client Simulation for Counselling Skills Development","u":"https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/6-developing-counselling-skills-through-ai-client-simulation","inst":"Bangor University, School of Psychology and Sport Science","repo":"antf","reg":"UK","yr":"Unspecified","th":"Custom GPTs & Chatbots","disc":["Health & Medicine"],"tool":["ChatGPT"]},{"t":"Use of GenAI in healthcare education to enhance representation","u":"https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/8-use-of-genai-in-healthcare-education-to-enhance-representation","inst":"ANTF Gen AI Innovation Project","repo":"antf","reg":"UK","yr":"Unspecified","th":"Accessibility & Wellbeing","disc":["Health & Medicine"],"tool":["Image Generation"]},{"t":"Above board: explicit use of ChatGPT and other online tools","u":"https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/9-above-board-results-of-the-explicit-use-of-chatgpt-and-other-online","inst":"ANTF Gen AI Innovation Project","repo":"antf","reg":"UK","yr":"Unspecified","th":"Institutional Policy","disc":["Institutional / Cross-Disciplinary"],"tool":["ChatGPT"]},{"t":"Integrating ChatGPT in Authentic Peer Marking Assessment","u":"https://sites.google.com/brookes.ac.uk/genaiheteaching/case-studies/10-integrating-chatgpt-in-authentic-peer-marking-assessment","inst":"University of Manchester, Chemical Engineering","repo":"antf","reg":"UK","yr":"Unspecified","th":"Assessment & Feedback","disc":["Engineering"],"tool":["ChatGPT"]},{"t":"Turning written feedback into an AI-generated poem","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"School of Education, University of Leeds","repo":"creativehe","reg":"UK","yr":2023,"th":"Assessment & Feedback","disc":["Education"],"tool":["ChatGPT"]},{"t":"Comparing ChatGPT-3's moral and critical reasoning across two contexts","u":"https://martinezarboleda.wordpress.com/2023/02/03/critical-and-moral-reasoning-in-chatgpt-3/","inst":"School of Languages, Cultures and Societies, University of Leeds","repo":"creativehe","reg":"UK","yr":2023,"th":"Discussion & Critical Thinking","disc":["Languages & Linguistics"],"tool":["ChatGPT"]},{"t":"A working AI persona simulator for research-interview practice","u":"https://participant-simulator.onrender.com/","inst":"Werklund School of Education, University of Calgary","repo":"creativehe","reg":"Canada","yr":2023,"th":"Research Methods","disc":["Education"],"tool":["Custom GPT"]},{"t":"A working GPT-3 rubric generator for educators","u":"https://streamlit-ai-rubric-generator.onrender.com/","inst":"Werklund School of Education, University of Calgary","repo":"creativehe","reg":"Canada","yr":2023,"th":"Assessment & Feedback","disc":["Education"],"tool":["Custom GPT"]},{"t":"Drafting most of a module's activities with ChatGPT","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"Sukhothai Thammathirat Open University","repo":"creativehe","reg":"Thailand","yr":2023,"th":"Discipline Teaching","disc":["Languages & Linguistics"],"tool":["ChatGPT"]},{"t":"Generating phonetic-script practice questions with ChatGPT","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"Sukhothai Thammathirat Open University","repo":"creativehe","reg":"Thailand","yr":2023,"th":"Discipline Teaching","disc":["Languages & Linguistics"],"tool":["ChatGPT"]},{"t":"Using ChatGPT as a translation buddy for an open educational game","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"School of Education, University of Leeds","repo":"creativehe","reg":"UK","yr":2023,"th":"Discipline Teaching","disc":["Languages & Linguistics"],"tool":["ChatGPT"]},{"t":"Self-assessment against ChatGPT's own exam answers","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"University of Leeds","repo":"creativehe","reg":"UK","yr":2023,"th":"Assessment & Feedback","disc":["Business & Management"],"tool":["ChatGPT"]},{"t":"Writing with ChatGPT and submitting the edits as evidence of critical thinking","u":"https://www.education.unsw.edu.au/news-events/news/surviving-start-2023-generative-ai","inst":"UNSW Sydney","repo":"creativehe","reg":"Australia","yr":2023,"th":"Writing & Literacy","disc":["Business & Management"],"tool":["ChatGPT"]},{"t":"Testing ChatGPT for extracting UML conceptual classes","u":"https://doi.org/10.14201/eks.31279","inst":"University of Salamanca","repo":"creativehe","reg":"Spain","yr":2023,"th":"Discipline Teaching","disc":["Computer Science"],"tool":["ChatGPT"]},{"t":"A fully AI-generated podcast, script to audio","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"University of Portsmouth","repo":"creativehe","reg":"UK","yr":2023,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["ChatGPT","DALL-E","Voice/Audio AI"]},{"t":"AI-generated absurd-premise texts to teach genre conventions","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"Language Centre, University of the Arts London","repo":"creativehe","reg":"UK","yr":2023,"th":"Writing & Literacy","disc":["Languages & Linguistics"],"tool":["ChatGPT"]},{"t":"A Foundation Year exercise comparing ChatGPT output to real academic profiles","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"University of Surrey","repo":"creativehe","reg":"UK","yr":2023,"th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["ChatGPT"]},{"t":"Ongoing classroom experiments applying ChatGPT to sentence-level style","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"Appalachian State University","repo":"creativehe","reg":"US","yr":2023,"th":"Writing & Literacy","disc":["Arts & Humanities"],"tool":["ChatGPT"]},{"t":"Testing ChatGPT's consistency on the same essay question, reworded","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"Canterbury Christ Church University","repo":"creativehe","reg":"UK","yr":2023,"th":"Discussion & Critical Thinking","disc":["Education"],"tool":["ChatGPT"]},{"t":"Rehearsing real fieldwork interview questions on a ChatGPT-roleplayed flood warden","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"University of Chester","repo":"creativehe","reg":"UK","yr":2023,"th":"Research Methods","disc":["Physical Sciences"],"tool":["ChatGPT"]},{"t":"A weekly prompt-and-response query log with generative AI","u":"http://www.byanyothernerd.com","inst":"College Unbound","repo":"creativehe","reg":"US","yr":2023,"th":"Discussion & Critical Thinking","disc":["Education"],"tool":["ChatGPT"]},{"t":"A course where students use AI to draft institutional AI-usage policy","u":"http://www.byanyothernerd.com","inst":"College Unbound","repo":"creativehe","reg":"US","yr":2023,"th":"Institutional Policy","disc":["Institutional / Cross-Disciplinary"],"tool":["ChatGPT"]},{"t":"Students blog on ChatGPT explanations of philosophical concepts","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"University of Cape Town","repo":"creativehe","reg":"South Africa","yr":2023,"th":"Discussion & Critical Thinking","disc":["Arts & Humanities"],"tool":["ChatGPT"]},{"t":"DALL-E emotion cards for a Dixit-style peer feedback game","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"University of Macedonia, Greece","repo":"creativehe","reg":"Greece","yr":2023,"th":"Discipline Teaching","disc":["Education"],"tool":["DALL-E"]},{"t":"Marking AI-generated courseworks against real assessment criteria","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"Greater Manchester Business School, University of Bolton","repo":"creativehe","reg":"UK","yr":2023,"th":"Discussion & Critical Thinking","disc":["Business & Management"],"tool":["ChatGPT","Copilot"]},{"t":"A song written and translated by ChatGPT, tested against a real dialect","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"Concordia University of Edmonton","repo":"creativehe","reg":"Canada","yr":2023,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["ChatGPT"]},{"t":"AI-generated art as a mediator for peer feedback","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"Politecnico di Milano","repo":"creativehe","reg":"Italy","yr":2023,"th":"Assessment & Feedback","disc":["Institutional / Cross-Disciplinary"],"tool":["ChatGPT","DALL-E"]},{"t":"A research assignment using ChatGPT and elicit.org alongside academic sources","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"The Open University of Israel","repo":"creativehe","reg":"Israel","yr":2023,"th":"Research Methods","disc":["Data Science & Analytics"],"tool":["ChatGPT"]},{"t":"Recreando el pasado con IA: generating images of daily life in the Porfiriato","u":"https://padlet.com/tania_nieto/uso-de-la-ia-porfiriato-zkc9gvg15sy4rpqq","inst":"Facultad de Filosofía y Letras, UNAM, Mexico","repo":"creativehe","reg":"Mexico","yr":2023,"th":"Discipline Teaching","disc":["Education"],"tool":["DALL-E","Image Generation"]},{"t":"Generating tailored counselling case studies for practice discussion","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"Bangor University","repo":"creativehe","reg":"UK","yr":2023,"th":"Discipline Teaching","disc":["Social Sciences"],"tool":["ChatGPT"]},{"t":"Redesigning a mock job application so each student gets an AI-generated unique role","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"Bangor University","repo":"creativehe","reg":"UK","yr":2023,"th":"Assessment & Feedback","disc":["Social Sciences"],"tool":["ChatGPT"]},{"t":"Peer-marking ChatGPT's own generated answers before marking each other","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"The Open University","repo":"creativehe","reg":"UK","yr":2023,"th":"Assessment & Feedback","disc":["Education"],"tool":["ChatGPT"]},{"t":"Feeding a student's full memoir essay into DALL-E to generate illustrations","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"California State University, Los Angeles","repo":"creativehe","reg":"US","yr":2023,"th":"Writing & Literacy","disc":["Arts & Humanities"],"tool":["DALL-E"]},{"t":"Demonstrating gender bias in DALL-E's 'Robotics Engineer' images","u":"https://openai.com/dall-e-2/","inst":"Purdue University","repo":"creativehe","reg":"US","yr":2023,"th":"Discussion & Critical Thinking","disc":["Engineering"],"tool":["DALL-E"]},{"t":"Comparing a real ChatGPT critical assessment against a human-written one","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"College of Marin","repo":"creativehe","reg":"US","yr":2023,"th":"Discussion & Critical Thinking","disc":["Arts & Humanities"],"tool":["ChatGPT"]},{"t":"Critiquing a ChatGPT answer against academic literature in Project Management","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"University of Cape Town","repo":"creativehe","reg":"South Africa","yr":2023,"th":"Discussion & Critical Thinking","disc":["Business & Management"],"tool":["ChatGPT"]},{"t":"Testing ChatGPT's ability to generate code for real programming assessments","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"University of Leeds","repo":"creativehe","reg":"UK","yr":2023,"th":"Assessment & Feedback","disc":["Computer Science"],"tool":["ChatGPT"]},{"t":"Piloting ChatGPT for co-creating target-language content","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"UCLan","repo":"creativehe","reg":"UK","yr":2023,"th":"Discipline Teaching","disc":["Languages & Linguistics"],"tool":["ChatGPT"]},{"t":"Playing Google's QuickDraw and Autodraw to surface AI training bias","u":"https://blog.mahabali.me/uncategorized/googles-quickdraw-more-cultural-dominance-in-machine-learning-a-kind-of-ai/","inst":"American University in Cairo","repo":"creativehe","reg":"Egypt","yr":2023,"th":"Discussion & Critical Thinking","disc":["Computer Science"],"tool":["Other"]},{"t":"A proof-of-concept branching nursing scenario authored end-to-end by AI","u":"https://www.cvtc.edu/landing-pages/grants/open-rn","inst":"OpenRN Project, Codaptive Labs LLC","repo":"creativehe","reg":"US","yr":2023,"th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["ChatGPT","Image Generation"]},{"t":"Writing and self-publishing a book using ChatGPT and DALL-E","u":"https://youtu.be/v_iGupRK6so","inst":"University of Leeds / Kreative School","repo":"creativehe","reg":"UK","yr":2023,"th":"Writing & Literacy","disc":["Arts & Humanities"],"tool":["ChatGPT","DALL-E"]},{"t":"Iteratively refining a DALL-E2 image to match a written concept","u":"https://creativehecommunity.wordpress.com/2023/02/02/creating-a-collection-of-101-creative-ideas-to-use-ai-in-education/","inst":"Anglia Ruskin University","repo":"creativehe","reg":"UK","yr":2023,"th":"Writing & Literacy","disc":["Institutional / Cross-Disciplinary"],"tool":["DALL-E"]},{"t":"From exemplars to GAI: activating assessment literacy","u":"https://dcad-resourcebank.webspace.durham.ac.uk/2025/12/10/from-exemplars-to-gai-activating-assessment-literacy/","inst":"Biosciences","repo":"durham","reg":"UK","yr":2025,"th":"Assessment & Feedback","disc":["Life Sciences"],"tool":["Unspecified"]},{"t":"Integrating an AI Chatbot for enhanced student learning in a laboratory module","u":"https://dcad-resourcebank.webspace.durham.ac.uk/2025/05/07/integrating-an-ai-chatbot-for-enhanced-student-learning-in-a-laboratory-module/","inst":"Physics Education and Scholarship Group","repo":"durham","reg":"UK","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Physical Sciences"],"tool":["Custom GPT"]},{"t":"Exploring the impact of Generative AI on Modern Language Learning","u":"https://dcad-resourcebank.webspace.durham.ac.uk/2025/05/07/exploring-the-impact-of-generative-ai-on-modern-language-learning-mfl-in-higher-education/","inst":"Modern Languages","repo":"durham","reg":"UK","yr":2025,"th":"Discipline Teaching","disc":["Languages & Linguistics"],"tool":["Unspecified"]},{"t":"Using ChatGPT 4.0 to create essay plans","u":"https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/","inst":"North West Regional College, Derry (FE)","repo":"jiscstories","reg":"UK","yr":2024,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["ChatGPT"]},{"t":"A 5-minute AI image activity using Microsoft Copilot","u":"https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/","inst":"South Staffordshire College (FE)","repo":"jiscstories","reg":"UK","yr":2024,"th":"Discussion & Critical Thinking","disc":["Institutional / Cross-Disciplinary"],"tool":["Copilot"]},{"t":"Creating multiple-choice quizzes with ChatGPT + Microsoft Forms","u":"https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/","inst":"New College Durham (FE)","repo":"jiscstories","reg":"UK","yr":2024,"th":"Assessment & Feedback","disc":["Engineering"],"tool":["ChatGPT"]},{"t":"Building an emergency cover lesson plan overnight with ChatGPT","u":"https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/","inst":"New College Durham (FE)","repo":"jiscstories","reg":"UK","yr":2024,"th":"Discipline Teaching","disc":["Institutional / Cross-Disciplinary"],"tool":["ChatGPT"]},{"t":"An 'Immunology Wars' mega game built with ChatGPT4 and DALL-E 3","u":"https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/","inst":"Cardiff University","repo":"jiscstories","reg":"UK","yr":2024,"th":"Discipline Teaching","disc":["Life Sciences"],"tool":["ChatGPT","DALL-E"]},{"t":"Educational podcasts using a cloned voice and ChatGPT-written scripts","u":"https://nationalcentreforai.jiscinvolve.org/wp/2024/02/05/innovative-insights-ai-success-stories-from-the-community/","inst":"Newcastle University","repo":"jiscstories","reg":"UK","yr":2024,"th":"Writing & Literacy","disc":["Business & Management"],"tool":["ChatGPT","ElevenLabs"]},{"t":"A scalable approach to creating 130+ Custom GPTs for vocational marking","u":"https://nationalcentreforai.jiscinvolve.org/wp/2025/11/05/ai-in-marking-and-feedback-pilot-good-practice-case-studies-kirklees-college/","inst":"Kirklees College (FE)","repo":"jiscpilot","reg":"UK","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Institutional / Cross-Disciplinary"],"tool":["Custom GPT","ChatGPT"]},{"t":"Feedback Tutor in Your Pocket","u":"https://nationalcentreforai.jiscinvolve.org/wp/2025/11/05/ai-in-marking-and-feedback-pilot-good-practice-case-studies-london-south-bank-university/","inst":"London South Bank University","repo":"jiscpilot","reg":"UK","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Institutional / Cross-Disciplinary"],"tool":["Custom GPT","ChatGPT"]},{"t":"Generating ideas and images in MA Advertising and Design","u":"https://generative-ai.leeds.ac.uk/ai-for-student-education/case-studies/","inst":"Arts, Humanities and Cultures","repo":"leeds","reg":"UK","yr":"Unspecified","th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["Image Generation"]},{"t":"Critical comparisons: students vs ChatGPT","u":"https://generative-ai.leeds.ac.uk/ai-for-student-education/case-studies/","inst":"Business","repo":"leeds","reg":"UK","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Business & Management"],"tool":["ChatGPT"]},{"t":"Critical thinking in public history","u":"https://generative-ai.leeds.ac.uk/ai-for-student-education/case-studies/","inst":"Arts, Humanities and Cultures","repo":"leeds","reg":"UK","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Arts & Humanities"],"tool":["ChatGPT"]},{"t":"Abstracting 500 pages of 20th-century wasp taxonomy into a spreadsheet","u":"https://www.ox.ac.uk/gen-ai/case-studies","inst":"Oxford Martin School","repo":"oxnarr","reg":"UK","yr":2025,"th":"Research Methods","disc":["Life Sciences"],"tool":["Gemini"]},{"t":"ChatGPT as both admin assistant and 'critical friend' reviewer","u":"https://www.ox.ac.uk/gen-ai/case-studies","inst":"Dept of Education","repo":"oxnarr","reg":"UK","yr":2025,"th":"Discussion & Critical Thinking","disc":["Education"],"tool":["ChatGPT"]},{"t":"Socratic revision partner during the Astrophoria Foundation Year","u":"https://www.ox.ac.uk/gen-ai/case-studies","inst":"Astrophoria Foundation Year","repo":"oxnarr","reg":"UK","yr":2025,"th":"Discussion & Critical Thinking","disc":["Physical Sciences"],"tool":["ChatGPT"]},{"t":"Debugging a PyTorch Lightning pipeline and redesigning a GNN fusion strategy","u":"https://www.ox.ac.uk/gen-ai/case-studies","inst":"Oxford-GSK Institute of Molecular and Computational Medicine","repo":"oxnarr","reg":"UK","yr":2025,"th":"Research Methods","disc":["Computer Science"],"tool":["ChatGPT"]},{"t":"Mining aviation and manufacturing literature for surgical QA ideas","u":"https://www.ox.ac.uk/gen-ai/case-studies","inst":"Nuffield Dept of Surgical Sciences","repo":"oxnarr","reg":"UK","yr":2025,"th":"Research Methods","disc":["Health & Medicine"],"tool":["ChatGPT"]},{"t":"Replacing radioactive contrast injections with a GenAI 'digital tracer'","u":"https://www.ox.ac.uk/gen-ai/case-studies","inst":"Nuffield Dept of Surgical Sciences","repo":"oxnarr","reg":"UK","yr":2025,"th":"Research Methods","disc":["Health & Medicine"],"tool":["Other"]},{"t":"Drafting grant sections and turning transcripts into formatted minutes","u":"https://www.ox.ac.uk/gen-ai/case-studies","inst":"Pandemic Sciences Institute","repo":"oxnarr","reg":"UK","yr":2025,"th":"Institutional Policy","disc":["Institutional / Cross-Disciplinary"],"tool":["ChatGPT"]},{"t":"A custom GPT trained on the division's own finance regulations","u":"https://www.ox.ac.uk/gen-ai/case-studies","inst":"Social Sciences Division","repo":"oxnarr","reg":"UK","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Institutional / Cross-Disciplinary"],"tool":["Custom GPT","ChatGPT"]},{"t":"A custom GPT primed with exact server/OS/tooling context","u":"https://www.ox.ac.uk/gen-ai/case-studies","inst":"Dept for Continuing Education","repo":"oxnarr","reg":"UK","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Computer Science"],"tool":["Custom GPT","ChatGPT"]},{"t":"A custom GPT that mines a work diary for underused skills","u":"https://www.ox.ac.uk/gen-ai/case-studies","inst":"Keble College","repo":"oxnarr","reg":"UK","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Institutional / Cross-Disciplinary"],"tool":["Custom GPT","ChatGPT"]},{"t":"AI-assisted Annotations for Histology","u":"https://www.ctl.ox.ac.uk/ai-assisted-annotations-for-histology-practicals","inst":"Medical Sciences Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["Unspecified"]},{"t":"AI-assisted Simulated Patient for Clinical Communication Skills Training","u":"https://www.ctl.ox.ac.uk/simulated-patient-chatbot-for-medical-students-to-practice-communication-and-reasoning","inst":"Medical Sciences Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"AI-driven Feedback Loops for Student Evaluation","u":"https://www.ctl.ox.ac.uk/ai-driven-feedback-loops","inst":"Medical Sciences Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Assessment & Feedback","disc":["Health & Medicine"],"tool":["Unspecified"]},{"t":"AI for Learning: Foundation Year Students Using ChatGPT Effectively","u":"https://www.ctl.ox.ac.uk/ai-for-learning","inst":"MPLS Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Discussion & Critical Thinking","disc":["Physical Sciences"],"tool":["ChatGPT"]},{"t":"AIID (Artificial Intelligence for Interdisciplinary Discussion)","u":"https://www.ctl.ox.ac.uk/interdisciplinary-collaboration-matching","inst":"Social Sciences Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["Unspecified"]},{"t":"Brainard the Fox (Interactive Bibliography Tool)","u":"https://www.ctl.ox.ac.uk/brainard-the-fox","inst":"Humanities Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Research Methods","disc":["Arts & Humanities"],"tool":["Custom GPT","ChatGPT"]},{"t":"Compsci Course Guide Chatbot","u":"https://www.ctl.ox.ac.uk/cs-course-guide-chatbot","inst":"MPLS Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Computer Science"],"tool":["Custom GPT","ChatGPT"]},{"t":"pAIpercast: Paper to Podcast Project","u":"https://www.ctl.ox.ac.uk/paper-to-podcast-project","inst":"Medical Sciences Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Writing & Literacy","disc":["Health & Medicine"],"tool":["Voice/Audio AI"]},{"t":"Support for Neurodiverse Humanities Students","u":"https://www.ctl.ox.ac.uk/support-for-neurodiverse-humanities-students","inst":"Humanities Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Accessibility & Wellbeing","disc":["Arts & Humanities"],"tool":["Unspecified"]},{"t":"Teaching Research Reproducibility Through AI-Human Collaboration","u":"https://www.ctl.ox.ac.uk/reproducibility-of-research","inst":"Medical Sciences Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Research Methods","disc":["Health & Medicine"],"tool":["Unspecified"]},{"t":"Voice Chatbot for Language Learning","u":"https://www.ctl.ox.ac.uk/voice-chatbot-for-language-learning","inst":"OUDCE & Humanities Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Languages & Linguistics"],"tool":["Voice/Audio AI"]},{"t":"Writing and Translation Feedback Tool","u":"https://www.ctl.ox.ac.uk/writing-and-translation-feedback-tool","inst":"Humanities Division","repo":"oxfund","reg":"UK","yr":2025,"th":"Writing & Literacy","disc":["Languages & Linguistics"],"tool":["Unspecified"]},{"t":"Addressing Institutional Generative AI Challenges through a Systems Approach","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-1","inst":"University of Westminster","repo":"qaa","reg":"UK","yr":2026,"th":"Custom GPTs & Chatbots","disc":["Institutional / Cross-Disciplinary"],"tool":["Custom GPT"]},{"t":"Using AI to Support Undergraduate Game Programming","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-4","inst":"Kingston University","repo":"qaa","reg":"UK","yr":2026,"th":"Discipline Teaching","disc":["Computer Science"],"tool":["Unspecified"]},{"t":"Embedding AI Literacy through a School-Wide, Nuanced Approach","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-6","inst":"Robert Gordon University, Aberdeen","repo":"qaa","reg":"UK","yr":2026,"th":"Assessment & Feedback","disc":["Institutional / Cross-Disciplinary"],"tool":["Copilot"]},{"t":"Using Generative AI to Help Productivity and Wellbeing of Professional Services Staff","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-7","inst":"University of Westminster","repo":"qaa","reg":"UK","yr":2026,"th":"Accessibility & Wellbeing","disc":["Institutional / Cross-Disciplinary"],"tool":["Unspecified"]},{"t":"Trialling and Experimentation of AI Technologies to Support L&T&A","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-8","inst":"Kingston University","repo":"qaa","reg":"UK","yr":2026,"th":"Institutional Policy","disc":["Institutional / Cross-Disciplinary"],"tool":["Unspecified"]},{"t":"Implementing AI Turnitin Detection","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-11","inst":"Robert Gordon University","repo":"qaa","reg":"UK","yr":2026,"th":"Assessment & Feedback","disc":["Institutional / Cross-Disciplinary"],"tool":["Unspecified"]},{"t":"Using AI to Support Students' Understanding of Statistical Applications","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-15","inst":"Kingston University","repo":"qaa","reg":"UK","yr":2026,"th":"Research Methods","disc":["Data Science & Analytics"],"tool":["Unspecified"]},{"t":"Fostering Critical Thinking and Creativity in Spatial Design through AI Image Generation","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-16","inst":"University of Brighton","repo":"qaa","reg":"UK","yr":2026,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["Image Generation"]},{"t":"Bringing AI into Creative Courses","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-17","inst":"University of Hertfordshire","repo":"qaa","reg":"UK","yr":2026,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["Unspecified"]},{"t":"Using AI to Build Confidence in Language Teaching","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-18","inst":"University of Hertfordshire","repo":"qaa","reg":"UK","yr":2026,"th":"Discipline Teaching","disc":["Languages & Linguistics"],"tool":["Unspecified"]},{"t":"How AI is Supporting Patient Communication Assessments","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-19","inst":"University of the West of England, Bristol","repo":"qaa","reg":"UK","yr":2026,"th":"Assessment & Feedback","disc":["Health & Medicine"],"tool":["Unspecified"]},{"t":"Using Co-Pilot to Teach Critical Reasoning in Social Sciences","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-20","inst":"University of the West of England, Bristol","repo":"qaa","reg":"UK","yr":2026,"th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["Copilot"]},{"t":"Student 'Pop-Ups': AI@KU Be Critical, Be Transparent","u":"https://www.qaa.ac.uk/docs/qaa/members/case-study-24","inst":"Kingston University","repo":"qaa","reg":"UK","yr":2026,"th":"Discussion & Critical Thinking","disc":["Institutional / Cross-Disciplinary"],"tool":["Image Generation"]},{"t":"Patient Medication Counselling Coach","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/enhancing-pharmacy-education-using-ai-coaches/","inst":"Pharmacy (PHAR5910/PHAR5920)","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"Pharmacy Management Finance Tutor","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/enhancing-pharmacy-education-using-ai-coaches/","inst":"Pharmacy management unit","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"Dr MattTabolism — an AI assistant for biochemistry","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/dr-matttabolism-an-ai-assistant-that-helps-me-help-students-with-biochemistry/","inst":"School of Life and Environmental Sciences (BCMB2001)","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Custom GPTs & Chatbots","disc":["Life Sciences"],"tool":["Custom GPT"]},{"t":"OT intervention-planning chatbot workshop","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/ai-as-an-authentic-and-engaging-teaching-tool-for-occupational-therapy-students/","inst":"Faculty of Medicine and Health","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Custom GPTs & Chatbots","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"Live ChatGPT demo on law and technology questions","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/","inst":"Sydney Law School","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Law"],"tool":["ChatGPT"]},{"t":"Exposing ChatGPT's failures on exam questions","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/","inst":"Faculty of Science","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Physical Sciences"],"tool":["ChatGPT"]},{"t":"Generate, critique, and re-prompt on familiar topics","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/","inst":"Faculty of Engineering","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Engineering"],"tool":["Unspecified"]},{"t":"Trialling ChatGPT in French for research tasks","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/","inst":"Faculty of Arts and Social Sciences","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Languages & Linguistics"],"tool":["ChatGPT"]},{"t":"ChatGPT as pre-class discussion kickstarter in finance units","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/","inst":"Sydney Law School","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Discipline Teaching","disc":["Law"],"tool":["ChatGPT"]},{"t":"Contextualizing quantitative study design with ChatGPT examples","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-academics-are-using-generative-ai-this-semester-in-class/","inst":"Faculty of Medicine and Health","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["ChatGPT"]},{"t":"An AI double for Fundamentals of Chemistry","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/","inst":"Faculty of Science","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Custom GPTs & Chatbots","disc":["Physical Sciences"],"tool":["Custom GPT"]},{"t":"An AI double for group-work facilitation and OSCE roleplay","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/","inst":"Faculty of Medicine and Health","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Custom GPTs & Chatbots","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"An AI double for synthesis-task writing feedback","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/","inst":"University of Sydney","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Assessment & Feedback","disc":["Arts & Humanities"],"tool":["Custom GPT"]},{"t":"An AI double for OT goal-setting supervision","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/","inst":"Faculty of Medicine and Health","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Custom GPTs & Chatbots","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"An AI double as a classroom simulator for emerging academics","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/","inst":"University of Sydney","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Custom GPTs & Chatbots","disc":["Education"],"tool":["Custom GPT"]},{"t":"'Study Buddy' — an AI double for self-regulated learning","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/","inst":"Business","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Custom GPTs & Chatbots","disc":["Business & Management"],"tool":["Custom GPT"]},{"t":"An AI double as a UN Sustainable Development Goals tutor","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/","inst":"University of Sydney","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Discipline Teaching","disc":["Business & Management"],"tool":["Custom GPT"]},{"t":"An AI double for ANZCA pharmacology exam prep","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/","inst":"Faculty of Medicine and Health (Anaesthesiology)","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Assessment & Feedback","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"An AI double for Socratic quantitative genetics tutoring","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/","inst":"Faculty of Science","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Discipline Teaching","disc":["Life Sciences"],"tool":["Custom GPT"]},{"t":"'Molecules on the Menu' administrative helper","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/","inst":"Faculty of Science","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Institutional Policy","disc":["Physical Sciences"],"tool":["Custom GPT"]},{"t":"An AI double for reliability-statistics Socratic tutoring","u":"https://educational-innovation.sydney.edu.au/teaching@sydney/how-sydney-educators-are-building-ai-doubles-of-themselves-to-help-their-students/","inst":"Faculty of Medicine and Health","repo":"sydney","reg":"Australia","yr":"Unspecified","th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"Using Generative AI for Legal Tutorial Assignments","u":"https://teaching-and-learning-collection.sites.uu.nl/knowledge_item/using-generative-ai-for-legal-tutorial-assignments/","inst":"Coordinator: Sjoerd Dirksen","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Discipline Teaching","disc":["Law"],"tool":["Unspecified"]},{"t":"GenAI for Improving Experimental Design in Cognitive Psychology","u":"https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-for-improving-experimental-design-for-cognitive-psychology-assignment/","inst":"Coordinator: Sjoerd Dirksen","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Research Methods","disc":["Social Sciences"],"tool":["Unspecified"]},{"t":"Human-AI Collaboration for Inclusive Science Communication","u":"https://teaching-and-learning-collection.sites.uu.nl/project/human-ai-collaboration-for-inclusive-science-communication/","inst":"Coordinator: Sjoerd Dirksen","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Writing & Literacy","disc":["Life Sciences"],"tool":["Unspecified"]},{"t":"Generative AI and Hybrid Intelligence for Fostering Teacher Noticing","u":"https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-hybrid-intelligence-for-fostering-teacher-noticing/","inst":"Coordinator: Sjoerd Dirksen","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Discipline Teaching","disc":["Education"],"tool":["Unspecified"]},{"t":"Generative AI and the Usefulness of ChatGPT in a Mathematics Learning Activity","u":"https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-the-usefulness-of-chatgpt-within-a-mathematics-learning-activity/","inst":"Coordinator: Sjoerd Dirksen","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Discipline Teaching","disc":["Physical Sciences"],"tool":["ChatGPT"]},{"t":"GenAI and Constructive Alignment in STEM","u":"https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-constructive-alignment-in-stem-hybrid-intelligence-for-designing-learning-activities/","inst":"Coordinator: Sjoerd Dirksen","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Discipline Teaching","disc":["Physical Sciences"],"tool":["Unspecified"]},{"t":"Generative AI and Basic Psychological Needs of BA Students","u":"https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-basic-psychological-needs-of-ba-students/","inst":"Coordinator: Sergey Sosnovsky","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Accessibility & Wellbeing","disc":["Social Sciences"],"tool":["Unspecified"]},{"t":"Student-AI Interactions Pilot Study, Co-Created with First-Year Science Students","u":"https://teaching-and-learning-collection.sites.uu.nl/project/student-ai-interactions-pilot-study-in-co-creation-with-first-year-science-students/","inst":"Coordinator: Sergey Sosnovsky","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Physical Sciences"],"tool":["Unspecified"]},{"t":"GenAI-Generated Exemplars to Improve Student Scientific Writing","u":"https://teaching-and-learning-collection.sites.uu.nl/project/genai-generated-exemplars-to-improve-student-scientific-writing/","inst":"Coordinator: Sergey Sosnovsky","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Writing & Literacy","disc":["Life Sciences"],"tool":["Unspecified"]},{"t":"Effect of 'AI Tasks' on Student AI Literacy in a Fact-Check Assignment","u":"https://teaching-and-learning-collection.sites.uu.nl/knowledge_item/effect-van-ai-taken-op-de-ai-geletterdheid-van-studenten-bij-een-fact-check-opdracht/","inst":"Coordinator: Sergey Sosnovsky","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Institutional / Cross-Disciplinary"],"tool":["Unspecified"]},{"t":"Generative AI and Assessment of AE","u":"https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-assessment-of-ae/","inst":"Coordinator: Laurence Frank","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Assessment & Feedback","disc":["Institutional / Cross-Disciplinary"],"tool":["Unspecified"]},{"t":"GenAI and Writing Assignments in Legal Education","u":"https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-en-schrijfopdrachten-kennis-en-vaardighedenleerdoelen-in-het-juridisch-onderwijs/","inst":"Coordinator: Laurence Frank","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Writing & Literacy","disc":["Law"],"tool":["Unspecified"]},{"t":"Generative AI and Critical Coding","u":"https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-critical-coding/","inst":"Coordinator: Karin van Es","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Computer Science"],"tool":["Unspecified"]},{"t":"Generative AI and Cultural Biases","u":"https://teaching-and-learning-collection.sites.uu.nl/project/generative-ai-and-cultural-biases/","inst":"Coordinator: Karin van Es","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["Unspecified"]},{"t":"Generative AI Being Used for Essay Co-writing","u":"https://teaching-and-learning-collection.sites.uu.nl/knowledge_item/generative-ai-using-genai-for-essay-co-writing/","inst":"Coordinator: Karin van Es","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Writing & Literacy","disc":["Arts & Humanities"],"tool":["Unspecified"]},{"t":"Understand Your LLM With the Use of a Psychology Experiment","u":"https://teaching-and-learning-collection.sites.uu.nl/project/understand-your-large-language-model-llm-with-the-use-of-a-psychology-experiment/","inst":"Coordinator: Karin van Es","repo":"utrecht","reg":"Netherlands","yr":"Unspecified","th":"Research Methods","disc":["Social Sciences"],"tool":["Unspecified"]},{"t":"Chatbot-based feedback + revision and reflection for lab reports","u":"https://openscholarship.wustl.edu/ai_teaching/13","inst":"Engineering Education","repo":"washu","reg":"US","yr":2026,"th":"Assessment & Feedback","disc":["Engineering"],"tool":["Custom GPT","ChatGPT"]},{"t":"Oral History Project (for \"Global Game Industries\")","u":"https://openscholarship.wustl.edu/ai_teaching/11","inst":"Film & Media Studies","repo":"washu","reg":"US","yr":2026,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["Unspecified"]},{"t":"Strengthening Your AI Fluency: Building Community Resilience","u":"https://openscholarship.wustl.edu/ai_teaching/15","inst":"Education","repo":"washu","reg":"US","yr":2026,"th":"Discipline Teaching","disc":["Education"],"tool":["NotebookLM","Gemini"]},{"t":"US Latino Demographics Exploration","u":"https://openscholarship.wustl.edu/ai_teaching/9","inst":"Spanish Linguistics","repo":"washu","reg":"US","yr":2026,"th":"Research Methods","disc":["Languages & Linguistics"],"tool":["Unspecified"]},{"t":"AI for Regression Analysis and More","u":"https://openscholarship.wustl.edu/ai_teaching/10","inst":"Business Analytics","repo":"washu","reg":"US","yr":2026,"th":"Research Methods","disc":["Data Science & Analytics"],"tool":["Copilot","NotebookLM"]},{"t":"Client Communication Strategy Pitch Deck","u":"https://openscholarship.wustl.edu/ai_teaching/12","inst":"Marketing","repo":"washu","reg":"US","yr":2026,"th":"Discipline Teaching","disc":["Business & Management"],"tool":["Unspecified"]},{"t":"Intro to AI Literacies Discussion","u":"https://openscholarship.wustl.edu/ai_teaching/14","inst":"Education","repo":"washu","reg":"US","yr":2025,"th":"Discussion & Critical Thinking","disc":["Education"],"tool":["Unspecified"]},{"t":"Activity: Students find conceptual errors in AI output","u":"https://openscholarship.wustl.edu/ai_teaching/6","inst":"Chemistry / Engineering / Physics","repo":"washu","reg":"US","yr":2024,"th":"Discussion & Critical Thinking","disc":["Physical Sciences"],"tool":["ChatGPT"]},{"t":"Employing AI to enhance in-class role playing scenarios","u":"https://openscholarship.wustl.edu/ai_teaching/2","inst":"Social & Behavioral Sciences","repo":"washu","reg":"US","yr":2024,"th":"Discipline Teaching","disc":["Social Sciences"],"tool":["Unspecified"]},{"t":"Exploring cultural stereotypes via AI-generated images","u":"https://openscholarship.wustl.edu/ai_teaching/1","inst":"Social & Behavioral Sciences","repo":"washu","reg":"US","yr":2024,"th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["Image Generation"]},{"t":"Teaching Evolutionary Principles with AI Image Generators","u":"https://openscholarship.wustl.edu/ai_teaching/3","inst":"Biology","repo":"washu","reg":"US","yr":2024,"th":"Discipline Teaching","disc":["Life Sciences"],"tool":["Image Generation"]},{"t":"Does AI Ask Good Questions? A Discussion Activity","u":"https://openscholarship.wustl.edu/ai_teaching/5","inst":"English / Philosophy","repo":"washu","reg":"US","yr":2024,"th":"Discussion & Critical Thinking","disc":["Arts & Humanities"],"tool":["ChatGPT"]},{"t":"Traduttore, Traditore: A Comparative Translation Activity","u":"https://openscholarship.wustl.edu/ai_teaching/4","inst":"Translation Studies","repo":"washu","reg":"US","yr":2024,"th":"Discipline Teaching","disc":["Languages & Linguistics"],"tool":["ChatGPT"]},{"t":"Incorporating GenAI into Information Literacy: Engineering Standards","u":"https://openscholarship.wustl.edu/ai_teaching/8","inst":"Mechanical Engineering","repo":"washu","reg":"US","yr":2024,"th":"Research Methods","disc":["Engineering"],"tool":["Unspecified"]},{"t":"Using GenAI to teach information literacy in Engineering Technical Writing","u":"https://openscholarship.wustl.edu/ai_teaching/7","inst":"Science & Math Education","repo":"washu","reg":"US","yr":2024,"th":"Research Methods","disc":["Education"],"tool":["Unspecified"]},{"t":"Piloting GPT-based asynchronous learning in a digital marketing module supporting tourism enterprises in LDCs","u":"https://www.mdpi.com/2504-3900/114/1/1","inst":"Ulster Business School; Northern Regional College","repo":"adaptedu2024","reg":"UK","yr":2025,"th":"Discipline Teaching","disc":["Business & Management"],"tool":["ChatGPT"]},{"t":"Cómo Entrenar tu Dragón: an ECTS-accredited GenAI literacy module for new HE lecturers","u":"https://www.mdpi.com/2504-3900/114/1/2","inst":"Universidad de Las Palmas de Gran Canaria","repo":"adaptedu2024","reg":"Spain","yr":2025,"th":"Staff Development","disc":["Institutional / Cross-Disciplinary"],"tool":["Unspecified"]},{"t":"Trialling ChatGPT to co-author a problem-based-learning medical case scenario","u":"https://www.mdpi.com/2504-3900/114/1/5","inst":"School of Medicine, Ulster University","repo":"adaptedu2024","reg":"UK","yr":2025,"th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["ChatGPT"]},{"t":"Using ChatGPT as a simulated interview subject to teach critical thinking in a 'Politics of Sport' module","u":"https://www.mdpi.com/2504-3900/114/1/8","inst":"School of Sport and Exercise Science, Ulster University","repo":"adaptedu2024","reg":"UK","yr":2025,"th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["ChatGPT"]},{"t":"Embedding AI tools into Mechatronics and Engineering Programming modules","u":"https://www.dropbox.com/scl/fi/8wg04y33nii6qfunklt6j/Frontiers-special-topic-From-Avoidance-to-Adoption-accepted.pdf?rlkey=0qr2f4c9mted17dv8jmmh53ni&dl=0","inst":"School of Engineering, Ulster University","repo":"avoidance2026","reg":"UK","yr":2026,"th":"Discipline Teaching","disc":["Engineering"],"tool":["ChatGPT","Copilot"]},{"t":"Comparing AI and student definitions to teach a language acquisition theory","u":"https://www.dropbox.com/scl/fi/8wg04y33nii6qfunklt6j/Frontiers-special-topic-From-Avoidance-to-Adoption-accepted.pdf?rlkey=0qr2f4c9mted17dv8jmmh53ni&dl=0","inst":"School of Communication and Media, Ulster University","repo":"avoidance2026","reg":"UK","yr":2026,"th":"Discussion & Critical Thinking","disc":["Languages & Linguistics"],"tool":["Unspecified"]},{"t":"Comparing AI-generated word embeddings and model outputs against theory","u":"https://www.dropbox.com/scl/fi/8wg04y33nii6qfunklt6j/Frontiers-special-topic-From-Avoidance-to-Adoption-accepted.pdf?rlkey=0qr2f4c9mted17dv8jmmh53ni&dl=0","inst":"School of Computing, Engineering and Intelligent Systems, Ulster University","repo":"avoidance2026","reg":"UK","yr":2026,"th":"Discussion & Critical Thinking","disc":["Computer Science"],"tool":["Other"]},{"t":"Using AI text analysis and ChatGPT alongside close reading of Chaucer's Canterbury Tales","u":"https://www.dropbox.com/scl/fi/8wg04y33nii6qfunklt6j/Frontiers-special-topic-From-Avoidance-to-Adoption-accepted.pdf?rlkey=0qr2f4c9mted17dv8jmmh53ni&dl=0","inst":"School of Arts, English and Languages, Queen's University Belfast","repo":"avoidance2026","reg":"UK","yr":2026,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["ChatGPT","Other"]},{"t":"AI Ventures — entrepreneurship module redesign","u":"https://www.imperial.ac.uk/about/education/resources/ai-education-hub/case-studies/ai-ventures/","inst":"Imperial College Business School","repo":"imperial","reg":"UK","yr":2023,"th":"Discipline Teaching","disc":["Business & Management"],"tool":["ChatGPT"]},{"t":"Embedding AI into Assessment — critique-the-AI-output assignment","u":"https://www.imperial.ac.uk/staff/educational-development/teaching-toolkit/anatomy-of-assessment/case-studies/embedding-ai-into-assessment/","inst":"Imperial College Business School","repo":"imperial","reg":"UK","yr":2023,"th":"Assessment & Feedback","disc":["Business & Management"],"tool":["ChatGPT"]},{"t":"Exploring Generative AI in Essay Writing and Marking","u":"https://www.kcl.ac.uk/research/generative-ai-in-essay-writing-and-marking","inst":"Dept of Political Economy, King's College London","repo":"kcl","reg":"UK","yr":2024,"th":"Assessment & Feedback","disc":["Social Sciences"],"tool":["Unspecified"]},{"t":"AI as tutor and critic: using tech to personalise education","u":"https://www.timeshighereducation.com/campus/ai-tutor-and-critic-using-tech-personalise-education","inst":"Dickson Poon School of Law, King's College London","repo":"kcl","reg":"UK","yr":2024,"th":"Discipline Teaching","disc":["Law"],"tool":["Other"]},{"t":"Is it worth paying for GenAI?","u":"https://www.timeshighereducation.com/campus/it-worth-paying-genai","inst":"Dickson Poon School of Law, King's College London","repo":"kcl","reg":"UK","yr":2024,"th":"Discipline Teaching","disc":["Law"],"tool":["ChatGPT","Gemini","Other"]},{"t":"AI-Augmented Formative Feedback","u":"https://blogs.qub.ac.uk/digitallearning/ai/ai-in-education/teaching-and-learning/case-studies","inst":"School of Psychology, Queen's University Belfast","repo":"qubdl","reg":"UK","yr":2024,"th":"Assessment & Feedback","disc":["Social Sciences"],"tool":["ChatGPT"]},{"t":"AI in Business and Society — blog-writing assignment","u":"https://blogs.qub.ac.uk/digitallearning/ai/ai-in-education/teaching-and-learning/case-studies","inst":"Queen's Business School","repo":"qubdl","reg":"UK","yr":2024,"th":"Discipline Teaching","disc":["Business & Management"],"tool":["Unspecified"]},{"t":"Contemporary Technologies and Accounting (ACC3043)","u":"https://blogs.qub.ac.uk/digitallearning/ai/ai-in-education/teaching-and-learning/case-studies","inst":"Queen's Business School","repo":"qubdl","reg":"UK","yr":2024,"th":"Discipline Teaching","disc":["Business & Management"],"tool":["Unspecified"]},{"t":"A Data Science Course Utilizing GenAI","u":"https://pure.qub.ac.uk/en/publications/a-data-science-course-utilizing-genai/","inst":"School of EEECS, Queen's University Belfast","repo":"qubdl","reg":"UK","yr":2024,"th":"Assessment & Feedback","disc":["Computer Science"],"tool":["ChatGPT"]},{"t":"Unit-specific AI chatbots: Reducing the search burden for students","u":"https://bilt.online/case-study-unit-specific-ai-chatbots-reducing-the-search-burden-for-students/","inst":"Faculty of Arts, Law and Social Sciences, University of Bristol","repo":"bristol","reg":"UK","yr":2026,"th":"Custom GPTs & Chatbots","disc":["Business & Management"],"tool":["Custom GPT"]},{"t":"Teaching with AI in higher education: insights from practice with Blackboard Ultra","u":"https://digitallearning.uwe.ac.uk/teaching-with-ai-in-higher-education-some-of-my-insights-from-practice-with-blackboard-ultra/","inst":"College of Health, Science and Society, UWE Bristol","repo":"uwe","reg":"UK","yr":2025,"th":"Discussion & Critical Thinking","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"'Perfectly Frank' — using performance to demystify AI","u":"https://www.timeshighereducation.com/campus/demystify-ai-your-students-use-performance","inst":"School of Performing and Digital Arts, Royal Holloway","repo":"royalholloway","reg":"UK","yr":2024,"th":"Discussion & Critical Thinking","disc":["Arts & Humanities"],"tool":["ChatGPT","ElevenLabs","Other"]},{"t":"Will AI revolutionise marking?","u":"https://www.timeshighereducation.com/campus/will-ai-revolutionise-marking","inst":"University College Birmingham","repo":"ucbirmingham","reg":"UK","yr":2025,"th":"Assessment & Feedback","disc":["Business & Management"],"tool":["ChatGPT"]},{"t":"The LOV AI Co-Creation Approach: Creating Business Teaching Cases with Deep Research AI","u":"https://microsites.ncl.ac.uk/casestudies/2025/09/01/the-lov-ai-co-creation-approach-creating-business-teaching-cases-with-deep-research-ai/","inst":"Newcastle University Business School","repo":"newcastle","reg":"UK","yr":2025,"th":"Discipline Teaching","disc":["Business & Management"],"tool":["ChatGPT","Gemini","ElevenLabs"]},{"t":"Transparency and Disclosure of the Use of Gen-AI Co-Created Teaching Materials with MBA Students","u":"https://microsites.ncl.ac.uk/casestudies/2026/03/16/transparency-and-disclosure-of-the-use-of-gen-ai-co-created-teaching-materials-with-mba-students/","inst":"Newcastle University Business School (NBS8122)","repo":"newcastle","reg":"UK","yr":2026,"th":"Discipline Teaching","disc":["Business & Management"],"tool":["Gemini","NotebookLM","Other"]},{"t":"Incorporating generative AI into a module","u":"https://www.ucl.ac.uk/teaching-learning/case-studies/2025/apr/incorporating-generative-ai-module","inst":"UCL Energy Institute","repo":"ucl","reg":"UK","yr":2025,"th":"Discipline Teaching","disc":["Data Science & Analytics"],"tool":["ChatGPT"]},{"t":"Putting GenAI to work with writing rubrics","u":"https://www.ucl.ac.uk/teaching-learning/case-studies/2025/jan/putting-genai-work-writing-rubrics","inst":"University College London (business ethics module)","repo":"ucl","reg":"UK","yr":2025,"th":"Assessment & Feedback","disc":["Business & Management"],"tool":["Copilot"]},{"t":"Embracing AI: transforming teaching with responsible prompts","u":"https://www.ucl.ac.uk/teaching-learning/case-studies/2024/feb/embracing-ai-transforming-teaching-responsible-prompts","inst":"UCL Centre for Systems Engineering / Dept of Space and Climate Physics","repo":"ucl","reg":"UK","yr":2024,"th":"Discipline Teaching","disc":["Engineering"],"tool":["ChatGPT"]},{"t":"Generative AI: Discussing proper use with students","u":"https://www.ucl.ac.uk/teaching-learning/case-studies/2024/dec/generative-ai-discussing-proper-use-students","inst":"Division of Psychology and Language Sciences, UCL","repo":"ucl","reg":"UK","yr":2024,"th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["ChatGPT"]},{"t":"Developing students' GenAI literacy through hackathons","u":"https://www.ucl.ac.uk/teaching-learning/case-studies/2024/oct/developing-students-genai-literacy-hackathons","inst":"Dept of Targeted Intervention, Sport & Exercise Medical Sciences, UCL","repo":"ucl","reg":"UK","yr":2024,"th":"Discussion & Critical Thinking","disc":["Health & Medicine"],"tool":["ChatGPT","Other"]},{"t":"Using AI with literature searches","u":"https://www.ucl.ac.uk/teaching-learning/case-studies/2025/may/using-ai-literature-searches","inst":"Division of Surgery & Interventional Science, UCL","repo":"ucl","reg":"UK","yr":2025,"th":"Research Methods","disc":["Health & Medicine"],"tool":["ChatGPT"]},{"t":"Artificial intelligence and rethinking coursework assessments","u":"https://reflect.ucl.ac.uk/education-conference-2024/2024/03/26/artificial-intelligence-and-redesigning-coursework-assessments/","inst":"BSc Applied Medical Sciences, UCL Medicine","repo":"ucl","reg":"UK","yr":2024,"th":"Assessment & Feedback","disc":["Health & Medicine"],"tool":["ChatGPT"]},{"t":"Art Meets AI","u":"https://ctl.stanford.edu/opportunities/art-meets-ai-short-assignment","inst":"Art History / East Asian Studies, Stanford University","repo":"stanfordaimes","reg":"US","yr":2024,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["Image Generation"]},{"t":"Decolonizing Archives: Video & AI","u":"https://ctl.stanford.edu/opportunities/decolonizing-archives-video-and-ai-long","inst":"Art Practice, Stanford University","repo":"stanfordaimes","reg":"US","yr":2025,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["Image Generation"]},{"t":"Music and AI","u":"https://ctl.stanford.edu/opportunities/music-and-ai-long-assignment","inst":"Music / Computer Science, Stanford University","repo":"stanfordaimes","reg":"US","yr":2024,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["Other"]},{"t":"Media, Mind, and Black Mirror","u":"https://ctl.stanford.edu/opportunities/media-mind-and-black-mirror-final","inst":"Communication, Stanford University","repo":"stanfordaimes","reg":"US","yr":2025,"th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["ChatGPT"]},{"t":"Human-Centered AI","u":"https://ctl.stanford.edu/opportunities/human-centered-ai-1","inst":"Computer Science, Stanford University","repo":"stanfordaimes","reg":"US","yr":2024,"th":"Discussion & Critical Thinking","disc":["Computer Science"],"tool":["ChatGPT","Gemini","Image Generation"]},{"t":"Technology, Innovation, and Great Power Competition","u":"https://ctl.stanford.edu/opportunities/technology-innovation-and-great-power-competition-long","inst":"Management Science & Engineering / International Policy, Stanford University","repo":"stanfordaimes","reg":"US","yr":2024,"th":"Research Methods","disc":["Social Sciences"],"tool":["Unspecified"]},{"t":"Equity and Governance for Artificial Intelligence","u":"https://ctl.stanford.edu/opportunities/equity-and-governance-artificial-intelligence-0","inst":"Computer Science, Stanford University","repo":"stanfordaimes","reg":"US","yr":2025,"th":"Discussion & Critical Thinking","disc":["Computer Science"],"tool":["Unspecified"]},{"t":"Use of Synthetic Personas in Communication Research","u":"https://ctl.stanford.edu/opportunities/use-synthetic-personas-communication-research","inst":"Communication, Stanford University","repo":"stanfordaimes","reg":"US","yr":2025,"th":"Research Methods","disc":["Social Sciences"],"tool":["Other"]},{"t":"Accelerating Project Development in EECS 485 with Maizey","u":"https://genai.umich.edu/use-cases/228","inst":"Computer Science and Engineering, University of Michigan","repo":"michigan","reg":"US","yr":2024,"th":"Custom GPTs & Chatbots","disc":["Computer Science"],"tool":["Custom GPT"]},{"t":"Teaching U-M GPT and AI to Prepare Students for the New Era","u":"https://genai.umich.edu/use-cases/227","inst":"School of Information / CSE, University of Michigan","repo":"michigan","reg":"US","yr":2024,"th":"Discussion & Critical Thinking","disc":["Computer Science"],"tool":["Custom GPT"]},{"t":"Integrating U-M GPT for Enhanced Student Presentations in French Language Courses","u":"https://genai.umich.edu/use-cases/189","inst":"LSA Romance Languages, University of Michigan","repo":"michigan","reg":"US","yr":2024,"th":"Discipline Teaching","disc":["Languages & Linguistics"],"tool":["Custom GPT"]},{"t":"Utilizing Maizey to Enhance Exam Preparation in SQL and Databases Course","u":"https://genai.umich.edu/use-cases/187","inst":"School of Information, University of Michigan","repo":"michigan","reg":"US","yr":2024,"th":"Custom GPTs & Chatbots","disc":["Computer Science"],"tool":["Custom GPT"]},{"t":"Enhancing Coding Proficiency with Code Tailor","u":"https://genai.umich.edu/use-cases/186","inst":"School of Information / Engineering, University of Michigan","repo":"michigan","reg":"US","yr":2024,"th":"Discipline Teaching","disc":["Computer Science"],"tool":["Custom GPT"]},{"t":"Enhancing Grading Quality with GraderGPT in Large Courses","u":"https://genai.umich.edu/use-cases/183","inst":"School of Kinesiology, University of Michigan","repo":"michigan","reg":"US","yr":2024,"th":"Assessment & Feedback","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"Virtual Mock Patient in Doctorate of Physical Therapy Program at U-M Flint","u":"https://genai.umich.edu/use-cases/359","inst":"University of Michigan-Flint","repo":"michigan","reg":"US","yr":2024,"th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"Doctoring Abdominal Case","u":"https://genai.umich.edu/use-cases/464","inst":"University of Michigan","repo":"michigan","reg":"US","yr":2024,"th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"Gender Informed Health Care","u":"https://genai.umich.edu/use-cases/463","inst":"University of Michigan","repo":"michigan","reg":"US","yr":2024,"th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"SciTrunk – Navigating U-M Medical School Year 1","u":"https://genai.umich.edu/use-cases/459","inst":"University of Michigan","repo":"michigan","reg":"US","yr":2024,"th":"Custom GPTs & Chatbots","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"AI Literacy Instruction in First-Year Writing Courses","u":"https://blogs.cornell.edu/teachingcasestudies/gai/ai-literacy-instruction-in-first-year-writing-courses/","inst":"John S. Knight Institute for Writing, Cornell University","repo":"cornell","reg":"US","yr":2023,"th":"Discussion & Critical Thinking","disc":["Arts & Humanities"],"tool":["ChatGPT"]},{"t":"Building AI Literacy through Visualizing Innovative Textile Projects","u":"https://blogs.cornell.edu/teachingcasestudies/gai/building-ai-literacy-through-visualizing-innovative-textile-projects/","inst":"Fiber Science & Apparel Design, Cornell University","repo":"cornell","reg":"US","yr":2023,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["Image Generation"]},{"t":"Color-coding Strategy to Improve Student Written Argumentation","u":"https://blogs.cornell.edu/teachingcasestudies/gai/color-coding-strategy-to-improve-student-written-argumentation/","inst":"Public and Ecosystem Health, Vet College, Cornell University","repo":"cornell","reg":"US","yr":2023,"th":"Assessment & Feedback","disc":["Health & Medicine"],"tool":["Unspecified"]},{"t":"Exploring AI Image Generation for Landscape Architecture Designs","u":"https://blogs.cornell.edu/teachingcasestudies/gai/exploring-ai-image-generation-for-landscape-architecture-designs/","inst":"Landscape Architecture, Cornell University","repo":"cornell","reg":"US","yr":2024,"th":"Discipline Teaching","disc":["Arts & Humanities"],"tool":["Image Generation"]},{"t":"Writing about Controversies in American Politics: Using AI to Examine Counterarguments and Definitions","u":"https://blogs.cornell.edu/teachingcasestudies/gai/writing-about-controversies-in-american-politics-using-ai-to-examine-counterarguments-and-definitions/","inst":"Government, Cornell University","repo":"cornell","reg":"US","yr":2023,"th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["ChatGPT"]},{"t":"Integrating Generative AI in Quantitative Courses","u":"https://ctl.gatech.edu/project/integrating-generative-ai-in-quantitative-courses/","inst":"Scheller College of Business, Georgia Tech","repo":"gatech","reg":"US","yr":2025,"th":"Discipline Teaching","disc":["Business & Management"],"tool":["ChatGPT","Custom GPT"]},{"t":"Integrating AI Literacy into GT Writing and Communication Courses","u":"https://ctl.gatech.edu/project/integrating-ai-literacy-into-gt-writing-and-communication-courses/","inst":"Ivan Allen College, Georgia Tech","repo":"gatech","reg":"US","yr":2025,"th":"Writing & Literacy","disc":["Arts & Humanities"],"tool":["ChatGPT"]},{"t":"Integrating AI-Driven Collaborative Learning Tools in High Enrollment CS Courses","u":"https://ctl.gatech.edu/project/integrating-ai-driven-collaborative-learning-tools-in-high-enrollment-computer-science-courses/","inst":"College of Computing, Georgia Tech","repo":"gatech","reg":"US","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Computer Science"],"tool":["Custom GPT"]},{"t":"Portrait of Practice: Generative AI in Writing 201","u":"https://ctl.duke.edu/caradite/portraits/","inst":"Thompson Writing Program, Duke University","repo":"duke","reg":"US","yr":2024,"th":"Discussion & Critical Thinking","disc":["Arts & Humanities"],"tool":["Unspecified"]},{"t":"Debating Dead Philosophers with Generative AI","u":"https://tech.asu.edu/features/asu-students-debate-famous-philosophers-using-generative-ai","inst":"School for Historical, Philosophical and Religious Studies, Arizona State University","repo":"asu","reg":"US","yr":2024,"th":"Discussion & Critical Thinking","disc":["Arts & Humanities"],"tool":["ChatGPT"]},{"t":"'Charlie' AI Essay Feedback Tool","u":"https://www.purdue.edu/provost/innovation-hub/innovation-hub-announces-first-ai-innovation-fellow-lindsay-hamm","inst":"Sociology, Purdue University","repo":"purdue","reg":"US","yr":2023,"th":"Assessment & Feedback","disc":["Social Sciences"],"tool":["Custom GPT"]},{"t":"ChatLTV: AI Faculty Co-Pilot","u":"https://bussgang.medium.com/teaching-at-harvard-with-an-ai-faculty-co-pilot-c412d86de2e7","inst":"Harvard Business School","repo":"harvard","reg":"US","yr":2023,"th":"Custom GPTs & Chatbots","disc":["Business & Management"],"tool":["ChatGPT","Custom GPT"]},{"t":"'I Secretly Let ChatGPT Take My Final Exam'","u":"https://slate.com/technology/2023/08/chatgpt-vs-algorithms-class.html","inst":"Computer Science, Vanderbilt University","repo":"vanderbilt","reg":"US","yr":2023,"th":"Assessment & Feedback","disc":["Computer Science"],"tool":["ChatGPT"]},{"t":"GenAI as an 'assisted format' for research rationales","u":"https://www.education.unsw.edu.au/news-events/news/ai-case-study-genai-assisted-format-generating-research-rationale","inst":"School of Biotechnology and Biomolecular Science, UNSW","repo":"unsw","reg":"Australia","yr":2023,"th":"Discipline Teaching","disc":["Life Sciences"],"tool":["Unspecified"]},{"t":"Critiquing ChatGPT output to build communication skills","u":"https://www.education.unsw.edu.au/news-events/news/ai-case-study-critiquing-output-strength-communication-skills","inst":"School of Psychology, UNSW","repo":"unsw","reg":"Australia","yr":2023,"th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["ChatGPT"]},{"t":"Simulated NSC role-play to minimise GenAI reliance","u":"https://www.education.unsw.edu.au/news-events/news/ai-case-study-2","inst":"Politics and International Relations, UNSW","repo":"unsw","reg":"Australia","yr":2023,"th":"Discipline Teaching","disc":["Social Sciences"],"tool":["Unspecified"]},{"t":"Process-based group assessment with AI-assisted brainstorming","u":"https://www.education.unsw.edu.au/news-events/news/ai-case-study-1","inst":"UNSW Business School","repo":"unsw","reg":"Australia","yr":2023,"th":"Assessment & Feedback","disc":["Business & Management"],"tool":["ChatGPT"]},{"t":"Standardising project-assessment design with ChatGPT","u":"https://educationexpress.uts.edu.au/blog/2023/03/14/ai-in-assessments-4-case-studies/","inst":"School of Mechanical and Mechatronic Engineering, UTS","repo":"uts","reg":"Australia","yr":2023,"th":"Assessment & Feedback","disc":["Engineering"],"tool":["ChatGPT"]},{"t":"Redesigning written assessments into visual-artefact assessments","u":"https://educationexpress.uts.edu.au/blog/2023/03/14/ai-in-assessments-4-case-studies/","inst":"TD School, UTS","repo":"uts","reg":"Australia","yr":2023,"th":"Assessment & Feedback","disc":["Arts & Humanities"],"tool":["ChatGPT"]},{"t":"AI-related legal and technology issues assessment","u":"https://educationexpress.uts.edu.au/blog/2023/03/14/ai-in-assessments-4-case-studies/","inst":"Faculty of Law, UTS","repo":"uts","reg":"Australia","yr":2023,"th":"Assessment & Feedback","disc":["Law"],"tool":["ChatGPT"]},{"t":"Comparing ChatGPT output against expert material","u":"https://educationexpress.uts.edu.au/blog/2023/03/14/ai-in-assessments-4-case-studies/","inst":"School of Sport, Exercise and Rehabilitation, UTS","repo":"uts","reg":"Australia","yr":2023,"th":"Discussion & Critical Thinking","disc":["Health & Medicine"],"tool":["ChatGPT"]},{"t":"'Don't be sorry, just declare it' — GenAI disclosure appendix","u":"https://herdsa.org.au/herdsa-connect/don%E2%80%99t-be-sorry-just-declare-it-safeguarding-integrity-essay","inst":"Politics/Social Science, University of Adelaide","repo":"adelaide","reg":"Australia","yr":2025,"th":"Institutional Policy","disc":["Social Sciences"],"tool":["ChatGPT"]},{"t":"'Virtual Peer' AI chatbot pilot","u":"https://news.microsoft.com/source/asia/2025/03/24/macquarie-university-students-exam-scores-up-by-nearly-10-per-cent-thanks-to-new-ai-powered-chatbot/","inst":"School of Psychological Sciences, Macquarie University","repo":"macquarie","reg":"Australia","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Social Sciences"],"tool":["Custom GPT"]},{"t":"NotebookLM + RISE framework for responsible AI critique","u":"https://teachwell.auckland.ac.nz/sharing-practice/case-studies-in-teaching/teaching-tips/responsible-ai-critical-thinking-in-business-education/","inst":"Faculty of Business and Economics, University of Auckland","repo":"auckland","reg":"New Zealand","yr":2026,"th":"Discussion & Critical Thinking","disc":["Business & Management"],"tool":["NotebookLM"]},{"t":"Interactive oral assessment vs. AI-suspected lab reports","u":"https://teachwell.auckland.ac.nz/sharing-practice/case-studies-in-teaching/teaching-tips/interactive-oral-assessment-lab-reports/","inst":"Chemical and Materials Engineering, University of Auckland","repo":"auckland","reg":"New Zealand","yr":2026,"th":"Assessment & Feedback","disc":["Engineering"],"tool":["NotebookLM"]},{"t":"Cogniti AI agent as Socratic tutor for large first-year biology cohort","u":"https://teachwell.auckland.ac.nz/sharing-practice/case-studies-in-teaching/teaching-tips/cogniti-ai-agent-large-cohorts/","inst":"School of Biological Sciences, University of Auckland","repo":"auckland","reg":"New Zealand","yr":2026,"th":"Custom GPTs & Chatbots","disc":["Life Sciences"],"tool":["Custom GPT"]},{"t":"Cogniti pilot across first-year courses","u":"https://teachwell.auckland.ac.nz/sharing-practice/case-studies-in-teaching/teaching-insights/cogniti-gen-ai-student-experiences-recommendations/","inst":"Science, Engineering & Design, Arts & Education, University of Auckland","repo":"auckland","reg":"New Zealand","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Institutional / Cross-Disciplinary"],"tool":["Custom GPT"]},{"t":"GenAI use case in Data Structures / Numerical Optimization","u":"https://ctl.ok.ubc.ca/2024/11/27/genai-for-teaching-learning-a-use-case-from-computer-science/","inst":"Computer Science, UBC Okanagan","repo":"ubc","reg":"Canada","yr":2024,"th":"Discipline Teaching","disc":["Computer Science"],"tool":["ChatGPT","Copilot","Gemini","Other"]},{"t":"Generative AI chatbots for large biology courses","u":"https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/yip-genai-chatbots/","inst":"Cell & Systems Biology, University of Toronto","repo":"toronto","reg":"Canada","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Life Sciences"],"tool":["Custom GPT"]},{"t":"Copilot-generated clinical case studies","u":"https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/wood-copilot-clinical-cases/","inst":"Speech-Language Pathology, University of Toronto","repo":"toronto","reg":"Canada","yr":2025,"th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["Copilot"]},{"t":"LLMs for real-world global affairs tasks","u":"https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/goldfarb-global-affairs/","inst":"Munk School of Global Affairs, University of Toronto","repo":"toronto","reg":"Canada","yr":2025,"th":"Discussion & Critical Thinking","disc":["Social Sciences"],"tool":["ChatGPT","Gemini","Other"]},{"t":"'Beat the Machines' recruitment assignment","u":"https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/seward-beat-the-machines/","inst":"Industrial Relations & Human Resources, University of Toronto","repo":"toronto","reg":"Canada","yr":2026,"th":"Assessment & Feedback","disc":["Business & Management"],"tool":["Unspecified"]},{"t":"AI in financial data analysis essays","u":"https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/mackay-financial-data-analysis/","inst":"Rotman School of Management, University of Toronto","repo":"toronto","reg":"Canada","yr":2025,"th":"Assessment & Feedback","disc":["Business & Management"],"tool":["Unspecified"]},{"t":"Literature review with Research Rabbit + ChatGPT","u":"https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/khazra-literature-review/","inst":"Economics, University of Toronto","repo":"toronto","reg":"Canada","yr":2023,"th":"Research Methods","disc":["Social Sciences"],"tool":["ChatGPT","ResearchRabbit"]},{"t":"Critical comparison of student vs. Copilot literature reviews","u":"https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/manolson-literature-review-analysis/","inst":"Faculty of Dentistry, University of Toronto","repo":"toronto","reg":"Canada","yr":2024,"th":"Research Methods","disc":["Health & Medicine"],"tool":["Copilot"]},{"t":"AI-assisted physiology lab analysis","u":"https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/bentley-laboratory-assignment/","inst":"Kinesiology & Physical Education, University of Toronto","repo":"toronto","reg":"Canada","yr":2024,"th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["ChatGPT","Copilot"]},{"t":"Graphic Novel","u":"https://www.curtin.edu.au/assessment2030/assessment-design-studio/graphic-novel/","inst":"School of Management & Marketing, Curtin University","repo":"curtin","reg":"Australia","yr":2025,"th":"Discipline Teaching","disc":["Business & Management"],"tool":["Image Generation"]},{"t":"Theoretical Audit","u":"https://www.curtin.edu.au/assessment2030/assessment-design-studio/theoretical-audit/","inst":"School of Management & Marketing, Curtin University","repo":"curtin","reg":"Australia","yr":2025,"th":"Discussion & Critical Thinking","disc":["Business & Management"],"tool":["Unspecified"]},{"t":"Avatar Simulation with AI Feedback","u":"https://www.curtin.edu.au/assessment2030/assessment-design-studio/avatar-simulation-with-ai-feedback/","inst":"School of Allied Health (Physiotherapy), Curtin University","repo":"curtin","reg":"Australia","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Health & Medicine"],"tool":["Custom GPT"]},{"t":"Critical AI Comparison Report","u":"https://www.curtin.edu.au/assessment2030/assessment-design-studio/critical-ai-comparison-report/","inst":"Faculty of Business & Law, Curtin University","repo":"curtin","reg":"Australia","yr":2025,"th":"Discussion & Critical Thinking","disc":["Business & Management"],"tool":["ChatGPT"]},{"t":"Integrating Generative AI into Live Case Studies for Experiential Learning in Operations Management","u":"https://www.mdpi.com/2227-7102/16/1/15","inst":"Aston Business School, Aston University (course institution)","repo":"mdpieducsci","reg":"UK","yr":2026,"th":"Discipline Teaching","disc":["Business & Management"],"tool":["Unspecified"]},{"t":"Just ask Mattie: Supporting first-year business maths students with a custom-built AI tutor","u":"https://open-publishing.org/publications/index.php/APUB/article/view/2650","inst":"University of South Australia","repo":"ascilite2025","reg":"Australia","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Business & Management"],"tool":["Custom GPT"]},{"t":"Building capacity for AI-powered learning: A collaborative trial of conversational agents in higher education","u":"https://open-publishing.org/publications/index.php/APUB/article/view/2647","inst":"Edith Cowan University","repo":"ascilite2025","reg":"Australia","yr":2025,"th":"Staff Development","disc":["Institutional / Cross-Disciplinary"],"tool":["Custom GPT"]},{"t":"The AI prescription: Educating future doctors for a tech-driven clinic","u":"https://open-publishing.org/publications/index.php/APUB/article/view/2700","inst":"Central Queensland University","repo":"ascilite2025","reg":"Australia","yr":2025,"th":"Discipline Teaching","disc":["Health & Medicine"],"tool":["Unspecified"]},{"t":"Smart scaffolds, smarter learners? Analysing the cognitive outcomes of AR and chatbot feedback","u":"https://open-publishing.org/publications/index.php/APUB/article/view/2676","inst":"National Yang Ming Chiao Tung University","repo":"ascilite2025","reg":"Taiwan","yr":2025,"th":"Research Methods","disc":["Physical Sciences"],"tool":["Custom GPT"]},{"t":"Enhancing self-regulated learning with large language models: A pilot study on the feasibility of local deployment","u":"https://open-publishing.org/publications/index.php/APUB/article/view/2654","inst":"University of Queensland","repo":"ascilite2025","reg":"Australia","yr":2025,"th":"Custom GPTs & Chatbots","disc":["Education"],"tool":["Custom GPT"]},{"t":"Design and evaluation of an LLM literature review assistant","u":"https://open-publishing.org/publications/index.php/APUB/article/view/2703","inst":"University of Queensland","repo":"ascilite2025","reg":"Australia","yr":2025,"th":"Research Methods","disc":["Education"],"tool":["Custom GPT"]},{"t":"'Alex' — GenAI use in a HASS subject","u":"https://open-publishing.org/publications/index.php/APUB/article/view/1234","inst":"Faculty of Arts, Monash University","repo":"ascilite2024","reg":"Australia","yr":2024,"th":"Discussion & Critical Thinking","disc":["Arts & Humanities"],"tool":["Unspecified"]},{"t":"'Brodie' — optional AI-assisted essay task in cultural studies","u":"https://open-publishing.org/publications/index.php/APUB/article/view/1234","inst":"Faculty of Arts, Monash University","repo":"ascilite2024","reg":"Australia","yr":2024,"th":"Assessment & Feedback","disc":["Arts & Humanities"],"tool":["Unspecified"]},{"t":"'Cal' — ATLAS policy-simulation platform","u":"https://open-publishing.org/publications/index.php/APUB/article/view/1234","inst":"Faculty of Arts, Monash University","repo":"ascilite2024","reg":"Australia","yr":2024,"th":"Custom GPTs & Chatbots","disc":["Social Sciences"],"tool":["Custom GPT"]},{"t":"'Dana' — AI recruiter feedback on job applications","u":"https://open-publishing.org/publications/index.php/APUB/article/view/1234","inst":"Faculty of Arts, Monash University","repo":"ascilite2024","reg":"Australia","yr":2024,"th":"Assessment & Feedback","disc":["Arts & Humanities"],"tool":["Custom GPT"]},{"t":"Challenges and opportunities in using ChatGPT as a team member to promote code review education","u":"https://open-publishing.org/publications/index.php/APUB/article/view/1152","inst":"Monash University","repo":"ascilite2024","reg":"Australia","yr":2024,"th":"Discipline Teaching","disc":["Computer Science"],"tool":["ChatGPT"]},{"t":"Exploring the integration of Generative AI in assessment in a tertiary context","u":"https://open-publishing.org/publications/index.php/APUB/article/view/1537","inst":"University of Canberra","repo":"ascilite2024","reg":"Australia","yr":2024,"th":"Assessment & Feedback","disc":["Education"],"tool":["Unspecified"]}];
+const REPO_LABELS = {"aber":"Aberystwyth University — Case Study Series","advancehe":"Advance HE — Assessment and Feedback Case Study Compendium","antf":"Assoc. of National Teaching Fellows — Gen AI Innovation Project","creativehe":"#creativeHE — 100+ Creative Ideas to Use AI in Education","durham":"Durham University — DCAD Generative AI","jiscstories":"Jisc — Innovative Insights: Community Success Stories","jiscpilot":"Jisc — AI in Marking & Feedback Pilot","leeds":"University of Leeds — Generative AI Case Studies","oxnarr":"University of Oxford — Generative AI Case Studies","oxfund":"Oxford CTL — AI Teaching & Learning Exploratory Fund","qaa":"QAA — Generative AI Toolkit Case Studies","sydney":"University of Sydney — Teaching and Generative AI","utrecht":"Utrecht University — Teaching & Learning Collection","washu":"WashU — Open Scholarship: Generative AI Teaching Activities","adaptedu2024":"AdaptEdu 2024 — Online Workshop on Adaptive Education: Harnessing AI for Academic Progress","avoidance2026":"From Avoidance to Adoption — Frontiers Special Issue (Ulster University & Queen's University Belfast)","imperial":"Imperial College London — AI Education Hub / Teaching Toolkit Case Studies","kcl":"King's College London — Generative AI Case Studies","qubdl":"Queen's University Belfast — Digital Learning: AI in Teaching Case Studies","bristol":"University of Bristol — BILT Case Studies","uwe":"University of the West of England (UWE Bristol) — Digital Learning Case Studies","royalholloway":"Royal Holloway, University of London — THE Campus Case Study","ucbirmingham":"University College Birmingham — THE Campus Case Study","newcastle":"Newcastle University Business School — Case Studies","ucl":"University College London — Generative AI Case Studies","stanfordaimes":"Stanford University — AIMES Library of Teaching Examples","michigan":"University of Michigan — GenAI Use Cases","cornell":"Cornell University — Center for Teaching Innovation Case Study Library","gatech":"Georgia Tech — Center for Teaching and Learning Project Showcase","duke":"Duke University — Center for Teaching and Learning Portraits of Practice","asu":"Arizona State University — Case Study","purdue":"Purdue University — Innovation Hub","harvard":"Harvard Business School — Faculty Case Study","vanderbilt":"Vanderbilt University — Case Study","unsw":"UNSW Sydney — AI Case Study News Series","uts":"University of Technology Sydney — AI in Assessments Case Studies","adelaide":"University of Adelaide — HERDSA Connect Case Study","macquarie":"Macquarie University — Virtual Peer AI Chatbot Pilot","auckland":"University of Auckland — TeachWell Case Studies in Teaching","ubc":"University of British Columbia Okanagan — Centre for Teaching and Learning","toronto":"University of Toronto — Teaching with Generative AI Example Library","curtin":"Curtin University — Assessment Design Studio Case Studies","mdpieducsci":"MDPI Education Sciences — Live Case Study Paper","ascilite2025":"ASCILITE 2025 Conference Proceedings","ascilite2024":"ASCILITE 2024 Conference Proceedings"};
+</script>
+<script>
+(function(){
+  "use strict";
+
+  // ---------------------------------------------------------------------
+  // setup
+  // ---------------------------------------------------------------------
+  document.getElementById("tallyTotal").textContent = RAW.length;
+  document.getElementById("provenance").textContent =
+    RAW.length + " approved entries · generated " + new Date().toISOString().slice(0,10);
+
+  function groupRegion(r){
+    const top = ["UK","US","Australia","Netherlands","Canada","New Zealand"];
+    return top.indexOf(r) !== -1 ? r : "Other";
+  }
+
+  RAW.forEach(function(e){
+    e._reg = groupRegion(e.reg);
+    e._yr = String(e.yr);
+  });
+
+  function countValues(getter){
+    const m = new Map();
+    RAW.forEach(function(e){
+      const v = getter(e);
+      const arr = Array.isArray(v) ? v : [v];
+      arr.forEach(function(x){
+        if (x === null || x === undefined) return;
+        m.set(x, (m.get(x)||0)+1);
+      });
+    });
+    return m;
+  }
+
+  // top-N + "+N more" fold, colors assigned by fixed rank order (stable across the whole page)
+  function capCategories(countsMap, max, fixedOrder){
+    let sorted;
+    if (fixedOrder) {
+      sorted = fixedOrder.map(function(k){ return [k, countsMap.get(k)||0]; });
+    } else {
+      sorted = Array.from(countsMap.entries()).sort(function(a,b){ return b[1]-a[1]; });
+    }
+    const top = sorted.slice(0, max);
+    const rest = sorted.slice(max);
+    const restTotal = rest.reduce(function(s,p){ return s+p[1]; }, 0);
+    const cats = top.map(function(p){ return { name: p[0], count: p[1], isOther:false }; });
+    if (rest.length) {
+      cats.push({ name: "+" + rest.length + " more", count: restTotal, isOther: true,
+        otherNames: rest.map(function(p){ return p[0]; }) });
+    }
+    cats.forEach(function(c, i){ c.slot = i; });
+    return cats;
+  }
+
+  function buildCapMap(cats){
+    const map = new Map();
+    cats.forEach(function(c){
+      if (c.isOther) c.otherNames.forEach(function(n){ map.set(n, c.name); });
+      else map.set(c.name, c.name);
+    });
+    return map;
+  }
+
+  const YEAR_ORDER = ["2023","2024","2025","2026","Unspecified"];
+  const DIM = {
+    disc: { label: "Discipline", multi: true,  get: function(e){ return e.disc; } },
+    tool: { label: "Tool",       multi: true,  get: function(e){ return e.tool; } },
+    th:   { label: "Theme",      multi: false, get: function(e){ return [e.th]; } },
+    yr:   { label: "Year",       multi: false, get: function(e){ return [e._yr]; } },
+    reg:  { label: "Region",     multi: false, get: function(e){ return [e._reg]; } }
+  };
+
+  DIM.disc.cats = capCategories(countValues(DIM.disc.get), 7);
+  DIM.tool.cats = capCategories(countValues(DIM.tool.get), 7);
+  DIM.th.cats   = capCategories(countValues(DIM.th.get), 7);
+  DIM.yr.cats   = capCategories(countValues(DIM.yr.get), 8, YEAR_ORDER);
+  DIM.reg.cats  = capCategories(countValues(DIM.reg.get), 8);
+
+  Object.keys(DIM).forEach(function(k){
+    const d = DIM[k];
+    d.capMap = buildCapMap(d.cats);
+    d.catNames = d.cats.map(function(c){ return c.name; });
+    // colorblind-safe categorical palette, one hue per real category (up to 7),
+    // used by the "Trends by year" bars/legend — the only place colorOf is read
+    d.colorOf = {};
+    d.cats.forEach(function(c){
+      d.colorOf[c.name] = c.isOther ? "var(--other-fill)" : "var(--cat-" + (c.slot+1) + ")";
+    });
+    // per-entry capped, deduped category list
+    d.of = function(e){
+      const raw = d.get(e);
+      const seen = {};
+      const out = [];
+      raw.forEach(function(v){
+        const mapped = d.capMap.get(v) || v;
+        if (!seen[mapped]) { seen[mapped] = true; out.push(mapped); }
+      });
+      return out;
+    };
+  });
+
+  // ---------------------------------------------------------------------
+  // tooltip helper
+  // ---------------------------------------------------------------------
+  const tipEl = document.getElementById("tooltip");
+  function showTip(html, x, y){
+    tipEl.innerHTML = html;
+    tipEl.style.left = Math.min(x+14, window.innerWidth-280) + "px";
+    tipEl.style.top = (y+14) + "px";
+    tipEl.classList.add("show");
+  }
+  function hideTip(){ tipEl.classList.remove("show"); }
+
+  // ---------------------------------------------------------------------
+  // stat strip
+  // ---------------------------------------------------------------------
+  (function renderKpis(){
+    const el = document.getElementById("kpis");
+    const nInst = new Set(RAW.map(function(e){ return e.inst; })).size;
+    const kpis = [
+      [nInst, "Institutions"],
+      [countValues(DIM.disc.get).size, "Disciplines"],
+      [countValues(DIM.tool.get).size, "Tools"],
+      [4, "Years covered"],
+      [countValues(function(e){return [e.reg];}).size, "Countries"]
+    ];
+    kpis.forEach(function(k){
+      const d = document.createElement("div");
+      d.className = "stat";
+      d.innerHTML = '<div class="n">'+k[0]+'</div><div class="l">'+k[1]+'</div>';
+      el.appendChild(d);
+    });
+  })();
+
+  // ---------------------------------------------------------------------
+  // Trends by year
+  // ---------------------------------------------------------------------
+  let trendDim = "th";
+  let trendMetric = "count";
+
+  function renderTrendChips(){
+    const dimEl = document.getElementById("trend-dim-chips");
+    dimEl.innerHTML = "";
+    ["disc","tool","th","reg"].forEach(function(k){
+      const c = document.createElement("button");
+      c.type = "button";
+      c.className = "chip" + (k===trendDim ? " active" : "");
+      c.textContent = DIM[k].label;
+      c.onclick = function(){ trendDim = k; renderTrendChips(); renderTrend(); };
+      dimEl.appendChild(c);
+    });
+    const metEl = document.getElementById("trend-metric-chips");
+    metEl.innerHTML = "";
+    [["count","Count"],["share","Share %"]].forEach(function(p){
+      const c = document.createElement("button");
+      c.type = "button";
+      c.className = "chip" + (p[0]===trendMetric ? " active" : "");
+      c.textContent = p[1];
+      c.onclick = function(){ trendMetric = p[0]; renderTrend(); };
+      metEl.appendChild(c);
+    });
+  }
+
+  // in-bar labels: font scales with the segment's own pixel height, capped at the
+  // x-axis label's size so a tall segment never out-shouts the axis
+  const BAR_STACK_HEIGHT_PX = 210; // keep in sync with .bar-stack { height }
+  const X_AXIS_FONT_PX = 12.48;    // keep in sync with .bar-col .x-label { font-size: 0.78rem } @ 16px root
+  const MIN_LABEL_HEIGHT_PX = 16;  // below this, text can't fit legibly — skip the label
+  const LABEL_FONT_SCALE = 0.45;
+
+  const CAT_PALETTE_HEX = {
+    light: ["#2a78d6","#eb6834","#1baf7a","#eda100","#e87ba4","#008300","#4a3aa7"],
+    dark:  ["#3987e5","#d95926","#199e70","#c98500","#d55181","#008300","#9085e9"]
+  };
+  const OTHER_FILL_HEX = { light: "#d7dde3", dark: "#2a3446" };
+
+  function isDarkMode(){
+    const attr = document.documentElement.getAttribute("data-theme");
+    if (attr === "dark") return true;
+    if (attr === "light") return false;
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  }
+
+  function hexLuminance(hex){
+    hex = hex.replace("#","");
+    const r = parseInt(hex.slice(0,2),16), g = parseInt(hex.slice(2,4),16), b = parseInt(hex.slice(4,6),16);
+    return (0.299*r + 0.587*g + 0.114*b) / 255;
+  }
+
+  // reads the actual hex behind a segment's var(--cat-N)/var(--other-fill) for the
+  // current theme, so label text always contrasts against what's really on screen
+  function textColorFor(dim, catName){
+    const cat = dim.cats.find(function(c){ return c.name === catName; });
+    const mode = isDarkMode() ? "dark" : "light";
+    const hex = (cat && !cat.isOther) ? CAT_PALETTE_HEX[mode][cat.slot] : OTHER_FILL_HEX[mode];
+    return hexLuminance(hex) > 0.6 ? "#041e42" : "#ffffff";
+  }
+
+  function renderTrend(){
+    const dim = DIM[trendDim];
+    const barsEl = document.getElementById("trend-bars");
+    const legendEl = document.getElementById("trend-legend");
+    barsEl.innerHTML = "";
+    legendEl.innerHTML = "";
+
+    // counts[year][cat]
+    const table = {};
+    YEAR_ORDER.forEach(function(y){ table[y] = {}; dim.catNames.forEach(function(c){ table[y][c]=0; }); });
+    RAW.forEach(function(e){
+      const y = e._yr;
+      dim.of(e).forEach(function(c){ table[y][c]++; });
+    });
+    const yearTotals = {};
+    YEAR_ORDER.forEach(function(y){
+      yearTotals[y] = RAW.filter(function(e){ return e._yr===y; }).length;
+    });
+
+    let maxStack = 0;
+    YEAR_ORDER.forEach(function(y){
+      const sum = dim.catNames.reduce(function(s,c){ return s+table[y][c]; }, 0);
+      if (sum > maxStack) maxStack = sum;
+    });
+
+    YEAR_ORDER.forEach(function(y){
+      const col = document.createElement("div");
+      col.className = "bar-col";
+      const stack = document.createElement("div");
+      stack.className = "bar-stack";
+      const catTotal = dim.catNames.reduce(function(s,c){ return s+table[y][c]; }, 0);
+      dim.catNames.forEach(function(c){
+        const raw = table[y][c];
+        if (!raw) return;
+        const seg = document.createElement("div");
+        seg.className = "bar-seg";
+        let heightPct;
+        if (trendMetric === "count") {
+          heightPct = maxStack ? (raw/maxStack*100) : 0;
+        } else {
+          heightPct = catTotal ? (raw/catTotal*100) : 0;
+        }
+        seg.style.height = heightPct + "%";
+        seg.style.background = dim.colorOf[c];
+        seg.onmousemove = function(ev){
+          const pct = catTotal ? (raw/catTotal*100).toFixed(0) : 0;
+          showTip("<b>"+c+"</b> · "+y+"<br>"+raw+" case studies ("+pct+"% of "+y+")", ev.clientX, ev.clientY);
+        };
+        seg.onmouseleave = hideTip;
+
+        const sharePct = catTotal ? Math.round(raw/catTotal*100) : 0;
+        const heightPx = heightPct/100 * BAR_STACK_HEIGHT_PX;
+        if (heightPx >= MIN_LABEL_HEIGHT_PX) {
+          const fontPx = Math.min(X_AXIS_FONT_PX, heightPx * LABEL_FONT_SCALE);
+          const label = document.createElement("div");
+          label.className = "bar-seg-label";
+          label.style.fontSize = fontPx + "px";
+          label.style.color = textColorFor(dim, c);
+          label.innerHTML = "<span>"+raw+"</span><span>"+sharePct+"%</span>";
+          seg.appendChild(label);
+        }
+
+        stack.appendChild(seg);
+      });
+      col.appendChild(stack);
+      const xl = document.createElement("div");
+      xl.className = "x-label";
+      xl.textContent = y;
+      col.appendChild(xl);
+      const xt = document.createElement("div");
+      xt.className = "x-total";
+      xt.textContent = "n=" + yearTotals[y];
+      col.appendChild(xt);
+      barsEl.appendChild(col);
+    });
+
+    dim.cats.forEach(function(c){
+      const li = document.createElement("div");
+      li.className = "legend-item";
+      li.innerHTML = '<span class="legend-swatch" style="background:'+dim.colorOf[c.name]+'"></span>'+c.name;
+      legendEl.appendChild(li);
+    });
+  }
+
+  // ---------------------------------------------------------------------
+  // Top trends — a curated set of headline findings, computed live from RAW
+  // ---------------------------------------------------------------------
+  const TREND_YEARS = ["2023","2024","2025","2026"];
+
+  function pct(a,b){ return b ? Math.round(a/b*100) : 0; }
+
+  function shareByYear(matchFn){
+    return TREND_YEARS.map(function(y){
+      const yEntries = RAW.filter(function(e){ return e._yr===y; });
+      const count = yEntries.filter(matchFn).length;
+      return { year:y, n:yEntries.length, count:count, pct: pct(count, yEntries.length) };
+    });
+  }
+
+  function rateFor(filterFn, matchFn){
+    const sub = RAW.filter(filterFn);
+    const count = sub.filter(matchFn).length;
+    return { n: sub.length, count: count, pct: pct(count, sub.length) };
+  }
+
+  function mostCommon(arr){
+    const m = new Map();
+    arr.forEach(function(v){ m.set(v, (m.get(v)||0)+1); });
+    let best = null, bestN = -1;
+    m.forEach(function(n,v){ if (n>bestN) { best=v; bestN=n; } });
+    return { value: best, count: bestN };
+  }
+
+  function buildSpark(series){
+    const w=180, h=46, pad=7;
+    const n = TREND_YEARS.length;
+    const xAt = function(i){ return pad + i*((w-2*pad)/(n-1)); };
+    const yAt = function(v){ return pad + (100-v)/100*(h-2*pad); };
+    let svg = '<svg class="spark" width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'" role="img" aria-hidden="true">';
+    series.forEach(function(s){
+      const pts = s.values.map(function(v,i){ return xAt(i)+','+yAt(v); }).join(' ');
+      svg += '<polyline points="'+pts+'" fill="none" stroke="'+s.color+'" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />';
+      const li = s.values.length-1;
+      svg += '<circle cx="'+xAt(0)+'" cy="'+yAt(s.values[0])+'" r="2" fill="'+s.color+'" opacity="0.5" />';
+      svg += '<circle cx="'+xAt(li)+'" cy="'+yAt(s.values[li])+'" r="3.2" fill="'+s.color+'" />';
+    });
+    svg += '</svg>';
+    return svg;
+  }
+
+  function tbar(label, pctVal, color){
+    return '<div class="tbar-row"><div class="tbar-label">'+label+'</div>'+
+      '<div class="tbar-track"><div class="tbar-fill" style="width:'+pctVal+'%;background:'+color+'"></div></div>'+
+      '<div class="tbar-val">'+pctVal+'%</div></div>';
+  }
+
+  function renderTopTrends(){
+    const el = document.getElementById("top-trends-panel");
+    const cards = [];
+
+    // 1 — ChatGPT vs Custom GPT tool share by year
+    (function(){
+      const chatgpt = shareByYear(function(e){ return (e.tool||[]).includes("ChatGPT"); });
+      const customgpt = shareByYear(function(e){ return (e.tool||[]).includes("Custom GPT"); });
+      cards.push(
+        '<div class="trend-card">' +
+          '<h3>ChatGPT → Custom GPT</h3>' +
+          '<div class="trend-stat">'+chatgpt[0].pct+'%<span class="arrow">→</span>'+chatgpt[chatgpt.length-1].pct+'%</div>' +
+          '<p>Share of that year\'s case studies naming <b>ChatGPT</b> directly, 2023–2026 — falling as ' +
+          '<b>Custom GPT</b> (purpose-built tools) rose from '+customgpt[0].pct+'% to '+customgpt[customgpt.length-1].pct+'%. ' +
+          'Reads as institutions moving from generic prompting toward tools they built themselves as they gained experience. ' +
+          '2026 is a partial year (n='+chatgpt[3].n+' vs. '+chatgpt[2].n+' in 2025) — treat its endpoint as provisional.</p>' +
+          buildSpark([{color:"var(--accent)", values:chatgpt.map(function(d){return d.pct;})},
+                      {color:"var(--cool)", values:customgpt.map(function(d){return d.pct;})}]) +
+          '<div class="spark-legend">' +
+            '<div class="spark-legend-item"><span class="sw" style="background:var(--accent)"></span>ChatGPT</div>' +
+            '<div class="spark-legend-item"><span class="sw" style="background:var(--cool)"></span>Custom GPT</div>' +
+          '</div>' +
+        '</div>'
+      );
+    })();
+
+    // 2 — Health & Medicine / Computer Science lean on custom-built tools
+    (function(){
+      const isCustomGpt = function(e){ return (e.tool||[]).includes("Custom GPT"); };
+      const baseline = rateFor(function(){ return true; }, isCustomGpt);
+      const health = rateFor(function(e){ return (e.disc||[]).includes("Health & Medicine"); }, isCustomGpt);
+      const cs = rateFor(function(e){ return (e.disc||[]).includes("Computer Science"); }, isCustomGpt);
+      cards.push(
+        '<div class="trend-card">' +
+          '<h3>Who builds their own tool?</h3>' +
+          '<div class="trend-stat">'+health.pct+'%<span class="arrow">/</span>'+cs.pct+'%</div>' +
+          '<p><b>Health & Medicine</b> and <b>Computer Science</b> case studies use a Custom GPT roughly '+
+          (Math.round(health.pct/baseline.pct*10)/10)+'x and '+(Math.round(cs.pct/baseline.pct*10)/10)+
+          'x as often as the catalog average — technical and clinical fields lean toward bespoke tools ' +
+          'over off-the-shelf chat.</p>' +
+          tbar("Health & Medicine (n="+health.n+")", health.pct, "var(--ramp-tool-7)") +
+          tbar("Computer Science (n="+cs.n+")", cs.pct, "var(--ramp-tool-7)") +
+          tbar("Catalog average", baseline.pct, "var(--ink-faint)") +
+        '</div>'
+      );
+    })();
+
+    // 3 — Arts & Humanities dominates image generation
+    (function(){
+      const isArts = function(e){ return (e.disc||[]).includes("Arts & Humanities"); };
+      const isImage = function(e){ return (e.tool||[]).includes("Image Generation"); };
+      const imgTotal = RAW.filter(isImage).length;
+      const imgArts = RAW.filter(function(e){ return isImage(e) && isArts(e); }).length;
+      const shareOfImage = pct(imgArts, imgTotal);
+      const shareOfCatalog = pct(RAW.filter(isArts).length, RAW.length);
+      cards.push(
+        '<div class="trend-card">' +
+          '<h3>Arts &amp; Humanities and image generation</h3>' +
+          '<div class="trend-stat">'+shareOfImage+'%</div>' +
+          '<p>Of the '+imgTotal+' case studies tagged <b>Image Generation</b>, '+imgArts+' ('+shareOfImage+'%) are ' +
+          'Arts & Humanities — about '+(Math.round(shareOfImage/shareOfCatalog*10)/10)+'x its '+shareOfCatalog+
+          '% share of the catalog overall. Small n, but a clean overrepresentation.</p>' +
+          tbar("Share of image-gen entries", shareOfImage, "var(--ramp-disc-7)") +
+          tbar("Share of catalog overall", shareOfCatalog, "var(--ink-faint)") +
+        '</div>'
+      );
+    })();
+
+    // 4 — Custom GPTs & Chatbots theme peaked in 2025
+    (function(){
+      const theme = shareByYear(function(e){ return e.th === "Custom GPTs & Chatbots"; });
+      const peak = theme.reduce(function(a,b){ return b.pct>a.pct?b:a; });
+      cards.push(
+        '<div class="trend-card">' +
+          '<h3>"Custom GPTs & Chatbots" peaked in 2025</h3>' +
+          '<div class="trend-stat">'+peak.pct+'%<span class="arrow">in</span>'+peak.year+'</div>' +
+          '<p>Share of each year\'s case studies whose <em>activity theme</em> is building or using a custom ' +
+          'chatbot: '+theme.map(function(d){return d.pct+"%";}).join(" → ")+' across 2023–2026. The design-side ' +
+          'echo of the tool trend above — and the 2026 dip complicates a simple "adoption keeps rising" story.</p>' +
+          buildSpark([{color:"var(--accent)", values:theme.map(function(d){return d.pct;})}]) +
+        '</div>'
+      );
+    })();
+
+    // 5 — caveat: the Netherlands/Unspecified pairing is a metadata artifact, not a trend
+    (function(){
+      const nl = RAW.filter(function(e){ return e._reg === "Netherlands"; });
+      const unspecified = nl.filter(function(e){ return e._yr === "Unspecified"; }).length;
+      const top = mostCommon(nl.map(function(e){ return e.repo; }));
+      const topLabel = REPO_LABELS[top.value] || top.value;
+      cards.push(
+        '<div class="trend-card caveat">' +
+          '<h3>Not a trend: "Unspecified → Netherlands"</h3>' +
+          '<p>This pairing tops the association explorer\'s ranked list, but it\'s a metadata gap, not a ' +
+          'regional pattern: all '+nl.length+' Netherlands-tagged entries come from a single collection ('+topLabel+'), ' +
+          'and '+unspecified+' of '+nl.length+' don\'t state a year. Read it as "one collection never publishes a ' +
+          'date," not "Dutch case studies are recent."</p>' +
+        '</div>'
+      );
+    })();
+
+    el.innerHTML = cards.join("");
+  }
+
+  // ---------------------------------------------------------------------
+  // Association explorer
+  // ---------------------------------------------------------------------
+  const DIM_KEYS = ["disc","tool","th","yr","reg"];
+  let assocA = "disc", assocB = "tool";
+
+  function populateAssocSelects(){
+    const aEl = document.getElementById("assoc-a");
+    const bEl = document.getElementById("assoc-b");
+    [aEl, bEl].forEach(function(sel){
+      sel.innerHTML = "";
+      DIM_KEYS.forEach(function(k){
+        const o = document.createElement("option");
+        o.value = k; o.textContent = DIM[k].label;
+        sel.appendChild(o);
+      });
+    });
+    aEl.value = assocA; bEl.value = assocB;
+    aEl.onchange = function(){ assocA = aEl.value; if (assocA===assocB) { assocB = DIM_KEYS.filter(function(k){return k!==assocA;})[0]; bEl.value = assocB; } renderHeatmap(); };
+    bEl.onchange = function(){ assocB = bEl.value; if (assocB===assocA) { assocA = DIM_KEYS.filter(function(k){return k!==assocB;})[0]; aEl.value = assocA; } renderHeatmap(); };
+  }
+
+  // returns { counts[a][b], rowTotal[a], colTotal[b], n }
+  function crossTab(keyA, keyB){
+    const dimA = DIM[keyA], dimB = DIM[keyB];
+    const counts = {}, rowTotal = {}, colTotal = {};
+    dimA.catNames.forEach(function(a){ counts[a] = {}; rowTotal[a] = 0; dimB.catNames.forEach(function(b){ counts[a][b]=0; }); });
+    dimB.catNames.forEach(function(b){ colTotal[b] = 0; });
+    RAW.forEach(function(e){
+      const as = dimA.of(e), bs = dimB.of(e);
+      as.forEach(function(a){ rowTotal[a]++; });
+      bs.forEach(function(b){ colTotal[b]++; });
+      as.forEach(function(a){ bs.forEach(function(b){ counts[a][b]++; }); });
+    });
+    return { counts: counts, rowTotal: rowTotal, colTotal: colTotal, n: RAW.length };
+  }
+
+  // heatmap intensity always uses the blue ("theme") ramp — it's encoding
+  // magnitude here, not a tag identity, regardless of which two dims are picked
+  function seqColor(pct){
+    const steps = ["var(--ramp-th-1)","var(--ramp-th-2)","var(--ramp-th-3)","var(--ramp-th-4)",
+      "var(--ramp-th-5)","var(--ramp-th-6)","var(--ramp-th-7)"];
+    if (pct <= 0) return null;
+    const idx = Math.min(steps.length-1, Math.floor(pct/100*steps.length));
+    return steps[idx];
+  }
+
+  function exampleEntries(keyA, valA, keyB, valB, limit){
+    const dimA = DIM[keyA], dimB = DIM[keyB];
+    const out = [];
+    for (let i=0; i<RAW.length && out.length<limit; i++){
+      const e = RAW[i];
+      if (dimA.of(e).indexOf(valA) !== -1 && dimB.of(e).indexOf(valB) !== -1) out.push(e);
+    }
+    return out;
+  }
+
+  function renderExamples(items, headline){
+    const el = document.getElementById("examples");
+    el.innerHTML = "";
+    const h = document.createElement("div");
+    h.className = "hint";
+    h.textContent = headline;
+    el.appendChild(h);
+    items.forEach(function(e){
+      const d = document.createElement("div");
+      d.className = "example-item";
+      d.innerHTML = '<div class="et"><a href="'+e.u+'" target="_blank" rel="noopener">'+e.t+'</a></div>'+
+        '<div class="em">'+e.inst+' · '+e._yr+'</div>';
+      el.appendChild(d);
+    });
+  }
+
+  function renderHeatmap(){
+    const dimA = DIM[assocA], dimB = DIM[assocB];
+    const ct = crossTab(assocA, assocB);
+    const table = document.getElementById("heatmap");
+    table.innerHTML = "";
+
+    const thead = document.createElement("tr");
+    thead.appendChild(document.createElement("th"));
+    dimB.catNames.forEach(function(b){
+      const th = document.createElement("th");
+      th.className = "colhead";
+      th.textContent = b;
+      thead.appendChild(th);
+    });
+    table.appendChild(thead);
+
+    dimA.catNames.forEach(function(a){
+      const tr = document.createElement("tr");
+      const rh = document.createElement("th");
+      rh.className = "rowhead";
+      rh.textContent = a;
+      tr.appendChild(rh);
+      dimB.catNames.forEach(function(b){
+        const raw = ct.counts[a][b];
+        const pct = ct.rowTotal[a] ? (raw/ct.rowTotal[a]*100) : 0;
+        const td = document.createElement("td");
+        td.className = "cell" + (raw===0 ? " zero" : "");
+        const bg = seqColor(pct);
+        if (bg) { td.style.background = bg; }
+        td.textContent = raw === 0 ? "" : Math.round(pct) + "%";
+        if (pct > 55) td.style.color = "#fff";
+        td.onmousemove = function(ev){
+          showTip("<b>"+a+"</b> × <b>"+b+"</b><br>"+raw+" of "+ct.rowTotal[a]+" "+dimA.label.toLowerCase()+
+            " entries ("+pct.toFixed(0)+"%)", ev.clientX, ev.clientY);
+        };
+        td.onmouseleave = hideTip;
+        const openExamples = function(){
+          const ex = exampleEntries(assocA, a, assocB, b, 5);
+          renderExamples(ex, ex.length + " example" + (ex.length===1?"":"s") + " tagged " + a + " × " + b + (raw>5?" (of "+raw+"):":":"));
+        };
+        td.onclick = openExamples;
+        if (raw > 0) {
+          td.tabIndex = 0;
+          td.setAttribute("role", "button");
+          td.setAttribute("aria-label", a + " × " + b + ", " + Math.round(pct) + "%");
+          td.onkeydown = function(ev){ if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); openExamples(); } };
+        }
+        tr.appendChild(td);
+      });
+      table.appendChild(tr);
+    });
+  }
+
+  // ranked list across ALL dimension pairs
+  function renderRankList(){
+    const el = document.getElementById("rank-list");
+    el.innerHTML = "";
+    const pairs = [];
+    for (let i=0;i<DIM_KEYS.length;i++){
+      for (let j=0;j<DIM_KEYS.length;j++){
+        if (i===j) continue;
+        pairs.push([DIM_KEYS[i], DIM_KEYS[j]]);
+      }
+    }
+    const rows = [];
+    pairs.forEach(function(pair){
+      const keyA = pair[0], keyB = pair[1];
+      const ct = crossTab(keyA, keyB);
+      const dimA = DIM[keyA], dimB = DIM[keyB];
+      dimA.catNames.forEach(function(a){
+        if (a.charAt(0) === "+") return;
+        dimB.catNames.forEach(function(b){
+          if (b.charAt(0) === "+") return;
+          const raw = ct.counts[a][b];
+          if (raw < 5) return;
+          const rowPct = raw/ct.rowTotal[a];
+          const baseline = ct.colTotal[b]/ct.n;
+          if (baseline <= 0) return;
+          const lift = rowPct/baseline;
+          if (lift <= 1.15) return;
+          rows.push({ keyA:keyA, a:a, keyB:keyB, b:b, raw:raw, rowTotal:ct.rowTotal[a], rowPct:rowPct, lift:lift });
+        });
+      });
+    });
+    rows.sort(function(x,y){ return y.lift - x.lift; });
+    // the same real-world pairing shows up twice (A→B and B→A, different %s) —
+    // keep only the stronger direction so the list isn't half duplicates
+    const seenPair = {};
+    const deduped = [];
+    rows.forEach(function(r){
+      const key = [r.keyA+":"+r.a, r.keyB+":"+r.b].sort().join("|");
+      if (seenPair[key]) return;
+      seenPair[key] = true;
+      deduped.push(r);
+    });
+    const top = deduped.slice(0, 16);
+    top.forEach(function(r){
+      const row = document.createElement("div");
+      row.className = "rank-row";
+      row.tabIndex = 0;
+      row.setAttribute("role", "button");
+      row.innerHTML = '<div class="lift-badge">'+r.lift.toFixed(1)+'×</div>'+
+        '<div class="txt"><b>'+r.a+'</b> → '+r.b+' in '+DIM[r.keyB].label.toLowerCase()+
+        ' <span class="n">('+r.raw+'/'+r.rowTotal+', '+Math.round(r.rowPct*100)+'%)</span></div>';
+      const activate = function(){
+        assocA = r.keyA; assocB = r.keyB;
+        document.getElementById("assoc-a").value = assocA;
+        document.getElementById("assoc-b").value = assocB;
+        renderHeatmap();
+        const ex = exampleEntries(r.keyA, r.a, r.keyB, r.b, 5);
+        renderExamples(ex, ex.length + " example" + (ex.length===1?"":"s") + " tagged " + r.a + " × " + r.b + (r.raw>5?" (of "+r.raw+"):":":"));
+      };
+      row.onclick = activate;
+      row.onkeydown = function(ev){ if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); activate(); } };
+      el.appendChild(row);
+    });
+  }
+
+  // ---------------------------------------------------------------------
+  // Predictor lab — multinomial logistic regression trained client-side
+  // ---------------------------------------------------------------------
+  const TARGET_OPTIONS = {
+    th:   { label: "Activity theme" },
+    disc: { label: "Discipline (primary)" },
+    tool: { label: "Tool (primary)" }
+  };
+  const TARGET_FILL = { th: "var(--accent)", disc: "var(--disc)", tool: "var(--cool)" };
+  let target = "th";
+  let predictorsOn = { disc: true, tool: false, yr: true, reg: false };
+  let whatif = {};
+
+  function primaryOf(e, key){
+    const raw = DIM[key].get(e)[0];
+    return DIM[key].capMap.get(raw) || raw;
+  }
+
+  function targetClassOf(e){
+    if (target === "th") return DIM.th.of(e)[0];
+    return primaryOf(e, target);
+  }
+
+  function renderTargetChips(){
+    const el = document.getElementById("target-chips");
+    el.innerHTML = "";
+    Object.keys(TARGET_OPTIONS).forEach(function(k){
+      const c = document.createElement("button");
+      c.type = "button";
+      c.className = "chip" + (k===target ? " active" : "");
+      c.textContent = TARGET_OPTIONS[k].label;
+      c.onclick = function(){
+        target = k;
+        if (predictorsOn[target] !== undefined) predictorsOn[target] = false;
+        renderTargetChips(); renderPredictorChecks(); trainAndRender();
+      };
+      el.appendChild(c);
+    });
+  }
+
+  function renderPredictorChecks(){
+    const el = document.getElementById("predictor-checks");
+    el.innerHTML = "";
+    ["disc","tool","yr","reg"].forEach(function(k){
+      const disabled = (k === target);
+      const wrap = document.createElement("label");
+      wrap.className = "checkitem" + (disabled ? " disabled" : "");
+      const cb = document.createElement("input");
+      cb.type = "checkbox";
+      cb.checked = disabled ? false : predictorsOn[k];
+      cb.disabled = disabled;
+      cb.onchange = function(){ predictorsOn[k] = cb.checked; renderWhatif(); trainAndRender(); };
+      wrap.appendChild(cb);
+      wrap.appendChild(document.createTextNode(DIM[k].label));
+      el.appendChild(wrap);
+    });
+  }
+
+  function activePredictors(){
+    return ["disc","tool","yr","reg"].filter(function(k){ return k !== target && predictorsOn[k]; });
+  }
+
+  function renderWhatif(){
+    const container = document.getElementById("whatif-container");
+    container.innerHTML = '<label>Scenario</label>';
+    const preds = activePredictors();
+    if (!preds.length) {
+      const p = document.createElement("p");
+      p.style.cssText = "color:var(--ink-faint);font-size:0.8rem;margin:0;";
+      p.textContent = "Turn on at least one tag above to build a scenario.";
+      container.appendChild(p);
+      return;
+    }
+    preds.forEach(function(k){
+      const row = document.createElement("div");
+      row.className = "whatif-row";
+      const lab = document.createElement("label");
+      lab.textContent = DIM[k].label;
+      const sel = document.createElement("select");
+      const realCats = DIM[k].cats.filter(function(c){ return !c.isOther; });
+      realCats.forEach(function(c){
+        const o = document.createElement("option");
+        o.value = c.name; o.textContent = c.name + " (n=" + c.count + ")";
+        sel.appendChild(o);
+      });
+      if (whatif[k] === undefined) whatif[k] = realCats[0].name;
+      sel.value = whatif[k];
+      sel.onchange = function(){ whatif[k] = sel.value; renderPrediction(); };
+      row.appendChild(lab); row.appendChild(sel);
+      container.appendChild(row);
+    });
+  }
+
+  // ---- tiny multinomial logistic regression (softmax, batch GD, L2) ----
+  let model = null;
+
+  function buildFeatureSpace(preds){
+    const feats = [];
+    preds.forEach(function(k){
+      DIM[k].cats.forEach(function(c){
+        if (c.isOther) return;
+        feats.push({ key:k, cat:c.name, idx: feats.length });
+      });
+    });
+    return feats;
+  }
+
+  function featurizeEntry(e, feats, preds){
+    const x = new Array(feats.length).fill(0);
+    preds.forEach(function(k){
+      const vals = DIM[k].of(e);
+      vals.forEach(function(v){
+        for (let i=0;i<feats.length;i++){
+          if (feats[i].key===k && feats[i].cat===v) x[feats[i].idx] = 1;
+        }
+      });
+    });
+    return x;
+  }
+
+  function trainModel(){
+    const preds = activePredictors();
+    const classes = DIM[target].cats.filter(function(c){ return !c.isOther; }).map(function(c){ return c.name; });
+    const feats = buildFeatureSpace(preds);
+    const nF = feats.length, nC = classes.length;
+
+    if (!nF) { model = null; return; }
+
+    const rows = [];
+    RAW.forEach(function(e){
+      const cls = targetClassOf(e);
+      const ci = classes.indexOf(cls);
+      if (ci === -1) return; // folded into "+N more" — excluded from training
+      rows.push({ x: featurizeEntry(e, feats, preds), y: ci });
+    });
+
+    // deterministic shuffle + 80/20 split
+    let seed = 42;
+    function rnd(){ seed = (seed*1103515245+12345) & 0x7fffffff; return seed/0x7fffffff; }
+    const idx = rows.map(function(_,i){return i;});
+    for (let i=idx.length-1;i>0;i--){ const j=Math.floor(rnd()*(i+1)); const t=idx[i]; idx[i]=idx[j]; idx[j]=t; }
+    const cut = Math.floor(idx.length*0.8);
+    const trainIdx = idx.slice(0,cut), testIdx = idx.slice(cut);
+
+    const W = new Array(nC).fill(0).map(function(){ return new Array(nF+1).fill(0); }); // +1 bias
+
+    function forward(x){
+      const logits = W.map(function(w){
+        let s = w[nF];
+        for (let i=0;i<nF;i++) s += w[i]*x[i];
+        return s;
+      });
+      const m = Math.max.apply(null, logits);
+      const exps = logits.map(function(v){ return Math.exp(v-m); });
+      const sum = exps.reduce(function(a,b){return a+b;},0);
+      return exps.map(function(v){ return v/sum; });
+    }
+
+    const lr = 0.4, l2 = 0.4, iters = 350;
+    for (let it=0; it<iters; it++){
+      const grad = new Array(nC).fill(0).map(function(){ return new Array(nF+1).fill(0); });
+      trainIdx.forEach(function(ri){
+        const r = rows[ri];
+        const probs = forward(r.x);
+        for (let c=0;c<nC;c++){
+          const err = probs[c] - (c===r.y ? 1 : 0);
+          for (let i=0;i<nF;i++) grad[c][i] += err*r.x[i];
+          grad[c][nF] += err;
+        }
+      });
+      const nTrain = trainIdx.length || 1;
+      for (let c=0;c<nC;c++){
+        for (let i=0;i<nF;i++) W[c][i] -= lr*(grad[c][i]/nTrain + l2*W[c][i]/nTrain);
+        W[c][nF] -= lr*(grad[c][nF]/nTrain);
+      }
+    }
+
+    function acc(idxList){
+      if (!idxList.length) return null;
+      let correct = 0;
+      idxList.forEach(function(ri){
+        const r = rows[ri];
+        const probs = forward(r.x);
+        let best = 0;
+        for (let c=1;c<nC;c++) if (probs[c]>probs[best]) best = c;
+        if (best === r.y) correct++;
+      });
+      return correct/idxList.length;
+    }
+
+    model = {
+      W: W, feats: feats, classes: classes, forward: forward,
+      n: rows.length, trainAcc: acc(trainIdx), testAcc: acc(testIdx), testN: testIdx.length
+    };
+  }
+
+  function renderPrediction(){
+    const container = document.getElementById("predbars");
+    container.innerHTML = "";
+    if (!model){
+      container.innerHTML = '<p style="color:var(--ink-faint);font-size:0.8rem;">No predictors selected.</p>';
+      return;
+    }
+    const preds = activePredictors();
+    const x = new Array(model.feats.length).fill(0);
+    preds.forEach(function(k){
+      const v = whatif[k];
+      if (v === undefined) return;
+      model.feats.forEach(function(f){ if (f.key===k && f.cat===v) x[f.idx] = 1; });
+    });
+    const probs = model.forward(x);
+    const rows = model.classes.map(function(c,i){ return { c:c, p:probs[i] }; });
+    rows.sort(function(a,b){ return b.p-a.p; });
+    const fill = TARGET_FILL[target] || "var(--accent)";
+    rows.forEach(function(r){
+      const row = document.createElement("div");
+      row.className = "predbar-row";
+      const pct = (r.p*100).toFixed(0);
+      row.innerHTML = '<div class="predbar-label">'+r.c+'</div>'+
+        '<div class="predbar-track"><div class="predbar-fill" style="width:'+pct+'%;background:'+fill+'"></div></div>'+
+        '<div class="predbar-val">'+pct+'%</div>';
+      container.appendChild(row);
+    });
+  }
+
+  function renderDiagnostics(){
+    const el = document.getElementById("diagnostics");
+    if (!model){
+      el.textContent = "Select at least one predictor tag to train a model.";
+      return;
+    }
+    const trainPct = model.trainAcc!==null ? (model.trainAcc*100).toFixed(0)+"%" : "—";
+    const testPct = model.testAcc!==null ? (model.testAcc*100).toFixed(0)+"%" : "—";
+    const chanceLevel = (100/model.classes.length).toFixed(0)+"%";
+    el.innerHTML = "Trained on " + model.n + " entries (80/20 holdout). " +
+      "Holdout accuracy " + testPct + " on " + model.testN + " held-out cases, vs. train accuracy " + trainPct +
+      " and " + chanceLevel + " chance level (" + model.classes.length + " classes). L2-regularized softmax regression, " +
+      model.feats.length + " one-hot features.";
+  }
+
+  function renderFeatureList(){
+    const el = document.getElementById("feat-list");
+    el.innerHTML = "";
+    if (!model){ return; }
+    const items = [];
+    model.W.forEach(function(w, ci){
+      model.feats.forEach(function(f, fi){
+        items.push({ cls: model.classes[ci], key: f.key, cat: f.cat, w: w[fi] });
+      });
+    });
+    items.sort(function(a,b){ return b.w - a.w; });
+    items.slice(0, 10).forEach(function(it){
+      const row = document.createElement("div");
+      row.className = "feat-row";
+      row.innerHTML = '<div class="fn"><b>'+it.cat+'</b> ('+DIM[it.key].label+')</div>'+
+        '<div class="fn">raises P(<b>'+it.cls+'</b>)</div>';
+      el.appendChild(row);
+    });
+  }
+
+  function trainAndRender(){
+    trainModel();
+    renderDiagnostics();
+    renderPrediction();
+    renderFeatureList();
+  }
+
+  // ---------------------------------------------------------------------
+  // boot
+  // ---------------------------------------------------------------------
+  renderTrendChips();
+  renderTrend();
+  renderTopTrends();
+  populateAssocSelects();
+  renderHeatmap();
+  renderRankList();
+  renderTargetChips();
+  renderPredictorChecks();
+  renderWhatif();
+  trainAndRender();
+
+})();
+</script>
+</body>
+</html>

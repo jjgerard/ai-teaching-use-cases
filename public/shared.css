@@ -185,6 +185,7 @@
   }
   .contribute-btn:hover { background: linear-gradient(180deg, #ffffff 0%, #c3cad2 100%); }
   .tally-count { text-align: right; }
+  .tally-actions { display: flex; flex-direction: column; gap: 0.5rem; }
 
   
 

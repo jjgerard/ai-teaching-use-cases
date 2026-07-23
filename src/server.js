@@ -214,6 +214,9 @@ app.get("/submit", (req, res) => {
 app.get("/admin", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "public", "admin.html"));
 });
+app.get("/trends", (req, res) => {
+  res.sendFile(path.join(__dirname, "..", "public", "trends.html"));
+});
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "public", "catalog.html"));
 });
