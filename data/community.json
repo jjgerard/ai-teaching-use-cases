@@ -5404,5 +5404,101 @@
     "ev": "The in-person final's average fell to 48.6% — the course's historic low — with 3 students scoring zero. Of the 27 students who subsequently dropped the course or skipped the final, 22 had scored perfectly on the take-home midterm, a strong proxy signal that the drop-off was concentrated among students who could no longer rely on unproctored AI assistance.",
     "repo": "brown-serrano",
     "source": "seed"
+  },
+  {
+    "t": "Using AI to clean and explore two decades of citizen-science bird-sighting data",
+    "by": "Unspecified",
+    "inst": "Johns Hopkins Sheridan Libraries (Hopkins AI Lab)",
+    "u": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
+    "reg": "US",
+    "yr": "Unspecified",
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "A Hopkins AI Lab consultation helped an ornithology researcher develop a strategy to clean and explore a bird-sighting dataset built up over roughly two decades from citizen-science websites, automating detection of missing values, errors, and duplicates in a dataset too large to check row by row.",
+    "ev": "",
+    "repo": "jhu-ailab",
+    "source": "seed"
+  },
+  {
+    "t": "Mapping pothole locations from street imagery with a pretrained pavement-crack-detection model",
+    "by": "Unspecified",
+    "inst": "Johns Hopkins Sheridan Libraries (Hopkins AI Lab)",
+    "u": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
+    "reg": "US",
+    "yr": "Unspecified",
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Engineering"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "Using Esri's ArcGIS Pavement Crack Detection pretrained model, a Hopkins AI Lab consultation helped map road-damage locations across Baltimore City to help prioritize municipal repair crews' work.",
+    "ev": "",
+    "repo": "jhu-ailab",
+    "source": "seed"
+  },
+  {
+    "t": "Quantifying hurricane building damage from before/after satellite imagery",
+    "by": "Unspecified",
+    "inst": "Johns Hopkins Sheridan Libraries (Hopkins AI Lab)",
+    "u": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
+    "reg": "US",
+    "yr": "Unspecified",
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "A Hopkins AI Lab consultation applied ArcGIS's Building Change Detection pretrained model to before/after satellite imagery of a hurricane-affected area, automatically locating buildings that were damaged or destroyed rather than assessing the imagery by eye.",
+    "ev": "",
+    "repo": "jhu-ailab",
+    "source": "seed"
+  },
+  {
+    "t": "Designing a geographically-referenced neighborhood safety survey with ArcGIS Survey123 Assistant",
+    "by": "Unspecified",
+    "inst": "Johns Hopkins Sheridan Libraries (Hopkins AI Lab)",
+    "u": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
+    "reg": "US",
+    "yr": "Unspecified",
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "A Hopkins AI Lab consultation used the ArcGIS Survey123 Assistant to design a geographically-referenced public-perception survey on neighborhood safety, distributed to community groups as an alternative to door-to-door data collection.",
+    "ev": "",
+    "repo": "jhu-ailab",
+    "source": "seed"
+  },
+  {
+    "t": "Debugging a brain-tumor-detection ML model's Python code",
+    "by": "Unspecified",
+    "inst": "Johns Hopkins Sheridan Libraries (Hopkins AI Lab)",
+    "u": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
+    "reg": "US",
+    "yr": "Unspecified",
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Health & Medicine",
+      "Computer Science"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "A Hopkins AI Lab consultation helped a researcher developing a machine-learning model for early brain-tumor detection from MRI scans debug Python code that was producing inaccurate predictions, with AI interpreting the errors and suggesting fixes.",
+    "ev": "",
+    "repo": "jhu-ailab",
+    "source": "seed"
   }
 ]

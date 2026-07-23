@@ -4865,6 +4865,92 @@
       "s": "After an unproctored take-home midterm in a welfare economics/social choice theory course produced a 96% class average (versus a historical 65–80%) with 40 perfect scores and answers bearing hallmarks of AI generation, the instructor switched the final exam to an in-person, proctored format.",
       "ev": "The in-person final's average fell to 48.6% — the course's historic low — with 3 students scoring zero. Of the 27 students who subsequently dropped the course or skipped the final, 22 had scored perfectly on the take-home midterm, a strong proxy signal that the drop-off was concentrated among students who could no longer rely on unproctored AI assistance.",
       "q": "This exam was harder than the exams I wrote in the past...take-home is an opportunity to challenge the class a little bit more."
+    },
+    {
+      "t": "Using AI to clean and explore two decades of citizen-science bird-sighting data",
+      "u": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
+      "by": "Unspecified",
+      "inst": "Johns Hopkins Sheridan Libraries (Hopkins AI Lab)",
+      "repo": "jhu-ailab",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Life Sciences"
+      ],
+      "yr": "Unspecified",
+      "s": "A Hopkins AI Lab consultation helped an ornithology researcher develop a strategy to clean and explore a bird-sighting dataset built up over roughly two decades from citizen-science websites, automating detection of missing values, errors, and duplicates in a dataset too large to check row by row."
+    },
+    {
+      "t": "Mapping pothole locations from street imagery with a pretrained pavement-crack-detection model",
+      "u": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
+      "by": "Unspecified",
+      "inst": "Johns Hopkins Sheridan Libraries (Hopkins AI Lab)",
+      "repo": "jhu-ailab",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Engineering"
+      ],
+      "yr": "Unspecified",
+      "s": "Using Esri's ArcGIS Pavement Crack Detection pretrained model, a Hopkins AI Lab consultation helped map road-damage locations across Baltimore City to help prioritize municipal repair crews' work."
+    },
+    {
+      "t": "Quantifying hurricane building damage from before/after satellite imagery",
+      "u": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
+      "by": "Unspecified",
+      "inst": "Johns Hopkins Sheridan Libraries (Hopkins AI Lab)",
+      "repo": "jhu-ailab",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Physical Sciences"
+      ],
+      "yr": "Unspecified",
+      "s": "A Hopkins AI Lab consultation applied ArcGIS's Building Change Detection pretrained model to before/after satellite imagery of a hurricane-affected area, automatically locating buildings that were damaged or destroyed rather than assessing the imagery by eye."
+    },
+    {
+      "t": "Designing a geographically-referenced neighborhood safety survey with ArcGIS Survey123 Assistant",
+      "u": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
+      "by": "Unspecified",
+      "inst": "Johns Hopkins Sheridan Libraries (Hopkins AI Lab)",
+      "repo": "jhu-ailab",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Social Sciences"
+      ],
+      "yr": "Unspecified",
+      "s": "A Hopkins AI Lab consultation used the ArcGIS Survey123 Assistant to design a geographically-referenced public-perception survey on neighborhood safety, distributed to community groups as an alternative to door-to-door data collection."
+    },
+    {
+      "t": "Debugging a brain-tumor-detection ML model's Python code",
+      "u": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
+      "by": "Unspecified",
+      "inst": "Johns Hopkins Sheridan Libraries (Hopkins AI Lab)",
+      "repo": "jhu-ailab",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Health & Medicine",
+        "Computer Science"
+      ],
+      "yr": "Unspecified",
+      "s": "A Hopkins AI Lab consultation helped a researcher developing a machine-learning model for early brain-tumor detection from MRI scans debug Python code that was producing inaccurate predictions, with AI interpreting the errors and suggesting fixes."
     }
   ],
   "REPOS": {
@@ -5227,6 +5313,12 @@
       "short": "Brown (Serrano)",
       "url": "https://www.insidehighered.com/news/faculty/learning-assessment/2026/07/08/brown-professor-suspects-most-his-class-used-ai-cheat",
       "blurb": "Inside Higher Ed coverage of a Brown University economics professor's switch from a take-home to an in-person final exam after suspected widespread AI use, with before/after score data."
+    },
+    "jhu-ailab": {
+      "label": "Johns Hopkins Sheridan Libraries — Hopkins AI Lab Case Studies",
+      "short": "JHU (Hopkins AI Lab)",
+      "url": "https://guides.library.jhu.edu/c.php?g=1465762&p=10904524",
+      "blurb": "Short, researcher-anonymized case studies from Johns Hopkins Sheridan Libraries' Hopkins AI Lab, describing real consultations on using AI tools within an ongoing research project — only the institution is named, not the individual researcher."
     }
   }
 }
