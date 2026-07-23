@@ -5004,6 +5004,24 @@
       ],
       "yr": 2025,
       "s": "Researchers used ChatGPT, GitHub Copilot, and PaperQA to automate parts of a real biotech workflow — literature review, code generation, and functional network analysis of public proteomic data — for a study of protein networks in invasive colorectal cancer, identifying cytoskeleton- and signaling-related networks consistent with known biology. A separate attempt to run the same analysis fully autonomously via an AI agent framework failed from hallucinated data, goal misinterpretation, and instability, illustrating that the tools assisted rather than replaced the human researchers."
+    },
+    {
+      "t": "Using computational distributional semantics to track conceptual change across 60,000 Early Modern English texts",
+      "u": "https://www.linguisticdna.org/",
+      "by": "Susan Fitzmaurice, Justyna A. Robinson, Marc Alexander, Iona C. Hine, Seth Mehl, Fraser Dallachy",
+      "inst": "Universities of Sheffield, Glasgow, and Sussex",
+      "repo": "linguisticdna",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Languages & Linguistics",
+        "Arts & Humanities"
+      ],
+      "yr": 2017,
+      "s": "The AHRC-funded 'Linguistic DNA' project applied computational distributional-semantics methods to roughly 60,000 Early Modern English printed texts (EEBO-TCP, later extended with ECCO) to discover 'discursive concepts' — clusters of co-occurring expressions — and trace how they shifted between about 1500 and 1800, aiming to surface relationships between words and ideas that exceed human intuition through big-data computational analysis."
     }
   ],
   "REPOS": {
@@ -5384,6 +5402,12 @@
       "short": "bioRxiv (AI Co-Pilot)",
       "url": "https://www.biorxiv.org/content/10.1101/2025.05.14.654152",
       "blurb": "A Northeastern University preprint documenting a real attempt to use ChatGPT, GitHub Copilot, and PaperQA as research co-pilots in a biotech workflow, including an honest account of where a fully autonomous AI agent attempt failed."
+    },
+    "linguisticdna": {
+      "label": "Linguistic DNA — Modelling Concepts and Semantic Change in Early Modern English",
+      "short": "Linguistic DNA",
+      "url": "https://www.linguisticdna.org/",
+      "blurb": "An AHRC-funded project (Universities of Sheffield, Glasgow, and Sussex) applying computational distributional semantics to roughly 60,000 Early Modern English texts (EEBO-TCP, later ECCO) to track conceptual and semantic change c.1500-c.1800."
     }
   }
 }
