@@ -17,25 +17,15 @@
   .stance-note-inner p:last-child { margin-bottom: 0; }
   .stance-note-inner a { color: var(--accent-ink); }
   .caveat-mark {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0.4em;
-    padding: 0.1em 0.45em;
-    font-size: 0.68rem;
+    margin-left: 0.15em;
+    font-size: 1.5em;
     font-weight: 800;
-    letter-spacing: 0.02em;
-    border-radius: 999px;
-    background: #fbe6c8;
-    color: #8a5a12;
+    color: #d81e2c;
     text-decoration: none;
-    vertical-align: middle;
-    position: relative;
-    top: -0.3em;
   }
-  :root[data-theme="dark"] .caveat-mark { background: #3a2c14; color: #f0c584; }
+  :root[data-theme="dark"] .caveat-mark { color: #ff6b6b; }
   @media (prefers-color-scheme: dark) {
-    :root:not([data-theme="light"]) .caveat-mark { background: #3a2c14; color: #f0c584; }
+    :root:not([data-theme="light"]) .caveat-mark { color: #ff6b6b; }
   }
 </style>
 
