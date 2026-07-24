@@ -23,14 +23,31 @@
   </div>
 </div>
 
-<nav class="tab-nav">
+<nav class="tab-nav" id="tabNav">
   <div class="tab-nav-inner">
-    <a class="tab-link" href="/">Teaching Case Studies</a>
-    <a class="tab-link active" href="/ai-for-research">Research Case Studies</a>
-    <a class="tab-link" href="/reducing-ai-use">Reducing AI (mis)use</a>
-    <a class="tab-link" href="/about">About</a>
+    <button class="tab-nav-toggle" type="button" aria-expanded="false" aria-controls="tabNavLinks" aria-label="Toggle navigation menu">
+      <span class="tab-nav-toggle-bar"></span>
+      <span class="tab-nav-toggle-bar"></span>
+      <span class="tab-nav-toggle-bar"></span>
+    </button>
+    <div class="tab-nav-links" id="tabNavLinks">
+      <a class="tab-link" href="/">Teaching Case Studies</a>
+      <a class="tab-link active" href="/ai-for-research">Research Case Studies</a>
+      <a class="tab-link" href="/reducing-ai-use">Reducing AI (mis)use</a>
+      <a class="tab-link" href="/about">About</a>
+    </div>
   </div>
 </nav>
+<script>
+  (function () {
+    var nav = document.getElementById("tabNav");
+    var toggle = nav.querySelector(".tab-nav-toggle");
+    toggle.addEventListener("click", function () {
+      var open = nav.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  })();
+</script>
 
 <div class="modal-overlay hidden" id="editRequestOverlay">
   <div class="modal" role="dialog" aria-modal="true" aria-labelledby="editRequestTitle">
@@ -130,7 +147,7 @@
     <li>Several of these entries come from Ulster University's <a href="https://adaptiveai.ulster.ac.uk/library" target="_blank" rel="noopener">AdaptiveAI project</a> and its <a href="https://blogs.ulster.ac.uk/adaptiveai/start-ai-talks/" target="_blank" rel="noopener">Start AI Talks</a> seminar series, used as a model for the kind of case study this page collects.</li>
     <li>Where AI proposed a hypothesis or finding (e.g. the Google AI co-scientist entries), inclusion required that the result was independently validated by the human research team through experiment — not just an AI-generated claim taken at face value.</li>
   </ul>
-  <p class="footer-credit">Source &amp; data on <a href="https://github.com/jjgerard/ai-teaching-use-cases" target="_blank" rel="noopener">GitHub</a>. Case study text is licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> — reuse it with credit.</p>
+  <p class="footer-credit">Source &amp; data on <a href="https://github.com/jjgerard/ai-teaching-use-cases" target="_blank" rel="noopener">GitHub</a>. The summaries and metadata written for this catalog are licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> — reuse them with credit. This site does not own or license the underlying case studies themselves; copyright in that original work belongs to its authors and institutions, and each entry here just links out to it.</p>
 </footer>
 
 <script>

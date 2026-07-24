@@ -48,14 +48,31 @@
   </div>
 </div>
 
-<nav class="tab-nav">
+<nav class="tab-nav" id="tabNav">
   <div class="tab-nav-inner">
-    <a class="tab-link" href="/">Teaching Case Studies</a>
-    <a class="tab-link" href="/ai-for-research">Research Case Studies</a>
-    <a class="tab-link active" href="/reducing-ai-use">Reducing AI (mis)use</a>
-    <a class="tab-link" href="/about">About</a>
+    <button class="tab-nav-toggle" type="button" aria-expanded="false" aria-controls="tabNavLinks" aria-label="Toggle navigation menu">
+      <span class="tab-nav-toggle-bar"></span>
+      <span class="tab-nav-toggle-bar"></span>
+      <span class="tab-nav-toggle-bar"></span>
+    </button>
+    <div class="tab-nav-links" id="tabNavLinks">
+      <a class="tab-link" href="/">Teaching Case Studies</a>
+      <a class="tab-link" href="/ai-for-research">Research Case Studies</a>
+      <a class="tab-link active" href="/reducing-ai-use">Reducing AI (mis)use</a>
+      <a class="tab-link" href="/about">About</a>
+    </div>
   </div>
 </nav>
+<script>
+  (function () {
+    var nav = document.getElementById("tabNav");
+    var toggle = nav.querySelector(".tab-nav-toggle");
+    toggle.addEventListener("click", function () {
+      var open = nav.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  })();
+</script>
 
 <div class="stance-note" id="examCaveat">
   <div class="stance-note-inner">
@@ -154,7 +171,7 @@
     <li>All three entries here currently rely on academic-integrity/misconduct case counts as their measure of "AI use going down," rather than direct usage data (e.g. student self-report, detection-tool flag rates). That's a real limitation worth keeping in mind when weighing how strong this evidence is.</li>
     <li>Where a source is paywalled beyond its abstract, that's noted directly in the entry's evidence text, since it affects how much the headline claim can be verified.</li>
   </ul>
-  <p class="footer-credit">Source &amp; data on <a href="https://github.com/jjgerard/ai-teaching-use-cases" target="_blank" rel="noopener">GitHub</a>. Case study text is licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> — reuse it with credit.</p>
+  <p class="footer-credit">Source &amp; data on <a href="https://github.com/jjgerard/ai-teaching-use-cases" target="_blank" rel="noopener">GitHub</a>. The summaries and metadata written for this catalog are licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> — reuse them with credit. This site does not own or license the underlying case studies themselves; copyright in that original work belongs to its authors and institutions, and each entry here just links out to it.</p>
 </footer>
 
 <script>

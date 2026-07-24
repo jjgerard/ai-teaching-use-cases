@@ -187,7 +187,11 @@ those criteria, directing the research, and reviewing what actually qualifies.
 This repository is dual-licensed:
 
 - **Code** (`src/`, `public/`) — [MIT](LICENSE). Use, fork, and modify freely.
-- **Case study data** (`data/seed.json`, `data/community.json`) —
-  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse it anywhere,
-  including commercially, as long as you credit this project and link back to
-  the source repository.
+- **Catalog data** (`data/seed.json`, `data/community.json`) — the summaries,
+  quotes-in-context, and metadata written for this project are
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Reuse them
+  anywhere, including commercially, as long as you credit this project and
+  link back to the source repository. This license covers only what was
+  written here — it does not extend to the case studies themselves, which
+  remain the copyright of their original authors and institutions; each entry
+  just links out to the source.

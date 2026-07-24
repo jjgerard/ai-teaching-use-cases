@@ -30,14 +30,31 @@
   </div>
 </div>
 
-<nav class="tab-nav">
+<nav class="tab-nav" id="tabNav">
   <div class="tab-nav-inner">
-    <a class="tab-link" href="/">Teaching Case Studies</a>
-    <a class="tab-link" href="/ai-for-research">Research Case Studies</a>
-    <a class="tab-link" href="/reducing-ai-use">Reducing AI (mis)use</a>
-    <a class="tab-link active" href="/about">About</a>
+    <button class="tab-nav-toggle" type="button" aria-expanded="false" aria-controls="tabNavLinks" aria-label="Toggle navigation menu">
+      <span class="tab-nav-toggle-bar"></span>
+      <span class="tab-nav-toggle-bar"></span>
+      <span class="tab-nav-toggle-bar"></span>
+    </button>
+    <div class="tab-nav-links" id="tabNavLinks">
+      <a class="tab-link" href="/">Teaching Case Studies</a>
+      <a class="tab-link" href="/ai-for-research">Research Case Studies</a>
+      <a class="tab-link" href="/reducing-ai-use">Reducing AI (mis)use</a>
+      <a class="tab-link active" href="/about">About</a>
+    </div>
   </div>
 </nav>
+<script>
+  (function () {
+    var nav = document.getElementById("tabNav");
+    var toggle = nav.querySelector(".tab-nav-toggle");
+    toggle.addEventListener("click", function () {
+      var open = nav.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  })();
+</script>
 
 <div class="about-wrap">
   <div class="card">
@@ -67,7 +84,7 @@
   <div class="card">
     <h2>Who built this</h2>
     <p>This catalog and its content were built by <a href="https://julianagerard.com" target="_blank" rel="noopener">Juliana Gerard</a>, a lecturer in Linguistics at <a href="https://ulster.ac.uk" target="_blank" rel="noopener">Ulster University</a>. The application code was written with <a href="https://claude.com/claude-code" target="_blank" rel="noopener">Claude Code</a> (Anthropic), which was also used to source candidate case studies, screen them against the inclusion criteria, and write entries; the human work is setting those criteria, directing the research, and reviewing what actually qualifies.</p>
-    <p>Case study data (everything in the catalogs) is available under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> — reuse it anywhere, including commercially, as long as you credit this project and link back. The application code is <a href="https://github.com/jjgerard/ai-teaching-use-cases" target="_blank" rel="noopener">MIT-licensed and open source on GitHub</a>.</p>
+    <p>The summaries, quotes-in-context, and metadata written for these catalogs are available under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> — reuse them anywhere, including commercially, as long as you credit this project and link back. That license covers only what was written here: this site claims no copyright or ownership over the case studies themselves, which remain the work of their original authors and institutions — each entry simply links out to the source. The application code is <a href="https://github.com/jjgerard/ai-teaching-use-cases" target="_blank" rel="noopener">MIT-licensed and open source on GitHub</a>.</p>
     <div class="about-links">
       <a class="ghost-btn" href="/submit" style="text-decoration:none; display:inline-block;">Suggest a case study</a>
       <a class="ghost-btn" href="https://github.com/jjgerard/ai-teaching-use-cases" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;">View source on GitHub</a>
