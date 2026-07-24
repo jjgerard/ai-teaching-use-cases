@@ -5006,6 +5006,95 @@
       "yr": 2025,
       "s": "A researcher used GitHub Copilot to build a secure, GDPR-compliant, HPC-compatible speech-transcription pipeline around OpenAI's open-source Whisper models, replacing manual interview transcription -- previously hours of typing per hour of audio -- with automated processing in minutes, enabling large-scale qualitative analysis of sensitive audio data that couldn't previously be sent to cloud-based transcription tools.",
       "q": "Copilot, not autopilot: review and revise the output conscientiously and relentlessly."
+    },
+    {
+      "t": "Predicting Alzheimer's disease from brain scans with a clinically-deployed machine-learning algorithm",
+      "u": "https://www.hpc.cam.ac.uk/index.php/ai-image-recognition-alzheimers-research",
+      "by": "Prof. Zoe Kourtzi",
+      "inst": "University of Cambridge (Research Computing Services)",
+      "repo": "cambridge-hpc",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": "Unspecified",
+      "s": "Working with Research Computing Services, Professor Zoe Kourtzi's team trained a machine-learning algorithm on brain scans and standard memory-test results to predict which patients with mild cognitive impairment would go on to develop Alzheimer's disease, then packaged it as a plug-in for XNAT, the imaging platform already deployed at most NHS and research-imaging sites.",
+      "ev": "Reported over 80% accuracy predicting progression to Alzheimer's in patients with mild cognitive impairment; the approach is now in an NHS clinical trial across three trusts, with around 80 patients enrolled to date."
+    },
+    {
+      "t": "Segmenting tree crowns from aerial photographs to monitor forest canopies at scale",
+      "u": "https://www.csd3.cam.ac.uk/forest-canopies-project",
+      "by": "James Ball",
+      "inst": "University of Cambridge (Research Computing Services)",
+      "repo": "cambridge-hpc",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Life Sciences"
+      ],
+      "yr": "Unspecified",
+      "s": "Research Computing Services engineered Detectree2, a computer-vision pipeline built for James Ball's Forest Canopies Project that segments individual tree crowns from aerial photographs, improving the software for both training and field prediction so conservation teams can run drone-based species recognition and canopy monitoring at scale."
+    },
+    {
+      "t": "Screening for kidney cancer from CT scans with deep learning trained on the Dawn supercomputer",
+      "u": "https://www.hpc.cam.ac.uk/dawn-magic-bullet-kidney-cancer",
+      "by": "Bill McGough",
+      "inst": "University of Cambridge (Research Computing Services)",
+      "repo": "cambridge-hpc",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": "Unspecified",
+      "s": "Bill McGough's research used the Dawn supercomputer to train deep-learning models on multi-phase CT scans for kidney cancer screening, aiming to make large-scale screening more affordable.",
+      "ev": "Early findings reported radiologist-level screening accuracy while also enabling lower-radiation scans and reduced use of contrast medium."
+    },
+    {
+      "t": "Forecasting Arctic sea ice three months ahead with an AI model trained on the Dawn supercomputer",
+      "u": "https://www.hpc.cam.ac.uk/index.php/dawn-powering-cutting-edge-sea-ice-forecasting-system",
+      "by": "Dr Scott Hosking",
+      "inst": "University of Cambridge (Research Computing Services)",
+      "repo": "cambridge-hpc",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Physical Sciences"
+      ],
+      "yr": "Unspecified",
+      "s": "IceNet, an AI model trained on observational and climate-simulation data, forecasts the next three months of daily Arctic sea-ice concentration; running the pipeline on the Dawn supercomputer accelerated training and let the team scale it up.",
+      "ev": "The resulting forecasts are being integrated into downstream tools for wildlife protection, community support, and lower-carbon marine navigation planning."
+    },
+    {
+      "t": "The AI Risk Measurement Scale (ARMS) — redesigning assessments to cut GenAI-enabled misconduct",
+      "u": "https://www.aacsb.edu/insights/articles/2024/10/can-that-assignment-be-completed-with-genai",
+      "by": "Katharina De Vita and Gary Brown",
+      "inst": "University of Greenwich Business School",
+      "repo": "greenwich-arms",
+      "reg": "UK",
+      "th": "Reduced AI Use (Evidenced)",
+      "tool": [
+        "Unspecified"
+      ],
+      "disc": [
+        "Business & Management"
+      ],
+      "yr": 2024,
+      "s": "The AI Risk Measurement Scale (ARMS) scores how vulnerable a given assessment is to being completed with GenAI, then guides programme leaders through redesigning the higher-risk ones. It was piloted in three Greenwich Business School programmes before wider rollout across the school.",
+      "ev": "The school reported a substantial drop in assessment-misconduct cases in the academic year following the wider rollout of ARMS-informed assessment redesigns."
     }
   ],
   "REPOS": {
@@ -5392,6 +5481,18 @@
       "short": "Linguistic DNA",
       "url": "https://www.linguisticdna.org/",
       "blurb": "An AHRC-funded project (Universities of Sheffield, Glasgow, and Sussex) applying computational distributional semantics to roughly 60,000 Early Modern English texts (EEBO-TCP, later ECCO) to track conceptual and semantic change c.1500-c.1800."
+    },
+    "cambridge-hpc": {
+      "label": "University of Cambridge Research Computing Services — AI & HPC Case Studies",
+      "short": "Cambridge (Research Computing Services)",
+      "url": "https://www.hpc.cam.ac.uk",
+      "blurb": "Case studies from Cambridge's Research Computing Services and HPC facilities (including the Dawn AI supercomputer) describing machine-learning and AI methods built directly into researchers' own projects."
+    },
+    "greenwich-arms": {
+      "label": "University of Greenwich — AI Risk Measurement Scale (ARMS)",
+      "short": "Greenwich (ARMS)",
+      "url": "https://www.aacsb.edu/insights/articles/2024/10/can-that-assignment-be-completed-with-genai",
+      "blurb": "An assessment-redesign framework and pilot from Greenwich Business School that scores assignments by how vulnerable they are to being completed with GenAI, then redesigns the highest-risk ones."
     }
   }
 }

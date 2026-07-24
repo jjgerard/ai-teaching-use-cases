@@ -5561,5 +5561,100 @@
     "ev": "",
     "repo": "oxford-airesearch",
     "source": "seed"
+  },
+  {
+    "t": "Predicting Alzheimer's disease from brain scans with a clinically-deployed machine-learning algorithm",
+    "by": "Prof. Zoe Kourtzi",
+    "inst": "University of Cambridge (Research Computing Services)",
+    "u": "https://www.hpc.cam.ac.uk/index.php/ai-image-recognition-alzheimers-research",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "Working with Research Computing Services, Professor Zoe Kourtzi's team trained a machine-learning algorithm on brain scans and standard memory-test results to predict which patients with mild cognitive impairment would go on to develop Alzheimer's disease, then packaged it as a plug-in for XNAT, the imaging platform already deployed at most NHS and research-imaging sites.",
+    "ev": "Reported over 80% accuracy predicting progression to Alzheimer's in patients with mild cognitive impairment; the approach is now in an NHS clinical trial across three trusts, with around 80 patients enrolled to date.",
+    "repo": "cambridge-hpc",
+    "source": "seed"
+  },
+  {
+    "t": "Segmenting tree crowns from aerial photographs to monitor forest canopies at scale",
+    "by": "James Ball",
+    "inst": "University of Cambridge (Research Computing Services)",
+    "u": "https://www.csd3.cam.ac.uk/forest-canopies-project",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Life Sciences"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "Research Computing Services engineered Detectree2, a computer-vision pipeline built for James Ball's Forest Canopies Project that segments individual tree crowns from aerial photographs, improving the software for both training and field prediction so conservation teams can run drone-based species recognition and canopy monitoring at scale.",
+    "ev": "",
+    "repo": "cambridge-hpc",
+    "source": "seed"
+  },
+  {
+    "t": "Screening for kidney cancer from CT scans with deep learning trained on the Dawn supercomputer",
+    "by": "Bill McGough",
+    "inst": "University of Cambridge (Research Computing Services)",
+    "u": "https://www.hpc.cam.ac.uk/dawn-magic-bullet-kidney-cancer",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Health & Medicine"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "Bill McGough's research used the Dawn supercomputer to train deep-learning models on multi-phase CT scans for kidney cancer screening, aiming to make large-scale screening more affordable.",
+    "ev": "Early findings reported radiologist-level screening accuracy while also enabling lower-radiation scans and reduced use of contrast medium.",
+    "repo": "cambridge-hpc",
+    "source": "seed"
+  },
+  {
+    "t": "Forecasting Arctic sea ice three months ahead with an AI model trained on the Dawn supercomputer",
+    "by": "Dr Scott Hosking",
+    "inst": "University of Cambridge (Research Computing Services)",
+    "u": "https://www.hpc.cam.ac.uk/index.php/dawn-powering-cutting-edge-sea-ice-forecasting-system",
+    "reg": "UK",
+    "yr": "Unspecified",
+    "th": "AI-Assisted Research",
+    "disc": [
+      "Physical Sciences"
+    ],
+    "tool": [
+      "Other"
+    ],
+    "s": "IceNet, an AI model trained on observational and climate-simulation data, forecasts the next three months of daily Arctic sea-ice concentration; running the pipeline on the Dawn supercomputer accelerated training and let the team scale it up.",
+    "ev": "The resulting forecasts are being integrated into downstream tools for wildlife protection, community support, and lower-carbon marine navigation planning.",
+    "repo": "cambridge-hpc",
+    "source": "seed"
+  },
+  {
+    "t": "The AI Risk Measurement Scale (ARMS) — redesigning assessments to cut GenAI-enabled misconduct",
+    "by": "Katharina De Vita and Gary Brown",
+    "inst": "University of Greenwich Business School",
+    "u": "https://www.aacsb.edu/insights/articles/2024/10/can-that-assignment-be-completed-with-genai",
+    "reg": "UK",
+    "yr": 2024,
+    "th": "Reduced AI Use (Evidenced)",
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "The AI Risk Measurement Scale (ARMS) scores how vulnerable a given assessment is to being completed with GenAI, then guides programme leaders through redesigning the higher-risk ones. It was piloted in three Greenwich Business School programmes before wider rollout across the school.",
+    "ev": "The school reported a substantial drop in assessment-misconduct cases in the academic year following the wider rollout of ARMS-informed assessment redesigns.",
+    "repo": "greenwich-arms",
+    "source": "seed"
   }
 ]
