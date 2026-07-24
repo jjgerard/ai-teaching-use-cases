@@ -5095,6 +5095,237 @@
       "yr": 2024,
       "s": "The AI Risk Measurement Scale (ARMS) scores how vulnerable a given assessment is to being completed with GenAI, then guides programme leaders through redesigning the higher-risk ones. It was piloted in three Greenwich Business School programmes before wider rollout across the school.",
       "ev": "The school reported a substantial drop in assessment-misconduct cases in the academic year following the wider rollout of ARMS-informed assessment redesigns."
+    },
+    {
+      "t": "Cutting fashion-prototyping time from 80 minutes to under 5 with generative AI pipelines",
+      "u": "https://www.ni-hpc.ac.uk/CaseStudies/RevolutionisingFashionPrototypingwithAIandHigh-PerformanceComputing/",
+      "by": "Suhasish Basak",
+      "inst": "Belfast School of Art, Ulster University",
+      "repo": "ni-hpc",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Stable Diffusion"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": "Unspecified",
+      "s": "PhD student Suhasish Basak built text-to-design and sketch-to-design pipelines on Stable Diffusion XL with ControlNet to generate realistic virtual garment designs from written descriptions or hand-drawn sketches, surveying 50 professional designers and 200 consumers on what digital fashion tools and products they actually wanted.",
+      "ev": "Using the NI-HPC GPU cluster cut per-design generation time from 80 minutes on a laptop to 2–5 minutes, fast enough for real-time design iteration in live workshops."
+    },
+    {
+      "t": "Segmenting adrenal glands from CT scans with a UNet pipeline, improving Dice scores by up to 38%",
+      "u": "https://www.ni-hpc.ac.uk/CaseStudies/AdrenalGlandSegmentationviaTest-timeAugmentationinCTImaging/",
+      "by": "Dr Michael Fayemiwo",
+      "inst": "Ulster University",
+      "repo": "ni-hpc",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": "Unspecified",
+      "s": "Dr Michael Fayemiwo built a 2D UNet-based deep-learning pipeline (tested with VGG16, ResNet34, InceptionV3 and default UNet backbones) to segment adrenal glands from CT scans — small, oddly shaped organs that are hard to visualise and are affected by conditions like Cushing syndrome and Addison's disease.",
+      "ev": "Post-processing with test-time augmentation increased the Dice coefficient by up to 38% for the left gland and 11% for the right on the AMOS dataset; the full pipeline outperformed existing segmentation methods by 8% overall."
+    },
+    {
+      "t": "Using Gaussian Splatting to build digital twins of Rathlin Island for sustainable tourism research",
+      "u": "https://www.ni-hpc.ac.uk/CaseStudies/FutureIsland-IslandGreenDigitalTransitionforSustainableTourism/",
+      "by": "Henry Melki",
+      "inst": "Ulster University",
+      "repo": "ni-hpc",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": "Unspecified",
+      "s": "As part of the £4.625m AHRC-funded Future Island-Island project, Henry Melki used Gaussian Splatting (a neural 3D-reconstruction technique) to build digital twins of hard-to-reach locations on Rathlin Island, letting people explore its heritage and seabed virtually without physically impacting the ecosystem, and prototyping gamified plastic-waste education experiences with the local community."
+    },
+    {
+      "t": "Training new machine-learning models to make plasmonic CO2 photocatalysis simulations computationally feasible",
+      "u": "https://www.ni-hpc.ac.uk/CaseStudies/SimulationofArtificialPhotosynthesis/",
+      "by": "Reinhard Maurer and Julia Westermayr",
+      "inst": "University of Warwick",
+      "repo": "ni-hpc",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Physical Sciences"
+      ],
+      "yr": "Unspecified",
+      "s": "Reinhard Maurer and Julia Westermayr trained new machine-learning models on the NI-HPC cluster to make theoretical calculations of plasmonic photocatalysis — the artificial-photosynthesis-style reaction that reduces atmospheric CO2 — computationally feasible, where standard theoretical calculations were previously intractable."
+    },
+    {
+      "t": "Training a U-Net to map agricultural field boundaries from satellite imagery, raising accuracy from 77% to 93%",
+      "u": "https://www.epcc.ed.ac.uk/whats-happening/articles/research-collaboration-machine-learning-epccs-cirrus-system",
+      "by": "Dr Simon Fraval",
+      "inst": "University of Edinburgh",
+      "repo": "epcc-cirrus",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Life Sciences"
+      ],
+      "yr": 2024,
+      "s": "Dr Simon Fraval trained a U-Net neural network on EPCC's Cirrus GPU nodes to detect agricultural field boundaries from PlanetScope satellite imagery, aiming to bring the cost of ML-enhanced farm management down to a level accessible to farmers worldwide.",
+      "ev": "Training with higher-resolution (4m) imagery — only feasible on Cirrus's V100 GPUs, not the researcher's local K80-based cluster — raised prediction accuracy from 77% to 93%, demonstrated across roughly 700,000 field boundaries in Navarra, Spain, from a training set of 5 million polygons spanning Europe, Africa and Southeast Asia."
+    },
+    {
+      "t": "QwikApp — a smartphone AI app that reads lateral flow diagnostic tests for malaria, cardiovascular disease and cancer",
+      "u": "https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/service-offering/research-software-engineering/case-studies/qwikapp/",
+      "by": "Prof. Dame Molly Stevens and Dr Ho-Cheung Ng",
+      "inst": "The Stevens Group, Imperial College London and University of Oxford",
+      "repo": "imperial-rse",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": "Unspecified",
+      "s": "Imperial's Research Software Engineering team worked with the Stevens Group to build QwikApp, a smartphone application that uses AI models to interpret lateral flow diagnostic tests for malaria, cardiovascular conditions and cancer — cases that are often too ambiguous (multiplexed results, faint lines) for reliable human interpretation.",
+      "ev": "Ambiguous cases are automatically routed to expert review, and the platform was designed to let the Stevens Group plug in new AI models as they develop further lateral flow assay types."
+    },
+    {
+      "t": "Locating thousands of ancient submerged crannog dwellings across Scotland's 31,000 lochs with deep learning",
+      "u": "https://rsgsoton.net/hpc-case-study-deep-learning-identification-of-crannogs/",
+      "by": "Dr Alexandra Karamitrou",
+      "inst": "University of Southampton",
+      "repo": "southampton-rsg",
+      "reg": "UK",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": "Unspecified",
+      "s": "Dr Alexandra Karamitrou used a Faster R-CNN deep-learning object detector on aerial, colour-infrared and Sentinel-1 radar imagery, run on Southampton's Iridis 5 cluster, to search all of Scotland's 31,000+ lochs for crannogs — ancient water-set dwellings that are otherwise extremely labour-intensive to locate.",
+      "ev": "The model flagged roughly 7,000 islets and around 500 crannog candidates for follow-up, distinguishing islets from open water with 99% accuracy."
+    },
+    {
+      "t": "An AI model that maps the urethra on prostate-cancer MRI scans more accurately than physicians",
+      "u": "https://today.ucsd.edu/story/san-diego-supercomputer-center-powers-ai-model-to-improve-prostate-cancer-care",
+      "by": "Yuze Song and Dr Tyler Seibert",
+      "inst": "University of California San Diego",
+      "repo": "sdsc-expanse",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2026,
+      "s": "Researchers from UC San Diego and five other medical centers built an AI model, trained on SDSC's Expanse supercomputer, to automatically map the urethra on prostate-cancer radiotherapy MRI scans — a structure that's small and difficult to identify even for experienced radiologists, and whose miscontouring risks serious urinary side effects.",
+      "ev": "Tested against a four-expert consensus standard on 71 patient scans, the AI tool captured 81% of the true urethra versus 34% for physician contours, typically within about 2mm of the expert-consensus boundary."
+    },
+    {
+      "t": "Training new neural-network models to make quantum-chemistry electron-correlation calculations tractable",
+      "u": "https://today.ucsd.edu/story/san-diego-supercomputer-center-helps-advance-computational-chemistry",
+      "by": "Prof. Heather Kulik",
+      "inst": "Massachusetts Institute of Technology",
+      "repo": "sdsc-psc-kulik",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Physical Sciences"
+      ],
+      "yr": 2021,
+      "s": "Prof. Heather Kulik's team trained new artificial neural network models, using SDSC's Comet and PSC's Bridges systems, to predict electron correlation — an interaction between a material's electrons that's vital to model but expensive to calculate directly — making it feasible to screen far more candidate materials than conventional quantum-chemistry methods allow."
+    },
+    {
+      "t": "A two-step machine-learning classifier nearly doubles precision in cataloguing 5,000+ rare historical stamps",
+      "u": "https://www.hpcwire.com/2021/09/27/pittsburgh-supercomputer-powers-machine-learning-analysis-of-rare-east-asian-stamps/",
+      "by": "Prof. Raja Adal and Paola Buitrago",
+      "inst": "University of Pittsburgh and Pittsburgh Supercomputing Center",
+      "repo": "psc-bridges",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Arts & Humanities"
+      ],
+      "yr": 2021,
+      "s": "Historian Raja Adal worked with PSC's Paola Buitrago to build a two-step machine-learning classifier — first recognising general objects, then grouping visually similar stamps — to catalogue 5,056 personalized identification stamps from a 50-year archive of Japanese business documents (the Mitsui Miike Mine collection), a task too large to do by hand given the thousands of distinct Chinese characters involved.",
+      "ev": "Repeated retraining on PSC's Bridges and Bridges-2 GPUs nearly doubled classification precision, from 44.7% to 84.3%."
+    },
+    {
+      "t": "Dr Grader — an AI tool letting GPs screen for diabetic retinopathy from a smartphone eye photo",
+      "u": "https://pawsey.org.au/case-studies/ai-learning-helps-save-sight/",
+      "by": "Prof. Yogesan Kanagasingam, Prof. Xiao and Maryam Mehdizadeh",
+      "inst": "CSIRO Australian e-Health Research Centre",
+      "repo": "pawsey",
+      "reg": "Australia",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": "Unspecified",
+      "s": "Prof. Yogesan Kanagasingam's team trained an AI program called Dr Grader on Pawsey's Zeus system to detect diabetic retinopathy — the world's leading cause of vision loss — from a smartphone photo of a patient's eye, aiming to let GPs screen patients directly rather than requiring a costly, long-waitlisted ophthalmologist visit.",
+      "ev": "Tested in a clinical trial and then rolled out to at least 30 GP clinics."
+    },
+    {
+      "t": "Training a brain-tumor classifier to distinguish glioma types with over 90% accuracy",
+      "u": "https://www.hpcwire.com/off-the-wire/tacc-highlights-science-engineering-problems-solved-supercomputers-ai/",
+      "by": "Prof. George Biros",
+      "inst": "University of Texas at Austin",
+      "repo": "tacc-stampede2",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Health & Medicine"
+      ],
+      "yr": 2018,
+      "s": "Mechanical engineering professor George Biros used TACC's Stampede2 supercomputer to train a deep-learning classifier that identifies brain tumors (gliomas) and distinguishes cancerous tissue subtypes from MRI scans.",
+      "ev": "The classifier reached over 90% accuracy, roughly equivalent to an experienced radiologist, and the image-analysis framework was deployed at the University of Pennsylvania for clinical glioma studies."
+    },
+    {
+      "t": "Detecting vehicles and pedestrians from intersection video to inform city traffic planning",
+      "u": "https://www.hpcwire.com/off-the-wire/tacc-highlights-science-engineering-problems-solved-supercomputers-ai/",
+      "by": "Unspecified",
+      "inst": "Texas Advanced Computing Center, with UT Austin Center for Transportation Research and the City of Austin",
+      "repo": "tacc-stampede2",
+      "reg": "US",
+      "th": "AI-Assisted Research",
+      "tool": [
+        "Other"
+      ],
+      "disc": [
+        "Engineering"
+      ],
+      "yr": 2018,
+      "s": "TACC deep-learning staff collaborated with UT Austin's Center for Transportation Research and the City of Austin to automatically detect vehicles and pedestrians at critical intersections from video, using machine learning and video image analysis to help officials plan infrastructure and improve safety.",
+      "ev": "Results were presented at IEEE Big Data (December 2017) and the Transportation Research Board Annual Meeting (January 2018)."
     }
   ],
   "REPOS": {
@@ -5493,6 +5724,60 @@
       "short": "Greenwich (ARMS)",
       "url": "https://www.aacsb.edu/insights/articles/2024/10/can-that-assignment-be-completed-with-genai",
       "blurb": "An assessment-redesign framework and pilot from Greenwich Business School that scores assignments by how vulnerable they are to being completed with GenAI, then redesigns the highest-risk ones."
+    },
+    "ni-hpc": {
+      "label": "Northern Ireland High Performance Computing (NI-HPC) — Case Studies",
+      "short": "NI-HPC",
+      "url": "https://www.ni-hpc.ac.uk/CaseStudies/",
+      "blurb": "Case studies from researchers using the Kelvin2 supercomputer, hosted by Queen's University Belfast and Ulster University — mostly classical physics/engineering simulation, with a handful of genuine AI/ML-assisted research projects mixed in."
+    },
+    "epcc-cirrus": {
+      "label": "EPCC (University of Edinburgh) — Cirrus Research Collaborations",
+      "short": "EPCC (Cirrus)",
+      "url": "https://www.epcc.ed.ac.uk/whats-happening/articles/research-collaboration-machine-learning-epccs-cirrus-system",
+      "blurb": "Research collaborations using EPCC's Cirrus HPC system, described on EPCC's news site."
+    },
+    "imperial-rse": {
+      "label": "Imperial College London — Research Software Engineering Case Studies",
+      "short": "Imperial (RSE)",
+      "url": "https://www.imperial.ac.uk/admin-services/ict/self-service/research-support/rcs/service-offering/research-software-engineering/case-studies/",
+      "blurb": "Case studies from Imperial's Research Software Engineering team describing tools and models they helped build for named research groups."
+    },
+    "southampton-rsg": {
+      "label": "University of Southampton — Research Software Group HPC Case Studies",
+      "short": "Southampton (RSG)",
+      "url": "https://rsgsoton.net/hpc-case-study-deep-learning-identification-of-crannogs/",
+      "blurb": "HPC case studies published by Southampton's Research Software Group."
+    },
+    "sdsc-expanse": {
+      "label": "San Diego Supercomputer Center — Expanse Research Highlights",
+      "short": "SDSC (Expanse)",
+      "url": "https://today.ucsd.edu/story/san-diego-supercomputer-center-powers-ai-model-to-improve-prostate-cancer-care",
+      "blurb": "Research highlights from UC San Diego describing projects run on SDSC's Expanse supercomputer."
+    },
+    "sdsc-psc-kulik": {
+      "label": "San Diego Supercomputer Center & Pittsburgh Supercomputing Center — Computational Chemistry",
+      "short": "SDSC/PSC (Comet & Bridges)",
+      "url": "https://today.ucsd.edu/story/san-diego-supercomputer-center-helps-advance-computational-chemistry",
+      "blurb": "A UC San Diego research highlight describing MIT computational-chemistry work run jointly on SDSC's Comet and PSC's Bridges systems."
+    },
+    "psc-bridges": {
+      "label": "Pittsburgh Supercomputing Center — Bridges Research Highlights",
+      "short": "PSC (Bridges)",
+      "url": "https://www.hpcwire.com/2021/09/27/pittsburgh-supercomputer-powers-machine-learning-analysis-of-rare-east-asian-stamps/",
+      "blurb": "Research highlights describing projects run on the Pittsburgh Supercomputing Center's Bridges/Bridges-2 systems, as reported by HPCwire."
+    },
+    "pawsey": {
+      "label": "Pawsey Supercomputing Research Centre — Case Studies",
+      "short": "Pawsey",
+      "url": "https://pawsey.org.au/case-studies/",
+      "blurb": "Case studies from Australia's Pawsey Supercomputing Research Centre — mostly classical simulation/bioinformatics, with a handful of genuine AI/ML-assisted research projects mixed in."
+    },
+    "tacc-stampede2": {
+      "label": "Texas Advanced Computing Center — AI & Machine Learning Highlights",
+      "short": "TACC",
+      "url": "https://www.hpcwire.com/off-the-wire/tacc-highlights-science-engineering-problems-solved-supercomputers-ai/",
+      "blurb": "Research highlights describing AI/ML projects run on TACC's Stampede2 supercomputer, as reported by HPCwire."
     }
   }
 }
