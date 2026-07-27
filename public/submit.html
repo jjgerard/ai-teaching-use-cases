@@ -37,14 +37,14 @@
   <div class="card" id="formCard">
     <div class="modal-note">
       <b>What counts here</b>
-      "We should use AI for X" doesn't qualify; "I used ChatGPT to do X, here's what happened" does.
+      "We should use AI for X" doesn't qualify; "I used ChatGPT to do X, here's what happened" does. For "Reducing AI use" specifically: the strategy has to change the task or the incentive — after-the-fact AI-detection or plagiarism-flagging tools don't qualify, evidenced or not.
     </div>
 
     <div class="field-row">
       <label for="f-type">Case study type *</label>
       <select id="f-type">
         <option value="teaching" selected>Teaching — using AI in a course</option>
-        <option value="reduced">Reduced AI use — evidence student AI use went down</option>
+        <option value="reduced">Reducing AI use — a strategy actually tried (evidence optional)</option>
         <option value="research">AI-assisted research — AI used in a real research project</option>
       </select>
     </div>
@@ -199,10 +199,10 @@ function wireAddTag(containerId, inputId, buttonId) {
 // value — see SPUN_OFF_THEMES in catalog.html — so picking one of them here
 // just pins th to that constant and hides the free-text Theme field, rather
 // than needing a separate "category" concept in the data model.
-const TYPE_THEMES = { reduced: "Reduced AI Use (Evidenced)", research: "AI-Assisted Research" };
+const TYPE_THEMES = { reduced: "Attempts to Reduce AI Use", research: "AI-Assisted Research" };
 const EVIDENCE_COPY = {
   teaching: { label: "Evidence (optional)", placeholder: "Only if this reports a measured outcome — e.g. a before/after stat, or how a result was later validated. Leave blank otherwise." },
-  reduced: { label: "Evidence *", placeholder: "The measured outcome that AI use actually went down — a before/after stat, a misconduct-case-count comparison, etc. This category doesn't count without it." },
+  reduced: { label: "Evidence (optional)", placeholder: "If there's a measured outcome — a before/after stat, a misconduct-case-count comparison, etc. — put it here; entries get tagged 'Evidenced'. Leave blank if this is a documented attempt without measured results yet — it'll be tagged 'No evidence yet' instead of being excluded." },
   research: { label: "Evidence (optional)", placeholder: "If AI proposed a finding, how was it validated (e.g. confirmed experimentally by the research team)? Leave blank if not applicable." },
 };
 
@@ -255,10 +255,6 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
   const entry = readForm();
   if (!entry.t || !entry.by || !entry.u || !entry.s) {
     feedbackEl.innerHTML = `<div class="badge bad">Please fill in title, contributor, source URL and summary before submitting.</div>`;
-    return;
-  }
-  if (entry.type === "reduced" && !entry.ev) {
-    feedbackEl.innerHTML = `<div class="badge bad">Reduced AI use case studies need the actual measured evidence — this category doesn't count without it.</div>`;
     return;
   }
   if (!entry.attest1 || !entry.attest2) {

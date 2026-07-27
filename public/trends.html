@@ -1466,7 +1466,7 @@ fetch("/api/catalog")
     // (Reducing AI (mis)use, Research Case Studies) have their own separate
     // pages and aren't part of this model/cross-tab, same exclusion as
     // SPUN_OFF_THEMES in catalog.html.
-    var SPUN_OFF_THEMES = ["Reduced AI Use (Evidenced)", "AI-Assisted Research"];
+    var SPUN_OFF_THEMES = ["Attempts to Reduce AI Use", "AI-Assisted Research"];
     RAW = data.entries.filter(function(e){ return SPUN_OFF_THEMES.indexOf(e.th) === -1; });
     REPO_LABELS = {};
     Object.keys(data.repos).forEach(function(k){ REPO_LABELS[k] = data.repos[k].label; });

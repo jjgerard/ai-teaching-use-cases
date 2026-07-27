@@ -1,4 +1,4 @@
-<title>Field Notes — Case Studies of Reduced AI Use</title>
+<title>Field Notes — Strategies to Reduce AI Use</title>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,14 +27,16 @@
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) .caveat-mark { color: #ff6b6b; }
   }
+  .pill.evidenced-yes { background: var(--cool-soft); color: var(--cool); }
+  .pill.evidenced-no { border: 1px solid var(--line-strong); color: var(--ink-faint); background: none; }
 </style>
 
 <div class="masthead">
   <div class="masthead-inner">
     <div class="masthead-text">
-      <p class="catalog-mark">Field survey · evidenced outcomes only</p>
-      <h1 class="title">Strategies That Reduced Student AI Use</h1>
-      <p class="lede">Every entry here is a strategy an educator or institution actually ran, with concrete measured evidence that student use of generative AI to complete coursework went down as a result — not a proposal, and not just an opinion that it probably helped.<br>Where the source explains <em>why</em> use dropped, that's included too.</p>
+      <p class="catalog-mark">Field survey · attempts, tagged by evidence</p>
+      <h1 class="title">Strategies to Reduce Student AI Use</h1>
+      <p class="lede">Every entry here is a strategy an educator or institution actually ran to reduce student AI use — not a proposal, and not just an opinion that it probably helped.<br>Entries are tagged by whether there's concrete measured evidence it worked, so evidenced results and untested attempts stay clearly distinguished — use the Evidence filter to see just one or the other.</p>
     </div>
     <div class="tally">
       <div class="tally-count">
@@ -142,6 +144,14 @@
       </button>
       <div class="facet-panel"><div class="facet-list"></div></div>
     </div>
+    <div class="facet-group" id="facet-evidenced" data-key="evidenced">
+      <button class="facet-toggle" type="button" aria-expanded="false">
+        <span class="facet-toggle-label">Evidence</span>
+        <span class="facet-toggle-count" hidden>0</span>
+        <span class="facet-toggle-chevron" aria-hidden="true">⌄</span>
+      </button>
+      <div class="facet-panel"><div class="facet-list"></div></div>
+    </div>
   </aside>
 
   <main>
@@ -155,6 +165,7 @@
           <option value="disc">Discipline</option>
           <option value="yr">Year published</option>
           <option value="inst">Institution</option>
+          <option value="evidenced">Evidence status</option>
         </select>
       </span>
     </div>
@@ -166,16 +177,17 @@
 <footer class="note">
   <h3>Notes on this survey</h3>
   <ul>
-    <li>The bar for inclusion here is stricter than the main catalog: the source must report an actual <em>measured</em> drop in AI use or academic-integrity incidents (e.g. a before/after comparison, a breach-count, a misconduct-case tally) — not just researcher opinion that a strategy "should" or "probably did" reduce AI use.</li>
-    <li>Reducing AI use turns out to be a genuinely rare thing to find good evidence for. Most "strategy to cut AI use" content online is a proposal or framework with no outcome data — those are excluded, even when the idea itself is well-argued.</li>
-    <li>All three entries here currently rely on academic-integrity/misconduct case counts as their measure of "AI use going down," rather than direct usage data (e.g. student self-report, detection-tool flag rates). That's a real limitation worth keeping in mind when weighing how strong this evidence is.</li>
+    <li>The bar for inclusion here is the same as elsewhere on this site: the strategy has to have actually been run, not just proposed. Unlike the other two catalogs, entries are also tagged by whether the source reports an actual <em>measured</em> outcome (e.g. a before/after comparison, a breach-count, a misconduct-case tally) — filter by "Evidence" in the rail to see just the evidenced ones, or just the documented attempts still waiting on that evidence.</li>
+    <li>Measured evidence of reduced AI use turns out to be a genuinely rare thing to find. Most "strategy to cut AI use" content online is a proposal or framework with no outcome data at all — those still don't qualify, evidenced or not, since nothing was actually run.</li>
+    <li>Among the evidenced entries, the measure is almost always academic-integrity/misconduct case counts rather than direct usage data (e.g. student self-report, detection-tool flag rates). That's a real limitation worth keeping in mind when weighing how strong that evidence is.</li>
+    <li>Entries that work by detecting or policing AI use after the fact (plagiarism-style detection tools, automated flagging) aren't included here — the strategies below all change something about the task or the incentive, not just the ability to catch students who used AI anyway.</li>
     <li>Where a source is paywalled beyond its abstract, that's noted directly in the entry's evidence text, since it affects how much the headline claim can be verified.</li>
   </ul>
   <p class="footer-credit">Source &amp; data on <a href="https://github.com/jjgerard/ai-teaching-use-cases" target="_blank" rel="noopener">GitHub</a>. The summaries and metadata written for this catalog are licensed <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a> — reuse them with credit. This site does not own or license the underlying case studies themselves; copyright in that original work belongs to its authors and institutions, and each entry here just links out to it.</p>
 </footer>
 
 <script>
-const THEME = "Reduced AI Use (Evidenced)";
+const THEME = "Attempts to Reduce AI Use";
 const CAVEAT_REPOS = new Set(["brown-serrano", "unisa-ioa", "ioa-multisubject"]);
 let REPOS = {};
 let S = [];
@@ -185,6 +197,7 @@ const railEl = {
   reg: document.querySelector("#facet-region .facet-list"),
   disc: document.querySelector("#facet-disc .facet-list"),
   yr: document.querySelector("#facet-year .facet-list"),
+  evidenced: document.querySelector("#facet-evidenced .facet-list"),
 };
 const resultsEl = document.getElementById("results");
 const shownCountEl = document.getElementById("shownCount");
@@ -193,7 +206,7 @@ const tallyTotalEl = document.getElementById("tallyTotal");
 const emptyStateEl = document.getElementById("emptyState");
 const searchEl = document.getElementById("search");
 
-const state = { repo: new Set(), reg: new Set(), disc: new Set(), yr: new Set(), q: "" };
+const state = { repo: new Set(), reg: new Set(), disc: new Set(), yr: new Set(), evidenced: new Set(), q: "" };
 
 function uniqueSorted(arr) { return [...new Set(arr)].sort(); }
 
@@ -240,6 +253,7 @@ function buildAllFacets() {
   buildFacet("reg", uniqueSorted(S.map(s => s.reg)), railEl.reg);
   buildFacet("disc", uniqueSorted(S.flatMap(s => s.disc)), railEl.disc);
   buildFacet("yr", sortYears(S.map(s => s.yr)), railEl.yr);
+  buildFacet("evidenced", ["Evidenced", "No evidence yet"], railEl.evidenced);
 }
 
 function matches(s) {
@@ -247,6 +261,7 @@ function matches(s) {
   if (state.reg.size && !state.reg.has(s.reg)) return false;
   if (state.disc.size && ![...state.disc].some(d => s.disc.includes(d))) return false;
   if (state.yr.size && !state.yr.has(s.yr)) return false;
+  if (state.evidenced.size && !state.evidenced.has(s.evidenced)) return false;
   if (state.q) {
     const hay = (
       s.t + " " + s.by + " " + (s.inst || "") + " " + s.s + " " + (s.ev || "") + " " +
@@ -301,6 +316,12 @@ const GROUP_OPTIONS = {
     renderHeader: plainHeader,
   },
   inst: { label: "Institution", keyFor: s => s.inst || NO_INST_KEY, compare: alphaCompareSentinelLast(NO_INST_KEY), renderHeader: plainHeader },
+  evidenced: {
+    label: "Evidence status",
+    keyFor: s => s.evidenced,
+    compare: (a, b) => a === b ? 0 : (a === "Evidenced" ? -1 : 1),
+    renderHeader: plainHeader,
+  },
 };
 let groupBy = "repo";
 
@@ -331,6 +352,7 @@ function render() {
     const toolPills = s.tool.filter(v => !SILENT_VALUES.has(v)).map(tg => `<span class="pill tool">${tg}</span>`).join("");
     const discPills = s.disc.filter(v => !SILENT_VALUES.has(v)).map(d => `<span class="pill disc">${d}</span>`).join("");
     const yearPill = SILENT_VALUES.has(String(s.yr)) ? "" : `<span class="pill year">${s.yr}</span>`;
+    const evidencedPill = s.ev ? `<span class="pill evidenced-yes">Evidenced</span>` : `<span class="pill evidenced-no">No evidence yet</span>`;
     art.innerHTML = `
       <h3 class="spec-title"><a href="${s.u}" target="_blank" rel="noopener">${s.t}</a>${CAVEAT_REPOS.has(s.repo) ? '<a href="#examCaveat" class="caveat-mark" title="See note on removing the opportunity to use AI vs. the desire to">*</a>' : ""}</h3>
       <p class="byline">${s.by}${s.inst ? ` — <span class="inst">${s.inst}</span>` : ""}</p>
@@ -338,6 +360,7 @@ function render() {
       <p class="summary">${s.s}</p>
       ${s.ev ? `<p class="evidence"><strong>Evidence:</strong> ${s.ev}</p>` : ""}
       <div class="pillrow">
+        ${evidencedPill}
         ${discPills}
         ${toolPills}
         ${yearPill}
@@ -359,7 +382,7 @@ document.getElementById("groupBySelect").addEventListener("change", e => {
 
 searchEl.addEventListener("input", () => { state.q = searchEl.value.trim().toLowerCase(); render(); });
 document.getElementById("clearFilters").addEventListener("click", () => {
-  ["repo","reg","disc","yr"].forEach(k => state[k].clear());
+  ["repo","reg","disc","yr","evidenced"].forEach(k => state[k].clear());
   document.querySelectorAll(".rail input[type=checkbox]").forEach(cb => { cb.checked = false; cb.closest(".facet-row").classList.remove("active"); });
   searchEl.value = ""; state.q = "";
   render();
@@ -392,7 +415,7 @@ async function loadData() {
   const res = await fetch("/api/catalog");
   const data = await res.json();
   REPOS = data.repos;
-  S = data.entries.filter(e => e.th === THEME);
+  S = data.entries.filter(e => e.th === THEME).map(e => ({ ...e, evidenced: e.ev ? "Evidenced" : "No evidence yet" }));
   buildAllFacets();
   render();
 }
