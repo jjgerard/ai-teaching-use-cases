@@ -160,12 +160,12 @@
       <span class="group-by-control">
         <label class="sort-note" for="groupBySelect">Group by</label>
         <select id="groupBySelect">
+          <option value="evidenced" selected>Evidence status</option>
           <option value="repo">Collection</option>
           <option value="reg">Region</option>
           <option value="disc">Discipline</option>
           <option value="yr">Year published</option>
           <option value="inst">Institution</option>
-          <option value="evidenced">Evidence status</option>
         </select>
       </span>
     </div>
@@ -323,7 +323,7 @@ const GROUP_OPTIONS = {
     renderHeader: plainHeader,
   },
 };
-let groupBy = "repo";
+let groupBy = "evidenced";
 
 function render() {
   updateFacetBadges();

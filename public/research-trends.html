@@ -1,0 +1,1109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Research trends — Field Notes</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .trends-back-link { font-size: 0.8rem; color: var(--ink-faint); text-decoration: none; display: inline-block; }
+  .trends-back-link:hover { color: var(--accent); }
+  :root {
+    --paper: #f4f6f8;
+    --paper-raised: #ffffff;
+    --paper-card: #ffffff;
+    --ink: #041e42;
+    --ink-soft: #33475b;
+    --ink-faint: #6b7c8c;
+    --accent: #0a5fa8;
+    --accent-soft: #dcedfa;
+    --accent-ink: #04407d;
+    --cool: #2f8f76;
+    --cool-soft: #dcf0e9;
+    --disc: #7a4fa0;
+    --disc-soft: #ece1f4;
+    --navy: #041e42;
+    --navy-deep: #030c18;
+    --sky: #c9ced4;
+    --line: rgba(4, 30, 66, 0.13);
+    --line-strong: rgba(4, 30, 66, 0.28);
+    --shadow: 0 1px 2px rgba(4, 30, 66, 0.06), 0 10px 24px -16px rgba(4, 30, 66, 0.35);
+    --radius: 10px;
+    --radius-lg: 14px;
+    --btn-shadow: inset 0 1px 0 rgba(255,255,255,0.18), inset 0 -1px 0 rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.15);
+    --input-shadow: inset 0 1px 0 rgba(255,255,255,0.7), inset 0 2px 5px rgba(4,30,66,0.07), inset 0 6px 14px -4px rgba(4,30,66,0.05);
+    --face-display: "Century Gothic", "Futura PT", "Trebuchet MS", "Segoe UI", sans-serif;
+    --face-body: "Segoe UI", "Open Sans", -apple-system, Helvetica, Arial, sans-serif;
+    /* per-dimension single-hue ramps, step 1 (lightest) -> 7 (deepest); rank within a
+       dimension maps to a step so the biggest category reads boldest */
+    --ramp-th-1: #bad2e7; --ramp-th-2: #9dbfdc; --ramp-th-3: #80acd2; --ramp-th-4: #6299c7;
+    --ramp-th-5: #4585bd; --ramp-th-6: #2772b2; --ramp-th-7: #0a5fa8;
+    --ramp-tool-1: #c5e0d9; --ramp-tool-2: #acd2c8; --ramp-tool-3: #93c5b8; --ramp-tool-4: #7ab7a7;
+    --ramp-tool-5: #61aa97; --ramp-tool-6: #489c86; --ramp-tool-7: #2f8f76;
+    --ramp-disc-1: #dacee4; --ramp-disc-2: #cab9d9; --ramp-disc-3: #baa3ce; --ramp-disc-4: #aa8ec2;
+    --ramp-disc-5: #9a79b7; --ramp-disc-6: #8a64ab; --ramp-disc-7: #7a4fa0;
+    --ramp-reg-1: #ebddc8; --ramp-reg-2: #e3cfb0; --ramp-reg-3: #dac099; --ramp-reg-4: #d2b281;
+    --ramp-reg-5: #c9a369; --ramp-reg-6: #c19552; --ramp-reg-7: #b8863a;
+    --other-fill: #d7dde3;
+    --other-ink: #495a6b;
+    /* colorblind-safe categorical palette (8 hues, validated CVD-safe adjacent pairs) —
+       used for the "Trends by year" stacked bars, where up to 8 categories share one chart */
+    --cat-1: #2a78d6; --cat-2: #eb6834; --cat-3: #1baf7a; --cat-4: #eda100;
+    --cat-5: #e87ba4; --cat-6: #008300; --cat-7: #4a3aa7; --cat-8: #e34948;
+  }
+  :root[data-theme="dark"] {
+    --paper: #0a1220;
+    --paper-raised: #101a2c;
+    --paper-card: #132038;
+    --ink: #e8edf4;
+    --ink-soft: #a8b8cb;
+    --ink-faint: #6f8199;
+    --accent: #6fb4e8;
+    --accent-soft: #12283f;
+    --accent-ink: #9ccdf0;
+    --cool: #6bcbae;
+    --cool-soft: #0e241d;
+    --disc: #c79bea;
+    --disc-soft: #241c33;
+    --navy: #dbe8f6;
+    --navy-deep: #030c18;
+    --sky: #c9ced4;
+    --line: rgba(232, 237, 244, 0.13);
+    --line-strong: rgba(232, 237, 244, 0.28);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px -16px rgba(0, 0, 0, 0.7);
+    --btn-shadow: inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+    --input-shadow: inset 0 1px 0 rgba(255,255,255,0.03), inset 0 2px 5px rgba(0,0,0,0.25), inset 0 6px 14px -4px rgba(0,0,0,0.2);
+    --ramp-th-1: #335476; --ramp-th-2: #3d6489; --ramp-th-3: #47749c; --ramp-th-4: #5184af;
+    --ramp-th-5: #5b94c2; --ramp-th-6: #65a4d5; --ramp-th-7: #6fb4e8;
+    --ramp-tool-1: #325c61; --ramp-tool-2: #3b6e6e; --ramp-tool-3: #45817b; --ramp-tool-4: #4e9388;
+    --ramp-tool-5: #58a694; --ramp-tool-6: #61b8a1; --ramp-tool-7: #6bcbae;
+    --ramp-disc-1: #524b76; --ramp-disc-2: #66588a; --ramp-disc-3: #79669d; --ramp-disc-4: #8d73b0;
+    --ramp-disc-5: #a080c3; --ramp-disc-6: #b48ed7; --ramp-disc-7: #c79bea;
+    --ramp-reg-1: #5b5347; --ramp-reg-2: #71634b; --ramp-reg-3: #877350; --ramp-reg-4: #9d8354;
+    --ramp-reg-5: #b49259; --ramp-reg-6: #caa25d; --ramp-reg-7: #e0b262;
+    --other-fill: #2a3446;
+    --other-ink: #9fb0c4;
+    --cat-1: #3987e5; --cat-2: #d95926; --cat-3: #199e70; --cat-4: #c98500;
+    --cat-5: #d55181; --cat-6: #008300; --cat-7: #9085e9; --cat-8: #e66767;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0a1220;
+      --paper-raised: #101a2c;
+      --paper-card: #132038;
+      --ink: #e8edf4;
+      --ink-soft: #a8b8cb;
+      --ink-faint: #6f8199;
+      --accent: #6fb4e8;
+      --accent-soft: #12283f;
+      --accent-ink: #9ccdf0;
+      --cool: #6bcbae;
+      --cool-soft: #0e241d;
+      --disc: #c79bea;
+      --disc-soft: #241c33;
+      --navy: #dbe8f6;
+      --navy-deep: #030c18;
+      --sky: #c9ced4;
+      --line: rgba(232, 237, 244, 0.13);
+      --line-strong: rgba(232, 237, 244, 0.28);
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px -16px rgba(0, 0, 0, 0.7);
+      --btn-shadow: inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+      --input-shadow: inset 0 1px 0 rgba(255,255,255,0.03), inset 0 2px 5px rgba(0,0,0,0.25), inset 0 6px 14px -4px rgba(0,0,0,0.2);
+      --ramp-th-1: #335476; --ramp-th-2: #3d6489; --ramp-th-3: #47749c; --ramp-th-4: #5184af;
+      --ramp-th-5: #5b94c2; --ramp-th-6: #65a4d5; --ramp-th-7: #6fb4e8;
+      --ramp-tool-1: #325c61; --ramp-tool-2: #3b6e6e; --ramp-tool-3: #45817b; --ramp-tool-4: #4e9388;
+      --ramp-tool-5: #58a694; --ramp-tool-6: #61b8a1; --ramp-tool-7: #6bcbae;
+      --ramp-disc-1: #524b76; --ramp-disc-2: #66588a; --ramp-disc-3: #79669d; --ramp-disc-4: #8d73b0;
+      --ramp-disc-5: #a080c3; --ramp-disc-6: #b48ed7; --ramp-disc-7: #c79bea;
+      --ramp-reg-1: #5b5347; --ramp-reg-2: #71634b; --ramp-reg-3: #877350; --ramp-reg-4: #9d8354;
+      --ramp-reg-5: #b49259; --ramp-reg-6: #caa25d; --ramp-reg-7: #e0b262;
+      --other-fill: #2a3446;
+      --other-ink: #9fb0c4;
+      --cat-1: #3987e5; --cat-2: #d95926; --cat-3: #199e70; --cat-4: #c98500;
+      --cat-5: #d55181; --cat-6: #008300; --cat-7: #9085e9; --cat-8: #e66767;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-tap-highlight-color: transparent; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--face-body);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  a { color: var(--accent); }
+  ::selection { background: var(--accent-soft); color: var(--ink); }
+
+  /* ---------- masthead (matches catalog.html / submit.html / admin.html) ---------- */
+  .masthead {
+    background: linear-gradient(155deg, var(--navy-deep) 0%, var(--navy) 78%);
+    border-bottom: 3px solid var(--sky);
+    padding: 1.3rem 1.5rem;
+  }
+  .masthead-inner {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  .masthead-text { flex: 1 1 460px; min-width: 0; }
+  .catalog-mark {
+    font-family: var(--face-body);
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--sky);
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0 0 0.35rem;
+  }
+  .catalog-mark::before { content: ""; width: 20px; height: 2px; background: var(--sky); display: inline-block; }
+  h1.title {
+    font-family: var(--face-display);
+    font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+    line-height: 1.15;
+    margin: 0 0 0.3rem;
+    text-wrap: balance;
+    font-weight: 700;
+    letter-spacing: -0.005em;
+    color: #ffffff;
+  }
+  .lede { max-width: 80ch; color: #c3d4e6; margin: 0; font-size: 0.85rem; }
+  .tally { text-align: right; flex-shrink: 0; display: flex; align-items: center; gap: 0.9rem; }
+  .tally-count { text-align: right; }
+  .tally .big { font-family: var(--face-display); font-size: 1.9rem; line-height: 1; color: #ffffff; font-weight: 700; }
+  .tally .cap { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--sky); display: block; margin-top: 0.2rem; }
+
+  /* ---------- layout ---------- */
+  .layout { max-width: 1180px; margin: 0 auto; padding: 1.6rem 1.5rem 4rem; display: flex; flex-direction: column; gap: 1.6rem; }
+
+  /* ---------- stat strip ---------- */
+  .stat-strip {
+    background: var(--paper-raised);
+    border: 1.5px solid var(--line-strong);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+    padding: 1.1rem 1.4rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.6rem;
+  }
+  .stat { display: flex; flex-direction: column; gap: 0.15rem; }
+  .stat .n { font-family: var(--face-display); font-variant-numeric: tabular-nums; font-size: 1.5rem; font-weight: 700; color: var(--ink); }
+  .stat .l { font-size: 0.66rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-faint); }
+
+  /* ---------- section card ---------- */
+  .card { background: var(--paper-raised); border: 1.5px solid var(--line-strong); border-radius: var(--radius-lg); padding: 1.6rem 1.8rem 1.8rem; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 1.1rem; }
+  .card-head { display: flex; flex-direction: column; gap: 0.35rem; }
+  .card-head h2 { font-family: var(--face-display); font-size: 1.2rem; font-weight: 700; margin: 0; color: var(--ink); text-wrap: balance; }
+  .card-head p { margin: 0; color: var(--ink-soft); font-size: 0.87rem; max-width: 74ch; }
+  .card-head p em { color: var(--ink); font-style: normal; font-weight: 600; }
+
+  /* ---------- controls ---------- */
+  .controls { display: flex; flex-wrap: wrap; gap: 0.7rem 1.3rem; align-items: flex-end; }
+  .control-group { display: flex; flex-direction: column; gap: 0.4rem; }
+  .control-group > label {
+    font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint);
+  }
+  .chipset { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .chip {
+    font-family: var(--face-body);
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    background: linear-gradient(180deg, var(--paper) 0%, var(--paper-card) 30%);
+    border: 1.5px solid var(--line-strong);
+    border-radius: 999px;
+    padding: 0.42rem 0.85rem;
+    cursor: pointer;
+    box-shadow: var(--input-shadow);
+    appearance: none;
+    margin: 0;
+  }
+  .chip:hover { border-color: var(--accent); color: var(--accent-ink); }
+  .chip.active { color: #fff; background: linear-gradient(180deg, var(--accent) 0%, var(--accent-ink) 100%); border-color: var(--accent-ink); box-shadow: var(--btn-shadow); }
+  .chip:focus-visible, td.cell:focus-visible, .rank-row:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 2px;
+  }
+  select {
+    font-family: var(--face-body);
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: var(--ink);
+    background: linear-gradient(180deg, var(--paper) 0%, var(--paper-card) 30%);
+    border: 1.5px solid var(--line-strong);
+    border-radius: var(--radius);
+    padding: 0.4rem 0.6rem;
+    cursor: pointer;
+    box-shadow: var(--input-shadow);
+  }
+
+  /* ---- trends chart ---- */
+  .chart-scroll { overflow-x: auto; }
+  .bars { display: flex; align-items: flex-end; gap: 1.7rem; height: 250px; padding: 0 0.2rem; min-width: 460px; }
+  .bar-col { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; flex: 1; min-width: 60px; }
+  .bar-stack { width: 100%; max-width: 60px; height: 210px; display: flex; flex-direction: column-reverse; border-radius: 4px 4px 0 0; overflow: hidden; background: var(--paper); border: 1px solid var(--line); border-bottom: none; }
+  .bar-seg { width: 100%; position: relative; }
+  .bar-seg + .bar-seg { border-top: 2px solid var(--paper-raised); }
+  .bar-seg-label {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    line-height: 1.15; font-weight: 700; font-variant-numeric: tabular-nums;
+    pointer-events: none; text-align: center; overflow: hidden;
+  }
+  .bar-col .x-label { font-size: 0.78rem; font-weight: 700; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+  .bar-col .x-total { font-size: 0.68rem; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1rem; padding-top: 0.6rem; border-top: 1px solid var(--line); }
+  .legend-item { display: flex; align-items: center; gap: 0.4rem; font-size: 0.74rem; font-weight: 600; color: var(--ink-soft); }
+  .legend-swatch { width: 10px; height: 10px; border-radius: 2.5px; flex: none; }
+
+  /* ---- top trends panel ---- */
+  .trend-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+  @media (max-width: 720px) { .trend-grid { grid-template-columns: 1fr; } }
+  .trend-card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 1rem 1.1rem; display: flex; flex-direction: column; gap: 0.55rem; }
+  .trend-card h3 { font-family: var(--face-display); font-size: 0.95rem; font-weight: 700; margin: 0; color: var(--ink); text-wrap: balance; }
+  .trend-card p { margin: 0; font-size: 0.79rem; color: var(--ink-soft); }
+  .trend-stat { font-family: var(--face-display); font-size: 1.5rem; font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; line-height: 1; }
+  .trend-stat .arrow { color: var(--ink-faint); font-weight: 400; font-size: 1.1rem; margin: 0 0.15rem; }
+
+  .tbar-row { display: flex; align-items: center; gap: 0.5rem; }
+  .tbar-label { width: 10.5rem; flex: none; font-size: 0.74rem; color: var(--ink-soft); }
+  .tbar-track { flex: 1; height: 14px; background: var(--paper-raised); border: 1px solid var(--line); border-radius: 4px; overflow: hidden; }
+  .tbar-fill { height: 100%; border-radius: 3px; }
+  .tbar-val { width: 2.6rem; flex: none; font-size: 0.72rem; font-weight: 700; text-align: right; font-variant-numeric: tabular-nums; color: var(--ink); }
+
+  .trend-card.caveat { background: #fbe6c8; border-color: #e0b262; }
+  .trend-card.caveat h3 { color: #6b4308; }
+  .trend-card.caveat p { color: #6b4308; }
+  :root[data-theme="dark"] .trend-card.caveat { background: #3a2c14; border-color: #6b4308; }
+  :root[data-theme="dark"] .trend-card.caveat h3 { color: #f0c584; }
+  :root[data-theme="dark"] .trend-card.caveat p { color: #f0c584; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .trend-card.caveat { background: #3a2c14; border-color: #6b4308; }
+    :root:not([data-theme="light"]) .trend-card.caveat h3 { color: #f0c584; }
+    :root:not([data-theme="light"]) .trend-card.caveat p { color: #f0c584; }
+  }
+
+  /* ---- tooltip ---- */
+  .tooltip {
+    position: fixed; pointer-events: none;
+    background: var(--navy-deep); color: #eef3f9;
+    font-size: 0.76rem; line-height: 1.45;
+    padding: 0.5rem 0.65rem; border-radius: var(--radius);
+    max-width: 260px; z-index: 50; opacity: 0; transition: opacity .08s;
+    box-shadow: 0 10px 28px rgba(0,0,0,0.35);
+  }
+  .tooltip.show { opacity: 1; }
+  .tooltip b { font-weight: 700; }
+
+  /* ---- association layout ---- */
+  .assoc-layout { display: grid; grid-template-columns: 1.5fr 1fr; gap: 1.6rem; align-items: start; }
+  @media (max-width: 880px) { .assoc-layout { grid-template-columns: 1fr; } }
+
+  .heatmap-scroll { overflow-x: auto; }
+  table.heatmap { border-collapse: collapse; font-size: 0.76rem; }
+  table.heatmap th, table.heatmap td { padding: 0; text-align: left; }
+  table.heatmap th.colhead {
+    font-weight: 700; color: var(--ink-faint); font-size: 0.68rem;
+    padding: 0 0.4rem 0.5rem; writing-mode: vertical-rl; transform: rotate(180deg);
+    max-height: 120px; vertical-align: bottom; white-space: nowrap;
+  }
+  table.heatmap th.rowhead {
+    font-weight: 700; color: var(--ink-soft); font-size: 0.76rem;
+    padding: 0 0.65rem 0 0; white-space: nowrap; text-align: right;
+  }
+  table.heatmap td.cell {
+    width: 32px; height: 28px; text-align: center; vertical-align: middle;
+    font-variant-numeric: tabular-nums; font-weight: 700; font-size: 0.68rem; cursor: default;
+    border: 2px solid var(--paper-raised);
+    border-radius: 3px;
+    color: var(--ink);
+  }
+  table.heatmap td.cell.zero { color: var(--ink-faint); }
+
+  .rank-list { display: flex; flex-direction: column; gap: 0.1rem; }
+  .rank-row { display: flex; align-items: baseline; gap: 0.5rem; padding: 0.55rem 0.3rem; border-bottom: 1px solid var(--line); font-size: 0.8rem; cursor: pointer; border-radius: var(--radius); }
+  .rank-row:hover { background: var(--accent-soft); }
+  .rank-row .lift-badge { font-variant-numeric: tabular-nums; font-weight: 700; font-size: 0.76rem; color: var(--accent-ink); flex: none; min-width: 2.4rem; }
+  .rank-row .txt { color: var(--ink-soft); }
+  .rank-row .txt b { color: var(--ink); font-weight: 700; }
+  .rank-row .n { color: var(--ink-faint); font-size: 0.7rem; flex: none; }
+
+  /* ---- examples drawer ---- */
+  .examples { display: flex; flex-direction: column; gap: 0.5rem; }
+  .examples .hint { color: var(--ink-faint); font-size: 0.8rem; }
+  .example-item { padding: 0.6rem 0.75rem; background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); font-size: 0.8rem; }
+  .example-item .et { font-weight: 700; }
+  .example-item .et a { text-decoration: none; background-image: linear-gradient(var(--accent), var(--accent)); background-size: 100% 1px; background-repeat: no-repeat; background-position: 0 100%; }
+  .example-item .et a:hover { color: var(--accent-ink); }
+  .example-item .em { color: var(--ink-faint); font-size: 0.72rem; margin-top: 0.15rem; }
+
+  footer.note { max-width: 1180px; margin: 0 auto; padding: 0 1.5rem 4rem; color: var(--ink-faint); font-size: 0.82rem; }
+  footer.note h3 {
+    font-family: var(--face-body); font-weight: 700; font-size: 0.72rem; text-transform: uppercase;
+    letter-spacing: 0.1em; color: var(--ink-soft); border-top: 1px solid var(--line); padding-top: 1.5rem; margin-bottom: 0.6rem;
+  }
+  footer.note ul { margin: 0; padding-left: 1.1rem; }
+  footer.note li { margin-bottom: 0.3rem; }
+  footer.note a { color: var(--accent); }
+
+  @media (max-width: 720px) {
+    .stat-strip { grid-template-columns: repeat(3, 1fr); }
+    .assoc-layout { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-text">
+      <p class="catalog-mark">Field survey · aggregated</p>
+      <h1 class="title">Patterns across <span class="live-count">—</span> research case studies</h1>
+      <p class="lede">The companion view to the AI-assisted research catalog: every logged case study is tagged
+        by discipline, tool, collection, and region — this page cross-tabulates those tags and tracks them
+        over time. There's no predictor lab here (unlike the teaching catalog's trends page) — with only
+        <span class="live-count">—</span> entries, a trained model would have too little data per category to say
+        anything reliable, so this page sticks to counts and cross-tabs.</p>
+    </div>
+    <div class="tally">
+      <div class="tally-count">
+        <span class="big" id="tallyTotal">—</span>
+        <span class="cap">Case studies</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+  <a class="trends-back-link" href="/ai-for-research">&larr; Back to Research Case Studies</a>
+
+  <p id="loadStatus" style="color: var(--ink-faint); font-size: 0.85rem;">Loading catalog data…</p>
+
+  <div class="stat-strip" id="kpis"></div>
+
+  <div class="card">
+    <div class="card-head">
+      <h2>Trends by year</h2>
+      <p>How the mix of tags has shifted over time. Bars are stacked counts; switch to share
+        to normalize away the catalog's overall growth. <em>Unspecified</em> groups entries whose
+        source page didn't state a year; <em>Pre-2023</em> folds together the scattered older entries
+        (as far back as 2011) so the axis stays readable.</p>
+    </div>
+    <div class="controls">
+      <div class="control-group">
+        <label>Break down by</label>
+        <div class="chipset" id="trend-dim-chips"></div>
+      </div>
+      <div class="control-group">
+        <label>Metric</label>
+        <div class="chipset" id="trend-metric-chips"></div>
+      </div>
+    </div>
+    <div class="chart-scroll">
+      <div class="bars" id="trend-bars"></div>
+    </div>
+    <div class="legend" id="trend-legend"></div>
+  </div>
+
+  <div class="card">
+    <div class="card-head">
+      <h2>Top trends</h2>
+      <p>A few headline findings, pulled automatically from the data above.</p>
+    </div>
+    <div class="trend-grid" id="top-trends-panel"></div>
+  </div>
+
+  <div class="card">
+    <div class="card-head">
+      <h2>Association explorer</h2>
+      <p>Pick two tag dimensions to cross-tabulate. Each heatmap row is normalized to 100% — darker
+        cells mean a larger share of that row's case studies carry that column's tag. The ranked
+        list surfaces the strongest pairings across <em>all</em> dimensions, not just the two
+        selected, weighted by how much they beat the catalog-wide baseline (lift), with a minimum
+        of 5 case studies behind each claim — with only <span class="live-count">—</span> entries total, many
+        pairings won't clear that bar, which is itself a signal of how much this catalog can support.</p>
+    </div>
+    <div class="controls">
+      <div class="control-group">
+        <label>Rows</label>
+        <select id="assoc-a"></select>
+      </div>
+      <div class="control-group">
+        <label>Columns</label>
+        <select id="assoc-b"></select>
+      </div>
+    </div>
+    <div class="assoc-layout">
+      <div class="heatmap-scroll">
+        <table class="heatmap" id="heatmap"></table>
+      </div>
+      <div>
+        <div class="rank-list" id="rank-list"></div>
+      </div>
+    </div>
+    <div class="examples" id="examples">
+      <div class="hint">Hover a cell, or click a ranked pairing, to see matching case studies here.</div>
+    </div>
+  </div>
+
+</div>
+
+<footer class="note">
+  <h3>Notes on this view</h3>
+  <ul>
+    <li>Data: <code>data/community.json</code> in the case-study-catalog repo, filtered to the
+      "AI-Assisted Research" entries only — <span class="live-count">—</span> approved entries as of the date
+      below. Discipline and tool are multi-select tags, so row/column percentages can sum to more than 100%.</li>
+    <li>No predictor lab: the teaching catalog's trends page fits a small logistic-regression model, but
+      that needs enough entries per category to be more than noise. At <span class="live-count">—</span> entries
+      spread across a dozen-plus disciplines and tools, most categories here have single-digit counts —
+      not enough to train or validate a model responsibly, so this page stops at counts and cross-tabs.</li>
+    <li>Categories beyond the top 7 per dimension are folded into "+N more" to keep charts legible
+      — click through to the association explorer's example drawer to see what's inside a folded
+      group.</li>
+    <li>"Collection" here plays the role "Theme" plays on the teaching trends page — every entry in this
+      catalog shares the same theme ("AI-Assisted Research"), so Collection (which source page or repository
+      it came from) is the more useful thing to break down by.</li>
+  </ul>
+  <p id="provenance"></p>
+</footer>
+
+<div class="tooltip" id="tooltip"></div>
+
+<script>
+let RAW = [];
+let REPO_LABELS = {};
+</script>
+<script>
+function boot(){
+  "use strict";
+
+  // ---------------------------------------------------------------------
+  // setup
+  // ---------------------------------------------------------------------
+  document.getElementById("tallyTotal").textContent = RAW.length;
+  document.querySelectorAll(".live-count").forEach(function(el){ el.textContent = RAW.length; });
+  document.getElementById("provenance").textContent =
+    RAW.length + " approved entries · generated " + new Date().toISOString().slice(0,10);
+
+  function groupRegion(r){
+    const top = ["UK","US","Australia","Netherlands","Canada","New Zealand","India"];
+    return top.indexOf(r) !== -1 ? r : "Other";
+  }
+
+  // years here span 2011–2026 in a long thin tail — fold anything before 2023
+  // into one bucket so the year axis stays readable, same spirit as the
+  // teaching trends page's "+N more" category fold.
+  function bucketYear(y){
+    if (y === "Unspecified" || y === undefined || y === null || y === "") return "Unspecified";
+    const n = Number(y);
+    if (isNaN(n)) return "Unspecified";
+    return n < 2023 ? "Pre-2023" : String(n);
+  }
+
+  RAW.forEach(function(e){
+    e._reg = groupRegion(e.reg);
+    e._yr = bucketYear(e.yr);
+  });
+
+  function countValues(getter){
+    const m = new Map();
+    RAW.forEach(function(e){
+      const v = getter(e);
+      const arr = Array.isArray(v) ? v : [v];
+      arr.forEach(function(x){
+        if (x === null || x === undefined) return;
+        m.set(x, (m.get(x)||0)+1);
+      });
+    });
+    return m;
+  }
+
+  // top-N + "+N more" fold, colors assigned by fixed rank order (stable across the whole page)
+  function capCategories(countsMap, max, fixedOrder){
+    let sorted;
+    if (fixedOrder) {
+      sorted = fixedOrder.map(function(k){ return [k, countsMap.get(k)||0]; });
+    } else {
+      sorted = Array.from(countsMap.entries()).sort(function(a,b){ return b[1]-a[1]; });
+    }
+    const top = sorted.slice(0, max);
+    const rest = sorted.slice(max);
+    const restTotal = rest.reduce(function(s,p){ return s+p[1]; }, 0);
+    const cats = top.map(function(p){ return { name: p[0], count: p[1], isOther:false }; });
+    if (rest.length) {
+      cats.push({ name: "+" + rest.length + " more", count: restTotal, isOther: true,
+        otherNames: rest.map(function(p){ return p[0]; }) });
+    }
+    cats.forEach(function(c, i){ c.slot = i; });
+    return cats;
+  }
+
+  function buildCapMap(cats){
+    const map = new Map();
+    cats.forEach(function(c){
+      if (c.isOther) c.otherNames.forEach(function(n){ map.set(n, c.name); });
+      else map.set(c.name, c.name);
+    });
+    return map;
+  }
+
+  const YEAR_ORDER = ["Pre-2023","2023","2024","2025","2026","Unspecified"];
+  const DIM = {
+    disc: { label: "Discipline", multi: true,  get: function(e){ return e.disc; } },
+    tool: { label: "Tool",       multi: true,  get: function(e){ return e.tool; } },
+    repo: { label: "Collection", multi: false, get: function(e){ return [REPO_LABELS[e.repo] ? REPO_LABELS[e.repo].short : e.repo]; } },
+    yr:   { label: "Year",       multi: false, get: function(e){ return [e._yr]; } },
+    reg:  { label: "Region",     multi: false, get: function(e){ return [e._reg]; } }
+  };
+
+  DIM.disc.cats = capCategories(countValues(DIM.disc.get), 7);
+  DIM.tool.cats = capCategories(countValues(DIM.tool.get), 7);
+  DIM.repo.cats = capCategories(countValues(DIM.repo.get), 7);
+  DIM.yr.cats   = capCategories(countValues(DIM.yr.get), 8, YEAR_ORDER);
+  DIM.reg.cats  = capCategories(countValues(DIM.reg.get), 8);
+
+  Object.keys(DIM).forEach(function(k){
+    const d = DIM[k];
+    d.capMap = buildCapMap(d.cats);
+    d.catNames = d.cats.map(function(c){ return c.name; });
+    // colorblind-safe categorical palette, one hue per real category (up to 7),
+    // used by the "Trends by year" bars/legend — the only place colorOf is read
+    d.colorOf = {};
+    d.cats.forEach(function(c){
+      d.colorOf[c.name] = c.isOther ? "var(--other-fill)" : "var(--cat-" + (c.slot+1) + ")";
+    });
+    // per-entry capped, deduped category list
+    d.of = function(e){
+      const raw = d.get(e);
+      const seen = {};
+      const out = [];
+      raw.forEach(function(v){
+        const mapped = d.capMap.get(v) || v;
+        if (!seen[mapped]) { seen[mapped] = true; out.push(mapped); }
+      });
+      return out;
+    };
+  });
+
+  // ---------------------------------------------------------------------
+  // tooltip helper
+  // ---------------------------------------------------------------------
+  const tipEl = document.getElementById("tooltip");
+  function showTip(html, x, y){
+    tipEl.innerHTML = html;
+    tipEl.style.left = Math.min(x+14, window.innerWidth-280) + "px";
+    tipEl.style.top = (y+14) + "px";
+    tipEl.classList.add("show");
+  }
+  function hideTip(){ tipEl.classList.remove("show"); }
+
+  // ---------------------------------------------------------------------
+  // stat strip
+  // ---------------------------------------------------------------------
+  (function renderKpis(){
+    const el = document.getElementById("kpis");
+    const nInst = new Set(RAW.map(function(e){ return e.inst; })).size;
+    const nYears = countValues(function(e){ return [e._yr]; }).size - (countValues(function(e){ return [e._yr]; }).has("Unspecified") ? 1 : 0);
+    const kpis = [
+      [nInst, "Institutions"],
+      [countValues(DIM.disc.get).size, "Disciplines"],
+      [countValues(DIM.tool.get).size, "Tools"],
+      [countValues(DIM.repo.get).size, "Collections"],
+      [countValues(function(e){return [e.reg];}).size, "Countries"]
+    ];
+    kpis.forEach(function(k){
+      const d = document.createElement("div");
+      d.className = "stat";
+      d.innerHTML = '<div class="n">'+k[0]+'</div><div class="l">'+k[1]+'</div>';
+      el.appendChild(d);
+    });
+  })();
+
+  // ---------------------------------------------------------------------
+  // Trends by year
+  // ---------------------------------------------------------------------
+  let trendDim = "disc";
+  let trendMetric = "count";
+
+  function renderTrendChips(){
+    const dimEl = document.getElementById("trend-dim-chips");
+    dimEl.innerHTML = "";
+    ["disc","tool","repo","reg"].forEach(function(k){
+      const c = document.createElement("button");
+      c.type = "button";
+      c.className = "chip" + (k===trendDim ? " active" : "");
+      c.textContent = DIM[k].label;
+      c.onclick = function(){ trendDim = k; renderTrendChips(); renderTrend(); };
+      dimEl.appendChild(c);
+    });
+    const metEl = document.getElementById("trend-metric-chips");
+    metEl.innerHTML = "";
+    [["count","Count"],["share","Share %"]].forEach(function(p){
+      const c = document.createElement("button");
+      c.type = "button";
+      c.className = "chip" + (p[0]===trendMetric ? " active" : "");
+      c.textContent = p[1];
+      c.onclick = function(){ trendMetric = p[0]; renderTrend(); };
+      metEl.appendChild(c);
+    });
+  }
+
+  // in-bar labels: font scales with the segment's own pixel height, capped at the
+  // x-axis label's size so a tall segment never out-shouts the axis
+  const BAR_STACK_HEIGHT_PX = 210; // keep in sync with .bar-stack { height }
+  const X_AXIS_FONT_PX = 12.48;    // keep in sync with .bar-col .x-label { font-size: 0.78rem } @ 16px root
+  const MIN_LABEL_HEIGHT_PX = 16;  // below this, text can't fit legibly — skip the label
+  const LABEL_FONT_SCALE = 0.45;
+
+  const CAT_PALETTE_HEX = {
+    light: ["#2a78d6","#eb6834","#1baf7a","#eda100","#e87ba4","#008300","#4a3aa7"],
+    dark:  ["#3987e5","#d95926","#199e70","#c98500","#d55181","#008300","#9085e9"]
+  };
+  const OTHER_FILL_HEX = { light: "#d7dde3", dark: "#2a3446" };
+
+  function isDarkMode(){
+    const attr = document.documentElement.getAttribute("data-theme");
+    if (attr === "dark") return true;
+    if (attr === "light") return false;
+    return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  }
+
+  function hexLuminance(hex){
+    hex = hex.replace("#","");
+    const r = parseInt(hex.slice(0,2),16), g = parseInt(hex.slice(2,4),16), b = parseInt(hex.slice(4,6),16);
+    return (0.299*r + 0.587*g + 0.114*b) / 255;
+  }
+
+  // reads the actual hex behind a segment's var(--cat-N)/var(--other-fill) for the
+  // current theme, so label text always contrasts against what's really on screen
+  function textColorFor(dim, catName){
+    const cat = dim.cats.find(function(c){ return c.name === catName; });
+    const mode = isDarkMode() ? "dark" : "light";
+    const hex = (cat && !cat.isOther) ? CAT_PALETTE_HEX[mode][cat.slot] : OTHER_FILL_HEX[mode];
+    return hexLuminance(hex) > 0.6 ? "#041e42" : "#ffffff";
+  }
+
+  function renderTrend(){
+    const dim = DIM[trendDim];
+    const barsEl = document.getElementById("trend-bars");
+    const legendEl = document.getElementById("trend-legend");
+    barsEl.innerHTML = "";
+    legendEl.innerHTML = "";
+
+    // counts[year][cat]
+    const table = {};
+    YEAR_ORDER.forEach(function(y){ table[y] = {}; dim.catNames.forEach(function(c){ table[y][c]=0; }); });
+    RAW.forEach(function(e){
+      const y = e._yr;
+      dim.of(e).forEach(function(c){ table[y][c]++; });
+    });
+    const yearTotals = {};
+    YEAR_ORDER.forEach(function(y){
+      yearTotals[y] = RAW.filter(function(e){ return e._yr===y; }).length;
+    });
+
+    let maxStack = 0;
+    YEAR_ORDER.forEach(function(y){
+      const sum = dim.catNames.reduce(function(s,c){ return s+table[y][c]; }, 0);
+      if (sum > maxStack) maxStack = sum;
+    });
+
+    YEAR_ORDER.forEach(function(y){
+      const col = document.createElement("div");
+      col.className = "bar-col";
+      const stack = document.createElement("div");
+      stack.className = "bar-stack";
+      const catTotal = dim.catNames.reduce(function(s,c){ return s+table[y][c]; }, 0);
+      dim.catNames.forEach(function(c){
+        const raw = table[y][c];
+        if (!raw) return;
+        const seg = document.createElement("div");
+        seg.className = "bar-seg";
+        let heightPct;
+        if (trendMetric === "count") {
+          heightPct = maxStack ? (raw/maxStack*100) : 0;
+        } else {
+          heightPct = catTotal ? (raw/catTotal*100) : 0;
+        }
+        seg.style.height = heightPct + "%";
+        seg.style.background = dim.colorOf[c];
+        seg.onmousemove = function(ev){
+          const pct = catTotal ? (raw/catTotal*100).toFixed(0) : 0;
+          showTip("<b>"+c+"</b> · "+y+"<br>"+raw+" case studies ("+pct+"% of "+y+")", ev.clientX, ev.clientY);
+        };
+        seg.onmouseleave = hideTip;
+
+        const sharePct = catTotal ? Math.round(raw/catTotal*100) : 0;
+        const heightPx = heightPct/100 * BAR_STACK_HEIGHT_PX;
+        if (heightPx >= MIN_LABEL_HEIGHT_PX) {
+          const fontPx = Math.min(X_AXIS_FONT_PX, heightPx * LABEL_FONT_SCALE);
+          const label = document.createElement("div");
+          label.className = "bar-seg-label";
+          label.style.fontSize = fontPx + "px";
+          label.style.color = textColorFor(dim, c);
+          label.innerHTML = "<span>"+raw+"</span><span>"+sharePct+"%</span>";
+          seg.appendChild(label);
+        }
+
+        stack.appendChild(seg);
+      });
+      col.appendChild(stack);
+      const xl = document.createElement("div");
+      xl.className = "x-label";
+      xl.textContent = y;
+      col.appendChild(xl);
+      const xt = document.createElement("div");
+      xt.className = "x-total";
+      xt.textContent = "n=" + yearTotals[y];
+      col.appendChild(xt);
+      barsEl.appendChild(col);
+    });
+
+    dim.cats.forEach(function(c){
+      const li = document.createElement("div");
+      li.className = "legend-item";
+      li.innerHTML = '<span class="legend-swatch" style="background:'+dim.colorOf[c.name]+'"></span>'+c.name;
+      legendEl.appendChild(li);
+    });
+  }
+
+  // ---------------------------------------------------------------------
+  // Top trends — a curated set of headline findings, computed live from RAW
+  // ---------------------------------------------------------------------
+  function pct(a,b){ return b ? Math.round(a/b*100) : 0; }
+
+  function rateFor(filterFn, matchFn){
+    const sub = RAW.filter(filterFn);
+    const count = sub.filter(matchFn).length;
+    return { n: sub.length, count: count, pct: pct(count, sub.length) };
+  }
+
+  function topN(countsMap, n){
+    return Array.from(countsMap.entries()).sort(function(a,b){ return b[1]-a[1]; }).slice(0,n);
+  }
+
+  function tbar(label, pctVal, color){
+    return '<div class="tbar-row"><div class="tbar-label">'+label+'</div>'+
+      '<div class="tbar-track"><div class="tbar-fill" style="width:'+pctVal+'%;background:'+color+'"></div></div>'+
+      '<div class="tbar-val">'+pctVal+'%</div></div>';
+  }
+
+  function renderTopTrends(){
+    const el = document.getElementById("top-trends-panel");
+    const cards = [];
+
+    // 1 — Tool mix: bespoke/domain methods vs named conversational tools
+    (function(){
+      const named = new Set(["ChatGPT","Claude","Gemini","Copilot","Custom GPT","Midjourney","DALL-E","Stable Diffusion","NotebookLM","Codex","PaperQA","ResearchRabbit","Voice/Audio AI","Whisper","AI Co-Scientist (Google)"]);
+      const isOther = function(e){ return (e.tool||[]).some(function(t){ return t === "Other"; }); };
+      const other = rateFor(function(){ return true; }, isOther);
+      cards.push(
+        '<div class="trend-card">' +
+          '<h3>Research leans on bespoke tools, not chat interfaces</h3>' +
+          '<div class="trend-stat">'+other.pct+'%</div>' +
+          '<p>'+other.count+' of '+other.n+' research case studies use a tool tagged <b>Other</b> — a domain-specific '+
+          'model, classifier, or pipeline rather than a named consumer chat tool. Unlike the teaching catalog, where '+
+          'ChatGPT and Copilot dominate, AI-assisted research skews toward purpose-built methods.</p>' +
+          tbar("Tagged “Other”", other.pct, "var(--ramp-tool-7)") +
+        '</div>'
+      );
+    })();
+
+    // 2 — Discipline concentration
+    (function(){
+      const counts = new Map();
+      RAW.forEach(function(e){ (e.disc||[]).forEach(function(d){ counts.set(d, (counts.get(d)||0)+1); }); });
+      const top2 = topN(counts, 2);
+      const top2Total = top2.reduce(function(s,p){ return s+p[1]; }, 0);
+      const uniqueEntries = RAW.filter(function(e){ return (e.disc||[]).some(function(d){ return d===top2[0][0] || d===top2[1][0]; }); }).length;
+      cards.push(
+        '<div class="trend-card">' +
+          '<h3>Two disciplines carry most of the catalog</h3>' +
+          '<div class="trend-stat">'+pct(uniqueEntries, RAW.length)+'%</div>' +
+          '<p><b>'+top2[0][0]+'</b> ('+top2[0][1]+') and <b>'+top2[1][0]+'</b> ('+top2[1][1]+') together account for '+
+          pct(uniqueEntries, RAW.length)+'% of all research case studies — the rest are spread thinly across the '+
+          'remaining disciplines, several with just one or two entries.</p>' +
+          tbar(top2[0][0], pct(top2[0][1], RAW.length), "var(--ramp-disc-7)") +
+          tbar(top2[1][0], pct(top2[1][1], RAW.length), "var(--ramp-disc-6)") +
+        '</div>'
+      );
+    })();
+
+    // 3 — Region split
+    (function(){
+      const counts = new Map();
+      RAW.forEach(function(e){ counts.set(e.reg, (counts.get(e.reg)||0)+1); });
+      const uk = counts.get("UK")||0, us = counts.get("US")||0;
+      cards.push(
+        '<div class="trend-card">' +
+          '<h3>UK and US supply almost all of it</h3>' +
+          '<div class="trend-stat">'+pct(uk+us, RAW.length)+'%</div>' +
+          '<p>UK ('+uk+') and US ('+us+') institutions account for '+pct(uk+us, RAW.length)+'% of research case '+
+          'studies, with the rest scattered one or two at a time across other countries — this catalog’s research '+
+          'coverage is heavily Anglo-American so far, more so than the teaching catalog.</p>' +
+          tbar("UK", pct(uk, RAW.length), "var(--ramp-reg-7)") +
+          tbar("US", pct(us, RAW.length), "var(--ramp-reg-5)") +
+        '</div>'
+      );
+    })();
+
+    // 4 — caveat: small n and mostly-undated years make the trends-by-year chart fragile
+    (function(){
+      const unspecified = RAW.filter(function(e){ return e._yr === "Unspecified"; }).length;
+      const dated = RAW.length - unspecified;
+      const y2025 = RAW.filter(function(e){ return e._yr === "2025"; }).length;
+      cards.push(
+        '<div class="trend-card caveat">' +
+          '<h3>Read the year chart cautiously</h3>' +
+          '<p>'+unspecified+' of '+RAW.length+' entries ('+pct(unspecified, RAW.length)+'%) don’t state a year at all, '+
+          'and of the '+dated+' that do, '+y2025+' ('+pct(y2025, dated)+'%) are from 2025 alone — the other dated years '+
+          'have just one or two entries each. Any year-over-year pattern above is riding on very few data points; treat '+
+          'it as descriptive, not a trend line to extrapolate from.</p>' +
+        '</div>'
+      );
+    })();
+
+    el.innerHTML = cards.join("");
+  }
+
+  // ---------------------------------------------------------------------
+  // Association explorer
+  // ---------------------------------------------------------------------
+  const DIM_KEYS = ["disc","tool","repo","yr","reg"];
+  let assocA = "disc", assocB = "tool";
+
+  function populateAssocSelects(){
+    const aEl = document.getElementById("assoc-a");
+    const bEl = document.getElementById("assoc-b");
+    [aEl, bEl].forEach(function(sel){
+      sel.innerHTML = "";
+      DIM_KEYS.forEach(function(k){
+        const o = document.createElement("option");
+        o.value = k; o.textContent = DIM[k].label;
+        sel.appendChild(o);
+      });
+    });
+    aEl.value = assocA; bEl.value = assocB;
+    aEl.onchange = function(){ assocA = aEl.value; if (assocA===assocB) { assocB = DIM_KEYS.filter(function(k){return k!==assocA;})[0]; bEl.value = assocB; } renderHeatmap(); };
+    bEl.onchange = function(){ assocB = bEl.value; if (assocB===assocA) { assocA = DIM_KEYS.filter(function(k){return k!==assocB;})[0]; aEl.value = assocA; } renderHeatmap(); };
+  }
+
+  // returns { counts[a][b], rowTotal[a], colTotal[b], n }
+  function crossTab(keyA, keyB){
+    const dimA = DIM[keyA], dimB = DIM[keyB];
+    const counts = {}, rowTotal = {}, colTotal = {};
+    dimA.catNames.forEach(function(a){ counts[a] = {}; rowTotal[a] = 0; dimB.catNames.forEach(function(b){ counts[a][b]=0; }); });
+    dimB.catNames.forEach(function(b){ colTotal[b] = 0; });
+    RAW.forEach(function(e){
+      const as = dimA.of(e), bs = dimB.of(e);
+      as.forEach(function(a){ rowTotal[a]++; });
+      bs.forEach(function(b){ colTotal[b]++; });
+      as.forEach(function(a){ bs.forEach(function(b){ counts[a][b]++; }); });
+    });
+    return { counts: counts, rowTotal: rowTotal, colTotal: colTotal, n: RAW.length };
+  }
+
+  // heatmap intensity always uses the blue ("theme") ramp — it's encoding
+  // magnitude here, not a tag identity, regardless of which two dims are picked
+  function seqColor(pct){
+    const steps = ["var(--ramp-th-1)","var(--ramp-th-2)","var(--ramp-th-3)","var(--ramp-th-4)",
+      "var(--ramp-th-5)","var(--ramp-th-6)","var(--ramp-th-7)"];
+    if (pct <= 0) return null;
+    const idx = Math.min(steps.length-1, Math.floor(pct/100*steps.length));
+    return steps[idx];
+  }
+
+  function exampleEntries(keyA, valA, keyB, valB, limit){
+    const dimA = DIM[keyA], dimB = DIM[keyB];
+    const out = [];
+    for (let i=0; i<RAW.length && out.length<limit; i++){
+      const e = RAW[i];
+      if (dimA.of(e).indexOf(valA) !== -1 && dimB.of(e).indexOf(valB) !== -1) out.push(e);
+    }
+    return out;
+  }
+
+  function renderExamples(items, headline){
+    const el = document.getElementById("examples");
+    el.innerHTML = "";
+    const h = document.createElement("div");
+    h.className = "hint";
+    h.textContent = headline;
+    el.appendChild(h);
+    items.forEach(function(e){
+      const d = document.createElement("div");
+      d.className = "example-item";
+      d.innerHTML = '<div class="et"><a href="'+e.u+'" target="_blank" rel="noopener">'+e.t+'</a></div>'+
+        '<div class="em">'+e.inst+' · '+e._yr+'</div>';
+      el.appendChild(d);
+    });
+  }
+
+  function renderHeatmap(){
+    const dimA = DIM[assocA], dimB = DIM[assocB];
+    const ct = crossTab(assocA, assocB);
+    const table = document.getElementById("heatmap");
+    table.innerHTML = "";
+
+    const thead = document.createElement("tr");
+    thead.appendChild(document.createElement("th"));
+    dimB.catNames.forEach(function(b){
+      const th = document.createElement("th");
+      th.className = "colhead";
+      th.textContent = b;
+      thead.appendChild(th);
+    });
+    table.appendChild(thead);
+
+    dimA.catNames.forEach(function(a){
+      const tr = document.createElement("tr");
+      const rh = document.createElement("th");
+      rh.className = "rowhead";
+      rh.textContent = a;
+      tr.appendChild(rh);
+      dimB.catNames.forEach(function(b){
+        const raw = ct.counts[a][b];
+        const pct = ct.rowTotal[a] ? (raw/ct.rowTotal[a]*100) : 0;
+        const td = document.createElement("td");
+        td.className = "cell" + (raw===0 ? " zero" : "");
+        const bg = seqColor(pct);
+        if (bg) { td.style.background = bg; }
+        td.textContent = raw === 0 ? "" : Math.round(pct) + "%";
+        if (pct > 55) td.style.color = "#fff";
+        td.onmousemove = function(ev){
+          showTip("<b>"+a+"</b> × <b>"+b+"</b><br>"+raw+" of "+ct.rowTotal[a]+" "+dimA.label.toLowerCase()+
+            " entries ("+pct.toFixed(0)+"%)", ev.clientX, ev.clientY);
+        };
+        td.onmouseleave = hideTip;
+        const openExamples = function(){
+          const ex = exampleEntries(assocA, a, assocB, b, 5);
+          renderExamples(ex, ex.length + " example" + (ex.length===1?"":"s") + " tagged " + a + " × " + b + (raw>5?" (of "+raw+"):":":"));
+        };
+        td.onclick = openExamples;
+        if (raw > 0) {
+          td.tabIndex = 0;
+          td.setAttribute("role", "button");
+          td.setAttribute("aria-label", a + " × " + b + ", " + Math.round(pct) + "%");
+          td.onkeydown = function(ev){ if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); openExamples(); } };
+        }
+        tr.appendChild(td);
+      });
+      table.appendChild(tr);
+    });
+  }
+
+  // ranked list across ALL dimension pairs
+  function renderRankList(){
+    const el = document.getElementById("rank-list");
+    el.innerHTML = "";
+    const pairs = [];
+    for (let i=0;i<DIM_KEYS.length;i++){
+      for (let j=0;j<DIM_KEYS.length;j++){
+        if (i===j) continue;
+        pairs.push([DIM_KEYS[i], DIM_KEYS[j]]);
+      }
+    }
+    const rows = [];
+    pairs.forEach(function(pair){
+      const keyA = pair[0], keyB = pair[1];
+      const ct = crossTab(keyA, keyB);
+      const dimA = DIM[keyA], dimB = DIM[keyB];
+      dimA.catNames.forEach(function(a){
+        if (a.charAt(0) === "+") return;
+        dimB.catNames.forEach(function(b){
+          if (b.charAt(0) === "+") return;
+          const raw = ct.counts[a][b];
+          if (raw < 5) return;
+          const rowPct = raw/ct.rowTotal[a];
+          const baseline = ct.colTotal[b]/ct.n;
+          if (baseline <= 0) return;
+          const lift = rowPct/baseline;
+          if (lift <= 1.15) return;
+          rows.push({ keyA:keyA, a:a, keyB:keyB, b:b, raw:raw, rowTotal:ct.rowTotal[a], rowPct:rowPct, lift:lift });
+        });
+      });
+    });
+    rows.sort(function(x,y){ return y.lift - x.lift; });
+    // the same real-world pairing shows up twice (A→B and B→A, different %s) —
+    // keep only the stronger direction so the list isn't half duplicates
+    const seenPair = {};
+    const deduped = [];
+    rows.forEach(function(r){
+      const key = [r.keyA+":"+r.a, r.keyB+":"+r.b].sort().join("|");
+      if (seenPair[key]) return;
+      seenPair[key] = true;
+      deduped.push(r);
+    });
+    const top = deduped.slice(0, 16);
+    if (!top.length) {
+      const empty = document.createElement("div");
+      empty.className = "hint";
+      empty.style.padding = "0.6rem 0.3rem";
+      empty.textContent = "No pairing currently clears the minimum of 5 case studies — that's expected at this catalog size.";
+      el.appendChild(empty);
+      return;
+    }
+    top.forEach(function(r){
+      const row = document.createElement("div");
+      row.className = "rank-row";
+      row.tabIndex = 0;
+      row.setAttribute("role", "button");
+      row.innerHTML = '<div class="lift-badge">'+r.lift.toFixed(1)+'×</div>'+
+        '<div class="txt"><b>'+r.a+'</b> → '+r.b+' in '+DIM[r.keyB].label.toLowerCase()+
+        ' <span class="n">('+r.raw+'/'+r.rowTotal+', '+Math.round(r.rowPct*100)+'%)</span></div>';
+      const activate = function(){
+        assocA = r.keyA; assocB = r.keyB;
+        document.getElementById("assoc-a").value = assocA;
+        document.getElementById("assoc-b").value = assocB;
+        renderHeatmap();
+        const ex = exampleEntries(r.keyA, r.a, r.keyB, r.b, 5);
+        renderExamples(ex, ex.length + " example" + (ex.length===1?"":"s") + " tagged " + r.a + " × " + r.b + (r.raw>5?" (of "+r.raw+"):":":"));
+      };
+      row.onclick = activate;
+      row.onkeydown = function(ev){ if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); activate(); } };
+      el.appendChild(row);
+    });
+  }
+
+  // ---------------------------------------------------------------------
+  // boot
+  // ---------------------------------------------------------------------
+  renderTrendChips();
+  renderTrend();
+  renderTopTrends();
+  populateAssocSelects();
+  renderHeatmap();
+  renderRankList();
+
+}
+</script>
+<script>
+fetch("/api/catalog")
+  .then(function(res){
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    return res.json();
+  })
+  .then(function(data){
+    RAW = data.entries.filter(function(e){ return e.th === "AI-Assisted Research"; });
+    REPO_LABELS = data.repos;
+    document.getElementById("loadStatus").remove();
+    boot();
+  })
+  .catch(function(err){
+    document.getElementById("loadStatus").textContent = "Couldn't load catalog data: " + err.message;
+  });
+</script>
+</body>
+</html>

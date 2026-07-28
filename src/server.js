@@ -224,6 +224,9 @@ app.get("/admin", (req, res) => {
 app.get("/trends", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "public", "trends.html"));
 });
+app.get("/research-trends", (req, res) => {
+  res.sendFile(path.join(__dirname, "..", "public", "research-trends.html"));
+});
 app.get("/reducing-ai-use", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "public", "reducing-ai-use.html"));
 });
