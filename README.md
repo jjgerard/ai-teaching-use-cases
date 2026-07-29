@@ -69,6 +69,38 @@ published page can't fetch or read an arbitrary URL for you) — you visit the l
 yourself, and add whatever qualifies through the normal form or paste box. Mark a
 suggestion done once you've gone through it.
 
+## AI perceptions research dashboard (`/ai-perceptions`)
+
+A separate, self-contained findings explorer — unrelated to the case-study catalog's
+data model, submission pipeline, or admin dashboard. It presents three papers on how
+students and staff perceive generative AI in higher education:
+
+- Gerard, Singh, Macleod, McKay, Rivoire, Chakraborty & Singh (2025), *AI Across
+  Borders* (Education Sciences) — published, with charts built from the paper's own
+  tables: sample composition, awareness/perception ratings by institution, sentiment
+  by institution and subject area, and the institution × subject-area interaction on
+  attitude scores (with standard errors and significance stars from the reported
+  Bonferroni pairwise comparisons).
+- Gerard, Macleod, Norwood, Reid & Singh (in press), *Methodological Variation in
+  Studying Staff and Student Perceptions of AI Frontiers in Education* (Frontiers in
+  Education) — sample composition by respondent group, sentiment agreement between
+  automated and manual scoring, and shared vs. divergent themes across groups.
+- Gerard, Macleod, Norwood, Reid & Singh, *From Novelty to Normalisation* (arXiv
+  preprint) — shown as a pending placeholder, since the paper has been reframed since
+  the version currently indexed on arXiv; swap in the updated manuscript's figures once
+  it's available.
+
+The "Explore by subfield" tab is interactive: a client-side CSV importer (drag-and-drop
+or file picker, no upload to any server) lets you swap in your own participant-level
+data — expected columns are `institution`, `subject_area`, `gender`, plus any numeric
+outcome column (e.g. an attitude score) — and re-renders the chart, filters, and data
+table against it live. It's seeded by default with the published Table 4 sample from
+the first paper above, so the tool is usable immediately without needing your own file.
+
+Everything — data, chart-drawing code, and the CSV parser — lives entirely in
+`public/ai-perceptions.html`; there's no API endpoint or database table behind it, so
+updating the papers' figures means editing that file directly.
+
 ## Git persistence for approved entries (avoids paying for a persistent volume)
 
 Without this, approved entries only exist in the SQLite file, so a host with no
