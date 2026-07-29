@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI perceptions research — Field Notes</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --paper: #f4f6f8;
+    --paper-raised: #ffffff;
+    --paper-card: #ffffff;
+    --ink: #041e42;
+    --ink-soft: #33475b;
+    --ink-faint: #6b7c8c;
+    --accent: #0a5fa8;
+    --accent-soft: #dcedfa;
+    --accent-ink: #04407d;
+    --cool: #2f8f76;
+    --cool-soft: #dcf0e9;
+    --disc: #7a4fa0;
+    --disc-soft: #ece1f4;
+    --navy: #041e42;
+    --navy-deep: #030c18;
+    --sky: #c9ced4;
+    --line: rgba(4, 30, 66, 0.13);
+    --line-strong: rgba(4, 30, 66, 0.28);
+    --shadow: 0 1px 2px rgba(4, 30, 66, 0.06), 0 10px 24px -16px rgba(4, 30, 66, 0.35);
+    --radius: 10px;
+    --radius-lg: 14px;
+    --btn-shadow: inset 0 1px 0 rgba(255,255,255,0.18), inset 0 -1px 0 rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.15);
+    --input-shadow: inset 0 1px 0 rgba(255,255,255,0.7), inset 0 2px 5px rgba(4,30,66,0.07), inset 0 6px 14px -4px rgba(4,30,66,0.05);
+    --face-display: "Century Gothic", "Futura PT", "Trebuchet MS", "Segoe UI", sans-serif;
+    --face-body: "Segoe UI", "Open Sans", -apple-system, Helvetica, Arial, sans-serif;
+    --face-mono: ui-monospace, "Cascadia Mono", "SF Mono", Consolas, monospace;
+    --cat-1: #2a78d6; --cat-2: #eb6834; --cat-3: #1baf7a; --cat-4: #eda100;
+    --cat-5: #e87ba4; --cat-6: #008300; --cat-7: #4a3aa7; --cat-8: #e34948;
+    --good: #0ca30c; --warning: #fab219; --serious: #ec835a; --critical: #d03b3b;
+  }
+  :root[data-theme="dark"] {
+    --paper: #0a1220; --paper-raised: #101a2c; --paper-card: #132038;
+    --ink: #e8edf4; --ink-soft: #a8b8cb; --ink-faint: #6f8199;
+    --accent: #6fb4e8; --accent-soft: #12283f; --accent-ink: #9ccdf0;
+    --cool: #6bcbae; --cool-soft: #0e241d; --disc: #c79bea; --disc-soft: #241c33;
+    --navy: #dbe8f6; --navy-deep: #030c18; --sky: #c9ced4;
+    --line: rgba(232, 237, 244, 0.13); --line-strong: rgba(232, 237, 244, 0.28);
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px -16px rgba(0, 0, 0, 0.7);
+    --btn-shadow: inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+    --input-shadow: inset 0 1px 0 rgba(255,255,255,0.03), inset 0 2px 5px rgba(0,0,0,0.25), inset 0 6px 14px -4px rgba(0,0,0,0.2);
+    --cat-1: #3987e5; --cat-2: #d95926; --cat-3: #199e70; --cat-4: #c98500;
+    --cat-5: #d55181; --cat-6: #008300; --cat-7: #9085e9; --cat-8: #e66767;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #0a1220; --paper-raised: #101a2c; --paper-card: #132038;
+      --ink: #e8edf4; --ink-soft: #a8b8cb; --ink-faint: #6f8199;
+      --accent: #6fb4e8; --accent-soft: #12283f; --accent-ink: #9ccdf0;
+      --cool: #6bcbae; --cool-soft: #0e241d; --disc: #c79bea; --disc-soft: #241c33;
+      --navy: #dbe8f6; --navy-deep: #030c18; --sky: #c9ced4;
+      --line: rgba(232, 237, 244, 0.13); --line-strong: rgba(232, 237, 244, 0.28);
+      --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 10px 28px -16px rgba(0, 0, 0, 0.7);
+      --btn-shadow: inset 0 1px 0 rgba(255,255,255,0.08), inset 0 -1px 0 rgba(0,0,0,0.4), 0 1px 2px rgba(0,0,0,0.3);
+      --input-shadow: inset 0 1px 0 rgba(255,255,255,0.03), inset 0 2px 5px rgba(0,0,0,0.25), inset 0 6px 14px -4px rgba(0,0,0,0.2);
+      --cat-1: #3987e5; --cat-2: #d95926; --cat-3: #199e70; --cat-4: #c98500;
+      --cat-5: #d55181; --cat-6: #008300; --cat-7: #9085e9; --cat-8: #e66767;
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-tap-highlight-color: transparent; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--face-body); font-size: 15px; line-height: 1.5; }
+  a { color: var(--accent); }
+  ::selection { background: var(--accent-soft); color: var(--ink); }
+
+  /* ---------- masthead (matches catalog.html / research-trends.html) ---------- */
+  .masthead { background: linear-gradient(155deg, var(--navy-deep) 0%, var(--navy) 78%); border-bottom: 3px solid var(--sky); padding: 1.3rem 1.5rem; }
+  .masthead-inner { max-width: 1180px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap; }
+  .masthead-text { flex: 1 1 420px; min-width: 0; }
+  .catalog-mark { font-family: var(--face-body); font-size: 0.68rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--sky); display: flex; align-items: center; gap: 0.6rem; margin: 0 0 0.35rem; }
+  .catalog-mark::before { content: ""; width: 20px; height: 2px; background: var(--sky); display: inline-block; }
+  h1.title { font-family: var(--face-display); font-size: clamp(1.25rem, 2.2vw, 1.6rem); line-height: 1.15; margin: 0 0 0.3rem; text-wrap: balance; font-weight: 700; letter-spacing: -0.005em; color: #ffffff; }
+  .lede { max-width: 62ch; color: #c3d4e6; margin: 0; font-size: 0.85rem; }
+  .tally { text-align: right; flex-shrink: 0; display: flex; align-items: center; gap: 0.9rem; }
+  .tally .big { font-family: var(--face-display); font-size: 1.9rem; line-height: 1; color: #ffffff; font-weight: 700; }
+  .tally .cap { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--sky); display: block; margin-top: 0.2rem; }
+
+  .trends-back-link { font-size: 0.8rem; color: var(--ink-faint); text-decoration: none; display: inline-block; margin-bottom: 1rem; }
+  .trends-back-link:hover { color: var(--accent); }
+
+  .layout { max-width: 1180px; margin: 0 auto; padding: 1.6rem 1.5rem 5rem; display: flex; flex-direction: column; gap: 1.6rem; }
+
+  .card { background: var(--paper-raised); border: 1.5px solid var(--line-strong); border-radius: var(--radius-lg); padding: 1.6rem 1.8rem 1.8rem; box-shadow: var(--shadow); }
+  .card-head { display: flex; flex-direction: column; gap: 0.35rem; margin-bottom: 1rem; }
+  .card-head h2 { font-family: var(--face-display); font-size: 1.15rem; font-weight: 700; margin: 0; color: var(--ink); text-wrap: balance; }
+  .card-head .sub { margin: 0; color: var(--ink-faint); font-size: 0.83rem; }
+
+  /* ---------- study tabs ---------- */
+  .study-tabs { display: flex; gap: 0.2rem; border-bottom: 1.5px solid var(--line-strong); overflow-x: auto; margin-bottom: 0; }
+  .study-tab {
+    font-family: var(--face-body); font-weight: 700; font-size: 0.78rem; letter-spacing: 0.02em;
+    background: none; border: none; cursor: pointer; color: var(--ink-faint);
+    padding: 0.7rem 0.3rem; margin-right: 1.3rem; border-bottom: 3px solid transparent;
+    margin-bottom: -1.5px; white-space: nowrap;
+  }
+  .study-tab:hover { color: var(--ink); }
+  .study-tab[aria-selected="true"] { color: var(--accent-ink); border-bottom-color: var(--accent); }
+  .study-panel { display: none; }
+  .study-panel.active { display: block; }
+
+  .status-pill {
+    display: inline-block; font-family: var(--face-body); font-weight: 700; font-size: 0.66rem;
+    letter-spacing: 0.05em; text-transform: uppercase; padding: 0.2rem 0.55rem; border-radius: 999px; margin-bottom: 0.6rem;
+  }
+  .status-pill.published { background: var(--cool-soft); color: var(--cool); }
+  .status-pill.press { background: var(--accent-soft); color: var(--accent-ink); }
+  .status-pill.pending { background: var(--disc-soft); color: var(--disc); }
+  .cite { font-size: 0.83rem; color: var(--ink-soft); margin: 0.5rem 0 0.3rem; }
+  .cite a { color: var(--accent-ink); }
+  .abstract { font-size: 0.87rem; color: var(--ink-soft); max-width: 78ch; margin: 0.7rem 0 0; }
+
+  .stat-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--line-strong); border: 1.5px solid var(--line-strong); border-radius: var(--radius); overflow: hidden; margin: 1.1rem 0; }
+  .stat-strip .stat { background: var(--paper-card); padding: 0.9rem 1rem; }
+  .stat-strip .stat .n { font-family: var(--face-body); font-size: 1.35rem; font-weight: 700; letter-spacing: -0.01em; margin: 0 0 0.1rem; }
+  .stat-strip .stat .l { font-size: 0.7rem; color: var(--ink-faint); }
+  @media (max-width: 600px) { .stat-strip { grid-template-columns: repeat(2, 1fr); } }
+
+  .chart-scroll { overflow-x: auto; }
+  .legend { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.9rem; font-size: 0.78rem; color: var(--ink-soft); }
+  .legend .item { display: flex; align-items: center; gap: 0.4rem; }
+  .legend .sw { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+  .note { font-size: 0.8rem; color: var(--ink-faint); margin-top: 0.8rem; }
+  .note strong { color: var(--ink-soft); }
+
+  details.table-toggle { margin-top: 0.9rem; }
+  details.table-toggle summary { cursor: pointer; font-size: 0.78rem; color: var(--ink-faint); font-weight: 700; font-family: var(--face-body); letter-spacing: 0.03em; text-transform: uppercase; }
+  .datatable { width: 100%; border-collapse: collapse; margin-top: 0.6rem; font-size: 0.8rem; }
+  .datatable th, .datatable td { text-align: left; padding: 0.35rem 0.6rem; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+  .datatable th { color: var(--ink-faint); font-weight: 700; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.03em; }
+
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; }
+  @media (max-width: 720px) { .two-col { grid-template-columns: 1fr; } }
+
+  .tags { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+  .tag { font-size: 0.78rem; padding: 0.28rem 0.7rem; border-radius: 999px; background: var(--paper); border: 1px solid var(--line-strong); color: var(--ink-soft); }
+  .tag.a { border-color: var(--cat-1); color: var(--cat-1); }
+  .tag.b { border-color: var(--cat-2); color: var(--cat-2); }
+
+  .pending-box { border: 1px dashed var(--line-strong); border-radius: var(--radius); padding: 1.2rem; color: var(--ink-soft); font-size: 0.86rem; background: var(--paper); }
+  .pending-box strong { color: var(--ink); }
+
+  .svg-chart text { fill: var(--ink-soft); font-size: 10.5px; font-family: var(--face-body); }
+  .svg-chart .axis-label { fill: var(--ink-faint); font-size: 10px; }
+  .svg-chart .grid { stroke: var(--line); stroke-width: 1; }
+  .svg-chart .baseline { stroke: var(--line-strong); stroke-width: 1; }
+  .bar-mark { cursor: pointer; transition: opacity 0.1s ease; }
+  .bar-mark:hover { opacity: 0.82; }
+  .err-whisker { stroke: var(--ink-faint); stroke-width: 1.2; }
+
+  #chartTooltip {
+    position: fixed; pointer-events: none; z-index: 9999;
+    background: var(--ink); color: var(--paper); font-size: 0.78rem; padding: 0.4rem 0.6rem;
+    border-radius: 6px; opacity: 0; transform: translate(-50%, -100%); transition: opacity 0.08s ease;
+    white-space: nowrap; font-family: var(--face-body);
+  }
+
+  .explorer-controls { display: flex; gap: 0.7rem; flex-wrap: wrap; align-items: center; margin-bottom: 1.1rem; }
+  .select-input { font-size: 0.8rem; padding: 0.45rem 0.6rem; border-radius: var(--radius); border: 1.5px solid var(--line-strong); background: var(--paper-card); color: var(--ink); font-family: inherit; box-shadow: var(--input-shadow); }
+  .reset-btn { font-family: var(--face-body); font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-soft); background: linear-gradient(180deg, var(--paper) 0%, var(--paper-card) 30%); border: 1.5px solid var(--line-strong); border-radius: var(--radius); padding: 0.5rem 0.8rem; cursor: pointer; box-shadow: var(--input-shadow); }
+  .reset-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .source-badge { font-family: var(--face-mono); font-size: 0.68rem; letter-spacing: 0.03em; color: var(--ink-faint); margin-left: auto; }
+  .source-badge.live { color: var(--cool); }
+  .dropzone { border: 1.5px dashed var(--line-strong); border-radius: var(--radius); padding: 1.2rem; text-align: center; font-size: 0.8rem; color: var(--ink-faint); margin-bottom: 1.1rem; }
+  .dropzone.drag { border-color: var(--accent); color: var(--accent-ink); background: var(--accent-soft); }
+  .dropzone label { text-decoration: underline; cursor: pointer; color: var(--accent-ink); }
+</style>
+</head>
+<body>
+<div id="chartTooltip"></div>
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-text">
+      <p class="catalog-mark">Field survey · perceptions research</p>
+      <h1 class="title">AI Perceptions in Higher Education — Findings Explorer</h1>
+      <p class="lede">Three linked studies on how students and staff perceive generative AI across institutions, subject areas, and research methods.</p>
+    </div>
+    <div class="tally">
+      <div class="tally-count">
+        <span class="big">3</span>
+        <span class="cap">Studies</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="layout">
+  <a class="trends-back-link" href="/">&larr; Back to case study catalog</a>
+
+  <nav class="study-tabs" role="tablist">
+    <button class="study-tab" role="tab" data-panel="p1" aria-selected="true">01 · AI Across Borders</button>
+    <button class="study-tab" role="tab" data-panel="p2" aria-selected="false">02 · Methodological Variation</button>
+    <button class="study-tab" role="tab" data-panel="p3" aria-selected="false">03 · Novelty to Normalisation</button>
+    <button class="study-tab" role="tab" data-panel="explore" aria-selected="false">Explore by subfield</button>
+  </nav>
+
+  <!-- PANEL 1 -->
+  <div class="study-panel active" id="panel-p1">
+    <div class="card">
+      <div class="card-head">
+        <span class="status-pill published">Published · Aug 2025</span>
+        <h2>AI Across Borders: Exploring Perceptions and Interactions in Higher Education</h2>
+        <p class="cite">Gerard, J., Singh, S., Macleod, M., McKay, M., Rivoire, A., Chakraborty, T., &amp; Singh, M. (2025). <em>Education Sciences</em>, 15(8), 1039. <a href="https://doi.org/10.3390/educsci15081039" target="_blank" rel="noopener">doi.org/10.3390/educsci15081039</a></p>
+        <p class="abstract">Compares quantitative Likert ratings and qualitative comments from 1,211 students at Ulster University (Northern Ireland) and IIT Delhi (India) across subject areas, testing for interactions between institution, subject area, and gender.</p>
+      </div>
+      <div class="stat-strip">
+        <div class="stat"><p class="n">1,211</p><p class="l">Participants</p></div>
+        <div class="stat"><p class="n">512</p><p class="l">Ulster University</p></div>
+        <div class="stat"><p class="n">699</p><p class="l">IIT Delhi</p></div>
+        <div class="stat"><p class="n">427</p><p class="l">Free-text comments</p></div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>Sample by gender and institution</h2><p class="sub">Participant counts · Table 2, Gerard et al. (2025)</p></div>
+      <div class="legend"><span class="item"><span class="sw" style="background:var(--cat-1)"></span>Ulster University</span><span class="item"><span class="sw" style="background:var(--cat-2)"></span>IIT Delhi</span></div>
+      <div class="chart-scroll"><svg class="svg-chart" id="chart-gender" width="100%" viewBox="0 0 640 260"></svg></div>
+      <details class="table-toggle"><summary>View data table</summary>
+        <table class="datatable">
+          <thead><tr><th>Institution</th><th>Male</th><th>Female</th><th>Non-binary</th><th>Other</th><th>Not stated</th><th>Total</th></tr></thead>
+          <tbody>
+            <tr><td>Ulster University</td><td>201</td><td>292</td><td>10</td><td>4</td><td>5</td><td>512</td></tr>
+            <tr><td>IIT Delhi</td><td>563</td><td>132</td><td>2</td><td>0</td><td>2</td><td>699</td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>Awareness ratings, by institution</h2><p class="sub">Mean of 5-point scale (1 = strongly disagree, 5 = strongly agree) · Table 7</p></div>
+      <div class="legend"><span class="item"><span class="sw" style="background:var(--cat-1)"></span>Ulster University</span><span class="item"><span class="sw" style="background:var(--cat-2)"></span>IIT Delhi</span></div>
+      <div class="chart-scroll"><svg class="svg-chart" id="chart-awareness" width="100%" viewBox="0 0 760 300"></svg></div>
+      <p class="note">A6 — "I plan to use ChatGPT or similar tools for my coursework in the future" — shows the widest gap between institutions (UU 2.66 vs IITD 4.39).</p>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>Perception ratings, by institution</h2><p class="sub">Mean of 5-point scale · Table 8</p></div>
+      <div class="legend"><span class="item"><span class="sw" style="background:var(--cat-1)"></span>Ulster University</span><span class="item"><span class="sw" style="background:var(--cat-2)"></span>IIT Delhi</span></div>
+      <div class="chart-scroll"><svg class="svg-chart" id="chart-perception" width="100%" viewBox="0 0 800 300"></svg></div>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>Attitude score by subject area — Ulster University</h2><p class="sub">Relative to Arts (reference = 0), from Bonferroni pairwise comparisons · Table 10. Whiskers = ±1 SE. Computer Sciences was the only subject area where UU and IITD ratings converged.</p></div>
+      <div class="chart-scroll"><svg class="svg-chart" id="chart-subject-uu" width="100%" viewBox="0 0 640 280"></svg></div>
+      <p class="note"><strong>Model:</strong> institution F=83.80, p&lt;.001 · gender F=4.88, p=.027 · subject area F=0.84, p=.471 (ns overall) · institution × subject area F=5.47, p&lt;.001. Within UU alone, subject area was significant (F=5.80, p&lt;.001); within IITD alone it was not (F=1.64, p=.163) — ratings there were uniformly high across fields.</p>
+      <details class="table-toggle"><summary>View data table</summary>
+        <table class="datatable">
+          <thead><tr><th>Subject area (UU)</th><th>&Delta; vs Arts</th><th>SE</th><th>Sig.</th></tr></thead>
+          <tbody>
+            <tr><td>Arts (reference)</td><td>0.000</td><td>—</td><td>—</td></tr>
+            <tr><td>Biomedical Sciences</td><td>+0.206</td><td>0.103</td><td>ns</td></tr>
+            <tr><td>Social Sciences</td><td>+0.316</td><td>0.093</td><td>**</td></tr>
+            <tr><td>Technological Sciences</td><td>+0.373</td><td>0.124</td><td>*</td></tr>
+            <tr><td>Computer Sciences</td><td>+0.616</td><td>0.124</td><td>***</td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>Qualitative comment sentiment</h2><p class="sub">Share of free-text comments by sentiment · Table 6</p></div>
+      <div class="legend"><span class="item"><span class="sw" style="background:var(--good)"></span>Positive</span><span class="item"><span class="sw" style="background:var(--ink-faint)"></span>Neutral</span><span class="item"><span class="sw" style="background:var(--critical)"></span>Negative</span></div>
+      <div class="chart-scroll"><svg class="svg-chart" id="chart-sentiment-field" width="100%" viewBox="0 0 640 320"></svg></div>
+      <p class="note">IIT Delhi comments skewed more positive than Ulster's; Arts and Biological Sciences comments at UU skewed more negative/neutral, echoing the lower attitude scores in those fields.</p>
+    </div>
+  </div>
+
+  <!-- PANEL 2 -->
+  <div class="study-panel" id="panel-p2">
+    <div class="card">
+      <div class="card-head">
+        <span class="status-pill press">In press · Frontiers in Education</span>
+        <h2>Methodological Variation in Studying Staff and Student Perceptions of AI Frontiers in Education</h2>
+        <p class="cite">Gerard, J., Macleod, M., Norwood, K., Reid, A., &amp; Singh, M. (in press). <em>Frontiers in Education</em>. <a href="https://doi.org/10.3389/feduc.2026.1716760" target="_blank" rel="noopener">doi.org/10.3389/feduc.2026.1716760</a></p>
+        <p class="abstract">Compares three data collection methods (free-text comments, Padlet, focus groups) and four analytical approaches (sentiment analysis, stance analysis, word clouds, thematic analysis) on the same underlying question — do different methods agree?</p>
+      </div>
+      <div class="stat-strip">
+        <div class="stat"><p class="n">292</p><p class="l">Free-text comments</p></div>
+        <div class="stat"><p class="n">177</p><p class="l">Padlet entries</p></div>
+        <div class="stat"><p class="n">11</p><p class="l">Focus group participants</p></div>
+        <div class="stat"><p class="n">79%</p><p class="l">Auto/manual agreement</p></div>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div class="card">
+        <div class="card-head"><h2>Sample by respondent group</h2><p class="sub">Free-text comments, n = 292</p></div>
+        <div class="chart-scroll"><svg class="svg-chart" id="chart-p2-sample" width="100%" viewBox="0 0 380 260"></svg></div>
+      </div>
+      <div class="card">
+        <div class="card-head"><h2>Neutral-sentiment share by method</h2><p class="sub">Survey free-text vs. Padlet</p></div>
+        <div class="chart-scroll"><svg class="svg-chart" id="chart-p2-neutral" width="100%" viewBox="0 0 380 260"></svg></div>
+        <p class="note">Sentiment means clustered near the scale midpoint for both groups (survey F=3.00, p=.03 overall; pairwise ns; Padlet &beta;=&minus;0.148, p=.293) — an overall sentiment score barely distinguished students from staff.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>Automated vs. manual sentiment scoring — agreement</h2><p class="sub">RoBERTa model vs. human coder, on 452 scored comments</p></div>
+      <div class="chart-scroll"><svg class="svg-chart" id="chart-p2-confusion" width="100%" viewBox="0 0 560 220"></svg></div>
+      <p class="note">Of the disagreements, 20% (91 cases) were one point apart on a 3-point scale; only 1% (5 cases) diverged sharply — automated sentiment scoring is a reasonable proxy for coarse agreement, but (per the paper's central point) it flattens the group differences that thematic analysis reveals.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>Word-cloud themes: shared vs. divergent</h2><p class="sub">Most frequent terms across student and staff comments</p></div>
+      <div class="two-col">
+        <div>
+          <p class="note" style="margin-top:0;"><strong>Shared across both groups</strong></p>
+          <div class="tags"><span class="tag">tool</span><span class="tag">work</span><span class="tag">help</span><span class="tag">academic</span><span class="tag">learning</span><span class="tag">assessment</span></div>
+        </div>
+        <div>
+          <p class="note" style="margin-top:0;"><strong>Divergent by group</strong></p>
+          <div class="tags"><span class="tag a">students: coursework</span><span class="tag b">staff: training</span></div>
+        </div>
+      </div>
+      <p class="note">Focus-group stance analysis found staff comments skewed more neutral/negative than students, who were more often supportive — a distinction the surface-level sentiment scores above did not capture.</p>
+    </div>
+  </div>
+
+  <!-- PANEL 3 -->
+  <div class="study-panel" id="panel-p3">
+    <div class="card">
+      <div class="card-head">
+        <span class="status-pill pending">Preprint · reframed, awaiting final draft</span>
+        <h2>From Novelty to Normalisation: Tracking Changing Perceptions of AI in Higher Education, 2024–2026</h2>
+        <p class="cite">Gerard, J., Macleod, M., Norwood, K., Reid, A., &amp; Singh, M. <a href="https://arxiv.org/abs/2607.16223" target="_blank" rel="noopener">arxiv.org/abs/2607.16223</a></p>
+        <p class="abstract">A longitudinal tracking study of how perceptions of generative AI shifted across three survey waves (2024–2026) among four Ulster University stakeholder groups — undergraduates, doctoral researchers, teaching staff, and non-teaching staff.</p>
+      </div>
+      <div class="stat-strip">
+        <div class="stat"><p class="n">1,665</p><p class="l">Respondents</p></div>
+        <div class="stat"><p class="n">4</p><p class="l">Stakeholder groups</p></div>
+        <div class="stat"><p class="n">3</p><p class="l">Survey waves</p></div>
+        <div class="stat"><p class="n">'24&ndash;'26</p><p class="l">Period tracked</p></div>
+      </div>
+    </div>
+
+    <div class="pending-box">
+      <strong>This paper has been reframed since the version currently indexed on arXiv</strong> — a more recent draft is available. The reported direction of travel: students moved from "tentative experimentation to routine engagement" with GenAI, while staff maintained persistent concerns about academic integrity, assessment design, and critical thinking, with doctoral researchers and non-teaching staff in an intermediate position. Once the updated manuscript is shared, this panel will be rebuilt with the actual wave-by-wave familiarity, usage, and perceived-risk figures rather than this narrative summary.
+    </div>
+  </div>
+
+  <!-- PANEL: EXPLORE -->
+  <div class="study-panel" id="panel-explore">
+    <div class="card">
+      <div class="card-head">
+        <h2>Explore participant trends by subfield</h2>
+        <p class="sub">Loaded by default with the published subject-area sample from <em>AI Across Borders</em> (Table 4). Upload a participant-level CSV to replace it — one row per participant, with columns for institution, subject area, gender, and (optionally) a numeric outcome such as an attitude score.</p>
+      </div>
+
+      <div class="dropzone" id="dropzone">
+        Drag a CSV here, or <label>choose a file<input type="file" id="fileInput" accept=".csv" style="display:none;"></label>.
+        Expected columns: <code>institution</code>, <code>subject_area</code>, <code>gender</code>, and optionally a numeric column (e.g. <code>attitude_score</code>).
+      </div>
+
+      <div class="explorer-controls">
+        <select class="select-input" id="filterInstitution"><option value="all">All institutions</option></select>
+        <select class="select-input" id="filterGender"><option value="all">All genders</option></select>
+        <select class="select-input" id="filterMetric"><option value="count">Participant count</option></select>
+        <button class="reset-btn" id="resetBtn">Reset to published sample</button>
+        <span class="source-badge" id="sourceBadge">Source: Gerard et al. (2025), Table 4</span>
+      </div>
+
+      <div class="card-head">
+        <h2 id="explorerTitle" style="font-size:1rem;">Participants by subject area</h2>
+        <p class="sub" id="explorerSub">Grouped by institution</p>
+      </div>
+      <div class="legend" id="explorerLegend"></div>
+      <div class="chart-scroll"><svg class="svg-chart" id="chart-explorer" width="100%" viewBox="0 0 760 340"></svg></div>
+      <details class="table-toggle"><summary>View data table</summary>
+        <table class="datatable" id="explorerTable"></table>
+      </details>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  const cs = getComputedStyle(document.documentElement);
+  const tok = (name) => cs.getPropertyValue(name).trim();
+  const tooltip = document.getElementById('chartTooltip');
+
+  function showTip(evt, html){ tooltip.innerHTML = html; tooltip.style.left = evt.clientX + 'px'; tooltip.style.top = (evt.clientY - 10) + 'px'; tooltip.style.opacity = '1'; }
+  function moveTip(evt){ tooltip.style.left = evt.clientX + 'px'; tooltip.style.top = (evt.clientY - 10) + 'px'; }
+  function hideTip(){ tooltip.style.opacity = '0'; }
+
+  const SVGNS = 'http://www.w3.org/2000/svg';
+  function el(tag, attrs){ const e = document.createElementNS(SVGNS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); return e; }
+
+  // ---------- tabs ----------
+  const tabs = document.querySelectorAll('.study-tab');
+  const panels = document.querySelectorAll('.study-panel');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.setAttribute('aria-selected', 'false'));
+      tab.setAttribute('aria-selected', 'true');
+      panels.forEach(p => p.classList.remove('active'));
+      document.getElementById('panel-' + tab.dataset.panel).classList.add('active');
+    });
+  });
+
+  // ---------- grouped bar chart ----------
+  function groupedBar(svgId, categories, series, opts){
+    opts = opts || {};
+    const svg = document.getElementById(svgId);
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    const vb = svg.viewBox.baseVal;
+    const W = vb.width, H = vb.height;
+    const marginLeft = opts.marginLeft || 34, marginRight = 8, marginTop = 10, marginBottom = opts.marginBottom || 56;
+    const plotW = W - marginLeft - marginRight;
+    const plotH = H - marginTop - marginBottom;
+    const maxVal = opts.yMax || Math.max(...series.flatMap(s => s.values.map((v,i) => v + (s.errors ? s.errors[i] : 0))), 1) * 1.12;
+    const yScale = v => plotH - (v / maxVal) * plotH;
+
+    const ticks = 4;
+    for (let i = 0; i <= ticks; i++){
+      const val = (maxVal / ticks) * i;
+      const y = marginTop + yScale(val);
+      svg.appendChild(el('line', {x1: marginLeft, x2: W - marginRight, y1: y, y2: y, class: 'grid'}));
+      const t = el('text', {x: marginLeft - 8, y: y + 3, 'text-anchor': 'end'});
+      t.textContent = opts.yFormat ? opts.yFormat(val) : Math.round(val);
+      svg.appendChild(t);
+    }
+    svg.appendChild(el('line', {x1: marginLeft, x2: W - marginRight, y1: marginTop + plotH, y2: marginTop + plotH, class: 'baseline'}));
+
+    const groupW = plotW / categories.length;
+    const barGap = 3;
+    const barW = (groupW - barGap * (series.length + 1)) / series.length;
+
+    categories.forEach((cat, ci) => {
+      const groupX = marginLeft + ci * groupW;
+      series.forEach((s, si) => {
+        const val = s.values[ci];
+        const x = groupX + barGap + si * (barW + barGap);
+        const y = marginTop + yScale(val);
+        const h = plotH - yScale(val);
+        const rect = el('rect', { x: x, y: y, width: Math.max(barW, 1), height: Math.max(h, 0.5), rx: 3, fill: s.color, class: 'bar-mark' });
+        rect.addEventListener('mouseenter', (e) => showTip(e, `<strong>${cat}</strong><br>${s.name}: ${opts.tipFormat ? opts.tipFormat(val) : val}`));
+        rect.addEventListener('mousemove', moveTip);
+        rect.addEventListener('mouseleave', hideTip);
+        svg.appendChild(rect);
+
+        if (s.errors && s.errors[ci]){
+          const err = s.errors[ci];
+          const cx = x + barW/2;
+          const yTop = marginTop + yScale(val + err);
+          const yBot = marginTop + yScale(val - err);
+          svg.appendChild(el('line', {x1: cx, x2: cx, y1: yTop, y2: yBot, class: 'err-whisker'}));
+          svg.appendChild(el('line', {x1: cx-4, x2: cx+4, y1: yTop, y2: yTop, class: 'err-whisker'}));
+          svg.appendChild(el('line', {x1: cx-4, x2: cx+4, y1: yBot, y2: yBot, class: 'err-whisker'}));
+        }
+      });
+      const lbl = el('text', { x: groupX + groupW/2, y: marginTop + plotH + 16, 'text-anchor': 'middle', transform: opts.rotateLabels ? `rotate(-32 ${groupX + groupW/2} ${marginTop + plotH + 16})` : null });
+      if (opts.rotateLabels) lbl.setAttribute('text-anchor', 'end');
+      lbl.textContent = cat;
+      svg.appendChild(lbl);
+    });
+  }
+
+  // ---------- 100% stacked bar ----------
+  function stacked100(svgId, categories, segments, opts){
+    opts = opts || {};
+    const svg = document.getElementById(svgId);
+    while (svg.firstChild) svg.removeChild(svg.firstChild);
+    const vb = svg.viewBox.baseVal;
+    const W = vb.width, H = vb.height;
+    const marginLeft = opts.marginLeft || 140, marginRight = 40, marginTop = 10;
+    const rowH = 30, rowGap = 14;
+    const plotW = W - marginLeft - marginRight;
+
+    categories.forEach((cat, ci) => {
+      const y = marginTop + ci * (rowH + rowGap);
+      const total = segments.reduce((sum, s) => sum + s.values[ci], 0);
+      let xCursor = marginLeft;
+      const label = el('text', {x: marginLeft - 10, y: y + rowH/2 + 4, 'text-anchor': 'end'});
+      label.textContent = cat.label;
+      svg.appendChild(label);
+      const n = el('text', {x: marginLeft - 10, y: y + rowH/2 + 16, 'text-anchor': 'end', class: 'axis-label'});
+      n.textContent = 'n=' + total;
+      svg.appendChild(n);
+
+      segments.forEach(s => {
+        const val = s.values[ci];
+        const w = (val / total) * plotW;
+        const rect = el('rect', {x: xCursor, y: y, width: Math.max(w - 1.5, 0), height: rowH, rx: 3, fill: s.color, class: 'bar-mark'});
+        const pct = Math.round((val/total)*100);
+        rect.addEventListener('mouseenter', (e) => showTip(e, `<strong>${cat.label}</strong><br>${s.name}: ${val} (${pct}%)`));
+        rect.addEventListener('mousemove', moveTip);
+        rect.addEventListener('mouseleave', hideTip);
+        svg.appendChild(rect);
+        if (w > 26){
+          const t = el('text', {x: xCursor + w/2, y: y + rowH/2 + 4, 'text-anchor': 'middle', fill: '#fff', 'font-size': 11});
+          t.textContent = pct + '%';
+          t.style.pointerEvents = 'none';
+          svg.appendChild(t);
+        }
+        xCursor += w;
+      });
+    });
+  }
+
+  // ================= PANEL 1 DATA =================
+  groupedBar('chart-gender', ['Male', 'Female', 'Non-binary', 'Other'],
+    [
+      { name: 'Ulster University', color: tok('--cat-1'), values: [201, 292, 10, 4] },
+      { name: 'IIT Delhi', color: tok('--cat-2'), values: [563, 132, 2, 0] }
+    ], { tipFormat: v => v + ' participants' });
+
+  const awarenessItems = ['A1 Familiar w/ AI concept','A2 Familiar w/ ChatGPT','A3 Experience using tools','A4 Instructors addressed AI','A5 Instructors integrated AI','A6 Plan to use for coursework','A7 Received instructions','A8 Open to instructions'];
+  groupedBar('chart-awareness', awarenessItems,
+    [
+      { name: 'Ulster University', color: tok('--cat-1'), values: [4.39,4.32,3.71,3.60,2.19,2.66,2.30,3.89] },
+      { name: 'IIT Delhi', color: tok('--cat-2'), values: [4.49,4.66,4.71,3.49,2.78,4.39,3.07,4.36] }
+    ], { yMax: 5.4, rotateLabels: true, marginBottom: 110, tipFormat: v => v.toFixed(2) + ' / 5' });
+
+  const perceptionItems = ['P1 Prevalent','P2 Inevitable','P3 Has value','P4 Not restricted','P5 Good/helpful','P6 Instructor confidence','P7 Trust instr. use','P8 Not need inform','P9 Trust AI marking','P10 Consistent w/ policy'];
+  groupedBar('chart-perception', perceptionItems,
+    [
+      { name: 'Ulster University', color: tok('--cat-1'), values: [3.63,3.76,3.77,2.89,3.54,2.69,2.73,1.79,1.86,2.28] },
+      { name: 'IIT Delhi', color: tok('--cat-2'), values: [4.32,4.01,4.36,3.30,3.97,3.07,3.27,1.89,2.55,2.47] }
+    ], { yMax: 5.4, rotateLabels: true, marginBottom: 110, tipFormat: v => v.toFixed(2) + ' / 5' });
+
+  groupedBar('chart-subject-uu', ['Arts', 'Biomedical', 'Social', 'Technological', 'Computer'],
+    [{ name: 'Δ vs Arts', color: tok('--cat-7'), values: [0, 0.206, 0.316, 0.373, 0.616], errors: [0, 0.103, 0.093, 0.124, 0.124] }],
+    { yMax: 0.85, tipFormat: v => (v>=0?'+':'') + v.toFixed(3) });
+
+  stacked100('chart-sentiment-field',
+    [{label:'Arts'}, {label:'Biological Sci.'}, {label:'Physical Sci.'}, {label:'Social Sci.'}, {label:'Technological Sci.'}, {label:'Computer Sci.'}],
+    [
+      { name: 'Positive', color: tok('--good'), values: [7,18,7,25,65,27] },
+      { name: 'Neutral', color: tok('--ink-faint'), values: [3,30,3,45,54,45] },
+      { name: 'Negative', color: tok('--critical'), values: [12,10,3,30,33,9] }
+    ], { marginLeft: 130 });
+
+  // ================= PANEL 2 DATA =================
+  groupedBar('chart-p2-sample', ['UG/PGT', 'PGR', 'Teaching staff', 'Non-teaching'],
+    [{ name: 'Comments', color: tok('--cat-3'), values: [185, 26, 31, 50] }],
+    { rotateLabels: true, marginBottom: 70, tipFormat: v => v + ' comments' });
+
+  groupedBar('chart-p2-neutral', ['Survey free-text', 'Padlet'],
+    [{ name: 'Neutral share', color: tok('--cat-4'), values: [44.5, 32.1] }],
+    { yMax: 60, tipFormat: v => v + '%' });
+
+  groupedBar('chart-p2-confusion', ['Negative–Negative', 'Neutral–Neutral', 'Positive–Positive'],
+    [{ name: 'Agreement count', color: tok('--cat-1'), values: [112, 145, 101] }],
+    { tipFormat: v => v + ' comments' });
+
+  // ================= EXPLORER =================
+  const publishedRows = (() => {
+    const rows = [];
+    const push = (institution, gender, subject, count) => { for (let i=0;i<count;i++) rows.push({institution, subject_area: subject, gender}); };
+    push('Ulster University','Female','Arts',32); push('Ulster University','Male','Arts',19);
+    push('Ulster University','Female','Biological Sciences',82); push('Ulster University','Male','Biological Sciences',25);
+    push('Ulster University','Female','Social Sciences',145); push('Ulster University','Male','Social Sciences',97);
+    push('Ulster University','Female','Computer Sciences',13); push('Ulster University','Male','Computer Sciences',31);
+    push('Ulster University','Female','Technological Sciences',18); push('Ulster University','Male','Technological Sciences',27);
+    push('IIT Delhi','Female','Biological Sciences',9); push('IIT Delhi','Male','Biological Sciences',27);
+    push('IIT Delhi','Female','Physical Sciences',6); push('IIT Delhi','Male','Physical Sciences',31);
+    push('IIT Delhi','Female','Social Sciences',9); push('IIT Delhi','Male','Social Sciences',3);
+    push('IIT Delhi','Female','Computer Sciences',31); push('IIT Delhi','Male','Computer Sciences',160);
+    push('IIT Delhi','Female','Technological Sciences',77); push('IIT Delhi','Male','Technological Sciences',341);
+    return rows;
+  })();
+
+  let currentRows = publishedRows;
+
+  function uniq(arr){ return Array.from(new Set(arr)).sort(); }
+
+  function populateFilters(){
+    const instSel = document.getElementById('filterInstitution');
+    const genSel = document.getElementById('filterGender');
+    const metricSel = document.getElementById('filterMetric');
+    const insts = uniq(currentRows.map(r => r.institution).filter(Boolean));
+    const gens = uniq(currentRows.map(r => r.gender).filter(Boolean));
+    instSel.innerHTML = '<option value="all">All institutions</option>' + insts.map(i => `<option value="${i}">${i}</option>`).join('');
+    genSel.innerHTML = '<option value="all">All genders</option>' + gens.map(g => `<option value="${g}">${g}</option>`).join('');
+
+    const sampleRow = currentRows[0] || {};
+    const numericCols = Object.keys(sampleRow).filter(k => !['institution','subject_area','gender'].includes(k) && !isNaN(parseFloat(sampleRow[k])));
+    metricSel.innerHTML = '<option value="count">Participant count</option>' + numericCols.map(c => `<option value="${c}">Mean ${c}</option>`).join('');
+  }
+
+  function renderExplorer(){
+    const inst = document.getElementById('filterInstitution').value;
+    const gen = document.getElementById('filterGender').value;
+    const metric = document.getElementById('filterMetric').value;
+
+    let rows = currentRows.filter(r => (inst === 'all' || r.institution === inst) && (gen === 'all' || r.gender === gen));
+    const subjects = uniq(rows.map(r => r.subject_area).filter(Boolean));
+    const institutions = uniq(currentRows.map(r => r.institution).filter(Boolean));
+    const colors = [tok('--cat-1'), tok('--cat-2'), tok('--cat-3'), tok('--cat-4')];
+
+    const legend = document.getElementById('explorerLegend');
+    const table = document.getElementById('explorerTable');
+    const title = document.getElementById('explorerTitle');
+    const sub = document.getElementById('explorerSub');
+
+    let series;
+    const groupBy = inst === 'all' ? institutions : [inst];
+    if (metric === 'count'){
+      title.textContent = 'Participants by subject area';
+      sub.textContent = (inst === 'all' ? 'Grouped by institution' : ('Institution: ' + inst)) + (gen !== 'all' ? ', gender: ' + gen : '');
+      series = groupBy.map((g, i) => ({ name: g, color: colors[i % colors.length], values: subjects.map(s => rows.filter(r => r.subject_area === s && r.institution === g).length) }));
+    } else {
+      title.textContent = 'Mean ' + metric + ' by subject area';
+      sub.textContent = inst === 'all' ? 'Grouped by institution' : ('Institution: ' + inst);
+      series = groupBy.map((g, i) => ({
+        name: g, color: colors[i % colors.length],
+        values: subjects.map(s => {
+          const vals = rows.filter(r => r.subject_area === s && r.institution === g && !isNaN(parseFloat(r[metric]))).map(r => parseFloat(r[metric]));
+          return vals.length ? vals.reduce((a,b)=>a+b,0)/vals.length : 0;
+        })
+      }));
+    }
+
+    legend.innerHTML = series.length > 1 ? series.map(s => `<span class="item"><span class="sw" style="background:${s.color}"></span>${s.name}</span>`).join('') : '';
+    groupedBar('chart-explorer', subjects, series, { rotateLabels: subjects.length > 4, marginBottom: subjects.length > 4 ? 90 : 56, tipFormat: v => metric === 'count' ? Math.round(v) : v.toFixed(2) });
+
+    let thead = '<thead><tr><th>Subject area</th>' + series.map(s => `<th>${s.name}</th>`).join('') + '</tr></thead>';
+    let tbody = '<tbody>' + subjects.map((s, i) => '<tr><td>' + s + '</td>' + series.map(ser => `<td>${metric==='count'?ser.values[i]:ser.values[i].toFixed(2)}</td>`).join('') + '</tr>').join('') + '</tbody>';
+    table.innerHTML = thead + tbody;
+  }
+
+  document.getElementById('filterInstitution').addEventListener('change', renderExplorer);
+  document.getElementById('filterGender').addEventListener('change', renderExplorer);
+  document.getElementById('filterMetric').addEventListener('change', renderExplorer);
+  document.getElementById('resetBtn').addEventListener('click', () => {
+    currentRows = publishedRows;
+    document.getElementById('sourceBadge').textContent = 'Source: Gerard et al. (2025), Table 4';
+    document.getElementById('sourceBadge').classList.remove('live');
+    populateFilters(); renderExplorer();
+  });
+
+  function parseCSV(text){
+    const lines = text.replace(/\r\n/g, '\n').split('\n').filter(l => l.trim().length);
+    if (!lines.length) return [];
+    const splitLine = (line) => {
+      const out = []; let cur = ''; let inQ = false;
+      for (let i=0;i<line.length;i++){
+        const c = line[i];
+        if (c === '"'){ inQ = !inQ; continue; }
+        if (c === ',' && !inQ){ out.push(cur); cur=''; continue; }
+        cur += c;
+      }
+      out.push(cur);
+      return out.map(s => s.trim());
+    };
+    const headers = splitLine(lines[0]).map(h => h.toLowerCase().replace(/\s+/g,'_'));
+    return lines.slice(1).map(line => {
+      const cells = splitLine(line);
+      const row = {};
+      headers.forEach((h, i) => row[h] = cells[i] !== undefined ? cells[i] : '');
+      if (row.university && !row.institution) row.institution = row.university;
+      if (row.subject && !row.subject_area) row.subject_area = row.subject;
+      if (row.discipline && !row.subject_area) row.subject_area = row.discipline;
+      return row;
+    });
+  }
+
+  function loadFile(file){
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      const rows = parseCSV(e.target.result);
+      if (!rows.length) return;
+      currentRows = rows;
+      document.getElementById('sourceBadge').textContent = 'Source: ' + file.name + ' (' + rows.length + ' rows)';
+      document.getElementById('sourceBadge').classList.add('live');
+      populateFilters();
+      renderExplorer();
+    };
+    reader.readAsText(file);
+  }
+
+  const dropzone = document.getElementById('dropzone');
+  const fileInput = document.getElementById('fileInput');
+  fileInput.addEventListener('change', (e) => { if (e.target.files[0]) loadFile(e.target.files[0]); });
+  dropzone.addEventListener('dragover', (e) => { e.preventDefault(); dropzone.classList.add('drag'); });
+  dropzone.addEventListener('dragleave', () => dropzone.classList.remove('drag'));
+  dropzone.addEventListener('drop', (e) => { e.preventDefault(); dropzone.classList.remove('drag'); if (e.dataTransfer.files[0]) loadFile(e.dataTransfer.files[0]); });
+
+  populateFilters();
+  renderExplorer();
+})();
+</script>
+</body>
+</html>
