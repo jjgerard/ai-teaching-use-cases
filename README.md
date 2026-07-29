@@ -7,6 +7,11 @@ live. Fork it, replace the seed data and branding with your own topic, and deplo
 - `GET /` — public catalog (search + facets)
 - `GET /submit` — public submission form
 - `GET /admin` — password-gated review dashboard (approve / reject / edit / delete)
+- `GET /about` — about page
+- `GET /ai-for-research` — companion catalog for research (rather than teaching) case studies
+- `GET /reducing-ai-use` — companion catalog for "reducing AI (mis)use" case studies
+- `GET /trends`, `GET /research-trends` — aggregate trend/association views over the teaching and research catalogs, respectively
+- `GET /ai-perceptions` — findings explorer for the AI-perceptions research papers (separate from the case-study catalogs above)
 
 ## How it works
 
@@ -164,10 +169,19 @@ src/
   mailer.js   — Gmail SMTP notification on new submissions
   gitStore.js — commits data/community.json to GitHub on approve/edit/delete
 public/
-  catalog.html — public browse/search page (fetches /api/catalog)
-  submit.html  — public submission form (posts to /api/submissions)
-  admin.html   — password-gated review dashboard + "Add from email" box
-  shared.css   — shared design system used by all three pages
+  catalog.html         — public browse/search page for the teaching catalog (fetches /api/catalog)
+  ai-for-research.html — companion browse/search page for the research catalog
+  reducing-ai-use.html — companion browse/search page for the "reducing AI (mis)use" catalog
+  submit.html          — public submission form (posts to /api/submissions)
+  admin.html           — password-gated review dashboard + "Add from email" box
+  about.html           — about page
+  trends.html          — aggregate trends/associations over the teaching catalog
+  research-trends.html — aggregate trends/associations over the research catalog
+  ai-perceptions.html  — findings explorer for the separate AI-perceptions research papers
+  shared.css           — shared design system, linked by catalog/submit/admin/about/
+                          ai-for-research/reducing-ai-use; the trends and ai-perceptions
+                          pages inline their own copy plus page-specific chart extensions
+  favicon.svg
 data/
   seed.json      — your curated entries, imported once on first boot
   community.json — approved community submissions, kept in sync by gitStore.js
