@@ -140,5 +140,164 @@
    "funding_applications",
    "research_conduct"
   ]
+ },
+ {
+  "doc_id": "helsinki-students-ai-guidelines-202610",
+  "institution_id": "helsinki",
+  "url_id": "helsinki-students-ai",
+  "level": "institution",
+  "audience": "students_all",
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": "2023-03-02",
+  "last_updated": "2026-08-27",
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "word_count": 1427
+ },
+ {
+  "doc_id": "glasgow-student-genai-guidance-202610",
+  "institution_id": "glasgow",
+  "url_id": "glasgow-student-genai",
+  "level": "institution",
+  "audience": "students_all",
+  "domains": [
+   "assessed_work"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "date_known": false,
+  "word_count": 3225
+ },
+ {
+  "doc_id": "exeter-students-assessment-202610",
+  "institution_id": "exeter",
+  "url_id": "exeter-students-assessment",
+  "level": "institution",
+  "audience": "students_all",
+  "domains": [
+   "assessed_work"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": "2026-09-22",
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "word_count": 1493
+ },
+ {
+  "doc_id": "harvard-fas-instructors-genai-guidance-202610",
+  "institution_id": "harvard",
+  "url_id": "harvard-fas-instructors",
+  "level": "faculty",
+  "audience": "staff_teaching",
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "date_known": false,
+  "word_count": 1569
+ },
+ {
+  "doc_id": "cambridge-staff-assessment-202610",
+  "institution_id": "cambridge",
+  "url_id": "cambridge-staff-assessment",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_teaching"
+  ],
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "date_known": false,
+  "word_count": 479
+ },
+ {
+  "doc_id": "hea-hei-leaders-policyframework-202610",
+  "institution_id": "hea-ie",
+  "url_id": "hea-hei-framework",
+  "level": "sector_body",
+  "audience": [
+   "staff_teaching",
+   "staff_prof"
+  ],
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "status": "live",
+  "format": "policy_doc",
+  "published": "2025-12",
+  "last_updated": "2025-12",
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "word_count": 6705
+ },
+ {
+  "doc_id": "picardie-all-genai-charte-202610",
+  "institution_id": "picardie",
+  "url_id": "picardie-charte",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_all"
+  ],
+  "domains": [
+   "assessed_work",
+   "teaching_practice",
+   "research_conduct",
+   "administration"
+  ],
+  "status": "live",
+  "format": "policy_doc",
+  "published": "2026-03-12",
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "language": "fr",
+  "word_count": 2367
+ },
+ {
+  "doc_id": "toronto-instructors-students-genai-faq-202610",
+  "institution_id": "toronto",
+  "url_id": "toronto-instructors-students-faq",
+  "level": "institution",
+  "audience": [
+   "staff_teaching",
+   "students_all"
+  ],
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "status": "live",
+  "format": "faq",
+  "published": null,
+  "last_updated": "2025-06-18",
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "word_count": 5273
  }
 ]
