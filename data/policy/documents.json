@@ -166,7 +166,8 @@
   "level": "institution",
   "audience": "students_all",
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "research_conduct"
   ],
   "status": "live",
   "format": "webpage",
@@ -184,7 +185,8 @@
   "level": "institution",
   "audience": "students_all",
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "research_conduct"
   ],
   "status": "live",
   "format": "webpage",
@@ -331,12 +333,13 @@
   "status": "live",
   "format": "webpage",
   "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "last_updated": "2025-09",
+  "date_known": true,
   "retrieved": "2026-10-02",
   "word_count": 5713,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "research_conduct"
   ],
   "url": "https://students.canterbury.ac.uk/study/study-support-and-platforms/generative-ai-guidance"
  },
@@ -346,7 +349,8 @@
   "url_id": "aub-students-genai",
   "level": "institution",
   "audience": [
-   "students_all"
+   "students_all",
+   "staff_teaching"
   ],
   "status": "live",
   "format": "pdf",
@@ -356,7 +360,8 @@
   "retrieved": "2026-10-02",
   "word_count": 939,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://webdocs.aub.ac.uk/Artificial%20intelligence%20policy%20statement.pdf"
  },
@@ -411,8 +416,7 @@
   "status": "live",
   "format": "webpage",
   "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "last_updated": "2026-09-25",
   "retrieved": "2026-10-02",
   "word_count": 255,
   "domains": [
@@ -449,7 +453,7 @@
    "students_all"
   ],
   "status": "live",
-  "format": "webpage",
+  "format": "faq",
   "published": null,
   "last_updated": null,
   "date_known": false,
@@ -491,8 +495,8 @@
   "status": "live",
   "format": "webpage",
   "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "last_updated": "2026-08-12",
+  "date_known": true,
   "retrieved": "2026-10-02",
   "word_count": 1081,
   "domains": [
@@ -516,7 +520,8 @@
   "retrieved": "2026-10-02",
   "word_count": 1080,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://www.bangor.ac.uk/regulations/documents/artificial-intelligence-software-explainer-en.docx"
  },
@@ -526,17 +531,19 @@
   "url_id": "ul-students-genai",
   "level": "institution",
   "audience": [
-   "students_all"
+   "students_all",
+   "staff_teaching"
   ],
   "status": "live",
-  "format": "webpage",
+  "format": "faq",
   "published": null,
   "last_updated": null,
   "date_known": false,
   "retrieved": "2026-10-02",
   "word_count": 691,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://www.ul.ie/provost/functions-processes/academic-integrity-unit/tips-for-students-on-the-use-of-gen-ai"
  },
@@ -576,7 +583,8 @@
   "retrieved": "2026-10-02",
   "word_count": 398,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://my.surrey.ac.uk/study/using-ai-surrey/policy-and-guidance"
  },
@@ -596,7 +604,8 @@
   "retrieved": "2026-10-02",
   "word_count": 1521,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://lta.hw.ac.uk/wp-content/uploads/Student-guidance-on-Artificial-Intelligence-in-Learning-and-Teaching-AY23-24.pdf"
  },
@@ -626,17 +635,19 @@
   "url_id": "manchester-students-genai",
   "level": "institution",
   "audience": [
-   "students_all"
+   "ug",
+   "pgt",
+   "staff_teaching"
   ],
   "status": "live",
-  "format": "pdf",
-  "published": null,
+  "format": "policy_doc",
+  "published": "2026-04-22",
   "last_updated": null,
-  "date_known": false,
   "retrieved": "2026-10-02",
   "word_count": 1771,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://documents.manchester.ac.uk/display.aspx?DocID=79331"
  },
@@ -689,7 +700,7 @@
    "students_all"
   ],
   "status": "live",
-  "format": "webpage",
+  "format": "faq",
   "published": null,
   "last_updated": null,
   "date_known": false,
@@ -726,13 +737,13 @@
   "url_id": "mtu-students-genai",
   "level": "institution",
   "audience": [
-   "students_all"
+   "students_all",
+   "staff_all"
   ],
   "status": "live",
-  "format": "pdf",
-  "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "format": "policy_doc",
+  "published": "2023-05-31",
+  "last_updated": "2026-06-17",
   "retrieved": "2026-10-02",
   "word_count": 3706,
   "domains": [
@@ -756,7 +767,9 @@
   "retrieved": "2026-10-02",
   "word_count": 3304,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice",
+   "research_conduct"
   ],
   "url": "https://intranet.birmingham.ac.uk/student/libraries/asc/student-guidance-gai.aspx"
  },
@@ -771,8 +784,7 @@
   "status": "live",
   "format": "webpage",
   "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "last_updated": "2024-09-17",
   "retrieved": "2026-10-02",
   "word_count": 425,
   "domains": [
@@ -796,7 +808,8 @@
   "retrieved": "2026-10-02",
   "word_count": 1767,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://www.southampton.ac.uk/about/governance/regulations-policies/policies/using-gen-ai-during-your-studies"
  },
@@ -806,7 +819,8 @@
   "url_id": "kingston-london-students-genai",
   "level": "institution",
   "audience": [
-   "students_all"
+   "ug",
+   "pgt"
   ],
   "status": "live",
   "format": "pdf",
@@ -831,8 +845,7 @@
   "status": "live",
   "format": "webpage",
   "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "last_updated": "2026-07-21",
   "retrieved": "2026-10-02",
   "word_count": 467,
   "domains": [
@@ -851,12 +864,12 @@
   "status": "live",
   "format": "pdf",
   "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "last_updated": "2025-05",
   "retrieved": "2026-10-02",
   "word_count": 10089,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://www.uwtsd.ac.uk/media/5728/download?attachment="
  },
@@ -866,7 +879,8 @@
   "url_id": "atu-students-genai",
   "level": "institution",
   "audience": [
-   "students_all"
+   "students_all",
+   "staff_all"
   ],
   "status": "live",
   "format": "webpage",
@@ -931,8 +945,7 @@
   "status": "live",
   "format": "webpage",
   "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "last_updated": "2026-06-10",
   "retrieved": "2026-10-02",
   "word_count": 258,
   "domains": [
@@ -970,13 +983,13 @@
   ],
   "status": "live",
   "format": "pdf",
-  "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "published": "2024-03-01",
+  "last_updated": "2024-04-22",
   "retrieved": "2026-10-02",
   "word_count": 2326,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://www.uhi.ac.uk/en/t4-media/one-web/university/about-uhi/governance/policies-and-regulations/policies/generative-ai/student-gai-guidance.pdf"
  },
@@ -1006,17 +1019,17 @@
   "url_id": "ucd-students-genai",
   "level": "institution",
   "audience": [
-   "students_all"
+   "all"
   ],
   "status": "live",
   "format": "webpage",
   "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "last_updated": "2026-09-22",
   "retrieved": "2026-10-02",
   "word_count": 805,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://libguides.ucd.ie/GENAI"
  },
@@ -1026,17 +1039,17 @@
   "url_id": "aston-students-genai",
   "level": "institution",
   "audience": [
-   "students_all"
+   "students_all",
+   "staff_all"
   ],
   "status": "live",
   "format": "pdf",
-  "published": null,
+  "published": "2026-02-16",
   "last_updated": null,
-  "date_known": false,
   "retrieved": "2026-10-02",
   "word_count": 1001,
   "domains": [
-   "assessed_work"
+   "administration"
   ],
   "url": "https://www.aston.ac.uk/sites/default/files/2026-04/responsible-adoption-and-use-of-artificial-intelligence-ai-policy.pdf"
  },
@@ -1049,10 +1062,9 @@
    "students_all"
   ],
   "status": "live",
-  "format": "pdf",
+  "format": "policy_doc",
   "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "last_updated": "2025-07-21",
   "retrieved": "2026-10-02",
   "word_count": 3947,
   "domains": [
@@ -1066,7 +1078,8 @@
   "url_id": "aberystwyth-students-genai",
   "level": "institution",
   "audience": [
-   "students_all"
+   "students_all",
+   "staff_all"
   ],
   "status": "live",
   "format": "webpage",
@@ -1076,7 +1089,10 @@
   "retrieved": "2026-10-02",
   "word_count": 1273,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice",
+   "research_conduct",
+   "administration"
   ],
   "url": "https://www.aber.ac.uk/en/library/help/ai/"
  },
@@ -1086,17 +1102,19 @@
   "url_id": "ucc-students-genai",
   "level": "institution",
   "audience": [
-   "students_all"
+   "students_all",
+   "staff_teaching"
   ],
   "status": "live",
   "format": "webpage",
   "published": null,
-  "last_updated": null,
-  "date_known": false,
+  "last_updated": "2026-09-18",
+  "date_known": true,
   "retrieved": "2026-10-02",
   "word_count": 2088,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://www.ucc.ie/en/ethical-use-of-generative-ai-toolkit/academic-integrity/"
  },
@@ -1106,17 +1124,19 @@
   "url_id": "tud-students-genai",
   "level": "institution",
   "audience": [
-   "students_all"
+   "students_all",
+   "staff_teaching"
   ],
   "status": "live",
-  "format": "webpage",
-  "published": null,
+  "format": "policy_doc",
+  "published": "2025-05-13",
   "last_updated": null,
-  "date_known": false,
+  "date_known": true,
   "retrieved": "2026-10-02",
   "word_count": 1748,
   "domains": [
-   "assessed_work"
+   "assessed_work",
+   "teaching_practice"
   ],
   "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Guidelines-on-the-Responsible-Use-of-Generative-Artificial-Intelligence-in-Teaching-and-Learning-13.5.25.docx"
  }
