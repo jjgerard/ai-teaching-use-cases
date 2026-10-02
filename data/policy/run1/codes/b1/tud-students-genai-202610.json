@@ -606,9 +606,9 @@
    "accuracy",
    "over_reliance"
   ],
-  "evidence_quote": "the environmental costs of leveraging AI technologies at scale",
+  "evidence_quote": "the energy and resources required for training GPT models",
   "evidence_quotes": {
-   "environment": "the environmental costs of leveraging AI technologies at scale",
+   "environment": "the energy and resources required for training GPT models",
    "labour": "the humans involved in informing the guardrails are protected and not exploited",
    "bias": "GenAI models inherit and perpetuate biases present in their training data",
    "copyright_ip": "might violate someone else’s intellectual property rights",
@@ -749,9 +749,9 @@
   "value": [
    "population_digital_inclusion"
   ],
-  "evidence_quote": "Identify those who do not have or cannot afford internet connectivity or data, and take action to promote universal connectivity and digital competencies",
+  "evidence_quote": "afford internet connectivity or data, and take action to promote universal connectivity and digital competencies",
   "evidence_quotes": {
-   "population_digital_inclusion": "Identify those who do not have or cannot afford internet connectivity or data, and take action to promote universal connectivity and digital competencies"
+   "population_digital_inclusion": "afford internet connectivity or data, and take action to promote universal connectivity and digital competencies"
   },
   "page_ref": null,
   "coder": "agent-b1",
@@ -1051,7 +1051,7 @@
   "doc_id": "tud-students-genai-202610",
   "variable_id": "human_decision_required",
   "value": true,
-  "evidence_quote": "ceding human accountability to GenAI systems when making high-stakes decisions",
+  "evidence_quote": "ceding human accountability to GenAI",
   "evidence_quotes": null,
   "page_ref": null,
   "coder": "agent-b1",
