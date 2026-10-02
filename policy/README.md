@@ -5,7 +5,7 @@ time. Standalone page in this site, in the style of the language atlas, linked f
 once there is data to show.
 
 **Status: vocabulary v0.2.0 derived, pilot coding not yet done.** 76 variables, derived from reading
-51 documents (see below). Provisional until the pilot has been coded and its misfits read.
+61 documents (see below). Provisional until the pilot has been coded and its misfits read.
 
 ## The rule
 
@@ -54,7 +54,7 @@ Ordinals stay ordinal and are never averaged (the atlas rule: nothing is scored)
 
 ## How the vocabulary was derived
 
-Not proposed: read first. Six readers retrieved 51 documents from 14 countries (universities,
+Not proposed: read first. Six readers retrieved 61 documents from 14 countries (universities,
 regulators, funders and governments; students, PGR and staff audiences) with no scheme in mind,
 archiving the text to `data/policy/snapshots/` and noting what each document tells its reader to
 do, what it is silent on, what it says does not exist, and what was hard to categorise. The
