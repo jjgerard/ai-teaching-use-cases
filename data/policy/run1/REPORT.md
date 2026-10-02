@@ -12,7 +12,7 @@ Codebook v0.4.0 throughout. Branch `claude/intelligent-rubin-6lsqps`. Nothing me
 | Searched, nothing found | 3 (Stranmillis, St Mary's Belfast, SRUC) |
 | Archived but deferred (Ravensbourne: whole 85,000-word regulations PDF) | 1 |
 
-Coded: 3,666 rows, 47 documents (England 18, Scotland 11, Wales 7, Northern Ireland 2, Ireland 9 by institution; see `documents.json`).
+Coded: 3,666 rows, 47 documents (England 20, Scotland 9, Wales 7, Northern Ireland 2, Ireland 9; counted from `documents.json` and `institutions.json`).
 Validator: 0 errors, 20 warnings (recorded misfits, 30 cells). `npm run policy:test`: 46 pass.
 
 ## What the documents are (read before any analysis)
