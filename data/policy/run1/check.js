@@ -12,7 +12,7 @@ for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".registration.json
   const r = JSON.parse(fs.readFileSync(path.join(dir, f))); const d = docs.find((x) => x.doc_id === r.doc_id);
   if (!d) { console.error("registration for unknown doc", r.doc_id); problems++; continue; }
   const snap = norm(fs.readFileSync(path.join(root, "snapshots", r.doc_id + ".txt"), "utf8"));
-  for (const [k, q] of Object.entries(r.evidence || {})) if (!snap.includes(norm(q))) { console.error(`${r.doc_id}: evidence quote for ${k} is not in the snapshot`); problems++; }
+  for (const [k, qs] of Object.entries(r.evidence || {})) for (const q of [].concat(qs)) if (!snap.includes(norm(q))) { console.error(`${r.doc_id}: evidence quote for ${k} is not in the snapshot`); problems++; }
   for (const k of ["audience", "domains", "format", "published", "last_updated", "date_known"]) if (k in r) {
     if (k !== "format" && k !== "date_known" && !(r.evidence || {})[k]) { console.error(`${r.doc_id}: ${k} changed without an evidence quote`); problems++; }
     d[k] = r[k];
