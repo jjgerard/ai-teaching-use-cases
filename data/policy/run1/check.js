@@ -25,7 +25,7 @@ for (const f of fs.readdirSync(path.join(root, "snapshots"))) fs.copyFileSync(pa
 const codes = fs.readdirSync(dir).filter((f) => f.endsWith(".json") && !f.endsWith(".registration.json")).flatMap((f) => JSON.parse(fs.readFileSync(path.join(dir, f))));
 fs.writeFileSync(path.join(tmp, "codes.json"), JSON.stringify(codes));
 const out = cp.spawnSync("node", [path.join(root, "..", "..", "policy", "validate.js"), tmp], { encoding: "utf8" });
-const lines = (out.stdout + out.stderr).split("\n").filter((l) => /ERROR|errors/.test(l) && !/uncoded/.test(l));
+const lines = (out.stdout + out.stderr).split("\n").filter((l) => /ERROR|WARN|errors|warning/i.test(l) && !/uncoded/.test(l));
 console.log(lines.slice(-40).join("\n"));
 if (merge && !problems) { fs.writeFileSync(path.join(root, "documents.json"), JSON.stringify(docs, null, 1) + "\n"); console.log("registrations merged into documents.json"); }
 process.exit(problems || /[1-9]\d* errors/.test(out.stdout) ? 1 : 0);
