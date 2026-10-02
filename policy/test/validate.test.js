@@ -111,6 +111,10 @@ test("audience_scope: the same variable can be coded once per audience", () => {
   hasErr(run([code("toy_disclosure", "required", { audience_scope: "ug" })], d), /not one of the document's audiences/);
   hasErr(run([code("toy_disclosure", "required", { audience_scope: "nobody" })], d), /not an audience id/);
 });
+test("rule_source marks where a rule comes from and is closed (and does not collide with the numeric basis)", () => {
+  assert.deepEqual(run([code("toy_disclosure", "required", { rule_source: "template_wording" })]).errors, []);
+  hasErr(run([code("toy_disclosure", "required", { rule_source: "rumour" })]), /rule_source/);
+});
 test("stale codebook version is flagged", () => hasErr(run([code("toy_disclosure", "required", { codebook_version: "t0" })]), /coded under codebook/));
 test("document fields are closed and dates ISO", () => {
   const r = run([], [doc({ audience: "everyone", published: "1/2/25", retrieved: null })]);

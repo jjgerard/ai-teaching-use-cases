@@ -96,6 +96,7 @@ function validate({ institutions, documents, codes, codebook, snapshots = {} }) 
     // Gates and gaps read whole-document rows only; a scoped row (audience_scope) is checked for validity.
     const scoped = scope !== "document";
     for (const f of ["coder", "coded_at"]) if (!c[f]) err(`${id}: ${f} is required`);
+    if (c.rule_source != null && !["own_text", "template_wording", "quoted_other_policy"].includes(c.rule_source)) err(`${id}: rule_source ${JSON.stringify(c.rule_source)} is not own_text|template_wording|quoted_other_policy`);
     if (c.codebook_version !== codebook.version) err(`${id}: coded under codebook ${c.codebook_version}, current is ${codebook.version}`);
 
     const isState = typeof c.value === "string" && states.includes(c.value);

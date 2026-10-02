@@ -1,6 +1,6 @@
 {
- "version": "0.4.0",
- "status": "v0.4.0: ready for scale-up. Derived from 61 documents; revised over three pilot rounds (see data/policy/pilot-*/REPORT.md). Round 3 was a holdout: misfit rate 1.9%, independent agreement 96% (kind) and 92% (exact) on 4 documents.",
+ "version": "0.3.1",
+ "status": "v0.3.1: revised after pilot round 2. Rounds 1 and 2 used the same 8 documents, so the improvement is partly tuning; round 3 on unseen documents is the holdout.",
  "states": {
   "none_exists": "The document says outright that there is no such thing here. A positive finding; needs a quote.",
   "not_stated": "The document was read and does not answer the question. Not evidence that nothing exists.",
@@ -180,13 +180,6 @@
       "maynooth-ug-ptm-genai-guidelines-202610",
       "ulster-library-genai-guide-202610"
      ]
-    },
-    {
-     "id": "overrides_local_in_part",
-     "gloss": "Some uses stay allowed even where an instructor bars AI.",
-     "precedent": [
-      "toronto-instructors-students-genai-faq-202610"
-     ]
     }
    ]
   },
@@ -253,14 +246,6 @@
       "warwick-law-all-aipolicy-202610",
       "manchester-bmh-students-guidance-202610",
       "wits-clm-staff-genai-guidelines-202610"
-     ]
-    },
-    {
-     "id": "academic_executive_office",
-     "gloss": "A provost, vice-provost or similar academic executive office.",
-     "precedent": [
-      "toronto-instructors-students-genai-faq-202610",
-      "harvard-fas-instructors-genai-guidance-202610"
      ]
     }
    ]
@@ -383,13 +368,6 @@
      "precedent": [
       "warwick-law-all-aipolicy-202610",
       "maynooth-ug-ptm-genai-guidelines-202610"
-     ]
-    },
-    {
-     "id": "sector_network_template",
-     "gloss": "Adapts a template from a sector network or consortium.",
-     "precedent": [
-      "picardie-all-genai-charte-202610"
      ]
     }
    ]
@@ -652,13 +630,6 @@
      "precedent": [
       "edinburgh-student-genai-guidelines-202610",
       "glasgow-student-genai-guidance-202610"
-     ]
-    },
-    {
-     "id": "misconduct_only_if_unacknowledged",
-     "gloss": "The rule is that unacknowledged use is misconduct; the document does not say whether acknowledged use is allowed.",
-     "precedent": [
-      "cambridge-staff-assessment-202610"
      ]
     }
    ],
@@ -1704,20 +1675,6 @@
      "precedent": [
       "unam-teaching-licenciatura-genai-assessment-guide-202610"
      ]
-    },
-    {
-     "id": "per_library_or_instructor_guidance",
-     "gloss": "Cite according to named library guidance or as the instructor directs, only where normal citation would apply.",
-     "precedent": [
-      "toronto-instructors-students-genai-faq-202610"
-     ]
-    },
-    {
-     "id": "acknowledge_like_human_sources",
-     "gloss": "Says AI content should be acknowledged as human-authored sources are, with no format stated.",
-     "precedent": [
-      "exeter-students-assessment-202610"
-     ]
     }
    ],
    "applies_to_domains": [
@@ -1926,14 +1883,6 @@
      "precedent": [
       "edinburgh-student-genai-guidelines-202610",
       "edinburgh-staff-guidance-202610"
-     ]
-    },
-    {
-     "id": "academic_misconduct_unspecified",
-     "gloss": "Called academic misconduct with no offence category.",
-     "precedent": [
-      "harvard-fas-instructors-genai-guidance-202610",
-      "cambridge-staff-assessment-202610"
      ]
     }
    ],
@@ -2201,13 +2150,6 @@
      "precedent": [
       "toronto-instructors-students-genai-faq-202610"
      ]
-    },
-    {
-     "id": "licensed_third_party_tool",
-     "gloss": "A licensed third-party tool (e.g. a library-licensed AI service).",
-     "precedent": [
-      "toronto-instructors-students-genai-faq-202610"
-     ]
     }
    ],
    "gate": {
@@ -2270,13 +2212,6 @@
      "precedent": [
       "ni-exec-strategy-draft-202608",
       "cambridge-staff-admin-202610"
-     ]
-    },
-    {
-     "id": "validated_tools_only_for_work",
-     "gloss": "Only institution-validated tools may be used for professional work.",
-     "precedent": [
-      "picardie-all-genai-charte-202610"
      ]
     }
    ]
@@ -2417,10 +2352,10 @@
   {
    "id": "ai_marking_feedback_rule",
    "group": "tools_data",
-   "type": "multi",
+   "type": "enum",
    "label": "Rule on AI in marking or feedback",
    "question": "May AI mark or give feedback?",
-   "grain": "list",
+   "grain": "document",
    "values": [
     {
      "id": "prohibited",
@@ -2449,28 +2384,6 @@
      "gloss": "Staff are advised to avoid AI in marking or feedback, without a prohibition.",
      "precedent": [
       "edinburgh-staff-guidance-202610"
-     ]
-    },
-    {
-     "id": "human_final_say",
-     "gloss": "Staff keep final authority over marks or assessment decisions; no AI-specific rule is stated.",
-     "precedent": [
-      "hea-hei-leaders-policyframework-202610",
-      "helsinki-teachers-ai-guidelines-202610"
-     ]
-    },
-    {
-     "id": "feedback_with_student_consent",
-     "gloss": "AI feedback on student work is allowed with the student's documented consent.",
-     "precedent": [
-      "harvard-fas-instructors-genai-guidance-202610"
-     ]
-    },
-    {
-     "id": "own_comments_only",
-     "gloss": "Staff may use AI to draft or rephrase their own comments but not to analyse student work.",
-     "precedent": [
-      "cambridge-staff-assessment-202610"
      ]
     }
    ],
@@ -2594,14 +2507,6 @@
       "unam-teaching-licenciatura-genai-assessment-guide-202610",
       "wits-clm-staff-genai-guidelines-202610"
      ]
-    },
-    {
-     "id": "cannot_require_non_institutional_tools",
-     "gloss": "Students cannot be required to use AI services other than those the institution provides.",
-     "precedent": [
-      "helsinki-students-ai-guidelines-202610",
-      "helsinki-teachers-ai-guidelines-202610"
-     ]
     }
    ]
   },
@@ -2650,14 +2555,6 @@
       "ukri-applicants-assessors-policy-202610",
       "manchester-bmh-students-guidance-202610",
       "kcl-students-guidance-202610"
-     ]
-    },
-    {
-     "id": "inclusion_by_design",
-     "gloss": "Inclusion and accessibility to be built in from the outset.",
-     "precedent": [
-      "hea-hei-leaders-policyframework-202610",
-      "hea-supportunits-responsibilities-202610"
      ]
     }
    ]
@@ -2916,13 +2813,6 @@
      "precedent": [
       "helsinki-students-ai-guidelines-202610"
      ]
-    },
-    {
-     "id": "prohibited_unless_sovereign_tool",
-     "gloss": "Prohibited unless a sovereign or institutionally hosted AI is used.",
-     "precedent": [
-      "picardie-all-genai-charte-202610"
-     ]
     }
    ],
    "applies_to": [
@@ -3178,13 +3068,6 @@
      "precedent": [
       "ukri-applicants-assessors-policy-202610",
       "ni-exec-strategy-draft-202608"
-     ]
-    },
-    {
-     "id": "sector_monitoring",
-     "gloss": "The body commits to monitor sector progress.",
-     "precedent": [
-      "hea-hei-leaders-policyframework-202610"
      ]
     }
    ],
@@ -3535,19 +3418,6 @@
     "public_services",
     "administration"
    ]
-  },
-  {
-   "id": "restricts_model_training_on_user_work",
-   "group": "tools_data",
-   "type": "boolean",
-   "label": "Restricts use of student or user work to train AI models",
-   "question": "The document says student or user work must not be used to train AI models without consent or permission (a rule for institutions and vendors).",
-   "grain": "document",
-   "precedent": [
-    "hea-hei-leaders-policyframework-202610",
-    "dfe-schools-colleges-guidance-202610",
-    "uppsala-staff-genai-guideline-202610"
-   ]
   }
  ],
  "levels": [
@@ -3571,8 +3441,6 @@
  "domainsRule": "A document covers a domain if it contains at least one rule, commitment or recommendation about it, whoever it is addressed to. A student guide that says staff will not use AI to grade covers teaching_practice. Variables about what a person must do with AI in something they submit (use_*, disclosure_*) apply to every domain where someone submits work; only the assessment machinery (silent default, tiers, labelling) is tied to assessed_work.",
  "rowRules": {
   "evidence_quotes": "For multi variables, supply evidence_quotes: {value_id: quote} with a verbatim quote for EVERY value. One quote cannot evidence several values. evidence_quote remains for single-valued variables and misfits.",
-  "audience_scope": "Optional. When one document gives different rules to two audiences (UKRI: applicants vs assessors; a staff policy with a student box), code the variable once per audience with audience_scope set to the audience id. Default is the whole document. A variable's rows must be unique per (document, variable, audience_scope).",
-  "general_permission_only": "If a document states only a blanket permission ('as a rule AI use is permitted') and lists no per-use rules, leave the use_* variables not_stated and record the general stance in institutional_posture and default_when_silent. Do not infer per-use permissions from a general statement.",
-  "rule_source": "Optional (not the numeric `basis` column). Where a rule comes from: own_text (default), template_wording (sample wording the document offers others to adopt, e.g. Harvard's sample syllabus policies), or quoted_other_policy (another body's wording quoted inside this document, e.g. a University paragraph inside a school policy). Cells with basis other than own_text are analysed separately from the document's own rules."
+  "audience_scope": "Optional. When one document gives different rules to two audiences (UKRI: applicants vs assessors; a staff policy with a student box), code the variable once per audience with audience_scope set to the audience id. Default is the whole document. A variable's rows must be unique per (document, variable, audience_scope)."
  }
 }
