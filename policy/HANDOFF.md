@@ -31,7 +31,7 @@ Do not touch the case-study catalog app (`src/`, `public/`) or deploy anything.
 
 ## Status (2026-10-02)
 
-Student layer, tier 1 (60 institutions) is done: see `data/policy/run1/REPORT.md` (coverage, agreement, cost, codebook wishlist), `data/policy/FRAME-REVIEW.md` (frame
+Student layer, tier 1 (63 institutions) is done: see `data/policy/run1/REPORT.md` (coverage, agreement, cost, codebook wishlist), `data/policy/FRAME-REVIEW.md` (frame
 corrections and the draft `include` list) and `data/policy/run1/FOR-USER-FETCH.md` (12 documents the user must fetch locally). Tier 2, staff/PGR and the page are not started.
 
 ## The task

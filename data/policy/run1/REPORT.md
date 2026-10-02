@@ -1,9 +1,10 @@
-# Student layer, tier 1 (60 institutions): run report, 2026-10-02
+# Student layer, tier 1 (63 institutions): run report, 2026-10-02
 
+Tier 1 is 63 institutions (the draw targeted about 60; the strata and the already-archived ones came to 63).
 Frame and sampling: `../FRAME-REVIEW.md`, `draw.js`, `sample.json` (seeded, stratified; tier 2 holds the other 110 in random order).
 Codebook v0.4.0 throughout. Branch `claude/intelligent-rubin-6lsqps`. Nothing merged, no PR, catalog app untouched, nothing deployed.
 
-## Coverage of the 60
+## Coverage of the 63
 
 | Outcome | n |
 |---|---|

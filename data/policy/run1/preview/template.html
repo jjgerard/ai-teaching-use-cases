@@ -1,0 +1,280 @@
+<title>AI Policy Atlas</title>
+<style>
+/* Layout: one column of sections under a sticky filter bar. Coverage and document kinds first (they set how to read everything),
+   then a variable explorer and an evidence matrix that both honour the filters. Single blue accent, neutrals tinted toward it. */
+:root {
+  --bg: #f4f6f8; --surface: #ffffff; --ink: #14181d; --ink2: #48505a; --muted: #7b848f; --line: #dde2e8;
+  --accent: #2a78d6; --accent-ink: #1c5cab; --tint: #dbe9fa; --bar-mute: #c4cbd3; --warn: #a15c07; --warn-tint: #fbefd9;
+  --hatch: #e6eaee;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1317; --surface: #171c21; --ink: #f1f4f7; --ink2: #b6bec8; --muted: #7e8893; --line: #2a3138;
+  --accent: #3987e5; --accent-ink: #86b6ef; --tint: #1d3352; --bar-mute: #3a424b; --warn: #e3a64a; --warn-tint: #3a2c12; --hatch: #1f262c; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0f1317; --surface: #171c21; --ink: #f1f4f7; --ink2: #b6bec8; --muted: #7e8893; --line: #2a3138;
+  --accent: #3987e5; --accent-ink: #86b6ef; --tint: #1d3352; --bar-mute: #3a424b; --warn: #e3a64a; --warn-tint: #3a2c12; --hatch: #1f262c; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 14px/1.5 var(--sans); padding-inline: 16px; padding-block: 0 56px; }
+.wrap { max-width: 1120px; margin-inline: auto; }
+h1 { font-size: 28px; line-height: 1.15; font-weight: 600; letter-spacing: -0.01em; margin: 28px 0 8px; text-wrap: balance; }
+h2 { font-size: 18px; font-weight: 600; margin: 0 0 4px; text-wrap: balance; }
+p { margin: 0; }
+.lede { max-width: 68ch; color: var(--ink2); font-size: 15px; }
+.note { margin-top: 14px; max-width: 76ch; padding: 10px 12px; background: var(--warn-tint); color: var(--ink); border: 1px solid var(--line); }
+.note b { color: var(--warn); font-weight: 600; }
+section { margin-top: 40px; }
+.sub { color: var(--ink2); max-width: 72ch; margin-bottom: 14px; }
+.mono { font-family: var(--mono); font-size: 12px; }
+.panel { background: var(--surface); border: 1px solid var(--line); padding: 16px; }
+.bar-filter { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); margin-inline: -16px; padding: 10px 16px; }
+.bar-filter .in { max-width: 1120px; margin-inline: auto; display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
+.grp { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.lab { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+button, select { font: inherit; color: var(--ink); }
+.chip { border: 1px solid var(--line); background: var(--surface); padding: 3px 10px; cursor: pointer; border-radius: 3px; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+select { background: var(--surface); border: 1px solid var(--line); padding: 4px 8px; max-width: 100%; border-radius: 3px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.count-now { margin-left: auto; color: var(--ink2); }
+/* coverage */
+.stack { display: flex; height: 26px; gap: 2px; }
+.stack div { min-width: 3px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 10px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 12px; height: 12px; display: inline-block; }
+.s-coded { background: var(--accent); } .s-fetch { background: var(--accent-ink); opacity: .55; } .s-none { background: var(--bar-mute); } .s-deferred { background: var(--hatch); border: 1px solid var(--muted); }
+table { border-collapse: collapse; width: 100%; }
+.reg th, .reg td { text-align: right; padding: 6px 10px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.reg th:first-child, .reg td:first-child { text-align: left; }
+.reg th { font-weight: 500; color: var(--muted); font-size: 12px; }
+.scroll { overflow-x: auto; max-width: 100%; }
+/* bars */
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 16px; }
+.cols > * { min-width: 0; }
+.bars { display: grid; gap: 4px; margin-top: 10px; }
+.brow { display: grid; grid-template-columns: minmax(110px, 40%) 1fr 34px; gap: 10px; align-items: center; padding: 2px 0; background: none; border: 0; text-align: left; width: 100%; cursor: pointer; }
+.brow:hover .bl, .brow[aria-pressed="true"] .bl { color: var(--accent-ink); }
+.bl { overflow-wrap: anywhere; line-height: 1.25; }
+.bt { height: 10px; background: color-mix(in srgb, var(--line) 55%, transparent); }
+.bf { height: 100%; background: var(--accent); border-radius: 0 3px 3px 0; min-width: 2px; }
+.brow.state .bf { background: var(--bar-mute); }
+.brow.state .bl { color: var(--ink2); }
+.bn { text-align: right; font-variant-numeric: tabular-nums; }
+.who { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 4px; }
+.who span { background: var(--tint); padding: 2px 8px; border-radius: 3px; font-size: 13px; }
+.qline { color: var(--ink2); margin-bottom: 8px; max-width: 80ch; }
+/* matrix */
+.mx { font-size: 12px; }
+.mx th, .mx td { border-bottom: 1px solid var(--line); padding: 0; height: 30px; }
+.mx thead th { position: sticky; top: 0; background: var(--surface); z-index: 2; font-weight: 500; color: var(--ink2); text-align: left; vertical-align: bottom; padding: 6px 6px; min-width: 128px; max-width: 128px; line-height: 1.2; }
+.mx td.nm, .mx th.nm { position: sticky; left: 0; background: var(--surface); z-index: 3; min-width: 190px; max-width: 190px; padding: 0 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mx thead th.nm { z-index: 4; }
+.mx tr.rg td { background: var(--bg); color: var(--muted); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; padding: 6px 8px; height: auto; }
+.cell { display: block; width: 128px; height: 30px; padding: 0 6px; background: none; border: 0; text-align: left; line-height: 30px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; font-family: var(--mono); font-size: 11px; }
+.cell.v { background: var(--tint); color: var(--ink); }
+.cell.ns { color: var(--muted); }
+.cell.na { background: repeating-linear-gradient(135deg, var(--hatch) 0 3px, transparent 3px 7px); }
+.cell.mf { background: var(--warn-tint); color: var(--warn); }
+.cell.sel { outline: 2px solid var(--accent); outline-offset: -2px; }
+.key { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 10px 0 12px; color: var(--ink2); }
+.key span { display: inline-flex; gap: 6px; align-items: center; }
+.key i { width: 22px; height: 14px; display: inline-block; font-style: normal; }
+#detail { margin-bottom: 12px; min-height: 64px; }
+#detail h3 { font-size: 15px; margin: 0 0 4px; font-weight: 600; }
+#detail .meta { color: var(--muted); }
+#detail blockquote { margin: 8px 0 0; padding-left: 12px; border-left: 2px solid var(--line); color: var(--ink); max-width: 80ch; }
+#detail .val { font-weight: 600; margin-top: 10px; }
+#detail .gloss { color: var(--ink2); font-size: 13px; }
+#detail a { color: var(--accent-ink); }
+ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; gap: 6px; }
+@media (max-width: 520px) { h1 { font-size: 24px; } .brow { grid-template-columns: 1fr 34px; } .brow .bt { grid-column: 1 / -1; grid-row: 2; } .brow .bn { grid-row: 1; grid-column: 2; } .mx td.nm, .mx th.nm { min-width: 140px; max-width: 140px; } }
+@media (prefers-reduced-motion: no-preference) { .bf { transition: width .2s ease; } }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<div class="wrap">
+  <h1>AI policy atlas</h1>
+  <p class="lede">Generative AI guidance for students at universities in the UK and Ireland, coded into a fixed vocabulary of <span id="nv"></span> variables. Every value links to a verbatim quote from an archived copy of the document.</p>
+  <p class="note"><b>Draft, first tier only.</b> <span id="nd"></span> documents from a stratified sample of <span id="ni"></span> institutions, all coded by one model. Coders flagged about 28 as thin or not institution-wide student guidance: hub pages, library guides, whole misconduct procedures, staff or governance papers. Use "Rule-setting documents only" below before reading any pattern. Nothing here is a prevalence estimate.</p>
+</div>
+
+<div class="bar-filter"><div class="in">
+  <div class="grp" role="group" aria-label="Region"><span class="lab">Region</span><span id="regs"></span></div>
+  <div class="grp" role="group" aria-label="Document kind"><span class="lab">Documents</span>
+    <button class="chip" id="k-all" aria-pressed="true">All coded</button><button class="chip" id="k-rules" aria-pressed="false">Rule-setting documents only</button></div>
+  <span class="count-now mono" id="nowshown"></span>
+</div></div>
+
+<div class="wrap">
+<section id="coverage">
+  <h2>Who is covered</h2>
+  <p class="sub">The frame is a curated list of institutions, so "not found" and "blocked" are recorded outcomes about named institutions, not silent gaps.</p>
+  <div class="panel">
+    <div class="stack" id="stack" role="img" aria-label="Coverage of sampled institutions"></div>
+    <div class="legend" id="legend"></div>
+    <div class="scroll" style="margin-top:14px"><table class="reg" id="regtab"></table></div>
+  </div>
+</section>
+
+<section id="kinds">
+  <h2>What kind of documents these are</h2>
+  <p class="sub">Documents differ in how binding they say they are and in who issued them. Compare institutions only after allowing for this. Click a bar to list the institutions.</p>
+  <div class="cols">
+    <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">How the document describes itself</h3><div class="mono" style="color:var(--muted)">instrument_force</div><div class="bars" id="b-force"></div></div>
+    <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">Who issued it</h3><div class="mono" style="color:var(--muted)">issued_by_type</div><div class="bars" id="b-issuer"></div></div>
+  </div>
+  <div class="who" id="who-kinds" aria-live="polite"></div>
+</section>
+
+<section id="explorer">
+  <h2>One variable at a time</h2>
+  <p class="sub">Choose a variable. Bars count documents. The grey bars are the states that are not values: the document is silent, the variable does not apply, or no listed value fits.</p>
+  <div class="panel">
+    <label class="lab" for="varsel">Variable</label> <select id="varsel"></select>
+    <p class="qline" id="vq" style="margin-top:10px"></p>
+    <div class="bars" id="b-var"></div>
+    <div class="who" id="who-var" aria-live="polite"></div>
+  </div>
+</section>
+
+<section id="matrix">
+  <h2>Every institution, key variables</h2>
+  <p class="sub">Click any cell to read the quote it rests on. Most cells are empty because most documents are silent on most questions.</p>
+  <div class="panel" id="detail"><span style="color:var(--muted)">Select a cell to see its evidence.</span></div>
+  <div class="key"><span><i style="background:var(--tint)"></i>value coded</span><span><i style="border:1px solid var(--line)"></i>document is silent</span><span><i style="background:repeating-linear-gradient(135deg,var(--hatch) 0 3px,transparent 3px 7px)"></i>does not apply</span><span><i style="background:var(--warn-tint)"></i>no listed value fits</span></div>
+  <div class="scroll panel" style="padding:0;max-height:640px;overflow:auto"><table class="mx" id="mx"></table></div>
+</section>
+
+<section id="method">
+  <h2>How to read this</h2>
+  <ul class="lim">
+    <li>Coverage is by a curated frame of institutions and a seeded stratified sample, not by search. Twelve found documents could not be archived (bot walls, JavaScript-only pages, robots.txt) and are not coded.</li>
+    <li>Two coders, both the same model, coded 5 documents independently. They agreed on the kind of answer for 91% of cells (98% leaving out eight staff and teaching variables) and on the exact value in 87% of the 84 cells where both gave one. The weakest variables were default when silent and how misconduct is framed. This is optimistic and small. Human double-coding is still needed before any claim about how common something is.</li>
+    <li>Hub pages cannot be registered with an empty domain list, so some of their assessment variables show as silent where "does not apply" would be more accurate.</li>
+    <li>Codebook version <span id="cv"></span>. Rows coded under a different version are rejected, so a revised vocabulary means re-coding.</li>
+  </ul>
+</section>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  var DATA = JSON.parse(document.getElementById("data").textContent);
+  var V = {}; DATA.vars.forEach(function (v) { V[v.id] = v; });
+  var hum = function (s) { return String(s).replace(/_/g, " "); };
+  var $ = function (id) { return document.getElementById(id); };
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  var region = "All", kind = "all", selVar = "institutional_posture", selCell = null;
+  var REGIONS = ["England", "Scotland", "Wales", "Northern Ireland", "Ireland"];
+  var KEY = ["instrument_force", "issued_by_type", "institutional_posture", "default_when_silent", "precedence", "permission_set_by", "disclosure_obligation", "referencing_requirement", "use_full_text_generation", "detector_stance", "sanctions_stated", "misconduct_framed_as", "ai_training"];
+
+  $("nv").textContent = DATA.vars.length; $("cv").textContent = DATA.version;
+  $("nd").textContent = DATA.docs.length; $("ni").textContent = DATA.cov.length;
+
+  function isRule(d) { var c = d.cells.instrument_force; if (!c || c.s !== "v") return false; return c.v.indexOf("pointer_page") < 0; }
+  function shown() { return DATA.docs.filter(function (d) { return (region === "All" || d.region === region) && (kind === "all" || isRule(d)); }); }
+
+  // filters
+  function mkChip(label, on, fn) { var b = el("button", "chip", label); b.type = "button"; b.setAttribute("aria-pressed", on ? "true" : "false"); b.addEventListener("click", fn); return b; }
+  function drawRegs() { var h = $("regs"); h.textContent = ""; ["All"].concat(REGIONS).forEach(function (r) { h.appendChild(mkChip(r, r === region, function () { region = r; refresh(); })); }); }
+  $("k-all").addEventListener("click", function () { kind = "all"; refresh(); });
+  $("k-rules").addEventListener("click", function () { kind = "rules"; refresh(); });
+
+  // coverage
+  var ST = [["coded", "Coded", "s-coded"], ["fetch", "Found, needs a local fetch", "s-fetch"], ["none", "Searched, none found", "s-none"], ["deferred", "Archived, deferred", "s-deferred"]];
+  function drawCoverage() {
+    var tot = DATA.cov.length, st = $("stack"); st.textContent = ""; var lg = $("legend"); lg.textContent = "";
+    ST.forEach(function (s) {
+      var n = DATA.cov.filter(function (c) { return c.st === s[0]; }).length;
+      var d = el("div", s[2]); d.style.flex = n + " 1 0"; d.title = s[1] + ": " + n; st.appendChild(d);
+      var sp = el("span"); var sw = el("i", "sw " + s[2]); sp.appendChild(sw); sp.appendChild(document.createTextNode(s[1] + " " + n)); lg.appendChild(sp);
+    });
+    var t = $("regtab"); t.textContent = ""; var hr = el("tr"); ["Region"].concat(ST.map(function (s) { return s[1]; }), ["Sampled"]).forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
+    REGIONS.forEach(function (r) {
+      var rows = DATA.cov.filter(function (c) { return c.region === r; }); var tr = el("tr"); tr.appendChild(el("td", null, r));
+      ST.forEach(function (s) { tr.appendChild(el("td", null, String(rows.filter(function (c) { return c.st === s[0]; }).length))); });
+      tr.appendChild(el("td", null, String(rows.length))); t.appendChild(tr);
+    });
+  }
+
+  // bar chart
+  function tally(docs, vid) {
+    var out = { vals: {}, ns: [], na: [], mf: [], ne: [], unc: [] };
+    docs.forEach(function (d) {
+      var c = d.cells[vid];
+      if (!c) out.unc.push(d); else if (c.s === "v") c.v.forEach(function (x) { (out.vals[x] = out.vals[x] || []).push(d); }); else out[c.s].push(d);
+    });
+    return out;
+  }
+  function drawBars(host, vid, docs, whoEl) {
+    var T = tally(docs, vid), rows = [];
+    Object.keys(T.vals).sort(function (a, b) { return T.vals[b].length - T.vals[a].length; }).forEach(function (k) { rows.push({ label: hum(k), gloss: V[vid].vals[k], docs: T.vals[k], state: false }); });
+    [["ne", "document says none exists"], ["ns", "document is silent"], ["na", "does not apply"], ["mf", "no listed value fits"], ["unc", "not coded"]].forEach(function (s) { if (T[s[0]].length) rows.push({ label: s[1], docs: T[s[0]], state: true }); });
+    host.textContent = ""; var n = docs.length || 1;
+    rows.forEach(function (r) {
+      var b = el("button", "brow" + (r.state ? " state" : "")); b.type = "button"; b.setAttribute("aria-pressed", "false"); if (r.gloss) b.title = r.gloss;
+      b.appendChild(el("span", "bl", r.label)); var tr = el("span", "bt"); var f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * r.docs.length / n) + "%"; tr.appendChild(f); b.appendChild(tr);
+      b.appendChild(el("span", "bn", String(r.docs.length)));
+      b.addEventListener("click", function () {
+        Array.prototype.forEach.call(host.querySelectorAll(".brow"), function (x) { x.setAttribute("aria-pressed", "false"); }); b.setAttribute("aria-pressed", "true");
+        whoEl.textContent = ""; r.docs.forEach(function (d) { whoEl.appendChild(el("span", null, d.name)); });
+      });
+      host.appendChild(b);
+    });
+    if (!rows.length) host.appendChild(el("p", null, "No documents match the filters."));
+    whoEl.textContent = "";
+  }
+
+  // explorer select
+  var GROUPS = { document: "Document", stance: "Stance", uses: "Permitted uses", disclosure: "Disclosure", integrity: "Integrity and enforcement", tools_data: "Tools and data", access_equity: "Access and equity", research_pgr: "Research and PGR", governance: "Governance", strategy: "Strategy" };
+  function drawSelect() {
+    var s = $("varsel"); s.textContent = ""; var g = {};
+    DATA.vars.forEach(function (v) { (g[v.group] = g[v.group] || []).push(v); });
+    Object.keys(g).forEach(function (k) { var og = document.createElement("optgroup"); og.label = GROUPS[k] || k; g[k].forEach(function (v) { var o = document.createElement("option"); o.value = v.id; o.textContent = v.label; og.appendChild(o); }); s.appendChild(og); });
+    s.value = selVar; s.addEventListener("change", function () { selVar = s.value; drawExplorer(); });
+  }
+  function drawExplorer() { $("vq").textContent = V[selVar].q; drawBars($("b-var"), selVar, shown(), $("who-var")); }
+
+  // matrix
+  function cellText(c) { if (!c) return ""; if (c.s === "v") return c.v.map(hum).join(", "); if (c.s === "ne") return "none exists"; if (c.s === "ns") return "–"; if (c.s === "mf") return "no value fits"; return ""; }
+  function drawMatrix() {
+    var t = $("mx"); t.textContent = ""; var th = el("thead"), hr = el("tr"); var h0 = el("th", "nm", "Institution"); hr.appendChild(h0);
+    KEY.forEach(function (k) { var h = el("th", null, V[k].label); h.title = V[k].q; hr.appendChild(h); }); th.appendChild(hr); t.appendChild(th);
+    var tb = el("tbody"), last = null; var docs = shown();
+    docs.forEach(function (d) {
+      if (d.region !== last) { last = d.region; var rg = el("tr", "rg"); var td = el("td", null, d.region); td.colSpan = KEY.length + 1; rg.appendChild(td); tb.appendChild(rg); }
+      var tr = el("tr"); var nm = el("td", "nm", d.name); nm.title = d.name; tr.appendChild(nm);
+      KEY.forEach(function (k) {
+        var c = d.cells[k], td = el("td"), b = el("button", "cell " + (c ? c.s === "ne" ? "v" : c.s : "ns"), cellText(c)); b.type = "button"; b.title = cellText(c) || "not coded";
+        if (selCell && selCell[0] === d.id && selCell[1] === k) b.className += " sel";
+        b.addEventListener("click", function () { selCell = [d.id, k]; showDetail(d, k); Array.prototype.forEach.call(t.querySelectorAll(".cell.sel"), function (x) { x.classList.remove("sel"); }); b.classList.add("sel"); });
+        td.appendChild(b); tr.appendChild(td);
+      });
+      tb.appendChild(tr);
+    });
+    t.appendChild(tb);
+  }
+  function showDetail(d, k) {
+    var p = $("detail"); p.textContent = ""; var c = d.cells[k], v = V[k];
+    p.appendChild(el("h3", null, d.name + ": " + v.label));
+    p.appendChild(el("p", "qline", v.q));
+    var st = !c ? "not coded" : c.s === "ns" ? "The document is silent on this." : c.s === "na" ? "Does not apply to this document (its audience, level or domains, or a gate variable rules it out)." : c.s === "mf" ? "The document answers, but no listed value fits." : c.s === "ne" ? "The document says none exists." : null;
+    if (st) p.appendChild(el("p", null, st));
+    if (c && c.s === "mf") { if (c.n) p.appendChild(el("p", "gloss", "Coder note: " + c.n)); if (c.q) p.appendChild(el("blockquote", null, c.q)); }
+    if (c && c.s === "ne" && c.q) p.appendChild(el("blockquote", null, c.q));
+    if (c && c.s === "v") c.v.forEach(function (x, i) { p.appendChild(el("div", "val", hum(x))); if (v.vals[x]) p.appendChild(el("div", "gloss", v.vals[x])); if (c.q[i]) p.appendChild(el("blockquote", null, c.q[i])); });
+    var m = el("p", "meta mono"); var bits = [d.words + " words", d.fmt, "retrieved " + d.retrieved]; if (d.upd) bits.push("updated " + d.upd); if (d.pub) bits.push("published " + d.pub); m.textContent = bits.join(" · ") + " · "; p.appendChild(m);
+    var a = el("a", null, "source"); a.href = d.url; a.target = "_blank"; a.rel = "noopener"; m.appendChild(a);
+  }
+
+  function refresh() {
+    drawRegs(); $("k-all").setAttribute("aria-pressed", kind === "all"); $("k-rules").setAttribute("aria-pressed", kind === "rules");
+    $("nowshown").textContent = shown().length + " of " + DATA.docs.length + " documents shown";
+    drawExplorer(); drawMatrix();
+  }
+  drawCoverage();
+  drawBars($("b-force"), "instrument_force", DATA.docs, $("who-kinds")); drawBars($("b-issuer"), "issued_by_type", DATA.docs, $("who-kinds"));
+  drawSelect(); refresh();
+})();
+</script>
