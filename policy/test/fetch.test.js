@@ -4,7 +4,7 @@ const http = require("node:http");
 const fs = require("node:fs");
 const os = require("node:os");
 const path = require("node:path");
-const { htmlToText, blockedReason, robotsAllowed, cmdFetch, cmdImport, readManifest } = require("../fetch.js");
+const { docxXmlToText, htmlToText, blockedReason, robotsAllowed, cmdFetch, cmdImport, readManifest } = require("../fetch.js");
 
 test("htmlToText keeps wording, drops chrome, decodes entities, keeps list structure", () => {
   const { title, text } = htmlToText(`<html><head><title>AI &amp; you</title><script>var x=1</script></head><body><nav>MENU</nav><main><h1>Using AI</h1><p>Don&rsquo;t copy&nbsp;paste.</p><ul><li>Declare use</li><li>Verify</li></ul></main><footer>FOOT</footer></body></html>`);
@@ -79,4 +79,9 @@ test("fetch end to end: ok, blocked, robots, change history, import", async () =
     assert.equal(m.b.status, "ok"); assert.equal(m.b.method, "manual-import");
     assert.match(fs.readFileSync(path.join(dir, "snapshots", "b.txt"), "utf8"), /Saved by hand/);
   } finally { console.log = log; server.close(); }
+});
+
+test("docx XML becomes paragraph text and entities are decoded", () => {
+  const xml = '<w:document><w:body><w:p><w:r><w:t>Use of AI &amp; you</w:t></w:r></w:p><w:p><w:r><w:t>Declare it.</w:t></w:r></w:p></w:body></w:document>';
+  assert.equal(docxXmlToText(xml), "Use of AI & you\nDeclare it.");
 });

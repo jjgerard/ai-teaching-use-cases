@@ -358,7 +358,7 @@
  {
   "ror_id": "https://ror.org/04t0qbt32",
   "name": "Technological University Dublin",
-  "outcome": "found",
+  "outcome": "unresolved",
   "doc": {
    "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Guidance-for-generative-AI-in-education-and-research.pdf",
    "title": "Guidance for generative AI in education and research",
@@ -390,7 +390,9 @@
   "notes": "Institution-wide guidance, 48 pp. A student-specific page (AIDL) exists but its URL returned 404 on fetch; recheck. Date is PDF modification metadata.",
   "country": "IE",
   "region": "Ireland",
-  "doc_id": "tud-students-genai-202610"
+  "doc_id": "tud-students-genai-202610",
+  "outcome_original": "found",
+  "correction": "2026-10-02: the archived PDF at the recorded URL is UNESCO global guidance hosted on tudublin.ie, not TU Dublin guidance; re-discovery needed"
  },
  {
   "ror_id": "https://ror.org/01a77tt86",

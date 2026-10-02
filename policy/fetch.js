@@ -81,12 +81,24 @@ function readManifest(dir) { const p = paths(dir).manifest; return fs.existsSync
 function writeManifest(dir, rows) { fs.writeFileSync(paths(dir).manifest, JSON.stringify(rows, null, 1) + "\n"); }
 function upsert(rows, row) { const i = rows.findIndex((r) => r.doc_id === row.doc_id); if (i >= 0) rows[i] = { ...rows[i], ...row }; else rows.push(row); }
 
+function docxXmlToText(xml) {
+  const dec = (t) => t.replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&amp;/g, "&");
+  return dec(xml.replace(/<w:tab\/>/g, "\t").replace(/<\/w:p>/g, "\n").replace(/<w:br\/>/g, "\n").replace(/<[^>]+>/g, "")).replace(/[ \t]+\n/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+}
+
 function toText(buf, contentType, rawPath) {
   if (/pdf/i.test(contentType) || buf.slice(0, 4).toString() === "%PDF") {
     const r = spawnSync("pdftotext", [rawPath, "-"], { encoding: "utf8", maxBuffer: 1 << 28 });
     if (r.status === 0 && r.stdout.trim()) return { title: null, text: r.stdout.trim(), kind: "pdf" };
     return { title: null, text: null, kind: "pdf", needsText: true };
   }
+  if (/wordprocessingml|officedocument|msword/i.test(contentType) || (buf.slice(0, 2).toString() === "PK" && /\.docx?$/i.test(rawPath))) {
+    const r = spawnSync("unzip", ["-p", rawPath, "word/document.xml"], { encoding: "utf8", maxBuffer: 1 << 28 });
+    if (r.status === 0 && r.stdout.trim()) return { title: null, text: docxXmlToText(r.stdout), kind: "docx" };
+    return { title: null, text: null, kind: "docx", needsText: true };
+  }
+  // Any other binary (zip, images, legacy .doc) is not text: never save raw bytes as a snapshot.
+  if (buf.slice(0, 2).toString() === "PK" || (buf.toString("latin1", 0, 4000).match(/[\x00-\x08\x0e-\x1f]/g) || []).length > 8) return { title: null, text: null, kind: "binary", needsText: true };
   const body = buf.toString("utf8");
   if (/html|xml/i.test(contentType) || /<html|<!doctype html/i.test(body.slice(0, 500))) { const { title, text } = htmlToText(body); return { title, text, kind: "html" }; }
   return { title: null, text: body.trim(), kind: "text" };
@@ -119,7 +131,7 @@ async function fetchOne(t, ctx) {
     if (why) return { ...row, status: "blocked", blocked_reason: why };
     if (/login|signin|sso|saml/i.test(new URL(res.url).pathname + new URL(res.url).hostname) && !/login|signin|sso|saml/i.test(url.pathname + url.hostname)) return { ...row, status: "blocked", blocked_reason: "redirected to a login page" };
     const P = paths(ctx.dir); fs.mkdirSync(P.raw, { recursive: true });
-    const ext = /pdf/i.test(ct) ? "pdf" : /html/i.test(ct) ? "html" : "bin";
+    const ext = /pdf/i.test(ct) ? "pdf" : /html/i.test(ct) ? "html" : /wordprocessingml|officedocument/i.test(ct) ? "docx" : "bin";
     const rawPath = path.join(P.raw, `${t.doc_id}.${ext}`); fs.writeFileSync(rawPath, buf);
     const { title, text, needsText } = toText(buf, ct, rawPath);
     row.sha256 = sha256(buf); row.title = title;
@@ -166,7 +178,7 @@ function cmdStatus(o) {
   for (const r of rows.filter((r) => r.status !== "ok" || r.thin)) console.log(`  ${(r.thin && r.status === "ok" ? "ok (thin, " + r.words + "w)" : r.status).padEnd(17)} ${r.doc_id}  ${r.blocked_reason || ""}\n      ${r.url}`);
 }
 
-module.exports = { htmlToText, blockedReason, robotsAllowed, sha256 };
+module.exports = { docxXmlToText, htmlToText, blockedReason, robotsAllowed, sha256 };
 
 if (require.main === module) {
   const argv = process.argv.slice(2); const cmd = argv[0]; const o = { dir: "data/policy" }; const pos = [];
