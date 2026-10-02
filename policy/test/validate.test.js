@@ -3,10 +3,12 @@ const test = require("node:test");
 const assert = require("node:assert");
 const { validate, checkCodebook } = require("../validate.js");
 const real = require("../codebook.json");
+const realDomains = real.domains;
 
 const codebook = {
   ...real,
   version: "t1",
+  domains: realDomains,
   variables: [
     { id: "toy_disclosure", type: "enum", grain: "document", question: "q", values: [{ id: "required", gloss: "g" }, { id: "optional", gloss: "g" }] },
     { id: "toy_format", type: "boolean", grain: "document", question: "q", gate: { variable: "toy_disclosure", if_in: ["none_exists"] } },
@@ -16,10 +18,11 @@ const codebook = {
     { id: "toy_levels", type: "integer", grain: "document", question: "q", min: 0 },
     { id: "toy_tools", type: "multi", grain: "list", question: "q", values: [{ id: "a", gloss: "g" }, { id: "b", gloss: "g" }] },
     { id: "toy_supervisor", type: "boolean", grain: "document", question: "q", applies_to: ["pgr"] },
+    { id: "toy_staff", type: "boolean", grain: "document", question: "q", applies_to_domains: ["teaching_practice"] },
   ],
 };
 const institutions = [{ institution_id: "i1" }];
-const doc = (o = {}) => ({ doc_id: "d1", institution_id: "i1", level: "institution", audience: "ug", status: "live", format: "webpage", published: "2025-01-01", last_updated: "2025-06-01", retrieved: "2026-10-02", ...o });
+const doc = (o = {}) => ({ doc_id: "d1", institution_id: "i1", level: "institution", audience: "ug", status: "live", format: "webpage", domains: ["assessed_work"], published: "2025-01-01", last_updated: "2025-06-01", retrieved: "2026-10-02", ...o });
 const code = (variable_id, value, o = {}) => ({ doc_id: "d1", variable_id, value, evidence_quote: "q", coder: "x", coded_at: "2026-10-02", codebook_version: "t1", ...o });
 const run = (codes, documents = [doc()], snapshots = {}) => validate({ institutions, documents, codes, codebook, snapshots });
 const hasErr = (r, re) => assert.ok(r.errors.some((e) => re.test(e)), `expected /${re}/ in ${JSON.stringify(r.errors)}`);
@@ -76,6 +79,18 @@ test("audience is a list and 'students_all' covers ug/pgt/pgr", () => {
   assert.deepEqual(run([code("toy_supervisor", true)], [doc({ audience: "students_all" })]).errors, []);
   hasErr(run([code("toy_supervisor", true)], [doc({ audience: ["ug", "pgt"] })]), /does not apply to audience/);
   hasErr(run([], [doc({ audience: ["nobody"] })]), /audience/);
+});
+test("applies_to_domains: a variable applies only to documents covering its domain", () => {
+  hasErr(run([code("toy_staff", true)]), /does not apply to domains assessed_work/);
+  assert.deepEqual(run([code("toy_staff", "not_applicable", { evidence_quote: undefined })]).errors, []);
+  assert.deepEqual(run([code("toy_staff", true)], [doc({ domains: ["assessed_work", "teaching_practice"] })]).errors, []);
+});
+test("audience 'all' does not cover role-specific variables", () => {
+  hasErr(run([code("toy_supervisor", true)], [doc({ audience: "all" })]), /does not apply to audience all/);
+});
+test("domains are required and closed", () => {
+  hasErr(run([], [doc({ domains: undefined })]), /domains is required/);
+  hasErr(run([], [doc({ domains: ["cooking"] })]), /domains "cooking"/);
 });
 test("stale codebook version is flagged", () => hasErr(run([code("toy_disclosure", "required", { codebook_version: "t0" })]), /coded under codebook/));
 test("document fields are closed and dates ISO", () => {

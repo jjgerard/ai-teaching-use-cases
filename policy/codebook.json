@@ -1,6 +1,6 @@
 {
- "version": "0.2.0",
- "status": "derived from reading 61 documents (see policy/README.md). Provisional until the pilot has been coded and its misfits read.",
+ "version": "0.3.0",
+ "status": "v0.3.0: revised after pilot round 1 (data/policy/pilot-v0.2.0/REPORT.md). Provisional until round 2 has been coded and its misfits read.",
  "states": {
   "none_exists": "The document says outright that there is no such thing here. A positive finding; needs a quote.",
   "not_stated": "The document was read and does not answer the question. Not evidence that nothing exists.",
@@ -50,6 +50,16 @@
    "policy_doc",
    "faq",
    "toolkit"
+  ],
+  "domains": [
+   "assessed_work",
+   "teaching_practice",
+   "research_conduct",
+   "funding_applications",
+   "admissions",
+   "administration",
+   "public_services",
+   "school_education"
   ]
  },
  "variables": [
@@ -117,6 +127,14 @@
      "precedent": [
       "standrews-student-genai-faq-202610",
       "toronto-instructors-students-genai-faq-202610"
+     ]
+    },
+    {
+     "id": "pointer_page",
+     "gloss": "The page signposts to other documents and sets no rule of its own.",
+     "precedent": [
+      "ulster-library-genai-guide-202610",
+      "glasgow-staff-sld-202610"
      ]
     }
    ]
@@ -318,6 +336,29 @@
      "precedent": [
       "wits-clm-staff-genai-guidelines-202610"
      ]
+    },
+    {
+     "id": "parent_institutional_policy",
+     "gloss": "Builds on or implements the institution's own higher-level policy.",
+     "precedent": [
+      "warwick-law-all-aipolicy-202610",
+      "manchester-staff-guidelines-202610"
+     ]
+    },
+    {
+     "id": "government_framework",
+     "gloss": "Aligns to a named government or national framework or principles.",
+     "precedent": [
+      "ni-exec-strategy-draft-202608"
+     ]
+    },
+    {
+     "id": "definition_or_scale_source",
+     "gloss": "Takes a definition or scale from a named published source (OECD definition, a published assessment scale).",
+     "precedent": [
+      "warwick-law-all-aipolicy-202610",
+      "maynooth-ug-ptm-genai-guidelines-202610"
+     ]
     }
    ]
   },
@@ -370,6 +411,18 @@
      "precedent": [
       "hea-hei-leaders-policyframework-202610"
      ]
+    },
+    {
+     "id": "students_all",
+     "gloss": "The document names all students (or all staff) in this way, not one level.",
+     "precedent": [
+      "hea-hei-leaders-policyframework-202610"
+     ]
+    },
+    {
+     "id": "staff_all",
+     "gloss": "The document names all students (or all staff) in this way, not one level.",
+     "precedent": []
     }
    ]
   },
@@ -430,6 +483,18 @@
       "manchester-staff-policy-202610",
       "ulster-library-genai-guide-202610"
      ]
+    },
+    {
+     "id": "students_all",
+     "gloss": "The document names all students (or all staff) in this way, not one level.",
+     "precedent": [
+      "ulster-library-genai-guide-202610"
+     ]
+    },
+    {
+     "id": "staff_all",
+     "gloss": "The document names all students (or all staff) in this way, not one level.",
+     "precedent": []
     }
    ]
   },
@@ -540,6 +605,9 @@
       "aberystwyth-institution-genai-guidance-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work"
    ]
   },
   {
@@ -569,7 +637,10 @@
     "only_if_in": [
      "differs_by_assessment_type"
     ]
-   }
+   },
+   "applies_to_domains": [
+    "assessed_work"
+   ]
   },
   {
    "id": "default_when_silent_unsupervised",
@@ -604,7 +675,10 @@
     "only_if_in": [
      "differs_by_assessment_type"
     ]
-   }
+   },
+   "applies_to_domains": [
+    "assessed_work"
+   ]
   },
   {
    "id": "permission_set_by",
@@ -674,6 +748,14 @@
       "uppsala-staff-genai-guideline-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -681,16 +763,9 @@
    "group": "stance",
    "type": "enum",
    "label": "Scheme used to classify permitted use in assessments",
-   "question": "What categories does the document give for classifying assessments by permitted AI use?",
+   "question": "What categories does the document give for classifying assessments by permitted AI use? If no scheme is given, use not_stated (or none_exists if the document says there is no scheme).",
    "grain": "document",
    "values": [
-    {
-     "id": "none",
-     "gloss": "No classification scheme is given.",
-     "precedent": [
-      "edinburgh-student-genai-guidelines-202610"
-     ]
-    },
     {
      "id": "two_lane",
      "gloss": "Two categories: secure/closed and open.",
@@ -723,6 +798,9 @@
      "gloss": "A scale with another number of levels.",
      "precedent": []
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work"
    ]
   },
   {
@@ -742,7 +820,10 @@
     ]
    },
    "min": 2,
-   "max": 10
+   "max": 10,
+   "applies_to_domains": [
+    "assessed_work"
+   ]
   },
   {
    "id": "assessments_must_be_labelled",
@@ -772,6 +853,9 @@
       "kcl-institution-principles-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work"
    ]
   },
   {
@@ -803,9 +887,8 @@
      ]
     }
    ],
-   "applies_to": [
-    "staff_teaching",
-    "all"
+   "applies_to_domains": [
+    "teaching_practice"
    ]
   },
   {
@@ -818,7 +901,7 @@
    "values": [
     {
      "id": "permitted",
-     "gloss": "The document says this use is allowed (no condition other than general rules).",
+     "gloss": "Allowed with no condition beyond the universal duties to acknowledge and verify.",
      "precedent": [
       "edinburgh-student-genai-guidelines-202610",
       "glasgow-pgr-checklist-202610",
@@ -827,7 +910,7 @@
     },
     {
      "id": "conditional",
-     "gloss": "Allowed only if a stated condition holds: permission, approval, acknowledgement, assessment type or a limit.",
+     "gloss": "Allowed only if a specific stated condition holds: permission, approval, assessment type or a limit. A blanket 'not allowed unless authorised' rule makes every use conditional.",
      "precedent": []
     },
     {
@@ -835,6 +918,14 @@
      "gloss": "The document says this use is not allowed.",
      "precedent": []
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -847,7 +938,7 @@
    "values": [
     {
      "id": "permitted",
-     "gloss": "The document says this use is allowed (no condition other than general rules).",
+     "gloss": "Allowed with no condition beyond the universal duties to acknowledge and verify.",
      "precedent": [
       "edinburgh-student-genai-guidelines-202610",
       "helsinki-students-ai-guidelines-202610"
@@ -855,7 +946,7 @@
     },
     {
      "id": "conditional",
-     "gloss": "Allowed only if a stated condition holds: permission, approval, acknowledgement, assessment type or a limit.",
+     "gloss": "Allowed only if a specific stated condition holds: permission, approval, assessment type or a limit. A blanket 'not allowed unless authorised' rule makes every use conditional.",
      "precedent": [
       "standrews-student-genai-faq-202610"
      ]
@@ -865,6 +956,14 @@
      "gloss": "The document says this use is not allowed.",
      "precedent": []
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -877,7 +976,7 @@
    "values": [
     {
      "id": "permitted",
-     "gloss": "The document says this use is allowed (no condition other than general rules).",
+     "gloss": "Allowed with no condition beyond the universal duties to acknowledge and verify.",
      "precedent": [
       "edinburgh-student-genai-guidelines-202610",
       "glasgow-student-genai-guidance-202610"
@@ -885,7 +984,7 @@
     },
     {
      "id": "conditional",
-     "gloss": "Allowed only if a stated condition holds: permission, approval, acknowledgement, assessment type or a limit.",
+     "gloss": "Allowed only if a specific stated condition holds: permission, approval, assessment type or a limit. A blanket 'not allowed unless authorised' rule makes every use conditional.",
      "precedent": [
       "standrews-student-genai-faq-202610",
       "glasgow-student-genai-guidance-202610"
@@ -896,6 +995,14 @@
      "gloss": "The document says this use is not allowed.",
      "precedent": []
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -908,12 +1015,12 @@
    "values": [
     {
      "id": "permitted",
-     "gloss": "The document says this use is allowed (no condition other than general rules).",
+     "gloss": "Allowed with no condition beyond the universal duties to acknowledge and verify.",
      "precedent": []
     },
     {
      "id": "conditional",
-     "gloss": "Allowed only if a stated condition holds: permission, approval, acknowledgement, assessment type or a limit.",
+     "gloss": "Allowed only if a specific stated condition holds: permission, approval, assessment type or a limit. A blanket 'not allowed unless authorised' rule makes every use conditional.",
      "precedent": [
       "warwick-law-students-guidance-202610"
      ]
@@ -926,6 +1033,14 @@
       "exeter-students-assessment-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -938,12 +1053,12 @@
    "values": [
     {
      "id": "permitted",
-     "gloss": "The document says this use is allowed (no condition other than general rules).",
+     "gloss": "Allowed with no condition beyond the universal duties to acknowledge and verify.",
      "precedent": []
     },
     {
      "id": "conditional",
-     "gloss": "Allowed only if a stated condition holds: permission, approval, acknowledgement, assessment type or a limit.",
+     "gloss": "Allowed only if a specific stated condition holds: permission, approval, assessment type or a limit. A blanket 'not allowed unless authorised' rule makes every use conditional.",
      "precedent": []
     },
     {
@@ -954,6 +1069,14 @@
       "warwick-law-students-guidance-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -966,12 +1089,12 @@
    "values": [
     {
      "id": "permitted",
-     "gloss": "The document says this use is allowed (no condition other than general rules).",
+     "gloss": "Allowed with no condition beyond the universal duties to acknowledge and verify.",
      "precedent": []
     },
     {
      "id": "conditional",
-     "gloss": "Allowed only if a stated condition holds: permission, approval, acknowledgement, assessment type or a limit.",
+     "gloss": "Allowed only if a specific stated condition holds: permission, approval, assessment type or a limit. A blanket 'not allowed unless authorised' rule makes every use conditional.",
      "precedent": [
       "maynooth-ug-ptm-genai-guidelines-202610",
       "mtu-instructors-genai-syllabus-templates-202610"
@@ -986,6 +1109,14 @@
       "kcl-students-guidance-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -998,7 +1129,7 @@
    "values": [
     {
      "id": "permitted",
-     "gloss": "The document says this use is allowed (no condition other than general rules).",
+     "gloss": "Allowed with no condition beyond the universal duties to acknowledge and verify.",
      "precedent": [
       "glasgow-student-genai-guidance-202610",
       "toronto-instructors-students-genai-faq-202610"
@@ -1006,7 +1137,7 @@
     },
     {
      "id": "conditional",
-     "gloss": "Allowed only if a stated condition holds: permission, approval, acknowledgement, assessment type or a limit.",
+     "gloss": "Allowed only if a specific stated condition holds: permission, approval, assessment type or a limit. A blanket 'not allowed unless authorised' rule makes every use conditional.",
      "precedent": [
       "standrews-student-genai-faq-202610"
      ]
@@ -1016,6 +1147,14 @@
      "gloss": "The document says this use is not allowed.",
      "precedent": []
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -1028,14 +1167,14 @@
    "values": [
     {
      "id": "permitted",
-     "gloss": "The document says this use is allowed (no condition other than general rules).",
+     "gloss": "Allowed with no condition beyond the universal duties to acknowledge and verify.",
      "precedent": [
       "glasgow-pgr-checklist-202610"
      ]
     },
     {
      "id": "conditional",
-     "gloss": "Allowed only if a stated condition holds: permission, approval, acknowledgement, assessment type or a limit.",
+     "gloss": "Allowed only if a specific stated condition holds: permission, approval, assessment type or a limit. A blanket 'not allowed unless authorised' rule makes every use conditional.",
      "precedent": [
       "edinburgh-student-genai-guidelines-202610"
      ]
@@ -1045,6 +1184,14 @@
      "gloss": "The document says this use is not allowed.",
      "precedent": []
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -1057,12 +1204,12 @@
    "values": [
     {
      "id": "permitted",
-     "gloss": "The document says this use is allowed (no condition other than general rules).",
+     "gloss": "Allowed with no condition beyond the universal duties to acknowledge and verify.",
      "precedent": []
     },
     {
      "id": "conditional",
-     "gloss": "Allowed only if a stated condition holds: permission, approval, acknowledgement, assessment type or a limit.",
+     "gloss": "Allowed only if a specific stated condition holds: permission, approval, assessment type or a limit. A blanket 'not allowed unless authorised' rule makes every use conditional.",
      "precedent": [
       "ubc-graduate-students-genai-202610"
      ]
@@ -1072,6 +1219,14 @@
      "gloss": "The document says this use is not allowed.",
      "precedent": []
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -1116,6 +1271,14 @@
       "manchester-staff-guidelines-202610",
       "cambridge-staff-admin-202610"
      ]
+    },
+    {
+     "id": "live_translation_prohibited",
+     "gloss": "Live translation or transcription apps are not allowed in class.",
+     "precedent": [
+      "warwick-law-students-guidance-202610",
+      "edinburgh-student-genai-guidelines-202610"
+     ]
     }
    ]
   },
@@ -1129,7 +1292,7 @@
    "values": [
     {
      "id": "always_required",
-     "gloss": "All use in assessed work must be disclosed (apart from stated exemptions).",
+     "gloss": "All use in assessed work must be disclosed (apart from stated exemptions). Also code this when the wording is 'should' but failure to acknowledge is stated to be misconduct.",
      "precedent": [
       "heidelberg-studium-lehre-ki-leitlinie-202610",
       "uzh-teaching-genai-recommendations-202610",
@@ -1156,13 +1319,21 @@
     },
     {
      "id": "recommended",
-     "gloss": "Recommended or expected, but not stated as required.",
+     "gloss": "Recommended or expected ('should', 'expected to') with no stated consequence for omission.",
      "precedent": [
       "edinburgh-student-genai-guidelines-202610",
       "manchester-bmh-students-guidance-202610",
       "tcd-institution-genai-statement-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -1218,6 +1389,14 @@
       "helsinki-students-ai-guidelines-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -1233,7 +1412,15 @@
      "below_length_threshold"
     ]
    },
-   "min": 0
+   "min": 0,
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
+   ]
   },
   {
    "id": "disclosure_contents",
@@ -1324,6 +1511,14 @@
       "helsinki-students-ai-guidelines-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -1376,6 +1571,14 @@
       "standrews-student-genai-faq-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -1388,6 +1591,14 @@
    "precedent": [
     "helsinki-students-ai-guidelines-202610",
     "ubc-graduate-students-genai-202610"
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -1429,6 +1640,14 @@
       "unam-teaching-licenciatura-genai-assessment-guide-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -1455,7 +1674,23 @@
       "glasgow-researchers-genai-guidance-202610",
       "warwick-law-all-aipolicy-202610"
      ]
+    },
+    {
+     "id": "required_if_course_specifies",
+     "gloss": "Records are required where the course or assessment says so.",
+     "precedent": [
+      "ulster-library-genai-guide-202610",
+      "toronto-instructors-students-genai-faq-202610"
+     ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -1489,6 +1724,9 @@
       "hea-students-responsibilities-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work"
    ]
   },
   {
@@ -1533,6 +1771,10 @@
       "glasgow-pgr-checklist-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice"
    ]
   },
   {
@@ -1583,16 +1825,36 @@
       "qaa-providers-assessment-advice-202610",
       "standrews-student-genai-faq-202610"
      ]
+    },
+    {
+     "id": "research_misconduct",
+     "gloss": "Framed as research misconduct.",
+     "precedent": [
+      "ukri-applicants-assessors-policy-202610",
+      "manchester-staff-guidelines-202610"
+     ]
+    },
+    {
+     "id": "breach_of_confidentiality",
+     "gloss": "Framed as a breach of confidentiality or integrity.",
+     "precedent": [
+      "ukri-applicants-assessors-policy-202610"
+     ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "research_conduct",
+    "funding_applications"
    ]
   },
   {
    "id": "sanctions_stated",
    "group": "integrity",
-   "type": "enum",
+   "type": "multi",
    "label": "Sanctions stated",
-   "question": "What does the document say will happen?",
-   "grain": "document",
+   "question": "What does the document say will happen? Code every kind it states.",
+   "grain": "list",
    "values": [
     {
      "id": "penalties_listed",
@@ -1617,7 +1879,20 @@
      "precedent": [
       "helsinki-students-ai-guidelines-202610"
      ]
+    },
+    {
+     "id": "access_removal",
+     "gloss": "Loss of access to digital services is named.",
+     "precedent": [
+      "edinburgh-student-genai-guidelines-202610"
+     ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "research_conduct",
+    "teaching_practice",
+    "administration"
    ]
   },
   {
@@ -1657,6 +1932,14 @@
       "cambridge-pgapplicants-ai-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "research_conduct",
+    "funding_applications",
+    "admissions",
+    "administration"
    ]
   },
   {
@@ -1684,6 +1967,10 @@
       "helsinki-teachers-ai-guidelines-202610"
      ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice"
    ]
   },
   {
@@ -1768,7 +2055,8 @@
     "glasgow-student-genai-guidance-202610",
     "helsinki-students-ai-guidelines-202610",
     "qaa-providers-assessment-advice-202610"
-   ]
+   ],
+   "diagnostic": "Near-universal in the pilot: check whether it discriminates before using it in a comparison."
   },
   {
    "id": "names_institution_provided_tool",
@@ -1830,10 +2118,10 @@
   {
    "id": "non_institutional_tool_rule",
    "group": "tools_data",
-   "type": "enum",
+   "type": "multi",
    "label": "Rule on tools the institution does not provide",
    "question": "What does the document say about outside tools?",
-   "grain": "document",
+   "grain": "list",
    "values": [
     {
      "id": "prohibited_for_defined_data",
@@ -1932,10 +2220,17 @@
     },
     {
      "id": "research_participant_data",
-     "gloss": "Participant data needs ethics approval first.",
+     "gloss": "Participant data may be entered only with prior ethics approval, or may not be entered at all (say which in evidence_quote).",
      "precedent": [
       "edinburgh-pgr-genai-guidelines-202610",
       "ubc-graduate-students-genai-202610"
+     ]
+    },
+    {
+     "id": "third_party_confidential",
+     "gloss": "Information held under a non-disclosure agreement or confidential to another organisation.",
+     "precedent": [
+      "edinburgh-pgr-genai-guidelines-202610"
      ]
     }
    ]
@@ -1974,11 +2269,17 @@
       "helsinki-teachers-ai-guidelines-202610",
       "toronto-instructors-students-genai-faq-202610"
      ]
+    },
+    {
+     "id": "allowed_preferred_tool",
+     "gloss": "Allowed; an institutional tool is preferred but not required.",
+     "precedent": [
+      "edinburgh-staff-guidance-202610"
+     ]
     }
    ],
-   "applies_to": [
-    "staff_teaching",
-    "all"
+   "applies_to_domains": [
+    "teaching_practice"
    ]
   },
   {
@@ -2010,11 +2311,17 @@
      "precedent": [
       "toronto-instructors-students-genai-faq-202610"
      ]
+    },
+    {
+     "id": "discouraged",
+     "gloss": "Staff are advised to avoid AI in marking or feedback, without a prohibition.",
+     "precedent": [
+      "edinburgh-staff-guidance-202610"
+     ]
     }
    ],
-   "applies_to": [
-    "staff_teaching",
-    "all"
+   "applies_to_domains": [
+    "teaching_practice"
    ]
   },
   {
@@ -2056,6 +2363,13 @@
      "gloss": "Child safeguarding rules.",
      "precedent": [
       "dfe-schools-colleges-guidance-202610"
+     ]
+    },
+    {
+     "id": "freedom_of_information",
+     "gloss": "Freedom of information law.",
+     "precedent": [
+      "edinburgh-staff-guidance-202610"
      ]
     }
    ]
@@ -2203,7 +2517,20 @@
       "bath-institution-genai-principles-202610",
       "exeter-institution-enabling-ai-202610"
      ]
+    },
+    {
+     "id": "planned",
+     "gloss": "Commits only to explore or plan provision.",
+     "precedent": [
+      "warwick-law-all-aipolicy-202610"
+     ]
     }
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "teaching_practice",
+    "public_services",
+    "administration"
    ]
   },
   {
@@ -2230,13 +2557,20 @@
       "swansea-institution-ai-assessment-policy-202610",
       "uzh-all-ai-principles-202610"
      ]
+    },
+    {
+     "id": "planned",
+     "gloss": "Commits only to explore or plan provision.",
+     "precedent": [
+      "warwick-law-all-aipolicy-202610"
+     ]
     }
    ],
-   "applies_to": [
-    "staff_teaching",
-    "staff_research",
-    "staff_prof",
-    "all"
+   "applies_to_domains": [
+    "teaching_practice",
+    "research_conduct",
+    "administration",
+    "public_services"
    ]
   },
   {
@@ -2280,8 +2614,11 @@
    ],
    "applies_to": [
     "pgr",
-    "staff_research",
-    "all"
+    "staff_research"
+   ],
+   "applies_to_domains": [
+    "research_conduct",
+    "assessed_work"
    ]
   },
   {
@@ -2323,8 +2660,11 @@
     }
    ],
    "applies_to": [
-    "pgr",
-    "all"
+    "pgr"
+   ],
+   "applies_to_domains": [
+    "assessed_work",
+    "research_conduct"
    ]
   },
   {
@@ -2353,8 +2693,10 @@
    ],
    "applies_to": [
     "pgr",
-    "staff_research",
-    "all"
+    "staff_research"
+   ],
+   "applies_to_domains": [
+    "research_conduct"
    ]
   },
   {
@@ -2389,9 +2731,12 @@
     }
    ],
    "applies_to": [
-    "staff_research",
     "pgr",
-    "all"
+    "staff_research"
+   ],
+   "applies_to_domains": [
+    "research_conduct",
+    "funding_applications"
    ]
   },
   {
@@ -2415,12 +2760,23 @@
      "precedent": [
       "ukri-applicants-assessors-policy-202610"
      ]
+    },
+    {
+     "id": "drafting_permitted",
+     "gloss": "Using AI to draft an application is permitted.",
+     "precedent": [
+      "edinburgh-staff-guidance-202610",
+      "ukri-applicants-assessors-policy-202610"
+     ]
     }
    ],
    "applies_to": [
     "pgr",
-    "staff_research",
-    "all"
+    "staff_research"
+   ],
+   "applies_to_domains": [
+    "funding_applications",
+    "admissions"
    ]
   },
   {
@@ -2463,6 +2819,13 @@
       "stanford-students-instructors-genai-honor-code-202610",
       "hea-hei-leaders-policyframework-202610",
       "manchester-staff-guidelines-202610"
+     ]
+    },
+    {
+     "id": "relative_timing",
+     "gloss": "Review is promised relative to an event (before next academic year) with no date or interval.",
+     "precedent": [
+      "maynooth-ug-ptm-genai-guidelines-202610"
      ]
     }
    ]
@@ -2592,6 +2955,35 @@
      "precedent": [
       "dfe-schools-colleges-guidance-202610"
      ]
+    },
+    {
+     "id": "public_notice_or_register",
+     "gloss": "Commits to tell people when they interact with AI, or to keep a public register.",
+     "precedent": [
+      "ni-exec-strategy-draft-202608"
+     ]
+    },
+    {
+     "id": "oversight_structure",
+     "gloss": "Commits to a named oversight body or structure.",
+     "precedent": [
+      "ni-exec-strategy-draft-202608"
+     ]
+    },
+    {
+     "id": "supplier_requirements",
+     "gloss": "Commits to requirements on suppliers or procurement.",
+     "precedent": [
+      "ni-exec-strategy-draft-202608"
+     ]
+    },
+    {
+     "id": "user_guidance",
+     "gloss": "Commits to publish guidance for users or applicants.",
+     "precedent": [
+      "ukri-applicants-assessors-policy-202610",
+      "ni-exec-strategy-draft-202608"
+     ]
     }
    ],
    "applies_to_levels": [
@@ -2618,6 +3010,13 @@
      "gloss": "Some commitments have dates.",
      "precedent": [
       "sydney-all-ai-assessment-news-202610"
+     ]
+    },
+    {
+     "id": "none_dated",
+     "gloss": "Commitments are listed and none has a date.",
+     "precedent": [
+      "ni-exec-strategy-draft-202608"
      ]
     }
    ],
@@ -2650,15 +3049,22 @@
    "grain": "list",
    "values": [
     {
-     "id": "teaching_and_assessment",
-     "gloss": "Teaching, learning or assessment.",
+     "id": "assessed_work",
+     "gloss": "The document says it does not cover this domain.",
      "precedent": [
       "cambridge-staff-admin-202610"
      ]
     },
     {
-     "id": "research",
-     "gloss": "Research use.",
+     "id": "teaching_practice",
+     "gloss": "The document says it does not cover this domain.",
+     "precedent": [
+      "cambridge-staff-admin-202610"
+     ]
+    },
+    {
+     "id": "research_conduct",
+     "gloss": "The document says it does not cover this domain.",
      "precedent": [
       "cambridge-staff-admin-202610",
       "hea-hei-leaders-policyframework-202610",
@@ -2666,11 +3072,31 @@
      ]
     },
     {
+     "id": "funding_applications",
+     "gloss": "The document says it does not cover this domain.",
+     "precedent": []
+    },
+    {
+     "id": "admissions",
+     "gloss": "The document says it does not cover this domain.",
+     "precedent": []
+    },
+    {
      "id": "administration",
-     "gloss": "Administrative use.",
+     "gloss": "The document says it does not cover this domain.",
      "precedent": [
       "hea-hei-leaders-policyframework-202610"
      ]
+    },
+    {
+     "id": "public_services",
+     "gloss": "The document says it does not cover this domain.",
+     "precedent": []
+    },
+    {
+     "id": "school_education",
+     "gloss": "The document says it does not cover this domain.",
+     "precedent": []
     }
    ]
   },
@@ -2730,7 +3156,10 @@
      "four_level",
      "other_scale"
     ]
-   }
+   },
+   "applies_to_domains": [
+    "assessed_work"
+   ]
   },
   {
    "id": "student_may_opt_out_of_ai",
@@ -2743,6 +3172,9 @@
     "manchester-staff-policy-202610",
     "kcl-students-guidance-202610",
     "wits-clm-staff-genai-guidelines-202610"
+   ],
+   "applies_to_domains": [
+    "assessed_work"
    ]
   },
   {
@@ -2815,11 +3247,11 @@
      ]
     }
    ],
-   "applies_to": [
-    "staff_teaching",
-    "staff_research",
-    "staff_prof",
-    "all"
+   "applies_to_domains": [
+    "teaching_practice",
+    "research_conduct",
+    "administration",
+    "public_services"
    ]
   },
   {
@@ -2854,13 +3286,21 @@
      "precedent": [
       "edinburgh-staff-guidance-202610"
      ]
+    },
+    {
+     "id": "attribute_published_output",
+     "gloss": "Staff must attribute or cite AI use in published output.",
+     "precedent": [
+      "edinburgh-staff-guidance-202610",
+      "tcd-staff-research-202610"
+     ]
     }
    ],
-   "applies_to": [
-    "staff_teaching",
-    "staff_research",
-    "staff_prof",
-    "all"
+   "applies_to_domains": [
+    "teaching_practice",
+    "research_conduct",
+    "administration",
+    "public_services"
    ]
   },
   {
@@ -2874,6 +3314,24 @@
     "manchester-staff-guidelines-202610",
     "picardie-all-genai-charte-202610",
     "ukri-applicants-assessors-policy-202610"
+   ],
+   "applies_to_domains": [
+    "research_conduct"
+   ]
+  },
+  {
+   "id": "public_notice_of_ai_interaction",
+   "group": "strategy",
+   "type": "boolean",
+   "label": "People must be told when they interact with AI",
+   "question": "The document says people (citizens, service users) must be told when they are dealing with AI.",
+   "grain": "document",
+   "precedent": [
+    "ni-exec-strategy-draft-202608"
+   ],
+   "applies_to_domains": [
+    "public_services",
+    "administration"
    ]
   }
  ],
@@ -2884,5 +3342,16 @@
   "institution",
   "faculty",
   "course"
- ]
+ ],
+ "domains": {
+  "assessed_work": "Rules for students' assessed or submitted work (coursework, exams, theses as assessed work).",
+  "teaching_practice": "Rules for how staff teach, mark, give feedback or handle student material.",
+  "research_conduct": "Rules for doing, writing, publishing or reviewing research.",
+  "funding_applications": "Rules for preparing or assessing funding applications.",
+  "admissions": "Rules for applying for study.",
+  "administration": "Rules for professional-services, administrative or operational use.",
+  "public_services": "Commitments about public-sector or citizen-facing use.",
+  "school_education": "Provision for schools (pupils and teachers)."
+ },
+ "domainsRule": "A document covers a domain if it contains at least one rule, commitment or recommendation about it, whoever it is addressed to. A student guide that says staff will not use AI to grade covers teaching_practice. Variables about what a person must do with AI in something they submit (use_*, disclosure_*) apply to every domain where someone submits work; only the assessment machinery (silent default, tiers, labelling) is tied to assessed_work."
 }

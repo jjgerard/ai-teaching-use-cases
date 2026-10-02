@@ -31,7 +31,9 @@ const COVERS = {
 };
 const audiencesOf = (d) => (Array.isArray(d.audience) ? d.audience : [d.audience]);
 function covers(doc, wanted) {
-  return audiencesOf(doc).some((a) => a === "all" || a === wanted || (COVERS[a] || [a]).includes(wanted));
+  // "all" means addressed to the whole population (a strategy, a university-wide statement). It does NOT
+  // cover role-specific variables such as supervisor_role: list the audiences explicitly for those.
+  return audiencesOf(doc).some((a) => a === wanted || (COVERS[a] || [a]).includes(wanted));
 }
 const squash = (s) =>
   String(s)
@@ -60,8 +62,9 @@ function validate({ institutions, documents, codes, codebook, snapshots = {} }) 
     docs.set(d.doc_id, d);
     if (!instIds.has(d.institution_id)) err(`${d.doc_id}: unknown institution_id ${JSON.stringify(d.institution_id)}`);
     for (const [f, allowed] of Object.entries(codebook.documentFields)) {
-      const vals = f === "audience" ? audiencesOf(d) : [d[f]];
-      if (f === "audience" && (!vals.length || vals[0] == null)) err(`${d.doc_id}: audience is required`);
+      const isList = f === "audience" || f === "domains";
+      const vals = isList ? (Array.isArray(d[f]) ? d[f] : [d[f]]) : [d[f]];
+      if (isList && (!vals.length || vals[0] == null)) err(`${d.doc_id}: ${f} is required`);
       for (const x of vals) if (!allowed.includes(x)) err(`${d.doc_id}: ${f} ${JSON.stringify(x)} is not one of ${allowed.join("|")}`);
     }
     for (const f of ["published", "last_updated", "retrieved"]) {
@@ -91,8 +94,9 @@ function validate({ institutions, documents, codes, codebook, snapshots = {} }) 
     const isState = typeof c.value === "string" && states.includes(c.value);
     const audOk = !v.applies_to || v.applies_to.some((a) => covers(doc, a));
     const levelOk = !v.applies_to_levels || v.applies_to_levels.includes(doc.level);
-    const applies = audOk && levelOk;
-    if (!applies && c.value !== "not_applicable") err(`${id}: variable does not apply to ${audOk ? "level " + doc.level : "audience " + audiencesOf(doc).join("+")}; must be not_applicable`);
+    const domOk = !v.applies_to_domains || (Array.isArray(doc.domains) ? doc.domains : []).some((x) => v.applies_to_domains.includes(x));
+    const applies = audOk && levelOk && domOk;
+    if (!applies && c.value !== "not_applicable") err(`${id}: variable does not apply to ${!audOk ? "audience " + audiencesOf(doc).join("+") : !levelOk ? "level " + doc.level : "domains " + (doc.domains || []).join("+")}; must be not_applicable`);
 
     // misfit: no honest value. Left null, with a note, never forced.
     if (c.value === null) {
@@ -212,6 +216,7 @@ function checkCodebook(cb) {
         for (const x of v.gate.if_in || v.gate.only_if_in) if (!gids.includes(x)) errors.push(`${v.id}: gate value ${x} is not a value of ${g.id}`);
       }
     }
+    for (const d of v.applies_to_domains || []) if (!(cb.domains || {})[d]) errors.push(`${v.id}: applies_to_domains has unknown domain ${d}`);
     if (!v.question) errors.push(`${v.id}: needs a question`);
     if (["integer", "number"].includes(v.type) && !v.gate && v.min == null) errors.push(`${v.id}: numeric variable should declare min`);
   }

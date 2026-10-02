@@ -10,7 +10,11 @@
   "published": "2026-08",
   "last_updated": "2026-08",
   "retrieved": "2026-10-02",
-  "word_count": 11666
+  "word_count": 11666,
+  "domains": [
+   "public_services",
+   "school_education"
+  ]
  },
  {
   "doc_id": "ulster-library-genai-guide-202610",
@@ -23,7 +27,10 @@
   "published": null,
   "last_updated": "2026-08-26",
   "retrieved": "2026-10-02",
-  "word_count": 350
+  "word_count": 350,
+  "domains": [
+   "assessed_work"
+  ]
  },
  {
   "doc_id": "edinburgh-student-genai-guidelines-202610",
@@ -36,7 +43,10 @@
   "published": "2025-07-23",
   "last_updated": "2026-03",
   "retrieved": "2026-10-02",
-  "word_count": 1913
+  "word_count": 1913,
+  "domains": [
+   "assessed_work"
+  ]
  },
  {
   "doc_id": "edinburgh-pgr-genai-guidelines-202610",
@@ -49,7 +59,11 @@
   "published": "2025-09-16",
   "last_updated": "2026-03",
   "retrieved": "2026-10-02",
-  "word_count": 2589
+  "word_count": 2589,
+  "domains": [
+   "assessed_work",
+   "research_conduct"
+  ]
  },
  {
   "doc_id": "edinburgh-staff-guidance-202610",
@@ -62,7 +76,13 @@
   "published": "2026-03-24",
   "last_updated": null,
   "retrieved": "2026-10-02",
-  "word_count": 2426
+  "word_count": 2426,
+  "domains": [
+   "teaching_practice",
+   "research_conduct",
+   "administration",
+   "funding_applications"
+  ]
  },
  {
   "doc_id": "maynooth-ug-ptm-genai-guidelines-202610",
@@ -78,7 +98,11 @@
   "published": null,
   "last_updated": "2025-04-02",
   "retrieved": "2026-10-02",
-  "word_count": 3042
+  "word_count": 3042,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ]
  },
  {
   "doc_id": "warwick-law-all-aipolicy-202610",
@@ -94,7 +118,11 @@
   "published": "2024-11-20",
   "last_updated": null,
   "retrieved": "2026-10-02",
-  "word_count": 4340
+  "word_count": 4340,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ]
  },
  {
   "doc_id": "ukri-applicants-assessors-policy-202610",
@@ -107,6 +135,10 @@
   "published": "2024-09-23",
   "last_updated": null,
   "retrieved": "2026-10-02",
-  "word_count": 1148
+  "word_count": 1148,
+  "domains": [
+   "funding_applications",
+   "research_conduct"
+  ]
  }
 ]
