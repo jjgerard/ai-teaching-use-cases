@@ -1,0 +1,192 @@
+[
+ {
+  "ror_id": "https://ror.org/01v29qb04",
+  "name": "Durham University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://dcad.awh.durham.ac.uk/generativeai/#/",
+   "title": "A student guide to generative AI",
+   "kind": "webpage",
+   "audience_as_stated": "students",
+   "owner_as_stated": "DCAD (Durham Centre for Academic Development)",
+   "date_as_shown": "2026/07/06 (listing page date)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "pgr/staff",
+    "url": "https://www.durham.ac.uk/media/durham-university/departments-/common-awards/documents/AI-Policy-and-Guidance.pdf",
+    "title": "Common Awards Policy and Guidance on Generative AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.durham.ac.uk/departments/academic/common-awards/policies-processes/assessment/academic-misconductai-policy-and-guidance/",
+    "title": "Academic Misconduct: AI Policy and Guidance (Common Awards, departmental)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://dcad-resourcebank.webspace.durham.ac.uk/2026/07/06/generative-ai-in-teaching-learning-and-assessment-resources/",
+    "title": "Generative AI in Teaching, Learning and Assessment Resources"
+   }
+  ],
+  "notes": "Guide is a single-page app; fetch returned only the title, so body not confirmed. Listing page via DCAD resource bank. durham.ac.uk/global-durham/.../ai-guidance returned 403 (not circumvented). Search snippets mention a Durham GenAI Policy in LTA with four assessment categories; its URL not seen."
+ },
+ {
+  "ror_id": "https://ror.org/00ks66431",
+  "name": "University of Surrey",
+  "outcome": "found",
+  "doc": {
+   "url": "https://my.surrey.ac.uk/study/using-ai-surrey/policy-and-guidance",
+   "title": "Policy and guidance (Using AI at Surrey)",
+   "kind": "webpage",
+   "audience_as_stated": "current students",
+   "owner_as_stated": "University of Surrey",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://help.surrey.ac.uk/article/where-can-i-find-advice-about-using-artificial-intelligence-my-studies",
+    "title": "Where can I find advice about using artificial intelligence for my studies?"
+   },
+   {
+    "audience": "institution",
+    "url": "https://www.surrey.ac.uk/sites/default/files/2025-12/generative-ai-procedure.pdf",
+    "title": "Generative AI Procedure Enabling Policy Statement"
+   },
+   {
+    "audience": "staff",
+    "url": "https://help.surrey.ac.uk/article/where-can-i-find-help-and-advice-about-using-artificial-intelligence-responsibly-my-work",
+    "title": "Help and advice about using AI responsibly in my work"
+   }
+  ],
+  "notes": "Page points students to SurreyLearn for detailed resources. Hub: https://my.surrey.ac.uk/using-ai-surrey. Generative AI Procedure PDF not fetched."
+ },
+ {
+  "ror_id": "https://ror.org/04mghma93",
+  "name": "Heriot-Watt University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://lta.hw.ac.uk/wp-content/uploads/Student-guidance-on-Artificial-Intelligence-in-Learning-and-Teaching-AY23-24.pdf",
+   "title": "Student guidance on Artificial Intelligence in Learning and Teaching AY23-24",
+   "kind": "pdf",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Heriot-Watt University (author Rosemarie McIlwhan)",
+   "date_as_shown": "2024-03-12",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "institution",
+    "url": "https://lta.hw.ac.uk/wp-content/uploads/HW-general-principles-on-technology-and-AI.pdf",
+    "title": "Heriot-Watt General principles on use of technology and AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://lta.hw.ac.uk/wp-content/uploads/Student-Guide-Introduction-to-Artificial-Intelligence-content-creation-tools-university-study.pdf",
+    "title": "Student Guide: Introduction to AI content creation tools"
+   },
+   {
+    "audience": "staff",
+    "url": "https://lta.hw.ac.uk/wp-content/uploads/HWU-Staff-guide-Using-genAI-in-your-course-AY24-25.pdf",
+    "title": "Staff Guide: Using genAI in your course AY24-25"
+   }
+  ],
+  "notes": "Latest student-guidance version found is AY23-24; no newer version surfaced in two searches. General principles PDF retrieved but text not extractable by fetch tool."
+ },
+ {
+  "ror_id": "https://ror.org/00bqvf857",
+  "name": "Cardiff Metropolitan University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/ai-student-hub/",
+   "title": "AI Student Hub",
+   "kind": "webpage",
+   "audience_as_stated": "Cardiff Met students",
+   "owner_as_stated": "Cardiff Metropolitan University",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "institution",
+    "url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/position-statement/",
+    "title": "Position Statement"
+   },
+   {
+    "audience": "institution",
+    "url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/principles/",
+    "title": "Cardiff Metropolitan University AI Principles"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/ai-staff-hub/",
+    "title": "AI Staff Hub"
+   },
+   {
+    "audience": "students",
+    "url": "https://library.cardiffmet.ac.uk/AI/overview",
+    "title": "AI Hub (library)"
+   }
+  ],
+  "notes": "Public page is a hub; full resources are behind the student portal (not accessed). Position Statement and Principles not fetched."
+ },
+ {
+  "ror_id": "https://ror.org/05a49e175",
+  "name": "Stranmillis University College",
+  "outcome": "not_found",
+  "reasons": "Five domain-filtered queries (stran.ac.uk) returned only generic student support, news and research-integrity pages; no student-facing generative AI page or academic-integrity document naming AI. Site reachable. Only AI mention seen is research ethics code (staff/researcher, PDF) which mentions generative AI chatbots. A student academic regulations document may exist outside the search index (QUB college), so absence is of search-visible pages only.",
+  "queries_tried": [
+   "Stranmillis University College generative AI students guidance (allowed_domains stran.ac.uk)",
+   "Stranmillis academic integrity artificial intelligence ChatGPT students assessment (stran.ac.uk)",
+   "Stranmillis AI policy students (stran.ac.uk)",
+   "Stranmillis plagiarism academic misconduct regulations (stran.ac.uk)",
+   "Stranmillis University College use of generative artificial intelligence (stran.ac.uk, extended)"
+  ],
+  "other_pages": [
+   {
+    "audience": "pgr/staff",
+    "url": "https://www.stran.ac.uk/wp-content/uploads/2025/04/Code-of-Ethics-in-Research-2024.pdf",
+    "title": "Code of Ethics in Research (June 2024), mentions generative AI"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/04a1a1e81",
+  "name": "Dublin City University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.dcu.ie/ocoo/dcu-position-statement-use-artificial-intelligence-tools",
+   "title": "DCU Position Statement on the Use of Artificial Intelligence Tools",
+   "kind": "webpage",
+   "audience_as_stated": "DCU staff and students",
+   "owner_as_stated": "Office of the Chief Operations Officer",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff/students",
+    "url": "https://www.dcu.ie/dts/ai-hub",
+    "title": "AI Hub"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.dcu.ie/dts/news/2026/apr/notebooklm-ai-study-assistant",
+    "title": "NotebookLM - AI Study Assistant"
+   }
+  ],
+  "notes": "Institution-wide statement; fetched content addressed mainly staff conduct. Main student GenAI guidance not located; AI Hub (https://www.dcu.ie/dts/ai-hub) not fetched and may be a better student target."
+ }
+]
