@@ -1,0 +1,44 @@
+[
+ {
+  "ror_id": "https://ror.org/04t0qbt32",
+  "name": "Technological University Dublin",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Guidelines-on-the-Responsible-Use-of-Generative-Artificial-Intelligence-in-Teaching-and-Learning-13.5.25.docx",
+   "title": "Guidelines on the Responsible use of Generative Artificial Intelligence in Teaching, Learning, Feedback and Assessment in TU Dublin",
+   "kind": "guidelines (Word document)",
+   "audience_as_stated": "Scope: use of generative AI systems for teaching, learning, feedback and assessment (no explicit audience line read)",
+   "owner_as_stated": "Academic Integrity Policy Group; approved by AQAEC 13 May 2025",
+   "date_as_shown": "April 2025 (approved 13 May 2025)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.tudublin.ie/explore/about-the-university/academic-affairs/academic-quality-assurance-and-enhancement/academic-integrity/",
+    "title": "Academic Integrity (links to the guidelines)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.tudublin.ie/explore/about-the-university/academic-affairs/lta/lta-resources/artificial-intelligence-driving-license/",
+    "title": "Artificial Intelligence Driving Licence (AIDL); returned 404 on fetch"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.tudublin.ie/explore/about-the-university/academic-affairs/teaching-and-learning/guidance/generative-artificial-intelligence/what-is-generative-artificial-intelligence-genai/",
+    "title": "What is GenAI (staff guidance); returned 404 on fetch"
+   }
+  ],
+  "queries": [
+   "TU Dublin generative AI students guidance (allowed_domains tudublin.ie)",
+   "TU Dublin academic integrity artificial intelligence (allowed_domains tudublin.ie)",
+   "Guidelines on the Responsible use of Generative AI in Teaching and Learning TU Dublin (allowed_domains tudublin.ie)"
+  ],
+  "notes": "UNESCO PDF hosted on tudublin.ie deliberately rejected (not TU Dublin guidance). Docx fetched by curl (200) and text read; issuing unit confirmed in text. Titled for teaching and learning, so audience may be staff as much as students; PDF/docx not archived via fetch.js.",
+  "country": "IE",
+  "region": "Leinster",
+  "doc_id": "tud-students-genai-202610"
+ }
+]

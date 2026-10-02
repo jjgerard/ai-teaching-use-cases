@@ -358,41 +358,46 @@
  {
   "ror_id": "https://ror.org/04t0qbt32",
   "name": "Technological University Dublin",
-  "outcome": "unresolved",
+  "outcome": "found",
   "doc": {
-   "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Guidance-for-generative-AI-in-education-and-research.pdf",
-   "title": "Guidance for generative AI in education and research",
-   "kind": "pdf",
-   "audience_as_stated": "education and research (university-wide; students not named as sole audience)",
-   "owner_as_stated": "TU Dublin (Academic Affairs, Quality Framework)",
-   "date_as_shown": "28 November 2023 (PDF metadata)",
+   "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Guidelines-on-the-Responsible-Use-of-Generative-Artificial-Intelligence-in-Teaching-and-Learning-13.5.25.docx",
+   "title": "Guidelines on the Responsible use of Generative Artificial Intelligence in Teaching, Learning, Feedback and Assessment in TU Dublin",
+   "kind": "guidelines (Word document)",
+   "audience_as_stated": "Scope: use of generative AI systems for teaching, learning, feedback and assessment (no explicit audience line read)",
+   "owner_as_stated": "Academic Integrity Policy Group; approved by AQAEC 13 May 2025",
+   "date_as_shown": "April 2025 (approved 13 May 2025)",
    "fallback": false,
    "retrieved_here": true,
    "http": 200
   },
-  "queries_tried": [
-   "generative AI students guidance (domain filter tudublin.ie)",
-   "TU Dublin students AI use assessment academic integrity guidance learners (domain filter)",
-   "TU Dublin Artificial Intelligence Driving License students (domain filter)"
-  ],
   "other_pages": [
    {
     "audience": "students",
-    "url": "https://www.tudublin.ie/explore/about-the-university/academic-affairs/lta/lta-resources/artificial-intelligence-driving-license/",
-    "title": "Artificial Intelligence Driving License (AIDL); appeared in search but fetch returned 404"
+    "url": "https://www.tudublin.ie/explore/about-the-university/academic-affairs/academic-quality-assurance-and-enhancement/academic-integrity/",
+    "title": "Academic Integrity (links to the guidelines)"
    },
    {
-    "audience": "students_and_staff",
-    "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Academic-Integrity-Procedures-Final-Sept-24.pdf",
-    "title": "Academic Integrity Procedures (Sept 2024; not fetched)"
+    "audience": "students",
+    "url": "https://www.tudublin.ie/explore/about-the-university/academic-affairs/lta/lta-resources/artificial-intelligence-driving-license/",
+    "title": "Artificial Intelligence Driving Licence (AIDL); returned 404 on fetch"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.tudublin.ie/explore/about-the-university/academic-affairs/teaching-and-learning/guidance/generative-artificial-intelligence/what-is-generative-artificial-intelligence-genai/",
+    "title": "What is GenAI (staff guidance); returned 404 on fetch"
    }
   ],
-  "notes": "Institution-wide guidance, 48 pp. A student-specific page (AIDL) exists but its URL returned 404 on fetch; recheck. Date is PDF modification metadata.",
+  "queries": [
+   "TU Dublin generative AI students guidance (allowed_domains tudublin.ie)",
+   "TU Dublin academic integrity artificial intelligence (allowed_domains tudublin.ie)",
+   "Guidelines on the Responsible use of Generative AI in Teaching and Learning TU Dublin (allowed_domains tudublin.ie)"
+  ],
+  "notes": "UNESCO PDF hosted on tudublin.ie deliberately rejected (not TU Dublin guidance). Docx fetched by curl (200) and text read; issuing unit confirmed in text. Titled for teaching and learning, so audience may be staff as much as students; PDF/docx not archived via fetch.js.",
   "country": "IE",
-  "region": "Ireland",
+  "region": "Leinster",
   "doc_id": "tud-students-genai-202610",
-  "outcome_original": "found",
-  "correction": "2026-10-02: the archived PDF at the recorded URL is UNESCO global guidance hosted on tudublin.ie, not TU Dublin guidance; re-discovery needed"
+  "correction": "2026-10-02: first pass recorded UNESCO guidance hosted on tudublin.ie (wrong document); re-discovered",
+  "outcome_original": "found"
  },
  {
   "ror_id": "https://ror.org/01a77tt86",
