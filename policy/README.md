@@ -81,8 +81,29 @@ Leeds, Cardiff, UCD, Melbourne, NUS and others) were not retrieved and are absen
 Ulster's own student, doctoral and staff pages are among them, so Ulster is currently represented
 only by its library guide. Sampling is therefore by reachability, and the page must say so.
 
+## Scaling up: UK and Ireland, one institution-wide document each
+
+Status of the tooling (all dependency-free, all tested: `npm run policy:test`):
+
+| Step | Tool | Notes |
+|---|---|---|
+| 1. Sampling frame | `node policy/frame.js GB IE` | Candidates from the Research Organization Registry. `data/policy/frame.json` has 630: 181 `university_name` (165 GB, 16 IE), 345 `other_candidate`, 104 `unlikely`. The tier is a name heuristic only. A human sets `include` true/false against the official register (OfS/HESA for UK providers, HEA for Ireland). Run it with `NODE_USE_ENV_PROXY=1` inside a sandbox that forces a proxy; not needed on a normal machine. |
+| 2. Find each institution's document | search, by an agent or a person | One institution-wide student-facing page each to start. Write `targets.json` (`doc_id`, `url`). An institution with no public guidance, or whose page cannot be fetched, gets an explicit outcome (found / not_found / blocked), not silence. |
+| 3. Archive | `node policy/fetch.js fetch targets.json --contact you@example.org` | Run on your own machine. Honest User-Agent, obeys robots.txt, 3 s between requests to a host, never tries to defeat a bot wall (those are recorded `blocked`; save the page in your browser and use `fetch.js import saved.html --id ... --url ...`). Changed pages keep their old snapshot in `snapshots-history/`, so change over time is analysable. `fetch.js status` lists everything not `ok`. |
+| 4. Register | `documents.json` | `level`, `audience` (list), `domains` (list), dates. Judgement calls, so a person or a coder does it, and the validator checks it. |
+| 5. Code | agents against `codebook.json` | Two independent coders on a sample (about 10%), `node policy/agreement.js` for the figure. Quotes are checked against the snapshot by the validator. |
+| 6. Page | over `data/policy/*.json` | After there is enough to show. |
+
+### Honest limits
+
+- The frame is only as good as its curation. Names containing "college" or "institute" are left to a human.
+- Reading by reachability is over. With a frame, "blocked" and "not found" are findings about named institutions.
+- Agreement figures so far come from instances of one model, so they are optimistic. Human double-coding of a sample is required before any prevalence claim.
+- Cost, from the pilot: roughly 50-60k tokens per document for coding alone.
+
 ## Next
 
-1. Pilot-code a spread of documents against this codebook, read the misfits, revise (v0.3).
-2. Re-retrieve what was blocked (or take pasted text) and extend the snapshot set.
-3. Build the page over `data/policy/*.json`.
+1. Curate `data/policy/frame.json` (set `include`).
+2. Trial discovery on about 20 institutions to check the procedure and the cost.
+3. Scale to the whole frame; then PGR and staff extensions for a stratified subset.
+4. Build the page.
