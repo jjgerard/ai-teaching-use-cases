@@ -1,0 +1,174 @@
+[
+ {
+  "ror_id": "https://ror.org/05j0ve876",
+  "name": "Aston University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.aston.ac.uk/sites/default/files/2026-04/responsible-adoption-and-use-of-artificial-intelligence-ai-policy.pdf",
+   "title": "Responsible Adoption and Use of Artificial Intelligence (AI) Policy",
+   "kind": "pdf",
+   "audience_as_stated": "all staff, students, contractors (per search snippet; policy applies to all campuses)",
+   "owner_as_stated": "Chief Information Officer (policy owner); Vice-Chancellor (executive sponsor)",
+   "date_as_shown": "Approved 16 February 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff and students",
+    "url": "https://www.aston.ac.uk/sites/default/files/AI%20at%20Aston%20Sept%202024%201.ppt",
+    "title": "Artificial Intelligence Guidance for Staff and Students (PPT, Sept 2024; not fetched)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.aston.ac.uk/sites/default/files/AI%20Briefing%20notes%20for%20staff%20July%202024%20V2.0.docx",
+    "title": "Artificial Intelligence - Staff Briefing Notes"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.aston.ac.uk/library/learning-services/digital-skills",
+    "title": "Digital skills and online resources (mentions AI/academic integrity course)"
+   }
+  ],
+  "queries": [
+   "Aston generative AI students guidance (aston.ac.uk)",
+   "Aston University artificial intelligence students academic integrity",
+   "Aston University generative AI guidance for students use of AI in assessment",
+   "\"Artificial Intelligence Guidance for Staff and Students\" Aston"
+  ],
+  "notes": "Chose institution-wide policy because the student/staff guidance is a 2024 PPT not retrieved; may be a better target. Policy PDF retrieved and header read locally.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "aston-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/043jzw605",
+  "name": "Institute of Cancer Research",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.icr.ac.uk/docs/default-source/studying-and-training/student-resources/assessment-misconduct-procedure.pdf?sfvrsn=f3c4b3c2_5",
+   "title": "Assessment Misconduct Procedure (formerly Code of Practice for Plagiarism and Examination Offences)",
+   "kind": "pdf",
+   "audience_as_stated": "all students on taught courses and research degrees",
+   "owner_as_stated": "Academic Services - Education Policy and Quality (approved by Academic Board)",
+   "date_as_shown": "Latest review 21/07/2025",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [],
+  "queries": [
+   "ICR generative AI students guidance (icr.ac.uk)",
+   "Institute of Cancer Research students use of AI ChatGPT policy",
+   "ICR academic integrity plagiarism artificial intelligence taught course students regulations",
+   "Institute of Cancer Research generative AI policy"
+  ],
+  "notes": "No standalone GenAI student guidance surfaced; fallback to misconduct procedure which names generative AI in 1.1.1. WebFetch summary misread the PDF; text confirmed from saved PDF via pdftotext.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "institute-cancer-research-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/015m2p889",
+  "name": "Aberystwyth University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.aber.ac.uk/en/library/help/ai/",
+   "title": "Generative Artificial Intelligence: Library and Digital Education",
+   "kind": "webpage",
+   "audience_as_stated": "all staff and students",
+   "owner_as_stated": "Library Academic and Digital Services",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.aber.ac.uk/en/media/departmental/informationservices/digitalskills/Guidance-for-Students-on-Using-Generative-AI.pdf",
+    "title": "Guidance for Students on Using Generative AI (PDF, not confirmed; fetch returned library page content)"
+   },
+   {
+    "audience": "all",
+    "url": "https://www.aber.ac.uk/en/is/regulations/ai/",
+    "title": "AU Statement on the use of Generative AI (search hit; fetch returned 404)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.aber.ac.uk/en/library/about/regulations/ai/",
+    "title": "Support for using AI"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance (aber.ac.uk)",
+   "Aberystwyth University policy generative AI (aber.ac.uk)"
+  ],
+  "notes": "Student PDF and AU Statement may be better targets; verify. Page links to full university AI policy.",
+  "country": "GB",
+  "region": "Wales",
+  "doc_id": "aberystwyth-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00n208030",
+  "name": "St Mary's University College",
+  "outcome": "not_found",
+  "reasons": [
+   "Four domain-filtered queries (stmarys-belfast.ac.uk) returned only research, podcast, course and complaints pages; no AI policy, guidance or academic-integrity page naming AI",
+   "Site is reachable; absence only in search-engine index, not confirmed by browsing the site"
+  ],
+  "queries_tried": [
+   "generative AI students guidance",
+   "St Mary's University College Belfast artificial intelligence students",
+   "St Mary's University College Belfast academic integrity plagiarism AI tools assessment",
+   "St Mary's Belfast ChatGPT generative AI policy student handbook"
+  ],
+  "other_pages": [],
+  "country": "GB",
+  "region": "Northern Ireland",
+  "doc_id": "st-marys-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/03265fv13",
+  "name": "University College Cork",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ucc.ie/en/ethical-use-of-generative-ai-toolkit/academic-integrity/",
+   "title": "Academic Integrity and use of Gen AI (Toolkit for the Ethical Use of GenAI in Learning and Teaching)",
+   "kind": "webpage",
+   "audience_as_stated": "staff and students (toolkit mainly for staff)",
+   "owner_as_stated": "UCC Skills Centre",
+   "date_as_shown": "Updated 18 September 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.ucc.ie/en/ethical-use-of-generative-ai-toolkit/",
+    "title": "Toolkit home (updated 26 July 2024 as shown)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.ucc.ie/en/academicgov/policies/standards/academicintegrityforexaminationsandassessmentspolicy2025-2026/",
+    "title": "Academic Integrity for Examinations and Assessments Policy 2025-2026"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.ucc.ie/en/research/responsible-use-of-generative-ai-in-research/",
+    "title": "Guidelines for the Responsible Use of Generative AI in Research"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance (ucc.ie)",
+   "University College Cork artificial intelligence students guidance",
+   "UCC GenAI Learning Hub students responsible use before during assessment"
+  ],
+  "notes": "A student-facing GenAI Learning Hub exists per search snippets but its URL was not found; it may be the better target.",
+  "country": "IE",
+  "region": "Ireland",
+  "doc_id": "ucc-students-genai-202610"
+ }
+]

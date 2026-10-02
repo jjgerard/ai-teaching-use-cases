@@ -1,0 +1,176 @@
+[
+ {
+  "ror_id": "https://ror.org/01ryk1543",
+  "name": "University of Southampton",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.southampton.ac.uk/about/governance/regulations-policies/policies/using-gen-ai-during-your-studies",
+   "title": "Using generative artificial intelligence during your studies",
+   "kind": "webpage",
+   "audience_as_stated": "students",
+   "owner_as_stated": "University of Southampton (Regulations and Policies; no team named)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [],
+  "queries": [
+   "University of Southampton generative AI students guidance (allowed_domains southampton.ac.uk)"
+  ],
+  "notes": "Sits in governance policies section. No date visible.",
+  "country": null,
+  "region": "England",
+  "doc_id": "southampton-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/05bbqza97",
+  "name": "Kingston University London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://assets.kingston.ac.uk/m/7de3ec2278ed38ed/original/Policies-2025-26_AR6_Academic-Integrity-taught-courses-2025-2026.pdf",
+   "title": "Academic Regulations 6: Academic Integrity, Taught Courses 2025-2026",
+   "kind": "pdf",
+   "audience_as_stated": "students on taught courses (academic regulations)",
+   "owner_as_stated": "Kingston University (Academic Services)",
+   "date_as_shown": "2025-2026",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://assets.kingston.ac.uk/m/6f5bd8c88b2500bd/original/Policies-2025-2026_AG02-Guidance-on-Editorial-Help-for-Student-Assessment.pdf",
+    "title": "Academic Guidance 2: Guidance on Editorial Help for Student Assessment (names generative AI)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.kingston.ac.uk/about/governance/policies-and-regulations/academic-integrity",
+    "title": "Academic integrity (page returned HTTP 403 to fetch tool; not retrieved)"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://assets.kingston.ac.uk/m/357c0f9dc4438351/original/Polices-2025-26_AR07_Academic-Integrity-Research_V2.pdf",
+    "title": "Academic Regulations 7 2025-26 Academic Integrity Research Degrees"
+   }
+  ],
+  "queries": [
+   "Kingston University generative AI students guidance (allowed_domains kingston.ac.uk)",
+   "Kingston University students generative AI acceptable use assessment brief academic integrity policy (allowed_domains)"
+  ],
+  "notes": "No standalone student GenAI guidance seen; AR6 has section 'Unacceptable use of Generative Artificial Intelligence', hence fallback. Academic integrity web page was 403.",
+  "country": null,
+  "region": "England",
+  "doc_id": "kingston-london-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04w3d2v20",
+  "name": "University of the West of Scotland",
+  "outcome": "found",
+  "doc": {
+   "url": "https://uws-uk.libguides.com/GenAI",
+   "title": "Generative AI: Student Guidance",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": "UWS Library (inferred from libguides platform)",
+   "date_as_shown": "2026-07-21 (last updated)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.uws.ac.uk/media/6606/student-academic-integrity-procedure-september-2023.pdf",
+    "title": "Student Academic Integrity Procedure"
+   }
+  ],
+  "queries": [
+   "University of the West of Scotland generative AI students guidance (allowed_domains uws.ac.uk)",
+   "UWS Generative AI: Student Guidance library (allowed_domains)"
+  ],
+  "notes": "Linked from UWS Library home page under Support and guidance; page calls itself guidance not policy, to be read with Student Code of Conduct. Library guide on libguides.com domain, institution's own.",
+  "country": null,
+  "region": "Scotland",
+  "doc_id": "west-scotland-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/05gkzcc88",
+  "name": "University of Wales Trinity Saint David",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uwtsd.ac.uk/media/5728/download?attachment=",
+   "title": "AI in Assessment",
+   "kind": "pdf",
+   "audience_as_stated": "students (General Guidance for Students)",
+   "owner_as_stated": "UWTSD (no team named)",
+   "date_as_shown": "Updated May 2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.uwtsd.ac.uk/sites/default/files/2024-01/Academic_Misconduct_Policy_2022-23.pdf",
+    "title": "Academic Misconduct Policy (names AI)"
+   },
+   {
+    "audience": "students",
+    "url": "https://digitalskills.uwtsd.ac.uk/resource/artificial-intelligence-for-students/",
+    "title": "Artificial Intelligence for Students (DigiCentre; LinkedIn Learning portal, not guidance)"
+   }
+  ],
+  "queries": [
+   "UWTSD generative AI students guidance (allowed_domains uwtsd.ac.uk)",
+   "University of Wales Trinity Saint David students use of AI academic misconduct guidance (allowed_domains)"
+  ],
+  "notes": "Retrieved as PDF, text read locally. Fetch summariser could not read it; contents page confirmed by pdftotext.",
+  "country": null,
+  "region": "Wales",
+  "doc_id": "wales-trinity-saint-david-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/0458dap48",
+  "name": "Atlantic Technological University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.atu.ie/about/teaching-and-learning/academic-integrity",
+   "title": "Academic Integrity",
+   "kind": "webpage",
+   "audience_as_stated": "students, academic staff and professional support staff (section 'Using Artificial Intelligence Tools Responsibly' for students)",
+   "owner_as_stated": "Dr Maura Fitzsimons, Senior Lecturer in Academic Integrity, ATU",
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://atlantictu.libguides.com/c.php?g=708846&p=5300621",
+    "title": "ChatGPT - Artificial intelligence & GenAI Tools (ATU Library; fetch showed 'not available due to visibility settings')"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.atu.ie/about/teaching-and-learning/gen-ai-in-lta",
+    "title": "Gen AI in LTA (TLC; staff-focused)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.atu.ie/app/uploads/2024/10/academic-integrity-policy.pdf",
+    "title": "Academic Integrity Policy"
+   }
+  ],
+  "queries": [
+   "Atlantic Technological University generative AI students guidance (allowed_domains atu.ie)",
+   "ATU students guidelines use of generative AI assessment academic integrity (allowed_domains)",
+   "ATU library guide ChatGPT generative AI students guidelines (allowed_domains atlantictu.libguides.com)"
+  ],
+  "notes": "No dedicated student GenAI page found on atu.ie; academic integrity page has an AI section for students and links to the library guide, which was not viewable. Possible upgrade if library guide becomes visible.",
+  "country": null,
+  "region": "Ireland",
+  "doc_id": "atu-students-genai-202610"
+ }
+]
