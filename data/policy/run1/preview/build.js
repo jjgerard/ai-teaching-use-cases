@@ -29,6 +29,8 @@ const cov = sample.filter((s) => s.tier === 1).map((s) => {
   if (codedIds.has(s.doc_id)) st = "coded"; else if (nf.has(s.name)) st = "none"; else if (s.name === "Ravensbourne University London") st = "deferred"; else st = "fetch";
   return { name: s.name, region: s.region, st };
 });
-const html = fs.readFileSync(path.join(__dirname, "template.html"), "utf8").replace("__DATA__", JSON.stringify({ vars, docs: D, cov, version: codebook.version }).replace(/</g, "\\u003c"));
+require("child_process").execFileSync("node", [path.join(__dirname, "patterns.js")], { stdio: "ignore" });
+const patterns = JSON.parse(fs.readFileSync(path.join(__dirname, "patterns.json")));
+const html = fs.readFileSync(path.join(__dirname, "template.html"), "utf8").replace("__DATA__", JSON.stringify({ vars, docs: D, cov, patterns, version: codebook.version }).replace(/</g, "\\u003c"));
 fs.writeFileSync(path.join(__dirname, "index.html"), html);
 console.log("docs", D.length, "coverage", cov.reduce((a, c) => ((a[c.st] = (a[c.st] || 0) + 1), a), {}), "bytes", html.length);

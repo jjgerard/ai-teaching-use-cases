@@ -88,7 +88,21 @@ table { border-collapse: collapse; width: 100%; }
 #detail .gloss { color: var(--ink2); font-size: 13px; }
 #detail a { color: var(--accent-ink); }
 ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; gap: 6px; }
-@media (max-width: 520px) { h1 { font-size: 24px; } .brow { grid-template-columns: 1fr 34px; } .brow .bt { grid-column: 1 / -1; grid-row: 2; } .brow .bn { grid-row: 1; grid-column: 2; } .mx td.nm, .mx th.nm { min-width: 140px; max-width: 140px; } }
+
+/* patterns */
+.xt { font-size: 13px; }
+.xt th, .xt td { padding: 6px 10px; border-bottom: 1px solid var(--line); text-align: right; font-variant-numeric: tabular-nums; }
+.xt th { font-weight: 500; color: var(--ink2); vertical-align: bottom; }
+.xt th:first-child, .xt td:first-child { text-align: left; }
+.xt td.c { color: var(--ink); }
+.xsel { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-bottom: 12px; }
+.xsel label { color: var(--muted); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; margin-right: 4px; }
+.pairs td, .pairs th { font-size: 12.5px; }
+.pairs .flag { color: var(--accent-ink); font-weight: 600; }
+.small { color: var(--ink2); font-size: 13px; max-width: 80ch; margin-top: 10px; }
+.brow.share { grid-template-columns: minmax(110px, 40%) 1fr 70px; }
+.brow.share .bn { white-space: nowrap; }
+@media (max-width: 520px) { .brow.share { grid-template-columns: 1fr 70px; } h1 { font-size: 24px; } .brow { grid-template-columns: 1fr 34px; } .brow .bt { grid-column: 1 / -1; grid-row: 2; } .brow .bn { grid-row: 1; grid-column: 2; } .mx td.nm, .mx th.nm { min-width: 140px; max-width: 140px; } }
 @media (prefers-reduced-motion: no-preference) { .bf { transition: width .2s ease; } }
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -138,6 +152,31 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   </div>
 </section>
 
+
+<section id="common">
+  <h2>What is common</h2>
+  <p class="sub">Each bar is the share of documents <em>that give a value</em> for that variable, so the denominator is shown. Documents that are silent are left out, which makes these shares larger than a share of all documents. They describe this sample and are not prevalence estimates.</p>
+  <div class="cols">
+    <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">Choices documents make</h3><div class="mono" style="color:var(--muted)">values given by at least 8 documents</div><div class="bars" id="b-common"></div></div>
+    <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">Things documents state</h3><div class="mono" style="color:var(--muted)">yes/no variables, out of the documents shown</div><div class="bars" id="b-bool"></div></div>
+  </div>
+</section>
+
+<section id="together">
+  <h2>What goes together</h2>
+  <p class="sub">Pick two variables. The table counts documents that give a value for both, so shared silence cannot make a pattern.</p>
+  <div class="panel">
+    <div class="xsel"><span><label for="xv">Rows</label><select id="xv"></select></span><span><label for="yv">Columns</label><select id="yv"></select></span><span class="mono" id="xn" style="color:var(--ink2)"></span></div>
+    <div class="scroll"><table class="xt" id="xt"></table></div>
+    <p class="small" id="xnote"></p>
+  </div>
+  <div class="panel" style="margin-top:16px">
+    <h3 style="margin:0;font-size:14px;font-weight:600">Strongest pairings across all variables</h3>
+    <p class="small" id="pnote" style="margin-top:4px"></p>
+    <div class="scroll" style="margin-top:8px"><table class="xt pairs" id="pairs"></table></div>
+  </div>
+</section>
+
 <section id="matrix">
   <h2>Every institution, key variables</h2>
   <p class="sub">Click any cell to read the quote it rests on. Most cells are empty because most documents are silent on most questions.</p>
@@ -152,6 +191,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     <li>Coverage is by a curated frame of institutions and a seeded stratified sample, not by search. Twelve found documents could not be archived (bot walls, JavaScript-only pages, robots.txt) and are not coded.</li>
     <li>Two coders, both the same model, coded 5 documents independently. They agreed on the kind of answer for 91% of cells (98% leaving out eight staff and teaching variables) and on the exact value in 87% of the 84 cells where both gave one. The weakest variables were default when silent and how misconduct is framed. This is optimistic and small. Human double-coding is still needed before any claim about how common something is.</li>
     <li>Hub pages cannot be registered with an empty domain list, so some of their assessment variables show as silent where "does not apply" would be more accurate.</li>
+    <li>The pairing table runs hundreds of comparisons on a few dozen documents, so some small p-values appear by chance. Only pairs that survive a false-discovery correction are flagged, and even those need checking: two variables in a pair can be coded from the same sentence or by the same decision rule.</li>
     <li>Codebook version <span id="cv"></span>. Rows coded under a different version are rejected, so a revised vocabulary means re-coding.</li>
   </ul>
 </section>
@@ -268,13 +308,73 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     var a = el("a", null, "source"); a.href = d.url; a.target = "_blank"; a.rel = "noopener"; m.appendChild(a);
   }
 
+  // ---- patterns ----
+  var P = DATA.patterns;
+  var CHOICE = { enum: 1, ordinal: 1, multi: 1 };
+  function drawCommon() {
+    var docs = shown(), rows = [], bools = [];
+    DATA.vars.forEach(function (v) {
+      var addr = docs.filter(function (d) { var c = d.cells[v.id]; return c && c.s === "v"; });
+      if (v.type === "boolean") { if (addr.length) bools.push({ label: v.label, n: addr.length, of: docs.length }); return; }
+      if (!CHOICE[v.type] || addr.length < 8 || v.id === "date_source") return;
+      var cnt = {}; addr.forEach(function (d) { d.cells[v.id].v.forEach(function (x) { cnt[x] = (cnt[x] || 0) + 1; }); });
+      Object.keys(cnt).forEach(function (x) { rows.push({ label: v.label + ": " + hum(x), n: cnt[x], of: addr.length, gloss: v.vals[x] }); });
+    });
+    rows.sort(function (a, b) { return b.n / b.of - a.n / a.of || b.of - a.of; });
+    fillShare($("b-common"), rows.slice(0, 20));
+    bools.sort(function (a, b) { return b.n - a.n; });
+    fillShare($("b-bool"), bools.slice(0, 14));
+  }
+  function fillShare(host, rows) {
+    host.textContent = "";
+    rows.forEach(function (r) {
+      var b = el("div", "brow share"); b.style.cursor = "default"; if (r.gloss) b.title = r.gloss;
+      b.appendChild(el("span", "bl", r.label)); var tr = el("span", "bt"), f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * r.n / r.of) + "%"; tr.appendChild(f); b.appendChild(tr);
+      b.appendChild(el("span", "bn", r.n + " of " + r.of)); host.appendChild(b);
+    });
+    if (!rows.length) host.appendChild(el("p", null, "No variable has enough documents with the current filters."));
+  }
+  function crossSelect(id, val) {
+    var s = $(id); s.textContent = ""; var g = {};
+    DATA.vars.filter(function (v) { return CHOICE[v.type]; }).forEach(function (v) { (g[v.group] = g[v.group] || []).push(v); });
+    Object.keys(g).forEach(function (k) { var og = document.createElement("optgroup"); og.label = GROUPS[k] || k; g[k].forEach(function (v) { var o = document.createElement("option"); o.value = v.id; o.textContent = v.label; og.appendChild(o); }); s.appendChild(og); });
+    s.value = val; s.addEventListener("change", drawCross);
+  }
+  function drawCross() {
+    var xv = $("xv").value, yv = $("yv").value, docs = shown().filter(function (d) { var a = d.cells[xv], b = d.cells[yv]; return a && a.s === "v" && b && b.s === "v"; });
+    var xs = {}, ys = {}, cell = {};
+    docs.forEach(function (d) { d.cells[xv].v.forEach(function (x) { xs[x] = (xs[x] || 0) + 1; d.cells[yv].v.forEach(function (y) { ys[y] = (ys[y] || 0) + 1; var k = x + "|" + y; cell[k] = (cell[k] || 0) + 1; }); }); });
+    var xk = Object.keys(xs).sort(function (a, b) { return xs[b] - xs[a]; }), yk = Object.keys(ys).sort(function (a, b) { return ys[b] - ys[a]; });
+    var t = $("xt"); t.textContent = "";
+    $("xn").textContent = docs.length + " documents give a value for both";
+    if (xv === yv) { $("xnote").textContent = "Choose two different variables."; return; }
+    var hr = el("tr"); hr.appendChild(el("th", null, V[xv].label + " (rows) / " + V[yv].label + " (columns)")); yk.forEach(function (y) { hr.appendChild(el("th", null, hum(y))); }); t.appendChild(hr);
+    var mx = 1; Object.keys(cell).forEach(function (k) { if (cell[k] > mx) mx = cell[k]; });
+    xk.forEach(function (x) {
+      var tr = el("tr"); tr.appendChild(el("td", null, hum(x) + " (" + xs[x] + ")"));
+      yk.forEach(function (y) { var n = cell[x + "|" + y] || 0, td = el("td", "c", n ? String(n) : "·"); if (n) td.style.background = "color-mix(in srgb, var(--accent) " + Math.round(12 + 50 * n / mx) + "%, transparent)"; else td.style.color = "var(--muted)"; tr.appendChild(td); });
+      t.appendChild(tr);
+    });
+    $("xnote").textContent = docs.length < 15 ? "Fewer than 15 documents: read this as a list of cases, not a pattern." : "A document with several values (a multi-choice variable) counts in each row and column it belongs to. Counts show co-occurrence only, not cause.";
+  }
+  function drawPairs() {
+    var set = kind === "rules" ? P.rules : P.all, t = $("pairs"); t.textContent = "";
+    $("pnote").textContent = "Among " + set.docs + " documents (" + (kind === "rules" ? "rule-setting only" : "all coded") + "), " + set.tests_run + " pairings were testable. By chance alone about " + Math.round(set.tests_run * 0.05) + " would reach p < 0.05. Ranked by Fisher exact p; q is the false-discovery-corrected value. Regions are not split. Both variables need a value in at least 15 documents.";
+    var hr = el("tr"); ["Pairing", "Docs with both", "Both / A only / B only / neither", "p", "q"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
+    set.top.slice(0, 8).forEach(function (r) {
+      var tr = el("tr"); var td = el("td", null, hum(r.A) + "  +  " + hum(r.B)); td.style.whiteSpace = "normal"; tr.appendChild(td);
+      tr.appendChild(el("td", null, String(r.n))); tr.appendChild(el("td", null, [r.a, r.b, r.c, r.d].join(" / ")));
+      tr.appendChild(el("td", null, r.p < 0.001 ? "<0.001" : r.p.toFixed(3))); tr.appendChild(el("td", r.q < 0.1 ? "flag" : null, r.q.toFixed(2) + (r.q < 0.1 ? " ●" : ""))); t.appendChild(tr);
+    });
+  }
+
   function refresh() {
     drawRegs(); $("k-all").setAttribute("aria-pressed", kind === "all"); $("k-rules").setAttribute("aria-pressed", kind === "rules");
     $("nowshown").textContent = shown().length + " of " + DATA.docs.length + " documents shown";
-    drawExplorer(); drawMatrix();
+    drawExplorer(); drawMatrix(); drawCommon(); drawCross(); drawPairs();
   }
   drawCoverage();
   drawBars($("b-force"), "instrument_force", DATA.docs, $("who-kinds")); drawBars($("b-issuer"), "issued_by_type", DATA.docs, $("who-kinds"));
-  drawSelect(); refresh();
+  drawSelect(); crossSelect("xv", "instrument_force"); crossSelect("yv", "issued_by_type"); refresh();
 })();
 </script>
