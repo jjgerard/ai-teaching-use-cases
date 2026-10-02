@@ -92,6 +92,25 @@ test("domains are required and closed", () => {
   hasErr(run([], [doc({ domains: undefined })]), /domains is required/);
   hasErr(run([], [doc({ domains: ["cooking"] })]), /domains "cooking"/);
 });
+test("multi values need a quote per value (evidence_quotes)", () => {
+  const snap = { d1: "Bring a tool name. Also say how you used it." };
+  const ok = run([code("toy_tools", ["a", "b"], { evidence_quote: undefined, evidence_quotes: { a: "tool name", b: "how you used it" } })], [doc()], snap);
+  assert.deepEqual(ok.errors, []);
+  hasErr(run([code("toy_tools", ["a", "b"], { evidence_quote: undefined, evidence_quotes: { a: "tool name" } })], [doc()], snap), /value b has no entry/);
+  hasErr(run([code("toy_tools", ["a"], { evidence_quote: undefined, evidence_quotes: { a: "tool name", b: "x" } })], [doc()], snap), /not a coded value/);
+  hasErr(run([code("toy_tools", ["a", "b"], { evidence_quote: undefined, evidence_quotes: { a: "tool name", b: "invented" } })], [doc()], snap), /does not occur/);
+  const w = run([code("toy_tools", ["a", "b"])]);
+  assert.deepEqual(w.errors, []);
+  assert.ok(w.warnings.some((m) => /single quote/.test(m)));
+});
+test("audience_scope: the same variable can be coded once per audience", () => {
+  const d = [doc({ audience: ["staff_research", "pgr"] })];
+  const rows = [code("toy_disclosure", "required", { audience_scope: "staff_research" }), code("toy_disclosure", "optional", { audience_scope: "pgr" })];
+  assert.deepEqual(run(rows, d).errors, []);
+  hasErr(run([rows[0], rows[0]], d), /coded twice/);
+  hasErr(run([code("toy_disclosure", "required", { audience_scope: "ug" })], d), /not one of the document's audiences/);
+  hasErr(run([code("toy_disclosure", "required", { audience_scope: "nobody" })], d), /not an audience id/);
+});
 test("stale codebook version is flagged", () => hasErr(run([code("toy_disclosure", "required", { codebook_version: "t0" })]), /coded under codebook/));
 test("document fields are closed and dates ISO", () => {
   const r = run([], [doc({ audience: "everyone", published: "1/2/25", retrieved: null })]);

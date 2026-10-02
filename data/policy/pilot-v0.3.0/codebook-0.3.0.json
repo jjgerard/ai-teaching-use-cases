@@ -1,6 +1,6 @@
 {
- "version": "0.3.1",
- "status": "v0.3.1: revised after pilot round 2. Rounds 1 and 2 used the same 8 documents, so the improvement is partly tuning; round 3 on unseen documents is the holdout.",
+ "version": "0.3.0",
+ "status": "v0.3.0: revised after pilot round 1 (data/policy/pilot-v0.2.0/REPORT.md). Provisional until round 2 has been coded and its misfits read.",
  "states": {
   "none_exists": "The document says outright that there is no such thing here. A positive finding; needs a quote.",
   "not_stated": "The document was read and does not answer the question. Not evidence that nothing exists.",
@@ -170,16 +170,6 @@
       "warwick-law-all-aipolicy-202610",
       "kcl-institution-principles-202610"
      ]
-    },
-    {
-     "id": "layered",
-     "gloss": "Local rules add detail or further restrictions on top of this document's rules, which stay in force; no conflict rule is given.",
-     "precedent": [
-      "edinburgh-student-genai-guidelines-202610",
-      "edinburgh-pgr-genai-guidelines-202610",
-      "maynooth-ug-ptm-genai-guidelines-202610",
-      "ulster-library-genai-guide-202610"
-     ]
     }
    ]
   },
@@ -188,7 +178,7 @@
    "group": "document",
    "type": "enum",
    "label": "Type of issuing body",
-   "question": "Which kind of body issued or owns the document, as stated on it? Code only from the document's own text or masthead. A URL path or navigation breadcrumb is not enough: use not_stated.",
+   "question": "Which kind of body issued or owns the document, as stated on it?",
    "grain": "document",
    "values": [
     {
@@ -296,7 +286,7 @@
    "group": "document",
    "type": "multi",
    "label": "External frameworks the document adopts or aligns to",
-   "question": "Which outside frameworks does it name? Code only frameworks the document says it adopts, aligns to or adapts. A 'see also' or reading-list link is not adoption.",
+   "question": "Which outside frameworks does it name?",
    "grain": "list",
    "values": [
     {
@@ -614,23 +604,6 @@
       "exeter-students-assessment-202610",
       "aberystwyth-institution-genai-guidance-202610"
      ]
-    },
-    {
-     "id": "use_by_use_rule",
-     "gloss": "The document gives a list or table of permitted and prohibited uses that applies when nothing else is said.",
-     "precedent": [
-      "edinburgh-student-genai-guidelines-202610",
-      "edinburgh-pgr-genai-guidelines-202610",
-      "warwick-law-all-aipolicy-202610"
-     ]
-    },
-    {
-     "id": "permit_with_acknowledgement",
-     "gloss": "Use is allowed if acknowledged, with no other default restriction.",
-     "precedent": [
-      "edinburgh-student-genai-guidelines-202610",
-      "glasgow-student-genai-guidance-202610"
-     ]
     }
    ],
    "applies_to_domains": [
@@ -923,7 +896,7 @@
    "group": "uses",
    "type": "enum",
    "label": "Use: idea generation and brainstorming",
-   "question": "Brainstorming, outlining, getting started. Decision rule: code permitted when the use appears as allowed and the only duties are the universal ones (acknowledge, verify, follow the course's own rules). Code conditional only when the document attaches a specific further condition to this use (permission, approval, a limit, an assessment type) or when a blanket 'not allowed unless authorised' rule covers it.",
+   "question": "Brainstorming, outlining, getting started.",
    "grain": "document",
    "values": [
     {
@@ -960,7 +933,7 @@
    "group": "uses",
    "type": "enum",
    "label": "Use: summarising or explaining sources",
-   "question": "Summarising or explaining published material. Decision rule: code permitted when the use appears as allowed and the only duties are the universal ones (acknowledge, verify, follow the course's own rules). Code conditional only when the document attaches a specific further condition to this use (permission, approval, a limit, an assessment type) or when a blanket 'not allowed unless authorised' rule covers it.",
+   "question": "Summarising or explaining published material.",
    "grain": "document",
    "values": [
     {
@@ -998,7 +971,7 @@
    "group": "uses",
    "type": "enum",
    "label": "Use: grammar and language editing",
-   "question": "Grammar, spelling or surface expression. Decision rule: code permitted when the use appears as allowed and the only duties are the universal ones (acknowledge, verify, follow the course's own rules). Code conditional only when the document attaches a specific further condition to this use (permission, approval, a limit, an assessment type) or when a blanket 'not allowed unless authorised' rule covers it.",
+   "question": "Grammar, spelling or surface expression.",
    "grain": "document",
    "values": [
     {
@@ -1037,7 +1010,7 @@
    "group": "uses",
    "type": "enum",
    "label": "Use: translation",
-   "question": "Translating work or text into the language of assessment. Decision rule: code permitted when the use appears as allowed and the only duties are the universal ones (acknowledge, verify, follow the course's own rules). Code conditional only when the document attaches a specific further condition to this use (permission, approval, a limit, an assessment type) or when a blanket 'not allowed unless authorised' rule covers it.",
+   "question": "Translating work or text into the language of assessment.",
    "grain": "document",
    "values": [
     {
@@ -1075,7 +1048,7 @@
    "group": "uses",
    "type": "enum",
    "label": "Use: rewriting the student's own text",
-   "question": "Rewriting or restructuring sections. Decision rule: code permitted when the use appears as allowed and the only duties are the universal ones (acknowledge, verify, follow the course's own rules). Code conditional only when the document attaches a specific further condition to this use (permission, approval, a limit, an assessment type) or when a blanket 'not allowed unless authorised' rule covers it.",
+   "question": "Rewriting or restructuring sections.",
    "grain": "document",
    "values": [
     {
@@ -1111,7 +1084,7 @@
    "group": "uses",
    "type": "enum",
    "label": "Use: generating assessed text",
-   "question": "Producing text submitted as the student's work. Decision rule: code permitted when the use appears as allowed and the only duties are the universal ones (acknowledge, verify, follow the course's own rules). Code conditional only when the document attaches a specific further condition to this use (permission, approval, a limit, an assessment type) or when a blanket 'not allowed unless authorised' rule covers it.",
+   "question": "Producing text submitted as the student's work.",
    "grain": "document",
    "values": [
     {
@@ -1151,7 +1124,7 @@
    "group": "uses",
    "type": "enum",
    "label": "Use: study and revision aids",
-   "question": "Flashcards, quizzes, notes outside assessment. Decision rule: code permitted when the use appears as allowed and the only duties are the universal ones (acknowledge, verify, follow the course's own rules). Code conditional only when the document attaches a specific further condition to this use (permission, approval, a limit, an assessment type) or when a blanket 'not allowed unless authorised' rule covers it.",
+   "question": "Flashcards, quizzes, notes outside assessment.",
    "grain": "document",
    "values": [
     {
@@ -1189,7 +1162,7 @@
    "group": "uses",
    "type": "enum",
    "label": "Use: finding literature",
-   "question": "Finding or suggesting sources. Decision rule: code permitted when the use appears as allowed and the only duties are the universal ones (acknowledge, verify, follow the course's own rules). Code conditional only when the document attaches a specific further condition to this use (permission, approval, a limit, an assessment type) or when a blanket 'not allowed unless authorised' rule covers it.",
+   "question": "Finding or suggesting sources.",
    "grain": "document",
    "values": [
     {
@@ -1226,7 +1199,7 @@
    "group": "uses",
    "type": "enum",
    "label": "Use: generating code",
-   "question": "Producing code for analysis or tasks. Decision rule: code permitted when the use appears as allowed and the only duties are the universal ones (acknowledge, verify, follow the course's own rules). Code conditional only when the document attaches a specific further condition to this use (permission, approval, a limit, an assessment type) or when a blanket 'not allowed unless authorised' rule covers it.",
+   "question": "Producing code for analysis or tasks.",
    "grain": "document",
    "values": [
     {
@@ -1271,10 +1244,10 @@
   {
    "id": "ai_recording_transcription",
    "group": "uses",
-   "type": "multi",
+   "type": "enum",
    "label": "Rule on AI recording or live transcription",
    "question": "Recording, transcription or note-taking by AI tools.",
-   "grain": "list",
+   "grain": "document",
    "values": [
     {
      "id": "prohibited_without_consent",
@@ -1351,15 +1324,6 @@
       "edinburgh-student-genai-guidelines-202610",
       "manchester-bmh-students-guidance-202610",
       "tcd-institution-genai-statement-202610"
-     ]
-    },
-    {
-     "id": "required_for_published_or_significant_output",
-     "gloss": "Required when output is published, relied on, or makes a significant unrevised contribution (typical of staff and research documents).",
-     "precedent": [
-      "edinburgh-staff-guidance-202610",
-      "tcd-staff-research-202610",
-      "cambridge-staff-admin-202610"
      ]
     }
    ],
@@ -1463,7 +1427,7 @@
    "group": "disclosure",
    "type": "multi",
    "label": "What a disclosure must contain",
-   "question": "Which elements does the document require or recommend in the disclosure? Code contents the document requires or recommends in prose. Items that appear only in a worked example count only if the document says the acknowledgement 'should include' them.",
+   "question": "Which elements does the document require or recommend in the disclosure?",
    "grain": "list",
    "values": [
     {
@@ -1876,14 +1840,6 @@
      "precedent": [
       "ukri-applicants-assessors-policy-202610"
      ]
-    },
-    {
-     "id": "breach_of_other_policy",
-     "gloss": "Framed as a breach of another named policy (acceptable use, computing policy).",
-     "precedent": [
-      "edinburgh-student-genai-guidelines-202610",
-      "edinburgh-staff-guidance-202610"
-     ]
     }
    ],
    "applies_to_domains": [
@@ -2198,21 +2154,6 @@
      "precedent": [
       "cambridge-staff-admin-202610"
      ]
-    },
-    {
-     "id": "warns_no_protection_outside",
-     "gloss": "Warns that the institution's protections do not apply to outside tools, without prohibiting them.",
-     "precedent": [
-      "maynooth-ug-ptm-genai-guidelines-202610"
-     ]
-    },
-    {
-     "id": "must_meet_security_policy",
-     "gloss": "Outside tools must meet the organisation's own security or safety policies.",
-     "precedent": [
-      "ni-exec-strategy-draft-202608",
-      "cambridge-staff-admin-202610"
-     ]
     }
    ]
   },
@@ -2221,7 +2162,7 @@
    "group": "tools_data",
    "type": "multi",
    "label": "What must not be entered into AI tools",
-   "question": "Which data restrictions are stated? Code every restriction the document states, and give a quote for each (evidence_quotes).",
+   "question": "Which data restrictions are stated?",
    "grain": "list",
    "values": [
     {
@@ -2290,14 +2231,6 @@
      "gloss": "Information held under a non-disclosure agreement or confidential to another organisation.",
      "precedent": [
       "edinburgh-pgr-genai-guidelines-202610"
-     ]
-    },
-    {
-     "id": "confidential_unspecified",
-     "gloss": "'Confidential' information without saying whose.",
-     "precedent": [
-      "ulster-library-genai-guide-202610",
-      "manchester-bmh-students-guidance-202610"
      ]
     }
    ]
@@ -2498,15 +2431,6 @@
       "hea-hei-leaders-policyframework-202610",
       "warwick-law-all-aipolicy-202610"
      ]
-    },
-    {
-     "id": "population_digital_inclusion",
-     "gloss": "Addresses digital exclusion in the wider population or among learners, beyond tool cost.",
-     "precedent": [
-      "ni-exec-strategy-draft-202608",
-      "unam-teaching-licenciatura-genai-assessment-guide-202610",
-      "wits-clm-staff-genai-guidelines-202610"
-     ]
     }
    ]
   },
@@ -2546,15 +2470,6 @@
      "gloss": "Warns against treating AI as a substitute for inclusive design.",
      "precedent": [
       "hea-supportunits-responsibilities-202610"
-     ]
-    },
-    {
-     "id": "ai_presented_as_accessibility_benefit",
-     "gloss": "Presents AI as supporting accessibility or neurodivergent users, without making a provision.",
-     "precedent": [
-      "ukri-applicants-assessors-policy-202610",
-      "manchester-bmh-students-guidance-202610",
-      "kcl-students-guidance-202610"
      ]
     }
    ]
@@ -3129,8 +3044,8 @@
    "id": "topics_out_of_scope",
    "group": "stance",
    "type": "multi",
-   "label": "Topics the document excludes or hands to another document",
-   "question": "Absent-by-design: domains the document says it does not cover, or defers to another document. Partial scope is allowed: quote what is excluded.",
+   "label": "Topics the document says it does not cover",
+   "question": "Absent-by-design topics.",
    "grain": "list",
    "values": [
     {
@@ -3342,10 +3257,10 @@
   {
    "id": "staff_disclose_own_ai_use",
    "group": "tools_data",
-   "type": "multi",
+   "type": "enum",
    "label": "Staff disclosure of their own AI use",
    "question": "Do staff have to say when they used AI?",
-   "grain": "list",
+   "grain": "document",
    "values": [
     {
      "id": "required_for_significant_use",
@@ -3438,9 +3353,5 @@
   "public_services": "Commitments about public-sector or citizen-facing use.",
   "school_education": "Provision for schools (pupils and teachers)."
  },
- "domainsRule": "A document covers a domain if it contains at least one rule, commitment or recommendation about it, whoever it is addressed to. A student guide that says staff will not use AI to grade covers teaching_practice. Variables about what a person must do with AI in something they submit (use_*, disclosure_*) apply to every domain where someone submits work; only the assessment machinery (silent default, tiers, labelling) is tied to assessed_work.",
- "rowRules": {
-  "evidence_quotes": "For multi variables, supply evidence_quotes: {value_id: quote} with a verbatim quote for EVERY value. One quote cannot evidence several values. evidence_quote remains for single-valued variables and misfits.",
-  "audience_scope": "Optional. When one document gives different rules to two audiences (UKRI: applicants vs assessors; a staff policy with a student box), code the variable once per audience with audience_scope set to the audience id. Default is the whole document. A variable's rows must be unique per (document, variable, audience_scope)."
- }
+ "domainsRule": "A document covers a domain if it contains at least one rule, commitment or recommendation about it, whoever it is addressed to. A student guide that says staff will not use AI to grade covers teaching_practice. Variables about what a person must do with AI in something they submit (use_*, disclosure_*) apply to every domain where someone submits work; only the assessment machinery (silent default, tiers, labelling) is tied to assessed_work."
 }

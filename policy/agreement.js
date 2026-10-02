@@ -14,7 +14,7 @@ const fs = require("node:fs");
 const STATES = ["none_exists", "not_stated", "not_applicable"];
 const kindOf = (v) => (v === null ? "misfit" : typeof v === "string" && STATES.includes(v) ? v : "value");
 const norm = (v) => (Array.isArray(v) ? [...v].sort() : [v]);
-const key = (r) => `${r.doc_id}\u0000${r.variable_id}`;
+const key = (r) => `${r.doc_id}\u0000${r.variable_id}\u0000${r.audience_scope || ""}`;
 
 function compare(a, b) {
   const bm = new Map(b.map((r) => [key(r), r]));

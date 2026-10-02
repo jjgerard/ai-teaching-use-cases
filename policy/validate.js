@@ -79,24 +79,32 @@ function validate({ institutions, documents, codes, codebook, snapshots = {} }) 
   // --- codes -------------------------------------------------------------
   const byDoc = new Map(); // doc_id -> variable_id -> row
   for (const c of codes) {
-    const id = `${c.doc_id}/${c.variable_id}`;
+    const scope = c.audience_scope || "document";
+    const id = `${c.doc_id}/${c.variable_id}${scope === "document" ? "" : "@" + scope}`;
     const doc = docs.get(c.doc_id);
     const v = vars.get(c.variable_id);
     if (!doc) { err(`${id}: unknown doc_id`); continue; }
     if (!v) { err(`${id}: unknown variable_id`); continue; }
+    if (c.audience_scope && !codebook.audiences.includes(c.audience_scope)) err(`${id}: audience_scope ${JSON.stringify(c.audience_scope)} is not an audience id`);
+    if (c.audience_scope && !audiencesOf(doc).some((a) => a === c.audience_scope || (COVERS[a] || [a]).includes(c.audience_scope) || a === "all")) err(`${id}: audience_scope is not one of the document's audiences`);
     if (!byDoc.has(c.doc_id)) byDoc.set(c.doc_id, new Map());
-    if (byDoc.get(c.doc_id).has(c.variable_id)) { err(`${id}: coded twice`); continue; }
-    byDoc.get(c.doc_id).set(c.variable_id, c);
-
+    const seen = byDoc.get(c.doc_id);
+    const mapKey = scope === "document" ? c.variable_id : `${c.variable_id}@${scope}`;
+    if (seen.has(mapKey)) { err(`${id}: coded twice`); continue; }
+    if (scope !== "document" && !seen.has(c.variable_id)) { /* scoped rows may stand without a whole-document row */ }
+    seen.set(mapKey, c);
+    // Gates and gaps read whole-document rows only; a scoped row (audience_scope) is checked for validity.
+    const scoped = scope !== "document";
     for (const f of ["coder", "coded_at"]) if (!c[f]) err(`${id}: ${f} is required`);
     if (c.codebook_version !== codebook.version) err(`${id}: coded under codebook ${c.codebook_version}, current is ${codebook.version}`);
 
     const isState = typeof c.value === "string" && states.includes(c.value);
-    const audOk = !v.applies_to || v.applies_to.some((a) => covers(doc, a));
-    const levelOk = !v.applies_to_levels || v.applies_to_levels.includes(doc.level);
-    const domOk = !v.applies_to_domains || (Array.isArray(doc.domains) ? doc.domains : []).some((x) => v.applies_to_domains.includes(x));
-    const applies = audOk && levelOk && domOk;
-    if (!applies && c.value !== "not_applicable") err(`${id}: variable does not apply to ${!audOk ? "audience " + audiencesOf(doc).join("+") : !levelOk ? "level " + doc.level : "domains " + (doc.domains || []).join("+")}; must be not_applicable`);
+    if (!scoped) {
+      const audOk = !v.applies_to || v.applies_to.some((a) => covers(doc, a));
+      const levelOk = !v.applies_to_levels || v.applies_to_levels.includes(doc.level);
+      const domOk = !v.applies_to_domains || (Array.isArray(doc.domains) ? doc.domains : []).some((x) => v.applies_to_domains.includes(x));
+      if (!(audOk && levelOk && domOk) && c.value !== "not_applicable") err(`${id}: variable does not apply to ${!audOk ? "audience " + audiencesOf(doc).join("+") : !levelOk ? "level " + doc.level : "domains " + (doc.domains || []).join("+")}; must be not_applicable`);
+    }
 
     // misfit: no honest value. Left null, with a note, never forced.
     if (c.value === null) {
@@ -105,19 +113,31 @@ function validate({ institutions, documents, codes, codebook, snapshots = {} }) 
       continue;
     }
 
+    const quotes = []; // every quote to verify against the snapshot
     if (isState) {
       if (v.states && !v.states.includes(c.value)) err(`${id}: state ${c.value} is not allowed for this variable`);
       if (c.value === "none_exists" && !c.evidence_quote) err(`${id}: none_exists needs the quote that says so`);
     } else {
-      // evidence is mandatory for any substantive value
-      if (!c.evidence_quote || !String(c.evidence_quote).trim()) err(`${id}: a coded value needs an evidence_quote`);
       checkValue(v, c, id, err);
+      if (v.type === "multi" && Array.isArray(c.value)) {
+        // one quote cannot evidence several values: each value needs its own
+        if (c.evidence_quotes && typeof c.evidence_quotes === "object") {
+          for (const x of c.value) {
+            if (!c.evidence_quotes[x] || !String(c.evidence_quotes[x]).trim()) err(`${id}: value ${x} has no entry in evidence_quotes`);
+            else quotes.push(c.evidence_quotes[x]);
+          }
+          for (const k of Object.keys(c.evidence_quotes)) if (!c.value.includes(k)) err(`${id}: evidence_quotes has ${k}, which is not a coded value`);
+        } else if (c.evidence_quote && String(c.evidence_quote).trim()) {
+          warn(`${id}: multi value evidenced by a single quote; give evidence_quotes per value`);
+        } else err(`${id}: a coded value needs evidence_quotes`);
+      } else if (!c.evidence_quote || !String(c.evidence_quote).trim()) err(`${id}: a coded value needs an evidence_quote`);
     }
+    if (c.evidence_quote) quotes.push(c.evidence_quote);
 
-    if (c.evidence_quote) {
+    for (const q of quotes) {
       const snap = snapshots[c.doc_id];
       if (snap == null) warn(`${id}: no archived snapshot for ${c.doc_id}, quote not verified`);
-      else if (!squash(snap).includes(squash(c.evidence_quote))) err(`${id}: evidence_quote does not occur in the archived snapshot`);
+      else if (!squash(snap).includes(squash(q))) err(`${id}: an evidence quote does not occur in the archived snapshot: ${JSON.stringify(String(q).slice(0, 60))}`);
     }
   }
 
