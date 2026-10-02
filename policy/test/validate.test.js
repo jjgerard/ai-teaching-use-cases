@@ -53,6 +53,10 @@ test("quote must occur in the archived snapshot", () => {
   hasErr(run([code("toy_disclosure", "required", { evidence_quote: "not in text" })], [doc()], { d1: "Students must declare use." }), /does not occur/);
   assert.deepEqual(run([code("toy_disclosure", "required", { evidence_quote: "must  declare" })], [doc()], { d1: "Students MUST declare use." }).errors, []);
 });
+test("quote matching ignores PDF hyphenation and curly quotes", () => {
+  const snap = { d1: "regionwide guidelines and the Executive\u2019s plan" };
+  assert.deepEqual(run([code("toy_disclosure", "required", { evidence_quote: "region-wide guidelines and the Executive's plan" })], [doc()], snap).errors, []);
+});
 test("stale codebook version is flagged", () => hasErr(run([code("toy_disclosure", "required", { codebook_version: "t0" })]), /coded under codebook/));
 test("document fields are closed and dates ISO", () => {
   const r = run([], [doc({ audience: "everyone", published: "1/2/25", retrieved: null })]);

@@ -21,7 +21,16 @@ const fs = require("node:fs");
 const path = require("node:path");
 
 const ISO = /^\d{4}-\d{2}(-\d{2})?$/;
-const squash = (s) => String(s).replace(/\s+/g, " ").trim().toLowerCase();
+// Compare quotes to archived text ignoring layout artefacts: whitespace, hyphens
+// (PDF line-break hyphens are lost or kept inconsistently) and curly quotes.
+const squash = (s) =>
+  String(s)
+    .replace(/[\u2018\u2019]/g, "'")
+    .replace(/[\u201c\u201d]/g, '"')
+    .replace(/[\u00ad\u2010-\u2015-]/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
 
 function validate({ institutions, documents, codes, codebook, snapshots = {} }) {
   const errors = [];
