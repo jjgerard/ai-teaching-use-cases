@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "status": "skeleton: structure only, no policy variables yet. Variables are to be derived by reading real documents (see policy/README.md), not proposed in advance.",
+  "states": {
+    "none_exists": "The document says outright that there is no such thing here. A positive finding; needs a quote.",
+    "not_stated": "The document was read and does not answer the question. Not evidence that nothing exists.",
+    "not_applicable": "The question does not apply to this document's audience or level, or a gate variable rules it out."
+  },
+  "misfit": "A document that DOES answer but has no honest value on the list is left value:null with a misfit_note. It is never forced to the nearest value. Misfits are the evidence for revising a vocabulary.",
+  "audiences": ["ug", "pgt", "pgr", "staff_teaching", "staff_research", "staff_prof", "all"],
+  "documentFields": {
+    "level": ["government", "regulator", "sector_body", "institution", "faculty", "course"],
+    "audience": ["ug", "pgt", "pgr", "staff_teaching", "staff_research", "staff_prof", "all"],
+    "status": ["draft", "live", "superseded", "withdrawn"],
+    "format": ["webpage", "pdf", "policy_doc", "faq", "toolkit"]
+  },
+  "variables": []
+}
