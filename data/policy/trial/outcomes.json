@@ -1,0 +1,676 @@
+[
+ {
+  "ror_id": "https://ror.org/02nkf1q06",
+  "name": "University of Essex",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.essex.ac.uk/student/academic-offences/artificial-intelligence",
+   "title": "Artificial intelligence guidance",
+   "kind": "webpage",
+   "audience_as_stated": "students (Student Directory, Academic offences section)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "pgr",
+    "url": "https://www.essex.ac.uk/student/postgraduate-research/use-of-ai",
+    "title": "Guidance on the use of Generative AI for PGR Students"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.essex.ac.uk/staff/it-services/use-of-ai-tools",
+    "title": "Guidance on using AI tools for business processes"
+   },
+   {
+    "audience": "students",
+    "url": "https://library.essex.ac.uk/skillsatlibrary/AI-literacy",
+    "title": "AI literacy (library)"
+   }
+  ],
+  "queries": [
+   "University of Essex generative AI students guidance",
+   "site:essex.ac.uk generative AI students assessment",
+   "University of Essex traffic light generative AI assignments (allowed_domains essex.ac.uk)"
+  ],
+  "notes": "Page sits under academic offences; no visible date. A Students' Union news item mentions a 'Traffic Light System' but the traffic-light content was not confirmed on the retrieved page.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "essex-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/0489ggv38",
+  "name": "Canterbury Christ Church University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.canterbury.ac.uk/our-students/ug-current/libraries-and-study-support/study-support/welcome-to-your-generative-ai-guidance",
+   "title": "Generative AI guidance (Welcome to your generative AI guidance)",
+   "kind": "webpage",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://www.canterbury.ac.uk/learning-and-teaching-enhancement/resources-for-academics/ai-staff-guidance.aspx",
+    "title": "Generative Artificial Intelligence (AI): Guidance for Staff"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.canterbury.ac.uk/learning-and-teaching-enhancement/resources-for-academics/Artificial-Intelligence-Assessment-Scale-AIAS.aspx",
+    "title": "Artificial Intelligence Assessment Scale (AIAS)"
+   },
+   {
+    "audience": "students",
+    "url": "https://students.canterbury.ac.uk/study/study-support-and-platforms/generative-ai-guidance",
+    "title": "Generative AI guidance (students portal; same content, HTTP 200)"
+   }
+  ],
+  "queries": [
+   "Canterbury Christ Church University generative AI students guidance",
+   "site:canterbury.ac.uk generative AI students",
+   "Canterbury Christ Church University academic integrity artificial intelligence students policy",
+   "canterbury.ac.uk \"GenAI\" student guidance Learning and Teaching",
+   "CCCU student guidance generative AI Learning and Teaching Enhancement (allowed_domains canterbury.ac.uk)"
+  ],
+  "notes": "Retrieved page carries a banner saying the webpage is having problems and may not show all content, pointing to the students.canterbury.ac.uk copy (which returned identical text). No PGR-specific page found. Student Academic Integrity Policy 2024 URL from search returned 404.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "canterbury-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/0539kc598",
+  "name": "Arts University Bournemouth",
+  "outcome": "found",
+  "doc": {
+   "url": "https://webdocs.aub.ac.uk/Artificial%20intelligence%20policy%20statement.pdf",
+   "title": "Policy statement on the use of Generative Artificial intelligence (Gen AI) in education and assessment",
+   "kind": "pdf",
+   "audience_as_stated": "students and teachers (education and assessment)",
+   "owner_as_stated": null,
+   "date_as_shown": "Oct 24",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://webdocs.aub.ac.uk/Academic Misconduct Policy.pdf",
+    "title": "Academic Misconduct Policy (names AI)"
+   }
+  ],
+  "queries": [
+   "Arts University Bournemouth generative AI students guidance",
+   "site:aub.ac.uk generative AI",
+   "Arts University Bournemouth academic misconduct policy artificial intelligence students"
+  ],
+  "notes": "Institution-wide policy statement rather than student how-to guidance; counted as criterion 2 (not fallback). Only 3 queries run, one of them site:, but a clear institutional hit was found. No PGR or staff page seen.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "aub-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04h699437",
+  "name": "University of Leicester",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://le.ac.uk/-/media/uol/docs/policies/quality/ai-policy.pdf",
+   "title": "AI Policy",
+   "kind": "policy_doc",
+   "audience_as_stated": "staff and students (university-level framework for learning, teaching and assessment, per search snippet)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://le.ac.uk/ai/teaching-and-education",
+    "title": "Artificial intelligence at the University of Leicester (teaching and education)"
+   },
+   {
+    "audience": "students",
+    "url": "https://le.ac.uk/ai/ai-and-student-success",
+    "title": "Artificial intelligence at the University of Leicester (AI and student success)"
+   }
+  ],
+  "queries": [
+   "University of Leicester generative AI students guidance",
+   "site:le.ac.uk generative AI students",
+   "University of Leicester AI policy teaching learning assessment red amber green students"
+  ],
+  "notes": "Both the policy PDF and the /ai/ page returned HTTP 403 (Cloudflare block page); not bypassed. Search snippets describe a red/amber/green assessment model. /ai/ student-success page not fetched.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "le-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00ae33288",
+  "name": "London Metropolitan University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://student.londonmet.ac.uk/your-studies/student-administration/guidance-on-the-use-of-artificial-intelligence/",
+   "title": "Guidance on the use of Artificial Intelligence",
+   "kind": "webpage",
+   "audience_as_stated": "students (Student Zone)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.londonmet.ac.uk/ai/FAQs",
+    "title": "Library AI guide (FAQs)"
+   },
+   {
+    "audience": "students",
+    "url": "https://student.londonmet.ac.uk/your-studies/student-administration/rules-and-regulations/academic-misconduct/",
+    "title": "Academic Misconduct (Student Zone)"
+   }
+  ],
+  "queries": [
+   "London Metropolitan University generative AI students guidance",
+   "site:londonmet.ac.uk generative AI students",
+   "London Metropolitan University academic misconduct artificial intelligence library AI guide"
+  ],
+  "notes": "Short page (~3.5k chars) that points to the Library AI Guide and course leaders for specifics. No visible date. No PGR or staff page seen.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "londonmet-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02x80b031",
+  "name": "Leeds Trinity University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.leedstrinity.ac.uk/artificial-intelligence/university-position-statement",
+   "title": "University position statement (Generative AI library guide)",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Leeds Trinity University Library",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://library.leedstrinity.ac.uk/artificial-intelligence",
+    "title": "Generative AI library guide"
+   },
+   {
+    "audience": "students",
+    "url": "https://leedstrinity.sharepoint.com/sites/CentreforExcellenceinLearningandTeaching/SitePages/Student-Position-Statement-on-Responsible-AI.aspx",
+    "title": "Student Position Statement on Responsible AI (SharePoint, linked from guide, not retrieved, likely login)"
+   }
+  ],
+  "queries": [
+   "Leeds Trinity University generative AI students guidance",
+   "site:leedstrinity.ac.uk generative AI",
+   "Leeds Trinity University academic integrity artificial intelligence students",
+   "Leeds Trinity University AI policy assessment",
+   "Leeds Trinity library artificial intelligence position statement students (allowed_domains leedstrinity.ac.uk)"
+  ],
+  "notes": "Institution-wide position statement hosted inside the library guide (the search-result URL /AI-position-statement 404s; the working URL was found via link on the guide). A fuller Student Position Statement on SharePoint is linked but likely behind login. No PGR/staff pages seen.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "leedstrinity-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04f2nsd36",
+  "name": "Lancaster University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://portal.lancaster.ac.uk/ask/university-position-ai/",
+   "title": "University position on Artificial Intelligence (ASK portal)",
+   "kind": "webpage",
+   "audience_as_stated": "students and staff (linked from Lancaster staff/student AI pages)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://www.lancaster.ac.uk/embed-digital/digital-teaching-and-learning/generative-artificial-intelligence/",
+    "title": "Generative Artificial Intelligence (Embed Digital, staff tips; links to student guidance)"
+   },
+   {
+    "audience": "other",
+    "url": "https://www.lancaster.ac.uk/embed-digital/artificial-intelligence/",
+    "title": "AI @ Lancaster (mentions Red-Amber-Green statuses for staff and students)"
+   }
+  ],
+  "queries": [
+   "Lancaster University generative AI students guidance",
+   "site:lancaster.ac.uk generative AI students assessment",
+   "Lancaster University AI use in assessment red amber green students",
+   "Lancaster University academic integrity artificial intelligence policy",
+   "Lancaster University guidelines generative AI teaching learning students red amber green (allowed_domains lancaster.ac.uk)"
+  ],
+  "notes": "URL taken from links on Lancaster's own AI pages, not from search results; the portal page returns 200 but only an empty shell (content is JS/login rendered), so content unconfirmed. The Embed Digital pages are retrievable but staff-oriented.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "lancaster-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/05cncd958",
+  "name": "Cranfield University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.cranfield.ac.uk/AI",
+   "title": "AI and Generative AI (Cranfield Libraries guide)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (explains how to use AI appropriately and transparently in your studies)",
+   "owner_as_stated": "Cranfield Libraries / Library Services",
+   "date_as_shown": "Last Updated: Sep 25, 2026 1:47 PM",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://library.cranfield.ac.uk/AI/faqs",
+    "title": "Frequently asked questions - AI and Generative AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://library.cranfield.ac.uk/AI/referencing",
+    "title": "Referencing AI"
+   }
+  ],
+  "queries": [
+   "Cranfield University generative AI students guidance",
+   "site:cranfield.ac.uk generative AI",
+   "Cranfield University academic integrity artificial intelligence policy assessment"
+  ],
+  "notes": "Library guide is the best publicly findable student guidance; it says university guidance sits on MyCranfield (students) and The Hub (staff), likely login-only. Only 3 queries run (2 site-style); no main-site policy surfaced.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "cranfield-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02q3bak66",
+  "name": "Buckinghamshire New University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.bucks.ac.uk/sites/default/files/2025-09/Academic%20Integrity%20Policy.pdf",
+   "title": "Academic Integrity Policy (Sept 2025)",
+   "kind": "pdf",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": false,
+   "http": 200
+  },
+  "other_pages": [],
+  "queries": [
+   "Buckinghamshire New University generative AI students guidance",
+   "site:bucks.ac.uk generative AI",
+   "Bucks New University academic misconduct artificial intelligence",
+   "Buckinghamshire New University AI policy assessment students use of AI tools",
+   "Buckinghamshire New University generative AI (allowed_domains bucks.ac.uk)"
+  ],
+  "notes": "Curl returned a 2KB obfuscated-JavaScript challenge page instead of the PDF, so not retrieved and not bypassed. Whether it names AI is only per search snippet (and a third-party aggregator); no dedicated student GenAI page surfaced.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "bucks-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/0267vjk41",
+  "name": "University of Hertfordshire",
+  "outcome": "found",
+  "doc": {
+   "url": "https://ask.herts.ac.uk/ai-tools",
+   "title": "Using AI tools in your studies and assessments",
+   "kind": "faq",
+   "audience_as_stated": "current students",
+   "owner_as_stated": "Ask Herts, University of Hertfordshire",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://www.herts.ac.uk/__data/assets/pdf_file/0007/237625/Structure-and-Assessment-Regulations-Undergraduate-and-Taught-Postgraduate-Programmes-AS14-Apx-3-Academic-Integr.pdf",
+    "title": "UPR AS14 Appendix III Academic Integrity and Academic Misconduct (linked from page, not retrieved)"
+   },
+   {
+    "audience": "students",
+    "url": "https://herts.instructure.com/courses/109900/pages/ai-and-your-studies",
+    "title": "AI and your studies (Canvas, linked from page; HTTP 200 but not read)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.qaa.ac.uk/docs/qaa/members/case-study-9",
+    "title": "QAA case study 9: Herts, Making Regulations Work in an AI Landscape"
+   }
+  ],
+  "queries": [
+   "University of Hertfordshire generative AI students guidance",
+   "site:herts.ac.uk generative AI students",
+   "University of Hertfordshire generative AI policy students academic integrity",
+   "Herts generative AI students study skills guidance herts.ac.uk",
+   "University of Hertfordshire generative AI students (allowed_domains herts.ac.uk)"
+  ],
+  "notes": "Page says assessments fall into three categories stated in each brief and points to UPR AS14 Appendix III; staff are directed to HertsHub guidance. No visible date on page.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "herts-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00n3w3b69",
+  "name": "University of Strathclyde",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.strath.ac.uk/professionalservices/educationenhancement/qualityassurance/useofgen-aiinlearningassessment/",
+   "title": "Use of Gen-AI in learning & assessment",
+   "kind": "faq",
+   "audience_as_stated": "Student FAQs (staff and students)",
+   "owner_as_stated": "Education Enhancement, Quality assurance (site breadcrumb)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.strath.ac.uk/professionalservices/educationenhancement/qualityassurance/useofgen-aiinlearningassessment/usinggen-aitoolssafelyandresponsiblyinyourlearningandassessments/",
+    "title": "Using Gen-AI tools safely and responsibly in your learning and assessments"
+   },
+   {
+    "audience": "students",
+    "url": "https://guides.lib.strath.ac.uk/copyrightandgen-ai/coursework",
+    "title": "Using Gen-AI in coursework and Assessment (library guide)"
+   }
+  ],
+  "queries": [
+   "University of Strathclyde generative AI students guidance",
+   "site:strath.ac.uk generative AI use in assessment students",
+   "Strathclyde \"Guidance on use of Gen-AI\" learning teaching assessment not permitted selective open integral"
+  ],
+  "notes": "Hub page with student FAQs; no date shown. No separate PGR or staff page identified (a staff-and-student hub; search snippet mentioned a SharePoint hub, not retrieved).",
+  "country": "GB",
+  "region": "Scotland",
+  "doc_id": "strath-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/045wgfr59",
+  "name": "University of Stirling",
+  "outcome": "found",
+  "doc": {
+   "url": "https://learnteach.stir.ac.uk/ai-assessment-scale/",
+   "title": "AI Assessment Scale",
+   "kind": "webpage",
+   "audience_as_stated": "staff and students (framework so students know what is expected per assessment)",
+   "owner_as_stated": "Learning and Teaching Enhancement, University of Stirling",
+   "date_as_shown": "July 29, 2025 January 14, 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://learnteach.stir.ac.uk/category/ai/",
+    "title": "AI - Learning and Teaching Enhancement (AIAS levels 1-5)"
+   },
+   {
+    "audience": "other",
+    "url": "https://www.stir.ac.uk/media/stirling/services/academic-registry/documents/academic-integrity-policy.pdf",
+    "title": "Academic Integrity Policy, Poor Academic Practice Procedure (seen in search; returned 404 here)"
+   }
+  ],
+  "queries": [
+   "University of Stirling generative AI students guidance",
+   "site:stir.ac.uk artificial intelligence academic integrity students",
+   "Stirling university generative AI students Academic Integrity acknowledge AI use",
+   "stir.ac.uk AI students using AI guidance Stirling Learning Technology",
+   "Stirling students AI Assessment Scale (allowed_domains stir.ac.uk)"
+  ],
+  "notes": "Main page is a Learning and Teaching Enhancement page oriented partly to staff; no standalone student 'how you may use AI' page found. Sub-pages /how-to/ai-assessment-scale/ and FAQs (from search) returned 404 here; Academic Integrity Policy PDF also 404.",
+  "country": "GB",
+  "region": "Scotland",
+  "doc_id": "stir-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/002g3cb31",
+  "name": "Queen Margaret University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.qmu.ac.uk/generative-ai",
+   "title": "Generative AI Tools in Academic Work (QMULibGuides)",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Library (QMULibGuides)",
+   "date_as_shown": "Last Updated: Aug 12, 2026 2:11 PM",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.qmu.ac.uk/referencing/ai",
+    "title": "Generative AI - Academic Integrity (QMULibGuides)"
+   },
+   {
+    "audience": "other",
+    "url": "https://www.qmu.ac.uk/about-the-university/quality/committees-regulations-policies-and-procedures/regulations-policies-and-procedures/academic-integrity-policy",
+    "title": "Academic Integrity Policy (names unauthorised, unacknowledged Generative AI; 'September 2025 v1.0')"
+   }
+  ],
+  "queries": [
+   "Queen Margaret University generative AI students guidance",
+   "site:qmu.ac.uk generative AI",
+   "Queen Margaret University Edinburgh students use of AI in assessment declaration academic integrity",
+   "qmu.ac.uk students artificial intelligence ChatGPT guidance study skills library",
+   "Queen Margaret University generative AI regulations ... (allowed_domains qmu.ac.uk)"
+  ],
+  "notes": "Library guide is the student-facing guidance and links to the Academic Integrity Policy (authoritative rules, 200). Date shown is the libguide Last Updated stamp. site:qmu.ac.uk returned QMUL, so a domain-filtered search was used.",
+  "country": "GB",
+  "region": "Scotland",
+  "doc_id": "qmu-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/01se4f844",
+  "name": "University of Wales",
+  "outcome": "not_found",
+  "doc": null,
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.wales.ac.uk/registry/current-students/unfair-practice-procedure",
+    "title": "Unfair Practice Procedure"
+   }
+  ],
+  "queries": [
+   "University of Wales generative AI students guidance",
+   "site:wales.ac.uk artificial intelligence policy",
+   "University of Wales validation awarding body students academic misconduct artificial intelligence partner institutions",
+   "University of Wales unfair practice procedure artificial intelligence collaborative centres students"
+  ],
+  "notes": "Validating body: students are registered via collaborative centres and the site has a Current Students section, so not out_of_frame. Unfair Practice Procedure page, study-skills, FAQs and academic-regulations pages retrieved (200) with no mention of AI/generative; 2023-24 Taught Degrees Handbook PDF has no AI mention. Guidance sits with partner centres.",
+  "country": "GB",
+  "region": "Wales"
+ },
+ {
+  "ror_id": "https://ror.org/006jb1a24",
+  "name": "Bangor University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bangor.ac.uk/regulations/documents/artificial-intelligence-software-explainer-en.docx",
+   "title": "Generative Artificial Intelligence Software and Academic Integrity: a short guide for students",
+   "kind": "policy_doc",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Bangor University regulations (author metadata: Graham Bird (Staff))",
+   "date_as_shown": "Last-Modified header: Wed, 17 Sep 2025 13:54:12 GMT (no date in text)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bangor.ac.uk/regulations/documents/artificial-intelligence-software-assessment-en.docx",
+    "title": "Generative AI in assessment declaration (coversheet; Last-Modified Fri, 14 Aug 2026)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.bangor.ac.uk/events/celt-cpd-workshop-bangor-universitys-guidance-on-gen-ai-in-teaching-and-learning",
+    "title": "CELT CPD Workshop: Bangor University's Guidance on Gen-AI in teaching and learning"
+   }
+  ],
+  "queries": [
+   "Bangor University generative AI students guidance",
+   "site:bangor.ac.uk generative AI students assessment"
+  ],
+  "notes": "Docx confirmed as student guide with Category 1-3 assessments. Only 2 queries run (one site:), fewer than 4, but outcome is found; the guidance is linked from the CELT event page.",
+  "country": "GB",
+  "region": "Wales",
+  "doc_id": "bangor-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00n208030",
+  "name": "St Mary's University College",
+  "outcome": "not_found",
+  "doc": null,
+  "other_pages": [],
+  "queries": [
+   "St Mary's University College Belfast generative AI students guidance",
+   "site:stmarys-belfast.ac.uk artificial intelligence academic integrity",
+   "stmarys-belfast.ac.uk student guidance use of AI tools assessment",
+   "St Mary's University College generative AI (allowed_domains stmarys-belfast.ac.uk)"
+  ],
+  "notes": "Search hits for student/staff AI guidance are on stmarys.ac.uk, which is a different institution (St Mary's Twickenham), so excluded. Belfast homepage returned 403 to curl; site-restricted search returned only research/people pages.",
+  "country": "GB",
+  "region": "Northern Ireland"
+ },
+ {
+  "ror_id": "https://ror.org/05a49e175",
+  "name": "Stranmillis University College",
+  "outcome": "not_found",
+  "doc": null,
+  "other_pages": [],
+  "queries": [
+   "Stranmillis University College generative AI students guidance assessment",
+   "site:stran.ac.uk artificial intelligence",
+   "Stranmillis University College AI policy academic misconduct ChatGPT",
+   "Stranmillis generative AI (allowed_domains stran.ac.uk)"
+  ],
+  "notes": "No stran.ac.uk results at all in any query; curl to www.stran.ac.uk returned no HTTP response (000), so site could not be checked directly. Weak not_found: index coverage of the domain looks poor.",
+  "country": "GB",
+  "region": "Northern Ireland"
+ },
+ {
+  "ror_id": "https://ror.org/00shsf120",
+  "name": "National University of Ireland",
+  "outcome": "out_of_frame",
+  "doc": null,
+  "other_pages": [],
+  "queries": [
+   "site:nui.ie generative AI",
+   "National University of Ireland nui.ie students policy artificial intelligence"
+  ],
+  "notes": "nui.ie (retrieved, 200) describes itself as linking member institutions to promote higher education and standards; a federal awarding body. No student guidance of its own found.",
+  "country": "IE",
+  "region": "Leinster"
+ },
+ {
+  "ror_id": "https://ror.org/00a0n9e72",
+  "name": "University of Limerick",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ul.ie/provost/functions-processes/academic-integrity-unit/tips-for-students-on-the-use-of-gen-ai",
+   "title": "Tips for Students on the use of Gen AI",
+   "kind": "webpage",
+   "audience_as_stated": "students (FAQ also addresses staff giving students guidance)",
+   "owner_as_stated": "Academic Integrity Unit, Office of the Provost and Deputy President",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.ul.ie/provost/functions-processes/academic-integrity-unit/toolkit",
+    "title": "UL Academic Integrity and GenAI toolkit"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.ul.ie/provost/functions-processes/academic-integrity-unit/assessment-and-gen-ai",
+    "title": "Assessment and Gen AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.ul.ie/provost/functions-processes/academic-integrity-unit/templates-for-students",
+    "title": "Templates for Students"
+   }
+  ],
+  "queries": [
+   "University of Limerick generative AI students guidance",
+   "site:ul.ie generative AI students assessment",
+   "University of Limerick Academic Integrity Unit generative AI principles students",
+   "ul.ie Academic Integrity GenAI toolkit students acknowledgment"
+  ],
+  "notes": "Tips page is the student-facing guidance; toolkit page is an alternative entry point. UL's five GenAI principles were reported in secondary sources (teachingandlearning.ie) but the principles page itself was not located. No PGR-specific page seen.",
+  "country": "IE",
+  "region": "Munster",
+  "doc_id": "ul-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04efm0253",
+  "name": "Technological University of the Shannon: Midlands Midwest",
+  "outcome": "found",
+  "doc": {
+   "url": "https://tus.ie/cpid/academic-integrity/",
+   "title": "Academic Integrity - TUS",
+   "kind": "webpage",
+   "audience_as_stated": "learners / students (staff courses also listed)",
+   "owner_as_stated": "contact Dr Mike Russell (CPID)",
+   "date_as_shown": "© Copyright of TUS, 2025 (footer only)",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "other",
+    "url": "https://tus.ie/app/uploads/AcademicServices/Quality/Handbook/VOL2/2_TUS-Academic-Council-Documentation-2026-2029-AC-30.01.2026.pdf",
+    "title": "TUS Academic Council Documentation 2026-2029 (not opened)"
+   }
+  ],
+  "queries": [
+   "Technological University of the Shannon generative AI students guidance",
+   "site:tus.ie generative AI students academic integrity",
+   "TUS Technological University of the Shannon use of AI by students policy assessment plagiarism",
+   "TUS generative AI students guidelines (allowed_domains tus.ie)"
+  ],
+  "notes": "Fallback: academic integrity FAQ states using AI to complete an assignment is misconduct unless permitted and must be acknowledged; also lists a Moodle course with a GenAI session. No dedicated GenAI student guidance found; the Academic Integrity and Plagiarism policy itself was not located.",
+  "country": "IE",
+  "region": "Leinster",
+  "doc_id": "tus-students-genai-202610"
+ }
+]

@@ -13,6 +13,17 @@ test("htmlToText keeps wording, drops chrome, decodes entities, keeps list struc
   assert.match(text, /- Declare use\n- Verify/);
   assert.ok(!/MENU|FOOT|var x/.test(text));
 });
+test("carriage returns and odd spaces do not leave runs of blank lines", () => {
+  const { text } = htmlToText("<body><div>A</div>\r\n\r\n\r\n\r\n<div>\u200b \u00a0</div>\r\n\r\n<div>B</div></body>");
+  assert.equal(text, "A\n\nB");
+});
+test("role=main content is preferred over page chrome", () => {
+  const { text } = htmlToText('<body><div>MENU MENU</div><div role="main"><p>The policy</p></div><div>FOOTER</div></body>');
+  assert.equal(text, "The policy");
+});
+test("an obfuscated JavaScript challenge served with HTTP 200 is blocked", () => {
+  assert.equal(blockedReason(200, "<html><body><script>eval(function(p,a,c,k,e,d){e=function(c){return c}})</script></body></html>"), "bot challenge page");
+});
 test("without <main> it drops nav/header/footer", () => {
   const { text } = htmlToText("<body><header>H</header><div>Real text</div><footer>F</footer></body>");
   assert.equal(text, "Real text");
@@ -38,7 +49,7 @@ test("fetch end to end: ok, blocked, robots, change history, import", async () =
   let version = 1;
   const server = http.createServer((req, res) => {
     if (req.url === "/robots.txt") { res.setHeader("content-type", "text/plain"); return res.end("User-agent: *\nDisallow: /secret"); }
-    if (req.url === "/policy") { res.setHeader("content-type", "text/html"); return res.end(`<title>P</title><main><p>Rule v${version}</p></main>`); }
+    if (req.url === "/policy") { res.setHeader("content-type", "text/html"); return res.end(`<title>P</title><main><p>Rule v${version}. ${"The rule applies to every student and every assessment in the programme. ".repeat(6)}</p></main>`); }
     if (req.url === "/wall") { res.setHeader("content-type", "text/html"); res.statusCode = 403; return res.end("<title>Just a moment...</title>cf-chl"); }
     if (req.url === "/secret") { res.setHeader("content-type", "text/html"); return res.end("<main>should not be fetched</main>"); }
     res.statusCode = 404; res.end("no");

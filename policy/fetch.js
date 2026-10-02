@@ -37,14 +37,15 @@ const decode = (s) =>
 function htmlToText(html) {
   const title = decode((html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || "").replace(/\s+/g, " ").trim());
   let h = html.replace(/<!--[\s\S]*?-->/g, "").replace(/<(script|style|noscript|svg|template|iframe)\b[\s\S]*?<\/\1>/gi, "");
-  const main = h.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i) || h.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i);
+  const main = h.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i) || h.match(/<[a-z]+\b[^>]*\brole=["']main["'][^>]*>([\s\S]*?)<\/(?:div|section|article)>/i) || h.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i);
   h = main ? main[1] : h.replace(/<head\b[\s\S]*?<\/head>/i, "").replace(/<(nav|header|footer|aside|form)\b[\s\S]*?<\/\1>/gi, "");
   h = h.replace(/<li\b[^>]*>/gi, "\n- ").replace(/<(br|hr)\s*\/?>/gi, "\n").replace(/<\/?(p|div|section|h[1-6]|ul|ol|table|tr|blockquote|figure|dl|dt|dd|details|summary)\b[^>]*>/gi, "\n").replace(/<\/(td|th)>/gi, "\t").replace(/<[^>]+>/g, "");
-  const text = decode(h).replace(/[ \t\f\v ]+/g, " ").replace(/ *\n */g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+  // \r, zero-width characters and every other kind of space become plain spaces/newlines before collapsing
+  const text = decode(h).replace(/\r\n?/g, "\n").replace(/[\u200b-\u200d\ufeff]/g, "").replace(/[^\S\n]+/g, " ").replace(/ *\n */g, "\n").replace(/\n{3,}/g, "\n\n").trim();
   return { title, text };
 }
 
-const CHALLENGE = /cf-chl|__cf_chl|Just a moment\.\.\.|challenge-platform|Attention Required! \| Cloudflare|_Incapsula_|Request unsuccessful\. Incapsula|px-captcha|Checking your browser|are you a robot|enable javascript and cookies to continue/i;
+const CHALLENGE = /eval\(function\(p,a,c,k,e,d\)|cf-chl|__cf_chl|Just a moment\.\.\.|challenge-platform|Attention Required! \| Cloudflare|_Incapsula_|Request unsuccessful\. Incapsula|px-captcha|Checking your browser|are you a robot|enable javascript and cookies to continue/i;
 function blockedReason(status, body) {
   if (CHALLENGE.test(body.slice(0, 20000))) return "bot challenge page";
   if ([401, 403, 407, 429, 451, 503].includes(status)) return `HTTP ${status}`;
@@ -122,9 +123,12 @@ async function fetchOne(t, ctx) {
     const rawPath = path.join(P.raw, `${t.doc_id}.${ext}`); fs.writeFileSync(rawPath, buf);
     const { title, text, needsText } = toText(buf, ct, rawPath);
     row.sha256 = sha256(buf); row.title = title;
-    if (needsText || !text) return { ...row, status: "needs_text" };
+    if (needsText || !text) return { ...row, status: /html/i.test(ct) && !needsText ? "js_shell" : "needs_text", words: 0 };
+    const words = text.split(/\s+/).length;
+    // An HTML page that renders no text without JavaScript is not an archive of the policy.
+    if (/html/i.test(ct) && words < 40) return { ...row, status: "js_shell", words };
     save(ctx.dir, t.doc_id, text);
-    return { ...row, status: "ok", words: text.split(/\s+/).length };
+    return { ...row, status: "ok", words, thin: words < 300 };
   } catch (e) {
     return { ...row, status: "error", blocked_reason: String(e.message || e).slice(0, 200) };
   }
@@ -159,7 +163,7 @@ function cmdStatus(o) {
   const rows = readManifest(o.dir); const by = {};
   for (const r of rows) (by[r.status] ||= []).push(r);
   for (const [k, v] of Object.entries(by)) console.log(`${k}: ${v.length}`);
-  for (const r of rows.filter((r) => r.status !== "ok")) console.log(`  ${r.status.padEnd(17)} ${r.doc_id}  ${r.blocked_reason || ""}\n      ${r.url}`);
+  for (const r of rows.filter((r) => r.status !== "ok" || r.thin)) console.log(`  ${(r.thin && r.status === "ok" ? "ok (thin, " + r.words + "w)" : r.status).padEnd(17)} ${r.doc_id}  ${r.blocked_reason || ""}\n      ${r.url}`);
 }
 
 module.exports = { htmlToText, blockedReason, robotsAllowed, sha256 };
