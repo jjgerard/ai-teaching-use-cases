@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node src/server.js",
     "policy:validate": "node policy/validate.js",
-    "policy:test": "node --test policy/test/validate.test.js"
+    "policy:test": "node --test \"policy/test/*.test.js\""
   },
   "keywords": [],
   "author": "",
