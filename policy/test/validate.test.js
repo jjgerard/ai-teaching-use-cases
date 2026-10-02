@@ -71,13 +71,20 @@ test("applies_to_levels: a strategy-only variable is not_applicable on an instit
   hasErr(run([code("toy_strategy", "a")]), /does not apply to level institution/);
   assert.deepEqual(run([code("toy_strategy", "a")], [doc({ level: "government" })]).errors, []);
 });
+test("audience is a list and 'students_all' covers ug/pgt/pgr", () => {
+  assert.deepEqual(run([code("toy_supervisor", true)], [doc({ audience: ["ug", "pgr"] })]).errors, []);
+  assert.deepEqual(run([code("toy_supervisor", true)], [doc({ audience: "students_all" })]).errors, []);
+  hasErr(run([code("toy_supervisor", true)], [doc({ audience: ["ug", "pgt"] })]), /does not apply to audience/);
+  hasErr(run([], [doc({ audience: ["nobody"] })]), /audience/);
+});
 test("stale codebook version is flagged", () => hasErr(run([code("toy_disclosure", "required", { codebook_version: "t0" })]), /coded under codebook/));
 test("document fields are closed and dates ISO", () => {
   const r = run([], [doc({ audience: "everyone", published: "1/2/25", retrieved: null })]);
   hasErr(r, /audience/); hasErr(r, /ISO/); hasErr(r, /retrieved/);
 });
 test("a null last_updated needs date_known:false", () => {
-  hasErr(run([], [doc({ last_updated: null })]), /date_known/);
+  hasErr(run([], [doc({ last_updated: null, published: null })]), /date_known/);
+  assert.deepEqual(run([], [doc({ last_updated: null })]).errors, []);
   assert.deepEqual(run([], [doc({ last_updated: null, date_known: false })]).errors, []);
 });
 test("gaps count uncoded, not_stated and none_exists separately", () => {

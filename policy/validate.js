@@ -23,6 +23,16 @@ const path = require("node:path");
 const ISO = /^\d{4}-\d{2}(-\d{2})?$/;
 // Compare quotes to archived text ignoring layout artefacts: whitespace, hyphens
 // (PDF line-break hyphens are lost or kept inconsistently) and curly quotes.
+// An audience value covers others: a document for "all students" covers ug, pgt and pgr.
+const COVERS = {
+  all: null, // everything
+  students_all: ["students_all", "ug", "pgt", "pgr"],
+  staff_all: ["staff_all", "staff_teaching", "staff_research", "staff_prof"],
+};
+const audiencesOf = (d) => (Array.isArray(d.audience) ? d.audience : [d.audience]);
+function covers(doc, wanted) {
+  return audiencesOf(doc).some((a) => a === "all" || a === wanted || (COVERS[a] || [a]).includes(wanted));
+}
 const squash = (s) =>
   String(s)
     .replace(/[\u2018\u2019]/g, "'")
@@ -50,14 +60,16 @@ function validate({ institutions, documents, codes, codebook, snapshots = {} }) 
     docs.set(d.doc_id, d);
     if (!instIds.has(d.institution_id)) err(`${d.doc_id}: unknown institution_id ${JSON.stringify(d.institution_id)}`);
     for (const [f, allowed] of Object.entries(codebook.documentFields)) {
-      if (!allowed.includes(d[f])) err(`${d.doc_id}: ${f} ${JSON.stringify(d[f])} is not one of ${allowed.join("|")}`);
+      const vals = f === "audience" ? audiencesOf(d) : [d[f]];
+      if (f === "audience" && (!vals.length || vals[0] == null)) err(`${d.doc_id}: audience is required`);
+      for (const x of vals) if (!allowed.includes(x)) err(`${d.doc_id}: ${f} ${JSON.stringify(x)} is not one of ${allowed.join("|")}`);
     }
     for (const f of ["published", "last_updated", "retrieved"]) {
       if (d[f] == null) continue;
       if (!ISO.test(d[f])) err(`${d.doc_id}: ${f} ${JSON.stringify(d[f])} is not an ISO date`);
     }
     if (d.retrieved == null) err(`${d.doc_id}: retrieved date is required`);
-    if (d.last_updated == null && d.date_known !== false) err(`${d.doc_id}: last_updated is null but date_known is not false`);
+    if (d.last_updated == null && d.published == null && d.date_known !== false) err(`${d.doc_id}: no published or last_updated date, and date_known is not false`);
     if (d.last_updated && d.published && d.last_updated < d.published) err(`${d.doc_id}: last_updated precedes published`);
   }
 
@@ -77,10 +89,10 @@ function validate({ institutions, documents, codes, codebook, snapshots = {} }) 
     if (c.codebook_version !== codebook.version) err(`${id}: coded under codebook ${c.codebook_version}, current is ${codebook.version}`);
 
     const isState = typeof c.value === "string" && states.includes(c.value);
-    const audOk = !v.applies_to || v.applies_to.includes(doc.audience) || doc.audience === "all";
+    const audOk = !v.applies_to || v.applies_to.some((a) => covers(doc, a));
     const levelOk = !v.applies_to_levels || v.applies_to_levels.includes(doc.level);
     const applies = audOk && levelOk;
-    if (!applies && c.value !== "not_applicable") err(`${id}: variable does not apply to ${audOk ? "level " + doc.level : "audience " + doc.audience}; must be not_applicable`);
+    if (!applies && c.value !== "not_applicable") err(`${id}: variable does not apply to ${audOk ? "level " + doc.level : "audience " + audiencesOf(doc).join("+")}; must be not_applicable`);
 
     // misfit: no honest value. Left null, with a note, never forced.
     if (c.value === null) {
@@ -223,13 +235,19 @@ function load(dir, codebookPath) {
 module.exports = { validate, checkCodebook };
 
 if (require.main === module) {
-  const dir = process.argv[2] || path.join(__dirname, "..", "data", "policy");
-  const cbPath = process.argv[3] || path.join(__dirname, "codebook.json");
+  const args = process.argv.slice(2).filter((a) => !a.startsWith("--"));
+  const dir = args[0] || path.join(__dirname, "..", "data", "policy");
+  const cbPath = args[1] || path.join(__dirname, "codebook.json");
   const data = load(dir, cbPath);
   const cbErrors = checkCodebook(data.codebook);
   const { errors, warnings, gaps } = validate(data);
   for (const w of warnings) console.log("warn:", w);
-  if (data.documents.length) for (const [k, g] of Object.entries(gaps)) console.log(`gaps ${k}:`, JSON.stringify(g));
+  // Per-variable gap table only on request (it is long): node policy/validate.js dir cb --gaps
+  if (process.argv.includes("--gaps")) for (const [k, g] of Object.entries(gaps)) console.log(`gaps ${k}:`, JSON.stringify(g));
+  else {
+    const t = Object.values(gaps).reduce((a, g) => { for (const k in g) a[k] = (a[k] || 0) + g[k]; return a; }, {});
+    console.log("cells:", JSON.stringify(t));
+  }
   const all = [...cbErrors.map((e) => "codebook: " + e), ...errors];
   for (const e of all) console.error("ERROR:", e);
   console.log(`${data.documents.length} documents, ${data.codes.length} codes, ${all.length} errors, ${warnings.length} warnings`);
