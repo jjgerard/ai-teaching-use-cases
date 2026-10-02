@@ -1,0 +1,205 @@
+[
+ {
+  "ror_id": "https://ror.org/027m9bs27",
+  "name": "University of Manchester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://documents.manchester.ac.uk/display.aspx?DocID=79331",
+   "title": "AI Use Guidelines for Students",
+   "kind": "pdf",
+   "audience_as_stated": "University of Manchester students",
+   "owner_as_stated": "University of Manchester",
+   "date_as_shown": "Created 2 July 2026 (PDF metadata)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries_tried": [
+   "generative AI students guidance (domain filter manchester.ac.uk)",
+   "University of Manchester students use of generative AI guidance academic malpractice (domain filter)"
+  ],
+  "other_pages": [
+   {
+    "audience": "students_and_staff",
+    "url": "https://www.staffnet.manchester.ac.uk/ai-hub/ai-guidelines-and-policies/ai-guidelines-overview/guidelines/",
+    "title": "University AI Guidelines (owner University AI Strategy Group; last edited 21 April 2026)"
+   },
+   {
+    "audience": "students",
+    "url": "https://subjects.library.manchester.ac.uk/referencing/AI",
+    "title": "AI and referencing (library)"
+   },
+   {
+    "audience": "students",
+    "url": "https://elearning.bmh.manchester.ac.uk/ai-guidance-for-learners/",
+    "title": "AI Guidance for Learners (faculty-level, BMH)"
+   }
+  ],
+  "notes": "Date and title from fetch summary of PDF metadata; Manchester also has a staffnet institution-wide guidelines page covering staff and students.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "-manchester-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/0067fqk38",
+  "name": "St Mary's University Twickenham London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.stmarys.ac.uk/students/documents/ai-faqs.pdf",
+   "title": "Student guidance on AI (AI FAQs)",
+   "kind": "pdf",
+   "audience_as_stated": "Students at St Mary's University, London",
+   "owner_as_stated": "St Mary's University, Twickenham",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries_tried": [
+   "generative AI students guidance (domain filter stmarys.ac.uk)",
+   "St Mary's University Twickenham artificial intelligence students academic integrity (domain filter)"
+  ],
+  "other_pages": [
+   {
+    "audience": "students_and_staff",
+    "url": "https://www.stmarys.ac.uk/policies/ai.aspx",
+    "title": "AI policy"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.stmarys.ac.uk/staff/docs/staff-ai-guidance.pdf",
+    "title": "Staff guidance on AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.stmarys.ac.uk/policies/docs/student-guidance-on-ai-september-2023.pdf",
+    "title": "Student Guidance on the use of AI (Sept 2023; search result, fetch returned 404, probably superseded)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.stmarys.ac.uk/deeso/Learning-and-Teaching/academic-integrity/overview.aspx",
+    "title": "Academic integrity"
+   }
+  ],
+  "notes": "Located via the AI policy page link. Document created 11 Sept 2025, modified April 2026 (PDF metadata only; no date visible on page). Collision check: stmarys.ac.uk is Twickenham.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "st-mary-s-twickenham-lon-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04f0qj703",
+  "name": "Robert Gordon University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.rgu.ac.uk/apa-referencing/ai",
+   "title": "Generative AI - APA Referencing (RGU Library guide)",
+   "kind": "library_guide",
+   "audience_as_stated": "RGU students and staff",
+   "owner_as_stated": "Robert Gordon University Library",
+   "date_as_shown": "Last updated 3 September 2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries_tried": [
+   "generative AI students guidance (domain filter rgu.ac.uk)",
+   "Robert Gordon University AI students ChatGPT guidance (domain filter)",
+   "RGU generative AI policy students assessment use of AI tools (domain filter)"
+  ],
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://library.rgu.ac.uk/harvard-referencing-templates/generative-ai",
+    "title": "Generative AI - Cite Them Right Harvard Templates"
+   },
+   {
+    "audience": "students",
+    "url": "https://library.rgu.ac.uk/oscola/ai",
+    "title": "Generative AI - OSCOLA Referencing"
+   },
+   {
+    "audience": "students",
+    "url": "https://campusmoodle.rgu.ac.uk/course/view.php?id=104016",
+    "title": "RGU generative AI guidance on Moodle (linked from library guides; not fetched, likely login-gated)"
+   }
+  ],
+  "notes": "Weak target: the public page is a library referencing guide that points to the main guidance on Moodle (login-gated; not accessed). Revisit if a public RGU policy page is found. Only 3 searches, so not a not_found.",
+  "country": "GB",
+  "region": "Scotland",
+  "doc_id": "robert-gordon-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/03kk7td41",
+  "name": "Cardiff University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://blogs.cardiff.ac.uk/LTAcademy/ai-in-education-at-cardiff-university/",
+   "title": "AI in Education at Cardiff University",
+   "kind": "webpage",
+   "audience_as_stated": "students (search snippet: guidance created with students)",
+   "owner_as_stated": "Cardiff Learning and Teaching Academy",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "queries_tried": [
+   "generative AI students guidance (domain filter cardiff.ac.uk)",
+   "Cardiff University artificial intelligence students academic integrity (domain filter)",
+   "Cardiff University student guidance using generative AI in your studies (domain filter)"
+  ],
+  "other_pages": [
+   {
+    "audience": "staff_and_students",
+    "url": "https://intranet.cardiff.ac.uk/__data/assets/pdf_file/0006/1549878/Academic-Integrity-Policy.pdf",
+    "title": "Academic Integrity Policy (Aug 2022; search result, not fetched)"
+   },
+   {
+    "audience": "students",
+    "url": "https://sites.cardiff.ac.uk/studentfuturesplus/skills-and-attributes/using-ai-in-your-career-development/",
+    "title": "Using AI in your career development (Student Futures+)"
+   }
+  ],
+  "notes": "WebFetch returned 403 on the blog page; not circumvented. The page's content was seen only as search snippets. Collision check: cardiff.ac.uk, not Cardiff Met.",
+  "country": "GB",
+  "region": "Wales",
+  "doc_id": "cardiff-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04t0qbt32",
+  "name": "Technological University Dublin",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Guidance-for-generative-AI-in-education-and-research.pdf",
+   "title": "Guidance for generative AI in education and research",
+   "kind": "pdf",
+   "audience_as_stated": "education and research (university-wide; students not named as sole audience)",
+   "owner_as_stated": "TU Dublin (Academic Affairs, Quality Framework)",
+   "date_as_shown": "28 November 2023 (PDF metadata)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries_tried": [
+   "generative AI students guidance (domain filter tudublin.ie)",
+   "TU Dublin students AI use assessment academic integrity guidance learners (domain filter)",
+   "TU Dublin Artificial Intelligence Driving License students (domain filter)"
+  ],
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.tudublin.ie/explore/about-the-university/academic-affairs/lta/lta-resources/artificial-intelligence-driving-license/",
+    "title": "Artificial Intelligence Driving License (AIDL); appeared in search but fetch returned 404"
+   },
+   {
+    "audience": "students_and_staff",
+    "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Academic-Integrity-Procedures-Final-Sept-24.pdf",
+    "title": "Academic Integrity Procedures (Sept 2024; not fetched)"
+   }
+  ],
+  "notes": "Institution-wide guidance, 48 pp. A student-specific page (AIDL) exists but its URL returned 404 on fetch; recheck. Date is PDF modification metadata.",
+  "country": "IE",
+  "region": "Ireland",
+  "doc_id": "technological-dublin-students-genai-202610"
+ }
+]
