@@ -8,11 +8,14 @@ const codebook = {
   ...real,
   version: "t1",
   variables: [
-    { id: "toy_disclosure", type: "enum", grain: "document", values: [{ id: "required", gloss: "g" }, { id: "optional", gloss: "g" }] },
-    { id: "toy_format", type: "boolean", grain: "document", gate: { variable: "toy_disclosure", if_in: ["none_exists"] } },
-    { id: "toy_levels", type: "integer", grain: "document", min: 0 },
-    { id: "toy_tools", type: "multi", grain: "list", values: [{ id: "a", gloss: "g" }, { id: "b", gloss: "g" }] },
-    { id: "toy_supervisor", type: "boolean", grain: "document", applies_to: ["pgr"] },
+    { id: "toy_disclosure", type: "enum", grain: "document", question: "q", values: [{ id: "required", gloss: "g" }, { id: "optional", gloss: "g" }] },
+    { id: "toy_format", type: "boolean", grain: "document", question: "q", gate: { variable: "toy_disclosure", if_in: ["none_exists"] } },
+    { id: "toy_scheme", type: "enum", grain: "document", question: "q", values: [{ id: "none", gloss: "g" }, { id: "levels", gloss: "g" }] },
+    { id: "toy_n", type: "integer", grain: "document", question: "q", min: 2, gate: { variable: "toy_scheme", only_if_in: ["levels"] } },
+    { id: "toy_strategy", type: "enum", grain: "document", question: "q", values: [{ id: "a", gloss: "g" }], applies_to_levels: ["government"] },
+    { id: "toy_levels", type: "integer", grain: "document", question: "q", min: 0 },
+    { id: "toy_tools", type: "multi", grain: "list", question: "q", values: [{ id: "a", gloss: "g" }, { id: "b", gloss: "g" }] },
+    { id: "toy_supervisor", type: "boolean", grain: "document", question: "q", applies_to: ["pgr"] },
   ],
 };
 const institutions = [{ institution_id: "i1" }];
@@ -56,6 +59,17 @@ test("quote must occur in the archived snapshot", () => {
 test("quote matching ignores PDF hyphenation and curly quotes", () => {
   const snap = { d1: "regionwide guidelines and the Executive\u2019s plan" };
   assert.deepEqual(run([code("toy_disclosure", "required", { evidence_quote: "region-wide guidelines and the Executive's plan" })], [doc()], snap).errors, []);
+});
+test("booleans take true only: false is refused", () => hasErr(run([code("toy_supervisor", false, {})], [doc({ audience: "pgr" })]), /true only/));
+test("only_if_in gate: dependent applicable only when the gate says so", () => {
+  hasErr(run([code("toy_scheme", "none"), code("toy_n", 3, { unit: "levels", counted: "c", basis: "stated" })]), /only applies when toy_scheme/);
+  hasErr(run([code("toy_n", 3, { unit: "levels", counted: "c", basis: "stated" })]), /not coded for this document/);
+  assert.deepEqual(run([code("toy_scheme", "levels"), code("toy_n", 3, { unit: "levels", counted: "c", basis: "stated" })]).errors, []);
+  assert.deepEqual(run([code("toy_scheme", "none"), code("toy_n", "not_applicable", { evidence_quote: undefined })]).errors, []);
+});
+test("applies_to_levels: a strategy-only variable is not_applicable on an institution document", () => {
+  hasErr(run([code("toy_strategy", "a")]), /does not apply to level institution/);
+  assert.deepEqual(run([code("toy_strategy", "a")], [doc({ level: "government" })]).errors, []);
 });
 test("stale codebook version is flagged", () => hasErr(run([code("toy_disclosure", "required", { codebook_version: "t0" })]), /coded under codebook/));
 test("document fields are closed and dates ISO", () => {

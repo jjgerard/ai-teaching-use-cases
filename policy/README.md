@@ -4,8 +4,8 @@ A comparison of university, sector and government AI guidance across regions, au
 time. Standalone page in this site, in the style of the language atlas, linked from the nav
 once there is data to show.
 
-**Status: infrastructure only.** No policy variables exist yet and no documents are coded.
-`codebook.json` has `"variables": []` on purpose (see "Why no variables yet").
+**Status: vocabulary v0.2.0 derived, pilot coding not yet done.** 76 variables, derived from reading
+51 documents (see below). Provisional until the pilot has been coded and its misfits read.
 
 ## The rule
 
@@ -52,20 +52,37 @@ npm run policy:test
 
 Ordinals stay ordinal and are never averaged (the atlas rule: nothing is scored).
 
-## Why no variables yet
+## How the vocabulary was derived
 
-The atlas derived its vocabularies by reading the corpus, not by proposing a scheme, because a
-scheme built from expectation codes cleanly and means nothing. So variables come from reading
-roughly 40 real documents with no scheme in mind, grouping what they do, then naming values
-with the documents that forced each one as its gloss/precedent.
+Not proposed: read first. Six readers retrieved 51 documents from 14 countries (universities,
+regulators, funders and governments; students, PGR and staff audiences) with no scheme in mind,
+archiving the text to `data/policy/snapshots/` and noting what each document tells its reader to
+do, what it is silent on, what it says does not exist, and what was hard to categorise. The
+variables are the groupings those notes forced. Each variable has a `question`, each value has a
+decision-rule `gloss`, and each value lists the `precedent` documents that forced it, so adding or
+splitting a value is an argument from evidence.
 
-That reading has not happened: the build environment's network policy blocks
-`www.ulster.ac.uk`, `www.executiveoffice-ni.gov.uk` and other university and government hosts.
-Nothing should be inferred from search snippets or memory.
+Things the reading forced that a proposed scheme would have missed:
+
+- *Who decides* and *what applies when they are silent* matter more than allowed-versus-banned.
+  Harvard, Stanford, UBC, Toronto, Helsinki and Heidelberg defer to the instructor; their silent
+  defaults then differ (`default_when_silent`).
+- Tier schemes differ in shape (two-lane, three-tier, four-level, supervised/unsupervised), and the
+  tier types recur (`tiers_present`).
+- Disclosure is five questions, not one: whether, exemptions, contents, location, enforcement.
+- Documents differ in how binding they say they are (`instrument_force`), including within one
+  document (Edinburgh's thesis guidance is "not Mandatory" but says "must").
+- Some documents exclude an audience or topic by design (`audiences_excluded`,
+  `topics_out_of_scope`), which is a finding, not a gap.
+- Per-use permissions are comparable one use at a time (`use_*`).
+
+Reader limits: sites behind bot walls or returning 403 (Ulster's own pages, Oxford, QUB, UCL, Imperial,
+Leeds, Cardiff, UCD, Melbourne, NUS and others) were not retrieved and are absent, not coded.
+Ulster's own student, doctoral and staff pages are among them, so Ulster is currently represented
+only by its library guide. Sampling is therefore by reachability, and the page must say so.
 
 ## Next
 
-1. Allow the hosts (or supply the documents as text), and archive each to `snapshots/`.
-2. Read, derive variables, write them into `codebook.json` with glosses, gates and grains.
-3. Pilot-code the three Ulster pages and the NI draft strategy; read the misfits; revise.
-4. Build the page over `data/policy/*.json`.
+1. Pilot-code a spread of documents against this codebook, read the misfits, revise (v0.3).
+2. Re-retrieve what was blocked (or take pasted text) and extend the snapshot set.
+3. Build the page over `data/policy/*.json`.

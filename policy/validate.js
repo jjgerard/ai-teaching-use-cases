@@ -77,8 +77,10 @@ function validate({ institutions, documents, codes, codebook, snapshots = {} }) 
     if (c.codebook_version !== codebook.version) err(`${id}: coded under codebook ${c.codebook_version}, current is ${codebook.version}`);
 
     const isState = typeof c.value === "string" && states.includes(c.value);
-    const applies = !v.applies_to || v.applies_to.includes(doc.audience) || (doc.audience === "all");
-    if (!applies && c.value !== "not_applicable") err(`${id}: variable does not apply to audience ${doc.audience}; must be not_applicable`);
+    const audOk = !v.applies_to || v.applies_to.includes(doc.audience) || doc.audience === "all";
+    const levelOk = !v.applies_to_levels || v.applies_to_levels.includes(doc.level);
+    const applies = audOk && levelOk;
+    if (!applies && c.value !== "not_applicable") err(`${id}: variable does not apply to ${audOk ? "level " + doc.level : "audience " + doc.audience}; must be not_applicable`);
 
     // misfit: no honest value. Left null, with a note, never forced.
     if (c.value === null) {
@@ -103,14 +105,24 @@ function validate({ institutions, documents, codes, codebook, snapshots = {} }) 
     }
   }
 
-  // --- gates: a gate that rules a dependent out forces not_applicable ------
+  // --- gates --------------------------------------------------------------
+  // if_in:       when the gate's value is in the list, the dependent must be not_applicable
+  // only_if_in:  the dependent is applicable ONLY when the gate's value is in the list
+  const asList = (x) => (Array.isArray(x) ? x : [x]);
   for (const [docId, rows] of byDoc) {
     for (const v of vars.values()) {
       if (!v.gate) continue;
       const gate = rows.get(v.gate.variable);
       const own = rows.get(v.id);
-      if (gate && own && v.gate.if_in.includes(gate.value) && own.value !== "not_applicable") {
-        err(`${docId}/${v.id}: gate ${v.gate.variable}=${gate.value} rules this out, so it must be not_applicable, found ${JSON.stringify(own.value)}`);
+      if (!own || own.value === "not_applicable" || own.value === null) continue;
+      if (v.gate.if_in && gate && asList(gate.value).some((x) => v.gate.if_in.includes(x))) {
+        err(`${docId}/${v.id}: gate ${v.gate.variable}=${JSON.stringify(gate.value)} rules this out, so it must be not_applicable, found ${JSON.stringify(own.value)}`);
+      }
+      if (v.gate.only_if_in) {
+        if (!gate) err(`${docId}/${v.id}: depends on ${v.gate.variable}, which is not coded for this document`);
+        else if (!asList(gate.value).some((x) => v.gate.only_if_in.includes(x))) {
+          err(`${docId}/${v.id}: only applies when ${v.gate.variable} is ${v.gate.only_if_in.join("|")}; it is ${JSON.stringify(gate.value)}, so this must be not_applicable, found ${JSON.stringify(own.value)}`);
+        }
       }
     }
   }
@@ -144,7 +156,8 @@ function checkValue(v, c, id, err) {
       if (new Set(c.value).size !== c.value.length) err(`${id}: duplicate values in list`);
       break;
     case "boolean":
-      if (typeof c.value !== "boolean") err(`${id}: expected true or false, got ${JSON.stringify(c.value)}`);
+      // false is refused: absence is none_exists (document says so) or not_stated (it doesn't)
+      if (c.value !== true) err(`${id}: boolean variables take true only; use none_exists or not_stated for absence, got ${JSON.stringify(c.value)}`);
       break;
     case "integer":
     case "number":
@@ -178,7 +191,17 @@ function checkCodebook(cb) {
       }
     }
     if (v.grain == null) errors.push(`${v.id}: grain must be declared ("document" or "list")`);
-    if (v.gate && !byId.has(v.gate.variable)) errors.push(`${v.id}: gate refers to unknown variable ${v.gate.variable}`);
+    if (v.gate) {
+      const g = byId.get(v.gate.variable);
+      if (!g) errors.push(`${v.id}: gate refers to unknown variable ${v.gate.variable}`);
+      else if (!v.gate.if_in && !v.gate.only_if_in) errors.push(`${v.id}: gate needs if_in or only_if_in`);
+      else if (g.values) {
+        const gids = g.values.map((x) => x.id);
+        for (const x of v.gate.if_in || v.gate.only_if_in) if (!gids.includes(x)) errors.push(`${v.id}: gate value ${x} is not a value of ${g.id}`);
+      }
+    }
+    if (!v.question) errors.push(`${v.id}: needs a question`);
+    if (["integer", "number"].includes(v.type) && !v.gate && v.min == null) errors.push(`${v.id}: numeric variable should declare min`);
   }
   return errors;
 }
@@ -206,7 +229,7 @@ if (require.main === module) {
   const cbErrors = checkCodebook(data.codebook);
   const { errors, warnings, gaps } = validate(data);
   for (const w of warnings) console.log("warn:", w);
-  for (const [k, g] of Object.entries(gaps)) console.log(`gaps ${k}:`, JSON.stringify(g));
+  if (data.documents.length) for (const [k, g] of Object.entries(gaps)) console.log(`gaps ${k}:`, JSON.stringify(g));
   const all = [...cbErrors.map((e) => "codebook: " + e), ...errors];
   for (const e of all) console.error("ERROR:", e);
   console.log(`${data.documents.length} documents, ${data.codes.length} codes, ${all.length} errors, ${warnings.length} warnings`);
