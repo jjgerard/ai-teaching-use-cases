@@ -11,8 +11,8 @@
    "addressee": "student",
    "force": "must_not",
    "topic": "prohibited_uses",
-   "specific": "Do not use GenAI for critical thinking, analysis, evaluation or synthesis, or to generate essays, poems or creative works.",
-   "gist": true
+   "specific": true,
+   "gist": "Do not use GenAI for critical thinking, analysis, evaluation or synthesis, or to generate essays, poems or creative works."
   },
   {
    "point_id": "p02",
@@ -21,8 +21,8 @@
    "addressee": "student",
    "force": "explains",
    "topic": "integrity_and_consequences",
-   "specific": "Unauthorised or unacknowledged GenAI content in assessed work is academic misconduct, investigated as plagiarism under the Code of Practice on Student Discipline (Academic).",
-   "gist": true
+   "specific": true,
+   "gist": "Unauthorised or unacknowledged GenAI content in assessed work is academic misconduct, investigated as plagiarism under the Code of Practice on Student Discipline (Academic)."
   },
   {
    "point_id": "p03",
@@ -31,8 +31,8 @@
    "addressee": "student",
    "force": "must_not",
    "topic": "data_privacy_and_confidentiality",
-   "specific": "Learning materials and assessment information must not be entered into GenAI tools without the author's explicit permission.",
-   "gist": true
+   "specific": true,
+   "gist": "Learning materials and assessment information must not be entered into GenAI tools without the author's explicit permission."
   },
   {
    "point_id": "p04",
@@ -41,8 +41,8 @@
    "addressee": "student",
    "force": "must_not",
    "topic": "data_privacy_and_confidentiality",
-   "specific": "Never enter personal and sensitive data into GenAI tools.",
-   "gist": true
+   "specific": true,
+   "gist": "Never enter personal and sensitive data into GenAI tools."
   },
   {
    "point_id": "p05",
@@ -51,8 +51,8 @@
    "addressee": "student",
    "force": "must",
    "topic": "who_decides_course_rules",
-   "specific": "Follow the Course Coordinator's assessment guidelines and check the course guide and assessment instructions on GenAI use.",
-   "gist": true
+   "specific": true,
+   "gist": "Follow the Course Coordinator's assessment guidelines and check the course guide and assessment instructions on GenAI use."
   },
   {
    "point_id": "p06",
@@ -61,8 +61,8 @@
    "addressee": "student",
    "force": "may",
    "topic": "permitted_uses",
-   "specific": "If authorised by the Course Coordinator, GenAI can aid completing an assignment but must not generate the assignment or part of it submitted as your own.",
-   "gist": true
+   "specific": true,
+   "gist": "If authorised by the Course Coordinator, GenAI can aid an assignment but must not generate it or part of it as your own work."
   },
   {
    "point_id": "p07",
@@ -71,8 +71,8 @@
    "addressee": "student",
    "force": "must",
    "topic": "integrity_and_consequences",
-   "specific": "Keep copies of drafts, notes, workings and annotations to show how your ideas and writing developed.",
-   "gist": true
+   "specific": true,
+   "gist": "Keep copies of drafts, notes, workings and annotations to show how your ideas and writing developed."
   },
   {
    "point_id": "p08",
@@ -81,8 +81,8 @@
    "addressee": "student",
    "force": "explains",
    "topic": "integrity_and_consequences",
-   "specific": "If suspected of inappropriate use, evidence of the creation process may be required, such as earlier drafts, notes or documentation.",
-   "gist": true
+   "specific": true,
+   "gist": "If suspected of inappropriate use, evidence of the creation process may be required, such as earlier drafts, notes or documentation."
   },
   {
    "point_id": "p09",
@@ -91,8 +91,8 @@
    "addressee": "student",
    "force": "explains",
    "topic": "integrity_and_consequences",
-   "specific": "You might be asked to discuss your submission so staff can judge whether your knowledge matches the assignment.",
-   "gist": true
+   "specific": true,
+   "gist": "You might be asked to discuss your submission so staff can judge whether your knowledge matches the assignment."
   },
   {
    "point_id": "p10",
@@ -101,8 +101,8 @@
    "addressee": "student",
    "force": "should",
    "topic": "disclosure_and_acknowledgement",
-   "specific": "Acknowledgement should include a statement summarising how the tools were used.",
-   "gist": true
+   "specific": true,
+   "gist": "Acknowledgement should include a statement summarising how the tools were used."
   },
   {
    "point_id": "p11",
@@ -111,8 +111,8 @@
    "addressee": "student",
    "force": "should",
    "topic": "ethics_bias_environment",
-   "specific": "Reflect on how you use GenAI to minimise its electricity and water impact.",
-   "gist": true
+   "specific": true,
+   "gist": "Reflect on how you use GenAI to minimise its electricity and water impact."
   },
   {
    "point_id": "p12",
@@ -121,8 +121,8 @@
    "addressee": "student",
    "force": "encouraged",
    "topic": "tools_provided_or_recommended",
-   "specific": "GenAI can format a reference list in a specified citation style, though staff and students have access to ProQuest Refworks.",
-   "gist": true
+   "specific": true,
+   "gist": "GenAI can format a reference list in a specified citation style, though staff and students have access to ProQuest Refworks."
   },
   {
    "point_id": "p13",
@@ -131,8 +131,8 @@
    "addressee": "student",
    "force": "should",
    "topic": "accuracy_and_verification",
-   "specific": "Critically evaluate GenAI outputs and fact check them using academic and discipline-specific sources.",
-   "gist": true
+   "specific": true,
+   "gist": "Critically evaluate GenAI outputs and fact check them using academic and discipline-specific sources."
   }
  ]
 }
