@@ -1,0 +1,109 @@
+{
+ "doc_id": "aberdeen-students-genai-202610",
+ "coder": "aud-a37",
+ "checked_types": 61,
+ "found": [
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "GenAI tools can be a useful learning aid, for example by summarising complex concepts in a form that you may find easier to understand.",
+   "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning"
+  },
+  {
+   "type": "spelling_grammar_proofreading_permitted",
+   "quote": "Enhancing your writing skills by providing suggestions on alternative ways to communicate to improve the coherence, style and grammar of your writing",
+   "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning"
+  },
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "If in doubt about their use ask your Course Coordinator.",
+   "anchor": "3. Your Responsibilities When Submitting Work for Assessment"
+  },
+  {
+   "type": "must_acknowledge_or_declare_ai_use",
+   "quote": "If you use GenAI tools for preparing your assignment, ensure you acknowledge them according to the guidance available.",
+   "anchor": "3. Your Responsibilities When Submitting Work for Assessment"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "Consult the detailed guidance on acknowledging the use of GenAI tools for further information.",
+   "anchor": "4. How to Acknowledge the Use of GenAI Content"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "will be regarded as academic misconduct and investigated as a plagiarism offence under the Code of Practice on Student Discipline (Academic).",
+   "anchor": null
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "You can find out more about what GenAI is through our toolkit resources.",
+   "anchor": null
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "our Student Learning Service (SLS), which is there to help you enhance your academic skills including academic writing, maths skills and study skills.",
+   "anchor": "5. Support Available"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "The University is committed to supporting staff and students to use generative artificial intelligence (GenAI) tools in a responsible, critical, and ethical manner.",
+   "anchor": null
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "since GenAI models inherit biases from their training data it is essential to identify and correct these biases in any outputs that you then use",
+   "anchor": "1.3 Ethical considerations"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "GenAI tools can generate new content from content produced by people (e.g. artists, musicians, writers, scientists) without acknowledging them, which is regarded as plagiarism.",
+   "anchor": "1.4 Copyright and plagiarism"
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "Regularly updated: last update 15 September 2025.",
+   "anchor": null
+  }
+ ],
+ "unsure": [
+  {
+   "type": "default_ai_banned_unless_authorised",
+   "quote": "GenAI tools, if authorised by the Course Coordinator, can aid the process of completing an assignment",
+   "why": "Authorisation route stated but no explicit default ban"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "If your Course Coordinator has made it clear that you can use GenAI tools in work submitted for assessment, ensure you understand to what extent these tools can be used.",
+   "why": "Implies local decision; framed as student instruction"
+  },
+  {
+   "type": "student_responsible_for_ai_content",
+   "quote": "It is your responsibility to ensure you can satisfy the staff member that the work you submitted for assessment is your own original work.",
+   "why": "Responsibility for authorship proof, not AI content accuracy"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "this usage has not been acknowledged or was explicitly prohibited according to the assessment guidelines",
+   "why": "Describes suspicion trigger, not labelled misconduct"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "In instances where a staff member suspects that there are elements in your assessed work that have been created using GenAI tools",
+   "why": "Suspicion process without detection method"
+  },
+  {
+   "type": "personal_or_confidential_data_only_under_stated_conditions",
+   "quote": "Always ensure that you have the appropriate permissions in place before entering any data into these tools.",
+   "why": "Permission condition on data generally, not clearly personal data"
+  },
+  {
+   "type": "do_not_upload_copyright_or_third_party_material",
+   "quote": "There are risks to data privacy and intellectual property when entering prompts or data into GenAI tools.",
+   "why": "Loose IP risk mention, no third-party copyright statement"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "Comments? Email cad@abdn.ac.uk.",
+   "why": "Generic feedback address, not student involvement in policy"
+  }
+ ]
+}
