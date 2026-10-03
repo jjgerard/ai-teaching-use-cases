@@ -1,0 +1,99 @@
+{
+ "doc_id": "mary-immaculate-students-genai-202610",
+ "coder": "aud-a3",
+ "checked_types": 59,
+ "found": [
+  {
+   "type": "spelling_grammar_proofreading_permitted",
+   "quote": "Generative AI can be used to check for errors in spelling, punctuation, syntax, and/or incorrect word choices.",
+   "anchor": "Spelling and Grammar"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "The outputs from LLM powered Generative AIs often assume the voice of an expert but their outputs often include false information. This can be problematic for non-experts who are still studying their subjects of interest, as the professional tone of the outputs can make errors hard to spot",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "As Generative AI draws on the data of others without referencing this material, it in a sense plagiarises ideas, concepts and, at times, phrasings.",
+   "anchor": "Academic Integrity"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "This is why it is very important that we cite the Generative AI we use and make sure that any content that is used verbatim is put within quotation marks and referenced.",
+   "anchor": "Academic Integrity"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "If a student's use of Generative AI is in violation of the Academic Integrity Policy, and aligns with the policy's definition of plagiarism or academic dishonesty, the student will have engaged in academic misconduct.",
+   "anchor": "Academic Misconduct and Generative AI"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "Academic Dishonesty Includes: […] using technical assistance in assignments where it has not been authorised, e.g. using translation software in a translation assignment.",
+   "anchor": "Academic Misconduct and Generative AI"
+  },
+  {
+   "type": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "quote": "if a student's assessment submission contains indicators of the use of GenAI, without any citation of the use of GenAI tools, then there may be a case for further investigation for a breach of the MIC Academic Integrity Policy.",
+   "anchor": "Considerations Relating to Suspected Breaches of the Academic Integrity Policy"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "the agreed procedures for reporting suspected breaches should be followed, as outlined in the MIC Code of Student Conduct.",
+   "anchor": "Considerations Relating to Suspected Breaches of the Academic Integrity Policy"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "The unauthorised use of GenAI can be challenging to identify. However, the following may be indicators:",
+   "anchor": "Considerations Relating to Suspected Breaches of the Academic Integrity Policy"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "MIC’s Academic Integrity Quiz is designed to help you test your knowledge and understand best practices that are in line with the MIC Academic Integrity Policy.",
+   "anchor": "Academic Integrity Interactive Quiz"
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "Some tools will collect the data that is inputted into them.",
+   "anchor": "How does Generative AI manage data?"
+  },
+  {
+   "type": "do_not_upload_university_teaching_materials",
+   "quote": "they cannot input MIC data (e.g. lecture recordings, assessments, PowerPoint slides, other academic resources provided by MIC)",
+   "anchor": "For Students"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "Be sure to prioritise your own academic judgement, the academic judgement of your lecturer and the scholarly works you have engaged with over a Generative AI output.",
+   "why": "Framed as reliability caution, not replacing thinking"
+  },
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "In the case where students are required to use a particular GenAI application as part of an assessment task",
+   "why": "Conditional mention, not stating assessments require AI"
+  },
+  {
+   "type": "ensure_equal_access_to_ai_tools",
+   "quote": "Consideration should be given to the ethical access to GenAI and sustainability concerns surrounding the use of AI technology.",
+   "why": "Vague ethical access, not clearly equity of access"
+  },
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "An AI tool that seeks to help the user to improve grammar, spelling and syntax without generating new material/rewriting the text.",
+   "why": "Glossary definition, not a rule"
+  },
+  {
+   "type": "get_consent_before_recording_or_transcribing_others",
+   "quote": "including the recording of staff or student voices or images, staff lecture slides and materials, publications or fellow students' assessments into AI systems without written prior consent",
+   "why": "About inputting recordings, not recording itself"
+  },
+  {
+   "type": "translation_tools_restricted",
+   "quote": "e.g. using translation software in a translation assignment.",
+   "why": "Example within unauthorised assistance clause"
+  }
+ ]
+}

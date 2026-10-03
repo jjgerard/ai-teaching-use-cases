@@ -1,0 +1,29 @@
+{
+ "doc_id": "ul-students-genai-202610",
+ "coder": "aud-a16",
+ "checked_types": 67,
+ "found": [
+  {
+   "type": "spelling_grammar_proofreading_permitted",
+   "quote": "Correct spelling, grammar and punctuation",
+   "anchor": "What are the possible uses of Gen AI?"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "Further requirements may be stipulated by a Department, academic programme, or individual teaching staff. These should be made clear within the assignment brief.",
+   "anchor": "How should a student acknowledge the use of Gen AI within their work?"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "include_prompts_and_outputs_as_evidence",
+   "quote": "describing the instructions or prompts you gave the AI platform, the results generated and how they contributed to your work",
+   "why": "describes prompts in acknowledgement text, not attachment as evidence"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "The Glucksman Library has added a couple of examples of how to handle GenAI to their Frequently Asked Questions site.",
+   "why": "points to library examples, unclear referencing guidance"
+  }
+ ]
+}

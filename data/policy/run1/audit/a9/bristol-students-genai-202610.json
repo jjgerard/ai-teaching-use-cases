@@ -1,0 +1,34 @@
+{
+ "doc_id": "bristol-students-genai-202610",
+ "coder": "aud-a9",
+ "checked_types": 63,
+ "found": [
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "For advice around how and when to use AI, contact your lecturer, school, personal tutor or supervisor.",
+   "anchor": "Using artificial intelligence (AI) in assessments and for studying"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Study skills AI tutorial explores how AI can support your learning.",
+   "anchor": "How to use AI to study"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "default_ai_permitted_unless_restricted",
+   "quote": "If you have not been given any other instructions, use this as the default category for your assessment and studying.",
+   "why": "default is minimal tier, not general permission"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "The library's AI guide helps you to critically reflect on the role of AI in academic research processes, such as finding literature and summarising texts.",
+   "why": "points to guide; no explicit permission"
+  },
+  {
+   "type": "do_not_upload_university_teaching_materials",
+   "quote": "Do not upload university-sensitive data into AI tools unless you have been given permission by academic staff.",
+   "why": "intellectual property listed but not teaching materials"
+  }
+ ]
+}

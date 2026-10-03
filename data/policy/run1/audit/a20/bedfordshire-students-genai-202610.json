@@ -1,0 +1,39 @@
+{
+ "doc_id": "bedfordshire-students-genai-202610",
+ "coder": "aud-a20",
+ "checked_types": 64,
+ "found": [
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "Identify ideas and concepts to research further.",
+   "anchor": "Can I use AI in my assignment?"
+  },
+  {
+   "type": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "quote": "Cutting and pasting all or some of the content created by the AI used and not citing could be considered plagiarism.",
+   "anchor": "Can AI be detected in assignments?"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "it would be considered under the university Academic Integrity Policy as work produced by a third party",
+   "anchor": "Can AI be detected in assignments?"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "The Skills for Success open access guidance can help with essay planning, interpreting graphs etc.",
+   "anchor": "Can I use AI in my assignment?"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_must_not_write_assessed_work_for_you",
+   "quote": "Think about AI as a tool to help with your assignment, not create your assignment.",
+   "why": "Closer to support-not-replace principle than explicit prohibition"
+  },
+  {
+   "type": "submitted_work_must_be_own_not_ai_generated",
+   "quote": "It is your voice, your abilities to manage and interpret data, your literacy skills that you need to demonstrate in assignments",
+   "why": "Implied authorship expectation, no explicit rule"
+  }
+ ]
+}

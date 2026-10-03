@@ -1,0 +1,29 @@
+{
+ "doc_id": "cranfield-students-genai-202610",
+ "coder": "aud-a3",
+ "checked_types": 73,
+ "found": [
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "We will do our best to keep the information you can find here up to date but AI is a fast-moving area.",
+   "anchor": "Introduction"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "The Digital Skills Hub also contains support for using AI, including LinkedIn Learning training.",
+   "why": "Named hub but may be training resource only"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "This guide explains how you can use it appropriately and transparently in your studies and introduces some tools that can help you.",
+   "why": "Implicit enabling stance, not explicit commitment"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "if you want to make us aware of any useful tools or resources we haven't mentioned, please email us.",
+   "why": "Feedback invitation, not governance involvement"
+  }
+ ]
+}

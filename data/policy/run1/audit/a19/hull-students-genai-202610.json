@@ -1,0 +1,74 @@
+{
+ "doc_id": "hull-students-genai-202610",
+ "coder": "aud-a19",
+ "checked_types": 60,
+ "found": [
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "Using AI is like using any other source—if you don’t acknowledge it, it’s plagiarism.",
+   "anchor": "2 AI Guidance"
+  },
+  {
+   "type": "submitted_work_must_be_own_not_ai_generated",
+   "quote": "All work you submit should be your own.",
+   "anchor": "2 AI Guidance"
+  },
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "Write or rewrite your work for you",
+   "anchor": "3 AI in Assessment"
+  },
+  {
+   "type": "spelling_grammar_proofreading_permitted",
+   "quote": "Suggest corrections for spelling and punctuation",
+   "anchor": "3 AI in Assessment"
+  },
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "In some cases, you might be asked to use AI directly. These assignments will be clearly marked with instructions on what is allowed.",
+   "anchor": "3 AI in Assessment"
+  },
+  {
+   "type": "ai_output_may_be_included_when_assessment_allows",
+   "quote": "If you’ve been given permission to include AI-generated content in your work",
+   "anchor": "4 How to Acknowledge the Use of AI"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "AI tools may reflect biases present in the data they were trained on",
+   "anchor": "2 AI Guidance"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "AI can generate content from text or images without the original creator’s consent, raising ethical issues about creativity and authorship.",
+   "anchor": "2 AI Guidance"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "the University’s AI SkillsGuide provides instructions on how to reference it.",
+   "anchor": "4 How to Acknowledge the Use of AI"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "submit_declaration_form_with_assessment",
+   "quote": "You might need to make a general statement about your AI use",
+   "why": "Statement mentioned but no form or place stated; conditional."
+  },
+  {
+   "type": "declaration_must_state_tool_and_how_used",
+   "quote": "You might need to make a general statement about your AI use or include details of the prompts you used.",
+   "why": "Content of disclosure vague and conditional."
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "ensure that AI is used ethically, transparently, and fairly, so you can benefit from it while still upholding academic standards",
+   "why": "Mild benefit framing rather than explicit enabling stance."
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "This guidance should be read alongside the Academic Misconduct Regulations.",
+   "why": "Points to regulations without saying AI cases go through them."
+  }
+ ]
+}

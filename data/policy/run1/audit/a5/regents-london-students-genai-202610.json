@@ -1,0 +1,39 @@
+{
+ "doc_id": "regents-london-students-genai-202610",
+ "coder": "aud-a5",
+ "checked_types": 67,
+ "found": [
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "This may also include the use of Artificial Intelligence (AI) tools beyond what is permitted in the assessment instructions.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "Unauthorised use of artificial intelligence (AI) tools. How you can use AI tools in your work will be described in your assessment brief and where you have used this, it must be appropriately referenced.",
+   "anchor": "Types of Academic Misconduct"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "A penalty is issued where we have found there to be academic misconduct and this ranges from lowering your overall mark to withdrawal in extremely serious cases.",
+   "why": "Generic misconduct penalties, not AI-specific."
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "You have the right to appeal the decision of the Academic Misconduct Panel",
+   "why": "General misconduct appeal rights; AI not mentioned there."
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "How you can use AI tools in your work will be described in your assessment brief",
+   "why": "Descriptive of brief, not an instruction to student."
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Fraud includes faking (or presenting faked) data, references, evidence, or experimental results",
+   "why": "Fraud label but no AI-generation mentioned."
+  }
+ ]
+}

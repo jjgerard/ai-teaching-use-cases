@@ -1,0 +1,139 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-students-genai-202610",
+ "coder": "aud-a12",
+ "checked_types": 57,
+ "found": [
+  {
+   "type": "submitted_work_must_be_own_not_ai_generated",
+   "quote": "the intellectual effort and creativity must come from the individual.",
+   "anchor": "Original work"
+  },
+  {
+   "type": "ai_must_not_write_assessed_work_for_you",
+   "quote": "its use to generate content relating to the substantive aspect of the assessment would generally not be acceptable.",
+   "anchor": "General guidance for assessments"
+  },
+  {
+   "type": "assistive_technology_use_permitted",
+   "quote": "Accessibility: AI can be used to create captions for audio-visual content, which is particularly useful for hearing-impaired or English as an additional language (EAL) students.",
+   "anchor": "For students"
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "There is also a danger for both faculty and students that cognitive offloading to GenAI may increase reliance on it, which may result in disempowerment over time.",
+   "anchor": "AI concerns and risks"
+  },
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "Asking students to work in groups to review and critique GenAI produced content with regard to aspects such as logic, consistency, accuracy, and bias, and to produce enhanced versions of the Gen AI output.",
+   "anchor": "Recommendations for redesigning asynchronous assessments"
+  },
+  {
+   "type": "assessment_redesigned_to_test_process_and_understanding",
+   "quote": "Focusing on the process as well as the product of assessment activity and using version histories to verify students' work",
+   "anchor": "Recommendations for redesigning asynchronous assessments"
+  },
+  {
+   "type": "should_or_encouraged_to_acknowledge_ai_use",
+   "quote": "Staff and students should adhere to the highest standards of academic integrity, including transparency regarding their use of GenAI in the preparation of materials.",
+   "anchor": "Ethical Principles"
+  },
+  {
+   "type": "declaration_must_state_tool_and_how_used",
+   "quote": "acknowledgment of the GenAI tool used and the segment in which it was used in the completion of the assessment.",
+   "anchor": "General guidance for assessments"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "Clear guidelines and examples for citing GenAI are provided by the RCSI Library to assist students and staff.",
+   "anchor": "Citing AI when used"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "When GenAI models or tools are used in academic work or research, proper citation is required.",
+   "anchor": "Citing AI when used"
+  },
+  {
+   "type": "do_not_upload_copyright_or_third_party_material",
+   "quote": "it is important for both students and faculty to obtain permission before submitting content owned by another person to a GenAI platform.",
+   "anchor": "Addressing data privacy and security"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Education, training, and support should be made available for staff and students to ensure that the university community navigates the evolving landscape of AI with confidence.",
+   "anchor": "Support for staff and students"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "it is committed to supporting staff and students to use GenAI tools effectively, ethically, and transparently.",
+   "anchor": "RCSI's position on GenAI"
+  },
+  {
+   "type": "staff_should_disclose_own_ai_use",
+   "quote": "Staff and students should adhere to the highest standards of academic integrity, including transparency regarding their use of GenAI in the preparation of materials.",
+   "anchor": "Ethical Principles"
+  },
+  {
+   "type": "ai_environmental_impact",
+   "quote": "Training the large-language models (LLMs), on which GenAI is based, requires significant computational resources, which can have a substantial negative environmental impact.",
+   "anchor": "AI concerns and risks"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "AI can perpetuate or amplify biases present in the training data, leading to discriminatory outputs.",
+   "anchor": "AI concerns and risks"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "GenAI models are trained on large volumes of data, very often appropriated from the Internet without the permission of the original creator.",
+   "anchor": "AI concerns and risks"
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "policies and guidance will require continual monitoring and development.",
+   "anchor": "Support for staff and students"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "Study aid: AI can serve as a study aid, providing explanations and clarifications on complex topics and generating summaries and practice questions for revision.",
+   "anchor": "For students"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "consider_whether_ai_fits_learning_outcomes",
+   "quote": "Consider the pedagogical approach, the learning outcomes being assessed and whether the proposed assessment can validly incorporate the use of GenAI.",
+   "why": "Addressed to assessors, not students."
+  },
+  {
+   "type": "assessment_tiered_ai_use_categories",
+   "quote": "may prove a useful source (see Figure 1).",
+   "why": "Scale only referenced; tiers not described in text."
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "Data inputted into GenAI platforms may not be secure.",
+   "why": "Security warning, not retention or training."
+  },
+  {
+   "type": "research_use_of_ai_needs_ethics_approval_or_consent",
+   "quote": "It is the user's responsibility to ensure that the necessary consents have been obtained in order to use any such data.",
+   "why": "Consent mentioned, no ethics review link."
+  },
+  {
+   "type": "must_acknowledge_or_declare_ai_use",
+   "quote": "Acknowledging the role of GenAI not only ensures transparency but also contributes to the scholarly discourse.",
+   "why": "Duty implied via citation required; no explicit must."
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "Clear guidelines and examples for citing GenAI are provided by the RCSI Library to assist students and staff.",
+   "why": "Library named but only for citation guidance."
+  },
+  {
+   "type": "staff_not_to_use_ai_to_grade_or_give_feedback",
+   "quote": "AI-informed decision making should always be subject to human oversight.",
+   "why": "General oversight, not marking by staff specifically."
+  }
+ ]
+}

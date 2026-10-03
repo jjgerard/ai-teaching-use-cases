@@ -1,0 +1,34 @@
+{
+ "doc_id": "anglia-ruskin-students-genai-202610",
+ "coder": "aud-a7",
+ "checked_types": 73,
+ "found": [
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "ARU recognises the potential AI offers for enhancing learning, research and skill building. We also acknowledge some of the challenges it poses",
+   "anchor": "How we're using AI at ARU"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "We provide structured guidance, tips and videos to help you use AI effectively and ethically in your studies and assessments within our guidelines and regulations.",
+   "anchor": "How does ARU support you to use AI in your studies?"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "We offer clear information on what you can and cannot do with AI, ensuring you understand appropriate and responsible use.",
+   "anchor": "How does ARU support you to use AI in your studies?"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "While AI can support learning, you’ll still need to develop the ability to understand and communicate complex ideas clearly",
+   "why": "Implies AI should not replace thinking; framed as career skill"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "Using AI as a Study Buddy. These pages help you use AI safely, productively and in line with academic expectations.",
+   "why": "Page label implies study use but not explicit permission"
+  }
+ ]
+}

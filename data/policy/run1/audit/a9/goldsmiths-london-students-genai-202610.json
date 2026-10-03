@@ -1,0 +1,54 @@
+{
+ "doc_id": "goldsmiths-london-students-genai-202610",
+ "coder": "aud-a9",
+ "checked_types": 73,
+ "found": [
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "we will try our best to keep this guide as up to date as possible, however given the rapid pace of technological development in the AI area we may fall behind. We'll be reviewing the content here termly",
+   "anchor": "Introduction"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "There are video resources; articles on responsible usage; links to College policies; tips and tricks to effectively engineer your prompts",
+   "anchor": "Introduction"
+  },
+  {
+   "type": "ai_environmental_impact",
+   "quote": "concerns around the environment and the climate emergency",
+   "anchor": "Introduction"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "the perpetuation of western and white-centric structures of power and knowledge and ingrained societal biases",
+   "anchor": "Introduction"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "content ownership and copyright questions",
+   "anchor": "Introduction"
+  },
+  {
+   "type": "institution_does_not_endorse_or_provide_listed_tools",
+   "quote": "This LibGuide is not an endorsement of any generative AI tool or feature",
+   "anchor": "Introduction"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "we want to try to ensure that those who choose to engage with these tools do so in a way that is as responsible, safe and critical as possible.",
+   "why": "acknowledges ubiquity; stance neutral rather than enabling"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "Contact the Library",
+   "why": "library contact generic, not AI-specific help"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "if you see something that is critically out of date, or if there is something we have forgotten to include - just let us know via the feedback form",
+   "why": "feedback on guide only, not policy"
+  }
+ ]
+}
