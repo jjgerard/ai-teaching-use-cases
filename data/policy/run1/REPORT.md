@@ -83,3 +83,26 @@ Extrapolating to the remaining 110 institutions (about 105 with documents): disc
 ## Not done
 
 Staff and PGR layer; tier 2 (110 institutions); OfS register check of the England frame; human double-coding; the page.
+
+## Update: guidance points and statement types (2026-10-03)
+
+**Scope now.** 170 institutions on the curated list. 118 documents read and registered: 116 with extracted guidance points (1,314 points, 1,263 specific), 2 recorded as setting no rules.
+Not archived and listed for a local fetch: 44 (`FOR-USER-FETCH.md`). Deferred as oversized regulation bundles: Ravensbourne, Hartpury, Plymouth Marjon, Health Sciences University.
+The 78-variable classification covers only the original 47 documents; tier 2 got guidance points only.
+
+**Guidance points** (`policy/POINTS-BRIEF.md`, `policy/points.js`, `data/policy/points.json`). Each point is a verbatim quote (validated against the archived snapshot) with a source link, anchor, wording strength,
+addressee, coarse theme and a one-line gist. The gist is the only unchecked prose: agents reported being tempted to add context beyond the quote, and it has not been audited.
+
+**Statement types** (`policy/STATEMENT-TYPES-BRIEF.md`, `policy/CLAIMS-BRIEF.md`, `policy/claims.js`, `data/policy/run1/claims/`, `data/policy/claims.json`).
+A closed vocabulary of recurring statements, derived from the quotes of a random half of the institutions (v0, 69 types), tested on the other half
+(647 points, 58 institutions: 69% clear fit, 21% partial, 10% none), then revised to v1 (74 types: 10 added, 5 merged pairs, about 50 decision rules tightened).
+All 1,263 specific points were then classified against v1: 81% clear, 14% partial, 5% unclassified.
+A random 10% (126 points) was classified a second time independently: exact type agreement 91.3%, same theme 96%, Cohen's kappa 0.91.
+Limits: both passes are the same model; v1 was built using all points and has not been tested on held-out institutions in its final form; statements are counted by institution, not by point;
+a statement missing from a document may only mean it is not mentioned there.
+
+**Trends visible so far** (84 institutions whose documents have 8 or more specific points; see the page). Most common statements: check AI output (42 of 84), presenting AI work as your own is misconduct (37),
+submit a declaration with assessments (36), the work must be your own (31), follow the assessment brief and local guidance (31), AI allowed for study and revision (29), the institution provides or recommends a tool (29).
+Defaults are split: "no AI unless expressly permitted" 19, "AI allowed unless restricted" 16 (many institutions state neither).
+Co-occurrence surviving false-discovery correction: assessments sorted into AI-use tiers with "no AI at all in a given assessment" and with "some assessments require or critique AI use" (partly definitional);
+an institution-provided tool with data-protection assurances for that tool. Everything else is at or below chance for 1,275 comparisons.

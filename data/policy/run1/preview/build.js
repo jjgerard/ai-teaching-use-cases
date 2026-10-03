@@ -38,9 +38,9 @@ for (const d of PDIRS) for (const f of fs.readdirSync(d).filter((x) => x.endsWit
 const pdocIds = [...new Set([...points.map((p) => p.doc_id), ...Object.keys(noPts)])];
 const PDOCS = pdocIds.map((id) => { const d = docs.find((x) => x.doc_id === id); const inst = insts.find((i) => i.institution_id === d.institution_id); return { id, name: inst.name, region: REG[inst.region] || inst.region, url: d.url, words: d.word_count, retrieved: d.retrieved, none: noPts[id] || null }; }).sort((a, b) => a.name.localeCompare(b.name));
 const covAll = sample.map((s) => { const m = last.get(s.doc_id) || man.find((x) => x.doc_id === s.doc_id); let st; if (pdocIds.includes(s.doc_id)) st = "coded"; else if (nf.has(s.name) || (outcomes2.find((o) => o.name === s.name) || {}).outcome === "not_found") st = "none"; else if (s.name === "Ravensbourne University London" || /hartpury|plymouth-marjon|health-sciences/.test(s.doc_id)) st = "deferred"; else st = "fetch"; return { name: s.name, region: s.region, st }; });
-// ---- provisional statement-type trends (held-out half, vocabulary v0) ----
-const TYPES0 = rd("run1/claims/statement-types.v0.json").types;
-const CL = rd("claims-provisional.json");
+// ---- statement-type trends (full set, vocabulary v1) ----
+const TYPES0 = rd("run1/claims/statement-types.v1.json").types;
+const CL = rd("claims.json");
 const THIN = 8;
 const cdocs = [...new Set(CL.map((r) => r.doc_id))];
 const perDoc = Object.fromEntries(cdocs.map((d) => [d, { n: 0, types: new Set() }]));
@@ -59,7 +59,7 @@ function pairsFor(ids, minSupport) {
   return { docs: ids.length, tests_run: m, top: tests.slice(0, 12) };
 }
 const richIds = cdocs.filter((d) => perDoc[d].n >= THIN);
-const TRENDS = { types: TYPES0.map((t) => ({ id: t.id, label: t.label, group: t.group, def: t.definition })), rows: CL.map((r) => ({ d: r.doc_id, n: r.point_id, c: r.claim, c2: r.claim2, f: r.fit })), docs: cdocs, thin: THIN, nper: Object.fromEntries(cdocs.map((d) => [d, perDoc[d].n])), pairs: { all: pairsFor(cdocs, 5), rich: pairsFor(richIds, 5) }, vocab: "0", fitCounts: CL.reduce((o, r) => ((o[r.fit] = (o[r.fit] || 0) + 1), o), {}) };
+const TRENDS = { types: TYPES0.map((t) => ({ id: t.id, label: t.label, group: t.group, def: t.definition })), rows: CL.map((r) => ({ d: r.doc_id, n: r.point_id, c: r.claim, c2: r.claim2, f: r.fit })), docs: cdocs, thin: THIN, nper: Object.fromEntries(cdocs.map((d) => [d, perDoc[d].n])), minsup: 8, agreement: rd("run1/claims/agreement.json"), pairs: { all: pairsFor(cdocs, 8), rich: pairsFor(richIds, 8) }, vocab: "1", fitCounts: CL.reduce((o, r) => ((o[r.fit] = (o[r.fit] || 0) + 1), o), {}) };
 
 const html = fs.readFileSync(path.join(__dirname, "template.html"), "utf8").replace("__DATA__", JSON.stringify({ vars, docs: D, cov: covAll, patterns, version: codebook.version, points: points.slice().sort((a, b) => (PDOCS.findIndex((x) => x.id === a.doc_id) - PDOCS.findIndex((x) => x.id === b.doc_id)) || a.point_id.localeCompare(b.point_id)).map((p) => ({ d: p.doc_id, n: p.point_id, q: p.quote, a: p.anchor, ad: p.addressee, f: p.force, t: p.topic, s: p.specific, g: p.gist })), pdocs: PDOCS, trends: TRENDS }).replace(/</g, "\\u003c"));
 fs.writeFileSync(path.join(__dirname, "index.html"), html);
