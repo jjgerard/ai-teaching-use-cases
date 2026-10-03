@@ -1,0 +1,145 @@
+[
+ {
+  "ror_id": "https://ror.org/01khx4a30",
+  "name": "Goldsmiths University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.gold.ac.uk/AI",
+   "title": "Welcome - AI LibGuide (Generative AI Guidance)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Goldsmiths Library topic guide)",
+   "owner_as_stated": "Goldsmiths Library",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "notes": "Own library guide; guide links to College policies. Misconduct policy PDF downloaded and contains an AI clause.",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.gold.ac.uk/AI/assessment",
+    "title": "AI in Assessment (LibGuide tab)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.gold.ac.uk/media/docs/gam/Academic-Misconduct-Policy-and-Procedures.pdf",
+    "title": "Academic Misconduct Policy and Procedures (names AI)"
+   },
+   {
+    "audience": "students",
+    "url": "https://goldsmithscollege.sharepoint.com/sites/areas/talic/SitePages/Using-Gen-AI.aspx",
+    "title": "Using Gen AI (SharePoint, linked from guide, not retrieved)"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/0031n1577",
+  "name": "Leeds Arts University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://portal.leeds-art.ac.uk/node/6318",
+   "title": "HE Academic Misconduct Procedure",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (HE)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": false,
+   "http": null
+  },
+  "notes": "portal.leeds-art.ac.uk denied by the egress proxy (CONNECT 502), so no page could be retrieved; search results never showed AI text. Candidate is plausible only; whether it names AI is unconfirmed. Main www.leeds-art.ac.uk retrievable but showed no AI page. Re-check by browser import.",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://portal.leeds-art.ac.uk/content/academic-regulations-2024-25",
+    "title": "Academic Regulations 2024-25"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/05gd22996",
+  "name": "University of Cumbria",
+  "outcome": "found",
+  "doc": {
+   "url": "https://my.cumbria.ac.uk/Student-Life/Learning/Skills-Cumbria/Referencing-and-Avoiding-Plagiarism/Generative-Artificial-Intelligence/",
+   "title": "Generative Artificial Intelligence",
+   "kind": "guidance",
+   "audience_as_stated": "students (MyCumbria, Skills@Cumbria)",
+   "owner_as_stated": "Skills@Cumbria",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://my.cumbria.ac.uk/Student-Life/Your-Studies/Assessments/Malpractice/",
+    "title": "Academic Malpractice"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/05t1h8f27",
+  "name": "University of Huddersfield",
+  "outcome": "found",
+  "doc": {
+   "url": "https://students.hud.ac.uk/studies/ai/",
+   "title": "Artificial Intelligence guidance for students",
+   "kind": "guidance",
+   "audience_as_stated": "students (Students site, Study support)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://students.hud.ac.uk/studies/ai/principles/",
+    "title": "Principles for using AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.hud.ac.uk/policies/registry/regs-taught/section-10/",
+    "title": "Academic misconduct regulations (section 10)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://staff.hud.ac.uk/strategic-teaching-and-learning-team/project/academicintegrity/",
+    "title": "Academic Integrity (staff)"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/03rd8mf35",
+  "name": "Health Sciences University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.hsu.ac.uk/wp-content/uploads/2025/08/Academic-Integrity-and-Academic-Misconduct-Policy-and-Procedure-v1.3.pdf",
+   "title": "Academic Integrity and Misconduct Policy and Procedure",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (institution-wide policy)",
+   "owner_as_stated": "Academic Registrar",
+   "date_as_shown": "Effective from September 2025 (AY 2025-26)",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "notes": "No dedicated student AI page found after 4 queries; policy v1.3 (effective Sept 2025) names AI in misconduct clause, referencing an HSU AI Assessment Scale. Date shown on document: effective AY 2025-26.",
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://www.hsu.ac.uk/wp-content/uploads/2024/07/Course-Design-Framework-Combined-v2.0.pdf",
+    "title": "Course Design Framework (names generative AI; HSU AI Assessment Scale)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.hsu.ac.uk/about/policies-and-procedures/academic-regulations-policies-and-procedures/",
+    "title": "Academic regulations, policies and procedures (hub)"
+   }
+  ]
+ }
+]
