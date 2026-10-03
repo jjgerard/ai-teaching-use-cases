@@ -1,0 +1,152 @@
+[
+ {
+  "ror_id": "https://ror.org/00vs8d940",
+  "name": "University of Bradford",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bradford.ac.uk/__data/assets/file/0022/44455/Academic-Integrity-Policy.pdf",
+   "title": "Policy: Academic Integrity",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (Academic Misconduct, Student Casework)",
+   "owner_as_stated": "Tori McKay, Associate Director (Academic Experience); approved by Senate",
+   "date_as_shown": "Date of approval 15.10.2025",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bradford.ac.uk/academic-misconduct-appeals-and-student-complaints/academic-misconduct/",
+    "title": "Academic Misconduct - Student Casework"
+   }
+  ],
+  "queries": [
+   "University of Bradford generative AI students guidance (allowed_domains bradford.ac.uk)",
+   "University of Bradford academic integrity policy generative AI students acknowledge use assessment (allowed_domains bradford.ac.uk)"
+  ],
+  "notes": "No standalone student GenAI guidance found; policy names generative AI. The 2024-25 PDF URL returned by search now 404s; the linked current version was retrieved and read with pdftotext.",
+  "doc_id": "bradford-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/04xyxjd90",
+  "name": "Nottingham Trent University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.ntu.ac.uk/studenthub/news/2025/02/how-to-get-the-most-out-generative-ai-at-ntu",
+   "title": "How to get the most out of Generative AI at NTU",
+   "kind": "webpage",
+   "audience_as_stated": "students (Student Hub news)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.ntu.ac.uk/studenthub/news/2023/12/artificial-intelligence-ntu",
+    "title": "Artificial Intelligence @ NTU"
+   }
+  ],
+  "queries": [
+   "Nottingham Trent University generative AI students guidance (allowed_domains ntu.ac.uk)"
+  ],
+  "notes": "ntu.ac.uk returned HTTP 403 to curl and WebFetch (bot wall, not circumvented). Search snippet says main Generative AI Guidance sits in the Digital Skills Now learning room (URL not found); this news page is a pointer to it.",
+  "doc_id": "nottingham-trent-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/02fw9q305",
+  "name": "Norwich University of the Arts",
+  "outcome": "found",
+  "doc": {
+   "url": "https://norwichuni.ac.uk/about-us/governance/our-artificial-intelligence-ai-posture-for-students/",
+   "title": "Our Artificial Intelligence (AI) Posture for students",
+   "kind": "webpage",
+   "audience_as_stated": "students (Governance section)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://library.norwichuni.ac.uk/referencing/referencing-ai/",
+    "title": "Referencing AI (library)"
+   }
+  ],
+  "queries": [
+   "Norwich University of the Arts generative AI students guidance (allowed_domains norwichuni.ac.uk)"
+  ],
+  "notes": "Page refers to a Student AI Toolkit on the VLE (not public).",
+  "doc_id": "norwich-arts-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/042ver755",
+  "name": "University College Birmingham",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ucb.ac.uk/media/zzikgpgf/university-college-birmingham-artificial-intelligence-acceptable-use-policy.pdf",
+   "title": "Artificial Intelligence Acceptable Use Policy",
+   "kind": "policy",
+   "audience_as_stated": "staff, students, third-party suppliers and partners",
+   "owner_as_stated": "Reviewed by AI Working Group; approved by Digital Transformation Group",
+   "date_as_shown": "Approved June 2026; next review June 2027",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [],
+  "queries": [
+   "University College Birmingham generative AI students guidance (allowed_domains ucb.ac.uk)"
+  ],
+  "doc_id": "ucb-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/00340yn33",
+  "name": "Keele University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.keele.ac.uk/media/keeleuniversity/policyzone20/studentandacademicservices/AI-in-Education-Framework-2025-1.pdf",
+   "title": "Generative AI in Education Framework",
+   "kind": "policy",
+   "audience_as_stated": "staff and students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.keele.ac.uk/library/academicskills/studyguides/",
+    "title": "Study guides (lists 'Using Generative AI Effectively for Learning')"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.keele.ac.uk/media/keeleuniversity/policyzone20/studentandacademicservices/Student-Academic-Misconduct-CoP-2025.pdf",
+    "title": "Student Academic Misconduct Code of Practice"
+   }
+  ],
+  "queries": [
+   "Keele University generative AI students guidance (allowed_domains keele.ac.uk)",
+   "Keele Using Generative AI effectively for your learning study guide students (allowed_domains keele.ac.uk)"
+  ],
+  "notes": "Framework is institution-wide but addressed partly to staff; the student study guide's own URL could not be extracted from the hub page, so the framework was selected. No owner/date seen in text.",
+  "doc_id": "keele-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ }
+]

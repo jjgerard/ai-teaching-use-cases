@@ -1,0 +1,155 @@
+[
+ {
+  "ror_id": "https://ror.org/03z28gk75",
+  "name": "Teesside University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.tees.ac.uk/ArtificialIntelligence",
+   "title": "Artificial intelligence: a companion to learning (LibGuides)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Learning Hub library guide)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://blogs.tees.ac.uk/students/2024/10/28/use-ai-to-help-and-enhance-your-study-at-university/",
+    "title": "Use AI to Help and Enhance Your Study at University"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.tees.ac.uk/AcademicMisconduct",
+    "title": "Academic misconduct (LibGuide)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.tees.ac.uk/docs/index.cfm?folder=Student+regulations&name=New+or+Revised+Regs+%28since+September+2022%29&folder_id=52",
+    "title": "University documents: student regulations (search snippets mention RDC-J on generative AI in assessment; document not opened)"
+   }
+  ],
+  "queries": [
+   "Teesside University generative AI students guidance",
+   "Teesside academic integrity policy artificial intelligence",
+   "Teesside Generative AI Policy regulations assessment"
+  ],
+  "notes": "Library-hosted guide; a separate regulation (RDC-J) and GenAI policy were referenced in search snippets but the documents were not located or opened.",
+  "doc_id": "teesside-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/029tw2407",
+  "name": "University of Chichester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://help.chi.ac.uk/docs/using-ai-your-studies/",
+   "title": "Using AI at University",
+   "kind": "guidance",
+   "audience_as_stated": "students (UOC Help, Learning and Teaching section)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://help.chi.ac.uk/docs/ai/",
+    "title": "Generative AI"
+   }
+  ],
+  "doc_id": "chichester-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/03e5mzp60",
+  "name": "University of West London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uwl.ac.uk/current-students/support-students/using-generative-ai-find-sources-information",
+   "title": "Generative AI and your studies",
+   "kind": "guidance",
+   "audience_as_stated": "students (current students, study support)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.uwl.ac.uk/current-students/support-current-students/study-support/artificial-intelligence",
+    "title": "Generative AI and your studies (same content, HTTP 200)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.uwl.ac.uk/about-us/policies-and-regulations/staff-use-artificial-intelligence-AI",
+    "title": "Policy and guidance for staff on the use of AI"
+   }
+  ],
+  "doc_id": "west-london-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/00bge3r76",
+  "name": "The University of Law",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.law.ac.uk/ai-at-ulaw/",
+   "title": "AI at ULaw",
+   "kind": "hub",
+   "audience_as_stated": "students and colleagues (institution page)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://www.law.ac.uk/policies/",
+    "title": "Browse our policies"
+   }
+  ],
+  "notes": "Hub page; names 'Navigating AI: A Practical Guide for Students at ULaw' and academic integrity guidelines but no link to a standalone student document was found in the page HTML.",
+  "doc_id": "law-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/00a0jsq62",
+  "name": "London School of Hygiene & Tropical Medicine",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.lshtm.ac.uk/media/74671",
+   "title": "LSHTM Statement on using Artificial Intelligence (AI) in Assessments",
+   "kind": "policy",
+   "audience_as_stated": "students (per search snippet)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.lshtm.ac.uk/sites/default/files/academicwritinghandbook.pdf",
+    "title": "Academic Writing Handbook Guidance for students"
+   }
+  ],
+  "notes": "Direct fetch hit a Cloudflare bot wall (403); not bypassed. Title and content come from search results only.",
+  "doc_id": "london-school-hygiene-and-tropical-medicine-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ }
+]

@@ -1,0 +1,148 @@
+[
+ {
+  "ror_id": "https://ror.org/05wwcw481",
+  "name": "Bournemouth University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.bournemouth.ac.uk/news/2025-01-10/academic-integrity-artificial-intelligence-ai",
+   "title": "Academic integrity and artificial intelligence (AI)",
+   "kind": "webpage",
+   "audience_as_stated": "students (per search snippet)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bournemouth.ac.uk/news/2023-08-02/using-artificial-intelligence-support-assignments-or-assessments"
+   }
+  ],
+  "notes": "Whole bournemouth.ac.uk site returns a Cloudflare challenge (403); not bypassed. Search snippets mention a student guide on the Academic Skills Hub, whose URL was not found; this news item is a plausible stand-in.",
+  "doc_id": "bournemouth-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/028ndzd53",
+  "name": "Edge Hill University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.edgehill.ac.uk/departments/support/ls/uni-skills/genai/",
+   "title": "Generative Artificial Intelligence (GenAI) - Edge Hill University",
+   "kind": "webpage",
+   "audience_as_stated": "students (UniSkills, Library and Learning Services)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://eshare.edgehill.ac.uk/16667/",
+    "title": "A Student Guide to Ethical Use of Generative AI (eShare record, not read in full)"
+   },
+   {
+    "audience": "students",
+    "url": "https://figshare.edgehill.ac.uk/articles/educational_resource/Using_Generative_Artificial_Intelligence_-_A_Student_Guide_pdf/24259597"
+   }
+  ],
+  "notes": "Page returns a 'Checking your browser' challenge (403); not bypassed.",
+  "doc_id": "edge-hill-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/05v62cm79",
+  "name": "University of Reading",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.reading.ac.uk/essentials/Study/ai/using-generative-ai-tools-at-university",
+   "title": "Using Generative AI Tools at University",
+   "kind": "webpage",
+   "audience_as_stated": "students (support your studies)",
+   "owner_as_stated": "University of Reading (reading.ac.uk Essentials)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.reading.ac.uk/essentials/Study/ai/A-students-guide-to-using-Gen-AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.reading.ac.uk/generative-AI-and-university-study/UoR_policy",
+    "title": "library guide"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.reading.ac.uk/cqsd/artificial-intelligence"
+   }
+  ],
+  "doc_id": "reading-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/047ybhc09",
+  "name": "City St George's, University of London",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://studenthub.citystgeorges.ac.uk/academic-resources/learning-and-study-support/online-learning-tools/using-generative-artificial-intelligence-ai-for-learning",
+   "title": "Using generative artificial intelligence (AI) for learning",
+   "kind": "webpage",
+   "audience_as_stated": "students (Student Hub)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.citystgeorges.ac.uk/ai-research/home",
+    "title": "AI for study (library guide, retrieved 200)"
+   },
+   {
+    "audience": "students",
+    "url": "https://studenthub.citystgeorges.ac.uk/student-support-services/student-concerns-and-rights/academic-misconduct"
+   },
+   {
+    "audience": "students",
+    "url": "https://studenthub.citystgeorges.ac.uk/__data/assets/pdf_file/0008/494576/Academic-Integrity-and-Misconduct-Policy.pdf"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.citystgeorges.ac.uk/research/doctoral-college/doctoral-training-resources/use-of-generative-ai-tools-in-doctoral-research"
+   }
+  ],
+  "notes": "studenthub.citystgeorges.ac.uk returns a Cloudflare challenge (403); not bypassed.",
+  "doc_id": "city-st-georges-london-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/01cy0sz82",
+  "name": "University of Suffolk",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uos.ac.uk/media/uniofsuffolk/website/content-assets/documents/policies-and-procedures/GenAI-Policy.pdf",
+   "title": "Generative Artificial Intelligence (AI) Policy for Learning and Teaching",
+   "kind": "policy",
+   "audience_as_stated": "staff and students (policy text: support staff and students)",
+   "owner_as_stated": "Education and Student Experience",
+   "date_as_shown": "Version 1.0 (March 2026)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.uos.ac.uk/artificial-intelligence",
+    "title": "AI support hub (library guide)"
+   }
+  ],
+  "doc_id": "suffolk-students-genai-202610"
+ }
+]

@@ -1,0 +1,194 @@
+[
+ {
+  "ror_id": "https://ror.org/026zzn846",
+  "name": "Queen Mary University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.qmul.ac.uk/library/academic-skills/student-guide-to-generative-ai/",
+   "title": "Student Guide to Generative AI",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Queen Mary Library Services, with Students' Union",
+   "date_as_shown": "Updated 12/9/25",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff/institution",
+    "url": "https://www.qmul.ac.uk/queenmaryacademy/educators/innovation-and-scholarship/innovative-pedagogies/centre-for-excellence-in-ai-in-education/resources/university-guidance-and-policies/",
+    "title": "University AI principles, guidance and policies"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.qmul.ac.uk/doctoralcollege/skills-training/training-and-development-tools/ai-guidance-for-pgrs/",
+    "title": "AI Guidance for PGRs"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.qmul.ac.uk/queenmaryacademy/educators/resources/assessment-and-feedback/resources/generative-ai-and-chat-gpt/",
+    "title": "Staff Guide to Generative AI"
+   }
+  ],
+  "queries": [
+   "Queen Mary University of London generative AI students guidance (allowed_domains qmul.ac.uk)"
+  ],
+  "notes": "Direct curl returned 403 (bot wall, not circumvented); content read via fetch tool summary only. Institution-wide guide, library-owned.",
+  "region": "England",
+  "doc_id": "qmul-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04cnfrn26",
+  "name": "University of the Arts London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.arts.ac.uk/about-ual/learning-and-teaching/digital-learning/ai-and-education/student-guide-to-generative-ai",
+   "title": "Student guide to generative AI",
+   "kind": "guidance",
+   "audience_as_stated": "UAL students",
+   "owner_as_stated": "University of the Arts London",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "hub",
+    "url": "https://www.arts.ac.uk/about-ual/learning-and-teaching/digital-learning/ai-and-education",
+    "title": "AI and Arts Education"
+   },
+   {
+    "audience": "institution",
+    "url": "https://www.arts.ac.uk/about-ual/teaching-and-learning-exchange/digital-learning/ai-and-education/ai-position-statement",
+    "title": "Our position on using AI in teaching and learning"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.arts.ac.uk/about-ual/learning-and-teaching/digital-learning/ai-and-education/ai-and-assessment",
+    "title": "AI and Assessment"
+   }
+  ],
+  "queries": [
+   "University of the Arts London generative AI students guidance (allowed_domains arts.ac.uk)"
+  ],
+  "notes": "Direct curl 403 (bot wall, not circumvented); content read via fetch tool summary only. No date seen.",
+  "region": "England",
+  "doc_id": "arts-london-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/05ydb9v85",
+  "name": "National College of Art and Design",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.ncad.ie/files/download/Generative_Artificial_Intelligence_(AI)_Use_Policy.pdf",
+   "title": "Generative Artificial Intelligence (AI) Use Policy",
+   "kind": "policy",
+   "audience_as_stated": "students (linked from student Academic Affairs policies page)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.ncad.ie/students/academic-student-affairs-registration-regulation/policies-procedures-regulations/",
+    "title": "Academic Affairs: Policies, Procedures & Regulations (hub)"
+   }
+  ],
+  "queries": [
+   "NCAD generative AI students guidance policy (allowed_domains ncad.ie)",
+   "NCAD Generative Artificial Intelligence (AI) Use Policy pdf (allowed_domains ncad.ie)"
+  ],
+  "notes": "Link taken from NCAD student policies page; the URL returns the NCAD homepage HTML, not a PDF, so the policy text was not seen.",
+  "region": "Ireland",
+  "doc_id": "national-art-and-design-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/016476m91",
+  "name": "University of Aberdeen",
+  "outcome": "found",
+  "doc": {
+   "url": "https://abdn.site/cad-genai-student-guidance",
+   "title": "Guidance for Students on the Use of Generative Artificial Intelligence Tools in Education",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": "University of Aberdeen (CAD, cad@abdn.ac.uk)",
+   "date_as_shown": "Last update 15 September 2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff hub",
+    "url": "https://www.abdn.ac.uk/staffnet/education/generative-ai-in-education/guidance-and-resources-on-genai/",
+    "title": "Guidance and Resources on GenAI (StaffNet)"
+   },
+   {
+    "audience": "institution",
+    "url": "https://www.abdn.ac.uk/staffnet/education/generative-ai-in-education/university-of-aberdeen-ai-principles/",
+    "title": "University of Aberdeen AI Principles"
+   },
+   {
+    "audience": "students",
+    "url": "https://abdn.site/cad-genai-acknowledgements",
+    "title": "Acknowledging and Citing the Use of AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://abdn.site/AI-level1-additional-guidance",
+    "title": "Additional Guidance for Students on AI Level 1: Specified AI Use"
+   }
+  ],
+  "queries": [
+   "University of Aberdeen generative AI students guidance (allowed_domains abdn.ac.uk)"
+  ],
+  "notes": "Short link redirects to a PDF on abdn.blackboard.com; text read with pdftotext.",
+  "region": "Scotland",
+  "doc_id": "aberdeen-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/01hxy9878",
+  "name": "Royal College of Surgeons in Ireland",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.rcsi.com/dublin/-/media/feature/media/download-document/rcsi-policies/guidance-on-the-ethical-use-of-ai.pdf",
+   "title": "RCSI guidance on the ethical use of artificial intelligence in learning, teaching and assessment",
+   "kind": "guidance",
+   "audience_as_stated": "staff and students (learning, teaching and assessment)",
+   "owner_as_stated": "AI in Education Working Group, RCSI",
+   "date_as_shown": "September 2024",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "news",
+    "url": "https://www.rcsi.com/dublin/news-and-events/news/news-article/2026/04/rcsi-launches-new-generative-ai-policy-and-resource-hub",
+    "title": "RCSI launches new generative AI policy and resource hub"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.rcsi.com/dublin/-/media/feature/media/download-document/rcsi-policies/academic-integrity-policy.pdf",
+    "title": "Academic Integrity Policy"
+   },
+   {
+    "audience": "hub",
+    "url": "https://www.rcsi.com/dublin/student-policies",
+    "title": "Student policies, procedures and regulations"
+   }
+  ],
+  "queries": [
+   "RCSI generative AI students guidance academic integrity (allowed_domains rcsi.com)",
+   "RCSI AI Hub generative AI usage policy students (allowed_domains rcsi.com)"
+  ],
+  "notes": "Read with pdftotext. A newer GenAI Usage Policy and AI Hub were announced April 2026 but the policy document URL was not located; this may be superseded.",
+  "region": "Ireland",
+  "doc_id": "royal-surgeons-in-ireland-students-genai-202610"
+ }
+]
