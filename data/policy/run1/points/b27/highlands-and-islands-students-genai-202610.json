@@ -1,0 +1,158 @@
+{
+ "doc_id": "highlands-and-islands-students-genai-202610",
+ "coder": "pts-b27",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Your tutor/lecturer will tell you if and how GAI may be used in your unit/module. All use of GAI must be acknowledged, and full details of how to do this are in the GAI policy.",
+   "anchor": "May GAI be used for course and assessed work?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "The tutor or lecturer decides if and how GAI may be used in a module, and all use must be acknowledged."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Do not use GAI to help you with course work or assessments unless you have permission from your tutor or lecturer.",
+   "anchor": "Ethical use of GAI",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Do not use GAI for coursework or assessments without permission from your tutor or lecturer."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Please note that failure to cite and reference GAI content will be treated as a form of academic misconduct.",
+   "anchor": "May GAI be used for course and assessed work?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Failing to cite and reference GAI content is treated as academic misconduct."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Do not put aspects of your own original work into GAI sites without very careful consideration, and do not put drafts or final versions of your own assignments into GAI tools.",
+   "anchor": "Ethical use of GAI",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Do not put drafts or final versions of your assignments into GAI tools, and think carefully before entering any of your original work."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Do not put existing course materials or assessment questions into GAI tools, as UHI owns the copyright to existing course materials, assignment questions and specifications etc.",
+   "anchor": "Ethical use of GAI",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Do not enter existing course materials or assessment questions into GAI tools because UHI owns the copyright."
+  },
+  {
+   "point_id": "p06",
+   "quote": "you may not use anything (text, image, code etc.,) related to your place of employment or owned by your employer as a GAI prompt, unless you have the written consent of your employer.",
+   "anchor": "May GAI be used for course and assessed work?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Employed students may not use material related to or owned by their employer as a GAI prompt without the employer's written consent."
+  },
+  {
+   "point_id": "p07",
+   "quote": "UHI recommends that you only use the GAI tools that have already been approved for learning and teaching.",
+   "anchor": "Ethical use of GAI",
+   "addressee": "student",
+   "force": "should",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "UHI recommends using only GAI tools already approved for learning and teaching."
+  },
+  {
+   "point_id": "p08",
+   "quote": "many specify that you must be 18+ to use their tools/site. If you have not reached the minimum age specified, you should not use the tool/site.",
+   "anchor": "Ethical use of GAI",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Tools often set minimum ages such as 18+, and students under the stated minimum should not use them."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Do not use GAI generated information without checking it first.",
+   "anchor": "Ethical use of GAI",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "GAI generated information should not be used without checking it first."
+  },
+  {
+   "point_id": "p10",
+   "quote": "GAI may also give a similar answer to the same question asked by different users. If you and several other students then made use of the GAI generated content, it could be detected by Turnitin as not being original work.",
+   "anchor": "Ethical use of GAI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "Similar GAI answers given to several students could be detected by Turnitin as not original."
+  },
+  {
+   "point_id": "p11",
+   "quote": "The policy and guidance do not preclude students from using assistive technologies or accessibility features available to them, or those recommended to them as a reasonable adjustment, as indicated within their agreed Personal Learning Support Plan (PLSP).",
+   "anchor": "Introduction",
+   "addressee": "student",
+   "force": "may",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "Students may use assistive technologies or accessibility features, including those recommended as reasonable adjustments in their Personal Learning Support Plan."
+  },
+  {
+   "point_id": "p12",
+   "quote": "The UHI library service recommends usage of Library Search and our subscribed online resources, rather than solely relying on third-party search facilities or AI tools",
+   "anchor": "Finding credible and reliable published material",
+   "addressee": "student",
+   "force": "should",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "The library recommends using Library Search and subscribed resources rather than relying only on third-party search or AI tools."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Never use your UHI password to register for any external service.",
+   "anchor": "Ethical use of GAI",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Never use your UHI password to register for any external service."
+  },
+  {
+   "point_id": "p14",
+   "quote": "For some GAI tools/sites, it takes the same amount of electricity to create one image as it does to charge your mobile phone.",
+   "anchor": "Ethical use of GAI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "For some tools, creating one image takes as much electricity as charging a mobile phone."
+  },
+  {
+   "point_id": "p15",
+   "quote": "uses of GAI that are unwise will largely mirror what it would be inappropriate to as a ‘study buddy’ or classmate to do, for example, asking them to do your work for you.",
+   "anchor": "Examples of good practice for students",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Unwise uses of GAI mirror what would be inappropriate to ask a study buddy or classmate to do, such as doing your work for you."
+  }
+ ]
+}

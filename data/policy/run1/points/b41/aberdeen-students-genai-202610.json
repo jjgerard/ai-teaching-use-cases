@@ -1,0 +1,138 @@
+{
+ "doc_id": "aberdeen-students-genai-202610",
+ "coder": "pts-b41",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "You must not use GenAI to do your critical thinking, analysis, evaluation, or synthesis. Neither should you use it to generate essays, poems, or any creative works.",
+   "anchor": "Guidance for Students on the Use of Generative Artificial Intelligence Tools in Education",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": "Do not use GenAI for critical thinking, analysis, evaluation or synthesis, or to generate essays, poems or creative works.",
+   "gist": true
+  },
+  {
+   "point_id": "p02",
+   "quote": "using GenAI tools to generate content for work submitted for assessment, without authorisation or acknowledgement, will be regarded as academic misconduct and investigated as a plagiarism offence under the Code of Practice on Student Discipline (Academic).",
+   "anchor": "Guidance for Students on the Use of Generative Artificial Intelligence Tools in Education",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": "Unauthorised or unacknowledged GenAI content in assessed work is academic misconduct, investigated as plagiarism under the Code of Practice on Student Discipline (Academic).",
+   "gist": true
+  },
+  {
+   "point_id": "p03",
+   "quote": "any learning materials (e.g. lectures) and assessment information (e.g. questions, tasks, activities) must not be entered into these tools without the explicit permission of the author (e.g. Course Coordinator, Lecturer).",
+   "anchor": "1.2 Privacy and data considerations",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": "Learning materials and assessment information must not be entered into GenAI tools without the author's explicit permission.",
+   "gist": true
+  },
+  {
+   "point_id": "p04",
+   "quote": "Never enter personal and sensitive data into GenAI tools.",
+   "anchor": "1.2 Privacy and data considerations",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": "Never enter personal and sensitive data into GenAI tools.",
+   "gist": true
+  },
+  {
+   "point_id": "p05",
+   "quote": "Adhere to the assessment guidelines specified by your Course Coordinator. Ensure you check your course guide and assessment instructions for guidance on the use of GenAI tools in work submitted for assessment.",
+   "anchor": "3. Your Responsibilities When Submitting Work for Assessment",
+   "addressee": "student",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": "Follow the Course Coordinator's assessment guidelines and check the course guide and assessment instructions on GenAI use.",
+   "gist": true
+  },
+  {
+   "point_id": "p06",
+   "quote": "GenAI tools, if authorised by the Course Coordinator, can aid the process of completing an assignment, but they should not be used as a means of generating the assignment (or part of the assignment) and submitted as if it were your own work.",
+   "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": "If authorised by the Course Coordinator, GenAI can aid completing an assignment but must not generate the assignment or part of it submitted as your own.",
+   "gist": true
+  },
+  {
+   "point_id": "p07",
+   "quote": "Ensure you keep copies of drafts, notes, your workings, and any annotations or comments on documents, so that you can show the development of your ideas and writing.",
+   "anchor": "3. Your Responsibilities When Submitting Work for Assessment",
+   "addressee": "student",
+   "force": "must",
+   "topic": "integrity_and_consequences",
+   "specific": "Keep copies of drafts, notes, workings and annotations to show how your ideas and writing developed.",
+   "gist": true
+  },
+  {
+   "point_id": "p08",
+   "quote": "This evidence could include earlier drafts, notes or documentation that illustrates the development of the final assessment.",
+   "anchor": "3.1 What happens if you are suspected of using GenAI tools inappropriately?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": "If suspected of inappropriate use, evidence of the creation process may be required, such as earlier drafts, notes or documentation.",
+   "gist": true
+  },
+  {
+   "point_id": "p09",
+   "quote": "You might be asked to engage in a discussion about your submission, to determine if your level of knowledge aligns with that demonstrated in the submitted assignment.",
+   "anchor": "3.1 What happens if you are suspected of using GenAI tools inappropriately?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": "You might be asked to discuss your submission so staff can judge whether your knowledge matches the assignment.",
+   "gist": true
+  },
+  {
+   "point_id": "p10",
+   "quote": "A statement summarising how they were used",
+   "anchor": "4. How to Acknowledge the Use of GenAI Content",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": "Acknowledgement should include a statement summarising how the tools were used.",
+   "gist": true
+  },
+  {
+   "point_id": "p11",
+   "quote": "Environmental impact – since GenAI models consume significant electricity and water, often linked to data centres, reflect on how you use these tools to minimise your impact.",
+   "anchor": "1.3 Ethical considerations",
+   "addressee": "student",
+   "force": "should",
+   "topic": "ethics_bias_environment",
+   "specific": "Reflect on how you use GenAI to minimise its electricity and water impact.",
+   "gist": true
+  },
+  {
+   "point_id": "p12",
+   "quote": "Formatting a reference list by specifying the citation style you are using (e.g. APA, MLA Chicago, Harvard) though staff and students do have access to ProQuest Refworks",
+   "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "tools_provided_or_recommended",
+   "specific": "GenAI can format a reference list in a specified citation style, though staff and students have access to ProQuest Refworks.",
+   "gist": true
+  },
+  {
+   "point_id": "p13",
+   "quote": "Ensure you critically evaluate the outputs from GenAI tools and use academic sources and discipline-specific sources to fact check the outputs.",
+   "anchor": "1.1 Inaccurate information and misinterpretation of users’ prompts",
+   "addressee": "student",
+   "force": "should",
+   "topic": "accuracy_and_verification",
+   "specific": "Critically evaluate GenAI outputs and fact check them using academic and discipline-specific sources.",
+   "gist": true
+  }
+ ]
+}

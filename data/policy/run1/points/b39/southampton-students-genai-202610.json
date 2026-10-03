@@ -1,0 +1,148 @@
+{
+ "doc_id": "southampton-students-genai-202610",
+ "coder": "pts-b39",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "You are allowed to use GenAI tools like ChatGPT to develop your learning and support your studies. However, you should never submit work that has been created or part-created by GenAI for assessments that you claim as your own work.",
+   "anchor": "Using GenAI in your studies",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "GenAI may be used to support learning, but work created or part-created by GenAI should never be submitted as your own in assessments."
+  },
+  {
+   "point_id": "p02",
+   "quote": "If you submit work that has been created by someone other than yourself (including GenAI), then this breaks our rules on Academic Responsibility and Conduct. We will take disciplinary action that may result in penalties on your marks.",
+   "anchor": "Using GenAI in your studies",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Submitting work created by someone else, including GenAI, breaks the Academic Responsibility and Conduct rules and brings disciplinary action that may penalise marks."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Always talk to your module tutor to check how to use GenAI to support your studies in their subjects.",
+   "anchor": "Using GenAI in your studies",
+   "addressee": "student",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Students should always check with their module tutor how GenAI may be used in that subject."
+  },
+  {
+   "point_id": "p04",
+   "quote": "In other cases, you may be asked to complete a declaration statement that describes how you have used generative AI.",
+   "anchor": "Using GenAI in your studies",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Sometimes students may be asked to complete a declaration statement describing how they used generative AI."
+  },
+  {
+   "point_id": "p05",
+   "quote": "This includes situations where you may not be allowed to use GenAI tools because learning outcomes indicate you need to develop and demonstrate your own individual skills and knowledge.",
+   "anchor": "Using GenAI in your studies",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Use may be disallowed where learning outcomes require you to demonstrate your own individual skills and knowledge."
+  },
+  {
+   "point_id": "p06",
+   "quote": "sharing the materials and resources from your module tutors in a GenAI tool - you do not have permission to share these materials openly because they belong to the University",
+   "anchor": "Acceptable and unacceptable GenAI use",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Module tutors' materials must not be shared in a GenAI tool because they belong to the University."
+  },
+  {
+   "point_id": "p07",
+   "quote": "asking GenAI to write or rewrite your work or part of your work for you",
+   "anchor": "Acceptable and unacceptable GenAI use",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Asking GenAI to write or rewrite your work or part of it is unacceptable."
+  },
+  {
+   "point_id": "p08",
+   "quote": "directly asking GenAI to answer an assessment question",
+   "anchor": "Acceptable and unacceptable GenAI use",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Directly asking GenAI to answer an assessment question is unacceptable."
+  },
+  {
+   "point_id": "p09",
+   "quote": "copying and pasting information created by GenAI straight into your work",
+   "anchor": "Acceptable and unacceptable GenAI use",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Pasting GenAI-created information straight into your work is unacceptable."
+  },
+  {
+   "point_id": "p10",
+   "quote": "using GenAI as a study buddy, for example, giving feedback on some of your writing for spelling or grammar errors, or for getting started with ideas",
+   "anchor": "Acceptable and unacceptable GenAI use",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Acceptable use includes a study buddy, such as feedback on spelling or grammar or getting started with ideas."
+  },
+  {
+   "point_id": "p11",
+   "quote": "using GenAI as an assistive technology by arrangement with our Disability and Inclusion team",
+   "anchor": "Acceptable and unacceptable GenAI use",
+   "addressee": "student",
+   "force": "may",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "GenAI may be used as an assistive technology by arrangement with the Disability and Inclusion team."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Student and members of staff currently have access to the generative AI tool CoPilot within Microsoft Office365.",
+   "anchor": "Our views on using GenAI",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Students and staff currently have access to CoPilot within Microsoft Office365."
+  },
+  {
+   "point_id": "p13",
+   "quote": "However, they often get things wrong, include biased information, and create generic, bland text that does not show the knowledge, understanding and critical thinking your university studies give you.",
+   "anchor": "Our views on using GenAI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "GenAI tools often get things wrong, include bias and produce generic text that does not show your knowledge or critical thinking."
+  },
+  {
+   "point_id": "p14",
+   "quote": "summarising complex ideas or academic texts",
+   "anchor": "Acceptable and unacceptable GenAI use",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Summarising complex ideas or academic texts is listed as acceptable."
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "doc_id": "tus-students-genai-202610",
+ "coder": "pts-b39",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Using AI to complete part or all of an assignment unless specifically permitted as part of the assessment. Any use of AI must be acknowledged correctly.",
+   "anchor": "What is academic misconduct?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using AI to complete part or all of an assignment is misconduct unless specifically permitted, and any AI use must be acknowledged correctly."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Academic misconduct is any attempt to seek unfair advantage in relation to any academic activity.",
+   "anchor": "What is academic misconduct?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": false,
+   "gist": "Academic misconduct is defined as any attempt to seek unfair advantage in an academic activity."
+  },
+  {
+   "point_id": "p03",
+   "quote": "This is guided by the TUS Academic Integrity and Plagiarism policy which applies to all learners at all levels in the institute who are undertaking any academic work contributing to an award, or credits.",
+   "anchor": "What is Academic integrity?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "The TUS Academic Integrity and Plagiarism policy applies to all learners doing academic work contributing to an award or credits."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Score 80% or higher in all five quizzes, and you’ll earn a digital badge that you can add to your CV, portfolio or online profile.",
+   "anchor": "Earn a Digital Badge",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Scoring 80% or more in all five quizzes earns a digital badge for a CV, portfolio or online profile."
+  },
+  {
+   "point_id": "p05",
+   "quote": "The course consists of five bite-sized sessions (20–25 minutes each) that you can complete at your own pace.",
+   "anchor": "Student Course: Understanding Academic Integrity",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "The student course has five sessions of 20 to 25 minutes each, completed at your own pace."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Learn how to use AI tools responsibly, understand their limitations and cite AI-generated content correctly.",
+   "anchor": "Course Sessions",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "A course session teaches responsible use of AI tools, their limitations and correct citation of AI-generated content."
+  },
+  {
+   "point_id": "p07",
+   "quote": "This year’s Academic Integrity Week will take place from October 12th to 16th.",
+   "anchor": "Academic Integrity Week",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "This year's Academic Integrity Week runs from October 12th to 16th."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Library referencing guides – covers Harvard, APA and Vancouver",
+   "anchor": "Resources for Students",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Library referencing guides cover Harvard, APA and Vancouver."
+  }
+ ]
+}
