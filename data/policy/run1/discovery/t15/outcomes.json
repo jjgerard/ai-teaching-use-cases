@@ -1,0 +1,166 @@
+[
+ {
+  "ror_id": "https://ror.org/0400avk24",
+  "name": "University of Bedfordshire",
+  "outcome": "found",
+  "doc": {
+   "url": "https://lrweb.beds.ac.uk/skills-for-success/academic-skills-guides/microsoft-office-and-digital-learning-tools/ai/",
+   "title": "Artificial Intelligence (AI) (Skills for Success academic skills guide)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Skills for Success academic skills guides)",
+   "owner_as_stated": "Skills for Success (Library and Learning Resources)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries": [
+   "University of Bedfordshire generative AI students guidance (allowed_domains beds.ac.uk)"
+  ],
+  "notes": "Hub page is staff/student mixed and points to a login-only student BREO unit; library skills guide selected as the student-facing page.",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.beds.ac.uk/academy-for-learning-teaching-excellence/digital-learning-systems/generative-ai/",
+    "title": "Generative AI (hub; links student BREO unit)"
+   },
+   {
+    "audience": "students",
+    "url": "https://lrweb.beds.ac.uk/academic-integrity-resource/proofreading-editing-ai-and-academic-integrity/ai-information-site/",
+    "title": "AI information site"
+   }
+  ],
+  "doc_id": "bedfordshire-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/00mkz4t33",
+  "name": "BIMM University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bimm.ac.uk/document/academic-integrity/",
+   "title": "Academic Integrity Policy",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (policy names AI use in assessment)",
+   "owner_as_stated": "Learning, Teaching and Enhancement Committee (approver as shown)",
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries": [
+   "BIMM University generative AI students guidance policy (allowed_domains bimm.university)",
+   "BIMM University academic misconduct policy artificial intelligence assessment students (allowed_domains bimm.university)"
+  ],
+  "notes": "No stand-alone GenAI guidance found; PDF read via pdftotext (hosted on bimm.ac.uk, linked from bimm.university policies page). Policy marked last approved August 2026, v2.0.",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bimm.university/governance-and-quality/policies-procedures-and-key-documents/",
+    "title": "Policies, procedures and key documents (hub)"
+   }
+  ],
+  "doc_id": "bimm-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/02xsh5r57",
+  "name": "Leeds Beckett University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.leedsbeckett.ac.uk/-/media/files/our-university/academic-regulations/principles-for-the-use-of-generative-ai.pdf",
+   "title": "Leeds Beckett University Principles for the use of Generative AI",
+   "kind": "policy",
+   "audience_as_stated": "students (applies to UG and taught PG students)",
+   "owner_as_stated": "Leeds Beckett University",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries": [
+   "Leeds Beckett University generative AI students guidance (allowed_domains leedsbeckett.ac.uk)"
+  ],
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://www.leedsbeckett.ac.uk/teachlearn/learning-and-teaching-guidance/generative-ai-and-academic-practice/",
+    "title": "Generative AI and Academic Practice"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.leedsbeckett.ac.uk/artificial-intelligence/responsible-use",
+    "title": "Responsible Use of Gen AI (library guide)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.leedsbeckett.ac.uk/student-information/academic-skills-and-advice/academic-honesty/",
+    "title": "Academic honesty"
+   }
+  ],
+  "doc_id": "leeds-beckett-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/03f914y84",
+  "name": "Plymouth Marjon University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.marjon.ac.uk/about-marjon/institutional-documents/student-regulations-framework/SRF-2025-26-complete.pdf",
+   "title": "Student Regulations Framework 2025-26 (academic misconduct section names inappropriate use of AI)",
+   "kind": "regulations",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Plymouth Marjon University",
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries": [
+   "Plymouth Marjon University generative AI students guidance academic integrity",
+   "Plymouth Marjon University students use of artificial intelligence ChatGPT assessment guidance",
+   "Marjon students generative AI use in assessments declaration academic misconduct",
+   "Marjon library skills artificial intelligence AI tools guide students Copilot",
+   "Plymouth Marjon University AI policy students"
+  ],
+  "notes": "No student GenAI guidance found; fallback is the 258-page SRF PDF (Unauthorised Content Generation definition and AI-related stage procedures read in pdftotext).",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.marjon.ac.uk/about-marjon/governance--management/university-strategies--policies/",
+    "title": "University strategies & policies (a search snippet mentioned an AI Policy; PDF not located)"
+   }
+  ],
+  "doc_id": "plymouth-marjon-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/00bmj0a71",
+  "name": "University of Greenwich",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://portal.gre.ac.uk/ai-guidance/students",
+   "title": "AI for students",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": "University of Greenwich",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "queries": [
+   "University of Greenwich generative AI students guidance (allowed_domains gre.ac.uk)"
+  ],
+  "notes": "portal.gre.ac.uk returned 403 with a JavaScript/cookie challenge; not bypassed. Old www.gre.ac.uk stub (seen) names the page 'AI for students' and gives the moved URL.",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.gre.ac.uk/ai-guidance/students",
+    "title": "Old URL; stub says section moved to portal.gre.ac.uk/ai-guidance"
+   }
+  ],
+  "doc_id": "greenwich-students-genai-202610",
+  "region": "England"
+ }
+]

@@ -1,0 +1,204 @@
+[
+ {
+  "ror_id": "https://ror.org/0038jbq24",
+  "name": "Bath Spa University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bathspa.ac.uk/students/ask/genai-guidance/",
+   "title": "GenAI guidance (Guidance for students on the use of generative AI)",
+   "kind": "guidance",
+   "audience_as_stated": "students (Academic Skills, ASk)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bathspa.ac.uk/artificial-intelligence/ai-in-learning/",
+    "title": "Guidance for students on the use of generative AI (AI in Learning hub; mentions BSU GenAI Policy)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.bathspa.ac.uk/about-us/governance/policies/academic-integrity/",
+    "title": "Academic integrity policy"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.bathspa.ac.uk/media/bathspaacuk/it/artificial-intelligence/Guidance-for-Using-Generative-AI-Tools-in-Research.pdf",
+    "title": "Guidance for Using Generative AI Tools in Research"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.bathspa.ac.uk/artificial-intelligence/ai-in-teaching/",
+    "title": "AI in Teaching"
+   }
+  ],
+  "queries": [
+   "Bath Spa University generative AI students guidance (allowed_domains bathspa.ac.uk)"
+  ],
+  "country": "GB",
+  "region": "England",
+  "doc_id": "bath-spa-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/01k2y1055",
+  "name": "University of Wolverhampton",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.wlv.ac.uk/lib/skills-for-learning/artificial-intelligence-ai/",
+   "title": "Artificial Intelligence (AI) - University of Wolverhampton (Skills for Learning)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Skills for Learning)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 200
+  },
+  "other_pages": [],
+  "queries": [
+   "University of Wolverhampton generative AI students guidance (allowed_domains wlv.ac.uk)"
+  ],
+  "notes": "Search result snippet describes student guide on generative AI in assignments. Direct curl returned an empty body with an AWS WAF challenge header (x-amzn-waf-action: challenge); not bypassed, so page text not read here.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "wolverhampton-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00d6k8y35",
+  "name": "University of Staffordshire",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.staffs.ac.uk/AI",
+   "title": "AI - Library at University of Staffordshire (AI and Generative AI guide)",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": "Last Updated: Sep 23, 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.staffs.ac.uk/students/course-administration/academic-policies-and-regulations/types-of-academic-misconduct",
+    "title": "Types of Academic Misconduct (mentions unauthorised AI)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.staffs.ac.uk/students/course-administration/academic-policies-and-regulations/docs/pdf/academic-conduct-procedure.pdf",
+    "title": "Academic Conduct Procedure"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.staffs.ac.uk/c.php?amp=&g=709503&p=5118475",
+    "title": "Academic Integrity, Decolonisation and AI"
+   }
+  ],
+  "queries": [
+   "Staffordshire University generative AI students guidance (allowed_domains staffs.ac.uk)",
+   "Staffordshire University academic misconduct generative AI students policy (allowed_domains staffs.ac.uk)"
+  ],
+  "notes": "Library guide home page is about 320 words (thin); no central web page on generative AI found in search.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "staffordshire-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/01tgmhj36",
+  "name": "Coventry University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.coventry.ac.uk/studyingwithai/introduction",
+   "title": "Introduction - Studying with AI (LibGuides at Coventry University)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Student Guidance; separate Researcher and Staff guidance linked)",
+   "owner_as_stated": null,
+   "date_as_shown": "Last Updated: Sep 30, 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://student.ai.coventry.domains/",
+    "title": "Student Guidance (linked from guide; returned CAPTCHA 403 to curl, not bypassed)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.coventry.ac.uk/student-central/coventry/handbook/assessment-and-awards/academic-integrity/",
+    "title": "Academic integrity (Student Handbook; links to Studying with AI guide)"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://livecoventryac.sharepoint.com/sites/students-doctoralcollege/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fstudents-doctoralcollege%2FShared%20Documents%2FAI%20PGR%20Guidelines_.pdf&parent=%2Fsites%2Fstudents-doctoralcollege%2FShared%20Documents",
+    "title": "Researcher Guidance"
+   },
+   {
+    "audience": "staff",
+    "url": "https://teach.coventry.domains/staffguidance-for-ai/",
+    "title": "Staff Guidance"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.coventry.ac.uk/CAWhomepage/aiguidance",
+    "title": "Guidance on using AI Tools in Academic Writing Assignments (CAW)"
+   }
+  ],
+  "queries": [
+   "Coventry University generative AI students guidance (allowed_domains coventry.ac.uk)",
+   "Coventry University student guidance appropriate use of AI assessments red amber green academic integrity policy"
+  ],
+  "notes": "The substantive Student Guidance sits on student.ai.coventry.domains, behind a CAPTCHA; the library guide that points to it was read instead.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "coventry-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02gbq8p27",
+  "name": "University College of Estate Management",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ube.ac.uk/wp-content/uploads/2023/07/UCEM-Guide-to-Academic-Integrity.pdf",
+   "title": "University of the Built Environment Guide to Academic Integrity (Taught Provision), v5.00",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (taught provision)",
+   "owner_as_stated": null,
+   "date_as_shown": "16/04/2026 (document date; footer 27/05/2026)",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.ube.ac.uk/university-governance/code-of-practice/",
+    "title": "Policies (Code of Practice) hub"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.ube.ac.uk/student-academic-misconduct-procedure/",
+    "title": "Student Academic Misconduct Procedure"
+   },
+   {
+    "audience": "students",
+    "url": "https://learn.ucem.ac.uk/mod/resource/view.php?id=425751",
+    "title": "Linked from the guide (Moodle, login likely; not fetched)"
+   }
+  ],
+  "queries": [
+   "University College of Estate Management generative AI students guidance (allowed_domains ucem.ac.uk)",
+   "UCEM student guidance use of generative AI in assessment policy academic misconduct (ucem.ac.uk)",
+   "University of the Built Environment UCEM students generative AI guidance (ube.ac.uk)"
+  ],
+  "notes": "UCEM now trades as University of the Built Environment (ube.ac.uk; ucem.ac.uk redirects). The guide names 'Generative AI student guidance' but links it inside the Moodle VLE, so the academic-integrity guide (which names generative AI) is recorded as fallback.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "estate-management-students-genai-202610"
+ }
+]
