@@ -1,0 +1,810 @@
+{
+ "coder": "clm-f3",
+ "rows": [
+  {
+   "ref": "regents-london-students-genai-202610:p06",
+   "claim": "strict_liability_ignorance_no_defence",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "exeter-students-assessment-202610:p07",
+   "claim": "translation_tools_restricted",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "middlesex-london-students-genai-202610:p12",
+   "claim": "student_responsible_for_ai_content",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "lancashire-students-genai-202610:p08",
+   "claim": "passing_off_ai_work_as_own_is_misconduct",
+   "claim2": "disable_or_avoid_built_in_ai_features",
+   "fit": "partial",
+   "suggest": "fragment: failing to control built-in AI as breach"
+  },
+  {
+   "ref": "manchester-students-genai-202610:p02",
+   "claim": "assessment_tiered_ai_use_categories",
+   "claim2": "staff_must_state_ai_expectations_in_assessments",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "sussex-students-genai-202610:p07",
+   "claim": "rules_set_locally_by_module_or_lecturer",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "highlands-and-islands-students-genai-202610:p01",
+   "claim": "rules_set_locally_by_module_or_lecturer",
+   "claim2": "must_acknowledge_or_declare_ai_use",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "d-n-laoghaire-institute-art-design-and-technology-students-genai-202610:p14",
+   "claim": "training_and_guidance_resources_provided",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "sheffield-hallam-students-genai-202610:p06",
+   "claim": "assessment_tiered_ai_use_categories",
+   "claim2": null,
+   "fit": "partial",
+   "suggest": "transparency scale used by tutors, optional"
+  },
+  {
+   "ref": "mtu-students-genai-202610:p11",
+   "claim": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "middlesex-london-students-genai-202610:p07",
+   "claim": "fabricated_references_or_data_is_misconduct",
+   "claim2": null,
+   "fit": "partial",
+   "suggest": "list fragment, no misconduct label stated"
+  },
+  {
+   "ref": "ulster-library-genai-guide-202610:p03",
+   "claim": "must_acknowledge_or_declare_ai_use",
+   "claim2": "follow_institutional_referencing_guidance_for_ai",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "portsmouth-students-genai-202610:p04",
+   "claim": "submit_declaration_form_with_assessment",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "kent-students-genai-202610:p07",
+   "claim": "passing_off_ai_work_as_own_is_misconduct",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "bpp-students-genai-202610:p11",
+   "claim": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "sussex-students-genai-202610:p02",
+   "claim": "use_beyond_permitted_is_misconduct",
+   "claim2": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "edinburgh-student-genai-guidelines-202610:p16",
+   "claim": "ai_should_support_not_replace_own_thinking",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "gloucestershire-students-genai-202610:p07",
+   "claim": "reference_ai_use_with_citation",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "ucd-students-genai-202610:p10",
+   "claim": "follow_institutional_referencing_guidance_for_ai",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "law-students-genai-202610:p01",
+   "claim": "complete_training_before_using_ai",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "wales-trinity-saint-david-students-genai-202610:p05",
+   "claim": "submit_declaration_form_with_assessment",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "swansea-students-genai-202610:p11",
+   "claim": "training_and_guidance_resources_provided",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "mtu-students-genai-202610:p07",
+   "claim": "penalties_for_ai_misconduct_stated",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "kent-students-genai-202610:p06",
+   "claim": "submit_declaration_form_with_assessment",
+   "claim2": null,
+   "fit": "partial",
+   "suggest": "declaration wording specified in brief"
+  },
+  {
+   "ref": "oxford-brookes-students-genai-202610:p04",
+   "claim": "rules_set_locally_by_module_or_lecturer",
+   "claim2": null,
+   "fit": "partial",
+   "suggest": "some subjects make AI inappropriate"
+  },
+  {
+   "ref": "cambridge-staff-assessment-202610:p07",
+   "claim": "staff_must_state_ai_expectations_in_assessments",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "dundalk-institute-technology-students-genai-202610:p14",
+   "claim": "support_services_available_for_ai_questions",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "glasgow-student-genai-guidance-202610:p12",
+   "claim": "do_not_use_ai_references_or_treat_ai_as_source",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "mtu-students-genai-202610:p10",
+   "claim": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "brunel-london-students-genai-202610:p06",
+   "claim": "do_not_enter_personal_or_sensitive_data",
+   "claim2": "ai_tools_may_store_or_train_on_inputs",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "mtu-students-genai-202610:p09",
+   "claim": "penalties_for_ai_misconduct_stated",
+   "claim2": null,
+   "fit": "partial",
+   "suggest": "factors considered in setting penalties"
+  },
+  {
+   "ref": "sussex-students-genai-202610:p10",
+   "claim": "unclassified",
+   "claim2": null,
+   "fit": "none",
+   "suggest": "fragment: AI used for correct facts or calculations"
+  },
+  {
+   "ref": "leedstrinity-students-genai-202610:p03",
+   "claim": "ask_tutor_when_unsure",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "birmingham-students-genai-202610:p17",
+   "claim": "ai_environmental_impact",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "bath-students-genai-202610:p04",
+   "claim": "training_and_guidance_resources_provided",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "sussex-students-genai-202610:p11",
+   "claim": "spelling_grammar_proofreading_permitted",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "birmingham-students-genai-202610:p05",
+   "claim": "follow_institutional_referencing_guidance_for_ai",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "hull-students-genai-202610:p01",
+   "claim": "ai_must_not_write_assessed_work_for_you",
+   "claim2": "default_ai_banned_unless_authorised",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "bradford-students-genai-202610:p04",
+   "claim": "oral_viva_or_panel_to_verify_authorship",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "glasgow-student-genai-guidance-202610:p11",
+   "claim": "ai_output_may_be_wrong_so_verify_it",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "lancashire-students-genai-202610:p01",
+   "claim": "passing_off_ai_work_as_own_is_misconduct",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "exeter-students-assessment-202610:p12",
+   "claim": "assistive_technology_use_permitted",
+   "claim2": null,
+   "fit": "partial",
+   "suggest": "tools allowed even where AI prohibited; referent unclear"
+  },
+  {
+   "ref": "sheffield-hallam-students-genai-202610:p07",
+   "claim": "declaration_must_state_tool_and_how_used",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "manchester-students-genai-202610:p04",
+   "claim": "assessment_tiered_ai_use_categories",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "bradford-students-genai-202610:p05",
+   "claim": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "norwich-arts-students-genai-202610:p08",
+   "claim": "unclassified",
+   "claim2": null,
+   "fit": "none",
+   "suggest": "examples of AI uses in the institution"
+  },
+  {
+   "ref": "manchester-students-genai-202610:p01",
+   "claim": "do_not_upload_university_teaching_materials",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "exeter-students-assessment-202610:p04",
+   "claim": "do_not_use_ai_references_or_treat_ai_as_source",
+   "claim2": "submitted_work_must_be_own_not_ai_generated",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "lancashire-students-genai-202610:p14",
+   "claim": "penalties_for_ai_misconduct_stated",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "royal-surgeons-in-ireland-students-genai-202610:p09",
+   "claim": "provided_tool_has_data_protection_assurances",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "canterbury-students-genai-202610:p11",
+   "claim": "default_ai_banned_unless_authorised",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "dundalk-institute-technology-students-genai-202610:p06",
+   "claim": "submit_declaration_form_with_assessment",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "aberystwyth-students-genai-202610:p01",
+   "claim": "follow_assessment_brief_instructions",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "maynooth-ug-ptm-genai-guidelines-202610:p10",
+   "claim": "staff_not_to_use_ai_to_grade_or_give_feedback",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "st-andrews-students-genai-202610:p02",
+   "claim": "use_beyond_permitted_is_misconduct",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "portsmouth-students-genai-202610:p12",
+   "claim": "spelling_grammar_proofreading_permitted",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "sheffield-hallam-students-genai-202610:p04",
+   "claim": "passing_off_ai_work_as_own_is_misconduct",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "national-ireland-students-genai-202610:p08",
+   "claim": "ai_permitted_for_study_and_preparation",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "ucb-students-genai-202610:p01",
+   "claim": "default_ai_banned_unless_authorised",
+   "claim2": "ai_must_not_write_assessed_work_for_you",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "highlands-and-islands-students-genai-202610:p02",
+   "claim": "default_ai_banned_unless_authorised",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "bedfordshire-students-genai-202610:p13",
+   "claim": "ai_output_may_be_wrong_so_verify_it",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "heriot-watt-students-genai-202610:p14",
+   "claim": "institution_provides_or_recommends_tool",
+   "claim2": "provided_tool_has_data_protection_assurances",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "edinburgh-napier-students-genai-202610:p10",
+   "claim": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "claim2": null,
+   "fit": "partial",
+   "suggest": "caution about rewriting tools, not a firm limit"
+  },
+  {
+   "ref": "kent-students-genai-202610:p08",
+   "claim": "ai_permitted_for_study_and_preparation",
+   "claim2": "ai_output_may_be_wrong_so_verify_it",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "highlands-and-islands-students-genai-202610:p11",
+   "claim": "assistive_technology_use_permitted",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "mtu-students-genai-202610:p01",
+   "claim": "use_beyond_permitted_is_misconduct",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "d-n-laoghaire-institute-art-design-and-technology-students-genai-202610:p06",
+   "claim": "keep_drafts_and_notes_as_evidence_of_authorship",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "ucb-students-genai-202610:p04",
+   "claim": "ai_output_may_be_wrong_so_verify_it",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "cumbria-students-genai-202610:p07",
+   "claim": "ai_reference_format_or_personal_communication",
+   "claim2": null,
+   "fit": "partial",
+   "suggest": "citation depends on public or private availability"
+  },
+  {
+   "ref": "gloucestershire-students-genai-202610:p03",
+   "claim": "ai_output_may_be_wrong_so_verify_it",
+   "claim2": "student_responsible_for_ai_content",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "birmingham-city-students-genai-202610:p01",
+   "claim": "institution_provides_or_recommends_tool",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "ul-students-genai-202610:p05",
+   "claim": "unclassified",
+   "claim2": null,
+   "fit": "none",
+   "suggest": "distinguish acknowledgement from referencing"
+  },
+  {
+   "ref": "east-anglia-students-genai-202610:p04",
+   "claim": "declaration_must_state_tool_and_how_used",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "newcastle-students-genai-202610:p10",
+   "claim": "training_and_guidance_resources_provided",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "suffolk-students-genai-202610:p07",
+   "claim": "unclassified",
+   "claim2": null,
+   "fit": "none",
+   "suggest": "placement provider AI rules"
+  },
+  {
+   "ref": "oxford-brookes-students-genai-202610:p10",
+   "claim": "do_not_enter_personal_or_sensitive_data",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "bedfordshire-students-genai-202610:p12",
+   "claim": "ai_output_may_be_wrong_so_verify_it",
+   "claim2": null,
+   "fit": "partial",
+   "suggest": "library sources as reliable alternative to AI"
+  },
+  {
+   "ref": "coventry-students-genai-202610:p09",
+   "claim": "unclassified",
+   "claim2": null,
+   "fit": "none",
+   "suggest": "fragment: permission question from university or placement"
+  },
+  {
+   "ref": "heriot-watt-students-genai-202610:p07",
+   "claim": "keep_record_of_ai_interactions",
+   "claim2": "include_prompts_and_outputs_as_evidence",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "canterbury-students-genai-202610:p12",
+   "claim": "spelling_grammar_proofreading_permitted",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "heriot-watt-students-genai-202610:p10",
+   "claim": "ai_output_may_be_wrong_so_verify_it",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "bimm-students-genai-202610:p09",
+   "claim": "penalties_for_ai_misconduct_stated",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "ucb-students-genai-202610:p13",
+   "claim": "ai_environmental_impact",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "wrexham-students-genai-202610:p01",
+   "claim": "unclassified",
+   "claim2": null,
+   "fit": "none",
+   "suggest": "definition of contract cheating"
+  },
+  {
+   "ref": "glasgow-student-genai-guidance-202610:p15",
+   "claim": "unclassified",
+   "claim2": null,
+   "fit": "none",
+   "suggest": "extenuating circumstances and deadline support"
+  },
+  {
+   "ref": "national-ireland-students-genai-202610:p09",
+   "claim": "ask_tutor_when_unsure",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "northampton-students-genai-202610:p04",
+   "claim": "some_assessments_require_or_build_in_ai_use",
+   "claim2": "must_acknowledge_or_declare_ai_use",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "dundalk-institute-technology-students-genai-202610:p01",
+   "claim": "passing_off_ai_work_as_own_is_misconduct",
+   "claim2": "use_beyond_permitted_is_misconduct",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "chester-students-genai-202610:p01",
+   "claim": "default_ai_banned_unless_authorised",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "kcl-students-genai-202610:p03",
+   "claim": "do_not_enter_personal_or_sensitive_data",
+   "claim2": "do_not_upload_copyright_or_third_party_material",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "lancashire-students-genai-202610:p11",
+   "claim": "keep_drafts_and_notes_as_evidence_of_authorship",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "manchester-metropolitan-students-genai-202610:p08",
+   "claim": "ai_misconduct_handled_under_existing_policy",
+   "claim2": "penalties_for_ai_misconduct_stated",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "londonmet-students-genai-202610:p03",
+   "claim": "passing_off_ai_work_as_own_is_misconduct",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "arts-plymouth-students-genai-202610:p01",
+   "claim": "institution_embraces_ai_enabled_education",
+   "claim2": "ai_permitted_for_study_and_preparation",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "southampton-solent-students-genai-202610:p03",
+   "claim": "passing_off_ai_work_as_own_is_misconduct",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "oxford-brookes-students-genai-202610:p05",
+   "claim": "passing_off_ai_work_as_own_is_misconduct",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "bimm-students-genai-202610:p11",
+   "claim": "ai_output_may_be_included_when_assessment_allows",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "glasgow-student-genai-guidance-202610:p05",
+   "claim": "institution_provides_or_recommends_tool",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "worcester-students-genai-202610:p10",
+   "claim": "staff_must_state_ai_expectations_in_assessments",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "institute-cancer-research-students-genai-202610:p05",
+   "claim": "ai_use_may_be_detected_by_staff_or_software",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "sheffield-students-genai-202610:p12",
+   "claim": "ai_output_may_be_wrong_so_verify_it",
+   "claim2": "bias_and_exclusion_risks_to_consider",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "kingston-london-students-genai-202610:p01",
+   "claim": "passing_off_ai_work_as_own_is_misconduct",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "wrexham-students-genai-202610:p02",
+   "claim": "unclassified",
+   "claim2": null,
+   "fit": "none",
+   "suggest": "context: essay mills and AI as growing problem"
+  },
+  {
+   "ref": "coventry-students-genai-202610:p11",
+   "claim": "translation_tools_restricted",
+   "claim2": null,
+   "fit": "partial",
+   "suggest": "permitted translation use in a list, no limit"
+  },
+  {
+   "ref": "middlesex-london-students-genai-202610:p01",
+   "claim": "ai_banned_for_whole_assessment",
+   "claim2": "assistive_technology_use_permitted",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "edinburgh-napier-students-genai-202610:p07",
+   "claim": "do_not_upload_copyright_or_third_party_material",
+   "claim2": "assistive_technology_use_permitted",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "edinburgh-napier-students-genai-202610:p14",
+   "claim": "oral_viva_or_panel_to_verify_authorship",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "edinburgh-student-genai-guidelines-202610:p03",
+   "claim": "translation_tools_restricted",
+   "claim2": "passing_off_ai_work_as_own_is_misconduct",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "york-st-john-students-genai-202610:p07",
+   "claim": "research_use_of_ai_needs_ethics_approval_or_consent",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "glasgow-student-genai-guidance-202610:p14",
+   "claim": "training_and_guidance_resources_provided",
+   "claim2": null,
+   "fit": "partial",
+   "suggest": "training offered on referencing tools"
+  },
+  {
+   "ref": "bristol-students-genai-202610:p08",
+   "claim": "some_assessments_require_or_build_in_ai_use",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "oxford-brookes-students-genai-202610:p01",
+   "claim": "rules_set_locally_by_module_or_lecturer",
+   "claim2": "follow_assessment_brief_instructions",
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "ulster-library-genai-guide-202610:p02",
+   "claim": "include_prompts_and_outputs_as_evidence",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "londonmet-students-genai-202610:p04",
+   "claim": "passing_off_ai_work_as_own_is_misconduct",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  },
+  {
+   "ref": "maynooth-ug-ptm-genai-guidelines-202610:p15",
+   "claim": "ai_environmental_impact",
+   "claim2": null,
+   "fit": "clear",
+   "suggest": null
+  }
+ ]
+}
