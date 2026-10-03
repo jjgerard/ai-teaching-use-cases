@@ -1,0 +1,64 @@
+{
+ "doc_id": "aberystwyth-students-genai-202610",
+ "coder": "aud-a28",
+ "checked_types": 62,
+ "found": [
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "There are advantages to using Generative AI as an assistive tool for your studies, if it is used ethically and safely.",
+   "anchor": "Using AI for your Studies"
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "If you outsource this to Generative AI, then you are not going to get that experience.",
+   "anchor": "Using AI for your Studies"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Library Academic and Digital Services have produced a Prompt Library.",
+   "anchor": "Prompt Library"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "please contact Library Academic and Digital Services (librarians@aber.ac.uk).",
+   "anchor": "Generative Artificial Intelligence"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "We recognise and support the integration of Generative AI into learning and teaching activities.",
+   "anchor": "Using AI for your Teaching"
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "Guidance in this area is still being developed, but there may be local departmental, or discipline-specific guidance available.",
+   "anchor": "Using AI for your Research"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "Your department might have its own local Generative AI guidance which you must follow.",
+   "why": "implies local rules but phrased as duty to follow"
+  },
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "Your lecturer might ask you to use Generative AI as part of a learning or assessment activity.",
+   "why": "only possibility stated, not that assessments require AI"
+  },
+  {
+   "type": "students_not_required_to_use_ai",
+   "quote": "There are also benefits to completing tasks and assessments without relying on Generative AI.",
+   "why": "benefit of not using AI, not explicit choice to decline"
+  },
+  {
+   "type": "ai_environmental_impact",
+   "quote": "Environmental and Social Impacts of AI",
+   "why": "course title only, no statement"
+  },
+  {
+   "type": "assessment_redesigned_to_test_process_and_understanding",
+   "quote": "Advising on assessment design",
+   "why": "service remit, not describing redesign of assessments"
+  }
+ ]
+}

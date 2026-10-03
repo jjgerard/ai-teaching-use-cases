@@ -1,0 +1,104 @@
+{
+ "doc_id": "st-andrews-students-genai-202610",
+ "coder": "aud-a34",
+ "checked_types": 57,
+ "found": [
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "Even when this type of usage is allowed, students should be mindful that they are still expected to develop relevant study skills they can employ independently of AI tools.",
+   "anchor": "3. What is St Andrews’ standpoint on the use of generative AI for assessment?"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "While students may choose to use Generative AI to generate notes, study aids, or other materials that they consider helpful in their learning",
+   "anchor": "3. What is St Andrews’ standpoint on the use of generative AI for assessment?"
+  },
+  {
+   "type": "spelling_grammar_proofreading_permitted",
+   "quote": "It may be used to proof-read for grammatical errors, as directed by your module coordinator.",
+   "anchor": "8. How may AI assist me in my studies?"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "Further requirements may be stipulated by a School, academic programme, or individual member of teaching staff, or for a particular assignment, and will be made clear when an assignment is set.",
+   "anchor": "7. How do I acknowledge use of generative AI?"
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "students should always check the relevant School or module handbook.",
+   "anchor": "3. What is St Andrews’ standpoint on the use of generative AI for assessment?"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "If AI use is permitted, the extent to which it can be used in assessment will be clearly outlined in the module handbook.",
+   "anchor": "4. Can Students use AI to produce assessed work?"
+  },
+  {
+   "type": "should_or_encouraged_to_acknowledge_ai_use",
+   "quote": "Any use of Generative AI should be acknowledged.",
+   "anchor": "15. What should PGR students consider before using AI?"
+  },
+  {
+   "type": "include_prompts_and_outputs_as_evidence",
+   "quote": "AI use should be cited, and any prompts used, and responses received should be reported in an appendix.",
+   "anchor": "15. What should PGR students consider before using AI?"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "If AI use is authorised, it must be cited.",
+   "anchor": "6. How can I maintain academic integrity when using AI?"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "AI can generate incorrect data, produce “hallucinations” and out of date data.",
+   "anchor": "9. What are the risks of using AI in my academic work?"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "As AI generates content from existing data, it can re-produce content copied from other sources.",
+   "anchor": "9. What are the risks of using AI in my academic work?"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "AI can reproduce biased data.",
+   "anchor": "9. What are the risks of using AI in my academic work?"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "If a student has information to suggest AI is needed due to their disability this can be discussed with their Disability Adviser.",
+   "anchor": "14. How can AI support disabled students?"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "IELLI Workshop - Understanding and using AI at University is available through PDMS",
+   "anchor": "16. How can I learn more about AI?"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "The University acknowledges that AI offers students exciting opportunities to develop their academic, employability and life skills, and we are committed to support them to use this technology ethically.",
+   "anchor": "3. What is St Andrews’ standpoint on the use of generative AI for assessment?"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "submitted_work_must_be_own_not_ai_generated",
+   "quote": "AI should not be used as a substitute for your own work.",
+   "why": "may fit own-work or support-not-replace; borderline"
+  },
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "It is expected that Generative AI, even when used, will be applied only to specific sentences or paragraphs, and not used more broadly to contribute to the thesis.",
+   "why": "PGR limit on extent, not rewriting as such"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "The Good Academic Practice Policy states that Unauthorised use of AI is a type of academic misconduct.",
+   "why": "names policy but not procedure routing"
+  },
+  {
+   "type": "comply_with_data_protection_law_and_policy",
+   "quote": "The University Data Protection Policy can be accessed here.",
+   "why": "pointer to policy, not compliance duty"
+  }
+ ]
+}

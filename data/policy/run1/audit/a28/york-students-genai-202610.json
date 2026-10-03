@@ -1,0 +1,84 @@
+{
+ "doc_id": "york-students-genai-202610",
+ "coder": "aud-a28",
+ "checked_types": 59,
+ "found": [
+  {
+   "type": "ai_banned_for_whole_assessment",
+   "quote": "some assessments will be held under closed exam conditions, where you will not be able to use any of the tools or services discussed.",
+   "anchor": "Warnings"
+  },
+  {
+   "type": "submitted_work_must_be_own_not_ai_generated",
+   "quote": "Such tools and services are intended to assist and support you with your writing, but not to produce work which is not your own.",
+   "anchor": "Language-enhancement applications and proofreading services"
+  },
+  {
+   "type": "spelling_grammar_proofreading_permitted",
+   "quote": "point out and automatically correct typographical errors, and point out but not automatically correct poor grammar and phrases.",
+   "anchor": "Examples of good and/or acceptable use of LEAs in assessments"
+  },
+  {
+   "type": "account_and_age_restrictions_on_ai_services",
+   "quote": "You must sign into Gemini using your University credentials to ensure this.",
+   "anchor": "Generative artificial intelligence (AI)"
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "Once you have shared your work, you cannot guarantee how that will then be used. The emergence of generative AI, for example, has raised serious concerns about how data is processed and used by the companies and software.",
+   "anchor": "Warnings"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "Uncritical acceptance: accepting suggestions without critical evaluation, careful review, or consideration of accuracy, context or appropriateness will likely not only lead to a case of misconduct but also increase your chances of receiving a low grade.",
+   "anchor": "Examples of poor and/or unacceptable use of generative AI in assessments"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "False authorship is considered an academic misconduct offence under University policy and is treated very seriously.",
+   "anchor": null
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Read our Generative AI - Taught Student guidance",
+   "anchor": "Generative artificial intelligence (AI)"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "Therefore, tutors can advise on and support students with some applications but such guidance will be limited",
+   "anchor": "Warnings"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "We believe that translation tools and generative AI, when used appropriately, can be valuable resources for students.",
+   "anchor": null
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "it is crucial to recognise the limitations, biases, and ethical concerns associated with AI use",
+   "anchor": "Generative artificial intelligence (AI)"
+  },
+  {
+   "type": "compliant_declared_use_not_misconduct",
+   "quote": "If used in an appropriate way, and if permitted in your assignments, the use of online LEAs is not considered academic misconduct and can be beneficial during degree programme.",
+   "anchor": "Language-enhancement applications and proofreading services"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "default_ai_banned_unless_authorised",
+   "quote": "for many of your assessments (and unless otherwise stated), there will be a strict expectation that any use of generative AI in the production of work you submit will adhere to University policy",
+   "why": "expectation tied to false authorship, not an explicit default ban"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "For some assignments, you may be allowed to use generative AI",
+   "why": "implies variation by assignment without naming who decides"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "Acknowledging and referencing generative AI",
+   "why": "link label only, no instruction to follow guidance"
+  }
+ ]
+}

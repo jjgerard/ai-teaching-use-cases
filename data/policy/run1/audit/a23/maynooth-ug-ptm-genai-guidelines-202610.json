@@ -1,0 +1,129 @@
+{
+ "doc_id": "maynooth-ug-ptm-genai-guidelines-202610",
+ "coder": "aud-a23",
+ "checked_types": 57,
+ "found": [
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "Provide a quick summary of texts, transcripts and notes and identify key points in texts.",
+   "anchor": "4.1 How GenAI tools can be used effectively"
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "It is important to note that these tools cannot replace other forms of learning (e.g., reading, tutorials, lectures, demonstration labs).",
+   "anchor": "4. How could GenAI be used to support my learning?"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "You may find some modules allow a lot of GenAI use, while others do not permit it at all.",
+   "anchor": "4. How could GenAI be used to support my learning?"
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "Always refer to module and assignment documentation, where acceptable types of use will be prescribed.",
+   "anchor": "5.2 Acceptable use of GenAI in assessments"
+  },
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "Talk to your lecturers if you are in doubt about what is allowed.",
+   "anchor": "4.2 What tools are available to use at MU?"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "Acceptable GenAI use will be outlined in written guidelines in module and assignment descriptions.",
+   "anchor": "5. How can GenAI be used in my assessments?"
+  },
+  {
+   "type": "assessment_tiered_ai_use_categories",
+   "quote": "The following table outlines the various acceptable GenAI uses within Maynooth University assessments.",
+   "anchor": "5.2 Acceptable use of GenAI in assessments"
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "Personal Data such as your name, email address, and your work could also be used for training or other purposes without your permission.",
+   "anchor": "3.1 What should I consider before using GenAI?"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "they may produce output that can be misleading, factually incorrect, and/or made up.",
+   "anchor": "Reliability and Accuracy"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "Processes are laid out in the “Maynooth University Policy on Academic Misconduct and Academic Integrity”.",
+   "anchor": "5.4 What do I do if I am contacted about using GenAI in my assessment?"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "if it indicates possible use beyond that permitted (see section 5.2 above), it might be a first step in a process of ensuring academic integrity.",
+   "anchor": "5.3 GenAI detection and Turnitin"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Refer to the Student GenAI Hub: This web resource built by and for students contains a range of relevant and additional resources for students on the Student Skills and Success website.",
+   "anchor": "6. Where can I find more information?"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "Book into a one-to-one appointment or group session with Academic Writing Support: This service offers free, friendly, non-judgemental writing help to any student who can discuss their writing with expert peer tutors.",
+   "anchor": "6. Where can I find more information?"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "GenAI output may replicate cultural biases and generate racist, sexist, ageist, and ableist responses.",
+   "anchor": "Biases and harmful representations in outputs"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "Not all companies are transparent about the training data they have used, often using copyrighted material in their development.",
+   "anchor": "Privacy and data consent issues"
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "The Guidelines will be reviewed in advance of the next academic year, 2025-2026.",
+   "anchor": null
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "students and staff have co-created these guidelines to empower students to consider the responsible, ethical and productive use of Generative AI in their learning.",
+   "anchor": "GenAI at Maynooth University"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "consider_whether_ai_fits_learning_outcomes",
+   "quote": "A key skill for students is knowing when to use and when not to use GenAI.",
+   "why": "General advice, no explicit weighing against learning outcomes"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "Using GenAI in an assignment beyond what is permitted is a breach of academic integrity (including plagiarism).",
+   "why": "Plagiarism label but breach defined as exceeding permission"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "Usage outside of the prescribed guidelines can endanger a student’s academic career",
+   "why": "Vague consequence, not a stated sanction"
+  },
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "GenAI can be used as an editing tool to improve the clarity or quality of assessment. It may not be used to create new content.",
+   "why": "Tier-scheme descriptor, not clearly a standalone limit"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "All use of GenAI should be acknowledged in academic work, including citations and referencing where appropriate and according to departmental handbooks.",
+   "why": "Points to handbooks only as part of acknowledgement duty"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "to empower students to consider the responsible, ethical and productive use of Generative AI in their learning",
+   "why": "Aim statement, stance only implicit"
+  },
+  {
+   "type": "students_not_required_to_use_ai",
+   "quote": "marking criteria will be the same whether or not students choose to use prescribed tools.",
+   "why": "About marking parity, not an explicit choice statement"
+  }
+ ]
+}

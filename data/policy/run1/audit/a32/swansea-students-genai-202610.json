@@ -1,0 +1,49 @@
+{
+ "doc_id": "swansea-students-genai-202610",
+ "coder": "aud-a32",
+ "checked_types": 64,
+ "found": [
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "As artificial intelligence becomes an integral part of the academic and professional world, it is vital that students are not only aware of these emerging technologies but also empowered to engage with them critically and creatively.",
+   "anchor": "Artificial Intelligence Framework: Students"
+  },
+  {
+   "type": "ai_environmental_impact",
+   "quote": "Understand that AI has global impact, both positive and negative, in economies, labour markets, education, social structures and environmentally.",
+   "anchor": "Being aware of the global role and impact of AI"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "Critically assess the limitations of generative AI outputs by identifying potential biases and inaccuracies, and edit the content using informed judgement before incorporating it into academic work.",
+   "anchor": "Using AI through a Critical Lens"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "must_acknowledge_or_declare_ai_use",
+   "quote": "Apply appropriate referencing techniques to acknowledge the use of AI generated content in academic work",
+   "why": "Competency framing, referencing rather than a declaration duty"
+  },
+  {
+   "type": "submit_declaration_form_with_assessment",
+   "quote": "Apply institutional accepted referencing standards for AI tools, including in-text citations, reference lists, and university declaration statements.",
+   "why": "Declaration statements mentioned only in competency descriptor"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "Contribute to institutional and/or student-led initiatives relating to AI governance.",
+   "why": "Competency level, not described student representation"
+  },
+  {
+   "type": "institution_provides_or_recommends_tool",
+   "quote": "Access institutional tools and use their basic functionality.",
+   "why": "No named tool or provision stated"
+  },
+  {
+   "type": "ai_output_may_be_included_when_assessment_allows",
+   "quote": "edit the content using informed judgement before incorporating it into academic work",
+   "why": "Implied incorporation of AI content; no assessment condition"
+  }
+ ]
+}

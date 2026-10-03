@@ -1,0 +1,119 @@
+{
+ "doc_id": "exeter-students-assessment-202610",
+ "coder": "aud-a33",
+ "checked_types": 60,
+ "found": [
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "While AI tools can support your learning, they must not replace your independent thought and original work in assessments.",
+   "anchor": "Academic Honesty and Policy"
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "you have complied with the University's policy on academic conduct, and with the expectations regarding the use of GenAI as specified in your assessment brief.",
+   "anchor": "Submitting your assessment"
+  },
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "please speak to your module lead before you complete the assessment.",
+   "anchor": "GenAI Use in Assessments"
+  },
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "The use of GenAI tools is required by the module’s Intended Learning Outcomes.",
+   "anchor": "AI-integrated"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "Please read the information on referencing and recording your AI use",
+   "anchor": "Academic Honesty and Policy"
+  },
+  {
+   "type": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "quote": "This would be an offence under the University’s",
+   "anchor": "Key points to be aware of"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Fabrication (creation of false data/references) could also involve inaccurate material taken from AI tools;",
+   "anchor": "Academic Honesty and Policy"
+  },
+  {
+   "type": "complete_training_before_using_ai",
+   "quote": "To develop your AI literacy, complete the",
+   "anchor": "Further information"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "If there is any uncertainty with this please check with your Faculty Hub via SID:",
+   "anchor": "Assistive Writing Technology"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "Your assessment brief will include an explanation of how AI should (and should not) be used and a checklist of purposes for AI use.",
+   "anchor": "AI-integrated"
+  },
+  {
+   "type": "disable_or_avoid_built_in_ai_features",
+   "quote": "Find out how to turn off the AI function in Grammarly by reading the",
+   "anchor": "Assistive Writing Technology"
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "Please be aware that practice and guidance in this area will change over time, so check the",
+   "anchor": "Key points to be aware of"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "While AI tools can support your learning",
+   "why": "general remark, no specific permitted study use listed"
+  },
+  {
+   "type": "ai_output_may_be_included_when_assessment_allows",
+   "quote": "You can choose to use GenAI tools ethically and responsibly to assist in the development of an assessment.",
+   "why": "assistance permitted, inclusion of output not explicit"
+  },
+  {
+   "type": "should_or_encouraged_to_acknowledge_ai_use",
+   "quote": "using AI-generated content should be acknowledged in the same way as that taken from human authors.",
+   "why": "policy description with should, not addressed duty"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "Giving full credit to contributions (through proper referencing)",
+   "why": "general honesty principle, AI not named"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "incorporating Grammarly's suggested edits into your academic work may breach the University's Academic Honesty policy.",
+   "why": "may breach, not labelled misconduct"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "Misuse of AI generated content can lead to a student being found guilty of one or more of the offences listed in section 12.3 of the policy.",
+   "why": "refers to policy offences, procedure not stated"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "GenAI tools do not always output accurate or unbiased information",
+   "why": "bias mentioned only in passing within accuracy warning"
+  },
+  {
+   "type": "students_not_required_to_use_ai",
+   "quote": "You can choose to use GenAI tools ethically and responsibly to assist in the development of an assessment.",
+   "why": "choice within AI-assisted tier, not a decline statement"
+  },
+  {
+   "type": "strict_liability_ignorance_no_defence",
+   "quote": "where a person deliberately or accidentally represents work or ideas as their own without appropriate acknowledgement or referencing, including AI;",
+   "why": "covers accidental plagiarism, defence not explicitly ruled out"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "The assessment brief will include a checklist of purposes that AI can be used for.",
+   "why": "brief sets purposes, deciding body not stated"
+  }
+ ]
+}
