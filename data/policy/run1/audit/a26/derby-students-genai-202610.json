@@ -1,0 +1,34 @@
+{
+ "doc_id": "derby-students-genai-202610",
+ "coder": "aud-a26",
+ "checked_types": 68,
+ "found": [
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "AI Training Courses",
+   "anchor": "Generative Artificial Intelligence (AI)"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_environmental_impact",
+   "quote": "Sustainability of AI",
+   "why": "Menu label only; no statement visible in this text."
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "AI Copyright",
+   "why": "Menu label only; no statement visible in this text."
+  },
+  {
+   "type": "do_not_enter_personal_or_sensitive_data",
+   "quote": "Personally Identifiable Information (PII)",
+   "why": "Menu label only; no rule stated."
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "Referencing AI",
+   "why": "Menu label only; does not clearly point to guidance."
+  }
+ ]
+}
