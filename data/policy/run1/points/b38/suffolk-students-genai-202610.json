@@ -1,0 +1,148 @@
+{
+ "doc_id": "suffolk-students-genai-202610",
+ "coder": "pts-b38",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Students will be required to complete an AI use declaration for all assessments. Failure to accurately declare use may constitute academic misconduct.",
+   "anchor": "23",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students must complete an AI use declaration for all assessments; inaccurate declaration may be academic misconduct."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Using Generative AI to create or substantially edit work submitted for assessment, without explicit permission and without acknowledging its contribution, constitutes academic misconduct.",
+   "anchor": "15",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Using GenAI to create or substantially edit assessed work without permission and acknowledgement is academic misconduct."
+  },
+  {
+   "point_id": "p03",
+   "quote": "The use of Generative AI tools to give the impression that a student has learned more than they have is academic misconduct.",
+   "anchor": "15",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Using GenAI tools to give the impression a student has learned more than they have is academic misconduct."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Where AI tools, including AI language models are used, for assistance with writing, research or analysis, this must be acknowledged and properly referenced.",
+   "anchor": "22",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "AI assistance with writing, research or analysis must be acknowledged and properly referenced."
+  },
+  {
+   "point_id": "p05",
+   "quote": "AI detection tools are unreliable and should not be used as the basis for academic misconduct allegations.",
+   "anchor": "21",
+   "addressee": "institution",
+   "force": "should_not",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "AI detection tools are unreliable and should not be the basis for misconduct allegations."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Support will be provided to students through mandatory training accompanied by guidance including the ‘AI traffic light system’.",
+   "anchor": "26",
+   "addressee": "student",
+   "force": "commits",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Students will get mandatory training and guidance including the AI traffic light system."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Students on placement and work-based projects or equivalent should check the policy and approach to the use of AI tools of the placement provider or employer and ensure that their behaviour and practice whilst in the workplace also aligns with that policy.",
+   "anchor": "10",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Students on placement should check the provider's or employer's AI policy and align their practice with it."
+  },
+  {
+   "point_id": "p08",
+   "quote": "No personal data, confidential research materials, unpublished data, or sensitive/commercial University information may be uploaded into any external AI system unless explicitly approved and compliant with data protection and ethics requirements.",
+   "anchor": "18",
+   "addressee": "both",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "No personal data, confidential research, unpublished data or sensitive University information may go into external AI systems without explicit, compliant approval."
+  },
+  {
+   "point_id": "p09",
+   "quote": "A centrally supported or fully licensed Generative AI solution, outside of dedicated licenses for select roles and accessibility support, is not provided by the University.",
+   "anchor": "16",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "The University provides no centrally supported or fully licensed GenAI solution, apart from licences for select roles and accessibility support."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Whilst the use of assistive technologies is not prohibited, users must comply with this policy and the ‘AI Traffic Light System’ and other University guidance, to ensure that academic misconduct does not occur.",
+   "anchor": "20",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "Assistive technologies are not prohibited, but users must comply with the policy and the AI Traffic Light System."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Personal, sensitive, or confidential research data should not be entered into AI tools unless appropriate data protection safeguards are in place.",
+   "anchor": "14",
+   "addressee": "both",
+   "force": "should_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Personal, sensitive or confidential research data should not be entered into AI tools without data protection safeguards."
+  },
+  {
+   "point_id": "p12",
+   "quote": "When using Generative AI, staff and students should minimise unnecessary prompts, avoid repeated high-volume generation, and use institution-provided platforms where possible to reduce environmental impact.",
+   "anchor": "27",
+   "addressee": "both",
+   "force": "should",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Staff and students should minimise unnecessary prompts, avoid repeated high-volume generation and use institution-provided platforms to reduce environmental impact."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Expectations for the appropriate use of Generative AI within a discipline must be clearly defined, consistently applied, and communicated to students by academic staff, including explicitly within assessment briefs.",
+   "anchor": "11",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Discipline expectations for GenAI must be clearly defined, consistently applied and communicated to students, including in assessment briefs."
+  },
+  {
+   "point_id": "p14",
+   "quote": "Model responsible and transparent use of Generative AI in teaching materials and interactions with students, including clear disclosure when AI-generated output is used in lectures or learning resources.",
+   "anchor": "11 j)",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "Staff must model responsible, transparent GenAI use, including disclosing AI-generated output used in lectures or resources."
+  }
+ ]
+}

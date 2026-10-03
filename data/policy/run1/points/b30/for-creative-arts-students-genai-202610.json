@@ -1,0 +1,148 @@
+{
+ "doc_id": "for-creative-arts-students-genai-202610",
+ "coder": "pts-b30",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "reference the AI tool used and the content obtained; and",
+   "anchor": "Can I use AI in my assignment?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Students who use AI in any part of assessment must reference the AI tool used and the content obtained."
+  },
+  {
+   "point_id": "p02",
+   "quote": "If you have used or referred to information created by an artificial intelligence (AI) tool in your work, you must acknowledge this as a source in your work.",
+   "anchor": "Artificial Intelligence",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Any use or mention of AI-created information must be acknowledged as a source in the work."
+  },
+  {
+   "point_id": "p03",
+   "quote": "The acknowledgement will consist of a citation and a corresponding entry in your Bibliography, and in the case of images, an image caption and a corresponding entry in your List of Illustrations.",
+   "anchor": "Artificial Intelligence",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Acknowledgement is a citation plus a Bibliography entry; for images, a caption plus a List of Illustrations entry."
+  },
+  {
+   "point_id": "p04",
+   "quote": "outline the method and information gathered via the AI tool; and",
+   "anchor": "Can I use AI in my assignment?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students must outline the method used and the information gathered via the AI tool."
+  },
+  {
+   "point_id": "p05",
+   "quote": "If there is no URL to share, then you should provide a full transcript of prompts and responses from your conversation in the appendix.",
+   "anchor": "Personal Communications (email and interviews)",
+   "addressee": "student",
+   "force": "should",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Where an AI chat has no shareable URL, a full transcript of prompts and responses should go in the appendix."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Although, it is important to acknowledge that grades are determined by evidence of meeting learning objectives, not on repetition of AI generated content.",
+   "anchor": "Can I use AI in my assignment?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Grades are determined by evidence of meeting learning objectives, not by repetition of AI-generated content."
+  },
+  {
+   "point_id": "p07",
+   "quote": "AI prompts can be shared with others, so do not share personal data or sensitive information about yourself or others.",
+   "anchor": "Warning! Beware...",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Because AI prompts can be shared with others, personal data or sensitive information must not be entered."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Copyright ownership of AI outputs is unclear and inputting in-copyright material into an AI platform could be considered an infringement of copyright law.",
+   "anchor": "Warning! Beware...",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Ownership of AI outputs is unclear, and entering in-copyright material into an AI platform could infringe copyright."
+  },
+  {
+   "point_id": "p09",
+   "quote": "AI does not always offer citations or references for their information sources, so you can’t verify it; where references are offered these must be checked.",
+   "anchor": "Warning! Beware...",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "AI may not give sources, so output cannot be verified; any references it does give must be checked."
+  },
+  {
+   "point_id": "p10",
+   "quote": "These AI tools provide a fast way to visualise ideas and potential creative outcomes but it is important to acknowledge that they may pose problems with copyright as the images they create may plagiarise existing copyrighted works gathered from the Internet.",
+   "anchor": "Images",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Image generators can help visualise ideas but may pose copyright problems because images may plagiarise existing copyrighted works."
+  },
+  {
+   "point_id": "p11",
+   "quote": "While not foolproof, Glaze offers a way to protect your own work being used by AI tools.",
+   "anchor": "Looking to Protect Your Artwork Online?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Glaze offers a way, though not foolproof, to protect your own artwork from being used by AI tools."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Websites and social media – if you are referencing a specific tool or piece of AI software.",
+   "anchor": "Artificial Intelligence",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Use the UCA Harvard Websites and social media template when referencing a specific AI tool or software."
+  },
+  {
+   "point_id": "p13",
+   "quote": "If you become too reliant on AI, you are not developing the competencies such as writing skills, deep learning, critical thinking and evaluation.",
+   "anchor": "Warning! Beware...",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Over-reliance on AI means not developing competencies such as writing, deep learning, critical thinking and evaluation."
+  },
+  {
+   "point_id": "p14",
+   "quote": "LinkedIn Learning – all UCA students and staff have free access to LinkedIn Learning using your Single Sign-on, and there are a range of short courses there on AI including how to write prompts.",
+   "anchor": "For more information about AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "All UCA students and staff have free LinkedIn Learning access, including short AI courses on writing prompts."
+  }
+ ]
+}

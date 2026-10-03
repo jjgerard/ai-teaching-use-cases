@@ -1,0 +1,128 @@
+{
+ "doc_id": "manchester-metropolitan-students-genai-202610",
+ "coder": "pts-b32",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "You cannot use it to create the assessment itself.",
+   "anchor": "Artificial intelligence and assessments",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Generative AI cannot be used to create the assessment itself."
+  },
+  {
+   "point_id": "p02",
+   "quote": "You should always check the assessment brief for specific instructions.",
+   "anchor": "Artificial intelligence and assessments",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Always check the assessment brief for specific instructions."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Unless you are advised it is acceptable, don’t use it.",
+   "anchor": "What are the pitfalls of using generative AI?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Do not use generative AI for academic work unless advised that it is acceptable."
+  },
+  {
+   "point_id": "p04",
+   "quote": "If you make unauthorised use of generative AI within your assessment and attempt to gain an unfair advantage by passing this work off as your own, this will be considered academic misconduct.",
+   "anchor": "When can I use it?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Unauthorised AI use in an assessment, passed off as your own for unfair advantage, is academic misconduct."
+  },
+  {
+   "point_id": "p05",
+   "quote": "You must receive consent before entering work created by others into the AI tool as a prompt.",
+   "anchor": "What are the pitfalls of using generative AI?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Consent is required before entering work created by others into an AI tool as a prompt."
+  },
+  {
+   "point_id": "p06",
+   "quote": "You should use the same caution with a generative AI that you would with non-academic sources, such as Wikipedia, and always verify information and sources independently.",
+   "anchor": "What are the pitfalls of using generative AI?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Treat generative AI with the caution given to non-academic sources such as Wikipedia, and verify information and sources independently."
+  },
+  {
+   "point_id": "p07",
+   "quote": "If an assessment permits generative AI use, you should refer to the Library guidance on referencing generative AI in your assessments.",
+   "anchor": "How do I reference that I have used AI?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Where an assessment permits AI use, refer to the Library guidance on referencing generative AI."
+  },
+  {
+   "point_id": "p08",
+   "quote": "This will be investigated on a case-by-case basis under the Academic Misconduct Policy, and the penalty will depend on the severity of the case.",
+   "anchor": "What’s the penalty for unacknowledged use of AI?",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Unacknowledged AI use is investigated case by case under the Academic Misconduct Policy, with penalty depending on severity."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Wherever the use of generative AI is suspected, we will investigate this fully in line with our Academic Misconduct Policy.",
+   "anchor": "Is it possible my tutors could mistake my work for that of an AI?",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "Where generative AI use is suspected, it will be fully investigated under the Academic Misconduct Policy."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Your work should always authentically represent your capabilities.",
+   "anchor": "Artificial intelligence and assessments",
+   "addressee": "student",
+   "force": "should",
+   "topic": "other",
+   "specific": false,
+   "gist": "Work should always authentically represent your capabilities."
+  },
+  {
+   "point_id": "p11",
+   "quote": "The AI Literacy Rise Study Pack can help you get started with generative AI and build your AI literacy.",
+   "anchor": "Artificial intelligence and assessments",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "The AI Literacy Rise Study Pack can help you get started with generative AI and build AI literacy."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Specialist tutors provide help with academic writing, numeracy, specific learning difficulties, study skills and assistive technologies.",
+   "anchor": "I’m struggling with my work, what can I do?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": false,
+   "gist": "Specialist tutors help with academic writing, numeracy, specific learning difficulties, study skills and assistive technologies."
+  }
+ ]
+}

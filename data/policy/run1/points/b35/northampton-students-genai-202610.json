@@ -1,0 +1,178 @@
+{
+ "doc_id": "northampton-students-genai-202610",
+ "coder": "pts-b35",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Before using any AI to support an assessment, you should always check and follow your assessment brief and your tutor’s guidance on use of AI.",
+   "anchor": "Guidance on AI in Assessments",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Before using AI for an assessment, check and follow your assessment brief and your tutor's guidance."
+  },
+  {
+   "point_id": "p02",
+   "quote": "You are unable to use AI for the final output of the assessment due to the assessment design. For example, a closed book exam where you are required to demonstrate within controlled conditions that you have core knowledge or a skill in a particular area.",
+   "anchor": "Category 1: No AI allowed",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "In Category 1 you cannot use AI for the final output because of the assessment design, for example a closed book exam."
+  },
+  {
+   "point_id": "p03",
+   "quote": "You may make use of AI in your assessment in an assistive role, but you must acknowledge this appropriately.",
+   "anchor": "Category 2: AI can be used in an assistive role",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "In Category 2 you may use AI in an assistive role but must acknowledge it appropriately."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Using AI is part of the assessment and will be expected. You must still acknowledge where and how you have used AI.",
+   "anchor": "Category 3: AI is an integral part of assessment",
+   "addressee": "student",
+   "force": "must",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "In Category 3 AI use is expected as part of the assessment, but you must still acknowledge where and how you used it."
+  },
+  {
+   "point_id": "p05",
+   "quote": "If you have used AI in a piece of assessed work at UON, you must make it clear where and how you have used AI output, not doing so can be seen as Academic Misconduct.",
+   "anchor": "Step 2: When do I need to acknowledge using AI?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "If you used AI in assessed work you must make clear where and how; failing to do so can be seen as academic misconduct."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Some uses of AI are seen as ‘permitted use’ and do not normally require an acknowledgement in your work. These include:",
+   "anchor": "Permitted uses",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Some permitted uses do not normally require acknowledgement."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Checking spelling, punctuation and grammar",
+   "anchor": "Permitted uses",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Checking spelling, punctuation and grammar is a permitted use not normally needing acknowledgement."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Generating text, images or any other content to add to your assessment.",
+   "anchor": "Higher-risk uses",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Generating text, images or other content to add to your assessment is a higher-risk use requiring acknowledgement."
+  },
+  {
+   "point_id": "p09",
+   "quote": "If your use of AI is not listed above, you should check first with your tutor to see if your use of AI is allowed in your assessment.",
+   "anchor": "Step 2: When do I need to acknowledge using AI?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "If your AI use is not listed, check first with your tutor whether it is allowed."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Use AI outputs that you do not understand or cannot explain.",
+   "anchor": "You must not use AI to:",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Do not use AI outputs that you do not understand or cannot explain."
+  },
+  {
+   "point_id": "p11",
+   "quote": "A simple guideline: If you cannot explain, defend, or reproduce the work yourself, you should not submit it.",
+   "anchor": "You must not use AI to:",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "If you cannot explain, defend or reproduce the work yourself, you should not submit it."
+  },
+  {
+   "point_id": "p12",
+   "quote": "This should include the name of the AI software that you used and a clear description of where and how the output was used in your work.",
+   "anchor": "Step 3: How do I acknowledge using AI?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "An acknowledgement should include the name of the AI software and a clear description of where and how the output was used."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Acknowledgements should be included as appendices in your assessment.",
+   "anchor": "Step 3: How do I acknowledge using AI?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Acknowledgements should be included as appendices in your assessment."
+  },
+  {
+   "point_id": "p14",
+   "quote": "The GenAI Acknowledgement Generator is a tool designed to help you write an acknowledgement when you have used GenAI in a piece of assessment work.",
+   "anchor": "Step 3: How do I acknowledge using AI?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "The GenAI Acknowledgement Generator helps you write an acknowledgement when you have used GenAI in assessment work."
+  },
+  {
+   "point_id": "p15",
+   "quote": "The following should not be submitted to an AI tool: confidential data; data belonging to other people or organisations, i.e. the intellectual property of other people or third-party copyrighted material, unless permission has been granted or is licensed; your own personal data, unless you are prepared for it to surface in AI output.",
+   "anchor": "Privacy, data protection and copyright",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Do not submit confidential data, others' data or third-party copyrighted material without permission, or your own personal data unless prepared for it to surface."
+  },
+  {
+   "point_id": "p16",
+   "quote": "UON advises its university community to use AI tools purposefully and only when they add value to your learning or work.",
+   "anchor": "Environmental",
+   "addressee": "both",
+   "force": "should",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "The university advises using AI tools purposefully and only when they add value to your learning or work."
+  },
+  {
+   "point_id": "p17",
+   "quote": "You are advised to complete the University of Northampton Plagiarism Avoidance Course, usually known as UNPAC to learn more about academic integrity.",
+   "anchor": "Guidance on AI in Assessments",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "You are advised to complete the Plagiarism Avoidance Course, UNPAC, to learn more about academic integrity."
+  }
+ ]
+}

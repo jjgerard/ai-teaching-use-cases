@@ -1,0 +1,108 @@
+{
+ "doc_id": "ucd-students-genai-202610",
+ "coder": "pts-b24",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "for student assignments you should seek prior approval of your module coordinator before using GenAI Tools, ref. Section 4.3, UCD Academic Integrity Policy",
+   "anchor": "Artificial Intelligence: Welcome",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "For student assignments, seek prior approval from your module coordinator before using GenAI tools."
+  },
+  {
+   "point_id": "p02",
+   "quote": "First and foremost, you should never rely on AI to create content for your academic work without appropriate acknowledgement",
+   "anchor": "Artificial Intelligence: Welcome",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Never rely on AI to create content for academic work without appropriate acknowledgement."
+  },
+  {
+   "point_id": "p03",
+   "quote": "When you do use AI generated content you must acknowledge its use with proper attribution and citation.",
+   "anchor": "Artificial Intelligence: Welcome",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "AI-generated content used must be acknowledged with proper attribution and citation."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Module Coordinators must also provide adequate guidance for students on the use of AI for assessment within their modules",
+   "anchor": "Artificial Intelligence: Welcome",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "Module Coordinators must give students adequate guidance on AI use for assessment in their modules."
+  },
+  {
+   "point_id": "p05",
+   "quote": "The Library also advises that you consult the University's AI Governance Principles for additional information.",
+   "anchor": "Artificial Intelligence: Welcome",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "The Library advises consulting the University's AI Governance Principles for more information."
+  },
+  {
+   "point_id": "p06",
+   "quote": "You should also be aware that AI content is not entirely reliable.",
+   "anchor": "Artificial Intelligence: Welcome",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "AI content is not entirely reliable."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Responsible use of generative AI also includes developing an understanding of the environmental and socioeconomic impacts that result from the use of AI tools.",
+   "anchor": "About this Guide",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Responsible use includes understanding the environmental and socioeconomic impacts of AI tools."
+  },
+  {
+   "point_id": "p08",
+   "quote": "you want to “Outsource Academic labour to AI, not thinking”.",
+   "anchor": "Artificial Intelligence: Welcome",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "permitted_uses",
+   "specific": false,
+   "gist": "Outsource academic labour to AI, not thinking (quoting Mushtaq Bilal)."
+  },
+  {
+   "point_id": "p09",
+   "quote": "It is best to think of AI as a personal assistant. Use it to help clarify your ideas, structure your arguments and familiarise yourself with new topics.",
+   "anchor": "Artificial Intelligence: Welcome",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Think of AI as a personal assistant to clarify ideas, structure arguments and learn new topics."
+  },
+  {
+   "point_id": "p10",
+   "quote": "The library provides guidance on how to correctly cite and reference Generative AI in this guide as well as in each of the citation style guides available on our website.",
+   "anchor": "Artificial Intelligence: Welcome",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "The library gives guidance on citing generative AI in this guide and in each citation style guide."
+  }
+ ]
+}

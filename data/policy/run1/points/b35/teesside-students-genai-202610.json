@@ -1,0 +1,158 @@
+{
+ "doc_id": "teesside-students-genai-202610",
+ "coder": "pts-b35",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "If your assignment guidelines forbid AI, don’t use it.",
+   "anchor": "2. Relevance",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Do not use AI if your assignment guidelines forbid it."
+  },
+  {
+   "point_id": "p02",
+   "quote": "If AI use is allowed, explain how you used it in your work.",
+   "anchor": "2. Relevance",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Where AI use is allowed, explain how you used it in your work."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Never share personal, confidential, or copyrighted material with public AI tools.",
+   "anchor": "1. Comprehend",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Never share personal, confidential or copyrighted material with public AI tools."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Respect copyright — don’t upload university materials like lecture slides or readings.",
+   "anchor": "5. Think Critically and Reflect",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Do not upload university materials such as lecture slides or readings."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Acknowledge your use of AI (for example, “I used Microsoft Copilot to help check grammar in my essay”).",
+   "anchor": "3. Analysis",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Acknowledge AI use, for example by stating you used Microsoft Copilot to help check grammar in an essay."
+  },
+  {
+   "point_id": "p06",
+   "quote": "The School of Health and Life Sciences provide help on filling in the Declaration of the Use of AI form for modules on p5-6 of their student guidance",
+   "anchor": "3. Analysis",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "The School of Health and Life Sciences has a Declaration of the Use of AI form, with help on pages 5-6 of its student guidance."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Never cite AI as an author — cite original materials.",
+   "anchor": "3. Analysis",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Never cite AI as an author; cite the original materials."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Cite directly included AI content using Teesside University’s referencing guide.",
+   "anchor": "3. Analysis",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Cite directly included AI content using the university's referencing guide."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Always check facts and accuracy using trusted academic sources (books, journals, library databases).",
+   "anchor": "1. Comprehend",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Always check facts and accuracy against trusted academic sources such as books, journals and library databases."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Avoid letting AI think for you (“cognitive offloading”).",
+   "anchor": "4. Forward Thinking",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Avoid letting AI think for you, known as cognitive offloading."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Be aware of environmental impact. Each AI query uses energy. Combine your questions into one well-thought-out prompt to reduce your digital footprint.",
+   "anchor": "5. Think Critically and Reflect",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Each AI query uses energy, so combine your questions into one well-thought-out prompt to reduce your digital footprint."
+  },
+  {
+   "point_id": "p12",
+   "quote": "At Teesside University, we encourage users to apply the CRAFT model when writing prompts.",
+   "anchor": "AI Prompt Library",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Users are encouraged to apply the CRAFT model when writing prompts."
+  },
+  {
+   "point_id": "p13",
+   "quote": "In order to avoid academic misconduct, you should be evidencing the search that you have undertaken to find the resources to support your assignment and bibliography.",
+   "anchor": "Evidencing your search",
+   "addressee": "student",
+   "force": "should",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "To avoid academic misconduct, evidence the search you undertook to find resources for your assignment and bibliography."
+  },
+  {
+   "point_id": "p14",
+   "quote": "You should also keep all the updated drafts of your work to evidence changes that you have made.",
+   "anchor": "Evidencing your search",
+   "addressee": "student",
+   "force": "should",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Keep all updated drafts of your work to evidence the changes you made."
+  },
+  {
+   "point_id": "p15",
+   "quote": "A Blackboard module on AI is available to Teesside University students. Login to Blackboard, go to Organisations and then The AI Resilient Learner",
+   "anchor": "Further reading",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "A Blackboard module called The AI Resilient Learner is available under Organisations."
+  }
+ ]
+}

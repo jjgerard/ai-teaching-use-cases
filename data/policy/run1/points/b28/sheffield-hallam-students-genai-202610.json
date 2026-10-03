@@ -1,0 +1,118 @@
+{
+ "doc_id": "sheffield-hallam-students-genai-202610",
+ "coder": "pts-b28",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Your tutors should give you guidance about the level of AI which is allowed in your assessment task.",
+   "anchor": "Can you use AI-generated material in your work?",
+   "addressee": "both",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Tutors should give guidance on the level of AI allowed in an assessment task."
+  },
+  {
+   "point_id": "p02",
+   "quote": "If your tutor has not provided guidance on the use of AI-generated material for your assessment, please ask them. If in doubt, assume that AI cannot be used in your assessment task.",
+   "anchor": "Can you use AI-generated material in your work?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "If no guidance is given, ask your tutor; if in doubt, assume AI cannot be used in the assessment."
+  },
+  {
+   "point_id": "p03",
+   "quote": "It is important you do not use AI tools to generate an assignment and submit it as if it were your own work.",
+   "anchor": "Artificial Intelligence and Academic Integrity",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Do not use AI tools to generate an assignment and submit it as your own work."
+  },
+  {
+   "point_id": "p04",
+   "quote": "attempting to pass off work created by artificial intelligence as your own. These activities show a clear intention to deceive the marker and are treated as misconduct.",
+   "anchor": "Artificial Intelligence and Academic Integrity",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Passing off AI-created work as your own shows clear intention to deceive the marker and is treated as misconduct."
+  },
+  {
+   "point_id": "p05",
+   "quote": "The Artificial Intelligence Transparency Scale (AITS) has been created at Sheffield Hallam University, and it uses 5 descriptors to communicate the way in which AI should be used and how it has been used.",
+   "anchor": "The Artificial Intelligence Transparency Scale",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "The Hallam-created AITS uses 5 descriptors to communicate how AI should be used and how it has been used."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Sometimes tutors may use the Artificial Intelligence Transparency Scale below to help communicate about how AI may be used, although they may use a different approach.",
+   "anchor": "Can you use AI-generated material in your work?",
+   "addressee": "staff",
+   "force": "may",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Tutors may use the AI Transparency Scale to communicate permitted AI use, or may use a different approach."
+  },
+  {
+   "point_id": "p07",
+   "quote": "If you are acknowledging the use of AI in your work, you should provide a statement about how you have used it.",
+   "anchor": "Acknowledging the use of AI in your work",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "If acknowledging AI use, provide a statement about how you used it."
+  },
+  {
+   "point_id": "p08",
+   "quote": "If you have used AI in your work, you need to be clear about whether to reference your use of AI as a source, or to acknowledge your use of AI, or both.",
+   "anchor": "Acknowledging the use of AI in your work",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "If you used AI, be clear whether to reference it as a source, acknowledge it, or both."
+  },
+  {
+   "point_id": "p09",
+   "quote": "I used AI at AITS 2 (AI for Shaping) of the Artificial Intelligence Transparency Scale (AITS). Specifically, I used ChatGPT to help brainstorm initial ideas and outline the structure of my essay. I did not use AI to write any part of the content or to edit the final version.",
+   "anchor": "Acknowledging the use of AI in your work",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Example student statement: used ChatGPT at AITS 2 to brainstorm and outline an essay, and not to write content or edit the final version."
+  },
+  {
+   "point_id": "p10",
+   "quote": "rather than seek to prohibit your use of them, we will support you in using them effectively, ethically, and transparently.",
+   "anchor": "Understanding Artificial Intelligence",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "permitted_uses",
+   "specific": false,
+   "gist": "Rather than prohibiting AI tools, the university will support students to use them effectively, ethically and transparently."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Your work will be marked according to the assessment criteria for each task, so it is important you read your assessment brief, and follow any AI-related guidance to succeed at the task and avoid academic misconduct.",
+   "anchor": "Can you use AI-generated material in your work?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Read your assessment brief and follow its AI guidance to succeed and avoid academic misconduct."
+  }
+ ]
+}

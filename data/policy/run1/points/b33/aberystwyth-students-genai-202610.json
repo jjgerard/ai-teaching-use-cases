@@ -1,0 +1,138 @@
+{
+ "doc_id": "aberystwyth-students-genai-202610",
+ "coder": "pts-b33",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Your department might have its own local Generative AI guidance which you must follow.",
+   "anchor": "Using AI for your Studies",
+   "addressee": "student",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Follow any local departmental Generative AI guidance."
+  },
+  {
+   "point_id": "p02",
+   "quote": "The University's Unacceptable Academic Practice regulation states that plagiarism includes submitting AI-generated work as though it were your own.",
+   "anchor": "Using AI for your Studies",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Under the Unacceptable Academic Practice regulation, submitting AI-generated work as your own is plagiarism."
+  },
+  {
+   "point_id": "p03",
+   "quote": "If you are unsure whether the use of AI is permitted for a particular assignment or aspect of your studies, you should seek guidance from your academic tutor.",
+   "anchor": "Using AI for your Studies",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Ask your academic tutor if unsure whether AI is permitted for an assignment."
+  },
+  {
+   "point_id": "p04",
+   "quote": "If you are using third party software, ensure that you are not entering any personal information relating to yourself or others, or content where the copyright is owned by other people or organisations.",
+   "anchor": "Statements and Safety",
+   "addressee": "student",
+   "force": "must",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Do not enter personal information or third-party copyrighted content into third party AI software."
+  },
+  {
+   "point_id": "p05",
+   "quote": "The university’s recommended Generative AI tool is Microsoft Copilot. This is built into our Microsoft Licence.",
+   "anchor": "Generative Artificial Intelligence",
+   "addressee": "both",
+   "force": "encouraged",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Microsoft Copilot is the recommended tool and is part of the university's Microsoft licence."
+  },
+  {
+   "point_id": "p06",
+   "quote": "All staff and students are automatically enrolled on this course. We recommend engaging with this course before using Generative AI.",
+   "anchor": "Training: AI Essentials Course",
+   "addressee": "both",
+   "force": "encouraged",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Everyone is auto-enrolled on the AI Essentials course, recommended before using Generative AI."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Your department might ask you to use a Generative AI Tool use statement or tool acknowledgement statement for your assignments.",
+   "anchor": "Using AI for your Studies",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Departments may require a tool use or acknowledgement statement on assignments."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Before using Generative AI, consider what knowledge, skills, or experience you might gain by undertaking the task independently.",
+   "anchor": "Using AI for your Studies",
+   "addressee": "student",
+   "force": "should",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Consider what you would gain by doing the task independently before using Generative AI."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Each assessment should include a statement on the acceptable level of Generative AI use.",
+   "anchor": "Using AI for your Teaching",
+   "addressee": "staff",
+   "force": "should",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "Each assessment should state the acceptable level of Generative AI use."
+  },
+  {
+   "point_id": "p10",
+   "quote": "As with recommendations for students, staff should declare when and how Generative AI has been used.",
+   "anchor": "Using AI for your Teaching",
+   "addressee": "staff",
+   "force": "should",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "Staff should declare when and how they have used Generative AI."
+  },
+  {
+   "point_id": "p11",
+   "quote": "If your research falls within the scope of the Research Ethics Panel, they may review any use of AI within your research processes",
+   "anchor": "Using AI for your Research",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "The Research Ethics Panel may review any AI use in research within its scope."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Remember to avoid uploading personal information (about identifiable individuals) or other confidential information to Copilot.",
+   "anchor": "Using AI for your Administration",
+   "addressee": "both",
+   "force": "should_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Avoid uploading personal or confidential information to Copilot."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Library Academic and Digital Services have produced a Prompt Library.",
+   "anchor": "Prompt Library",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": false,
+   "gist": "The Library has produced a Prompt Library with suggestions for using Generative AI."
+  }
+ ]
+}
