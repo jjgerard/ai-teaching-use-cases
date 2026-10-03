@@ -1,0 +1,39 @@
+{
+ "doc_id": "gloucestershire-students-genai-202610",
+ "coder": "aud-a39",
+ "checked_types": 61,
+ "found": [
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "Gen AI tools learn patterns from existing data, so they can easily reproduce bias.",
+   "anchor": "Bias"
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "Aspects of this guide may become out-of-date very quickly, and guidance may be updated frequently.",
+   "anchor": "Disclaimer"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "This page is designed to suggest some ways you can use Generative AI to support your studies, particularly your dissertation",
+   "anchor": "About this page"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "consider_whether_ai_fits_learning_outcomes",
+   "quote": "We would suggest you also consider the impact of any use you make of Gen AI on your overall learning.",
+   "why": "Learning impact prompt, no explicit link to learning outcomes or assessed skills"
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "skipping any steps along the way will have an impact on what you are able to take away with you.",
+   "why": "Implicit warning about skipping steps, not a stated normative rule"
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "It is currently unclear exactly how Gen AI tools use the data you enter",
+   "why": "States uncertainty about data use, not retention or training"
+  }
+ ]
+}
