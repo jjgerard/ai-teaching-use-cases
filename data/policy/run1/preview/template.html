@@ -102,6 +102,26 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 .small { color: var(--ink2); font-size: 13px; max-width: 80ch; margin-top: 10px; }
 .brow.share { grid-template-columns: minmax(110px, 40%) 1fr 70px; }
 .brow.share .bn { white-space: nowrap; }
+
+/* guidance points */
+.pctl { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-bottom: 10px; }
+.pctl input[type="search"] { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); padding: 5px 9px; min-width: min(100%, 260px); border-radius: 3px; }
+.tchips { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 12px; }
+.tchips .chip small { color: inherit; opacity: .7; margin-left: 4px; }
+.pc { background: var(--surface); border: 1px solid var(--line); padding: 12px 14px; display: grid; gap: 6px; min-width: 0; }
+.pc .who2 { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.pc .who2 a { font-weight: 600; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+.pc .who2 a:hover { color: var(--accent-ink); border-color: var(--accent); }
+.pc .gist { font-size: 15px; line-height: 1.45; max-width: 80ch; }
+.pc .qt { margin: 0; padding-left: 10px; border-left: 2px solid var(--line); color: var(--ink2); font-size: 13px; max-width: 90ch; overflow-wrap: anywhere; }
+.tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.tag { font-size: 11px; letter-spacing: .02em; padding: 1px 7px; background: var(--tint); color: var(--ink); border-radius: 3px; }
+.tag.f-must, .tag.f-must_not { background: var(--accent); color: #fff; }
+.tag.gen { background: transparent; border: 1px solid var(--line); color: var(--muted); }
+.plist { display: grid; gap: 10px; }
+.more { margin-top: 12px; }
+.pctl > span, .xsel > span { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; min-width: 0; max-width: 100%; }
+.pctl select, .xsel select, #varsel { min-width: 0; max-width: 100%; }
 @media (max-width: 520px) { .brow.share { grid-template-columns: 1fr 70px; } h1 { font-size: 24px; } .brow { grid-template-columns: 1fr 34px; } .brow .bt { grid-column: 1 / -1; grid-row: 2; } .brow .bn { grid-row: 1; grid-column: 2; } .mx td.nm, .mx th.nm { min-width: 140px; max-width: 140px; } }
 @media (prefers-reduced-motion: no-preference) { .bf { transition: width .2s ease; } }
 </style>
@@ -109,13 +129,13 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 
 <div class="wrap">
   <h1>AI policy atlas</h1>
-  <p class="lede">Generative AI guidance for students at universities in the UK and Ireland, coded into a fixed vocabulary of <span id="nv"></span> variables. Every value links to a verbatim quote from an archived copy of the document.</p>
-  <p class="note"><b>Draft, first tier only.</b> <span id="nd"></span> documents from a stratified sample of <span id="ni"></span> institutions, all coded by one model. Coders flagged about 28 as thin or not institution-wide student guidance: hub pages, library guides, whole misconduct procedures, staff or governance papers. Use "Rule-setting documents only" below before reading any pattern. Nothing here is a prevalence estimate.</p>
+  <p class="lede">What UK and Irish universities tell students about generative AI. Each point is quoted from the institution’s own document and links back to it. A smaller set of documents is also classified against a fixed vocabulary of <span id="nv"></span> variables, further down.</p>
+  <p class="note"><b>Draft.</b> <span id="npd"></span> documents from <span id="ni"></span> institutions on a curated list, read and extracted by one model. Some institutions are missing because their pages could not be fetched. Many documents are hubs, library guides or whole misconduct procedures with a few AI sentences, so a point being present says little about how common it is. The classified sections use <span id="nd"></span> of the documents. Nothing here is a prevalence estimate.</p>
 </div>
 
 <div class="bar-filter"><div class="in">
   <div class="grp" role="group" aria-label="Region"><span class="lab">Region</span><span id="regs"></span></div>
-  <div class="grp" role="group" aria-label="Document kind"><span class="lab">Documents</span>
+  <div class="grp" role="group" aria-label="Document kind"><span class="lab">Classified sections</span>
     <button class="chip" id="k-all" aria-pressed="true">All coded</button><button class="chip" id="k-rules" aria-pressed="false">Rule-setting documents only</button></div>
   <span class="count-now mono" id="nowshown"></span>
 </div></div>
@@ -131,8 +151,25 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   </div>
 </section>
 
+
+<section id="points">
+  <h2>What the guidance says</h2>
+  <p class="sub">Specific points from each institution's own document, quoted word for word. Each card links to the source. The one-line summary restates only what its quote says. Filter by theme, strength of wording, who it is addressed to, or a single institution.</p>
+  <div class="pctl">
+    <span><label class="lab" for="psearch">Search</label> <input type="search" id="psearch" placeholder="e.g. Copilot, translation, personal data"></span>
+    <span><label class="lab" for="pforce">Wording</label> <select id="pforce"></select></span>
+    <span><label class="lab" for="pwho">Addressed to</label> <select id="pwho"></select></span>
+    <span><label class="lab" for="pinst">Institution</label> <select id="pinst"></select></span>
+    <label><input type="checkbox" id="pspec" checked> specific points only</label>
+  </div>
+  <div class="tchips" id="ptopics" role="group" aria-label="Theme"></div>
+  <p class="sub mono" id="pcount" style="margin-bottom:10px"></p>
+  <div class="plist" id="plist"></div>
+  <button class="chip more" id="pmore" type="button" hidden>Show more</button>
+</section>
+
 <section id="kinds">
-  <h2>What kind of documents these are</h2>
+  <h2>What kind of documents these are</h2><p class="sub" style="margin-bottom:6px">The next sections use the 47 documents that were also classified.</p>
   <p class="sub">Documents differ in how binding they say they are and in who issued them. Compare institutions only after allowing for this. Click a bar to list the institutions.</p>
   <div class="cols">
     <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">How the document describes itself</h3><div class="mono" style="color:var(--muted)">instrument_force</div><div class="bars" id="b-force"></div></div>
@@ -210,7 +247,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   var KEY = ["instrument_force", "issued_by_type", "institutional_posture", "default_when_silent", "precedence", "permission_set_by", "disclosure_obligation", "referencing_requirement", "use_full_text_generation", "detector_stance", "sanctions_stated", "misconduct_framed_as", "ai_training"];
 
   $("nv").textContent = DATA.vars.length; $("cv").textContent = DATA.version;
-  $("nd").textContent = DATA.docs.length; $("ni").textContent = DATA.cov.length;
+  $("nd").textContent = DATA.docs.length; $("ni").textContent = DATA.cov.length; $("npd").textContent = DATA.pdocs.length;
 
   function isRule(d) { var c = d.cells.instrument_force; if (!c || c.s !== "v") return false; return c.v.indexOf("pointer_page") < 0; }
   function shown() { return DATA.docs.filter(function (d) { return (region === "All" || d.region === region) && (kind === "all" || isRule(d)); }); }
@@ -222,7 +259,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   $("k-rules").addEventListener("click", function () { kind = "rules"; refresh(); });
 
   // coverage
-  var ST = [["coded", "Coded", "s-coded"], ["fetch", "Found, needs a local fetch", "s-fetch"], ["none", "Searched, none found", "s-none"], ["deferred", "Archived, deferred", "s-deferred"]];
+  var ST = [["coded", "Document read, points extracted", "s-coded"], ["fetch", "Found, not archived (needs a local fetch)", "s-fetch"], ["none", "Searched, none found", "s-none"], ["deferred", "Archived, deferred (oversized)", "s-deferred"]];
   function drawCoverage() {
     var tot = DATA.cov.length, st = $("stack"); st.textContent = ""; var lg = $("legend"); lg.textContent = "";
     ST.forEach(function (s) {
@@ -368,13 +405,61 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     });
   }
 
+
+  // ---- guidance points ----
+  var PD = {}; DATA.pdocs.forEach(function (d) { PD[d.id] = d; });
+  var PT = DATA.points, ptopic = "all", plimit = 40;
+  var FORCEL = { must: "must", must_not: "must not", should: "should", should_not: "should not", may: "may", encouraged: "encouraged", commits: "institution commits", explains: "explains" };
+  var WHOL = { student: "students", staff: "staff", both: "students and staff", institution: "the institution" };
+  function pfilter() {
+    var q = $("psearch").value.trim().toLowerCase(), f = $("pforce").value, w = $("pwho").value, inst = $("pinst").value, spec = $("pspec").checked;
+    return PT.filter(function (p) {
+      var d = PD[p.d]; if (!d) return false;
+      if (region !== "All" && d.region !== region) return false;
+      if (ptopic !== "all" && p.t !== ptopic) return false;
+      if (f !== "all" && p.f !== f) return false; if (w !== "all" && p.ad !== w) return false;
+      if (inst !== "all" && p.d !== inst) return false; if (spec && !p.s) return false;
+      if (q && (p.g + " " + p.q + " " + d.name).toLowerCase().indexOf(q) < 0) return false; return true;
+    });
+  }
+  function pfillSelect(id, entries) { var s = $(id); s.textContent = ""; entries.forEach(function (e) { var o = document.createElement("option"); o.value = e[0]; o.textContent = e[1]; s.appendChild(o); }); s.addEventListener("change", function () { plimit = 40; drawPoints(); }); }
+  function pinit() {
+    pfillSelect("pforce", [["all", "any"]].concat(Object.keys(FORCEL).map(function (k) { return [k, FORCEL[k]]; })));
+    pfillSelect("pwho", [["all", "anyone"]].concat(Object.keys(WHOL).map(function (k) { return [k, WHOL[k]]; })));
+    pfillSelect("pinst", [["all", "all institutions"]].concat(DATA.pdocs.map(function (d) { return [d.id, d.name + (d.none ? " (no points)" : "")]; })));
+    $("psearch").addEventListener("input", function () { plimit = 40; drawPoints(); }); $("pspec").addEventListener("change", function () { plimit = 40; drawPoints(); });
+    $("pmore").addEventListener("click", function () { plimit += 60; drawPoints(); });
+  }
+  function drawPoints() {
+    var rows = pfilter(), cnt = {}; var all = PT.filter(function (p) { var d = PD[p.d]; return d && (region === "All" || d.region === region) && (!$("pspec").checked || p.s); });
+    all.forEach(function (p) { cnt[p.t] = (cnt[p.t] || 0) + 1; });
+    var tc = $("ptopics"); tc.textContent = ""; var tot = all.length;
+    var chip = function (k, label, n) { var b = mkChip(label, ptopic === k, function () { ptopic = k; plimit = 40; drawPoints(); }); var s = el("small", null, String(n)); b.appendChild(s); tc.appendChild(b); };
+    chip("all", "All themes", tot); Object.keys(cnt).sort(function (a, b) { return cnt[b] - cnt[a]; }).forEach(function (k) { chip(k, hum(k), cnt[k]); });
+    var insts = {}; rows.forEach(function (p) { insts[p.d] = 1; });
+    $("pcount").textContent = rows.length + " points from " + Object.keys(insts).length + " institutions";
+    var host = $("plist"); host.textContent = "";
+    var emptyDoc = $("pinst").value !== "all" && PD[$("pinst").value] && PD[$("pinst").value].none;
+    if (emptyDoc) { var n = el("div", "pc"); n.appendChild(el("p", null, "This document sets no rules of its own: " + PD[$("pinst").value].none)); host.appendChild(n); }
+    rows.slice(0, plimit).forEach(function (p) {
+      var d = PD[p.d], c = el("article", "pc"), h = el("div", "who2");
+      var a = el("a", null, d.name); a.href = d.url; a.target = "_blank"; a.rel = "noopener"; h.appendChild(a);
+      h.appendChild(el("span", "mono", d.region + (p.a ? " · " + p.a : ""))); c.appendChild(h);
+      c.appendChild(el("p", "gist", p.g)); c.appendChild(el("blockquote", "qt", "“" + p.q + "”"));
+      var tg = el("div", "tags"); tg.appendChild(el("span", "tag f-" + p.f, FORCEL[p.f])); tg.appendChild(el("span", "tag", "to " + WHOL[p.ad])); tg.appendChild(el("span", "tag", hum(p.t))); if (!p.s) tg.appendChild(el("span", "tag gen", "general principle")); c.appendChild(tg);
+      host.appendChild(c);
+    });
+    if (!rows.length && !emptyDoc) host.appendChild(el("p", null, "No points match these filters."));
+    $("pmore").hidden = rows.length <= plimit;
+  }
+
   function refresh() {
     drawRegs(); $("k-all").setAttribute("aria-pressed", kind === "all"); $("k-rules").setAttribute("aria-pressed", kind === "rules");
     $("nowshown").textContent = shown().length + " of " + DATA.docs.length + " documents shown";
-    drawExplorer(); drawMatrix(); drawCommon(); drawCross(); drawPairs();
+    drawExplorer(); drawMatrix(); drawCommon(); drawCross(); drawPairs(); drawPoints();
   }
   drawCoverage();
   drawBars($("b-force"), "instrument_force", DATA.docs, $("who-kinds")); drawBars($("b-issuer"), "issued_by_type", DATA.docs, $("who-kinds"));
-  drawSelect(); crossSelect("xv", "instrument_force"); crossSelect("yv", "issued_by_type"); refresh();
+  pinit(); drawSelect(); crossSelect("xv", "instrument_force"); crossSelect("yv", "issued_by_type"); refresh();
 })();
 </script>

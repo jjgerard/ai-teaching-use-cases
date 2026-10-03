@@ -1,0 +1,138 @@
+{
+ "doc_id": "sunderland-students-genai-202610",
+ "coder": "pts-b34",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Our stand at the University of Sunderland on Gen-AI is an Assist-Not Do approach. However, your lecturer will specify how much or little Gen-AI use is accepted with each assignment.",
+   "anchor": "Referencing Gen-AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "The University takes an Assist-Not Do approach, and lecturers specify how much Gen-AI use is accepted per assignment."
+  },
+  {
+   "point_id": "p02",
+   "quote": "always check with your lecturer on how they want transparency of Gen-AI use presented as part of your assignment. As well as referencing this could include a signed declaration of Gen-AI usage and/ or an appendix of Gen-AI prompts and outputs.",
+   "anchor": "Referencing Gen-AI",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Check with your lecturer how to present Gen-AI transparency, which could include a signed declaration and/or an appendix of prompts and outputs."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Transparency is Key: Always acknowledge the use of AI tools in your work.",
+   "anchor": "General Notes for Referencing Gen-AI",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Always acknowledge the use of AI tools in your work."
+  },
+  {
+   "point_id": "p04",
+   "quote": "FACT CHECK, FACT CHECK, FACT CHECK all AI outputs.",
+   "anchor": "General Notes for Referencing Gen-AI",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Fact check all AI outputs."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Do not rely on Gen-AI for research purposes.",
+   "anchor": "General Notes for Referencing Gen-AI",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Do not rely on Gen-AI for research purposes."
+  },
+  {
+   "point_id": "p06",
+   "quote": "If they can access the Gen-AI image or article, then it should be referenced as a reusable online source like you would most online materials.",
+   "anchor": "Referencing Gen-AI",
+   "addressee": "student",
+   "force": "should",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Gen-AI output others can access online should be referenced as a reusable online source."
+  },
+  {
+   "point_id": "p07",
+   "quote": "If others cannot access it, then treat it as personal communication. Be prepared that your academic may request an appendix which details your private conversation with the Gen-AI source for evidence of use.",
+   "anchor": "Referencing Gen-AI",
+   "addressee": "student",
+   "force": "should",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Treat inaccessible Gen-AI output as personal communication, and be prepared to supply an appendix of the conversation as evidence."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Adapt Guidance: Always cross-check against Cite Them Right (and select your correct referencing style for your assignment), as citation styles may update their guidelines for emerging technologies.",
+   "anchor": "General Notes for Referencing Gen-AI",
+   "addressee": "student",
+   "force": "should",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Cross-check against Cite Them Right for your referencing style, as guidelines may be updated."
+  },
+  {
+   "point_id": "p09",
+   "quote": "You can title the appendix like this:\n\nAppendix A: ChatGPT Conversation Transcript\n\nInclude both the prompts you used and the AI-generated responses.",
+   "anchor": "If Including an Appendix:",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "An appendix can be titled 'Appendix A: ChatGPT Conversation Transcript' and should include both prompts and AI responses."
+  },
+  {
+   "point_id": "p10",
+   "quote": "When prompted by the author, ChatGPT responded with an answer to ‘ways of disrupting deceptive uses of AI’ (OpenAI ChatGPT, 2024). A copy of this response is in Appendix A.",
+   "anchor": "Harvard Referencing on Cite Them Right",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Worked Harvard example of an in-text citation for ChatGPT output, pointing to a copy in Appendix A."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Cite Them Right advises treating AI-Generated content as a personal communication in the Vancouver style which should be noted in your text and not in the reference list.",
+   "anchor": "Vancouver Referencing on Cite Them Right",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "In Vancouver style, AI content is a personal communication noted in the text, not the reference list."
+  },
+  {
+   "point_id": "p12",
+   "quote": "If you are using AI to plan or develop your work, you must acknowledge it.",
+   "anchor": "OSCOLA Referencing on Cite Them Right",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "If using AI to plan or develop your work, you must acknowledge it."
+  },
+  {
+   "point_id": "p13",
+   "quote": "APA advises treating AI-generated content as a software or algorithm.",
+   "anchor": "APA Referencing (7th Edition) on Cite Them Right",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "APA advises treating AI-generated content as software or an algorithm."
+  }
+ ]
+}
