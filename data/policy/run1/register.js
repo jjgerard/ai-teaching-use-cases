@@ -8,10 +8,10 @@ const sample = require("./sample.json");
 const byDoc = new Map(sample.map((r) => [r.doc_id, r]));
 const docs = require("../documents.json"), insts = require("../institutions.json");
 const have = new Set(docs.map((d) => d.doc_id));
-const SKIP = { "ravensbourne-london-students-genai-202610": "snapshot is the whole 85,000-word academic regulations PDF with 2 AI mentions: needs a section extract, deferred" };
+const SKIP = { "hartpury-students-genai-202610": "whole regulations bundle (42,000 words, 4 AI mentions): needs a section extract, deferred", "plymouth-marjon-students-genai-202610": "whole regulations framework (67,000 words, 10 AI mentions): needs a section extract, deferred", "health-sciences-students-genai-202610": "whole misconduct policy bundle (12,800 words, 2 AI mentions): needs a section extract, deferred", "ravensbourne-london-students-genai-202610": "snapshot is the whole 85,000-word academic regulations PDF with 2 AI mentions: needs a section extract, deferred" };
 const REGION = { England: "GB-ENG", Scotland: "GB-SCT", Wales: "GB-WLS", "Northern Ireland": "GB-NIR", Ireland: "IE" };
 let added = 0; const skipped = [];
-for (const dir of ["trial", "run1/archive"]) {
+for (const dir of ["trial", "run1/archive", "run1/archive2"]) {
   const man = require(path.join(root, dir, "manifest.json"));
   for (const m of man) {
     if (m.status !== "ok" || have.has(m.doc_id)) continue;

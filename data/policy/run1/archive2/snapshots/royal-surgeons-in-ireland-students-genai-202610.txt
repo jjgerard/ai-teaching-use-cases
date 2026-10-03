@@ -1,0 +1,744 @@
+RCSI guidance on the ethical use
+of artificial intelligence in learning,
+teaching and assessment
+September 2024
+
+RCSI guidance on the ethical use of artificial
+intelligence in learning, teaching, and assessment
+Executive summary
+This document, which has been produced by the AI in Education Working Group, serves as
+a guide for the ethical application of Artificial Intelligence (AI) and Generative AI (GenAI) in
+the processes of learning, teaching, and assessment (LTA) at RCSI. It outlines the potential
+benefits of AI for both students and educators, encompassing areas such as content
+creation, feedback provision, personalisation, accessibility, and career readiness.
+The document also brings attention to the risks and ethical dilemmas associated with AI,
+including issues of reliability, data security, transparency, bias, unequal access,
+environmental impact, questionable development practices, and the effects on academic
+integrity and critical thinking.
+To help mitigate these concerns, the document proposes 10 ethical principles for the use of
+AI in LTA at RCSI. These principles cover the following areas:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Equity
+Complementarity
+Autonomy
+Pedagogy
+Academic Integrity
+Data Privacy
+AI Literacy
+Environmental Impact
+Transparency and Explainability
+Human Oversight
+
+In addition, the document provides specific guidelines for the use of GenAI in LTA. It
+acknowledges that decisions about the suitability of GenAI in educational programmes,
+including assessment processes, are context-specific and should not be made on an
+institution-wide basis. Instead, a tiered approach is recommended, where the ethical
+principles outlined in this document should be used to guide the development of specific
+policies for individual schools. If necessary, more detailed guidance can be developed at the
+course or module level.
+To assist in policy development, the document includes overarching guidelines on the use of
+GenAI in LTA for staff and students, as well as more specific guidance and suggestions
+related to assessment.
+
+1
+
+AI in Education Working Group Composition
+AI in Education Working Group Members
+School/Department
+
+Name
+
+Health Professions Education Centre
+
+Dr Dara Cassidy
+
+Information Technology
+
+Niall Berwick
+
+Library
+
+Patrick Keegan
+
+School of Pharmacy and Biomolecular Sciences
+
+Dr Matthew Lynch
+
+School of Physiotherapy
+
+Louise Keating
+
+RCSI Bahrain
+
+Dr Jamal Hashem
+
+School of Population Health
+
+Dr Frank Doyle
+
+School of Population Health
+
+Claire Timon
+
+Med Student
+
+Riya Sharma
+
+GEM Student
+
+Jivetesh Chhatwal
+
+Graduate School of Healthcare Management
+
+Dr Éidín Ní Shé
+
+School of Nursing and Midwifery
+
+Dr Aglecia Budri
+
+Information Technology
+
+Fintan Guihan
+
+School of Medicine
+
+Muirne Spooner
+
+ATT student
+
+Aisha Betro
+
+Simulation
+
+Simon Horne
+
+PG student
+
+Alessandra Biagnini
+
+School of Pharmacy and Biomolecular Sciences
+
+Dr Sudipto Das
+
+School of Medicine
+
+Tommy Kyaw Tun
+
+PG student
+
+John David Damalerio
+
+2
+
+Contents
+Executive summary.............................................................................................................................. 1
+AI in Education Working Group Composition .............................................................................. 2
+Guidance on the Ethical Use of Artificial Intelligence in Learning, Teaching and Assessment4
+Introduction........................................................................................................................................ 4
+Definitions .......................................................................................................................................... 4
+Background ....................................................................................................................................... 5
+AI opportunities ................................................................................................................................. 6
+For educators ................................................................................................................................ 6
+For students .................................................................................................................................. 7
+AI concerns and risks ...................................................................................................................... 7
+Ethical Principles .............................................................................................................................. 9
+Guidance on Generative AI .......................................................................................................... 10
+What is Generative AI? ............................................................................................................. 10
+RCSI’s position on GenAI ............................................................................................................. 10
+Overarching guidelines on the use of GenAI for students and staff ....................................... 11
+Original work ............................................................................................................................... 11
+Citing AI when used ....................................................................................................................... 11
+Ethics and academic integrity................................................................................................... 11
+Addressing data privacy and security ......................................................................................... 12
+General guidance for assessments ............................................................................................. 12
+Recommendations for redesigning asynchronous assessments ........................................... 14
+Support for staff and students ...................................................................................................... 15
+
+3
+
+Guidance on the Ethical Use of Artificial Intelligence in
+Learning, Teaching and Assessment
+Introduction
+This document aims to guide the ethical use of artificial intelligence (AI) in learning teaching,
+and assessment (LTA) processes in RCSI. It acknowledges the potential of AI to support
+LTA enhancement and prepare students for professional contexts into which AI will
+increasingly be integrated. It recognises that these benefits need to be balanced by an
+awareness of some problematic and potentially negative aspects of artificial intelligence,
+such as bias, data privacy, and potential for breaches of academic integrity.1 It seeks to
+provide a framework within which RCSI faculty and students can engage productively with AI
+in ways that align with ethical use, data privacy, and RCSI values. It should be considered in
+conjunction with RCSI’s Academic Integrity, Data Protection and Equality Diversity and
+Inclusion policies and the RCSI: Learning, Teaching and Assessment Strategy 2023-2027.
+Whilst the guidance in this document pertains to AI in general, it is recognised that
+generative AI is the most widely used AI technology at present and as such will be focus of
+more specific guidelines within the document.
+
+Definitions
+1. Artificial Intelligence (AI): Artificial Intelligence refers to systems that “display
+intelligent behaviour by analysing their environment and taking actions – with some
+degree of autonomy - to achieve specific goals.2
+2. Generative AI: Generative AI (subsequently GenAI) is a subset of AI that
+“automatically generates content in response to prompts written in natural-language
+conversational interfaces”.3 This may include text, images, videos, music, and software
+code.
+3. Artificial neural network: a type of machine learning that is inspired by the structure
+and functioning of the human brain (e.g. the synaptic connections between neurons).4
+
+Holmes, W., & Miao, F. (2023). Guidance for generative AI in education and research. UNESCO Publishing.
+European Commission (2018) Artificial Intelligence for Europe. European Commission. Brussels. 24 April, 2018.
+3
+Holmes, W., & Miao, F. (2023). Guidance for generative AI in education and research. UNESCO Publishing.
+4
+Holmes, W., & Miao, F. (2023). Guidance for generative AI in education and research. UNESCO Publishing
+1
+2
+
+4
+
+Background
+Artificial Intelligence (AI) has been steadily making its way into the educational sector over
+the past few decades and now encompasses learning analytics, adaptive learning, and the
+automation of administrative functions, among other capabilities. Parallel to this there has
+been an increasing interest in the integration of AI into health professions education. 5 More
+recently, the advent of generative AI (GenAI), and specifically the release of OpenAI’s
+ChatGPT chatbot towards the end of 2022, has propelled it to the forefront of the education
+conversation.
+
+ChatGPT was the first publicly facing GenAI platform that could produce coherent and
+convincing human-like text in response to natural language prompts. Since then, the range
+and functionality of GenAI platforms have been expanding at a rapid pace, and they are now
+capable of producing audio, code, images, text, simulations, 3D objects and videos.
+Moreover, AI tools are increasingly being integrated into day-to-day tools such as search
+engines, email platforms, word processing and presentation platforms. The widespread
+availability of GenAI and the speed at which it is evolving has left education institutions
+around the world struggling to keep pace.
+
+Against this background, educators have expressed concerns about the use of AI in
+education, particularly in relation to privacy, the lack of transparency around the workings of
+AI models, and now given the increased use of GenAI, its capacity to undermine academic
+integrity, and perhaps even writing and critical thinking skills.6 However, AI also offers
+potential within education in terms of personalisation, feedback provision, and time
+efficiency, among other benefits. If harnessed effectively, the use of AI in learning, teaching
+and assessment could support a shift of focus from information retrieval to higher order
+thinking processes, such as critical analysis and creativity.
+Undoubtedly, the evolution and integration of AI tools in various technologies will continue
+apace and will be used in a variety of healthcare environments. Nevertheless, the
+fundamental skills, knowledge, and values RCSI aims to instil in its students still hold
+paramount significance. Therefore, these guidelines seek to guide teaching staff in
+
+5
+
+Charow, R., Jeyakumar, T., Younus, S., Dolatabadi, E., Salhia, M., Al-Mouaswas, D, & Wiljer, D. (2021). Artificial intelligence
+education programs for health care professionals: scoping review. JMIR medical education, 7(4), e31043.
+6
+Moorhouse, B. L., Yeo, M. A., & Wan, Y. (2023). Generative AI tools and assessment: Guidelines of the world's top-ranking
+universities. Computers and Education Open, 5, 100151.
+
+5
+
+establishing suitable boundaries for the use of AI tools, striking a balance between their
+usefulness and the educational needs of students.
+
+AI opportunities
+AI and GenAI offer a range of potential benefits to educators and learners when aligned with
+good practice in learning, teaching and assessment.7
+
+For educators
+1. Content creation: AI can help lecturers produce well structured, concise lecture
+notes, study guides, and exam questions from draft materials that can speed up the
+process of preparation for teaching and assessment.8
+2. Interactive teaching and learning: AI can create lesson plans, case studies, and
+interactive scenarios that educators can adapt for their own uses to make the
+teaching and learning process more interactive.9 It also has the potential to facilitate
+the development of more immersive learning experiences when combined with
+technologies such as virtual or extended reality.
+3. Feedback provision: AI tools can support the provision of individualised feedback
+to students at a scale that would be almost impossible to achieve without its use.10
+4. Research and analysis: AI tools can provide summaries of research articles
+which can speed the screening process for literature reviews. It can also be used for
+initial analysis of large volumes of data, helping provide insights that can later be
+explored in greater depth.11
+5. Targeted learner support: AI enabled adaptive learning platforms can enable
+educators to offer more targeted support to meet the needs of diverse groups of
+learners.12
+
+7
+
+Zhu, C., Sun, M., Luo, J., Li, T., & Wang, M. (2023). How to Harness the Potential of ChatGPT in Education? Knowledge
+Management & E-Learning, 15(2), 133-152.
+8
+Wu, J., Gan, W., Chen, Z., Wan, S., & Lin, H. (2023). Ai-generated content (AIGC): A survey. arXiv preprint arXiv:2304.06632.
+9
+Bai, S., Gonda, D. E., & Hew, K. F. (2024). Write-Curate-Verify: A Case Study of Leveraging Generative AI for Scenario
+Writing in Scenario-Based Learning. IEEE Transactions on Learning Technologies.
+10
+Zheng, L., Fan, Y., Chen, B., Huang, Z., LeiGao, & Long, M. (2023). An AI-enabled feedback-feedforward approach to
+promoting online collaborative learning. Education and Information Technologies, 1-22.
+11
+The best AI tools for research papers and academic research (Literature review, grants, PDFs and more) – Academia Insider
+12
+Bulathwela, S., Pérez-Ortiz, M., Holloway, C., & Shawe-Taylor, J. (2021). Could AI democratise education? Socio-technical
+imaginaries of an edtech revolution. arXiv preprint arXiv:2112.02034.
+
+6
+
+For students
+1. Personalised learning: AI can be used to tailor educational content to meet the
+unique needs of each student. It can generate additional exercises for students who
+are struggling with a particular topic or provide advanced materials for those who are
+ready to move ahead.
+2. Writing and brainstorming: GenAI can help students generate ideas in the initial
+brainstorming phase of a writing assignment. It can also help them structure their
+outputs, enabling them to articulate their thoughts and ideas more effectively.
+3. Accessibility: AI can be used to create captions for audio-visual content, which is
+particularly useful for hearing-impaired or English as an additional language (EAL)
+students. It can also be used to enhance drafts of written output from EAL students
+and translate materials into their native language.
+4. Study aid: AI can serve as a study aid, providing explanations and clarifications
+on complex topics and generating summaries and practice questions for revision.
+5. Career readiness: Learning to work with AI can enhance students' career
+prospects, as AI is increasingly used in healthcare and life sciences.
+The above are just some examples of the ever-increasing uses to which AI may be put in a
+teaching and learning context. The utilisation of AI in ways that empowers rather than
+disempowers faculty and students requires thought, experimentation, awareness of
+limitations and careful consideration of pedagogical and ethical aspects and is likely to
+evolve over time.
+
+AI concerns and risks
+Decisions regarding the use of AI for education purposes should always account for its
+shortcomings. The EU’s Artificial Intelligence Act, which is due to come into force over the
+next few months, has classified some uses of AI in education as high risk and emphasises
+the importance of human oversight of AI systems.13
+The ethical use of AI requires an awareness of its
+
+13
+
+https://artificialintelligenceact.eu/high-level-summary/
+
+7
+
+1. Unreliability: GenAI tools may sometimes fabricate information (known as
+hallucination), which means they are not completely reliable sources. This may
+include inventing references.
+2. Impact on learning and critical thinking: Uncritical use of GenAI tools may lead
+students to skip important learning steps creating a negative impact on their learning,
+creativity, and critical thinking. There is also a danger for both faculty and students
+that cognitive offloading to GenAI may increase reliance on it, which may result in
+disempowerment over time.
+3. Impact on academic integrity: The ease with which GenAI can be used to
+generate content in a variety of formats leaves it open to misuse, including
+submission of work that is not one’s own. This has significant implications for
+assessment validity and the academic publishing process.
+4. Data privacy and security: Data inputted into GenAI platforms may not be
+secure. Uploading personally identifying, institutional, copyrighted or research-related
+data onto public GenAI platforms may be considered a breach of RCSI’s data privacy
+protection policy. It is the user’s responsibility to ensure that the necessary consents
+have been obtained in order to use any such data.
+5. Transparency: AI tools, especially those that use artificial neural networks, are
+often seen as a "black box" due to their complexity, making it challenging even for
+experts to understand how they work. This is particularly concerning in areas such as
+healthcare, where explainability is critical.
+6. Bias: AI can perpetuate or amplify biases present in the training data, leading to
+discriminatory outputs.
+7. Unequal access: The most powerful GenAI tools are often behind a paywall and
+thus may not be equally accessible to all students.
+8. Negative environmental impacts: Training the large-language models (LLMs),
+on which GenAI is based, requires significant computational resources, which can
+have a substantial negative environmental impact.14
+
+14
+
+How much water does AI consume? The public deserves to know
+
+8
+
+9. Questionable development practices:
+•
+
+Copyright violations: GenAI models are trained on large volumes of data, very
+
+often appropriated from the Internet without the permission of the original creator.
+This may infringe upon copyrights and intellectual property rights.15
+•
+
+Exploitative labour practices: the labelling and cleaning of data required to
+
+create the LLMs on which GenAI is built is often carried out by workers in the
+Global South who may be subjected to exploitation and poor working
+conditions.16
+
+Ethical Principles
+Considering the above, we propose the following ethical principles for the use of AI in
+learning, teaching and assessment processes in RCSI.
+•
+
+Equity: AI use should be aligned with RCSI’s Equality Diversity and Inclusion policy.
+
+It should be used to enhance and support learning in a way that promotes fairness and
+equality of opportunity and does not discriminate against any individuals or groups,
+through, for example, the use of profiling. Where the use of AI is permitted or
+encouraged, all students should be given access to institutionally approved AI tools.
+•
+
+Complementarity: AI should be used to support, rather than replace, the role of
+
+educators.
+•
+
+Autonomy: RCSI should respect the autonomy of educators in their choice of
+
+teaching methods and the autonomy of learners in their learning processes.
+•
+
+Pedagogy: The use of AI should be driven by robust pedagogical rationales and
+
+aligned to RCSI’s Learning Teaching and Assessment Strategy 2023-2027.
+•
+
+Academic integrity: AI use should align with RCSI’s Academic Integrity policy. Staff
+
+and students should adhere to the highest standards of academic integrity, including
+transparency regarding their use of GenAI in the preparation of materials.
+•
+
+Data privacy: AI should be used in ways that respect the privacy and confidentiality
+
+of all users and should align with GDPR and RCSI’s Data Protection policy. Personal or
+proprietary data should only be added to an AI platform, where the privacy of that data is
+guaranteed, and the explicit permission of the owner has been provided. It is the
+responsibility of the user to familiarise themselves with the data privacy policies and
+Terms of Use of any GenAI platform they intend using.
+
+15
+16
+
+Generative AI Lawsuits Timeline: Legal Cases vs. OpenAI, Microsoft, Anthropic, Nvidia and More
+Behind the AI boom, an army of overseas workers in 'digital sweatshops
+
+9
+
+•
+
+AI literacy: Information and training should be provided to staff and students to
+
+support them to use AI in an informed and ethical way. Awareness of the workings and
+limitations of AI, including algorithmic bias, is a critical literacy for all those seeking to
+work in healthcare sectors in which AI will become increasingly ubiquitous.
+•
+
+Environmental impact: Consideration should be given to how the environmental
+
+impact of generative AI might be limited, through measures such as using smaller, more
+task-specific, efficient AI models, when possible, and avoiding mindless use.
+•
+
+Transparency and explainability: AI systems used to support decision making
+
+should be transparent and explainable. Users should be informed about how the AI
+works, what data it uses, and how decisions are made.
+•
+
+Human oversight: AI-informed decision making should always be subject to human
+
+oversight.
+
+Guidance on Generative AI
+This section aims to provide more specific guidance on the responsible use of generative
+artificial intelligence (GenAI) in learning, teaching, and assessment (LTA) processes in
+RCSI.
+
+What is Generative AI?
+Generative AI (subsequently GenAI) is a subset of artificial intelligence that uses advanced
+machine learning models, often trained on vast datasets, to generate content “in response to
+prompts written in natural-language conversational interfaces”.17 Its outputs can include text,
+images, videos, music, and software code.
+
+RCSI’s position on GenAI
+RCSI recognises the opportunities for both transformation and disruption that GenAI offers.
+As such it is committed to supporting staff and students to use GenAI tools effectively,
+ethically, and transparently. It recognises that decisions regarding the appropriateness or
+otherwise of the use of GenAI in education programmes, including assessment processes,
+are context specific and therefore should not be determined on a whole institution basis.
+Rather, a tiered approach is needed wherein high-level university-wide guidance informs the
+development of specific policies for individual schools, and, where necessary, more specific
+
+17
+
+Holmes, W., & Miao, F. (2023). Guidance for generative AI in education and research. UNESCO Publishing.
+
+10
+
+guidance is developed at course or module level. Ultimately, it should be the role of the
+relevant assessment creators within each academic unit to clearly articulate the constraints
+and possibilities of GenAI tools in relation to their own assessment task.
+
+Overarching guidelines on the use of GenAI for students and staff
+The guidelines below for students and staff serve as a practical guide for engaging with AI in
+context of learning, teaching, and assessment and should be considered in tandem with
+RCSI’s Academic Integrity policy. They reinforce the university's commitment to innovation,
+integrity, and excellence, fostering a culture of responsible AI usage.
+
+Original work
+The responsible integration of GenAI into RCSI programmes requires adherence to
+principles of original work, proper citation, ethics, and academic integrity. These principles
+apply to both students and staff, reflecting the university's commitment to excellence and
+trustworthiness. Originality is a cornerstone of academic excellence, and the use of GenAI
+must align with this value. GenAI tools can provide support, insights, and enhancements, but
+the intellectual effort and creativity must come from the individual. Students and staff are
+encouraged, where permitted, to leverage GenAI responsibly, ensuring that their
+contributions remain unique and authentic. When GenAI is used, it is the responsibility of the
+user to review its output to ensure its veracity and quality.
+
+Citing AI when used
+When GenAI models or tools are used in academic work or research, proper citation is
+required. Acknowledging the role of GenAI not only ensures transparency but also
+contributes to the scholarly discourse. Clear guidelines and examples for citing GenAI are
+provided by the RCSI Library to assist students and staff.
+
+Ethics and academic integrity
+Ethical conduct and academic integrity are fundamental to the university's mission. Engaging
+with GenAI requires an understanding of potential biases, limitations, and ethical
+considerations. Students and staff must adhere to RCSI’s Academic Integrity policy, codes
+of conduct, privacy regulations, and ethical guidelines, reflecting the university's values.
+
+11
+
+Addressing data privacy and security
+The use of GenAI creates potential for data privacy breaches and the compromise of
+intellectual property. It is thus very important to be aware of the data privacy policies of any
+platforms you are considering using. At present, RCSI’s licence with Microsoft offers
+commercial data protection to faculty students on the free browser-based Copilot platform.18
+Notwithstanding this fact, it is important for both students and faculty to obtain permission
+before submitting content owned by another person to a GenAI platform.
+
+General guidance for assessments
+The use of GenAI tools may be permitted in assessments when its use does not
+compromise the ability to reliably determine whether students have attained the knowledge
+and skills to achieve the assessed learning outcomes. For example, the appropriate use of
+tools that influence only the form of an assessment is generally acceptable (e.g. proof
+readers, proofreading tools, spelling checkers, thesaurus). However, its use to generate
+content relating to the substantive aspect of the assessment would generally not be
+acceptable. Its use for activities such as brainstorming or outline generation would require
+consideration on a case-by-case basis.
+1. To provide clarity for students, clear written guidance regarding what constitutes
+acceptable or unacceptable use of GenAI should accompany each assessment.
+In drafting such guidance, the AI assessment scale19 may prove a useful source
+(see Figure 1).
+2. Assessments that prohibit or limit the use of GenAI should include a statement for
+students to declare, e.g. “I have read, understood and abided by the restrictions
+on the use of Gen AI for this assignment.”20
+3. If the use of GenAI is permitted, there is a responsibility to ensure that students
+are made aware of its biases and limitations and are supported to engage
+critically with its outputs.
+4. Where GenAI is used, students should include screen captures of both their
+prompts to and outputs from the GenAI tool as appendices in their submitted
+work to ensure transparency. Additionally, there should be in-text
+
+18
+
+Expanding Microsoft Copilot access in education
+Perkins, M., Furze, L., Roe, J., & MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale (AIAS): A Framework for
+Ethical Integration of Generative AI in Educational Assessment. Journal of University Teaching and Learning Practice, 21(06).
+20
+Using generative AI (GenAI) in learning and teaching
+19
+
+12
+
+acknowledgment of the GenAI tool used and the segment in which it was used in
+the completion of the assessment.
+5. It is the student’s responsibility to confirm that content acquired via GenAI tools is
+factually correct as these tools are not co-authors and cannot take responsibility
+for their output.
+6. Any usage of GenAI tools in assessments outside what is explicitly permitted will,
+subject to investigation, be considered a breach of academic integrity, and may
+lead to disciplinary proceedings in line with RCSI’s Academic Integrity policy.
+7. It is not advisable to rely on AI detection tools to detect GenAI accurately or
+reliably.21 The operation of AI detectors can easily be bypassed by paraphrasing
+the AI outputs, including using other AI tools. Moreover, AI detection tools may
+mis-identify human-written text as AI-generated, leading to unfair accusations of
+plagiarism. This has been found to be particularly the case for non-native English
+speakers.22
+
+21
+
+NAIN. (2023) Generative Artificial Intelligence: Guidelines for Educator.
+Liang, W., Yuksekgonul, M., Mao, Y., Wu, E., & Zou, J. (2023). GPT detectors are biased against non-native English
+writers. Patterns, 4(7).
+22
+
+13
+
+Figure 1
+
+Recommendations for redesigning asynchronous assessments
+Asynchronous assessments including reflective assignments, laboratory reports, etc. are at
+a greater risk of unauthorised use of GenAI than synchronous assessments. To date,
+automated AI detectors carry a risk of producing false positives and can be evaded by
+paraphrasing. It is hence important to consider redesigning asynchronous assessments to
+ensure that learning outcomes can be reliably measured, regardless of whether GenAI is
+permitted or not. The following are suggestions that may aid with the redesign process:
+1. Consider the pedagogical approach, the learning outcomes being assessed and
+whether the proposed assessment can validly incorporate the use of GenAI.
+2. Where GenAI tool utilisation is not recommended by the assessor for a written
+asynchronous assignment consider:
+
+14
+
+•
+
+Designing the assignment question to require personalised, non-generic
+responses
+
+•
+
+Focusing on the process as well as the product of assessment activity and
+using version histories to verify students' work23
+
+•
+
+Substituting written submissions for oral presentation and/or interactive oral
+assessments24
+
+•
+
+Employing follow-up oral examinations where academic integrity breaches
+are suspected
+
+•
+
+Requiring learners to reference specific class learning materials, discussions
+or activities
+
+3. Where Gen AI tool utilisation is encouraged, options for assessment redesign
+include:
+•
+
+Asking students to work in groups to review and critique GenAI produced
+content with regard to aspects such as logic, consistency, accuracy, and bias,
+and to produce enhanced versions of the Gen AI output.
+
+•
+
+Asking students to brainstorm and create outlines synchronously. This can
+then be followed by utilising generative AI tools to generate the body of an
+article. Finally, the student must critique and fact-check the output from the
+generative AI tool.
+
+•
+
+Asking students to develop research proposals on a specific topic. AI could
+be used to help with the literature review by summarising relevant research
+articles. Students should then critically evaluate the sources, identify research
+gaps and propose original research contributions.
+
+Support for staff and students
+The fast-moving pace of developments in GenAI mean that policies and guidance will
+require continual monitoring and development. Education, training, and support should be
+made available for staff and students to ensure that the university community navigates the
+evolving landscape of AI with confidence. Recommendations include the development of a
+centralised online space to provide access to resources and training, supplemented by guest
+speakers and workshops focused on areas such as AI literacy and ethics, academic
+integrity, and assessment redesign; the creation of online learning resource for staff and
+
+23
+24
+
+A simple hack to ChatGPT-proof assignments using Google Drive
+Interactive Oral Assessment
+
+15
+
+students; and the development of a community of practice to learn together and share good
+practice with colleagues.
+
+16
+
+References
+Bai, S., Gonda, D. E., & Hew, K. F. (2024). Write-Curate-Verify: A Case Study of Leveraging
+Generative AI for Scenario Writing in Scenario-Based Learning. IEEE Transactions on Learning
+Technologies.
+
+Bulathwela, S., Pérez-Ortiz, M., Holloway, C., & Shawe-Taylor, J. (2021). Could AI democratise
+education? Socio-technical imaginaries of an edtech revolution. arXiv preprint arXiv:2112.02034.
+Chan, C. K. Y. (2023). A comprehensive AI policy education framework for university teaching and
+learning. International journal of educational technology in higher education, 20(1), 38.
+Chandler, J. & Prevatt-Goldstein, A. (2024). Using generative AI (GenAI) in learning and teaching.
+UCL. Retrieved from: https://www.ucl.ac.uk/teaching-learning/publications/2023/sep/using-generativeai-genai-learning-and-teaching
+Charow, R., Jeyakumar, T., Younus, S., Dolatabadi, E., Salhia, M., Al-Mouaswas, D, & Wiljer, D.
+(2021). Artificial intelligence education programs for health care professionals: scoping review. JMIR
+medical education, 7(4), e31043.
+
+European Commission (2018) Artificial Intelligence for Europe. European Commission. Brussels.
+Retrieved from: https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=COM:2018:237:FIN
+
+European Commission, Directorate-General for Education, Youth, Sport and Culture. (2022). Ethical
+guidelines on the use of artificial intelligence (AI) and data in teaching and learning for educators.
+Publications Office of the European Union. Retrieved from: https://data.europa.eu/doi/10.2766/153756
+
+Moorhouse, B. L., Yeo, M. A., & Wan, Y. (2023). Generative AI tools and assessment: Guidelines of
+the world's top-ranking universities. Computers and Education Open, 5, 100151.
+
+Fengchun, M. & Holmes, W. (2023). Guidance for Generative AI in Education and Research.
+UNESCO. Retrieved from: https://unesdoc.unesco.org/ark:/48223/pf0000386693
+
+Future of Life Institute. (2024). High-level summary of the EU Artificial Intelligence Act. Retrieved from
+https://artificialintelligenceact.eu/high-level-summary/
+
+Holmes, W., & Miao, F. (2023). Guidance for generative AI in education and research. UNESCO
+Publishing. Retrieved from:
+https://unesdoc.unesco.org/ark:/48223/pf0000386693/PDF/386693eng.pdf.multi
+
+17
+
+Liang, W., Yuksekgonul, M., Mao, Y., Wu, E., & Zou, J. (2023). GPT detectors are biased against
+non-native English writers. Patterns, 4(7).
+Microsoft Education Team. (2023). Expanding Microsoft Copilot access in education. Retrieved from
+https://www.microsoft.com/copilot
+
+NAIN. (2023) Generative Artificial Intelligence: Guidelines for Educators. Retrieved from:
+https://www.qqi.ie/sites/default/files/202309/NAIN%20Generative%20AI%20Guidelines%20for%20Educators%202023.pdf
+
+Panettieri, J. (2024). Generative AI Lawsuits Timeline: Legal Cases vs. OpenAI, Microsoft, Anthropic,
+Nvidia and More. Sustainable Tech Partner. Retrieved from:
+https://sustainabletechpartner.com/topics/ai/generative-ai-lawsuit-timeline/
+
+Perkins, M., Furze, L., Roe, J., & MacVaugh, J. (2024). The Artificial Intelligence Assessment Scale
+(AIAS): A Framework for Ethical Integration of Generative AI in Educational Assessment. Journal of
+University Teaching and Learning Practice, 21(06).
+
+Ren, S. (2023). How much water does AI consume? The public deserves to know. OECD.AI Policy
+Observatory. Retrieved from: https://oecd.ai/en/wonk/how-much-water-does-ai-consume
+
+Sayers, D. (2023). A simple hack to ChatGPT-proof assignments using Google Drive. THE. Retrieved
+from: https://www.timeshighereducation.com/campus/simple-hack-chatgptproof-assignments-usinggoogle-drive
+
+Stapleton, A. (2024). The best AI tools for research papers and academic research (Literature review,
+grants, PDFs and more). Academia Insider. Retrieved from: https://academiainsider.com/ai-tools-forresearch/
+Tan, R. & Cabato, R. (2023). Behind the AI boom, an army of overseas workers in 'digital
+sweatshops. The Washington Post. Retrieved from:
+https://www.washingtonpost.com/world/2023/08/28/scale-ai-remotasks-philippines-artificialintelligence/
+Teaching Enhancement Unit. (n.d.). Interactive Oral Assessment. DCU. Retrieved from:
+https://www.dcu.ie/teu/interactive-oral-assessment
+Zheng, L., Fan, Y., Chen, B., Huang, Z., LeiGao, & Long, M. (2023). An AI-enabled feedbackfeedforward approach to promoting online collaborative learning. Education and Information
+Technologies, 1-22.
+
+18
+
+Zhu, C., Sun, M., Luo, J., Li, T., & Wang, M. (2023). How to Harness the Potential of ChatGPT in
+Education? Knowledge Management & E-Learning, 15(2), 133-152.
+
+Wu, J., Gan, W., Chen, Z., Wan, S., & Lin, H. (2023). Ai-generated content (AIGC): A survey. Cornell
+University. Retrieved from: arXiv preprint arXiv:2304.06632.
+
+19
