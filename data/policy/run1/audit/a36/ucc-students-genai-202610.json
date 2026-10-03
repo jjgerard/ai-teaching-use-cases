@@ -1,0 +1,94 @@
+{
+ "doc_id": "ucc-students-genai-202610",
+ "coder": "aud-a36",
+ "checked_types": 65,
+ "found": [
+  {
+   "type": "should_or_encouraged_to_acknowledge_ai_use",
+   "quote": "This means that use of GenAI should be acknowledged and made transparent.",
+   "anchor": "Honesty"
+  },
+  {
+   "type": "must_acknowledge_or_declare_ai_use",
+   "quote": "are obligated to disclose the use of AI to generate or manipulate all image, audio, and video content, as well as to disclose any text that has been AI-generated or manipulated",
+   "anchor": "Article 50 of the EU AI Act and Transparency Obligations"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "This means that we need to critically analyse outputs from GenAI before using them.",
+   "anchor": "Trust"
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "GenAI tools are not used in any way that bypasses intended learning, only in ways that enhance it.",
+   "anchor": "Respect"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "What is considered appropriate use of GenAI can vary across disciplines or even from module to module",
+   "anchor": "Setting Expectations"
+  },
+  {
+   "type": "complete_training_before_using_ai",
+   "quote": "It is recommended that all students engage with this course, which also covers principles of academic integrity, skills that support it, and various types of academic misconduct and associated risks.",
+   "anchor": "Considerations for Using GenAI in Education"
+  },
+  {
+   "type": "ai_detectors_unreliable_not_sole_basis",
+   "quote": "these detectors cannot serve as reliable evidence in cases where there is a suspicion that an individual has misrepresented AI-generated content as their own work.",
+   "anchor": "Use of AI Detectors"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "students who may similarly use a GenAI tool to brainstorm some key points for their essay, going on to research these themselves to develop their response.",
+   "anchor": "Considerations for Using GenAI in Education"
+  },
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "Content produced by GenAI can be usefully applied to exercises designed to help develop students’ critical thinking skills by tasking them with evaluating this content for accuracy and relevance.",
+   "anchor": "Considerations for Using GenAI in Education"
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "most of these tools train on content that is submitted to them and there can often be a lack of transparency around where this data is stored and how it is used.",
+   "anchor": "Use of AI Detectors"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "reduce potential harmful impacts resulting from the spread of misinformation and bias in the content these tools produce",
+   "anchor": "Considerations for Using GenAI in Education"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "Incorporating GenAI tools into higher education must be guided by a commitment to enhancing the learning experience, improving efficiency, and upholding ethical standards.",
+   "anchor": "Integrating Responsible Uses of GenAI"
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "As GenAI is an evolving field, guidance varies in terms of how to best acknowledge use of it.",
+   "anchor": "Acknowledging Use of GenAI"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "consider_whether_ai_fits_learning_outcomes",
+   "quote": "this may be dependent on learning outcomes and what is being evaluated in a particular assessment",
+   "why": "Addressed to staff setting expectations, not students weighing use"
+  },
+  {
+   "type": "include_prompts_and_outputs_as_evidence",
+   "quote": "potentially including information on the prompting process, screenshots of output, or a link to the conversation thread",
+   "why": "Optional and hedged, not a clear requirement"
+  },
+  {
+   "type": "submit_declaration_form_with_assessment",
+   "quote": "This page contains example declaration templates for use in UCC.",
+   "why": "Templates mentioned but submission with assessment not stated"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "cases where there is a suspicion that an individual has misrepresented AI-generated content as their own work",
+   "why": "Only describes suspicion context, no explicit misconduct label"
+  }
+ ]
+}

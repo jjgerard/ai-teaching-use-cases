@@ -1,0 +1,64 @@
+{
+ "doc_id": "strath-students-genai-202610",
+ "coder": "aud-a35",
+ "checked_types": 60,
+ "found": [
+  {
+   "type": "do_not_use_ai_references_or_treat_ai_as_source",
+   "quote": "Do not simply accept Gen-AI outputs as fact or authority.",
+   "anchor": "What is meant by thinking critically about Gen-AI output?"
+  },
+  {
+   "type": "consider_whether_ai_fits_learning_outcomes",
+   "quote": "Whether you can or should use a particular Gen-AI tool or service will depend on a number of factors, including the nature of the task you are facing, the learning objectives that are associated with that task",
+   "anchor": "Which Gen-AI tools can students use?"
+  },
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "If you are not sure, ask your module or programme leader for guidance.",
+   "anchor": "Can I use Gen-AI to help me with writing and creating other content I will submit for an assessment?"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "there can be significant flaws in these outputs, including (among other things) inaccuracies in information, harmful biases, and issues with focus and structure.",
+   "anchor": "Can I use Gen-AI to help me with writing and creating other content I will submit for an assessment?"
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "Gen-AI tools may collect user data.",
+   "anchor": "Is my data safe and secure when I use Gen-AI tools and services?"
+  },
+  {
+   "type": "do_not_enter_personal_or_sensitive_data",
+   "quote": "avoid sharing Personal, sensitive or copyright protected information.",
+   "anchor": "Is my data safe and secure when I use Gen-AI tools and services?"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "Gen-AI models can generate content that may infringe upon existing intellectual property rights, such as copyright.",
+   "anchor": "What are the legal considerations with Gen-AI?"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "An introduction to Gen-AI can be found on MyPlace.",
+   "anchor": "Where can I get help with Gen-AI tools?"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "Gen-AI tools may help you understand some concepts, or create study materials, summarise complex topics, and so on",
+   "anchor": "Can Gen-AI help me to learn?"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "must_acknowledge_or_declare_ai_use",
+   "quote": "not disclosing the use of Gen-AI when this is required",
+   "why": "disclosure mentioned only as example of unethical use"
+  },
+  {
+   "type": "ai_must_not_write_assessed_work_for_you",
+   "quote": "do not allow any Gen-AI tools or services to think for you or create work which isn’t yours or the result of your efforts.",
+   "why": "general caution; no explicit ban on prompting AI to write"
+  }
+ ]
+}

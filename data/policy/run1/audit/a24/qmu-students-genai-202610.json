@@ -1,0 +1,19 @@
+{
+ "doc_id": "qmu-students-genai-202610",
+ "coder": "aud-a24",
+ "checked_types": 69,
+ "found": [
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "Potential bias in training data. The presence of unfair or unrepresentative information in the dataset used to train an AI model can result in unfair outcomes when using the AI tool.",
+   "anchor": "Disadvantages of using AI in academic work"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "AI tools can generate content quickly. This means they can help with generating new ideas and approaches, such as generating textual mind maps, plans, definitions, and explanations.",
+   "why": "Descriptive advantages, not an explicit permission"
+  }
+ ]
+}

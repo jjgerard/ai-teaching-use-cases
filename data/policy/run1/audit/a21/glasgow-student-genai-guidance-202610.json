@@ -1,0 +1,124 @@
+{
+ "doc_id": "glasgow-student-genai-guidance-202610",
+ "coder": "aud-a21",
+ "checked_types": 58,
+ "found": [
+  {
+   "type": "submitted_work_must_be_own_not_ai_generated",
+   "quote": "All work submitted by students for assessment is accepted on the understanding that it is the student's own effort",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "You can use it to help you prepare/revise: flashcards, quizzes, etc.",
+   "anchor": "The Essentials"
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "engaging with research is part of the whole writing process and should inform your approach. It should not be outsourced to Gen AI, and will damage the development of your understanding and skills in the long run",
+   "anchor": "Gen AI in practice - problematic uses"
+  },
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "If you’re still uncertain, talk to your course tutor or coordinator",
+   "anchor": "How to know what rules apply to you - the three-step process"
+  },
+  {
+   "type": "must_acknowledge_or_declare_ai_use",
+   "quote": "If you make use of AI at any point in your research or writing process, you must acknowledge the use of that tool as you would any other piece of evidence or material in your submission.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "You should visit the Library page on referencing styles and select the appropriate style to see what’s appropriate for your work.",
+   "anchor": "How to acknowledge and reference Gen AI use"
+  },
+  {
+   "type": "provided_tool_has_data_protection_assurances",
+   "quote": "We have security arrangements with Microsoft that will prevent UofG material becoming part of the global training dataset.",
+   "anchor": "Introduction to Artificial Intelligence (Al)"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "Outcome: Issue here – misconduct. The assessment details prohibited Gen AI use for a specific task, but David didn’t read them.",
+   "anchor": "Gen AI in practice - problematic uses"
+  },
+  {
+   "type": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "quote": "using any form of AI or other computational aids in your university coursework, study, exams, or research without acknowledging that input counts as academic misconduct.",
+   "anchor": null
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "The writing style didn’t match previous assessments submitted in the course, and one of the points Gen AI added was an advanced theory that wasn’t covered anywhere on the course.",
+   "anchor": "Gen AI in practice - problematic uses"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "The Student Representative Council Advice Centre can also offer advice and information on Gen AI use, and a number of other academic issues.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "rather than seek to prohibit your use of these tools, we want to support you in learning how to use them effectively, ethically, critically, and transparently.",
+   "anchor": "Introduction to Artificial Intelligence (Al)"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "are prone to biases, inaccuracies and mistakes.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Outcome: Issue here – misconduct. Always find and read your sources.",
+   "anchor": "Gen AI in practice - problematic uses"
+  },
+  {
+   "type": "uses_exempt_from_acknowledgement",
+   "quote": "Not required for preparation",
+   "anchor": "Gen AI in practice - good uses"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "assistive_technology_use_permitted",
+   "quote": "Priya has ADHD and can find it difficult to break large tasks into manageable steps.",
+   "why": "example of planning use, no explicit assistive permission"
+  },
+  {
+   "type": "consider_whether_ai_fits_learning_outcomes",
+   "quote": "since the whole point of the assignment was to develop his skills in this area, using Gen AI here was problematic",
+   "why": "case example, not an instruction to weigh outcomes"
+  },
+  {
+   "type": "assessment_tiered_ai_use_categories",
+   "quote": "At University of Glasgow, we use a two-scenario approach to help you understand how GenAI can be used in assessment",
+   "why": "two scenarios; unclear whether a tier scheme"
+  },
+  {
+   "type": "should_or_encouraged_to_acknowledge_ai_use",
+   "quote": "Including a statement on Gen AI use is generally good practice, but it doesn’t override course guidance.",
+   "why": "advisory, but statement is form-like"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "Gen AI referencing practice differs depending on which referencing style you are using.",
+   "why": "notes referencing varies; no explicit duty to cite"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "If you want to know more about academic misconduct, and the processes involved if you are called to an exploratory meeting, then you can find more information on the Student Conduct pages.",
+   "why": "pointer to conduct pages, procedure not stated"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "If you want to talk with someone about using Gen AI more generally, then you can attend our classes",
+   "why": "classes not clearly AI training"
+  },
+  {
+   "type": "compliant_declared_use_not_misconduct",
+   "quote": "The issue is not using GenAI where it's permitted; it's misrepresenting what is your own work.",
+   "why": "implies permitted use is fine, not explicit non-penalty"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "doc_id": "sheffield-students-genai-202610",
+ "coder": "aud-a31",
+ "checked_types": 63,
+ "found": [
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "These principles will be revisited and updated regularly.",
+   "anchor": "AI and academic integrity"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "This includes the potential for AI to reuse original content without acknowledging its creators.",
+   "anchor": "Ethical use of AI tools"
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "recognising ways in which companies developing the tools may access and use this data",
+   "anchor": "Data protection and safe use of AI tools"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "They are also supported by a suite of central guidance and support for both staff and students provided by Elevate, 301 Academic Skills, the Library, ELTC, the Careers and Employability Service and others.",
+   "anchor": "AI and academic integrity"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "we engage with students to find out how these technologies could aid their learning and participation",
+   "anchor": "Inclusivity and accessibility"
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "Foregrounding the primacy of learning as a human process; taking a considered approach to how AI can be used as a tool to support learning, whilst also recognising when it might hinder the acquisition of key skills, knowledge and critical thinking.",
+   "anchor": "The limitations of AI tools"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "research_use_of_ai_needs_ethics_approval_or_consent",
+   "quote": "Ensuring staff and students are aware of how to safely use AI for research purposes, in accordance with the University’s research principles.",
+   "why": "no ethics approval or consent mentioned"
+  },
+  {
+   "type": "declaration_must_state_tool_and_how_used",
+   "quote": "The Acknowledge, Describe, Evidence approach is provided as a model for this.",
+   "why": "names model approach without stating required content"
+  },
+  {
+   "type": "consider_whether_ai_fits_learning_outcomes",
+   "quote": "how AI can contribute to or detract from the achievement of learning objectives",
+   "why": "institutional commitment on criteria, not student instruction"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "They inform the approach to GenAI within schools, programmes and modules.",
+   "why": "vague on who decides AI rules"
+  },
+  {
+   "type": "comply_with_data_protection_law_and_policy",
+   "quote": "to ensure they comply with data protection and information security policies",
+   "why": "about tool vetting, not student compliance duty"
+  }
+ ]
+}

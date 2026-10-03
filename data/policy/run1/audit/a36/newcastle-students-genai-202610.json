@@ -1,0 +1,59 @@
+{
+ "doc_id": "newcastle-students-genai-202610",
+ "coder": "aud-a36",
+ "checked_types": 63,
+ "found": [
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "claiming authorship of machine generated content (including text, code and creative works) means that you are not demonstrating your own skills and learning. As well as limiting your opportunities to develop as a learner, it is highly unethical.",
+   "anchor": "AI and assessment"
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "while being cautious about becoming over reliant on AI to the detriment of your own academic development.",
+   "anchor": "AI and your education"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "you will need to critically evaluate any content generated using AI.",
+   "anchor": "Referencing AI generated sources"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "abiding by any expectations set by your academics about how AI can be used within the study of a module or specific assessment",
+   "anchor": "AI and assessment"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "An overview guide to citing ChatGPT and other generative AI tools within your work using different referencing styles.",
+   "anchor": "Citing generative AI guide"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "What may be a valuable application of AI for your own learning, knowledge or academic development",
+   "why": "Implies study use acceptable but no explicit permission"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "may be poor academic practice or misconduct in assessment",
+   "why": "Misconduct mention is conditional and vague about breach"
+  },
+  {
+   "type": "complete_training_before_using_ai",
+   "quote": "It is a good place to start to learn more about AI",
+   "why": "Soft recommendation, not clearly advice to complete"
+  },
+  {
+   "type": "submit_declaration_form_with_assessment",
+   "quote": "when and how to provide an acknowledgement statement in your assessed work",
+   "why": "Statement in work mentioned only in guidance link text"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "committed to supporting you to develop good academic practice and your critical awareness of generative AI",
+   "why": "Support commitment, not clearly enabling stance"
+  }
+ ]
+}
