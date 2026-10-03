@@ -1,0 +1,29 @@
+{
+ "doc_id": "leedstrinity-students-genai-202610",
+ "coder": "aud-a8",
+ "checked_types": 70,
+ "found": [
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "we will provide clear guidance on their responsible use in modules and assessments.",
+   "anchor": "University position statement"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "we will invest in the development of AI literacy skills for everyone to understand how to use these tools responsibly and effectively.",
+   "anchor": "University position statement"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "default_ai_permitted_unless_restricted",
+   "quote": "Rather than banning the use of these tools outright \u2013 which would be impractical and out of step with how society and workplaces are already embracing them",
+   "why": "Stance against outright ban; no explicit default rule."
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "By working in partnership with students, we aim to foster originality, critical thinking, and reflection",
+   "why": "Partnership mentioned, not AI governance specifically."
+  }
+ ]
+}

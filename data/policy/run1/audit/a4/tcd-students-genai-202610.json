@@ -1,0 +1,19 @@
+{
+ "doc_id": "tcd-students-genai-202610",
+ "coder": "aud-a4",
+ "checked_types": 70,
+ "found": [
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "For an overview of Generative AI – what it is, how it works, its limitations and risks, please see Trinity’s Generative Artificial Intelligence (GenAI) Hub.",
+   "anchor": "Generative AI: Introduction"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "the use of Generative AI is permitted unless otherwise stated in course and module handbooks, or in module descriptions in the Blackboard VLE.",
+   "why": "default rule takes precedence per tie-break"
+  }
+ ]
+}

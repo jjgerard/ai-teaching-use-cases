@@ -1,0 +1,34 @@
+{
+ "doc_id": "surrey-students-genai-202610",
+ "coder": "aud-a8",
+ "checked_types": 70,
+ "found": [
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "You can resources on using AI responsibly in your studies on SurreyLearn, including the following sections:",
+   "anchor": "SurreyLearn guidance"
+  },
+  {
+   "type": "institution_provides_or_recommends_tool",
+   "quote": "Providing access to baseline AI tools: We want all students at Surrey to have equal access to AI so you can all engage with tools to support your learning",
+   "anchor": "AI in Education Framework"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "Surrey\u2019s AI in Education Framework is a progressive approach to AI developed with the Students\u2019 Union.",
+   "anchor": "AI in Education Framework"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "consider_whether_ai_fits_learning_outcomes",
+   "quote": "This means understanding AI\u2019s limitations and when it is (and isn\u2019t) a useful tool.",
+   "why": "Judging usefulness, not tied to learning outcomes."
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "The aim is not just to learn how to use AI, but to learn how to judge it critically.",
+   "why": "General critical judgement, accuracy not stated."
+  }
+ ]
+}

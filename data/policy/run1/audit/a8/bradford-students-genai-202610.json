@@ -1,0 +1,39 @@
+{
+ "doc_id": "bradford-students-genai-202610",
+ "coder": "aud-a8",
+ "checked_types": 69,
+ "found": [
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "The nature of the allegation means that a conversation with the student about their work is necessary to determine genuine authorship, and the academic concern meeting did not provide sufficient clarity for the investigator to reach a decision (e.g. in the case of generative AI use on a dissertation-type assignment).",
+   "anchor": "Academic Misconduct: Outcomes and Penalties Framework"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "There appears to be a significant discrepancy between the student\u2019s writing (i.e. in emails or formative tasks) and the quality of submitted work for review.",
+   "why": "Mismatch triggers meeting; not AI-specific."
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Academic Integrity Induction online module.",
+   "why": "Integrity resource, not explicitly about AI."
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "Programme and module teams are expected to communicate expectations relating to academic integrity to students at the beginning of their programme and at key points thereafter (e.g. in summative assessment briefs)",
+   "why": "Integrity expectations generally, AI not named."
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "The policy and accompanying appendices shall be reviewed annually.",
+   "why": "General policy review, not AI guidance specifically."
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "offer the student the ability to learn from their academic misconduct/poor academic practice through reassessment.",
+   "why": "Educational handling, not AI-specific."
+  }
+ ]
+}

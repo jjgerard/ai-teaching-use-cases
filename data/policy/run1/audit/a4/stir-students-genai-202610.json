@@ -1,0 +1,24 @@
+{
+ "doc_id": "stir-students-genai-202610",
+ "coder": "aud-a4",
+ "checked_types": 73,
+ "found": [
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Student introduction to the AIAS",
+   "anchor": "AI Assessment Scale"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "ranging from no AI use to full AI integration",
+   "why": "scale description, stance not explicit"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "If you need advice on using technologies in teaching, learning and assessment design or best practices in Canvas, make contact with Learning and Teaching Enhancement.",
+   "why": "help not explicitly about AI"
+  }
+ ]
+}

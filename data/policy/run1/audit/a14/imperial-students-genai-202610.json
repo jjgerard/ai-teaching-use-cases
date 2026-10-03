@@ -1,0 +1,34 @@
+{
+ "doc_id": "imperial-students-genai-202610",
+ "coder": "aud-a14",
+ "checked_types": 70,
+ "found": [
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "You might also wish to browse the Imperial Generative AI checklist, to ensure you have familiarised yourself with all the ways genAI can impact your studies.",
+   "anchor": "How can I find out more and get trained up?"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "Library Services have collated FAQs, referencing support, and additional resources.",
+   "anchor": "Guidance for students"
+  },
+  {
+   "type": "provided_tool_has_data_protection_assurances",
+   "quote": "It's built to support teaching, learning, and research while ensuring data protection and institutional compliance.",
+   "anchor": "Generative AI and Study Guidance Hub"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "we anticipate that these genAI models present you with opportunities to explore new ways of studying and learning.",
+   "anchor": "What is Generative AI?"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "intended to be considered alongside Imperial's introductory course, genAI principles, and departmental guidance.",
+   "why": "descriptive pointer, not an instruction to comply"
+  }
+ ]
+}
