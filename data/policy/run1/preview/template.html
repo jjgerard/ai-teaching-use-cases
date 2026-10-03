@@ -157,7 +157,8 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   <h2>What institutions say most often</h2>
   <p class="note" id="tfit" style="margin:0 0 12px"></p>
   <p class="sub">Each bar is the number of institutions whose document makes this kind of statement. Statements are grouped by what they say, such as “the default is no AI unless the module permits it” or “do not upload university teaching materials”. Click a bar to see who says it, how it splits by region, and example quotes.</p>
-  <div class="pctl"><label><input type="checkbox" id="tthin" checked> leave out thin documents (fewer than 8 specific points)</label><span class="mono" id="tcount" style="color:var(--ink2)"></span></div>
+  <div class="pctl"><label><input type="checkbox" id="tthin" checked> leave out thin documents (fewer than 8 specific points)</label><label><input type="checkbox" id="taudit" checked> add statements found by re-reading each whole document</label><span class="mono" id="tcount" style="color:var(--ink2)"></span></div>
+  <p class="note" style="margin:0 0 10px">The first extraction pulled 6 to 15 distinctive rules from each document, so it under-counts things a document says in passing, such as pointing to training. Switching on the whole-document re-read adds every statement type a second pass found in the full text, each backed by a verbatim quote. Pairings under “What goes together” still use the extracted points only.</p>
   <div class="tchips" id="tgroups" role="group" aria-label="Theme"></div>
   <div class="cols"><div class="panel"><div class="bars" id="tbars"></div></div><div class="panel" id="tdetail" style="min-height:120px"></div></div>
 </section>
@@ -481,7 +482,8 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   var GL = { use_rules: "Use rules", disclosure_and_evidence: "Declaring and evidence", referencing: "Referencing", data_and_privacy: "Data and privacy", tools: "Tools", assessment_design: "Assessment design", integrity_and_consequences: "Integrity and consequences", accuracy_and_responsibility: "Accuracy and responsibility", support_and_training: "Support and training", staff_and_governance: "Staff and governance", ethics_and_equity: "Ethics and equity", other: "Other" };
   var tgroup = "all", tsel = null;
   function tdocs() { var thin = $("tthin").checked; return TR.docs.filter(function (d) { var pd = PD[d]; if (!pd) return false; if (region !== "All" && pd.region !== region) return false; if (thin && TR.nper[d] < TR.thin) return false; return true; }); }
-  function tcounts(ds) { var c = {}; ds.forEach(function (d) { DT[d].forEach(function (t) { (c[t] = c[t] || []).push(d); }); }); return c; }
+  function tcounts(ds) { var c = {}, aud = $("taudit") && $("taudit").checked; ds.forEach(function (d) { var s = new Set(DT[d]); if (aud) (TR.audit[d] || []).forEach(function (t) { s.add(t); }); s.forEach(function (t) { (c[t] = c[t] || []).push(d); }); }); return c; }
+  function extN(ds, id) { var n = 0; ds.forEach(function (d) { if (DT[d].has(id)) n++; }); return n; }
   function drawTrends() {
     var ds = tdocs(), c = tcounts(ds), M = ds.length || 1;
     var gc = {}; TR.types.forEach(function (t) { if (c[t.id]) gc[t.group] = (gc[t.group] || 0) + 1; });
@@ -492,7 +494,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     var host = $("tbars"); host.textContent = "";
     rows.slice(0, tgroup === "all" ? 30 : 60).forEach(function (r) {
       var b = el("button", "brow share"); b.type = "button"; b.setAttribute("aria-pressed", tsel === r.t.id ? "true" : "false"); b.title = r.t.def;
-      b.appendChild(el("span", "bl", r.t.label)); var tr = el("span", "bt"), f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * r.n / M) + "%"; tr.appendChild(f); b.appendChild(tr); b.appendChild(el("span", "bn", r.n + " of " + ds.length));
+      b.appendChild(el("span", "bl", r.t.label)); var tr = el("span", "bt"), f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * r.n / M) + "%"; tr.appendChild(f); b.appendChild(tr); var en = extN(ds, r.t.id); b.appendChild(el("span", "bn", r.n + " of " + ds.length + ($("taudit").checked && r.n > en ? " (" + en + " from extracted points)" : "")));
       b.addEventListener("click", function () { tsel = r.t.id; drawTrends(); $("tdetail").scrollIntoView({ block: "nearest" }); }); host.appendChild(b);
     });
     if (!rows.length) host.appendChild(el("p", null, "No statements in view."));
@@ -521,6 +523,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     var opts = TR.types.slice().sort(function (x, y) { return x.label.localeCompare(y.label); });
     ["tpa", "tpb"].forEach(function (id, i) { var s = $(id); opts.forEach(function (t) { var o = document.createElement("option"); o.value = t.id; o.textContent = t.label; s.appendChild(o); }); s.value = i ? "ai_detectors_unreliable_not_sole_basis" : "rules_set_locally_by_module_or_lecturer"; s.addEventListener("change", drawTogether); });
     $("tthin").addEventListener("change", function () { drawTrends(); drawTogether(); });
+    $("taudit").addEventListener("change", drawTrends);
     $("tfit").textContent = TR.docs.length + " institutions, " + TR.rows.length + " specific statements, classified against a vocabulary of " + TR.types.length + " statement types. " + Math.round(100 * TR.fitCounts.clear / TR.rows.length) + "% fit a type clearly, " + Math.round(100 * (TR.fitCounts.partial || 0) / TR.rows.length) + "% partly and " + Math.round(100 * (TR.fitCounts.none || 0) / TR.rows.length) + "% not at all. A second pass over a random tenth agreed on the exact type " + TR.agreement.exact_pct + "% of the time (" + TR.agreement.group_pct + "% on the theme), though both passes are the same model. The vocabulary was built from half the institutions, then revised after a test on the other half, so it is not independently tested in its final form.";
   }
 
