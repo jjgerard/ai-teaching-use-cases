@@ -152,6 +152,26 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 </section>
 
 
+
+<section id="trends">
+  <h2>What institutions say most often</h2>
+  <p class="note" id="tfit" style="margin:0 0 12px"></p>
+  <p class="sub">Each bar is the number of institutions whose document makes this kind of statement. Statements are grouped by what they say, such as “the default is no AI unless the module permits it” or “do not upload university teaching materials”. Click a bar to see who says it, how it splits by region, and example quotes.</p>
+  <div class="pctl"><label><input type="checkbox" id="tthin" checked> leave out thin documents (fewer than 8 specific points)</label><span class="mono" id="tcount" style="color:var(--ink2)"></span></div>
+  <div class="tchips" id="tgroups" role="group" aria-label="Theme"></div>
+  <div class="cols"><div class="panel"><div class="bars" id="tbars"></div></div><div class="panel" id="tdetail" style="min-height:120px"></div></div>
+</section>
+
+<section id="together">
+  <h2>What goes together</h2>
+  <p class="sub small" id="tpnote" style="margin-top:0"></p>
+  <div class="panel"><div class="scroll"><table class="xt pairs" id="tpairs"></table></div></div>
+  <div class="panel" style="margin-top:16px">
+    <div class="xsel"><span><label for="tpa">Statement A</label><select id="tpa"></select></span><span><label for="tpb">Statement B</label><select id="tpb"></select></span></div>
+    <div id="tpair"></div>
+  </div>
+</section>
+
 <section id="points">
   <h2>What the guidance says</h2>
   <p class="sub">Specific points from each institution's own document, quoted word for word. Each card links to the source. The one-line summary restates only what its quote says. Filter by theme, strength of wording, who it is addressed to, or a single institution.</p>
@@ -191,7 +211,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 
 
 <section id="common">
-  <h2>What is common</h2>
+  <h2>Classified documents: what is common</h2>
   <p class="sub">Each bar is the share of documents <em>that give a value</em> for that variable, so the denominator is shown. Documents that are silent are left out, which makes these shares larger than a share of all documents. They describe this sample and are not prevalence estimates.</p>
   <div class="cols">
     <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">Choices documents make</h3><div class="mono" style="color:var(--muted)">values given by at least 8 documents</div><div class="bars" id="b-common"></div></div>
@@ -199,8 +219,8 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   </div>
 </section>
 
-<section id="together">
-  <h2>What goes together</h2>
+<section id="together-typed">
+  <h2>Classified documents: what goes together</h2>
   <p class="sub">Pick two variables. The table counts documents that give a value for both, so shared silence cannot make a pattern.</p>
   <div class="panel">
     <div class="xsel"><span><label for="xv">Rows</label><select id="xv"></select></span><span><label for="yv">Columns</label><select id="yv"></select></span><span class="mono" id="xn" style="color:var(--ink2)"></span></div>
@@ -453,13 +473,64 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     $("pmore").hidden = rows.length <= plimit;
   }
 
+  // ---- statement-type trends (provisional) ----
+  var TR = DATA.trends, TT = {}; TR.types.forEach(function (t) { TT[t.id] = t; });
+  var PX = {}; DATA.points.forEach(function (p) { PX[p.d + ":" + p.n] = p; });
+  var DT = {}; TR.docs.forEach(function (d) { DT[d] = new Set(); });
+  TR.rows.forEach(function (r) { [r.c, r.c2].forEach(function (t) { if (t && t !== "unclassified") DT[r.d].add(t); }); });
+  var GL = { use_rules: "Use rules", disclosure_and_evidence: "Declaring and evidence", referencing: "Referencing", data_and_privacy: "Data and privacy", tools: "Tools", assessment_design: "Assessment design", integrity_and_consequences: "Integrity and consequences", accuracy_and_responsibility: "Accuracy and responsibility", support_and_training: "Support and training", staff_and_governance: "Staff and governance", ethics_and_equity: "Ethics and equity", other: "Other" };
+  var tgroup = "all", tsel = null;
+  function tdocs() { var thin = $("tthin").checked; return TR.docs.filter(function (d) { var pd = PD[d]; if (!pd) return false; if (region !== "All" && pd.region !== region) return false; if (thin && TR.nper[d] < TR.thin) return false; return true; }); }
+  function tcounts(ds) { var c = {}; ds.forEach(function (d) { DT[d].forEach(function (t) { (c[t] = c[t] || []).push(d); }); }); return c; }
+  function drawTrends() {
+    var ds = tdocs(), c = tcounts(ds), M = ds.length || 1;
+    var gc = {}; TR.types.forEach(function (t) { if (c[t.id]) gc[t.group] = (gc[t.group] || 0) + 1; });
+    var ch = $("tgroups"); ch.textContent = ""; var addChip = function (k, label) { ch.appendChild(mkChip(label, tgroup === k, function () { tgroup = k; tsel = null; drawTrends(); })); };
+    addChip("all", "All themes"); Object.keys(GL).forEach(function (k) { if (gc[k]) addChip(k, GL[k]); });
+    $("tcount").textContent = ds.length + " institutions in view";
+    var rows = TR.types.filter(function (t) { return c[t.id] && (tgroup === "all" || t.group === tgroup); }).map(function (t) { return { t: t, n: c[t.id].length }; }).sort(function (a, b) { return b.n - a.n; });
+    var host = $("tbars"); host.textContent = "";
+    rows.slice(0, tgroup === "all" ? 30 : 60).forEach(function (r) {
+      var b = el("button", "brow share"); b.type = "button"; b.setAttribute("aria-pressed", tsel === r.t.id ? "true" : "false"); b.title = r.t.def;
+      b.appendChild(el("span", "bl", r.t.label)); var tr = el("span", "bt"), f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * r.n / M) + "%"; tr.appendChild(f); b.appendChild(tr); b.appendChild(el("span", "bn", r.n + " of " + ds.length));
+      b.addEventListener("click", function () { tsel = r.t.id; drawTrends(); $("tdetail").scrollIntoView({ block: "nearest" }); }); host.appendChild(b);
+    });
+    if (!rows.length) host.appendChild(el("p", null, "No statements in view."));
+    var dt = $("tdetail"); dt.textContent = "";
+    if (tsel && TT[tsel]) {
+      var t = TT[tsel], who = c[tsel] || [];
+      dt.appendChild(el("h3", null, t.label)); dt.appendChild(el("p", "qline", t.def));
+      var reg = {}, regN = {}; ds.forEach(function (d) { var r = PD[d].region; regN[r] = (regN[r] || 0) + 1; }); who.forEach(function (d) { var r = PD[d].region; reg[r] = (reg[r] || 0) + 1; });
+      dt.appendChild(el("p", "mono", REGIONS.filter(function (r) { return regN[r]; }).map(function (r) { return r + " " + (reg[r] || 0) + "/" + regN[r]; }).join("  ·  ")));
+      var wl = el("div", "who"); who.forEach(function (d) { var s = el("span"), a = el("a", null, PD[d].name); a.href = PD[d].url; a.target = "_blank"; a.rel = "noopener"; a.style.color = "inherit"; s.appendChild(a); wl.appendChild(s); }); dt.appendChild(wl);
+      var shown = 0; TR.rows.forEach(function (r) { if (shown >= 6 || (r.c !== tsel && r.c2 !== tsel) || who.indexOf(r.d) < 0) return; var p = PX[r.d + ":" + r.n]; if (!p) return; shown++; var q = el("blockquote", null, "“" + p.q + "” — " + PD[r.d].name); dt.appendChild(q); });
+    } else dt.appendChild(el("span", null, "Select a statement type to see which institutions say it, how it splits by region, and example quotes."));
+  }
+  function drawTogether() {
+    var thin = $("tthin").checked, set = thin ? TR.pairs.rich : TR.pairs.all, t = $("tpairs"); t.textContent = "";
+    $("tpnote").textContent = "Among " + set.docs + " institutions, " + set.tests_run + " pairings were testable (each statement type in at least 5 institutions and absent from at least 5). By chance alone about " + Math.round(set.tests_run * 0.05) + " would reach p < 0.05, so pairs are corrected for false discoveries (q). A statement missing from a document may simply not be mentioned there, and longer documents say more of everything, so read pairings as leads.";
+    var hr = el("tr"); ["Statements that appear together", "Both / A only / B only / neither", "p", "q"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
+    set.top.slice(0, 8).forEach(function (r) { var tr = el("tr"), td = el("td", null, TT[r.A].label + "  +  " + TT[r.B].label); td.style.whiteSpace = "normal"; tr.appendChild(td); tr.appendChild(el("td", null, [r.a, r.b, r.c, r.d].join(" / "))); tr.appendChild(el("td", null, r.p < 0.001 ? "<0.001" : r.p.toFixed(3))); tr.appendChild(el("td", r.q < 0.1 ? "flag" : null, r.q.toFixed(2) + (r.q < 0.1 ? " ●" : ""))); t.appendChild(tr); });
+    var a = $("tpa").value, b = $("tpb").value, ds = tdocs(), box = $("tpair"); box.textContent = "";
+    if (!a || !b || a === b) { box.appendChild(el("p", null, "Pick two different statement types.")); return; }
+    var both = [], onlyA = [], onlyB = []; ds.forEach(function (d) { var x = DT[d].has(a), y = DT[d].has(b); if (x && y) both.push(d); else if (x) onlyA.push(d); else if (y) onlyB.push(d); });
+    var names = function (arr) { return arr.map(function (d) { return PD[d].name; }).join(", ") || "none"; };
+    [["Both", both], ["Only “" + TT[a].label + "”", onlyA], ["Only “" + TT[b].label + "”", onlyB]].forEach(function (x) { var p = el("p", "small"); var s = el("strong", null, x[0] + " (" + x[1].length + "): "); p.appendChild(s); p.appendChild(document.createTextNode(names(x[1]))); box.appendChild(p); });
+  }
+  function tinit() {
+    var opts = TR.types.slice().sort(function (x, y) { return x.label.localeCompare(y.label); });
+    ["tpa", "tpb"].forEach(function (id, i) { var s = $(id); opts.forEach(function (t) { var o = document.createElement("option"); o.value = t.id; o.textContent = t.label; s.appendChild(o); }); s.value = i ? "ai_detectors_unreliable_not_sole_basis" : "rules_set_locally_by_module_or_lecturer"; s.addEventListener("change", drawTogether); });
+    $("tthin").addEventListener("change", function () { drawTrends(); drawTogether(); });
+    $("tfit").textContent = "Provisional. " + TR.docs.length + " of " + DATA.pdocs.length + " institutions (a random half, held out while the statement vocabulary was built), classified with the first vocabulary of " + TR.types.length + " types. " + Math.round(100 * (TR.fitCounts.clear + TR.fitCounts.partial) / TR.rows.length) + "% of their statements fit a type and " + Math.round(100 * TR.fitCounts.clear / TR.rows.length) + "% fit clearly. A revised vocabulary and the full set of institutions will replace this.";
+  }
+
   function refresh() {
     drawRegs(); $("k-all").setAttribute("aria-pressed", kind === "all"); $("k-rules").setAttribute("aria-pressed", kind === "rules");
     $("nowshown").textContent = shown().length + " of " + DATA.docs.length + " documents shown";
-    drawExplorer(); drawMatrix(); drawCommon(); drawCross(); drawPairs(); drawPoints();
+    drawExplorer(); drawMatrix(); drawCommon(); drawCross(); drawPairs(); drawPoints(); drawTrends(); drawTogether();
   }
   drawCoverage();
   drawBars($("b-force"), "instrument_force", DATA.docs, $("who-kinds")); drawBars($("b-issuer"), "issued_by_type", DATA.docs, $("who-kinds"));
-  pinit(); drawSelect(); crossSelect("xv", "instrument_force"); crossSelect("yv", "issued_by_type"); refresh();
+  tinit(); pinit(); drawSelect(); crossSelect("xv", "instrument_force"); crossSelect("yv", "issued_by_type"); refresh();
 })();
 </script>
