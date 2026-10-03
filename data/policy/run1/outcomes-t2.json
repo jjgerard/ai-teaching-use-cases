@@ -1,0 +1,3277 @@
+[
+ {
+  "ror_id": "https://ror.org/057jrqr44",
+  "name": "University of East London",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.uel.ac.uk/about/governance/generative-ai",
+   "title": "Generative AI",
+   "kind": "webpage",
+   "audience_as_stated": "students and staff (from search snippet; not seen)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.uel.ac.uk/about/governance/general-policies/generative-artificial-intelligence-usage-policy",
+    "title": "Generative Artificial Intelligence Usage Policy (also 403)"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.uel.ac.uk/artificial-intelligence",
+    "title": "Artificial Intelligence (AI) library guide"
+   }
+  ],
+  "queries": [
+   "UEL generative AI students guidance (allowed_domains uel.ac.uk)"
+  ],
+  "notes": "uel.ac.uk returned HTTP 403 to curl (bot wall); not bypassed. URL and title taken from search results only.",
+  "region": "England",
+  "doc_id": "east-london-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04v2twj65",
+  "name": "Oxford Brookes University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.brookes.ac.uk/students/academic-development/online-resources/artificial-intelligence",
+   "title": "Artificial intelligence",
+   "kind": "guidance",
+   "audience_as_stated": "students (Student homepage, Centre for Academic Development online resources)",
+   "owner_as_stated": "Centre for Academic Development (page breadcrumb)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://www.brookes.ac.uk/staff/working-at-brookes/learning-and-career-development/academic-enhancement-and-development/teaching-and-learning/genai-university-wide-policy-and-practice/",
+    "title": "GenAI university-wide policy and practice (staff site)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.brookes.ac.uk/staff/working-at-brookes/learning-and-career-development/academic-enhancement-and-development/teaching-and-learning/genai-university-wide-policy-and-practice/faqs",
+    "title": "FAQs on Use of AI in Teaching, Learning and Assessment"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.brookes.ac.uk/library/how-to/use-ai-tools-for-research",
+    "title": "Use AI tools for research (library)"
+   }
+  ],
+  "queries": [
+   "Oxford Brookes University generative AI students guidance (allowed_domains brookes.ac.uk)"
+  ],
+  "region": "England",
+  "doc_id": "oxford-brookes-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02dk7c653",
+  "name": "Dún Laoghaire Institute of Art, Design and Technology",
+  "outcome": "found",
+  "doc": {
+   "url": "https://iadt.ie/wp-content/uploads/2024/03/Academic-Integrity-Policy-V1-2024.pdf",
+   "title": "IADT Academic Integrity Policy (AIP/V1.0; includes section 9 Generative Artificial Intelligence)",
+   "kind": "policy",
+   "audience_as_stated": "IADT Students and Staff",
+   "owner_as_stated": "Office of Registrar (Policy Owner); approved by Academic Council 29 Feb 2024",
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://iadt.ie/wp-content/uploads/2023/12/Guidelines-for-Academic-Teams-GenAI-Assessments-IADT-Approved.pdf",
+    "title": "Generative AI (GenAI) Assessment Guidelines for Academic Teams"
+   }
+  ],
+  "queries": [
+   "IADT generative AI students guidance academic integrity (allowed_domains iadt.ie)",
+   "IADT students using generative AI tools ChatGPT guidance for students library (allowed_domains iadt.ie)"
+  ],
+  "notes": "Dated 'Approved by Academic Council 29 Feb 2024' in document front matter. No dedicated student GenAI page surfaced; policy used as fallback. Text read via pdftotext.",
+  "region": "Ireland",
+  "doc_id": "d-n-laoghaire-institute-art-design-and-technology-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/020jfw620",
+  "name": "Hartpury University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.hartpury.ac.uk/media/h4gdxowj/hartpury-university-academic-regulations-2025-26-version-1.pdf",
+   "title": "Hartpury Academic Regulations 2025-26 (academic misconduct sections name AI/ChatGPT)",
+   "kind": "regulations",
+   "audience_as_stated": "students (academic regulations)",
+   "owner_as_stated": "Hartpury University (cover: Approved by AB20250603, version 202526 version 1)",
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.hartpury.ac.uk/about-us/governance-leadership/policies-regulation-and-information/policies/",
+    "title": "Hartpury Policies"
+   }
+  ],
+  "queries": [
+   "Hartpury University generative AI students guidance (allowed_domains hartpury.ac.uk)",
+   "Hartpury University students use of artificial intelligence ChatGPT academic integrity assessment guidance (allowed_domains hartpury.ac.uk)"
+  ],
+  "notes": "No standalone student GenAI page found in two searches; regulations PDF text confirmed via pdftotext (ChatGPT named at line ~1747, generative AI at ~1847).",
+  "region": "England",
+  "doc_id": "hartpury-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00z5fkj61",
+  "name": "York St John University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.yorksj.ac.uk/policies-and-documents/generative-artificial-intelligence/",
+   "title": "Guiding Principles on the Use of Generative Artificial Intelligence (2025)",
+   "kind": "policy",
+   "audience_as_stated": "students ('you'; York St John University policies and documents)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://studenthub.yorksj.ac.uk/helppages/article/KA-01409/en-us",
+    "title": "Using AI at York St John University (Student Hub)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.yorksj.ac.uk/library/library-study-and-digital-skills/artificial-intelligence-and-your-learning/",
+    "title": "Your Critical AI Toolkit (library)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.yorksj.ac.uk/policies-and-documents/generative-artificial-intelligence/case-study-examples-of-ai-use/",
+    "title": "Case study examples of AI use"
+   }
+  ],
+  "queries": [
+   "York St John University generative AI students guidance (allowed_domains yorksj.ac.uk)"
+  ],
+  "notes": "Year 2025 in title as shown; no other date seen.",
+  "region": "England",
+  "doc_id": "york-st-john-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04r0ks517",
+  "name": "University for the Creative Arts",
+  "outcome": "found",
+  "doc": {
+   "url": "https://mylibrary.uca.ac.uk/artificialintelligence",
+   "title": "AI (LibGuide, University for the Creative Arts)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (you)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://mylibrary.uca.ac.uk/academicintegritypolicy",
+    "title": "Academic Integrity Policy (LibGuide)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.uca.ac.uk/about-us/quality-assurance-enhancement/university-regulations-policies-and-procedures/",
+    "title": "University Regulations, Policies and Procedures (hub)"
+   }
+  ],
+  "doc_id": "for-creative-arts-students-genai-202610",
+  "notes": "Library-hosted student guide stating the University's own position; no separate standalone institution-wide AI policy page found."
+ },
+ {
+  "ror_id": "https://ror.org/00ayhx656",
+  "name": "University of Sussex",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.sussex.ac.uk/skills-hub/writing-and-assessments/ai",
+   "title": "Using generative AI in your assessments",
+   "kind": "guidance",
+   "audience_as_stated": "students (Skills Hub)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://www.sussex.ac.uk/about/ai-principles",
+    "title": "Our principles for Artificial Intelligence (AI) in education"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.sussex.ac.uk/skills-hub/referencing-and-academic-integrity",
+    "title": "Referencing and academic integrity (Skills Hub)"
+   }
+  ],
+  "doc_id": "sussex-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/01t884y44",
+  "name": "University of Greater Manchester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://leaponline.greatermanchester.ac.uk/My-Academic-Development/My-Research-Needs/AI-Literacy-Framework.aspx",
+   "title": "UGM AI Literacy Framework",
+   "kind": "guidance",
+   "audience_as_stated": "students/learners",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.greatermanchester.ac.uk/c.php?g=722088&p=5342972",
+    "title": "UGM AI Literacy Framework (library guide; page hidden by visibility settings when retrieved)"
+   },
+   {
+    "audience": "students",
+    "url": "https://greatermanchester.ac.uk/assets/Academic-Misconduct-Regulations-and-Procedures-2025-26.pdf",
+    "title": "Academic Misconduct Regulations and Procedures 2025-26 (Quality Transformation Unit, Senate Sep 2025)"
+   },
+   {
+    "audience": "students",
+    "url": "https://greatermanchester.ac.uk/student-policy-zone",
+    "title": "Student Policy Zone (hub)"
+   }
+  ],
+  "doc_id": "greater-manchester-students-genai-202610",
+  "notes": "Tutorial-style framework (612 words), not a rules statement; misconduct regulations are the policy fallback."
+ },
+ {
+  "ror_id": "https://ror.org/0090zs177",
+  "name": "London School of Economics and Political Science",
+  "outcome": "found",
+  "doc": {
+   "url": "https://info.lse.ac.uk/current-students/digital-skills-lab/Gen-AI",
+   "title": "Generative AI (Digital Skills Lab)",
+   "kind": "guidance",
+   "audience_as_stated": "LSE students ('This page is for LSE students')",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://info.lse.ac.uk/staff/divisions/Eden-Centre/Artificial-Intelligence-Education-and-Assessment/School-position-on-generative-AI",
+    "title": "School position on generative AI"
+   },
+   {
+    "audience": "staff",
+    "url": "https://info.lse.ac.uk/staff/divisions/Eden-Centre/Assets-EC/Documents/AI-guidelines-update-June-2025/LSE-Position-on-Generative-AI-in-Education-2025-26-FINAL.pdf",
+    "title": "LSE position on generative AI in assessment 2025/26"
+   },
+   {
+    "audience": "students",
+    "url": "https://blogs.lse.ac.uk/studentsatlse/2026/05/26/what-to-know-about-using-ai-while-studying-at-lse/",
+    "title": "What to know about using AI while studying at LSE (Students@LSE blog)"
+   }
+  ],
+  "doc_id": "lse-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00fpvte21",
+  "name": "Arts University Plymouth",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.aup.ac.uk/reports-legal-privacy/generative-ai",
+   "title": "Generative AI: Our response",
+   "kind": "webpage",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": "Last updated June 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.aup.ac.uk/resources/digital-education",
+    "title": "Digital Education"
+   }
+  ],
+  "doc_id": "arts-plymouth-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04ycpbx82",
+  "name": "University of Westminster",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.westminster.ac.uk/current-students/studies/study-skills-and-training/guidance-for-students-on-using-generative-ai",
+   "title": "Guidance for students on using Generative AI",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.westminster.ac.uk/sites/default/public-files/general-documents/GenAI-guidance-for-students-2025-26.pdf",
+    "title": "Student Guidance: Using Artificial Intelligence Tools in Your Studies (PDF 2025-26)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.westminster.ac.uk/about-us/our-university/corporate-information/policies-and-documents-a-z/generative-ai-at-the-university-of-westminster",
+    "title": "Generative AI at the University of Westminster"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.westminster.ac.uk/GenAI/EthicsRules",
+    "title": "GenAI: Ethics and Rules (library)"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/05xydav19",
+  "name": "Southampton Solent University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://students.solent.ac.uk/official-documents/solent-learning-and-teaching-institute/ai-and-academic-integrity-policy.pdf",
+   "title": "AI and Academic Integrity Policy",
+   "kind": "policy",
+   "audience_as_stated": "staff and students (covers both)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://students.solent.ac.uk/studying/what-we-expect-from-you/student-academic-misconduct",
+    "title": "Student academic misconduct"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.solent.ac.uk/c.php?g=669821&p=5301628",
+    "title": "Research Skills & AI (library)"
+   }
+  ],
+  "notes": "PDF read via pdftotext; version 1.0, date/approver fields blank in text. Institution-wide policy; student guidance page not separately found."
+ },
+ {
+  "ror_id": "https://ror.org/04zfme737",
+  "name": "Liverpool John Moores University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ljmu.ac.uk/about-us/public-information/student-regulations/academic-misconduct",
+   "title": "Academic Misconduct",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (student regulations)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.ljmu.ac.uk/about-us/news/articles/2024/10/4/updated-assessment-and-feedback-policy",
+    "title": "Updated Assessment and Feedback Policy (news; GenAI declaration at submission)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.ljmu.ac.uk/teaching-and-learning-academy/educational-policies-and-guidance",
+    "title": "Educational policies and guidance (staff hub)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.ljmu.ac.uk/edtech/staff-guides/artificial-intelligence",
+    "title": "Staff guide on AI"
+   }
+  ],
+  "notes": "No dedicated student GenAI guidance page found after 4 searches; page names GenAI in the submission declaration."
+ },
+ {
+  "ror_id": "https://ror.org/026k5mg93",
+  "name": "University of East Anglia",
+  "outcome": "found",
+  "doc": {
+   "url": "https://assets.uea.ac.uk/f/185167/x/5558a0f812/generative-ai-policy-for-teaching-and-learning.pdf",
+   "title": "Generative AI Policy for Teaching and Learning",
+   "kind": "policy",
+   "audience_as_stated": "staff and students on taught programmes (section 5.1 Student Practice)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "research",
+    "url": "https://assets.uea.ac.uk/f/185167/x/ecb798aeb2/generative-ai-policy-for-research-and-innovation.pdf",
+    "title": "Generative AI Policy for Research and Innovation"
+   }
+  ],
+  "notes": "PDF read via pdftotext; authors named as UEA staff; no date seen. Separate student-facing web page not found."
+ },
+ {
+  "ror_id": "https://ror.org/05krs5044",
+  "name": "University of Sheffield",
+  "outcome": "found",
+  "doc": {
+   "url": "https://sheffield.ac.uk/our-education/ai-principles",
+   "title": "Principles for generative AI in education",
+   "kind": "policy",
+   "audience_as_stated": "students and staff (education principles)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://sheffield.ac.uk/study-skills/assessment/academic-integrity/ai-and-academic-integrity",
+    "title": "Generative AI and academic integrity"
+   },
+   {
+    "audience": "students",
+    "url": "https://sheffield.ac.uk/academic-skills/using-generative-ai",
+    "title": "Using Generative AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://sheffield.ac.uk/study-skills/digital/generative-ai/assessment",
+    "title": "How to use GenAI for assessment"
+   }
+  ],
+  "notes": "Principles page chosen as institution-wide; student guidance on StudySkills@Sheffield listed as other pages."
+ },
+ {
+  "ror_id": "https://ror.org/00vs8d940",
+  "name": "University of Bradford",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bradford.ac.uk/__data/assets/file/0022/44455/Academic-Integrity-Policy.pdf",
+   "title": "Policy: Academic Integrity",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (Academic Misconduct, Student Casework)",
+   "owner_as_stated": "Tori McKay, Associate Director (Academic Experience); approved by Senate",
+   "date_as_shown": "Date of approval 15.10.2025",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bradford.ac.uk/academic-misconduct-appeals-and-student-complaints/academic-misconduct/",
+    "title": "Academic Misconduct - Student Casework"
+   }
+  ],
+  "queries": [
+   "University of Bradford generative AI students guidance (allowed_domains bradford.ac.uk)",
+   "University of Bradford academic integrity policy generative AI students acknowledge use assessment (allowed_domains bradford.ac.uk)"
+  ],
+  "notes": "No standalone student GenAI guidance found; policy names generative AI. The 2024-25 PDF URL returned by search now 404s; the linked current version was retrieved and read with pdftotext.",
+  "doc_id": "bradford-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/04xyxjd90",
+  "name": "Nottingham Trent University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.ntu.ac.uk/studenthub/news/2025/02/how-to-get-the-most-out-generative-ai-at-ntu",
+   "title": "How to get the most out of Generative AI at NTU",
+   "kind": "webpage",
+   "audience_as_stated": "students (Student Hub news)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.ntu.ac.uk/studenthub/news/2023/12/artificial-intelligence-ntu",
+    "title": "Artificial Intelligence @ NTU"
+   }
+  ],
+  "queries": [
+   "Nottingham Trent University generative AI students guidance (allowed_domains ntu.ac.uk)"
+  ],
+  "notes": "ntu.ac.uk returned HTTP 403 to curl and WebFetch (bot wall, not circumvented). Search snippet says main Generative AI Guidance sits in the Digital Skills Now learning room (URL not found); this news page is a pointer to it.",
+  "doc_id": "nottingham-trent-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/02fw9q305",
+  "name": "Norwich University of the Arts",
+  "outcome": "found",
+  "doc": {
+   "url": "https://norwichuni.ac.uk/about-us/governance/our-artificial-intelligence-ai-posture-for-students/",
+   "title": "Our Artificial Intelligence (AI) Posture for students",
+   "kind": "webpage",
+   "audience_as_stated": "students (Governance section)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://library.norwichuni.ac.uk/referencing/referencing-ai/",
+    "title": "Referencing AI (library)"
+   }
+  ],
+  "queries": [
+   "Norwich University of the Arts generative AI students guidance (allowed_domains norwichuni.ac.uk)"
+  ],
+  "notes": "Page refers to a Student AI Toolkit on the VLE (not public).",
+  "doc_id": "norwich-arts-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/042ver755",
+  "name": "University College Birmingham",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ucb.ac.uk/media/zzikgpgf/university-college-birmingham-artificial-intelligence-acceptable-use-policy.pdf",
+   "title": "Artificial Intelligence Acceptable Use Policy",
+   "kind": "policy",
+   "audience_as_stated": "staff, students, third-party suppliers and partners",
+   "owner_as_stated": "Reviewed by AI Working Group; approved by Digital Transformation Group",
+   "date_as_shown": "Approved June 2026; next review June 2027",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [],
+  "queries": [
+   "University College Birmingham generative AI students guidance (allowed_domains ucb.ac.uk)"
+  ],
+  "doc_id": "ucb-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/00340yn33",
+  "name": "Keele University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.keele.ac.uk/media/keeleuniversity/policyzone20/studentandacademicservices/AI-in-Education-Framework-2025-1.pdf",
+   "title": "Generative AI in Education Framework",
+   "kind": "policy",
+   "audience_as_stated": "staff and students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.keele.ac.uk/library/academicskills/studyguides/",
+    "title": "Study guides (lists 'Using Generative AI Effectively for Learning')"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.keele.ac.uk/media/keeleuniversity/policyzone20/studentandacademicservices/Student-Academic-Misconduct-CoP-2025.pdf",
+    "title": "Student Academic Misconduct Code of Practice"
+   }
+  ],
+  "queries": [
+   "Keele University generative AI students guidance (allowed_domains keele.ac.uk)",
+   "Keele Using Generative AI effectively for your learning study guide students (allowed_domains keele.ac.uk)"
+  ],
+  "notes": "Framework is institution-wide but addressed partly to staff; the student study guide's own URL could not be extracted from the hub page, so the framework was selected. No owner/date seen in text.",
+  "doc_id": "keele-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/026zzn846",
+  "name": "Queen Mary University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.qmul.ac.uk/library/academic-skills/student-guide-to-generative-ai/",
+   "title": "Student Guide to Generative AI",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Queen Mary Library Services, with Students' Union",
+   "date_as_shown": "Updated 12/9/25",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff/institution",
+    "url": "https://www.qmul.ac.uk/queenmaryacademy/educators/innovation-and-scholarship/innovative-pedagogies/centre-for-excellence-in-ai-in-education/resources/university-guidance-and-policies/",
+    "title": "University AI principles, guidance and policies"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.qmul.ac.uk/doctoralcollege/skills-training/training-and-development-tools/ai-guidance-for-pgrs/",
+    "title": "AI Guidance for PGRs"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.qmul.ac.uk/queenmaryacademy/educators/resources/assessment-and-feedback/resources/generative-ai-and-chat-gpt/",
+    "title": "Staff Guide to Generative AI"
+   }
+  ],
+  "queries": [
+   "Queen Mary University of London generative AI students guidance (allowed_domains qmul.ac.uk)"
+  ],
+  "notes": "Direct curl returned 403 (bot wall, not circumvented); content read via fetch tool summary only. Institution-wide guide, library-owned.",
+  "region": "England",
+  "doc_id": "qmul-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04cnfrn26",
+  "name": "University of the Arts London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.arts.ac.uk/about-ual/learning-and-teaching/digital-learning/ai-and-education/student-guide-to-generative-ai",
+   "title": "Student guide to generative AI",
+   "kind": "guidance",
+   "audience_as_stated": "UAL students",
+   "owner_as_stated": "University of the Arts London",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "hub",
+    "url": "https://www.arts.ac.uk/about-ual/learning-and-teaching/digital-learning/ai-and-education",
+    "title": "AI and Arts Education"
+   },
+   {
+    "audience": "institution",
+    "url": "https://www.arts.ac.uk/about-ual/teaching-and-learning-exchange/digital-learning/ai-and-education/ai-position-statement",
+    "title": "Our position on using AI in teaching and learning"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.arts.ac.uk/about-ual/learning-and-teaching/digital-learning/ai-and-education/ai-and-assessment",
+    "title": "AI and Assessment"
+   }
+  ],
+  "queries": [
+   "University of the Arts London generative AI students guidance (allowed_domains arts.ac.uk)"
+  ],
+  "notes": "Direct curl 403 (bot wall, not circumvented); content read via fetch tool summary only. No date seen.",
+  "region": "England",
+  "doc_id": "arts-london-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/05ydb9v85",
+  "name": "National College of Art and Design",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.ncad.ie/files/download/Generative_Artificial_Intelligence_(AI)_Use_Policy.pdf",
+   "title": "Generative Artificial Intelligence (AI) Use Policy",
+   "kind": "policy",
+   "audience_as_stated": "students (linked from student Academic Affairs policies page)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.ncad.ie/students/academic-student-affairs-registration-regulation/policies-procedures-regulations/",
+    "title": "Academic Affairs: Policies, Procedures & Regulations (hub)"
+   }
+  ],
+  "queries": [
+   "NCAD generative AI students guidance policy (allowed_domains ncad.ie)",
+   "NCAD Generative Artificial Intelligence (AI) Use Policy pdf (allowed_domains ncad.ie)"
+  ],
+  "notes": "Link taken from NCAD student policies page; the URL returns the NCAD homepage HTML, not a PDF, so the policy text was not seen.",
+  "region": "Ireland",
+  "doc_id": "national-art-and-design-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/016476m91",
+  "name": "University of Aberdeen",
+  "outcome": "found",
+  "doc": {
+   "url": "https://abdn.site/cad-genai-student-guidance",
+   "title": "Guidance for Students on the Use of Generative Artificial Intelligence Tools in Education",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": "University of Aberdeen (CAD, cad@abdn.ac.uk)",
+   "date_as_shown": "Last update 15 September 2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff hub",
+    "url": "https://www.abdn.ac.uk/staffnet/education/generative-ai-in-education/guidance-and-resources-on-genai/",
+    "title": "Guidance and Resources on GenAI (StaffNet)"
+   },
+   {
+    "audience": "institution",
+    "url": "https://www.abdn.ac.uk/staffnet/education/generative-ai-in-education/university-of-aberdeen-ai-principles/",
+    "title": "University of Aberdeen AI Principles"
+   },
+   {
+    "audience": "students",
+    "url": "https://abdn.site/cad-genai-acknowledgements",
+    "title": "Acknowledging and Citing the Use of AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://abdn.site/AI-level1-additional-guidance",
+    "title": "Additional Guidance for Students on AI Level 1: Specified AI Use"
+   }
+  ],
+  "queries": [
+   "University of Aberdeen generative AI students guidance (allowed_domains abdn.ac.uk)"
+  ],
+  "notes": "Short link redirects to a PDF on abdn.blackboard.com; text read with pdftotext.",
+  "region": "Scotland",
+  "doc_id": "aberdeen-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/01hxy9878",
+  "name": "Royal College of Surgeons in Ireland",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.rcsi.com/dublin/-/media/feature/media/download-document/rcsi-policies/guidance-on-the-ethical-use-of-ai.pdf",
+   "title": "RCSI guidance on the ethical use of artificial intelligence in learning, teaching and assessment",
+   "kind": "guidance",
+   "audience_as_stated": "staff and students (learning, teaching and assessment)",
+   "owner_as_stated": "AI in Education Working Group, RCSI",
+   "date_as_shown": "September 2024",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "news",
+    "url": "https://www.rcsi.com/dublin/news-and-events/news/news-article/2026/04/rcsi-launches-new-generative-ai-policy-and-resource-hub",
+    "title": "RCSI launches new generative AI policy and resource hub"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.rcsi.com/dublin/-/media/feature/media/download-document/rcsi-policies/academic-integrity-policy.pdf",
+    "title": "Academic Integrity Policy"
+   },
+   {
+    "audience": "hub",
+    "url": "https://www.rcsi.com/dublin/student-policies",
+    "title": "Student policies, procedures and regulations"
+   }
+  ],
+  "queries": [
+   "RCSI generative AI students guidance academic integrity (allowed_domains rcsi.com)",
+   "RCSI AI Hub generative AI usage policy students (allowed_domains rcsi.com)"
+  ],
+  "notes": "Read with pdftotext. A newer GenAI Usage Policy and AI Hub were announced April 2026 but the policy document URL was not located; this may be superseded.",
+  "region": "Ireland",
+  "doc_id": "royal-surgeons-in-ireland-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/019wt1929",
+  "name": "Sheffield Hallam University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.shu.ac.uk/myhallam/study/assessment/artificial-intelligence-and-assessment",
+   "title": "Artificial Intelligence and Assessment",
+   "kind": "guidance",
+   "audience_as_stated": "students (MyHallam, Study > Assessment)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.shu.ac.uk/ai",
+    "title": "AI and your Academic Work (library guide)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://lta.shu.ac.uk/assessment-and-feedback/high-level-requirements/guidance-on-ai-in-assessment",
+    "title": "Guidance on AI in Assessment"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.shu.ac.uk/-/media/home/myhallam/university-life/rules-and-regs/research-regulations/use-of-generative-ai-in-assessments---guidance-for-pgr-students---september-2025.pdf",
+    "title": "Use of generative AI in assessments: guidance for PGR students"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/01drpwb22",
+  "name": "University of Chester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.chester.ac.uk/welcome/prepare-to-study/using-artificial-intelligence-in-your-academic-studies/",
+   "title": "Using Artificial Intelligence in your Academic Studies",
+   "kind": "webpage",
+   "audience_as_stated": "new students (Welcome > Prepare to study)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://shoutout.chester.ac.uk/support-and-opportunities/understanding-how-and-when-you-can-use-generative-artificial-intelligence-genai/",
+    "title": "Understanding how and when you can use GenAI"
+   },
+   {
+    "audience": "students",
+    "url": "https://shoutout.chester.ac.uk/news-features/artificial-intelligence-and-your-assessment/",
+    "title": "Artificial Intelligence and your assessment"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/04g2vpn86",
+  "name": "Royal Holloway University of London",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://intranet.royalholloway.ac.uk/students/study/generative-ai/generative-ai-opportunities-for-education-and-academic-integrity.aspx",
+   "title": "Guidance on the Use of Generative AI - Royal Holloway Student Intranet",
+   "kind": "guidance",
+   "audience_as_stated": "students (Student Intranet, Study)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": null
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://intranet.royalholloway.ac.uk/students/study/generative-ai/ai-use-assessment.aspx",
+    "title": "AI Use & Assessment"
+   },
+   {
+    "audience": "students",
+    "url": "https://intranet.royalholloway.ac.uk/students/study/generative-ai/academic-misconduct-and-using-ai-responsibly.aspx",
+    "title": "Academic Misconduct and using AI responsibly"
+   },
+   {
+    "audience": "students",
+    "url": "https://intranet.royalholloway.ac.uk/students/assets/docs/pdf/academic-investigations/2526/student-guide-ai-related-allegations.pdf",
+    "title": "Student Guidance to Artificial Intelligence (AI)"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://intranet.royalholloway.ac.uk/doctoral-school/researcher-development/gen-ai-guidance.aspx",
+    "title": "Guidance on the Use of Generative AI in Postgraduate Research"
+   }
+  ],
+  "notes": "Seen in domain-filtered search results only. curl failed TLS verification (cert issuer unknown) and WebFetch returned 503, so the page was not retrieved."
+ },
+ {
+  "ror_id": "https://ror.org/05mzfcs16",
+  "name": "The Open University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://about.open.ac.uk/policies-and-reports/policies-and-statements/generative-ai-learning-teaching-and-assessment-ou-0",
+   "title": "Generative AI for students",
+   "kind": "webpage",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://university.open.ac.uk/library/news/how-to-acknowledge-generative-ai-such-as-chatgpt-in-assignments",
+    "title": "How to acknowledge generative AI in assignments"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://university.open.ac.uk/students/research/ou/services/position-statement-and-guidance-generative-ai-and-doctoral-education",
+    "title": "Position Statement and Guidance on Generative AI and Doctoral Education"
+   },
+   {
+    "audience": "staff",
+    "url": "https://about.open.ac.uk/policies-and-reports/policies-and-statements/gen-ai/generative-ai-staff",
+    "title": "Generative AI for staff"
+   }
+  ],
+  "notes": "Title and URL from domain-filtered search; direct fetch returned a Cloudflare bot challenge (403), not bypassed."
+ },
+ {
+  "ror_id": "https://ror.org/05tnja216",
+  "name": "University College of Osteopathy",
+  "outcome": "not_found",
+  "reasons": [
+   "Five domain-filtered queries (uco.ac.uk, clinic.uco.ac.uk) returned no page mentioning generative AI, ChatGPT or AI in assessment; results were course, governance and policy-index pages only.",
+   "UCO became the UCO School of Osteopathy within Health Sciences University (HSU) on 1 Aug 2024, so any AI guidance may now sit on the HSU domain, outside this institution's listed website.",
+   "Policies index (uco.ac.uk/about-uco/who-we-are/policies-procedures-and-privacy) showed no AI-named link in a keyword check; not opened document by document."
+  ],
+  "queries_tried": [
+   "University College of Osteopathy generative AI students guidance (allowed_domains uco.ac.uk)",
+   "UCO osteopathy student academic misconduct artificial intelligence ChatGPT policy (uco.ac.uk)",
+   "University College of Osteopathy use of AI in assessments students academic integrity AI (uco.ac.uk, clinic.uco.ac.uk, extended)",
+   "UCO generative AI ChatGPT students assessments declaring use of AI osteopathy course handbook (uco.ac.uk)",
+   "University College of Osteopathy library study skills artificial intelligence referencing students (uco.ac.uk)"
+  ],
+  "other_pages": []
+ },
+ {
+  "ror_id": "https://ror.org/02wn5qz54",
+  "name": "University of St Andrews",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.st-andrews.ac.uk/policy/academic-policies-assessment-examination-and-award-good-academic-practice/generative-ai-faqs-students-guidance.pdf",
+   "title": "Generative AI – FAQs for students",
+   "kind": "faq",
+   "audience_as_stated": "Staff and students (document scope)",
+   "owner_as_stated": "Learning and Teaching Committee (approver); Education and Student Experience",
+   "date_as_shown": "Approved 28/01/2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.st-andrews.ac.uk/education/handbook/good-academic-practice/",
+    "title": "Good academic practice"
+   }
+  ],
+  "doc_id": "st-andrews-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00t67pt25",
+  "name": "Birmingham City University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.bcu.ac.uk/AI-Guidelines",
+   "title": "AI Guidelines: Welcome (BCU Student AI Guidelines 2026-27)",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Birmingham City University (Library guide hosting the Student AI Guidelines)",
+   "date_as_shown": "2026-27 (as shown in text)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bcu.ac.uk/library/services-and-support/artificial-intelligence",
+    "title": "Using Generative Artificial Intelligence (library hub)"
+   }
+  ],
+  "doc_id": "birmingham-city-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/0524sp257",
+  "name": "University of Bristol",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bristol.ac.uk/students/support/academic-advice/using-artificial-intelligence/",
+   "title": "Using artificial intelligence (AI) in assessments and for studying",
+   "kind": "guidance",
+   "audience_as_stated": "undergraduates and PGT students (as stated on page)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bristol.ac.uk/students/support/academic-advice/academic-integrity/",
+    "title": "Academic integrity"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.bristol.ac.uk/bilt/sharing-practice/guides/guidance-on-ai/our-key-messages/",
+    "title": "Our Key Messages (BILT guidance on AI)"
+   }
+  ],
+  "doc_id": "bristol-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/03dvm1235",
+  "name": "Glasgow Caledonian University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.gcu.ac.uk/currentstudents/essentials/onlinelearning/assessmentandintegrity",
+   "title": "Academic integrity",
+   "kind": "webpage",
+   "audience_as_stated": "current students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [],
+  "notes": "Cloudflare challenge (HTTP 403) on fetch; not bypassed. Search snippets indicate the page refers to a 'GenAI for students' page whose URL was not found. Fallback = academic integrity page.",
+  "doc_id": "glasgow-caledonian-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00wygct11",
+  "name": "University of Gloucestershire",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.glos.ac.uk/AIGuidance",
+   "title": "Using Generative AI in your studies (AI guidance)",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": "University of Gloucestershire Libraries (LibGuides)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://connectglosac.sharepoint.com/sites/myhelp/SitePages/Student-Guidance-for-Using-Generative-AI-in-Learning.aspx",
+    "title": "Student guidance for using Generative AI in learning (SharePoint, HTTP 403 not retrievable)"
+   }
+  ],
+  "notes": "The library guide points to the SharePoint student guidance, which returned 403 here; recorded the retrievable library guide.",
+  "doc_id": "gloucestershire-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02hstj355",
+  "name": "Manchester Metropolitan University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.mmu.ac.uk/student-life/course/artificial-intelligence-and-assessments",
+   "title": "Artificial intelligence and assessments",
+   "kind": "webpage",
+   "audience_as_stated": "current students (Student life section)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.mmu.ac.uk/about-us/professional-services/uta/teaching/embracing-generative-ai-responsibly",
+    "title": "Embracing generative AI responsibly"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.mmu.ac.uk/library/referencing-and-study-support/referencing/referencing-generative-AI-in-your-assessments",
+    "title": "Referencing generative AI in your assessments"
+   }
+  ],
+  "doc_id": "manchester-metropolitan-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04tvt8c73",
+  "name": "Regent's University London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.regents.ac.uk/sites/default/files/2025-08/Academic%20Regulations%202025-26%20-%20Academic%20Integrity%20and%20Misconduct.pdf",
+   "title": "Academic Regulations: Academic Integrity and Misconduct (2025-26)",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (addressed as 'you')",
+   "owner_as_stated": "Regent's University London (Academic Regulations)",
+   "date_as_shown": "2025-26",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.regents.ac.uk/policies",
+    "title": "Academic Regulations & Policies"
+   }
+  ],
+  "doc_id": "regents-london-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04nkhwh30",
+  "name": "University of Hull",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.hull.ac.uk/asset-library/docs/student-use-of-ai.pdf",
+   "title": "Student Use of AI Policy",
+   "kind": "policy",
+   "audience_as_stated": "students",
+   "owner_as_stated": "PVC Education (document owner); approved by Senate",
+   "date_as_shown": "12 March 2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.hull.ac.uk/ai",
+    "title": "Artificial Intelligence (AI) library guide"
+   }
+  ],
+  "doc_id": "hull-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04vg4w365",
+  "name": "Loughborough University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.lboro.ac.uk/students/academic-integrity/generative-ai/",
+   "title": "Generative Artificial Intelligence (AI) - Guidance for students",
+   "kind": "guidance",
+   "audience_as_stated": "students (Academic Integrity section)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.lboro.ac.uk/students/handbook/assessments/assessment-information/generative-ai/",
+    "title": "Using Generative AI in your studies"
+   }
+  ],
+  "doc_id": "loughborough-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00z20c921",
+  "name": "Harper Adams University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://cdn.harper-adams.ac.uk/document/ki/key-info-page/Academic-Integrity-and-Academic-Misconduct-A-Guide.pdf",
+   "title": "Academic Integrity and Academic Misconduct: A Guide for Students and Tutors",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students and tutors",
+   "owner_as_stated": "Harper Adams University",
+   "date_as_shown": "September 2024",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [],
+  "doc_id": "harper-adams-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/01ee9ar58",
+  "name": "University of Nottingham",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.nottingham.ac.uk/studyingeffectively/ai/ai.aspx",
+   "title": "Using generative artificial intelligence (AI)",
+   "kind": "guidance",
+   "audience_as_stated": "students (Studying effectively)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   "https://www.nottingham.ac.uk/studyingeffectively/ai/ai-assessment.aspx",
+   "https://www.nottingham.ac.uk/studyingeffectively/ai/ai-support.aspx",
+   "https://www.nottingham.ac.uk/currentstudents/news/our-approach-to-ai-in-assessments-is-changing"
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/03ctjbj91",
+  "name": "Liverpool Hope University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.hope.ac.uk/genai/",
+   "title": "Generative AI Guidance",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   "https://www.hope.ac.uk/gateway/staff/learningandteaching/generativeai/",
+   "https://www.hope.ac.uk/gateway/students/studentenrolmentandadministration/academicmisconductandacademicappeals/"
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/01kj2bm70",
+  "name": "Newcastle University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ncl.ac.uk/academic-skills-kit/good-academic-practice/artificial-intelligence/",
+   "title": "Artificial Intelligence and Your Learning",
+   "kind": "guidance",
+   "audience_as_stated": "students (Academic Skills Kit)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   "https://www.ncl.ac.uk/learning-and-teaching/lec/ai/",
+   "https://www.ncl.ac.uk/learning-and-teaching/lec/assessment/ai-in-assessment/"
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/043071f54",
+  "name": "University of Roehampton",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.roehampton.ac.uk/studyskills/aiassessment",
+   "title": "Using AI in Assessments (Online Study Skills Hub)",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   "https://library.roehampton.ac.uk/studyskills/usingai",
+   "https://library.roehampton.ac.uk/studyskills/AIintroducation",
+   "https://library.roehampton.ac.uk/studyskills/academicintegrity"
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/024mrxd33",
+  "name": "University of Leeds",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://generative-ai.leeds.ac.uk/wp-content/uploads/sites/134/2023/12/UoL-GenAI-guidance-for-taught-students.pdf",
+   "title": "Generative AI guidance for taught students",
+   "kind": "guidance",
+   "audience_as_stated": "taught students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   "https://generative-ai.leeds.ac.uk/ai-and-assessments/",
+   "https://generative-ai.leeds.ac.uk/about/"
+  ],
+  "notes": "Cloudflare challenge (HTTP 403) on generative-ai.leeds.ac.uk; not bypassed. URL and title taken from search results."
+ },
+ {
+  "ror_id": "https://ror.org/03z28gk75",
+  "name": "Teesside University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.tees.ac.uk/ArtificialIntelligence",
+   "title": "Artificial intelligence: a companion to learning (LibGuides)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Learning Hub library guide)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://blogs.tees.ac.uk/students/2024/10/28/use-ai-to-help-and-enhance-your-study-at-university/",
+    "title": "Use AI to Help and Enhance Your Study at University"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.tees.ac.uk/AcademicMisconduct",
+    "title": "Academic misconduct (LibGuide)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.tees.ac.uk/docs/index.cfm?folder=Student+regulations&name=New+or+Revised+Regs+%28since+September+2022%29&folder_id=52",
+    "title": "University documents: student regulations (search snippets mention RDC-J on generative AI in assessment; document not opened)"
+   }
+  ],
+  "queries": [
+   "Teesside University generative AI students guidance",
+   "Teesside academic integrity policy artificial intelligence",
+   "Teesside Generative AI Policy regulations assessment"
+  ],
+  "notes": "Library-hosted guide; a separate regulation (RDC-J) and GenAI policy were referenced in search snippets but the documents were not located or opened.",
+  "doc_id": "teesside-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/029tw2407",
+  "name": "University of Chichester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://help.chi.ac.uk/docs/using-ai-your-studies/",
+   "title": "Using AI at University",
+   "kind": "guidance",
+   "audience_as_stated": "students (UOC Help, Learning and Teaching section)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://help.chi.ac.uk/docs/ai/",
+    "title": "Generative AI"
+   }
+  ],
+  "doc_id": "chichester-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/03e5mzp60",
+  "name": "University of West London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uwl.ac.uk/current-students/support-students/using-generative-ai-find-sources-information",
+   "title": "Generative AI and your studies",
+   "kind": "guidance",
+   "audience_as_stated": "students (current students, study support)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.uwl.ac.uk/current-students/support-current-students/study-support/artificial-intelligence",
+    "title": "Generative AI and your studies (same content, HTTP 200)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.uwl.ac.uk/about-us/policies-and-regulations/staff-use-artificial-intelligence-AI",
+    "title": "Policy and guidance for staff on the use of AI"
+   }
+  ],
+  "doc_id": "west-london-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/00bge3r76",
+  "name": "The University of Law",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.law.ac.uk/ai-at-ulaw/",
+   "title": "AI at ULaw",
+   "kind": "hub",
+   "audience_as_stated": "students and colleagues (institution page)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://www.law.ac.uk/policies/",
+    "title": "Browse our policies"
+   }
+  ],
+  "notes": "Hub page; names 'Navigating AI: A Practical Guide for Students at ULaw' and academic integrity guidelines but no link to a standalone student document was found in the page HTML.",
+  "doc_id": "law-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/00a0jsq62",
+  "name": "London School of Hygiene & Tropical Medicine",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.lshtm.ac.uk/media/74671",
+   "title": "LSHTM Statement on using Artificial Intelligence (AI) in Assessments",
+   "kind": "policy",
+   "audience_as_stated": "students (per search snippet)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.lshtm.ac.uk/sites/default/files/academicwritinghandbook.pdf",
+    "title": "Academic Writing Handbook Guidance for students"
+   }
+  ],
+  "notes": "Direct fetch hit a Cloudflare bot wall (403); not bypassed. Title and content come from search results only.",
+  "doc_id": "london-school-hygiene-and-tropical-medicine-students-genai-202610",
+  "region": "England",
+  "country": "GB"
+ },
+ {
+  "ror_id": "https://ror.org/03ykbk197",
+  "name": "University of Portsmouth",
+  "outcome": "found",
+  "doc": {
+   "url": "https://myport.port.ac.uk/my-course/using-ai-at-university",
+   "title": "Using AI at university",
+   "kind": "webpage",
+   "audience_as_stated": "students (MyPort for Students)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://library.port.ac.uk/using-resources/guides-to-using-resources/ai-literacy",
+    "title": "AI Literacy (library)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://cadi.port.ac.uk/ai",
+    "title": "AI in Learning and Teaching"
+   }
+  ],
+  "notes": "Original URL redirected to the my-course path."
+ },
+ {
+  "ror_id": "https://ror.org/04m01e293",
+  "name": "University of York",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.york.ac.uk/students/studying/assessment-and-examination/ai/",
+   "title": "Artificial Intelligence use in assessment",
+   "kind": "webpage",
+   "audience_as_stated": "students (Studying at York)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.york.ac.uk/students/studying/assessment-and-examination/ai/taught-student-guidance/",
+    "title": "Generative AI - Taught student guidance"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.york.ac.uk/research/graduate-school/research-integrity/ai/",
+    "title": "Use of generative Artificial Intelligence in PGR programmes"
+   },
+   {
+    "audience": "students",
+    "url": "https://subjectguides.york.ac.uk/generative-ai",
+    "title": "Generative AI: a Practical Guide (library)"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/02nwg5t34",
+  "name": "University of the West of England",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uwe.ac.uk/study/study-support/study-skills/using-generative-ai-at-uwe-bristol",
+   "title": "Using generative AI at UWE Bristol - Study skills",
+   "kind": "webpage",
+   "audience_as_stated": "students (Study skills)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.uwe.ac.uk/study/academic-information/artificial-intelligence-principles",
+    "title": "Principles for using generative artificial intelligence (AI)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.uwe.ac.uk/study/study-support/study-skills/generative-ai-study-skills-guide",
+    "title": "Generative AI study skills guide"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/01tmqtf75",
+  "name": "University of Salford",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.salford.ac.uk/skills/using-gen-ai-at-salford",
+   "title": "Using Gen AI at Salford",
+   "kind": "webpage",
+   "audience_as_stated": "students (All University of Salford students)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://www.salford.ac.uk/sites/default/files/2025-09/GenerativeAIPolicy.pdf",
+    "title": "Generative AI Policy v1.0 (PDF, not read here)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.salford.ac.uk/skills/using-gen-ai-at-salford/using-gen-ai-in-your-assessments",
+    "title": "Using Gen AI in your assessments"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/02jx3x895",
+  "name": "University College London",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.ucl.ac.uk/teaching-learning/artificial-intelligence-education/using-ai-tools-assessment",
+   "title": "Three categories of GenAI use in assessment",
+   "kind": "webpage",
+   "audience_as_stated": "students (per search snippet; page not read)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://library-guides.ucl.ac.uk/referencing-plagiarism/acknowledging-genAI",
+    "title": "Acknowledging and referencing GenAI (library)"
+   },
+   {
+    "audience": "all",
+    "url": "https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/genai-and-academic-integrity-assessment",
+    "title": "GenAI and academic integrity in assessment"
+   }
+  ],
+  "notes": "Cloudflare challenge (403) on ucl.ac.uk from this environment; not bypassed. URL and title come from search results only."
+ },
+ {
+  "ror_id": "https://ror.org/0038jbq24",
+  "name": "Bath Spa University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bathspa.ac.uk/students/ask/genai-guidance/",
+   "title": "GenAI guidance (Guidance for students on the use of generative AI)",
+   "kind": "guidance",
+   "audience_as_stated": "students (Academic Skills, ASk)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bathspa.ac.uk/artificial-intelligence/ai-in-learning/",
+    "title": "Guidance for students on the use of generative AI (AI in Learning hub; mentions BSU GenAI Policy)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.bathspa.ac.uk/about-us/governance/policies/academic-integrity/",
+    "title": "Academic integrity policy"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.bathspa.ac.uk/media/bathspaacuk/it/artificial-intelligence/Guidance-for-Using-Generative-AI-Tools-in-Research.pdf",
+    "title": "Guidance for Using Generative AI Tools in Research"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.bathspa.ac.uk/artificial-intelligence/ai-in-teaching/",
+    "title": "AI in Teaching"
+   }
+  ],
+  "queries": [
+   "Bath Spa University generative AI students guidance (allowed_domains bathspa.ac.uk)"
+  ],
+  "country": "GB",
+  "region": "England",
+  "doc_id": "bath-spa-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/01k2y1055",
+  "name": "University of Wolverhampton",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.wlv.ac.uk/lib/skills-for-learning/artificial-intelligence-ai/",
+   "title": "Artificial Intelligence (AI) - University of Wolverhampton (Skills for Learning)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Skills for Learning)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 200
+  },
+  "other_pages": [],
+  "queries": [
+   "University of Wolverhampton generative AI students guidance (allowed_domains wlv.ac.uk)"
+  ],
+  "notes": "Search result snippet describes student guide on generative AI in assignments. Direct curl returned an empty body with an AWS WAF challenge header (x-amzn-waf-action: challenge); not bypassed, so page text not read here.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "wolverhampton-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00d6k8y35",
+  "name": "University of Staffordshire",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.staffs.ac.uk/AI",
+   "title": "AI - Library at University of Staffordshire (AI and Generative AI guide)",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": "Last Updated: Sep 23, 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.staffs.ac.uk/students/course-administration/academic-policies-and-regulations/types-of-academic-misconduct",
+    "title": "Types of Academic Misconduct (mentions unauthorised AI)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.staffs.ac.uk/students/course-administration/academic-policies-and-regulations/docs/pdf/academic-conduct-procedure.pdf",
+    "title": "Academic Conduct Procedure"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.staffs.ac.uk/c.php?amp=&g=709503&p=5118475",
+    "title": "Academic Integrity, Decolonisation and AI"
+   }
+  ],
+  "queries": [
+   "Staffordshire University generative AI students guidance (allowed_domains staffs.ac.uk)",
+   "Staffordshire University academic misconduct generative AI students policy (allowed_domains staffs.ac.uk)"
+  ],
+  "notes": "Library guide home page is about 320 words (thin); no central web page on generative AI found in search.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "staffordshire-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/01tgmhj36",
+  "name": "Coventry University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.coventry.ac.uk/studyingwithai/introduction",
+   "title": "Introduction - Studying with AI (LibGuides at Coventry University)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Student Guidance; separate Researcher and Staff guidance linked)",
+   "owner_as_stated": null,
+   "date_as_shown": "Last Updated: Sep 30, 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://student.ai.coventry.domains/",
+    "title": "Student Guidance (linked from guide; returned CAPTCHA 403 to curl, not bypassed)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.coventry.ac.uk/student-central/coventry/handbook/assessment-and-awards/academic-integrity/",
+    "title": "Academic integrity (Student Handbook; links to Studying with AI guide)"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://livecoventryac.sharepoint.com/sites/students-doctoralcollege/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Fstudents-doctoralcollege%2FShared%20Documents%2FAI%20PGR%20Guidelines_.pdf&parent=%2Fsites%2Fstudents-doctoralcollege%2FShared%20Documents",
+    "title": "Researcher Guidance"
+   },
+   {
+    "audience": "staff",
+    "url": "https://teach.coventry.domains/staffguidance-for-ai/",
+    "title": "Staff Guidance"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.coventry.ac.uk/CAWhomepage/aiguidance",
+    "title": "Guidance on using AI Tools in Academic Writing Assignments (CAW)"
+   }
+  ],
+  "queries": [
+   "Coventry University generative AI students guidance (allowed_domains coventry.ac.uk)",
+   "Coventry University student guidance appropriate use of AI assessments red amber green academic integrity policy"
+  ],
+  "notes": "The substantive Student Guidance sits on student.ai.coventry.domains, behind a CAPTCHA; the library guide that points to it was read instead.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "coventry-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02gbq8p27",
+  "name": "University College of Estate Management",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ube.ac.uk/wp-content/uploads/2023/07/UCEM-Guide-to-Academic-Integrity.pdf",
+   "title": "University of the Built Environment Guide to Academic Integrity (Taught Provision), v5.00",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (taught provision)",
+   "owner_as_stated": null,
+   "date_as_shown": "16/04/2026 (document date; footer 27/05/2026)",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.ube.ac.uk/university-governance/code-of-practice/",
+    "title": "Policies (Code of Practice) hub"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.ube.ac.uk/student-academic-misconduct-procedure/",
+    "title": "Student Academic Misconduct Procedure"
+   },
+   {
+    "audience": "students",
+    "url": "https://learn.ucem.ac.uk/mod/resource/view.php?id=425751",
+    "title": "Linked from the guide (Moodle, login likely; not fetched)"
+   }
+  ],
+  "queries": [
+   "University College of Estate Management generative AI students guidance (allowed_domains ucem.ac.uk)",
+   "UCEM student guidance use of generative AI in assessment policy academic misconduct (ucem.ac.uk)",
+   "University of the Built Environment UCEM students generative AI guidance (ube.ac.uk)"
+  ],
+  "notes": "UCEM now trades as University of the Built Environment (ube.ac.uk; ucem.ac.uk redirects). The guide names 'Generative AI student guidance' but links it inside the Moodle VLE, so the academic-integrity guide (which names generative AI) is recorded as fallback.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "estate-management-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02yhrrk59",
+  "name": "University of Derby",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.derby.ac.uk/develop-at-derby/generative-artificial-intelligence-AI/generative-artificial-intelligence",
+   "title": "Generative Artificial Intelligence (AI) - Develop@Derby library guide",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Develop@Derby student guide)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.derby.ac.uk/develop-at-derby/generative-artificial-intelligence-AI/academic-misconduct",
+    "title": "Academic Misconduct - Generative AI (library guide tab)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.derby.ac.uk/about/academic-regulations/academic-misconduct/",
+    "title": "Academic Misconduct - Academic regulations"
+   }
+  ],
+  "queries": [
+   "University of Derby generative AI students guidance use of AI in assessment (derby.ac.uk)",
+   "University of Derby students using generative AI Chat GPT Copilot guidance academic regulations (derby.ac.uk)"
+  ],
+  "country": "GB",
+  "region": "England",
+  "doc_id": "derby-students-genai-202610",
+  "notes": "Guide is the library's own; no institution-wide Derby policy page found in search; guide tab quotes Academic Regulations J2.1(iii)."
+ },
+ {
+  "ror_id": "https://ror.org/01rv4p989",
+  "name": "Middlesex University London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/academic-quality/AI-in-Learning-and-Teaching-Policy-August-2026.pdf",
+   "title": "The use of generative AI in Learning, Teaching and Assessment (policy)",
+   "kind": "policy",
+   "audience_as_stated": "staff and students",
+   "owner_as_stated": "PVC Education and Student Experience; approved by Academic Board",
+   "date_as_shown": "Version 1.0, implementation September 2026; last review August 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://www.mdx.ac.uk/about-us/policies/artificial-intelligence-ai/",
+    "title": "Artificial intelligence (AI) policies hub"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.mdx.ac.uk/plagiarismreferencing/AI",
+    "title": "Referencing AI (library guide)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/academic-quality/AI-in-Learning-and-Teaching-Policy.pdf",
+    "title": "Earlier policy URL (now HTTP 404)"
+   }
+  ],
+  "queries": [
+   "Middlesex University generative AI students guidance academic integrity (mdx.ac.uk)",
+   "Middlesex ... red amber green (mdx.ac.uk)",
+   "Middlesex AI in Learning and Teaching Policy (extended, mdx.ac.uk)"
+  ],
+  "country": "GB",
+  "region": "England",
+  "doc_id": "middlesex-london-students-genai-202610",
+  "notes": "Older URL AI-in-Learning-and-Teaching-Policy.pdf returns 404; current version found via policies hub."
+ },
+ {
+  "ror_id": "https://ror.org/002h8g185",
+  "name": "University of Bath",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bath.ac.uk/campaigns/engaging-critically-with-genai-tools-for-your-work/",
+   "title": "Engaging critically with GenAI tools for your work",
+   "kind": "webpage",
+   "audience_as_stated": "students (Skills Centre)",
+   "owner_as_stated": "Skills Centre / Digital and Academic Skills team",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff+students",
+    "url": "https://teachinghub.bath.ac.uk/generative-ai-and-education-at-the-university-of-bath/",
+    "title": "Generative AI and Education at the University of Bath (Two-Lane framework hub)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.bath.ac.uk/announcements/academic-integrity-in-the-generative-artificial-intelligence-genai-context/",
+    "title": "Academic Integrity in the GenAI Context"
+   }
+  ],
+  "queries": [
+   "University of Bath generative AI students guidance (bath.ac.uk)",
+   "University of Bath students Mastering GenAI resources (bath.ac.uk)"
+  ],
+  "country": "GB",
+  "region": "England",
+  "doc_id": "bath-students-genai-202610",
+  "notes": "Page links to Academic Integrity guide and Copilot intro; staff framework hub on teachinghub."
+ },
+ {
+  "ror_id": "https://ror.org/04vrxay34",
+  "name": "SOAS University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.soas.ac.uk/sites/default/files/2023-07/ChatGPT%20and%20generative%20AI%20%E2%80%93%20a%20guide%20for%20students.pdf",
+   "title": "Recommendations for students on use of Generative AI (e.g., Open AI's 'Chat GPT')",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": "PDF created July 2023 (file metadata; no date seen in text)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.soas.ac.uk/about/news/soas-issues-guidance-students-use-ai",
+    "title": "SOAS issues guidance to students on the use of AI"
+   },
+   {
+    "audience": "all",
+    "url": "https://www.soas.ac.uk/sites/default/files/2023-05/SOAS-statement-on-the-use-of-generative-artificial-intelligence.pdf",
+    "title": "SOAS statement on the use of generative AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.soas.ac.uk/sites/default/files/2025-09/REG-183-10%20Academic%20Misconduct%20Procedure.pdf",
+    "title": "Academic Misconduct Procedure"
+   }
+  ],
+  "queries": [
+   "SOAS generative AI students guidance use of AI in assessments (soas.ac.uk)"
+  ],
+  "country": "GB",
+  "region": "England",
+  "doc_id": "soas-london-students-genai-202610",
+  "notes": "2023 document; possibly dated, no newer student page found in first search."
+ },
+ {
+  "ror_id": "https://ror.org/02mb95055",
+  "name": "Birkbeck, University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bbk.ac.uk/documents/student-policy-2025-26-ai-guidance-for-students.pdf",
+   "title": "Generative Artificial Intelligence - a quick student guide for assessment integrity (AI guidance for students, 2025-26)",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Student Complaints, Conduct and Appeals Manager (SLT owner: DVC Education and Student Experience)",
+   "date_as_shown": "Latest update April 2026; next review 2026-27 academic year",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bbk.ac.uk/documents/student-policy-2025-26-academic-integrity-misconduct-policy.pdf",
+    "title": "Academic Integrity and Misconduct Policy 2025/26"
+   }
+  ],
+  "queries": [
+   "Birkbeck generative AI students guidance use of AI in assessments (bbk.ac.uk)"
+  ],
+  "country": "GB",
+  "region": "England",
+  "doc_id": "birkbeck-london-students-genai-202610",
+  "notes": "2026-27 version URL guessed returned 404."
+ },
+ {
+  "ror_id": "https://ror.org/02vwnat91",
+  "name": "London South Bank University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.lsbu.ac.uk/__data/assets/pdf_file/0006/432375/LSBU-AI-policy.pdf",
+   "title": "LSBU's Policy on Student Use of Generative Artificial Intelligence",
+   "kind": "policy",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://library.lsbu.ac.uk/AI-academic-study",
+    "title": "AI tools and academic study (library guide, retrieved 200; links to the policy PDF)"
+   },
+   {
+    "audience": "students",
+    "url": "https://library.lsbu.ac.uk/artificial-intelligence",
+    "title": "How to Use Artificial Intelligence (library guide, retrieved 200; calls the PDF the official LSBU document)"
+   }
+  ],
+  "notes": "Policy PDF returned HTTP 403 to curl (bot wall, not bypassed). URL and title taken from the retrieved library guide links. Issuer and date not seen.",
+  "doc_id": "london-south-bank-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/04kw8et29",
+  "name": "Bishop Grosseteste University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.lincolnbishop.ac.uk/document-download/461884",
+   "title": "Code of Practice for Academic Misconduct",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Executive Dean: Teaching, Learning & Student Success",
+   "date_as_shown": "Reviewed & effective from 11 March 2026 (v4.4)",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.lincolnbishop.ac.uk/about/policies-and-procedures/keyinformationforstudents",
+    "title": "Key information for students (policy hub)"
+   }
+  ],
+  "notes": "Institution now trades as Lincoln Bishop University; bgu.ac.uk redirects/links to lincolnbishop.ac.uk. Document names AI at section 2.3.8 'Plagiarism through AI'. No standalone student AI guidance found in searches.",
+  "doc_id": "bishop-grosseteste-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/033byn085",
+  "name": "Royal Agricultural University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.rau.ac.uk/sites/default/files/2025-04/Code%20of%20Practice%20D_Assessment_0.pdf",
+   "title": "Code of Practice: Assessment (section 3.3 Generative Artificial Intelligence)",
+   "kind": "policy",
+   "audience_as_stated": null,
+   "owner_as_stated": "Head of Academic Quality; Head of Registry (Professional Services Owner); approved by AQSC",
+   "date_as_shown": "AQSC 23 May 2022; 3 July 2024; updates 28 May 2025",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://res.rau.ac.uk/docs/www/policies/Academic-Regulations-Taught-Programmes.pdf",
+    "title": "Academic Regulations for Taught Programmes (retrieved; includes Generative AI declaration in appendix)"
+   }
+  ],
+  "notes": "Weak target: GenAI section 3.3 is short and points to staff pages on the Gateway; no dedicated student AI guidance found on rau.ac.uk.",
+  "doc_id": "royal-agricultural-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/01wka8n18",
+  "name": "Royal Veterinary College",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.rvc.ac.uk/Media/Default/About/Academic%20Quality,%20Regulations%20and%20Procedures/Further%20Student%20Policies%20and%20Procedures/AM01%20RVC%20Student%20Academic%20Misconduct%20Procedure.pdf",
+   "title": "AM01 RVC Student Academic Misconduct Procedure",
+   "kind": "misconduct_policy",
+   "audience_as_stated": null,
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.rvc.ac.uk/Media/Default/About/Academic%20Quality,%20Regulations%20and%20Procedures/Further%20Student%20Policies%20and%20Procedures/AM01%20RVC%20Student%20Academic%20Misconduct%20Procedure%20-%20V.4.pdf",
+    "title": "AM01 ... Procedures 2023/24 (V.4)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.rvc.ac.uk/Media/Default/About/Academic%20Quality,%20Regulations%20and%20Procedures/Examiners%20and%20Assessment/RVC_avoiding_plagiarism.pdf",
+    "title": "Supporting RVC staff and students in avoiding plagiarism"
+   }
+  ],
+  "notes": "rvc.ac.uk returns 403 to curl and WebFetch (bot wall, not bypassed). A search snippet stated ChatGPT/AI use is not prohibited unless specified and must be referenced, but which RVC document carries it was not confirmed; AM01 is the top plausible match. A dedicated student GenAI page may exist.",
+  "doc_id": "royal-veterinary-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/01800zd49",
+  "name": "Dundalk Institute of Technology",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.dkit.ie/about/policies/generative-artificial-intelligence-ai-and-your-assessments-a-guide-for-students",
+   "title": "Generative Artificial Intelligence (AI) and Your Assessments - A Guide for Students",
+   "kind": "guidance",
+   "audience_as_stated": "Students",
+   "owner_as_stated": "Registrar",
+   "date_as_shown": "Approval date: 29th September 2023",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.dkit.ie/system/files/2025-08/Generative-Artificial-Intelligence-and-Your-Assessments-A-Guide-for-Students-Sept-2023-FINAL.pdf",
+    "title": "Guide for Students (PDF, text read)"
+   }
+  ],
+  "doc_id": "dundalk-institute-technology-students-genai-202610",
+  "region": "Ireland"
+ },
+ {
+  "ror_id": "https://ror.org/0400avk24",
+  "name": "University of Bedfordshire",
+  "outcome": "found",
+  "doc": {
+   "url": "https://lrweb.beds.ac.uk/skills-for-success/academic-skills-guides/microsoft-office-and-digital-learning-tools/ai/",
+   "title": "Artificial Intelligence (AI) (Skills for Success academic skills guide)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Skills for Success academic skills guides)",
+   "owner_as_stated": "Skills for Success (Library and Learning Resources)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries": [
+   "University of Bedfordshire generative AI students guidance (allowed_domains beds.ac.uk)"
+  ],
+  "notes": "Hub page is staff/student mixed and points to a login-only student BREO unit; library skills guide selected as the student-facing page.",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.beds.ac.uk/academy-for-learning-teaching-excellence/digital-learning-systems/generative-ai/",
+    "title": "Generative AI (hub; links student BREO unit)"
+   },
+   {
+    "audience": "students",
+    "url": "https://lrweb.beds.ac.uk/academic-integrity-resource/proofreading-editing-ai-and-academic-integrity/ai-information-site/",
+    "title": "AI information site"
+   }
+  ],
+  "doc_id": "bedfordshire-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/00mkz4t33",
+  "name": "BIMM University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bimm.ac.uk/document/academic-integrity/",
+   "title": "Academic Integrity Policy",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (policy names AI use in assessment)",
+   "owner_as_stated": "Learning, Teaching and Enhancement Committee (approver as shown)",
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries": [
+   "BIMM University generative AI students guidance policy (allowed_domains bimm.university)",
+   "BIMM University academic misconduct policy artificial intelligence assessment students (allowed_domains bimm.university)"
+  ],
+  "notes": "No stand-alone GenAI guidance found; PDF read via pdftotext (hosted on bimm.ac.uk, linked from bimm.university policies page). Policy marked last approved August 2026, v2.0.",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bimm.university/governance-and-quality/policies-procedures-and-key-documents/",
+    "title": "Policies, procedures and key documents (hub)"
+   }
+  ],
+  "doc_id": "bimm-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/02xsh5r57",
+  "name": "Leeds Beckett University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.leedsbeckett.ac.uk/-/media/files/our-university/academic-regulations/principles-for-the-use-of-generative-ai.pdf",
+   "title": "Leeds Beckett University Principles for the use of Generative AI",
+   "kind": "policy",
+   "audience_as_stated": "students (applies to UG and taught PG students)",
+   "owner_as_stated": "Leeds Beckett University",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries": [
+   "Leeds Beckett University generative AI students guidance (allowed_domains leedsbeckett.ac.uk)"
+  ],
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://www.leedsbeckett.ac.uk/teachlearn/learning-and-teaching-guidance/generative-ai-and-academic-practice/",
+    "title": "Generative AI and Academic Practice"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.leedsbeckett.ac.uk/artificial-intelligence/responsible-use",
+    "title": "Responsible Use of Gen AI (library guide)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.leedsbeckett.ac.uk/student-information/academic-skills-and-advice/academic-honesty/",
+    "title": "Academic honesty"
+   }
+  ],
+  "doc_id": "leeds-beckett-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/03f914y84",
+  "name": "Plymouth Marjon University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.marjon.ac.uk/about-marjon/institutional-documents/student-regulations-framework/SRF-2025-26-complete.pdf",
+   "title": "Student Regulations Framework 2025-26 (academic misconduct section names inappropriate use of AI)",
+   "kind": "regulations",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Plymouth Marjon University",
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "queries": [
+   "Plymouth Marjon University generative AI students guidance academic integrity",
+   "Plymouth Marjon University students use of artificial intelligence ChatGPT assessment guidance",
+   "Marjon students generative AI use in assessments declaration academic misconduct",
+   "Marjon library skills artificial intelligence AI tools guide students Copilot",
+   "Plymouth Marjon University AI policy students"
+  ],
+  "notes": "No student GenAI guidance found; fallback is the 258-page SRF PDF (Unauthorised Content Generation definition and AI-related stage procedures read in pdftotext).",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.marjon.ac.uk/about-marjon/governance--management/university-strategies--policies/",
+    "title": "University strategies & policies (a search snippet mentioned an AI Policy; PDF not located)"
+   }
+  ],
+  "doc_id": "plymouth-marjon-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/00bmj0a71",
+  "name": "University of Greenwich",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://portal.gre.ac.uk/ai-guidance/students",
+   "title": "AI for students",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": "University of Greenwich",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "queries": [
+   "University of Greenwich generative AI students guidance (allowed_domains gre.ac.uk)"
+  ],
+  "notes": "portal.gre.ac.uk returned 403 with a JavaScript/cookie challenge; not bypassed. Old www.gre.ac.uk stub (seen) names the page 'AI for students' and gives the moved URL.",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.gre.ac.uk/ai-guidance/students",
+    "title": "Old URL; stub says section moved to portal.gre.ac.uk/ai-guidance"
+   }
+  ],
+  "doc_id": "greenwich-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/049e6bc10",
+  "name": "Northumbria University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.northumbria.ac.uk/c.php?g=690936&p=5237243",
+   "title": "Academic Integrity and Artificial Intelligence",
+   "kind": "library_guide",
+   "audience_as_stated": "students (University Library guide)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.northumbria.ac.uk/about-us/university-services/it-services/student-digital-induction/claude-for-education/",
+    "title": "Claude for Education your AI tool (IT Services; page last reviewed 22 May 2026)"
+   },
+   {
+    "audience": "students",
+    "url": "https://corp.northumbria.ac.uk/-/media/university-policies/policy-master-versions/academic-misconduct-policy.pdf?modified=20250523120544",
+    "title": "Academic Misconduct Policy (PL.005-V007; names AI ghosting)"
+   }
+  ],
+  "queries": [
+   "Northumbria University generative AI students guidance (northumbria.ac.uk)",
+   "Northumbria University students using generative AI academic integrity guidance acknowledge AI (northumbria.ac.uk)",
+   "Northumbria University library skills plus generative AI student guide referencing AI use"
+  ],
+  "notes": "No standalone institution-wide student GenAI guidance page found on the main site; selected library guide linked from the Claude for Education page. Policy PDF not read in full.",
+  "region": "England",
+  "doc_id": "northumbria-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/0220mzb33",
+  "name": "King's College London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.kcl.ac.uk/about/strategy/learning-and-teaching/ai-guidance/student-guidance",
+   "title": "Generative AI - Student guidance",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": "First published October 2023; last updated April 2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.kcl.ac.uk/about/strategy/learning-and-teaching/ai-guidance/macro-level",
+    "title": "Macro-level: University-wide principles and policy"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.kcl.ac.uk/about/strategy/learning-and-teaching/ai-guidance/doctoral-assessment",
+    "title": "Generative AI: Guidance for doctoral students, supervisors and examiners"
+   }
+  ],
+  "queries": [
+   "King's College London generative AI students guidance (kcl.ac.uk)"
+  ],
+  "notes": "Page states it is guidance not policy.",
+  "region": "England",
+  "doc_id": "kcl-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02qzs9336",
+  "name": "National College of Ireland",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.ncirl.ie/useofaiinteachingandlearning/studentguide",
+   "title": "Student Guide - Use of AI in Teaching and Learning",
+   "kind": "library_guide",
+   "audience_as_stated": "students (NCI guidance document)",
+   "owner_as_stated": null,
+   "date_as_shown": "Last Updated: Jul 8, 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://ncisupporthub.ncirl.ie/hc/en-ie/articles/29573869721500-Acceptable-Use-of-Generative-AI-in-Teaching-Learning-and-Assessment-Draft",
+    "title": "Acceptable Use of Generative AI in Teaching, Learning and Assessment - Draft (Support Hub; 403 bot wall to curl, not read)"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.ncirl.ie/artificialintelligenceatnci",
+    "title": "Introduction to Generative AI and AI Literacy - Artificial Intelligence at NCI"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.ncirl.ie/Portals/0/Library/NCI%20Academic%20Integrity%20Policy%20on%20Assessments%20and%20use%20of%20AI%20Generated%20Material%20such%20as%20ChatGPT.pdf?ver=2023-05-22-161619-910&timestamp=1684768817233",
+    "title": "NCI Academic Integrity Policy on Assessments and use of AI (2023 PDF, not read)"
+   }
+  ],
+  "queries": [
+   "National College of Ireland generative AI students guidance (ncirl.ie)"
+  ],
+  "notes": "Support Hub policy draft is likely the more authoritative document but was behind a Cloudflare challenge; not bypassed.",
+  "region": "Ireland",
+  "doc_id": "national-ireland-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/0312pnr83",
+  "name": "De Montfort University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.dmu.ac.uk/genai",
+   "title": "Using Generative Artificial Intelligence (Welcome)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (DMU Library guide)",
+   "owner_as_stated": null,
+   "date_as_shown": "Last Updated: Sep 4, 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.dmu.ac.uk/Documents/current-students/student-support/exams-deferrals-policies/policies/Academic-Integrity-and-Misconduct-Policy.pdf",
+    "title": "Academic Integrity and Misconduct Policy (PDF read; has AI provisions)"
+   },
+   {
+    "audience": "students",
+    "url": "https://library.dmu.ac.uk/genai/ethics",
+    "title": "Using AI ethically"
+   }
+  ],
+  "queries": [
+   "De Montfort University generative AI students guidance (dmu.ac.uk)",
+   "De Montfort University policy generative AI students academic integrity misconduct artificial intelligence (dmu.ac.uk)"
+  ],
+  "region": "England",
+  "doc_id": "de-montfort-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/009q3yg92",
+  "name": "Mary Immaculate College",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.mic.ul.ie/lead/projects-initiatives/generative-ai",
+   "title": "Generative AI Guidance",
+   "kind": "guidance",
+   "audience_as_stated": "staff and students (LEAD page)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.mic.ul.ie/lead/gen-ai-guidelines",
+    "title": "Guidelines for Generative AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.mic.ul.ie/c.php?g=732974&p=5350289",
+    "title": "Considerations When Using Gen AI in Your Work (AI Literacy Guide)"
+   }
+  ],
+  "queries": [
+   "Mary Immaculate College generative AI students guidance (mic.ul.ie)"
+  ],
+  "notes": "Requested URL /lead/generative-ai redirected to the recorded URL; owner (LEAD) named only in search snippet, not confirmed on page.",
+  "region": "Ireland",
+  "doc_id": "mary-immaculate-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/05wwcw481",
+  "name": "Bournemouth University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.bournemouth.ac.uk/news/2025-01-10/academic-integrity-artificial-intelligence-ai",
+   "title": "Academic integrity and artificial intelligence (AI)",
+   "kind": "webpage",
+   "audience_as_stated": "students (per search snippet)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bournemouth.ac.uk/news/2023-08-02/using-artificial-intelligence-support-assignments-or-assessments"
+   }
+  ],
+  "notes": "Whole bournemouth.ac.uk site returns a Cloudflare challenge (403); not bypassed. Search snippets mention a student guide on the Academic Skills Hub, whose URL was not found; this news item is a plausible stand-in.",
+  "doc_id": "bournemouth-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/028ndzd53",
+  "name": "Edge Hill University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.edgehill.ac.uk/departments/support/ls/uni-skills/genai/",
+   "title": "Generative Artificial Intelligence (GenAI) - Edge Hill University",
+   "kind": "webpage",
+   "audience_as_stated": "students (UniSkills, Library and Learning Services)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://eshare.edgehill.ac.uk/16667/",
+    "title": "A Student Guide to Ethical Use of Generative AI (eShare record, not read in full)"
+   },
+   {
+    "audience": "students",
+    "url": "https://figshare.edgehill.ac.uk/articles/educational_resource/Using_Generative_Artificial_Intelligence_-_A_Student_Guide_pdf/24259597"
+   }
+  ],
+  "notes": "Page returns a 'Checking your browser' challenge (403); not bypassed.",
+  "doc_id": "edge-hill-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/05v62cm79",
+  "name": "University of Reading",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.reading.ac.uk/essentials/Study/ai/using-generative-ai-tools-at-university",
+   "title": "Using Generative AI Tools at University",
+   "kind": "webpage",
+   "audience_as_stated": "students (support your studies)",
+   "owner_as_stated": "University of Reading (reading.ac.uk Essentials)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.reading.ac.uk/essentials/Study/ai/A-students-guide-to-using-Gen-AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.reading.ac.uk/generative-AI-and-university-study/UoR_policy",
+    "title": "library guide"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.reading.ac.uk/cqsd/artificial-intelligence"
+   }
+  ],
+  "doc_id": "reading-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/047ybhc09",
+  "name": "City St George's, University of London",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://studenthub.citystgeorges.ac.uk/academic-resources/learning-and-study-support/online-learning-tools/using-generative-artificial-intelligence-ai-for-learning",
+   "title": "Using generative artificial intelligence (AI) for learning",
+   "kind": "webpage",
+   "audience_as_stated": "students (Student Hub)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.citystgeorges.ac.uk/ai-research/home",
+    "title": "AI for study (library guide, retrieved 200)"
+   },
+   {
+    "audience": "students",
+    "url": "https://studenthub.citystgeorges.ac.uk/student-support-services/student-concerns-and-rights/academic-misconduct"
+   },
+   {
+    "audience": "students",
+    "url": "https://studenthub.citystgeorges.ac.uk/__data/assets/pdf_file/0008/494576/Academic-Integrity-and-Misconduct-Policy.pdf"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.citystgeorges.ac.uk/research/doctoral-college/doctoral-training-resources/use-of-generative-ai-tools-in-doctoral-research"
+   }
+  ],
+  "notes": "studenthub.citystgeorges.ac.uk returns a Cloudflare challenge (403); not bypassed.",
+  "doc_id": "city-st-georges-london-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/01cy0sz82",
+  "name": "University of Suffolk",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uos.ac.uk/media/uniofsuffolk/website/content-assets/documents/policies-and-procedures/GenAI-Policy.pdf",
+   "title": "Generative Artificial Intelligence (AI) Policy for Learning and Teaching",
+   "kind": "policy",
+   "audience_as_stated": "staff and students (policy text: support staff and students)",
+   "owner_as_stated": "Education and Student Experience",
+   "date_as_shown": "Version 1.0 (March 2026)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.uos.ac.uk/artificial-intelligence",
+    "title": "AI support hub (library guide)"
+   }
+  ],
+  "doc_id": "suffolk-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/03zjvnn91",
+  "name": "Edinburgh Napier University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://my.napier.ac.uk/your-studies/improve-your-academic-and-study-skills/artificial-intelligence-tools",
+   "title": "Artificial intelligence tools (Student Portal)",
+   "kind": "guidance",
+   "audience_as_stated": "students (Student Portal, Improve your academic & study skills)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://documentcentre.napier.ac.uk/-/media/files/university-governance/artificial-intelligence/edinburghnapieruniversityspositionongenerativeartificialintelligence.pdf",
+    "title": "Edinburgh Napier University's Position on Generative Artificial Intelligence (August 2025)"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.napier.ac.uk/c.php?g=717851&p=5204062",
+    "title": "University Guidance - AI and Literature Searching (library guide)"
+   }
+  ],
+  "queries": [
+   "Edinburgh Napier University generative AI students guidance (allowed_domains napier.ac.uk)"
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/010jbqd54",
+  "name": "University of Lancashire",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.lancashire.ac.uk/assets/student-contracts/2025-26/academic-integrity-policy-and-procedure-for-academic-misconduct-2526.pdf",
+   "title": "Academic Integrity Policy and Academic Misconduct Procedure",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (student contracts)",
+   "owner_as_stated": null,
+   "date_as_shown": "Applicable from October 2025",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [],
+  "queries": [
+   "University of Lancashire generative AI students guidance (allowed_domains lancashire.ac.uk)",
+   "University of Lancashire students using generative AI in your studies GenAI guidance acknowledge AI use (allowed_domains lancashire.ac.uk)"
+  ],
+  "notes": "Fallback: section 11.6 Unauthorised Use of Technology names AI. No standalone student GenAI guidance surfaced in two searches."
+ },
+ {
+  "ror_id": "https://ror.org/052gg0110",
+  "name": "University of Oxford",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.ox.ac.uk/students/life/it/genai-tools/guidance-on-safe-and-responsible-use-of-genai",
+   "title": "Guidance on safe and responsible use of GenAI",
+   "kind": "guidance",
+   "audience_as_stated": "students (ox.ac.uk/students)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.ox.ac.uk/students/life/it/genai-tools/genai-faqs-for-students",
+    "title": "GenAI FAQs for students"
+   }
+  ],
+  "queries": [
+   "University of Oxford guidance students use of generative AI tools study (allowed_domains ox.ac.uk)"
+  ],
+  "notes": "Search result only; curl got 403 'Just a moment' JavaScript challenge. Not bypassed."
+ },
+ {
+  "ror_id": "https://ror.org/04tj7zv24",
+  "name": "BPP University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.datocms-assets.com/106045/1783433984-22a-acceptable-use-of-gen-ai-tools-students.pdf",
+   "title": "Acceptable use of Gen AI tools (students)",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://www.bpp.com/about-bpp/bpp-university/academic-quality/manual-of-policies-and-procedures",
+    "title": "BPP University Policies and Procedures (hub linking the PDF)"
+   }
+  ],
+  "queries": [
+   "BPP University generative AI students guidance academic integrity (allowed_domains bpp.com)"
+  ],
+  "notes": "PDF hosted on datocms-assets, linked from bpp.com policies page; text read, BPP-authored (refers to BPP throughout). No date or owner seen in first lines."
+ },
+ {
+  "ror_id": "https://ror.org/03fmjzx88",
+  "name": "University of Winchester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.winchester.ac.uk/media/Approved-Generative-AI-Statement-Senate-24.06.26-to-21.06.28.pdf",
+   "title": "Generative AI Statement (Statement of Principles)",
+   "kind": "policy",
+   "audience_as_stated": "students, staff and the public; teaching, learning, assessment",
+   "owner_as_stated": "PVC (Faculties); approved by Senate",
+   "date_as_shown": "24/06/2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://www.winchester.ac.uk/About-Us/Leadership-and-governance/Policies-and-Regulations/",
+    "title": "Policies and Regulations (hub)"
+   }
+  ],
+  "queries": [
+   "University of Winchester generative AI students guidance (allowed_domains winchester.ac.uk)"
+  ],
+  "notes": "Header form shows both Public Access and Internal Access Only with strikethrough not discernible in text."
+ },
+ {
+  "ror_id": "https://ror.org/01khx4a30",
+  "name": "Goldsmiths University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.gold.ac.uk/AI",
+   "title": "Welcome - AI LibGuide (Generative AI Guidance)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Goldsmiths Library topic guide)",
+   "owner_as_stated": "Goldsmiths Library",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "notes": "Own library guide; guide links to College policies. Misconduct policy PDF downloaded and contains an AI clause.",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.gold.ac.uk/AI/assessment",
+    "title": "AI in Assessment (LibGuide tab)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.gold.ac.uk/media/docs/gam/Academic-Misconduct-Policy-and-Procedures.pdf",
+    "title": "Academic Misconduct Policy and Procedures (names AI)"
+   },
+   {
+    "audience": "students",
+    "url": "https://goldsmithscollege.sharepoint.com/sites/areas/talic/SitePages/Using-Gen-AI.aspx",
+    "title": "Using Gen AI (SharePoint, linked from guide, not retrieved)"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/0031n1577",
+  "name": "Leeds Arts University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://portal.leeds-art.ac.uk/node/6318",
+   "title": "HE Academic Misconduct Procedure",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (HE)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": false,
+   "http": null
+  },
+  "notes": "portal.leeds-art.ac.uk denied by the egress proxy (CONNECT 502), so no page could be retrieved; search results never showed AI text. Candidate is plausible only; whether it names AI is unconfirmed. Main www.leeds-art.ac.uk retrievable but showed no AI page. Re-check by browser import.",
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://portal.leeds-art.ac.uk/content/academic-regulations-2024-25",
+    "title": "Academic Regulations 2024-25"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/05gd22996",
+  "name": "University of Cumbria",
+  "outcome": "found",
+  "doc": {
+   "url": "https://my.cumbria.ac.uk/Student-Life/Learning/Skills-Cumbria/Referencing-and-Avoiding-Plagiarism/Generative-Artificial-Intelligence/",
+   "title": "Generative Artificial Intelligence",
+   "kind": "guidance",
+   "audience_as_stated": "students (MyCumbria, Skills@Cumbria)",
+   "owner_as_stated": "Skills@Cumbria",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://my.cumbria.ac.uk/Student-Life/Your-Studies/Assessments/Malpractice/",
+    "title": "Academic Malpractice"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/05t1h8f27",
+  "name": "University of Huddersfield",
+  "outcome": "found",
+  "doc": {
+   "url": "https://students.hud.ac.uk/studies/ai/",
+   "title": "Artificial Intelligence guidance for students",
+   "kind": "guidance",
+   "audience_as_stated": "students (Students site, Study support)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://students.hud.ac.uk/studies/ai/principles/",
+    "title": "Principles for using AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.hud.ac.uk/policies/registry/regs-taught/section-10/",
+    "title": "Academic misconduct regulations (section 10)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://staff.hud.ac.uk/strategic-teaching-and-learning-team/project/academicintegrity/",
+    "title": "Academic Integrity (staff)"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/03rd8mf35",
+  "name": "Health Sciences University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.hsu.ac.uk/wp-content/uploads/2025/08/Academic-Integrity-and-Academic-Misconduct-Policy-and-Procedure-v1.3.pdf",
+   "title": "Academic Integrity and Misconduct Policy and Procedure",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (institution-wide policy)",
+   "owner_as_stated": "Academic Registrar",
+   "date_as_shown": "Effective from September 2025 (AY 2025-26)",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "notes": "No dedicated student AI page found after 4 queries; policy v1.3 (effective Sept 2025) names AI in misconduct clause, referencing an HSU AI Assessment Scale. Date shown on document: effective AY 2025-26.",
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://www.hsu.ac.uk/wp-content/uploads/2024/07/Course-Design-Framework-Combined-v2.0.pdf",
+    "title": "Course Design Framework (names generative AI; HSU AI Assessment Scale)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.hsu.ac.uk/about/policies-and-procedures/academic-regulations-policies-and-procedures/",
+    "title": "Academic regulations, policies and procedures (hub)"
+   }
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/008n7pv89",
+  "name": "University of Plymouth",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://liveplymouthac.sharepoint.com/:b:/r/sites/x110/Principles/AI%20Education%20Principles%202025-26.pdf?csf=1&web=1&e=WfxpL6",
+   "title": "AI Education Principles 2025-26 (University GenAI Principles)",
+   "kind": "policy",
+   "audience_as_stated": "staff and students (principles on teaching, learning, assessment and research)",
+   "owner_as_stated": "University of Plymouth",
+   "date_as_shown": "2025-26 (from file name/library guide heading)",
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://plymouth.libguides.com/Ailibraryskills",
+    "title": "AI Principles - Artificial Intelligence and Library Skills (library guide, retrieved 200, thin ~150 words, links to the PDF)"
+   }
+  ],
+  "notes": "PDF on SharePoint returned 403 so content not seen; link and 'University GenAI Principles (2025-26)' label seen on the retrieved library guide. Four searches on plymouth.ac.uk surfaced no main plymouth.ac.uk student page.",
+  "doc_id": "plymouth-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00xkeyj56",
+  "name": "University of Kent",
+  "outcome": "found",
+  "doc": {
+   "url": "https://student.kent.ac.uk/studies/using-generative-ai-in-your-studies/ai-use-guidelines/ai-and-academic-integrity",
+   "title": "AI and Academic Integrity - Your studies - University of Kent",
+   "kind": "guidance",
+   "audience_as_stated": "students ('As a student at the University of Kent')",
+   "owner_as_stated": "University of Kent",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://student.kent.ac.uk/studies/using-generative-ai-in-your-studies",
+    "title": "Using Generative AI in your studies (hub)"
+   },
+   {
+    "audience": "students",
+    "url": "https://student.kent.ac.uk/studies/using-generative-ai-in-your-studies/ai-use-guidelines/our-ai-principles",
+    "title": "Our AI Principles"
+   },
+   {
+    "audience": "students",
+    "url": "https://student.kent.ac.uk/studies/using-generative-ai-in-your-studies/tips",
+    "title": "Tips on using generative AI"
+   }
+  ],
+  "doc_id": "kent-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04kp2b655",
+  "name": "University of Brighton",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://unibrightonac.sharepoint.com/:b:/s/public/ET4jBPx7tdtEr4dABxqvZrMBEYv7SBjpJ0MET49NtzXOjg?e=3JPNkl",
+   "title": "Policy on the use of Generative AI in summative assessment (Taught Provision)",
+   "kind": "policy",
+   "audience_as_stated": "taught students (listed on Student Contract 2026-27 policies page)",
+   "owner_as_stated": "University of Brighton",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.brighton.ac.uk/brighton-students/your-learning/student-policies-and-regulations/index.aspx",
+    "title": "The University of Brighton Student Contract 2026-27 (hub linking the policy; retrieved 200)"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.brighton.ac.uk/GenerativeAI",
+    "title": "GENERATIVE AI library guide (retrieved 200)"
+   }
+  ],
+  "notes": "SharePoint policy returned 403; link title seen on the retrieved hub page.",
+  "doc_id": "brighton-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00dn4t376",
+  "name": "Brunel University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.brunel.ac.uk/AI_guidance",
+   "title": "Generative AI - Guidance for students (Overview)",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Brunel University Library",
+   "date_as_shown": "Last Updated: 13 Feb 2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://students.brunel.ac.uk/study/using-artificial-intelligence-in-your-studies",
+    "title": "Using artificial intelligence in your studies (BruNet; retrieved 200 but accordion text not captured, ~116 words)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.brunel.ac.uk/life/study-support/computer-services/media-services/digital-education/AI-at-Brunel",
+    "title": "AI at Brunel (staff guidance)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.brunel.ac.uk/life/study-support/computer-services/media-services/digital-education/Principles-of-AI",
+    "title": "Principles of AI"
+   }
+  ],
+  "notes": "Library guide points to the BruNet university page, which was too thin to select.",
+  "doc_id": "brunel-london-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/03kd28f18",
+  "name": "University of Buckingham",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.buckingham.ac.uk/wp-content/uploads/2025/03/Academic-Artificial-Intelligence-Policy.pdf",
+   "title": "Academic Artificial Intelligence Policy",
+   "kind": "policy",
+   "audience_as_stated": "students and staff (applies to all students)",
+   "owner_as_stated": "University Assessment Learning and Teaching Committee",
+   "date_as_shown": "Implementation date 1st March 2024",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.buckingham.ac.uk/about/handbooks/regulations-handbook/",
+    "title": "Regulations Handbook (hub linking policy 3.8)"
+   }
+  ],
+  "doc_id": "buckingham-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/022gstf70",
+  "name": "Falmouth University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.falmouth.ac.uk/corporate/artificial-intelligence-at-falmouth-university",
+   "title": "Artificial Intelligence (AI) at Falmouth University",
+   "kind": "webpage",
+   "audience_as_stated": null,
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.falmouth.ac.uk/sites/default/files/media/downloads/academic-integrity-policy-23-july-2025.pdf",
+    "title": "Academic Integrity policy (approved 23 July 2025 per search snippet; curl 403)"
+   }
+  ],
+  "notes": "Cloudflare challenge (403) on curl for page and PDF; not bypassed. Search-result snippet describes student principles and guidance.",
+  "doc_id": "falmouth-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04jp2hx10",
+  "name": "University of Northampton",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.northampton.ac.uk/about-us/statement-on-artificial-intelligence/ai-guidance-for-your-academic-work/",
+   "title": "AI Guidance for Your Academic Work",
+   "kind": "guidance",
+   "audience_as_stated": "students (addressed as \"you\"; staff directed to LTE page)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.northampton.ac.uk/artificialintelligence/guidance",
+    "title": "Guidance on GenAI in Assessments (library guide)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://mypad.northampton.ac.uk/lte/learning-and-teaching-toolkit/artificial-intelligence-tools-in-learning-teaching-and-assessmentuse-of-ai-in-academic-work/",
+    "title": "LTE toolkit AI in academic work"
+   }
+  ],
+  "doc_id": "northampton-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00v6s9648",
+  "name": "University of Worcester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.worcester.ac.uk/documents/policies/PositionStatementGenAI.pdf",
+   "title": "Position Statement on the use of generative AI tools in teaching, learning and assessment",
+   "kind": "policy",
+   "audience_as_stated": "staff and students (university community)",
+   "owner_as_stated": "Head of Quality and Educational Development; Quality and Educational Development",
+   "date_as_shown": "June 2024 (last reviewed; review date May 2027)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.worcester.ac.uk/life/help-and-support/Centre-for-academic-english-and-skills/academic-writing-guidance.aspx",
+    "title": "Academic Writing Guidance"
+   }
+  ],
+  "notes": "Document says student guidance is published on webpages; those not located.",
+  "doc_id": "worcester-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04p55hr04",
+  "name": "University of Sunderland",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libraryguides.sunderland.ac.uk/referencing/referencing-gen-ai",
+   "title": "Referencing Gen AI (Study Skills: Referencing, Library Guides)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (Gen-AI is a tool used by students)",
+   "owner_as_stated": "University of Sunderland Library",
+   "date_as_shown": "Last Updated Sep 18, 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "url": "https://londonlibrary.sunderland.ac.uk/image-library/10.-2025-uos-academic-misconduct-policy.pdf",
+    "title": "Student Academic Misconduct Policy 2025-26 (names unauthorised use of AI)"
+   },
+   {
+    "url": "https://services.sunderland.ac.uk/academicregistry/studenthandbook/?slug=academic-misconduct",
+    "title": "Student Handbook, academic misconduct"
+   }
+  ],
+  "queries": [
+   "University of Sunderland generative AI students guidance (allowed_domains sunderland.ac.uk)",
+   "University of Sunderland student guide using generative AI in your studies assessment academic integrity (allowed_domains)"
+  ],
+  "doc_id": "sunderland-students-genai-202610",
+  "notes": "Library guide states the university's 'Assist-Not Do' stance on Gen-AI; no standalone student genAI page surfaced."
+ },
+ {
+  "ror_id": "https://ror.org/03bea9k73",
+  "name": "Ollscoil na Gaillimhe – University of Galway",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.universityofgalway.ie/academicintegrity/faqs/",
+   "title": "FAQs (Academic Integrity)",
+   "kind": "faq",
+   "audience_as_stated": "students and instructors (mixed Q&A)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "url": "https://www.universityofgalway.ie/media/academicintegrity/files/QA220-Academic-Integrity-Policy.pdf",
+    "title": "QA220 Academic Integrity Policy (Policy Owner: Deputy President and Registrar; Revision 1 Sep 2026; names generative AI)"
+   },
+   {
+    "url": "https://www.universityofgalway.ie/academicintegrity/",
+    "title": "Academic Integrity"
+   },
+   {
+    "url": "https://su.universityofgalway.ie/news/use-of-ai/",
+    "title": "Use of AI (Students' Union)"
+   }
+  ],
+  "queries": [
+   "University of Galway generative AI students guidance (allowed_domains universityofgalway.ie)",
+   "University of Galway students use of generative AI tools academic integrity policy QA220 (allowed_domains)"
+  ],
+  "doc_id": "ollscoil-na-gaillimhe-galway-students-genai-202610",
+  "notes": "FAQ includes both student and instructor-addressed answers on generative AI; QA220 policy is the alternative target."
+ },
+ {
+  "ror_id": "https://ror.org/03hdf3w38",
+  "name": "Northeastern University London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.nulondon.ac.uk/academic-handbook/ai-strategy/",
+   "title": "AI Strategy",
+   "kind": "policy",
+   "audience_as_stated": null,
+   "owner_as_stated": "Northeastern University London (Academic Handbook)",
+   "date_as_shown": "Last modified on February 13th, 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "url": "https://www.nulondon.ac.uk/wp-content/uploads/2025/01/AY24-AQF7-Part-C-Assessment-Regulations-24.3.0.pdf",
+    "title": "AQF7 Part C Assessment Regulations (lists 'Improper use of Artificial Intelligence' as an academic offence)"
+   },
+   {
+    "url": "https://www.nulondon.ac.uk/academic-handbook/strategies/ai/",
+    "title": "AI Strategy (alternate URL)"
+   }
+  ],
+  "queries": [
+   "Northeastern University London generative AI students guidance (allowed_domains nulondon.ac.uk)",
+   "NU London academic integrity policy artificial intelligence students assessment (allowed_domains)",
+   "NU London student handbook use of AI tools ChatGPT coursework misconduct (allowed_domains)",
+   "NU London guidance for students on use of generative AI tools in learning and assessment (allowed_domains, extended)"
+  ],
+  "doc_id": "northeastern-london-students-genai-202610",
+  "notes": "No standalone student generative AI guidance found; institution-wide AI strategy selected as policy/principles statement. Audience not stated on page; Academic Misconduct Policy not located."
+ },
+ {
+  "ror_id": "https://ror.org/041kmwe10",
+  "name": "Imperial College London",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.imperial.ac.uk/students/academic-support/ai-and-study-guidance-hub/",
+   "title": "Generative AI and Study Guidance Hub",
+   "kind": "hub",
+   "audience_as_stated": null,
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "url": "https://www.imperial.ac.uk/students/academic-support/ai-and-study-guidance-hub/generative-ai-principles/",
+    "title": "Generative AI Principles"
+   },
+   {
+    "url": "https://www.imperial.ac.uk/students/academic-support/ai-and-study-guidance-hub/imperial-generative-ai-checklist/",
+    "title": "Imperial Generative AI Checklist"
+   },
+   {
+    "url": "https://www.imperial.ac.uk/students/academic-support/ai-and-study-guidance-hub/faqs/",
+    "title": "FAQs"
+   },
+   {
+    "url": "https://www.imperial.ac.uk/admin-services/library/learning-support/generative-ai-guidance/",
+    "title": "Generative AI guidance (library)"
+   },
+   {
+    "url": "https://www.imperial.ac.uk/admin-services/ict/ai/ai-for-students/",
+    "title": "AI for students (ICT)"
+   }
+  ],
+  "queries": [
+   "Imperial College London generative AI students guidance (allowed_domains imperial.ac.uk)"
+  ],
+  "doc_id": "imperial-students-genai-202610",
+  "notes": "Search returned the student hub and sub-pages; curl returned HTTP 403 for hub and principles pages (bot wall, not bypassed), so content not confirmed."
+ }
+]

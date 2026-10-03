@@ -1,0 +1,108 @@
+{
+ "doc_id": "essex-students-genai-202610",
+ "coder": "pts-p4",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Providing you do not attempt to pass off AI generated material off as your own work, you will not be cheating and will not have committed any academic offences.",
+   "anchor": "What would be cheating?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Using AI is not an academic offence provided you do not pass its output off as your own."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Never present AI generated work as your own in an assignment. That would be cheating.",
+   "anchor": "How to avoid an academic offence",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Never present AI generated work as your own; that would be cheating."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Your lecturers and teachers will give you more specific instructions but in general you will be expected to include information about how you have used AI as part of your assignment submissions.",
+   "anchor": "How to avoid an academic offence",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Lecturers give specific instructions, but generally you should include information on how you used AI in submissions."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Never ask AI to generate experimental data which you then submit having purported to have collected it yourself as primary data, either in raw form or after analysis. This is fabrication and counts as serious misconduct.",
+   "anchor": "How to avoid an academic offence",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Never submit AI-generated experimental data as your own primary data; this is fabrication and serious misconduct."
+  },
+  {
+   "point_id": "p05",
+   "quote": "false authorship or contract cheating, including the soliciting of a third party or the use of artificial intelligence, machine learning or other automated technology, to produce material that is then submitted for assessment and presented as one’s own original work.",
+   "anchor": "What would be cheating?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Academic Offences Procedures 1.2c covers using AI to produce material submitted as one's own original work."
+  },
+  {
+   "point_id": "p06",
+   "quote": "never assume that the content created by generative AI is accurate, up to date or true unless you know it to be so or have verified it through another reliable source. You are always responsible for determining the accuracy of what you write.",
+   "anchor": "Limitations of AI",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Do not assume AI content is accurate unless known or verified elsewhere; you are responsible for accuracy."
+  },
+  {
+   "point_id": "p07",
+   "quote": "it is a good idea to keep notes that you make along the way and try to keep different versions saved as separate files as your work develops.",
+   "anchor": "How to avoid an academic offence",
+   "addressee": "student",
+   "force": "should",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Keep notes and save versions as separate files as you work."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Providing the explanation is used to help you understand and is not copied into your assignment, you will not be committing any academic offence.",
+   "anchor": "Using AI with your learning",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Asking AI to explain a concept is no offence if the explanation is not copied into your assignment."
+  },
+  {
+   "point_id": "p09",
+   "quote": "creating an essay plan to help you develop and improve the structure of your assignment",
+   "anchor": "Using AI with your learning",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "An example of legitimate AI use is creating an essay plan to improve structure."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Writing your own assignments is the only way in which you will develop the skill of communicating effectively in written form.",
+   "anchor": "AI can't be used to write assessments",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Writing your own assignments is the only way to develop written communication skills."
+  }
+ ]
+}
