@@ -1,0 +1,48 @@
+{
+ "doc_id": "de-montfort-students-genai-202610",
+ "coder": "pts-b14",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "using the output produced by generative AI tools as if it was your own would be in direct contravention of DMU Academic Integrity and Misconduct Policy.",
+   "anchor": "Generative AI: Understanding and Using Tools Like ChatGPT Effectively and Ethically",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Using generative AI output as if it were your own contravenes the DMU Academic Integrity and Misconduct Policy."
+  },
+  {
+   "point_id": "p02",
+   "quote": "If you have been permitted to use AI tools in your work there are ways to acknowledge and referencing their use.",
+   "anchor": "Using AI ethically",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Where AI use has been permitted, there are ways to acknowledge and reference it."
+  },
+  {
+   "point_id": "p03",
+   "quote": "As AI can be unreliable you also always need to fact check its answers",
+   "anchor": "Using AI effectively",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Because AI can be unreliable, you always need to fact check its answers."
+  },
+  {
+   "point_id": "p04",
+   "quote": "You need to ask yourself whether you are using AI tools to do the thinking for you or simply to assist you in thinking better.",
+   "anchor": "Using AI ethically",
+   "addressee": "student",
+   "force": "should",
+   "topic": "permitted_uses",
+   "specific": false,
+   "gist": "Ask yourself whether AI is doing your thinking or just helping you think better."
+  }
+ ]
+}

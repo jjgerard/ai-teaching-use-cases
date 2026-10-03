@@ -1,0 +1,88 @@
+{
+ "doc_id": "londonmet-students-genai-202610",
+ "coder": "pts-b20",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Your assessment submissions must therefore always be entirely your own work, based on your own learning and appropriately referenced including how you have used Generative AI.",
+   "anchor": "AI and Academic Integrity",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Submissions must be entirely your own work and appropriately referenced, including how Generative AI was used."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Where a complete assignment is created using Generative AI and represented as a student's own work, this will be regarded as contract cheating in the same way as commissioning an 'Essay Mill' or other third party to complete your work.",
+   "anchor": "AI and Academic Integrity",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Submitting a fully AI-generated assignment as your own is treated as contract cheating, like using an essay mill."
+  },
+  {
+   "point_id": "p03",
+   "quote": "The University regards the use of Generative AI applications by students to deceive to gain unfair advantage as academic misconduct.",
+   "anchor": "AI and Academic Integrity",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Using Generative AI to deceive and gain unfair advantage is academic misconduct."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Plagiarism, where AI tools are used to generate output and ideas that are presented or submitted as if they were the student's own work, without proper citation or references.",
+   "anchor": "AI and Academic Integrity",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Presenting AI-generated output and ideas as your own without citation is plagiarism."
+  },
+  {
+   "point_id": "p05",
+   "quote": "The exception will be for tasks where the extensive and critical use of a specific AI tool is part of the assessment brief.",
+   "anchor": "AI and Academic Integrity",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Tasks where extensive and critical use of a specific AI tool is part of the assessment brief are an exception."
+  },
+  {
+   "point_id": "p06",
+   "quote": "AI tools sometimes invent information and references when they cannot find it. This is called 'hallucinating.'",
+   "anchor": "AI and Academic Integrity",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "AI tools sometimes invent information and references, known as hallucinating."
+  },
+  {
+   "point_id": "p07",
+   "quote": "For specific guidance related to your subject speak to your course leader or any member of the teaching staff.",
+   "anchor": "Guidance on the use of Artificial Intelligence",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "For subject-specific guidance, speak to your course leader or any member of teaching staff."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Visit Skills Hub, a resource that will help you learn how to find and use information for your studies and assessments.",
+   "anchor": "Further Help and Support with AI",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "support_and_training",
+   "specific": false,
+   "gist": "Skills Hub helps you learn to find and use information for studies and assessments."
+  }
+ ]
+}

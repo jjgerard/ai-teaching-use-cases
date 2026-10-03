@@ -1,0 +1,158 @@
+{
+ "doc_id": "maynooth-ug-ptm-genai-guidelines-202610",
+ "coder": "pts-b20",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "IF IT IS NOT CLEARLY INDICATED BY TEACHING STAFF AND/OR DEPARTMENT GUIDELINES \u2013 NO GENAI IS PERMITTED.",
+   "anchor": "5.2 Acceptable use of GenAI in assessments",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Unless teaching staff or department guidelines clearly indicate otherwise, no GenAI is permitted in assessments."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Using GenAI in an assignment beyond what is permitted is a breach of academic integrity (including plagiarism).",
+   "anchor": "5.1 Is it a breach of academic integrity (including plagiarism) to submit assignments that have been wholly or partly created by GenAI?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Using GenAI in an assignment beyond what is permitted is a breach of academic integrity, including plagiarism."
+  },
+  {
+   "point_id": "p03",
+   "quote": "No GenAI output (including paraphrased) in final submission.",
+   "anchor": "5.2 Acceptable use of GenAI in assessments",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "In the research-and-structuring category, no GenAI output, including paraphrased, may appear in the final submission."
+  },
+  {
+   "point_id": "p04",
+   "quote": "GenAI can be used as an editing tool to improve the clarity or quality of assessment. It may not be used to create new content.",
+   "anchor": "5.2 Acceptable use of GenAI in assessments",
+   "addressee": "student",
+   "force": "may",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "In the editing category GenAI may improve clarity or quality but may not create new content."
+  },
+  {
+   "point_id": "p05",
+   "quote": "GenAI may be used throughout the assessment process, including the inclusion of GenAI output within the assessment.",
+   "anchor": "5.2 Acceptable use of GenAI in assessments",
+   "addressee": "student",
+   "force": "may",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "In the full-assistance category GenAI may be used throughout, including GenAI output in the submission."
+  },
+  {
+   "point_id": "p06",
+   "quote": "A full list of prompts and GenAI outputs should also be included as an appendix.",
+   "anchor": "5.2 Acceptable use of GenAI in assessments",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Under full GenAI assistance, a full list of prompts and outputs should be included as an appendix."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Students using software with GenAI components should ensure that these are deactivated. If this is not possible, such software should not be used.",
+   "anchor": "5.2 Acceptable use of GenAI in assessments",
+   "addressee": "student",
+   "force": "must",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Where no GenAI is permitted, students should deactivate GenAI components in their software, or not use that software."
+  },
+  {
+   "point_id": "p08",
+   "quote": "The student declaration of use will be attached to every assignment submission sheet.",
+   "anchor": "5.5 Student Declaration of Use",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "A student declaration of use will be attached to every assignment submission sheet."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Turnitin also provides teaching staff with a second score outlining possible GenAI use (students will not have access to this). This Turnitin GenAI score is not definitive proof of GenAI use.",
+   "anchor": "5.3 GenAI detection and Turnitin",
+   "addressee": "staff",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "Turnitin gives staff, not students, a GenAI score, which is not definitive proof of GenAI use."
+  },
+  {
+   "point_id": "p10",
+   "quote": "GenAI tools will not be used by staff to grade or provide feedback on students\u2019 assessed work.",
+   "anchor": "5.6 Grading and Feedback",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "Staff will not use GenAI tools to grade or give feedback on students' assessed work."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Never put your personal data or anyone else\u2019s into a GenAI tool.",
+   "anchor": "4.2 What tools are available to use at MU?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Never enter your own or anyone else's personal data into a GenAI tool."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Microsoft\u2019s Copilot is accessible to all MU students, and we currently have a data agreement in place with Microsoft, which means that our use of Copilot is GDPR-compliant.",
+   "anchor": "4.2 What tools are available to use at MU?",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Copilot is available to all MU students under a data agreement with Microsoft, making its use GDPR-compliant."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Recording and transcribing of lectures, tutorials and meetings, etc., without prior consent.",
+   "anchor": "2. Limitations, Disadvantages, and Inappropriate Use of GenAI",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Listed as inappropriate use: recording and transcribing lectures, tutorials and meetings without prior consent."
+  },
+  {
+   "point_id": "p14",
+   "quote": "All use of GenAI should be acknowledged in academic work, including citations and referencing where appropriate and according to departmental handbooks.",
+   "anchor": "5.7 Citations and Referencing",
+   "addressee": "student",
+   "force": "should",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "All GenAI use should be acknowledged in academic work, with citations and referencing following departmental handbooks."
+  },
+  {
+   "point_id": "p15",
+   "quote": "Data Centres, on which GenAI tools rely, consumed 21% of all electricity in Ireland in 2023 (CSO, 2024).",
+   "anchor": "3.1 What should I consider before using GenAI?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Data centres consumed 21% of all electricity in Ireland in 2023."
+  }
+ ]
+}

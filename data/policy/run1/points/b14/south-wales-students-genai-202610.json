@@ -1,0 +1,28 @@
+{
+ "doc_id": "south-wales-students-genai-202610",
+ "coder": "pts-b14",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "The University of South Wales (USW) is committed to leveraging generative AI for the benefit of students and staff, and promotes the fair, ethical, professional, and responsible use of generative AI tools.",
+   "anchor": "USW's view on the use of AI",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "other",
+   "specific": false,
+   "gist": "USW commits to leveraging generative AI for students and staff and promotes fair, ethical, professional and responsible use."
+  },
+  {
+   "point_id": "p02",
+   "quote": "The University is committed to preparing our students for an increasingly AI-enabled future and acknowledges digital fluency as a key USW graduate attribute.",
+   "anchor": "USW's view on the use of AI",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "The University commits to preparing students for an AI-enabled future and names digital fluency as a graduate attribute."
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "doc_id": "greater-manchester-students-genai-202610",
+ "coder": "pts-b19",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Engaging with each of the four core elements is essential for building a comprehensive awareness of AI.",
+   "anchor": "Introduction",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": false,
+   "gist": "Engaging with each of the four core elements is essential for building a comprehensive awareness of AI."
+  },
+  {
+   "point_id": "p02",
+   "quote": "You can use the Read Aloud feature in Microsoft Edge to listen to the content on each page, and all our videos have transcripts available through the Closed Captions button [CC] within the video player.",
+   "anchor": "Tutorial Accessibility",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "Read Aloud in Microsoft Edge is available, and all videos have transcripts through the Closed Captions button."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Complete the assessment in this section to earn 5 Career Passport points.",
+   "anchor": "GAME@UGM",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Completing the assessment in this section earns 5 Career Passport points."
+  }
+ ]
+}

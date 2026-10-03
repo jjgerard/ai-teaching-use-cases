@@ -1,0 +1,148 @@
+{
+ "doc_id": "bedfordshire-students-genai-202610",
+ "coder": "pts-b25",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Firstly, check whether you are allowed to use AI in assignments and your course, the assignment brief and your tutors will be able to advise.",
+   "anchor": "Can I use AI in my assignment?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Check whether you are allowed to use AI in assignments; your course, the assignment brief and tutors can advise."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Think about AI as a tool to help with your assignment, not create your assignment.",
+   "anchor": "Can I use AI in my assignment?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Think of AI as a tool to help with your assignment, not to create it."
+  },
+  {
+   "point_id": "p03",
+   "quote": "If you do use AI as a help tool, you will need to reference it in your assignment.",
+   "anchor": "Can I use AI in my assignment?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "If you use AI as a help tool, you will need to reference it in your assignment."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Login to Cite Them Right from the Referencing pages and go to the Digital & Internet section -> Software -> Generative AI (University log in required).",
+   "anchor": "How to acknowledge and reference your use of AI in your assignment",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Cite Them Right (University login) has a Generative AI citation format under Digital & Internet, then Software."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Best practice is to save a transcript, or a screen shot of the question you posed and the answer you got and add to your assignment as an appendix.",
+   "anchor": "How to acknowledge and reference your use of AI in your assignment",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Best practice is to save a transcript or screenshot of your question and the answer and add it as an appendix."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Yes, Turnitin can detect and provide an overall percentage of how much text has been AI generated.",
+   "anchor": "Can AI be detected in assignments?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "Turnitin can detect and give an overall percentage of how much text has been AI generated."
+  },
+  {
+   "point_id": "p07",
+   "quote": "If AI text is generated and then included in an assignment as your own work, it would be considered under the university Academic Integrity Policy as work produced by a third party, and you may be asked to take part in a Viva to explain the score.",
+   "anchor": "Can AI be detected in assignments?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "AI text included as your own work is treated under the Academic Integrity Policy as third-party work, and you may be asked to a Viva to explain the score."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Cutting and pasting all or some of the content created by the AI used and not citing could be considered plagiarism.",
+   "anchor": "Can AI be detected in assignments?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Cutting and pasting AI content without citing could be considered plagiarism."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Equally your tutor marking your assignment may have concerns that AI has been used to create the assignment. Triggers could be:",
+   "anchor": "Can AI be detected in assignments?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "A marking tutor may have concerns that AI was used, based on certain triggers."
+  },
+  {
+   "point_id": "p10",
+   "quote": "References aren’t genuine and available.",
+   "anchor": "Can AI be detected in assignments?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "References that are not genuine and available may trigger tutor concern about AI use."
+  },
+  {
+   "point_id": "p11",
+   "quote": "BUT the content it pulls together may be false and inaccurate. Just like with Wikipedia you cannot just accept it.",
+   "anchor": "Can I use AI in my assignment?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "AI content may be false and inaccurate, so you cannot just accept it, as with Wikipedia."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Within the library collection there are more reliable scholarly resources such as Credo to check facts and get concepts and ideas.",
+   "anchor": "Can I use AI in my assignment?",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "The library collection has more reliable scholarly resources such as Credo to check facts and get concepts and ideas."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Check if the citations it provides are correct as it is predicting text, not trawling for suitable and appropriate references to articles or books.",
+   "anchor": "What can't AI do?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "AI cannot check whether its citations are correct, because it predicts text rather than searching for suitable references."
+  },
+  {
+   "point_id": "p14",
+   "quote": "Because AI is organic and ever growing, you cannot repeat the questions and get the same answer.",
+   "anchor": "How to acknowledge and reference your use of AI in your assignment",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Because AI is ever growing, repeating a question will not give the same answer."
+  }
+ ]
+}

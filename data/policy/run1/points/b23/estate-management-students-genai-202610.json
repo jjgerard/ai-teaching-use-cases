@@ -1,0 +1,88 @@
+{
+ "doc_id": "estate-management-students-genai-202610",
+ "coder": "pts-b23",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Following University of the Built Environment guidance on the appropriate use of generative Artificial Intelligence, and accurately declaring its usage;",
+   "anchor": "Assessment Production and submission",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Good practice includes following the university's guidance on appropriate generative AI use and accurately declaring that use."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Using generative Artificial Intelligence outside of appropriate usage guidance, and not declaring usage accurately;",
+   "anchor": "Assessment production and submission",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Poor practice includes using generative AI outside the usage guidance and not declaring the use accurately."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Making assumptions about the appropriate use of generative Artificial Intelligence instead of checking the guidance;",
+   "anchor": "Assessment preparation",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Poor practice includes assuming what AI use is appropriate rather than checking the guidance."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Identifying and following guidance on appropriate use of generative Artificial Intelligence for the assessment;",
+   "anchor": "Assessment preparation",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Good practice includes identifying and following the guidance on appropriate generative AI use for each assessment."
+  },
+  {
+   "point_id": "p05",
+   "quote": "This occurs when the work of others, including content created by generative Artificial Intelligence systems (AI), is not cited or referenced, with the intention of convincing the marker or other readers that it is your own work.",
+   "anchor": "Types of academic misconduct",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Plagiarism includes uncited or unreferenced generative AI content passed off as your own work."
+  },
+  {
+   "point_id": "p06",
+   "quote": "This involves any means whereby a person or generative Artificial Intelligence does work (in whole or in part) on your behalf which you intentionally pass off as your own work.",
+   "anchor": "Types of academic misconduct",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Having a person or generative AI do work for you, in whole or part, and passing it off as yours is misconduct."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Providing resources on the appropriate use of generative Artificial Intelligence Generative AI student guidance (opens new window);",
+   "anchor": "Supporting Academic Good Practice",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "The university provides resources on appropriate generative AI use, including a Generative AI student guidance page."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Academic misconduct is a disciplinary offence under the Terms and Conditions of Contract (opens new window) and is punishable by a range of sanctions, depending on the seriousness of the offence.",
+   "anchor": "4. Academic Misconduct",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Academic misconduct is a disciplinary offence punishable by a range of sanctions depending on seriousness."
+  }
+ ]
+}

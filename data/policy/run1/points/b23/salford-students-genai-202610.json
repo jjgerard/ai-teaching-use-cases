@@ -1,0 +1,108 @@
+{
+ "doc_id": "salford-students-genai-202610",
+ "coder": "pts-b23",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "The default position across the University is that you may use GenAI in reasonable and appropriate ways to support your work.",
+   "anchor": "Guiding principles",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "By default, students may use GenAI in reasonable and appropriate ways to support their work."
+  },
+  {
+   "point_id": "p02",
+   "quote": "you always need to check your Assessment Guidance document before using GenAI. Using it outside the permitted scope may be considered misrepresentation under the University\u2019s Academic Integrity Policy and Academic Misconduct Procedure.",
+   "anchor": "Guiding principles",
+   "addressee": "student",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Check the Assessment Guidance document before using GenAI; use outside the permitted scope may count as misrepresentation."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Use Microsoft 365 Copilot signed in with your University account wherever possible, as this is the University-approved GenAI tool and is covered by the University's data security policy.",
+   "anchor": "Guiding principles",
+   "addressee": "student",
+   "force": "should",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Use Microsoft 365 Copilot signed in with a University account where possible, as the approved tool covered by data security policy."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Never enter personal data, unpublished research, your own or anyone else\u2019s work, or other sensitive or confidential information into a tool that is not University-approved.",
+   "anchor": "Guiding principles",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Never enter personal data, unpublished research, anyone's work or sensitive information into a tool that is not University-approved."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Verify its outputs using reliable original sources (such as professional websites, academic books and journal articles) and cite those sources as your evidence - not the GenAI tool.",
+   "anchor": "Guiding principles",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Verify GenAI outputs with reliable original sources and cite those sources, not the GenAI tool."
+  },
+  {
+   "point_id": "p06",
+   "quote": "You remain responsible for everything you submit.",
+   "anchor": "Guiding principles",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "You remain responsible for everything you submit."
+  },
+  {
+   "point_id": "p07",
+   "quote": "All University of Salford students should complete our GenAI eLearning so that you understand how to use it responsibly and effectively in your studies.",
+   "anchor": "Generative AI and your studies",
+   "addressee": "student",
+   "force": "should",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "All students should complete the GenAI eLearning."
+  },
+  {
+   "point_id": "p08",
+   "quote": "If your chosen search engine automatically includes a GenAI summary, you can exclude this by adding '-AI' at the end of your search request.",
+   "anchor": "Gen AI and the environment",
+   "addressee": "student",
+   "force": "may",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "A GenAI search summary can be excluded by adding '-AI' to the end of the search request."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Cooling the hardware used for AI operations consumes large amounts of water, which can strain local water supplies and impact ecosystems. We aren\u2019t saying don\u2019t use GenAI, but ensure your use is considered and thoughtful.",
+   "anchor": "Gen AI and the environment",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "AI hardware cooling uses large amounts of water; the university says use should be considered and thoughtful."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Choose simpler tools (e.g. spell-check) when appropriate.",
+   "anchor": "Gen AI and the environment",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Choose simpler tools such as spell-check when appropriate."
+  }
+ ]
+}

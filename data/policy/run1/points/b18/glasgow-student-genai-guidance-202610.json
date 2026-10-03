@@ -1,0 +1,158 @@
+{
+ "doc_id": "glasgow-student-genai-guidance-202610",
+ "coder": "pts-b18",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "In supervised assessments (exams, in-class tests, invigilated practical assessments, vivas, OSCEs), you cannot use GenAI unless your assessment brief expressly allows it.",
+   "anchor": "The Essentials",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "GenAI cannot be used in supervised assessments such as exams, tests, vivas and OSCEs unless the assessment brief expressly allows it."
+  },
+  {
+   "point_id": "p02",
+   "quote": "In unsupervised assessments (essays, reports, coursework, projects, dissertations, portfolios), you can use GenAI, but you must acknowledge it. If your course documentation says nothing about GenAI, this default applies.",
+   "anchor": "The Essentials",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "GenAI may be used in unsupervised assessments if acknowledged, and this default applies when course documentation is silent."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Your course can set additional limits, and those take precedence – so always read your assessment brief.",
+   "anchor": "The Essentials",
+   "addressee": "student",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Course-specific limits take precedence over the default, so students should read their assessment brief."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Whatever the assessment, submitting AI-generated content as if it were your own work is academic misconduct.",
+   "anchor": "The Essentials",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Submitting AI-generated content as your own work is academic misconduct in any assessment."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Copilot is the only tool approved for this by the University.",
+   "anchor": "Introduction to Artificial Intelligence (Al)",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Microsoft Copilot is the only GenAI tool the University approves."
+  },
+  {
+   "point_id": "p06",
+   "quote": "It is the only tool you should use for uploading lecture materials, assessment briefs, slides, etc, and you must get permission from the staff member(s) who created them before you upload them.",
+   "anchor": "Introduction to Artificial Intelligence (Al)",
+   "addressee": "student",
+   "force": "must",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Copilot is the only tool for uploading course materials, and permission from the staff who created them is required first."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Books, articles and other copyrighted materials should not be uploaded to any tool.",
+   "anchor": "Introduction to Artificial Intelligence (Al)",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Books, articles and other copyrighted materials should not be uploaded to any tool."
+  },
+  {
+   "point_id": "p08",
+   "quote": "When you’ve used Gen AI, you should include a statement to make this clear to your marker.",
+   "anchor": "How to acknowledge and reference Gen AI use",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students should include a statement telling the marker when they have used GenAI."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Your acknowledgement should includeExample",
+   "anchor": "How to acknowledge and reference Gen AI use",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "An acknowledgement should include the tool name, version and publisher, how it was used, and what was the student's original work."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Including a statement on Gen AI use is generally good practice, but it doesn’t override course guidance.",
+   "anchor": "Gen AI in practice - problematic uses",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Acknowledging GenAI use does not make a use acceptable if course guidance prohibits it."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Gen AI tends to have difficulty retrieving sources: it generates text that looks like a citation. It has no way of verifying whether the source exists.",
+   "anchor": "Gen AI in practice - problematic uses",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "GenAI generates citation-like text and cannot verify that a source exists."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Always find and read your sources. Use your reading lists and the University Library.",
+   "anchor": "Gen AI in practice - problematic uses",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Students should always find and read their sources, using reading lists and the University Library."
+  },
+  {
+   "point_id": "p13",
+   "quote": "If you are using Gen AI for language support, then give it specific, limited instructions (check grammar, suggest more academic words instead of ‘A, B, C’): don’t use it to rewrite work.",
+   "anchor": "Gen AI in practice - problematic uses",
+   "addressee": "student",
+   "force": "should",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "For language support, give GenAI specific, limited instructions and do not use it to rewrite work."
+  },
+  {
+   "point_id": "p14",
+   "quote": "There are safe tools you can use for referencing and bibliographies: the University offers training from IT Services in Endnote.",
+   "anchor": "Gen AI in practice - problematic uses",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Endnote is a safer referencing tool, with training offered by IT Services."
+  },
+  {
+   "point_id": "p15",
+   "quote": "If you’re struggling to meet deadlines, remember that you have options open to you: Extenuating Circumstances and Delayed Assessment Permits (DAPs) Information",
+   "anchor": "Gen AI in practice - problematic uses",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Students struggling with deadlines can use Extenuating Circumstances and Delayed Assessment Permits."
+  }
+ ]
+}
