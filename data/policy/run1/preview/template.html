@@ -158,7 +158,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   <p class="note" id="tfit" style="margin:0 0 12px"></p>
   <p class="sub">Each bar is the number of institutions whose document makes this kind of statement. Statements are grouped by what they say, such as “the default is no AI unless the module permits it” or “do not upload university teaching materials”. Click a bar to see who says it, how it splits by region, and example quotes.</p>
   <div class="pctl"><label><input type="checkbox" id="tthin" checked> leave out thin documents (fewer than 8 specific points)</label><label><input type="checkbox" id="taudit" checked> add statements found by re-reading each whole document</label><span class="mono" id="tcount" style="color:var(--ink2)"></span></div>
-  <p class="note" style="margin:0 0 10px">The first extraction pulled 6 to 15 distinctive rules from each document, so it under-counts things a document says in passing, such as pointing to training. Switching on the whole-document re-read adds every statement type a second pass found in the full text, each backed by a verbatim quote. Pairings under “What goes together” still use the extracted points only.</p>
+  <p class="note" style="margin:0 0 10px">The first extraction pulled 6 to 15 distinctive rules from each document, so it under-counts things a document says in passing, such as pointing to training. Switching on the whole-document re-read adds every statement type a second pass found in the full text, each backed by a verbatim quote. The pairings under “What goes together” follow the same switch.</p>
   <div class="tchips" id="tgroups" role="group" aria-label="Theme"></div>
   <div class="cols"><div class="panel"><div class="bars" id="tbars"></div></div><div class="panel" id="tdetail" style="min-height:120px"></div></div>
 </section>
@@ -508,14 +508,15 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
       var shown = 0; TR.rows.forEach(function (r) { if (shown >= 6 || (r.c !== tsel && r.c2 !== tsel) || who.indexOf(r.d) < 0) return; var p = PX[r.d + ":" + r.n]; if (!p) return; shown++; var q = el("blockquote", null, "“" + p.q + "” — " + PD[r.d].name); dt.appendChild(q); });
     } else dt.appendChild(el("span", null, "Select a statement type to see which institutions say it, how it splits by region, and example quotes."));
   }
+  function hasT(d, id) { return DT[d].has(id) || ($("taudit").checked && (TR.audit[d] || []).indexOf(id) >= 0); }
   function drawTogether() {
-    var thin = $("tthin").checked, set = thin ? TR.pairs.rich : TR.pairs.all, t = $("tpairs"); t.textContent = "";
-    $("tpnote").textContent = "Among " + set.docs + " institutions, " + set.tests_run + " pairings were testable (each statement type in at least " + TR.minsup + " institutions and absent from at least " + TR.minsup + "). By chance alone about " + Math.round(set.tests_run * 0.05) + " would reach p < 0.05, so pairs are corrected for false discoveries (q). A statement missing from a document may simply not be mentioned there, and longer documents say more of everything, so read pairings as leads.";
+    var thin = $("tthin").checked, aud = $("taudit").checked, P = aud ? TR.pairsAud : TR.pairs, set = thin ? P.rich : P.all, t = $("tpairs"); t.textContent = "";
+    $("tpnote").textContent = "Among " + set.docs + " institutions, " + set.tests_run + " pairings were testable (each statement type in at least " + TR.minsup + " institutions and absent from at least " + TR.minsup + "). By chance alone about " + Math.round(set.tests_run * 0.05) + " would reach p < 0.05, so pairs are corrected for false discoveries (q). A statement missing from a document may simply not be mentioned there, and longer documents say more of everything, so read pairings as leads." + (aud ? " This view includes statements found by re-reading whole documents." : " This view uses extracted points only.");
     var hr = el("tr"); ["Statements that appear together", "Both / A only / B only / neither", "p", "q"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
     set.top.slice(0, 8).forEach(function (r) { var tr = el("tr"), td = el("td", null, TT[r.A].label + "  +  " + TT[r.B].label); td.style.whiteSpace = "normal"; tr.appendChild(td); tr.appendChild(el("td", null, [r.a, r.b, r.c, r.d].join(" / "))); tr.appendChild(el("td", null, r.p < 0.001 ? "<0.001" : r.p.toFixed(3))); tr.appendChild(el("td", r.q < 0.1 ? "flag" : null, r.q.toFixed(2) + (r.q < 0.1 ? " ●" : ""))); t.appendChild(tr); });
     var a = $("tpa").value, b = $("tpb").value, ds = tdocs(), box = $("tpair"); box.textContent = "";
     if (!a || !b || a === b) { box.appendChild(el("p", null, "Pick two different statement types.")); return; }
-    var both = [], onlyA = [], onlyB = []; ds.forEach(function (d) { var x = DT[d].has(a), y = DT[d].has(b); if (x && y) both.push(d); else if (x) onlyA.push(d); else if (y) onlyB.push(d); });
+    var both = [], onlyA = [], onlyB = []; ds.forEach(function (d) { var x = hasT(d, a), y = hasT(d, b); if (x && y) both.push(d); else if (x) onlyA.push(d); else if (y) onlyB.push(d); });
     var names = function (arr) { return arr.map(function (d) { return PD[d].name; }).join(", ") || "none"; };
     [["Both", both], ["Only “" + TT[a].label + "”", onlyA], ["Only “" + TT[b].label + "”", onlyB]].forEach(function (x) { var p = el("p", "small"); var s = el("strong", null, x[0] + " (" + x[1].length + "): "); p.appendChild(s); p.appendChild(document.createTextNode(names(x[1]))); box.appendChild(p); });
   }
@@ -523,7 +524,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     var opts = TR.types.slice().sort(function (x, y) { return x.label.localeCompare(y.label); });
     ["tpa", "tpb"].forEach(function (id, i) { var s = $(id); opts.forEach(function (t) { var o = document.createElement("option"); o.value = t.id; o.textContent = t.label; s.appendChild(o); }); s.value = i ? "ai_detectors_unreliable_not_sole_basis" : "rules_set_locally_by_module_or_lecturer"; s.addEventListener("change", drawTogether); });
     $("tthin").addEventListener("change", function () { drawTrends(); drawTogether(); });
-    $("taudit").addEventListener("change", drawTrends);
+    $("taudit").addEventListener("change", function () { drawTrends(); drawTogether(); });
     $("tfit").textContent = TR.docs.length + " institutions, " + TR.rows.length + " specific statements, classified against a vocabulary of " + TR.types.length + " statement types. " + Math.round(100 * TR.fitCounts.clear / TR.rows.length) + "% fit a type clearly, " + Math.round(100 * (TR.fitCounts.partial || 0) / TR.rows.length) + "% partly and " + Math.round(100 * (TR.fitCounts.none || 0) / TR.rows.length) + "% not at all. A second pass over a random tenth agreed on the exact type " + TR.agreement.exact_pct + "% of the time (" + TR.agreement.group_pct + "% on the theme), though both passes are the same model. The vocabulary was built from half the institutions, then revised after a test on the other half, so it is not independently tested in its final form.";
   }
 

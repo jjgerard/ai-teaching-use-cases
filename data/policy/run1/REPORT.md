@@ -106,3 +106,7 @@ submit a declaration with assessments (36), the work must be your own (31), foll
 Defaults are split: "no AI unless expressly permitted" 19, "AI allowed unless restricted" 16 (many institutions state neither).
 Co-occurrence surviving false-discovery correction: assessments sorted into AI-use tiers with "no AI at all in a given assessment" and with "some assessments require or critique AI use" (partly definitional);
 an institution-provided tool with data-protection assurances for that tool. Everything else is at or below chance for 1,275 comparisons.
+
+## Update: presence audit and co-occurrence
+
+All 40 audit batches ran (115 documents, 742 statements found, 475 borderline, 0 validation errors). The trends page has a switch that adds the audit finds to both the frequency bars and the co-occurrence pairs. With the audit on, 2,080 pairings were testable (1,275 on extracted points alone) and many more pass the 10% false-discovery cut. Longer documents say more of everything, so `audit/size-check.js` re-tests pairs after splitting the 84 documents at the median number of statement types (20). Of the top pairs, most keep an odds ratio well above 1 (for example AI-output-can-be-wrong with bias-and-exclusion, 15.5; study-and-preparation with proofreading allowed, 11.6). Read them as leads: one coder (the same model) produced both passes, and presence in a document is not prevalence in an institution.

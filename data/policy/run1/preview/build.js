@@ -48,11 +48,11 @@ for (const r of CL) { const o = perDoc[r.doc_id]; o.n++; for (const t of [r.clai
 const lc = [0]; for (let i = 1; i < 400; i++) lc[i] = lc[i - 1] + Math.log(i);
 const lch = (n, k) => lc[n] - lc[k] - lc[n - k];
 function fisher(a, b, c, d) { const n = a + b + c + d, r1 = a + b, c1 = a + c; const p0 = Math.exp(lch(r1, a) + lch(n - r1, c1 - a) - lch(n, c1)); let p = 0; for (let x = Math.max(0, c1 - (n - r1)); x <= Math.min(r1, c1); x++) { const px = Math.exp(lch(r1, x) + lch(n - r1, c1 - x) - lch(n, c1)); if (px <= p0 * (1 + 1e-9)) p += px; } return Math.min(1, p); }
-function pairsFor(ids, minSupport) {
-  const sup = {}; for (const d of ids) for (const t of perDoc[d].types) sup[t] = (sup[t] || 0) + 1;
+function pairsFor(ids, minSupport, TY = (d) => perDoc[d].types) {
+  const sup = {}; for (const d of ids) for (const t of TY(d)) sup[t] = (sup[t] || 0) + 1;
   const ts = Object.keys(sup).filter((t) => sup[t] >= minSupport && sup[t] <= ids.length - minSupport); const tests = [];
   for (let i = 0; i < ts.length; i++) for (let j = i + 1; j < ts.length; j++) {
-    const A = ts[i], B = ts[j]; let a = 0, b = 0, c = 0; for (const d of ids) { const x = perDoc[d].types.has(A), y = perDoc[d].types.has(B); if (x && y) a++; else if (x) b++; else if (y) c++; }
+    const A = ts[i], B = ts[j]; let a = 0, b = 0, c = 0; for (const d of ids) { const x = TY(d).has(A), y = TY(d).has(B); if (x && y) a++; else if (x) b++; else if (y) c++; }
     const dd = ids.length - a - b - c; tests.push({ A, B, a, b, c, d: dd, p: fisher(a, b, c, dd), lift: +(a / (a + b) / ((a + c) / ids.length)).toFixed(2) });
   }
   tests.sort((x, y) => x.p - y.p); const m = tests.length; let prev = 1; for (let i = m - 1; i >= 0; i--) { prev = Math.min(prev, tests[i].p * m / (i + 1)); tests[i].q = prev; }
@@ -60,8 +60,9 @@ function pairsFor(ids, minSupport) {
 }
 const PR = rd("presence.json"); const auditFound = {}; for (const x of PR.found) (auditFound[x.doc_id] = auditFound[x.doc_id] || new Set()).add(x.type || x.type_id);
 const AUDIT = Object.fromEntries(Object.entries(auditFound).map(([d, s]) => [d, [...s]]));
+const augT = (d) => new Set([...perDoc[d].types, ...(auditFound[d] || [])]);
 const richIds = cdocs.filter((d) => perDoc[d].n >= THIN);
-const TRENDS = { types: TYPES0.map((t) => ({ id: t.id, label: t.label, group: t.group, def: t.definition })), rows: CL.map((r) => ({ d: r.doc_id, n: r.point_id, c: r.claim, c2: r.claim2, f: r.fit })), docs: cdocs, thin: THIN, nper: Object.fromEntries(cdocs.map((d) => [d, perDoc[d].n])), minsup: 8, agreement: rd("run1/claims/agreement.json"), pairs: { all: pairsFor(cdocs, 8), rich: pairsFor(richIds, 8) }, vocab: "1", audit: AUDIT, fitCounts: CL.reduce((o, r) => ((o[r.fit] = (o[r.fit] || 0) + 1), o), {}) };
+const TRENDS = { types: TYPES0.map((t) => ({ id: t.id, label: t.label, group: t.group, def: t.definition })), rows: CL.map((r) => ({ d: r.doc_id, n: r.point_id, c: r.claim, c2: r.claim2, f: r.fit })), docs: cdocs, thin: THIN, nper: Object.fromEntries(cdocs.map((d) => [d, perDoc[d].n])), minsup: 8, agreement: rd("run1/claims/agreement.json"), pairs: { all: pairsFor(cdocs, 8), rich: pairsFor(richIds, 8) }, pairsAud: { all: pairsFor(cdocs, 8, augT), rich: pairsFor(richIds, 8, augT) }, vocab: "1", audit: AUDIT, fitCounts: CL.reduce((o, r) => ((o[r.fit] = (o[r.fit] || 0) + 1), o), {}) };
 
 const html = fs.readFileSync(path.join(__dirname, "template.html"), "utf8").replace("__DATA__", JSON.stringify({ vars, docs: D, cov: covAll, patterns, version: codebook.version, points: points.slice().sort((a, b) => (PDOCS.findIndex((x) => x.id === a.doc_id) - PDOCS.findIndex((x) => x.id === b.doc_id)) || a.point_id.localeCompare(b.point_id)).map((p) => ({ d: p.doc_id, n: p.point_id, q: p.quote, a: p.anchor, ad: p.addressee, f: p.force, t: p.topic, s: p.specific, g: p.gist })), pdocs: PDOCS, trends: TRENDS }).replace(/</g, "\\u003c"));
 fs.writeFileSync(path.join(__dirname, "index.html"), html);
