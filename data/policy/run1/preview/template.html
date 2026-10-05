@@ -168,6 +168,15 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   <div class="cols"><div class="panel"><div class="bars" id="tbars"></div></div><div class="panel" id="tdetail" style="min-height:120px"></div></div>
 </section>
 
+<section id="support">
+  <h2>What kind of help institutions offer</h2>
+  <p class="sub" id="supsub"></p>
+  <div class="panel"><div class="bars" id="supbars"></div></div>
+  <h3 style="margin:22px 0 4px">Where something is required</h3>
+  <p class="sub" id="supmandsub"></p>
+  <div class="plist" id="supmand"></div>
+</section>
+
 <section id="second">
   <h2>What a second document adds</h2>
   <p class="sub" id="secsub"></p>
@@ -566,8 +575,16 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     var t = $("sectab"); t.textContent = ""; var hr = el("tr"); ["Statement", "In first document", "Added by second (mentions AI)", "General procedure only"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
     S.rows.forEach(function (r) { var tr = el("tr"), td = el("td", null, TT[r.id] ? TT[r.id].label : r.id); td.style.whiteSpace = "normal"; tr.appendChild(td); tr.appendChild(el("td", null, r.first + " of " + S.n)); tr.appendChild(el("td", null, String(r.added))); tr.appendChild(el("td", null, String(r.general))); t.appendChild(tr); });
   }
+
+  function drawSupport() {
+    var S = TR.support, N = TR.docs.filter(function (d) { return PD[d]; }).length, host = $("supbars"); host.textContent = "";
+    $("supsub").textContent = "Out of " + N + " institutions, " + S.any + " have at least one of these in their documents. Each bar counts institutions whose document, or second document, says it offers that form of help. The small print shows how many of those quotes mention AI themselves; the rest are support services the document lists in an AI context (a library, a tutor team, a students’ union advice centre) without naming AI in the quote. Some rows rest only on a link or tab label, and every institution having at least one form partly reflects how broad the list is, so read the individual bars rather than the total.";
+    S.forms.forEach(function (f) { var b = el("div", "brow share hl"); b.title = f.def; b.appendChild(el("span", "bl", f.label)); var tr = el("span", "bt"), fl = el("span", "bf"); fl.style.display = "block"; fl.style.width = (100 * f.n / N) + "%"; tr.appendChild(fl); b.appendChild(tr); var req = ["mandatory", "advised", "planned"].filter(function (k) { return f.req[k]; }).map(function (k) { return f.req[k] + " " + k; }).join(", "); b.appendChild(el("span", "bn", f.n + " of " + N + " (" + Math.round(100 * f.n / N) + "%)" + (f.nAi < f.n ? " · " + f.nAi + " name AI" : "") + (req ? " · " + req : ""))); host.appendChild(b); });
+    $("supmandsub").textContent = "Only " + S.mandatory.length + " quotes say help is required (a course, quiz or guide that must be completed or used). “Required” follows the wording of the quote: must, mandatory, or a stated condition such as before an assessment. A few of these are academic-integrity courses rather than AI courses; the quote shows which.";
+    var m = $("supmand"); m.textContent = ""; S.mandatory.forEach(function (r) { var c = el("div", "pc"), w = el("div", "who2"); w.appendChild(el("strong", null, (PD[r.d] ? PD[r.d].name : r.d))); w.appendChild(el("span", "mono", (TR.support.forms.filter(function (x) { return x.id === r.form; })[0] || {}).label + (r.second ? " · second document" : ""))); c.appendChild(w); c.appendChild(el("blockquote", "qt", "“" + r.q + "”")); m.appendChild(c); });
+  }
   function tinit() {
-    drawHeadlines(); drawSecond();
+    drawHeadlines(); drawSecond(); drawSupport();
     var opts = TR.types.slice().sort(function (x, y) { return x.label.localeCompare(y.label); });
     ["tpa", "tpb"].forEach(function (id, i) { var s = $(id); opts.forEach(function (t) { var o = document.createElement("option"); o.value = t.id; o.textContent = t.label; s.appendChild(o); }); s.value = i ? "ai_detectors_unreliable_not_sole_basis" : "rules_set_locally_by_module_or_lecturer"; s.addEventListener("change", drawTogether); });
     $("tthin").addEventListener("change", function () { drawTrends(); drawTogether(); });
