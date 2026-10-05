@@ -1,0 +1,47 @@
+{"doc_id":"st-andrews-d2-misconduct-procedure-202610","coder":"mis-p2","scope":"general_misconduct",
+"offences":[
+{"value":"unauthorised_use","ai_named":true,"quote":"Output, in whole or in part, of Artificial Intelligence (AI), including LLMs, where this is not permitted.","anchor":"2.2"},
+{"value":"passing_off","ai_named":false,"quote":"Plagiarism is the act of taking ideas or work from other sources and representing them as if it is the student’s own ideas or work.","anchor":"2.2"},
+{"value":"contract_cheating_or_ghostwriting","ai_named":false,"quote":"Work produced by, or obtained from, services such as essay mills, web sites, friends, family members, with or without monetary transactions,","anchor":"2.2"},
+{"value":"fabrication_or_falsification","ai_named":true,"quote":"Falsification as a misconduct type is agnostic about motivation and means: it can occur due to, inter alia a deliberate attempt to obfuscate, or inadvertent inclusion because of incorporation of outputs of Generative AI tools powered by Large Language Models.","anchor":"2.2"},
+{"value":"misuse_of_others_work","ai_named":false,"quote":"Published or unpublished work done partly or wholly by another person,","anchor":"2.2"},
+{"value":"exam_or_supervised_breach","ai_named":false,"quote":"Taking electronic devices, software or materials into an examination venue (other than those specifically permitted), irrespective of whether or not any use of the item(s) was made.","anchor":"2.2"}
+],
+"liability":[
+{"value":"strict_liability","ai_named":false,"quote":"In determining whether an accusation of academic misconduct is upheld, absence of intention to commit misconduct, extenuating circumstances or ignorance of the rules is not a valid defence.","anchor":"1.9"}
+],
+"detection":[
+{"method":"similarity_software","stance":"may_be_used","ai_named":false,"quote":"copy of the plagiarism detection software report (if applicable) and any supporting evidence provided by the AMO","anchor":"3.5"},
+{"method":"staff_judgement","stance":"used","ai_named":false,"quote":"Whether a specific use of language correction software or services falls within the permissible use is a matter of academic judgment to be determined in accordance with processes within GAP","anchor":"2.3.2"}
+],
+"process":[
+{"value":"informal_conversation","ai_named":false,"quote":"Such informal discussions are not part of the process for dealing with allegations of academic misconduct and cannot form part of any such allegation.","anchor":"3.1"},
+{"value":"referral_to_officer_or_panel","ai_named":false,"quote":"If anyone suspects academic misconduct in a piece of work, that person should inform the School’s Academic Misconduct Officer (AMO)","anchor":"3.2"},
+{"value":"investigation","ai_named":false,"quote":"At the point academic misconduct is suspected in a piece of work, assessment of that work should cease until investigation is complete","anchor":"3.2"},
+{"value":"student_right_to_respond","ai_named":false,"quote":"The student has the right to challenge any evidence presented and to present their own evidence.","anchor":"3.5"},
+{"value":"hearing","ai_named":false,"quote":"The convener will arrange a hearing of the Board","anchor":"3.5"},
+{"value":"proceeds_if_absent","ai_named":false,"quote":"If a student fails to attend without good cause, the Board of Adjudication may choose to proceed in the student’s absence.","anchor":"3.5"},
+{"value":"support_for_student","ai_named":false,"quote":"A student attending a Board of Adjudication has the right to be accompanied and represented by another member of the University.","anchor":"3.5"},
+{"value":"appeal","ai_named":false,"quote":"Students have a right of appeal against any outcomes","anchor":"7.1"},
+{"value":"timescale","ai_named":false,"quote":"Boards must meet to consider the case within fifteen working days of the convener being appointed, unless there is a compelling reason why this is not possible.","anchor":"3.5"},
+{"value":"standard_of_proof","ai_named":false,"quote":"The standard of proof that will normally apply in determining whether an accusation of academic misconduct is upheld is ‘based on the balance of probabilities’.","anchor":"1.10"}
+],
+"outcomes":[
+{"value":"educative_first_offence","ai_named":false,"quote":"The student must retake the online Training in Good Academic Practice course within five working days of the date of the written warning.","anchor":"3.4"},
+{"value":"warning","ai_named":false,"quote":"If there is a case to answer, and the AMO regards the nature of the misconduct to be such that a written warning is the appropriate sanction, the AMO should issue the written warning via MMS.","anchor":"3.4"},
+{"value":"mark_reduction","ai_named":false,"quote":"Piece of assessment capped at 7","anchor":"4.1"},
+{"value":"zero_for_work","ai_named":false,"quote":"Zero for piece of assessment","anchor":"4.1"},
+{"value":"module_failure","ai_named":false,"quote":"Zero for module with","anchor":"4.1"},
+{"value":"resubmission","ai_named":false,"quote":"Candidate must amend the parts affected by misconduct and resubmit the revised thesis within three months.","anchor":"4.2"},
+{"value":"suspension_or_exclusion","ai_named":false,"quote":"Termination of Studies","anchor":"4.1"},
+{"value":"degree_effect","ai_named":false,"quote":"if the misconduct is considered egregious, alteration or withdrawal of the degree award.","anchor":"3.6"},
+{"value":"repeat_offence_escalation","ai_named":false,"quote":"students who have been found to have committed academic misconduct on two or more occasions must be referred to a University Board.","anchor":"3.4"},
+{"value":"tariff_or_factors","ai_named":false,"quote":"Sanctions on those found to have committed academic misconduct will, as far as possible, reflect the severity of the offence that has been committed.","anchor":"1.11"}
+],
+"definitions":[
+{"term":"plagiarism","ai_named":false,"quote":"Plagiarism is the act of taking ideas or work from other sources and representing them as if it is the student’s own ideas or work.","anchor":"2.2"},
+{"term":"multiple submission","ai_named":false,"quote":"Multiple submission is the act of submitting for assessment a piece of work already (or simultaneously) submitted for assessment in the same module, another module or in another context.","anchor":"2.2"},
+{"term":"falsification","ai_named":false,"quote":"Falsification is the fabrication, alteration, or false representation of anything that forms part of a student’s output;","anchor":"2.2"},
+{"term":"aiding and abetting","ai_named":false,"quote":"Aiding and abetting is any form of assistance with another person’s academic misconduct.","anchor":"2.2"},
+{"term":"coercion","ai_named":false,"quote":"Coercion is where a student puts pressure on another student or member of staff to act in a particular way, or attempts to do so, with the intention of gaining an academic advantage.","anchor":"2.2"}
+]}
