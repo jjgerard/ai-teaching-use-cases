@@ -31,7 +31,7 @@ const cov = sample.filter((s) => s.tier === 1).map((s) => {
 });
 require("child_process").execFileSync("node", [path.join(__dirname, "patterns.js")], { stdio: "ignore" });
 const patterns = JSON.parse(fs.readFileSync(path.join(__dirname, "patterns.json")));
-const PDIRS = [...fs.readdirSync(path.join(root, "run1", "points")).filter((d) => /^b\d+$/.test(d)).map((d) => path.join(root, "run1", "points", d)), ...fs.readdirSync(path.join(root, "run1", "points", "pilot")).map((d) => path.join(root, "run1", "points", "pilot", d))];
+const PDIRS = [...fs.readdirSync(path.join(root, "run1", "points2")).filter((d) => /^q\d+$/.test(d)).map((d) => path.join(root, "run1", "points2", d)), ...fs.readdirSync(path.join(root, "run1", "points")).filter((d) => /^b\d+$/.test(d)).map((d) => path.join(root, "run1", "points", d)), ...fs.readdirSync(path.join(root, "run1", "points", "pilot")).map((d) => path.join(root, "run1", "points", "pilot", d))];
 require("child_process").execFileSync("node", [path.join(root, "..", "..", "policy", "points.js"), "merge", ...PDIRS, "--out", path.join(root, "points.json")], { stdio: "inherit" });
 const points = rd("points.json"); const noPts = {};
 for (const d of PDIRS) for (const f of fs.readdirSync(d).filter((x) => x.endsWith(".json"))) { const j = JSON.parse(fs.readFileSync(path.join(d, f))); if (j.no_points_reason) noPts[j.doc_id] = j.no_points_reason; }
