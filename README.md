@@ -11,6 +11,7 @@ live. Fork it, replace the seed data and branding with your own topic, and deplo
 - `GET /ai-for-research` — companion catalog for research (rather than teaching) case studies
 - `GET /reducing-ai-use` — companion catalog for "reducing AI (mis)use" case studies
 - `GET /trends`, `GET /research-trends` — aggregate trend/association views over the teaching and research catalogs, respectively
+- `GET /teachers-spotting-ai` — research dashboard on whether teachers can tell AI-written work from student writing (sources in `docs/teachers-spotting-ai-writing.md`)
 - `GET /ai-perceptions` — findings explorer for the AI-perceptions research papers (separate from the case-study catalogs above)
 
 ## How it works
@@ -177,6 +178,7 @@ public/
   about.html           — about page
   trends.html          — aggregate trends/associations over the teaching catalog
   research-trends.html — aggregate trends/associations over the research catalog
+  teachers-spotting-ai.html — research dashboard on human detection of AI writing
   ai-perceptions.html  — findings explorer for the separate AI-perceptions research papers
   shared.css           — shared design system, linked by catalog/submit/admin/about/
                           ai-for-research/reducing-ai-use; the trends and ai-perceptions
