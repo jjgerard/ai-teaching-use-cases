@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "purpose": "What a document says students may or may not use AI for, in which setting, and what must be acknowledged. One row per document per use and setting, plus document-level rules, each with a verbatim quote. Anything not stated stays empty.",
   "uses": [
     {
@@ -95,7 +95,7 @@
     {
       "id": "record_or_transcribe",
       "label": "Record, transcribe or summarise meetings",
-      "definition": "AI recording, live transcription, meeting or lecture notes."
+      "definition": "AI recording, live transcription, meeting or lecture notes, cleaning up or organising notes."
     },
     {
       "id": "assistive_use",
@@ -106,6 +106,46 @@
       "id": "rely_on_ai_as_source",
       "label": "Rely on AI as a source of facts",
       "definition": "Treating AI output as a reliable source, or citing AI as an authority, instead of checking primary sources."
+    },
+    {
+      "id": "fabricate_data_or_references",
+      "label": "Fabricate data, references or quotations",
+      "definition": "Making up or falsifying data, references, quotations or results with AI."
+    },
+    {
+      "id": "copy_or_paraphrase_others_work",
+      "label": "Copy or paraphrase other people's work",
+      "definition": "Using AI to copy, reword or paraphrase other people's work, including other students' work."
+    },
+    {
+      "id": "disguise_ai_use",
+      "label": "Disguise AI use",
+      "definition": "Using AI, humanising tools or paraphrasing tools to hide that text was AI-produced or to evade detection."
+    },
+    {
+      "id": "harmful_or_deceptive_content",
+      "label": "Create harmful or deceptive content",
+      "definition": "Deepfakes, impersonation, harassment, discriminatory or otherwise harmful or deceptive material."
+    },
+    {
+      "id": "delegate_to_ai_agent",
+      "label": "Let an AI agent act for you",
+      "definition": "An AI agent or agentic browser logging in, submitting work or completing online tasks on the student's behalf."
+    },
+    {
+      "id": "critical_analysis_and_evaluation",
+      "label": "Replace your own critical analysis",
+      "definition": "Using AI for the student's own critical thinking, analysis, evaluation or synthesis."
+    },
+    {
+      "id": "personal_advice",
+      "label": "Personal, health or legal advice",
+      "definition": "Using AI for emotional support, therapy, health, legal or other personal advice."
+    },
+    {
+      "id": "job_applications",
+      "label": "Job applications and recruitment",
+      "definition": "CVs, applications, interviews, assessment centres and other recruitment tasks."
     }
   ],
   "contexts": {

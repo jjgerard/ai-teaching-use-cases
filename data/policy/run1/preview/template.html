@@ -188,44 +188,6 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   <div class="plist" id="supmand"></div>
 </section>
 
-<section id="headlines">
-  <h2>Other statements institutions make</h2>
-  <p class="sub" id="hlsub"></p>
-  <div class="panel"><div class="bars" id="hlbars"></div></div>
-  <h3 style="margin:22px 0 4px">Where institutions split</h3>
-  <p class="sub">Statements that roughly half the institutions make and half do not. These are the choices that actually differ between institutions.</p>
-  <div class="panel"><div class="bars" id="hlsplit"></div></div>
-  <h3 style="margin:22px 0 4px">Do regions differ?</h3>
-  <p class="sub" id="hlregsub"></p>
-  <div class="scroll"><table class="reg pairs" id="hlreg"></table></div>
-</section>
-
-<section id="trends">
-  <h2>What institutions say most often</h2>
-  <p class="note" id="tfit" style="margin:0 0 12px"></p>
-  <p class="sub">Each bar is the number of institutions whose document makes this kind of statement. Statements are grouped by what they say, such as “the default is no AI unless the module permits it” or “do not upload university teaching materials”. Click a bar to see who says it, how it splits by region, and example quotes.</p>
-  <div class="pctl"><label><input type="checkbox" id="tthin" checked> leave out thin documents (fewer than 8 specific points)</label><label><input type="checkbox" id="taudit" checked> add statements found by re-reading each whole document</label><span class="mono" id="tcount" style="color:var(--ink2)"></span></div>
-  <p class="note" style="margin:0 0 10px">The first extraction pulled 6 to 15 distinctive rules from each document, so it under-counts things a document says in passing, such as pointing to training. Switching on the whole-document re-read adds every statement type a second pass found in the full text, each backed by a verbatim quote. The pairings under “What goes together” follow the same switch.</p>
-  <div class="tchips" id="tgroups" role="group" aria-label="Theme"></div>
-  <div class="cols"><div class="panel"><div class="bars" id="tbars"></div></div><div class="panel" id="tdetail" style="min-height:120px"></div></div>
-</section>
-
-<section id="second">
-  <h2>What a second document adds</h2>
-  <p class="sub" id="secsub"></p>
-  <div class="scroll"><table class="reg pairs" id="sectab"></table></div>
-</section>
-
-<section id="together">
-  <h2>What goes together</h2>
-  <p class="sub small" id="tpnote" style="margin-top:0"></p>
-  <div class="panel"><div class="scroll"><table class="xt pairs" id="tpairs"></table></div></div>
-  <div class="panel" style="margin-top:16px">
-    <div class="xsel"><span><label for="tpa">Statement A</label><select id="tpa"></select></span><span><label for="tpb">Statement B</label><select id="tpb"></select></span></div>
-    <div id="tpair"></div>
-  </div>
-</section>
-
 <section id="points">
   <h2>What the guidance says</h2>
   <p class="sub">Specific points from each institution's own document, quoted word for word. Each card links to the source. The one-line summary restates only what its quote says. Filter by theme, strength of wording, who it is addressed to, or a single institution.</p>
@@ -620,9 +582,9 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   var UD = TR.usesData, ULAB = {}; UD.uses.forEach(function (u) { ULAB[u.id] = u; });
   var uctx = "all", usel = null;
   var STLAB = { permitted: "Permitted", conditional: "Conditional", discouraged: "Discouraged", prohibited: "Prohibited", required: "Required" };
-  function urowsFor() { return UD.rows.filter(function (r) { return PD[r.i] && (uctx === "all" || r.c === uctx); }); }
+  function urowsFor() { return UD.rows.filter(function (r) { return PD[r.i] && (region === "All" || PD[r.i].region === region) && (uctx === "all" || r.c === uctx); }); }
   function drawUses() {
-    var N = TR.docs.filter(function (d) { return PD[d]; }).length, rows = urowsFor(), per = {};
+    var N = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }).length, rows = urowsFor(), per = {};
     rows.forEach(function (r) { var o = (per[r.u] = per[r.u] || {}); (o[r.s] = o[r.s] || new Set()).add(r.i); });
     $("usub").textContent = "Out of " + N + " institutions, how many say each use is allowed, conditional, discouraged, prohibited or required. An institution counts once per stance. Many documents say nothing about a given use, and some say different things for different settings. Counts are minimums, from quotes only. Pick a use to see who says what.";
     var ch = $("uctx"); ch.textContent = ""; [["all", "All settings"]].concat(Object.keys(UD.contexts).filter(function (k) { return k !== "unspecified"; }).map(function (k) { return [k, k.replace(/_/g, " ")]; })).forEach(function (x) { ch.appendChild(mkChip(x[1], uctx === x[0], function () { uctx = x[0]; drawUses(); })); });
@@ -642,7 +604,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     });
   }
   function drawAck() {
-    var ids = TR.docs.filter(function (d) { return PD[d]; }), N = ids.length, A = UD.ack, host = $("ackbars"); host.textContent = "";
+    var ids = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), N = ids.length, A = UD.ack, host = $("ackbars"); host.textContent = "";
     $("acksub").textContent = "What institutions say about acknowledging AI use: whether it is required, which uses are exempt, what to include, where it goes, and what happens if it is missing. Each bar counts institutions out of " + N + "; an institution with no statement is not counted.";
     function bars(title, counts, labels) { var keys = Object.keys(counts).filter(function (k) { return counts[k] > 0; }).sort(function (a, b) { return counts[b] - counts[a]; }); if (!keys.length) return; host.appendChild(el("h4", null, title)); keys.forEach(function (k) { var b = el("div", "brow share hl"); b.appendChild(el("span", "bl", (labels && labels[k]) || k.replace(/_/g, " "))); var tr = el("span", "bt"), f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * counts[k] / N) + "%"; tr.appendChild(f); b.appendChild(tr); b.appendChild(el("span", "bn", counts[k] + " of " + N + " (" + Math.round(100 * counts[k] / N) + "%)")); host.appendChild(b); }); }
     function tally(fn) { var c = {}; ids.forEach(function (d) { var a = A[d]; if (!a) return; fn(a).forEach(function (v) { if (v) c[v] = (c[v] || 0) + 1; }); }); return c; }
@@ -658,19 +620,12 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     bars("If it is missing", tally(function (a) { return [a.consequence]; }), { submission_blocked: "Submission blocked", treated_as_non_submission: "Counts as non-submission", treated_as_misconduct: "Treated as misconduct", safe_if_declared: "Declared permitted use is safe" });
     bars("Uses that need no acknowledgement", tally(function (a) { return a.exempt; }));
   }
-  function tinit() {
-    drawUses(); drawAck(); drawHeadlines(); drawSecond(); drawSupport();
-    var opts = TR.types.slice().sort(function (x, y) { return x.label.localeCompare(y.label); });
-    ["tpa", "tpb"].forEach(function (id, i) { var s = $(id); opts.forEach(function (t) { var o = document.createElement("option"); o.value = t.id; o.textContent = t.label; s.appendChild(o); }); s.value = i ? "ai_detectors_unreliable_not_sole_basis" : "rules_set_locally_by_module_or_lecturer"; s.addEventListener("change", drawTogether); });
-    $("tthin").addEventListener("change", function () { drawTrends(); drawTogether(); });
-    $("taudit").addEventListener("change", function () { drawTrends(); drawTogether(); });
-    $("tfit").textContent = TR.docs.length + " institutions, " + TR.rows.length + " specific statements, classified against a vocabulary of " + TR.types.length + " statement types. " + Math.round(100 * TR.fitCounts.clear / TR.rows.length) + "% fit a type clearly, " + Math.round(100 * (TR.fitCounts.partial || 0) / TR.rows.length) + "% partly and " + Math.round(100 * (TR.fitCounts.none || 0) / TR.rows.length) + "% not at all. A second pass over a random tenth agreed on the exact type " + TR.agreement.exact_pct + "% of the time (" + TR.agreement.group_pct + "% on the theme), though both passes are the same model. The vocabulary was built from half the institutions, then revised after a test on the other half, so it is not independently tested in its final form.";
-  }
+  function tinit() { drawSupport(); }
 
   function refresh() {
     drawRegs(); $("k-all").setAttribute("aria-pressed", kind === "all"); $("k-rules").setAttribute("aria-pressed", kind === "rules");
     $("nowshown").textContent = shown().length + " of " + DATA.docs.length + " documents shown";
-    drawExplorer(); drawMatrix(); drawCommon(); drawCross(); drawPairs(); drawPoints(); drawTrends(); drawTogether();
+    drawExplorer(); drawMatrix(); drawCommon(); drawCross(); drawPairs(); drawPoints(); drawUses(); drawAck();
   }
   drawCoverage();
   drawBars($("b-force"), "instrument_force", DATA.docs, $("who-kinds")); drawBars($("b-issuer"), "issued_by_type", DATA.docs, $("who-kinds"));
