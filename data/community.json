@@ -6573,5 +6573,107 @@
     "ev": "",
     "repo": "rai-mooc-assessments",
     "source": "seed"
+  },
+  {
+    "t": "Law school brings back invigilated exams after take-home essays drew a \"very large number\" of misconduct allegations",
+    "by": "Stewart Motha (as reported by Juliette Rowsell, Times Higher Education)",
+    "inst": "Birkbeck, University of London (Law School)",
+    "u": "https://www.timeshighereducation.com/depth/are-universities-returning-person-exams-combat-ai-cheating",
+    "reg": "UK",
+    "yr": 2026,
+    "disc": [
+      "Law"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "Academics became unwilling to mark take-home essays they believed students had not written, so the law school reintroduced invigilated exams in 2025-26. The module's lead says the change also improved attendance and engagement. It works by supervision, not by changing students' desire to use AI.",
+    "ev": "Reports that the earlier take-home format produced \"a very large number of academic misconduct allegations\" (no counts given). In the same module, 45% of students earned first-class marks under invigilated exams versus 13% on the 2024-25 take-home essays. That is a grade-distribution shift, not a direct measure of AI use, and the source gives no before/after misconduct figures.",
+    "q": "We ended up with a very large number of academic misconduct allegations, which is really quite serious.",
+    "repo": "birkbeck-law",
+    "th": "Attempts to Reduce AI Use",
+    "source": "seed"
+  },
+  {
+    "t": "Economics department replaces take-home finals with in-person exams at students' own request",
+    "by": "Smita Brunnermeier (as reported by David Estrada and Veda Devireddy, The Daily Princetonian)",
+    "inst": "Department of Economics, Princeton University",
+    "u": "https://www.dailyprincetonian.com/article/2026/02/princeton-data-end-of-take-home",
+    "reg": "US",
+    "yr": 2026,
+    "disc": [
+      "Social Sciences"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "After students themselves asked the department to move to in-class finals over AI-use and honesty concerns, the economics department's undergraduate steering committee unanimously approved dropping take-home exams. Take-home exams fell from 168 (Spring 2025) to 49 (Spring 2026), and papers, projects and presentations rose by 61. It works by supervision rather than by changing the desire to use AI.",
+    "ev": "",
+    "q": "Some of our students submitted a request to the department to switch to in-class final exams.",
+    "repo": "princeton-econ",
+    "th": "Attempts to Reduce AI Use",
+    "source": "seed"
+  },
+  {
+    "t": "Voice-AI oral exams as a defence of written project work",
+    "by": "Panos Ipeirotis and Konstantinos Rizakos",
+    "inst": "NYU Stern School of Business",
+    "u": "https://www.behind-the-enemy-lines.com/2025/12/fighting-fire-with-fire-scalable-oral.html",
+    "reg": "US",
+    "yr": 2025,
+    "disc": [
+      "Business & Management"
+    ],
+    "tool": [
+      "ElevenLabs",
+      "Claude",
+      "Gemini",
+      "ChatGPT"
+    ],
+    "s": "After finding that students could not defend polished written project submissions when cold-called, the instructors ran personalised oral exams (project defence plus case discussion) with an ElevenLabs voice agent as examiner and a council of LLMs grading, for 36 students in Fall 2025 and 37 in Spring 2026. Cost was about $0.42 per student. It works through live verification, and the data are about the exam format rather than a measured drop in AI use; most students preferred written exams. A fuller write-up is at arxiv.org/abs/2603.18221.",
+    "ev": "",
+    "q": "A student who can reason aloud through a follow-up question, defend a specific design decision, and shift when challenged has demonstrated understanding in a way no artifact can fake.",
+    "repo": "nyu-stern-oral",
+    "th": "Attempts to Reduce AI Use",
+    "source": "seed"
+  },
+  {
+    "t": "Replacing written reflections and unsupervised code with TA check-ins and in-person demos",
+    "by": "Christian Kästner",
+    "inst": "Carnegie Mellon University",
+    "u": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+    "reg": "US",
+    "yr": 2026,
+    "disc": [
+      "Computer Science"
+    ],
+    "tool": [
+      "Unspecified"
+    ],
+    "s": "After finding AI could complete his homework assignments, a software-engineering instructor swapped written reflections for 15-minute pass/fail TA check-ins, dropped graded reading quizzes, replaced unsupervised code with in-person lab demos, and raised exam weight from 15% to 25%. He reports observations only (slightly lower grade distributions, students accepting the new formats, TA grading time down 50-80%); no measured change in AI use. It works mainly through supervision.",
+    "ev": "",
+    "q": "AI is actively undermining several evidence-based teaching practices.",
+    "repo": "cmu-kastner",
+    "th": "Attempts to Reduce AI Use",
+    "source": "seed"
+  },
+  {
+    "t": "Multi-day in-class lockdown-browser essays replacing take-home essays",
+    "by": "John Robison",
+    "inst": "Indiana University Bloomington (Philosophy)",
+    "u": "https://www.insidehighered.com/opinion/career-advice/teaching/2025/07/01/multiday-class-essay-chatgpt-era-opinion",
+    "reg": "US",
+    "yr": 2025,
+    "disc": [
+      "Arts & Humanities"
+    ],
+    "tool": [
+      "ChatGPT"
+    ],
+    "s": "Take-home essays were replaced with roughly 700-word essays written over two or three class sessions in Canvas with LockDown Browser, allowing only course readings and a personal quotation bank. The instructor estimates about 30% of essays had relied on ChatGPT in ways that broke integrity rules, but reports no measured before/after outcome, only anecdotes (e.g. students changing their minds between sessions). It works by supervision.",
+    "ev": "",
+    "repo": "iu-robison",
+    "th": "Attempts to Reduce AI Use",
+    "source": "seed"
   }
 ]
