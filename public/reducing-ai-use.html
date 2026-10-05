@@ -335,7 +335,9 @@ function render() {
   tallyTotalEl.textContent = S.length;
 
   const group = GROUP_OPTIONS[groupBy];
-  const sorted = [...filtered].sort((a, b) => group.compare(group.keyFor(a), group.keyFor(b)));
+  // Within each group, entries without the supervision caveat (*) come first.
+  const sorted = [...filtered].sort((a, b) =>
+    group.compare(group.keyFor(a), group.keyFor(b)) || (CAVEAT_REPOS.has(a.repo) - CAVEAT_REPOS.has(b.repo)));
 
   let lastKey = null;
   sorted.forEach(s => {
