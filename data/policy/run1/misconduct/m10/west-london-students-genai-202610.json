@@ -1,0 +1,61 @@
+{
+ "doc_id": "west-london-students-genai-202610",
+ "coder": "mis-m10",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Using an AI tool to gain an unfair advantage by misrepresenting its work as your own is academic misconduct and can have serious consequences.",
+   "anchor": "Using AI in your assessment"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "When incorporating AI-generated content into your own work, you must acknowledge it by providing correct references. If you fail to do so this may result in academic misconduct.",
+   "anchor": "How to reference AI tools"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "It can also include using ghostwriters (including AI tools), research misconduct, and exam misconduct, as well as all other kinds of cheating to gain an unfair academic advantage.",
+   "anchor": "Academic misconduct"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "It can also include using ghostwriters (including AI tools), research misconduct, and exam misconduct, as well as all other kinds of cheating to gain an unfair academic advantage.",
+   "anchor": "Academic misconduct"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Submitting work that does not have Academic Integrity: the most common form of academic misconduct is plagiarism.",
+   "anchor": "Academic misconduct"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": true,
+   "quote": "Inputting confidential information into AI tools could breach GDPR and professional society ethics codes.",
+   "anchor": "Key terminology (FAQs)"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": true,
+   "quote": "Using an AI tool to gain an unfair advantage by misrepresenting its work as your own is academic misconduct and can have serious consequences.",
+   "anchor": "Using AI in your assessment"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": true,
+   "quote": "the most common form of academic misconduct is plagiarism. It can also include using ghostwriters (including AI tools), research misconduct, and exam misconduct"
+  }
+ ]
+}

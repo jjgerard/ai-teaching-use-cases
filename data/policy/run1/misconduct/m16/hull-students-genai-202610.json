@@ -1,0 +1,30 @@
+{
+ "doc_id": "hull-students-genai-202610",
+ "coder": "mis-m16",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Using AI is like using any other source—if you don’t acknowledge it, it’s plagiarism.",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Using AI is like using any other source—if you don’t acknowledge it, it’s plagiarism.",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": false,
+   "quote": "If you fail to follow this guidance there is a risk that your work may be considered an instance of academic misconduct.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [],
+ "definitions": []
+}

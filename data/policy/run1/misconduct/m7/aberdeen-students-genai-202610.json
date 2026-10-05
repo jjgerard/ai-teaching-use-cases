@@ -1,0 +1,65 @@
+{
+ "doc_id": "aberdeen-students-genai-202610",
+ "coder": "mis-m7",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "using GenAI tools to generate content for work submitted for assessment, without authorisation or acknowledgement, will be regarded as academic misconduct and investigated as a plagiarism offence under the Code of Practice on Student Discipline (Academic).",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "using GenAI tools to generate content for work submitted for assessment, without authorisation or acknowledgement, will be regarded as academic misconduct and investigated as a plagiarism offence under the Code of Practice on Student Discipline (Academic).",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "they should not be used as a means of generating the assignment (or part of the assignment) and submitted as if it were your own work. The latter is regarded as academic misconduct.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "In instances where a staff member suspects that there are elements in your assessed work that have been created using GenAI tools",
+   "anchor": null
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "This evidence could include earlier drafts, notes or documentation that illustrates the development of the final assessment.",
+   "anchor": null
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "You might be asked to engage in a discussion about your submission, to determine if your level of knowledge aligns with that demonstrated in the submitted assignment.",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "they have the option to discuss this with you",
+   "anchor": null
+  },
+  {
+   "value": "investigation",
+   "ai_named": true,
+   "quote": "using GenAI tools to generate content for work submitted for assessment, without authorisation or acknowledgement, will be regarded as academic misconduct and investigated as a plagiarism offence under the Code of Practice on Student Discipline (Academic).",
+   "anchor": null
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}

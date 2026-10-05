@@ -1,0 +1,33 @@
+{
+ "doc_id": "royal-agricultural-students-genai-202610",
+ "coder": "mis-m17",
+ "liability": [],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Academic integrity is maintained retrospectively, through similarity analysis and academic scrutiny.",
+   "anchor": "Coursework"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Academic integrity is maintained retrospectively, through similarity analysis and academic scrutiny.",
+   "anchor": "Coursework"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "is the 20% similarity score due to high use of quotes/references and therefore not an indicator of possible plagiarism or does the assessment require further investigation – see student misconduct policy)",
+   "anchor": "Marking"
+  }
+ ],
+ "outcomes": [],
+ "definitions": [],
+ "offences": [],
+ "scope": "general_misconduct"
+}
