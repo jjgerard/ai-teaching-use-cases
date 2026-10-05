@@ -1,0 +1,24 @@
+{
+ "doc_id": "kcl-students-genai-202610",
+ "coder": "v2-b10",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "These tools are NOT databases of knowledge. They ’predict’ combinations of plausible words; they should never be used instead of, but may be used alongside, conventional approaches to sourcing information.",
+   "anchor": "What do you mean by AI and generative AI?"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "At King’s we are a signatory to the Russell Group principles:",
+   "why": "Signatory to external principles; not clearly own governance description."
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "King’s sees this as a key academic skill that you will need to develop to succeed in your studies and career.",
+   "why": "Skills support provision, not clearly taught within programmes."
+  }
+ ]
+}

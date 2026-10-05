@@ -1,0 +1,13 @@
+{
+ "doc_id": "teesside-students-genai-202610",
+ "coder": "v2-b20",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Always check facts and accuracy using trusted academic sources (books, journals, library databases).",
+   "why": "Verification of AI output; may fit neighbour verify type"
+  }
+ ]
+}

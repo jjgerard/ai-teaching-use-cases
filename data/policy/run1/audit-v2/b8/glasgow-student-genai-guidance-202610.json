@@ -1,0 +1,19 @@
+{
+ "doc_id": "glasgow-student-genai-guidance-202610",
+ "coder": "v2-b8",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Always find and read your sources. Use your reading lists and the University Library.",
+   "anchor": "AI used to generate citations \u2013 unsupervised assessment"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "The university therefore has a responsibility to prepare you for this world, providing space to experiment with, and understand the potential of, AI in an ethical way.",
+   "why": "Preparation aim stated, but not clearly teaching within programmes"
+  }
+ ]
+}

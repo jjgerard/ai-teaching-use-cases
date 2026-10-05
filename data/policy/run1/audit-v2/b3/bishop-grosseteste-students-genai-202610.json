@@ -1,0 +1,29 @@
+{
+ "doc_id": "bishop-grosseteste-students-genai-202610",
+ "coder": "v2-b3",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Collusion occurs where a student submits, with the intent of gaining unfair advantage, work which has been done in collaboration with another person as entirely their own.",
+   "anchor": "2.3.6. Collusion"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "The Panel will be required to exercise judgment in each case on the severity of the outcome, taking into consideration the circumstances of the misconduct, the number of students involved, any record of previous misconduct, the level of the programme on which the student is registered and any mitigating factors",
+   "anchor": "6. PROCEDURE FOR THE INVESTIGATION AND DETERMINATION OF ALLEGATIONS OF ACADEMIC MISCONDUCT"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "The Panel shall proceed with or without the attendance of the student concerned, unless the student has established a claim for extenuating circumstances which warrants a deferment of the meeting.",
+   "anchor": "Process for Academic Misconduct – Stage Two"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "Misconduct in research is a failure to comply with the provisions of the University’s Code of Conduct for Doctoral Research.",
+   "why": "Refers to doctoral code but as compliance, not guidance pointer"
+  }
+ ]
+}

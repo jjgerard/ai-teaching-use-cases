@@ -1,0 +1,29 @@
+{
+ "doc_id": "bpp-students-genai-202610",
+ "coder": "v2-b4",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "BPPs Library service is the gateway to academic research and through your BPP account you will have access to 1000’s of journals, periodicals, books and databases and should always be your first point of call.",
+   "anchor": "5. General Acceptable Use"
+  },
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "any attempts to disguise the use of AI would be subject to Academic Misconduct.",
+   "anchor": "2. General unacceptable use"
+  },
+  {
+   "type": "placement_or_client_rules_apply",
+   "quote": "Using Gen AI tools in a way that contravenes a clients own organisational policies.",
+   "anchor": "1. General principles"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "Generative AI in BPP Apprenticeship Education: Position Statement and guiding principles",
+   "why": "Points to institutional position statement and principles; only a title reference."
+  }
+ ]
+}

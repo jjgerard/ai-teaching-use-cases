@@ -1,0 +1,29 @@
+{
+ "doc_id": "suffolk-students-genai-202610",
+ "coder": "v2-b19",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "placement_or_client_rules_apply",
+   "quote": "Students on placement and work-based projects or equivalent should check the policy and approach to the use of AI tools of the placement provider or employer",
+   "anchor": "Institutional practice"
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "Generative AI should be embedded in curricula and assessment in ways which enhance and deepen key student skills such as critical analysis and evaluation and play a role in increasing the AI literacy of the University community.",
+   "anchor": "Purpose"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "these should be discussed with the Pro Vice-Chancellor Education and Student Experience, or equivalent at partner institutions, and, where appropriate, approved through the governance structure.",
+   "why": "Governance structure mentioned only for exceptions, not described"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "Comply with internal and external requirements, including funder requirements, journal submission guidelines, and the University's Research and Knowledge Exchange Ethics Governance Framework.",
+   "why": "Mentions journal guidelines, not explicitly publishers' AI policies"
+  }
+ ]
+}

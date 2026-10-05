@@ -1,0 +1,34 @@
+{
+ "doc_id": "birmingham-students-genai-202610",
+ "coder": "v2-b3",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "do_not_put_own_work_into_ai_tools",
+   "quote": "When using a Generative AI tool to correct grammar and syntax, you should not copy and paste large amounts of your own writing into the tool.",
+   "anchor": "7. Editing and proofreading work"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Plagiarism can occur in all types of assessment when a Student claims as their own, intentionally or by omission, work which was not done by that Student. This may occur in a number of ways e.g. copying and pasting material, adapting material and self-plagiarism.",
+   "anchor": "Academic misconduct"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Use the Library Catalogue, FindIt@Bham, or an appropriate academic database.",
+   "why": "Library search offered for verifying AI output, not instead of AI"
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "This includes a commitment to supporting students and PGRs to become ‘AI-literate’.",
+   "why": "Commitment to AI literacy, not clearly within programmes or outcomes"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "The Research Skills Team supports PGRs to understand the use of AI and GenAI for researchers.",
+   "why": "Points to a team, not a separate guidance document"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-students-genai-202610",
+ "coder": "v2-b17",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "Human oversight: AI-informed decision making should always be subject to human oversight.",
+   "anchor": "Ethical Principles"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "Information and training should be provided to staff and students to support them to use AI in an informed and ethical way.",
+   "why": "Training provision, not clearly curriculum or learning outcome"
+  },
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "The operation of AI detectors can easily be bypassed by paraphrasing the AI outputs, including using other AI tools.",
+   "why": "Detector unreliability point; concealment not called out as a problem"
+  }
+ ]
+}

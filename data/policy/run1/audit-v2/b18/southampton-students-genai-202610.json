@@ -1,0 +1,24 @@
+{
+ "doc_id": "southampton-students-genai-202610",
+ "coder": "v2-b18",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "we aim to develop our teaching, learning and assessment to ensure that an education prepares you to be: critically digitally literate",
+   "anchor": "Our views on using GenAI"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Searching and Generative AI \u2013 advice from our Library Services",
+   "why": "Library advice link only; no statement to use library instead of AI"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "AI and research at Southampton",
+   "why": "Staff guidance link; not clearly for researchers"
+  }
+ ]
+}

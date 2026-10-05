@@ -1,0 +1,13 @@
+{
+ "doc_id": "soas-london-students-genai-202610",
+ "coder": "v2-b17",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Copy references used in an AI generated text without verifying its credibility and reading the original source.",
+   "why": "Verification of references; not clearly library-instead-of-AI"
+  }
+ ]
+}

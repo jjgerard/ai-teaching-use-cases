@@ -1,0 +1,18 @@
+{
+ "doc_id": "cardiff-metropolitan-students-genai-202610",
+ "coder": "v2-b5",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "Grounded in the University\u2019s AI Position Statement and Guiding AI Principles, the Hub:",
+   "why": "Mentions principles only as basis for hub; no governance described."
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "Supports students to develop AI literacy, helping them to question, evaluate and verify AI outputs rather than relying on them uncritically.",
+   "why": "Hub support, not stated as taught within programmes."
+  }
+ ]
+}

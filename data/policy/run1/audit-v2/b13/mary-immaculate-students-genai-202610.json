@@ -1,0 +1,39 @@
+{
+ "doc_id": "mary-immaculate-students-genai-202610",
+ "coder": "v2-b13",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "2.1 Plagiarism is defined as the use of either published or unpublished writing, ideas or works without proper acknowledgement.",
+   "anchor": "Academic Misconduct and Generative AI"
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "Students' assignments and data should not be submitted to third party applications without consulting the College and without obtaining the student\u2019s consent.",
+   "anchor": "Considerations Relating to Suspected Breaches of the Academic Integrity Policy"
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "These systems must undergo formal risk assessments and be subject to continuous oversight to ensure they do not infringe on individual rights or institutional obligations.",
+   "anchor": "Data Compliance"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "Students may incur a grade penalty if prior communication has been issued to them advising that GenAI cannot to be used for a particular assessment or in a particular way within the assessment.",
+   "why": "Prior communication as a condition for penalty; no tariff detail."
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "there may be a case for further investigation for a breach of the MIC Academic Integrity Policy. In such instances, the agreed procedures for reporting suspected breaches should be followed, as outlined in the MIC Code of Student Conduct.",
+   "why": "Generic reporting and investigation step; no specialist or formal-right detail."
+  },
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Be sure to prioritise your own academic judgement, the academic judgement of your lecturer and the scholarly works you have engaged with over a Generative AI output.",
+   "why": "Prioritises scholarly works over AI, but not library search or reading sources."
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "doc_id": "bath-spa-students-genai-202610",
+ "coder": "v2-b2",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "you must check everything it says with a reputable source, such as resources from the Library, for example academic journals, and textbooks.",
+   "why": "Library verification after AI, not clearly instead of or before AI"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "doc_id": "bradford-students-genai-202610",
+ "coder": "v2-b4",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Contract cheating, whereby a student commissions a person or organisation to complete assessments (including exams) on their behalf, e.g. in exchange for some kind of financial payment or other reward.",
+   "anchor": "Gross Academic Misconduct"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "A student has had two or more upheld academic misconduct outcomes in any previous semester, stage or level of their studies, with a combined credit value exceeding 40 credits.",
+   "anchor": "Academic Misconduct: Outcomes and Penalties Framework"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "Issues of academic integrity and ethical practice as they relate to postgraduate research students and/or members of staff at the University are considered via a separate policy within Research and Innovation Services.",
+   "anchor": "2. Purpose and Scope"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "the first marker, or other member of the marking team, will submit a case via the ‘Academic Misconduct Referral Form’",
+   "why": "General integrity referral step, not AI-specific or specialist analysis."
+  }
+ ]
+}

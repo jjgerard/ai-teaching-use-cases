@@ -1,0 +1,19 @@
+{
+ "doc_id": "national-ireland-students-genai-202610",
+ "coder": "v2-b14",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Academic Dishonesty is: - Concealing your methods and not maintaining transparency in your approach.",
+   "anchor": "Use of AI in Teaching and Learning: Student Guide"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "Concealing your methods and not maintaining transparency in your approach.",
+   "why": "concealing methods is general, not explicitly disguising AI text"
+  }
+ ]
+}

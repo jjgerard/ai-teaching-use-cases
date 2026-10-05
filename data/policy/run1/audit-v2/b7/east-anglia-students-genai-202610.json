@@ -1,0 +1,39 @@
+{
+ "doc_id": "east-anglia-students-genai-202610",
+ "coder": "v2-b7",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "UEA has approved the use of the TurnitIn AI detection software for taught programmes, but this must be used with caution by Plagiarism Officers only due to reported inaccuracy",
+   "anchor": "6. Technology"
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "The UEA Generative AI working group will continue to meet and surface emerging technologies, opportunities and challenges.",
+   "anchor": "3. Governance"
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "The use of AI in the workplace is going to expand and We should develop confidence in our students to be able to use AI tools, how to generate input questions to get the best outputs and evaluate what they do well, and where there are limitations.",
+   "anchor": "Digital literacy"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "The use of Generative AI in the research work of postgraduate research programmes is covered by the University Policy for the use of Generative AI in Research.",
+   "anchor": "1. Scope"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "There are certainly better and more accurate tools to surface research papers.",
+   "why": "Prefers other tools for literature search but names no library or databases"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "The use of computer assistance to give the impression that a student has learned more than they have is academic misconduct.",
+   "why": "Reads as a label of misconduct, not clearly a definition"
+  }
+ ]
+}

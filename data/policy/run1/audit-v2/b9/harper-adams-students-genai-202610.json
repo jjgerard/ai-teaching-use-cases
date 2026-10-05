@@ -1,0 +1,39 @@
+{
+ "doc_id": "harper-adams-students-genai-202610",
+ "coder": "v2-b9",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Contact Cheating is when a student commissions another person or organisation to complete their assignments or exams, presenting the work as their own.",
+   "anchor": "Appendix 2: Glossary"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "Involves less than 25% of the assessed work or occurs in a part of the work of lesser importance in relation to the assessment marking criteria.",
+   "anchor": "Minor Academic Misconduct"
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "Review the Turnitin originality report for the submitted work to help determine if the work represents poor academic practice or requires further investigation.",
+   "anchor": "Major academic misconduct"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "If, after completing the steps above, gross academic misconduct is still suspected, the relevant tutor should collate the following information for the Principal Academic Misconduct Investigator.",
+   "anchor": "Gross academic misconduct"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "Intent to deceive or circumvent text-matching software such as Turnitin",
+   "why": "Circumvents text-matching software; AI concealment not explicit."
+  },
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "AI may provide some helpful ideas about areas to research, but these should always be followed up with research using the appropriate academic sources.",
+   "why": "Follow-up research advice, not clearly library in place of AI."
+  }
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "doc_id": "lancashire-students-genai-202610",
+ "coder": "v2-b11",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Plagiarism occurs where a student copies words or ideas from another person and presents those words or ideas as their own in an assessment without properly acknowledging and citing the source(s).",
+   "anchor": "11. Definitions of Academic Misconduct"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "the severity of the case the circumstances of the case the level at which the offence took place what stage of the course the student is at whether it was a repeat offence",
+   "anchor": "19. Penalties for Academic Misconduct"
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "interpreting detection software reports, where the substance of the copied material will be considered as well as the quantity, and there is no percentage threshold for an investigation to be initiated; and",
+   "anchor": "8. Academic Judgment"
+  },
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "Attempting to use AI to humanise or attempt to hide the use of AI so that the submitted assessment does not reflect the student’s own understandings, thoughts or ideas.",
+   "anchor": "11.6 Unauthorised Use of Technology"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "For Category 3 allegations if the student does not attend the meeting without good cause, a decision may be made in their absence and a penalty may be imposed",
+   "anchor": "17. Academic Integrity Lead (Category 2 and 3)"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "do_not_put_own_work_into_ai_tools",
+   "quote": "Uploading an assessment to be automatically rewritten or translated, so that the submitted assessment does not reflect the student’s own understandings, thoughts or ideas.",
+   "why": "Misconduct example about uploading to rewriters, not a direct do-not-upload rule."
+  }
+ ]
+}

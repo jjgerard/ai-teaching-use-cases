@@ -1,0 +1,13 @@
+{
+ "doc_id": "sunderland-students-genai-202610",
+ "coder": "v2-b19",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Do not rely on Gen-AI for research purposes.",
+   "why": "No library or reading-sources alternative named"
+  }
+ ]
+}
