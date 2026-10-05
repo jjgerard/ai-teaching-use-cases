@@ -1,0 +1,9 @@
+{"doc_id":"swansea-students-genai-202610","coder":"use-u6",
+"uses":[
+{"use":"include_ai_output_in_work","context":"assessed_work","stance":"permitted","acknowledge":"required","conditions":[],"quote":"Apply appropriate referencing techniques to acknowledge the use of AI generated content in academic work, including accurate use of in-text citations in line with institutional academic integrity guidelines.","anchor":"Acknowledging and Referencing AI Use"},
+{"use":"explain_or_tutor","context":"study","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"Use basic functions of AI tools to build knowledge and address misconceptions and/or gaps in understanding.","anchor":"Enhancing learning with AI"},
+{"use":"revise_or_practise","context":"study","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"Use AI tools to develop and use study resources including summaries, key points for revision and self-assessments.","anchor":"Enhancing learning with AI"}
+],
+"default_when_silent":null,
+"decided_by":[{"value":"assessment_brief","quote":"Follow assessment instructions around permitted AI use and disclosure"}],
+"acknowledgement":{"duty":{"value":"conditional","quote":"Follow assessment instructions around permitted AI use and disclosure"},"contents":[],"location":[],"records":null,"referencing":{"value":"cite_in_reference_list","quote":"Apply institutional accepted referencing standards for AI tools, including in-text citations, reference lists, and university declaration statements."},"consequence":null,"exempt":[]}}

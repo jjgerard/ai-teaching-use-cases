@@ -1,0 +1,157 @@
+{
+ "doc_id": "hull-students-genai-202610",
+ "coder": "use-u16",
+ "uses": [
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Get a general structure for an essay, presentation, or other work as a starting point",
+   "anchor": "AI in Assessment"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Suggest corrections for spelling and punctuation",
+   "anchor": "AI in Assessment"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Help with research by providing an overview of a topic (just remember to reference it if you use it in your work)",
+   "anchor": "AI in Assessment"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "However, unless you have explicit permission, you cannot use AI to:",
+   "anchor": "AI in Assessment"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Write or rewrite your work for you",
+   "anchor": "AI in Assessment"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "needs_permission"
+   ],
+   "quote": "Create images or code without acknowledging the source",
+   "anchor": "AI in Assessment"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "needs_permission"
+   ],
+   "quote": "Create images or code without acknowledging the source",
+   "anchor": "AI in Assessment"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "exams_or_supervised",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Contribute to a viva or exam that is invigilated",
+   "anchor": "AI in Assessment"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "needs_permission"
+   ],
+   "quote": "Perform research tasks, such as generating data or acting as a source of factual information, without acknowledging the source",
+   "anchor": "AI in Assessment"
+  },
+  {
+   "use": "any_use",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "For example, if you’re working on a research thesis, discuss the use of AI with your supervisor.",
+   "anchor": "AI in Assessment"
+  }
+ ],
+ "default_when_silent": {
+  "value": "use_by_use_rule",
+  "quote": "Unless specified otherwise, you can use AI to:"
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "If you’re thinking about using AI tools for your assessments, check with your module leader and the assessment brief to see if it’s appropriate for that specific task."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "If you’re thinking about using AI tools for your assessments, check with your module leader and the assessment brief to see if it’s appropriate for that specific task."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Using AI is like using any other source—if you don’t acknowledge it, it’s plagiarism."
+  },
+  "contents": [
+   {
+    "value": "prompts",
+    "quote": "You might need to make a general statement about your AI use or include details of the prompts you used."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "You might need to make a general statement about your AI use or include details of the prompts you used."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "If you’ve been given permission to include AI-generated content in your work, the University’s AI SkillsGuide provides instructions on how to reference it."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Using AI is like using any other source—if you don’t acknowledge it, it’s plagiarism."
+  },
+  "exempt": []
+ }
+}

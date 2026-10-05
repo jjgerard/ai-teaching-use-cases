@@ -1,0 +1,85 @@
+{
+ "doc_id": "westminster-students-genai-202610",
+ "coder": "use-u11",
+ "uses": [
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It can help explain complex topics, generate ideas, assist with proofreading, and create personalised study materials.",
+   "anchor": "Using GenAI tools in your studies and assessments"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It can help explain complex topics, generate ideas, assist with proofreading, and create personalised study materials.",
+   "anchor": "Using GenAI tools in your studies and assessments"
+  },
+  {
+   "use": "check_language",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It can help explain complex topics, generate ideas, assist with proofreading, and create personalised study materials.",
+   "anchor": "Using GenAI tools in your studies and assessments"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It can help explain complex topics, generate ideas, assist with proofreading, and create personalised study materials.",
+   "anchor": "Using GenAI tools in your studies and assessments"
+  },
+  {
+   "use": "analyse_data",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative Artificial Intelligence (GenAI) tools can generate text, images, and videos to support you in developing ideas and help in data analysis and coding.",
+   "anchor": null
+  },
+  {
+   "use": "generate_code",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative Artificial Intelligence (GenAI) tools can generate text, images, and videos to support you in developing ideas and help in data analysis and coding.",
+   "anchor": null
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "For assessed coursework, you must disclose any use of GenAI.",
+   "anchor": "Using GenAI tools in your studies and assessments"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "For assessed coursework, you must disclose any use of GenAI."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}
