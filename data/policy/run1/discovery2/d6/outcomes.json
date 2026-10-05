@@ -1,0 +1,167 @@
+[
+ {
+  "name": "National University of Ireland, Maynooth",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/Maynooth%20University%20Policy%20on%20Academic%20Misconduct%20and%20Academic%20Integrity%20(1).pdf",
+   "title": "Maynooth University Policy on Academic Misconduct and Academic Integrity",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": null,
+   "retrieved_here": false,
+   "http": 404,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/MU%20Policy%20on%20Plagiarism%20and%20Academic%20Integrity_Sept%202022_0.pdf",
+    "why": "2022 plagiarism policy; no AI content"
+   },
+   {
+    "url": "https://www.maynoothuniversity.ie/student-success/your-academic-journey/how-can-i-use-genai-my-assessments",
+    "why": "403 to fetch; guide, same kind as first"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.maynoothuniversity.ie/sites/default/files/assets/document/Terms%20of%20Reference%20-%20Academic%20Discipline%20Board.pdf",
+    "title": "Terms of Reference for the Academic Discipline Board (200; mentions unauthorised AI per search summary)",
+    "audience": "staff"
+   },
+   {
+    "url": "https://www.maynoothuniversity.ie/centre-teaching-and-learning/genai-guidelines-teaching-learning-and-assessment",
+    "title": "GenAI Guidelines for Teaching, Learning, and Assessment",
+    "audience": "staff"
+   }
+  ],
+  "note": "URL and AI wording come from search results; live fetch returned 404 (WebFetch and curl)."
+ },
+ {
+  "name": "Royal College of Surgeons in Ireland",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.rcsi.com/dublin/-/media/feature/media/download-document/rcsi-policies/academic-integrity-policy.pdf",
+   "title": "Academic Integrity Policy",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "MHSB approved May 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.rcsi.com/dublin/news-and-events/news/news-article/2026/04/rcsi-launches-new-generative-ai-policy-and-resource-hub",
+    "title": "RCSI launches new generative AI policy and resource hub",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.rcsi.com/dublin/student-policies",
+    "title": "Student policies hub",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Technological University Dublin",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Academic-Integrity-Procedures-Final-Sept-24.pdf",
+   "title": "Academic Integrity Procedures (Sept 2024)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Sept 2024",
+   "retrieved_here": false,
+   "http": 404,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/assessment-/Breaches-of-Assessment-Regulations.pdf",
+    "why": "only points to the GenAI guidelines (one passing mention); fallback candidate"
+   },
+   {
+    "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Guidance-for-generative-AI-in-education-and-research.pdf",
+    "why": "UNESCO document, not institutional"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.tudublin.ie/explore/about-the-university/academic-affairs/academic-quality-assurance-and-enhancement/academic-integrity/",
+    "title": "Academic Integrity page (200; names AI as artificially created work)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.tudublin.ie/explore/about-the-university/academic-affairs/assessment-regulations/faq/",
+    "title": "Assessment regulations FAQ",
+    "audience": "students"
+   }
+  ],
+  "note": "Search results list the procedures PDF with AI wording, but fetch returns 404 (WebFetch and curl)."
+ },
+ {
+  "name": "Technological University of the Shannon: Midlands Midwest",
+  "outcome": "not_found",
+  "doc": null,
+  "queries": [
+   "TUS Shannon academic integrity generative AI students policy",
+   "TUS Academic Integrity and Plagiarism Policy artificial intelligence",
+   "TUS Academic Integrity and Plagiarism Policy learners academic infringement",
+   "TUS generative AI guidelines for students learning teaching assessment (all with allowed_domains tus.ie)"
+  ],
+  "rejected": [
+   {
+    "url": "https://tus.ie/app/uploads/AcademicServices/Quality/Handbook/VOL4/1_TUS-Academic-Regulations-for-Taught-Programmes-2025-2026-AC-20.06.2025.pdf",
+    "why": "404 on fetch"
+   },
+   {
+    "url": "https://tus.ie/app/uploads/AcademicServices/Quality/Handbook/VOL4/1_TUS-Academic-Regulations-for-Taught-Programmes-2024-2025-AC-10.09.2024.pdf",
+    "why": "404 on fetch; superseded"
+   },
+   {
+    "url": "https://tus.ie/cpid/academic-integrity/",
+    "why": "same page as first document"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://tus.ie/governance/policies/",
+    "title": "Corporate policies hub (Academic Integrity and Plagiarism policy not linked as a URL)",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Trinity College Dublin",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.tcd.ie/media/tcd/about/policies/pdfs/academic/Academic-Integrity-Policy.pdf",
+   "title": "Academic Integrity Policy (QPOLAcI v1.2)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Date of Issue 29 May 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.tcd.ie/media/tcd/about/policies/pdfs/academic/Suspected-Academic-Misconduct-Procedure.pdf",
+    "why": "2024 procedure; no AI content"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.tcd.ie/media/tcd/academic-affairs/pdfs/College_Statement_on_GenAI_v2_2026.pdf",
+    "title": "College Statement on AI and GenAI v2 (4 June 2026; 200)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.tcd.ie/academicpractice/resources/gen-ai-hub/genai-and-assessment/",
+    "title": "GenAI and Assessment",
+    "audience": "staff"
+   }
+  ]
+ }
+]
