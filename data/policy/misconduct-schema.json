@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "purpose": "What a document says about academic misconduct involving AI: what counts as an offence, how it is detected, how a case is handled, and what the outcomes are. Each value has a verbatim quote and a flag for whether the quote itself names AI. Rules about what AI may be used for are in the uses schema, not here.",
   "offences": {
     "undeclared_use": "using AI without the required acknowledgement or declaration",
@@ -10,7 +10,10 @@
     "contract_cheating_or_ghostwriting": "having a third party, essay mill or AI produce work on the student's behalf",
     "misuse_of_others_work": "copying, paraphrasing or submitting other people's work, including other students' work",
     "exam_or_supervised_breach": "using AI in an exam or supervised assessment where not permitted",
-    "data_or_upload_breach": "uploading personal, confidential, copyright or university material to AI tools against the rules"
+    "data_or_upload_breach": "uploading personal, confidential, copyright or university material to AI tools against the rules",
+    "facilitating_or_collusion": "helping, enabling or colluding with another person's misconduct (aiding, abetting, sharing work)",
+    "impersonation_or_coercion": "impersonation, bribery, coercion or other deception of staff or fellow students",
+    "self_plagiarism_or_multiple_submission": "reusing one's own earlier work or submitting the same work more than once"
   },
   "liability": {
     "strict_liability": "ignorance, accident or lack of intent is no defence",
@@ -44,7 +47,8 @@
     "support_for_student": "support or representation is offered (students' union, adviser)",
     "appeal": "a right to appeal",
     "timescale": "a stated timescale for the process",
-    "standard_of_proof": "a stated standard of proof (for example balance of probabilities)"
+    "standard_of_proof": "a stated standard of proof (for example balance of probabilities)",
+    "records_or_register": "a record or register of cases is kept"
   },
   "outcomes": {
     "educative_first_offence": "a first or minor offence is handled educatively",
@@ -57,7 +61,10 @@
     "degree_effect": "an effect on the degree classification or award",
     "repeat_offence_escalation": "repeat or concurrent offences are treated more severely",
     "tariff_or_factors": "a penalty tariff or stated factors that set the penalty",
-    "penalty_stated_without_detail": "penalties are mentioned but not specified"
+    "penalty_stated_without_detail": "penalties are mentioned but not specified",
+    "mark_cap": "a cap on the mark (for example resubmission capped at the pass mark)",
+    "award_withdrawn_or_post_award": "withdrawal of an award or a procedure for cases found after the award",
+    "professional_referral": "referral to a professional or fitness-to-practise body"
   },
   "definitions": "terms defined by the document (contract cheating, false authorship, plagiarism, collusion), free text of at most four words",
   "scope": {

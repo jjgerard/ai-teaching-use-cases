@@ -25,6 +25,16 @@ Then, for each vocabulary value the document states, write one row: `{value, ai_
 One row per value (for `detection`, one per method and stance). Choose the clearest quote; if a value appears in several places, use the one that names AI if there is one.
 A tariff table or a list of penalties by offence may be quoted by its clearest single line; do not stitch lines. If a sentence is split by a page or table break, quote the longest contiguous part that still makes the statement.
 
+## Rulings from the pilot (apply them)
+
+- **One quote may support several values.** "Unacknowledged AI-generated content is plagiarism" is both `passing_off` and `undeclared_use`; give each its own row with the same quote.
+- **`undeclared_use`** needs the document to call not acknowledging or not declaring AI an offence (misconduct, plagiarism, a breach). A bare duty to declare, with no consequence stated, is not an offence row.
+- **Liability:** "intent is not required but is relevant to the penalty" is both `strict_liability` and `intent_considered`. "Intentional or inadvertent" is `strict_liability`. `ignorance_mitigates` only where the document says inexperience or ignorance counts in the student's favour (a poor-practice route, an induction period, lower penalty).
+- **Detection:** "similarity checking software to detect plagiarism or AI misuse" gets a row for both `similarity_software` and `ai_detection_software`. "Detection software" with no further word is `ai_detection_software` only when AI is named in the quote. A stated warning that results are unreliable is stance `unreliable` for the method it concerns.
+- **Process:** an informal first meeting is `informal_conversation`; a formal hearing, panel or exploratory interview is `hearing`; an oral check of understanding is `oral_viva_or_interview`. A timescale needs an actual period ("within 10 working days"); "timely manner" is not one.
+- **Outcomes:** `zero_for_work` is a zero for the piece; `module_failure` is failing the module; a cap on the mark is `mark_cap`; a "formal reprimand" or written warning is `warning`. Where one sentence covers two outcomes, write both.
+- **New values** added after the pilot: offences `facilitating_or_collusion`, `impersonation_or_coercion`, `self_plagiarism_or_multiple_submission`; process `records_or_register`; outcomes `mark_cap`, `award_withdrawn_or_post_award`, `professional_referral`.
+
 Do not record: what AI may be used for (uses schema), data and tool rules, support and training, staff-only duties of setting assessments.
 A document with no misconduct content gets `scope: "none"` and empty lists: a valid result.
 
