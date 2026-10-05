@@ -1,0 +1,28 @@
+{
+ "doc_id": "cardiff-metropolitan-d2-misconduct-procedure-202610",
+ "coder": "pts-q2",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Inappropriate use of artificial intelligence software or services in the completion of assessments. Assignment briefs will identify where use of artificial intelligence may be appropriate; in all other cases it is not.",
+   "anchor": null,
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Inappropriate AI use in assessments is misconduct; assignment briefs say where AI may be appropriate and elsewhere it is not."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Attempting to manipulate or evade academic integrity detection processes or software (e.g. Turnitin).",
+   "anchor": null,
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "Trying to manipulate or evade integrity detection processes or software such as Turnitin is misconduct."
+  }
+ ]
+}

@@ -1,0 +1,38 @@
+{
+ "doc_id": "edinburgh-d2-assessment-policy-202610",
+ "coder": "pts-q4",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "The use of Generative AI tools (such as ChatGPT or others) to generate an assignment (or part of an assignment) and submit this as if were one’s own work will be regarded as academic misconduct and treated as such.",
+   "anchor": "30.4",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using GenAI tools such as ChatGPT to generate an assignment or part of one and submitting it as one's own is academic misconduct."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Programme and/or course handbooks will provide additional guidance in cases where AI tools might form part of an assessment task.",
+   "anchor": "30.4",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Programme or course handbooks give extra guidance where AI tools might be part of an assessment task."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Students need to be careful when using Generative AI tools.",
+   "anchor": "30.4",
+   "addressee": "student",
+   "force": "should",
+   "topic": "accuracy_and_verification",
+   "specific": false,
+   "gist": "Students are told to be careful when using Generative AI tools."
+  }
+ ]
+}

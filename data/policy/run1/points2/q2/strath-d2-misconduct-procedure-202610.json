@@ -1,0 +1,58 @@
+{
+ "doc_id": "strath-d2-misconduct-procedure-202610",
+ "coder": "pts-q2",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "The University does not endorse or permit the use of any Artificial Intelligence detection tools or services to determine if the unauthorised use of Generative AI has taken place, and does not permit the submission of students' work to these tools or services.",
+   "anchor": "12",
+   "addressee": "both",
+   "force": "must_not",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "The University does not permit AI detection tools to judge unauthorised GenAI use, or submission of student work to them."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Other behaviours that may give an unfair academic advantage, including the unauthorised use of Generative Artificial Intelligence tools and services.",
+   "anchor": "Prohibited behaviours",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Unauthorised use of Generative AI tools and services is listed among behaviours giving unfair academic advantage."
+  },
+  {
+   "point_id": "p03",
+   "quote": "including the use of any software or artificial intelligence to generate create or revise work, simply because the way that idea is expressed has been changed.",
+   "anchor": "Plagiarism",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Plagiarism includes using software or AI to generate or revise work where an idea is passed off as the student's own."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Misconduct Officers are permitted to include questions of an investigatory nature specific to the assessment within the Stage 1 Investigation Interview.",
+   "anchor": "45",
+   "addressee": "staff",
+   "force": "may",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "Misconduct Officers may ask assessment-specific investigatory questions in the Stage 1 interview where authorship is in doubt."
+  },
+  {
+   "point_id": "p05",
+   "quote": "The University reserves the right to put a student’s academic work through similarity checking software, such as Turnitin, as part of a misconduct investigation process.",
+   "anchor": "12",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "The University may run student work through similarity checking software such as Turnitin during a misconduct investigation."
+  }
+ ]
+}

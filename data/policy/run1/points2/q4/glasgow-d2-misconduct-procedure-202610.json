@@ -1,0 +1,78 @@
+{
+ "doc_id": "glasgow-d2-misconduct-procedure-202610",
+ "coder": "pts-q4",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Students must not use generative Artificial Intelligence (AI) tools or AI-powered websites in ways which breach assessment instructions, for example to generate content, answers, or references.",
+   "anchor": "32.3 Generative Artificial Intelligence",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Students must not use AI tools or AI-powered websites in ways that breach assessment instructions, such as generating content, answers or references."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Where the use of AI is permitted, it must be verified and appropriately referenced in the work for transparency, with details of how it was used being provided.",
+   "anchor": "32.3 Generative Artificial Intelligence",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Permitted AI use must be verified and referenced in the work, with details of how it was used."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Schools will advise students of their specific rules and in assessment specifications, where appropriate.",
+   "anchor": "32.3 Generative Artificial Intelligence",
+   "addressee": "staff",
+   "force": "commits",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Schools will tell students their specific rules and set them out in assessment specifications where appropriate."
+  },
+  {
+   "point_id": "p04",
+   "quote": "any unacknowledged content that has been produced by another person, website, software, or Artificial intelligence (AI) tool; or",
+   "anchor": "32.1 Introduction",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Submitted work should not contain unacknowledged content produced by another person, website, software or an AI tool."
+  },
+  {
+   "point_id": "p05",
+   "quote": "If information or ideas are obtained from any source (including GenAI), those sources must be acknowledged according to the appropriate convention in that subject",
+   "anchor": "32.2 Plagiarism",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Information or ideas from any source, including GenAI, must be acknowledged following the subject's convention."
+  },
+  {
+   "point_id": "p06",
+   "quote": "an unacknowledged summary of a source, including a summary produced by generative Artificial Intelligence (GenAI);",
+   "anchor": "32.2 Plagiarism",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "An unacknowledged summary of a source, including one produced by GenAI, counts as plagiarism."
+  },
+  {
+   "point_id": "p07",
+   "quote": "The University reserves the right to use University-approved systems, such as similarity checking software, to assist with the detection of plagiarism or generative AI misuse in the interests of improving academic standards.",
+   "anchor": "32.8",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "The University may use approved systems such as similarity checking software to help detect plagiarism or generative AI misuse."
+  }
+ ]
+}
