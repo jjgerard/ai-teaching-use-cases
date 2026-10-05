@@ -5844,6 +5844,98 @@
       "s": "In a Level 5 module, Julfikar Haider redesigned the assessment to centre on technical calculations based on mechanical design — gear, shaft and bearing selection, and materials/process selection using Granta EduPack software — reasoning that this leaves very little scope for AI-generated content to substitute for the actual work.",
       "ev": "",
       "th": "Attempts to Reduce AI Use"
+    },
+    {
+      "t": "Embedding GenAI as a digital capability across a year-long MSc skills program, with process-based assessment",
+      "by": "David P. Smith, Dami Sokoya, Skye Moore, Chinenye Okonkwo, Charlotte Boyd, Melissa M. Lacey, Nigel J. Francis",
+      "inst": "School of Biosciences and Chemistry, Sheffield Hallam University",
+      "u": "https://doi.org/10.53761/fh6q4v89",
+      "reg": "UK",
+      "yr": 2025,
+      "th": "Discipline Teaching",
+      "disc": [
+        "Life Sciences",
+        "Education"
+      ],
+      "tool": [
+        "ChatGPT"
+      ],
+      "s": "GenAI was built into the core skills modules of a five-year Biosciences and Chemistry MSc across three semesters (about 180 students, a largely international cohort): foundations and ethics first, then prompt design and GenAI-powered tools, using 'just-in-time' teaching and experience mapping. Assessment was process-based, focused on how students used GenAI rather than only on the final output, with explicit guidance and reflection activities on misconduct, ethics and data privacy.",
+      "ev": "Of 180 students, 156 opted into the study. Skills-audit confidence rose between the start of semester one (n=92) and the end of semester two (n=53): 'quite confident' in understanding how GenAI works went from 33% to 56%, in prompt writing from 21% to 48%, and in ethical use from 42% to 67%. Fifteen semi-structured interviews showed a cycle of use, experience and ethical awareness, plus tension between trusting GenAI and unclear institutional expectations. Outcomes are self-reported confidence and interviews, not attainment or misconduct data, and the audit samples differ in size between the two time points.",
+      "repo": "shu-genai-msc"
+    },
+    {
+      "t": "ChatGPT-based formative and summative assessments in software development education",
+      "by": "Olga Petrovska, Lee Clift, Faron Moller, Rebecca Pearsall",
+      "inst": "University of Strathclyde (Degree Apprenticeship Programme)",
+      "u": "https://strathprints.strath.ac.uk/91347/",
+      "reg": "UK",
+      "yr": 2024,
+      "th": "Discipline Teaching",
+      "disc": [
+        "Computer Science"
+      ],
+      "tool": [
+        "ChatGPT"
+      ],
+      "s": "On a software engineering Degree Apprenticeship Programme, the authors embedded GenAI in the curriculum through formative and summative assessments probing ChatGPT's coding capabilities, its ability to construct arguments, and the ethics of using it in education and the workplace. Students critically evaluate the AI's output, so using it is part of the task rather than a way around it. The programme was prompted by apprentice interest and by industrial partners wanting employees prepared to use GenAI in software roles.",
+      "ev": "",
+      "repo": "strath-genai-sd"
+    },
+    {
+      "t": "Testing five AI-content detectors on ChatGPT-3.5, ChatGPT-4 and human-written text",
+      "by": "Ahmed M. Elkhatat, Khaled Elsaid, Saeed Almeer",
+      "inst": "Qatar University",
+      "u": "https://doi.org/10.1007/s40979-023-00140-5",
+      "reg": "Qatar",
+      "yr": 2023,
+      "th": "Attempts to Reduce AI Use",
+      "disc": [
+        "Engineering"
+      ],
+      "tool": [
+        "ChatGPT"
+      ],
+      "s": "The authors generated 15 paragraphs each from ChatGPT-3.5 and ChatGPT-4 on cooling towers in engineering, plus 5 human-written control responses, and ran them through detectors from OpenAI, Writer, Copyleaks, GPTZero and CrossPlag. Detectors were more accurate on GPT-3.5 than on GPT-4, and on the human controls they gave inconsistent results, including false positives and uncertain classifications. Included as a documented test of detection, not as a strategy for reducing AI use.",
+      "ev": "",
+      "repo": "elkhatat-detectors"
+    },
+    {
+      "t": "GPT detectors misclassified over half of non-native English writers' essays as AI-generated",
+      "by": "Weixin Liang, Mert Yuksekgonul, Yining Mao, Eric Wu, James Zou",
+      "inst": "Stanford University",
+      "u": "https://doi.org/10.1016/j.patter.2023.100779",
+      "reg": "US",
+      "yr": 2023,
+      "th": "Attempts to Reduce AI Use",
+      "disc": [
+        "Languages & Linguistics",
+        "Data Science & Analytics"
+      ],
+      "tool": [
+        "ChatGPT"
+      ],
+      "s": "The authors ran seven widely used GPT detectors on 91 TOEFL essays by non-native English speakers and 88 US eighth-grade essays by native speakers. The detectors were near-perfect on the native-speaker essays but misclassified on average 61.3% of the TOEFL essays as AI-generated; all seven flagged 19.8% of them, and at least one flagged 97.8%. Raising the vocabulary sophistication of the TOEFL essays cut the false-positive rate to 11.6%. Included as a documented test of detection, not as a strategy for reducing AI use.",
+      "ev": "",
+      "repo": "liang-detectors"
+    },
+    {
+      "t": "Testing generative AI tools for building MOOC-style assessments in a foreign-language course",
+      "by": "Laxmisha Rai, Chunrao Deng, Fasheng Liu",
+      "inst": "Division of Languages and Communication, College of Professional and Continuing Education",
+      "u": "https://doi.org/10.1109/ICEICT57916.2023.10244824",
+      "reg": "Hong Kong",
+      "yr": 2023,
+      "th": "Assessment & Feedback",
+      "disc": [
+        "Languages & Linguistics"
+      ],
+      "tool": [
+        "Unspecified"
+      ],
+      "s": "The authors tested how well generative AI tools can produce the kinds of assessments used in MOOCs, using a foreign-language course as the case study. They share the prompts so any educator can reuse them, and note that learners could use the same approach to generate self-assessments. The paper names GPT, other LLMs and Google's Bard as the tools in scope but, in the accessible abstract, doesn't say which were used in the experiments.",
+      "ev": "",
+      "repo": "rai-mooc-assessments"
     }
   ],
   "REPOS": {
@@ -6302,6 +6394,36 @@
       "short": "Manchester Met (Padlet)",
       "url": "https://padlet.com/manmetuni/how-colleagues-at-manchester-met-are-embracing-generative-ai-31ezeoh33q7ehv0a",
       "blurb": "A crowdsourced Padlet board of first-person accounts from Manchester Met staff describing exactly what they did with generative AI in their own modules, maintained by the University Teaching Academy."
+    },
+    "shu-genai-msc": {
+      "label": "Sheffield Hallam — Embedding GenAI in a Year-Long MSc Skills Program (JUTLP)",
+      "short": "Sheffield Hallam (MSc GenAI skills)",
+      "url": "https://doi.org/10.53761/fh6q4v89",
+      "blurb": "A peer-reviewed study in the Journal of University Teaching and Learning Practice (2025) of GenAI embedded across three semesters of an MSc skills program."
+    },
+    "strath-genai-sd": {
+      "label": "Strathclyde — Incorporating GenAI into Software Development Education (CEP '24)",
+      "short": "Strathclyde (software dev)",
+      "url": "https://strathprints.strath.ac.uk/91347/",
+      "blurb": "An open-access ACM Conference on Computing Education Practice paper describing formative and summative ChatGPT-based assessments on a Degree Apprenticeship Programme."
+    },
+    "elkhatat-detectors": {
+      "label": "Qatar University — Efficacy of AI Content Detection Tools (Int. J. Educational Integrity)",
+      "short": "Detector study (Elkhatat)",
+      "url": "https://doi.org/10.1007/s40979-023-00140-5",
+      "blurb": "A peer-reviewed 2023 test of five AI-content detectors on ChatGPT-written and human-written text. A study of detectors, not of an intervention."
+    },
+    "liang-detectors": {
+      "label": "Stanford — GPT Detectors Are Biased Against Non-Native English Writers (Patterns)",
+      "short": "Detector study (Liang)",
+      "url": "https://doi.org/10.1016/j.patter.2023.100779",
+      "blurb": "A peer-reviewed 2023 test of seven GPT detectors on essays by native and non-native English writers. A study of detectors, not of an intervention."
+    },
+    "rai-mooc-assessments": {
+      "label": "Rai, Deng & Liu — MOOC-Style Assessments with Generative AI (IEEE ICEICT 2023)",
+      "short": "MOOC assessments (Rai et al.)",
+      "url": "https://doi.org/10.1109/ICEICT57916.2023.10244824",
+      "blurb": "A 2023 IEEE conference paper from the College of Professional and Continuing Education (Hong Kong Polytechnic University) testing generative AI tools for building MOOC-style assessments."
     }
   }
 }
