@@ -1,0 +1,71 @@
+{
+ "doc_id": "edinburgh-napier-d2-institutional-policy-202610",
+ "coder": "mis-m25",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Misrepresenting AI-generated work as your own is academic misconduct and may result in an academic integrity investigation.",
+   "anchor": "5.4"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "In a case where you suspect a student has submitted work which contains undeclared or inappropriate use of Gen AI tools, you should follow the university’s academic integrity referral process and/or discuss with your School Academic Integrity Officer.",
+   "anchor": "3.13"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "In a case where you suspect a student has submitted work which contains undeclared or inappropriate use of Gen AI tools, you should follow the university’s academic integrity referral process and/or discuss with your School Academic Integrity Officer.",
+   "anchor": "3.13"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": true,
+   "quote": "The University Leadership does not permit the use of Gen AI detection tools on student assessment submissions",
+   "anchor": "2.2"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "current technologies have proven to be unreliable, prone to bias",
+   "anchor": "2.2"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "you should follow the university’s academic integrity referral process and/or discuss with your School Academic Integrity Officer.",
+   "anchor": "3.13"
+  },
+  {
+   "value": "investigation",
+   "ai_named": true,
+   "quote": "Misrepresenting AI-generated work as your own is academic misconduct and may result in an academic integrity investigation.",
+   "anchor": "5.4"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": true,
+   "quote": "ENSA provides support to students following accusations of inappropriate use of Generative AI.",
+   "anchor": "9.4"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "The outcome of such an investigation may have significant implications for your future studies and negatively impact your personal development and future career prospects.",
+   "anchor": "5.4"
+  }
+ ],
+ "definitions": []
+}
