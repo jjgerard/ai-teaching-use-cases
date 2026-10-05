@@ -21,6 +21,16 @@ Read the whole document. For each **specific use** in the vocabulary that the do
 A general statement does not name a use: "AI can support your learning" or "AI is permitted unless the brief says otherwise" are **not** use rows. Record them under `default_when_silent` or leave them out. A row needs the document to name the activity (or a clear synonym).
 "No AI at all in this assessment" with no named activity: write one `generate_assessed_text` row with context `assessed_work`, stance `prohibited`, and quote it. A named scale or tier list (for example a traffic-light or AI assessment scale) gives one row per use it names, each with its tier's stance, and `decided_by` includes `tiered_scale`.
 
+## Rulings from the pilot (apply them)
+
+- **"Prohibited unless explicit permission" is `conditional` with `needs_permission`**, not `prohibited`. A flat ban with no route to permission is `prohibited`.
+- **"In limited ways", "to some extent", "only minor changes"** is `conditional` with `limited_extent`. **"Be careful", "not recommended", "should not"** is `discouraged`.
+- **Tiers and scales.** One row per use per tier: put the tier's name in `tier` (at most 4 words) and give each its own stance. The same use may then appear several times in one setting, once per tier. A tier that names no activity ("selective use", "integral use", "no AI") is a row for `any_use` with that tier's stance (a tier that makes AI integral is `required`).
+- **Worked examples.** An example labelled misconduct gives `prohibited` for the use it illustrates; one labelled acceptable gives `permitted`. Do not take acknowledgement from an example unless the example says so.
+- **Acknowledgement duty.** `always_required` when the quote says any or all AI use must be acknowledged or declared, including where it is tied to a consequence ("or it is plagiarism"). `conditional` only when the quote limits it (by extent, assessment type, or "if the brief requires it"). `recommended` for should, encouraged, good practice.
+- **`default_when_silent`:** only when the document says what applies if the brief or lecturer says nothing. "Unless specified otherwise you may X, Y, Z" is `use_by_use_rule` (and write the use rows); "unless specified otherwise AI is allowed" is `permit_all`.
+- **When both a general line and a tier or per-use list exist, code the detail;** keep the general line for `default_when_silent` or `decided_by`.
+
 Document-level fields (use null or an empty list when the document is silent):
 - `default_when_silent`: `{value, quote}` from the schema, only if the document says what applies when the brief or lecturer says nothing.
 - `decided_by`: a list of `{value, quote}` (institution_wide, school_or_department, module_or_lecturer, assessment_brief, tiered_scale).
