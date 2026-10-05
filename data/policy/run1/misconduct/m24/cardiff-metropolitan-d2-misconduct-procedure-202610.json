@@ -1,0 +1,47 @@
+{"doc_id":"cardiff-metropolitan-d2-misconduct-procedure-202610","coder":"mis-m24","scope":"general_misconduct",
+"offences":[
+{"value":"unauthorised_use","ai_named":true,"quote":"Inappropriate use of artificial intelligence software or services in the completion of assessments. Assignment briefs will identify where use of artificial intelligence may be appropriate; in all other cases it is not.","anchor":"Plagiarism examples"},
+{"value":"passing_off","ai_named":false,"quote":"Using another person's words or ideas without acknowledgement and submitting them for assessment as though it were your own work.","anchor":"Plagiarism"},
+{"value":"fabrication_or_falsification","ai_named":false,"quote":"Fabrication of references, including references within the reference section or bibliography which have been fabricated and are not genuine sources.","anchor":"Falsification"},
+{"value":"disguising_use","ai_named":false,"quote":"Attempting to manipulate or evade academic integrity detection processes or software (e.g. Turnitin).","anchor":"Plagiarism examples"},
+{"value":"contract_cheating_or_ghostwriting","ai_named":false,"quote":"Use of services such as essay mills and/or any other agencies or commissioned academic work (either paid or unpaid).","anchor":"Plagiarism examples"},
+{"value":"misuse_of_others_work","ai_named":false,"quote":"Use of another person's words or ideas that has been slightly changed or paraphrased to make it look different from the original.","anchor":"Plagiarism examples"},
+{"value":"exam_or_supervised_breach","ai_named":false,"quote":"Possessing any unauthorised form of material such as a book, manuscript, data or loose papers, or bringing information obtained via an electronic device, or any other source of unauthorised information into an exam or assessment facility.","anchor":"Misconduct during an Exam"},
+{"value":"facilitating_or_collusion","ai_named":false,"quote":"Work undertaken with others is submitted and passed off as solely the work of one person.","anchor":"Collusion"},
+{"value":"impersonation_or_coercion","ai_named":false,"quote":"Impersonation of an examination candidate or allowing oneself to be impersonated.","anchor":"Misconduct during an Exam"},
+{"value":"self_plagiarism_or_multiple_submission","ai_named":false,"quote":"Self-plagiarism – using your own work from a previous assignment/module when it has not been expressly permitted.","anchor":"Plagiarism examples"}
+],
+"liability":[
+{"value":"ignorance_mitigates","ai_named":false,"quote":"the offence must have occurred within the students first term and must only show minor examples of poor academic practice within the work.","anchor":"FAQ penalties"}
+],
+"detection":[
+{"method":"similarity_software","stance":"used","ai_named":false,"quote":"All evidence to be considered will also be sent to you in advance and will include your submission, the allegation report from the school/college, any Turnitin report for the submission in question","anchor":"FAQ committee"},
+{"method":"similarity_software","stance":"unreliable","ai_named":false,"quote":"just because you have a low Turnitin score, doesn't mean that your submission would not be scrutinised to check for correct academic practice.","anchor":"FAQ Turnitin threshold"},
+{"method":"oral_viva_or_interview","stance":"may_be_used","ai_named":false,"quote":"notes or transcript from any interview regarding the allegations.","anchor":"FAQ committee"}
+],
+"process":[
+{"value":"referral_to_officer_or_panel","ai_named":false,"quote":"an allegation of Academic Misconduct will be sent by the school to Registry Services, who will process the case and ultimately issue the outcome.","anchor":"Procedure"},
+{"value":"hearing","ai_named":false,"quote":"During an Academic Integrity Committee, your case will be considered by a panel of academics","anchor":"FAQ committee"},
+{"value":"student_right_to_respond","ai_named":false,"quote":"If you are not able to attend, you can send a statement in advance for the committee to consider.","anchor":"FAQ committee"},
+{"value":"proceeds_if_absent","ai_named":false,"quote":"Your case will be heard whether you attend or not.","anchor":"FAQ committee"},
+{"value":"support_for_student","ai_named":false,"quote":"the Students' Union provide impartial advice about academic regulations and procedures, including Misconduct","anchor":"Student Support"},
+{"value":"appeal","ai_named":false,"quote":"you may submit an appeal but only on one or both of the below specific grounds:","anchor":"FAQ appeal"},
+{"value":"timescale","ai_named":false,"quote":"If your case needs to be considered by an Academic Integrity Committee, or if you have opted for this, it could take up to 8 weeks.","anchor":"FAQ timing"},
+{"value":"standard_of_proof","ai_named":false,"quote":"who will seek to establish if, on the balance of probabilities given the evidence available, Academic Misconduct has or has not occurred.","anchor":"FAQ committee"},
+{"value":"records_or_register","ai_named":false,"quote":"any confirmed Unfair Practice Academic Misconduct will be noted on your student record","anchor":"FAQ record"}
+],
+"outcomes":[
+{"value":"educative_first_offence","ai_named":false,"quote":"For all upheld cases of Academic Misconduct, students are now required to also complete a compulsory Academic Misconduct and Study Skills module.","anchor":"FAQ penalties"},
+{"value":"warning","ai_named":false,"quote":"There is an option for a School Level Warning, however there are specific criteria to allow this to be issued","anchor":"FAQ penalties"},
+{"value":"zero_for_work","ai_named":false,"quote":"Normally for a first offence, it is likely a student would be offered the Fixed Penalty (accepting responsibility that an offence has taken place) which involves the assignment mark being cancelled to zero, with the assessment to be resubmitted at the next attempt number, and the module capped at the minimum pass mark.","anchor":"FAQ penalties"},
+{"value":"resubmission","ai_named":false,"quote":"Normally for a first offence, it is likely a student would be offered the Fixed Penalty (accepting responsibility that an offence has taken place) which involves the assignment mark being cancelled to zero, with the assessment to be resubmitted at the next attempt number, and the module capped at the minimum pass mark.","anchor":"FAQ penalties"},
+{"value":"mark_cap","ai_named":false,"quote":"Normally for a first offence, it is likely a student would be offered the Fixed Penalty (accepting responsibility that an offence has taken place) which involves the assignment mark being cancelled to zero, with the assessment to be resubmitted at the next attempt number, and the module capped at the minimum pass mark.","anchor":"FAQ penalties"},
+{"value":"module_failure","ai_named":false,"quote":"Where a student is already out of attempts for an assessment, no further opportunity to resubmit is possible and the module will be failed.","anchor":"FAQ penalties"},
+{"value":"suspension_or_exclusion","ai_named":false,"quote":"A third offence (or a very serious earlier offence) may result in complete disqualification from the University.","anchor":"FAQ penalties"},
+{"value":"repeat_offence_escalation","ai_named":false,"quote":"A second offence may usually (but not always) attract a Second Level Fixed Penalty which involves cancelling of any previous marks and retaking the module, capped (with relevant fees).","anchor":"FAQ penalties"}
+],
+"definitions":[
+{"term":"academic misconduct","ai_named":false,"quote":"Academic Integrity, sometimes referred to as 'academic misconduct', is to do something which may result in an unpermitted academic advantage, either for yourself or for someone else."},
+{"term":"plagiarism","ai_named":false,"quote":"Using another person's words or ideas without acknowledgement and submitting them for assessment as though it were your own work."},
+{"term":"collusion","ai_named":false,"quote":"Work undertaken with others is submitted and passed off as solely the work of one person."}
+]}
