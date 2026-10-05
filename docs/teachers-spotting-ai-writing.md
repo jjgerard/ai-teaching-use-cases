@@ -1,170 +1,247 @@
 # Can teachers spot AI-written student work? A research briefing
 
-*Compiled 2026-10-05. Fleckenstein et al. (2024) was read in full; every other study below is
-summarised from its abstract, a publisher/university page, or secondary coverage (marked
-†), because several publisher sites blocked direct access. Check numbers against the
-originals before quoting them.*
+*Compiled 2026-10-05 from three parallel literature sweeps plus direct reads. This is a
+working briefing, not a systematic review.*
 
-## 1. The anchor paper: Fleckenstein et al. (2024)
+**Evidence labels.** **[FT]** = I read the full text. **[AB]** = I read the abstract or a
+repository/publisher page. **[S]** = figures only from a search-engine summary, press
+release or news report; treat as unconfirmed and check the source before quoting. Many
+publisher sites (ScienceDirect, Springer, Wiley, the Guardian) blocked direct access, so a
+lot of the evidence is [S].
+
+## 1. The anchor paper: Fleckenstein et al. (2024) [FT]
 
 [Do teachers spot AI? Evaluating the detectability of AI-generated texts among student
-essays](https://doi.org/10.1016/j.caeai.2024.100209) — *Computers and Education: Artificial
+essays](https://doi.org/10.1016/j.caeai.2024.100209), *Computers and Education: Artificial
 Intelligence* 6, 100209 (Fleckenstein, Meyer, Jansen, Keller, Köller & Möller).
 
-**Design (two experiments, same logic)**
-- Task: short argumentative English-as-a-foreign-language essays (a TOEFL iBT prompt, 30
-  minutes, no resources) from 11th-grade students in Germany/Switzerland, pre-scored on the
-  official 0–5 TOEFL rubric.
-- Each participant read **4 texts**: two student essays (one scoring 2, one scoring 4) and
-  two ChatGPT essays *prompted with the rubric's level-2 and level-4 descriptors*. So the AI
-  texts were deliberately written to be weak/medium/strong, not left at ChatGPT's default.
-- For each text: "Was this written by an AI?" (yes/no), a 50–100% confidence rating, then
-  1–7 quality ratings (language, structure, content, overall).
-- **Study 1:** 89 pre-service teachers (Master of Education, German university, EFL
-  readers), told half the texts were AI.
-- **Study 2:** 200 teachers recruited on Prolific (English native speakers, mostly UK/North
-  America, 93% currently teaching, 61.5% teaching English), told only that *some* texts were
-  AI. Student essays were randomly drawn from the corpus rather than hand-picked.
+**Design (two experiments)**
+- Short argumentative EFL (English as a foreign language) essays on a TOEFL iBT prompt, 30
+  minutes, no resources, by 11th-graders in Germany/Switzerland, pre-scored 0–5 on the
+  TOEFL rubric.
+- Each participant read **four texts**: two student essays (scoring 2 and 4) and two ChatGPT
+  essays *prompted with the rubric's level-2 and level-4 descriptors*. The AI texts were
+  therefore written to be weak and medium, not left at ChatGPT's default voice.
+- Per text: "Was this written by an AI?" (yes/no), a 50–100% confidence rating, then 1–7
+  quality ratings.
+- **Study 1:** 89 pre-service teachers (Master of Education, German university), told half
+  the texts were AI.
+- **Study 2:** 200 teachers on Prolific (English native speakers, mostly UK/North America,
+  93% currently teaching, 61.5% teaching English), told only that *some* texts were AI.
+  Student essays were randomly drawn from the corpus.
 
 **Results**
+
 | | Pre-service (S1) | Experienced (S2) |
 |---|---|---|
 | AI texts correctly called AI | 45.1% | 37.8% |
 | Student texts correctly called student | 53.7% | 73.0% |
 | Mean confidence | ~77% | ~80% |
 
-- S1: stated source and real source were statistically independent (φ = −0.01) — i.e.
-  chance-level guessing.
-- S2: still independent for **low-quality** texts; for **high-quality** texts experienced
-  teachers did better (φ = .275). The authors' reading: experienced teachers hold a
-  stereotype of "AI = polished", so they call good texts AI and weak texts student — and
-  were unaware ChatGPT can be prompted to write weakly (86% of weak texts judged "student",
-  whatever their source).
-- Confidence tracked *what teachers assumed* (less confident when they thought "AI"), not
-  whether they were right. Both groups were overconfident.
-- AI texts were rated at least as well as student texts; experienced teachers gave
-  high-quality AI essays *higher* scores than equivalent student essays.
-- Authors' own limitations: (a) pre-service sample may lack skill; (b) S1 told them half
-  were AI — unrealistic; (c) only two student texts in S1; (d) S1 and S2 differ in several
-  ways at once, so the cause of the different results is unclear. They also note that
-  teachers know nothing about the student or context in this design.
+- S1: stated and real source were statistically independent (φ = −0.01), i.e. guessing.
+- S2: independent for **low-quality** texts; for **high-quality** texts experienced
+  teachers did better (φ = .275). The authors' reading: they hold a stereotype of "AI =
+  polished" and were unaware ChatGPT can be prompted to write weakly (86% of weak texts
+  were judged "student", whatever their source).
+- Confidence tracked what teachers *assumed* (lower when they thought "AI"), not whether
+  they were right.
+- AI texts were rated at least as well as student texts; experienced teachers scored
+  high-quality AI essays *higher* than equivalent student essays.
+- Authors' limitations: pre-service sample may lack skill; S1 told them half were AI;
+  only two student texts in S1; S1 and S2 differ in several ways at once; teachers know
+  nothing about the student or context.
+- Caution on a widely repeated figure: "38% accuracy" is the AI *hit rate* in Study 2, not
+  overall accuracy.
 
-## 2. Other studies on humans spotting AI text
+## 2. Studies of humans judging authorship
 
-| Study | Who judged | Material | Main result |
+### 2a. Teachers, instructors and markers
+
+| Study | Who / what | Result | Label |
 |---|---|---|---|
-| [Waltzer et al. 2023](https://doi.org/10.1155/2023/1923981), *Human Behavior and Emerging Technologies* | 69 HS teachers, 140 HS students | **Pairs** (one student, one ChatGPT) | Teachers 70%, students 62%. Confidence, ChatGPT experience and subject expertise did *not* predict accuracy; well-written student essays were hardest. |
-| [Waltzer et al. 2024](https://doi.org/10.1007/s40979-024-00158-3) ("Can you spot the bot?", *Int. J. Educational Integrity*) † | 140 college instructors, 145 students | Pairs; student essays written in-class | Instructors 70%, students 60%, ChatGPT itself 63%. Experience didn't predict accuracy; confidence was low. |
-| [Scarfe et al. 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11206930), *PLOS ONE* † | Real markers, real exams | 100% AI answers injected into 5 undergraduate psychology modules | **94% undetected**; AI averaged about half a grade boundary above real students. |
-| [Perkins et al. 2024](https://arxiv.org/abs/2305.18081), *J. Academic Ethics* † | 15 faculty + Turnitin AI score | 22 GPT-4 submissions, some prompted to evade detectors | Turnitin flagged 91% as containing AI but only 54.8% of the text; faculty reported 54.5% of the AI submissions; AI averaged 52.3 vs 54.4 for genuine work. |
-| [Casal & Kessler 2023](https://digitalcommons.memphis.edu/facpub2/10) † | 72 reviewers from top linguistics journals | Research abstracts | 38.9% correct overall; nobody got all four right; reasons given were sensible but inconsistent. |
-| [Jakesch, Hancock & Naaman 2023](https://doi.org/10.1073/pnas.2208839120), *PNAS* † | ~4,600 lay participants | Self-descriptions (profiles) | Judgements rely on flawed heuristics (first-person pronouns, contractions, family topics → "human"), which makes them predictable and exploitable: text can be "more human than human". |
-| [Clark et al. 2021](https://aclanthology.org/2021.acl-long.565) † | Untrained crowd workers | GPT-3 stories/news/recipes | Chance-level; brief training lifted accuracy only to ~55%. |
-| [Dugan et al. 2023 (RoFT)](https://arxiv.org/abs/2212.12672) † | Many annotators | Text that switches from human to machine | Often poor, but large variance between people, and people improved with incentives and practice. |
-| [Hassoulas et al., as quoted in a 2025 Frontiers review](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1711718/full) † | Evaluators of coursework | Undergraduate/graduate coursework | Only 23% / 19% correctly identified ChatGPT texts, though evaluators were often *suspicious* of content and references. |
-| [JALT study of 20 writing instructors](https://jalt.journals.publicknowledgeproject.org/index.php/jalt/article/view/1895) † | 20 experienced postsecondary writing instructors | 4 essays each | Moderate confidence, low accuracy: only 35% got all four right. AI essays scored higher on spelling, grammar and organisation, *lower* on argumentation and evidence. |
-| Second-language-writing teachers study (*J. Second Language Writing*, S1075293524000928) † | ESL writing teachers | Essays | ~61% accuracy, rising to ~67% with brief exposure/self-training. |
+| [Waltzer, Cox & Heyman 2023](https://doi.org/10.1155/2023/1923981), *Human Behavior and Emerging Technologies* | 69 high-school teachers, 140 students; **forced-choice pairs** (student vs ChatGPT essay) | Teachers 70%, students 62%. Confidence, ChatGPT experience, subject expertise did not predict accuracy; well-written student essays hardest. | [S] |
+| [Waltzer, Pilegard & Heyman 2024](https://doi.org/10.1007/s40979-024-00158-3), "Can you spot the bot?", *Int. J. Educational Integrity* | 140 college instructors, 145 students; pairs, student essays written in-class | Instructors ~70%, students ~60%, ChatGPT itself ~63%; experience didn't predict accuracy. | [S] |
+| [Scarfe et al. 2024](https://pmc.ncbi.nlm.nih.gov/articles/PMC11206930), *PLOS ONE* | **Real markers, real exams, not told to look**: 63 unmodified GPT-4 answers among 1,134 genuine submissions, 5 psychology modules | **94% undetected** (97% by stricter criterion); only 4 flagged, 2 mentioning AI. AI averaged half a grade boundary above real students (83.4% chance an AI batch beats a random student batch). AI struggled only in the final-year, more abstract module. The text was unmodified, "the most detectable way possible". | [AB] |
+| [Perkins et al. 2024](https://arxiv.org/abs/2305.18081), *J. Academic Ethics* | 15 faculty + Turnitin, 22 GPT-4 submissions, some prompted to evade detection | Turnitin flagged 91% as containing AI but only 54.8% of the content; staff reported 54.5% for misconduct; AI averaged 52.3 vs 54.4 genuine. | [S] |
+| Kofinas, Tsay & Pike 2025, *BJET* ([open copy](https://gala.gre.ac.uk/id/eprint/50077/)) | Experienced markers and moderators, authentic assessments | AI work passed scrutiny; suspicious markers produced both false positives and false negatives. | [S] |
+| [Doru et al. 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC11914838/), *JMIR Medical Education* | 35 experts (22 medical, 13 humanities), 18 German medical essays each **paired** with ChatGPT-3.5 versions | 70% of decisions correct (medical 72%, humanities 65%). Cues were stylistic: redundancy, repetition, poor coherence; content errors mattered little. Limits: one old model, knew one text was AI, small. | [AB] |
+| [JALT study of 20 writing instructors](https://jalt.journals.publicknowledgeproject.org/index.php/jalt/article/view/1895) | 20 experienced postsecondary writing instructors, 4 essays each | Moderate confidence, low accuracy; 35% got all four right. AI scored higher on spelling/grammar/organisation, lower on argument and evidence. | [S] |
+| Second-language-writing teachers, *Assessing Writing* 2024 ([S1075293524000928](https://www.sciencedirect.com/science/article/abs/pii/S1075293524000928)) | ESL/L2 writing teachers | ~61% accuracy, ~67% after minimal self-training. Reportedly misread sophisticated L2 student writing (formal structure, nominalisation) as AI and polished AI as student work: a "quality attribution paradox", with a deficit model where errors signal humans. | [S] |
+| ERIC [EJ1438413](https://eric.ed.gov/?id=EJ1438413), 2024 | 47 English instructors in Japan; L2 essays vs ChatGPT **prompted to make grammar mistakes** | 54.25% correct, near chance. | [S] |
+| Hassoulas et al., as quoted in a [2025 Frontiers review](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1711718/full) | Evaluators of coursework | 23% (undergraduate) / 19% (graduate) correctly identified ChatGPT texts, though evaluators were often *suspicious* of content and references. | [S] |
 
-## 3. The newer finding that cuts the other way
+### 2b. Other expert and lay readers
 
-[Russell, Karpinska & Iyyer (ACL 2025)](https://aclanthology.org/2025.acl-long.267),
-"People who frequently use ChatGPT for writing tasks are accurate and robust detectors of
-AI-generated text":
-- 300 English non-fiction articles (human vs. GPT-4o / Claude / o1), labelled with
-  paragraph-length justifications by annotators hired on Upwork.
-- **Non-experts** (little LLM use): ~56.7% accuracy, high confidence.
-- **Experts** (frequent LLM users for writing/editing work; described in coverage as
-  including teachers, writers and editors †): the *majority vote of five* misclassified
-  **1 of 300** — matching the best commercial detector (Pangram) and beating most others,
-  even after paraphrasing and "humanizer" evasion.
-- What experts used: AI vocabulary (~53% of explanations — "vibrant", "crucial"), formulaic
-  sentence structure and listing (~36%), blandness/lack of originality (~24%), stilted
-  quotation style (~22%). Different experts used different cues, which is why the ensemble
-  was so strong. Individuals were much weaker than the group, and confidence dropped
-  against o1-Pro.
-- Limits: American-English non-fiction under 1,000 words; a pooled five-person vote is not
-  how a single teacher marks.
+| Study | Result | Label |
+|---|---|---|
+| [Casal & Kessler 2023](https://digitalcommons.memphis.edu/facpub2/10), *Research Methods in Applied Linguistics* (probably the S2772766123000289 link you sent; I couldn't open it to confirm) | 72 journal reviewers, 4 research abstracts each: 38.9% correct, nobody got all four, 13% got all four wrong. Reasons were sensible but inconsistent. | [S] |
+| [Gao et al. 2023](https://news.northwestern.edu/stories/2023/01/chatgpt-writes-convincing-fake-scientific-abstracts-that-fool-reviewers-in-study/) | Blinded reviewers identified 68% of ChatGPT abstracts as AI, flagged 14% of real ones. | [S] |
+| [Jakesch, Hancock & Naaman 2023](https://arxiv.org/abs/2206.07271), *PNAS* | 6 experiments, N≈4,600, self-descriptions. Judges could not detect AI; shared heuristics (first-person pronouns, contractions, family topics → "human") are flawed and exploitable: AI can be "more human than human". | [AB] |
+| [Zhu et al. 2025](https://aclanthology.org/2025.findings-acl.1329.pdf), *Findings of ACL* | Blind raters couldn't tell AI from human text; with labels, they favoured text labelled "human" by >30 points *even when labels were swapped*. | [AB] |
+| [Milička et al. 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12527182), *PLOS ONE* | 254 Czech speakers, human vs GPT-4o pairs. No feedback: 55.4%, and **below chance at maximum confidence**. Immediate feedback: 65.1% and confidence became calibrated. Initial beliefs: AI text is formal, static, cohesive. | [AB] |
+| [Clark et al. 2021](https://aclanthology.org/2021.acl-long.565), ACL | Untrained crowd raters at chance on GPT-3; brief training (instructions, examples) raised accuracy to ~55% only; stated reasons often contradictory. | [AB] |
+| [Dugan et al. 2023 (RoFT)](https://arxiv.org/abs/2212.12672), AAAI | 21,000+ annotations on human→machine boundary detection; poor on average, large skill variance, improvement with incentives and practice. | [AB] |
+| Japanese stylometry study, [PMC12558491](https://pmc.ncbi.nlm.nih.gov/articles/PMC12558491/) (2025) | Stylometry 99.8% accurate; 403 humans: 56.8% flagged a Claude-3.5 text as AI, but only 31.5% correctly judged human texts as human, and o1 text was judged human ~70% of the time (one text per model). | [AB] |
+| [Pu et al. 2025](https://arxiv.org/abs/2502.11614), multilingual | 19 annotators, 9 languages: 87.6% average accuracy (higher than earlier work); explanations improved performance; humans did not consistently prefer human text. Aware/paired setting. | [AB] |
+| [Jones & Bergen 2024](https://arxiv.org/abs/2405.08007) (Turing test, **chat not essays**) | GPT-4 judged human 54% (humans 67%); GPT-4.5 with a persona prompt reported 73% in a follow-up (arXiv 2503.23674). Persona beats default style, and the trend over models is upward. | [S] |
+| ["Can humans detect AI?" 2026](https://arxiv.org/html/2604.23471) | 21 writers, 1,999 paired judgements: writers warned about detectors were picked as human 54.1% of the time; feature-based stylometry saw no difference. Small effect, small sample. | [AB] |
 
-## 4. Why the literature may not match what you see in your own marking
+## 3. The study that cuts the other way: Russell, Karpinska & Iyyer (ACL 2025) [FT]
 
-These are my interpretations from the evidence above, not established findings.
+[People who frequently use ChatGPT for writing tasks are accurate and robust detectors of
+AI-generated text](https://aclanthology.org/2025.acl-long.267).
+- 300 non-fiction English articles under 1,000 words; AI texts from GPT-4o, Claude 3.5
+  Sonnet and o1-pro, plus paraphrased and "humanized" variants. Nine native-English
+  annotators from Upwork gave a label, a 1–5 confidence and a written justification.
+- **Non-experts** (little or no LLM use for writing, n=4): true-positive rate 56.7%,
+  **false-positive rate 52.5%** (chance), confident anyway (4.03/5).
+- **Experts** (frequent LLM use for writing, n=5): average TPR 92.7%, FPR 3.3%. Their
+  majority vote got **299/300** right and held up against paraphrasing and humanizers
+  (96.7% TPR on humanized o1-pro).
+- Cues: experts know specific AI-overused words and phrases ("testament", "crucial",
+  "vibrant"), formulaic structure, blandness, stilted quotation style, and *know that
+  humans make more grammar errors*. Non-experts treat fancy words, perfect grammar and a
+  neutral tone as AI; both are partly wrong. Different experts used different cues, so the
+  ensemble was strong; one expert unfamiliar with Claude's vocabulary dropped to 80% on it.
+  Expert confidence fell on o1-pro and humanized text.
+- Caveats: n=9; experts were chosen after a pilot spotted one strong performer, so the
+  label is partly post hoc; American-English non-fiction, default (non-adversarial)
+  prompts; a pooled five-person vote is not how a single teacher marks. I found no
+  larger replication.
 
-1. **The research mostly measures a different, harder task.** Cold, single-text
-   classification of short timed essays, with no knowledge of the writer, no assignment
-   context, no baseline of that student's earlier work, and no ability to ask a follow-up
-   question. Marking your own students is a different job. I did not find a study that
-   tests teachers judging *their own students'* work against known prior samples; that
-   looks like the main gap.
-2. **The AI texts in the key study weren't "ChatGPT's default voice."** Fleckenstein
-   prompted with rubric descriptors, including a deliberately weak level. What you find
-   "obvious" is plausibly the *default or lightly prompted* register: tidy intros and
-   conclusions, three-item lists, generic vocabulary, no concrete specifics, claims without
-   evidence (the JALT study found AI weaker on argument and evidence), invented or odd
-   references. A student who asks for "a mediocre B-level essay with a couple of
-   errors" removes much of that, and the studies suggest teachers don't expect that to be
-   possible.
-3. **Survivorship bias with no feedback loop.** You see the cases you catch; you never
-   learn about the ones you miss, because there is no ground truth. Scarfe's 94% shows
-   what undetected submissions look like from the marker's side: just ordinary marking.
-   Subjective certainty ("it's usually obvious") can therefore stay high while recall is
-   low — the same pattern as the overconfidence Fleckenstein and Waltzer report.
-4. **Recall and precision are different questions.** Fleckenstein's teachers were decent
-   at saying "student" for student texts (73%) and poor at catching AI (38%). "Usually
-   obvious" can be true of the AI you catch while still being compatible with a lot missed.
-5. **The headline "teachers can't tell" is flatter than the data.** Results run from
-   chance (Fleckenstein, ~38–45% on AI texts) to ~70% in paired-choice designs (50% is
-   chance there, so 70% is meaningfully above chance but still wrong 3 times in 10) to
-   near-perfect for pooled expert readers. Task format, text length, how the AI text was
-   made, and who is judging all move the number.
-6. **"It used to be more obvious" has support, with caveats.** Early default output had
-   strong tells, and population-level word-frequency work (e.g.
-   [Kobak et al. 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12219543), *Science
-   Advances*, ≥13.5% of 2024 PubMed abstracts show LLM style-word excess) shows the
-   "delve" effect is real. But as users learn to prompt for voice, imitate samples, or run
-   humanizers, the tells weaken: Epoch AI's 2026 test
-   [found detectors miss ~13% of style-imitated passages](https://epoch.ai/data-insights/ai-text-detection-challenges)
-   † (vs ≈0% for plain prompts), and Russell et al. saw expert confidence fall on o1-Pro.
-   So both are plausibly true: default text is easier to spot than ever *to a practised
-   reader*, and prompted text is getting harder.
-7. **Expertise might be *LLM familiarity*, not teaching experience.** Russell et al.'s edge
-   comes from frequent LLM use; Waltzer found self-reported ChatGPT experience didn't help.
-   These aren't contradictory if "experience" there was thin or self-rated, but it is
-   unresolved. Fleckenstein's experienced teachers did better on polished texts only.
-8. **Human cue-use is partly wrong.** Jakesch et al. show that common heuristics are
-   unreliable and manipulable, and Casal & Kessler's reviewers gave sensible-sounding but
-   inconsistent reasons. A gut sense of "obvious" can be a correct pattern *or* a
-   stereotype; from the inside they feel the same.
+## 4. What makes human detection work or fail
 
-## 5. Detection software isn't the way out
+- **Cues are real at population scale.** [Kobak et al. 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12219543)
+  (*Science Advances*): ≥13.5% of 2024 PubMed abstracts show LLM style-word excess, up to
+  40% in some subcorpora [AB]. Liang et al. (2024; arXiv 2404.01268, 2403.07183) estimate
+  LLM-modified shares in papers and peer reviews with the same distributional logic [S].
+  These methods describe corpora, not single texts.
+- **Why the vocabulary appears.** [Juzek & Ward 2025](https://aclanthology.org/2025.coling-main.426/)
+  point to human-feedback tuning as the source of "delve"-type overuse [S], which makes
+  the cue model- and version-specific and removable by a prompt.
+- **Cues fail when the register changes.** Error-injection, persona and "write like a B
+  student" prompts defeat grammar-based and lexical rules (Fleckenstein level-2 texts;
+  EJ1438413; Jones & Bergen). Epoch AI's 2026 test
+  [found detectors miss ~13% of style-imitated passages vs ≈0% for plain prompts](https://epoch.ai/data-insights/ai-text-detection-challenges) [S].
+- **Feedback works; teachers rarely get it.** Milička 2025 and RoFT show feedback and
+  incentives improve accuracy and calibration. I found no controlled evaluation of
+  professional development on AI detection for lecturers and teachers.
+- **Overconfidence is the common thread**: Fleckenstein (≈77–80% confident at ≈chance),
+  Russell non-experts, Milička's no-feedback group, Casal & Kessler's reviewers.
 
-- [Weber-Wulff et al. 2023](https://arxiv.org/abs/2306.15666): 14 tools (incl. Turnitin) were
-  neither accurate nor reliable, skewed toward "human", and degraded by obfuscation.
-- [Liang et al. 2023, *Patterns*](https://arxiv.org/abs/2304.02819): seven detectors
-  flagged on average 61.3% of TOEFL essays by non-native writers as AI, while classifying
-  US eighth-grade native-speaker essays accurately. False accusations fall unevenly.
-- 2025–26 preprints continue to report weakness on mixed-authorship text and near-total
-  evasion after humanizing ([2508.08096](https://arxiv.org/abs/2508.08096);
-  [2608.11256](https://arxiv.org/html/2608.11256v2) †).
+## 5. How teachers detect in practice, and what the data show
 
-## 6. What a study matching your experience would look like
+- **Real-world detection is rare and leaky.** Scarfe: 4 of 63 unmodified AI scripts
+  flagged. Kofinas et al.: AI work passed experienced markers; suspicion produced false
+  positives too [S].
+- **Teacher surveys.** The [CDT 2024 US survey](https://cdt.org/wp-content/uploads/2024/03/2024-03-21-CDT-Civic-Tech-Generative-AI-Survey-Research-final.pdf):
+  ~68% of teachers regularly use an AI-detection tool, only ~25% say they're "very
+  effective" at telling student from AI work, discipline for AI/plagiarism rose from 48%
+  to 64% [S, via press]. A Coursera/THE survey found UK academics believed students use AI
+  for 43% of work vs 24% self-reported [S].
+- **Misconduct statistics (all [S], verify first).** Guardian FOI (June 2025): ~7,000
+  proven AI-cheating cases in UK universities in 2023–24, 5.1 per 1,000 students, up from
+  1.6. ACU (Australia): ~6,000 alleged referrals in 2024, ~90% AI-related, about a quarter
+  dismissed, Turnitin AI detector dropped. Washington State (via a commercial blog): 33%
+  of AI cases ended "not responsible", often when a detector score was the only
+  evidence. **I found no data on what share of proven cases were caught by human
+  suspicion vs software**; this looks like a worthwhile FOI question.
+- **Prevalence benchmark.** HEPI/Kortext 2025: 88% of UK students used GenAI for
+  assessments, 18% included AI text directly [S]; proven cases of 5–7 per 1,000 are tiny
+  against that.
+- **Detector accuracy.**
+  [Weber-Wulff et al. 2023](https://arxiv.org/abs/2306.15666): 14 tools, all below 80%,
+  biased toward "human", degraded by paraphrase and machine translation [S].
+  [Paustian & Slinger 2024](https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2024.1374889/full)
+  (153 microbiology students): ~88% accuracy, false-positive rates 9.8–45.8% by tool [AB].
+  [Liang et al. 2023](https://arxiv.org/abs/2304.02819): detectors flagged on average
+  61.3% of TOEFL essays as AI while handling US eighth-grade essays well [AB for the
+  qualitative claim, S for numbers].
 
-Real course with known ground truth (students' own disclosure or controlled in-class vs
-take-home conditions); teachers who know their students and have baseline writing; AI
-texts produced both ways (default and student-realistic prompting); report recall *and*
-false-accusation rate, with calibrated confidence; and compare single teachers to
-pooled judgements. Until that exists, "I can usually tell" is neither confirmed nor
-refuted for the setting you care about.
+## 6. Who gets falsely suspected
 
-## 7. Implications that follow from the evidence
+- Non-native English writers: Liang et al. (detectors); the L2-teacher findings above
+  (humans) suggest the same logic applies to human readers.
+- Autistic writers: [Chambers & Kelley 2026](https://arxiv.org/pdf/2607.14729) report
+  detector false positives on structured, formulaic writing [AB, abstract only].
+- Human cost: an Australian study (UWA/UTS, Sept 2026) of 22 students under misconduct
+  investigation found over half in the top 2% for anxiety, with international and
+  non-native speakers over-represented [AB, press page; not AI-specific]. A Studiosity/YouGov
+  survey of 2,373 UK students: 75% of AI-using students worried about being wrongly flagged
+  (vendor-commissioned) [AB]. A Drexel qualitative analysis of accused students' accounts
+  is self-selected and not usable for rates [S].
 
-- Treat a teacher's suspicion as a prompt to *check* (conversation, drafts, oral
-  explanation), not as evidence. False positives against non-native writers are a documented
-  harm.
-- Training works a little (ESL study, Clark) and exposure to LLM-written text helps;
-  teaching staff what weak-but-AI text looks like addresses Fleckenstein's blind spot.
-- Process-based and in-person assessment sidesteps the detection problem, which is what
+## 7. Process and baseline approaches (closest to "I know this student")
+
+- **Stylometric baseline.** [Oliveira, Mohoni, López-Pernas & Saqr 2025](https://arxiv.org/abs/2505.08828):
+  authorship verification that compares a submission against *each student's prior
+  writing*; 1,889 documents, 540 authorship problems, 506 students, including University of
+  Melbourne work, tested against LLMs imitating student style [AB; I did not read the
+  results]. This is the nearest thing I found to testing the "known voice" idea, but it
+  is an algorithm, not teachers.
+- **Keystroke and process data.** [Mehta et al. 2025](https://arxiv.org/html/2511.12468v1):
+  classifiers F1 >97% in structured settings, ~87% on paraphrased content, while text-only
+  detectors and 44 human judges sat near 40–50% F1 [AB]. An EDM 2024 short paper reports
+  99% accuracy separating authentic writing from transcribed text [S]. Counter-evidence:
+  [arXiv 2601.17280](https://arxiv.org/html/2601.17280v1) reports ≥99.8% evasion by
+  copy-typing and timing forgery [S]. Keystrokes show a human typed the text, not that they
+  composed it.
+
+## 8. Why the literature may not match your own marking
+
+My synthesis from the evidence above, not established findings.
+
+1. **Different task.** The experiments test cold classification of short texts, with no
+   writer history, no assignment context, no follow-up. I found no experiment of teachers
+   judging their *own students'* work against known prior work. The stylometric baseline
+   paper suggests that is where signal might lie.
+2. **Different AI text.** Default RLHF output carries a recognisable lexicon and
+   structure, which frequent LLM users exploit (Russell). Fleckenstein's AI texts were
+   rubric-prompted and deliberately weak. What you find "obvious" is plausibly the default
+   or lightly prompted register; a student who prompts for voice or errors removes much of
+   it, and teachers appear not to expect that is possible.
+3. **Survivorship and no feedback.** You see the cases you catch and never learn about
+   the ones you miss. Scarfe's 94% shows what undetected work looks like from the marker's
+   side: ordinary marking. Without feedback, confidence stays high at low accuracy
+   (Milička's no-feedback group was *below* chance at maximum confidence).
+4. **Recall vs precision.** Experienced teachers cleared student texts well (73%) and
+   caught few AI texts (38%). "It's usually obvious" is compatible with a lot missed.
+5. **Exposure, not teaching, seems to matter.** Russell's edge is frequent LLM use for
+   writing; Casal & Kessler's linguists and Fleckenstein's teachers did poorly, and
+   Waltzer found self-reported ChatGPT experience didn't help. Possibly "experience"
+   measures differ; unresolved. Most teachers are in the non-expert group.
+6. **People's explicit rules are partly wrong** (Jakesch; Russell non-experts; Clark's
+   contradictory reasons): a gut sense of "obvious" can be a correct pattern or a
+   stereotype, and feel identical.
+7. **The headline is flatter than the data.** Results range from chance (single-text
+   judgements) to ~70% (pairs, where 50% is chance) to near-perfect for a pooled expert
+   panel. Task format, text length, how the AI text was made and who judges all move it.
+8. **A moving target, both ways.** Default text is arguably easier than ever for a
+   practised reader, while persona prompts, style imitation, humanizers and newer models
+   make adversarial text harder. Human-detection evidence on the newest models is thin.
+
+## 9. A study that would match your experience
+
+Real course with ground truth (declared use or controlled in-class vs take-home);
+teachers who know their students and hold baseline writing; AI texts produced both by
+default and by student-realistic prompting; report recall *and* false-accusation rate with
+calibrated confidence; compare single teachers with pooled judgements; test a feedback
+condition. Until then "I can usually tell" is neither confirmed nor refuted for the
+setting you care about.
+
+## 10. Implications
+
+- Treat suspicion as a reason to *check* (conversation, drafts, oral explanation, prior
+  work), not as evidence; false positives fall unevenly on L2 and neurodivergent writers.
+- Feedback-based training and exposure to LLM output look like the levers (Milička,
+  Russell); teach staff what weak-but-AI text looks like (Fleckenstein's blind spot).
+- Process-based and in-person assessment sidestep the detection problem, which is what
   Fleckenstein's authors recommend.
 
-## Sources not opened
-Springer, ScienceDirect (except via a PDF mirror for Fleckenstein), and the JALT site
-could not be fetched directly; †-marked items rely on search summaries.
+## Known gaps in this briefing
+
+- A third sweep (a broad search of human-detection studies) had not reported when this was
+  written; any studies it finds will be added.
+- Many figures are [S]. In particular, check Waltzer 2023/2024, Perkins, Kofinas, the
+  Guardian/ACU/WSU data, CDT and the Jones & Bergen follow-up against primary sources.
+- Publisher pages for ScienceDirect, Springer, Wiley and the Guardian could not be opened.
