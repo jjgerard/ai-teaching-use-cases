@@ -1,0 +1,45 @@
+{
+ "doc_id": "york-st-john-students-genai-202610",
+ "coder": "un-n6",
+ "uses": [
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use AI to help you think - not to think for you.",
+   "anchor": "1. You stay in charge"
+  },
+  {
+   "use": "disguise_ai_use",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using AI may not be cheating - but hiding it could be a breach of academic integrity.",
+   "anchor": "2. Be honest and transparent"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Paraphrasing text (whether published or the work of another student) in order to pass off the work of others as your own",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabricating empirical data to use in a research project or other assessment",
+   "anchor": "What you could or should not use AI for in assessed work"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": null
+}

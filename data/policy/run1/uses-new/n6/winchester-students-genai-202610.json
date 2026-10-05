@@ -1,0 +1,46 @@
+{
+ "doc_id": "winchester-students-genai-202610",
+ "coder": "un-n6",
+ "uses": [
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Students must never use Generative AI tools to produce content that is presented as their own critical thinking or original creation, whether for assessment or formative work.",
+   "anchor": "Principle 3: The University supports responsible engagement with Generative AI tools"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "study",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Students must never use Generative AI tools to produce content that is presented as their own critical thinking or original creation, whether for assessment or formative work.",
+   "anchor": "Principle 3: The University supports responsible engagement with Generative AI tools"
+  },
+  {
+   "use": "job_applications",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "As a candidate, AI may help organise thoughts, summarise experience, or convey your experience more effectively.",
+   "anchor": "Principle 7: Applications to courses at the University or job roles can be supported by AI, but are always grounded in authenticity"
+  },
+  {
+   "use": "job_applications",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "we expect applications to the University (to either study or work here) to be your own, drawing on your skills and experience and expressing your views and values authentically.",
+   "anchor": "Principle 7: Applications to courses at the University or job roles can be supported by AI, but are always grounded in authenticity",
+   "tier": "Own work expected"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": null
+}

@@ -1,0 +1,20 @@
+{
+ "doc_id": "hull-students-genai-202610",
+ "coder": "un-n12",
+ "uses": [
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Paraphrase someone else’s work without proper citation",
+   "anchor": "AI in Assessment"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": null
+}

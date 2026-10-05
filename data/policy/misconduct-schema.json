@@ -1,0 +1,68 @@
+{
+  "version": "1.0",
+  "purpose": "What a document says about academic misconduct involving AI: what counts as an offence, how it is detected, how a case is handled, and what the outcomes are. Each value has a verbatim quote and a flag for whether the quote itself names AI. Rules about what AI may be used for are in the uses schema, not here.",
+  "offences": {
+    "undeclared_use": "using AI without the required acknowledgement or declaration",
+    "unauthorised_use": "using AI beyond what the module, brief or institution permits",
+    "passing_off": "presenting AI-generated work as one's own, false authorship, or plagiarism of AI output",
+    "fabrication_or_falsification": "fabricating or falsifying data, references, quotations or results (with or without AI)",
+    "disguising_use": "hiding AI use or evading detection (humanising or paraphrasing tools, editing to avoid detectors)",
+    "contract_cheating_or_ghostwriting": "having a third party, essay mill or AI produce work on the student's behalf",
+    "misuse_of_others_work": "copying, paraphrasing or submitting other people's work, including other students' work",
+    "exam_or_supervised_breach": "using AI in an exam or supervised assessment where not permitted",
+    "data_or_upload_breach": "uploading personal, confidential, copyright or university material to AI tools against the rules"
+  },
+  "liability": {
+    "strict_liability": "ignorance, accident or lack of intent is no defence",
+    "intent_considered": "intent, carelessness or awareness affects the outcome",
+    "ignorance_mitigates": "inexperience or ignorance can count in the student's favour"
+  },
+  "detection": {
+    "methods": {
+      "ai_detection_software": "software that estimates whether text is AI-generated",
+      "similarity_software": "similarity or plagiarism checking software",
+      "staff_judgement": "marker or staff judgement of style, content or quality",
+      "oral_viva_or_interview": "a viva, interview or oral check of understanding",
+      "draft_or_version_history": "drafts, notes, version history or logs as evidence",
+      "forensic_or_specialist_analysis": "referral for specialist or digital forensic analysis"
+    },
+    "stances": {
+      "used": "the document says the method is used",
+      "may_be_used": "the document says the method may be used or that use may be detected",
+      "not_used": "the document says the method is not used",
+      "restricted": "use is limited to named officers or conditions",
+      "unreliable": "the document warns the method is unreliable or not enough on its own"
+    }
+  },
+  "process": {
+    "informal_conversation": "an informal discussion or conversation first",
+    "referral_to_officer_or_panel": "referral to an officer, committee or panel",
+    "investigation": "a formal investigation step",
+    "student_right_to_respond": "the student is told the allegation and may respond",
+    "hearing": "a hearing or meeting",
+    "proceeds_if_absent": "the case proceeds if the student does not attend or respond",
+    "support_for_student": "support or representation is offered (students' union, adviser)",
+    "appeal": "a right to appeal",
+    "timescale": "a stated timescale for the process",
+    "standard_of_proof": "a stated standard of proof (for example balance of probabilities)"
+  },
+  "outcomes": {
+    "educative_first_offence": "a first or minor offence is handled educatively",
+    "warning": "a formal or written warning",
+    "mark_reduction": "a reduced mark",
+    "zero_for_work": "a mark of zero for the work",
+    "resubmission": "resubmission or reassessment",
+    "module_failure": "failure of the module",
+    "suspension_or_exclusion": "suspension, exclusion or expulsion",
+    "degree_effect": "an effect on the degree classification or award",
+    "repeat_offence_escalation": "repeat or concurrent offences are treated more severely",
+    "tariff_or_factors": "a penalty tariff or stated factors that set the penalty",
+    "penalty_stated_without_detail": "penalties are mentioned but not specified"
+  },
+  "definitions": "terms defined by the document (contract cheating, false authorship, plagiarism, collusion), free text of at most four words",
+  "scope": {
+    "ai_specific": "the document is mainly about AI",
+    "general_misconduct": "the document is a general misconduct procedure with some AI wording",
+    "none": "the document has no misconduct content"
+  }
+}

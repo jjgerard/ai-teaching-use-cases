@@ -1,0 +1,36 @@
+{
+ "doc_id": "stir-d2-misconduct-procedure-202610",
+ "coder": "un-n19",
+ "uses": [
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsification is the fabrication or invention of data, information, or references in any formal academic exercise.",
+   "anchor": "21.1.6. Falsification"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It is noted that the use of AI tools to paraphrase other students’ work is strictly prohibited as it constitutes a case of collusion.",
+   "anchor": "21.1.5. Collusion"
+  },
+  {
+   "use": "disguise_ai_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Making false or misleading statements as to the extent to which, and how, artificial intelligence tools were used in an assessment.",
+   "anchor": "21.1.11. Dishonest Practice"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": null
+}

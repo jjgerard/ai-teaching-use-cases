@@ -2,7 +2,28 @@
  {
   "doc_id": "aston-students-genai-202610",
   "coder": "use-u1",
-  "uses": [],
+  "uses": [
+   {
+    "use": "delegate_to_ai_agent",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "explicitly prohibits the development, deployment, or integration of agentic AI systems",
+    "anchor": "CODE OF CONDUCT",
+    "ai_named": true
+   },
+   {
+    "use": "harmful_or_deceptive_content",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "scraping; deepfake abuse",
+    "anchor": "Risk-Based Framework",
+    "ai_named": false
+   }
+  ],
   "default_when_silent": null,
   "decided_by": [],
   "acknowledgement": {
@@ -544,6 +565,16 @@
     "conditions": [],
     "quote": "Do not simply accept Gen-AI outputs as fact or authority.",
     "anchor": "What is meant by thinking critically about Gen-AI output?"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "In short, do not allow any Gen-AI tools or services to think for you or create work which isn’t yours or the result of your efforts.",
+    "anchor": "What is meant by thinking critically about Gen-AI output?",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -1242,6 +1273,16 @@
     "quote": "Using Generative AI tools effectively is part of this assessment.",
     "anchor": "Green category",
     "tier": "Green"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "It must not be used to replace your own critical thinking. Your work needs to reflect your evaluation of the evidence and your thoughts.",
+    "anchor": "How not to use AI and AI tools",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -1671,6 +1712,42 @@
     ],
     "quote": "AI may be used to support preparation activities (e.g. drafting CVs, interview practice, and labour market research), provided its use enhances understanding and does not replace the development of a student’s own skills and judgement.",
     "anchor": "5.2 Employability and Recruitment"
+   },
+   {
+    "use": "harmful_or_deceptive_content",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Harassment, discrimination, or deceptive practices (e.g. deepfakes)",
+    "anchor": "6. Prohibited Uses",
+    "ai_named": false
+   },
+   {
+    "use": "job_applications",
+    "context": "unspecified",
+    "stance": "conditional",
+    "acknowledge": "not_stated",
+    "conditions": [
+     "limited_extent"
+    ],
+    "quote": "AI may be used to support preparation activities (e.g. drafting CVs, interview practice, and labour market research), provided its use enhances understanding and does not replace the development of a student’s own skills and judgement.",
+    "anchor": "5.2 Employability and Recruitment",
+    "tier": "Preparation",
+    "ai_named": true
+   },
+   {
+    "use": "job_applications",
+    "context": "unspecified",
+    "stance": "conditional",
+    "acknowledge": "not_stated",
+    "conditions": [
+     "needs_permission"
+    ],
+    "quote": "The use of AI to generate or substantially assist responses in live recruitment activities (including interviews, assessment centres, or timed tasks) is inappropriate unless explicitly permitted by the employer.",
+    "anchor": "5.2 Employability and Recruitment",
+    "tier": "Live recruitment",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -2270,6 +2347,16 @@
     ],
     "quote": "Cite directly included AI content using Teesside University’s referencing guide.",
     "anchor": "Responsible use of AI"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Don’t over-rely — this weakens your creativity and reasoning.",
+    "anchor": "5. Think Critically and Reflect",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -2877,6 +2964,16 @@
     "tier": "Level 5: Full AI",
     "quote": "AI should be used as a 'co-pilot' in order to meet the requirements of the assessment, allowing for a collaborative approach with AI and enhancing creativity. In this case, AI can be used throughout the assessment and the student is not required to specify which content is AI generated.",
     "anchor": "Use of Artificial Intelligence Assessment Scale (AIAS)"
+   },
+   {
+    "use": "harmful_or_deceptive_content",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "GenAI must not be used to promote discrimination, bias, or harm.",
+    "anchor": null,
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -2991,6 +3088,16 @@
     ],
     "quote": "Presenting work that has been processed through AI applications beyond that permitted by the third -party proofreading and editing guidelines referenced above .",
     "anchor": "Major Academic Misconduct"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Falsification : Submitting assessed work which has been either fabricated or falsified.",
+    "anchor": null,
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -3049,6 +3156,16 @@
     "conditions": [],
     "quote": "This involves any means whereby a person or generative Artificial Intelligence does work (in whole or in part) on your behalf which you intentionally pass off as your own work.",
     "anchor": "Types of academic misconduct"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Falsification of data or making false declarations – Questionnaire results, interviews or other data that are expected to be obtained truthfully are made up or altered.",
+    "anchor": null,
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -3315,6 +3432,16 @@
     "conditions": [],
     "quote": "They generate text that is not always factually correct. A knowledgeable human must check the output.",
     "anchor": "Risks of over-reliance on generative AI"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "overreliance on AI tools simply to generate written content, software code or analysis reduces your opportunity to develop and practice key skills (e.g. writing, critical thinking, evaluation, analysis, coding, reasoning).",
+    "anchor": "Risks of over-reliance on generative AI",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -3505,6 +3632,16 @@
     "conditions": [],
     "quote": "Academic Integrity: Using AI to do your work for you (e.g. writing full essays) may breach university policies. Always check with your tutor.",
     "anchor": "Limitations of using AI"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "AI does not understand context or nuance the way you do, it cannot replace your own analysis or judgement.",
+    "anchor": "Limitations of using AI",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -3711,6 +3848,26 @@
     ],
     "quote": "Recording and transcribing of lectures, tutorials and meetings, etc., without prior consent.",
     "anchor": "2. Limitations, Disadvantages, and Inappropriate Use of GenAI"
+   },
+   {
+    "use": "harmful_or_deceptive_content",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Creation of information with the intent to mislead.",
+    "anchor": "2. Limitations, Disadvantages, and Inappropriate Use of GenAI",
+    "ai_named": false
+   },
+   {
+    "use": "job_applications",
+    "context": "unspecified",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Support with interview preparation (ShortlistMe)",
+    "anchor": "4.1 How GenAI tools can be used effectively",
+    "ai_named": false
    }
   ],
   "default_when_silent": {
@@ -3997,6 +4154,16 @@
     "conditions": [],
     "quote": "AI-generated output should not be treated as an authoritative scholarly source.",
     "anchor": "How do I reference the use of AI in my work?"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Creating false quotations, citations, or references is academic misconduct.",
+    "anchor": "Alternative tools to generative AI",
+    "ai_named": false
    }
   ],
   "default_when_silent": {
@@ -4399,6 +4566,18 @@
     ],
     "quote": "For example, if you’re working on a research thesis, discuss the use of AI with your supervisor.",
     "anchor": "AI in Assessment"
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "not_stated",
+    "conditions": [
+     "needs_permission"
+    ],
+    "quote": "Paraphrase someone else’s work without proper citation",
+    "anchor": "AI in Assessment",
+    "ai_named": true
    }
   ],
   "default_when_silent": {
@@ -4830,6 +5009,16 @@
     "conditions": [],
     "quote": "You must therefore critically analyse and verify any information that you plan to use in your academic work, including any references or sources provided by a GenAI tool.",
     "anchor": "Key points to be aware of"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Fabrication (creation of false data/references) could also involve inaccurate material taken from AI tools;",
+    "anchor": "Academic Honesty and Policy",
+    "ai_named": true
    }
   ],
   "default_when_silent": {
@@ -5286,6 +5475,16 @@
     "conditions": [],
     "quote": "Always double-check and verify information obtained from Generative AI tools.",
     "anchor": "Inaccuracy and misrepresentation of information"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "While Generative AI can be a valuable tool for understanding concepts and exploring ideas, it should never replace your own critical thinking and analysis.",
+    "anchor": null,
+    "ai_named": true
    }
   ],
   "default_when_silent": {
@@ -5366,6 +5565,16 @@
     "conditions": [],
     "quote": "Drawing down text in whole or part from Artificial Intelligence (AI) that is more substantial than grammar, spelling and punctuation checks of your original work is not permitted unless specified within the assignment brief.",
     "anchor": "2.3.8. Plagiarism through AI"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Falsification is an attempt to present fictitious or distorted data, evidence, references, citations, or experimental results, and/or to knowingly make use of such material.",
+    "anchor": "Falsification",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -5477,6 +5686,16 @@
     ],
     "quote": "Students must seek prior agreement from all group members before recording or transcribing group conversations.",
     "anchor": "2.1 Use of AI in Assessed Work"
+   },
+   {
+    "use": "personal_advice",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Microsoft 365 Copilot is not a suitable substitute for therapy, any other medical and health advice, or academic advice.",
+    "anchor": null,
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -5521,6 +5740,16 @@
     ],
     "quote": "Unauthorised use of artificial intelligence (AI) tools. How you can use AI tools in your work will be described in your assessment brief and where you have used this, it must be appropriately referenced.",
     "anchor": "2.10"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Fraud includes faking (or presenting faked) data, references, evidence, or experimental results (this is sometimes called ‘falsification’ or ‘fabrication’)",
+    "anchor": null,
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -5755,6 +5984,16 @@
     ],
     "quote": "Academic Integrity is breached if students submit the products of GenAI as their own work without acknowledgement or without authorisation to use GenAI in fulfilling the task.",
     "anchor": "9. Generative Artificial Intelligence"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "cheating by way of falsification or fabrication",
+    "anchor": "Academic Misconduct",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -5890,6 +6129,16 @@
     ],
     "quote": "your work should not be altered more than it would be by the spellchecking or grammar checking software that you would find in Microsoft Office products (i.e. a spellchecker that is not AI enabled).",
     "anchor": "What ‘Your Own Work’ Means When Using AI"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "encourage you to use generative AI to enhance your critical thinking skills rather than replacing them.",
+    "anchor": "Appropriate use",
+    "ai_named": true
    }
   ],
   "default_when_silent": {
@@ -6008,6 +6257,26 @@
     ],
     "quote": "Failing to acknowledge/reference any permitted use of AI within an assessment.",
     "anchor": "11.6 Unauthorised Use of Technology"
+   },
+   {
+    "use": "disguise_ai_use",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Attempting to use AI to humanise or attempt to hide the use of AI so that the submitted assessment does not reflect the student’s own understandings, thoughts or ideas.",
+    "anchor": "Academic misconduct",
+    "ai_named": true
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Fabrication occurs where a student creates data, results or other outputs and presents them as if they were real.",
+    "anchor": "Academic misconduct",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -6356,6 +6625,16 @@
     ],
     "quote": "undisclosed use of AI tools for writing support, paraphrasing or translation.",
     "anchor": "10. Appendix: Penalties"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "research_or_thesis",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "including plagiarism, fabrication of data, falsifying the results of laboratory, field work or other forms of data collection and analysis.",
+    "anchor": "1.4. Definitions and glossary",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -6784,6 +7063,27 @@
     "tier": "None",
     "quote": "For this assessment, you are not allowed to use any type of Generative AI support. This includes research support, structure support, writing/proofreading support and creative support.",
     "anchor": "Use of Generative AI in Assessment"
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Further, you cannot ask a GAI tool to rephrase or paraphrase text that another person has written.",
+    "anchor": "Basic Proofreading: What you cannot do",
+    "ai_named": true
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "You must not implement any AI artistic endeavour that seeks to mimic existing practice as this is not considered authentic student work.",
+    "anchor": "What you cannot do when using AI as part of the creative process:",
+    "tier": "creative work",
+    "ai_named": true
    }
   ],
   "default_when_silent": {
@@ -6906,6 +7206,16 @@
     "conditions": [],
     "quote": "Using generative AI tools outside the given parameters of the assessment brief without acknowledgement or attribution.",
     "anchor": "4. Poor Academic Practice versus Academic Misconduct"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Falsifying or inventing data, information, sources, citations and/or experiences",
+    "anchor": "Academic misconduct",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -7089,6 +7399,16 @@
     "conditions": [],
     "quote": "it has become a growing problem thanks to commercial essay mills and the use of artificial intelligence (AI).",
     "anchor": "Contract cheating"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Don’t feel tempted to make something up, there will be options and help that can be given.",
+    "anchor": "Fabrication of data/evidence and Research misconduct",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -7791,6 +8111,26 @@
     "conditions": [],
     "quote": "presenting work generated by AI as if it were your own",
     "anchor": "(i) Plagiarism"
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "copying another person's work",
+    "anchor": "(i) Plagiarism",
+    "ai_named": false
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Fabrication of evidence or data and/or use of such evidence or data in assessed work include making false claims to have carried out experiments, observations, interviews or other forms of data collection and analysis.",
+    "anchor": "(iii) Fabrication of evidence or data",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -7848,6 +8188,26 @@
     ],
     "quote": "make acknowledgements in submitted work as required by the University and/or their subject or discipline (e.g. to sources, methods, translation, use of generative artificial intelligence software)",
     "anchor": "Appendix 2 - Students' Responsibilities"
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Paraphrasing another’s work without acknowledgement is considered to be plagiarism.",
+    "anchor": null,
+    "ai_named": true
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Misrepresentation of data, including inventing data or omitting data.",
+    "anchor": "A. Examples of Academic Misconduct in Coursework",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -7889,6 +8249,26 @@
     ],
     "quote": "Assignment briefs will identify where use of artificial intelligence may be appropriate; in all other cases it is not.",
     "anchor": null
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Use of another person's words or ideas that has been slightly changed or paraphrased to make it look different from the original.",
+    "anchor": "Plagiarism",
+    "ai_named": true
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Fabrication of references, including references within the reference section or bibliography which have been fabricated and are not genuine sources.",
+    "anchor": "Falsification",
+    "ai_named": false
    }
   ],
   "default_when_silent": {
@@ -7965,6 +8345,26 @@
     ],
     "quote": "using AI to generate material for submission where this is not permitted;",
     "anchor": null
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Falsifying data, evidence or experimental results",
+    "anchor": "3.1.1.4 Academic Misconduct",
+    "ai_named": false
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Using automated paraphrasing software.",
+    "anchor": "3.1.1.1 Plagiarism",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -7994,6 +8394,16 @@
     ],
     "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment.",
     "anchor": "Plagiarism"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "research_or_thesis",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "The fabrication, falsification, plagiarism or deception in proposing, carrying out or reporting results of",
+    "anchor": "Research misconduct",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -8114,6 +8524,28 @@
     ],
     "quote": "In most instances misuse of GenAI would fall under the definition of plagiarism (either through failing to appropriately reference sources (i.e. GenAI) or presenting work that is not student’s own as if it were)",
     "anchor": "Misuse of Generative Artificial Intelligence (GenAI) Tools"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Falsifying Data: presenting data based on work which a student claims to have carried",
+    "anchor": "Falsifying Data",
+    "tier": "data",
+    "ai_named": false
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Falsify References: It is a student’s responsibility to ensure that their references list or",
+    "anchor": "Falsify References",
+    "tier": "references",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -8155,6 +8587,16 @@
     ],
     "quote": "Plagiarism, including the unauthorized and unattributed use of generative AI in written assignments",
     "anchor": "6.2 Academic Misconduct"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Changing, creating or misrepresenting information or data in order to deceive.",
+    "anchor": "Falsification",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -8195,6 +8637,16 @@
     ],
     "quote": "This may include work produced by, but not attributed to: another student, an essay mill 4, a family member or friend, a tutoring service or the unauthorised use of Artificial Intelligence (AI) software.",
     "anchor": "False Authorship"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Falsification or fabrication of data. The University defines this as the",
+    "anchor": "Falsification or fabrication of data",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -8221,6 +8673,16 @@
     "conditions": [],
     "quote": "The use of Generative AI tools (such as ChatGPT or others) to generate an assignment (or part of an assignment) and submit this as if were one’s own work will be regarded as academic misconduct and treated as such.",
     "anchor": null
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "for a student to invent or falsify data, evidence, references, experimental results or other material contributing to any student’s assessed work or for a student knowingly to make use of such material.",
+    "anchor": "30.2",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -8390,6 +8852,16 @@
     ],
     "quote": "Note that students with a registered disability specifically allowing assistive technology, are not required to declare the use of assistive technology.",
     "anchor": "Reasonable Adjustments"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Falsification is the fabrication, alteration, or false representation of anything that forms part of a student’s output; this may include, inter alia, data, materials, quotations, or citation.",
+    "anchor": "2.2. Academic misconduct",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -8518,6 +8990,36 @@
     "conditions": [],
     "quote": "inappropriate use such as unacknowledged reliance on AI-generated content, submitting AI output as one’s own work, or failing to engage critically with content provided by AI, may constitute poor",
     "anchor": "Artificial Intelligence"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Falsification is the fabrication or invention of data, information, or references in any formal academic exercise.",
+    "anchor": "21.1.6. Falsification",
+    "ai_named": false
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "It is noted that the use of AI tools to paraphrase other students’ work is strictly prohibited as it constitutes a case of collusion.",
+    "anchor": "21.1.5. Collusion",
+    "ai_named": true
+   },
+   {
+    "use": "disguise_ai_use",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Making false or misleading statements as to the extent to which, and how, artificial intelligence tools were used in an assessment.",
+    "anchor": "21.1.11. Dishonest Practice",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -8570,6 +9072,16 @@
     "conditions": [],
     "quote": "Plagiarism may also include circumstances where minor amendments are made to disguise the original source, or to pass off an idea as a student’s own, including the use of any software or artificial intelligence to generate create or revise work",
     "anchor": null
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "This includes either changing any information (e.g. data) to support a hypothesis, or inventing information (e.g. experimental results, interview questions or answers, survey results), which are then reported as genuine observations or measurements.",
+    "anchor": "E. Fabrication or deliberate misrepresentation of information",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -8620,6 +9132,16 @@
     ],
     "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism.",
     "anchor": "Plagiarism"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Fabrication includes presenting results which were not generated by the experiment or survey, i.e. ‘inventing data’.",
+    "anchor": "Fabrication",
+    "ai_named": false
    }
   ],
   "default_when_silent": {
@@ -8658,6 +9180,16 @@
     ],
     "quote": "where permission to use GAI has been granted, the use of material produced by GAI must be referenced or acknowledged",
     "anchor": "DEFINITIONS"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Falsification or fabrication of data: the presentation of data in laboratory reports, projects etc based on work falsely presented as having been carried out by the student; obtained by unfair means; or to present fictitious results.",
+    "anchor": "ACADEMIC MISCONDUCT",
+    "ai_named": false
    }
   ],
   "default_when_silent": {
@@ -8686,7 +9218,18 @@
  {
   "doc_id": "mary-immaculate-d2-other-202610",
   "coder": "use-u27",
-  "uses": [],
+  "uses": [
+   {
+    "use": "personal_advice",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "While many students now turn to generative AI for advice during difficult periods, these tools are not designed to address complex emotional or mental health concerns.",
+    "anchor": "Personal Care and Wellness",
+    "ai_named": true
+   }
+  ],
   "default_when_silent": null,
   "decided_by": [],
   "acknowledgement": {
@@ -8745,6 +9288,26 @@
     ],
     "quote": "the use of AI for any placement activity must be in accordance with both this policy and approved by the student’s supervisor or equivalent in the relevant placement setting.",
     "anchor": "Academic Integrity and Student Responsibilities"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "The presenting or making use of fictitious, altered or misrepresented data, evidence, references, citations or experimental results and includes the use of GenAI created content or output that is fabricated or",
+    "anchor": "Falsification",
+    "ai_named": true
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "AI-empowered plagiarism is “the use of AI tools to generate text that closely mimics existing sources without proper attribution”",
+    "anchor": "Plagiarism",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -8801,6 +9364,16 @@
     ],
     "quote": "Academic integrity is breached if students submit the products of GenAI as their own work without acknowledgement and without authorisation to use GenAI in fulﬁlling the task.",
     "anchor": null
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "research_or_thesis",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Fabrication/Falsification – Making up data, experiments, or other significant information in proposing, conducting, or reporting research.",
+    "anchor": "Forms of Academic Misconduct",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -8836,6 +9409,26 @@
     ],
     "quote": "unauthorised and / or unacknowledged use of artificial intelligence tools to generate content for assessment purposes",
     "anchor": null
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Fabricating or falsifying data",
+    "anchor": null,
+    "ai_named": false
+   },
+   {
+    "use": "disguise_ai_use",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "unauthorised and / or unacknowledged use of paraphrasing or translation software to, for example, disguise plagiarism, collusion, contract cheating or other academic integrity breach.",
+    "anchor": null,
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -9030,6 +9623,16 @@
     "quote": "The Assessment ruberic requires the use and inclusion of AI in the final draft",
     "anchor": "Types of Assessment",
     "tier": "Type 3"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "assessed_work",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Ensure that you are using AI to support rather than replace your own thinking.",
+    "anchor": "Using AI in Assessment",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -9390,6 +9993,16 @@
     "conditions": [],
     "quote": "The tools are not a fool proof or fully reliable sources, and they should never be treated as such.",
     "anchor": "Are there limitations to AI?"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "But, AI should never replace your own thinking, judgement or original work.",
+    "anchor": "Are artificial intelligence tools helpful?",
+    "ai_named": true
    }
   ],
   "default_when_silent": {
@@ -9530,6 +10143,16 @@
     "conditions": [],
     "quote": "Do not overuse or rely fully upon generative AI.",
     "anchor": "Engaging critically with generative AI"
+   },
+   {
+    "use": "job_applications",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "This goes for your own personal data (like asking a generative AI to write a CV for you) but also any research data that you might collect via primary research.",
+    "anchor": "Legal, ethical, and data protection considerations",
+    "ai_named": true
    }
   ],
   "default_when_silent": {
@@ -9873,6 +10496,36 @@
     "conditions": [],
     "quote": "if you are using it to regularly assist with mathematical reasoning or coding, you are undermining your own ability to learn and become expert at doing this yourself.",
     "anchor": "Cognitive offloading"
+   },
+   {
+    "use": "delegate_to_ai_agent",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Using an AI agent within Learn or any other University learning or assessment platform which requires you to log in is not permitted.",
+    "anchor": "Agentic AI",
+    "ai_named": true
+   },
+   {
+    "use": "delegate_to_ai_agent",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "getting someone or something else (such as an AI agent) to complete your work for you",
+    "anchor": "Unacceptable uses of generative AI for assessment",
+    "ai_named": true
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "study",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "If you routinely use generative AI for breaking down and summarising long texts, for example, you will not be developing your own critical skills in the analysis of complex documents.",
+    "anchor": "Cognitive offloading",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -10140,6 +10793,16 @@
     "conditions": [],
     "quote": "Using automated paraphrasing tools, for example, can result in work of false authorship being submitted (as well as often poor paraphrasing!) and means you are not applying the skills that you are here to learn.",
     "anchor": "Language-enhancement applications and proofreading services"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "assessed_work",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "AI can be used to assist you in generating ideas, but again, this should not be a shortcut for critical thinking, deeper analysis and academic writing, all of which should be your own and you should be able to explain if asked.",
+    "anchor": "Examples of good and/or acceptable use of generative AI in assessments",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -10252,6 +10915,16 @@
     "conditions": [],
     "quote": "AI tools should not be depended upon for factual precision.",
     "anchor": "Please beware:"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Critical Thinking: Avoid depending on generative AI tools for critical thinking and remember these tools are not search engines.",
+    "anchor": "Please beware",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -10386,6 +11059,16 @@
     ],
     "quote": "acknowledging AI sources through appropriate referencing where you have used content as an information source alongside your other reading",
     "anchor": "AI and assessment"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Poor research and academic practice or misconduct such as plagiarism, collusion, fabrication, or falsification, undermine the advancement of knowledge and innovation that are at the core of the University’s vision.",
+    "anchor": "What is academic integrity?",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -10576,6 +11259,16 @@
     ],
     "quote": "Use of AI specifically for language correction should be acknowledged in the same way as any other assistance with writing is acknowledged as per the Language Correction policy.",
     "anchor": "15. What should PGR students consider before using AI?"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "A reliance on Generative AI could impact your ability to develop important skills, including those associated with research design and critical engagement.",
+    "anchor": "9. What are the risks of using AI in my academic work?",
+    "ai_named": true
    }
   ],
   "default_when_silent": {
@@ -10818,6 +11511,26 @@
     ],
     "quote": "Create subtitles, voice to text transcripts of video lessons ensuring no personal, client-specific or businessconfidential information is included in the video",
     "anchor": "Quick reference sheet of Acceptable and Unacceptable Use Cases of Generative AI tools"
+   },
+   {
+    "use": "disguise_ai_use",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Paraphrasing the output of generative AI to avoid arousing suspicion of AI use or deceive a marker",
+    "anchor": "Unacceptable Use At Any Time",
+    "ai_named": true
+   },
+   {
+    "use": "personal_advice",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "BPP strongly recommend that you do not use any Gen AI tools in the following situations for the reasons provided.",
+    "anchor": "3. Recommendations",
+    "ai_named": true
    }
   ],
   "default_when_silent": {
@@ -10892,6 +11605,16 @@
     "conditions": [],
     "quote": "Never present AI generated work as your own in an assignment. That would be cheating.",
     "anchor": "How to avoid an academic offence"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Never ask AI to generate experimental data which you then submit having purported to have collected it yourself as primary data, either in raw form or after analysis. This is fabrication and counts as serious misconduct.",
+    "anchor": "How to avoid an academic offence",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -11077,6 +11800,26 @@
     ],
     "quote": "All use of generative AI must be acknowledged in an ‘Acknowledgements’ section on the first page of any piece of academic work where it has been used. This includes the use of translation tools.",
     "anchor": "6. Artificial Intelligence"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "This is an example of getting AI to think for you.",
+    "anchor": "Appendix 1: Illustrative examples of acceptable use of AI tools",
+    "ai_named": true
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "research_or_thesis",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "This represents academic misconduct as it involves AI thinking for you.",
+    "anchor": "Appendix 1: Illustrative examples of acceptable use of AI tools",
+    "ai_named": true
    }
   ],
   "default_when_silent": {
@@ -11141,6 +11884,26 @@
     ],
     "quote": "The University defines the unacceptable use of Generative Artificial Intelligence as the act of presenting content generated by artificial intelligence tools (such as text, media, tables etc – list not exhaustive), as one’s own without proper acknowledgement, except where the nature of the assessment makes this permissible and is explicitly stated in the assessment brief.",
     "anchor": "Unacceptable use of Generative Artificial Intelligence"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "The University defines the act of fabricating or falsifying data to include presenting work that has not taken place.",
+    "anchor": "Fabricating or falsifying data or using without permission another person’s work",
+    "ai_named": false
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "This also includes copying the work of another student or other students.",
+    "anchor": "Plagiarism (including copying, self-plagiarism, collusion and use of generative artificial intelligence)",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -11315,6 +12078,16 @@
     "conditions": [],
     "quote": "Formatting a reference list by specifying the citation style you are using (e.g. APA, MLA Chicago, Harvard) though staff and students do have access to ProQuest Refworks",
     "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "You must not use GenAI to do your critical thinking, analysis, evaluation, or synthesis.",
+    "anchor": null,
+    "ai_named": true
    }
   ],
   "default_when_silent": {
@@ -12251,6 +13024,17 @@
     "conditions": [],
     "quote": "Producing image, video and audio content",
     "anchor": "What can gen-AI be useful for?"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Note: for Category 2 assessments, the fundamental content of the submission (e.g., the arguments, interpretations, conclusions etc) must be your own.",
+    "anchor": "Appendix 1",
+    "tier": "Category 2",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -12474,6 +13258,46 @@
     ],
     "quote": "Under 18s are not currently permitted to use GenAI.",
     "anchor": "Privacy and data protection"
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "to falsely insert references;",
+    "anchor": "How do I avoid academic misconduct when using digital tools for proofreading?",
+    "ai_named": false
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Do not request that the GenAI platform creates images and videos that are close copies of copyrighted outputs.",
+    "anchor": "Copyright",
+    "ai_named": true
+   },
+   {
+    "use": "harmful_or_deceptive_content",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Ensure you do not perpetuate bias and stereotyping that is offensive and harmful, for instance, around gender, race, and disability.",
+    "anchor": "Image generation",
+    "ai_named": false
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "research_or_thesis",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "it can supplement your own research and critical thinking skills, not replace them.",
+    "anchor": "Research and GenAI",
+    "ai_named": false
    }
   ],
   "default_when_silent": {
@@ -12626,6 +13450,16 @@
     "conditions": [],
     "quote": "Gen AI tools can support research for gathering information and brainstorming",
     "anchor": "What about Postgraduate Research and Generative AI?"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "You declare your use of Gen AI, but the Gen AI content replaces the learning, thinking or skills that the assessment is designed to assess (declared, but inappropriate use of Gen AI)",
+    "anchor": "Am I allowed to use Gen AI or is it considered cheating?",
+    "ai_named": true
    }
   ],
   "default_when_silent": null,
@@ -12850,6 +13684,46 @@
     "conditions": [],
     "quote": "Some students may have AI tools provided as part of reasonable adjustments, and we have additional guidance to help you decide whether and how to use AI: Using AI as Assistive Technology.",
     "anchor": null
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Use AI to help you think - not to think for you.",
+    "anchor": "1. You stay in charge",
+    "ai_named": true
+   },
+   {
+    "use": "disguise_ai_use",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Using AI may not be cheating - but hiding it could be a breach of academic integrity.",
+    "anchor": "2. Be honest and transparent",
+    "ai_named": true
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Paraphrasing text (whether published or the work of another student) in order to pass off the work of others as your own",
+    "anchor": "What you could or should not use AI for in assessed work",
+    "ai_named": true
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Fabricating empirical data to use in a research project or other assessment",
+    "anchor": "What you could or should not use AI for in assessed work",
+    "ai_named": false
    }
   ],
   "default_when_silent": {
@@ -13397,6 +14271,26 @@
     "conditions": [],
     "quote": "Manipulate or fabricate data or research findings.",
     "anchor": "Unacceptable use of Gen AI"
+   },
+   {
+    "use": "copy_or_paraphrase_others_work",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Paraphrase the work of others, including other staff, students or organisations.",
+    "anchor": "Unacceptable use of Gen AI",
+    "ai_named": true
+   },
+   {
+    "use": "fabricate_data_or_references",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Manipulate or fabricate data or research findings.",
+    "anchor": "Unacceptable use of Gen AI",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,
@@ -13481,6 +14375,47 @@
     ],
     "quote": "Students are encouraged to speak to the Disability and Inclusion Team, and staff to their line manager and other relevant colleagues, about how University-provided AI tools can be used appropriately as part of a learning agreement or reasonable adjustment.",
     "anchor": "Principle 8: The University is open to the ways in which AI can support our commitment to inclusion"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Students must never use Generative AI tools to produce content that is presented as their own critical thinking or original creation, whether for assessment or formative work.",
+    "anchor": "Principle 3: The University supports responsible engagement with Generative AI tools",
+    "ai_named": true
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "study",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Students must never use Generative AI tools to produce content that is presented as their own critical thinking or original creation, whether for assessment or formative work.",
+    "anchor": "Principle 3: The University supports responsible engagement with Generative AI tools",
+    "ai_named": true
+   },
+   {
+    "use": "job_applications",
+    "context": "unspecified",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "As a candidate, AI may help organise thoughts, summarise experience, or convey your experience more effectively.",
+    "anchor": "Principle 7: Applications to courses at the University or job roles can be supported by AI, but are always grounded in authenticity",
+    "ai_named": true
+   },
+   {
+    "use": "job_applications",
+    "context": "unspecified",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "we expect applications to the University (to either study or work here) to be your own, drawing on your skills and experience and expressing your views and values authentically.",
+    "anchor": "Principle 7: Applications to courses at the University or job roles can be supported by AI, but are always grounded in authenticity",
+    "tier": "Own work expected",
+    "ai_named": false
    }
   ],
   "default_when_silent": null,

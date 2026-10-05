@@ -1,0 +1,45 @@
+{
+ "doc_id": "canterbury-students-genai-202610",
+ "coder": "un-n6",
+ "uses": [
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "to falsely insert references;",
+   "anchor": "How do I avoid academic misconduct when using digital tools for proofreading?"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Do not request that the GenAI platform creates images and videos that are close copies of copyrighted outputs.",
+   "anchor": "Copyright"
+  },
+  {
+   "use": "harmful_or_deceptive_content",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Ensure you do not perpetuate bias and stereotyping that is offensive and harmful, for instance, around gender, race, and disability.",
+   "anchor": "Image generation"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "research_or_thesis",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "it can supplement your own research and critical thinking skills, not replace them.",
+   "anchor": "Research and GenAI"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": null
+}

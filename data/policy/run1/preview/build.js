@@ -94,7 +94,7 @@ const SUP = { forms: SFORMS.forms.map((f) => { const o = supByForm[f.id] || {}; 
 // uses and acknowledgement (uses.json), aggregated by institution
 const USESCH = rd("uses-schema.json"); const UDOCS = rd("uses.json");
 const URows = []; const UAck = {};
-for (const d of UDOCS) { const i = FIRST(d.doc_id); for (const u of d.uses) URows.push({ i, d: d.doc_id, u: u.use, c: u.context, s: u.stance, a: u.acknowledge, k: u.conditions || [], t: u.tier || null, q: u.quote.length > 240 ? u.quote.slice(0, 237) + "..." : u.quote });
+for (const d of UDOCS) { const i = FIRST(d.doc_id); for (const u of d.uses) if (u.ai_named !== false) URows.push({ i, d: d.doc_id, u: u.use, c: u.context, s: u.stance, a: u.acknowledge, k: u.conditions || [], t: u.tier || null, q: u.quote.length > 240 ? u.quote.slice(0, 237) + "..." : u.quote });
   const a = d.acknowledgement || {}; const o = (UAck[i] ??= { duty: null, def: null, decided: [], contents: [], location: [], records: null, referencing: null, consequence: null, exempt: [] });
   const dr = { always_required: 4, conditional: 3, recommended: 2, not_required: 1 };
   if (a.duty && (!o.duty || dr[a.duty.value] > dr[o.duty.v])) o.duty = { v: a.duty.value, q: a.duty.quote };

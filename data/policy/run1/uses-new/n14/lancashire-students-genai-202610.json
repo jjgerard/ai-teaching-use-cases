@@ -1,0 +1,27 @@
+{
+ "doc_id": "lancashire-students-genai-202610",
+ "coder": "un-n14",
+ "uses": [
+  {
+   "use": "disguise_ai_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Attempting to use AI to humanise or attempt to hide the use of AI so that the submitted assessment does not reflect the student\u2019s own understandings, thoughts or ideas.",
+   "anchor": "Academic misconduct"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabrication occurs where a student creates data, results or other outputs and presents them as if they were real.",
+   "anchor": "Academic misconduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": null
+}

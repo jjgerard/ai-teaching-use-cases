@@ -1,0 +1,27 @@
+{
+ "doc_id": "kingston-london-students-genai-202610",
+ "coder": "un-n4",
+ "uses": [
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The University defines the act of fabricating or falsifying data to include presenting work that has not taken place.",
+   "anchor": "Fabricating or falsifying data or using without permission another person’s work"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This also includes copying the work of another student or other students.",
+   "anchor": "Plagiarism (including copying, self-plagiarism, collusion and use of generative artificial intelligence)"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": null
+}
