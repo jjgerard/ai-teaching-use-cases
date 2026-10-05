@@ -1,0 +1,108 @@
+{
+ "doc_id": "st-andrews-d2-misconduct-procedure-202610",
+ "coder": "pts-q1",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Output, in whole or in part, of Artificial Intelligence (AI), including LLMs, where this is not permitted. Permission to make use of AI within assessments varies depending on the module and assessment",
+   "anchor": "2.2. Academic misconduct",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using AI output where not permitted counts as plagiarism; permission varies by module and assessment."
+  },
+  {
+   "point_id": "p02",
+   "quote": "The use of software or services (including, but not limited to, tools and services marketed specifically as ‘language correction tools’ or ‘grammar checkers’) to generate, develop or materially alter academic content is not permitted unless explicitly authorised in the assessment brief.",
+   "anchor": "2.3.2. Substantive Alteration and Generation",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using software or services to generate, develop or materially alter academic content is not allowed unless the assessment brief explicitly authorises it."
+  },
+  {
+   "point_id": "p03",
+   "quote": "The use of tools – be they AI-powered or not – that correct spelling, punctuation, typographical errors and minor grammatical mistakes is permitted and falls outside the scope of Good Academic Practice Policy.",
+   "anchor": "2.3.1. Routine Editorial Correction",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Tools, AI-powered or not, that correct spelling, punctuation, typos and minor grammar are permitted."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Transform a student’s input into academically structured sentences, paragraphs, or passages,",
+   "anchor": "2.3.2. Substantive Alteration and Generation",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using tools to transform a student's input into academically structured sentences, paragraphs or passages is a listed prohibited use."
+  },
+  {
+   "point_id": "p05",
+   "quote": "All UG and PGT students will include a declaration at the beginning of the assessment. The declaration should contain whether and how any language correction software or services has been used.",
+   "anchor": "2.3.3. Declaration",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "UG and PGT students put a declaration at the start of an assessment stating whether and how language correction software or services was used."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Where an assessment explicitly (i.e. stated in the Intended Learning Outcomes of the module) evaluates communication or language proficiency, use of tools that reformulate or enhance language may undermine the validity of the assessment and can be treated as unauthorised assistance.",
+   "anchor": "2.3.1. Routine Editorial Correction",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Where language proficiency is assessed in the module's learning outcomes, language-enhancing tools can be treated as unauthorised assistance."
+  },
+  {
+   "point_id": "p07",
+   "quote": "students with a registered disability specifically allowing assistive technology, are not required to declare the use of assistive technology.",
+   "anchor": "2.3.4. Reasonable Adjustments",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "Students with a registered disability allowing assistive technology need not declare its use."
+  },
+  {
+   "point_id": "p08",
+   "quote": "falsification as a misconduct type is agnostic about motivation and means: it can occur due to, inter alia a deliberate attempt to obfuscate, or inadvertent inclusion because of incorporation of outputs of Generative AI tools powered by Large Language Models.",
+   "anchor": "2.2. Academic misconduct",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Falsification can occur through deliberate obfuscation or inadvertent inclusion of Generative AI (LLM) outputs."
+  },
+  {
+   "point_id": "p09",
+   "quote": "they must check the student’s disability tab before issuing any summons or outcome letters to the students, so that any reasonable adjustments can be taken into account",
+   "anchor": "2.3.5. Guidance for colleagues responsible for investigating academic misconduct",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "Investigators suspecting impermissible language-correction use must check the student's disability tab before issuing summons or outcome letters."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Whether a specific use of language correction software or services falls within the permissible use is a matter of academic judgment to be determined in accordance with processes within GAP",
+   "anchor": "2.3.2. Substantive Alteration and Generation",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Whether a specific use of language correction tools is permissible is a matter of academic judgment under GAP processes."
+  }
+ ]
+}
