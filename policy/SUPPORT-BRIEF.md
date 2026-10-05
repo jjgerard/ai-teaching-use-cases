@@ -23,6 +23,14 @@ For each row:
 - `quote`: verbatim from the snapshot, at most 60 words, no ellipsis and no "[...]". If a sentence is split by a page or link break, quote the longest contiguous part that still makes the statement.
 - `anchor`: nearest heading or null.
 
+## Rulings from the pilot (apply them)
+
+- **Requirement level follows the wording, not the tone.** `mandatory` only for must, required, mandatory, "need to complete", or a stated condition (before an assessment, before using AI). `advised` for should, please complete, you are expected to, recommended, auto-enrolled. `optional` for bare imperatives to look something up ("Access the course", "See our guide", "Visit the hub") and for plain availability. `unspecified` when the quote only names the thing (a link label, a title).
+- **Audience:** `both` when the quote names staff and students together (including "colleagues and students"); `students` only when the quote is addressed to students or says students; `staff` only when addressed to staff; otherwise `unspecified`.
+- **One quote may carry several forms** (for example a course that also teaches prompting): record each form with the same quote.
+- **The institution's own guidance PDF or page for students counts as `guide_toolkit_or_hub`.**
+- **Do not record** as a form: the right to use an institutional AI tool or licence (this belongs to a different statement type); coversheet or declaration templates; "ask your tutor or lecturer" instructions about permission; governance groups, principles and policy statements; the library as a general research gateway with no AI content. A named person or service that offers help with AI counts (`named_academic_support`); a generic instruction to ask a tutor does not.
+
 ## Output: one file per document, `data/policy/run1/support/<batch>/<doc_id>.json`
 
     {"doc_id": "...", "coder": "<name>", "found": [{"form": "...", "requirement": "...", "audience": "...", "name": "...", "quote": "...", "anchor": "..."}]}
