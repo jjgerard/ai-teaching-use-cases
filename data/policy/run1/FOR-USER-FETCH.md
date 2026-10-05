@@ -58,3 +58,19 @@ These were not archived. Nothing was worked around. For each: open the URL in a 
 - University College of Osteopathy: not_found
 
 Deferred (archived but oversized, whole regulation bundles with almost no AI content, need a section extract): Ravensbourne (85,000 words), Hartpury (42,000), Plymouth Marjon (67,000), Health Sciences University (12,800).
+
+## Second documents (thin regions) that were not archived
+
+Same procedure as above: save the page or PDF in a browser, then run `node policy/fetch.js import <saved file> --id <doc_id> --url <url>`. The first three are blocked by a bot wall; the last four returned 404 when fetched, so the URL may have moved (check the institution's site first).
+
+| Institution | Why not archived | doc_id | URL |
+|---|---|---|---|
+| Queen's University Belfast | blocked (HTTP 403) | queens-belfast-d2-misconduct-procedure-202610 | https://www.qub.ac.uk/directorates/AcademicStudentAffairs/AcademicAffairs/GeneralRegulations/AppealsConductandComplaints/AcademicOffences/AcademicOffencesRegulations/ |
+| University of Ulster | blocked (HTTP 403) | ulster-library-d2-misconduct-procedure-202610 | https://www.ulster.ac.uk/__data/assets/pdf_file/0004/1535971/Academic-Misconduct-Procedure.pdf |
+| University of South Wales | blocked (HTTP 403) | south-wales-d2-misconduct-procedure-202610 | https://www.southwales.ac.uk/academic-registry/student-regulations/academic-misconduct-and-academic-integrity/ |
+| Wrexham University | blocked (HTTP 404) | wrexham-d2-misconduct-procedure-202610 | https://wrexham.ac.uk/media/marketing/quality-and-student-admin-documents/Academic-Integrity-Procedure-2025-26.pdf |
+| National College of Ireland | blocked (HTTP 404) | national-ireland-d2-misconduct-procedure-202610 | https://www.ncirl.ie/Portals/0/Library/NCI%20Academic%20Integrity%20Policy%20on%20Assessments%20and%20use%20of%20AI%20Generated%20Material%20such%20as%20ChatGPT.pdf?ver=2023-05-22-161619-910&timestamp=1684768817233 |
+| National University of Ireland, Maynooth | blocked (HTTP 404) | maynooth-ug-ptm-d2-misconduct-procedure-202610 | https://www.maynoothuniversity.ie/sites/default/files/assets/document/Maynooth%20University%20Policy%20on%20Academic%20Misconduct%20and%20Academic%20Integrity%20(1).pdf |
+| Technological University Dublin | blocked (HTTP 404) | tud-d2-misconduct-procedure-202610 | https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Academic-Integrity-Procedures-Final-Sept-24.pdf |
+
+No second document was found for Technological University Shannon (TUS) and Munster Technological University (MTU) after four or more domain-filtered searches each.

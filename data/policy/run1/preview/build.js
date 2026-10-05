@@ -41,11 +41,13 @@ const covAll = sample.map((s) => { const m = last.get(s.doc_id) || man.find((x) 
 // ---- statement-type trends (full set, vocabulary v2) ----
 const TYPES0 = rd("run1/claims/statement-types.v2.json").types;
 const CL = rd("claims.json");
+const KINDS = rd("run1/archive3/kinds.json"); const FIRST = (d) => (KINDS[d] ? KINDS[d].first_doc_id : d);
+const { hasAiLink, isSecondDoc } = require("../ailink.js");
 const THIN = 8;
 const GENERAL = new Set(TYPES0.filter((t) => t.general_advice).map((t) => t.id));
-const cdocs = [...new Set(CL.map((r) => r.doc_id))];
+const cdocs = [...new Set(CL.map((r) => FIRST(r.doc_id)))];
 const perDoc = Object.fromEntries(cdocs.map((d) => [d, { n: 0, types: new Set() }]));
-for (const r of CL) { const o = perDoc[r.doc_id]; o.n++; for (const t of [r.claim, r.claim2]) if (t && t !== "unclassified") o.types.add(t); }
+for (const r of CL) { const o = perDoc[FIRST(r.doc_id)]; o.n++; for (const t of [r.claim, r.claim2]) if (t && t !== "unclassified") o.types.add(t); }
 const lc = [0]; for (let i = 1; i < 400; i++) lc[i] = lc[i - 1] + Math.log(i);
 const lch = (n, k) => lc[n] - lc[k] - lc[n - k];
 function fisher(a, b, c, d) { const n = a + b + c + d, r1 = a + b, c1 = a + c; const p0 = Math.exp(lch(r1, a) + lch(n - r1, c1 - a) - lch(n, c1)); let p = 0; for (let x = Math.max(0, c1 - (n - r1)); x <= Math.min(r1, c1); x++) { const px = Math.exp(lch(r1, x) + lch(n - r1, c1 - x) - lch(n, c1)); if (px <= p0 * (1 + 1e-9)) p += px; } return Math.min(1, p); }
@@ -59,7 +61,7 @@ function pairsFor(ids, minSupport, TY = (d) => perDoc[d].types) {
   tests.sort((x, y) => x.p - y.p); const m = tests.length; let prev = 1; for (let i = m - 1; i >= 0; i--) { prev = Math.min(prev, tests[i].p * m / (i + 1)); tests[i].q = prev; }
   return { docs: ids.length, tests_run: m, top: tests.slice(0, 12) };
 }
-const PR = rd("presence.json"); const auditFound = {}; for (const x of PR.found) (auditFound[x.doc_id] = auditFound[x.doc_id] || new Set()).add(x.type || x.type_id);
+const PR = rd("presence.json"); const auditFound = {}; for (const x of PR.found) { if (isSecondDoc(x.doc_id) && !hasAiLink(x.quote)) continue; (auditFound[FIRST(x.doc_id)] = auditFound[FIRST(x.doc_id)] || new Set()).add(x.type || x.type_id); }
 const AUDIT = Object.fromEntries(Object.entries(auditFound).map(([d, s]) => [d, [...s]]));
 const augT = (d) => new Set([...perDoc[d].types, ...(auditFound[d] || [])]);
 
@@ -74,8 +76,15 @@ function contrast(name, gA, gB, minN) {
 const RC = [contrast("Ireland vs Great Britain", ["Ireland"], ["England", "Scotland", "Wales", "Northern Ireland"], 6), contrast("Scotland vs England", ["Scotland"], ["England"], 6), contrast("Wales vs England", ["Wales"], ["England"], 6)];
 { const all = RC.flatMap((c) => c.rows.map((r) => r)).sort((x, y) => x.p - y.p); const m = all.length; let prev = 1; for (let i = m - 1; i >= 0; i--) { prev = Math.min(prev, all[i].p * m / (i + 1)); all[i].q = prev; } }
 const REGSHARE = {}; for (const t of TYPES0) { REGSHARE[t.id] = {}; for (const r of ["England", "Scotland", "Wales", "Northern Ireland", "Ireland"]) { const ds = cdocs.filter((d) => docRegion[d] === r); REGSHARE[t.id][r] = [ds.filter((d) => unionT(d).has(t.id)).length, ds.length]; } }
+
+// what a second document adds, for institutions that have one
+const secondIds = Object.keys(KINDS); const docTypes = (d, aiOnly) => { const s = new Set(); for (const r of CL) if (r.doc_id === d) for (const t of [r.claim, r.claim2]) if (t && t !== "unclassified") s.add(t); for (const x of PR.found) if (x.doc_id === d && (!aiOnly || hasAiLink(x.quote))) s.add(x.type || x.type_id); return s; };
+const SEC = { n: secondIds.length, kinds: {}, rows: [], avg: {} }; const agg = {}; let sumF = 0, sumAdd = 0, sumGen = 0;
+for (const S of secondIds) { const F = KINDS[S].first_doc_id; SEC.kinds[KINDS[S].kind] = (SEC.kinds[KINDS[S].kind] || 0) + 1; const sf = docTypes(F, false), ss = docTypes(S, true), sa = docTypes(S, false); sumF += sf.size; const added = [...ss].filter((t) => !sf.has(t)); sumAdd += added.length; const gen = [...sa].filter((t) => !sf.has(t) && !ss.has(t)); sumGen += gen.length; for (const t of sf) (agg[t] ??= { first: 0, added: 0, general: 0 }).first++; for (const t of added) (agg[t] ??= { first: 0, added: 0, general: 0 }).added++; for (const t of gen) (agg[t] ??= { first: 0, added: 0, general: 0 }).general++; }
+SEC.rows = Object.entries(agg).map(([id, v]) => ({ id, ...v })).filter((r) => (r.added + r.general) > 0).sort((a, b) => (b.added + b.general) - (a.added + a.general)).slice(0, 14);
+SEC.avg = { first: +(sumF / secondIds.length).toFixed(1), added: +(sumAdd / secondIds.length).toFixed(1), general: +(sumGen / secondIds.length).toFixed(1) };
 const richIds = cdocs.filter((d) => perDoc[d].n >= THIN);
-const TRENDS = { types: TYPES0.map((t) => ({ id: t.id, label: t.label, group: t.group, def: t.definition })), rows: CL.map((r) => ({ d: r.doc_id, n: r.point_id, c: r.claim, c2: r.claim2, f: r.fit })), docs: cdocs, thin: THIN, nper: Object.fromEntries(cdocs.map((d) => [d, perDoc[d].n])), minsup: 8, agreement: rd("run1/claims/agreement.json"), pairs: { all: pairsFor(cdocs, 8), rich: pairsFor(richIds, 8) }, pairsAud: { all: pairsFor(cdocs, 8, augT), rich: pairsFor(richIds, 8, augT) }, vocab: "2", regionContrasts: RC, regionShare: REGSHARE, general: [...GENERAL], audit: AUDIT, fitCounts: CL.reduce((o, r) => ((o[r.fit] = (o[r.fit] || 0) + 1), o), {}) };
+const TRENDS = { types: TYPES0.map((t) => ({ id: t.id, label: t.label, group: t.group, def: t.definition })), rows: CL.map((r) => ({ d: FIRST(r.doc_id), q: r.doc_id, n: r.point_id, c: r.claim, c2: r.claim2, f: r.fit })), docs: cdocs, thin: THIN, nper: Object.fromEntries(cdocs.map((d) => [d, perDoc[d].n])), minsup: 8, agreement: rd("run1/claims/agreement.json"), pairs: { all: pairsFor(cdocs, 8), rich: pairsFor(richIds, 8) }, pairsAud: { all: pairsFor(cdocs, 8, augT), rich: pairsFor(richIds, 8, augT) }, vocab: "2", second: SEC, regionContrasts: RC, regionShare: REGSHARE, general: [...GENERAL], audit: AUDIT, fitCounts: CL.reduce((o, r) => ((o[r.fit] = (o[r.fit] || 0) + 1), o), {}) };
 
 const html = fs.readFileSync(path.join(__dirname, "template.html"), "utf8").replace("__DATA__", JSON.stringify({ vars, docs: D, cov: covAll, patterns, version: codebook.version, points: points.slice().sort((a, b) => (PDOCS.findIndex((x) => x.id === a.doc_id) - PDOCS.findIndex((x) => x.id === b.doc_id)) || a.point_id.localeCompare(b.point_id)).map((p) => ({ d: p.doc_id, n: p.point_id, q: p.quote, a: p.anchor, ad: p.addressee, f: p.force, t: p.topic, s: p.specific, g: p.gist })), pdocs: PDOCS, trends: TRENDS }).replace(/</g, "\\u003c"));
 fs.writeFileSync(path.join(__dirname, "index.html"), html);

@@ -168,6 +168,12 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   <div class="cols"><div class="panel"><div class="bars" id="tbars"></div></div><div class="panel" id="tdetail" style="min-height:120px"></div></div>
 </section>
 
+<section id="second">
+  <h2>What a second document adds</h2>
+  <p class="sub" id="secsub"></p>
+  <div class="scroll"><table class="reg pairs" id="sectab"></table></div>
+</section>
+
 <section id="together">
   <h2>What goes together</h2>
   <p class="sub small" id="tpnote" style="margin-top:0"></p>
@@ -520,7 +526,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
       var reg = {}, regN = {}; ds.forEach(function (d) { var r = PD[d].region; regN[r] = (regN[r] || 0) + 1; }); who.forEach(function (d) { var r = PD[d].region; reg[r] = (reg[r] || 0) + 1; });
       dt.appendChild(el("p", "mono", REGIONS.filter(function (r) { return regN[r]; }).map(function (r) { return r + " " + (reg[r] || 0) + "/" + regN[r]; }).join("  ·  ")));
       var wl = el("div", "who"); who.forEach(function (d) { var s = el("span"), a = el("a", null, PD[d].name); a.href = PD[d].url; a.target = "_blank"; a.rel = "noopener"; a.style.color = "inherit"; s.appendChild(a); wl.appendChild(s); }); dt.appendChild(wl);
-      var shown = 0; TR.rows.forEach(function (r) { if (shown >= 6 || (r.c !== tsel && r.c2 !== tsel) || who.indexOf(r.d) < 0) return; var p = PX[r.d + ":" + r.n]; if (!p) return; shown++; var q = el("blockquote", null, "“" + p.q + "” — " + PD[r.d].name); dt.appendChild(q); });
+      var shown = 0; TR.rows.forEach(function (r) { if (shown >= 6 || (r.c !== tsel && r.c2 !== tsel) || who.indexOf(r.d) < 0) return; var p = PX[(r.q || r.d) + ":" + r.n]; if (!p) return; shown++; var q = el("blockquote", null, "“" + p.q + "” — " + PD[r.q || r.d].name); dt.appendChild(q); });
     } else dt.appendChild(el("span", null, "Select a statement type to see which institutions say it, how it splits by region, and example quotes."));
   }
   function hasT(d, id) { return DT[d].has(id) || ($("taudit").checked && (TR.audit[d] || []).indexOf(id) >= 0); }
@@ -552,8 +558,16 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     var t = $("hlreg"); t.textContent = ""; var hr = el("tr"); ["Statement", "Comparison", "First group", "Second group", "p", "q"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
     all.sort(function (a, b) { return a.r.p - b.r.p; }).slice(0, 8).forEach(function (x) { var tr = el("tr"), td = el("td", null, TT[x.r.id].label); td.style.whiteSpace = "normal"; tr.appendChild(td); tr.appendChild(el("td", null, x.c.name)); tr.appendChild(el("td", null, x.r.a + " of " + x.c.na)); tr.appendChild(el("td", null, x.r.b + " of " + x.c.nb)); tr.appendChild(el("td", null, x.r.p.toFixed(3))); tr.appendChild(el("td", x.r.q < 0.1 ? "flag" : null, x.r.q.toFixed(2) + (x.r.q < 0.1 ? " ●" : ""))); t.appendChild(tr); });
   }
+
+  function drawSecond() {
+    var S = TR.second; if (!S || !S.n) { $("second").style.display = "none"; return; }
+    var kinds = Object.keys(S.kinds).map(function (k) { return S.kinds[k] + " " + k.replace(/_/g, " "); }).join(", ");
+    $("secsub").textContent = "For " + S.n + " institutions in Scotland, Wales, Ireland and Northern Ireland we also read a second document (" + kinds + "). On average the first document states " + S.avg.first + " statement types. The second adds " + S.avg.added + " that mention AI and " + S.avg.general + " more that are general misconduct-procedure wording (appeals, penalties, referral). Those general ones are listed separately and are not counted as AI statements elsewhere on this page.";
+    var t = $("sectab"); t.textContent = ""; var hr = el("tr"); ["Statement", "In first document", "Added by second (mentions AI)", "General procedure only"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
+    S.rows.forEach(function (r) { var tr = el("tr"), td = el("td", null, TT[r.id] ? TT[r.id].label : r.id); td.style.whiteSpace = "normal"; tr.appendChild(td); tr.appendChild(el("td", null, r.first + " of " + S.n)); tr.appendChild(el("td", null, String(r.added))); tr.appendChild(el("td", null, String(r.general))); t.appendChild(tr); });
+  }
   function tinit() {
-    drawHeadlines();
+    drawHeadlines(); drawSecond();
     var opts = TR.types.slice().sort(function (x, y) { return x.label.localeCompare(y.label); });
     ["tpa", "tpb"].forEach(function (id, i) { var s = $(id); opts.forEach(function (t) { var o = document.createElement("option"); o.value = t.id; o.textContent = t.label; s.appendChild(o); }); s.value = i ? "ai_detectors_unreliable_not_sole_basis" : "rules_set_locally_by_module_or_lecturer"; s.addEventListener("change", drawTogether); });
     $("tthin").addEventListener("change", function () { drawTrends(); drawTogether(); });

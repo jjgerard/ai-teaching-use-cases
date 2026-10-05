@@ -1,0 +1,189 @@
+{
+ "doc_id": "stir-d2-misconduct-procedure-202610",
+ "coder": "v2f-f5",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "The permitted use of AI for a particular assessment or learning activity should be explicitly outlined by Module Coordinators or Supervisors and may differ between modules or contexts according to the University of Stirling’s AI Assessment Scale.",
+   "anchor": "Artificial Intelligence"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "Users should be aware of the current technical limitations of AI, including but not limited to: generation of inaccurate or fabricated information, lack of source transparency",
+   "anchor": "Artificial Intelligence"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "reproduction of unintended and potentially harmful biases embedded in training data",
+   "anchor": "Artificial Intelligence"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "use of AI platforms may raise ethical and legal concerns including violations of intellectual property rights",
+   "anchor": "Artificial Intelligence"
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "especially when personal or unpublished work is input into these systems that, in turn, may become output to another user.",
+   "anchor": "Artificial Intelligence"
+  },
+  {
+   "type": "do_not_put_own_work_into_ai_tools",
+   "quote": "use of most external AI tools for rephrasing students’ own material to avoid selfplagiarism entails the risk of student's own work being used to train future generations of AI services; while the rephrased output may be based on assessments submitted to another institution - therefore this practice should be avoided.",
+   "anchor": "21.1.4. Self-plagiarism"
+  },
+  {
+   "type": "work_must_be_own_not_written_by_ai",
+   "quote": "Submit for assessment only work that they produced themselves and which duly acknowledges ideas, words and works of others that were used in the production of their own work",
+   "anchor": "Points of Policy"
+  },
+  {
+   "type": "acknowledge_or_declare_ai_use",
+   "quote": "this includes transparent acknowledgement of AI used.",
+   "anchor": "Points of Policy"
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "Use artificial intelligence tools, such as ChatGPT, ethically and within the guidelines issued by the University and in connection with specific assessments.",
+   "anchor": "Points of Policy"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "Submission of any form of assessment, which the student has not individually created or written, as the content wholly or substantially originates from output of an artificial intelligence tool.",
+   "anchor": "21.1.2. Inappropriate use of artificial intelligence tools"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "Where an artificial intelligence tool has been used in a manner contrary to the instructions of the particular assessment.",
+   "anchor": "21.1.2. Inappropriate use of artificial intelligence tools"
+  },
+  {
+   "type": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "quote": "When part of an assessment originates from an artificial tool without appropriate acknowledgement.",
+   "anchor": "21.1.2. Inappropriate use of artificial intelligence tools"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Contract cheating takes place when a student submits an assessment that was completed by a third-party either for payment or for free.",
+   "anchor": "21.1.1. Contract Cheating"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Falsification is the fabrication or invention of data, information, or references in any formal academic exercise.",
+   "anchor": "21.1.6. Falsification"
+  },
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "such a use of AI proofreading tools beyond assistive purposes is also prohibited, unless tasks allow their use for the purposes of formation of ideas or concepts",
+   "anchor": "21.1.12. Inappropriate use of proofreaders"
+  },
+  {
+   "type": "assistive_technology_use_permitted",
+   "quote": "permitted use of proofreaders, spell-checking tools, grammar aids, or speciﬁc AI functionalities may be allowed to support equitable access to learning and assessment",
+   "anchor": "Points of Policy"
+  },
+  {
+   "type": "assessment_redesigned_to_test_process_and_understanding",
+   "quote": "Designing assessments at module and programme levels in such a manner that makes academic misconduct less likely",
+   "anchor": "Points of Policy"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Guidance on appropriate use of artificial intelligence tools can be found in the student guide.",
+   "anchor": "21.1.2. Inappropriate use of artificial intelligence tools"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "If there is evidence from a student’s previous portfolio of work (including assignments and examination scripts) that the work is not the student’s own.",
+   "anchor": "Academic Misconduct Decisions"
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "This software required to be used consistently and with consistency of interpretation of scores, around the University.",
+   "anchor": "Use of Similarity Checking Software"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "Comment orally on the work they had submitted – e.g., defend/explain the main arguments presented in the written work or discuss one aspect of the topic;",
+   "anchor": "Academic Integrity Panel"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "The failure of the student to attend the meeting will not prevent the Academic Integrity Panel from deciding on the matter and taking appropriate action in accordance with this procedure",
+   "anchor": "Academic Integrity Panel"
+  },
+  {
+   "type": "strict_liability_ignorance_no_defence",
+   "quote": "It is not required to prove intention for academic misconduct to be confirmed as having taken place.",
+   "anchor": "Academic Misconduct Decisions"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "Termination of studies and no award possible.",
+   "anchor": "Classifications and Penalties"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "In determining the severity of an act of academic misconduct and the penalty to apply, the Academic Integrity Panel will be guided by matters such as the nature of the conduct, the level and year of study, the extent of the academic misconduct and the impact of penalties on the student.",
+   "anchor": "Classifications and Penalties"
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "The purpose of the Academic Misconduct Procedure is not solely punitive, in that opportunities should be taken to facilitate a student learning from the experience so that it minimises the likelihood of repetition in the future.",
+   "anchor": "Classifications and Penalties"
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "The student has the right to be accompanied at the meeting by one member of the University of Stirling community who is one of the following: fellow student, staff member, or a representative from the University of Stirling Students’ Union.",
+   "anchor": "Academic Integrity Panel"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "assessment_tiered_ai_use_categories",
+   "quote": "according to the University of Stirling’s AI Assessment Scale",
+   "why": "Scale is named but its levels are not described."
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "should be explicitly outlined by Module Coordinators or Supervisors",
+   "why": "Overlaps local-rules type; tie-break favours rules_set_locally."
+  },
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "The use of websites or software to mask or facilitate plagiarism.",
+   "why": "Masking plagiarism via software, not explicitly hiding AI use."
+  },
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "students and staff are encouraged to remain informed about updates to institutional guidelines and to seek clarification when in doubt.",
+   "why": "Names no staff role to consult."
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "Responsible and transparent use of AI tolls can, in certain circumstances, support teaching, learning and research.",
+   "why": "General endorsement, no study uses listed."
+  },
+  {
+   "type": "default_ai_banned_unless_authorised",
+   "quote": "Unauthorised notes or information resources in any form, including AI tools.",
+   "why": "Exam-condition ban; route to permission only implied by authorised."
+  },
+  {
+   "type": "complete_training_before_using_ai",
+   "quote": "including through completion of any academic integrity related training or tutorials that the University provides.",
+   "why": "Training duty not tied to AI use or assessment start."
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "Using artificial intelligence tools effectively is an important skill for students to learn.",
+   "why": "Statement of value, no curriculum commitment."
+  },
+  {
+   "type": "do_not_enter_personal_or_sensitive_data",
+   "quote": "especially when personal or unpublished work is input into these systems",
+   "why": "Concern about data input, not a prohibition."
+  }
+ ]
+}
