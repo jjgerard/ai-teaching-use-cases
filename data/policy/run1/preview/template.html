@@ -131,6 +131,16 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 .xd[hidden] { display: none; }
 .xd .xdef { margin: 0 0 6px; font-size: 13px; color: var(--ink2); font-style: italic; }
 @media (max-width: 520px) { .xt { grid-template-columns: 22px 1fr; } .xt .ubar, .xt .un { grid-column: 2; } .xd { padding-left: 8px; } }
+.xrare { margin: 10px 0 4px; font-size: 12px; color: var(--ink2); }
+.xchips { display: flex; flex-wrap: wrap; gap: 6px; padding-bottom: 6px; }
+.xchip { display: inline-flex; align-items: center; gap: 6px; padding: 3px 8px 3px 4px; border: 1px solid var(--line); border-radius: 14px; background: var(--card, transparent); font: inherit; font-size: 13px; color: var(--ink); cursor: pointer; text-align: left; }
+.xchip:hover .bl { color: var(--accent-ink); }
+.xchip[aria-expanded="true"] { background: var(--tint); }
+.xchip .xp { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; border: 1px solid var(--line); border-radius: 50%; font-family: ui-monospace, monospace; font-size: 13px; line-height: 1; color: var(--ink2); }
+.xchip .dots { display: inline-flex; gap: 2px; }
+.xchip .dots i { display: block; width: 8px; height: 8px; border-radius: 50%; }
+.xchip .cn { font-size: 12px; font-weight: 600; color: var(--ink2); }
+.xd.xdw { flex-basis: 100%; padding-left: 8px; border-left: 2px solid var(--line); margin: 2px 0 6px; }
 .udet h4 { margin: 12px 0 4px; font-size: 14px; }
 .udet blockquote { margin: 4px 0 8px; padding-left: 10px; border-left: 2px solid var(--line); color: var(--ink2); font-size: 13px; overflow-wrap: anywhere; }
 @media (max-width: 520px) { .urow { grid-template-columns: 1fr; } .urow .un { white-space: normal; } }
@@ -599,14 +609,31 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     b.addEventListener("click", function () { var on = d.hidden; d.hidden = !on; OPEN[key] = on; b.setAttribute("aria-expanded", on ? "true" : "false"); b.firstChild.textContent = on ? "−" : "+"; if (on) fill(); });
     host.appendChild(w);
   }
+  var MINBAR = 6;
+  function xchip(host, key, o) {
+    var isOpen = !!OPEN[key], b = el("button", "xchip"); b.type = "button"; b.setAttribute("aria-expanded", isOpen ? "true" : "false"); if (o.def) b.title = o.def;
+    b.appendChild(el("span", "xp", isOpen ? "−" : "+")); b.appendChild(el("span", "bl", o.label));
+    if (o.dots && o.dots.length) { var ds = el("span", "dots"); o.dots.forEach(function (c) { var i = el("i"); i.className = c; ds.appendChild(i); }); b.appendChild(ds); }
+    b.appendChild(el("span", "cn", String(o.n))); host.appendChild(b);
+    var d = el("div", "xd xdw"); d.hidden = !isOpen; host.appendChild(d); var built = false;
+    function fill() { if (built) return; built = true; if (o.def) d.appendChild(el("p", "xdef", o.def)); o.detail(d); }
+    if (isOpen) fill();
+    b.addEventListener("click", function () { var on = d.hidden; d.hidden = !on; OPEN[key] = on; b.setAttribute("aria-expanded", on ? "true" : "false"); b.firstChild.textContent = on ? "−" : "+"; if (on) fill(); });
+  }
+  // items: {key,label,def,n,bar,count,dots,detail}; common ones get bars, rare ones a compact wrapping chip list
+  function xgroup(host, items, N) {
+    var big = items.filter(function (x) { return x.n >= MINBAR; }), small = items.filter(function (x) { return x.n < MINBAR; });
+    big.forEach(function (x) { xrow(host, x.key, x); });
+    if (small.length) { host.appendChild(el("p", "xrare", "Fewer than " + MINBAR + " institutions (the number is how many)")); var c = el("div", "xchips"); small.forEach(function (x) { xchip(c, x.key, x); }); host.appendChild(c); }
+  }
   function simpleBar(pct, cls) { var bar = el("span", "ubar"), i = el("i"); i.className = cls || "sg-permitted"; i.style.width = Math.min(100, pct) + "%"; bar.appendChild(i); return bar; }
   function quotes(d, list, max, tag) { list.slice(0, max).forEach(function (r) { d.appendChild(el("blockquote", null, "“" + r.q + "” — " + (PD[r.i] ? PD[r.i].name : r.i) + (tag ? tag(r) : ""))); }); if (list.length > max) d.appendChild(el("p", "small", "and " + (list.length - max) + " more institutions")); }
   function uniqBy(list) { var seen = {}, out = []; list.forEach(function (r) { if (!seen[r.i]) { seen[r.i] = 1; out.push(r); } }); return out; }
   function drawSupport() {
     var S = TR.support, N = TR.docs.filter(function (d) { return PD[d]; }).length, host = $("supbars"); host.textContent = "";
     $("supsub").textContent = "Out of " + N + " institutions, " + S.any + " have at least one of these in their documents. Each bar counts institutions whose document, or second document, says it offers that form of help. Click + to see the quotes. The small print shows how many of those quotes mention AI themselves; the rest are support services the document lists in an AI context (a library, a tutor team, a students’ union advice centre) without naming AI in the quote. Some rows rest only on a link or tab label, and every institution having at least one form partly reflects how broad the list is, so read the individual bars rather than the total.";
-    S.forms.forEach(function (f) { var req = ["mandatory", "advised", "planned"].filter(function (k) { return f.req[k]; }).map(function (k) { return f.req[k] + " " + k; }).join(", ");
-      xrow(host, "sup|" + f.id, { label: f.label, def: f.def, bar: simpleBar(100 * f.n / N, "sg-permitted"), count: f.n + " of " + N + " (" + Math.round(100 * f.n / N) + "%)" + (f.nAi < f.n ? " · " + f.nAi + " name AI" : "") + (req ? " · " + req : ""), detail: function (d) { quotes(d, f.rows, 8, function (r) { return (r.n ? " · " + r.n : "") + (r.rq && r.rq !== "unspecified" ? " · " + r.rq : "") + (r.s ? " · second document" : ""); }); } }); });
+    xgroup(host, S.forms.map(function (f) { var req = ["mandatory", "advised", "planned"].filter(function (k) { return f.req[k]; }).map(function (k) { return f.req[k] + " " + k; }).join(", ");
+      return { key: "sup|" + f.id, label: f.label, def: f.def, n: f.n, bar: simpleBar(100 * f.n / N, "sg-permitted"), count: f.n + " of " + N + " (" + Math.round(100 * f.n / N) + "%)" + (f.nAi < f.n ? " · " + f.nAi + " name AI" : "") + (req ? " · " + req : ""), detail: function (d) { quotes(d, f.rows, 8, function (r) { return (r.n ? " · " + r.n : "") + (r.rq && r.rq !== "unspecified" ? " · " + r.rq : "") + (r.s ? " · second document" : ""); }); } }; }), N);
     $("supmandsub").textContent = "Only " + S.mandatory.length + " quotes say help is required (a course, quiz or guide that must be completed or used). “Required” follows the wording of the quote: must, mandatory, or a stated condition such as before an assessment. A few of these are academic-integrity courses rather than AI courses; the quote shows which.";
     var m = $("supmand"); m.textContent = ""; S.mandatory.forEach(function (r) { var c = el("div", "pc"), w = el("div", "who2"); w.appendChild(el("strong", null, (PD[r.d] ? PD[r.d].name : r.d))); w.appendChild(el("span", "mono", (TR.support.forms.filter(function (x) { return x.id === r.form; })[0] || {}).label + (r.second ? " · second document" : ""))); c.appendChild(w); c.appendChild(el("blockquote", "qt", "“" + r.q + "”")); m.appendChild(c); });
   }
@@ -623,15 +650,15 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     var lg = $("uleg"); lg.textContent = ""; UD.stances.forEach(function (s) { var sp = el("span"), i = el("i"); i.className = "sg-" + s; sp.appendChild(i); sp.appendChild(document.createTextNode(STLAB[s])); lg.appendChild(sp); });
     var list = UD.uses.map(function (u) { var o = per[u.id] || {}, n = new Set(); Object.keys(o).forEach(function (s) { o[s].forEach(function (i) { n.add(i); }); }); return { u: u, o: o, n: n.size }; }).filter(function (x) { return x.n > 0; }).sort(function (a, b) { return (a.u.id === "any_use" ? -1 : b.u.id === "any_use" ? 1 : b.n - a.n); });
     var host = $("urows"); host.textContent = "";
-    list.forEach(function (x) { var bar = el("span", "ubar"); UD.stances.forEach(function (s) { var c = x.o[s] ? x.o[s].size : 0; if (c) { var i = el("i"); i.className = "sg-" + s; i.style.width = (100 * c / N) + "%"; i.title = STLAB[s] + ": " + c; bar.appendChild(i); } });
-      xrow(host, "use|" + x.u.id, { label: x.u.label, def: x.u.def, bar: bar, count: UD.stances.filter(function (s) { return x.o[s]; }).map(function (s) { return x.o[s].size + " " + s.slice(0, 4); }).join(" · ") + " (" + x.n + " inst.)",
-        detail: function (dt) { UD.stances.forEach(function (s) { var uniq = uniqBy(rows.filter(function (r) { return r.u === x.u.id && r.s === s; })); if (!uniq.length) return; dt.appendChild(el("h4", null, STLAB[s] + " (" + uniq.length + ")")); quotes(dt, uniq, 6, function (r) { var cond = r.s === "conditional" && r.k.length ? " [" + r.k.map(function (k) { return k.replace(/_/g, " "); }).join(", ") + "]" : ""; return (uctx === "all" ? " · " + r.c.replace(/_/g, " ") : "") + (r.t ? " · " + r.t : "") + cond; }); }); } }); });
+    xgroup(host, list.map(function (x) { var bar = el("span", "ubar"), dots = []; UD.stances.forEach(function (s) { var c = x.o[s] ? x.o[s].size : 0; if (c) { var i = el("i"); i.className = "sg-" + s; i.style.width = (100 * c / N) + "%"; i.title = STLAB[s] + ": " + c; bar.appendChild(i); for (var k = 0; k < c; k++) dots.push("sg-" + s); } });
+      return { key: "use|" + x.u.id, label: x.u.label, def: x.u.def, n: x.n, bar: bar, dots: dots, count: UD.stances.filter(function (s) { return x.o[s]; }).map(function (s) { return x.o[s].size + " " + s.slice(0, 4); }).join(" · ") + " (" + x.n + " inst.)",
+        detail: function (dt) { UD.stances.forEach(function (s) { var uniq = uniqBy(rows.filter(function (r) { return r.u === x.u.id && r.s === s; })); if (!uniq.length) return; dt.appendChild(el("h4", null, STLAB[s] + " (" + uniq.length + ")")); quotes(dt, uniq, 6, function (r) { var cond = r.s === "conditional" && r.k.length ? " [" + r.k.map(function (k) { return k.replace(/_/g, " "); }).join(", ") + "]" : ""; return (uctx === "all" ? " · " + r.c.replace(/_/g, " ") : "") + (r.t ? " · " + r.t : "") + cond; }); }); } }; }), N);
   }
   function drawAck() {
     var ids = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), okI = {}; ids.forEach(function (d) { okI[d] = 1; }); var N = ids.length, A = UD.ack, AQ = UD.ackq, host = $("ackbars"); host.textContent = "";
     $("acksub").textContent = "What institutions say about acknowledging AI use: whether it is required, which uses are exempt, what to include, where it goes, and what happens if it is missing. Each bar counts institutions out of " + N + "; an institution with no statement is not counted. Click + to see the quotes.";
     function bars(title, cat, counts, labels) { var keys = Object.keys(counts).filter(function (k) { return counts[k] > 0; }).sort(function (a, b) { return counts[b] - counts[a]; }); if (!keys.length) return; host.appendChild(el("h4", null, title));
-      keys.forEach(function (k) { var lab = (labels && labels[k]) || k.replace(/_/g, " "); xrow(host, "ack|" + cat + "|" + k, { label: lab, bar: simpleBar(100 * counts[k] / N, "sg-permitted"), count: counts[k] + " of " + N + " (" + Math.round(100 * counts[k] / N) + "%)", detail: function (d) { var L = (AQ[cat + "|" + k] || []).filter(function (r) { return okI[r.i]; }); if (!L.length) d.appendChild(el("p", "small", "No quote kept for this value.")); else quotes(d, L, 8); } }); }); }
+      xgroup(host, keys.map(function (k) { var lab = (labels && labels[k]) || k.replace(/_/g, " "); return { key: "ack|" + cat + "|" + k, label: lab, n: counts[k], bar: simpleBar(100 * counts[k] / N, "sg-permitted"), count: counts[k] + " of " + N + " (" + Math.round(100 * counts[k] / N) + "%)", detail: function (d) { var L = (AQ[cat + "|" + k] || []).filter(function (r) { return okI[r.i]; }); if (!L.length) d.appendChild(el("p", "small", "No quote kept for this value.")); else quotes(d, L, 8); } }; }), N); }
     function tally(fn) { var c = {}; ids.forEach(function (d) { var a = A[d]; if (!a) return; fn(a).forEach(function (v) { if (v) c[v] = (c[v] || 0) + 1; }); }); return c; }
     var DL = { always_required: "Every use must be acknowledged", conditional: "Acknowledgement depends on a condition", recommended: "Acknowledgement is recommended", not_required: "No acknowledgement needed" };
     bars("Is acknowledgement required?", "duty", tally(function (a) { return [a.duty && a.duty.v]; }), DL);
@@ -659,7 +686,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     MGROUPS.forEach(function (g) { var sch = MS.schema[g[2]], items = [];
       Object.keys(sch).forEach(function (v) { if (g[0] === "detection") Object.keys(MS.schema.stances).forEach(function (st) { var k = "detection|" + v + "|" + st; if (per[k]) items.push({ k: k, label: v.replace(/_/g, " ") + " — " + st.replace(/_/g, " "), def: sch[v] + "; " + MS.schema.stances[st], list: uniqBy(per[k]) }); }); else { var k = g[0] + "|" + v + "|"; if (per[k]) items.push({ k: k, label: v.replace(/_/g, " "), def: sch[v], list: uniqBy(per[k]) }); } });
       if (!items.length) return; items.sort(function (a, b) { return b.list.length - a.list.length; }); host.appendChild(el("h4", null, g[1]));
-      items.forEach(function (x) { var n = x.list.length; xrow(host, "mis|" + x.k, { label: x.label, def: x.def, bar: simpleBar(100 * n / N, "sg-permitted"), count: n + " of " + N + " (" + Math.round(100 * n / N) + "%)", detail: function (d) { quotes(d, x.list, 12, function (r) { return (r.ai ? "" : " · general wording") + (r.sc === "general_misconduct" ? " · general procedure" : ""); }); } }); }); });
+      xgroup(host, items.map(function (x) { var n = x.list.length; return { key: "mis|" + x.k, label: x.label, def: x.def, n: n, bar: simpleBar(100 * n / N, "sg-permitted"), count: n + " of " + N + " (" + Math.round(100 * n / N) + "%)", detail: function (d) { quotes(d, x.list, 12, function (r) { return (r.ai ? "" : " · general wording") + (r.sc === "general_misconduct" ? " · general procedure" : ""); }); } }; }), N); });
     if (!host.firstChild) host.appendChild(el("span", null, "No misconduct statements yet."));
   }
   function tinit() { drawSupport(); }
