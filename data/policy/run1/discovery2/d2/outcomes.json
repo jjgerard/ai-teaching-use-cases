@@ -1,0 +1,137 @@
+[
+ {
+  "name": "Swansea University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://hwb.swansea.ac.uk/academic-life/academic-regulations/aqs-policies/policy-on-the-use-of-artificial-intelligence-ai-in-student-assessment/",
+   "title": "Policy on the Use of Artificial Intelligence (AI) in Student Assessment",
+   "kind": "assessment_policy",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://hwb.swansea.ac.uk/academic-life/academic-regulations/taught-guidance/assessment-and-progress-taught/artificial-intelligence-guidance/",
+    "title": "Artificial Intelligence Guidance",
+    "audience": "students"
+   },
+   {
+    "url": "https://hwb.swansea.ac.uk/pgr/regulations-policy-and-processes/ai/",
+    "title": "AI Guidelines (PGR)",
+    "audience": "pgr"
+   },
+   {
+    "url": "https://www.swansea.ac.uk/the-university/artificial-intelligence-framework/ai-framework-teaching-staff/the-5p-model/",
+    "title": "The 5P Approach (staff)",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "University of South Wales",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.southwales.ac.uk/academic-registry/student-regulations/academic-misconduct-and-academic-integrity/",
+   "title": "Academic Misconduct and Academic Integrity",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "not seen",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://libguides.southwales.ac.uk/c.php?g=712885&p=5160420",
+    "why": "same kind as first (library guide)"
+   },
+   {
+    "url": "https://registry.southwales.ac.uk/student-regulations/student-conduct/",
+    "why": "blocked (403 bot wall); not AI-specific"
+   },
+   {
+    "url": "http://studyskills.southwales.ac.uk/academic-misconduct/",
+    "why": "blocked (403 bot wall)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://libguides.southwales.ac.uk/c.php?g=712885&p=5152643",
+    "title": "Using AI in assignments",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Wales Trinity Saint David",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uwtsd.ac.uk/sites/default/files/2024-01/Academic_Misconduct_Policy_2022-23.pdf",
+   "title": "Academic Misconduct Policy",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2022-23 version",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://digitalskills.uwtsd.ac.uk/resource/artificial-intelligence-for-students/",
+    "why": "LinkedIn Learning portal, not guidance"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "Wrexham University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://wrexham.ac.uk/media/marketing/quality-and-student-admin-documents/Academic-Integrity-Procedure-2025-26.pdf",
+   "title": "Academic Integrity Procedure 2025/26",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2025/26",
+   "retrieved_here": false,
+   "http": 404,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://wrexham.ac.uk/media/marketing/quality-and-student-admin-documents/Assessment-Policy-2025-26.pdf",
+    "why": "404 on fetch; AI content only from search snippet"
+   },
+   {
+    "url": "https://wrexham.ac.uk/media/marketing/quality-and-student-admin-documents/Student-Guide-25-26.pdf",
+    "why": "404 on fetch"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "Edinburgh Napier University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://documentcentre.napier.ac.uk/-/media/files/university-governance/artificial-intelligence/edinburghnapieruniversityspositionongenerativeartificialintelligence.pdf",
+   "title": "Edinburgh Napier University's Position on Generative Artificial Intelligence",
+   "kind": "institutional_policy",
+   "format": "pdf",
+   "date_as_shown": "August 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://libguides.napier.ac.uk/c.php?g=717851&p=5204062",
+    "title": "University Guidance - AI and Literature Searching",
+    "audience": "students"
+   }
+  ]
+ }
+]
