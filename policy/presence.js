@@ -1,5 +1,5 @@
 // Presence audit: validate and merge per-document files (see policy/PRESENCE-BRIEF.md).
-//   node policy/presence.js validate <dir...>
+//   node policy/presence.js validate <dir...> [--types <types.json>]
 //   node policy/presence.js merge <dir...> [--out file]     writes data/policy/presence.json
 const fs = require("node:fs"), path = require("node:path");
 const ROOT = path.join(__dirname, "..", "data", "policy");
@@ -25,9 +25,9 @@ function validateFile(file, { root = ROOT, typesFile } = {}) {
 function run(dirs, opts) { const all = { errs: [], rows: [], unsure: [], docs: 0 }; const files = dirs.flatMap((d) => (fs.statSync(d).isDirectory() ? fs.readdirSync(d).filter((f) => f.endsWith(".json")).map((f) => path.join(d, f)) : [d])); for (const f of files) { const r = validateFile(f, opts); all.errs.push(...r.errs); all.rows.push(...r.rows); all.unsure.push(...r.unsure); all.docs++; } return all; }
 module.exports = { validateFile, run };
 if (require.main === module) {
-  const [cmd, ...rest] = process.argv.slice(2); const oi = rest.indexOf("--out"); const out = oi >= 0 ? rest.splice(oi, 2)[1] : path.join(ROOT, "presence.json");
+  const [cmd, ...rest] = process.argv.slice(2); const ti = rest.indexOf("--types"); const typesFile = ti >= 0 ? path.resolve(rest.splice(ti, 2)[1]) : undefined; const oi = rest.indexOf("--out"); const out = oi >= 0 ? rest.splice(oi, 2)[1] : path.join(ROOT, "presence.json");
   if (!["validate", "merge"].includes(cmd) || !rest.length) { console.error("usage: node policy/presence.js validate|merge <dir...> [--out file]"); process.exit(2); }
-  const r = run(rest); r.errs.forEach((m) => console.log("ERROR " + m)); console.log(`${r.docs} documents, ${r.rows.length} found, ${r.unsure.length} unsure, ${r.errs.length} errors`);
+  const r = run(rest, { typesFile }); r.errs.forEach((m) => console.log("ERROR " + m)); console.log(`${r.docs} documents, ${r.rows.length} found, ${r.unsure.length} unsure, ${r.errs.length} errors`);
   if (cmd === "merge" && !r.errs.length) { fs.writeFileSync(out, JSON.stringify({ found: r.rows, unsure: r.unsure }, null, 1) + "\n"); console.log("wrote", out); }
   process.exit(r.errs.length ? 1 : 0);
 }
