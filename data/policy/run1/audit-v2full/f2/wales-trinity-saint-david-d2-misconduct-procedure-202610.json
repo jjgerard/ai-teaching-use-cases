@@ -1,0 +1,109 @@
+{
+ "doc_id": "wales-trinity-saint-david-d2-misconduct-procedure-202610",
+ "coder": "v2f-f2",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "using AI to generate material for submission where this is not permitted;",
+   "anchor": "3. Definitions"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "“False Authorship” – where someone completes work for a student who then submits it as their own, including:",
+   "anchor": "3. Definitions"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Falsifying data, evidence or experimental results",
+   "anchor": "3. Definitions"
+  },
+  {
+   "type": "strict_liability_ignorance_no_defence",
+   "quote": "A claim that Academic Misconduct has been committed unintentionally or accidentally is no defence.",
+   "anchor": "2. Guiding Principles"
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "If the student is dissatisfied with the outcome of the formal stage, they may be able to request a review.",
+   "anchor": "16. Review of Academic Misconduct Outcome"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "The purpose of the viva examination is to provide the student with the opportunity to critically reflect upon their work, and defend its content and demonstrate that it is their own",
+   "anchor": "29. Academic Misconduct protocol for viva voce examinations"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "the University reserves the right to proceed with such a meeting in the absence of the student, subject to the student having been properly notified of the date and time of the meeting.",
+   "anchor": "9. Procedures: general principles"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "A decision about a penalty will take into account as appropriate a student’s particular circumstances (e.g. mitigating circumstances and declared disabilities) as well as unintended impacts",
+   "anchor": "27. Academic Misconduct Penalties"
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "Tutors must recognise that the % similarity score is not an absolute identifier of academic misconduct.",
+   "anchor": "28. Academic Misconduct Guidelines"
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "Feedback on the poor academic practice should be provided, with appropriate referral to guidelines",
+   "anchor": "28. Academic Misconduct Guidelines"
+  },
+  {
+   "type": "keep_drafts_and_notes_as_evidence_of_authorship",
+   "quote": "Students are therefore advised to keep the original copy of their written work as well as the copy they have submitted for assessment.",
+   "anchor": "30. Guidelines on third-party proofreading"
+  },
+  {
+   "type": "get_consent_before_recording_or_transcribing_others",
+   "quote": "Where a meeting is recorded the student should be asked for their permission to do so.",
+   "anchor": "9. Procedures: general principles"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "Student expelled from University and is disqualified from any further study at the University",
+   "why": "General misconduct penalties; AI not tied to them."
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "inconsistency in writing style, language and grammar",
+   "why": "Contract cheating evidence; AI not named."
+  },
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "In no circumstances should a proofreader edit a student’s writing",
+   "why": "Human third-party proofreader; AI not named."
+  },
+  {
+   "type": "spelling_grammar_proofreading_permitted",
+   "quote": "Third-party proofreading is allowed for any piece of academic writing unless stated otherwise.",
+   "why": "Human proofreaders only; AI not named."
+  },
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "Using automated paraphrasing software.",
+   "why": "Listed as plagiarism; no concealment of AI use stated."
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "Failure to adhere to the above requirements may result in an investigation under the Academic Misconduct Policy.",
+   "why": "Concerns proofreading limits, not AI use."
+  },
+  {
+   "type": "student_responsible_for_ai_content",
+   "quote": "Students have overall responsibility for their work.",
+   "why": "Proofreading context; AI content not mentioned."
+  },
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "Students are able to approach a member of staff, e.g. their Programme Manager, Lecturer, or Academic Misconduct Co-ordinator",
+   "why": "Integrity concerns generally, not AI permission doubt."
+  }
+ ]
+}

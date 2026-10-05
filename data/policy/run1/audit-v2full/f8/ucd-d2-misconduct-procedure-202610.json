@@ -1,0 +1,21 @@
+{"doc_id": "ucd-d2-misconduct-procedure-202610", "coder": "v2f-f8", "checked_types": 77,
+ "found": [
+  {"type": "use_beyond_permitted_is_misconduct", "quote": "using such technology without explicit permission from relevant academic staff", "anchor": "3.1.8"},
+  {"type": "undeclared_or_unreferenced_ai_use_is_misconduct", "quote": "not acknowledging use of such technology when its use is permitted.", "anchor": "3.1.8"},
+  {"type": "misconduct_terms_defined", "quote": "Inappropriately using digital or information technology to complete an assessment task; i.e., using such technology without explicit permission from relevant academic staff and / or not acknowledging use of such technology when its use is permitted.", "anchor": "3.1.8"},
+  {"type": "using_ai_or_tools_to_disguise_ai_use", "quote": "unauthorised and / or unacknowledged use of paraphrasing or translation software to, for example, disguise plagiarism, collusion, contract cheating or other academic integrity breach.", "anchor": "3.1.8"},
+  {"type": "fabricated_references_or_data_is_misconduct", "quote": "Fabricating or falsifying data", "anchor": "2. Scope"},
+  {"type": "penalties_for_ai_misconduct_stated", "quote": "reduction of a component assessment or module grade up to and including the award of NM (No Grade) for the module or deprivation of any academic award, scholarship or prize, suspension or expulsion at a Student Disciplinary hearing", "anchor": "7. University Student Discipline Procedure"},
+  {"type": "sanction_tariff_and_penalty_factors", "quote": "Aggravating Factors: circumstances that increase the severity of academic misconduct, warranting stricter penalties.", "anchor": "3.7 Mitigating and Aggravating Factors"},
+  {"type": "first_or_minor_offence_handled_educatively", "quote": "Module Coordinators have discretion to address minor incidents as poor academic practice directly with the student, using the incident as a learning opportunity where additional guidance can be offered and training recommended.", "anchor": "5.1.1 Incidents of Poor Academic Practice"},
+  {"type": "fair_process_and_appeal_rights_in_misconduct_cases", "quote": "Advise the student that they may be accompanied to meetings by a support person, who may be a student adviser, students’ union representative, friend or family member.", "anchor": "5.3 School Academic Integrity Committee Procedure"},
+  {"type": "specialist_referral_or_investigation_process", "quote": "the committee may proceed to consider the matter in their absence, based on the documentary evidence.", "anchor": "5.3 School Academic Integrity Committee Procedure"},
+  {"type": "strict_liability_ignorance_no_defence", "quote": "Plagiarism is unacceptable in academic work, even where it arises as a result of:", "anchor": "3.1.1 Plagiarism"}
+ ],
+ "unsure": [
+  {"type": "ai_detector_reports_interpretation_or_handling", "quote": "Reports produced by the University’s originality checking software should be reviewed carefully before discussing them with students.", "why": "Originality software, not AI detection specifically"},
+  {"type": "translation_tools_restricted", "quote": "unauthorised and / or unacknowledged use of paraphrasing or translation software to, for example, disguise plagiarism", "why": "Translation software is not the main subject"},
+  {"type": "training_and_guidance_resources_provided", "quote": "may refer students to other resources such as the UCD Library Guides, or the University Writing Centre.", "why": "Academic integrity resources, AI not named"},
+  {"type": "complete_training_before_using_ai", "quote": "using the incident as a learning opportunity where additional guidance can be offered and training recommended", "why": "Training recommended after poor practice, not before AI use"},
+  {"type": "passing_off_ai_work_as_own_is_misconduct", "quote": "The submission of someone else’s work (or part thereof) as one’s own, when the work (all or in part) has been produced by, or purchased from, another person or party.", "why": "Misrepresentation of authorship, but AI not named"}
+ ]}
