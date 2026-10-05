@@ -1,0 +1,109 @@
+{
+ "doc_id": "bangor-d2-misconduct-procedure-202610",
+ "coder": "v2f-f1",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "work_must_be_own_not_written_by_ai",
+   "quote": "the content (e.g., the basic written expression, the composition, arguments, interpretations, conclusions etc.) of work submitted for assessment should be a student’s own.",
+   "anchor": "Academic Integrity Procedure"
+  },
+  {
+   "type": "translation_tools_restricted",
+   "quote": "the translation of materials using unauthorized methods",
+   "anchor": "6. Examples of academic misconduct"
+  },
+  {
+   "type": "ai_detectors_not_to_be_used",
+   "quote": "Generative-Artificial Intelligence detection software will not normally be used in the operation of this procedure, to either evidence allegations of academic misconduct or as a tool in an investigation of academic misconduct.",
+   "anchor": null
+  },
+  {
+   "type": "declaration_form_or_content",
+   "quote": "Instruct students to complete and submit the Generative-Artificial Intelligence Declaration coversheet for all appropriate assessments",
+   "anchor": "Appendix 1 School and Staff Responsibilities"
+  },
+  {
+   "type": "acknowledge_or_declare_ai_use",
+   "quote": "make acknowledgements in submitted work as required by the University and/or their subject or discipline (e.g. to sources, methods, translation, use of generative artificial intelligence software)",
+   "anchor": "Appendix 2"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "Schools must provide students with guidance on any subject- or discipline-specific examples of academic misconduct.",
+   "anchor": "Appendix 1 School and Staff Responsibilities"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "At the meeting, the student can be asked questions to verify that the work is their own.",
+   "anchor": null
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "Appeals against the decision of the Chair of Board of Examiners will be considered by the University’s Panel of Enquiry.",
+   "anchor": "Appeals Against decision of Chair of Board of Examiners"
+  },
+  {
+   "type": "strict_liability_ignorance_no_defence",
+   "quote": "The Panel is not required to prove intent on the part of the student to engage in an act of academic misconduct in order to substantiate the allegation",
+   "anchor": "Panel of Enquiry"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "Module mark after resit capped at 30% (Level 4-6) or 40% (Level 7)",
+   "anchor": "Appendix 4. Typical Penalties for Academic Misconduct Cases Referred to a Panel of Enquiry"
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "For students on taught Master’s courses, procedures must allow the first written submission to be used developmentally, notwithstanding the fact that the work can contribute to the final assessment.",
+   "anchor": "Appendix 1 School and Staff Responsibilities"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Fabrication of data: making false claims to have carried out experiments,",
+   "anchor": null
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Plagiarism: using without acknowledgement another person’s words or ideas and submitting them for assessment as though it were one’s own work.",
+   "anchor": "6. Examples of academic misconduct"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "the Panel meeting will normally proceed in the absence of the student.",
+   "anchor": "Panel of Enquiry"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "unfair use of generative artificial intelligence software",
+   "why": "unfair use named as plagiarism; permitted scope not stated"
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "The reports produced by detection software must not be used by themselves to determine if academic misconduct has taken place.",
+   "why": "about Turnitin plagiarism software, not AI detectors"
+  },
+  {
+   "type": "ai_detectors_unreliable_not_sole_basis",
+   "quote": "The reports produced by detection software must not be used by themselves to determine if academic misconduct has taken place.",
+   "why": "generic detection software, no unreliability claim"
+  },
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "Discourage the use of proofreading, translating using unauthorized methods, and use of other external services that may lead to a heavily edited or rewritten work by those other than the student",
+   "why": "staff instruction, not AI-specific"
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "Pay close attention to subject- or discipline-specific guidance provided by their School regarding academic misconduct and the use of translation software in submitted work.",
+   "why": "translation software only; AI not named"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Staff should signpost students to the Study Skills Centre",
+   "why": "not AI-specific support"
+  }
+ ]
+}

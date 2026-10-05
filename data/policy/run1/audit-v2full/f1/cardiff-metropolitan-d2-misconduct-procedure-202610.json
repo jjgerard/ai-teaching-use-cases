@@ -1,0 +1,64 @@
+{
+ "doc_id": "cardiff-metropolitan-d2-misconduct-procedure-202610",
+ "coder": "v2f-f1",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "default_ai_banned_unless_authorised",
+   "quote": "Assignment briefs will identify where use of artificial intelligence may be appropriate; in all other cases it is not.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "Inappropriate use of artificial intelligence software or services in the completion of assessments.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "Assignment briefs will identify where use of artificial intelligence may be appropriate",
+   "anchor": "Plagiarism"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Fabrication of references, including references within the reference section or bibliography which have been fabricated and are not genuine sources.",
+   "anchor": "Falsification"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Using another person's words or ideas without acknowledgement and submitting them for assessment as though it were your own work.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "you may submit an appeal but only on one or both of the below specific grounds",
+   "anchor": "What if I am unhappy with the Academic Integrity Committee outcome?"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "Students may be given the choice of whether to accept a 'Fixed Penalty' (and accept responsibility that an offence has taken place)",
+   "anchor": null
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "Your case will be heard whether you attend or not.",
+   "anchor": "What happens in a committee? Will it be online? Do I have to attend?"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "Attempting to manipulate or evade academic integrity detection processes or software (e.g. Turnitin).",
+   "why": "detection software generic, AI not named"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Library Services provide information about Academic Skills and training in Academic Practice.",
+   "why": "not AI-specific"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "notes or transcript from any interview regarding the allegations.",
+   "why": "interview mentioned as evidence, not authorship check"
+  }
+ ]
+}

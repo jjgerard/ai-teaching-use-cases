@@ -1,0 +1,129 @@
+{
+ "doc_id": "glasgow-d2-misconduct-procedure-202610",
+ "coder": "v2f-f4",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "work_must_be_own_not_written_by_ai",
+   "quote": "All work submitted by students for assessment is accepted on the understanding that it is the student's own effort.",
+   "anchor": "Introduction"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "Students must not use generative Artificial Intelligence (AI) tools or AI-powered websites in ways which breach assessment instructions, for example to generate content, answers, or references.",
+   "anchor": "Generative Artificial Intelligence"
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "Students must not use generative Artificial Intelligence (AI) tools or AI-powered websites in ways which breach assessment instructions",
+   "anchor": "Generative Artificial Intelligence"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "Schools will advise students of their specific rules and in assessment specifications, where appropriate.",
+   "anchor": "Generative Artificial Intelligence"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "Schools will advise students of their specific rules and in assessment specifications, where appropriate.",
+   "anchor": "Generative Artificial Intelligence"
+  },
+  {
+   "type": "acknowledge_or_declare_ai_use",
+   "quote": "Where the use of AI is permitted, it must be verified and appropriately referenced in the work for transparency, with details of how it was used being provided.",
+   "anchor": "Generative Artificial Intelligence"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "If information or ideas are obtained from any source (including GenAI), those sources must be acknowledged according to the appropriate convention in that subject",
+   "anchor": "Plagiarism"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "Where the use of AI is permitted, it must be verified and appropriately referenced in the work for transparency",
+   "anchor": "Generative Artificial Intelligence"
+  },
+  {
+   "type": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "quote": "Any failure to acknowledge adequately or to cite properly other sources in submitted work is plagiarism.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Plagiarism is defined as the submission or presentation of work, in any form, which is not one's own, without proper acknowledgement of the source(s).",
+   "anchor": "Plagiarism"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "the School may arrange an Exploratory Interview with the student in order to assess their understanding of the work they have submitted.",
+   "anchor": "Further Investigation"
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "The student has the right of appeal to the Senate Assessors for Student Conduct in respect of any penalty imposed by the Head of School.",
+   "anchor": "Right of Appeal"
+  },
+  {
+   "type": "strict_liability_ignorance_no_defence",
+   "quote": "There does not need to be any deliberate attempt to deceive.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "The University reserves the right to use University-approved systems, such as similarity checking software, to assist with the detection of plagiarism or generative AI misuse",
+   "anchor": "Self-plagiarism"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "The Head of School may reduce the grade by one or more bands, down to grade H. If a resubmission is permitted and available, the resubmission will be capped at the pass mark",
+   "anchor": "Procedure before the Head of School for non-honours cases that are first alleged breaches"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "In some cases and for students at any level of study, it may be necessary to gather more information where there are concerns about the originality of work.",
+   "anchor": "Further Investigation"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "declaration_form_or_content",
+   "quote": "with details of how it was used being provided",
+   "why": "details of use required, no form or tool/version stated"
+  },
+  {
+   "type": "do_not_use_ai_references_or_treat_ai_as_source",
+   "quote": "for example to generate content, answers, or references",
+   "why": "example of banned generation, not a source-credibility rule"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "an unacknowledged summary of a source, including a summary produced by generative Artificial Intelligence (GenAI);",
+   "why": "unacknowledged GenAI summary as plagiarism, not passing off"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "they may impose an academic penalty, which will take account of the extent of the misconduct.",
+   "why": "generic penalty, not AI-specific"
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "The student will be given guidance to help them avoid similar problems in future",
+   "why": "guidance accompanies penalty; not clearly lighter outcome"
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "The University reserves the right to use University-approved systems",
+   "why": "approved systems only, no detector reading or handling"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "which may include a referral to Student Learning Development or a requirement to complete a training course",
+   "why": "support as outcome, not about AI"
+  },
+  {
+   "type": "ai_output_may_be_included_when_assessment_allows",
+   "quote": "Where the use of AI is permitted, it must be verified and appropriately referenced",
+   "why": "permission implied, not stated that output may be included"
+  }
+ ]
+}

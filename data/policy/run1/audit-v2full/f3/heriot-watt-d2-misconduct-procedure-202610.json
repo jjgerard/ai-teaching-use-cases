@@ -1,0 +1,59 @@
+{
+ "doc_id": "heriot-watt-d2-misconduct-procedure-202610",
+ "coder": "v2f-f3",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "In most instances misuse of GenAI would fall under the definition of plagiarism (either through failing to appropriately reference sources (i.e. GenAI) or presenting work that is not student’s own as if it were) but could also fall under the definition of dishonest practice where appropriate.",
+   "anchor": "2.17 Other examples of academic misconduct"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Misuse of Generative Artificial Intelligence (GenAI) Tools: any suspected misuse of generative artificial intelligence (GenAI) will be dealt with under this policy.",
+   "anchor": "2.17 Other examples of academic misconduct"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "The University may allow reassessment for less severe offences but will not permit for major offences of contract cheating or and inappropriate use of Generative Artificial Intelligence (GenAI) tools.",
+   "anchor": "9.5 Appendix one notes"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "The relevant Discipline Committee will follow Table 9.2 when determining an outcome for forms of Contract Cheating and inappropriate use of GenAI tools (as listed above):",
+   "anchor": "9.2 Contract Cheating and inappropriate use of Generative Artificial Intelligence (GenAI) tools"
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "In all disciplinary cases, the rules of natural justice (the right to a fair hearing) shall be observed.",
+   "anchor": "1. INTRODUCTION"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "The University shall have the right to investigate any allegation of academic misconduct against a student and may take disciplinary action where it decides, on the balance of probabilities, that a disciplinary offence (as defined above) has been committed.",
+   "anchor": "3. CATEGORIES OF DISCIPLINARY OFFENCES"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Falsifying Data: presenting data based on work which a student claims to have carried out but which they have invented or obtained by unfair means.",
+   "anchor": "2.17 Other examples of academic misconduct"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "The University reserves the right to utilise electronic plagiarism and similarity detection and checker systems",
+   "why": "plagiarism similarity checkers, AI not mentioned"
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "Only University approved detection tools should be used by students.",
+   "why": "restricts detection tools but not AI-specific"
+  },
+  {
+   "type": "complete_training_before_using_ai",
+   "quote": "All students will be required to undertake a mandatory online self-pace short course on academic integrity before they can submit their first assessment.",
+   "why": "academic integrity course, AI not mentioned"
+  }
+ ]
+}
