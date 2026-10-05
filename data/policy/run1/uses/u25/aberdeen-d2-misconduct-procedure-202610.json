@@ -1,0 +1,29 @@
+{
+ "doc_id": "aberdeen-d2-misconduct-procedure-202610",
+ "coder": "use-u25",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment.",
+   "anchor": "Plagiarism"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

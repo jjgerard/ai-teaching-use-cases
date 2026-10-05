@@ -1,0 +1,31 @@
+{
+ "doc_id": "heriot-watt-d2-misconduct-procedure-202610",
+ "coder": "use-u25",
+ "uses": [
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "In most instances misuse of GenAI would fall under the definition of plagiarism (either through failing to appropriately reference sources (i.e. GenAI) or presenting work that is not student’s own as if it were)",
+   "anchor": "Misuse of Generative Artificial Intelligence (GenAI) Tools"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "any suspected misuse of generative artificial intelligence (GenAI) will be dealt with under this policy."
+  },
+  "exempt": []
+ }
+}
