@@ -1,0 +1,29 @@
+{
+ "doc_id": "york-students-genai-202610",
+ "coder": "v2-b23",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "‘False authorship’ refers to creating or modifying academic work, either fully or partially, using unauthorised or undisclosed help from people",
+   "anchor": "What is ‘false authorship’?"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "PG researchers should refer to Use of generative Artificial Intelligence in PGR programmes.",
+   "anchor": null
+  }
+ ],
+ "unsure": [
+  {
+   "type": "do_not_put_own_work_into_ai_tools",
+   "quote": "providing your own work to an individual or software has a degree of risk.",
+   "why": "Risk warning, not an instruction not to upload own work"
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "Discover how we're embracing AI at an institutional level; ethically, innovatively, and safely.",
+   "why": "Pointer to institutional position; unclear if governance description"
+  }
+ ]
+}

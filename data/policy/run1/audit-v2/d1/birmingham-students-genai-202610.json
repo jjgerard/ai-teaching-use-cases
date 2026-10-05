@@ -1,0 +1,39 @@
+{
+ "doc_id": "birmingham-students-genai-202610",
+ "coder": "v2-d1",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "do_not_put_own_work_into_ai_tools",
+   "quote": "you should not copy and paste large amounts of your own writing into the tool.",
+   "anchor": "7. Editing and proofreading work"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Plagiarism can occur in all types of assessment when a Student claims as their own, intentionally or by omission, work which was not done by that Student.",
+   "anchor": "Academic misconduct"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Use the Library Catalogue, FindIt@Bham, or an appropriate academic database.",
+   "why": "Verification step after AI output, close to verify-output neighbour"
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "This includes a commitment to supporting students and PGRs to become \u2018AI-literate\u2019.",
+   "why": "Commitment to support literacy; not explicitly within programmes"
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "the University has set out a framework for using Generative AI.",
+   "why": "Framework mentioned only in passing, no governance detail"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "The Research Skills Team supports PGRs to understand the use of AI and GenAI for researchers.",
+   "why": "Points to support team, not clearly separate guidance"
+  }
+ ]
+}

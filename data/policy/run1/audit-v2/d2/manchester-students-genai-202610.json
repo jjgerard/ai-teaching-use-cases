@@ -1,0 +1,18 @@
+{
+ "doc_id": "manchester-students-genai-202610",
+ "coder": "v2-d2",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "The Environmental and Sustainability AI Working Group has been tasked with reviewing and assessing the environmental impact of AI and coordinating University-based sustainability initiatives",
+   "why": "Institutional AI working group, but environmental impact rather than governance of AI use"
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "Chairs of Faculty Teaching and Learning Committees will collate issues with this policy raised by Schools and are responsible for including a review of the impact of the AI Policy by the Committee at least once a semester.",
+   "why": "Policy review duty; may be oversight or just staff duty"
+  }
+ ]
+}

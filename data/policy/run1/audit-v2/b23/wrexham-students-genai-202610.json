@@ -1,0 +1,24 @@
+{
+ "doc_id": "wrexham-students-genai-202610",
+ "coder": "v2-b23",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Contract cheating involves using a third party to produce a piece of academic work on your behalf.",
+   "anchor": "Contract cheating"
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "the similarity score is just a measure and academic staff will make an overall academic judgment on the work.",
+   "anchor": "Plagiarism and collusion - Turnitin software"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "you should not use paraphrasing to make it look like your own work",
+   "why": "Paraphrasing to disguise plagiarism, not AI-specific concealment"
+  }
+ ]
+}

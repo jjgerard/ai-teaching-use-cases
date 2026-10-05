@@ -1,0 +1,39 @@
+{
+ "doc_id": "lancashire-students-genai-202610",
+ "coder": "v2-d2",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Plagiarism occurs where a student copies words or ideas from another person and presents those words or ideas as their own in an assessment without properly acknowledging and citing the source(s).",
+   "anchor": "11. Definitions of Academic Misconduct"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "consider any aggravating factors e.g. whether it is a repeat offence",
+   "anchor": "19. Penalties for Academic Misconduct"
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "interpreting detection software reports, where the substance of the copied material will be considered as well as the quantity, and there is no percentage threshold for an investigation to be initiated",
+   "anchor": "8. Academic Judgment"
+  },
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "Attempting to use AI to humanise or attempt to hide the use of AI so that the submitted assessment does not reflect the student\u2019s own understandings, thoughts or ideas.",
+   "anchor": "11.6 Unauthorised Use of Technology"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "If the student does not attend without good cause, a decision may be made in their absence and a penalty may be imposed",
+   "anchor": "18. Referral to an Academic Misconduct Committee (Category 4)"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "do_not_put_own_work_into_ai_tools",
+   "quote": "Uploading an assessment to be automatically rewritten or translated, so that the submitted assessment does not reflect the student\u2019s own understandings, thoughts or ideas.",
+   "why": "Listed as misconduct; not a plain instruction not to upload own work"
+  }
+ ]
+}
