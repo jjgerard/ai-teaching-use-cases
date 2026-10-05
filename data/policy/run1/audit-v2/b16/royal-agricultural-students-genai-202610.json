@@ -1,0 +1,18 @@
+{
+ "doc_id": "royal-agricultural-students-genai-202610",
+ "coder": "v2-b16",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "Markers should review the Turnitin similarity scores of assessments submitted online as part of the marking process and should provide feedback comments where the similarity score is higher than 20%",
+   "why": "Similarity score reading, not AI detection specifically"
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "Providers establish coherent approaches to technologies that impact teaching, learning and assessment (such as Generative Artificial Intelligence).",
+   "why": "Quoted QAA principle for providers, not RAU own governance"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "doc_id": "ucc-students-genai-202610",
+ "coder": "v2-b21",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "there are copyright and privacy concerns related to use of AI detectors that are not institutionally approved",
+   "anchor": "Use of AI Detectors"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "GenAI is known to “hallucinate” and is not credible as a source.",
+   "why": "Says not credible as source; closer to verify/citing neighbours"
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "Students should be taught to critically engage with these tools and have an understanding of the mechanisms behind them, including an introduction to Critical AI Literacy.",
+   "why": "Normative advice to educators, not a stated institutional commitment"
+  }
+ ]
+}
