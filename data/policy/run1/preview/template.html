@@ -105,6 +105,25 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 .brow.hl { grid-template-columns: minmax(110px, 40%) 1fr 112px; }
 .brow.hl .bn { white-space: normal; line-height: 1.25; }
 
+
+/* uses and acknowledgement */
+.ubar { display: flex; height: 14px; background: var(--tint); border-radius: 2px; overflow: hidden; min-width: 0; }
+.ubar i { display: block; height: 100%; }
+.sg-permitted { background: var(--accent); }
+.sg-conditional { background: var(--accent); opacity: .5; }
+.sg-discouraged { background: var(--muted); opacity: .75; }
+.sg-prohibited { background: var(--ink); }
+.sg-required { background: var(--accent-ink, var(--accent)); outline: 2px solid var(--accent); outline-offset: -2px; }
+.ulegend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--ink2); margin: 0 0 10px; }
+.ulegend span { display: inline-flex; align-items: center; gap: 6px; }
+.ulegend i { width: 14px; height: 10px; display: inline-block; border-radius: 2px; }
+.urow { display: grid; grid-template-columns: minmax(120px, 30%) minmax(60px, 1fr) minmax(120px, 190px); gap: 10px; align-items: center; width: 100%; background: none; border: 0; padding: 4px 0; text-align: left; cursor: pointer; font: inherit; color: var(--ink); }
+.urow:hover .bl, .urow[aria-pressed="true"] .bl { color: var(--accent-ink); }
+.urow .un { font-size: 12px; line-height: 1.3; color: var(--ink2); white-space: normal; }
+.udet h4 { margin: 12px 0 4px; font-size: 14px; }
+.udet blockquote { margin: 4px 0 8px; padding-left: 10px; border-left: 2px solid var(--line); color: var(--ink2); font-size: 13px; overflow-wrap: anywhere; }
+@media (max-width: 520px) { .urow { grid-template-columns: 1fr; } .urow .un { white-space: normal; } }
+
 /* guidance points */
 .pctl { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-bottom: 10px; }
 .pctl input[type="search"] { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); padding: 5px 9px; min-width: min(100%, 260px); border-radius: 3px; }
@@ -131,7 +150,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 
 <div class="wrap">
   <h1>AI policy atlas</h1>
-  <p class="lede">What UK and Irish universities tell students about generative AI, what most of them say, where they split, and whether regions differ. Every statement counted here traces to a quote in the institution’s own document.</p>
+  <p class="lede">What UK and Irish universities tell students about generative AI: what it can be used for, what has to be acknowledged, what help is offered, and how that differs. Every statement counted here traces to a quote in the institution’s own document.</p>
   <p class="note"><b>Draft.</b> Counts are minimums: a statement counts only where a quote shows it, from one document per institution, read by one model. They are not prevalence estimates. Coverage and method are further down.</p>
 </div>
 
@@ -146,8 +165,31 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 
 
 
+<section id="uses">
+  <h2>What AI can be used for</h2>
+  <p class="sub" id="usub"></p>
+  <div class="pctl"><span class="mono" style="color:var(--ink2)">Setting</span><span id="uctx"></span></div>
+  <div class="ulegend" id="uleg"></div>
+  <div class="cols"><div class="panel"><div id="urows"></div></div><div class="panel udet" id="udet" style="min-height:120px"></div></div>
+</section>
+
+<section id="ack">
+  <h2>What has to be acknowledged</h2>
+  <p class="sub" id="acksub"></p>
+  <div class="panel"><div class="bars" id="ackbars"></div></div>
+</section>
+
+<section id="support">
+  <h2>What kind of help institutions offer</h2>
+  <p class="sub" id="supsub"></p>
+  <div class="panel"><div class="bars" id="supbars"></div></div>
+  <h3 style="margin:22px 0 4px">Where something is required</h3>
+  <p class="sub" id="supmandsub"></p>
+  <div class="plist" id="supmand"></div>
+</section>
+
 <section id="headlines">
-  <h2>What most institutions say</h2>
+  <h2>Other statements institutions make</h2>
   <p class="sub" id="hlsub"></p>
   <div class="panel"><div class="bars" id="hlbars"></div></div>
   <h3 style="margin:22px 0 4px">Where institutions split</h3>
@@ -166,15 +208,6 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   <p class="note" style="margin:0 0 10px">The first extraction pulled 6 to 15 distinctive rules from each document, so it under-counts things a document says in passing, such as pointing to training. Switching on the whole-document re-read adds every statement type a second pass found in the full text, each backed by a verbatim quote. The pairings under “What goes together” follow the same switch.</p>
   <div class="tchips" id="tgroups" role="group" aria-label="Theme"></div>
   <div class="cols"><div class="panel"><div class="bars" id="tbars"></div></div><div class="panel" id="tdetail" style="min-height:120px"></div></div>
-</section>
-
-<section id="support">
-  <h2>What kind of help institutions offer</h2>
-  <p class="sub" id="supsub"></p>
-  <div class="panel"><div class="bars" id="supbars"></div></div>
-  <h3 style="margin:22px 0 4px">Where something is required</h3>
-  <p class="sub" id="supmandsub"></p>
-  <div class="plist" id="supmand"></div>
 </section>
 
 <section id="second">
@@ -583,8 +616,50 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     $("supmandsub").textContent = "Only " + S.mandatory.length + " quotes say help is required (a course, quiz or guide that must be completed or used). “Required” follows the wording of the quote: must, mandatory, or a stated condition such as before an assessment. A few of these are academic-integrity courses rather than AI courses; the quote shows which.";
     var m = $("supmand"); m.textContent = ""; S.mandatory.forEach(function (r) { var c = el("div", "pc"), w = el("div", "who2"); w.appendChild(el("strong", null, (PD[r.d] ? PD[r.d].name : r.d))); w.appendChild(el("span", "mono", (TR.support.forms.filter(function (x) { return x.id === r.form; })[0] || {}).label + (r.second ? " · second document" : ""))); c.appendChild(w); c.appendChild(el("blockquote", "qt", "“" + r.q + "”")); m.appendChild(c); });
   }
+
+  var UD = TR.usesData, ULAB = {}; UD.uses.forEach(function (u) { ULAB[u.id] = u; });
+  var uctx = "all", usel = null;
+  var STLAB = { permitted: "Permitted", conditional: "Conditional", discouraged: "Discouraged", prohibited: "Prohibited", required: "Required" };
+  function urowsFor() { return UD.rows.filter(function (r) { return PD[r.i] && (uctx === "all" || r.c === uctx); }); }
+  function drawUses() {
+    var N = TR.docs.filter(function (d) { return PD[d]; }).length, rows = urowsFor(), per = {};
+    rows.forEach(function (r) { var o = (per[r.u] = per[r.u] || {}); (o[r.s] = o[r.s] || new Set()).add(r.i); });
+    $("usub").textContent = "Out of " + N + " institutions, how many say each use is allowed, conditional, discouraged, prohibited or required. An institution counts once per stance. Many documents say nothing about a given use, and some say different things for different settings. Counts are minimums, from quotes only. Pick a use to see who says what.";
+    var ch = $("uctx"); ch.textContent = ""; [["all", "All settings"]].concat(Object.keys(UD.contexts).filter(function (k) { return k !== "unspecified"; }).map(function (k) { return [k, k.replace(/_/g, " ")]; })).forEach(function (x) { ch.appendChild(mkChip(x[1], uctx === x[0], function () { uctx = x[0]; drawUses(); })); });
+    var lg = $("uleg"); lg.textContent = ""; UD.stances.forEach(function (s) { var sp = el("span"), i = el("i"); i.className = "sg-" + s; sp.appendChild(i); sp.appendChild(document.createTextNode(STLAB[s])); lg.appendChild(sp); });
+    var list = UD.uses.map(function (u) { var o = per[u.id] || {}, n = new Set(); Object.keys(o).forEach(function (s) { o[s].forEach(function (i) { n.add(i); }); }); return { u: u, o: o, n: n.size }; }).filter(function (x) { return x.n > 0; }).sort(function (a, b) { return (a.u.id === "any_use" ? -1 : b.u.id === "any_use" ? 1 : b.n - a.n); });
+    var host = $("urows"); host.textContent = "";
+    list.forEach(function (x) { var b = el("button", "urow"); b.type = "button"; b.setAttribute("aria-pressed", usel === x.u.id ? "true" : "false"); b.title = x.u.def; b.appendChild(el("span", "bl", x.u.label));
+      var bar = el("span", "ubar"); UD.stances.forEach(function (s) { var c = x.o[s] ? x.o[s].size : 0; if (c) { var i = el("i"); i.className = "sg-" + s; i.style.width = (100 * c / N) + "%"; i.title = STLAB[s] + ": " + c; bar.appendChild(i); } }); b.appendChild(bar);
+      b.appendChild(el("span", "un", UD.stances.filter(function (s) { return x.o[s]; }).map(function (s) { return x.o[s].size + " " + s.slice(0, 4); }).join(" · ") + " (" + x.n + " inst.)"));
+      b.addEventListener("click", function () { usel = x.u.id; drawUses(); }); host.appendChild(b); });
+    var dt = $("udet"); dt.textContent = "";
+    if (!usel || !ULAB[usel]) { dt.appendChild(el("span", null, "Select a use to see which institutions allow, restrict or forbid it, with their wording.")); return; }
+    dt.appendChild(el("h3", null, ULAB[usel].label)); dt.appendChild(el("p", "qline", ULAB[usel].def));
+    UD.stances.forEach(function (s) { var rr = rows.filter(function (r) { return r.u === usel && r.s === s; }); if (!rr.length) return; var seen = {}, uniq = []; rr.forEach(function (r) { if (!seen[r.i]) { seen[r.i] = 1; uniq.push(r); } });
+      dt.appendChild(el("h4", null, STLAB[s] + " (" + uniq.length + ")")); uniq.slice(0, 6).forEach(function (r) { var cond = r.s === "conditional" && r.k.length ? " [" + r.k.map(function (k) { return k.replace(/_/g, " "); }).join(", ") + "]" : ""; dt.appendChild(el("blockquote", null, "“" + r.q + "” — " + PD[r.i].name + (uctx === "all" ? " · " + r.c.replace(/_/g, " ") : "") + (r.t ? " · " + r.t : "") + cond)); });
+      if (uniq.length > 6) dt.appendChild(el("p", "small", "and " + (uniq.length - 6) + " more institutions"));
+    });
+  }
+  function drawAck() {
+    var ids = TR.docs.filter(function (d) { return PD[d]; }), N = ids.length, A = UD.ack, host = $("ackbars"); host.textContent = "";
+    $("acksub").textContent = "What institutions say about acknowledging AI use: whether it is required, which uses are exempt, what to include, where it goes, and what happens if it is missing. Each bar counts institutions out of " + N + "; an institution with no statement is not counted.";
+    function bars(title, counts, labels) { var keys = Object.keys(counts).filter(function (k) { return counts[k] > 0; }).sort(function (a, b) { return counts[b] - counts[a]; }); if (!keys.length) return; host.appendChild(el("h4", null, title)); keys.forEach(function (k) { var b = el("div", "brow share hl"); b.appendChild(el("span", "bl", (labels && labels[k]) || k.replace(/_/g, " "))); var tr = el("span", "bt"), f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * counts[k] / N) + "%"; tr.appendChild(f); b.appendChild(tr); b.appendChild(el("span", "bn", counts[k] + " of " + N + " (" + Math.round(100 * counts[k] / N) + "%)")); host.appendChild(b); }); }
+    function tally(fn) { var c = {}; ids.forEach(function (d) { var a = A[d]; if (!a) return; fn(a).forEach(function (v) { if (v) c[v] = (c[v] || 0) + 1; }); }); return c; }
+    var DL = { always_required: "Every use must be acknowledged", conditional: "Acknowledgement depends on a condition", recommended: "Acknowledgement is recommended", not_required: "No acknowledgement needed" };
+    bars("Is acknowledgement required?", tally(function (a) { return [a.duty && a.duty.v]; }), DL);
+    var DEF = { prohibit_all: "No AI when the brief is silent", permit_all: "AI allowed when the brief is silent", ask_instructor: "Ask when the brief is silent", permit_with_acknowledgement: "Allowed if acknowledged", use_by_use_rule: "Per-use rules apply", differs_by_assessment_type: "Depends on the assessment type", misconduct_only_if_unacknowledged: "Misconduct only if unacknowledged", treated_as_human_assistance: "Treated like human help" };
+    bars("What applies when the brief says nothing?", tally(function (a) { return [a.def && a.def.v]; }), DEF);
+    bars("Who decides?", tally(function (a) { return a.decided; }), { institution_wide: "Whole institution", school_or_department: "School or department", module_or_lecturer: "Module leader or lecturer", assessment_brief: "Each assessment brief", tiered_scale: "A tiered scale" });
+    bars("What to include", tally(function (a) { return a.contents; }));
+    bars("Where it goes", tally(function (a) { return a.location; }));
+    bars("How to reference", tally(function (a) { return [a.referencing]; }), { cite_in_reference_list: "Cite with a reference list entry", acknowledge_without_reference_entry: "Acknowledge, no reference entry", follow_guide: "Follow the referencing guide", not_required_in_reference_list: "No reference list entry" });
+    bars("Keeping records", tally(function (a) { return [a.records]; }), { required: "Records must be kept", recommended: "Keeping records is advised" });
+    bars("If it is missing", tally(function (a) { return [a.consequence]; }), { submission_blocked: "Submission blocked", treated_as_non_submission: "Counts as non-submission", treated_as_misconduct: "Treated as misconduct", safe_if_declared: "Declared permitted use is safe" });
+    bars("Uses that need no acknowledgement", tally(function (a) { return a.exempt; }));
+  }
   function tinit() {
-    drawHeadlines(); drawSecond(); drawSupport();
+    drawUses(); drawAck(); drawHeadlines(); drawSecond(); drawSupport();
     var opts = TR.types.slice().sort(function (x, y) { return x.label.localeCompare(y.label); });
     ["tpa", "tpb"].forEach(function (id, i) { var s = $(id); opts.forEach(function (t) { var o = document.createElement("option"); o.value = t.id; o.textContent = t.label; s.appendChild(o); }); s.value = i ? "ai_detectors_unreliable_not_sole_basis" : "rules_set_locally_by_module_or_lecturer"; s.addEventListener("change", drawTogether); });
     $("tthin").addEventListener("change", function () { drawTrends(); drawTogether(); });
