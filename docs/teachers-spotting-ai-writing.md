@@ -141,6 +141,27 @@ AI-generated text](https://aclanthology.org/2025.acl-long.267).
   prompts; a pooled five-person vote is not how a single teacher marks. I found no
   larger replication.
 
+## 3b. Reviews and meta-analyses
+
+I found no review or meta-analysis specific to teachers or educators judging student work.
+The nearest are broader and mostly outside education:
+
+- [Ramos 2026](https://arxiv.org/abs/2604.03437), "Is it Cake or is it AI?" [AB]: a systematic
+  review of 30 human-detection studies from 2025–26 (text, image and voice; 22,541 records
+  screened). No pooled estimate. Concludes humans are generally unreliable and near chance.
+  The abstract does not mention teachers or education.
+- [Diel et al. 2024](https://doaj.org/article/a2803c8a1b9441458f000fd0fe82ea47), *Computers
+  in Human Behavior Reports* [S]: a meta-analysis of 56 deepfake-detection papers (137 effects,
+  86,155 participants; audio, image, text, video). Pooled accuracy 55.5% (not significantly
+  above chance); text 52.0%. Mostly general-population readers, studies from before 2024, not
+  education-specific.
+- A Georgia Tech student-run review page repeats the Diel numbers and adds that training raised
+  accuracy from 48.2% to 59.0% while increasing false accusations. I could not trace that
+  training claim to a primary source, so I have not used it.
+
+Because the pooled work is broad and early, it can't answer the classroom question. It also
+averages over very different tasks, which is why the task-format spread in section 8 matters.
+
 ## 4. What makes human detection work or fail
 
 - **Cues are real at population scale.** [Kobak et al. 2025](https://pmc.ncbi.nlm.nih.gov/articles/PMC12219543)
@@ -277,6 +298,7 @@ setting you care about.
 
 - No experiment I found manipulates teachers' access to a student's prior writing; I can't
   rule out a study I missed.
+- No review or meta-analysis of teacher detection specifically (see 3b).
 - No larger replication of Russell et al.; little human-detection evidence on the newest
   models; no controlled evaluation of teacher training with feedback.
 - Many figures are [S]. In particular, check Perkins, Kofinas, Morjaria, Farazouli, the
