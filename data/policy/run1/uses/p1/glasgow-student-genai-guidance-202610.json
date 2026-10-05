@@ -1,0 +1,171 @@
+{
+ "doc_id": "glasgow-student-genai-guidance-202610",
+ "coder": "use-p1",
+ "uses": [
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_required",
+   "conditions": [],
+   "quote": "You can use it to help you prepare/revise: flashcards, quizzes, etc.",
+   "anchor": "The Essentials"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "exams_or_supervised",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "In supervised assessments (exams, in-class tests, invigilated practical assessments, vivas, OSCEs), you cannot use GenAI unless your assessment brief expressly allows it.",
+   "anchor": "The Essentials"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Explain, quiz, offer feedback on practice answers",
+   "anchor": "Gen AI in practice - good uses"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "limited_extent"
+   ],
+   "quote": "Using Gen AI to correct grammar and surface-level expression is acceptable and should be acknowledged.",
+   "anchor": "Gen AI in practice - problematic uses"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "don’t use it to rewrite work.",
+   "anchor": "Gen AI in practice - problematic uses"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "needs_permission"
+   ],
+   "quote": "Asked Gen AI to act like a ‘critical friend’ - questioning her approach and asking her to justify her position",
+   "anchor": "Gen AI in practice - good uses"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Course guidelines permitted Gen AI use for planning and editig with acknowledgement",
+   "anchor": "Gen AI in practice - good uses"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Outcome: Issue here – misconduct. Always find and read your sources.",
+   "anchor": "Gen AI in practice - problematic uses"
+  },
+  {
+   "use": "format_references",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen AI can do many things well, but it still struggles with referencing, and using it in this way is likely to cause problems.",
+   "anchor": "Gen AI in practice - problematic uses"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Submitting AI-generated content as your own work without appropriate acknowledgement is academic misconduct. This applies even when AI use is otherwise permitted.",
+   "anchor": "Academic Misconduct"
+  }
+ ],
+ "default_when_silent": {
+  "value": "differs_by_assessment_type",
+  "quote": "In unsupervised assessments (essays, reports, coursework, projects, dissertations, portfolios), you can use GenAI, but you must acknowledge it. If your course documentation says nothing about GenAI, this default applies."
+ },
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "At University of Glasgow, we use a two-scenario approach to help you understand how GenAI can be used in assessment"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "course co-ordinators can still indicate, on an assessment-by-assessment basis, any limitations on the use of AI"
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "you cannot use GenAI unless your assessment brief expressly allows it."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "using any form of AI or other computational aids in your university coursework, study, exams, or research without acknowledging that input counts as academic misconduct."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "Name of tool used"
+   },
+   {
+    "value": "tool_version",
+    "quote": "Version and publisher"
+   },
+   {
+    "value": "how_used",
+    "quote": "How it was used"
+   },
+   {
+    "value": "own_contribution",
+    "quote": "Your original work"
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "When you’ve used Gen AI, you should include a statement to make this clear to your marker."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Gen AI referencing practice differs depending on which referencing style you are using."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Submitting AI-generated content as your own work without appropriate acknowledgement is academic misconduct."
+  },
+  "exempt": [
+   {
+    "what": "learning_aid_use",
+    "quote": "Not required for preparation"
+   }
+  ]
+ }
+}

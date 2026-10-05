@@ -1,0 +1,184 @@
+{
+ "doc_id": "glasgow-student-genai-guidance-202610",
+ "coder": "use-p2",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "exams_or_supervised",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "In supervised assessments (exams, in-class tests, invigilated practical assessments, vivas, OSCEs), you cannot use GenAI unless your assessment brief expressly allows it.",
+   "anchor": "The Essentials"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_required",
+   "conditions": [],
+   "quote": "You can use it to help you prepare/revise: flashcards, quizzes, etc.",
+   "anchor": "The Essentials"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_required",
+   "conditions": [],
+   "quote": "Explain, quiz, offer feedback on practice answers",
+   "anchor": "Gen AI in practice - good uses"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Submitting AI-generated content as your own work without appropriate acknowledgement is academic misconduct.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "other_rules_apply"
+   ],
+   "quote": "Using Gen AI to correct grammar and surface-level expression is acceptable and should be acknowledged.",
+   "anchor": "Gen AI in practice - problematic uses"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "limited_extent",
+    "needs_acknowledgement"
+   ],
+   "quote": "Light editing use (changes to sentence structure, cutting down on word count, as opposed to extensive rewording) with acknowledgement is permitted in his assessment guidelines.",
+   "anchor": "Gen AI in practice - good uses"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Her course documentation didn’t cover this exact use, so she checked with her tutor beforehand to make sure this was acceptable",
+   "anchor": "Gen AI in practice - good uses"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Course guidelines permitted Gen AI use for planning and editig with acknowledgement",
+   "anchor": "Gen AI in practice - good uses"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "engaging with research is part of the whole writing process and should inform your approach. It should not be outsourced to Gen AI",
+   "anchor": "Gen AI in practice - problematic uses"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The assessment details prohibited Gen AI use for a specific task, but David didn’t read them.",
+   "anchor": "Gen AI in practice - problematic uses"
+  },
+  {
+   "use": "format_references",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen AI can do many things well, but it still struggles with referencing, and using it in this way is likely to cause problems.",
+   "anchor": "Gen AI in practice - problematic uses"
+  }
+ ],
+ "default_when_silent": {
+  "value": "permit_with_acknowledgement",
+  "quote": "In unsupervised assessments (essays, reports, coursework, projects, dissertations, portfolios), you can use GenAI, but you must acknowledge it. If your course documentation says nothing about GenAI, this default applies."
+ },
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "At University of Glasgow, we use a two-scenario approach to help you understand how GenAI can be used in assessment"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "course co-ordinators can still indicate, on an assessment-by-assessment basis, any limitations on the use of AI"
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Your course can set additional limits, and those take precedence – so always read your assessment brief."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you make use of AI at any point in your research or writing process, you must acknowledge the use of that tool as you would any other piece of evidence or material in your submission."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "Name of tool used"
+   },
+   {
+    "value": "tool_version",
+    "quote": "Version and publisher"
+   },
+   {
+    "value": "how_used",
+    "quote": "How it was used"
+   },
+   {
+    "value": "own_contribution",
+    "quote": "Your original work"
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "When you’ve used Gen AI, you should include a statement to make this clear to your marker."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Gen AI referencing practice differs depending on which referencing style you are using."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Submitting AI-generated content as your own work without appropriate acknowledgement is academic misconduct."
+  },
+  "exempt": [
+   {
+    "what": "learning_aid_use",
+    "quote": "Not required for preparation"
+   }
+  ]
+ }
+}

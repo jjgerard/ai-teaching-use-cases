@@ -1,0 +1,258 @@
+{
+ "doc_id": "sussex-students-genai-202610",
+ "coder": "use-p1",
+ "uses": [
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "Proofreading—whether by a person or an AI tool—can only support you in very limited ways.",
+   "anchor": "Can I use generative AI to edit or proofread my assessments?"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Improve or rewrite paraphrasing.",
+   "anchor": "Can I use generative AI to edit or proofread my assessments?"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Rearrange paragraphs or sentences to improve structure or argument.",
+   "anchor": "Can I use generative AI to edit or proofread my assessments?"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Highlight (but not correct) areas where your communication is unclear.",
+   "anchor": "Can I use generative AI to edit or proofread my assessments?"
+  },
+  {
+   "use": "assistive_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Students registered with the Disability Advice team and in receipt of reasonable adjustments are still permitted to use other assistive technology as recommended by the University in their Learning Support Plan.",
+   "anchor": "Can I use generative AI to edit or proofread my assessments?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "You should only use generative AI if your School has explicitly allowed it for a specific module or assessment. If AI use is permitted, this will be stated clearly in your assessment instructions. Where AI use is allowed, you must follow the guidance provided and acknowledge any AI-generated content",
+   "anchor": "Can I use generative AI to write my assessments?"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission",
+    "limited_extent"
+   ],
+   "quote": "You should only use translation tools—including AI translation—if your assessment guidance clearly states that they are permitted. It is important to note that minor (single word) translation is permitted, however, translating substantial sections of text is not.",
+   "anchor": "Can I use generative AI tools to translate my work?"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "General-purpose AI assistants such as ChatGPT are not academic databases.",
+   "anchor": "Can I use AI tools to find references for my essays?"
+  },
+  {
+   "use": "format_references",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Some tools can help you identify or format references, but they may not follow the exact style required by your School or Department.",
+   "anchor": "Alternative tools to generative AI"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI-generated output should not be treated as an authoritative scholarly source.",
+   "anchor": "How do I reference the use of AI in my work?"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI-generated summaries can give you a general sense of a text, but they are not a substitute for critically engaging with the original source.",
+   "anchor": "Summarising articles and book chapters"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "you must not copy AI-generated text into your assignments.",
+   "anchor": "Can I use AI tools to support my learning?"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI tools can produce content quickly and can be helpful for brainstorming or exploring ideas.",
+   "anchor": "What is generative AI?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Explain difficult concepts or theories in clearer or simpler language",
+   "anchor": "Can I use AI tools to support my learning?"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Summarise texts, transcripts or notes, or present ideas in different formats to help you understand them (e.g., as a diagram, song or story)",
+   "anchor": "Can I use AI tools to support my learning?"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Support your planning, such as suggesting possible structures for an assignment",
+   "anchor": "Can I use AI tools to support my learning?"
+  },
+  {
+   "use": "check_language",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "Improve grammar and writing style, as long as you remain in full control of the ideas and content",
+   "anchor": "Can I use AI tools to support my learning?"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Help you identify academic literature to explore further",
+   "anchor": "Can I use AI tools to support my learning?"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Debate or test ideas to develop your thinking",
+   "anchor": "Can I use AI tools to support my learning?"
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "You should only use generative AI if your School has explicitly allowed it for a specific module or assessment."
+ },
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "You should only use generative AI if your School has explicitly allowed it for a specific module or assessment."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "If you are unsure what is allowed, check with your module convenor."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Your assessment guidance will contain one of the following statements:"
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "Your assessment guidance will contain one of the following statements:"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "If your module or tutor has given you explicit permission to use AI, you should include an acknowledgement in your work."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "I acknowledge the use of [1. insert AI system(s) and link] on [date] to [2.specific use of generative artificial intelligence]. The prompts used include [3. list of prompts]. The output from these prompts was used to [4. explain use]."
+   },
+   {
+    "value": "date_accessed",
+    "quote": "I acknowledge the use of [1. insert AI system(s) and link] on [date] to [2.specific use of generative artificial intelligence]. The prompts used include [3. list of prompts]. The output from these prompts was used to [4. explain use]."
+   },
+   {
+    "value": "how_used",
+    "quote": "I acknowledge the use of [1. insert AI system(s) and link] on [date] to [2.specific use of generative artificial intelligence]. The prompts used include [3. list of prompts]. The output from these prompts was used to [4. explain use]."
+   },
+   {
+    "value": "prompts",
+    "quote": "I acknowledge the use of [1. insert AI system(s) and link] on [date] to [2.specific use of generative artificial intelligence]. The prompts used include [3. list of prompts]. The output from these prompts was used to [4. explain use]."
+   },
+   {
+    "value": "outputs",
+    "quote": "I acknowledge the use of [1. insert AI system(s) and link] on [date] to [2.specific use of generative artificial intelligence]. The prompts used include [3. list of prompts]. The output from these prompts was used to [4. explain use]."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "you should include an acknowledgement in your work."
+   }
+  ],
+  "records": {
+   "value": "required",
+   "quote": "If AI use is permitted, you must keep a record of the prompts you used, the outputs generated, and how those outputs informed your work."
+  },
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "You should follow the guidance provided by your module and the referencing style used in your subject when acknowledging or citing AI use."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Using AI in an assessment where it is not permitted, or submitting AI-generated work without the required acknowledgement, is academic misconduct under the University’s policy on the misuse of digital technologies."
+  },
+  "exempt": []
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "doc_id": "bristol-students-genai-202610",
+ "coder": "use-p1",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You cannot use AI tools at all, including spelling and grammar checkers.",
+   "anchor": "Category 1: prohibited (not allowed)"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You can use AI tools for spelling and grammar check.",
+   "anchor": "Category 2: minimal (a little)"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "You can use it for rewording occasional phrases, but not sentences, large parts of text or paragraphs.",
+   "anchor": "Category 2: minimal (a little)"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Translation tools may only be used for assessments if the assessment brief specifically allows it",
+   "anchor": "Use of translation tools"
+  }
+ ],
+ "default_when_silent": {
+  "value": "use_by_use_rule",
+  "quote": "If you have not been given any other instructions, use this as the default category for your assessment and studying."
+ },
+ "decided_by": [
+  {
+   "value": "tiered_scale",
+   "quote": "Your assessment will be given one of the following categories:"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Your lecturer will tell you what you can use it for."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "The use of AI during an assessment or studying will depend on the learning objectives, course and school."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Translation tools may only be used for assessments if the assessment brief specifically allows it"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

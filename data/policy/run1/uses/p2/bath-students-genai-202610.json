@@ -1,0 +1,34 @@
+{
+ "doc_id": "bath-students-genai-202610",
+ "coder": "use-p2",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools can be useful to support your learning, for example to help inspire ideas and find information quickly.",
+   "anchor": "Using AI tools"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "If you are unsure about using AI tools for your work, please talk to your lecturer or tutor to check their expectations."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "You can find extensive guidance on referencing in The Library’s Referencing Guide, including specific content on Academic Integrity, Plagiarism and AI."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}
