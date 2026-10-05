@@ -86,16 +86,19 @@ SEC.avg = { first: +(sumF / secondIds.length).toFixed(1), added: +(sumAdd / seco
 
 // kinds of training, guidance or support offered (support.json)
 const SUPPORT = rd("support.json"); const SFORMS = rd("support-forms.json"); const RANKR = { mandatory: 5, advised: 4, planned: 3, optional: 2, unspecified: 1 };
-const supByForm = {}; const mand = [];
+const supByForm = {}; const mand = []; const supRows = {};
 for (const r of SUPPORT) { const F = FIRST(r.doc_id); const o = (supByForm[r.form] ??= {}); const c = (o[F] ??= { req: r.requirement, ai: false }); if (RANKR[r.requirement] > RANKR[c.req]) c.req = r.requirement; if (hasAiLink(r.quote) || hasAiLink(r.name || "")) c.ai = true;
+  { const L = (supRows[r.form] ??= []); const e = L.find((x) => x.i === F); const q = r.quote.length > 220 ? r.quote.slice(0, 217) + "..." : r.quote; if (!e) L.push({ i: F, n: r.name || "", q, rq: r.requirement, s: isSecondDoc(r.doc_id) }); else if (RANKR[r.requirement] > RANKR[e.rq]) Object.assign(e, { n: r.name || "", q, rq: r.requirement, s: isSecondDoc(r.doc_id) }); }
   if (r.requirement === "mandatory") mand.push({ d: F, form: r.form, name: r.name, q: r.quote.length > 220 ? r.quote.slice(0, 217) + "..." : r.quote, second: isSecondDoc(r.doc_id) }); }
-const SUP = { forms: SFORMS.forms.map((f) => { const o = supByForm[f.id] || {}; const ids = Object.keys(o); const req = {}; for (const i of ids) req[o[i].req] = (req[o[i].req] || 0) + 1; return { id: f.id, label: f.label, def: f.definition, n: ids.length, nAi: ids.filter((i) => o[i].ai).length, req }; }).sort((a, b) => b.n - a.n), mandatory: mand, any: new Set(SUPPORT.map((r) => FIRST(r.doc_id))).size };
+const SUP = { forms: SFORMS.forms.map((f) => { const o = supByForm[f.id] || {}; const ids = Object.keys(o); const req = {}; for (const i of ids) req[o[i].req] = (req[o[i].req] || 0) + 1; return { id: f.id, label: f.label, def: f.definition, n: ids.length, nAi: ids.filter((i) => o[i].ai).length, req, rows: supRows[f.id] || [] }; }).sort((a, b) => b.n - a.n), mandatory: mand, any: new Set(SUPPORT.map((r) => FIRST(r.doc_id))).size };
 
 // uses and acknowledgement (uses.json), aggregated by institution
 const USESCH = rd("uses-schema.json"); const UDOCS = rd("uses.json");
-const URows = []; const UAck = {};
+const URows = []; const UAck = {}; const ACKQ = {};
+const aq = (cat, v, i, q) => { if (!v || !q) return; const L = (ACKQ[cat + "|" + v] ??= []); if (!L.some((x) => x.i === i)) L.push({ i, q: q.length > 240 ? q.slice(0, 237) + "..." : q }); };
 for (const d of UDOCS) { const i = FIRST(d.doc_id); for (const u of d.uses) if (u.ai_named !== false) URows.push({ i, d: d.doc_id, u: u.use, c: u.context, s: u.stance, a: u.acknowledge, k: u.conditions || [], t: u.tier || null, q: u.quote.length > 240 ? u.quote.slice(0, 237) + "..." : u.quote });
   const a = d.acknowledgement || {}; const o = (UAck[i] ??= { duty: null, def: null, decided: [], contents: [], location: [], records: null, referencing: null, consequence: null, exempt: [] });
+  if (a.duty) aq("duty", a.duty.value, i, a.duty.quote); if (d.default_when_silent) aq("def", d.default_when_silent.value, i, d.default_when_silent.quote); for (const x of d.decided_by || []) aq("decided", x.value, i, x.quote); for (const x of a.contents || []) aq("contents", x.value, i, x.quote); for (const x of a.location || []) aq("location", x.value, i, x.quote); for (const k of ["referencing", "records", "consequence"]) if (a[k]) aq(k, a[k].value, i, a[k].quote); for (const x of a.exempt || []) aq("exempt", x.what, i, x.quote);
   const dr = { always_required: 4, conditional: 3, recommended: 2, not_required: 1 };
   if (a.duty && (!o.duty || dr[a.duty.value] > dr[o.duty.v])) o.duty = { v: a.duty.value, q: a.duty.quote };
   if (d.default_when_silent && !o.def) o.def = { v: d.default_when_silent.value, q: d.default_when_silent.quote };
@@ -104,7 +107,7 @@ for (const d of UDOCS) { const i = FIRST(d.doc_id); for (const u of d.uses) if (
   for (const x of a.location || []) if (!o.location.includes(x.value)) o.location.push(x.value);
   if (a.records && !o.records) o.records = a.records.value; if (a.referencing && !o.referencing) o.referencing = a.referencing.value; if (a.consequence && !o.consequence) o.consequence = a.consequence.value;
   for (const x of a.exempt || []) if (!o.exempt.includes(x.what)) o.exempt.push(x.what); }
-const UTIL = { uses: USESCH.uses.map((u) => ({ id: u.id, label: u.label, def: u.definition })), contexts: USESCH.contexts, stances: Object.keys(USESCH.stances), rows: URows, ack: UAck, schema: { duty: USESCH.acknowledgement.duty, def: USESCH.default_when_silent, decided: USESCH.decided_by, location: USESCH.acknowledgement.location, contents: USESCH.acknowledgement.contents, records: USESCH.acknowledgement.records, referencing: USESCH.acknowledgement.referencing, consequence: USESCH.acknowledgement.consequence } };
+const UTIL = { uses: USESCH.uses.map((u) => ({ id: u.id, label: u.label, def: u.definition })), contexts: USESCH.contexts, stances: Object.keys(USESCH.stances), rows: URows, ack: UAck, ackq: ACKQ, schema: { duty: USESCH.acknowledgement.duty, def: USESCH.default_when_silent, decided: USESCH.decided_by, location: USESCH.acknowledgement.location, contents: USESCH.acknowledgement.contents, records: USESCH.acknowledgement.records, referencing: USESCH.acknowledgement.referencing, consequence: USESCH.acknowledgement.consequence } };
 const richIds = cdocs.filter((d) => perDoc[d].n >= THIN);
 
 // academic misconduct (misconduct.json), aggregated by institution
