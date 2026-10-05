@@ -1,0 +1,100 @@
+[
+ {
+  "name": "Queen's University Belfast",
+  "region": "Northern Ireland",
+  "website": "https://www.qub.ac.uk",
+  "base": "queens",
+  "first_doc_id": "queens-belfast-students-genai-202610",
+  "first_doc_url": "https://blogs.qub.ac.uk/digitallearning/ai/ai-in-education/teaching-and-learning/student-aisupport/",
+  "known_other_pages": [
+   {
+    "url": "https://www.qub.ac.uk/sites/my-queens/student-roundup/using-ai-as-a-student.html",
+    "title": "Using AI as a student (HTTP 403 to fetch tool, not retrieved)",
+    "audience": "students"
+   },
+   {
+    "url": "https://libguides.qub.ac.uk/AILibrary",
+    "title": "AI and the Library (library guide)",
+    "audience": "students"
+   },
+   {
+    "url": "https://blogs.qub.ac.uk/digitallearning/ai/",
+    "title": "Artificial Intelligence Hub",
+    "audience": "all"
+   }
+  ]
+ },
+ {
+  "name": "University of Ulster",
+  "region": "Northern Ireland",
+  "website": "https://www.ulster.ac.uk",
+  "base": "ulster",
+  "first_doc_id": "ulster-library-genai-guide-202610",
+  "first_doc_url": null,
+  "known_other_pages": []
+ },
+ {
+  "name": "Aberystwyth University",
+  "region": "Wales",
+  "website": "https://www.aber.ac.uk",
+  "base": "aberystwyth",
+  "first_doc_id": "aberystwyth-students-genai-202610",
+  "first_doc_url": "https://www.aber.ac.uk/en/library/help/ai/",
+  "known_other_pages": [
+   {
+    "url": "https://www.aber.ac.uk/en/media/departmental/informationservices/digitalskills/Guidance-for-Students-on-Using-Generative-AI.pdf",
+    "title": "Guidance for Students on Using Generative AI (PDF, not confirmed; fetch returned library page content)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.aber.ac.uk/en/is/regulations/ai/",
+    "title": "AU Statement on the use of Generative AI (search hit; fetch returned 404)",
+    "audience": "all"
+   },
+   {
+    "url": "https://www.aber.ac.uk/en/library/about/regulations/ai/",
+    "title": "Support for using AI",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Bangor University",
+  "region": "Wales",
+  "website": "https://www.bangor.ac.uk",
+  "base": "bangor",
+  "first_doc_id": "bangor-students-genai-202610",
+  "first_doc_url": "https://www.bangor.ac.uk/regulations/documents/artificial-intelligence-software-explainer-en.docx",
+  "known_other_pages": []
+ },
+ {
+  "name": "Cardiff Metropolitan University",
+  "region": "Wales",
+  "website": "https://www.cardiffmet.ac.uk",
+  "base": "cardiff",
+  "first_doc_id": "cardiff-metropolitan-students-genai-202610",
+  "first_doc_url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/ai-student-hub/",
+  "known_other_pages": [
+   {
+    "url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/position-statement/",
+    "title": "Position Statement",
+    "audience": "institution"
+   },
+   {
+    "url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/principles/",
+    "title": "Cardiff Metropolitan University AI Principles",
+    "audience": "institution"
+   },
+   {
+    "url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/ai-staff-hub/",
+    "title": "AI Staff Hub",
+    "audience": "staff"
+   },
+   {
+    "url": "https://library.cardiffmet.ac.uk/AI/overview",
+    "title": "AI Hub (library)",
+    "audience": "students"
+   }
+  ]
+ }
+]
