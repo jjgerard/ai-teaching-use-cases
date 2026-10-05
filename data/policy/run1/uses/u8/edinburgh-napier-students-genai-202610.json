@@ -30,15 +30,6 @@
    "anchor": "Am I allowed to use Gen AI or is it considered cheating?"
   },
   {
-   "use": "generate_assessed_text",
-   "context": "assessed_work",
-   "stance": "prohibited",
-   "acknowledge": "not_stated",
-   "conditions": [],
-   "quote": "You declare your use of Gen AI, but the Gen AI content replaces the learning, thinking or skills that the assessment is designed to assess (declared, but inappropriate use of Gen AI)",
-   "anchor": "Am I allowed to use Gen AI or is it considered cheating?"
-  },
-  {
    "use": "any_use",
    "context": "assessed_work",
    "stance": "conditional",

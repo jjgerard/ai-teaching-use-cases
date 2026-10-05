@@ -1,0 +1,5 @@
+{"doc_id":"highlands-and-islands-d2-misconduct-procedure-202610","coder":"use-u27",
+"uses":[{"use":"include_ai_output_in_work","context":"assessed_work","stance":"conditional","acknowledge":"required","conditions":["needs_permission","needs_acknowledgement"],"quote":"where permission to use GAI has been granted, the use of material produced by GAI must be referenced or acknowledged","anchor":"DEFINITIONS"}],
+"default_when_silent":{"value":"prohibit_all","quote":"the use of material produced by generative artificial intelligence (GAI) without the specific permission of the tutor/lecturer"},
+"decided_by":[{"value":"module_or_lecturer","quote":"the use of material produced by generative artificial intelligence (GAI) without the specific permission of the tutor/lecturer"}],
+"acknowledgement":{"duty":{"value":"conditional","quote":"where permission to use GAI has been granted, the use of material produced by GAI must be referenced or acknowledged"},"contents":[],"location":[],"records":null,"referencing":null,"consequence":null,"exempt":[]}}

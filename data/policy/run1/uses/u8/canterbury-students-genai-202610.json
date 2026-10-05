@@ -30,15 +30,6 @@
    "anchor": "What can I use GenAI for?"
   },
   {
-   "use": "check_language",
-   "context": "unspecified",
-   "stance": "permitted",
-   "acknowledge": "not_stated",
-   "conditions": [],
-   "quote": "developing critical writing skills such as editing and proofreading*",
-   "anchor": "What can I use GenAI for?"
-  },
-  {
    "use": "revise_or_practise",
    "context": "unspecified",
    "stance": "permitted",
@@ -71,15 +62,6 @@
    "anchor": "Presentations (slides and posters)"
   },
   {
-   "use": "rewrite_or_paraphrase_own_text",
-   "context": "unspecified",
-   "stance": "permitted",
-   "acknowledge": "not_stated",
-   "conditions": [],
-   "quote": "GenAI tools can help to shorten and simplify sentences for speech, or transcribe your speech so you can refine it further.",
-   "anchor": "Presentations (slides and posters)"
-  },
-  {
    "use": "record_or_transcribe",
    "context": "unspecified",
    "stance": "permitted",
@@ -107,17 +89,6 @@
    "anchor": "Spelling, punctuation, and grammar (SPaG)"
   },
   {
-   "use": "translate",
-   "context": "unspecified",
-   "stance": "conditional",
-   "acknowledge": "not_stated",
-   "conditions": [
-    "limited_extent"
-   ],
-   "quote": "translate or rewrite blocks of text",
-   "anchor": "Spelling, punctuation, and grammar (SPaG)"
-  },
-  {
    "use": "rewrite_or_paraphrase_own_text",
    "context": "unspecified",
    "stance": "conditional",
@@ -138,15 +109,6 @@
    ],
    "quote": "generate or extensively edit work for assessment",
    "anchor": "Spelling, punctuation, and grammar (SPaG)"
-  },
-  {
-   "use": "rewrite_or_paraphrase_own_text",
-   "context": "unspecified",
-   "stance": "discouraged",
-   "acknowledge": "not_stated",
-   "conditions": [],
-   "quote": "to paraphrase without understanding the text or how it contributes to their work;",
-   "anchor": "How do I avoid academic misconduct when using digital tools for proofreading?"
   },
   {
    "use": "create_images_or_media",
