@@ -1,0 +1,124 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-d2-misconduct-procedure-202610",
+ "coder": "v2f-f7",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "Unauthorised use of generative artificial intelligence (GenAI)",
+   "anchor": "3 Academic Misconduct"
+  },
+  {
+   "type": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "quote": "Unauthorised use of Gen AI includes but is not limited to the use of a Gen AI tool to generate any form of submitted work that a learner submits without proper acknowledgment of that tool’s use in its generation.",
+   "anchor": "3.4 Generative Artificial Intelligence (GenAI)"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "Presenting text, digital work (e.g. computer code or programs), video recordings or images copied with only minor changes from sources such as the internet, the output of GenAI, books, journals or any other media, without due acknowledgement;",
+   "anchor": "3.1 Plagiarism"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "The presenting or making use of fictitious, altered or misrepresented data, evidence, references, citations or experimental results and includes the use of GenAI created content or output that is fabricated or",
+   "anchor": "3.2 Falsification"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Unauthorised content generation is “the production of academic work, in whole or in part, for academic credit, progression or award, whether or not a payment or other favour is involved, using unapproved or undeclared human or technological assistance”.",
+   "anchor": "3 Academic Misconduct"
+  },
+  {
+   "type": "student_responsible_for_ai_content",
+   "quote": "Learners are authors of any work they submit and bear responsibility for its content, accuracy and integrity.",
+   "anchor": "4 Academic Integrity and Student Responsibilities"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "In the completion of any work submitted for assessment the learner is responsible for critiquing its output in terms of logic, consistency, accuracy and bias. This includes where GenAI is used as authorised.",
+   "anchor": "4 Academic Integrity and Student Responsibilities"
+  },
+  {
+   "type": "acknowledge_or_declare_ai_use",
+   "quote": "Where GenAI use is permitted, any such declaration by a learner should enable those assessing it to evaluate the authenticity and quality of the work being submitted.",
+   "anchor": "4 Academic Integrity and Student Responsibilities"
+  },
+  {
+   "type": "declaration_form_or_content",
+   "quote": "Such a declaration should specify the exact name and version of the GenAI system(s) used, a clear description of how those system(s) were used, the prompting strategy used and specify the steps taken to validate the system’s outputs.",
+   "anchor": "4 Academic Integrity and Student Responsibilities"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "The RCSI Library’s guides and tutorials including those on EndNote®, Referencing and GenAI",
+   "anchor": "4 Academic Integrity and Student Responsibilities"
+  },
+  {
+   "type": "placement_or_client_rules_apply",
+   "quote": "In particular, the use of AI for any placement activity must be in accordance with both this policy and approved by the student’s supervisor or equivalent in the relevant placement setting.",
+   "anchor": "4 Academic Integrity and Student Responsibilities"
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "a supportive approach to addressing their shortcomings with regard to demonstrating academic integrity will be adopted by the University.",
+   "anchor": "4 Academic Integrity and Student Responsibilities"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "As part of the investigation, the student may be asked to participate in an oral assessment of their work as submitted.",
+   "anchor": "5 Suspected Incidences of Academic Misconduct"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "If the suspected breach appears to warrant a Level 3 response, the matter is referred to Registry for further consideration under the Disciplinary Regulations.",
+   "anchor": "5 Suspected Incidences of Academic Misconduct"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "a breach of academic integrity associated with academic misconduct of a serious nature involves any behaviour or activity, which would likely have the effect of more than marginally enhancing the grade or outcome awarded to the student",
+   "anchor": "5 Suspected Incidences of Academic Misconduct"
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "Any determination made in accordance with the provisions of this policy may be reviewed in accordance with the appeal provisions of the University’s Disciplinary Regulations.",
+   "anchor": "5 Suspected Incidences of Academic Misconduct"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "If a student is in doubt as to what constitutes academic integrity, they are encouraged to seek advice and guidance from a member of the academic staff.",
+   "why": "Academic integrity generally, not AI use specifically"
+  },
+  {
+   "type": "complete_training_before_using_ai",
+   "quote": "The RCSI Academic Council requires all students to successfully complete the RCSI online Academic Integrity resource on at least one occasion while completing their studies.",
+   "why": "General integrity training, not tied to AI use"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "RCSI reserves the right to avail of any technological or other means available to it to detect academic misconduct",
+   "why": "Detection means mentioned without naming AI use"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "a Level 1, 2 or 3 response with or without an accompanying sanction (e.g. grade penalty) or corrective action (e.g. re-submit assignment).",
+   "why": "Generic misconduct outcomes, not tied to AI"
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "under the oversight of the Academic Integrity Committee",
+   "why": "Policy review oversight; AI only as a review trigger"
+  },
+  {
+   "type": "strict_liability_ignorance_no_defence",
+   "quote": "The unacknowledged inclusion, whether intentional or unintentional in any form of assessment",
+   "why": "Plagiarism definition only; not AI and not stated as no defence"
+  },
+  {
+   "type": "work_must_be_own_not_written_by_ai",
+   "quote": "All students must be willing to provide a declaration with their submission that the work they are submitting is their own",
+   "why": "Own-work declaration without reference to AI writing"
+  }
+ ]
+}

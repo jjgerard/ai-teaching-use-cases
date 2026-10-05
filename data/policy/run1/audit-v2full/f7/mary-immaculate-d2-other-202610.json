@@ -1,0 +1,59 @@
+{
+ "doc_id": "mary-immaculate-d2-other-202610",
+ "coder": "v2f-f7",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "assessment_redesigned_to_test_process_and_understanding",
+   "quote": "Staged assessments in which students are required to demonstrate the developmental process of their work e.g. staged submissions of an outline, research notes, drafts, and final version.",
+   "anchor": "Assessment Design in the Context of GenAI"
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "Detection tools which purport to specifically focus on GenAI detection raise some significant implications for privacy, equity, and data security (Dalalah & Dalalah, 2023).",
+   "anchor": "GenAI challenges"
+  },
+  {
+   "type": "ai_detectors_unreliable_not_sole_basis",
+   "quote": "There is also a lack of evidence as to whether they are effective, with many institutions citing instances of false positives.",
+   "anchor": "GenAI challenges"
+  },
+  {
+   "type": "get_consent_before_recording_or_transcribing_others",
+   "quote": "Note: Recording of lectures is not permitted without prior permission from the lecturer.",
+   "anchor": "Notetaking During Classes"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_detectors_not_to_be_used",
+   "quote": "how can we maintain a focus on effective assessment without engaging in an unproductive arms race to try to outwit or detect GenAI use?",
+   "why": "Questions detection, but no ban or institutional rule stated"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "actions that carry serious consequences.",
+   "why": "Generic serious consequences for AI misuse; no stated penalty"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "Their guidance may be incomplete or even misleading, particularly if you’re facing more serious difficulties.",
+   "why": "About mental-health advice; no instruction to verify"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "these tools may disproportionally misjudge the work of non-native English writers",
+   "why": "Bias of detectors, not of AI generation"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "accountability (the need for clear communication for and to all in relation to assessment rules and guidance)",
+   "why": "Cited scholar's principle, not institutional duty"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "Build in a form of questioning or presentation/viva type defence component.",
+   "why": "Assessment design advice, not triggered by doubt over authorship"
+  }
+ ]
+}
