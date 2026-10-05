@@ -1,0 +1,26 @@
+{
+ "doc_id": "worcester-students-genai-202610",
+ "coder": "mis-m21",
+ "scope": "ai_specific",
+ "offences": [],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": true,
+   "quote": "tools designed to detect the use of GenAI are known to be problematic and therefore their use is not currently permitted by the University",
+   "anchor": "4.5"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "tools designed to detect the use of GenAI are known to be problematic and therefore their use is not currently permitted by the University",
+   "anchor": "4.5"
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": []
+}
