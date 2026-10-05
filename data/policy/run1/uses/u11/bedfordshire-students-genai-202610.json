@@ -107,16 +107,10 @@
    "value": "recommended",
    "quote": "Best practice is to save a transcript, or a screen shot of the question you posed and the answer you got and add to your assignment as an appendix."
   },
-  "referencing": [
-   {
-    "value": "cite_in_reference_list",
-    "quote": "The citation gives an example of how to create the intext citation and the reference list."
-   },
-   {
-    "value": "follow_guide",
-    "quote": "Cite Them Right gives the format your citation needs to be in (link to referencing pages), but please check with your tutors on the referencing style you should be using."
-   }
-  ],
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "The citation gives an example of how to create the intext citation and the reference list."
+  },
   "consequence": {
    "value": "treated_as_misconduct",
    "quote": "Cutting and pasting all or some of the content created by the AI used and not citing could be considered plagiarism."

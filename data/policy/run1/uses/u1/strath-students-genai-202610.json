@@ -1,0 +1,71 @@
+{
+ "doc_id": "strath-students-genai-202610",
+ "coder": "use-u1",
+ "uses": [
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen-AI tools may help you understand some concepts, or create study materials, summarise complex topics, and so on",
+   "anchor": "Can Gen-AI help me to learn?"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen-AI tools may help you understand some concepts, or create study materials, summarise complex topics, and so on",
+   "anchor": "Can Gen-AI help me to learn?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Depending on the context, the use of Gen-AI may be permitted, but not always, so you should ensure that you know what is allowed.",
+   "anchor": "Can I use Gen-AI to help me with writing and creating other content I will submit for an assessment?"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Do not simply accept Gen-AI outputs as fact or authority.",
+   "anchor": "What is meant by thinking critically about Gen-AI output?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Your module and/or programme leader will make it clear whether or not the use of Gen-AI in general and any Gen-AI tools or service in particular is permitted when they explain the task they are asking you to complete."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "your Department’s expectations around how you should complete that task"
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "You should also check the rules and guidance for each individual assessment as these may vary."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "not disclosing the use of Gen-AI when this is required"
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

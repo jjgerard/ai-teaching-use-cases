@@ -1,0 +1,36 @@
+{"doc_id":"maynooth-ug-ptm-genai-guidelines-202610","coder":"use-u15",
+"uses":[
+{"use":"any_use","context":"assessed_work","tier":"No GenAI permitted","stance":"prohibited","acknowledge":"not_stated","conditions":[],"quote":"The assessment is completed without GenAI assistance. GenAI is not used at any stage of the assessment.","anchor":"5.2 Acceptable use of GenAI in assessments"},
+{"use":"generate_ideas","context":"assessed_work","tier":"Research and structuring","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"brainstorming, creating structures (outlines), and as an initial research","anchor":"5.2 Acceptable use of GenAI in assessments"},
+{"use":"plan_or_structure","context":"assessed_work","tier":"Research and structuring","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"brainstorming, creating structures (outlines), and as an initial research","anchor":"5.2 Acceptable use of GenAI in assessments"},
+{"use":"find_sources","context":"assessed_work","tier":"Research and structuring","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"brainstorming, creating structures (outlines), and as an initial research","anchor":"5.2 Acceptable use of GenAI in assessments"},
+{"use":"include_ai_output_in_work","context":"assessed_work","tier":"Research and structuring","stance":"prohibited","acknowledge":"not_stated","conditions":[],"quote":"No GenAI output (including paraphrased) in final submission.","anchor":"5.2 Acceptable use of GenAI in assessments"},
+{"use":"rewrite_or_paraphrase_own_text","context":"assessed_work","tier":"GenAI editing","stance":"conditional","acknowledge":"required","conditions":["limited_extent","needs_acknowledgement"],"quote":"GenAI can be used as an editing tool to improve the clarity or quality of assessment. It may not be used to create new content. Students must provide a list of prompts.","anchor":"5.2 Acceptable use of GenAI in assessments"},
+{"use":"generate_assessed_text","context":"assessed_work","tier":"GenAI editing","stance":"prohibited","acknowledge":"not_stated","conditions":[],"quote":"It may not be used to create new content.","anchor":"5.2 Acceptable use of GenAI in assessments"},
+{"use":"any_use","context":"assessed_work","tier":"Full GenAI assistance","stance":"permitted","acknowledge":"required","conditions":[],"quote":"GenAI may be used throughout the assessment process, including the inclusion of GenAI output within the assessment. All GenAI output should be referenced.","anchor":"5.2 Acceptable use of GenAI in assessments"},
+{"use":"include_ai_output_in_work","context":"assessed_work","tier":"Full GenAI assistance","stance":"conditional","acknowledge":"required","conditions":["needs_acknowledgement"],"quote":"including the inclusion of GenAI output within the assessment. All GenAI output should be referenced.","anchor":"5.2 Acceptable use of GenAI in assessments"},
+{"use":"summarise_or_analyse_sources","context":"study","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"Provide a quick summary of texts, transcripts and notes and identify key points in texts.","anchor":"4.1 How GenAI tools can be used effectively"},
+{"use":"explain_or_tutor","context":"study","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"Provide explanations of difficult concepts or theories.","anchor":"4.1 How GenAI tools can be used effectively"},
+{"use":"revise_or_practise","context":"study","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"Support learning through conversation to test your knowledge and understanding of a topic.","anchor":"4.1 How GenAI tools can be used effectively"},
+{"use":"translate","context":"study","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"Be used as a translation aid when working in another language.","anchor":"4.1 How GenAI tools can be used effectively"},
+{"use":"generate_ideas","context":"assessed_work","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"Brainstorm a topic.","anchor":"4.1 How GenAI tools can be used effectively"},
+{"use":"generate_code","context":"assessed_work","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"Help with coding.","anchor":"4.1 How GenAI tools can be used effectively"},
+{"use":"check_language","context":"assessed_work","stance":"conditional","acknowledge":"not_stated","conditions":["needs_permission"],"quote":"Act as a proofreading aid to improve your grammar and writing style when permitted by your lecturer.","anchor":"4.1 How GenAI tools can be used effectively"},
+{"use":"format_references","context":"assessed_work","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"Help with citations and arranging your references according to a particular style guide.","anchor":"4.1 How GenAI tools can be used effectively"},
+{"use":"get_feedback_on_draft","context":"assessed_work","stance":"permitted","acknowledge":"not_stated","conditions":[],"quote":"Give feedback on draft writing, e.g., does this answer the research question?","anchor":"4.1 How GenAI tools can be used effectively"},
+{"use":"record_or_transcribe","context":"unspecified","stance":"conditional","acknowledge":"not_stated","conditions":["other_rules_apply"],"quote":"Recording and transcribing of lectures, tutorials and meetings, etc., without prior consent.","anchor":"2. Limitations, Disadvantages, and Inappropriate Use of GenAI"}
+],
+"default_when_silent":{"value":"prohibit_all","quote":"IF IT IS NOT CLEARLY INDICATED BY TEACHING STAFF AND/OR DEPARTMENT GUIDELINES – NO GENAI IS PERMITTED."},
+"decided_by":[
+{"value":"assessment_brief","quote":"Acceptable GenAI use will be outlined in written guidelines in module and assignment descriptions."},
+{"value":"module_or_lecturer","quote":"Always refer to module and assignment documentation, where acceptable types of use will be prescribed."},
+{"value":"school_or_department","quote":"IF IT IS NOT CLEARLY INDICATED BY TEACHING STAFF AND/OR DEPARTMENT GUIDELINES – NO GENAI IS PERMITTED."},
+{"value":"tiered_scale","quote":"The following table outlines the various acceptable GenAI uses within Maynooth University assessments."}
+],
+"acknowledgement":{
+"duty":{"value":"always_required","quote":"All use of GenAI should be acknowledged in academic work, including citations and referencing where appropriate and according to departmental handbooks."},
+"contents":[{"value":"prompts","quote":"Students must provide a list of prompts."},{"value":"outputs","quote":"A full list of prompts and GenAI outputs should also be included as an appendix."}],
+"location":[{"value":"coversheet_or_form","quote":"The student declaration of use will be attached to every assignment submission sheet."},{"value":"appendix","quote":"A full list of prompts and GenAI outputs should also be included as an appendix."}],
+"records":null,
+"referencing":{"value":"follow_guide","quote":"All use of GenAI should be acknowledged in academic work, including citations and referencing where appropriate and according to departmental handbooks."},
+"consequence":null,"exempt":[]}}

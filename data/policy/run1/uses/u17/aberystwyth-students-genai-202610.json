@@ -1,0 +1,124 @@
+{
+ "doc_id": "aberystwyth-students-genai-202610",
+ "coder": "use-u17",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The University's Unacceptable Academic Practice regulation states that plagiarism includes submitting AI-generated work as though it were your own.",
+   "anchor": "Using AI for your Studies"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Whether it is finding and summarising material, planning and doing work, or understanding the question, the practice of this is what you are at university to do. If you outsource this to Generative AI, then you are not going to get that experience.",
+   "anchor": "Using AI for your Studies"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Whether it is finding and summarising material, planning and doing work, or understanding the question, the practice of this is what you are at university to do. If you outsource this to Generative AI, then you are not going to get that experience.",
+   "anchor": "Using AI for your Studies"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Whether it is finding and summarising material, planning and doing work, or understanding the question, the practice of this is what you are at university to do. If you outsource this to Generative AI, then you are not going to get that experience.",
+   "anchor": "Using AI for your Studies"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Whether it is finding and summarising material, planning and doing work, or understanding the question, the practice of this is what you are at university to do. If you outsource this to Generative AI, then you are not going to get that experience.",
+   "anchor": "Using AI for your Studies"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can also be used for administrative activities, such as summarising long documents, creating a structure for reports, and reorganising information you have already written.",
+   "anchor": "Using AI for your Administration"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can also be used for administrative activities, such as summarising long documents, creating a structure for reports, and reorganising information you have already written.",
+   "anchor": "Using AI for your Administration"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can also be used for administrative activities, such as summarising long documents, creating a structure for reports, and reorganising information you have already written.",
+   "anchor": "Using AI for your Administration"
+  },
+  {
+   "use": "any_use",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "If your research falls within the scope of the Research Ethics Panel, they may review any use of AI within your research processes, whether that be as part of a preparatory exercise, or as a core feature of the research.",
+   "anchor": "Using AI for your Research"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "If you are unsure whether the use of AI is permitted for a particular assignment or aspect of your studies, you should seek guidance from your academic tutor."
+ },
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "Your department might have its own local Generative AI guidance which you must follow."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "If you have any questions about the acceptable use of Generative AI in your work or assessments, please speak to your lecturer or module co-ordinator."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Each assessment should include a statement on the acceptable level of Generative AI use."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Your department might ask you to use a Generative AI Tool use statement or tool acknowledgement statement for your assignments."
+  },
+  "contents": [
+   {
+    "value": "learning_reflection",
+    "quote": "This allows you to reflect on how you have used Generative AI in the construction of your assignment."
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

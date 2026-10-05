@@ -1,0 +1,72 @@
+{
+ "doc_id": "stir-students-genai-202610",
+ "coder": "use-u23",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AIAS Level 1 | No AI",
+   "anchor": "AI Assessment Scale",
+   "tier": "Level 1 No AI"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AIAS Level 2 | AI Planning",
+   "anchor": "AI Assessment Scale",
+   "tier": "Level 2 AI Planning"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AIAS Level 3 | AI Collaboration",
+   "anchor": "AI Assessment Scale",
+   "tier": "Level 3 AI Collaboration"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AIAS Level 4 | Full AI",
+   "anchor": "AI Assessment Scale",
+   "tier": "Level 4 Full AI"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AIAS Level 5 | AI Exploration",
+   "anchor": "AI Assessment Scale",
+   "tier": "Level 5 AI Exploration"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "tiered_scale",
+   "quote": "The AI Assessment Scale (AIAS) provides clear guidelines across five levels, ranging from no AI use to full AI integration"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

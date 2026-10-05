@@ -1,0 +1,140 @@
+{
+ "doc_id": "aberdeen-students-genai-202610",
+ "coder": "use-u7",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Neither should you use it to generate essays, poems, or any creative works.",
+   "anchor": "Guidance for Students on the Use of Generative Artificial Intelligence Tools in Education"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "GenAI tools, if authorised by the Course Coordinator, can aid the process of completing an assignment,",
+   "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "using GenAI tools to generate content for work submitted for assessment, without authorisation or acknowledgement, will be regarded as academic misconduct",
+   "anchor": "Guidance for Students on the Use of Generative Artificial Intelligence Tools in Education"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generating summary explanations for complex concepts, being mindful that inaccurate information can be generated",
+   "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generating ideas, sparking your creativity",
+   "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Drafting an outline structure (headings, bullet points)",
+   "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning"
+  },
+  {
+   "use": "check_language",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Enhancing your writing skills by providing suggestions on alternative ways to communicate to improve the coherence, style and grammar of your writing",
+   "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Experimenting with tone, voice and style",
+   "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning"
+  },
+  {
+   "use": "format_references",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Formatting a reference list by specifying the citation style you are using (e.g. APA, MLA Chicago, Harvard) though staff and students do have access to ProQuest Refworks",
+   "anchor": "2. How GenAI Tools Can Be Used to Support Your Learning"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "If in doubt about their use ask your Course Coordinator."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Adhere to the assessment guidelines specified by your Course Coordinator."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Ensure you check your course guide and assessment instructions for guidance on the use of GenAI tools in work submitted for assessment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you use GenAI tools for preparing your assignment, ensure you acknowledge them according to the guidance available."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "The name(s) of the GenAI tool(s) used"
+   },
+   {
+    "value": "how_used",
+    "quote": "A statement summarising how they were used"
+   },
+   {
+    "value": "date_accessed",
+    "quote": "The date on which the content was generated"
+   }
+  ],
+  "location": [],
+  "records": {
+   "value": "required",
+   "quote": "Ensure you keep copies of drafts, notes, your workings, and any annotations or comments on documents, so that you can show the development of your ideas and writing."
+  },
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "If you use GenAI tools for preparing your assignment, ensure you acknowledge them according to the guidance available."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "using GenAI tools to generate content for work submitted for assessment, without authorisation or acknowledgement, will be regarded as academic misconduct"
+  },
+  "exempt": []
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "doc_id": "warwick-students-genai-202610",
+ "coder": "use-u3",
+ "uses": [
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "For example, you might use AI tools to help summarise complex topics to aid understanding, or test your knowledge of a topic ahead of an exam.",
+   "anchor": "Are artificial intelligence tools helpful?"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "For example, you might use AI tools to help summarise complex topics to aid understanding, or test your knowledge of a topic ahead of an exam.",
+   "anchor": "Are artificial intelligence tools helpful?"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "If your assessment brief confirms that you're allowed to use AI tools or include AI generated content, you must follow those rules and acknowledge your AI use properly.",
+   "anchor": "How to declare and reference AI in your assessments (if permitted)"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The tools are not a fool proof or fully reliable sources, and they should never be treated as such.",
+   "anchor": "Are there limitations to AI?"
+  }
+ ],
+ "default_when_silent": {
+  "value": "permit_all",
+  "quote": "The general position is that you can use Artificial Intelligence (AI) but must follow any requirements set out in assessments and course handbooks."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Your module tutor/leader decides what is ‘appropriate’ for each module assessment."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Whether AI is permitted, and if so, how you can use it, will be outlined in each of your assessment briefs or course handbook."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "You will be required to state if any AI has been used as part of the submission procedure."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "If you use an AI, you must set out why, where and how you have done so - this may be done with a clear paragraph in your submission."
+   },
+   {
+    "value": "why_used",
+    "quote": "If you use an AI, you must set out why, where and how you have done so - this may be done with a clear paragraph in your submission."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "Include a short paragraph in your assignment submission explaining how you've used it."
+   }
+  ],
+  "records": {
+   "value": "required",
+   "quote": "Record interactions with any AI that you later use or rely upon for a submission."
+  },
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Check your course handbook, department's webpages or assessment brief for referencing guidance."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Failing to honestly acknowledge your use of AI in could be considered academic misconduct."
+  },
+  "exempt": []
+ }
+}

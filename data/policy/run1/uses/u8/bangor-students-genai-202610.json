@@ -1,0 +1,297 @@
+{
+ "doc_id": "bangor-students-genai-202610",
+ "coder": "use-u8",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen-AI may be used to prepare for the assessment, however the type and logistics of the assessment mean it is not possible for you to be able to use Gen-AI software during the assessment itself.",
+   "anchor": "Table 1: Gen-AI categories for assessment",
+   "tier": "Category 1"
+  },
+  {
+   "use": "any_use",
+   "context": "exams_or_supervised",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen-AI may be used to prepare for the assessment, however the type and logistics of the assessment mean it is not possible for you to be able to use Gen-AI software during the assessment itself.",
+   "anchor": "Table 1: Gen-AI categories for assessment",
+   "tier": "Category 1"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "limited_extent"
+   ],
+   "quote": "You may use Gen-AI to help you complete the assessment, but must adhere to the guiding principle below and declare if and how you have used it using the Gen-AI coversheet.",
+   "anchor": "Table 1: Gen-AI categories for assessment",
+   "tier": "Category 2"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Note: for Category 2 assessments, the fundamental content of the submission (e.g., the arguments, interpretations, conclusions etc) must be your own.",
+   "anchor": "Appendix 1",
+   "tier": "Category 2"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "These are designed so that you must use Gen-AI as part of the assessment requirements so as to support Gen-AI skills development. You must declare how they have used it using the Gen-AI coversheet.",
+   "anchor": "Table 1: Gen-AI categories for assessment",
+   "tier": "Category 3"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Gen-AI was fully used to complete a Category 3 assessment and use complied with the assessment instructions provided.",
+   "anchor": "Appendix 1",
+   "tier": "Category 3"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Gen-AI was used in an assistive role to research topics and provide explanations.",
+   "anchor": "Appendix 1",
+   "tier": "Category 2 or 3"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Gen-AI was used in an assistive role to suggest sources of information, e.g. publications to read.",
+   "anchor": "Appendix 1",
+   "tier": "Category 2 or 3"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Gen-AI was used in an assistive role to summarize the content of publications or other sources.",
+   "anchor": "Appendix 1",
+   "tier": "Category 2 or 3"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "limited_extent"
+   ],
+   "quote": "Gen-AI was used in an assistive role to produce an outline or draft structure of my assessment.",
+   "anchor": "Appendix 1",
+   "tier": "Category 2 or 3"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "limited_extent"
+   ],
+   "quote": "Gen-AI was used in an assistive role to improve spelling, grammar, sentence structure and/or clarity of expression of my assessment.",
+   "anchor": "Appendix 1",
+   "tier": "Category 2 or 3"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Gen-AI was used in an assistive role to translate text during the production of the work.",
+   "anchor": "Appendix 1",
+   "tier": "Category 2 or 3"
+  },
+  {
+   "use": "analyse_data",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Gen-AI was used in an assistive role to analyse data and/or produce visualizations of data.",
+   "anchor": "Appendix 1",
+   "tier": "Category 2 or 3"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Gen-AI was used in an assistive role to help produce creative outputs e.g. art, imagery, movie, music, creative writing.",
+   "anchor": "Appendix 1",
+   "tier": "Category 2 or 3"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Gen-AI was used in an assistive role to refine computer code and/or other output.",
+   "anchor": "Appendix 1",
+   "tier": "Category 2 or 3"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Helping provide explanations of concepts",
+   "anchor": "What can gen-AI be useful for?"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "‘Clean-up’ automatic transcripts from videos",
+   "anchor": "What can gen-AI be useful for?"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Translating text (e.g. from a research paper or text)",
+   "anchor": "What can gen-AI be useful for?"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Summarizing published sources",
+   "anchor": "What can gen-AI be useful for?"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Developing ideas or plans",
+   "anchor": "What can gen-AI be useful for?"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Developing ideas or plans",
+   "anchor": "What can gen-AI be useful for?"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Helping to improve grammar",
+   "anchor": "What can gen-AI be useful for?"
+  },
+  {
+   "use": "analyse_data",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Analysing or manipulating data",
+   "anchor": "What can gen-AI be useful for?"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Producing image, video and audio content",
+   "anchor": "What can gen-AI be useful for?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "tiered_scale",
+   "quote": "The University has Gen-AI categories for assessment, which guide you on how Gen-AI can be used in completing the assessment."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Assessment’s Gen-AI Category (see the Assessment Brief): 2 or 3 (delate as appropriate)"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "If you do have any queries about a particular assessment, you should discuss this with the member of staff who set the assessment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "You will complete and submit this with all Category 2 and Category 3 assessments."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "declare if and how you have used it using the Gen-AI coversheet."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "You will complete and submit this with all Category 2 and Category 3 assessments."
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

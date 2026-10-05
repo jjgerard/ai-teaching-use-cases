@@ -1,0 +1,119 @@
+{
+ "doc_id": "leeds-beckett-students-genai-202610",
+ "coder": "use-u5",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generate initial ideas and get feedback on your own ideas.",
+   "anchor": "How can LBU students use generative AI in their studies?"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generate initial ideas and get feedback on your own ideas.",
+   "anchor": "How can LBU students use generative AI in their studies?"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Conduct preliminary research on a subject and explore additional educational materials (such as courses, videos, and websites) before delving into more extensive research using academic sources.",
+   "anchor": "How can LBU students use generative AI in their studies?"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Obtain different interpretations and translations of text to aid in comprehending a concept.",
+   "anchor": "How can LBU students use generative AI in their studies?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Obtain different interpretations and translations of text to aid in comprehending a concept.",
+   "anchor": "How can LBU students use generative AI in their studies?"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Receive advice on enhancing your writing abilities, covering areas like grammar and structure",
+   "anchor": "How can LBU students use generative AI in their studies?"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Receive advice on enhancing your writing abilities, covering areas like grammar and structure",
+   "anchor": "How can LBU students use generative AI in their studies?"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Where AI generated content is directly copied into your assessments, ensure that related citations are used.",
+   "anchor": "Please beware:"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools should not be depended upon for factual precision.",
+   "anchor": "Please beware:"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "because deploying generative AI without proper acknowledgement constitutes Unfair Practice and will result in your work being penalised under Section 10: Academic Integrity of LBU’s Academic Regulations."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "we will ask you to make a statement explaining your use of generative AI and acknowledging how it was used."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "we will ask you to make a statement explaining your use of generative AI and acknowledging how it was used."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "If generative AI tools are utilised in your work, it's important to acknowledge, explain, and provide references for their use."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "because deploying generative AI without proper acknowledgement constitutes Unfair Practice and will result in your work being penalised under Section 10: Academic Integrity of LBU’s Academic Regulations."
+  },
+  "exempt": []
+ }
+}

@@ -1,0 +1,262 @@
+{
+ "doc_id": "middlesex-london-students-genai-202610",
+ "coder": "use-u9",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen AI is not permitted in the creation of the assessed work, unless the technology is accessed through assistive technology, which is permitted through a reasonable adjustment. Examples of ‘red assessment’ include exams, vivas, interviews.",
+   "anchor": "The University has identified three categories for the use of Gen AI in assessment",
+   "tier": "Red"
+  },
+  {
+   "use": "any_use",
+   "context": "exams_or_supervised",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen AI is not permitted in the creation of the assessed work, unless the technology is accessed through assistive technology, which is permitted through a reasonable adjustment. Examples of ‘red assessment’ include exams, vivas, interviews.",
+   "anchor": "The University has identified three categories for the use of Gen AI in assessment",
+   "tier": "Red"
+  },
+  {
+   "use": "assistive_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Gen AI is not permitted in the creation of the assessed work, unless the technology is accessed through assistive technology, which is permitted through a reasonable adjustment. Examples of ‘red assessment’ include exams, vivas, interviews.",
+   "anchor": "The University has identified three categories for the use of Gen AI in assessment",
+   "tier": "Red"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Gen AI may be used within defined parameters, made clear in the assessment brief and / or module handbook.",
+   "anchor": "The University has identified three categories for the use of Gen AI in assessment",
+   "tier": "Amber"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen AI should not be used to generate text or media in the final submission but may be used to conduct preparatory research or study (as defined in para 11).",
+   "anchor": "The University has identified three categories for the use of Gen AI in assessment",
+   "tier": "Amber"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen AI should not be used to generate text or media in the final submission but may be used to conduct preparatory research or study (as defined in para 11).",
+   "anchor": "The University has identified three categories for the use of Gen AI in assessment",
+   "tier": "Amber"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen AI should not be used to generate text or media in the final submission but may be used to conduct preparatory research or study (as defined in para 11).",
+   "anchor": "The University has identified three categories for the use of Gen AI in assessment",
+   "tier": "Amber"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Gen AI may be used in the creation of content for an assessed piece of work and the final submission. Where Gen AI is used, this should be acknowledged and / or cited (para. 9)",
+   "anchor": "The University has identified three categories for the use of Gen AI in assessment",
+   "tier": "Green"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Gen AI may be used in the creation of content for an assessed piece of work and the final submission. Where Gen AI is used, this should be acknowledged and / or cited (para. 9)",
+   "anchor": "The University has identified three categories for the use of Gen AI in assessment",
+   "tier": "Green"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Gen AI may be used in the creation of content for an assessed piece of work and the final submission. Where Gen AI is used, this should be acknowledged and / or cited (para. 9)",
+   "anchor": "The University has identified three categories for the use of Gen AI in assessment",
+   "tier": "Green"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Preparatory work, for example, collating and summarising content form a number",
+   "anchor": "Typical uses of Gen AI include (but are not limited to)"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Assisting with drafting ideas or structuring work.",
+   "anchor": "Typical uses of Gen AI include (but are not limited to)"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Assisting with drafting ideas or structuring work.",
+   "anchor": "Typical uses of Gen AI include (but are not limited to)"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Creating resources to support study or revision, including quizzes.",
+   "anchor": "Typical uses of Gen AI include (but are not limited to)"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Helping to improve spelling, punctuation and grammar.",
+   "anchor": "Typical uses of Gen AI include (but are not limited to)"
+  },
+  {
+   "use": "analyse_data",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "other_rules_apply",
+    "no_personal_data"
+   ],
+   "quote": "Assisting with data analysis within the principles of ethical use and data protection.",
+   "anchor": "Typical uses of Gen AI include (but are not limited to)"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Stimulating conversations or role play activities to enhance practical skills.",
+   "anchor": "Typical uses of Gen AI include (but are not limited to)"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Creating visual, audio or audio resources for educational purposes.",
+   "anchor": "Typical uses of Gen AI include (but are not limited to)"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "The use of assistive technology is permitted where its use, through a reasonable adjustment, is intended to remove or reduce a disability-specific disadvantage.",
+   "anchor": "Use of assistive technology"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Produce an entire piece of work, or multiple parts of a piece of work which are then claimed as their own.",
+   "anchor": "Unacceptable use of Gen AI"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "To translate work originally produced in a language other than English, without appropriate acknowledgement or citation of the original source.",
+   "anchor": "Unacceptable use of Gen AI"
+  },
+  {
+   "use": "analyse_data",
+   "context": "research_or_thesis",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Manipulate or fabricate data or research findings.",
+   "anchor": "Unacceptable use of Gen AI"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "This policy provides a University level framework for staff and students in the reasonable use of Generative Artificial Intelligence (Gen AI) in Learning, Teaching and Assessment practices at Middlesex University"
+  },
+  {
+   "value": "school_or_department",
+   "quote": "there may be rationale for further faculty or subject based frameworks to meet local need."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "All assessments should make clear the expectations for use of Gen AI, and where the use of Gen AI is not permitted."
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "The University has identified three categories for the use of Gen AI in assessment:"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "The use of Gen AI in producing work should be transparent and always disclosed."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

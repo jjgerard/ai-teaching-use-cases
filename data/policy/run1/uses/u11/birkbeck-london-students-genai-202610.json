@@ -98,12 +98,10 @@
    "value": "required",
    "quote": "Keep a record of the tools, prompts and outputs (see section 6 below)."
   },
-  "referencing": [
-   {
-    "value": "cite_in_reference_list",
-    "quote": "It is expected that references to AI outputs will include: (i) the name of the AI platform, (ii) the date of use, (iii) the person who input the prompt."
-   }
-  ],
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "It is expected that references to AI outputs will include: (i) the name of the AI platform, (ii) the date of use, (iii) the person who input the prompt."
+  },
   "consequence": {
    "value": "treated_as_misconduct",
    "quote": "If you complete this declaration and have not properly referenced AI in your work it will still be flagged for academic integrity."

@@ -1,0 +1,72 @@
+{
+ "doc_id": "winchester-students-genai-202610",
+ "coder": "use-u9",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Students must never use Generative AI tools to produce content that is presented as their own critical thinking or original creation, whether for assessment or formative work.",
+   "anchor": "Principle 3: The University supports responsible engagement with Generative AI tools"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "study",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Students must never use Generative AI tools to produce content that is presented as their own critical thinking or original creation, whether for assessment or formative work.",
+   "anchor": "Principle 3: The University supports responsible engagement with Generative AI tools"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "We encourage students and staff to use AI tools to help get started on tasks, improve their work, and generate new ideas.",
+   "anchor": "Principle 3: The University supports responsible engagement with Generative AI tools"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "We encourage students and staff to use AI tools to help get started on tasks, improve their work, and generate new ideas.",
+   "anchor": "Principle 3: The University supports responsible engagement with Generative AI tools"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "quote": "Students are encouraged to speak to the Disability and Inclusion Team, and staff to their line manager and other relevant colleagues, about how University-provided AI tools can be used appropriately as part of a learning agreement or reasonable adjustment.",
+   "anchor": "Principle 8: The University is open to the ways in which AI can support our commitment to inclusion"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Assessment guidance will make clear when the use of Generative AI tools is not permitted, when it is permitted, and under what conditions."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Students and colleagues should state where AI has been used substantially."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

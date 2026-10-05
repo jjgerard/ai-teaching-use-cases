@@ -16,7 +16,7 @@ function validateFile(file, { root = ROOT, schemaFile } = {}) {
   const many = (where, list, allowed) => { if (list == null) return; if (!Array.isArray(list)) return e(`${where}: must be a list`); const seen = new Set(); for (const x of list) { if (!allowed.includes(x.value ?? x.use)) e(`${where}: ${JSON.stringify(x.value ?? x.use)} not in vocabulary`); const k = x.value ?? x.use; if (seen.has(k)) e(`${where}: ${k} listed twice`); seen.add(k); q(where + " " + k, x.quote); } };
   if (!j.coder) e("coder is required"); if (!Array.isArray(j.uses)) e("uses must be a list (empty if nothing is stated)");
   const seen = new Set(); for (const u of j.uses || []) {
-    const k = `${u.use}/${u.context}${u.tier ? "/" + u.tier : ""}`; const ue = (m) => e(`use ${k}: ${m}`);
+    const k = `${u.use}/${u.context}${u.tier ? "/" + u.tier : ""}/${u.stance}`; const ue = (m) => e(`use ${k}: ${m}`);
     if (!uses.has(u.use)) ue("use not in the vocabulary"); if (u.tier != null && words(u.tier) > 4) ue("tier is at most 4 words"); if (!S.contexts[u.context]) ue("context not in the vocabulary"); if (seen.has(k)) ue("listed twice"); seen.add(k);
     if (!S.stances[u.stance]) ue("stance not in the vocabulary"); if (!S.acknowledge[u.acknowledge]) ue("acknowledge must be required|not_required|not_stated");
     if (u.stance === "conditional" && !(u.conditions || []).length) ue("conditional needs at least one condition"); for (const c of u.conditions || []) if (!S.conditions[c]) ue(`condition ${c} not in the vocabulary`);

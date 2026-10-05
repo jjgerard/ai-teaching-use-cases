@@ -1,0 +1,231 @@
+{
+ "doc_id": "west-london-students-genai-202610",
+ "coder": "use-u10",
+ "uses": [
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can provide a plan or structure for your assignment, project or research.",
+   "anchor": "Planning"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Help manage your time by creating a weekly timetable for you.",
+   "anchor": "Planning"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools can be used to create keywords or phrases to search for information in other tools.",
+   "anchor": "Finding information"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can explain difficult concepts to make learning easier for you.",
+   "anchor": "Understanding information"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It can summarise chunks of texts, including journal articles.",
+   "anchor": "Understanding information"
+  },
+  {
+   "use": "analyse_data",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Help you with data processing, analysis and visualisation.",
+   "anchor": "Understanding information"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can provide you with images for your assessments.",
+   "anchor": "Writing your assignment"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Help you to improve your grammar and writing style.",
+   "anchor": "Writing your assignment"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Help you to improve your grammar and writing style.",
+   "anchor": "Writing your assignment"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Provide feedback on your own writing.",
+   "anchor": "Writing your assignment"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "AI can summarise a transcript of your lecture to help you discover the key points, when you have permission to do this.",
+   "anchor": "Understanding your learning"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Give you insights into your ideas and facilitate a virtual discussion.",
+   "anchor": "Understanding your learning"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use AI for planning, idea generation, clarification, and drafting.",
+   "anchor": "Top tips for using AI"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use AI for planning, idea generation, clarification, and drafting.",
+   "anchor": "Top tips for using AI"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use AI for planning, idea generation, clarification, and drafting.",
+   "anchor": "Top tips for using AI"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It must not be used to write or create your coursework or assignments for you.",
+   "anchor": "How not to use AI and AI tools"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI shouldn’t be used as your only source of information in your studies and for your assignments.",
+   "anchor": "How not to use AI and AI tools"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "When incorporating AI-generated content into your own work, you must acknowledge it by providing correct references.",
+   "anchor": "How to reference AI tools and AI generated content"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The use of Gen AI tools (eg ChatGPT, DeepSeek, etc) is not permitted.",
+   "anchor": "Red category",
+   "tier": "Red"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "We encourage you to use Generative AI tools to help you with preparing this assessment.",
+   "anchor": "Amber category",
+   "tier": "Amber"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using Generative AI tools effectively is part of this assessment.",
+   "anchor": "Green category",
+   "tier": "Green"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "tiered_scale",
+   "quote": "The use of AI tools in assessments follows the traffic light system."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "You must keep within the guidelines for using AI and AI tools which are set out in your assessment brief."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "When incorporating AI-generated content into your own work, you must acknowledge it by providing correct references."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "If you do decide to use an AI tool as a source of information in your course work or assignment, you must reference it correctly."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "If you fail to do so this may result in academic misconduct."
+  },
+  "exempt": []
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "doc_id": "royal-agricultural-students-genai-202610",
+ "coder": "use-u17",
+ "uses": [
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Where I have used AI to research content, find authors, papers, or ideas, I have fully referenced this in APA7 and provided the original text prompts in an appendix.",
+   "anchor": "Generative AI declaration"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Where I have used AI to research content, find authors, papers, or ideas, I have fully referenced this in APA7 and provided the original text prompts in an appendix.",
+   "anchor": "Generative AI declaration"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "I have used Grammarly or similar to correct my spelling, punctuation, grammar",
+   "anchor": "Spelling, punctuation and grammar declaration"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "On the cover sheet they are asked to complete two declarations:"
+  },
+  "contents": [
+   {
+    "value": "prompts",
+    "quote": "provided the original text prompts in an appendix."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "Students are required to complete an Assessment Cover Sheet (available on Gateway) when submitting their work."
+   },
+   {
+    "value": "appendix",
+    "quote": "provided the original text prompts in an appendix."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "I have fully referenced this in APA7"
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

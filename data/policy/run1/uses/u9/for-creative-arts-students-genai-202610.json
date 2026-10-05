@@ -1,0 +1,161 @@
+{
+ "doc_id": "for-creative-arts-students-genai-202610",
+ "coder": "use-u9",
+ "uses": [
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Break down a task (like researching for and writing an assignment) into shorter multiple steps for you and when given a deadline, can suggest time scales for completing each step.",
+   "anchor": "What is Artificial Intelligence (AI)?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Give you explanations, it can simplify a topic or subject you are struggling with, to help you better understand it.",
+   "anchor": "What is Artificial Intelligence (AI)?"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Give you feedback on text you give it.",
+   "anchor": "What is Artificial Intelligence (AI)?"
+  },
+  {
+   "use": "check_language",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It can also help improve your grammar and writing structure – especially useful if English is not your first language.",
+   "anchor": "What is Artificial Intelligence (AI)?"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Help you overcome writer’s block, offer inspiration for your creative work, or help you explore ideas for dissertation topics.",
+   "anchor": "What is Artificial Intelligence (AI)?"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "If you use AI tools for any part of your assessment - planning, research or content - you must -",
+   "anchor": "Can I use AI in my assignment?"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "If you use AI tools for any part of your assessment - planning, research or content - you must -",
+   "anchor": "Can I use AI in my assignment?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "If you use AI tools for any part of your assessment - planning, research or content - you must -",
+   "anchor": "Can I use AI in my assignment?"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "If you use AI tools for any part of your assessment - planning, research or content - you must -",
+   "anchor": "Can I use AI in my assignment?"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "The acknowledgement will consist of a citation and a corresponding entry in your Bibliography, and in the case of images, an image caption and a corresponding entry in your List of Illustrations.",
+   "anchor": "Artificial Intelligence"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI makes things up by guessing – the results it produces might not be true or valid.",
+   "anchor": "Warning! Beware..."
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you have used or referred to information created by an artificial intelligence (AI) tool in your work, you must acknowledge this as a source in your work."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "reference the AI tool used and the content obtained; and"
+   },
+   {
+    "value": "how_used",
+    "quote": "explain how the AI content has been reused within the assessment."
+   },
+   {
+    "value": "outputs",
+    "quote": "reference the AI tool used and the content obtained; and"
+   },
+   {
+    "value": "prompts",
+    "quote": "If there is no URL to share, then you should provide a full transcript of prompts and responses from your conversation in the appendix."
+   }
+  ],
+  "location": [
+   {
+    "value": "with_references",
+    "quote": "The acknowledgement will consist of a citation and a corresponding entry in your Bibliography, and in the case of images, an image caption and a corresponding entry in your List of Illustrations."
+   },
+   {
+    "value": "appendix",
+    "quote": "If there is no URL to share, then you should provide a full transcript of prompts and responses from your conversation in the appendix."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "The acknowledgement will consist of a citation and a corresponding entry in your Bibliography, and in the case of images, an image caption and a corresponding entry in your List of Illustrations."
+  },
+  "consequence": {
+   "value": "safe_if_declared",
+   "quote": "In such cases, you will have acted with integrity and academic misconduct will not have been committed."
+  },
+  "exempt": []
+ }
+}

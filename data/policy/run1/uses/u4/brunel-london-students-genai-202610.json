@@ -1,0 +1,122 @@
+{
+ "doc_id": "brunel-london-students-genai-202610",
+ "coder": "use-u4",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "the use of any type of generative artificial intelligence tools (such as text generating, image generating, computer software generating, and translators) is not permitted in your assignment unless your module leader has explicitly specified that their use is permitted",
+   "anchor": "The University's official guidance"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "the use of any type of generative artificial intelligence tools (such as text generating, image generating, computer software generating, and translators) is not permitted in your assignment unless your module leader has explicitly specified that their use is permitted",
+   "anchor": "The University's official guidance"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "the use of any type of generative artificial intelligence tools (such as text generating, image generating, computer software generating, and translators) is not permitted in your assignment unless your module leader has explicitly specified that their use is permitted",
+   "anchor": "The University's official guidance"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "the use of any type of generative artificial intelligence tools (such as text generating, image generating, computer software generating, and translators) is not permitted in your assignment unless your module leader has explicitly specified that their use is permitted",
+   "anchor": "The University's official guidance"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "the use of any type of generative artificial intelligence tools (such as text generating, image generating, computer software generating, and translators) is not permitted in your assignment unless your module leader has explicitly specified that their use is permitted",
+   "anchor": "The University's official guidance"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "limited_extent"
+   ],
+   "quote": "Referencing can be used to acknowledge the use of AI generated content, but this is generally limited to situations where you are including AI generated content as stand-alone examples that are clearly set apart from the main body of your work.",
+   "anchor": "Academic misconduct and referencing generative AI"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Do not rely on generative AI as a source in itself, such as referencing a definition or piece of information on a topic. Generative AI is not a credible academic source.",
+   "anchor": "Engaging critically with generative AI"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Do not overuse or rely fully upon generative AI.",
+   "anchor": "Engaging critically with generative AI"
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "the use of any type of generative artificial intelligence tools (such as text generating, image generating, computer software generating, and translators) is not permitted in your assignment unless your module leader has explicitly specified that their use is permitted"
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "the use of any type of generative artificial intelligence tools (such as text generating, image generating, computer software generating, and translators) is not permitted in your assignment unless your module leader has explicitly specified that their use is permitted"
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Check your module handbook / assignment brief, look at lecture slides, or speak to your module leader / lecturer."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [
+   {
+    "value": "appendix",
+    "quote": "You should check with your lecturer or module-leader whether you should include the transcript of your interaction as an appendix to your work."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "The advice on how to reference AI generated content will depend on the referencing style used by your department, and the advice provided may be prone to change."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}
