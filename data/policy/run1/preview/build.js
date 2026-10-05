@@ -62,8 +62,20 @@ function pairsFor(ids, minSupport, TY = (d) => perDoc[d].types) {
 const PR = rd("presence.json"); const auditFound = {}; for (const x of PR.found) (auditFound[x.doc_id] = auditFound[x.doc_id] || new Set()).add(x.type || x.type_id);
 const AUDIT = Object.fromEntries(Object.entries(auditFound).map(([d, s]) => [d, [...s]]));
 const augT = (d) => new Set([...perDoc[d].types, ...(auditFound[d] || [])]);
+
+// region contrasts (descriptive; Fisher + Benjamini-Hochberg over all contrasts)
+const docRegion = {}; for (const d of rd("run1/sample.json")) if (d.doc_id) docRegion[d.doc_id] = d.region;
+const unionT = (d) => augT(d);
+function contrast(name, gA, gB, minN) {
+  const A = cdocs.filter((d) => gA.includes(docRegion[d])), B = cdocs.filter((d) => gB.includes(docRegion[d])); const out = [];
+  for (const t of TYPES0) { if (GENERAL.has(t.id)) continue; const a = A.filter((d) => unionT(d).has(t.id)).length, b = B.filter((d) => unionT(d).has(t.id)).length; if (a + b < minN) continue; out.push({ id: t.id, a, na: A.length, b, nb: B.length, p: fisher(a, A.length - a, b, B.length - b) }); }
+  return { name, na: A.length, nb: B.length, rows: out };
+}
+const RC = [contrast("Ireland vs Great Britain", ["Ireland"], ["England", "Scotland", "Wales", "Northern Ireland"], 6), contrast("Scotland vs England", ["Scotland"], ["England"], 6), contrast("Wales vs England", ["Wales"], ["England"], 6)];
+{ const all = RC.flatMap((c) => c.rows.map((r) => r)).sort((x, y) => x.p - y.p); const m = all.length; let prev = 1; for (let i = m - 1; i >= 0; i--) { prev = Math.min(prev, all[i].p * m / (i + 1)); all[i].q = prev; } }
+const REGSHARE = {}; for (const t of TYPES0) { REGSHARE[t.id] = {}; for (const r of ["England", "Scotland", "Wales", "Northern Ireland", "Ireland"]) { const ds = cdocs.filter((d) => docRegion[d] === r); REGSHARE[t.id][r] = [ds.filter((d) => unionT(d).has(t.id)).length, ds.length]; } }
 const richIds = cdocs.filter((d) => perDoc[d].n >= THIN);
-const TRENDS = { types: TYPES0.map((t) => ({ id: t.id, label: t.label, group: t.group, def: t.definition })), rows: CL.map((r) => ({ d: r.doc_id, n: r.point_id, c: r.claim, c2: r.claim2, f: r.fit })), docs: cdocs, thin: THIN, nper: Object.fromEntries(cdocs.map((d) => [d, perDoc[d].n])), minsup: 8, agreement: rd("run1/claims/agreement.json"), pairs: { all: pairsFor(cdocs, 8), rich: pairsFor(richIds, 8) }, pairsAud: { all: pairsFor(cdocs, 8, augT), rich: pairsFor(richIds, 8, augT) }, vocab: "2", general: [...GENERAL], audit: AUDIT, fitCounts: CL.reduce((o, r) => ((o[r.fit] = (o[r.fit] || 0) + 1), o), {}) };
+const TRENDS = { types: TYPES0.map((t) => ({ id: t.id, label: t.label, group: t.group, def: t.definition })), rows: CL.map((r) => ({ d: r.doc_id, n: r.point_id, c: r.claim, c2: r.claim2, f: r.fit })), docs: cdocs, thin: THIN, nper: Object.fromEntries(cdocs.map((d) => [d, perDoc[d].n])), minsup: 8, agreement: rd("run1/claims/agreement.json"), pairs: { all: pairsFor(cdocs, 8), rich: pairsFor(richIds, 8) }, pairsAud: { all: pairsFor(cdocs, 8, augT), rich: pairsFor(richIds, 8, augT) }, vocab: "2", regionContrasts: RC, regionShare: REGSHARE, general: [...GENERAL], audit: AUDIT, fitCounts: CL.reduce((o, r) => ((o[r.fit] = (o[r.fit] || 0) + 1), o), {}) };
 
 const html = fs.readFileSync(path.join(__dirname, "template.html"), "utf8").replace("__DATA__", JSON.stringify({ vars, docs: D, cov: covAll, patterns, version: codebook.version, points: points.slice().sort((a, b) => (PDOCS.findIndex((x) => x.id === a.doc_id) - PDOCS.findIndex((x) => x.id === b.doc_id)) || a.point_id.localeCompare(b.point_id)).map((p) => ({ d: p.doc_id, n: p.point_id, q: p.quote, a: p.anchor, ad: p.addressee, f: p.force, t: p.topic, s: p.specific, g: p.gist })), pdocs: PDOCS, trends: TRENDS }).replace(/</g, "\\u003c"));
 fs.writeFileSync(path.join(__dirname, "index.html"), html);

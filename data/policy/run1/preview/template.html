@@ -102,6 +102,8 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 .small { color: var(--ink2); font-size: 13px; max-width: 80ch; margin-top: 10px; }
 .brow.share { grid-template-columns: minmax(110px, 40%) 1fr 70px; }
 .brow.share .bn { white-space: nowrap; }
+.brow.hl { grid-template-columns: minmax(110px, 40%) 1fr 112px; }
+.brow.hl .bn { white-space: normal; line-height: 1.25; }
 
 /* guidance points */
 .pctl { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-bottom: 10px; }
@@ -122,15 +124,15 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 .more { margin-top: 12px; }
 .pctl > span, .xsel > span { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; min-width: 0; max-width: 100%; }
 .pctl select, .xsel select, #varsel { min-width: 0; max-width: 100%; }
-@media (max-width: 520px) { .brow.share { grid-template-columns: 1fr 70px; } h1 { font-size: 24px; } .brow { grid-template-columns: 1fr 34px; } .brow .bt { grid-column: 1 / -1; grid-row: 2; } .brow .bn { grid-row: 1; grid-column: 2; } .mx td.nm, .mx th.nm { min-width: 140px; max-width: 140px; } }
+@media (max-width: 520px) { .brow.share { grid-template-columns: 1fr 70px; } .brow.hl { grid-template-columns: 1fr 112px; } h1 { font-size: 24px; } .brow { grid-template-columns: 1fr 34px; } .brow .bt { grid-column: 1 / -1; grid-row: 2; } .brow .bn { grid-row: 1; grid-column: 2; } .mx td.nm, .mx th.nm { min-width: 140px; max-width: 140px; } }
 @media (prefers-reduced-motion: no-preference) { .bf { transition: width .2s ease; } }
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 
 <div class="wrap">
   <h1>AI policy atlas</h1>
-  <p class="lede">What UK and Irish universities tell students about generative AI. Each point is quoted from the institution’s own document and links back to it. A smaller set of documents is also classified against a fixed vocabulary of <span id="nv"></span> variables, further down.</p>
-  <p class="note"><b>Draft.</b> <span id="npd"></span> documents from <span id="ni"></span> institutions on a curated list, read and extracted by one model. Some institutions are missing because their pages could not be fetched. Many documents are hubs, library guides or whole misconduct procedures with a few AI sentences, so a point being present says little about how common it is. The classified sections use <span id="nd"></span> of the documents. Nothing here is a prevalence estimate.</p>
+  <p class="lede">What UK and Irish universities tell students about generative AI, what most of them say, where they split, and whether regions differ. Every statement counted here traces to a quote in the institution’s own document.</p>
+  <p class="note"><b>Draft.</b> Counts are minimums: a statement counts only where a quote shows it, from one document per institution, read by one model. They are not prevalence estimates. Coverage and method are further down.</p>
 </div>
 
 <div class="bar-filter"><div class="in">
@@ -141,17 +143,20 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 </div></div>
 
 <div class="wrap">
-<section id="coverage">
-  <h2>Who is covered</h2>
-  <p class="sub">The frame is a curated list of institutions, so "not found" and "blocked" are recorded outcomes about named institutions, not silent gaps.</p>
-  <div class="panel">
-    <div class="stack" id="stack" role="img" aria-label="Coverage of sampled institutions"></div>
-    <div class="legend" id="legend"></div>
-    <div class="scroll" style="margin-top:14px"><table class="reg" id="regtab"></table></div>
-  </div>
+
+
+
+<section id="headlines">
+  <h2>What most institutions say</h2>
+  <p class="sub" id="hlsub"></p>
+  <div class="panel"><div class="bars" id="hlbars"></div></div>
+  <h3 style="margin:22px 0 4px">Where institutions split</h3>
+  <p class="sub">Statements that roughly half the institutions make and half do not. These are the choices that actually differ between institutions.</p>
+  <div class="panel"><div class="bars" id="hlsplit"></div></div>
+  <h3 style="margin:22px 0 4px">Do regions differ?</h3>
+  <p class="sub" id="hlregsub"></p>
+  <div class="scroll"><table class="reg pairs" id="hlreg"></table></div>
 </section>
-
-
 
 <section id="trends">
   <h2>What institutions say most often</h2>
@@ -187,6 +192,16 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   <p class="sub mono" id="pcount" style="margin-bottom:10px"></p>
   <div class="plist" id="plist"></div>
   <button class="chip more" id="pmore" type="button" hidden>Show more</button>
+</section>
+
+<section id="coverage">
+  <h2>Who is covered</h2>
+  <p class="sub"><span id="npd"></span> documents from <span id="ni"></span> institutions; <span id="nd"></span> of them also have the full coding against <span id="nv"></span> variables. The frame is a curated list of institutions, so "not found" and "blocked" are recorded outcomes about named institutions, not silent gaps.</p>
+  <div class="panel">
+    <div class="stack" id="stack" role="img" aria-label="Coverage of sampled institutions"></div>
+    <div class="legend" id="legend"></div>
+    <div class="scroll" style="margin-top:14px"><table class="reg" id="regtab"></table></div>
+  </div>
 </section>
 
 <section id="kinds">
@@ -493,7 +508,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     var rows = TR.types.filter(function (t) { return c[t.id] && (tgroup === "all" || t.group === tgroup); }).map(function (t) { return { t: t, n: c[t.id].length }; }).sort(function (a, b) { return b.n - a.n; });
     var host = $("tbars"); host.textContent = "";
     rows.slice(0, tgroup === "all" ? 30 : 60).forEach(function (r) {
-      var b = el("button", "brow share"); b.type = "button"; b.setAttribute("aria-pressed", tsel === r.t.id ? "true" : "false"); b.title = r.t.def;
+      var b = el("button", "brow share hl"); b.type = "button"; b.setAttribute("aria-pressed", tsel === r.t.id ? "true" : "false"); b.title = r.t.def;
       b.appendChild(el("span", "bl", r.t.label)); var tr = el("span", "bt"), f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * r.n / M) + "%"; tr.appendChild(f); b.appendChild(tr); var en = extN(ds, r.t.id); b.appendChild(el("span", "bn", r.n + " of " + ds.length + ($("taudit").checked && r.n > en ? " (" + en + " from extracted points)" : "")));
       b.addEventListener("click", function () { tsel = r.t.id; drawTrends(); $("tdetail").scrollIntoView({ block: "nearest" }); }); host.appendChild(b);
     });
@@ -520,7 +535,25 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     var names = function (arr) { return arr.map(function (d) { return PD[d].name; }).join(", ") || "none"; };
     [["Both", both], ["Only “" + TT[a].label + "”", onlyA], ["Only “" + TT[b].label + "”", onlyB]].forEach(function (x) { var p = el("p", "small"); var s = el("strong", null, x[0] + " (" + x[1].length + "): "); p.appendChild(s); p.appendChild(document.createTextNode(names(x[1]))); box.appendChild(p); });
   }
+
+  function drawHeadlines() {
+    var ids = TR.docs.filter(function (d) { return PD[d]; }), N = ids.length, gen = {}; (TR.general || []).forEach(function (g) { gen[g] = 1; });
+    var cnt = {}; ids.forEach(function (d) { var s = new Set(DT[d]); (TR.audit[d] || []).forEach(function (x) { s.add(x); }); s.forEach(function (x) { cnt[x] = (cnt[x] || 0) + 1; }); });
+    var arr = Object.keys(cnt).filter(function (k) { return TT[k]; }).map(function (k) { return { id: k, n: cnt[k] }; });
+    var top = arr.slice().sort(function (a, b) { return b.n - a.n; }).slice(0, 10);
+    $("hlsub").textContent = "Out of " + N + " institutions with a document, these are the statements made most often. A statement counts only where a quote in the document makes it, so these are minimums. This summary covers all regions; the region buttons above filter the sections below it.";
+    function rows(host, list) { host.textContent = ""; list.forEach(function (r) { var b = el("div", "brow share hl"); b.title = TT[r.id].def; b.appendChild(el("span", "bl", TT[r.id].label)); var tr = el("span", "bt"), f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * r.n / N) + "%"; tr.appendChild(f); b.appendChild(tr); b.appendChild(el("span", "bn", r.n + " of " + N + " (" + Math.round(100 * r.n / N) + "%)")); host.appendChild(b); }); }
+    rows($("hlbars"), top);
+    var split = arr.filter(function (r) { return !gen[r.id] && r.n / N >= 0.3 && r.n / N <= 0.7; }).sort(function (a, b) { return Math.abs(a.n / N - 0.5) - Math.abs(b.n / N - 0.5); }).slice(0, 8);
+    rows($("hlsplit"), split);
+    var RC = TR.regionContrasts, all = []; RC.forEach(function (c) { c.rows.forEach(function (r) { all.push({ c: c, r: r }); }); });
+    var minq = Math.min.apply(null, all.map(function (x) { return x.r.q; }));
+    $("hlregsub").textContent = "Region groups are small (" + RC.map(function (c) { return c.name.split(" vs ")[0] + " " + c.na; }).join(", ") + " institutions with a document; Northern Ireland has too few to compare). Each row below is one of the largest gaps. After correcting for the " + all.length + " comparisons made, " + (minq < 0.1 ? "some gaps hold up (marked ●)" : "none holds up: the smallest corrected value is q = " + minq.toFixed(2) + ", where 0.10 or lower would count as a lead") + ". Treat these as questions to check, not findings.";
+    var t = $("hlreg"); t.textContent = ""; var hr = el("tr"); ["Statement", "Comparison", "First group", "Second group", "p", "q"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
+    all.sort(function (a, b) { return a.r.p - b.r.p; }).slice(0, 8).forEach(function (x) { var tr = el("tr"), td = el("td", null, TT[x.r.id].label); td.style.whiteSpace = "normal"; tr.appendChild(td); tr.appendChild(el("td", null, x.c.name)); tr.appendChild(el("td", null, x.r.a + " of " + x.c.na)); tr.appendChild(el("td", null, x.r.b + " of " + x.c.nb)); tr.appendChild(el("td", null, x.r.p.toFixed(3))); tr.appendChild(el("td", x.r.q < 0.1 ? "flag" : null, x.r.q.toFixed(2) + (x.r.q < 0.1 ? " ●" : ""))); t.appendChild(tr); });
+  }
   function tinit() {
+    drawHeadlines();
     var opts = TR.types.slice().sort(function (x, y) { return x.label.localeCompare(y.label); });
     ["tpa", "tpb"].forEach(function (id, i) { var s = $(id); opts.forEach(function (t) { var o = document.createElement("option"); o.value = t.id; o.textContent = t.label; s.appendChild(o); }); s.value = i ? "ai_detectors_unreliable_not_sole_basis" : "rules_set_locally_by_module_or_lecturer"; s.addEventListener("change", drawTogether); });
     $("tthin").addEventListener("change", function () { drawTrends(); drawTogether(); });
