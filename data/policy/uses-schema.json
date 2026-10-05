@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "purpose": "What a document says students may or may not use AI for, in which setting, and what must be acknowledged. One row per document per use and setting, plus document-level rules, each with a verbatim quote. Anything not stated stays empty.",
+  "uses": [
+    { "id": "generate_ideas", "label": "Generate ideas or brainstorm", "definition": "Brainstorming topics, ideas, titles, angles." },
+    { "id": "plan_or_structure", "label": "Plan or structure work", "definition": "Outlines, essay plans, structuring an argument or report." },
+    { "id": "explain_or_tutor", "label": "Explain concepts or act as a tutor", "definition": "Explaining concepts, answering questions, acting as a study buddy or personal tutor." },
+    { "id": "summarise_or_analyse_sources", "label": "Summarise or explain sources", "definition": "Summarising or explaining readings, papers or documents the student supplies." },
+    { "id": "find_sources", "label": "Find literature or sources", "definition": "Literature searching, suggesting sources or references." },
+    { "id": "revise_or_practise", "label": "Revise or practise", "definition": "Revision aids, practice questions, quizzes, flashcards, study plans." },
+    { "id": "get_feedback_on_draft", "label": "Get feedback on a draft", "definition": "Asking for feedback or suggestions on the student's own draft without the AI rewriting it." },
+    { "id": "check_language", "label": "Check spelling and grammar", "definition": "Spelling, grammar, punctuation, proofreading and basic language editing." },
+    { "id": "translate", "label": "Translate", "definition": "Translating text, including as a language-learning aid." },
+    { "id": "rewrite_or_paraphrase_own_text", "label": "Rewrite or paraphrase own text", "definition": "Rewording, restyling or improving the student's own text beyond proofreading." },
+    { "id": "generate_assessed_text", "label": "Generate assessed text", "definition": "Having AI write, answer or complete part or all of an assessed piece of work." },
+    { "id": "include_ai_output_in_work", "label": "Include AI output in submitted work", "definition": "Quoting, adapting or including AI-generated text, images or other output in what is submitted, usually with attribution." },
+    { "id": "generate_code", "label": "Generate or debug code", "definition": "Writing, explaining or debugging code." },
+    { "id": "analyse_data", "label": "Analyse data", "definition": "Data analysis, statistics, charts or visualisation." },
+    { "id": "create_images_or_media", "label": "Create images, audio or video", "definition": "Producing images, audio, video, slides or other media." },
+    { "id": "format_references", "label": "Format references", "definition": "Formatting reference lists or citations with AI." },
+    { "id": "record_or_transcribe", "label": "Record, transcribe or summarise meetings", "definition": "AI recording, live transcription, meeting or lecture notes." },
+    { "id": "assistive_use", "label": "Assistive use", "definition": "AI as assistive technology or an agreed adjustment for disabled students or students with additional needs." },
+    { "id": "rely_on_ai_as_source", "label": "Rely on AI as a source of facts", "definition": "Treating AI output as a reliable source, or citing AI as an authority, instead of checking primary sources." }
+  ],
+  "contexts": {
+    "study": "learning and preparation that is not itself assessed",
+    "assessed_work": "coursework or any work submitted for assessment",
+    "exams_or_supervised": "exams, in-person or supervised assessments",
+    "research_or_thesis": "a dissertation, thesis or research project",
+    "unspecified": "the document gives no setting"
+  },
+  "stances": {
+    "permitted": "allowed, with no condition stated",
+    "conditional": "allowed only if a condition holds (set in conditions)",
+    "discouraged": "advised against, or a caution, but not forbidden",
+    "prohibited": "not allowed",
+    "required": "the assessment or course requires this use"
+  },
+  "conditions": {
+    "needs_permission": "only if the module, lecturer, brief or tutor allows it",
+    "needs_acknowledgement": "only if the use is acknowledged or declared",
+    "approved_tool_only": "only with an institution-approved or provided tool",
+    "limited_extent": "only up to a stated extent (a share of the work, minor changes, not substantive)",
+    "no_personal_data": "only without personal or confidential data",
+    "other_rules_apply": "only subject to other rules (placement, client, publisher, ethics)",
+    "account_or_age_limit": "only within a stated account or age limit",
+    "not_required_to_use": "students are not required to use AI for this"
+  },
+  "acknowledge": { "required": "the document says this use must be acknowledged or declared", "not_required": "the document says this use needs no acknowledgement", "not_stated": "the document does not say" },
+  "default_when_silent": {
+    "prohibit_all": "when the brief says nothing, no AI use is allowed",
+    "permit_all": "when the brief says nothing, AI use is allowed",
+    "permit_with_acknowledgement": "when the brief says nothing, AI use is allowed if acknowledged",
+    "ask_instructor": "when the brief says nothing, ask the lecturer or tutor",
+    "use_by_use_rule": "when the brief says nothing, per-use rules apply",
+    "differs_by_assessment_type": "when the brief says nothing, the default depends on the type of assessment",
+    "treated_as_human_assistance": "AI help is treated like help from another person",
+    "misconduct_only_if_unacknowledged": "use is misconduct only if not acknowledged"
+  },
+  "decided_by": {
+    "institution_wide": "one rule for the whole institution",
+    "school_or_department": "set by school, faculty or department",
+    "module_or_lecturer": "set by the module leader or lecturer",
+    "assessment_brief": "set in each assessment brief",
+    "tiered_scale": "set by a named scale or categories of permitted use"
+  },
+  "acknowledgement": {
+    "duty": { "always_required": "every use must be acknowledged", "conditional": "acknowledgement depends on a condition (extent, a course rule, assessment type)", "recommended": "acknowledgement is advised or encouraged", "not_required": "no acknowledgement needed" },
+    "contents": ["tool_name", "tool_version", "how_used", "why_used", "prompts", "outputs", "date_accessed", "extent_or_scope", "own_contribution", "learning_reflection"],
+    "location": ["coversheet_or_form", "statement_in_work", "thesis_declaration_or_preface", "appendix", "with_references"],
+    "records": { "required": "students must keep records (chats, drafts, notes)", "recommended": "keeping records is advised" },
+    "referencing": { "cite_in_reference_list": "AI output must be cited with a reference list entry", "acknowledge_without_reference_entry": "acknowledge in the text or a statement, no reference list entry", "follow_guide": "follow the library or institution referencing guide", "not_required_in_reference_list": "no reference list entry is needed" },
+    "consequence": { "submission_blocked": "the work cannot be submitted without it", "treated_as_non_submission": "missing declaration counts as non-submission", "treated_as_misconduct": "missing acknowledgement is treated as misconduct", "safe_if_declared": "properly declared permitted use is not misconduct" },
+    "exempt_other": ["spellcheck_or_embedded_tools", "incidental_or_minimal_use", "learning_aid_use", "assignment_designed_for_ai", "below_length_threshold"]
+  }
+}

@@ -1,0 +1,464 @@
+[
+ {
+  "id": "default_ai_banned_unless_authorised",
+  "label": "Default: no AI unless expressly permitted",
+  "facet": "uses",
+  "fate": "default_when_silent = prohibit_all"
+ },
+ {
+  "id": "default_ai_permitted_unless_restricted",
+  "label": "Default: AI allowed unless restricted",
+  "facet": "uses",
+  "fate": "default_when_silent = permit_all"
+ },
+ {
+  "id": "ai_banned_for_whole_assessment",
+  "label": "No AI at all in a given assessment",
+  "facet": "uses",
+  "fate": "stance prohibited, context assessed_work (whole assessment)"
+ },
+ {
+  "id": "ai_output_may_be_included_when_assessment_allows",
+  "label": "AI output may be included where assessment allows",
+  "facet": "uses",
+  "fate": "use include_ai_output_in_work"
+ },
+ {
+  "id": "work_must_be_own_not_written_by_ai",
+  "label": "Work must be your own, not AI-written",
+  "facet": "uses",
+  "fate": "use generate_assessed_text = prohibited"
+ },
+ {
+  "id": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+  "label": "No AI rewriting beyond proofreading",
+  "facet": "uses",
+  "fate": "use rewrite_or_paraphrase_own_text = prohibited"
+ },
+ {
+  "id": "translation_tools_restricted",
+  "label": "Translation tools restricted or conditional",
+  "facet": "uses",
+  "fate": "use translate"
+ },
+ {
+  "id": "do_not_use_ai_references_or_treat_ai_as_source",
+  "label": "Do not cite AI or its references",
+  "facet": "uses",
+  "fate": "use rely_on_ai_as_source = prohibited"
+ },
+ {
+  "id": "spelling_grammar_proofreading_permitted",
+  "label": "Spelling, grammar and proofreading help allowed",
+  "facet": "uses",
+  "fate": "use check_language"
+ },
+ {
+  "id": "ai_permitted_for_study_and_preparation",
+  "label": "AI allowed for study, revision and preparation",
+  "facet": "uses",
+  "fate": "uses revise_or_practise, explain_or_tutor, generate_ideas, plan_or_structure (context study)"
+ },
+ {
+  "id": "assistive_technology_use_permitted",
+  "label": "Assistive technology and adjustments allowed",
+  "facet": "uses",
+  "fate": "use assistive_use"
+ },
+ {
+  "id": "rules_set_locally_by_module_or_lecturer",
+  "label": "Lecturer or module leader sets AI rules",
+  "facet": "uses",
+  "fate": "decided_by = module_or_lecturer"
+ },
+ {
+  "id": "follow_assessment_brief_instructions",
+  "label": "Follow assessment brief and local guidance",
+  "facet": "uses",
+  "fate": "decided_by = assessment_brief"
+ },
+ {
+  "id": "assessment_tiered_ai_use_categories",
+  "label": "Assessments sorted into AI-use tiers",
+  "facet": "uses",
+  "fate": "decided_by = tiered_scale"
+ },
+ {
+  "id": "some_assessments_require_or_build_in_ai_use",
+  "label": "Some assessments require or critique AI use",
+  "facet": "uses",
+  "fate": "stance required, context assessed_work"
+ },
+ {
+  "id": "students_not_required_to_use_ai",
+  "label": "Students are not required to use AI",
+  "facet": "uses",
+  "fate": "stance field: not required (condition)"
+ },
+ {
+  "id": "placement_or_client_rules_apply",
+  "label": "Placement, employer or client rules apply",
+  "facet": "uses",
+  "fate": "condition other_rules_apply (placement or client)"
+ },
+ {
+  "id": "separate_guidance_for_researchers_or_publication",
+  "label": "Separate rules for research or publication",
+  "facet": "uses",
+  "fate": "context research_or_thesis"
+ },
+ {
+  "id": "use_library_sources_not_ai_for_facts",
+  "label": "Use library sources, not AI, for facts",
+  "facet": "uses",
+  "fate": "use rely_on_ai_as_source = discouraged"
+ },
+ {
+  "id": "account_and_age_restrictions_on_ai_services",
+  "label": "Account and age limits on AI services",
+  "facet": "uses",
+  "fate": "condition account_or_age_limit"
+ },
+ {
+  "id": "acknowledge_or_declare_ai_use",
+  "label": "Acknowledge or declare AI use",
+  "facet": "acknowledgement",
+  "fate": "duty"
+ },
+ {
+  "id": "declaration_form_or_content",
+  "label": "AI declaration form or required content",
+  "facet": "acknowledgement",
+  "fate": "location, contents"
+ },
+ {
+  "id": "include_prompts_and_outputs_as_evidence",
+  "label": "Include prompts and outputs as evidence",
+  "facet": "acknowledgement",
+  "fate": "contents prompts_and_outputs"
+ },
+ {
+  "id": "keep_record_of_ai_interactions",
+  "label": "Keep a record of your AI interactions",
+  "facet": "acknowledgement",
+  "fate": "records"
+ },
+ {
+  "id": "keep_drafts_and_notes_as_evidence_of_authorship",
+  "label": "Keep drafts and notes to prove authorship",
+  "facet": "acknowledgement",
+  "fate": "records (drafts)"
+ },
+ {
+  "id": "follow_institutional_referencing_guidance_for_ai",
+  "label": "Follow the referencing guide for AI",
+  "facet": "acknowledgement",
+  "fate": "referencing = follow_guide"
+ },
+ {
+  "id": "reference_ai_use_with_citation",
+  "label": "Cite AI use like any other source",
+  "facet": "acknowledgement",
+  "fate": "referencing = cite_in_reference_list"
+ },
+ {
+  "id": "ai_reference_format_or_personal_communication",
+  "label": "How to format an AI citation",
+  "facet": "acknowledgement",
+  "fate": "referencing (format)"
+ },
+ {
+  "id": "uses_exempt_from_acknowledgement",
+  "label": "Some AI uses need no acknowledgement",
+  "facet": "acknowledgement",
+  "fate": "exempt_uses"
+ },
+ {
+  "id": "undeclared_or_unreferenced_ai_use_is_misconduct",
+  "label": "Hiding or not acknowledging AI is misconduct",
+  "facet": "acknowledgement",
+  "fate": "consequence = misconduct"
+ },
+ {
+  "id": "compliant_declared_use_not_misconduct",
+  "label": "Properly declared permitted use is not misconduct",
+  "facet": "acknowledgement",
+  "fate": "consequence = safe_if_declared"
+ },
+ {
+  "id": "training_and_guidance_resources_provided",
+  "label": "Training, guidance or support offered on AI",
+  "facet": "support",
+  "fate": "support forms (done)"
+ },
+ {
+  "id": "complete_training_before_using_ai",
+  "label": "Complete training before using AI",
+  "facet": "support",
+  "fate": "support forms, requirement mandatory/advised"
+ },
+ {
+  "id": "ai_literacy_built_into_curriculum",
+  "label": "AI literacy built into the curriculum",
+  "facet": "support",
+  "fate": "support forms (course in curriculum)"
+ },
+ {
+  "id": "ask_tutor_when_unsure",
+  "label": "Ask your tutor if unsure",
+  "facet": "support",
+  "fate": "support forms: named_academic_support (only if presented as help)"
+ },
+ {
+  "id": "do_not_enter_personal_or_sensitive_data",
+  "label": "Do not enter personal or confidential data",
+  "facet": "data_and_tools",
+  "fate": "data class personal"
+ },
+ {
+  "id": "personal_or_confidential_data_only_under_stated_conditions",
+  "label": "Data only with approval or safeguards",
+  "facet": "data_and_tools",
+  "fate": "data class personal, stance conditional"
+ },
+ {
+  "id": "do_not_upload_university_teaching_materials",
+  "label": "Do not upload university teaching materials",
+  "facet": "data_and_tools",
+  "fate": "data class university_materials"
+ },
+ {
+  "id": "do_not_upload_copyright_or_third_party_material",
+  "label": "Mind copyright when uploading others' work",
+  "facet": "data_and_tools",
+  "fate": "data class third_party_copyright"
+ },
+ {
+  "id": "do_not_put_own_work_into_ai_tools",
+  "label": "Do not put own work into AI",
+  "facet": "data_and_tools",
+  "fate": "data class own_work"
+ },
+ {
+  "id": "get_consent_before_recording_or_transcribing_others",
+  "label": "Get consent before recording or transcribing others",
+  "facet": "data_and_tools",
+  "fate": "data class recordings"
+ },
+ {
+  "id": "comply_with_data_protection_law_and_policy",
+  "label": "Comply with data protection law and policy",
+  "facet": "data_and_tools",
+  "fate": "data: legal duty"
+ },
+ {
+  "id": "ai_tools_may_store_or_train_on_inputs",
+  "label": "AI tools may keep or train on input",
+  "facet": "data_and_tools",
+  "fate": "tool property: stores or trains on inputs"
+ },
+ {
+  "id": "provided_tool_has_data_protection_assurances",
+  "label": "Provided tool has data protection assurances",
+  "facet": "data_and_tools",
+  "fate": "tool property: assurances"
+ },
+ {
+  "id": "institution_provides_or_recommends_tool",
+  "label": "Institution provides, recommends or requires a tool",
+  "facet": "data_and_tools",
+  "fate": "tool status: provided"
+ },
+ {
+  "id": "institution_does_not_endorse_or_provide_listed_tools",
+  "label": "Institution does not endorse listed AI tools",
+  "facet": "data_and_tools",
+  "fate": "tool status: not endorsed"
+ },
+ {
+  "id": "disable_or_avoid_built_in_ai_features",
+  "label": "Turn off or avoid built-in AI features",
+  "facet": "data_and_tools",
+  "fate": "tool status: built-in features"
+ },
+ {
+  "id": "passing_off_ai_work_as_own_is_misconduct",
+  "label": "Presenting AI work as own is misconduct",
+  "facet": "integrity",
+  "fate": "what counts as misconduct: passing_off"
+ },
+ {
+  "id": "use_beyond_permitted_is_misconduct",
+  "label": "Use beyond what is permitted is misconduct",
+  "facet": "integrity",
+  "fate": "what counts: beyond_permitted"
+ },
+ {
+  "id": "fabricated_references_or_data_is_misconduct",
+  "label": "Fabricated references or data is misconduct",
+  "facet": "integrity",
+  "fate": "what counts: fabrication"
+ },
+ {
+  "id": "using_ai_or_tools_to_disguise_ai_use",
+  "label": "Using tools to disguise AI use",
+  "facet": "integrity",
+  "fate": "what counts: disguise"
+ },
+ {
+  "id": "misconduct_terms_defined",
+  "label": "Misconduct terms defined",
+  "facet": "integrity",
+  "fate": "definitions"
+ },
+ {
+  "id": "penalties_for_ai_misconduct_stated",
+  "label": "Penalties for AI misconduct stated",
+  "facet": "integrity",
+  "fate": "outcome: penalties"
+ },
+ {
+  "id": "sanction_tariff_and_penalty_factors",
+  "label": "Penalty tariff, repeat offences and factors",
+  "facet": "integrity",
+  "fate": "outcome: tariff"
+ },
+ {
+  "id": "first_or_minor_offence_handled_educatively",
+  "label": "First offences handled educatively",
+  "facet": "integrity",
+  "fate": "outcome: educative first offence"
+ },
+ {
+  "id": "strict_liability_ignorance_no_defence",
+  "label": "Ignorance or accident is no defence",
+  "facet": "integrity",
+  "fate": "rule: strict liability"
+ },
+ {
+  "id": "oral_viva_or_panel_to_verify_authorship",
+  "label": "Oral questioning to verify authorship",
+  "facet": "integrity",
+  "fate": "process: viva"
+ },
+ {
+  "id": "fair_process_and_appeal_rights_in_misconduct_cases",
+  "label": "Fair process and right to appeal",
+  "facet": "integrity",
+  "fate": "process: appeal"
+ },
+ {
+  "id": "specialist_referral_or_investigation_process",
+  "label": "Referral and investigation process for AI cases",
+  "facet": "integrity",
+  "fate": "process: referral"
+ },
+ {
+  "id": "ai_use_may_be_detected_by_staff_or_software",
+  "label": "AI use may be spotted or detected",
+  "facet": "integrity",
+  "fate": "detection: may be detected"
+ },
+ {
+  "id": "ai_detectors_not_to_be_used",
+  "label": "AI detection tools not used",
+  "facet": "integrity",
+  "fate": "detection: not used"
+ },
+ {
+  "id": "ai_detectors_unreliable_not_sole_basis",
+  "label": "AI detectors unreliable, not sole evidence",
+  "facet": "integrity",
+  "fate": "detection: unreliable"
+ },
+ {
+  "id": "ai_detector_reports_interpretation_or_handling",
+  "label": "How detector reports are handled",
+  "facet": "integrity",
+  "fate": "detection: handling"
+ },
+ {
+  "id": "ai_output_may_be_wrong_so_verify_it",
+  "label": "AI output can be wrong: check it",
+  "facet": "risks_and_responsibility",
+  "fate": "risk: accuracy"
+ },
+ {
+  "id": "student_responsible_for_ai_content",
+  "label": "You are responsible for AI-derived content",
+  "facet": "risks_and_responsibility",
+  "fate": "responsibility: student"
+ },
+ {
+  "id": "bias_and_exclusion_risks_to_consider",
+  "label": "Consider bias and exclusion in AI",
+  "facet": "risks_and_responsibility",
+  "fate": "risk: bias"
+ },
+ {
+  "id": "ai_environmental_impact",
+  "label": "AI has an environmental cost",
+  "facet": "risks_and_responsibility",
+  "fate": "risk: environment"
+ },
+ {
+  "id": "ai_draws_on_others_work_without_credit_or_consent",
+  "label": "AI draws on others' work without credit",
+  "facet": "risks_and_responsibility",
+  "fate": "risk: others' work"
+ },
+ {
+  "id": "ensure_equal_access_to_ai_tools",
+  "label": "Ensure equal access to AI tools",
+  "facet": "risks_and_responsibility",
+  "fate": "risk: equal access"
+ },
+ {
+  "id": "ai_should_support_not_replace_own_thinking",
+  "label": "AI should support, not replace, your thinking",
+  "facet": "risks_and_responsibility",
+  "fate": "principle: own thinking"
+ },
+ {
+  "id": "staff_must_state_ai_expectations_in_assessments",
+  "label": "Staff must state AI expectations clearly",
+  "facet": "roles_and_governance",
+  "fate": "staff duty"
+ },
+ {
+  "id": "assessment_redesigned_to_test_process_and_understanding",
+  "label": "Assessment redesigned to test own understanding",
+  "facet": "roles_and_governance",
+  "fate": "assessment design"
+ },
+ {
+  "id": "staff_not_to_use_ai_to_grade_or_give_feedback",
+  "label": "Staff should not use AI to mark",
+  "facet": "roles_and_governance",
+  "fate": "staff duty"
+ },
+ {
+  "id": "staff_should_disclose_own_ai_use",
+  "label": "Staff should disclose their own AI use",
+  "facet": "roles_and_governance",
+  "fate": "staff duty"
+ },
+ {
+  "id": "ai_governance_or_oversight_described",
+  "label": "AI governance or oversight described",
+  "facet": "roles_and_governance",
+  "fate": "governance"
+ },
+ {
+  "id": "students_involved_in_shaping_ai_policy",
+  "label": "Students have a voice in shaping AI policy",
+  "facet": "roles_and_governance",
+  "fate": "governance: student voice"
+ },
+ {
+  "id": "research_use_of_ai_needs_ethics_approval_or_consent",
+  "label": "Research use of AI needs ethics approval",
+  "facet": "roles_and_governance",
+  "fate": "research ethics"
+ }
+]
