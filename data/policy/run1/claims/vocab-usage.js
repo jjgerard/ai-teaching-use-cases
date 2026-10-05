@@ -1,5 +1,5 @@
 const fs=require('fs');const rd=f=>JSON.parse(fs.readFileSync('data/policy/'+f));
-const V=rd('run1/claims/statement-types.v1.json').types,C=rd('claims.json'),P=rd('presence.json');
+const V=rd('run1/claims/statement-types.v2.json').types,C=rd('claims.json'),P=rd('presence.json');
 const N=new Set(C.map(r=>r.doc_id)).size;
 const ext={},aud={},uns={},fit={},pts={};
 for(const r of C){for(const t of [r.claim,r.claim2])if(t&&t!=='unclassified'){(ext[t]??=new Set()).add(r.doc_id);pts[t]=(pts[t]||0)+1;(fit[t]??={clear:0,partial:0,none:0})[r.fit]++}}

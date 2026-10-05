@@ -1,0 +1,67 @@
+{
+ "docs": 12,
+ "cells": 132,
+ "exact_three_state_pct": 93,
+ "found_vs_not_found_pct": 98,
+ "found_by_both": 14,
+ "found_by_either": 17,
+ "jaccard_found_pct": 82,
+ "kappa_found": 0.89,
+ "per_type": {
+  "use_library_sources_not_ai_for_facts": {
+   "both": 0,
+   "either": 0
+  },
+  "do_not_put_own_work_into_ai_tools": {
+   "both": 1,
+   "either": 1
+  },
+  "misconduct_terms_defined": {
+   "both": 3,
+   "either": 3
+  },
+  "sanction_tariff_and_penalty_factors": {
+   "both": 1,
+   "either": 1
+  },
+  "ai_detector_reports_interpretation_or_handling": {
+   "both": 1,
+   "either": 1
+  },
+  "using_ai_or_tools_to_disguise_ai_use": {
+   "both": 1,
+   "either": 2
+  },
+  "placement_or_client_rules_apply": {
+   "both": 1,
+   "either": 1
+  },
+  "ai_governance_or_oversight_described": {
+   "both": 2,
+   "either": 4
+  },
+  "ai_literacy_built_into_curriculum": {
+   "both": 2,
+   "either": 2
+  },
+  "specialist_referral_or_investigation_process": {
+   "both": 1,
+   "either": 1
+  },
+  "separate_guidance_for_researchers_or_publication": {
+   "both": 1,
+   "either": 1
+  }
+ },
+ "differences": [
+  "arts-plymouth-students ai_governance_or_oversight_describ: unsure vs found",
+  "birmingham-students-ge ai_governance_or_oversight_describ: absent vs unsure",
+  "essex-students-genai-2 ai_literacy_built_into_curriculum: absent vs unsure",
+  "manchester-students-ge sanction_tariff_and_penalty_factor: unsure vs absent",
+  "manchester-students-ge ai_governance_or_oversight_describ: found vs unsure",
+  "york-st-john-students- use_library_sources_not_ai_for_fac: unsure vs absent",
+  "york-st-john-students- using_ai_or_tools_to_disguise_ai_u: unsure vs found",
+  "york-st-john-students- ai_governance_or_oversight_describ: absent vs unsure",
+  "york-st-john-students- specialist_referral_or_investigati: absent vs unsure"
+ ]
+}
