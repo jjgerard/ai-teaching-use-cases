@@ -1,0 +1,50 @@
+{
+ "doc_id": "ucb-students-genai-202610",
+ "coder": "cmp-c4",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Unauthorised AI use in formal assessments may be considered as academic misconduct, depending on its use and advantage.",
+   "anchor": null
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": false,
+   "quote": "Uploading confidential or personal data without approval",
+   "anchor": "6. Prohibited Uses"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "AI must not be used in ways that misrepresent competence or authenticity.",
+   "anchor": "5.2 Employability and Recruitment"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The appropriate route for investigation will depend on the nature and context of the suspected misuse.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Academic penalties",
+   "anchor": null
+  }
+ ],
+ "definitions": [
+  {
+   "term": "AI",
+   "ai_named": true,
+   "quote": "For the purposes of this policy, AI refers to systems that generate new outputs in formats such as text, images, audio, or video."
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "doc_id": "ucb-students-genai-202610",
+ "coder": "cmp-c4",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "AI must not be used to generate assessed work unless explicitly permitted",
+   "anchor": "5.1 Student Learning and Assessment"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "AI may be used to support preparation activities (e.g. drafting CVs, interview practice, and labour market research), provided its use enhances understanding and does not replace the development of a student’s own skills and judgement.",
+   "anchor": "5.2 Employability and Recruitment"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "AI may be used to support preparation activities (e.g. drafting CVs, interview practice, and labour market research), provided its use enhances understanding and does not replace the development of a student’s own skills and judgement.",
+   "anchor": "5.2 Employability and Recruitment"
+  },
+  {
+   "use": "harmful_or_deceptive_content",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Harassment, discrimination, or deceptive practices (e.g. deepfakes)",
+   "anchor": "6. Prohibited Uses",
+   "ai_named": false
+  },
+  {
+   "use": "job_applications",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "AI may be used to support preparation activities (e.g. drafting CVs, interview practice, and labour market research), provided its use enhances understanding and does not replace the development of a student’s own skills and judgement.",
+   "anchor": "5.2 Employability and Recruitment",
+   "tier": "Preparation",
+   "ai_named": true
+  },
+  {
+   "use": "job_applications",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "The use of AI to generate or substantially assist responses in live recruitment activities (including interviews, assessment centres, or timed tasks) is inappropriate unless explicitly permitted by the employer.",
+   "anchor": "5.2 Employability and Recruitment",
+   "tier": "Live recruitment",
+   "ai_named": true
+  },
+  {
+   "use": "job_applications",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI must not be used in ways that misrepresent competence or authenticity.",
+   "anchor": "5.2 Employability and Recruitment",
+   "tier": "Misrepresentation",
+   "ai_named": true
+  },
+  {
+   "use": "harmful_or_deceptive_content",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generating or spreading misinformation",
+   "anchor": "6. Prohibited Uses",
+   "tier": "Misinformation",
+   "ai_named": false
+  },
+  {
+   "use": "harmful_or_deceptive_content",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use of AI for illegal, harmful, or unethical purposes",
+   "anchor": "6. Prohibited Uses",
+   "tier": "Illegal or harmful",
+   "ai_named": true
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Use must be clearly acknowledged"
+  },
+  "contents": [
+   {
+    "value": "extent_or_scope",
+    "quote": "The nature and extent of AI use must be explained"
+   },
+   {
+    "value": "learning_reflection",
+    "quote": "Reflections on the quality of AI outputs should be explored"
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

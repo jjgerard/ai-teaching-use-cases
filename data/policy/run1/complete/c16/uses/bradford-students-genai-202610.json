@@ -1,0 +1,54 @@
+{
+ "doc_id": "bradford-students-genai-202610",
+ "coder": "cmp-c16",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using generative AI tools outside the given parameters of the assessment brief without acknowledgement or attribution.",
+   "anchor": "4. Poor Academic Practice versus Academic Misconduct"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsifying or inventing data, information, sources, citations and/or experiences",
+   "anchor": "Academic misconduct",
+   "ai_named": false
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Plagiarism, whereby a student presents someone else's work or ideas as their own without acknowledgement/citation.",
+   "anchor": "4. Poor Academic Practice versus Academic Misconduct",
+   "ai_named": false
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Using generative AI tools outside the given parameters of the assessment brief without acknowledgement or attribution."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Using generative AI tools outside the given parameters of the assessment brief without acknowledgement or attribution."
+  },
+  "exempt": []
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "doc_id": "manchester-metropolitan-students-genai-202610",
+ "coder": "cmp-c17",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You cannot use it to create the assessment itself.",
+   "anchor": "Artificial intelligence and assessments"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Unless you are advised it is acceptable, don't use it.",
+   "anchor": "What are the pitfalls of using generative AI?"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You should never trust the outputs of generative AI uncritically.",
+   "anchor": "Artificial intelligence and assessments"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It’s never acceptable to present something produced by a generative AI tool as your own work",
+   "anchor": "What are the pitfalls of using generative AI?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI tools can be useful for developing your subject knowledge and engaging with information presented as fact.",
+   "anchor": "When can I use it?"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "required",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "For students on certain courses, understanding and engaging with AI is essential.",
+   "anchor": "When can I use it?"
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "Unless you are advised it is acceptable, don't use it."
+ },
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "Our default position on the use of generative AI and broader AI tools is explained in detail in the Are you allowed to use AI in assessments? section of the pack."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "It is critical that you only use AI as directed in the assessment brief"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "tutors may encourage a critical engagement with generative AI in certain settings"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "you should refer to the Library guidance on referencing generative AI in your assessments"
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "This will be investigated on a case-by-case basis under the Academic Misconduct Policy, and the penalty will depend on the severity of the case."
+  },
+  "exempt": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "doc_id": "bath-students-genai-202610",
+ "coder": "cmp-c16",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools can be useful to support your learning, for example to help inspire ideas and find information quickly.",
+   "anchor": "Using AI tools"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools can be useful to support your learning, for example to help inspire ideas and find information quickly.",
+   "anchor": "Using AI tools"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "If you are considering using GenAI tools as part of an assessment, you should check whether this is permitted, in line with the University's Academic Integrity Statement.",
+   "anchor": "Academic Integrity in the Context of GenAI"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "If you are unsure about using AI tools for your work, please talk to your lecturer or tutor to check their expectations."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

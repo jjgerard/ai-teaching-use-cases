@@ -1,0 +1,78 @@
+{
+ "doc_id": "estate-management-students-genai-202610",
+ "coder": "cmp-c7",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "other_rules_apply"
+   ],
+   "quote": "Following University of the Built Environment guidance on the appropriate use of generative Artificial Intelligence, and accurately declaring its usage;",
+   "anchor": "Assessment Production and submission"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "This occurs when the work of others, including content created by generative Artificial Intelligence systems (AI), is not cited or referenced, with the intention of convincing the marker or other readers that it is your own work.",
+   "anchor": "Types of academic misconduct"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This involves any means whereby a person or generative Artificial Intelligence does work (in whole or in part) on your behalf which you intentionally pass off as your own work.",
+   "anchor": "Types of academic misconduct"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsification of data or making false declarations – Questionnaire results, interviews or other data that are expected to be obtained truthfully are made up or altered.",
+   "anchor": null,
+   "ai_named": false
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Using generative Artificial Intelligence outside of appropriate usage guidance, and not declaring usage accurately;",
+   "anchor": "Assessment production and submission",
+   "tier": "Poor practice"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Identifying and following guidance on appropriate use of generative Artificial Intelligence for the assessment;"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Following University of the Built Environment guidance on the appropriate use of generative Artificial Intelligence, and accurately declaring its usage;"
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "This occurs when the work of others, including content created by generative Artificial Intelligence systems (AI), is not cited or referenced, with the intention of convincing the marker or other readers that it is your own work."
+  },
+  "exempt": []
+ }
+}

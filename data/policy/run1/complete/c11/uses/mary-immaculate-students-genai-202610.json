@@ -1,0 +1,234 @@
+{
+ "doc_id": "mary-immaculate-students-genai-202610",
+ "coder": "cmp-c11",
+ "uses": [
+  {
+   "use": "check_language",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Generative AI can be used to check for errors in spelling, punctuation, syntax, and/or incorrect word choices.",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "You can consult with Generative AI to get feedback on the structuring of your assignment or to get recommendations of how you might arrange your ideas and arguments within a skeleton structure.",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Try using AI to get feedback on your assignment, particularly around the clarity of your writing.",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "AI can be used as a study aid for exams or tests by having it develop mock exams and quizzes for you.",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "AI can be used to create podcasts based on your weekly academic readings.",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Using AI-powered research tools like Research Rabbit can enable you to find new sources and organise your source materials.",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "use": "format_references",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "AI can help you to check that your references are properly formatted.",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "AI can take information that you may wish to present in another form and transform it into a graphic representation. Just don't forget to reference it!",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "study",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Be sure to prioritise your own academic judgement, the academic judgement of your lecturer and the scholarly works you have engaged with over a Generative AI output.",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "using technical assistance in assignments where it has not been authorised, e.g. using translation software in a translation assignment.",
+   "anchor": "Academic Misconduct and Generative AI"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "This includes content produced by GenAI.",
+   "anchor": "Academic Integrity Considerations"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "There is currently no policy in the College that prohibits students from using generative artificial intelligence (GenAI), if its use aligns with the values of academic integrity.",
+   "anchor": "Policy Considerations"
+  },
+  {
+   "use": "any_use",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "The below recommendations for possible AI use are subject to approval from your lecturer",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Students cannot be penalised for the appropriately cited use of GenAI, unless prior communication has been issued to them advising that GenAI was not to be used for a particular assessment.",
+   "anchor": "Policy Considerations"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "In the case where students are required to use a particular GenAI application as part of an assessment task, it is recommended that students are directed towards institutionally approved tools.",
+   "anchor": "Academic Integrity Considerations"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "where work is being produced within an educational context, it is very important that you put into quotations and cite any materials produced by Generative AI.",
+   "anchor": "Where does Generative AI draw its data from"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The outputs from LLM powered Generative AIs often assume the voice of an expert but their outputs often include false information.",
+   "anchor": "Generative AI Use Case Scenarios"
+  },
+  {
+   "use": "harmful_or_deceptive_content",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This means that students should not use AI in a way that promotes bias, discrimination and data misuse.",
+   "anchor": "Students (EU AI Act compliance)"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "If you are not sure what you are allowed to use, you should speak to your lecturer to ask."
+ },
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "There is currently no policy in the College that prohibits students from using generative artificial intelligence (GenAI), if its use aligns with the values of academic integrity."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Permitted use may vary from module to module and discipline to discipline, depending on the learning objectives that need to be met."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "Permitted use may vary from module to module and discipline to discipline, depending on the learning objectives that need to be met."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Students are bound by the principles of academic integrity to ensure that all writing, ideas, or works quoted or paraphrased in an academic assignment must be attributed and acknowledged to the original source through proper citation. This includes content produced by GenAI."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "This is why it is very important that we cite the Generative AI we use and make sure that any content that is used verbatim is put within quotation marks and referenced."
+  },
+  "consequence": {
+   "value": "safe_if_declared",
+   "quote": "Students cannot be penalised for academic misconduct when appropriately citing the use of GenAI."
+  },
+  "exempt": []
+ }
+}

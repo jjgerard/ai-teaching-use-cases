@@ -1,0 +1,60 @@
+{
+ "batch": "c2",
+ "unmapped": [
+  {
+   "doc_id": "leedstrinity-students-genai-202610",
+   "quote": "we will invest in the development of AI literacy skills for everyone to understand how to use these tools responsibly and effectively.",
+   "what_it_says": "Planned AI literacy development for 'everyone'; audience and form unclear, not coded as support."
+  },
+  {
+   "doc_id": "portsmouth-students-genai-202610",
+   "quote": "If you skip this dropbox, you can submit the assignment but it won't have an attached declaration, which may be reported.",
+   "what_it_says": "Skipping the declaration still allows submission but may be reported; fits no consequence value."
+  },
+  {
+   "doc_id": "southampton-solent-students-genai-202610",
+   "quote": "Students and staﬀ are not permitted to upload student\nassessments or any identiﬁable data to AI applications for any reason (this includes attempts\nto check for AI generated content).",
+   "what_it_says": "Upload ban incl. checking for AI content; data_or_upload_breach already held under 8.10 so one row per value."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "strath-students-genai-202610",
+   "note": "Not coded: 'could be unethical' wording (unauthorised/undeclared use) is ethics, not an offence statement; misconduct procedure referenced only as penalty line already held. External Sydney module not counted as institutional support."
+  },
+  {
+   "doc_id": "southampton-solent-students-genai-202610",
+   "note": "Not coded: glossary terms are technical AI terms, not misconduct definitions; 8.7 open discussions without penalty judged too loose for informal_conversation. Existing any_use/assessed_work and 5.3 row use different contexts."
+  },
+  {
+   "doc_id": "portsmouth-students-genai-202610",
+   "note": "Informal_conversation row (lecturers may contact you) is a loose fit; remove if judged a stretch. Staff-held declaration record is not a student records duty."
+  },
+  {
+   "doc_id": "leedstrinity-students-genai-202610",
+   "note": "No additions; scope none retained."
+  }
+ ],
+ "added": {
+  "portsmouth-students-genai-202610": {
+   "uses": 6,
+   "support": 0,
+   "misconduct": 2
+  },
+  "leedstrinity-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "strath-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  },
+  "southampton-solent-students-genai-202610": {
+   "uses": 8,
+   "support": 0,
+   "misconduct": 1
+  }
+ }
+}

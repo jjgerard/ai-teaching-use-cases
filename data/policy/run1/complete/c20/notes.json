@@ -1,0 +1,40 @@
+{
+ "batch": "c20",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "cardiff-metropolitan-students-genai-202610",
+   "note": "Scope corrected none to ai_specific on the strength of the 'must not submit AI-generated content as their own' wording."
+  },
+  {
+   "doc_id": "goldsmiths-london-students-genai-202610",
+   "note": "Tab labels (Translation and Transcription, AI in Assessment) name topics but state no stance, so no use rows."
+  },
+  {
+   "doc_id": "tcd-students-genai-202610",
+   "note": "Nothing further the vocabularies can hold."
+  }
+ ],
+ "added": {
+  "cardiff-metropolitan-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 1
+  },
+  "goldsmiths-london-students-genai-202610": {
+   "uses": 0,
+   "support": 1,
+   "misconduct": 0
+  },
+  "stir-students-genai-202610": {
+   "uses": 0,
+   "support": 1,
+   "misconduct": 0
+  },
+  "tcd-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

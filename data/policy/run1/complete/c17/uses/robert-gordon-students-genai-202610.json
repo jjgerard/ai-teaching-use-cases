@@ -1,0 +1,104 @@
+{
+ "doc_id": "robert-gordon-students-genai-202610",
+ "coder": "cmp-c17",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "It is your responsiblity to check your assignment brief and ensure that the use of AI tools is permitted within an assignment",
+   "anchor": "Generative AI"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Any use of AI tools, including idea and content generation or helping you to plan or develop an assignment, must be acknowledged as a source.",
+   "anchor": "Generative AI"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Any use of AI tools, including idea and content generation or helping you to plan or develop an assignment, must be acknowledged as a source.",
+   "anchor": "Generative AI"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Any use of AI tools, including idea and content generation or helping you to plan or develop an assignment, must be acknowledged as a source.",
+   "anchor": "Generative AI"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "We advise that you follow the template above for any content that you have generated from an AI tool.",
+   "anchor": "Other Examples and Questions"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "The use of generative AI within assignments must comply with RGU guidance."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "It is your responsiblity to check your assignment brief and ensure that the use of AI tools is permitted within an assignment"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Any use of AI tools, including idea and content generation or helping you to plan or develop an assignment, must be acknowledged as a source."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "Author. (Year). Title of Generative AI tool (Version number) [Large Language Model]. Source."
+   },
+   {
+    "value": "tool_version",
+    "quote": "Author. (Year). Title of Generative AI tool (Version number) [Large Language Model]. Source."
+   }
+  ],
+  "location": [
+   {
+    "value": "with_references",
+    "quote": "Instructions are given below on how to reference the legitimate use of AI within assignments"
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "Author. (Year). Title of Generative AI tool (Version number) [Large Language Model]. Source."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

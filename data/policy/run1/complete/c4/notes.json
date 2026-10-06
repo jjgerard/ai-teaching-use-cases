@@ -1,0 +1,47 @@
+{
+ "batch": "c4",
+ "unmapped": [
+  {
+   "doc_id": "bristol-students-genai-202610",
+   "quote": "Do not upload university-sensitive data into AI tools unless you have been given permission by academic staff.",
+   "what_it_says": "Data upload rule (intellectual property, personal information, research data) needing staff permission; data vocabulary, not uses."
+  },
+  {
+   "doc_id": "ucb-students-genai-202610",
+   "quote": "Inappropriate or unethical use of AI in recruitment contexts may result in:",
+   "what_it_says": "Recruitment misuse can lead to disqualification or withdrawal of job offers; non-academic outcome with no outcome value."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "ucb-students-genai-202610",
+   "note": "Existing revise_or_practise and find_sources rows are drawn from the employability sentence and are loose fits; not edited."
+  },
+  {
+   "doc_id": "national-ireland-students-genai-202610",
+   "note": "Existing consequence row quotes the dishonesty definition rather than a missing-acknowledgement rule; not edited."
+  }
+ ],
+ "added": {
+  "bristol-students-genai-202610": {
+   "uses": 2,
+   "support": 1,
+   "misconduct": 0
+  },
+  "ucb-students-genai-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 3
+  },
+  "westminster-students-genai-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 0
+  },
+  "national-ireland-students-genai-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

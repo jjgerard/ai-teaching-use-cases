@@ -1,0 +1,105 @@
+{
+ "doc_id": "sunderland-students-genai-202610",
+ "coder": "cmp-c18",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "However, your lecturer will specify how much or little Gen-AI use is accepted with each assignment.",
+   "anchor": "Referencing Gen-AI"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "If you are using AI to plan or develop your work, you must acknowledge it.",
+   "anchor": "OSCOLA Referencing"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Include an in-text citation and reference.",
+   "anchor": "Referencing Gen-AI"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Do not rely on Gen-AI for research purposes.",
+   "anchor": "Referencing Gen-AI"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "your lecturer will specify how much or little Gen-AI use is accepted with each assignment."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "your lecturer will specify how much or little Gen-AI use is accepted with each assignment."
+  },
+  {
+   "value": "institution_wide",
+   "quote": "Our stand at the University of Sunderland on Gen-AI is an Assist-Not Do approach."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Transparency is Key: Always acknowledge the use of AI tools in your work."
+  },
+  "contents": [
+   {
+    "value": "prompts",
+    "quote": "an appendix of Gen-AI prompts and outputs"
+   },
+   {
+    "value": "outputs",
+    "quote": "an appendix of Gen-AI prompts and outputs"
+   },
+   {
+    "value": "tool_name",
+    "quote": "Provide the name of the AI"
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "this could include a signed declaration of Gen-AI usage"
+   },
+   {
+    "value": "appendix",
+    "quote": "an appendix of Gen-AI prompts and outputs"
+   },
+   {
+    "value": "with_references",
+    "quote": "As well as referencing this could include a signed declaration of Gen-AI usage"
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "Include an in-text citation and reference."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

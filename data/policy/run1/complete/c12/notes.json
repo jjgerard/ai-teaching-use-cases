@@ -1,0 +1,60 @@
+{
+ "batch": "c12",
+ "unmapped": [
+  {
+   "doc_id": "manchester-students-genai-202610",
+   "quote": "Students must not upload any University of Manchester owned materials, including lecture – recordings, slides, question papers, handouts or any other copyrighted resources to external AI tools.",
+   "what_it_says": "Bans uploading university-owned materials to external AI tools (data/tool rule, no offence stated)."
+  },
+  {
+   "doc_id": "birmingham-students-genai-202610",
+   "quote": "You should not upload content to Generative AI tools, or social media platforms, without the permission of the copyright holder.",
+   "what_it_says": "Copyright upload rule; no offence or sanction stated."
+  },
+  {
+   "doc_id": "royal-agricultural-students-genai-202610",
+   "quote": "I certify that I have not used any Generative Artificial Intelligence tools in the preparation of this work.",
+   "what_it_says": "Cover-sheet declaration option of no AI use; not a rule on use."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "bishop-grosseteste-students-genai-202610",
+   "note": "Scope kept as general_misconduct: it is a general misconduct code with one AI clause (2.3.8). Existing check_language row marked permitted, while the quote makes that use the exception to the ban; left unchanged."
+  },
+  {
+   "doc_id": "birmingham-students-genai-202610",
+   "note": "Existing default_when_silent prohibit_all rests on a Code rule that AI output is barred unless authorised; left as is. No new support forms: remaining candidates repeat forms already coded (one row per form)."
+  },
+  {
+   "doc_id": "manchester-students-genai-202610",
+   "note": "No new support forms; the discipline-specific guidance line is a planned guide but the guide form is already held. Misconduct outcome 'accounted for through the marking process' not coded as mark_reduction (not explicit)."
+  },
+  {
+   "doc_id": "royal-agricultural-students-genai-202610",
+   "note": "Document is a general assessment code; AI wording is only the cover-sheet declaration. Existing duty always_required rests on the declaration requirement. No misconduct offences stated for AI."
+  }
+ ],
+ "added": {
+  "manchester-students-genai-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 2
+  },
+  "bishop-grosseteste-students-genai-202610": {
+   "uses": 2,
+   "support": 0,
+   "misconduct": 4
+  },
+  "birmingham-students-genai-202610": {
+   "uses": 10,
+   "support": 0,
+   "misconduct": 1
+  },
+  "royal-agricultural-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 1
+  }
+ }
+}

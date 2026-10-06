@@ -1,0 +1,99 @@
+{
+ "doc_id": "cumbria-students-genai-202610",
+ "coder": "cmp-c14",
+ "uses": [
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission",
+    "limited_extent"
+   ],
+   "quote": "However, these tools should not be used to translate entire paragraphs or full assignments.",
+   "anchor": "Can I use GenAI as a translation tool?"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Students should also avoid recording lessons or discussions without explicit permission.",
+   "anchor": "Can I use GenAI as a translation tool?"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "There may be legitimate uses of generative AI in your subject area that are outlined on your module assessment brief or that you can discuss with your tutors.",
+   "anchor": "Academic regulations & Referencing generative AI"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "needs_permission"
+   ],
+   "quote": "Using GenAI to generate work that is submitted for assessment without any acknowledgement and against any directives from tutors, is a form of malpractice.",
+   "anchor": "Academic regulations & Referencing generative AI"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Therefore Gen AI tools should be used with caution as there are serious limitations to some of the content they generate currently, such as drawing on biased, inaccurate sources or producing hallucinations.",
+   "anchor": "How does generative AI work? Is it reliable?"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generally speaking, using Microsoft CoPilot as a translation tool may support students in understanding content, expressing ideas, or developing language skills.",
+   "anchor": "Can I use GenAI as a translation tool?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "There may be legitimate uses of generative AI in your subject area that are outlined on your module assessment brief or that you can discuss with your tutors."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Any use of translation tools in UK universities is typically determined by tutors, course leaders, or supervisors and will depend on the nature of the programme of study."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "recommended",
+   "quote": "Students should be transparent about any use of AI or translation tools and are strongly advised to consult tutors before using them."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Guidance on how to cite and reference legitimate uses of generative AI has been updated in the 13th edition of Cite them right and is now available via print versions of Cite them Right or Cite them Right online."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Using GenAI to generate work that is submitted for assessment without any acknowledgement and against any directives from tutors, is a form of malpractice."
+  },
+  "exempt": []
+ }
+}

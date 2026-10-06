@@ -1,0 +1,309 @@
+{
+ "doc_id": "regents-london-students-genai-202610",
+ "coder": "cmp-c13",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "This may also include the use of Artificial Intelligence (AI) tools beyond what is permitted in the assessment instructions.",
+   "anchor": "2.2"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Plagiarism is presenting someone else’s work or ideas as your own.",
+   "anchor": "2.2"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "This includes self- plagiarism which involves submitting the same work that you have previously submitted for another assessment where this is not allowed.",
+   "anchor": "2.2"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating is having another person complete an assessment for you (whether a whole assessment or a part).",
+   "anchor": "2.4"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Theft includes taking a copy of another student’s work without their permission.",
+   "anchor": "2.5"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion is where you present work as your own that has been done in unauthorised partnership with someone else",
+   "anchor": "2.6"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fraud includes faking (or presenting faked) data, references, evidence, or experimental results",
+   "anchor": "2.7"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "or having someone else take your place in an assessment or University process.",
+   "anchor": "2.7"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Cheating in an assessment includes having unauthorised material or technology during an examination",
+   "anchor": "2.8"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "How you can use AI tools in your work will be described in your assessment brief and where you have used this, it must be appropriately referenced.",
+   "anchor": "2.10"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "We take a strict liability approach to determining academic misconduct.",
+   "anchor": "1.6"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "we can consider your intentions when determining what penalty may be applied, if academic misconduct has occurred.",
+   "anchor": "1.8"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor academic practice is usually a result of a lack of adequate study skills and knowledge of academic conventions.",
+   "anchor": "2.1"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "use relevant technology (including plagiarism detection software) on all electronically submitted text-based assessment work",
+   "anchor": "3.1b"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Where additional clarity is needed, we may hold a viva voce (‘viva’).",
+   "anchor": "6.1"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "we will likely ask you for your notes, draft assessment plan, or earlier versions of your assessment to show how you developed your work into the final submission.",
+   "anchor": "1.7"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Identifying suspected academic misconduct will usually require an academic judgment which must be evidence-based.",
+   "anchor": "1.9"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Further action is required. This means that you will be referred to the Stage One Academic Misconduct Panel.",
+   "anchor": "8.3"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "An investigation may take place after suspected academic misconduct has been identified where there is sufficient information to merit further enquiry before a decision can be reached.",
+   "anchor": "7.1"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "give you the right to present information and/or evidence in support of your response to an allegation of academic misconduct",
+   "anchor": "3.1e"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "You will be invited to explain what has happened and the Panel can ask questions to help them determine whether the alleged misconduct has occurred.",
+   "anchor": "9.6"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If you cannot attend, we may choose to go ahead without you present.",
+   "anchor": "9.3"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "You have the right to access our Student Union (StudentUnion@Regents.ac.uk) for support and guidance at any stage.",
+   "anchor": "3.5"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "You have the right to appeal the decision of the Academic Misconduct Panel if you can demonstrate that one or more of the grounds for appeal apply to you.",
+   "anchor": "10.1"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Your appeal must be submitted within ten working days of receipt of any Stage One outcome",
+   "anchor": "10.3"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "To establish that academic misconduct has taken place, the evidence against you must meet the balance of probabilities.",
+   "anchor": "1.5"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "We keep a record of warnings issued.",
+   "anchor": "16.1a"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "the Panel considers it would be helpful for you to complete academic integrity training to improve your practice and/or receive a warning.",
+   "anchor": "9.8b"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "A warning can be issued at at any time as an advisory note to you about acceptable academic practice.",
+   "anchor": "16.1a"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "The affected assessment component mark will be reduced by 10%.",
+   "anchor": "16.2 table"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "the next attempt is capped at the pass mark.",
+   "anchor": "16.2 table"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Only the failed component(s) need to be taken at the second attempt.",
+   "anchor": "16.2 table"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Module failed. If a core module, you will be withdrawn from your course.",
+   "anchor": "16.2 table"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Withdrawal without academic credit achieved. Ineligible to for return within 5 academic years.",
+   "anchor": "16.2 table"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "The final degree percentage will be reduced by 10% or the next lower overall classification applied",
+   "anchor": "16.2 table"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Penalties usually increase with each upheld case.",
+   "anchor": "16.2"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "An Academic Misconduct Panel may impose the penalty it considers is reasonable and proportionate to the facts of the case.",
+   "anchor": "16.2"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "we may remove any awards previously conferred on you.",
+   "anchor": "15.1"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic Misconduct",
+   "ai_named": false,
+   "quote": "any action or attempted action that may result in a student obtaining an unfair academic advantage in relation to an assessment, including but not limited to plagiarism, unauthorised collaboration and the possession of unauthorised materials during an assessment."
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice (or poor scholarly practice) can happen where you fail to follow an academic convention but you did not attempt to gain an unfair advantage"
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is presenting someone else’s work or ideas as your own."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating is having another person complete an assessment for you (whether a whole assessment or a part)."
+  },
+  {
+   "term": "Theft",
+   "ai_named": false,
+   "quote": "Theft includes taking a copy of another student’s work without their permission."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion is where you present work as your own that has been done in unauthorised partnership with someone else"
+  },
+  {
+   "term": "Strict liability",
+   "ai_named": false,
+   "quote": "Strict liability means that if the case against you is established on a balance of probabilities, you will have committed academic misconduct whether your actions were planned or accidental."
+  },
+  {
+   "term": "Unfair academic advantage",
+   "ai_named": false,
+   "quote": "Unfair academic advantage is any attempt to suggest you have gained knowledge, skills, understanding, or qualification that you have not achieved."
+  },
+  {
+   "term": "Fraud",
+   "ai_named": false,
+   "quote": "Fraud includes faking (or presenting faked) data, references, evidence, or experimental results"
+  },
+  {
+   "term": "Cheating in an assessment",
+   "ai_named": false,
+   "quote": "Cheating in an assessment includes having unauthorised material or technology during an examination or attempting to access unseen assessment materials before an examination."
+  },
+  {
+   "term": "Viva voce",
+   "ai_named": false,
+   "quote": "A viva is an oral examination or interview."
+  },
+  {
+   "term": "Burden of proof",
+   "ai_named": false,
+   "quote": "We have the burden of proof. This means that it is for us to establish that you did what has been alleged."
+  }
+ ]
+}

@@ -1,0 +1,250 @@
+{
+ "doc_id": "bishop-grosseteste-students-genai-202610",
+ "coder": "cmp-c12",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Submitting AI created work as your own may also count as academic misconduct and will be investigated under the Code of Practice for Academic Misconduct.",
+   "anchor": "2.3.8"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Drawing down text in whole or part from Artificial Intelligence (AI) that is more substantial than grammar, spelling and punctuation checks of your original work is not permitted unless specified within the assignment brief.",
+   "anchor": "2.3.8"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Personation is the assumption of the identity of another person with intent to deceive or gain an unfair advantage.",
+   "anchor": "2.3.1"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsification is an attempt to present fictitious or distorted data, evidence, references, citations, or experimental results, and/or to knowingly make use of such material.",
+   "anchor": "2.3.2"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Soliciting or commissioning work (including what is often known as contract cheating) is the seeking to gain unfair advantage by incorporating material in work submitted for assessment that has been commissioned, purchased or obtained from a third party (e.g. essay mills or other students).",
+   "anchor": "2.3.3"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Cheating is any attempt to obtain or give assistance in an examination or an assessment without due acknowledgement (including the use of cheat sheets).",
+   "anchor": "2.3.4"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "It includes aiding and abetting another person to cheat by way of collusion.",
+   "anchor": "2.3.6"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of copying or including in one’s own work, without adequate acknowledgement, intentionally or unintentionally, the work of another, with our without the creator’s permission.",
+   "anchor": "2.3.7"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism is the act of copying or including in one’s own work, without adequate acknowledgement, intentionally or unintentionally, work which the student has submitted previously for assessment at Lincoln Bishop University or another university, in whole or in part.",
+   "anchor": "2.3.9"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Academic misconduct is where the balance of probability indicates any intentional, unintentional or reckless conduct by a student, or students, which results in gaining an unfair advantage or benefit",
+   "anchor": "2.1"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "If there is clear indication that the student intended to gain an unfair advantage, the conduct should be considered as either Major or Gross academic misconduct.",
+   "anchor": "3.2.4"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Careful thought should be given to the case of first-year students since the early period of a student's registration should be regarded as developmental for the purpose of instilling good academic practices",
+   "anchor": "6.5"
+  }
+ ],
+ "detection": [
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The University reserves the right to use oral verification as a method of determining likelihood of academic misconduct.",
+   "anchor": "6.2"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Members of the Panel will ask questions of the student about their submission, for example, asking how the student composed their work/crafted their assignment.",
+   "anchor": "6.10.3"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "the matter will now be the subject of a formal investigation",
+   "anchor": "6.8"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Arrange for an Academic Misconduct Panel to be established consisting of three members of academic staff unconnected with the student's programme",
+   "anchor": "6.9.2"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "Inform the student of the allegation in writing and invite the student to respond in writing within 10 working days, admitting or denying the allegation.",
+   "anchor": "6.9.1"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Advise the student that they have the right to be heard in person and be accompanied at the Panel meeting",
+   "anchor": "6.9.3"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "The Panel shall proceed with or without the attendance of the student concerned, unless the student has established a claim for extenuating circumstances which warrants a deferment of the meeting.",
+   "anchor": "6.9.3"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "Students will be directed to the support services available (including Students’ Union for independent support and advice).",
+   "anchor": "6.3"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Students may appeal against any decision made under this Policy",
+   "anchor": "7.1"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "the appeal must be received by the Faculty Administration Team within 20 working days of the notification of the result to the student.",
+   "anchor": "7.1"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "Academic misconduct is where the balance of probability indicates any intentional, unintentional or reckless conduct by a student",
+   "anchor": "2.1"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "A record of the decision of any Panel and penalties imposed will be retained on the student’s record.",
+   "anchor": "6.14"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "The student is required to attend a session with a member of academic staff (e.g. their personal tutor) to discuss how they can avoid academic misconduct in the future.",
+   "anchor": "6.5"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "any future case of alleged academic misconduct by the student will be deemed deliberate and therefore would be automatically considered under the processes for major/gross academic misconduct",
+   "anchor": "6.5"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "taking into consideration the circumstances of the misconduct, the number of students involved, any record of previous misconduct, the level of the programme on which the student is registered and any mitigating factors",
+   "anchor": "6.12"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "If termination is considered to be appropriate, the Panel will be required to recommend the decision to the Board of Examiners.",
+   "anchor": "6.14"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "Any outcomes imposed that have a consequence on the student’s progression or award will be referred to the Board of Examiners for approval of the relevant sanctions.",
+   "anchor": "6.14"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "the University should inform that body of the outcome of the case.",
+   "anchor": "6.17"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Not misconduct but will result in not meeting assessment criteria and so lower grades.",
+   "anchor": "4.1 Table 1"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Personation",
+   "ai_named": false,
+   "quote": "Personation is the assumption of the identity of another person with intent to deceive or gain an unfair advantage."
+  },
+  {
+   "term": "Falsification",
+   "ai_named": false,
+   "quote": "Falsification is an attempt to present fictitious or distorted data, evidence, references, citations, or experimental results, and/or to knowingly make use of such material."
+  },
+  {
+   "term": "Soliciting or commissioning work",
+   "ai_named": false,
+   "quote": "Soliciting or commissioning work (including what is often known as contract cheating) is the seeking to gain unfair advantage by incorporating material in work submitted for assessment that has been commissioned, purchased or obtained from a third party (e.g. essay mills or other students)."
+  },
+  {
+   "term": "Cheating",
+   "ai_named": false,
+   "quote": "Cheating is any attempt to obtain or give assistance in an examination or an assessment without due acknowledgement (including the use of cheat sheets)."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion occurs where a student submits, with the intent of gaining unfair advantage, work which has been done in collaboration with another person as entirely their own."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of copying or including in one’s own work, without adequate acknowledgement, intentionally or unintentionally, the work of another, with our without the creator’s permission."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism is the act of copying or including in one’s own work, without adequate acknowledgement, intentionally or unintentionally, work which the student has submitted previously for assessment at Lincoln Bishop University or another university, in whole or in part."
+  },
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct is where the balance of probability indicates any intentional, unintentional or reckless conduct by a student, or students, which results in gaining an unfair advantage or benefit, or causes an unfair disadvantage or loss to another student, or students, in pursuit of an academic qualification at the University."
+  },
+  {
+   "term": "Plagiarism through AI",
+   "ai_named": true,
+   "quote": "Drawing down text in whole or part from Artificial Intelligence (AI) that is more substantial than grammar, spelling and punctuation checks of your original work is not permitted unless specified within the assignment brief."
+  }
+ ]
+}

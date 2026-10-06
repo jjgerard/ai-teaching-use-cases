@@ -1,0 +1,44 @@
+{
+ "batch": "c10",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "hull-students-genai-202610",
+   "note": "Existing generate_assessed_text/exams row (conditional needs_permission) and the any_use thesis row kept as is; data-privacy advice (avoid sharing personal details) left out as a data rule."
+  },
+  {
+   "doc_id": "law-students-genai-202610",
+   "note": "Page is strategy and training promotion; no use, misconduct or further support content beyond existing rows."
+  },
+  {
+   "doc_id": "liverpool-hope-students-genai-202610",
+   "note": "ResearchRabbit and LitMaps find-sources statements not added: same key as existing find_sources/unspecified/permitted row. Referencing, checklist and videos fall under existing support forms."
+  },
+  {
+   "doc_id": "de-montfort-students-genai-202610",
+   "note": "Passing_off row kept; no further misconduct or support content."
+  }
+ ],
+ "added": {
+  "de-montfort-students-genai-202610": {
+   "uses": 5,
+   "support": 0,
+   "misconduct": 0
+  },
+  "hull-students-genai-202610": {
+   "uses": 4,
+   "support": 0,
+   "misconduct": 0
+  },
+  "law-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "liverpool-hope-students-genai-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

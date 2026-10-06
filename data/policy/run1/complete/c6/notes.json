@@ -1,0 +1,52 @@
+{
+ "batch": "c6",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "bath-spa-students-genai-202610",
+   "note": "Existing use row include_ai_output_in_work (assessed_work) quote uses a curly apostrophe (don’t) where the snapshot has a straight one, so it is not verbatim; left unchanged."
+  },
+  {
+   "doc_id": "bath-spa-students-genai-202610",
+   "note": "Candidate misconduct offences unauthorised_use and passing_off from the AI and translation tools section (translation over-reliance and submitting tool-written text may be academic misconduct) could not be added: key already used, one row per key. The translation uses are coded as use rows instead."
+  },
+  {
+   "doc_id": "bath-spa-students-genai-202610",
+   "note": "Candidate support rows (ASk as named_academic_support) skipped: form already listed once; Cite them Right added as referencing_help."
+  },
+  {
+   "doc_id": "gloucestershire-students-genai-202610",
+   "note": "Candidate guide_toolkit_or_hub row for the LibGuide page itself skipped: form already listed. find_sources use row rests on the page title and stated purpose (dissertation), a weak inference."
+  },
+  {
+   "doc_id": "oxford-brookes-students-genai-202610",
+   "note": "Candidate guide_toolkit_or_hub row for the AI page skipped: form already listed."
+  },
+  {
+   "doc_id": "southampton-students-genai-202610",
+   "note": "Existing misconduct has passing_off and contract_cheating rows from one quote; data_or_upload_breach added for sharing module materials in a GenAI tool. No further support forms: films and staff links fall under existing guide and staff_development rows."
+  }
+ ],
+ "added": {
+  "bath-spa-students-genai-202610": {
+   "uses": 4,
+   "support": 1,
+   "misconduct": 0
+  },
+  "gloucestershire-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  },
+  "oxford-brookes-students-genai-202610": {
+   "uses": 2,
+   "support": 1,
+   "misconduct": 0
+  },
+  "southampton-students-genai-202610": {
+   "uses": 4,
+   "support": 0,
+   "misconduct": 1
+  }
+ }
+}

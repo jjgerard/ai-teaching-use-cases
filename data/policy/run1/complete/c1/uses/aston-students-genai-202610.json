@@ -1,0 +1,37 @@
+{
+ "doc_id": "aston-students-genai-202610",
+ "coder": "cmp-c1",
+ "uses": [
+  {
+   "use": "delegate_to_ai_agent",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "explicitly prohibits the development, deployment, or integration of agentic AI systems",
+   "anchor": "CODE OF CONDUCT",
+   "ai_named": true
+  },
+  {
+   "use": "harmful_or_deceptive_content",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "scraping; deepfake abuse",
+   "anchor": "Risk-Based Framework",
+   "ai_named": false
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

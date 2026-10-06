@@ -1,0 +1,184 @@
+{
+ "doc_id": "lancashire-students-genai-202610",
+ "coder": "cmp-c14",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generating an assessment in its entirety and submitting it as the student’s own work.",
+   "anchor": "11.6 Unauthorised Use of Technology"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Uploading an assessment to be automatically rewritten or translated, so that the submitted assessment does not reflect the student’s own understandings, thoughts or ideas.",
+   "anchor": "11.6 Unauthorised Use of Technology"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Uploading an assessment to be automatically rewritten or translated, so that the submitted assessment does not reflect the student’s own understandings, thoughts or ideas.",
+   "anchor": "11.6 Unauthorised Use of Technology"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Unauthorised use of any other technological aid, such as translation software, paraphrasing tools, essay bots and generated of graphics or artwork, unless otherwise stated in the assessment brief.",
+   "anchor": "11.6 Unauthorised Use of Technology"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Unauthorised use of any other technological aid, such as translation software, paraphrasing tools, essay bots and generated of graphics or artwork, unless otherwise stated in the assessment brief.",
+   "anchor": "11.6 Unauthorised Use of Technology"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Unauthorised use of any other technological aid, such as translation software, paraphrasing tools, essay bots and generated of graphics or artwork, unless otherwise stated in the assessment brief.",
+   "anchor": "11.6 Unauthorised Use of Technology"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Failing to acknowledge/reference any permitted use of AI within an assessment.",
+   "anchor": "11.6 Unauthorised Use of Technology"
+  },
+  {
+   "use": "disguise_ai_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Attempting to use AI to humanise or attempt to hide the use of AI so that the submitted assessment does not reflect the student’s own understandings, thoughts or ideas.",
+   "anchor": "Academic misconduct",
+   "ai_named": true
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabrication occurs where a student creates data, results or other outputs and presents them as if they were real.",
+   "anchor": "Academic misconduct",
+   "ai_named": false
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Substantial or significant portions of the work submitted are produced by generative AI and therefore no longer reflect the student’s own understandings, thoughts or ideas.",
+   "anchor": "11.6 Unauthorised Use of Technology",
+   "tier": "Substantial portions"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Failing to prevent built-in/preinstalled generative AI applications from producing substantial or significant portions of an assessment, which therefore do not reflect the student’s own understandings, thoughts or ideas.",
+   "anchor": "11.6 Unauthorised Use of Technology",
+   "tier": "Built-in AI"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Failing to follow specific instructions relating to the use of AI within the assessment brief, except for documented inclusive support adjustments.",
+   "anchor": "11.6 Unauthorised Use of Technology",
+   "tier": "Brief instructions"
+  },
+  {
+   "use": "assistive_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Failing to follow specific instructions relating to the use of AI within the assessment brief, except for documented inclusive support adjustments.",
+   "anchor": "11.6 Unauthorised Use of Technology"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Failing to follow specific instructions relating to the use of AI within the assessment brief, except for documented inclusive support adjustments."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "If a student is in any doubt about what is considered acceptable usage of AI within a particular assessment, they should seek guidance from their module leader."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Acknowledge any use of GenAI in their work with appropriate referencing."
+  },
+  "contents": [
+   {
+    "value": "prompts",
+    "quote": "Record how GenAI tools have been used by including screenshots of examples of the prompts used, and the output generated in your assignment coversheet."
+   },
+   {
+    "value": "outputs",
+    "quote": "Record how GenAI tools have been used by including screenshots of examples of the prompts used, and the output generated in your assignment coversheet."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "Record how GenAI tools have been used by including screenshots of examples of the prompts used, and the output generated in your assignment coversheet."
+   }
+  ],
+  "records": {
+   "value": "recommended",
+   "quote": "Keep drafts of work to evidence their thinking and the development of their submission."
+  },
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Failing to acknowledge/reference any permitted use of AI within an assessment."
+  },
+  "exempt": []
+ }
+}

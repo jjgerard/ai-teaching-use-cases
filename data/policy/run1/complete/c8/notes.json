@@ -1,0 +1,46 @@
+{
+ "batch": "c8",
+ "unmapped": [
+  {
+   "doc_id": "herts-students-genai-202610",
+   "quote": "we recommend using University-supported AI tools rather than external alternatives.",
+   "what_it_says": "Recommends institution-provided AI tools over external ones (tool rule, no use value)."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "qmu-students-genai-202610",
+   "note": "Existing uses file has an extra ai_named field on one row; left unchanged. QMU advantage-section use rows are permitted by implication of the section heading."
+  },
+  {
+   "doc_id": "arts-plymouth-students-genai-202610",
+   "note": "Existing misconduct coding treats poor academic practice as unauthorised_use/undeclared_use; arguably not misconduct offences. Left unchanged."
+  },
+  {
+   "doc_id": "huddersfield-students-genai-202610",
+   "note": "Generic unauthorised_use quote (\"not acceptable to use the software to generate content which you hand in\") not added: key already held by existing row."
+  }
+ ],
+ "added": {
+  "huddersfield-students-genai-202610": {
+   "uses": 2,
+   "support": 2,
+   "misconduct": 0
+  },
+  "qmu-students-genai-202610": {
+   "uses": 5,
+   "support": 0,
+   "misconduct": 0
+  },
+  "arts-plymouth-students-genai-202610": {
+   "uses": 2,
+   "support": 0,
+   "misconduct": 0
+  },
+  "herts-students-genai-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

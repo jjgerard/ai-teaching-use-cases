@@ -1,0 +1,26 @@
+{
+ "doc_id": "coventry-students-genai-202610",
+ "coder": "cmp-c9",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "AI tools must not be used to generate your assessment and submit it as if it was your own work.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "You may be required to provide evidence of this such as:",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": []
+}

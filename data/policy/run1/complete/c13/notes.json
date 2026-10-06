@@ -1,0 +1,46 @@
+{
+ "batch": "c13",
+ "unmapped": [
+  {
+   "doc_id": "ucc-students-genai-202610",
+   "quote": "Article 50 of the EU AI Act came into force in August 2026.",
+   "what_it_says": "Legal transparency obligation to disclose AI-generated content; no misconduct or consequence value fits."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "regents-london-students-genai-202610",
+   "note": "Existing use row fabricate_data_or_references (quote: Fraud ...) is general fabrication wording, not AI-named (flagged ai_named false); left unchanged. Added undeclared_use and consequence from 2.10 listed under Types of Academic Misconduct (borderline: no explicit consequence wording)."
+  },
+  {
+   "doc_id": "birmingham-city-students-genai-202610",
+   "note": "Page is mostly navigation labels; DSA, Support available and AI in Placements are bare headings with no stated offer, not coded. Exam-context tier rows added because the page says assessment or exam brief sets the level."
+  },
+  {
+   "doc_id": "cambridge-staff-assessment-202610",
+   "note": "Staff-only items (examiner upload ban, detection advice) not coded as uses. Existing use row 1 is arguably unacknowledged-only wording; left unchanged."
+  }
+ ],
+ "added": {
+  "regents-london-students-genai-202610": {
+   "uses": 2,
+   "support": 0,
+   "misconduct": 8
+  },
+  "ucc-students-genai-202610": {
+   "uses": 4,
+   "support": 0,
+   "misconduct": 2
+  },
+  "birmingham-city-students-genai-202610": {
+   "uses": 4,
+   "support": 0,
+   "misconduct": 0
+  },
+  "cambridge-staff-assessment-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

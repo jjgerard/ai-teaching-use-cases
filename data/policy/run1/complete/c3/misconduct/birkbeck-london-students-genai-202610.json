@@ -1,0 +1,59 @@
+{
+ "doc_id": "birkbeck-london-students-genai-202610",
+ "coder": "cmp-c3",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "If a summative assessment is suspected of academic misconduct, through the inappropriate use of AI tools, it will be progressed in accordance with the College’s Academic Integrity and Misconduct Policy.",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "If you complete this declaration and have not properly referenced AI in your work it will still be flagged for academic integrity.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "Academic staff use the Turnitin originality (AI) checker which flags AI use in an assessment.",
+   "anchor": null
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "if your work is flagged for possible academic misconduct, you may be asked to provide evidence to show that your use was in line with the permitted parameters of the Assessment Brief.",
+   "anchor": null
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "Staff will review the AI Declaration when marking work to ensure you have complied with the permitted use of AI tools including generative AI.",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "If the flag does not match the permitted use they may then refer your work to the Academic Integrity and Misconduct process.",
+   "anchor": null
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "could be investigated for academic misconduct",
+   "anchor": null
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}

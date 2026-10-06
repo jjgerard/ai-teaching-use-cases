@@ -1,0 +1,140 @@
+{
+ "doc_id": "ul-students-genai-202610",
+ "coder": "cmp-c16",
+ "uses": [
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Correct spelling, grammar and punctuation",
+   "anchor": "What are the possible uses of Gen AI?"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Translate passages of text",
+   "anchor": "What are the possible uses of Gen AI?"
+  },
+  {
+   "use": "format_references",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Arrange references according to a particular citation style",
+   "anchor": "What are the possible uses of Gen AI?"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Improve the style and tone of writing",
+   "anchor": "What are the possible uses of Gen AI?"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Get feedback on some draft material",
+   "anchor": "What are the possible uses of Gen AI?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Unpack an assignment prompt to better understand it",
+   "anchor": "What are the possible uses of Gen AI?"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Brainstorm a topic to gather a range of approaches",
+   "anchor": "What are the possible uses of Gen AI?"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generate a research plan",
+   "anchor": "What are the possible uses of Gen AI?"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen AI may be used to create summaries of information or reframe how information has been communicated.",
+   "anchor": "What are the possible uses of Gen AI?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "Further requirements may be stipulated by a Department, academic programme, or individual teaching staff. These should be made clear within the assignment brief."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Further requirements may be stipulated by a Department, academic programme, or individual teaching staff. These should be made clear within the assignment brief."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Further requirements may be stipulated by a Department, academic programme, or individual teaching staff. These should be made clear within the assignment brief."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "recommended",
+   "quote": "It is recommended that students include acknowledgements section in your assignment outlining clearly how you used Gen AI, describing the instructions or prompts you gave the AI platform, the results generated and how they contributed to your work."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "outlining clearly how you used Gen AI"
+   },
+   {
+    "value": "prompts",
+    "quote": "describing the instructions or prompts you gave the AI platform"
+   },
+   {
+    "value": "outputs",
+    "quote": "the results generated"
+   },
+   {
+    "value": "own_contribution",
+    "quote": "how they contributed to your work"
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "It is recommended that students include acknowledgements section in your assignment"
+   },
+   {
+    "value": "coversheet_or_form",
+    "quote": "We have also created a sample checklist that could be used by students and submitted as part of their assignments."
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

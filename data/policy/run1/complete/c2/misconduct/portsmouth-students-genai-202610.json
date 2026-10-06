@@ -1,0 +1,39 @@
+{
+ "doc_id": "portsmouth-students-genai-202610",
+ "coder": "cmp-c2",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Submitting AI generated work as your own is academic misconduct.",
+   "anchor": "What not to do"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "You must not AI if you have been told not to do so in the assessment brief.",
+   "anchor": "When is it not appropriate to use AI?"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "You may be asked to discuss your work to demonstrate your understanding.",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "If it is not completed, or not completed accurately, lecturers may need to contact you about your submission.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}

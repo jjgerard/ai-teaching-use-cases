@@ -1,0 +1,67 @@
+{
+ "doc_id": "chester-students-genai-202610",
+ "coder": "cmp-c17",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "You should only use an artificial intelligence tool to support you in the preparation of work for assessment where your tutors have indicated that its use might be helpful or where it is part of the assessment brief.",
+   "anchor": "Understanding how and when you can use AI"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "you must clearly show which parts of your work have been created by using it and you must describe how you have used the tool.",
+   "anchor": "Understanding how and when you can use AI"
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "You should only use an artificial intelligence tool to support you in the preparation of work for assessment where your tutors have indicated that its use might be helpful or where it is part of the assessment brief."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "where your tutors have indicated that its use might be helpful"
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "where it is part of the assessment brief"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you do use an artificial intelligence tool, you must clearly show which parts of your work have been created by using it and you must describe how you have used the tool."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "you must describe how you have used the tool"
+   },
+   {
+    "value": "extent_or_scope",
+    "quote": "you must clearly show which parts of your work have been created by using it"
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "If you misuse an artificial intelligence tool or fail to declare the use of artificial intelligence in your work and you are later found to have breached the Academic Conduct Policy because of this, the penalties can be serious."
+  },
+  "exempt": []
+ }
+}

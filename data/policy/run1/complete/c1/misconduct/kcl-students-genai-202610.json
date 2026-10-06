@@ -1,0 +1,78 @@
+{
+ "doc_id": "kcl-students-genai-202610",
+ "coder": "cmp-c1",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": false,
+   "quote": "Inappropriate use without attribution is considered academic misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "in no circumstance is it appropriate to use generated content verbatim without clear indication and acknowledgement, or to effectively outsource the writing task as much as it is inappropriate to get someone else to write something and claim it as your own.",
+   "anchor": null
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "in no circumstance is it appropriate to use generated content verbatim without clear indication and acknowledgement, or to effectively outsource the writing task as much as it is inappropriate to get someone else to write something and claim it as your own.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "If inappropriate use is suspected, a student may be called to an academic integrity meeting with academics to discuss authorship concerns and resolve any issues.",
+   "anchor": null
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "the student is given an opportunity to input and discuss their perspectives and reflect on their work process.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "Potential penalties can range from formal warnings, resubmitting the coursework, suspension or expulsion.",
+   "anchor": null
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Potential penalties can range from formal warnings, resubmitting the coursework, suspension or expulsion.",
+   "anchor": null
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Potential penalties can range from formal warnings, resubmitting the coursework, suspension or expulsion.",
+   "anchor": null
+  }
+ ],
+ "definitions": [
+  {
+   "term": "generative AI",
+   "ai_named": true,
+   "quote": "generative AI refers specifically to a type of AI where applications are trained to learn from data to improve at performing certain tasks such that it can create content like text, code, images, video and audio"
+  },
+  {
+   "term": "AI",
+   "ai_named": true,
+   "quote": "Artificial Intelligence, or AI, refers broadly to any technology or system that can reason and/or adapt, sometimes on its own, to achieve certain goals."
+  },
+  {
+   "term": "prompt engineering",
+   "ai_named": false,
+   "quote": "Writing prompts accurately and in order to fine tune outputs is referred to as ‘prompt engineering’."
+  }
+ ]
+}

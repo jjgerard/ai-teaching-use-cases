@@ -1,0 +1,42 @@
+{
+ "batch": "c17",
+ "unmapped": [
+  {
+   "doc_id": "manchester-metropolitan-students-genai-202610",
+   "quote": "You must receive consent before entering work created by others into the AI tool as a prompt.",
+   "what_it_says": "Consent needed before entering others' work into an AI tool (data/upload rule, no use or offence value fits)."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "wrexham-students-genai-202610",
+   "note": "Existing generate_assessed_text row quotes contract-cheating text as a prohibited use; kept. Document is general misconduct with minimal AI wording; no further AI-specific rows."
+  },
+  {
+   "doc_id": "manchester-metropolitan-students-genai-202610",
+   "note": "Existing undeclared_use offence row quotes a penalty sentence and does not itself name non-acknowledgement; kept, may be weak."
+  }
+ ],
+ "added": {
+  "wrexham-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "chester-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  },
+  "manchester-metropolitan-students-genai-202610": {
+   "uses": 2,
+   "support": 0,
+   "misconduct": 2
+  },
+  "robert-gordon-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

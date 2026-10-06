@@ -1,0 +1,93 @@
+{
+ "doc_id": "birmingham-city-students-genai-202610",
+ "coder": "cmp-c13",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Option A – AI use allowed with conditions",
+   "anchor": "AI Guidelines: Welcome",
+   "tier": "Option A"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Option B – AI not allowed",
+   "anchor": "AI Guidelines: Welcome",
+   "tier": "Option B"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Option C – AI required",
+   "anchor": "AI Guidelines: Welcome",
+   "tier": "Option C"
+  },
+  {
+   "use": "any_use",
+   "context": "exams_or_supervised",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Option A – AI use allowed with conditions",
+   "anchor": "AI Guidelines: Welcome",
+   "tier": "Option A"
+  },
+  {
+   "use": "any_use",
+   "context": "exams_or_supervised",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Option B – AI not allowed",
+   "anchor": "AI Guidelines: Welcome",
+   "tier": "Option B"
+  },
+  {
+   "use": "any_use",
+   "context": "exams_or_supervised",
+   "stance": "required",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Option C – AI required",
+   "anchor": "AI Guidelines: Welcome",
+   "tier": "Option C"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "If you are not sure, please check with your module tutor."
+ },
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Your assessment or exam brief will explain the AI usage level for that specific task"
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "Option A – AI use allowed with conditions; Option B – AI not allowed; or Option C – AI required"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

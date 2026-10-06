@@ -1,0 +1,207 @@
+{
+ "doc_id": "coventry-students-genai-202610",
+ "coder": "cmp-c9",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Support creative tasks like brainstorming ideas",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Act as a debating partner to challenge your argument",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Suggest titles, structures, subheadings, or themes for projects",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Break down tasks or build a study timetable",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Explain complex theories in simpler language",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Summarise lecture notes or journal articles",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Recommend sources, articles, or data sets",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Offer feedback on drafts",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "check_language",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Spot errors and suggest corrections in your writing",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Provide alternative phrasing",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "translate",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Translate small sections of your written or recorded work",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "generate_code",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generate images, text, music, or programme code",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Create slide templates for presentations",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "analyse_data",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Help identify themes, patterns, and motifs in data sets",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools must not be used to generate your assessment and submit it as if it was your own work.",
+   "anchor": null
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Your assignment briefs will state if you are allowed to use AI and what types of use are permissible.",
+   "anchor": null
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Support self-reflection and critical thinking",
+   "anchor": "Examples of how AI can support you in your study?"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "All use of Artificial Intelligence (AI) must follow the University or your placement's guidance.",
+   "anchor": null
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Your assignment briefs will state if you are allowed to use AI and what types of use are permissible."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "You are also required to acknowledge where and how you have used generative AI in an assignment"
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "You are also required to acknowledge where and how you have used generative AI in an assignment"
+   },
+   {
+    "value": "prompts",
+    "quote": "The prompts used and the AI output"
+   },
+   {
+    "value": "outputs",
+    "quote": "The prompts used and the AI output"
+   }
+  ],
+  "location": [],
+  "records": {
+   "value": "required",
+   "quote": "When permitted to use AI, it is your responsibility to keep a record of the prompts used, and drafts of your work to evidence that the final submission is your own work."
+  },
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "doc_id": "sussex-students-genai-202610",
+ "coder": "cmp-c9",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Using AI in an assessment where it is not permitted, or submitting AI-generated work without the required acknowledgement, is academic misconduct",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Using AI in an assessment where it is not permitted, or submitting AI-generated work without the required acknowledgement, is academic misconduct",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Submitting AI-generated content as your own work would be considered academic misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Submitting fabricated references is a form of academic misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Any help that goes beyond these limits may be considered academic misconduct, including personation, collusion, or unauthorised use of digital technologies.",
+   "anchor": null
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Any help that goes beyond these limits may be considered academic misconduct, including personation, collusion, or unauthorised use of digital technologies.",
+   "anchor": null
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Remember that using a source without acknowledging it is plagiarism.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "Any suggestions made by a person or an AI proofreading your work should be retained in case of any concerns about academic misconduct.",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": []
+}

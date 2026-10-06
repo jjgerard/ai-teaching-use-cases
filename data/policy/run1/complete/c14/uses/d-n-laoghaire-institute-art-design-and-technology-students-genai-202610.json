@@ -1,0 +1,138 @@
+{
+ "doc_id": "d-n-laoghaire-institute-art-design-and-technology-students-genai-202610",
+ "coder": "cmp-c14",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Inappropriate use of Generative AI tools without express permission from lecturer (with or without citation)",
+   "anchor": "Appendix 1: Penalties for Academic Misconduct"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Academic Integrity is breached if students submit the products of GenAI as their own work without acknowledgement or without authorisation to use GenAI in fulfilling the task.",
+   "anchor": "9. Generative Artificial Intelligence"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "cheating by way of falsification or fabrication",
+   "anchor": "Academic Misconduct",
+   "ai_named": false
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Citation: If the assessment specifically allows for the use of Generative AI tools, students are required to cite the tool’s contribution to their work.",
+   "anchor": "9. Generative Artificial Intelligence",
+   "tier": "Citation duty"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Critical thinking: Students must assess the validity and applicability of any Generative AI output that is generated and should be able to effectively critique the work.",
+   "anchor": "9. Generative Artificial Intelligence"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using references that cannot be verified",
+   "anchor": "Examples of Academic Misconduct",
+   "tier": "Unverifiable references"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Presenting work authored by a third party, including other students, past or present, family, friends and/or purchased from external service providers.",
+   "anchor": "Appendix 1: Penalties for Academic Misconduct"
+  },
+  {
+   "use": "disguise_ai_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "paraphrasing services (to hinder counterplagiarism tools such as TurnItIn)",
+   "anchor": "Contract cheating"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "will be decided by the Faculty, Department, Programme Teams, and lecturers in IADT"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "will be decided by the Faculty, Department, Programme Teams, and lecturers in IADT"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "When these (or any other tools) are utilised for the creation of academic work, they must be acknowledged and documented."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "This may include citing the specific tool (and version) used, along with additional content such as prompts used and the process followed."
+   },
+   {
+    "value": "tool_version",
+    "quote": "This may include citing the specific tool (and version) used, along with additional content such as prompts used and the process followed."
+   },
+   {
+    "value": "prompts",
+    "quote": "This may include citing the specific tool (and version) used, along with additional content such as prompts used and the process followed."
+   },
+   {
+    "value": "how_used",
+    "quote": "This may include citing the specific tool (and version) used, along with additional content such as prompts used and the process followed."
+   }
+  ],
+  "location": [],
+  "records": {
+   "value": "recommended",
+   "quote": "Students are advised to document the process of their work and how they arrived at the outputs submitted."
+  },
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "The output of GenAI tools is classed as a source and requires citation as referred to in the tables below"
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Academic Integrity is breached if students submit the products of GenAI as their own work without acknowledgement or without authorisation to use GenAI in fulfilling the task."
+  },
+  "exempt": []
+ }
+}

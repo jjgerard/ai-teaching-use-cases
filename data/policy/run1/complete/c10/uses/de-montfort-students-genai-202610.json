@@ -1,0 +1,80 @@
+{
+ "doc_id": "de-montfort-students-genai-202610",
+ "coder": "cmp-c10",
+ "uses": [
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "using the output produced by generative AI tools as if it was your own would be in direct contravention of DMU Academic Integrity and Misconduct Policy.",
+   "anchor": null
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "As AI can be unreliable you also always need to fact check its answers",
+   "anchor": "Using AI effectively"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Some tools can help with finding academic papers whilst others can help with generating images, summarising, making sense of materials and proofreading.",
+   "anchor": "AI tools"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Some tools can help with finding academic papers whilst others can help with generating images, summarising, making sense of materials and proofreading.",
+   "anchor": "AI tools"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Some tools can help with finding academic papers whilst others can help with generating images, summarising, making sense of materials and proofreading.",
+   "anchor": "AI tools"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Some tools can help with finding academic papers whilst others can help with generating images, summarising, making sense of materials and proofreading.",
+   "anchor": "AI tools"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You need to ask yourself whether you are using AI tools to do the thinking for you or simply to assist you in thinking better.",
+   "anchor": "Using AI ethically"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

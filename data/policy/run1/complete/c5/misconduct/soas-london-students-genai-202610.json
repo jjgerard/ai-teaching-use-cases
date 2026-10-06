@@ -1,0 +1,47 @@
+{
+ "doc_id": "soas-london-students-genai-202610",
+ "coder": "cmp-c5",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "It is important that students recognise that they must not use generative AI tools to generate assignments e.g. essays. This is a form of plagiarism with potentially serious consequences.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "Forget your response is often submitted via Turnitin which has been identifying similarities from AI generated responses.",
+   "anchor": null
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "Be aware that a pass or good grade is unlikely, and lecturers can detect AI text.",
+   "anchor": null
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Forget your lecturers are also trained to identify generic responses.",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": true,
+   "quote": "It is important that students recognise that they must not use generative AI tools to generate assignments e.g. essays. This is a form of plagiarism with potentially serious consequences.",
+   "anchor": null
+  }
+ ],
+ "definitions": []
+}

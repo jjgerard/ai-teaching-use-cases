@@ -1,0 +1,54 @@
+{
+ "doc_id": "ulster-library-genai-guide-202610",
+ "coder": "cmp-c5",
+ "uses": [
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Do not copy and paste GenAI-generated content into assignments.",
+   "anchor": "Quick tips"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Check all GenAI-generated information against reliable academic sources.",
+   "anchor": "Quick tips"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Please check with your course instructor about the use of Generative AI in accordance with each module specifications."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Always acknowledge and reference any tools you use, following university guidance."
+  },
+  "contents": [],
+  "location": [
+   {
+    "value": "appendix",
+    "quote": "Keep a screenshot of conversations or outputs in your appendix where required."
+   }
+  ],
+  "records": {
+   "value": "recommended",
+   "quote": "Keep a screenshot of conversations or outputs in your appendix where required."
+  },
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Always acknowledge and reference any tools you use, following university guidance."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

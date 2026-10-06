@@ -1,0 +1,152 @@
+{
+ "doc_id": "southampton-students-genai-202610",
+ "coder": "cmp-c6",
+ "uses": [
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "using GenAI as an assistive technology by arrangement with our Disability and Inclusion team",
+   "anchor": "Acceptable and unacceptable GenAI use"
+  },
+  {
+   "use": "check_language",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "using GenAI as a study buddy, for example, giving feedback on some of your writing for spelling or grammar errors, or for getting started with ideas",
+   "anchor": "Acceptable and unacceptable GenAI use"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "using GenAI as a study buddy, for example, giving feedback on some of your writing for spelling or grammar errors, or for getting started with ideas",
+   "anchor": "Acceptable and unacceptable GenAI use"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "using GenAI as a study buddy, for example, giving feedback on some of your writing for spelling or grammar errors, or for getting started with ideas",
+   "anchor": "Acceptable and unacceptable GenAI use"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "summarising complex ideas or academic texts",
+   "anchor": "Acceptable and unacceptable GenAI use"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "you should never submit work that has been created or part-created by GenAI for assessments that you claim as your own work.",
+   "anchor": "Using GenAI in your studies"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "copying and pasting information created by GenAI straight into your work",
+   "anchor": "Acceptable and unacceptable GenAI use"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "asking GenAI to write or rewrite your work or part of your work for you",
+   "anchor": "Acceptable and unacceptable GenAI use"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "directly asking GenAI to answer an assessment question",
+   "anchor": "Acceptable and unacceptable GenAI use",
+   "tier": "Answer assessment question"
+  },
+  {
+   "use": "any_use",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You are allowed to use GenAI tools like ChatGPT to develop your learning and support your studies.",
+   "anchor": "Using GenAI in your studies",
+   "tier": "Developing learning"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Please check with your tutor before using generative AI in your work.",
+   "anchor": "Acceptable and unacceptable GenAI use"
+  },
+  {
+   "use": "any_use",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "For some learning activities your tutor will build use of GenAI into teaching and give guidelines on how to use the tools.",
+   "anchor": "Using GenAI in your studies",
+   "tier": "Built into teaching"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "Please check with your tutor before using generative AI in your work."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Always talk to your module tutor to check how to use GenAI to support your studies in their subjects."
+  },
+  {
+   "value": "institution_wide",
+   "quote": "This page sets out how we as a university recommend using generative artificial intelligence (GenAI) in your studies as a student with us."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "In other cases, you may be asked to complete a declaration statement that describes how you have used generative AI."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "In other cases, you may be asked to complete a declaration statement that describes how you have used generative AI."
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

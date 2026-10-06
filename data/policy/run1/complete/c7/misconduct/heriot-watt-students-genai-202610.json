@@ -1,0 +1,57 @@
+{
+ "doc_id": "heriot-watt-students-genai-202610",
+ "coder": "cmp-c7",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "you do not unintentionally plagiarise by presenting AI generated work as if it were your own",
+   "anchor": "Top tip"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Using artificial intelligence to complete a whole assignment for you would not be acting with academic integrity",
+   "anchor": "How to write a generative AI prompt"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": true,
+   "quote": "Copying this output may be a breach of copyright, so try to identify and use the original source, ensuring you comply with copyright as you do so.",
+   "anchor": "How to interpret the output from generative AI"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "However the existing measures to identify and address academic misconduct are still in use and will apply to any misuse of generative artificial intelligence.",
+   "anchor": "How AI may be used at HW"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": true,
+   "quote": "you do not unintentionally plagiarise by presenting AI generated work as if it were your own",
+   "anchor": "Top tip"
+  }
+ ],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": true,
+   "quote": "HW will not be utilising any generative AI detection tools for the period of AY23-24.",
+   "anchor": "AI point 6"
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "Academic integrity",
+   "ai_named": false,
+   "quote": "Academic integrity is the umbrella term used to describe 6 fundamental values of academia honesty, fairness, responsibility, trust, respect and courage"
+  }
+ ]
+}

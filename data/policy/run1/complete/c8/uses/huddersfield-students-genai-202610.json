@@ -1,0 +1,105 @@
+{
+ "doc_id": "huddersfield-students-genai-202610",
+ "coder": "cmp-c8",
+ "uses": [
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You may use paraphrasing and summarising features to help you to understand texts you are working with, but these summaries should not be included in your final assessment.",
+   "anchor": "Guidance for users of assistive technology"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You may use paraphrasing and summarising features to help you to understand texts you are working with, but these summaries should not be included in your final assessment.",
+   "anchor": "Guidance for users of assistive technology"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Writing software can be used to help you present and format your own original work",
+   "anchor": "Guidance for users of assistive technology"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "you can use tools like Grammarly to suggest changes to how individual sentences are worded or structured, but you cannot use it to rewrite larger sections of your work.",
+   "anchor": "Guidance for users of assistive technology"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "It is not acceptable to use the software to generate content which you hand in, unless this is allowed in the assessment brief and correctly referenced.",
+   "anchor": "Guidance for users of assistive technology"
+  },
+  {
+   "use": "assistive_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "the work you submit must be your own, but it is acceptable to use assistive technology to help you to prepare it.",
+   "anchor": "Guidance for users of assistive technology"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "study",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Because AI summaries may not be accurate, you should only use the summary as a guide to help you to navigate and understand the original text.",
+   "anchor": "Guidance for users of assistive technology"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Writing software can be used to help you present and format your own original work, but it should not be used to rewrite sections of your work in a way which changes the meaning.",
+   "anchor": "Guidance for users of assistive technology"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "You should expect to see clear statements in assignment briefs about whether using AI is acceptable."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Our general principle is that the work you hand in must be your own, and where it is acceptable to make use of AI, you need to acknowledge this."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "If your subject uses a referencing system which does not specify how to reference AI, follow the format for citing a personal communication."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

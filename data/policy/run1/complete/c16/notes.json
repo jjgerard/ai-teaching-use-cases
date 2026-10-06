@@ -1,0 +1,50 @@
+{
+ "batch": "c16",
+ "unmapped": [
+  {
+   "doc_id": "ul-students-genai-202610",
+   "quote": "Comparing content developed by Gen AI to that developed by a human",
+   "what_it_says": "Listed use of comparing AI output with human-written content; no matching use id."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "bath-students-genai-202610",
+   "note": "Scope left as none (no offence, process or outcome content); one generic definition of academic integrity added."
+  },
+  {
+   "doc_id": "bradford-students-genai-202610",
+   "note": "Consequence filled from the 4.5 example only (not a general rule). Existing module_failure row quotes 'Module capped at zero (i.e. for credit only)', arguably mark_cap; left unchanged. Plagiarism Awareness Programme and integrity guides not coded as support (about plagiarism, not AI). Offence rows for fabrication, exam and others-work have one row per value so further framework lines not added."
+  },
+  {
+   "doc_id": "norwich-arts-students-genai-202610",
+   "note": "No student use rows: the 'things we use AI for' list describes the university's own uses; 'informed use of AI' in assessment is an institutional commitment, not coded."
+  },
+  {
+   "doc_id": "ul-students-genai-202610",
+   "note": "Checklist submitted with assignment added as a location (coversheet_or_form), a loose fit. 'Revise a piece of writing' not added (duplicates rewrite_or_paraphrase_own_text key)."
+  }
+ ],
+ "added": {
+  "bath-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 1
+  },
+  "bradford-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 4
+  },
+  "norwich-arts-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "ul-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

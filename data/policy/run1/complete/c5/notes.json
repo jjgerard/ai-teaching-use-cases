@@ -1,0 +1,59 @@
+{
+ "batch": "c5",
+ "unmapped": [
+  {
+   "doc_id": "teesside-students-genai-202610",
+   "quote": "Be aware of environmental impact. Each AI query uses energy. Combine your questions into one well-thought-out prompt to reduce your digital footprint.",
+   "what_it_says": "Advises reducing AI's environmental footprint by combining prompts; no use or value fits."
+  },
+  {
+   "doc_id": "sheffield-hallam-students-genai-202610",
+   "quote": "If in doubt, assume that AI cannot be used in your assessment task.",
+   "what_it_says": "Default prohibit_all is already coded; no new value."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "sheffield-hallam-students-genai-202610",
+   "note": "Existing support row quote uses a curly apostrophe (Library’s) that differs from the snapshot straight apostrophe; left unchanged."
+  },
+  {
+   "doc_id": "teesside-students-genai-202610",
+   "note": "Existing misconduct scope none left unchanged: 'In order to avoid academic misconduct, you should be evidencing the search' and 'keep all the updated drafts' are not AI-specific offence statements; drafts sentence not coded as detection (no stated use by staff). Records field filled as recommended."
+  },
+  {
+   "doc_id": "ulster-library-genai-guide-202610",
+   "note": "Misconduct scope none left unchanged: page only points to the Academic Misconduct Policy, stating no offence, process or outcome."
+  },
+  {
+   "doc_id": "soas-london-students-genai-202610",
+   "note": "Existing student-facing 'Student Learning Centre' and 1-1 tutorials not added as named_academic_support because that form already has a row (Studiosity). Existing rows unchanged; the generate_assessed_text/exams row is quoted as a discouraged 'Don't' but coded prohibited."
+  },
+  {
+   "doc_id": "sheffield-hallam-students-genai-202610",
+   "note": "Tier 4 and 5 generate_assessed_text rows inferred from 'all elements of the task'."
+  }
+ ],
+ "added": {
+  "sheffield-hallam-students-genai-202610": {
+   "uses": 2,
+   "support": 0,
+   "misconduct": 0
+  },
+  "soas-london-students-genai-202610": {
+   "uses": 8,
+   "support": 1,
+   "misconduct": 1
+  },
+  "teesside-students-genai-202610": {
+   "uses": 3,
+   "support": 1,
+   "misconduct": 0
+  },
+  "ulster-library-genai-guide-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

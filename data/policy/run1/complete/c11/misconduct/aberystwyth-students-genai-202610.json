@@ -1,0 +1,24 @@
+{
+ "doc_id": "aberystwyth-students-genai-202610",
+ "coder": "cmp-c11",
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "plagiarism",
+   "ai_named": true,
+   "quote": "The University's Unacceptable Academic Practice regulation states that plagiarism includes submitting AI-generated work as though it were your own."
+  }
+ ],
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "The University's Unacceptable Academic Practice regulation states that plagiarism includes submitting AI-generated work as though it were your own.",
+   "anchor": "Using AI for your Studies"
+  }
+ ],
+ "scope": "ai_specific"
+}

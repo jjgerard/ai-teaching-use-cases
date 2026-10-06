@@ -1,0 +1,40 @@
+{
+ "batch": "c14",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "d-n-laoghaire-institute-art-design-and-technology-students-genai-202610",
+   "note": "Existing detection row for draft_or_version_history quotes only the viva sentence and is weak; not edited. Section 9 is the only AI wording; document is a general integrity policy so scope general_misconduct kept."
+  },
+  {
+   "doc_id": "lancashire-students-genai-202610",
+   "note": "Existing support rows/uses are near-complete; further wellbeing and integrity-lead training statements were left out as not AI-specific or staff-only."
+  },
+  {
+   "doc_id": "kent-students-genai-202610",
+   "note": "Existing critical_analysis_and_evaluation row is stanced discouraged for an encouraged use; not edited."
+  }
+ ],
+ "added": {
+  "kent-students-genai-202610": {
+   "uses": 2,
+   "support": 1,
+   "misconduct": 1
+  },
+  "cumbria-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  },
+  "d-n-laoghaire-institute-art-design-and-technology-students-genai-202610": {
+   "uses": 5,
+   "support": 0,
+   "misconduct": 9
+  },
+  "lancashire-students-genai-202610": {
+   "uses": 5,
+   "support": 1,
+   "misconduct": 6
+  }
+ }
+}

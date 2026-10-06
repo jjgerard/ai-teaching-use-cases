@@ -1,0 +1,36 @@
+{
+ "batch": "c18",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "worcester-students-genai-202610",
+   "note": "Existing detection rows for ai_detection_software not_used and unreliable kept. 3.6 \"not appropriate\" contexts and Copilot recommendation not coded (no clear value)."
+  },
+  {
+   "doc_id": "sunderland-students-genai-202610",
+   "note": "Nothing further found; Assist-Not Do is too general for a use row."
+  }
+ ],
+ "added": {
+  "sunderland-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "worcester-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  },
+  "greater-manchester-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "imperial-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

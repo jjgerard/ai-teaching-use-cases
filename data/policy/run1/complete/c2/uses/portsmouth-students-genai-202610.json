@@ -1,0 +1,218 @@
+{
+ "doc_id": "portsmouth-students-genai-202610",
+ "coder": "cmp-c2",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generate ideas or brainstorm topics",
+   "anchor": "When is it appropriate to use AI?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Clarify difficult concepts",
+   "anchor": "When is it appropriate to use AI?"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Check grammar or structure",
+   "anchor": "When is it appropriate to use AI?"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Get feedback on drafts, with your own judgement applied. You may use this feedback to inform and enhance your work.",
+   "anchor": "When is it appropriate to use AI?"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can help you generate ideas, plan projects, improve writing, explore complex topics and manage your time.",
+   "anchor": "Using AI during your studies"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You must not use AI to write or complete your assignments for you.",
+   "anchor": "When is it not appropriate to use AI?"
+  },
+  {
+   "use": "analyse_data",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Data analysis: using AI to analyse data sets or interpret results",
+   "anchor": "How to acknowledge your AI use"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Developing ideas: generating or refining concepts, arguments, or structures",
+   "anchor": "How to acknowledge your AI use"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Developing ideas: generating or refining concepts, arguments, or structures",
+   "anchor": "How to acknowledge your AI use"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Getting feedback on my work: using AI to review drafts and suggest improvements",
+   "anchor": "How to acknowledge your AI use"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Identifying themes: extracting key themes or patterns from content or notes",
+   "anchor": "How to acknowledge your AI use"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Improving flow and legibility: enhancing clarity, structure, or readability",
+   "anchor": "How to acknowledge your AI use"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Proofreading, grammar checking etc.: correcting spelling, punctuation, or grammar",
+   "anchor": "How to acknowledge your AI use"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Research/information gathering: locating, summarising, or explaining information",
+   "anchor": "How to acknowledge your AI use"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "But you must acknowledge how you've used AI in any submissions or assessments.",
+   "anchor": "Can I use AI in my university work?"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You must not AI if you have been told not to do so in the assessment brief.",
+   "anchor": "When is it not appropriate to use AI?",
+   "tier": "if brief prohibits"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can help you generate ideas, plan projects, improve writing, explore complex topics and manage your time.",
+   "anchor": "Using AI during your studies"
+  }
+ ],
+ "default_when_silent": {
+  "value": "permit_with_acknowledgement",
+  "quote": "The short answer is yes — but you must acknowledge when and how you've used AI in your assignments."
+ },
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "You must not AI if you have been told not to do so in the assessment brief."
+  },
+  {
+   "value": "institution_wide",
+   "quote": "every summative assessment in Moodle now includes an AI acknowledgment form"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "But you must acknowledge how you've used AI in any submissions or assessments."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "tell us how you used AI to help you"
+   },
+   {
+    "value": "learning_reflection",
+    "quote": "It gives you an opportunity to explain the role it played in your learning."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "every summative assessment in Moodle now includes an AI acknowledgment form"
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

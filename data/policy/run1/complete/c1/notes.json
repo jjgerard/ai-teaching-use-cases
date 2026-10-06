@@ -1,0 +1,50 @@
+{
+ "batch": "c1",
+ "unmapped": [
+  {
+   "doc_id": "aston-students-genai-202610",
+   "quote": "the university explicitly prohibits the development, deployment, or integration of agentic AI systems",
+   "what_it_says": "Institutional ban on developing or deploying agentic AI (organisational, not student use); only partly held by delegate_to_ai_agent."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "aston-students-genai-202610",
+   "note": "Aston is a staff/governance AI adoption policy; nothing further on student uses, misconduct or support (written approval for data disclosure is a data rule; 'Spell-check, generic content generation' is a risk-category example, not a use rule). Scope none kept, so the AI System definition was not added."
+  },
+  {
+   "doc_id": "kcl-students-genai-202610",
+   "note": "records=required fills the empty field from the Open tier only (tracking key stages/tools); it is not a document-wide duty. The 'Declaration option' rows come from the declaration template wording (i) and (iii). KCL 'Non-Academic Misconduct Policy may also apply to any misrepresentations of AI use' fits no offence value cleanly (not coded). The existing rely_on_ai_as_source prohibited row (quote 'should never be used instead of') is arguably discouraged or conditional; left unchanged. Existing row for generate_assessed_text prohibited kept alongside declaration option iii."
+  },
+  {
+   "doc_id": "aub-students-genai-202610",
+   "note": "AUB: para 13 'Students must not claim authorship of any work they did not produce' repeats passing_off (already coded); false-positive warning repeats existing unreliable row."
+  },
+  {
+   "doc_id": "loughborough-students-genai-202610",
+   "note": "Loughborough: module-tutor and data-input checklist lines are generic ask-tutor / data rules, not coded. AI definitions added under definitions as the existing coders did for other documents."
+  }
+ ],
+ "added": {
+  "aston-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "aub-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 1
+  },
+  "kcl-students-genai-202610": {
+   "uses": 13,
+   "support": 0,
+   "misconduct": 2
+  },
+  "loughborough-students-genai-202610": {
+   "uses": 0,
+   "support": 1,
+   "misconduct": 2
+  }
+ }
+}

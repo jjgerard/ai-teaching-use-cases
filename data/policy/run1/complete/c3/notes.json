@@ -1,0 +1,55 @@
+{
+ "batch": "c3",
+ "unmapped": [
+  {
+   "doc_id": "birkbeck-london-students-genai-202610",
+   "quote": "In-person assessments such as exams, in-class tests and purely practical assessments do not require an AI Declaration to be submitted.",
+   "what_it_says": "Declaration not required for in-person exams, tests and practical assessments (exempt by assessment type; no exempt value fits)."
+  },
+  {
+   "doc_id": "birkbeck-london-students-genai-202610",
+   "quote": "If the assessment brief does not explicitly mention the use of AI tools including generative AI, you should adhere to the Supporting Good Academic Practice Policy.",
+   "what_it_says": "Default when brief is silent is to follow another policy; no default_when_silent value fits."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "west-london-students-genai-202610",
+   "note": "Existing acknowledgement duty is conditional, but quote 'You should always acknowledge the use of AI, just like any other source' arguably supports always_required/recommended; not edited."
+  },
+  {
+   "doc_id": "ucd-students-genai-202610",
+   "note": "Misconduct left as scope none: no statement calls any act an offence."
+  },
+  {
+   "doc_id": "bedfordshire-students-genai-202610",
+   "note": "No further support forms: nav links (appointments, writing feedback) are not AI-specific."
+  },
+  {
+   "doc_id": "birkbeck-london-students-genai-202610",
+   "note": "Students' Union guidance and Student Learning Development listed under support services; forms already held or not clearly AI case support, so not added. 'Read around a subject' (Bedfordshire) too vague to code."
+  }
+ ],
+ "added": {
+  "ucd-students-genai-202610": {
+   "uses": 1,
+   "support": 1,
+   "misconduct": 0
+  },
+  "west-london-students-genai-202610": {
+   "uses": 5,
+   "support": 0,
+   "misconduct": 2
+  },
+  "bedfordshire-students-genai-202610": {
+   "uses": 2,
+   "support": 0,
+   "misconduct": 0
+  },
+  "birkbeck-london-students-genai-202610": {
+   "uses": 5,
+   "support": 0,
+   "misconduct": 1
+  }
+ }
+}

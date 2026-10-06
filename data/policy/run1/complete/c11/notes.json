@@ -1,0 +1,46 @@
+{
+ "batch": "c11",
+ "unmapped": [
+  {
+   "doc_id": "mary-immaculate-students-genai-202610",
+   "quote": "Staff and students should not engage in the following prohibited AI practices under Article 5 of the EU AI Act.",
+   "what_it_says": "Lists EU AI Act prohibited practices (academic misconduct, privacy breaches, surveillance, bias, IP infringement) as things not to do; a regulatory list that fits no single use value."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "mary-immaculate-students-genai-202610",
+   "note": "Time-management/study-plan use (revise_or_practise, study, conditional) not added: same key as the existing Exam Prep row. Possibilities list (code, data analysis, transcription) is capability wording, not coded."
+  },
+  {
+   "doc_id": "exeter-students-assessment-202610",
+   "note": "Existing consequence treated_as_misconduct; the submit-box line (submission_blocked) could not be added because that field is filled."
+  },
+  {
+   "doc_id": "cranfield-students-genai-202610",
+   "note": "Nothing to add; the reading list and other items repeat existing forms."
+  }
+ ],
+ "added": {
+  "aberystwyth-students-genai-202610": {
+   "uses": 1,
+   "support": 1,
+   "misconduct": 0
+  },
+  "cranfield-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "exeter-students-assessment-202610": {
+   "uses": 4,
+   "support": 1,
+   "misconduct": 1
+  },
+  "mary-immaculate-students-genai-202610": {
+   "uses": 7,
+   "support": 0,
+   "misconduct": 2
+  }
+ }
+}

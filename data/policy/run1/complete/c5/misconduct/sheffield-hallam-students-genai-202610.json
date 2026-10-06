@@ -1,0 +1,49 @@
+{
+ "doc_id": "sheffield-hallam-students-genai-202610",
+ "coder": "cmp-c5",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Contract cheating/concerns over authorship: This form of misconduct involves another person (or artificial intelligence) creating the assignment which you then submit as your own.",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "attempting to pass off work created by artificial intelligence as your own. These activities show a clear intention to deceive the marker and are treated as misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "acquiring an essay from another student or family member and submitting it as your own",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "follow any AI-related guidance to succeed at the task and avoid academic misconduct",
+   "anchor": null
+  }
+ ],
+ "liability": [
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "These activities show a clear intention to deceive the marker and are treated as misconduct.",
+   "anchor": null
+  }
+ ],
+ "detection": [],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "contract cheating",
+   "ai_named": true,
+   "quote": "Contract cheating/concerns over authorship: This form of misconduct involves another person (or artificial intelligence) creating the assignment which you then submit as your own."
+  }
+ ]
+}

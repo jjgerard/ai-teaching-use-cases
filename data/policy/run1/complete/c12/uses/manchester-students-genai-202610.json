@@ -1,0 +1,157 @@
+{
+ "doc_id": "manchester-students-genai-202610",
+ "coder": "cmp-c12",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI Prohibited: AI is not permitted or is unable to be used in this assessment.",
+   "anchor": "2.1 Use of AI in Assessed Work",
+   "tier": "AI Prohibited"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent",
+    "not_required_to_use"
+   ],
+   "quote": "AI Minimal: AI is permitted to be used in this assessment in limited ways that contribute to the presentation (for example surface level use to improve grammar, fluency, and formatting) without changing the ideas, arguments or conclusions developed by the student.",
+   "anchor": "2.1 Use of AI in Assessed Work",
+   "tier": "AI Minimal"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent",
+    "not_required_to_use"
+   ],
+   "quote": "AI Minimal: AI is permitted to be used in this assessment in limited ways that contribute to the presentation (for example surface level use to improve grammar, fluency, and formatting) without changing the ideas, arguments or conclusions developed by the student.",
+   "anchor": "2.1 Use of AI in Assessed Work",
+   "tier": "AI Minimal"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI Permitted: AI may be used to complete the assessment.",
+   "anchor": "2.1 Use of AI in Assessed Work",
+   "tier": "AI Permitted"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI-Integrated: AI use is necessary to meet the course unit intended learning outcomes. This does not imply that all AI use is permitted.",
+   "anchor": "2.1 Use of AI in Assessed Work",
+   "tier": "AI-Integrated"
+  },
+  {
+   "use": "any_use",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "students may use other AI tools to support their learning where this use is consistent with:",
+   "anchor": "2.2 General Student Use of AI for Teaching and Learning Activities (unless required in a DASS plan)"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "quote": "Where a recording of a taught session is available, students are permitted to use their University of Manchester Microsoft 365 Copilot access to upload this for the purposes of supporting their learning.",
+   "anchor": "2.2 General Student Use of AI for Teaching and Learning Activities (unless required in a DASS plan)"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Students must seek prior agreement from all group members before recording or transcribing group conversations.",
+   "anchor": "2.1 Use of AI in Assessed Work"
+  },
+  {
+   "use": "personal_advice",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Microsoft 365 Copilot is not a suitable substitute for therapy, any other medical and health advice, or academic advice.",
+   "anchor": null,
+   "ai_named": true
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "not_required_to_use"
+   ],
+   "quote": "Students may choose not to use AI for assessment, unless the assessment has been designated as Category D.",
+   "anchor": "2.1 Use of AI in Assessed Work",
+   "tier": "Categories A to C"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI Permitted: AI may be used to complete the assessment.",
+   "anchor": "2.1 Use of AI in Assessed Work",
+   "tier": "AI Permitted"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "tiered_scale",
+   "quote": "Assessments must be assigned to one of the following AI categories, and this must be communicated to students and stated on assessment briefs, including on the Course Unit Canvas assessment information."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "The assessment information must set out what is acceptable AI use."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "For assessed group work, the course unit lead must state the category of the assessment and provide clear information to students about how to approach AI use as a group before beginning the activity."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Within assessed work, students’ failure to document use of Generative AI could be a form of plagiarism contrary to the Academic Malpractice Procedure."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Within assessed work, students’ failure to document use of Generative AI could be a form of plagiarism contrary to the Academic Malpractice Procedure."
+  },
+  "exempt": []
+ }
+}

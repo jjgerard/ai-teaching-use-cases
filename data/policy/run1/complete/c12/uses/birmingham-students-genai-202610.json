@@ -1,0 +1,312 @@
+{
+ "doc_id": "birmingham-students-genai-202610",
+ "coder": "cmp-c12",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Similar to how you might use the internet, Generative AI can help you understand different views, ideas, and perspectives. It can be a starting point for getting a handle on a topic area.",
+   "anchor": "Ways you could use Generative AI tools for your work"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use it to define ‘task words’ in questions or assignment briefs so you are clear on what you should do e.g., defining the difference between ‘evaluate’ and ‘discuss’.",
+   "anchor": "Ways you could use Generative AI tools for your work"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "However, there are potentially serious copyright implications for doing this and you should only upload other people’s work if the item is no longer in copyright or if you have permission to do so.",
+   "anchor": "Ways you could use Generative AI tools for your work"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generate practice questions based on topic areas you are revising.",
+   "anchor": "Ways you could use Generative AI tools for your work"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use it to pose alternative arguments to claims you are making to test their validity and strength.",
+   "anchor": "Ways you could use Generative AI tools for your work"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Find resources to back up or challenge the information generated.",
+   "anchor": "Ways you could use Generative AI tools for your work"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It can act as a ‘third-party editorial assistant’, which means you can use the tools to correct spelling, punctuation and basic grammar errors;",
+   "anchor": "Ways you could use Generative AI tools for your work"
+  },
+  {
+   "use": "check_language",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "For PGR theses, this use must be declared using the ‘third party editor declaration’ form.",
+   "anchor": "Ways you could use Generative AI tools for your work"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "However Generative AI tools must not be used to alter your text in the following ways: to rewrite or improve your arguments, explanations or ideas;",
+   "anchor": "Ways you could use Generative AI tools for your work"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "translate work into or from a language you’re being assessed on;",
+   "anchor": "Ways you could use Generative AI tools for your work"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You should not use them to translate large amounts of text into English.",
+   "anchor": "Summary"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "rewrite code in computing or programming assessments.",
+   "anchor": "Ways you could use Generative AI tools for your work"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "The Code of Practice stipulates that you cannot use the output of Generative AI (i.e., the content it creates) in any assessment, unless explicitly authorised.",
+   "anchor": "Academic misconduct"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "This means you would be breaching the Code of Practice if you submit work generated by these tools as your own, or incorporate it into your own work, without explicit permission.",
+   "anchor": "Academic misconduct"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "research_or_thesis",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "These tools should not be used to write your assignment or theses and/or to clarify and develop your arguments.",
+   "anchor": "Summary"
+  },
+  {
+   "use": "any_use",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "You are permitted to use these tools in this context, as long as you do not submit the actual AI-generated output as your own work for assessment.",
+   "anchor": "Student and PGR use of Generative AI tools"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Always double-check and verify information obtained from Generative AI tools.",
+   "anchor": "Inaccuracy and misrepresentation of information"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "While Generative AI can be a valuable tool for understanding concepts and exploring ideas, it should never replace your own critical thinking and analysis.",
+   "anchor": null,
+   "ai_named": true
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "It is also very important that you do not use these tools in assessment unless given explicit permission to do so.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "use": "any_use",
+   "context": "research_or_thesis",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The University's framework does allow you to use Generative AI tools as study aids for your personal learning and in your research.",
+   "anchor": "Student and PGR use of Generative AI tools"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The tools are very good at summarising information so you could use it to draw out patterns, themes, and topics areas from your notes.",
+   "anchor": "Ways you could use Generative AI tools for your work",
+   "tier": "own notes"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The tools can help you break larger tasks down into smaller, manageable steps.",
+   "anchor": "Ways you could use Generative AI tools for your work",
+   "tier": "time management"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "shorten long sentences or paragraphs, provided the meaning remains unchanged; ensure your writing adheres to standard English conventions; check consistency in formatting.",
+   "anchor": "Ways you could use Generative AI tools for your work",
+   "tier": "minor edits"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "shorten work to meet a word count; correct factual inaccuracies or enhance the content of your writing;",
+   "anchor": "Ways you could use Generative AI tools for your work",
+   "tier": "word count or content"
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "The Code of Practice stipulates that you cannot use the output of Generative AI (i.e., the content it creates) in any assessment, unless explicitly authorised."
+ },
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "The Code of Practice stipulates that you cannot use the output of Generative AI (i.e., the content it creates) in any assessment, unless explicitly authorised."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "Be assured that your School will give you all the guidance you need about when Generative AI tools can and cannot be used in academic work."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "It is important to check that your particular use of Generative AI in assessment is permitted by your module lead."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Where the use of Generative AI tools is allowed, the assessment specification should also specify how use should be acknowledged."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Where the use of Generative AI tools is allowed, the assessment specification should also specify how use should be acknowledged."
+  },
+  "contents": [
+   {
+    "value": "prompts",
+    "quote": "Sharing prompts used, the outputs produced, or the modifications made because of using the tools."
+   },
+   {
+    "value": "outputs",
+    "quote": "Sharing prompts used, the outputs produced, or the modifications made because of using the tools."
+   },
+   {
+    "value": "learning_reflection",
+    "quote": "A reflective component detailing how Generative AI has been used and the experience of engaging with it."
+   },
+   {
+    "value": "how_used",
+    "quote": "A reflective component detailing how Generative AI has been used and the experience of engaging with it."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "For PGR theses, this use must be declared using the ‘third party editor declaration’ form."
+   },
+   {
+    "value": "statement_in_work",
+    "quote": "a pre-defined statement that indicates whether you have used Generative AI tools."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Using appropriate referencing as outlined in Cite them Right Online (Institutional login required)."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "the misuse of Generative AI tools in assessment, such as improper referencing or non-acknowledgement of use, will be dealt with in-line with this Code of Practice."
+  },
+  "exempt": [
+   {
+    "what": "learning_aid_use",
+    "quote": "You are permitted to use these tools in this context, as long as you do not submit the actual AI-generated output as your own work for assessment."
+   }
+  ]
+ }
+}

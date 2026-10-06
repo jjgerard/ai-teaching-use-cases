@@ -1,0 +1,36 @@
+{
+ "doc_id": "kent-students-genai-202610",
+ "coder": "cmp-c14",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Presenting a Generative AI output or another person’s work as your own is a breach of academic integrity.",
+   "anchor": null
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": true,
+   "quote": "Presenting a Generative AI output or another person’s work as your own is a breach of academic integrity.",
+   "anchor": null
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Submitting content that misrepresents your contribution, whether written by another person or AI, is a breach of academic integrity.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "Substantially altered",
+   "ai_named": true,
+   "quote": "By \"substantially altered\", we mean that your work should not be altered more than it would be by the spellchecking or grammar checking software that you would find in Microsoft Office products"
+  }
+ ]
+}

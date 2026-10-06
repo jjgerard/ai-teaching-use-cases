@@ -1,0 +1,84 @@
+{
+ "doc_id": "national-ireland-students-genai-202610",
+ "coder": "cmp-c4",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": false,
+   "quote": "Concealing your methods and not maintaining transparency in your approach.",
+   "anchor": null
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "Concealing your methods and not maintaining transparency in your approach.",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Where NCI cannot stand over a piece of work created by a student due to suspected AI plagiarism, this work will not be accepted, and may lead to disciplinary action.",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": false,
+   "quote": "Failing to adhere to the assessment guidelines provided by the lecturer/tutor.",
+   "anchor": null
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Directly taking ideas or content from another individual or source without proper citation or acknowledgment.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "Academic staff at NCI use technology such as Turnitin’s AI detection, along with heuristic methods such as writing comparisons, language consistency, source checks to detect possible Academic Dishonesty.",
+   "anchor": null
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "Academic staff at NCI use technology such as Turnitin’s AI detection, along with heuristic methods such as writing comparisons, language consistency, source checks to detect possible Academic Dishonesty.",
+   "anchor": null
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "maintaining a record of all AI interactions related to your assessment is crucial in case you are required to present it to a faculty member.",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": true,
+   "quote": "If a member of staff suspects Academic Dishonesty via AI, you will be subject to the Disciplinary Process of the college.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": true,
+   "quote": "Where NCI cannot stand over a piece of work created by a student due to suspected AI plagiarism, this work will not be accepted, and may lead to disciplinary action.",
+   "anchor": null
+  }
+ ],
+ "definitions": [
+  {
+   "term": "academic integrity",
+   "ai_named": false,
+   "quote": "academic integrity means being true to yourself and being fair to your classmates."
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "doc_id": "gloucestershire-students-genai-202610",
+ "coder": "cmp-c6",
+ "uses": [
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "you must always check any information you take from a Gen AI tool, as the accuracy of any work you produce is ultimately your responsibility.",
+   "anchor": "Before you start"
+  },
+  {
+   "use": "find_sources",
+   "context": "research_or_thesis",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This page is designed to suggest some ways you can use Generative AI to support your studies, particularly your dissertation",
+   "anchor": "About this page"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "Each academic school has a statement which sets out expectations around the use of generative AI"
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "did I follow all the guidance and restrictions on the use of AI for this particular assessment?"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "recommended",
+   "quote": "Giving appropriate credit to the use of Gen AI includes accurate referencing."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Cite them Right includes more information about this aspect of AI usage including suggested citations."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}
