@@ -229,7 +229,7 @@ section { scroll-margin-top: 64px; }
 
 
 <nav class="toc" id="toc" aria-label="Contents"><strong>Contents</strong>
-  <a href="#uses">What AI can be used for</a><a href="#ack">What has to be acknowledged</a><a href="#misconduct">Academic misconduct</a><a href="#support">What kind of help institutions offer</a><a href="#together">What goes together</a><a href="#points">What the guidance says</a><a href="#method">How to read this</a>
+  <a href="#uses">What AI can be used for</a><a href="#ack">What has to be acknowledged</a><a href="#misconduct">Academic misconduct</a><a href="#tools">Tools and data</a><a href="#support">What kind of help institutions offer</a><a href="#together">What goes together</a><a href="#points">What the guidance says</a><a href="#method">How to read this</a>
 </nav>
 
 <section id="uses">
@@ -253,6 +253,13 @@ section { scroll-margin-top: 64px; }
   <p class="sub" id="missub"></p>
   <div class="pctl"><span class="mono" style="color:var(--ink2)">Wording</span><span id="misctl"></span></div>
   <div class="panel udet"><div id="misrows"></div></div>
+  <a class="totop" href="#top">↑ Back to top</a>
+</section>
+
+<section id="tools">
+  <h2>Tools and data <button class="dlcsv" data-csv="toolsdata" hidden type="button">Download CSV</button></h2>
+  <p class="sub" id="toolsub"></p>
+  <div class="panel udet"><div id="toolrows"></div></div>
   <a class="totop" href="#top">↑ Back to top</a>
 </section>
 
@@ -297,6 +304,7 @@ section { scroll-margin-top: 64px; }
     <li>Where the guidance comes from. UK and Irish institutions come from a frame of universities and higher education providers built from the ROR registry and drafted for inclusion by hand (not yet checked against the OfS and HEA registers), then a seeded stratified sample. Australia, New Zealand, Canada and the United States are a first pilot: a seeded random draw of institutions from ROR whose names contain “university”, not a curated or representative sample, with non-universities in the draw (a system office, a research centre, a library consortium) set aside. For each institution a web search looked for one student-facing page on generative AI, preferring an institution-wide student guide or policy, then a library or teaching-centre guide, then an academic integrity policy that names AI, then a student news page. Many institutions also have a second page of a different kind. A second page counts under its institution, so counts are institutions, not documents. The page found is often a library guide or a landing page that points elsewhere, so what an institution says here is only what that page says. Institutions whose pages sit behind bot walls, JavaScript-only pages, robots.txt blocks or missing links could not be archived and are not coded; they are listed for manual fetching.</li>
     <li>Every value rests on a verbatim quote from an archived snapshot, checked by a validator. One model did all the coding passes, with a pilot of two independent coders before each full run. Agreement figures from the pilots are therefore optimistic.</li>
     <li>Counts are minimums. A statement counts only where a quote shows it, so a missing value means no quote was found, not that the institution disagrees. Some rows rest on a link label or on general misconduct wording that does not name AI; the misconduct section shows which.</li>
+    <li>Tools and data: the pilot of two coders agreed on 75% of rows (tools only 54%, because the stance words overlap), so treat the stance of a tool row as the least certain value. The stance dots group provided and recommended together, and not endorsed, discouraged and warned together. Data stances have no “discouraged”, so “avoid sharing” is recorded as prohibited or warned. Many pages are library guides or landing pages with no tool or data statements, so most institutions have no row.</li>
     <li>Documents with tiered rules (for example traffic-light levels) give several rows for one use, so their counts are lower bounds.</li>
     <li>“What goes together” is descriptive. The noteworthy pairs are corrected for the number of pairs compared, but an association in what documents say is not a reason, and three-way combinations are too thin to test with this many institutions.</li>
   </ul>
@@ -502,14 +510,39 @@ section { scroll-margin-top: 64px; }
       xgroup(host, items.map(function (x) { var n = x.n; return { key: "mis|" + x.k, label: x.label, def: x.def, n: n, dots: x.det ? x.dots : null, cn: String(n), count: n + " institutions", detail: function (d) { if (x.det) { DETORDER.forEach(function (st) { if (!x.byS[st]) return; d.appendChild(el("h4", null, DETLAB[st] + " (" + x.byS[st].length + ")")); quotes(d, x.byS[st], 8, function (r) { return (r.ai ? "" : " · general wording") + (r.sc === "general_misconduct" ? " · general procedure" : ""); }); }); } else quotes(d, x.list, 12, function (r) { return (r.ai ? "" : " · general wording") + (r.sc === "general_misconduct" ? " · general procedure" : ""); }); } }; }), N); });
     if (!host.firstChild) host.appendChild(el("span", null, "No misconduct statements yet."));
   }
+  var TD = TR.tools;
+  var TGRPS = [["tools", "Which tools", "tools"], ["data", "What data can go in", "data"], ["safeguards", "Safeguards people are asked to apply", "safeguards"], ["legal", "Laws and terms named", "legal"]];
+  var TSTLVL = { provided: "supplied", recommended: "supplied", permitted: "permitted", conditional: "conditional", not_endorsed: "discouraged", discouraged: "discouraged", warned: "discouraged", prohibited: "prohibited" };
+  var TLVLORDER = ["supplied", "permitted", "conditional", "discouraged", "prohibited"], TLVLCLS = { supplied: "sg-required", permitted: "sg-permitted", conditional: "sg-conditional", discouraged: "sg-discouraged", prohibited: "sg-prohibited" };
+  var TLVLLAB = { supplied: "supplied or recommended", permitted: "permitted", conditional: "conditional", discouraged: "not endorsed, discouraged or warned", prohibited: "prohibited" };
+  var DLVL = { permitted: "permitted", conditional: "conditional", warned: "discouraged", prohibited: "prohibited" };
+  var AUDLAB = { students: "students", staff: "staff", both: "students and staff", unspecified: "audience not stated" };
+  function tlevel(r) { return r.g === "tools" ? TSTLVL[r.st] : DLVL[r.st]; }
+  function tnote(r) { return " · " + r.st.replace(/_/g, " ") + " · " + AUDLAB[r.a] + (r.nm ? " · " + r.nm : "") + (r.k && r.k.length ? " · " + r.k.map(nice).join(", ") : "") + (r.ai ? "" : " · general wording"); }
+  function drawTools() {
+    var ids = TR.sdocs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), N = ids.length, okI = {}; ids.forEach(function (d) { okI[d] = 1; });
+    var rows = TD.rows.filter(function (r) { return okI[r.i]; }), nDocs = {}; rows.forEach(function (r) { nDocs[r.i] = 1; });
+    desc("toolsub", "What documents say about the AI tools people may use and the data they may enter into them.", []);
+    var host = $("toolrows"); host.textContent = ""; var per = {};
+    rows.forEach(function (r) { var k = r.g + "|" + r.v; (per[k] = per[k] || []).push(r); });
+    TGRPS.forEach(function (g) { var sch = TD.schema[g[2]], items = [];
+      Object.keys(sch).forEach(function (v) { var L = per[g[0] + "|" + v]; if (!L) return; var un = {}; L.forEach(function (r) { un[r.i] = 1; }); var n = Object.keys(un).length;
+        if (g[0] === "tools" || g[0] === "data") { var by = {}, best = {}; L.forEach(function (r) { var l = tlevel(r); (by[l] = by[l] || []).push(r); var cur = best[r.i]; if (cur === undefined || TLVLORDER.indexOf(l) < TLVLORDER.indexOf(cur)) best[r.i] = l; });
+          var dots = []; Object.keys(best).forEach(function (i) { dots.push(TLVLCLS[best[i]]); }); dots.sort(function (a, b) { return TLVLORDER.map(function (l) { return TLVLCLS[l]; }).indexOf(a) - TLVLORDER.map(function (l) { return TLVLCLS[l]; }).indexOf(b); });
+          items.push({ det: true, k: g[0] + "|" + v, label: nice(v), def: sch[v], by: by, dots: dots, n: n }); }
+        else items.push({ k: g[0] + "|" + v, label: nice(v), def: sch[v], list: L, n: n }); });
+      if (!items.length) return; items.sort(function (a, b) { return b.n - a.n; }); host.appendChild(el("h4", null, g[1])); if (g[0] === "tools" || g[0] === "data") host.appendChild(mkLegend(TLVLORDER, TLVLCLS, TLVLLAB));
+      xgroup(host, items.map(function (x) { return { key: "td|" + x.k, label: x.label, def: x.def, n: x.n, dots: x.det ? x.dots : null, cn: String(x.n), count: x.n + " institutions", detail: function (d) { if (x.det) { TLVLORDER.forEach(function (l) { if (!x.by[l]) return; d.appendChild(el("h4", null, TLVLLAB[l] + " (" + uniqBy(x.by[l]).length + ")")); quotes(d, uniqBy(x.by[l]), 8, tnote); }); } else quotes(d, uniqBy(x.list), 12, tnote); } }; }), N); });
+    if (!host.firstChild) host.appendChild(el("span", null, "No statements yet."));
+  }
   var DLN = null;
   function csvInit() { var btns = document.querySelectorAll(".dlcsv"); if (!btns.length) return;
     function blobSave(k) { var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([TR.csv[k]], { type: "text/csv" })); a.download = "ai-guidance-" + k + ".csv"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000); }
     if (!window.claude || !window.claude.use) { btns.forEach(function (b) { b.hidden = false; b.addEventListener("click", function () { blobSave(b.getAttribute("data-csv")); }); }); return; }
     window.claude.use("downloads").then(function (dl) { if (!dl) return; DLN = dl; btns.forEach(function (b) { b.hidden = false; b.addEventListener("click", function () { var k = b.getAttribute("data-csv"), old = b.textContent; DLN.save({ filename: "ai-guidance-" + k + ".csv", data: TR.csv[k] }).then(function () { b.textContent = "Saved"; setTimeout(function () { b.textContent = old; }, 1500); }, function (e) { if (e && e.code !== "declined") { b.textContent = "Not available"; setTimeout(function () { b.textContent = old; }, 2000); } }); }); }); }, function () {}); }
-  // what goes together: institution-level co-occurrence of statements from the four schemas
+  // what goes together: institution-level co-occurrence of statements from the five schemas
   var TG = { sel: null, base: null, groups: null };
-  var TGSEC = ["AI use", "Acknowledgement", "Help offered", "Misconduct"];
+  var TGSEC = ["AI use", "Acknowledgement", "Help offered", "Misconduct", "Tools and data"];
   function sep(title) { return /[?:]$/.test(title) ? " " : ": "; }
   function nice(v) { return String(v).replace(/_/g, " "); }
   function tgBuild() {
@@ -537,6 +570,12 @@ section { scroll-margin-top: 64px; }
       var gr = { sec: "Misconduct", title: g[1], items: [] };
       if (g[0] === "detection") { gr.legend = { order: DETORDER, cls: DETCLS, lab: DETLAB }; Object.keys(sch).forEach(function (v) { var it = { kind: "use", label: v.replace(/_/g, " "), feats: [] }; DETORDER.forEach(function (st) { var s = sets[v + "|" + st]; if (s && s.size) { var ft = feat("mis|detection|" + v + "|" + st, "Misconduct", g[1] + ": " + v.replace(/_/g, " ") + " — " + st.replace(/_/g, " "), s, { gk: "mis:detection" + v, noteOk: true }); ft.cls = DETCLS[st]; it.feats.push(ft); } }); if (it.feats.length) gr.items.push(it); }); gr.items.sort(function (a, b) { var n = function (x) { var u = new Set(); x.feats.forEach(function (f) { f.s.forEach(function (i) { u.add(i); }); }); return u.size; }; return n(b) - n(a); }); }
       else Object.keys(sets).sort(function (a, b) { return sets[b].size - sets[a].size; }).forEach(function (k) { gr.items.push({ kind: "one", feats: [feat("mis|" + g[0] + "|" + k, "Misconduct", g[1] + ": " + lab[k], sets[k], { gk: "mis:" + g[0] + k, short: lab[k], noteOk: g[0] === "offences" })] }); });
+      if (gr.items.length) groups.push(gr); });
+    // tools and data
+    TGRPS.forEach(function (g) { var sch = TD.schema[g[2]], sets = {}, gr = { sec: "Tools and data", title: g[1], items: [] };
+      TD.rows.forEach(function (r) { if (r.g !== g[0] || !PD[r.i]) return; var l = (g[0] === "tools" || g[0] === "data") ? tlevel(r) : ""; var k = r.v + "|" + l; (sets[k] = sets[k] || new Set()).add(r.i); });
+      if (g[0] === "tools" || g[0] === "data") { gr.legend = { order: TLVLORDER, cls: TLVLCLS, lab: TLVLLAB }; Object.keys(sch).forEach(function (v) { var it = { kind: "use", label: nice(v), feats: [] }; TLVLORDER.forEach(function (l) { var s = sets[v + "|" + l]; if (s && s.size) { var ft = feat("td|" + g[0] + "|" + v + "|" + l, "Tools and data", g[1] + ": " + nice(v) + " — " + TLVLLAB[l], s, { gk: "td:" + g[0] + v, noteOk: true }); ft.cls = TLVLCLS[l]; it.feats.push(ft); } }); if (it.feats.length) gr.items.push(it); }); gr.items.sort(function (a, b) { var n = function (x) { var u = new Set(); x.feats.forEach(function (f) { f.s.forEach(function (i) { u.add(i); }); }); return u.size; }; return n(b) - n(a); }); }
+      else Object.keys(sets).sort(function (a, b) { return sets[b].size - sets[a].size; }).forEach(function (k) { var v = k.slice(0, -1); gr.items.push({ kind: "one", feats: [feat("td|" + g[0] + "|" + v, "Tools and data", g[1] + ": " + nice(v), sets[k], { gk: "td:" + g[0] + v, short: nice(v), noteOk: true })] }); });
       if (gr.items.length) groups.push(gr); });
     TG.base = B; TG.groups = groups;
   }
@@ -585,7 +624,7 @@ section { scroll-margin-top: 64px; }
   function refresh() {
     drawRegs();
     $("nowshown").textContent = TR.sdocs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }).length + " institutions" + (region === "All" ? "" : " in " + region);
-    drawPoints(); drawUses(); drawAck(); drawMisconduct(); drawTogether();
+    drawPoints(); drawUses(); drawAck(); drawMisconduct(); drawTools(); drawTogether();
   }
   csvInit();
   tinit(); pinit(); srcNote(); refresh();
