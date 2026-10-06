@@ -582,7 +582,7 @@ section { scroll-margin-top: 64px; }
   function uniqBy(list) { var seen = {}, out = []; list.forEach(function (r) { if (!seen[r.i]) { seen[r.i] = 1; out.push(r); } }); return out; }
   var RRANK = { mandatory: 3, advised: 2, planned: 1 };
   function drawSupport() {
-    var S = TR.support, N = TR.docs.filter(function (d) { return PD[d]; }).length, host = $("supbars"); host.textContent = "";
+    var S = TR.support, N = TR.sdocs.filter(function (d) { return PD[d]; }).length, host = $("supbars"); host.textContent = "";
     desc("supsub", "Each chip is one form of training, guidance or support. The number is how many institutions offer it.", ["The ten forms: course or module, workshop or live session, quiz or badge, guide or resource hub, prompt bank, referencing help, named support service, support in a misconduct case, wellbeing support, staff development", "“Required” after the number: how many of them make it mandatory", "Open a chip: each institution’s quote, with required and advised ones marked and first"]);
     xgroup(host, S.forms.map(function (f) { var req = ["mandatory", "advised", "planned"].filter(function (k) { return f.req[k]; }).map(function (k) { return f.req[k] + " " + k; }).join(", ");
       return { key: "sup|" + f.id, label: f.label, def: f.def, n: f.n, bar: simpleBar(100 * f.n / N, "sg-permitted"), count: f.n + " of " + N + " (" + Math.round(100 * f.n / N) + "%)" + (f.nAi < f.n ? " · " + f.nAi + " name AI" : "") + (req ? " · " + req : ""), cn: f.n + (f.req.mandatory ? " · " + f.req.mandatory + " required" : ""), detail: function (d) { quotes(d, f.rows.slice().sort(function (a, b) { return (RRANK[b.rq] || 0) - (RRANK[a.rq] || 0); }), 8, function (r) { return (r.n ? " · " + r.n : "") + (r.s ? " · second document" : ""); }); } }; }), N);
@@ -594,7 +594,7 @@ section { scroll-margin-top: 64px; }
   var STLAB = { permitted: "Permitted", conditional: "Conditional", discouraged: "Discouraged", prohibited: "Prohibited", required: "Required" };
   function urowsFor() { return UD.rows.filter(function (r) { return PD[r.i] && (region === "All" || PD[r.i].region === region) && (uctx === "all" || r.c === uctx); }); }
   function drawUses() {
-    var N = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }).length, rows = urowsFor(), per = {};
+    var N = TR.sdocs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }).length, rows = urowsFor(), per = {};
     rows.forEach(function (r) { var o = (per[r.u] = per[r.u] || {}); (o[r.s] = o[r.s] || new Set()).add(r.i); });
     desc("usub", "Each chip is one thing students might use generative AI for. The number is how many institutions say something about it.", ["Uses run from most permitted to most restricted, by the average stance across institutions. Dots: one per institution, coloured by stance (required, permitted, conditional, discouraged, prohibited); over ten institutions the dots become a strip", "Setting buttons: all settings, study, assessed work, exams or supervised, research or thesis", "Open a chip: the use’s definition and each institution’s quote, grouped by stance, with the conditions attached to conditional ones"]);
     var ch = $("uctx"); ch.textContent = ""; [["all", "All settings"]].concat(Object.keys(UD.contexts).filter(function (k) { return k !== "unspecified"; }).map(function (k) { return [k, k.replace(/_/g, " ")]; })).forEach(function (x) { ch.appendChild(mkChip(x[1], uctx === x[0], function () { uctx = x[0]; drawUses(); })); });
@@ -606,7 +606,7 @@ section { scroll-margin-top: 64px; }
         detail: function (dt) { STORDER.forEach(function (s) { var uniq = uniqBy(rows.filter(function (r) { return r.u === x.u.id && r.s === s; })); if (!uniq.length) return; dt.appendChild(el("h4", null, STLAB[s] + " (" + uniq.length + ")")); quotes(dt, uniq, 6, function (r) { var cond = r.s === "conditional" && r.k.length ? " [" + r.k.map(function (k) { return k.replace(/_/g, " "); }).join(", ") + "]" : ""; return (uctx === "all" ? " · " + r.c.replace(/_/g, " ") : "") + (r.t ? " · " + r.t : "") + cond; }); }); } }; }), N);
   }
   function drawAck() {
-    var ids = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), okI = {}; ids.forEach(function (d) { okI[d] = 1; }); var N = ids.length, A = UD.ack, AQ = UD.ackq, host = $("ackbars"); host.textContent = "";
+    var ids = TR.sdocs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), okI = {}; ids.forEach(function (d) { okI[d] = 1; }); var N = ids.length, A = UD.ack, AQ = UD.ackq, host = $("ackbars"); host.textContent = "";
     desc("acksub", "Each chip is one answer to a question about acknowledging AI use. The number is how many institutions give that answer.", ["Is acknowledgement required? Who decides? What applies when a brief is silent?", "What to include, where it goes, how to reference it, whether records are kept", "What happens if it is missing, and which uses need no acknowledgement", "Open a chip: each institution’s quote"]);
     function bars(title, cat, counts, labels) { var keys = Object.keys(counts).filter(function (k) { return counts[k] > 0; }).sort(function (a, b) { return counts[b] - counts[a]; }); if (!keys.length) return; host.appendChild(el("h4", null, title));
       xgroup(host, keys.map(function (k) { var lab = (labels && labels[k]) || k.replace(/_/g, " "); return { key: "ack|" + cat + "|" + k, label: lab, n: counts[k], bar: simpleBar(100 * counts[k] / N, "sg-permitted"), count: counts[k] + " of " + N + " (" + Math.round(100 * counts[k] / N) + "%)", detail: function (d) { var L = (AQ[cat + "|" + k] || []).filter(function (r) { return okI[r.i]; }); if (!L.length) d.appendChild(el("p", "small", "No quote kept for this value.")); else quotes(d, L, 8); } }; }), N); }
@@ -617,7 +617,7 @@ section { scroll-margin-top: 64px; }
   var MS = TR.misconduct, misAi = true;
   var MGROUPS = [["offences", "What counts as an offence", "offences"], ["detection", "How use is detected", "methods"], ["process", "How a case is handled", "process"], ["outcomes", "What the outcomes can be", "outcomes"], ["liability", "Does intent matter?", "liability"]];
   function drawMisconduct() {
-    var ids = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), N = ids.length, okI = {}; ids.forEach(function (d) { okI[d] = 1; });
+    var ids = TR.sdocs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), N = ids.length, okI = {}; ids.forEach(function (d) { okI[d] = 1; });
     var rows = MS.rows.filter(function (r) { return okI[r.i] && (!misAi || r.ai || r.g === "process" || r.g === "outcomes" || r.g === "liability"); });
     var withDoc = ids.filter(function (d) { return MS.scope[d]; }).length, sc = {}; ids.forEach(function (d) { var s = MS.scope[d]; if (s) sc[s] = (sc[s] || 0) + 1; });
     desc("missub", "Each chip is one thing a document says about misconduct involving AI. The number is how many institutions say it.", ["What counts as an offence: undeclared use, unauthorised use, passing off, contract cheating and others", "How use is detected: each method with its stance (used, may be used, not used, restricted, unreliable)", "How a case is handled, what the outcomes can be, and whether intent matters", "Open a chip: each institution’s quote, marked where the quote does not itself name AI"]);
@@ -639,7 +639,7 @@ section { scroll-margin-top: 64px; }
   function sep(title) { return /[?:]$/.test(title) ? " " : ": "; }
   function nice(v) { return String(v).replace(/_/g, " "); }
   function tgBuild() {
-    var all = TR.docs.filter(function (d) { return PD[d]; }), B = {}, groups = [];
+    var all = TR.sdocs.filter(function (d) { return PD[d]; }), B = {}, groups = [];
     function feat(k, sec, l, s, extra) { var o = B[k] = { k: k, sec: sec, l: l, s: s, gk: extra.gk, short: extra.short || l, noteOk: extra.noteOk !== false }; return o; }
     function setOf(rows, fn) { var s = new Set(); rows.forEach(function (r) { if (fn(r)) s.add(r.i); }); return s; }
     // AI use: chip order is any use first, then by number of institutions
@@ -664,7 +664,7 @@ section { scroll-margin-top: 64px; }
   }
   function tgState() {
     if (!TG.base) tgBuild();
-    var ids = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), N = ids.length, ix = {}; ids.forEach(function (d, i) { ix[d] = i; });
+    var ids = TR.sdocs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), N = ids.length, ix = {}; ids.forEach(function (d, i) { ix[d] = i; });
     var cur = {}; Object.keys(TG.base).forEach(function (k) { var o = TG.base[k], m = []; o.s.forEach(function (d) { if (ix[d] != null) m.push(ix[d]); }); cur[k] = { o: o, m: m, set: new Set(m), n: m.length }; });
     return { N: N, cur: cur };
   }
