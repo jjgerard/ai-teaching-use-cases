@@ -581,7 +581,7 @@ section { scroll-margin-top: 64px; }
 
   function refresh() {
     drawRegs();
-    $("nowshown").textContent = shown().length + " of " + DATA.docs.length + " documents shown";
+    $("nowshown").textContent = TR.sdocs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }).length + " institutions" + (region === "All" ? "" : " in " + region);
     drawPoints(); drawUses(); drawAck(); drawMisconduct(); drawTogether();
   }
   csvInit();
