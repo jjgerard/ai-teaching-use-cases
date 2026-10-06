@@ -1,0 +1,101 @@
+{
+ "doc_id": "edinburgh-napier-students-genai-202610",
+ "coder": "td-t30",
+ "tools": [
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "not_endorsed",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "They are external tools, they’re not supported by the University, so you want to make sure that you’re comfortable with how your data is being used, not just anything that you input, but also your personal information.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Never give your own or other’s personal information (name, health information, photos of faces etc.) to Gen AI.",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "It is not permitted for you to upload any teaching materials (lecture slides, lecture recordings, assessment briefs) to any external tool, including Gen AI.",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "You may not upload teaching materials, such as lecture slides, lecture recordings or assessment briefs, to Gen AI tools unless you have your module leader’s permission to do so.",
+   "anchor": null
+  },
+  {
+   "data_type": "assessment_material",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "You may not upload teaching materials, such as lecture slides, lecture recordings or assessment briefs, to Gen AI tools unless you have your module leader’s permission to do so.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "You may not upload copyrighted materials, such as journal articles or books, to Gen AI tools unless you have the author’s or publication’s permission to do so",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Before using any tool not provided by the university you should read the terms and conditions carefully.",
+   "anchor": null
+  },
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Anyone processing personal data on behalf of the University is required to comply with the University Data Protection Policy when using any Gen AI tools.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The current UK laws governing copyright do not fully address Gen AI, which creates legal uncertainty.",
+   "anchor": null
+  },
+  {
+   "value": "terms_of_service",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Before using any tool not provided by the university you should read the terms and conditions carefully.",
+   "anchor": null
+  }
+ ]
+}

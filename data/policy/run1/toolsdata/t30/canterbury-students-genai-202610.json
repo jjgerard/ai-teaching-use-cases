@@ -1,0 +1,156 @@
+{
+ "doc_id": "canterbury-students-genai-202610",
+ "coder": "td-t30",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Microsoft’s Copilot offers commercial data protection through the University’s institutional licence.",
+   "anchor": null
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "conditional",
+   "audience": "students",
+   "name": "Microsoft Copilot",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "If you are under 18 you may not legally use GenAI platforms without written parental permission. This includes Copilot, which is provided as part of the Microsoft365 suite.",
+   "anchor": null
+  },
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "not_endorsed",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "The University does not recommend or endorse any specific GenAI tools.",
+   "anchor": null
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "warned",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Some tools, particularly those that are free to use, will request your permission to access and share user data.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not enter personally identifiable or sensitive information into GenAI platforms. Some platforms store the interactions, which may constitute a data breach under the Data Protection Act and UK GDPR 2018. This includes research data.",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not enter personally identifiable or sensitive information into GenAI platforms. Some platforms store the interactions, which may constitute a data breach under the Data Protection Act and UK GDPR 2018. This includes research data.",
+   "anchor": null
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Do not share others’ personal, identifiable, or sensitive information with GenAI platforms unless you have their express consent.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not place copyrighted information into GenAI platforms for processing. This includes your course notes, assessments, slides and other content produced by University staff. Do not put these into GenAI platforms unless the academic concerned gives written permission.",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Do not place copyrighted information into GenAI platforms for processing. This includes your course notes, assessments, slides and other content produced by University staff. Do not put these into GenAI platforms unless the academic concerned gives written permission.",
+   "anchor": null
+  },
+  {
+   "data_type": "assessment_material",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Do not place copyrighted information into GenAI platforms for processing. This includes your course notes, assessments, slides and other content produced by University staff. Do not put these into GenAI platforms unless the academic concerned gives written permission.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "It is essential to be aware of the terms and conditions section of the GenAI tools you are using, as each platform that provides these tools has its unique terms and conditions.",
+   "anchor": null
+  },
+  {
+   "value": "opt_out_of_training",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Is there an option for me to select which privacy settings I prefer? e.g. whether the information I enter will be shared with the AI model for training purposes or not.",
+   "anchor": null
+  },
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "To securely access Copilot log into copilot.microsoft.com using your CCCU credentials.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Do not share others’ personal, identifiable, or sensitive information with GenAI platforms unless you have their express consent. If you do so, you may be in breach of the UKs Data Protection Act 2018 and Europe’s GDPR laws.",
+   "anchor": null
+  },
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "This means that, when using GenAI without proper accreditation, you could inadvertently plagiarise or breach the copyright of someone’s work.",
+   "anchor": null
+  },
+  {
+   "value": "terms_of_service",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "It is essential to be aware of the terms and conditions section of the GenAI tools you are using, as each platform that provides these tools has its unique terms and conditions.",
+   "anchor": null
+  }
+ ]
+}

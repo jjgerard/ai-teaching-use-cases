@@ -1,0 +1,83 @@
+{
+ "doc_id": "salford-students-genai-202610",
+ "coder": "td-t30",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Microsoft 365 Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Use Microsoft 365 Copilot signed in with your University account wherever possible, as this is the University-approved GenAI tool and is covered by the University’s data security policy.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": false,
+   "quote": "Never enter personal data, unpublished research, your own or anyone else’s work, or other sensitive or confidential information into a tool that is not University-approved.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": false,
+   "quote": "Never enter personal data, unpublished research, your own or anyone else’s work, or other sensitive or confidential information into a tool that is not University-approved.",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": false,
+   "quote": "Never enter personal data, unpublished research, your own or anyone else’s work, or other sensitive or confidential information into a tool that is not University-approved.",
+   "anchor": null
+  },
+  {
+   "data_type": "own_work",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": false,
+   "quote": "Never enter personal data, unpublished research, your own or anyone else’s work, or other sensitive or confidential information into a tool that is not University-approved.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": false,
+   "quote": "Never enter personal data, unpublished research, your own or anyone else’s work, or other sensitive or confidential information into a tool that is not University-approved.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Use Microsoft 365 Copilot signed in with your University account wherever possible, as this is the University-approved GenAI tool and is covered by the University’s data security policy.",
+   "anchor": null
+  }
+ ],
+ "legal": []
+}
