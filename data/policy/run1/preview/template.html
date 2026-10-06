@@ -150,11 +150,20 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 .dlcsv:hover { color: var(--accent-ink); border-color: var(--accent-ink); }
 .dlcsv[hidden] { display: none; }
 .sub ul.sch { margin: 6px 0 0; padding-left: 20px; } .sub ul.sch li { margin: 2px 0; }
-table.tgt { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 6px; }
-table.tgt th { text-align: left; font-weight: 600; color: var(--ink2); padding: 4px 8px 4px 0; border-bottom: 1px solid var(--line); }
-table.tgt td { padding: 4px 8px 4px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
-table.tgt .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
-tr.tgrow { cursor: pointer; } tr.tgrow:hover td { background: var(--tint); }
+.tgr { display: grid; grid-template-columns: minmax(140px, 36%) minmax(80px, 1fr) minmax(130px, 200px); gap: 10px; align-items: center; padding: 3px 0; font-size: 13px; }
+.tgb { position: relative; height: 12px; background: var(--tint); border-radius: 2px; }
+.tgb i { position: absolute; left: 0; top: 0; height: 100%; background: var(--accent); border-radius: 2px; opacity: .85; }
+.tgb b { position: absolute; top: -3px; width: 2px; height: 18px; background: var(--ink); }
+.tgn { font-size: 12px; color: var(--ink2); }
+.tgscroll { max-height: 340px; overflow-y: auto; padding-right: 6px; }
+.hmwrap { overflow: auto; max-height: 560px; }
+table.hm { border-collapse: separate; border-spacing: 2px; font-size: 12px; }
+table.hm td { min-width: 30px; height: 26px; text-align: center; border-radius: 2px; font-variant-numeric: tabular-nums; }
+table.hm td.self { color: var(--ink2); }
+table.hm th.rowh { text-align: left; font-weight: 400; padding-right: 8px; position: sticky; left: 0; background: var(--bg, var(--card, #fff)); min-width: 180px; max-width: 220px; }
+table.hm th.colh { height: 150px; vertical-align: bottom; font-weight: 400; }
+table.hm th.colh div { writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; max-height: 150px; overflow: hidden; text-overflow: ellipsis; text-align: left; }
+@media (max-width: 520px) { .tgr { grid-template-columns: 1fr; gap: 2px; } table.hm th.rowh { min-width: 120px; } }
 #tgsel { max-width: 100%; }
 @media (max-width: 520px) { table.tgt { font-size: 12px; } }
 .udet h4 { margin: 12px 0 4px; font-size: 14px; }
@@ -231,12 +240,13 @@ tr.tgrow { cursor: pointer; } tr.tgrow:hover td { background: var(--tint); }
 
 <section id="together">
   <h2>What goes together</h2>
-  <p class="sub">Which statements tend to appear in the same institution’s guidance, across the four sections above. Pairs are ranked by overlap: the share of institutions saying either that say both.</p>
-  <div class="pctl"><span class="mono" style="color:var(--ink2)">Pairs</span><span id="tgscope"></span><span class="mono" style="color:var(--ink2);margin-left:12px">Rank by</span><span id="tgrank"></span></div>
-  <div class="panel udet"><div id="tgtop"></div></div>
-  <h3 style="margin:22px 0 6px">Pick one statement</h3>
-  <div class="pctl"><label class="mono" for="tgsel" style="color:var(--ink2)">Statement</label><select id="tgsel"></select></div>
+  <p class="sub">Pick a statement to see how likely an institution that says it is to say everything else. Each bar is the share of those institutions that also say the other statement; the tick is the share across all institutions, so a bar past the tick means more likely than usual.</p>
+  <div class="pctl"><label class="mono" for="tgsel" style="color:var(--ink2)">If an institution says</label><select id="tgsel"></select></div>
   <div class="panel udet"><div id="tgone"></div></div>
+  <h3 style="margin:22px 0 6px">Two sections against each other</h3>
+  <p class="sub">Each cell is the share of institutions with the row statement that also have the column statement. Darker is more likely; the number is how many institutions.</p>
+  <div class="pctl"><label class="mono" for="tgrow" style="color:var(--ink2)">Rows</label><select id="tgrow"></select><label class="mono" for="tgcol" style="color:var(--ink2);margin-left:12px">Columns</label><select id="tgcol"></select></div>
+  <div class="panel udet"><div class="hmwrap" id="tgmat"></div></div>
 </section>
 
 <section id="points">
@@ -714,7 +724,7 @@ tr.tgrow { cursor: pointer; } tr.tgrow:hover td { background: var(--tint); }
   function csvInit() { var btns = document.querySelectorAll(".dlcsv"); if (!btns.length || !window.claude || !window.claude.use) return;
     window.claude.use("downloads").then(function (dl) { if (!dl) return; DLN = dl; btns.forEach(function (b) { b.hidden = false; b.addEventListener("click", function () { var k = b.getAttribute("data-csv"), old = b.textContent; DLN.save({ filename: "ai-policy-" + k + ".csv", data: TR.csv[k] }).then(function () { b.textContent = "Saved"; setTimeout(function () { b.textContent = old; }, 1500); }, function (e) { if (e && e.code !== "declined") { b.textContent = "Not available"; setTimeout(function () { b.textContent = old; }, 2000); } }); }); }); }, function () {}); }
   // what goes together: institution-level co-occurrence of statements from the four schemas
-  var TG = { scope: "across", rank: "overlap", sel: null, base: null };
+  var TG = { sel: null, row: "AI use", col: "Misconduct", base: null };
   function tgBase() {
     var B = {}; function add(k, g, l, i) { var o = (B[k] = B[k] || { k: k, g: g, l: l, s: new Set() }); o.s.add(i); }
     UD.rows.forEach(function (r) { add("use|" + r.u + "|" + r.s, "AI use", (ULAB[r.u] ? ULAB[r.u].label : r.u) + " — " + r.s, r.i); });
@@ -730,31 +740,36 @@ tr.tgrow { cursor: pointer; } tr.tgrow:hover td { background: var(--tint); }
   function tgStats() {
     if (!TG.base) TG.base = tgBase();
     var ids = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), N = ids.length, F = [];
-    Object.keys(TG.base).forEach(function (k) { var o = TG.base[k], m = []; ids.forEach(function (d, ix) { if (o.s.has(d)) m.push(ix); }); if (m.length >= 6) F.push({ k: k, g: o.g, l: o.l, m: m, set: new Set(m), n: m.length }); });
-    return { ids: ids, N: N, F: F };
+    Object.keys(TG.base).forEach(function (k) { var o = TG.base[k], m = []; ids.forEach(function (d, ix) { if (o.s.has(d)) m.push(ix); }); if (m.length >= 2) F.push({ k: k, g: o.g, l: o.l, m: m, set: new Set(m), n: m.length }); });
+    return { N: N, F: F };
   }
-  function tgPair(a, b, N) { var both = 0; a.m.forEach(function (x) { if (b.set.has(x)) both++; }); var un = a.n + b.n - both; return { a: a, b: b, both: both, jac: un ? both / un : 0, lift: both * N / (a.n * b.n), pa: both / a.n }; }
-  function tgSame(a, b) { return a.g === b.g; }
+  function tgBoth(a, b) { var c = 0; a.m.forEach(function (x) { if (b.set.has(x)) c++; }); return c; }
+  var TGSEC = ["AI use", "Acknowledgement", "Help offered", "Misconduct"];
+  function fillSel(sel, vals, cur) { if (sel.options.length) { sel.value = cur; return; } vals.forEach(function (v) { var o = document.createElement("option"); o.value = v; o.textContent = v; sel.appendChild(o); }); sel.value = cur; }
   function drawTogether() {
-    var S = tgStats(), N = S.N;
-    var sc = $("tgscope"); sc.textContent = ""; sc.appendChild(mkChip("Across sections", TG.scope === "across", function () { TG.scope = "across"; drawTogether(); })); sc.appendChild(mkChip("All pairs", TG.scope === "all", function () { TG.scope = "all"; drawTogether(); }));
-    var rk = $("tgrank"); rk.textContent = ""; rk.appendChild(mkChip("Most often together", TG.rank === "overlap", function () { TG.rank = "overlap"; drawTogether(); })); rk.appendChild(mkChip("Most unexpected", TG.rank === "lift", function () { TG.rank = "lift"; drawTogether(); }));
-    var P = [], F = S.F; for (var i = 0; i < F.length; i++) for (var j = i + 1; j < F.length; j++) { if (TG.scope === "across" && tgSame(F[i], F[j])) continue; var p = tgPair(F[i], F[j], N); if (p.both >= 4) P.push(p); }
-    P.sort(function (x, y) { return TG.rank === "overlap" ? (y.jac - x.jac) || (y.both - x.both) : (y.lift - x.lift) || (y.both - x.both); });
-    var host = $("tgtop"); host.textContent = ""; host.appendChild(el("p", "small", "Out of " + N + " institutions. Each row: how many have both statements, how many have each, and how much more often they appear together than chance would give (1 = no more than chance). Descriptive only: many pairs are compared, so single pairs prove little, and a statement missing from a document is counted as absent."));
-    var tb = el("table", "tgt"); var hd = el("tr"); ["Statement A", "Statement B", "Both", "A", "B", "Lift"].forEach(function (h) { hd.appendChild(el("th", null, h)); }); tb.appendChild(hd);
-    P.slice(0, 25).forEach(function (p) { var tr = el("tr"); tr.className = "tgrow"; tr.appendChild(el("td", null, p.a.l)); tr.appendChild(el("td", null, p.b.l)); tr.appendChild(el("td", "num", String(p.both))); tr.appendChild(el("td", "num", String(p.a.n))); tr.appendChild(el("td", "num", String(p.b.n))); tr.appendChild(el("td", "num", p.lift.toFixed(1))); tr.title = p.a.g + " + " + p.b.g + " — click to explore the first"; tr.addEventListener("click", function () { TG.sel = p.a.k; drawTogether(); $("tgsel").scrollIntoView({ block: "center" }); }); tb.appendChild(tr); });
-    if (!P.length) host.appendChild(el("p", null, "No pair of statements shared by at least four institutions in this region.")); else host.appendChild(tb);
+    var S = tgStats(), N = S.N, F = S.F;
     // one statement
-    var sel = $("tgsel"); if (!sel.options.length) { var gs = {}; Object.keys(TG.base).forEach(function (k) { var o = TG.base[k]; if (o.s.size >= 6) (gs[o.g] = gs[o.g] || []).push(o); }); Object.keys(gs).forEach(function (g) { var og = document.createElement("optgroup"); og.label = g; gs[g].sort(function (a, b) { return b.s.size - a.s.size; }).forEach(function (o) { var op = document.createElement("option"); op.value = o.k; op.textContent = o.l + " (" + o.s.size + ")"; og.appendChild(op); }); sel.appendChild(og); }); sel.addEventListener("change", function () { TG.sel = sel.value; drawTogether(); }); }
-    if (!TG.sel && P.length) TG.sel = P[0].a.k; if (TG.sel) sel.value = TG.sel;
+    var sel = $("tgsel"); if (!sel.options.length) { var gs = {}; Object.keys(TG.base).forEach(function (k) { var o = TG.base[k]; if (o.s.size >= 2) (gs[o.g] = gs[o.g] || []).push(o); }); TGSEC.forEach(function (g) { if (!gs[g]) return; var og = document.createElement("optgroup"); og.label = g; gs[g].sort(function (a, b) { return b.s.size - a.s.size; }).forEach(function (o) { var op = document.createElement("option"); op.value = o.k; op.textContent = o.l + " (" + o.s.size + ")"; og.appendChild(op); }); sel.appendChild(og); }); sel.addEventListener("change", function () { TG.sel = sel.value; drawTogether(); }); }
+    if (!TG.sel) TG.sel = "use|any_use|permitted"; if (!TG.base[TG.sel]) TG.sel = sel.options[0].value; sel.value = TG.sel;
     var one = $("tgone"); one.textContent = ""; var A = F.filter(function (f) { return f.k === TG.sel; })[0];
-    if (!A) { one.appendChild(el("p", "small", "Fewer than six institutions in this region say this.")); return; }
-    one.appendChild(el("h4", null, A.l + " — " + A.n + " of " + N + " institutions"));
-    var R = F.filter(function (f) { return f.k !== A.k && (TG.scope === "all" || !tgSame(A, f)); }).map(function (f) { return tgPair(A, f, N); }).filter(function (p) { return p.both >= 2; }).sort(function (x, y) { return (y.pa - x.pa) || (y.lift - x.lift); });
-    var t2 = el("table", "tgt"), h2 = el("tr"); ["Also says", "Both", "Of those saying A", "Lift"].forEach(function (h) { h2.appendChild(el("th", null, h)); }); t2.appendChild(h2);
-    R.slice(0, 20).forEach(function (p) { var tr = el("tr"); tr.appendChild(el("td", null, p.b.l)); tr.appendChild(el("td", "num", p.both + " of " + p.b.n)); tr.appendChild(el("td", "num", Math.round(100 * p.pa) + "%")); tr.appendChild(el("td", "num", p.lift.toFixed(1))); t2.appendChild(tr); });
-    one.appendChild(R.length ? t2 : el("p", "small", "Nothing else is shared by two or more of these institutions."));
+    if (!A) { one.appendChild(el("p", "small", "No institution in this region says this.")); }
+    else {
+      var nm = el("h4", null, A.n + " of " + N + " institutions say: " + A.l); one.appendChild(nm);
+      if (A.n < 6) one.appendChild(el("p", "small", "Only " + A.n + (A.n === 1 ? " institution" : " institutions") + ", so the shares below move a lot with a single institution."));
+      TGSEC.forEach(function (g) {
+        var R = F.filter(function (f) { return f.g === g && f.k !== A.k && f.n >= 3; }).map(function (f) { var both = tgBoth(A, f); return { f: f, both: both, p: both / A.n, base: f.n / N }; }).filter(function (r) { return r.both > 0; }).sort(function (x, y) { return (y.p - x.p) || (y.both - x.both); });
+        if (!R.length) return; one.appendChild(el("h4", null, g)); var box = el("div", R.length > 12 ? "tgscroll" : "");
+        R.forEach(function (r) { var row = el("div", "tgr"); row.appendChild(el("span", "tgl", r.f.l)); var tr = el("span", "tgb"), fl = el("i"); fl.style.width = (100 * r.p) + "%"; tr.appendChild(fl); var tk = el("b"); tk.style.left = (100 * r.base) + "%"; tk.title = "All institutions: " + r.f.n + " of " + N; tr.appendChild(tk); row.appendChild(tr); row.appendChild(el("span", "tgn", r.both + " of " + A.n + " · all: " + r.f.n + " of " + N)); box.appendChild(row); });
+        one.appendChild(box); });
+    }
+    // two sections
+    fillSel($("tgrow"), TGSEC, TG.row); fillSel($("tgcol"), TGSEC, TG.col);
+    if (!$("tgrow").dataset.w) { $("tgrow").dataset.w = 1; $("tgrow").addEventListener("change", function () { TG.row = this.value; drawTogether(); }); $("tgcol").addEventListener("change", function () { TG.col = this.value; drawTogether(); }); }
+    var rows = F.filter(function (f) { return f.g === TG.row && f.n >= 5; }).sort(function (a, b) { return b.n - a.n; }), cols = F.filter(function (f) { return f.g === TG.col && f.n >= 5; }).sort(function (a, b) { return b.n - a.n; });
+    var mat = $("tgmat"); mat.textContent = ""; if (!rows.length || !cols.length) { mat.appendChild(el("p", "small", "Too few statements in this region (a statement needs at least five institutions).")); return; }
+    var tb = el("table", "hm"), hd = el("tr"); hd.appendChild(el("th", "corner", "")); cols.forEach(function (c) { var th = el("th", "colh"); th.appendChild(el("div", null, c.l + " (" + c.n + ")")); hd.appendChild(th); }); tb.appendChild(hd);
+    rows.forEach(function (r) { var tr = el("tr"); tr.appendChild(el("th", "rowh", r.l + " (" + r.n + ")")); cols.forEach(function (c) { var td = el("td"), same = r.k === c.k; if (same) { td.className = "self"; td.textContent = "·"; } else { var both = tgBoth(r, c), p = both / r.n; td.textContent = both ? String(both) : ""; td.style.background = "color-mix(in srgb, var(--accent) " + Math.round(8 + 80 * p) + "%, transparent)"; if (p > 0.55) td.style.color = "#fff"; td.title = r.l + " → " + c.l + ": " + both + " of " + r.n + " (" + Math.round(100 * p) + "%); all institutions: " + c.n + " of " + N; } tr.appendChild(td); }); tb.appendChild(tr); });
+    mat.appendChild(tb);
   }
   function tinit() { drawSupport(); }
 
