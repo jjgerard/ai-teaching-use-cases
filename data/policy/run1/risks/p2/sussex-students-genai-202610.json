@@ -1,0 +1,80 @@
+{
+ "doc_id": "sussex-students-genai-202610",
+ "coder": "rk-p2",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Reliability: AI models can produce well-written and plausible responses, but they frequently make factual errors (called “hallucinations”), fabricate quotes and citations, or present only one side of an argument.",
+   "anchor": null
+  },
+  {
+   "risk": "security_or_misuse",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Increasingly, generative AIs are producing online content, including fake news and deepfakes, which can add further confusion.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Because they are trained on large amounts of human-produced text, much of it in English and from Western contexts, they can reflect and reproduce harmful stereotypes or cultural biases.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "In some cases, AI models have been trained on copyrighted or unlicensed material without the creator’s consent.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Many tools also rely on human reviewers to evaluate outputs, raising ethical concerns about labour conditions for content moderators.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Many AI systems store the data you provide and may use it to train future models. Any personal or sensitive information you enter could be stored, shared, or even made public.",
+   "anchor": null
+  },
+  {
+   "risk": "inequity_of_access",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The full functionality of AI tools are usually only available via subscription, which we would discourage anyone from doing on an individual basis.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "If AI use is not permitted, it is because using it would prevent you from developing the knowledge or skills that the assessment is designed to test.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Always critically evaluate and verify any output before using it.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "You are responsible for checking that every reference you use is accurate and correctly formatted.",
+   "anchor": null
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "doc_id": "birmingham-students-genai-202610",
+ "coder": "rk-p2",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "the information provided by Generative AI may not always be reliable or up to date, for example they have been known to commonly ‘hallucinate’ references which do not exist",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "While Generative AI can be a valuable tool for understanding concepts and exploring ideas, it should never replace your own critical thinking and analysis.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "if the dataset has bias within it, it is likely to be transferred to the information generated",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "For most Generative AI tools, by uploading your work you grant the providers the right to use it as they see fit, and this may include sharing it with other people.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "it is important to be aware of copyright laws as they will apply to the content uploaded to the Generative AI interface, the training data used to build the models, and potentially the outputs generated",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "One key concern is the environmental impact of digital technologies like GenAI, potentially requiring massive amounts of energy consumption and water, as well as emitting high levels of carbon emissions.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Always double-check and verify information obtained from Generative AI tools.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "If you are using Generative AI tools to collect or process personal data, you need to comply with the DPA.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "to ensure you are using the tools effectively and ethically, the following factors should be considered",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "This includes a commitment to supporting students and PGRs to become ‘AI-literate’.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "This guidance will be reviewed and continually updated as generative AI technologies develop.",
+   "anchor": null
+  }
+ ]
+}
