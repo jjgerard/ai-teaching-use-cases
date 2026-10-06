@@ -1,0 +1,83 @@
+{
+ "doc_id": "stir-d2-misconduct-procedure-202610",
+ "coder": "td-t23",
+ "tools": [
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "warned",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "use of most external AI tools for rephrasing students’ own material to avoid selfplagiarism entails the risk of student's own work being used to train future generations of AI services",
+   "anchor": null
+  },
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Undergraduate, and postgraduate taught and research students in all years for all modules, are allowed open access to the similarity checking programmes to check the originality of their written work on all textbased assessments prior to final submission.",
+   "anchor": null
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "such a use of AI proofreading tools beyond assistive purposes is also prohibited, unless tasks allow their use for the purposes of formation of ideas or concepts.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "warned",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "use of AI platforms may raise ethical and legal concerns including violations of intellectual property rights, privacy prompts and submitted content, and data protection, especially when personal or unpublished work is input into these systems that, in turn, may become output to another user.",
+   "anchor": null
+  },
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "It is noted that the use of AI tools to paraphrase other students’ work is strictly prohibited as it constitutes a case of collusion.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "opt_out_of_training",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Secure and always protect their work, including from unsolicited capture for AI training purposes by online AI providers.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "use of AI platforms may raise ethical and legal concerns including violations of intellectual property rights, privacy prompts and submitted content, and data protection",
+   "anchor": null
+  },
+  {
+   "value": "data_protection",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "use of AI platforms may raise ethical and legal concerns including violations of intellectual property rights, privacy prompts and submitted content, and data protection",
+   "anchor": null
+  }
+ ]
+}

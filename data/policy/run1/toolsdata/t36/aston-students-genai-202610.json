@@ -1,0 +1,72 @@
+{
+ "doc_id": "aston-students-genai-202610",
+ "coder": "td-t36",
+ "tools": [
+  {
+   "tool_class": "agentic_tools",
+   "stance": "prohibited",
+   "audience": "both",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "the university explicitly prohibits the development, deployment, or integration of agentic AI systems",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Do not disclose personal, confidential or third-party proprietary data to public AI services without the written approval of the Chief Information Officer and Data Protection Officer.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Do not disclose personal, confidential or third-party proprietary data to public AI services without the written approval of the Chief Information Officer and Data Protection Officer.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "anonymise_before_entry",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "Respect and protect personal data. Use data minimisation and anonymisation where possible.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "Adhere to data protection, privacy, and intellectual property laws.",
+   "anchor": null
+  },
+  {
+   "value": "copyright",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "Adhere to data protection, privacy, and intellectual property laws.",
+   "anchor": null
+  },
+  {
+   "value": "eu_ai_act",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Embed cybersecurity and data governance controls aligned with the EU AI Act’s risk-based requirements.",
+   "anchor": null
+  }
+ ]
+}

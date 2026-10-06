@@ -1,0 +1,29 @@
+{
+ "doc_id": "strath-d2-misconduct-procedure-202610",
+ "coder": "td-t23",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "prohibited",
+   "audience": "unspecified",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "The University does not endorse or permit the use of any Artificial Intelligence detection tools or services to determine if the unauthorised use of Generative AI has taken place",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "unspecified",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "does not permit the submission of students' work to these tools or services.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}
