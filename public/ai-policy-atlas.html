@@ -88,7 +88,7 @@ table { border-collapse: collapse; width: 100%; }
 #detail .val { font-weight: 600; margin-top: 10px; }
 #detail .gloss { color: var(--ink2); font-size: 13px; }
 #detail a { color: var(--accent-ink); }
-ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; gap: 6px; }
+ul.lim { margin: 10px 0 0; padding-left: 18px; display: grid; gap: 6px; }
 
 /* patterns */
 .xt { font-size: 13px; }
@@ -228,7 +228,7 @@ section { scroll-margin-top: 64px; }
 
 
 <nav class="toc" id="toc" aria-label="Contents"><strong>Contents</strong>
-  <a href="#uses">What AI can be used for</a><a href="#ack">What has to be acknowledged</a><a href="#misconduct">Academic misconduct</a><a href="#support">What kind of help institutions offer</a><a href="#together">What goes together</a><a href="#points">What the guidance says</a><a href="#kinds">What kind of documents these are</a><a href="#explorer">Other document features, one at a time</a><a href="#common">Other document features: what is common</a><a href="#method">How to read this</a>
+  <a href="#uses">What AI can be used for</a><a href="#ack">What has to be acknowledged</a><a href="#misconduct">Academic misconduct</a><a href="#support">What kind of help institutions offer</a><a href="#together">What goes together</a><a href="#points">What the guidance says</a><a href="#method">How to read this</a>
 </nav>
 
 <section id="uses">
@@ -290,37 +290,6 @@ section { scroll-margin-top: 64px; }
   <button class="chip more" id="pmore" type="button" hidden>Show more</button>
 </section>
 
-<section id="kinds">
-  <h2>What kind of documents these are</h2><p class="sub" style="margin-bottom:6px">These two sections use the first, coarser coding of 47 documents. They cover areas the four schemas above do not: who issued a document and how binding it is, assessment schemes and tiers, tools and data rules, access, research and PGR, governance, and strategy. Each will be replaced by a schema as it is recoded.</p>
-  <p class="sub">Documents differ in how binding they say they are and in who issued them. Compare institutions only after allowing for this. Click a bar to list the institutions.</p>
-  <div class="cols">
-    <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">How the document describes itself</h3><div class="mono" style="color:var(--muted)">instrument_force</div><div class="bars" id="b-force"></div></div>
-    <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">Who issued it</h3><div class="mono" style="color:var(--muted)">issued_by_type</div><div class="bars" id="b-issuer"></div></div>
-  </div>
-  <div class="who" id="who-kinds" aria-live="polite"></div>
-</section>
-
-<section id="explorer">
-  <h2>One variable at a time</h2>
-  <p class="sub">Choose a variable. Bars count documents. The grey bars are the states that are not values: the document is silent, the variable does not apply, or no listed value fits.</p>
-  <div class="panel">
-    <label class="lab" for="varsel">Variable</label> <select id="varsel"></select>
-    <p class="qline" id="vq" style="margin-top:10px"></p>
-    <div class="bars" id="b-var"></div>
-    <div class="who" id="who-var" aria-live="polite"></div>
-  </div>
-</section>
-
-
-<section id="common">
-  <h2>Other document features: what is common</h2>
-  <p class="sub">Each bar is the share of documents <em>that give a value</em> for that variable, so the denominator is shown. Documents that are silent are left out, which makes these shares larger than a share of all documents. They describe this sample and are not prevalence estimates.</p>
-  <div class="cols">
-    <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">Choices documents make</h3><div class="mono" style="color:var(--muted)">values given by at least 8 documents</div><div class="bars" id="b-common"></div></div>
-    <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">Things documents state</h3><div class="mono" style="color:var(--muted)">yes/no variables, out of the documents shown</div><div class="bars" id="b-bool"></div></div>
-  </div>
-</section>
-
 <section id="method">
   <h2>How to read this</h2>
   <ul class="lim">
@@ -329,7 +298,6 @@ section { scroll-margin-top: 64px; }
     <li>Counts are minimums. A statement counts only where a quote shows it, so a missing value means no quote was found, not that the institution disagrees. Some rows rest on a link label or on general misconduct wording that does not name AI; the misconduct section shows which.</li>
     <li>Documents with tiered rules (for example traffic-light levels) give several rows for one use, so their counts are lower bounds.</li>
     <li>“What goes together” is descriptive. The noteworthy pairs are corrected for the number of pairs compared, but an association in what documents say is not a reason, and three-way combinations are too thin to test with this many institutions.</li>
-    <li>The “other document features” sections use an older coding of 47 documents. Codebook version <span id="cv"></span>.</li>
   </ul>
 </section>
 </div>
@@ -346,7 +314,6 @@ section { scroll-margin-top: 64px; }
   var REGIONS = ["England", "Scotland", "Wales", "Northern Ireland", "Ireland"];
   var KEY = ["instrument_force", "issued_by_type", "institutional_posture", "default_when_silent", "precedence", "permission_set_by", "disclosure_obligation", "referencing_requirement", "use_full_text_generation", "detector_stance", "sanctions_stated", "misconduct_framed_as", "ai_training"];
 
-  $("cv").textContent = DATA.version;
 
   function isRule(d) { var c = d.cells.instrument_force; if (!c || c.s !== "v") return false; return c.v.indexOf("pointer_page") < 0; }
   function shown() { return DATA.docs.filter(function (d) { return (region === "All" || d.region === region) && (kind === "all" || isRule(d)); }); }
@@ -367,67 +334,16 @@ section { scroll-margin-top: 64px; }
     });
     return out;
   }
-  function drawBars(host, vid, docs, whoEl) {
-    var T = tally(docs, vid), rows = [];
-    Object.keys(T.vals).sort(function (a, b) { return T.vals[b].length - T.vals[a].length; }).forEach(function (k) { rows.push({ label: hum(k), gloss: V[vid].vals[k], docs: T.vals[k], state: false }); });
-    [["ne", "document says none exists"], ["ns", "document is silent"], ["na", "does not apply"], ["mf", "no listed value fits"], ["unc", "not coded"]].forEach(function (s) { if (T[s[0]].length) rows.push({ label: s[1], docs: T[s[0]], state: true }); });
-    host.textContent = ""; var n = docs.length || 1;
-    rows.forEach(function (r) {
-      var b = el("button", "brow" + (r.state ? " state" : "")); b.type = "button"; b.setAttribute("aria-pressed", "false"); if (r.gloss) b.title = r.gloss;
-      b.appendChild(el("span", "bl", r.label)); var tr = el("span", "bt"); var f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * r.docs.length / n) + "%"; tr.appendChild(f); b.appendChild(tr);
-      b.appendChild(el("span", "bn", String(r.docs.length)));
-      b.addEventListener("click", function () {
-        Array.prototype.forEach.call(host.querySelectorAll(".brow"), function (x) { x.setAttribute("aria-pressed", "false"); }); b.setAttribute("aria-pressed", "true");
-        whoEl.textContent = ""; r.docs.forEach(function (d) { whoEl.appendChild(el("span", null, d.name)); });
-      });
-      host.appendChild(b);
-    });
-    if (!rows.length) host.appendChild(el("p", null, "No documents match the filters."));
-    whoEl.textContent = "";
-  }
 
   // explorer select
   var GROUPS = { document: "Document", stance: "Stance", uses: "Permitted uses", disclosure: "Disclosure", integrity: "Integrity and enforcement", tools_data: "Tools and data", access_equity: "Access and equity", research_pgr: "Research and PGR", governance: "Governance", strategy: "Strategy" };
-  function drawSelect() {
-    var s = $("varsel"); s.textContent = ""; var g = {};
-    DATA.vars.forEach(function (v) { (g[v.group] = g[v.group] || []).push(v); });
-    Object.keys(g).forEach(function (k) { var og = document.createElement("optgroup"); og.label = GROUPS[k] || k; g[k].forEach(function (v) { var o = document.createElement("option"); o.value = v.id; o.textContent = v.label; og.appendChild(o); }); s.appendChild(og); });
-    s.value = selVar; s.addEventListener("change", function () { selVar = s.value; drawExplorer(); });
-  }
-  function drawExplorer() { $("vq").textContent = V[selVar].q; drawBars($("b-var"), selVar, shown(), $("who-var")); }
 
   // matrix
   function cellText(c) { if (!c) return ""; if (c.s === "v") return c.v.map(hum).join(", "); if (c.s === "ne") return "none exists"; if (c.s === "ns") return "–"; if (c.s === "mf") return "no value fits"; return ""; }
-  function showDetail(d, k) {
-    var p = $("detail"); p.textContent = ""; var c = d.cells[k], v = V[k];
-    p.appendChild(el("h3", null, d.name + ": " + v.label));
-    p.appendChild(el("p", "qline", v.q));
-    var st = !c ? "not coded" : c.s === "ns" ? "The document is silent on this." : c.s === "na" ? "Does not apply to this document (its audience, level or domains, or a gate variable rules it out)." : c.s === "mf" ? "The document answers, but no listed value fits." : c.s === "ne" ? "The document says none exists." : null;
-    if (st) p.appendChild(el("p", null, st));
-    if (c && c.s === "mf") { if (c.n) p.appendChild(el("p", "gloss", "Coder note: " + c.n)); if (c.q) p.appendChild(el("blockquote", null, c.q)); }
-    if (c && c.s === "ne" && c.q) p.appendChild(el("blockquote", null, c.q));
-    if (c && c.s === "v") c.v.forEach(function (x, i) { p.appendChild(el("div", "val", hum(x))); if (v.vals[x]) p.appendChild(el("div", "gloss", v.vals[x])); if (c.q[i]) p.appendChild(el("blockquote", null, c.q[i])); });
-    var m = el("p", "meta mono"); var bits = [d.words + " words", d.fmt, "retrieved " + d.retrieved]; if (d.upd) bits.push("updated " + d.upd); if (d.pub) bits.push("published " + d.pub); m.textContent = bits.join(" · ") + " · "; p.appendChild(m);
-    var a = el("a", null, "source"); a.href = d.url; a.target = "_blank"; a.rel = "noopener"; m.appendChild(a);
-  }
 
   // ---- patterns ----
   var P = DATA.patterns;
   var CHOICE = { enum: 1, ordinal: 1, multi: 1 };
-  function drawCommon() {
-    var docs = shown(), rows = [], bools = [];
-    DATA.vars.forEach(function (v) {
-      var addr = docs.filter(function (d) { var c = d.cells[v.id]; return c && c.s === "v"; });
-      if (v.type === "boolean") { if (addr.length) bools.push({ label: v.label, n: addr.length, of: docs.length }); return; }
-      if (!CHOICE[v.type] || addr.length < 8 || v.id === "date_source") return;
-      var cnt = {}; addr.forEach(function (d) { d.cells[v.id].v.forEach(function (x) { cnt[x] = (cnt[x] || 0) + 1; }); });
-      Object.keys(cnt).forEach(function (x) { rows.push({ label: v.label + ": " + hum(x), n: cnt[x], of: addr.length, gloss: v.vals[x] }); });
-    });
-    rows.sort(function (a, b) { return b.n / b.of - a.n / a.of || b.of - a.of; });
-    fillShare($("b-common"), rows.slice(0, 20));
-    bools.sort(function (a, b) { return b.n - a.n; });
-    fillShare($("b-bool"), bools.slice(0, 14));
-  }
   function fillShare(host, rows) {
     host.textContent = "";
     rows.forEach(function (r) {
@@ -493,70 +409,9 @@ section { scroll-margin-top: 64px; }
   TR.rows.forEach(function (r) { [r.c, r.c2].forEach(function (t) { if (t && t !== "unclassified") DT[r.d].add(t); }); });
   var GL = { use_rules: "Use rules", disclosure_and_evidence: "Declaring and evidence", referencing: "Referencing", data_and_privacy: "Data and privacy", tools: "Tools", assessment_design: "Assessment design", integrity_and_consequences: "Integrity and consequences", accuracy_and_responsibility: "Accuracy and responsibility", support_and_training: "Support and training", staff_and_governance: "Staff and governance", ethics_and_equity: "Ethics and equity", other: "Other" };
   var tgroup = "all", tsel = null;
-  function tdocs() { var thin = $("tthin").checked; return TR.docs.filter(function (d) { var pd = PD[d]; if (!pd) return false; if (region !== "All" && pd.region !== region) return false; if (thin && TR.nper[d] < TR.thin) return false; return true; }); }
-  function tcounts(ds) { var c = {}, aud = $("taudit") && $("taudit").checked; ds.forEach(function (d) { var s = new Set(DT[d]); if (aud) (TR.audit[d] || []).forEach(function (t) { s.add(t); }); s.forEach(function (t) { (c[t] = c[t] || []).push(d); }); }); return c; }
   function extN(ds, id) { var n = 0; ds.forEach(function (d) { if (DT[d].has(id)) n++; }); return n; }
-  function drawTrends() {
-    var ds = tdocs(), c = tcounts(ds), M = ds.length || 1;
-    var gc = {}; TR.types.forEach(function (t) { if (c[t.id]) gc[t.group] = (gc[t.group] || 0) + 1; });
-    var ch = $("tgroups"); ch.textContent = ""; var addChip = function (k, label) { ch.appendChild(mkChip(label, tgroup === k, function () { tgroup = k; tsel = null; drawTrends(); })); };
-    addChip("all", "All themes"); Object.keys(GL).forEach(function (k) { if (gc[k]) addChip(k, GL[k]); });
-    $("tcount").textContent = ds.length + " institutions in view";
-    var rows = TR.types.filter(function (t) { return c[t.id] && (tgroup === "all" || t.group === tgroup); }).map(function (t) { return { t: t, n: c[t.id].length }; }).sort(function (a, b) { return b.n - a.n; });
-    var host = $("tbars"); host.textContent = "";
-    rows.slice(0, tgroup === "all" ? 30 : 60).forEach(function (r) {
-      var b = el("button", "brow share hl"); b.type = "button"; b.setAttribute("aria-pressed", tsel === r.t.id ? "true" : "false"); b.title = r.t.def;
-      b.appendChild(el("span", "bl", r.t.label)); var tr = el("span", "bt"), f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * r.n / M) + "%"; tr.appendChild(f); b.appendChild(tr); var en = extN(ds, r.t.id); b.appendChild(el("span", "bn", r.n + " of " + ds.length + ($("taudit").checked && r.n > en ? " (" + en + " from extracted points)" : "")));
-      b.addEventListener("click", function () { tsel = r.t.id; drawTrends(); $("tdetail").scrollIntoView({ block: "nearest" }); }); host.appendChild(b);
-    });
-    if (!rows.length) host.appendChild(el("p", null, "No statements in view."));
-    var dt = $("tdetail"); dt.textContent = "";
-    if (tsel && TT[tsel]) {
-      var t = TT[tsel], who = c[tsel] || [];
-      dt.appendChild(el("h3", null, t.label)); dt.appendChild(el("p", "qline", t.def));
-      var reg = {}, regN = {}; ds.forEach(function (d) { var r = PD[d].region; regN[r] = (regN[r] || 0) + 1; }); who.forEach(function (d) { var r = PD[d].region; reg[r] = (reg[r] || 0) + 1; });
-      dt.appendChild(el("p", "mono", REGIONS.filter(function (r) { return regN[r]; }).map(function (r) { return r + " " + (reg[r] || 0) + "/" + regN[r]; }).join("  ·  ")));
-      var wl = el("div", "who"); who.forEach(function (d) { var s = el("span"), a = el("a", null, PD[d].name); a.href = PD[d].url; a.target = "_blank"; a.rel = "noopener"; a.style.color = "inherit"; s.appendChild(a); wl.appendChild(s); }); dt.appendChild(wl);
-      var shown = 0; TR.rows.forEach(function (r) { if (shown >= 6 || (r.c !== tsel && r.c2 !== tsel) || who.indexOf(r.d) < 0) return; var p = PX[(r.q || r.d) + ":" + r.n]; if (!p) return; shown++; var q = el("blockquote", null, "“" + p.q + "” — " + PD[r.q || r.d].name); dt.appendChild(q); });
-    } else dt.appendChild(el("span", null, "Select a statement type to see which institutions say it, how it splits by region, and example quotes."));
-  }
-  function hasT(d, id) { return DT[d].has(id) || ($("taudit").checked && (TR.audit[d] || []).indexOf(id) >= 0); }
-  function drawTogether() {
-    var thin = $("tthin").checked, aud = $("taudit").checked, P = aud ? TR.pairsAud : TR.pairs, set = thin ? P.rich : P.all, t = $("tpairs"); t.textContent = "";
-    $("tpnote").textContent = "Among " + set.docs + " institutions, " + set.tests_run + " pairings were testable (each statement type in at least " + TR.minsup + " institutions and absent from at least " + TR.minsup + "). By chance alone about " + Math.round(set.tests_run * 0.05) + " would reach p < 0.05, so pairs are corrected for false discoveries (q). A statement missing from a document may simply not be mentioned there, and longer documents say more of everything, so read pairings as leads." + (aud ? " This view includes statements found by re-reading whole documents." : " This view uses extracted points only.");
-    var hr = el("tr"); ["Statements that appear together", "Both / A only / B only / neither", "p", "q"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
-    set.top.slice(0, 8).forEach(function (r) { var tr = el("tr"), td = el("td", null, TT[r.A].label + "  +  " + TT[r.B].label); td.style.whiteSpace = "normal"; tr.appendChild(td); tr.appendChild(el("td", null, [r.a, r.b, r.c, r.d].join(" / "))); tr.appendChild(el("td", null, r.p < 0.001 ? "<0.001" : r.p.toFixed(3))); tr.appendChild(el("td", r.q < 0.1 ? "flag" : null, r.q.toFixed(2) + (r.q < 0.1 ? " ●" : ""))); t.appendChild(tr); });
-    var a = $("tpa").value, b = $("tpb").value, ds = tdocs(), box = $("tpair"); box.textContent = "";
-    if (!a || !b || a === b) { box.appendChild(el("p", null, "Pick two different statement types.")); return; }
-    var both = [], onlyA = [], onlyB = []; ds.forEach(function (d) { var x = hasT(d, a), y = hasT(d, b); if (x && y) both.push(d); else if (x) onlyA.push(d); else if (y) onlyB.push(d); });
-    var names = function (arr) { return arr.map(function (d) { return PD[d].name; }).join(", ") || "none"; };
-    [["Both", both], ["Only “" + TT[a].label + "”", onlyA], ["Only “" + TT[b].label + "”", onlyB]].forEach(function (x) { var p = el("p", "small"); var s = el("strong", null, x[0] + " (" + x[1].length + "): "); p.appendChild(s); p.appendChild(document.createTextNode(names(x[1]))); box.appendChild(p); });
-  }
 
-  function drawHeadlines() {
-    var ids = TR.docs.filter(function (d) { return PD[d]; }), N = ids.length, gen = {}; (TR.general || []).forEach(function (g) { gen[g] = 1; });
-    var cnt = {}; ids.forEach(function (d) { var s = new Set(DT[d]); (TR.audit[d] || []).forEach(function (x) { s.add(x); }); s.forEach(function (x) { cnt[x] = (cnt[x] || 0) + 1; }); });
-    var arr = Object.keys(cnt).filter(function (k) { return TT[k]; }).map(function (k) { return { id: k, n: cnt[k] }; });
-    var top = arr.slice().sort(function (a, b) { return b.n - a.n; }).slice(0, 10);
-    $("hlsub").textContent = "Out of " + N + " institutions with a document, these are the statements made most often. A statement counts only where a quote in the document makes it, so these are minimums. This summary covers all regions; the region buttons above filter the sections below it.";
-    function rows(host, list) { host.textContent = ""; list.forEach(function (r) { var b = el("div", "brow share hl"); b.title = TT[r.id].def; b.appendChild(el("span", "bl", TT[r.id].label)); var tr = el("span", "bt"), f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * r.n / N) + "%"; tr.appendChild(f); b.appendChild(tr); b.appendChild(el("span", "bn", r.n + " of " + N + " (" + Math.round(100 * r.n / N) + "%)")); host.appendChild(b); }); }
-    rows($("hlbars"), top);
-    var split = arr.filter(function (r) { return !gen[r.id] && r.n / N >= 0.3 && r.n / N <= 0.7; }).sort(function (a, b) { return Math.abs(a.n / N - 0.5) - Math.abs(b.n / N - 0.5); }).slice(0, 8);
-    rows($("hlsplit"), split);
-    var RC = TR.regionContrasts, all = []; RC.forEach(function (c) { c.rows.forEach(function (r) { all.push({ c: c, r: r }); }); });
-    var minq = Math.min.apply(null, all.map(function (x) { return x.r.q; }));
-    $("hlregsub").textContent = "Region groups are small (" + RC.map(function (c) { return c.name.split(" vs ")[0] + " " + c.na; }).join(", ") + " institutions with a document; Northern Ireland has too few to compare). Each row below is one of the largest gaps. After correcting for the " + all.length + " comparisons made, " + (minq < 0.1 ? "some gaps hold up (marked ●)" : "none holds up: the smallest corrected value is q = " + minq.toFixed(2) + ", where 0.10 or lower would count as a lead") + ". Treat these as questions to check, not findings.";
-    var t = $("hlreg"); t.textContent = ""; var hr = el("tr"); ["Statement", "Comparison", "First group", "Second group", "p", "q"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
-    all.sort(function (a, b) { return a.r.p - b.r.p; }).slice(0, 8).forEach(function (x) { var tr = el("tr"), td = el("td", null, TT[x.r.id].label); td.style.whiteSpace = "normal"; tr.appendChild(td); tr.appendChild(el("td", null, x.c.name)); tr.appendChild(el("td", null, x.r.a + " of " + x.c.na)); tr.appendChild(el("td", null, x.r.b + " of " + x.c.nb)); tr.appendChild(el("td", null, x.r.p.toFixed(3))); tr.appendChild(el("td", x.r.q < 0.1 ? "flag" : null, x.r.q.toFixed(2) + (x.r.q < 0.1 ? " ●" : ""))); t.appendChild(tr); });
-  }
 
-  function drawSecond() {
-    var S = TR.second; if (!S || !S.n) { $("second").style.display = "none"; return; }
-    var kinds = Object.keys(S.kinds).map(function (k) { return S.kinds[k] + " " + k.replace(/_/g, " "); }).join(", ");
-    $("secsub").textContent = "For " + S.n + " institutions in Scotland, Wales, Ireland and Northern Ireland we also read a second document (" + kinds + "). On average the first document states " + S.avg.first + " statement types. The second adds " + S.avg.added + " that mention AI and " + S.avg.general + " more that are general misconduct-procedure wording (appeals, penalties, referral). Those general ones are listed separately and are not counted as AI statements elsewhere on this page.";
-    var t = $("sectab"); t.textContent = ""; var hr = el("tr"); ["Statement", "In first document", "Added by second (mentions AI)", "General procedure only"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
-    S.rows.forEach(function (r) { var tr = el("tr"), td = el("td", null, TT[r.id] ? TT[r.id].label : r.id); td.style.whiteSpace = "normal"; tr.appendChild(td); tr.appendChild(el("td", null, r.first + " of " + S.n)); tr.appendChild(el("td", null, String(r.added))); tr.appendChild(el("td", null, String(r.general))); t.appendChild(tr); });
-  }
 
   var ACKG = [["duty", "Is acknowledgement required?", { always_required: "Every use must be acknowledged", conditional: "Acknowledgement depends on a condition", recommended: "Acknowledgement is recommended", not_required: "No acknowledgement needed" }], ["def", "What applies when the brief says nothing?", { prohibit_all: "No AI when the brief is silent", permit_all: "AI allowed when the brief is silent", ask_instructor: "Ask when the brief is silent", permit_with_acknowledgement: "Allowed if acknowledged", use_by_use_rule: "Per-use rules apply", differs_by_assessment_type: "Depends on the assessment type", misconduct_only_if_unacknowledged: "Misconduct only if unacknowledged", treated_as_human_assistance: "Treated like human help" }], ["decided", "Who decides?", { institution_wide: "Whole institution", school_or_department: "School or department", module_or_lecturer: "Module leader or lecturer", assessment_brief: "Each assessment brief", tiered_scale: "A tiered scale" }], ["contents", "What to include", null], ["location", "Where it goes", null], ["referencing", "How to reference", { cite_in_reference_list: "Cite with a reference list entry", acknowledge_without_reference_entry: "Acknowledge, no reference entry", follow_guide: "Follow the referencing guide", not_required_in_reference_list: "No reference list entry" }], ["records", "Keeping records", { required: "Records must be kept", recommended: "Keeping records is advised" }], ["consequence", "If it is missing", { submission_blocked: "Submission blocked", treated_as_non_submission: "Counts as non-submission", treated_as_misconduct: "Treated as misconduct", safe_if_declared: "Declared permitted use is safe" }], ["exempt", "Uses that need no acknowledgement", null]];
   var ACKV = { duty: function (a) { return [a.duty && a.duty.v]; }, def: function (a) { return [a.def && a.def.v]; }, decided: function (a) { return a.decided; }, contents: function (a) { return a.contents; }, location: function (a) { return a.location; }, referencing: function (a) { return [a.referencing]; }, records: function (a) { return [a.records]; }, consequence: function (a) { return [a.consequence]; }, exempt: function (a) { return a.exempt; } };
@@ -715,11 +570,10 @@ section { scroll-margin-top: 64px; }
   function refresh() {
     drawRegs();
     $("nowshown").textContent = shown().length + " of " + DATA.docs.length + " documents shown";
-    drawExplorer(); drawCommon(); drawPoints(); drawUses(); drawAck(); drawMisconduct(); drawTogether();
+    drawPoints(); drawUses(); drawAck(); drawMisconduct(); drawTogether();
   }
   csvInit();
-  drawBars($("b-force"), "instrument_force", DATA.docs, $("who-kinds")); drawBars($("b-issuer"), "issued_by_type", DATA.docs, $("who-kinds"));
-  tinit(); pinit(); drawSelect(); refresh();
+  tinit(); pinit(); refresh();
 })();
 </script>
 </body></html>
