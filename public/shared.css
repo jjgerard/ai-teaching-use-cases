@@ -244,6 +244,7 @@
   .tab-nav.open .tab-nav-toggle-bar:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
 
   @media (max-width: 640px) {
+    .tally { width: 100%; justify-content: space-between; }
     .tab-nav-toggle { display: flex; }
     .tab-nav-links {
       display: none;

@@ -169,9 +169,13 @@ button.tgnote:hover { background: var(--tint); }
 @media (max-width: 520px) { .tgr { grid-template-columns: 1fr; gap: 2px; } }
 #tgsel { max-width: 100%; }
 @media (max-width: 520px) { table.tgt { font-size: 12px; } }
-.toc { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; font-size: 13px; margin: 0 0 18px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; }
-.toc strong { margin-right: 4px; }
-.toc a { color: var(--accent-ink); text-decoration: none; } .toc a:hover { text-decoration: underline; }
+.head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 360px); gap: 8px 32px; align-items: start; }
+.head .note { margin-top: 6px; }
+@media (max-width: 760px) { .head { grid-template-columns: minmax(0, 1fr); } .head .note { margin-top: 14px; } }
+.toc { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; margin: 0 0 18px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; }
+.toc strong { margin-right: 6px; }
+.toc a { display: inline-block; padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--accent-ink); text-decoration: none; line-height: 1.4; }
+.toc a:hover { background: var(--tint); border-color: var(--accent-ink); text-decoration: none; }
 .totop { display: inline-block; margin-top: 10px; font-size: 13px; color: var(--accent-ink); text-decoration: none; } .totop:hover { text-decoration: underline; }
 section { scroll-margin-top: 64px; }
 .udet h4 { margin: 12px 0 4px; font-size: 14px; }
@@ -203,9 +207,13 @@ section { scroll-margin-top: 64px; }
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 
 <div class="wrap" id="top">
-  <h1>AI policy atlas</h1>
-  <p class="lede">What UK and Irish universities tell students about generative AI: what it can be used for, what has to be acknowledged, what help is offered, and how that differs. Every statement counted here traces to a quote in the institution’s own document.</p>
-  <p class="note"><b>Draft.</b> Counts are minimums: a statement counts only where a quote shows it, from one or two documents per institution, read by one model. They are not prevalence estimates. Coverage and method are further down.</p>
+  <div class="head">
+    <div class="head-text">
+      <h1>AI policy atlas</h1>
+      <p class="lede">What UK and Irish universities tell students about generative AI: what it can be used for, what has to be acknowledged, what help is offered, and how that differs. Every statement counted here traces to a quote in the institution’s own document.</p>
+    </div>
+    <p class="note"><b>Draft.</b> Counts are minimums: a statement counts only where a quote shows it, from one or two documents per institution, read by one model. They are not prevalence estimates. Coverage and method are further down.</p>
+  </div>
 </div>
 
 <div class="bar-filter"><div class="in">
