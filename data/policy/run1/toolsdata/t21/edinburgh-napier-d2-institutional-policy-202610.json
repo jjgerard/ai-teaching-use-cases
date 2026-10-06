@@ -1,0 +1,45 @@
+{
+ "doc_id": "edinburgh-napier-d2-institutional-policy-202610",
+ "coder": "td-t21",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "prohibited",
+   "audience": "staff",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "The University Leadership does not permit the use of Gen AI detection tools on student assessment submissions, as current technologies have proven to be unreliable, prone to bias, and we do not have students’ informed consent for their use with their work.",
+   "anchor": "2.2"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "staff",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "The University Leadership does not permit the use of Gen AI detection tools on student assessment submissions, as current technologies have proven to be unreliable, prone to bias, and we do not have students’ informed consent for their use with their work.",
+   "anchor": "2.2"
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Anyone processing personal data on behalf of the University is required to comply with the University Data Protection Policy when using any Gen AI tools.",
+   "anchor": "1.4"
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "The University Leadership ensures adherence to UK GDPR legislation, including that Gen AI tools are not used for automated decision-making on individuals.",
+   "anchor": "2.5"
+  }
+ ]
+}

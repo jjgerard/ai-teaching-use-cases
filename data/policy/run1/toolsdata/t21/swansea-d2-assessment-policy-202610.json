@@ -1,0 +1,59 @@
+{
+ "doc_id": "swansea-d2-assessment-policy-202610",
+ "coder": "td-t21",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "prohibited",
+   "audience": "both",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Staff or students are not permitted to upload student assessment, or any identifiable data without explicit written consent, to AI applications for any reason (including attempts to check for AI generated content).",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Staff and students should not enter any identifiable information into any AI application.",
+   "anchor": null
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Staff or students are not permitted to upload student assessment, or any identifiable data without explicit written consent, to AI applications for any reason (including attempts to check for AI generated content).",
+   "anchor": null
+  },
+  {
+   "data_type": "student_work",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Staff or students are not permitted to upload student assessment, or any identifiable data without explicit written consent, to AI applications for any reason (including attempts to check for AI generated content).",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Use of any AI applications must comply with relevant General Data Protection Regulations (GDPR).",
+   "anchor": null
+  }
+ ]
+}

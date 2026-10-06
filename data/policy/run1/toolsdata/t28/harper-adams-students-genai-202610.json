@@ -1,0 +1,48 @@
+{
+ "doc_id": "harper-adams-students-genai-202610",
+ "coder": "td-t28",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "university_materials",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Notes, handouts and slides created by lecturers represent their intellectual property and should never be uploaded into AI without their explicit permission to do so.",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission",
+    "ethics_approval",
+    "anonymised"
+   ],
+   "ai_named": false,
+   "quote": "Such tools can only ever be used if participants have given signed agreement to this, use of such tools was agreed by the ethics committee, and all participant data must be anonymised.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Concerns have been expressed about the level of data extraction demanded by these tools, with this possibly conflicting with data protection requirements.",
+   "anchor": null
+  },
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "arguments and supporting evidence in papers, but you should check copyright agreements.",
+   "anchor": null
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "doc_id": "st-andrews-students-genai-202610",
+ "coder": "td-t28",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "The University’s provided AI tool is Microsoft Copilot. This is available to all staff and students, with ‘Commercial Data Protection’ services enabled.",
+   "anchor": null
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": "Grammarly",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Grammarly has optional Generative AI features that aid the production of new content based on a series of prompts. These features should be disabled when writing assessments unless expressly permitted by your module co-ordinator or permitted as a reasonable adjustment by the Disability Team in Student Services.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "AI may capture data from input prompts, so it is important not to submit personal or sensitive information to an AI tool.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI may capture data from input prompts, so it is important not to submit personal or sensitive information to an AI tool. The University Data Protection Policy can be accessed here.",
+   "anchor": null
+  }
+ ],
+ "legal": []
+}

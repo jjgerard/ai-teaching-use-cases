@@ -1,0 +1,21 @@
+{
+ "doc_id": "heriot-watt-d2-misconduct-procedure-202610",
+ "coder": "td-t21",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": false,
+   "quote": "Only University approved detection tools should be used by students.",
+   "anchor": null
+  }
+ ],
+ "data": [],
+ "safeguards": [],
+ "legal": []
+}
