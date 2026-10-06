@@ -1,0 +1,156 @@
+{
+ "doc_id": "east-anglia-students-genai-202610",
+ "coder": "rk-t29",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Students should be aware that the output from Generative AI can contain errors, bias, misinformation, missing information, and hallucinations (false information).",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "The output from Generative AI can contain errors, bias, misinformation, missing information, and hallucinations (false information). Everyone who uses Generative AI should always check the content against their own knowledge and understanding.",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "staff",
+   "ai_named": false,
+   "quote": "Current language models (that are free of charge) are not 100% accurate in the content generated or the references provided, and their accuracy may depend on subject.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Students should be aware that the output from Generative AI can contain errors, bias, misinformation, missing information, and hallucinations (false information).",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "The output from Generative AI can contain errors, bias, misinformation, missing information, and hallucinations (false information). Everyone who uses Generative AI should always check the content against their own knowledge and understanding.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Students should be aware of privacy and GDPR and not input personal and private information about themselves or others. This is because the software will store data and information and potentially use it for other content.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "staff",
+   "ai_named": false,
+   "quote": "Generation of letters to students or other staff including personal data and information. This is because the software will store data and information and potentially use it for other content.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Diagrams and images can also be created, but the AI tools here are often paid for, and run the risk of copyright issues.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Potential adverse effects from teaching students how to use AI in terms of overreliance on generative AI for assessments.",
+   "anchor": null
+  },
+  {
+   "risk": "opacity_or_lack_of_transparency",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Generative AI software companies do not disclose the origin of such data in a transparent matter.",
+   "anchor": null
+  },
+  {
+   "risk": "inequity_of_access",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Unequal opportunities for students with disabilities and SPLDs if there is an overreliance on Generative AI tools and no support on specialist software such as voice recognition etc.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Students should be aware of issues such as job displacement, exploitation, authorship, bias and misinformation.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "staff",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Staff should complete training in the following areas;",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "As with all technologies UEA will monitor the AI tools on offer on a regular basis and make the decision if and when to obtain a license for specific tools.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Students should always check AI output against their own knowledge and understanding, and other sources, as content can be inaccurate biased and misleading.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Everyone who uses Generative AI should always check the content against their own knowledge and understanding.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "staff",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Generative AI can be used to create assessment questions, e.g. multiple choice questions, but these must be evaluated.",
+   "anchor": null
+  },
+  {
+   "duty": "human_oversight",
+   "bearer": "staff",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Generative AI cannot be used to obtain personalised student feedback on formative and summative assessment. Students can be encouraged to seek ongoing feedback on tasks and assignments, but the justification of a mark should be a human judgement.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "staff",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Module organisers should make it clear within assessment briefs how Generative AI can be used, ensuring that the policy is adhered to, or where it differs explain why.",
+   "anchor": null
+  },
+  {
+   "duty": "assess_risk_before_use",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Students are required to obtain ethics approval before entering personal data into an AI tool",
+   "anchor": null
+  }
+ ]
+}

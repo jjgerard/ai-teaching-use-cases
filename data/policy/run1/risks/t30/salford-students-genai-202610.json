@@ -1,0 +1,53 @@
+{
+ "doc_id": "salford-students-genai-202610",
+ "coder": "rk-t30",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI can produce inaccurate, incomplete, or biased information.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI can produce inaccurate, incomplete, or biased information.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI systems and their use consumes a lot of energy and can have a significant environmental impact.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "All University of Salford students should complete our GenAI eLearning so that you understand how to use it responsibly and effectively in your studies.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Verify its outputs using reliable original sources (such as professional websites, academic books and journal articles) and cite those sources as your evidence - not the GenAI tool.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "You remain responsible for everything you submit.",
+   "anchor": null
+  }
+ ]
+}

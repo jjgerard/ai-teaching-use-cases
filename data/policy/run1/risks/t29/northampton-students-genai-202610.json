@@ -1,0 +1,60 @@
+{
+ "doc_id": "northampton-students-genai-202610",
+ "coder": "rk-t29",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI can produce information that appears factual, convincing and intelligent, but is inaccurate and unreliable. This includes the creation of fake references and hallucinations.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI outputs are derived from the data used to train the AI tool. This means AI tends to output standard answers that replicate the biases and values in the training data.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "When you use a AI tool, the information and data you submit could be used to train the AI.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Like many human activities, our use of AI has an environmental impact.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "You should always critically evaluate AI outputs, verifying them against reliable information sources.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Any use of AI tools in academic work must be undertaken in a manner which is ethical and transparent.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "UON takes an acknowledgment-based approach to use of AI and commits to support staff and students to build their critical AI literacy.",
+   "anchor": null
+  }
+ ]
+}

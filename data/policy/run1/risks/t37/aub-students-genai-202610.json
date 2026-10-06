@@ -1,0 +1,30 @@
+{
+ "doc_id": "aub-students-genai-202610",
+ "coder": "rk-t37",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "While Gen AI tools can generate content in a variety of formats, any information produced cannot be treated as reliable or accurate. It may simply be wrong",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "AI will usually offer an ‘average’ response from its available dataset, which will ignore diversity or unorthodox standpoints unless prompted appropriately.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Students must be clear that responsibility for content ultimately rests solely with themselves.",
+   "anchor": null
+  }
+ ]
+}

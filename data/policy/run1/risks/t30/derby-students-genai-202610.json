@@ -1,0 +1,23 @@
+{
+ "doc_id": "derby-students-genai-202610",
+ "coder": "rk-t30",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The Consensus Meter itself is not 100% accurate, so its findings should be taken with a pinch of salt.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "It is advisable to verify the AI’s findings by reviewing the identified sources and conducting independent research.",
+   "anchor": null
+  }
+ ]
+}

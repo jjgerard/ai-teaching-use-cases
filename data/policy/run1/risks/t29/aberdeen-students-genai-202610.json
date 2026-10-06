@@ -1,0 +1,74 @@
+{
+ "doc_id": "aberdeen-students-genai-202610",
+ "coder": "rk-t29",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI offers immense potential, from boosting creativity to improving writing skills. However, these tools can generate misleading or incorrect information and can negatively impact on your learning.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "You would do yourself a disservice by outsourcing your work to a GenAI tool as you will not develop the requisite level of knowledge, skills and understanding needed to succeed in University and in your future career.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "since GenAI models inherit biases from their training data it is essential to identify and correct these biases in any outputs that you then use to prevent the perpetuation of harmful stereotypes.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "There are risks to data privacy and intellectual property when entering prompts or data into GenAI tools.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI tools can generate new content from content produced by people (e.g. artists, musicians, writers, scientists) without acknowledging them, which is regarded as plagiarism.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "since GenAI models consume significant electricity and water, often linked to data centres, reflect on how you use these tools to minimise your impact.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Ensure you critically evaluate the outputs from GenAI tools and use academic sources and discipline-specific sources to fact check the outputs.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It is your responsibility to ensure you can satisfy the staff member that the work you submitted for assessment is your own original work.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "You must understand the limitations and ethical considerations associated with using GenAI tools in your studies if you are to develop the skills to use these tools responsibly, critically, and ethically.",
+   "anchor": null
+  }
+ ]
+}

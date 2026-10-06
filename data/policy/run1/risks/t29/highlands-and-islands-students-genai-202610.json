@@ -1,0 +1,74 @@
+{
+ "doc_id": "highlands-and-islands-students-genai-202610",
+ "coder": "rk-t29",
+ "risks": [
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GAI is subject to bias and discrimination, and there are serious concerns about the potential for unauthorised access to sensitive data.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GAI is subject to bias and discrimination, and there are serious concerns about the potential for unauthorised access to sensitive data.",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Some AI tools are prone to hallucinations and provide inaccurate information and in some cases refer to articles and research that doesn’t exist.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Do not use GAI generated information without checking it first. It may be giving you copyrighted or licensed material which you can’t use without knowing who holds the rights and if you are permitted to use it under the terms of the copyright or license.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GAI tools use high amounts of energy and water.",
+   "anchor": null
+  },
+  {
+   "risk": "security_or_misuse",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "there are many fake GAI tools/sites designed to capture your information, passwords, and put malware on your device.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "it is essential that use of GAI is implemented in a responsible and ethical manner, guided by the principles of transparency, accountability, sustainability, and privacy.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "You must comply with UHI’s Generative AI Policy and UHI's Acceptable Use Policy.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Do not use GAI generated information without checking it first.",
+   "anchor": null
+  }
+ ]
+}

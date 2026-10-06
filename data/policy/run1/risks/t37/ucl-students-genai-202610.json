@@ -1,0 +1,91 @@
+{
+ "doc_id": "ucl-students-genai-202610",
+ "coder": "rk-t37",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Students should always be strongly encouraged to take a critical approach to the use of any output from a GenAI tool, as they can generate superficial, inaccurate and unhelpful outputs.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Staff must not submit student work into such tools, including GenAI themselves, as this may compromise students' intellectual property and personal data rights.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Staff must not submit student work into such tools, including GenAI themselves, as this may compromise students' intellectual property and personal data rights.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "there is not yet sufficient evidence that GenAI is able to contribute effectively and without bias to the process of marking student work.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Inappropriate use of GenAI will undermine all of these benefits and damage their learning.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "human_oversight",
+   "bearer": "staff",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "staff should not use GenAI to mark student work.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "staff",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "It’s important that staff refer back to this page and the GenAI Hub, and check for new developments in their own disciplines whenever they have the opportunity.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "We will be reviewing the GenAI assessment categories during 2026/27",
+   "anchor": null
+  },
+  {
+   "duty": "ensure_equitable_access",
+   "bearer": "staff",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "The tutor should support and guide the students in the use of GenAI to ensure equity of experience",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Students should always be strongly encouraged to take a critical approach to the use of any output from a GenAI tool",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "they must not upload any sensitive data to GenAI systems without taking into account UCL's data protection requirements.",
+   "anchor": null
+  }
+ ]
+}

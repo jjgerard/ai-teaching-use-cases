@@ -1,0 +1,38 @@
+{
+ "doc_id": "bangor-students-genai-202610",
+ "coder": "rk-t30",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "There is the potential for references to be fabricated.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "There is the potential for bias to Western perspectives and potential to perpetuate stereotypes.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "The University does not ban you from using Gen-AI in your studies.  However, your use needs to be ethical and appropriate.",
+   "anchor": null
+  },
+  {
+   "duty": "ensure_equitable_access",
+   "bearer": "institution",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "The assessment must ensure equity of access of Gen-AI and the assessment criteria focusing on effectiveness of use.",
+   "anchor": null
+  }
+ ]
+}

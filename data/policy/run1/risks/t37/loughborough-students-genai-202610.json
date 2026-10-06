@@ -1,0 +1,37 @@
+{
+ "doc_id": "loughborough-students-genai-202610",
+ "coder": "rk-t37",
+ "risks": [
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "I understand the risks and limitations of using GenAI, including a recognition of issues of bias, sensitivity, accuracy, appropriate content, and ethical issues",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "I understand the risks and limitations of using GenAI, including a recognition of issues of bias, sensitivity, accuracy, appropriate content, and ethical issues",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "I will carefully consider the GenAI tool(s) that I use and how they may share any data that I input",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "I will ensure that I have fully complied with the requirements in the assessment brief setting out how GenAI may or may not be used.",
+   "anchor": null
+  }
+ ]
+}

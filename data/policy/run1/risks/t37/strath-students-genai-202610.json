@@ -1,0 +1,82 @@
+{
+ "doc_id": "strath-students-genai-202610",
+ "coder": "rk-t37",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen-AI tools and services are prone to offering responses which contain inaccurate or biased or misleading information. Gen-AI tools can also generate fake references that look genuine",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen-AI tools and services are prone to offering responses which contain inaccurate or biased or misleading information.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen-AI tools may collect user data.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen-AI models can generate content that may infringe upon existing intellectual property rights, such as copyright.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "any dependency on these tools or services that is built up now could be damaging to your learning and development in the future.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Unethical use of Gen-AI undermines your learning and could even contribute to the erosion of trust and compromise the quality of the higher education system.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Always check the original source to verify outputs. Do not simply accept Gen-AI outputs as fact or authority.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Ensure that you follow assessment instructions and University policies at all times.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "You should check this guidance regularly and especially whenever you are completing a new piece of work involving Gen-AI",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "All uses of Gen-AI by students (and staff) should align with these Principles.",
+   "anchor": null
+  }
+ ]
+}

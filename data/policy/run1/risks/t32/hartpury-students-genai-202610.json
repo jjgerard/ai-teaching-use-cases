@@ -1,0 +1,47 @@
+{
+ "doc_id": "hartpury-students-genai-202610",
+ "coder": "rk-t32",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Students will be made aware at the start of their qualification that AI tools do have limitations, such as producing inaccurate or inappropriate content, as well as what constitutes AI misuse and the serious consequences this may result in.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "report_concerns_or_incidents",
+   "bearer": "staff",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "All staff members — including teachers, assessors, invigilators, and support staff — have a duty to report any suspected or potential malpractice they identify.",
+   "anchor": null
+  },
+  {
+   "duty": "human_oversight",
+   "bearer": "staff",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Teachers/ assessors should not rely solely on AI tools for marking student work, as per JCQ guidelines.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "however students must always adhere to JCQ guidelines and maintain academic integrity by acknowledging any AI use.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "Additionally, staff will also receive ‘AIrelated CPD’ during the academic year as part of the college’s ‘teaching, learning and assessment CPD schedule’.",
+   "anchor": null
+  }
+ ]
+}

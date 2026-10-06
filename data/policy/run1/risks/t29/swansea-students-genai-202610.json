@@ -1,0 +1,75 @@
+{
+ "doc_id": "swansea-students-genai-202610",
+ "coder": "rk-t29",
+ "risks": [
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Recognise the risks of over-reliance on AI including the devaluation of learning opportunities at University",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Understand that AI has global impact, both positive and negative, in economies, labour markets, education, social structures and environmentally.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Understand that AI has global impact, both positive and negative, in economies, labour markets, education, social structures and environmentally.",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Critically assess the limitations of generative AI outputs by identifying potential biases and inaccuracies",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Critically assess the limitations of generative AI outputs by identifying potential biases and inaccuracies",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Critically assess the limitations of generative AI outputs by identifying potential biases and inaccuracies, and edit the content using informed judgement before incorporating it into academic work.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Apply University policies on data protection, privacy, and academic integrity when selecting and using approved academic work, ensuring responsible and ethical practice.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "students are expected to develop ethical and effective use of these technologies to maintain academic integrity when using AI",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Engage with developments in the field, commentary and literature to remain up to date on the global role and impact of AI.",
+   "anchor": null
+  }
+ ]
+}

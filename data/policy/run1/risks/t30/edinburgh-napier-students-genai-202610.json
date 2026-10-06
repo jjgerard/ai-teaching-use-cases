@@ -1,0 +1,152 @@
+{
+ "doc_id": "edinburgh-napier-students-genai-202610",
+ "coder": "rk-t30",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen AI tools can still provide inaccurate or false information.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Because of biases in the data, Gen AI tools can provide answers which perpetuate racism, sexism, ableism, and other harmful forms of discrimination.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Free tools often make money through advertising, taking your personal data and using or selling it, or gradually reducing the quality or access to the free tool to force to you start paying.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The unfair and unethical way many AI companies have taken the work of others (writers, musicians, artists, content creators) and reused it without permission or acknowledgement",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "The negative environmental impact of the development and use of these tools, including water and energy consumption, and the negative impact on communities where large data centres are located.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Relying too heavily on AI to work or think for you can negatively impact your development of skills useful for your studies and employment.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "The labour practices of the companies that develop these tools can be problematic, including exploitation in the Global South to provide human checking for harmful content.",
+   "anchor": null
+  },
+  {
+   "risk": "wellbeing_or_safety",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen AI tools are designed to be highly attractive to use, often using flattery to keep users engaged. This can lead to perpetuating misconceptions or, in extreme cases, negatively impacting users’ mental health and wellbeing.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Gen AI tools have limitations; always use them in conjunction with other sources to ensure the credibility and reliability of the information you present.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "You are responsible for ensuring your work reflects your own thinking, skills, and understanding.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "You have a personal responsibility to think critically about the ethical implications of Gen AI as part of your learning, including its environmental impact, bias, misinformation, and data privacy.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "We all are responsible for understanding the ethical implications of Gen AI, including its impacts on academic integrity, personal and institutional data, misinformation, bias, copyright, equity, and the environment.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "DLTE provides support and training in Gen AI for staff and students, and we should all maintain a level of critical awareness to make informed decisions about its use.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Engage with MyNapier’s Artificial intelligence tools page.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Anyone processing personal data on behalf of the University is required to comply with the University Data Protection Policy when using any Gen AI tools.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "If you use Gen AI tools in your learning or assessments, you must follow university guidance and acknowledge AI-generated content.",
+   "anchor": null
+  },
+  {
+   "duty": "assess_risk_before_use",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Think carefully and critically about the risks, benefits and ethics before you make use of any technology, including AI content generation tools.",
+   "anchor": null
+  },
+  {
+   "duty": "no_compulsion_to_use",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "The University’s Position Statement makes it clear that no student is required to sign up to and use a Gen AI tool, and that alternative means to engage with tasks will be provided.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "We have been actively engaged in gathering students' opinions on Gen AI since 2023, and will continue to do so, using this evidence to inform our guidance.",
+   "anchor": null
+  }
+ ]
+}
