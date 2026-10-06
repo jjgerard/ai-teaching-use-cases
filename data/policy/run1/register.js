@@ -11,11 +11,12 @@ const have = new Set(docs.map((d) => d.doc_id));
 const SKIP = { "hartpury-students-genai-202610": "whole regulations bundle (42,000 words, 4 AI mentions): needs a section extract, deferred", "plymouth-marjon-students-genai-202610": "whole regulations framework (67,000 words, 10 AI mentions): needs a section extract, deferred", "health-sciences-students-genai-202610": "whole misconduct policy bundle (12,800 words, 2 AI mentions): needs a section extract, deferred", "ravensbourne-london-students-genai-202610": "snapshot is the whole 85,000-word academic regulations PDF with 2 AI mentions: needs a section extract, deferred" };
 const REGION = { England: "GB-ENG", Scotland: "GB-SCT", Wales: "GB-WLS", "Northern Ireland": "GB-NIR", Ireland: "IE" };
 let added = 0; const skipped = [];
-for (const dir of ["trial", "run1/archive", "run1/archive2"]) {
+const SKIP4 = { "plymouth-marjon-students-genai-202610": "assessment policy with no AI text", "ravensbourne-london-students-genai-202610": "82,000-word superseded regulations, 2 AI mentions", "national-art-and-design-students-genai-202610": "school-level handbook, not institution-wide", "bournemouth-students-genai-202610": "workshop listing, AI only as a topic" };
+for (const dir of ["trial", "run1/archive", "run1/archive2", "run1/archive4"]) {
   const man = require(path.join(root, dir, "manifest.json"));
   for (const m of man) {
     if (m.status !== "ok" || have.has(m.doc_id)) continue;
-    if (SKIP[m.doc_id]) { skipped.push([m.doc_id, SKIP[m.doc_id]]); continue; }
+    const skipWhy = dir === "run1/archive4" ? SKIP4[m.doc_id] : SKIP[m.doc_id]; if (skipWhy) { skipped.push([m.doc_id, skipWhy]); continue; }
     const s = byDoc.get(m.doc_id) || [...byDoc.values()].find((r) => r.doc_id === m.doc_id);
     if (!s) { console.error("no sample row for", m.doc_id); continue; }
     const inst = m.doc_id.replace(/-students-genai-202610$/, "");
