@@ -1,0 +1,83 @@
+[
+ {
+  "name": "Buckinghamshire New University",
+  "region": "England",
+  "website": "http://bucks.ac.uk/",
+  "base": "buckinghamshire-new",
+  "doc_id": "buckinghamshire-new-students-genai-202610",
+  "blocked_url": null,
+  "why_not_archived": "blocked",
+  "known_other_pages": [],
+  "previous_outcome": null
+ },
+ {
+  "name": "Dublin City University",
+  "region": "Ireland",
+  "website": "https://www.dcu.ie",
+  "base": "dcu",
+  "doc_id": "dcu-students-genai-202610",
+  "blocked_url": "https://www.dcu.ie/ocoo/dcu-position-statement-use-artificial-intelligence-tools",
+  "why_not_archived": "js_shell",
+  "known_other_pages": [
+   {
+    "url": "https://www.dcu.ie/dts/ai-hub",
+    "title": "AI Hub",
+    "audience": "staff/students"
+   },
+   {
+    "url": "https://www.dcu.ie/dts/news/2026/apr/notebooklm-ai-study-assistant",
+    "title": "NotebookLM - AI Study Assistant",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "Edge Hill University",
+  "region": "England",
+  "website": "https://www.edgehill.ac.uk",
+  "base": "edge-hill",
+  "doc_id": "edge-hill-students-genai-202610",
+  "blocked_url": "https://www.edgehill.ac.uk/departments/support/ls/uni-skills/genai/",
+  "why_not_archived": "blocked (bot challenge page)",
+  "known_other_pages": [
+   {
+    "url": "https://eshare.edgehill.ac.uk/16667/",
+    "title": "A Student Guide to Ethical Use of Generative AI (eShare record, not read in full)",
+    "audience": "students"
+   },
+   {
+    "url": "https://figshare.edgehill.ac.uk/articles/educational_resource/Using_Generative_Artificial_Intelligence_-_A_Student_Guide_pdf/24259597",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "The Open University",
+  "region": "England",
+  "website": "https://www.open.ac.uk",
+  "base": "open",
+  "doc_id": "open-students-genai-202610",
+  "blocked_url": "https://about.open.ac.uk/policies-and-reports/policies-and-statements/generative-ai-learning-teaching-and-assessment-ou-0",
+  "why_not_archived": "blocked (bot challenge page)",
+  "known_other_pages": [
+   {
+    "url": "https://university.open.ac.uk/library/news/how-to-acknowledge-generative-ai-such-as-chatgpt-in-assignments",
+    "title": "How to acknowledge generative AI in assignments",
+    "audience": "students"
+   },
+   {
+    "url": "https://university.open.ac.uk/students/research/ou/services/position-statement-and-guidance-generative-ai-and-doctoral-education",
+    "title": "Position Statement and Guidance on Generative AI and Doctoral Education",
+    "audience": "pgr"
+   },
+   {
+    "url": "https://about.open.ac.uk/policies-and-reports/policies-and-statements/gen-ai/generative-ai-staff",
+    "title": "Generative AI for staff",
+    "audience": "staff"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ }
+]

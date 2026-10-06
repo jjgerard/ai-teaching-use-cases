@@ -1,0 +1,73 @@
+[
+ {
+  "name": "Lancaster University",
+  "region": "England",
+  "website": "https://www.lancaster.ac.uk",
+  "base": "lancaster",
+  "doc_id": "lancaster-students-genai-202610",
+  "blocked_url": "https://portal.lancaster.ac.uk/ask/university-position-ai/",
+  "why_not_archived": "needs_text",
+  "known_other_pages": [],
+  "previous_outcome": null
+ },
+ {
+  "name": "South East Technological University",
+  "region": "Ireland",
+  "website": "https://www.setu.ie",
+  "base": "setu",
+  "doc_id": "setu-students-genai-202610",
+  "blocked_url": "https://library.setu.ie/introducing-generative-ai-and-prompt-literacy-a-comprehensive-guide-for-students/",
+  "why_not_archived": "blocked (bot challenge page)",
+  "known_other_pages": [
+   {
+    "url": "https://www.setu.ie/Craft/assets/policies/SETU-Staff-Guidelines-on-the-Use-of-GenAI-Web.pdf",
+    "title": "SETU Staff Guidelines on the Use of Generative AI (GenAI)",
+    "audience": "staff"
+   },
+   {
+    "url": "https://www.setu.ie/Craft/assets/policies/Student-Academic-Integrity-Policy-V1.0-Feb-2026.pdf",
+    "title": "Student Academic Integrity Policy v1.0 (Feb 2026); fetched but image-only PDF, AI content unconfirmed",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "University of Wolverhampton",
+  "region": "England",
+  "website": "https://www.wlv.ac.uk",
+  "base": "wolverhampton",
+  "doc_id": "wolverhampton-students-genai-202610",
+  "blocked_url": "https://www.wlv.ac.uk/lib/skills-for-learning/artificial-intelligence-ai/",
+  "why_not_archived": "js_shell",
+  "known_other_pages": [],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "London School of Economics and Political Science",
+  "region": "England",
+  "website": "https://www.lse.ac.uk/",
+  "base": "lse",
+  "doc_id": "lse-students-genai-202610",
+  "blocked_url": "https://info.lse.ac.uk/current-students/digital-skills-lab/Gen-AI",
+  "why_not_archived": "js_shell",
+  "known_other_pages": [
+   {
+    "url": "https://info.lse.ac.uk/staff/divisions/Eden-Centre/Artificial-Intelligence-Education-and-Assessment/School-position-on-generative-AI",
+    "title": "School position on generative AI",
+    "audience": "staff"
+   },
+   {
+    "url": "https://info.lse.ac.uk/staff/divisions/Eden-Centre/Assets-EC/Documents/AI-guidelines-update-June-2025/LSE-Position-on-Generative-AI-in-Education-2025-26-FINAL.pdf",
+    "title": "LSE position on generative AI in assessment 2025/26",
+    "audience": "staff"
+   },
+   {
+    "url": "https://blogs.lse.ac.uk/studentsatlse/2026/05/26/what-to-know-about-using-ai-while-studying-at-lse/",
+    "title": "What to know about using AI while studying at LSE (Students@LSE blog)",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ }
+]

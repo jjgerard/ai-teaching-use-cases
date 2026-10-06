@@ -1,0 +1,100 @@
+[
+ {
+  "name": "St Mary's University Twickenham London",
+  "region": "England",
+  "website": "https://www.stmarys.ac.uk",
+  "base": "st-marys-twickenham-london",
+  "doc_id": "st-marys-twickenham-london-students-genai-202610",
+  "blocked_url": "https://www.stmarys.ac.uk/students/documents/ai-faqs.pdf",
+  "why_not_archived": "robots_disallowed",
+  "known_other_pages": [
+   {
+    "url": "https://www.stmarys.ac.uk/policies/ai.aspx",
+    "title": "AI policy",
+    "audience": "students_and_staff"
+   },
+   {
+    "url": "https://www.stmarys.ac.uk/staff/docs/staff-ai-guidance.pdf",
+    "title": "Staff guidance on AI",
+    "audience": "staff"
+   },
+   {
+    "url": "https://www.stmarys.ac.uk/policies/docs/student-guidance-on-ai-september-2023.pdf",
+    "title": "Student Guidance on the use of AI (Sept 2023; search result, fetch returned 404, probably superseded)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.stmarys.ac.uk/deeso/Learning-and-Teaching/academic-integrity/overview.aspx",
+    "title": "Academic integrity",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "Queen Mary University of London",
+  "region": "England",
+  "website": "https://www.qmul.ac.uk/",
+  "base": "qmul",
+  "doc_id": "qmul-students-genai-202610",
+  "blocked_url": "https://www.qmul.ac.uk/library/academic-skills/student-guide-to-generative-ai/",
+  "why_not_archived": "blocked (HTTP 403)",
+  "known_other_pages": [
+   {
+    "url": "https://www.qmul.ac.uk/queenmaryacademy/educators/innovation-and-scholarship/innovative-pedagogies/centre-for-excellence-in-ai-in-education/resources/university-guidance-and-policies/",
+    "title": "University AI principles, guidance and policies",
+    "audience": "staff/institution"
+   },
+   {
+    "url": "https://www.qmul.ac.uk/doctoralcollege/skills-training/training-and-development-tools/ai-guidance-for-pgrs/",
+    "title": "AI Guidance for PGRs",
+    "audience": "pgr"
+   },
+   {
+    "url": "https://www.qmul.ac.uk/queenmaryacademy/educators/resources/assessment-and-feedback/resources/generative-ai-and-chat-gpt/",
+    "title": "Staff Guide to Generative AI",
+    "audience": "staff"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "Falmouth University",
+  "region": "England",
+  "website": "https://www.falmouth.ac.uk",
+  "base": "falmouth",
+  "doc_id": "falmouth-students-genai-202610",
+  "blocked_url": "https://www.falmouth.ac.uk/corporate/artificial-intelligence-at-falmouth-university",
+  "why_not_archived": "blocked (bot challenge page)",
+  "known_other_pages": [
+   {
+    "url": "https://www.falmouth.ac.uk/sites/default/files/media/downloads/academic-integrity-policy-23-july-2025.pdf",
+    "title": "Academic Integrity policy (approved 23 July 2025 per search snippet; curl 403)",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "Royal Veterinary College",
+  "region": "England",
+  "website": "https://www.rvc.ac.uk",
+  "base": "royal-veterinary",
+  "doc_id": "royal-veterinary-students-genai-202610",
+  "blocked_url": "https://www.rvc.ac.uk/Media/Default/About/Academic%20Quality,%20Regulations%20and%20Procedures/Further%20Student%20Policies%20and%20Procedures/AM01%20RVC%20Student%20Academic%20Misconduct%20Procedure.pdf",
+  "why_not_archived": "blocked (HTTP 403)",
+  "known_other_pages": [
+   {
+    "url": "https://www.rvc.ac.uk/Media/Default/About/Academic%20Quality,%20Regulations%20and%20Procedures/Further%20Student%20Policies%20and%20Procedures/AM01%20RVC%20Student%20Academic%20Misconduct%20Procedure%20-%20V.4.pdf",
+    "title": "AM01 ... Procedures 2023/24 (V.4)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.rvc.ac.uk/Media/Default/About/Academic%20Quality,%20Regulations%20and%20Procedures/Examiners%20and%20Assessment/RVC_avoiding_plagiarism.pdf",
+    "title": "Supporting RVC staff and students in avoiding plagiarism",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ }
+]

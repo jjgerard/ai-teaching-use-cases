@@ -1,0 +1,63 @@
+[
+ {
+  "name": "Ravensbourne University London",
+  "region": "England",
+  "website": "http://www.ravensbourne.ac.uk/",
+  "base": "ravensbourne-london",
+  "doc_id": "ravensbourne-london-students-genai-202610",
+  "blocked_url": "https://www.ravensbourne.ac.uk/asset-bucket/prod/2025-09/Ravensbourne%20University%20General%20Academic%20Regulations%20for%202025-26%20publishing%20v3.pdf",
+  "why_not_archived": "ok",
+  "known_other_pages": [],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "Northumbria University",
+  "region": "England",
+  "website": "https://www.northumbria.ac.uk/",
+  "base": "northumbria",
+  "doc_id": "northumbria-students-genai-202610",
+  "blocked_url": "https://library.northumbria.ac.uk/c.php?g=690936&p=5237243",
+  "why_not_archived": "robots_disallowed",
+  "known_other_pages": [
+   {
+    "url": "https://www.northumbria.ac.uk/about-us/university-services/it-services/student-digital-induction/claude-for-education/",
+    "title": "Claude for Education your AI tool (IT Services; page last reviewed 22 May 2026)",
+    "audience": "students"
+   },
+   {
+    "url": "https://corp.northumbria.ac.uk/-/media/university-policies/policy-master-versions/academic-misconduct-policy.pdf?modified=20250523120544",
+    "title": "Academic Misconduct Policy (PL.005-V007; names AI ghosting)",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "National College of Art and Design",
+  "region": "Ireland",
+  "website": "https://www.ncad.ie",
+  "base": "national-art-and-design",
+  "doc_id": "national-art-and-design-students-genai-202610",
+  "blocked_url": "https://www.ncad.ie/files/download/Generative_Artificial_Intelligence_(AI)_Use_Policy.pdf",
+  "why_not_archived": "js_shell",
+  "known_other_pages": [
+   {
+    "url": "https://www.ncad.ie/students/academic-student-affairs-registration-regulation/policies-procedures-regulations/",
+    "title": "Academic Affairs: Policies, Procedures & Regulations (hub)",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "University College of Osteopathy",
+  "region": "England",
+  "website": "https://www.uco.ac.uk",
+  "base": "osteopathy",
+  "doc_id": "osteopathy-students-genai-202610",
+  "blocked_url": null,
+  "why_not_archived": "not recorded",
+  "known_other_pages": [],
+  "previous_outcome": "not_found"
+ }
+]

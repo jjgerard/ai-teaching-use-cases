@@ -1,0 +1,75 @@
+[
+ {
+  "name": "Newman University",
+  "region": "England",
+  "website": "http://www.newman.ac.uk/",
+  "base": "newman",
+  "doc_id": "newman-students-genai-202610",
+  "blocked_url": "https://newman.ac.uk/student-life-and-support/ai-guidelines/",
+  "why_not_archived": "blocked (HTTP 403)",
+  "known_other_pages": [
+   {
+    "url": "https://libguides.newman.ac.uk/genai",
+    "title": "AI guidance (library guide)",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "University of Nottingham",
+  "region": "England",
+  "website": "https://www.nottingham.ac.uk/",
+  "base": "nottingham",
+  "doc_id": "nottingham-students-genai-202610",
+  "blocked_url": "https://www.nottingham.ac.uk/studyingeffectively/ai/ai.aspx",
+  "why_not_archived": "js_shell",
+  "known_other_pages": [
+   {},
+   {},
+   {}
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "Ollscoil na Gaillimhe – University of Galway",
+  "region": "Ireland",
+  "website": "https://www.universityofgalway.ie",
+  "base": "ollscoil-na-gaillimhe-galway",
+  "doc_id": "ollscoil-na-gaillimhe-galway-students-genai-202610",
+  "blocked_url": "https://www.universityofgalway.ie/academicintegrity/faqs/",
+  "why_not_archived": "js_shell",
+  "known_other_pages": [
+   {
+    "url": "https://www.universityofgalway.ie/media/academicintegrity/files/QA220-Academic-Integrity-Policy.pdf",
+    "title": "QA220 Academic Integrity Policy (Policy Owner: Deputy President and Registrar; Revision 1 Sep 2026; names generative AI)"
+   },
+   {
+    "url": "https://www.universityofgalway.ie/academicintegrity/",
+    "title": "Academic Integrity"
+   },
+   {
+    "url": "https://su.universityofgalway.ie/news/use-of-ai/",
+    "title": "Use of AI (Students' Union)"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "Plymouth Marjon University",
+  "region": "England",
+  "website": "https://www.marjon.ac.uk/",
+  "base": "plymouth-marjon",
+  "doc_id": "plymouth-marjon-students-genai-202610",
+  "blocked_url": "https://www.marjon.ac.uk/about-marjon/institutional-documents/student-regulations-framework/SRF-2025-26-complete.pdf",
+  "why_not_archived": "ok",
+  "known_other_pages": [
+   {
+    "url": "https://www.marjon.ac.uk/about-marjon/governance--management/university-strategies--policies/",
+    "title": "University strategies & policies (a search snippet mentioned an AI Policy; PDF not located)",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ }
+]

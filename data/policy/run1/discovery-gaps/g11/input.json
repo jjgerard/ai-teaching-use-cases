@@ -1,0 +1,75 @@
+[
+ {
+  "name": "Abertay University",
+  "region": "Scotland",
+  "website": "https://www.abertay.ac.uk",
+  "base": "abertay",
+  "doc_id": "abertay-students-genai-202610",
+  "blocked_url": "https://intranet.abertay.ac.uk/students/study-skills/guides/generative-ai/",
+  "why_not_archived": "robots_disallowed",
+  "known_other_pages": [
+   {
+    "url": "https://intranet.abertay.ac.uk/students/study-skills/guides/generative-ai/ules-and-responsibilities/",
+    "title": "University position / rules and responsibilities",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "University of Buckingham",
+  "region": "England",
+  "website": "https://www.buckingham.ac.uk",
+  "base": "buckingham",
+  "doc_id": "buckingham-students-genai-202610",
+  "blocked_url": "https://www.buckingham.ac.uk/wp-content/uploads/2025/03/Academic-Artificial-Intelligence-Policy.pdf",
+  "why_not_archived": "robots_disallowed",
+  "known_other_pages": [
+   {
+    "url": "https://www.buckingham.ac.uk/about/handbooks/regulations-handbook/",
+    "title": "Regulations Handbook (hub linking policy 3.8)",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "University of Oxford",
+  "region": "England",
+  "website": "https://www.ox.ac.uk",
+  "base": "oxford",
+  "doc_id": "oxford-students-genai-202610",
+  "blocked_url": "https://www.ox.ac.uk/students/life/it/genai-tools/guidance-on-safe-and-responsible-use-of-genai",
+  "why_not_archived": "blocked (bot challenge page)",
+  "known_other_pages": [
+   {
+    "url": "https://www.ox.ac.uk/students/life/it/genai-tools/genai-faqs-for-students",
+    "title": "GenAI FAQs for students",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "University College London",
+  "region": "England",
+  "website": "http://www.ucl.ac.uk/",
+  "base": "ucl",
+  "doc_id": "ucl-students-genai-202610",
+  "blocked_url": "https://www.ucl.ac.uk/teaching-learning/artificial-intelligence-education/using-ai-tools-assessment",
+  "why_not_archived": "blocked (bot challenge page)",
+  "known_other_pages": [
+   {
+    "url": "https://library-guides.ucl.ac.uk/referencing-plagiarism/acknowledging-genAI",
+    "title": "Acknowledging and referencing GenAI (library)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/genai-and-academic-integrity-assessment",
+    "title": "GenAI and academic integrity in assessment",
+    "audience": "all"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ }
+]

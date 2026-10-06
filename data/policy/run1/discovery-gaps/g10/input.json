@@ -1,0 +1,72 @@
+[
+ {
+  "name": "Scotland's Rural College",
+  "region": "Scotland",
+  "website": "https://www.sruc.ac.uk",
+  "base": "scotlands-rural",
+  "doc_id": "scotlands-rural-students-genai-202610",
+  "blocked_url": null,
+  "why_not_archived": "not recorded",
+  "known_other_pages": [],
+  "previous_outcome": "not_found"
+ },
+ {
+  "name": "University of Plymouth",
+  "region": "England",
+  "website": "https://www.plymouth.ac.uk/",
+  "base": "plymouth",
+  "doc_id": "plymouth-students-genai-202610",
+  "blocked_url": "https://liveplymouthac.sharepoint.com/:b:/r/sites/x110/Principles/AI%20Education%20Principles%202025-26.pdf?csf=1&web=1&e=WfxpL6",
+  "why_not_archived": "robots_disallowed",
+  "known_other_pages": [
+   {
+    "url": "https://plymouth.libguides.com/Ailibraryskills",
+    "title": "AI Principles - Artificial Intelligence and Library Skills (library guide, retrieved 200, thin ~150 words, links to the PDF)",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "University of Reading",
+  "region": "England",
+  "website": "https://www.reading.ac.uk",
+  "base": "reading",
+  "doc_id": "reading-students-genai-202610",
+  "blocked_url": "https://www.reading.ac.uk/essentials/Study/ai/using-generative-ai-tools-at-university",
+  "why_not_archived": "js_shell",
+  "known_other_pages": [
+   {
+    "url": "https://www.reading.ac.uk/essentials/Study/ai/A-students-guide-to-using-Gen-AI",
+    "audience": "students"
+   },
+   {
+    "url": "https://libguides.reading.ac.uk/generative-AI-and-university-study/UoR_policy",
+    "title": "library guide",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.reading.ac.uk/cqsd/artificial-intelligence",
+    "audience": "staff"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "London School of Hygiene & Tropical Medicine",
+  "region": "England",
+  "website": "http://www.lshtm.ac.uk/",
+  "base": "london-school-hygiene-and-tropical-medicine",
+  "doc_id": "london-school-hygiene-and-tropical-medicine-students-genai-202610",
+  "blocked_url": "https://www.lshtm.ac.uk/media/74671",
+  "why_not_archived": "blocked (bot challenge page)",
+  "known_other_pages": [
+   {
+    "url": "https://www.lshtm.ac.uk/sites/default/files/academicwritinghandbook.pdf",
+    "title": "Academic Writing Handbook Guidance for students",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ }
+]

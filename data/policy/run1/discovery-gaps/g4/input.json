@@ -1,0 +1,79 @@
+[
+ {
+  "name": "Durham University",
+  "region": "England",
+  "website": "https://www.dur.ac.uk/",
+  "base": "durham",
+  "doc_id": "durham-students-genai-202610",
+  "blocked_url": "https://dcad.awh.durham.ac.uk/generativeai/#/",
+  "why_not_archived": "js_shell",
+  "known_other_pages": [
+   {
+    "url": "https://www.durham.ac.uk/media/durham-university/departments-/common-awards/documents/AI-Policy-and-Guidance.pdf",
+    "title": "Common Awards Policy and Guidance on Generative AI",
+    "audience": "pgr/staff"
+   },
+   {
+    "url": "https://www.durham.ac.uk/departments/academic/common-awards/policies-processes/assessment/academic-misconductai-policy-and-guidance/",
+    "title": "Academic Misconduct: AI Policy and Guidance (Common Awards, departmental)",
+    "audience": "students"
+   },
+   {
+    "url": "https://dcad-resourcebank.webspace.durham.ac.uk/2026/07/06/generative-ai-in-teaching-learning-and-assessment-resources/",
+    "title": "Generative AI in Teaching, Learning and Assessment Resources",
+    "audience": "staff"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "University of East London",
+  "region": "England",
+  "website": "https://www.uel.ac.uk",
+  "base": "east-london",
+  "doc_id": "east-london-students-genai-202610",
+  "blocked_url": "https://www.uel.ac.uk/about/governance/generative-ai",
+  "why_not_archived": "blocked (HTTP 403)",
+  "known_other_pages": [
+   {
+    "url": "https://www.uel.ac.uk/about/governance/general-policies/generative-artificial-intelligence-usage-policy",
+    "title": "Generative Artificial Intelligence Usage Policy (also 403)",
+    "audience": "students"
+   },
+   {
+    "url": "https://libguides.uel.ac.uk/artificial-intelligence",
+    "title": "Artificial Intelligence (AI) library guide",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "Leeds Arts University",
+  "region": "England",
+  "website": "http://www.leeds-art.ac.uk/",
+  "base": "leeds-arts",
+  "doc_id": "leeds-arts-students-genai-202610",
+  "blocked_url": "https://portal.leeds-art.ac.uk/node/6318",
+  "why_not_archived": "error",
+  "known_other_pages": [
+   {
+    "url": "https://portal.leeds-art.ac.uk/content/academic-regulations-2024-25",
+    "title": "Academic Regulations 2024-25",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "Glasgow Caledonian University",
+  "region": "Scotland",
+  "website": "http://www.gcu.ac.uk/",
+  "base": "glasgow-caledonian",
+  "doc_id": "glasgow-caledonian-students-genai-202610",
+  "blocked_url": "https://www.gcu.ac.uk/currentstudents/essentials/onlinelearning/assessmentandintegrity",
+  "why_not_archived": "blocked (bot challenge page)",
+  "known_other_pages": [],
+  "previous_outcome": "found_unverified"
+ }
+]

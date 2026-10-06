@@ -1,0 +1,64 @@
+[
+ {
+  "name": "University of Leicester",
+  "region": "England",
+  "website": "https://le.ac.uk",
+  "base": "leicester",
+  "doc_id": "leicester-students-genai-202610",
+  "blocked_url": null,
+  "why_not_archived": "blocked",
+  "known_other_pages": [],
+  "previous_outcome": null
+ },
+ {
+  "name": "Stranmillis University College",
+  "region": "Northern Ireland",
+  "website": "https://www.stran.ac.uk",
+  "base": "stranmillis",
+  "doc_id": "stranmillis-students-genai-202610",
+  "blocked_url": null,
+  "why_not_archived": "not recorded",
+  "known_other_pages": [
+   {
+    "url": "https://www.stran.ac.uk/wp-content/uploads/2025/04/Code-of-Ethics-in-Research-2024.pdf",
+    "title": "Code of Ethics in Research (June 2024), mentions generative AI",
+    "audience": "pgr/staff"
+   }
+  ],
+  "previous_outcome": "not_found"
+ },
+ {
+  "name": "University of Chichester",
+  "region": "England",
+  "website": "https://www.chi.ac.uk",
+  "base": "chichester",
+  "doc_id": "chichester-students-genai-202610",
+  "blocked_url": "https://help.chi.ac.uk/docs/using-ai-your-studies/",
+  "why_not_archived": "js_shell",
+  "known_other_pages": [
+   {
+    "url": "https://help.chi.ac.uk/docs/ai/",
+    "title": "Generative AI",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "Hartpury University",
+  "region": "England",
+  "website": "https://www.hartpury.ac.uk/",
+  "base": "hartpury",
+  "doc_id": "hartpury-students-genai-202610",
+  "blocked_url": "https://www.hartpury.ac.uk/media/h4gdxowj/hartpury-university-academic-regulations-2025-26-version-1.pdf",
+  "why_not_archived": "ok",
+  "known_other_pages": [
+   {
+    "url": "https://www.hartpury.ac.uk/about-us/governance-leadership/policies-regulation-and-information/policies/",
+    "title": "Hartpury Policies",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ }
+]
