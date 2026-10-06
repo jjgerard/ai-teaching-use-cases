@@ -166,6 +166,11 @@ button.tgnote:hover { background: var(--tint); }
 @media (max-width: 520px) { .tgr { grid-template-columns: 1fr; gap: 2px; } }
 #tgsel { max-width: 100%; }
 @media (max-width: 520px) { table.tgt { font-size: 12px; } }
+.toc { display: flex; flex-wrap: wrap; gap: 4px 14px; align-items: baseline; font-size: 13px; margin: 0 0 18px; padding: 10px 12px; border: 1px solid var(--line); border-radius: 6px; }
+.toc strong { margin-right: 4px; }
+.toc a { color: var(--accent-ink); text-decoration: none; } .toc a:hover { text-decoration: underline; }
+.totop { display: inline-block; margin-top: 10px; font-size: 13px; color: var(--accent-ink); text-decoration: none; } .totop:hover { text-decoration: underline; }
+section { scroll-margin-top: 64px; }
 .udet h4 { margin: 12px 0 4px; font-size: 14px; }
 .udet blockquote { margin: 4px 0 8px; padding-left: 10px; border-left: 2px solid var(--line); color: var(--ink2); font-size: 13px; overflow-wrap: anywhere; }
 @media (max-width: 520px) { .urow { grid-template-columns: 1fr; } .urow .un { white-space: normal; } }
@@ -194,7 +199,7 @@ button.tgnote:hover { background: var(--tint); }
 </style>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 
-<div class="wrap">
+<div class="wrap" id="top">
   <h1>AI policy atlas</h1>
   <p class="lede">What UK and Irish universities tell students about generative AI: what it can be used for, what has to be acknowledged, what help is offered, and how that differs. Every statement counted here traces to a quote in the institution’s own document.</p>
   <p class="note"><b>Draft.</b> Counts are minimums: a statement counts only where a quote shows it, from one document per institution, read by one model. They are not prevalence estimates. Coverage and method are further down.</p>
@@ -202,8 +207,7 @@ button.tgnote:hover { background: var(--tint); }
 
 <div class="bar-filter"><div class="in">
   <div class="grp" role="group" aria-label="Region"><span class="lab">Region</span><span id="regs"></span></div>
-  <div class="grp" role="group" aria-label="Document kind"><span class="lab">Classified sections</span>
-    <button class="chip" id="k-all" aria-pressed="true">All coded</button><button class="chip" id="k-rules" aria-pressed="false">Rule-setting documents only</button></div>
+
   <span class="count-now mono" id="nowshown"></span>
 </div></div>
 
@@ -211,18 +215,24 @@ button.tgnote:hover { background: var(--tint); }
 
 
 
+<nav class="toc" id="toc" aria-label="Contents"><strong>Contents</strong>
+  <a href="#uses">What AI can be used for</a><a href="#ack">What has to be acknowledged</a><a href="#misconduct">Academic misconduct</a><a href="#support">What kind of help institutions offer</a><a href="#together">What goes together</a><a href="#points">What the guidance says</a><a href="#coverage">Who is covered</a><a href="#kinds">What kind of documents these are</a><a href="#explorer">One variable at a time</a><a href="#common">What is common</a><a href="#together-typed">What goes together (classified)</a><a href="#matrix">Every institution</a><a href="#method">How to read this</a>
+</nav>
+
 <section id="uses">
   <h2>What AI can be used for <button class="dlcsv" data-csv="uses" hidden type="button">Download CSV</button></h2>
   <p class="sub" id="usub"></p>
   <div class="pctl"><span class="mono" style="color:var(--ink2)">Setting</span><span id="uctx"></span></div>
   <div class="ulegend" id="uleg"></div>
   <div class="panel udet"><div id="urows"></div></div>
+  <a class="totop" href="#top">↑ Back to top</a>
 </section>
 
 <section id="ack">
   <h2>What has to be acknowledged <button class="dlcsv" data-csv="acknowledgement" hidden type="button">Download CSV</button></h2>
   <p class="sub" id="acksub"></p>
   <div class="panel udet"><div id="ackbars"></div></div>
+  <a class="totop" href="#top">↑ Back to top</a>
 </section>
 
 <section id="misconduct">
@@ -230,12 +240,14 @@ button.tgnote:hover { background: var(--tint); }
   <p class="sub" id="missub"></p>
   <div class="pctl"><span class="mono" style="color:var(--ink2)">Wording</span><span id="misctl"></span></div>
   <div class="panel udet"><div id="misrows"></div></div>
+  <a class="totop" href="#top">↑ Back to top</a>
 </section>
 
 <section id="support">
   <h2>What kind of help institutions offer <button class="dlcsv" data-csv="support" hidden type="button">Download CSV</button></h2>
   <p class="sub" id="supsub"></p>
   <div class="panel udet"><div id="supbars"></div></div>
+  <a class="totop" href="#top">↑ Back to top</a>
 </section>
 
 <section id="together">
@@ -247,6 +259,7 @@ button.tgnote:hover { background: var(--tint); }
   <p class="sub">The bars repeat the sections above. The light bar is every institution that says it; the dark part is the institutions that also say the statement you picked.</p>
   <div class="pctl"><label class="mono" for="tgsel" style="color:var(--ink2)">Institutions that say</label><select id="tgsel"></select></div>
   <div class="panel udet"><div id="tgone"></div></div>
+  <a class="totop" href="#top">↑ Back to top</a>
 </section>
 
 <section id="points">
@@ -362,8 +375,6 @@ button.tgnote:hover { background: var(--tint); }
   // filters
   function mkChip(label, on, fn) { var b = el("button", "chip", label); b.type = "button"; b.setAttribute("aria-pressed", on ? "true" : "false"); b.addEventListener("click", fn); return b; }
   function drawRegs() { var h = $("regs"); h.textContent = ""; ["All"].concat(REGIONS).forEach(function (r) { h.appendChild(mkChip(r, r === region, function () { region = r; refresh(); })); }); }
-  $("k-all").addEventListener("click", function () { kind = "all"; refresh(); });
-  $("k-rules").addEventListener("click", function () { kind = "rules"; refresh(); });
 
   // coverage
   var ST = [["coded", "Document read, points extracted", "s-coded"], ["fetch", "Found, not archived (needs a local fetch)", "s-fetch"], ["none", "Searched, none found", "s-none"], ["deferred", "Archived, deferred (oversized)", "s-deferred"]];
@@ -785,7 +796,7 @@ button.tgnote:hover { background: var(--tint); }
   function tinit() { drawSupport(); }
 
   function refresh() {
-    drawRegs(); $("k-all").setAttribute("aria-pressed", kind === "all"); $("k-rules").setAttribute("aria-pressed", kind === "rules");
+    drawRegs();
     $("nowshown").textContent = shown().length + " of " + DATA.docs.length + " documents shown";
     drawExplorer(); drawMatrix(); drawCommon(); drawCross(); drawPairs(); drawPoints(); drawUses(); drawAck(); drawMisconduct(); drawTogether();
   }
