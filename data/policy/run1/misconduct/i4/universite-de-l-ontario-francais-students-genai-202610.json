@@ -1,0 +1,71 @@
+{
+ "doc_id": "universite-de-l-ontario-francais-students-genai-202610",
+ "coder": "mis-i4",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "L’utilisation d’outils IAG dans des situations non autorisées constitue une infraction à la politique d’intégrité intellectuelle.",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Une infraction à la politique sur l’intégrité intellectuelle peut notamment survenir lorsqu’une personne étudiante utilise l’IAG malgré une instruction explicite, ne respecte pas les conditions d’un usage encadré, omet de déclarer un usage qui devait l’être, ou présente un contenu généré par l’IAG comme s’il s’agissait de sa propre production intellectuelle.",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Une infraction à la politique sur l’intégrité intellectuelle peut notamment survenir lorsqu’une personne étudiante utilise l’IAG malgré une instruction explicite, ne respecte pas les conditions d’un usage encadré, omet de déclarer un usage qui devait l’être, ou présente un contenu généré par l’IAG comme s’il s’agissait de sa propre production intellectuelle.",
+   "anchor": null
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": true,
+   "quote": "Les infractions liées à l’usage dissimulé d’IAG seront traitées selon la politique sur l’intégrité intellectuelle.",
+   "anchor": null
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": true,
+   "quote": "d’insérer des travaux protégés par les droits d’auteur, sans autorisation dans une IAG ;",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Éviter le recours à des outils de détection automatisée de l’IAG comme preuve unique ou définitive d’infraction, en raison de leurs limites méthodologiques et éthiques, etc.",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "Déclaration d’usage",
+   "ai_named": true,
+   "quote": "Déclaration d’usage : Utilisation d’une IAG explicitement indiquée dans un travail"
+  },
+  {
+   "term": "Utilisation encadrée",
+   "ai_named": true,
+   "quote": "Utilisation encadrée : L’IAG peut être utilisée à certaines étapes du travail, mais sous conditions explicites avec transparence, réflexion critique et attribution"
+  },
+  {
+   "term": "Utilisation non-autorisée",
+   "ai_named": true,
+   "quote": "Utilisation non-autorisée : L’IAG ne peut pas être utilisée lorsque la personne enseignante ne l’autorise pas"
+  },
+  {
+   "term": "Utilisation non-encadrée",
+   "ai_named": true,
+   "quote": "Utilisation non-encadrée : L’IAG peut être utilisée sans condition pour une activité précisée par la personne enseignante."
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+ "doc_id": "lincoln-university-students-genai-202610",
+ "coder": "mis-i2",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Using GenAI without following the guidelines is a breach of academic integrity.",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Using GenAI without following the guidelines is a breach of academic integrity.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "All suspected misuse will be investigated.",
+   "anchor": null
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": true,
+   "quote": "and any student suspected of violating this GenAI Usage may be referred to the Proctor.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}

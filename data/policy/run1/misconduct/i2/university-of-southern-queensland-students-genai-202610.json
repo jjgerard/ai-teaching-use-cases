@@ -1,0 +1,39 @@
+{
+ "doc_id": "university-of-southern-queensland-students-genai-202610",
+ "coder": "mis-i2",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Presenting AI-generated work as your own may constitute plagiarism because you are claiming authorship of content that you did not create yourself.",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Failure to reference AI correctly can result in academic misconduct penalties.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "draft_or_version_history",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "They can be used as evidence if you need to show that the work is your own, so make sure you keep a copy of different versions of your assignment.",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": true,
+   "quote": "Failure to reference AI correctly can result in academic misconduct penalties.",
+   "anchor": null
+  }
+ ],
+ "definitions": []
+}

@@ -1,0 +1,13 @@
+{"doc_id":"university-of-canterbury-students-genai-202610","coder":"mis-i3","scope":"ai_specific",
+"offences":[{"value":"unauthorised_use","ai_named":false,"quote":"This is a breach of academic integrity, which UC’s regulations define as a “Principle by which University staff and students act honestly, fairly, ethically, responsibly and with due care in academic work.”","anchor":null}],
+"liability":[],
+"detection":[
+{"method":"ai_detection_software","stance":"used","ai_named":true,"quote":"AI writing detectors, specifically Turnitin, are used in some courses at UC as an initial step to identify assignments that may need closer attention.","anchor":null},
+{"method":"ai_detection_software","stance":"unreliable","ai_named":true,"quote":"but would not generally be used as the sole piece of evidence for inappropriate use of AI.","anchor":null},
+{"method":"ai_detection_software","stance":"may_be_used","ai_named":true,"quote":"However, it may be flagged if you are using Grammarly extensively or using it to rewrite or compose text, which is generative AI.","anchor":null},
+{"method":"draft_or_version_history","stance":"may_be_used","ai_named":false,"quote":"collect any evidence that supports your position including any earlier drafts, workings, and/or planning notes.","anchor":null}],
+"process":[
+{"value":"investigation","ai_named":false,"quote":"Depending on the severity of the inappropriate use, it could lead to an academic misconduct investigation.","anchor":null},
+{"value":"student_right_to_respond","ai_named":true,"quote":"If you’ve been accused of using AI inappropriately and you don’t believe you have, you should discuss this with the Lecturer/Course Coordinator, Academic Integrity Officer, or Proctor who has made the allegation.","anchor":null}],
+"outcomes":[],
+"definitions":[{"term":"Gen-AI","ai_named":true,"quote":"Gen-AI refers to AI systems capable of creating content such as text, translated text, images, video or code."}]}

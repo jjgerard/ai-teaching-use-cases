@@ -1,0 +1,133 @@
+{
+ "doc_id": "university-of-canterbury-students-genai-202610",
+ "coder": "uses-i3",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Always check if you are allowed to use Gen-AI in your assessment. If you do use it, then you will be required to disclose this, with a description of how you used it.",
+   "anchor": "Q: How can I ensure my work meets academic integrity standards when using Gen-AI?"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen-AI can help by generating practice quizzes or flashcards",
+   "anchor": "Q: How can I use Gen-AI to support my learning?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "explaining complex topics more clearly, offering feedback on essays or your writing style, or even acting as a tutor for specific subjects.",
+   "anchor": "Q: How can I use Gen-AI to support my learning?"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "offering feedback on essays or your writing style",
+   "anchor": "Q: How can I use Gen-AI to support my learning?"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "be wary of ‘outsourcing’ your learning by using it as a shortcut to an answer, or to summarise learning materials or readings.",
+   "anchor": "Q: How can I use Gen-AI to support my learning?"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission",
+    "other_rules_apply"
+   ],
+   "quote": "Students may only make personal recordings of a lecture with the explicit permission of the staff member and may only use such lecture recordings for the purposes of private study or research.",
+   "anchor": "Q: Can I use AI tools for recording and transcription?"
+  },
+  {
+   "use": "check_language",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent",
+    "other_rules_apply"
+   ],
+   "quote": "AI tools may be used to assist with the editing process but should only be used in a way that does not modify your own ideas or contribute to the intellectual content of the thesis.",
+   "anchor": "Q: I’m a graduate student. Can I use Gen-AI tools in my research?"
+  },
+  {
+   "use": "any_use",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "You must consult with your supervisory team before using AI tools.",
+   "anchor": "Q: I’m a graduate student. Can I use Gen-AI tools in my research?"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "If this information is not provided, contact your course coordinator before assuming you can use AI."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "In your studies, how you are permitted to use Gen-AI will be determined by your lecturers and course coordinators."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Please refer to your course outline/assessment brief for information about what is allowed."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you do use it, then you will be required to disclose this, with a description of how you used it."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "If you do use it, then you will be required to disclose this, with a description of how you used it."
+   },
+   {
+    "value": "tool_name",
+    "quote": "You may be asked to complete a cover page that indicates what tools you have used and/or how you have used them."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "You may be asked to complete a cover page that indicates what tools you have used and/or how you have used them."
+   },
+   {
+    "value": "statement_in_work",
+    "quote": "Other courses may require you to include a section with your assessment that gives this information."
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

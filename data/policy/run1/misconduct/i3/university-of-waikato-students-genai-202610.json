@@ -1,0 +1,7 @@
+{"doc_id":"university-of-waikato-students-genai-202610","coder":"mis-i3","scope":"ai_specific",
+"offences":[
+{"value":"passing_off","ai_named":true,"quote":"Using an AI tool (e.g., ChatGPT) to generate your assignment or test answers and submitting them as your own, unless the assignment specifically requires the use of such a tool","anchor":null},
+{"value":"unauthorised_use","ai_named":true,"quote":"Using an AI tool (e.g., ChatGPT) to rewrite your assignment or test answers and submitting them as your own, unless explicitly permitted in the assignment instructions","anchor":null}],
+"liability":[],
+"detection":[{"method":"ai_detection_software","stance":"used","ai_named":true,"quote":"From 2025, the University of Waikato will be using Turnitin functionality to identify work that have been a result of GenAI use.","anchor":null}],
+"process":[],"outcomes":[],"definitions":[]}

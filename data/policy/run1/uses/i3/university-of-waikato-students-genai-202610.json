@@ -1,0 +1,48 @@
+{
+ "doc_id": "university-of-waikato-students-genai-202610",
+ "coder": "uses-i3",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Using an AI tool (e.g., ChatGPT) to generate your assignment or test answers and submitting them as your own, unless the assignment specifically requires the use of such a tool",
+   "anchor": "Generative AI and Education: University of Waikato’s position"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Using an AI tool (e.g., ChatGPT) to rewrite your assignment or test answers and submitting them as your own, unless explicitly permitted in the assignment instructions",
+   "anchor": "Generative AI and Education: University of Waikato’s position"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "if you're unsure, always check with your paper convener or lecturer."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "unless explicitly permitted in the assignment instructions"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

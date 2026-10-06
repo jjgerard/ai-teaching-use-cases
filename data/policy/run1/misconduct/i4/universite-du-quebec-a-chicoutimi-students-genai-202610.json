@@ -1,0 +1,31 @@
+{
+ "doc_id": "universite-du-quebec-a-chicoutimi-students-genai-202610",
+ "coder": "mis-i4",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "L’utilisation de l’IAg d’un niveau supérieur à celui qui est permis est considérée comme une aide non autorisée et constitue une infraction.",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Une utilisation de l’IA générative qui n’a pas été mentionnée ou citée peut constituer une infraction.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Cette dernière pourrait mener à l’application des sanctions prévues à la politique sur les infractions relatives aux études et sanctions.",
+   "anchor": null
+  }
+ ],
+ "definitions": []
+}

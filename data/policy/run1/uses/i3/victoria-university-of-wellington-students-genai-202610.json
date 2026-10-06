@@ -1,0 +1,64 @@
+{
+ "doc_id": "victoria-university-of-wellington-students-genai-202610",
+ "coder": "uses-i3",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "the unauthorised use of or consultation with generative AI technologies by undergraduate students and postgraduate students enrolled in coursework degrees to substantially complete any component of their coursework shall be treated as potential academic misconduct under the Student Academic Integrity Regulation.",
+   "anchor": "5. Learning and Teaching"
+  },
+  {
+   "use": "any_use",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission",
+    "limited_extent"
+   ],
+   "quote": "the unauthorised use of or consultation with generative AI technologies by doctoral and master’s by research students to provide assistance with any substantial component of their research or thesis shall be treated as potential academic misconduct under the Student Academic Integrity Regulation.",
+   "anchor": "6. Research"
+  },
+  {
+   "use": "any_use",
+   "context": "research_or_thesis",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This does not preclude doctoral and master’s by research students studying generative AI from investigating and experimenting with generative AI technologies for the purposes of their research.",
+   "anchor": "6. Research"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Course coordinators should determine their approaches regarding the student use of generative AI technologies in their courses"
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "are responsible for clearly communicating their expectations to Students through their course outline and/or documentation for each assessment item."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "acknowledge any use of generative AI technologies in accordance with appropriate citation standards and library guidance"
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "acknowledge any use of generative AI technologies in accordance with appropriate citation standards and library guidance"
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}
