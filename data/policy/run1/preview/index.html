@@ -156,6 +156,8 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; display: grid; gap: 6px; }
 .tgs .lt, .tgs .dk { position: absolute; left: 0; top: 0; height: 100%; display: block; }
 .tgs .lt { width: 100%; background: var(--tg-lt); }
 .tgs .dk { background: var(--tg-dk); }
+.sg-neutral { background: var(--bar-mute); }
+.tgs .sg-neutral { background: var(--bar-mute); }
 .tgs .sg-required { background: var(--st-req); } .tgs .sg-permitted { background: var(--st-perm); } .tgs .sg-conditional { background: var(--st-cond); } .tgs .sg-discouraged { background: var(--st-disc); } .tgs .sg-prohibited { background: var(--st-proh); }
 .tgs .lt[class*="sg-"] { opacity: .3; }
 .tgs .dk[class*="sg-"] { opacity: 1; }
@@ -443,12 +445,18 @@ section { scroll-margin-top: 64px; }
   function quotes(d, list, max, tag) { var host = d; if (list.length > (max || 8)) { host = el("div", "qscroll"); d.appendChild(host); }
     list.forEach(function (r) { var bq = el("blockquote"); if (r.rq && RTAG[r.rq]) { var s = el("span", "rtag" + (r.rq === "advised" ? " soft" : ""), RTAG[r.rq]); bq.appendChild(s); bq.appendChild(document.createTextNode(" ")); } bq.appendChild(document.createTextNode("“" + r.q + "” — " + (PD[r.i] ? PD[r.i].name : r.i) + (tag ? tag(r) : ""))); host.appendChild(bq); }); }
   function uniqBy(list) { var seen = {}, out = []; list.forEach(function (r) { if (!seen[r.i]) { seen[r.i] = 1; out.push(r); } }); return out; }
+  var DETCLS = { used: "sg-permitted", may_be_used: "sg-conditional", restricted: "sg-discouraged", unreliable: "sg-prohibited", not_used: "sg-neutral" }, DETLAB = { used: "used", may_be_used: "may be used", restricted: "restricted", unreliable: "unreliable", not_used: "not used" }, DETORDER = ["used", "may_be_used", "restricted", "unreliable", "not_used"];
+  var SUPCLS = { mandatory: "sg-required", advised: "sg-conditional", other: "sg-permitted" }, SUPLAB = { mandatory: "required", advised: "advised", other: "optional or not stated" }, SUPORDER = ["mandatory", "advised", "other"];
+  function supLevel(rq) { return rq === "mandatory" ? "mandatory" : rq === "advised" ? "advised" : "other"; }
+  function mkLegend(order, cls, lab) { var lg = el("div", "ulegend"); order.forEach(function (k) { var sp = el("span"), i = el("i"); i.className = cls[k]; sp.appendChild(i); sp.appendChild(document.createTextNode(lab[k])); lg.appendChild(sp); }); return lg; }
   var RRANK = { mandatory: 3, advised: 2, planned: 1 };
   function drawSupport() {
     var S = TR.support, N = TR.sdocs.filter(function (d) { return PD[d]; }).length, host = $("supbars"); host.textContent = "";
     desc("supsub", "The training, guidance and support institutions offer about AI.", []);
-    xgroup(host, S.forms.map(function (f) { var req = ["mandatory", "advised", "planned"].filter(function (k) { return f.req[k]; }).map(function (k) { return f.req[k] + " " + k; }).join(", ");
-      return { key: "sup|" + f.id, label: f.label, def: f.def, n: f.n, bar: simpleBar(100 * f.n / N, "sg-permitted"), count: f.n + " of " + N + " (" + Math.round(100 * f.n / N) + "%)" + (f.nAi < f.n ? " · " + f.nAi + " name AI" : "") + (req ? " · " + req : ""), cn: f.n + (f.req.mandatory ? " · " + f.req.mandatory + " required" : ""), detail: function (d) { quotes(d, f.rows.slice().sort(function (a, b) { return (RRANK[b.rq] || 0) - (RRANK[a.rq] || 0); }), 8, function (r) { return (r.n ? " · " + r.n : "") + (r.s ? " · second document" : ""); }); } }; }), N);
+    host.appendChild(mkLegend(SUPORDER, SUPCLS, SUPLAB));
+    xgroup(host, S.forms.map(function (f) { var best = {}; f.rows.forEach(function (r) { var l = supLevel(r.rq), cur = best[r.i]; if (!cur || SUPORDER.indexOf(l) < SUPORDER.indexOf(cur)) best[r.i] = l; });
+      var dots = Object.keys(best).map(function (i) { return best[i]; }).sort(function (x, y) { return SUPORDER.indexOf(x) - SUPORDER.indexOf(y); }).map(function (l) { return SUPCLS[l]; }), n = dots.length;
+      return { key: "sup|" + f.id, label: f.label, def: f.def, n: n, dots: dots, cn: String(n), count: n + " institutions", detail: function (d) { quotes(d, f.rows.slice().sort(function (a, b) { return (RRANK[b.rq] || 0) - (RRANK[a.rq] || 0); }), 8, function (r) { return (r.n ? " · " + r.n : "") + (r.s ? " · second document" : ""); }); } }; }).sort(function (x, y) { return y.n - x.n; }), N);
   }
 
   var UD = TR.usesData, ULAB = {}; UD.uses.forEach(function (u) { ULAB[u.id] = u; });
@@ -488,9 +496,10 @@ section { scroll-margin-top: 64px; }
     var host = $("misrows"); host.textContent = ""; var per = {};
     rows.forEach(function (r) { var k = r.g + "|" + r.v + "|" + (r.st || ""); (per[k] = per[k] || []).push(r); });
     MGROUPS.forEach(function (g) { var sch = MS.schema[g[2]], items = [];
-      Object.keys(sch).forEach(function (v) { if (g[0] === "detection") Object.keys(MS.schema.stances).forEach(function (st) { var k = "detection|" + v + "|" + st; if (per[k]) items.push({ k: k, label: v.replace(/_/g, " ") + " — " + st.replace(/_/g, " "), def: sch[v] + "; " + MS.schema.stances[st], list: uniqBy(per[k]) }); }); else { var k = g[0] + "|" + v + "|"; if (per[k]) items.push({ k: k, label: v.replace(/_/g, " "), def: sch[v], list: uniqBy(per[k]) }); } });
-      if (!items.length) return; items.sort(function (a, b) { return b.list.length - a.list.length; }); host.appendChild(el("h4", null, g[1]));
-      xgroup(host, items.map(function (x) { var n = x.list.length; return { key: "mis|" + x.k, label: x.label, def: x.def, n: n, bar: simpleBar(100 * n / N, "sg-permitted"), count: n + " of " + N + " (" + Math.round(100 * n / N) + "%)", detail: function (d) { quotes(d, x.list, 12, function (r) { return (r.ai ? "" : " · general wording") + (r.sc === "general_misconduct" ? " · general procedure" : ""); }); } }; }), N); });
+      if (g[0] === "detection") Object.keys(sch).forEach(function (v) { var byS = {}, dots = [], un = {}; DETORDER.forEach(function (st) { var k = "detection|" + v + "|" + st; if (per[k]) { var u = uniqBy(per[k]); byS[st] = u; u.forEach(function (r) { dots.push(DETCLS[st]); un[r.i] = 1; }); } }); var n = Object.keys(un).length; if (n) items.push({ det: true, k: "detection|" + v, label: v.replace(/_/g, " "), def: sch[v], byS: byS, dots: dots, n: n, list: [] }); });
+      else Object.keys(sch).forEach(function (v) { var k = g[0] + "|" + v + "|"; if (per[k]) items.push({ k: k, label: v.replace(/_/g, " "), def: sch[v], list: uniqBy(per[k]) }); });
+      if (!items.length) return; items.forEach(function (x) { if (!x.det) x.n = x.list.length; }); items.sort(function (a, b) { return b.n - a.n; }); host.appendChild(el("h4", null, g[1])); if (g[0] === "detection") host.appendChild(mkLegend(DETORDER, DETCLS, DETLAB));
+      xgroup(host, items.map(function (x) { var n = x.n; return { key: "mis|" + x.k, label: x.label, def: x.def, n: n, dots: x.det ? x.dots : null, cn: String(n), count: n + " institutions", detail: function (d) { if (x.det) { DETORDER.forEach(function (st) { if (!x.byS[st]) return; d.appendChild(el("h4", null, DETLAB[st] + " (" + x.byS[st].length + ")")); quotes(d, x.byS[st], 8, function (r) { return (r.ai ? "" : " · general wording") + (r.sc === "general_misconduct" ? " · general procedure" : ""); }); }); } else quotes(d, x.list, 12, function (r) { return (r.ai ? "" : " · general wording") + (r.sc === "general_misconduct" ? " · general procedure" : ""); }); } }; }), N); });
     if (!host.firstChild) host.appendChild(el("span", null, "No misconduct statements yet."));
   }
   var DLN = null;
@@ -518,13 +527,17 @@ section { scroll-margin-top: 64px; }
       ks.forEach(function (v) { var lab = (g[2] && g[2][v]) || nice(v); gr.items.push({ kind: "one", feats: [feat("ack|" + g[0] + "|" + v, "Acknowledgement", g[1] + sep(g[1]) + lab, sets[v], { gk: "ack:" + g[0], short: lab, noteOk: g[0] !== "consequence" })] }); }); if (gr.items.length) groups.push(gr); });
     // help offered
     var sg = { sec: "Help offered", title: "What kind of help institutions offer", items: [] };
-    TR.support.forms.forEach(function (f) { var s = new Set(), q = new Set(); f.rows.forEach(function (r) { if (PD[r.i]) { s.add(r.i); if (r.rq === "mandatory") q.add(r.i); } });
-      if (s.size) sg.items.push({ kind: "one", feats: [feat("sup|" + f.id, "Help offered", f.label, s, { gk: "sup:" + f.id })] }); if (q.size) sg.items.push({ kind: "one", feats: [feat("sup|" + f.id + "|req", "Help offered", f.label + " — required", q, { gk: "sup:" + f.id })] }); });
+    sg.legend = { order: SUPORDER, cls: SUPCLS, lab: SUPLAB };
+    TR.support.forms.forEach(function (f) { var best = {}; f.rows.forEach(function (r) { if (!PD[r.i]) return; var l = supLevel(r.rq), cur = best[r.i]; if (!cur || SUPORDER.indexOf(l) < SUPORDER.indexOf(cur)) best[r.i] = l; });
+      var it = { kind: "use", label: f.label, feats: [] }; SUPORDER.forEach(function (l) { var s = new Set(); Object.keys(best).forEach(function (i) { if (best[i] === l) s.add(i); }); if (s.size) { var ft = feat("sup|" + f.id + "|" + l, "Help offered", f.label + " — " + SUPLAB[l], s, { gk: "sup:" + f.id }); ft.cls = SUPCLS[l]; it.feats.push(ft); } }); if (it.feats.length) sg.items.push(it); });
     groups.push(sg);
     // misconduct (the page default: AI-named offences and detection, any wording for process, outcomes, intent)
     MGROUPS.forEach(function (g) { var sch = MS.schema[g[2]], sets = {}, lab = {};
       MS.rows.forEach(function (r) { if (r.g !== g[0] || !PD[r.i] || !(r.ai || r.g === "process" || r.g === "outcomes" || r.g === "liability")) return; var k = r.v + "|" + (r.st || ""); (sets[k] = sets[k] || new Set()).add(r.i); lab[k] = r.v.replace(/_/g, " ") + (r.st ? " — " + r.st.replace(/_/g, " ") : ""); });
-      var gr = { sec: "Misconduct", title: g[1], items: [] }; Object.keys(sets).sort(function (a, b) { return sets[b].size - sets[a].size; }).forEach(function (k) { gr.items.push({ kind: "one", feats: [feat("mis|" + g[0] + "|" + k, "Misconduct", g[1] + ": " + lab[k], sets[k], { gk: "mis:" + g[0] + k, short: lab[k], noteOk: g[0] === "offences" || g[0] === "detection" })] }); }); if (gr.items.length) groups.push(gr); });
+      var gr = { sec: "Misconduct", title: g[1], items: [] };
+      if (g[0] === "detection") { gr.legend = { order: DETORDER, cls: DETCLS, lab: DETLAB }; Object.keys(sch).forEach(function (v) { var it = { kind: "use", label: v.replace(/_/g, " "), feats: [] }; DETORDER.forEach(function (st) { var s = sets[v + "|" + st]; if (s && s.size) { var ft = feat("mis|detection|" + v + "|" + st, "Misconduct", g[1] + ": " + v.replace(/_/g, " ") + " — " + st.replace(/_/g, " "), s, { gk: "mis:detection" + v, noteOk: true }); ft.cls = DETCLS[st]; it.feats.push(ft); } }); if (it.feats.length) gr.items.push(it); }); gr.items.sort(function (a, b) { var n = function (x) { var u = new Set(); x.feats.forEach(function (f) { f.s.forEach(function (i) { u.add(i); }); }); return u.size; }; return n(b) - n(a); }); }
+      else Object.keys(sets).sort(function (a, b) { return sets[b].size - sets[a].size; }).forEach(function (k) { gr.items.push({ kind: "one", feats: [feat("mis|" + g[0] + "|" + k, "Misconduct", g[1] + ": " + lab[k], sets[k], { gk: "mis:" + g[0] + k, short: lab[k], noteOk: g[0] === "offences" })] }); });
+      if (gr.items.length) groups.push(gr); });
     TG.base = B; TG.groups = groups;
   }
   function tgState() {
@@ -558,9 +571,9 @@ section { scroll-margin-top: 64px; }
     if (A.n < 6) one.appendChild(el("p", "small", "Only " + A.n + (A.n === 1 ? " institution" : " institutions") + ", so the shading moves a lot with a single institution."));
     var lg = el("p", "small tgleg"); var sw1 = el("i", "sw lt"), sw2 = el("i", "sw dk"); lg.appendChild(sw1); lg.appendChild(document.createTextNode(" says it  ")); lg.appendChild(sw2); lg.appendChild(document.createTextNode(" says it and also “" + A.o.l + "”")); one.appendChild(lg);
     TG.groups.forEach(function (g) { var items = g.items.map(function (it) { return { it: it, f: it.feats.map(function (f) { return cur[f.k]; }).filter(function (c) { return c.n > 0; }) }; }).filter(function (x) { return x.f.length; }); if (!items.length) return;
-      one.appendChild(el("h4", null, g.title)); var box = el("div", items.length > 14 ? "tgscroll" : "");
+      one.appendChild(el("h4", null, g.title)); if (g.legend) one.appendChild(mkLegend(g.legend.order, g.legend.cls, g.legend.lab)); var box = el("div", items.length > 14 ? "tgscroll" : "");
       items.forEach(function (x) { var row = el("div", "tgr"), label = x.it.kind === "use" ? x.it.label : x.f[0].o.short; row.appendChild(el("span", "tgl", label)); var tr = el("span", "tgb"), un = new Set(), bu = new Set(), parts = [], tips = [];
-        x.f.forEach(function (c) { var both = inter(c, A), seg = el("span", "tgs"), cls = c.o.stance ? " sg-" + c.o.stance : ""; seg.style.width = (100 * c.n / N) + "%"; var lt = el("span", "lt" + cls), dk = el("span", "dk" + cls); dk.style.width = (100 * both / c.n) + "%"; seg.appendChild(lt); seg.appendChild(dk); tips.push((x.it.kind === "use" ? (c.o.stance || "") + ": " : "") + both + " of " + c.n + (x.it.kind === "use" ? " institutions" : " institutions that say it") + " also say “" + A.o.l + "”"); tr.appendChild(seg); c.m.forEach(function (i) { un.add(i); if (A.set.has(i)) bu.add(i); }); parts.push(both + "/" + c.n); });
+        x.f.forEach(function (c) { var both = inter(c, A), seg = el("span", "tgs"), cls = c.o.cls ? " " + c.o.cls : (c.o.stance ? " sg-" + c.o.stance : ""); seg.style.width = (100 * c.n / N) + "%"; var lt = el("span", "lt" + cls), dk = el("span", "dk" + cls); dk.style.width = (100 * both / c.n) + "%"; seg.appendChild(lt); seg.appendChild(dk); tips.push((x.it.kind === "use" ? (c.o.stance || "") + ": " : "") + both + " of " + c.n + (x.it.kind === "use" ? " institutions" : " institutions that say it") + " also say “" + A.o.l + "”"); tr.appendChild(seg); c.m.forEach(function (i) { un.add(i); if (A.set.has(i)) bu.add(i); }); parts.push(both + "/" + c.n); });
         row.appendChild(tr); row.title = label + "\n" + tips.join("\n"); row.appendChild(el("span", "tgn", x.it.kind === "use" ? bu.size + " of " + un.size + " institutions" : parts[0].replace("/", " of "))); box.appendChild(row); });
       one.appendChild(box); });
   }
