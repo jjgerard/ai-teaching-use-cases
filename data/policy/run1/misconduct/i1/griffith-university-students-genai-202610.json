@@ -1,0 +1,25 @@
+{
+ "doc_id": "griffith-university-students-genai-202610",
+ "coder": "mis-i1",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Failing to declare AI use appropriately could result in an academic integrity investigation",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": true,
+   "quote": "Failing to declare AI use appropriately could result in an academic integrity investigation",
+   "anchor": null
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}

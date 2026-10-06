@@ -1,0 +1,12 @@
+{"doc_id":"grambling-state-university-students-genai-202610","coder":"mis-i6","scope":"ai_specific",
+"offences":[
+{"value":"undeclared_use","ai_named":true,"quote":"AI Misuse: Use of AI that violates applicable laws, university policy, or ethical standards, including fabrication, falsification, plagiarism, or undisclosed authorship.","anchor":"II. Definitions 3"},
+{"value":"fabrication_or_falsification","ai_named":true,"quote":"Use of AI to fabricate content, generate false information, or misrepresent identity is strictly prohibited.","anchor":"III.B.5"},
+{"value":"passing_off","ai_named":true,"quote":"AI must not be used to circumvent learning objectives, misrepresent authorship, or engage in dishonest conduct.","anchor":"III.C"},
+{"value":"impersonation_or_coercion","ai_named":true,"quote":"AI must not be used to deceive, impersonate, or manipulate in ways that could compromise academic, research, or institutional integrity.","anchor":"III.B.5"},
+{"value":"data_or_upload_breach","ai_named":true,"quote":"Sensitive information must not be entered into any AI system unless protected under contract or institutional approval.","anchor":"III.C"}],
+"liability":[],
+"detection":[{"method":"ai_detection_software","stance":"unreliable","ai_named":true,"quote":"Reliance on AI detection tools (e.g., for plagiarism) should be cautious and not used as sole evidence for disciplinary action.","anchor":"III.F.c"}],
+"process":[],
+"outcomes":[{"value":"penalty_stated_without_detail","ai_named":false,"quote":"Disciplinary action under the student or employee code of conduct","anchor":"III.J.a"}],
+"definitions":[{"term":"AI Misuse","ai_named":true,"quote":"AI Misuse: Use of AI that violates applicable laws, university policy, or ethical standards, including fabrication, falsification, plagiarism, or undisclosed authorship."}]}

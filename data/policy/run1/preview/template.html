@@ -212,7 +212,7 @@ section { scroll-margin-top: 64px; }
   <div class="head">
     <div class="head-text">
       <h1>AI guidance analysis</h1>
-      <p class="lede">What UK and Irish universities tell students about generative AI: what it can be used for, what has to be acknowledged, what help is offered, and how that differs. Every statement counted here traces to a quote in the institution’s own document.</p>
+      <p class="lede">What universities in the UK, Ireland and four other countries tell students about generative AI: what it can be used for, what has to be acknowledged, what help is offered, and how that differs. Every statement counted here traces to a quote in the institution’s own document.</p>
     </div>
     <p class="note"><b>Draft.</b> Counts are minimums: a statement counts only where a quote shows it, from one or two documents per institution, read by one model. They are not prevalence estimates. Coverage and method are further down.</p>
   </div>
@@ -312,7 +312,7 @@ section { scroll-margin-top: 64px; }
   var $ = function (id) { return document.getElementById(id); };
   function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
   var region = "All", kind = "all", selVar = "institutional_posture", selCell = null;
-  var REGIONS = ["England", "Scotland", "Wales", "Northern Ireland", "Ireland"];
+  var REGIONS = ["England", "Scotland", "Wales", "Northern Ireland", "Ireland", "Australia", "New Zealand", "Canada", "United States"].filter(function (r, i) { return i < 5 || DATA.pdocs.some(function (d) { return d.region === r; }); });
   var KEY = ["instrument_force", "issued_by_type", "institutional_posture", "default_when_silent", "precedence", "permission_set_by", "disclosure_obligation", "referencing_requirement", "use_full_text_generation", "detector_stance", "sanctions_stated", "misconduct_framed_as", "ai_training"];
 
 

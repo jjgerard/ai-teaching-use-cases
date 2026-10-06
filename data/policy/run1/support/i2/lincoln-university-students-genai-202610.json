@@ -1,0 +1,36 @@
+{
+ "doc_id": "lincoln-university-students-genai-202610",
+ "coder": "sup-i2",
+ "found": [
+  {
+   "form": "workshop_or_live_session",
+   "requirement": "optional",
+   "audience": "students",
+   "quote": "Resources, workshops and appointments",
+   "anchor": "WANT TO LEARN MORE OR NEED HELP?"
+  },
+  {
+   "form": "guide_toolkit_or_hub",
+   "requirement": "optional",
+   "audience": "students",
+   "quote": "Resources, workshops and appointments",
+   "anchor": "WANT TO LEARN MORE OR NEED HELP?"
+  },
+  {
+   "form": "named_academic_support",
+   "requirement": "optional",
+   "audience": "students",
+   "name": "Course Examiners and Lecturers",
+   "quote": "Guidance from your Course Examiners and Lecturers",
+   "anchor": "WANT TO LEARN MORE OR NEED HELP?"
+  },
+  {
+   "form": "referencing_help",
+   "requirement": "optional",
+   "audience": "students",
+   "name": "Te Kete Wānaka Referencing page",
+   "quote": "Acknowledge any use, or not, of GenAI in your assessment submission (follow the guidelines on Te Kete Wānaka's Referencing page).",
+   "anchor": "GENAI USAGE STATEMENTS YOU WILL SEE IN YOUR COURSE ASSESSMENT"
+  }
+ ]
+}

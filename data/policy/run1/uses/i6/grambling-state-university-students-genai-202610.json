@@ -1,0 +1,125 @@
+{
+ "doc_id": "grambling-state-university-students-genai-202610",
+ "coder": "uses-i6",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "ii. Brainstorming or research support.",
+   "anchor": "1. Permitted Use"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "i. Drafting communications (voice or audio), outlines, or marketing content (with human revision).",
+   "anchor": "1. Permitted Use"
+  },
+  {
+   "use": "generate_code",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "no_personal_data"
+   ],
+   "quote": "iii. Coding assistance for non-confidential projects.",
+   "anchor": "1. Permitted Use"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "iv. Accessibility enhancements such as transcription and summarization (with disclosure).",
+   "anchor": "1. Permitted Use"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "iv. Accessibility enhancements such as transcription and summarization (with disclosure).",
+   "anchor": "1. Permitted Use"
+  },
+  {
+   "use": "analyse_data",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "vii. Data analysis for operational or academic insights.",
+   "anchor": "1. Permitted Use"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "iii. Improve communications (e.g., first-draft content, language translation)",
+   "anchor": "2. AI may be used to:"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use of AI to fabricate content, generate false information, or misrepresent identity is strictly prohibited.",
+   "anchor": "B. ETHICAL ARTIFICIAL INTELLIGENCE PRINCIPLES"
+  },
+  {
+   "use": "harmful_or_deceptive_content",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "b. Creating or distributing AI-generated media (images, video, audio) that misrepresents individuals or Grambling State University affiliation",
+   "anchor": "3. Prohibited Use"
+  },
+  {
+   "use": "disguise_ai_use",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AIgenerated content should not be presented as solely human-authored without appropriate attribution.",
+   "anchor": "B. ETHICAL ARTIFICIAL INTELLIGENCE PRINCIPLES"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "This policy is applicable to all faculty, students, staff, vendors, contractors and"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Faculty integrating AI into courses must include approved syllabus statements"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "All uses of AI regardless of format, including text, images, voice, audio or video be reviewed and clearly disclosed in academic, research, and communications outputs."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}
