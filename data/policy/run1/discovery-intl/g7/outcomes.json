@@ -1,0 +1,18 @@
+[
+{"name":"Wilfrid Laurier University","outcome":"found","doc":{"url":"https://students.wlu.ca/academics/support-and-advising/academic-integrity/gen-ai-student-resource-hub.html","title":"Gen AI Student Resource Hub","kind":"guide","format":"html","language":"en","date_as_shown":"","retrieved_here":true,"http":200,"mentions_ai":true},
+ "rejected":[{"url":"https://students.wlu.ca/academics/academic-integrity/generative-ai-guidelines.html","why":"404 when fetched"}],
+ "other_pages":[{"url":"https://researchcentres.wlu.ca/teaching-and-learning/gen-ai/academic-integrity.html","title":"Academic Integrity","audience":"staff"},{"url":"https://researchcentres.wlu.ca/teaching-and-learning/gen-ai/understanding-generative-ai-tools.html","title":"Understanding Generative AI Tools","audience":"staff"}],
+ "queries":["Wilfrid Laurier University generative AI students guidance (domain wlu.ca)"]},
+{"name":"St. Francis Xavier University","outcome":"found_unverified","doc":{"url":"https://www.stfx.ca/student-services/academic-services/academic-success-centre/academic-integrity/technology-ai","title":"Technology in Academic Work","kind":"guide","format":"html","language":"en","date_as_shown":"","retrieved_here":false,"http":403,"mentions_ai":true},
+ "rejected":[],
+ "other_pages":[{"url":"https://www.stfx.ca/mycampus/teaching-learning-centre/resources-support/practices-pedagogies/teaching-learning-ai","title":"Teaching and Learning with AI","audience":"staff"}],
+ "queries":["St. Francis Xavier University generative AI students guidance (domain stfx.ca)"]},
+{"name":"University nuhelot'ine thaiyots'i nistameyimâkanak Blue Quills","outcome":"not_found","doc":null,
+ "rejected":[{"url":"https://www.bluequills.ca/StudentServices/Regulations","why":"Academic regulations page retrieved; never mentions AI"}],
+ "other_pages":[],
+ "queries":["Blue Quills university generative AI artificial intelligence students","Blue Quills academic integrity plagiarism policy students","Blue Quills ChatGPT AI tools student handbook policy","UnBQ student guide academic honesty"]},
+{"name":"University of Niagara Falls Canada","outcome":"found","doc":{"url":"https://wpvip.guscancolleges.ca/unfc/wp-content/uploads/sites/7/2025/03/2004-Artificial-Intelligence-A.I.-Policy.pdf","title":"2004 - Artificial Intelligence (A.I.) Policy","kind":"institutional_policy","format":"pdf","language":"en","date_as_shown":"April 30, 2025","retrieved_here":true,"http":200,"mentions_ai":true},
+ "rejected":[],
+ "other_pages":[{"url":"https://unfc.ca/policies","title":"Policies","audience":"students"}],
+ "queries":["University of Niagara Falls Canada generative AI students academic integrity (domain unfc.ca)"]}
+]

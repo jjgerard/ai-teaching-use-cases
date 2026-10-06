@@ -1,0 +1,106 @@
+[
+ {
+  "name": "Cornell University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://it.cornell.edu/ai-strategy/ai-guidelines",
+   "title": "Guidelines for Artificial Intelligence",
+   "kind": "institutional_policy",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "not shown (references 2023-Jan 2024 reports)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity",
+    "why": "primarily instructors"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://teaching.cornell.edu/generative-artificial-intelligence/ai-academic-integrity",
+    "title": "AI & Academic Integrity",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "Cornell generative AI students guidance [cornell.edu]"
+  ]
+ },
+ {
+  "name": "Hawaii Pacific University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://studenthandbook.hpu.edu/section3/academicintegritypolicy",
+   "title": "Academic Integrity Policy",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [],
+  "queries": [
+   "Hawaii Pacific University generative AI students [hpu.edu]",
+   "HPU academic integrity policy artificial intelligence ChatGPT students [hpu.edu]"
+  ]
+ },
+ {
+  "name": "University of Colorado System",
+  "outcome": "not_a_university",
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.cu.edu/gen-ai",
+    "title": "Gen AI",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.cu.edu/ope/aps/6012",
+    "title": "APS 6012 - Responsible Use of Artificial Intelligence (AI)",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "University of Colorado System generative AI students policy [cu.edu]"
+  ]
+ },
+ {
+  "name": "East Tennessee State University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.etsu.edu/policies/board_of_trustees/use-of-artificial-intelligence-tech-for-instructional-assignment-purposes.php",
+   "title": "Use of Artificial Intelligence Technologies for Instructional and Assignment Purposes",
+   "kind": "institutional_policy",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Effective February 21, 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.etsu.edu/teaching/teaching_toolkits_1/chatgpt_toolkit.php",
+    "why": "faculty-oriented toolkit"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.etsu.edu/its/security/aiapps.php",
+    "title": "Approved AI Apps",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "East Tennessee State University generative AI students [etsu.edu]",
+   "ETSU students academic integrity artificial intelligence policy [etsu.edu]"
+  ]
+ }
+]
