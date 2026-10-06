@@ -1,0 +1,6221 @@
+[
+ {
+  "doc_id": "adelaide-university-students-genai-202610",
+  "coder": "td-t1",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "charles-darwin-university-students-genai-202610",
+  "coder": "td-t1",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "CDU students have free access to Microsoft Copilot, which is an AI-powered assistant.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "flinders-university-students-genai-202610",
+  "coder": "td-t1",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot Chat",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Flinders University students aged 18 and over have access to Microsoft Copilot Chat, which offers the security of enterprise data protection.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "griffith-university-students-genai-202610",
+  "coder": "td-t1",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Microsoft Copilot is Griffith’s preferred AI tool and is available for free to all staff and students.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "both",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Microsoft Copilot is Griffith’s preferred AI tool and is available for free to all staff and students.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Copilot uses the same type of large language model technology as platforms such as ChatGPT, but with an added layer of security. When you sign in with your Griffith account, your prompts are not used to train the model, making it a safer option for university work.",
+    "anchor": null
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "macquarie-university-students-genai-202610",
+  "coder": "td-t1",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "arts-plymouth-students-genai-202610",
+  "coder": "td-t10",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "coventry-students-genai-202610",
+  "coder": "td-t10",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Also, be careful when using AI that you abide by copyright restrictions.",
+    "anchor": "Disclaimer"
+   }
+  ]
+ },
+ {
+  "doc_id": "herts-students-genai-202610",
+  "coder": "td-t10",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Herts provides access to AI tools that can support your studies.",
+    "anchor": "Which AI tools can I use at Herts?"
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "we recommend using University-supported AI tools rather than external alternatives.",
+    "anchor": "Use your Herts account"
+   }
+  ],
+  "data": [],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "When using these tools for your studies, sign in with your University account.",
+    "anchor": "Use your Herts account"
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "huddersfield-students-genai-202610",
+  "coder": "td-t10",
+  "tools": [
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": "Grammarly",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Grammarly and similar software products are introducing additional tools which can be used to generate content in a similar way to ChatGPT. Your PLSP does not give you permission to use these features to generate work which you submit, unless permitted by the assessment brief.",
+    "anchor": "Guidance for users of assistive technology"
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "qmu-students-genai-202610",
+  "coder": "td-t10",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "de-montfort-students-genai-202610",
+  "coder": "td-t11",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "hull-students-genai-202610",
+  "coder": "td-t11",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Information you provide to an AI tool might be stored and used by others, so avoid sharing personal or sensitive details with AI.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "lincoln-students-genai-202610",
+  "coder": "td-t11",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "maynooth-ug-ptm-genai-guidelines-202610",
+  "coder": "td-t11",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Microsoft’s Copilot is accessible to all MU students, and we currently have a data agreement in place with Microsoft, which means that our use of Copilot is GDPR-compliant.",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "The same protection does not apply when you use free or paid tools which are not supported by MU.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Never put your personal data or anyone else’s into a GenAI tool.",
+    "anchor": null
+   },
+   {
+    "data_type": "own_work",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Personal Data such as your name, email address, and your work could also be used for training or other purposes without your permission.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "To use Copilot, students should log in with their MU login and password in the Edge browser.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "GDPR is about your personal data rights. Never put your personal data or anyone else’s into a GenAI tool.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "sussex-students-genai-202610",
+  "coder": "td-t11",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Microsoft CoPilot is available for University of Sussex students.",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": "Grammarly",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "However, you must not use Grammarly’s generative AI features (including: drafting new text, rewriting paragraphs, reorganising your argument, paraphrasing large sections, or generating references) unless the assessment instructions explicitly permit such use and you follow any required acknowledgement guidelines.",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "discouraged",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The full functionality of AI tools are usually only available via subscription, which we would discourage anyone from doing on an individual basis.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "You should never share personal or sensitive information with AI tools.",
+    "anchor": null
+   },
+   {
+    "data_type": "credentials_or_accounts",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Even when using Copilot, never share sensitive information such as names, addresses, health data, passwords or unpublished research.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Even when using Copilot, never share sensitive information such as names, addresses, health data, passwords or unpublished research.",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "If you’re working with University of Sussex data, always use Microsoft Copilot via your Sussex account.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Before using any AI tool, make sure you read its terms of use.",
+    "anchor": null
+   },
+   {
+    "value": "opt_out_of_training",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "If you use any other AI tool, make sure to opt out of data collection whenever possible.",
+    "anchor": null
+   },
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "If you’re working with University of Sussex data, always use Microsoft Copilot via your Sussex account.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "terms_of_service",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Before using any AI tool, make sure you read its terms of use.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "aberystwyth-students-genai-202610",
+  "coder": "td-t12",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The university’s recommended Generative AI tool is Microsoft Copilot. This is built into our Microsoft Licence.",
+    "anchor": null
+   },
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "recommended",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "We recommend that the following tools are used for learning and teaching activities:",
+    "anchor": "Using AI for your Teaching"
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "both",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "There are many third party Generative AI tools available. As with all third party software, you should ensure that you are using it safely, responsibly, and ethically.",
+    "anchor": "Statements and Safety"
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Remember to avoid uploading personal information (about identifiable individuals) or other confidential information to Copilot.",
+    "anchor": "Using AI for your Administration"
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Remember to avoid uploading personal information (about identifiable individuals) or other confidential information to Copilot.",
+    "anchor": "Using AI for your Administration"
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "prohibited",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "If you are using third party software, ensure that you are not entering any personal information relating to yourself or others, or content where the copyright is owned by other people or organisations.",
+    "anchor": "Statements and Safety"
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "cranfield-students-genai-202610",
+  "coder": "td-t12",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "exeter-students-assessment-202610",
+  "coder": "td-t12",
+  "tools": [
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "warned",
+    "audience": "students",
+    "name": "Grammarly",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Please be aware that incorporating Grammarly's suggested edits into your academic work may breach the University's Academic Honesty policy.",
+    "anchor": "Assistive Writing Technology"
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "You must never upload sensitive or identifying material to an AI tool.",
+    "anchor": "Key points to be aware of"
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "law-students-genai-202610",
+  "coder": "td-t12",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "liverpool-hope-students-genai-202610",
+  "coder": "td-t12",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Research Assistant on OneSearch",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Research Assistant on OneSearch allows you to search the library’s resources using this AI tool which allows you to search using natural language as a starting point to your research.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "birmingham-students-genai-202610",
+  "coder": "td-t13",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "own_work",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "anonymised"
+    ],
+    "ai_named": true,
+    "quote": "You should think carefully about the consequences of pasting your written work into a Generative AI tool. It’s advisable to remove any identifiable information from work you submit into the tool.",
+    "anchor": "Privacy and data considerations"
+   },
+   {
+    "data_type": "own_work",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "For most Generative AI tools, by uploading your work you grant the providers the right to use it as they see fit, and this may include sharing it with other people.",
+    "anchor": "Copyright"
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "ethics_approval"
+    ],
+    "ai_named": false,
+    "quote": "If you include other people’s personal data into the tools an ethics review might be required.",
+    "anchor": "Privacy and data considerations"
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "You should not upload content to Generative AI tools, or social media platforms, without the permission of the copyright holder.",
+    "anchor": "Copyright"
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "You should check the terms and conditions of any Generative AI tool that you use to understand the rights that you grant to the providers to re-use your work.",
+    "anchor": "Copyright"
+   },
+   {
+    "value": "anonymise_before_entry",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "It’s advisable to remove any identifiable information from work you submit into the tool.",
+    "anchor": "Privacy and data considerations"
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "The UK Data Protection Act (DPA) 2018 sets out rules about how personal data can be collected, used, and stored. If you are using Generative AI tools to collect or process personal data, you need to comply with the DPA.",
+    "anchor": "Privacy and data considerations"
+   },
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "When using Generative AI tools, it is important to be aware of copyright laws as they will apply to the content uploaded to the Generative AI interface, the training data used to build the models, and potentially the outputs generated.",
+    "anchor": "Copyright"
+   },
+   {
+    "value": "terms_of_service",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "You should check the terms and conditions of any Generative AI tool that you use to understand the rights that you grant to the providers to re-use your work.",
+    "anchor": "Copyright"
+   }
+  ]
+ },
+ {
+  "doc_id": "bishop-grosseteste-students-genai-202610",
+  "coder": "td-t13",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "manchester-students-genai-202610",
+  "coder": "td-t13",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft 365 Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "In addition to their University-provided Microsoft 365 Copilot service, students may use other AI tools to support their learning where this use is consistent with:",
+    "anchor": "2.2.1"
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "staff",
+    "name": "Microsoft 365 Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Only the University-provided Microsoft 365 Copilot service may be used for student-identifiable or confidential data.",
+    "anchor": "2.3.1"
+   }
+  ],
+  "data": [
+   {
+    "data_type": "university_materials",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Students must not upload any University of Manchester owned materials, including lecture – recordings, slides, question papers, handouts or any other copyrighted resources to external AI tools.",
+    "anchor": "2.2.1"
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "Uploading University of Manchester – owned materials to the University of Manchester Microsoft 365 Copilot will not contravene the Intellectual Property Policy providing students use their University-provided access.",
+    "anchor": "2.2.2"
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "Only the University-provided Microsoft 365 Copilot service may be used for student-identifiable or confidential data.",
+    "anchor": "2.3.1"
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "Only the University-provided Microsoft 365 Copilot service may be used for student-identifiable or confidential data.",
+    "anchor": "2.3.1"
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Uploading University of Manchester – owned materials to the University of Manchester Microsoft 365 Copilot will not contravene the Intellectual Property Policy providing students use their University-provided access.",
+    "anchor": "2.2.2"
+   },
+   {
+    "value": "use_institutional_account",
+    "audience": "staff",
+    "ai_named": true,
+    "quote": "Only the University-provided Microsoft 365 Copilot service may be used for student-identifiable or confidential data.",
+    "anchor": "2.3.1"
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "mary-immaculate-students-genai-202610",
+  "coder": "td-t13",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "conditional",
+    "audience": "both",
+    "name": null,
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "Within the context of the College, staff and students should make use of institutionally approved and secure AI systems. Use of any other AI system requires prior approval from ICT Services",
+    "anchor": "Data Compliance"
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "discouraged",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Staff should not use unapproved AI systems on their work devices.",
+    "anchor": "Data Compliance"
+   },
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "not_endorsed",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Detectors cannot be used as reliable evidence in a circumstance where the unauthorised use of GenAI is suspected. The College does not support the use of any such tools.",
+    "anchor": "Considerations for Grading in the context of GenAI"
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Use of AI must be compliant with GDPR principles. This means staff and students cannot input MIC data or the personal data of staff or fellow students into AI systems without written prior consent.",
+    "anchor": "Data Compliance"
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Use of AI must be compliant with GDPR principles. This means staff and students cannot input MIC data or the personal data of staff or fellow students into AI systems without written prior consent.",
+    "anchor": "Data Compliance"
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Public AI tools (e.g., ChatGPT, Gemini, Claude) must not be used with MIC data unless authorisation has been granted and an approved DPIA is in place.",
+    "anchor": "Data Compliance"
+   },
+   {
+    "data_type": "student_work",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "they cannot input MIC data (e.g. lecture recordings, assessments, PowerPoint slides, other academic resources provided by MIC) or the personal data of staff or fellow students, including the recording of staff or student voices or images, staff lecture slides and materials, publications or fellow students' assessments into AI systems without written prior consent.",
+    "anchor": "For Students"
+   },
+   {
+    "data_type": "student_work",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": false,
+    "quote": "Students' assignments and data should not be submitted to third party applications without consulting with the College and without obtaining the student’s consent.",
+    "anchor": "Considerations for Grading in the context of GenAI"
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Outside of College use, if staff and students decide to make use of AI systems for personal use, they should be aware and cautious about what personal data they give to AI systems",
+    "anchor": "Data Compliance"
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "It is important that you read the terms and conditions of the applications you are using to ensure that you aren't sharing data that you'd rather not share.",
+    "anchor": "Data Control"
+   },
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "staff",
+    "ai_named": true,
+    "quote": "Those wishing to use AI technology within their work at MIC need to be compliant with the ICT Security Policy and the Information Security Policy.",
+    "anchor": "Data Compliance"
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Use of AI must be compliant with GDPR principles.",
+    "anchor": "Data Compliance"
+   },
+   {
+    "value": "eu_ai_act",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Staff and students should not engage in the following prohibited AI practices under Article 5 of the EU AI Act.",
+    "anchor": "Data Compliance"
+   },
+   {
+    "value": "terms_of_service",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "A Generative AI's use of data will depend on the terms and conditions set out by the company that owns the application.",
+    "anchor": "How does Generative AI manage data?"
+   }
+  ]
+ },
+ {
+  "doc_id": "royal-agricultural-students-genai-202610",
+  "coder": "td-t13",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "birmingham-city-students-genai-202610",
+  "coder": "td-t14",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The default GenAI tool at BCU is Microsoft Copilot, for which you have free access via your BCU email address",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "credentials_or_accounts",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not use your BCU email address to sign up for third-party AI tools.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "cambridge-staff-assessment-202610",
+  "coder": "td-t14",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "discouraged",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Not relying on AI detection software as it is not proven to be accurate or reliable and provides no evidence to support investigations into the use of GenAI.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "staff",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Examiners across all programmes of study (including Undergraduate, Postgraduate Taught, and Postgraduate Research) are not permitted to upload, copy, or share student work with Generative AI (GenAI) tools and Large Language Models (LLMs).",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "cumbria-students-genai-202610",
+  "coder": "td-t14",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "recommended",
+    "audience": "unspecified",
+    "name": "Microsoft CoPilot; Adobe Firefly",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The University currently endorses the use of Microsoft CoPilot and Adobe Firefly.",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": false,
+    "quote": "Any use of translation tools in UK universities is typically determined by tutors, course leaders, or supervisors and will depend on the nature of the programme of study.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "unspecified",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "In line with data protection, no sensitive or confidential information should be shared with any GenAI tools, including CoPilot and Firefly.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "unspecified",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "In line with data protection, no sensitive or confidential information should be shared with any GenAI tools, including CoPilot and Firefly.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "In line with data protection, no sensitive or confidential information should be shared with any GenAI tools, including CoPilot and Firefly.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "regents-london-students-genai-202610",
+  "coder": "td-t14",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "ucc-students-genai-202610",
+  "coder": "td-t14",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "discouraged",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Educators should not run student work through any AI detector tools that are external to their institution as most of these tools train on content that is submitted to them",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "staff",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Educators should not run student work through any AI detector tools that are external to their institution as most of these tools train on content that is submitted to them",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "eu_ai_act",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Article 50 of the EU AI Act came into force in August 2026.",
+    "anchor": null
+   },
+   {
+    "value": "copyright",
+    "audience": "staff",
+    "ai_named": true,
+    "quote": "there are copyright and privacy concerns related to use of AI detectors that are not institutionally approved",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "d-n-laoghaire-institute-art-design-and-technology-students-genai-202610",
+  "coder": "td-t15",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": "Turnitin",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Using Turnitin for text matching prior to submitting an assignment, where appropriate.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "unspecified",
+    "ai_named": false,
+    "quote": "Data Privacy: GDPR and best practice standards regarding data must be considered in usage.",
+    "anchor": null
+   },
+   {
+    "value": "terms_of_service",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "Licensing: Be aware of the licenses associated with the output of Generative AI tools (e.g. do they have the right to share, used and build upon the output)",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "glasgow-student-genai-guidance-202610",
+  "coder": "td-t15",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot Chat",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "If you do want to use generative AI, the University's approved service is Microsoft Copilot Chat, available through your University Microsoft 365 account.",
+    "anchor": null
+   },
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": "Microsoft Copilot Chat",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "If you do choose to use GenAI to help you in your studies, then it is important to be aware that Copilot is the only tool approved for this by the University.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission",
+     "approved_tool_only"
+    ],
+    "ai_named": false,
+    "quote": "It is the only tool you should use for uploading lecture materials, assessment briefs, slides, etc, and you must get permission from the staff member(s) who created them before you upload them.",
+    "anchor": null
+   },
+   {
+    "data_type": "assessment_material",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission",
+     "approved_tool_only"
+    ],
+    "ai_named": false,
+    "quote": "It is the only tool you should use for uploading lecture materials, assessment briefs, slides, etc, and you must get permission from the staff member(s) who created them before you upload them.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Books, articles and other copyrighted materials should not be uploaded to any tool.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Using the University-provided service helps protect your data and provides a secure environment for AI-assisted learning.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Copyright is immediately granted to any of us whenever we write something down, whether we mark the work as copyrighted or not, so your lecturers are automatically the copyright holders of their slides.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "institute-cancer-research-students-genai-202610",
+  "coder": "td-t15",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "kent-students-genai-202610",
+  "coder": "td-t15",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "lancashire-students-genai-202610",
+  "coder": "td-t15",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "recommended",
+    "audience": "students",
+    "name": "Turnitin",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Make use of Turnitin as an education and detection tool.",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": false,
+    "quote": "Unauthorised use of any other technological aid, such as translation software, paraphrasing tools, essay bots and generated of graphics or artwork, unless otherwise stated in the assessment brief.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "bath-students-genai-202610",
+  "coder": "td-t16",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "bradford-students-genai-202610",
+  "coder": "td-t16",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "londonmet-students-genai-202610",
+  "coder": "td-t16",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "norwich-arts-students-genai-202610",
+  "coder": "td-t16",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "wales-trinity-saint-david-students-genai-202610",
+  "coder": "td-t16",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "UWTSD Library's AI Assistant",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Suggested AI Tool: UWTSD Library’s AI Assistant",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": "Grammarly",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "You can use integrated tools like Microsoft Editor, or a specialised tool, like Grammarly (not including the Grammarly Generative AI Assistant), to check for grammar, spelling and readability.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "meets_security_policy",
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+    "anchor": null
+   },
+   {
+    "value": "opt_out_of_training",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "terms_of_service",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+    "anchor": null
+   },
+   {
+    "value": "data_protection",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "chester-students-genai-202610",
+  "coder": "td-t17",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "manchester-metropolitan-students-genai-202610",
+  "coder": "td-t17",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "You must receive consent before entering work created by others into the AI tool as a prompt.",
+    "anchor": "What are the pitfalls of using generative AI?"
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "robert-gordon-students-genai-202610",
+  "coder": "td-t17",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "ul-students-genai-202610",
+  "coder": "td-t17",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "if Gen AI is to be used by staff or students, the preferred platform is currently Microsoft Copilot, accessed through UL staff or student accounts. UL maintains a contractual agreement with Microsoft",
+    "anchor": "What Gen AI tools can be used by students?"
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "both",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "if Gen AI is to be used by staff or students, the preferred platform is currently Microsoft Copilot, accessed through UL staff or student accounts.",
+    "anchor": "What Gen AI tools can be used by students?"
+   }
+  ],
+  "data": [],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "both",
+    "ai_named": false,
+    "quote": "Users must log in using their UL account if they are not already signed in.",
+    "anchor": "What Gen AI tools can be used by students?"
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "wrexham-students-genai-202610",
+  "coder": "td-t17",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "anglia-ruskin-students-genai-202610",
+  "coder": "td-t18",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "greater-manchester-students-genai-202610",
+  "coder": "td-t18",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "imperial-students-genai-202610",
+  "coder": "td-t18",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "dAIsy",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "You can also check out dAIsy – Imperial's new AI platform, designed to give you safe, easy access to multiple generative AI models (such as GPT, Claude, Deepseek, and others) through a single interface.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "sunderland-students-genai-202610",
+  "coder": "td-t18",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "worcester-students-genai-202610",
+  "coder": "td-t18",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "students",
+    "name": "Microsoft Co-pilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "We are aware of the challenges for students in relation to the digital divide and therefore recommend the use of Microsoft Co-pilot in relation to academic work.",
+    "anchor": "1.6"
+   },
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "prohibited",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Staff should note that tools designed to detect the use of GenAI are known to be problematic and therefore their use is not currently permitted by the University.",
+    "anchor": "4.5"
+   }
+  ],
+  "data": [],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "staff",
+    "ai_named": true,
+    "quote": "familiarity with the specific privacy policies or user agreements relating to their use. Students should be explicitly alerted to these policies whenever GenAI is to be used.",
+    "anchor": "3.7"
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "cardiff-metropolitan-students-genai-202610",
+  "coder": "td-t19",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Signposts students to AI tools provided by Cardiff Met, alongside AI training, employability guidance and digital skills development.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "goldsmiths-london-students-genai-202610",
+  "coder": "td-t19",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "not_endorsed",
+    "audience": "unspecified",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "This LibGuide is not an endorsement of any generative AI tool or feature",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "queens-belfast-students-genai-202610",
+  "coder": "td-t19",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "south-wales-students-genai-202610",
+  "coder": "td-t19",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "tus-students-genai-202610",
+  "coder": "td-t19",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "lincoln-university-students-genai-202610",
+  "coder": "td-t2",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Input the work of other students (e.g. group members), assessment briefs, field trip information (written or oral), guest lecture information (written or oral), or course material (written or oral) into any public/open GenAI or AI tools",
+    "anchor": null
+   },
+   {
+    "data_type": "assessment_material",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Input the work of other students (e.g. group members), assessment briefs, field trip information (written or oral), guest lecture information (written or oral), or course material (written or oral) into any public/open GenAI or AI tools",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Input the work of other students (e.g. group members), assessment briefs, field trip information (written or oral), guest lecture information (written or oral), or course material (written or oral) into any public/open GenAI or AI tools",
+    "anchor": null
+   },
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "staff",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "They will not input your work, assessment submission, or data into any public/open Gen AI or AI tools",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "massey-university-students-genai-202610",
+  "coder": "td-t2",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Enter any information that is personal, copyrighted, commercially sensitive, research sensitive or provided under non-disclosure agreements into GenAI tools.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Enter any information that is personal, copyrighted, commercially sensitive, research sensitive or provided under non-disclosure agreements into GenAI tools.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Enter any information that is personal, copyrighted, commercially sensitive, research sensitive or provided under non-disclosure agreements into GenAI tools.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Enter any information that is personal, copyrighted, commercially sensitive, research sensitive or provided under non-disclosure agreements into GenAI tools.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "university-of-auckland-students-genai-202610",
+  "coder": "td-t2",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "university-of-canterbury-students-genai-202610",
+  "coder": "td-t2",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Visit the Gen-AI tools at UC page to confirm the tools available and approved by UC.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "UC-approved AI tools have been vetted to ensure that data is secured. You should, however, avoid sharing personal, sensitive, or confidential information, and do not put learning materials such as lecture slides into an unapproved tool without the permission of your Course Coordinator.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "UC-approved AI tools have been vetted to ensure that data is secured. You should, however, avoid sharing personal, sensitive, or confidential information, and do not put learning materials such as lecture slides into an unapproved tool without the permission of your Course Coordinator.",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission",
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "UC-approved AI tools have been vetted to ensure that data is secured. You should, however, avoid sharing personal, sensitive, or confidential information, and do not put learning materials such as lecture slides into an unapproved tool without the permission of your Course Coordinator.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "You must not put data into a Gen-AI tool without the permission of the person who it belongs to – this includes learning materials such as journal articles and lecture slides, which are the intellectual property of the author.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "university-of-southern-queensland-students-genai-202610",
+  "coder": "td-t2",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Studiosity offers free writing feedback, and Turnitin helps you check your work before submitting. These tools are safe, approved, and designed to help you grow.",
+    "anchor": null
+   },
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Studiosity offers free writing feedback, and Turnitin helps you check your work before submitting. These tools are safe, approved, and designed to help you grow.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "aberystwyth-d2-misconduct-procedure-202610",
+  "coder": "td-t20",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "bangor-d2-misconduct-procedure-202610",
+  "coder": "td-t20",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": "Turnitin",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Students are allowed to submit work to Turnitin to check for plagiarism before the work is submitted to be marked.",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "discouraged",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Discourage the use of proofreading, translating using unauthorized methods, and use of other external services that may lead to a heavily edited or rewritten work by those other than the student;",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "cardiff-metropolitan-d2-misconduct-procedure-202610",
+  "coder": "td-t20",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "stir-students-genai-202610",
+  "coder": "td-t20",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "tcd-students-genai-202610",
+  "coder": "td-t20",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "aberdeen-d2-misconduct-procedure-202610",
+  "coder": "td-t21",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "edinburgh-napier-d2-institutional-policy-202610",
+  "coder": "td-t21",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "prohibited",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The University Leadership does not permit the use of Gen AI detection tools on student assessment submissions, as current technologies have proven to be unreliable, prone to bias, and we do not have students’ informed consent for their use with their work.",
+    "anchor": "2.2"
+   }
+  ],
+  "data": [
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "staff",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The University Leadership does not permit the use of Gen AI detection tools on student assessment submissions, as current technologies have proven to be unreliable, prone to bias, and we do not have students’ informed consent for their use with their work.",
+    "anchor": "2.2"
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Anyone processing personal data on behalf of the University is required to comply with the University Data Protection Policy when using any Gen AI tools.",
+    "anchor": "1.4"
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "The University Leadership ensures adherence to UK GDPR legislation, including that Gen AI tools are not used for automated decision-making on individuals.",
+    "anchor": "2.5"
+   }
+  ]
+ },
+ {
+  "doc_id": "heriot-watt-d2-misconduct-procedure-202610",
+  "coder": "td-t21",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": false,
+    "quote": "Only University approved detection tools should be used by students.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "swansea-d2-assessment-policy-202610",
+  "coder": "td-t21",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "prohibited",
+    "audience": "both",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Staff or students are not permitted to upload student assessment, or any identifiable data without explicit written consent, to AI applications for any reason (including attempts to check for AI generated content).",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Staff and students should not enter any identifiable information into any AI application.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Staff or students are not permitted to upload student assessment, or any identifiable data without explicit written consent, to AI applications for any reason (including attempts to check for AI generated content).",
+    "anchor": null
+   },
+   {
+    "data_type": "student_work",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Staff or students are not permitted to upload student assessment, or any identifiable data without explicit written consent, to AI applications for any reason (including attempts to check for AI generated content).",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Use of any AI applications must comply with relevant General Data Protection Regulations (GDPR).",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "wales-trinity-saint-david-d2-misconduct-procedure-202610",
+  "coder": "td-t21",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "d-n-laoghaire-institute-art-design-and-technology-d2-guide-202610",
+  "coder": "td-t22",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "edinburgh-d2-assessment-policy-202610",
+  "coder": "td-t22",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "glasgow-d2-misconduct-procedure-202610",
+  "coder": "td-t22",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "qmu-d2-misconduct-procedure-202610",
+  "coder": "td-t22",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "provided",
+    "audience": "students",
+    "name": "TurnItIn UK",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "The University has a policy to use the TurnItIn UK similarity checker, or other equivalent systems, to help students avoid plagiarism and improve their scholarship skills. This service is available to all matriculated students at QMU.",
+    "anchor": "3.9"
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "robert-gordon-d2-misconduct-procedure-202610",
+  "coder": "td-t22",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "dundalk-institute-technology-d2-misconduct-procedure-202610",
+  "coder": "td-t23",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "highlands-and-islands-d2-misconduct-procedure-202610",
+  "coder": "td-t23",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "st-andrews-d2-misconduct-procedure-202610",
+  "coder": "td-t23",
+  "tools": [
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": false,
+    "quote": "The use of software or services (including, but not limited to, tools and services marketed specifically as ‘language correction tools’ or ‘grammar checkers’) to generate, develop or materially alter academic content is not permitted unless explicitly authorised in the assessment brief.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "stir-d2-misconduct-procedure-202610",
+  "coder": "td-t23",
+  "tools": [
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "use of most external AI tools for rephrasing students’ own material to avoid selfplagiarism entails the risk of student's own work being used to train future generations of AI services",
+    "anchor": null
+   },
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Undergraduate, and postgraduate taught and research students in all years for all modules, are allowed open access to the similarity checking programmes to check the originality of their written work on all textbased assessments prior to final submission.",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "such a use of AI proofreading tools beyond assistive purposes is also prohibited, unless tasks allow their use for the purposes of formation of ideas or concepts.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "use of AI platforms may raise ethical and legal concerns including violations of intellectual property rights, privacy prompts and submitted content, and data protection, especially when personal or unpublished work is input into these systems that, in turn, may become output to another user.",
+    "anchor": null
+   },
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "It is noted that the use of AI tools to paraphrase other students’ work is strictly prohibited as it constitutes a case of collusion.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "opt_out_of_training",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Secure and always protect their work, including from unsolicited capture for AI training purposes by online AI providers.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "use of AI platforms may raise ethical and legal concerns including violations of intellectual property rights, privacy prompts and submitted content, and data protection",
+    "anchor": null
+   },
+   {
+    "value": "data_protection",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "use of AI platforms may raise ethical and legal concerns including violations of intellectual property rights, privacy prompts and submitted content, and data protection",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "strath-d2-misconduct-procedure-202610",
+  "coder": "td-t23",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "prohibited",
+    "audience": "unspecified",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The University does not endorse or permit the use of any Artificial Intelligence detection tools or services to determine if the unauthorised use of Generative AI has taken place",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "unspecified",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "does not permit the submission of students' work to these tools or services.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "mary-immaculate-d2-other-202610",
+  "coder": "td-t24",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "warned",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Detection tools which purport to specifically focus on GenAI detection raise some significant implications for privacy, equity, and data security",
+    "anchor": null
+   },
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Turnitin",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Support students to avail of the Turnitin self-check facility and offer students opportunities to develop their skills in citation and referencing.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "royal-surgeons-in-ireland-d2-misconduct-procedure-202610",
+  "coder": "td-t24",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "tcd-d2-misconduct-procedure-202610",
+  "coder": "td-t24",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "ucc-d2-misconduct-procedure-202610",
+  "coder": "td-t24",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "not_endorsed",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The use of GenAI detection software for the detection or investigation of alleged academic misconduct is not sanctioned by the University.",
+    "anchor": "6.3"
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "ucd-d2-misconduct-procedure-202610",
+  "coder": "td-t24",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "university_materials",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Inappropriately publishing, uploading University teaching or course material to third party a website or file sharing site.",
+    "anchor": "2"
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "roehampton-students-genai-202610",
+  "coder": "td-t25",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "To safeguard your information, avoid sharing any personal or confidential data with AI systems.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "To safeguard your information, avoid sharing any personal or confidential data with AI systems.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "opt_out_of_training",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "You should turn off the tool’s ability to learn on your data, this means your information is not used to train AI.",
+    "anchor": null
+   },
+   {
+    "value": "anonymise_before_entry",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Always anonymise datasets, and limit access to only trusted platforms.",
+    "anchor": null
+   },
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Read through the privacy policy to understand how your data is being used.",
+    "anchor": null
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "royal-surgeons-in-ireland-students-genai-202610",
+  "coder": "td-t25",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "At present, RCSI’s licence with Microsoft offers commercial data protection to faculty students on the free browser-based Copilot platform.",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "both",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Uploading personally identifying, institutional, copyrighted or research-related data onto public GenAI platforms may be considered a breach of RCSI’s data privacy protection policy.",
+    "anchor": null
+   },
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "discouraged",
+    "audience": "unspecified",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "It is not advisable to rely on AI detection tools to detect GenAI accurately or reliably.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission",
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "Personal or proprietary data should only be added to an AI platform, where the privacy of that data is guaranteed, and the explicit permission of the owner has been provided.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission",
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "Personal or proprietary data should only be added to an AI platform, where the privacy of that data is guaranteed, and the explicit permission of the owner has been provided.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "it is important for both students and faculty to obtain permission before submitting content owned by another person to a GenAI platform.",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "warned",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Uploading personally identifying, institutional, copyrighted or research-related data onto public GenAI platforms may be considered a breach of RCSI’s data privacy protection policy.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "warned",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Uploading personally identifying, institutional, copyrighted or research-related data onto public GenAI platforms may be considered a breach of RCSI’s data privacy protection policy.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "It is the responsibility of the user to familiarise themselves with the data privacy policies and Terms of Use of any GenAI platform they intend using.",
+    "anchor": null
+   },
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "AI should be used in ways that respect the privacy and confidentiality of all users and should align with GDPR and RCSI’s Data Protection policy.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "AI should be used in ways that respect the privacy and confidentiality of all users and should align with GDPR and RCSI’s Data Protection policy.",
+    "anchor": null
+   },
+   {
+    "value": "terms_of_service",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "It is the responsibility of the user to familiarise themselves with the data privacy policies and Terms of Use of any GenAI platform they intend using.",
+    "anchor": null
+   },
+   {
+    "value": "eu_ai_act",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "The EU’s Artificial Intelligence Act, which is due to come into force over the next few months, has classified some uses of AI in education as high risk and emphasises the importance of human oversight of AI systems.",
+    "anchor": null
+   },
+   {
+    "value": "copyright",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "GenAI models are trained on large volumes of data, very often appropriated from the Internet without the permission of the original creator. This may infringe upon copyrights and intellectual property rights.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "sheffield-students-genai-202610",
+  "coder": "td-t25",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Google Gemini",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "All students and staff have access to Google Gemini (university login required) as the institutionally supported GenAI tool.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "both",
+    "name": "Google Gemini",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Where possible, Gemini should be used to support learning and teaching activities.",
+    "anchor": null
+   },
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "meets_security_policy"
+    ],
+    "ai_named": false,
+    "quote": "Where tools other than Google Suite are made available to students on a use case basis, the New IT Solution Request Process (staff university login required)has been followed to ensure they comply with data protection and information security policies.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "Acknowledging there are potential copyright implications in the use of GenAI tools, and that this is currently a partially understood and contested area.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "suffolk-students-genai-202610",
+  "coder": "td-t25",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "No personal data, confidential research materials, unpublished data, or sensitive/commercial University information may be uploaded into any external AI system unless explicitly approved and compliant with data protection and ethics requirements.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "No personal data, confidential research materials, unpublished data, or sensitive/commercial University information may be uploaded into any external AI system unless explicitly approved and compliant with data protection and ethics requirements.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "No personal data, confidential research materials, unpublished data, or sensitive/commercial University information may be uploaded into any external AI system unless explicitly approved and compliant with data protection and ethics requirements.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Users must continue to follow all University policies on information classification, data handling, and confidentiality when using a Generative AI system that operates securely within the University’s environment",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "No personal data, confidential research materials, unpublished data, or sensitive/commercial University information may be uploaded into any external AI system unless explicitly approved and compliant with data protection and ethics requirements.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "ul-d2-assessment-policy-202610",
+  "coder": "td-t25",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "prohibited",
+    "audience": "both",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "We urge staff and students not to upload student assignments/assessments to any websites or tools to check for AI use.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "We urge staff and students not to upload student assignments/assessments to any websites or tools to check for AI use.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "brunel-london-students-genai-202610",
+  "coder": "td-t26",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not share any personal, confidential, or sensitive information. Any data entered into generative AI can be fed into the data sets that the generative AI relies upon",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not share any personal, confidential, or sensitive information. Any data entered into generative AI can be fed into the data sets that the generative AI relies upon",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "You should not enter any personal, sensitive, or confidential data. This goes for your own personal data (like asking a generative AI to write a CV for you) but also any research data that you might collect via primary research.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Generative AI tools can be useful when used properly but make sure that you fully understand their limitations and the legal, ethical, and data protection issues they present before using them.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "You could inadvertently plagiarise or breach the copyright of someone’s work when using generative AI.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "dundalk-institute-technology-students-genai-202610",
+  "coder": "td-t26",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "edinburgh-student-genai-guidelines-202610",
+  "coder": "td-t26",
+  "tools": [
+   {
+    "tool_class": "agentic_tools",
+    "stance": "prohibited",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Using an AI agent within Learn or any other University learning or assessment platform which requires you to log in is not permitted.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "ELM",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "All University of Edinburgh students have free access to ELM (Edinburgh access to Language Models), which offers you a secure gateway to a range of generative AI models.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "students",
+    "name": "ELM",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The university encourages you to use ELM over other platforms such as GPT, DeepSeek, Grok etc for the following reasons:",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "prohibited",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "As a result, you must not use third-party AI-based translation apps in class.",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "You should only use the University’s generative AI service – ELM – to do this as it has in-built privacy protections.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "credentials_or_accounts",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Sharing your login details with an agent or agentic browser is a breach of the University Computing Acceptable Use Policy.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "You should only use the University’s generative AI service – ELM – to do this as it has in-built privacy protections.",
+    "anchor": null
+   },
+   {
+    "value": "training_on_user_work_restricted",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "In ELM your data is secure – it will not be retained by third party services to train their models or for any other purpose.",
+    "anchor": null
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "leeds-beckett-students-genai-202610",
+  "coder": "td-t26",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Data privacy - Do not enter sensitive, personal, or protected information into AI tools, and remember that this includes e.g., assignments, exams, seminars and lecture slides, which are the Intellectual Property of the University or others for copyright breach).",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Data privacy - Do not enter sensitive, personal, or protected information into AI tools, and remember that this includes e.g., assignments, exams, seminars and lecture slides, which are the Intellectual Property of the University or others for copyright breach).",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Data privacy - Do not enter sensitive, personal, or protected information into AI tools, and remember that this includes e.g., assignments, exams, seminars and lecture slides, which are the Intellectual Property of the University or others for copyright breach).",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Data privacy - Do not enter sensitive, personal, or protected information into AI tools, and remember that this includes e.g., assignments, exams, seminars and lecture slides, which are the Intellectual Property of the University or others for copyright breach).",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "warwick-students-genai-202610",
+  "coder": "td-t26",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Warwick provides access to Microsoft Co-PilotLink opens in a new window for students and staff.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "Do not input any personal or confidential data into any AI tools, unless you fully understand what will happen to that data. The university recommends using Co-Pilot chat for this kind of data - when logged in with your Warwick account.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "Do not input any personal or confidential data into any AI tools, unless you fully understand what will happen to that data. The university recommends using Co-Pilot chat for this kind of data - when logged in with your Warwick account.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "The university recommends using Co-Pilot chat for this kind of data - when logged in with your Warwick account.",
+    "anchor": null
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "bpp-students-genai-202610",
+  "coder": "td-t27",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Students may be given access to Generative AI tools through an institutional licence, and this will be accessed through Single Sign On (SSO) using BPP credentials where it is granted.",
+    "anchor": null
+   },
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "BPP provides access to necessary software for you to complete your studies and this will have been approved for use.",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Some of these may be AI powered and will help you to identify and correct grammatical errors and spelling mistakes. However, you should not use any software to rewrite sentences or make substantive changes to your original work unless conditions in the assignment brief explicitly allows it.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Using Gen AI tools in a way that would breach client confidentiality or would expose client data.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Translating content to or from English, excluding any personal, client or business confidential content",
+    "anchor": null
+   },
+   {
+    "data_type": "own_work",
+    "stance": "permitted",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "You are allowed to use Gen AI tools to upload your own writing and thoughts to begin a discussion or self-reflection with the AI to gain insight into your writing.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Students may be given access to Generative AI tools through an institutional licence, and this will be accessed through Single Sign On (SSO) using BPP credentials where it is granted.",
+    "anchor": null
+   },
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "unspecified",
+    "ai_named": false,
+    "quote": "ensuring that we comply with GDPR regulations and data protection protocols.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "unspecified",
+    "ai_named": false,
+    "quote": "ensuring that we comply with GDPR regulations and data protection protocols.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "liverpool-students-genai-202610",
+  "coder": "td-t27",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "newcastle-students-genai-202610",
+  "coder": "td-t27",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "west-england-students-genai-202610",
+  "coder": "td-t27",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not enter personal or sensitive information into AI tools. It is often unknown how that data will be stored or could be accessed and used by others.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": false,
+    "quote": "Do not submit other peoples’ data or work without their consent. This includes your colleagues, teaching staff, and materials such as transcripts of teaching materials (including slides and exam papers) or content from UWE Bristol Library resources.",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "You should not upload teaching materials or other resources provided by your tutor.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Submitting material that has been created by others may break copyright and intellectual property rules.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "york-students-genai-202610",
+  "coder": "td-t27",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Google Gemini",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Google Gemini is the University's preferred generative AI tool because any data inputted is fully protected and chats are never used for training or human review by Google.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "students",
+    "name": "Google Gemini",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Google Gemini is the University's preferred generative AI tool because any data inputted is fully protected and chats are never used for training or human review by Google.",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": false,
+    "quote": "If used in an appropriate way, and if permitted in your assignments, the use of online LEAs is not considered academic misconduct and can be beneficial during degree programme.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "own_work",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "providing your own work to an individual or software has a degree of risk. Once you have shared your work, you cannot guarantee how that will then be used. The emergence of generative AI, for example, has raised serious concerns about how data is processed and used by the companies and software.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "You must sign into Gemini using your University credentials to ensure this.",
+    "anchor": null
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "essex-students-genai-202610",
+  "coder": "td-t28",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "At Essex, we want you to explore generative AI tools responsibly. But when you use these tools, remember to think about things like keeping your data safe, respecting copyrights, and being honest in your academic work.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "harper-adams-students-genai-202610",
+  "coder": "td-t28",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Notes, handouts and slides created by lecturers represent their intellectual property and should never be uploaded into AI without their explicit permission to do so.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission",
+     "ethics_approval",
+     "anonymised"
+    ],
+    "ai_named": false,
+    "quote": "Such tools can only ever be used if participants have given signed agreement to this, use of such tools was agreed by the ethics committee, and all participant data must be anonymised.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Concerns have been expressed about the level of data extraction demanded by these tools, with this possibly conflicting with data protection requirements.",
+    "anchor": null
+   },
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "arguments and supporting evidence in papers, but you should check copyright agreements.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "kingston-london-students-genai-202610",
+  "coder": "td-t28",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "st-andrews-students-genai-202610",
+  "coder": "td-t28",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The University’s provided AI tool is Microsoft Copilot. This is available to all staff and students, with ‘Commercial Data Protection’ services enabled.",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": "Grammarly",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Grammarly has optional Generative AI features that aid the production of new content based on a series of prompts. These features should be disabled when writing assessments unless expressly permitted by your module co-ordinator or permitted as a reasonable adjustment by the Disability Team in Student Services.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "AI may capture data from input prompts, so it is important not to submit personal or sensitive information to an AI tool.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "AI may capture data from input prompts, so it is important not to submit personal or sensitive information to an AI tool. The University Data Protection Policy can be accessed here.",
+    "anchor": null
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "surrey-students-genai-202610",
+  "coder": "td-t28",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Providing access to baseline AI tools: We want all students at Surrey to have equal access to AI so you can all engage with tools to support your learning and get prepared for the working world.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "aberdeen-students-genai-202610",
+  "coder": "td-t29",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Please note that any learning materials (e.g. lectures) and assessment information (e.g. questions, tasks, activities) must not be entered into these tools without the explicit permission of the author (e.g. Course Coordinator, Lecturer).",
+    "anchor": null
+   },
+   {
+    "data_type": "assessment_material",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Please note that any learning materials (e.g. lectures) and assessment information (e.g. questions, tasks, activities) must not be entered into these tools without the explicit permission of the author (e.g. Course Coordinator, Lecturer).",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Never enter personal and sensitive data into GenAI tools.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Review their privacy policy and terms of use, or equivalent statements, to inform your use.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "terms_of_service",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Review their privacy policy and terms of use, or equivalent statements, to inform your use.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "east-anglia-students-genai-202610",
+  "coder": "td-t29",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "warned",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "You can use ZeroGPT, there are also tools available from TurnitIn, but Blackboard has recently stopped developing detection tools as they are unreliable. Detection tools should be used with caution due to reported inaccuracy",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "not_endorsed",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Diagrams and images can also be created, but the AI tools here are often paid for, and run the risk of copyright issues. There are also tools which will generate online content, but they are not free, and unsupported by UEA.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Students should be aware of privacy and GDPR and not input personal and private information about themselves or others. This is because the software will store data and information and potentially use it for other content.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "ethics_approval"
+    ],
+    "ai_named": true,
+    "quote": "If personal data is to be put into an AI tool this must be part of the ethics application process.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "staff",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "There are a number of ‘red light’ activities where staff should not use Generative AI • Generation of letters to students or other staff including personal data and information. This is because the software will store data and information and potentially use it for other content.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Students should not input confidential research data, both quantitative and qualitative or copyrighted data/text into an AI tool without approval.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Students should not input confidential research data, both quantitative and qualitative or copyrighted data/text into an AI tool without approval.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Students should be aware of privacy and GDPR and not input personal and private information about themselves or others.",
+    "anchor": null
+   },
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Students should not input confidential research data, both quantitative and qualitative or copyrighted data/text into an AI tool without approval.",
+    "anchor": null
+   },
+   {
+    "value": "copyright",
+    "audience": "staff",
+    "ai_named": true,
+    "quote": "Diagrams and images can also be created, but the AI tools here are often paid for, and run the risk of copyright issues.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "highlands-and-islands-students-genai-202610",
+  "coder": "td-t29",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "UHI recommends that you only use the GAI tools that have already been approved for learning and teaching. These tools/sites have undergone various checks to ensure they are not malicious and do not breach security requirements",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "there are many fake GAI tools/sites designed to capture your information, passwords, and put malware on your device. Never use your UHI password to register for any external service.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not put aspects of your own original work into GAI sites without very careful consideration, and do not put drafts or final versions of your own assignments into GAI tools.",
+    "anchor": null
+   },
+   {
+    "data_type": "own_work",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not put aspects of your own original work into GAI sites without very careful consideration, and do not put drafts or final versions of your own assignments into GAI tools. You may be giving the rights to your work away to the owner of the GAI tool",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not put existing course materials or assessment questions into GAI tools, as UHI owns the copyright to existing course materials, assignment questions and specifications etc.",
+    "anchor": null
+   },
+   {
+    "data_type": "assessment_material",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not put existing course materials or assessment questions into GAI tools, as UHI owns the copyright to existing course materials, assignment questions and specifications etc.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "you may not use anything (text, image, code etc.,) related to your place of employment or owned by your employer as a GAI prompt, unless you have the written consent of your employer.",
+    "anchor": null
+   },
+   {
+    "data_type": "credentials_or_accounts",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "there are many fake GAI tools/sites designed to capture your information, passwords, and put malware on your device. Never use your UHI password to register for any external service.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Always read the terms and conditions and privacy policy for any GAI tools you have opted to use.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Do not put existing course materials or assessment questions into GAI tools, as UHI owns the copyright to existing course materials, assignment questions and specifications etc.",
+    "anchor": null
+   },
+   {
+    "value": "terms_of_service",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Always read the terms and conditions and privacy policy for any GAI tools you have opted to use.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "northampton-students-genai-202610",
+  "coder": "td-t29",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The following should not be submitted to an AI tool: confidential data; data belonging to other people or organisations, i.e. the intellectual property of other people or third-party copyrighted material, unless permission has been granted or is licensed; your own personal data, unless you are prepared for it to surface in AI output.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "The following should not be submitted to an AI tool: confidential data; data belonging to other people or organisations, i.e. the intellectual property of other people or third-party copyrighted material, unless permission has been granted or is licensed; your own personal data, unless you are prepared for it to surface in AI output.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "When you use a AI tool, the information and data you submit could be used to train the AI.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "swansea-students-genai-202610",
+  "coder": "td-t29",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Access institutional tools and use their basic functionality.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Apply University policies on data protection, privacy, and academic integrity when selecting and using approved academic work, ensuring responsible and ethical practice.",
+    "anchor": null
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "cape-breton-university-students-genai-202610",
+  "coder": "td-t3",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Privacy is not guaranteed when data/information is entered into AI applications.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "both",
+    "ai_named": false,
+    "quote": "As a public university, CBU operates within a complex regulatory environment, including provincial and federal privacy legislation, Tri-Agency policy requirements, academic integrity frameworks and sector-specific standards.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "universite-de-l-ontario-francais-students-genai-202610",
+  "coder": "td-t3",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Protéger les données et la confidentialité : ne pas transmettre à des plateformes d’IAG des renseignements personnels, confidentiels ou sensibles, etc.;",
+    "anchor": "7.1"
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Protéger les données et la confidentialité : ne pas transmettre à des plateformes d’IAG des renseignements personnels, confidentiels ou sensibles, etc.;",
+    "anchor": "7.1"
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "d’insérer des travaux protégés par les droits d’auteur, sans autorisation dans une IAG ;",
+    "anchor": "4.4"
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Respecter les droits d’auteur et la propriété intellectuelle;",
+    "anchor": "7.1"
+   }
+  ]
+ },
+ {
+  "doc_id": "universite-du-quebec-a-chicoutimi-students-genai-202610",
+  "coder": "td-t3",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "university-of-waikato-students-genai-202610",
+  "coder": "td-t3",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": "Studiosity",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "does not apply to Studiosity, which is an approved AI tool",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "external tools often lack safeguards aligned with privacy laws like the NZ Privacy Act",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "own_work",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Uploading work to non-institutional generative AI platforms poses significant privacy and ethical risks.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Such work may contain personally identifiable information, and external tools often lack safeguards aligned with privacy laws like the NZ Privacy Act",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "external tools often lack safeguards aligned with privacy laws like the NZ Privacy Act",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "victoria-university-of-wellington-students-genai-202610",
+  "coder": "td-t3",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "conditional",
+    "audience": "staff",
+    "name": null,
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "Staff Members must only use generative AI technologies approved for Safe Use by the University when dealing with such types of information.",
+    "anchor": "4.3"
+   }
+  ],
+  "data": [
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "approved_tool_only",
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "Staff Members are free to use all generative AI technologies except when dealing with information classified as “confidential” and “internal-use-only” under the University’s Cyber Security Procedures.",
+    "anchor": "4.3"
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "approved_tool_only",
+     "meets_security_policy"
+    ],
+    "ai_named": false,
+    "quote": "information about an identifiable individual (including biometric information);",
+    "anchor": "4.3(a)"
+   },
+   {
+    "data_type": "credentials_or_accounts",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": false,
+    "quote": "login credentials used for accessing University systems and services (such as account passwords);",
+    "anchor": "4.3(c)"
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": false,
+    "quote": "emails, survey responses, or any other written correspondence through University systems; and",
+    "anchor": "4.3(d)"
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "approved_tool_only",
+     "needs_permission"
+    ],
+    "ai_named": false,
+    "quote": "third-party intellectual property (including copyrighted material), unless explicitly permitted by the relevant third party.",
+    "anchor": "4.3(e)"
+   },
+   {
+    "data_type": "student_work",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "examiners must not input any part of a thesis under examination into a generative AI technology that has not been approved for Safe Use for assessment purposes by Te Tai Matihiko—Digital Solutions.",
+    "anchor": "6.9"
+   },
+   {
+    "data_type": "research_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Members of the University Community must not use generative AI technologies in assessing or reviewing material from an external party, unless explicitly permitted by that external party.",
+    "anchor": "6.3"
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "provided that they comply with this Policy, the Acceptable Use of Information Systems Statute, Responsible Research Policy, Human Ethics Policy, Intellectual Property Policy, Privacy Policy, Cyber Security Procedures and other relevant University policies as appropriate.",
+    "anchor": "6.1"
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "both",
+    "ai_named": false,
+    "quote": "compliance with New Zealand legislation as well as any applicable privacy and data protection standards;",
+    "anchor": "3.2(a)"
+   },
+   {
+    "value": "copyright",
+    "audience": "both",
+    "ai_named": false,
+    "quote": "observance of copyright, intellectual property, and other contractual requirements;",
+    "anchor": "3.2(h)"
+   }
+  ]
+ },
+ {
+  "doc_id": "bangor-students-genai-202610",
+  "coder": "td-t30",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "canterbury-students-genai-202610",
+  "coder": "td-t30",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Microsoft’s Copilot offers commercial data protection through the University’s institutional licence.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "conditional",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "If you are under 18 you may not legally use GenAI platforms without written parental permission. This includes Copilot, which is provided as part of the Microsoft365 suite.",
+    "anchor": null
+   },
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "not_endorsed",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The University does not recommend or endorse any specific GenAI tools.",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Some tools, particularly those that are free to use, will request your permission to access and share user data.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not enter personally identifiable or sensitive information into GenAI platforms. Some platforms store the interactions, which may constitute a data breach under the Data Protection Act and UK GDPR 2018. This includes research data.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not enter personally identifiable or sensitive information into GenAI platforms. Some platforms store the interactions, which may constitute a data breach under the Data Protection Act and UK GDPR 2018. This includes research data.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Do not share others’ personal, identifiable, or sensitive information with GenAI platforms unless you have their express consent.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not place copyrighted information into GenAI platforms for processing. This includes your course notes, assessments, slides and other content produced by University staff. Do not put these into GenAI platforms unless the academic concerned gives written permission.",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Do not place copyrighted information into GenAI platforms for processing. This includes your course notes, assessments, slides and other content produced by University staff. Do not put these into GenAI platforms unless the academic concerned gives written permission.",
+    "anchor": null
+   },
+   {
+    "data_type": "assessment_material",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Do not place copyrighted information into GenAI platforms for processing. This includes your course notes, assessments, slides and other content produced by University staff. Do not put these into GenAI platforms unless the academic concerned gives written permission.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "It is essential to be aware of the terms and conditions section of the GenAI tools you are using, as each platform that provides these tools has its unique terms and conditions.",
+    "anchor": null
+   },
+   {
+    "value": "opt_out_of_training",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Is there an option for me to select which privacy settings I prefer? e.g. whether the information I enter will be shared with the AI model for training purposes or not.",
+    "anchor": null
+   },
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "To securely access Copilot log into copilot.microsoft.com using your CCCU credentials.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Do not share others’ personal, identifiable, or sensitive information with GenAI platforms unless you have their express consent. If you do so, you may be in breach of the UKs Data Protection Act 2018 and Europe’s GDPR laws.",
+    "anchor": null
+   },
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "This means that, when using GenAI without proper accreditation, you could inadvertently plagiarise or breach the copyright of someone’s work.",
+    "anchor": null
+   },
+   {
+    "value": "terms_of_service",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "It is essential to be aware of the terms and conditions section of the GenAI tools you are using, as each platform that provides these tools has its unique terms and conditions.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "derby-students-genai-202610",
+  "coder": "td-t30",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Microsoft - Microsoft Copilot – University Approved Multimodal AI (Text Generation, Image Generation, Integration with Office 365 tools for productivity tasks like document creation, data visualisation, and summarisation)",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "edinburgh-napier-students-genai-202610",
+  "coder": "td-t30",
+  "tools": [
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "not_endorsed",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "They are external tools, they’re not supported by the University, so you want to make sure that you’re comfortable with how your data is being used, not just anything that you input, but also your personal information.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Never give your own or other’s personal information (name, health information, photos of faces etc.) to Gen AI.",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "It is not permitted for you to upload any teaching materials (lecture slides, lecture recordings, assessment briefs) to any external tool, including Gen AI.",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "You may not upload teaching materials, such as lecture slides, lecture recordings or assessment briefs, to Gen AI tools unless you have your module leader’s permission to do so.",
+    "anchor": null
+   },
+   {
+    "data_type": "assessment_material",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "You may not upload teaching materials, such as lecture slides, lecture recordings or assessment briefs, to Gen AI tools unless you have your module leader’s permission to do so.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "You may not upload copyrighted materials, such as journal articles or books, to Gen AI tools unless you have the author’s or publication’s permission to do so",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Before using any tool not provided by the university you should read the terms and conditions carefully.",
+    "anchor": null
+   },
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Anyone processing personal data on behalf of the University is required to comply with the University Data Protection Policy when using any Gen AI tools.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "The current UK laws governing copyright do not fully address Gen AI, which creates legal uncertainty.",
+    "anchor": null
+   },
+   {
+    "value": "terms_of_service",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Before using any tool not provided by the university you should read the terms and conditions carefully.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "salford-students-genai-202610",
+  "coder": "td-t30",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft 365 Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Use Microsoft 365 Copilot signed in with your University account wherever possible, as this is the University-approved GenAI tool and is covered by the University’s data security policy.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": false,
+    "quote": "Never enter personal data, unpublished research, your own or anyone else’s work, or other sensitive or confidential information into a tool that is not University-approved.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": false,
+    "quote": "Never enter personal data, unpublished research, your own or anyone else’s work, or other sensitive or confidential information into a tool that is not University-approved.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": false,
+    "quote": "Never enter personal data, unpublished research, your own or anyone else’s work, or other sensitive or confidential information into a tool that is not University-approved.",
+    "anchor": null
+   },
+   {
+    "data_type": "own_work",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": false,
+    "quote": "Never enter personal data, unpublished research, your own or anyone else’s work, or other sensitive or confidential information into a tool that is not University-approved.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": false,
+    "quote": "Never enter personal data, unpublished research, your own or anyone else’s work, or other sensitive or confidential information into a tool that is not University-approved.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Use Microsoft 365 Copilot signed in with your University account wherever possible, as this is the University-approved GenAI tool and is covered by the University’s data security policy.",
+    "anchor": null
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "atu-students-genai-202610",
+  "coder": "td-t31",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "for-creative-arts-students-genai-202610",
+  "coder": "td-t31",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "AI prompts can be shared with others, so do not share personal data or sensitive information about yourself or others.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Copyright ownership of AI outputs is unclear and inputting in-copyright material into an AI platform could be considered an infringement of copyright law.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Copyright ownership of AI outputs is unclear and inputting in-copyright material into an AI platform could be considered an infringement of copyright law.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "keele-students-genai-202610",
+  "coder": "td-t31",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Microsoft Copilot is the institutional tool available free to staﬀ and students as part of the MS Oﬃce 365 suite.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "staff",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "it is recommended that staff use institutional Gen AI tools, for example Microsoft Copilot, that comply with GDPR and relevant privacy regulations.",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "conditional",
+    "audience": "unspecified",
+    "name": null,
+    "conditions": [
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "Use of other AI tools must consider accessibility and equitable access along with GDPR and data privacy.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "staff",
+    "ai_named": true,
+    "quote": "it is recommended that staff use institutional Gen AI tools, for example Microsoft Copilot, that comply with GDPR and relevant privacy regulations.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "staff",
+    "ai_named": true,
+    "quote": "it is recommended that staff use institutional Gen AI tools, for example Microsoft Copilot, that comply with GDPR and relevant privacy regulations.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "mtu-students-genai-202610",
+  "coder": "td-t31",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "york-st-john-students-genai-202610",
+  "coder": "td-t31",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "\"Never share personal and sensitive information with an AI tool.\"",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "I have not entered into GenAI tools any works that are copyright or the intellectual property of a third party.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission",
+     "ethics_approval"
+    ],
+    "ai_named": true,
+    "quote": "Uploading participant data or responses into GenAI without the participants' consent or ethical approval (Principle 6)",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Sharing personal information of other people without their consent could be a breach of General Data Protection Regulation (GDPR).",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "dcu-students-genai-202610",
+  "coder": "td-t32",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "permitted",
+    "audience": "both",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "DTS Resource Page includes AI resources, an outline of the DCU-approved AI tools, and some of the key policies and applications that DCU students and staff should be aware of.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "eu_ai_act",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "The EU Artificial Intelligence Act provides a legal framework for the deployment of AI within Europe.",
+    "anchor": null
+   },
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Respect copyright and intellectual property rights when using AI.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "hartpury-students-genai-202610",
+  "coder": "td-t32",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "middlesex-london-students-genai-202610",
+  "coder": "td-t32",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "warned",
+    "audience": "both",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "There are significant concerns about the GDPR compliance of AI detection tools, which may also result in the disclosure of university intellectual property.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "There are significant concerns about the GDPR compliance of AI detection tools, which may also result in the disclosure of university intellectual property.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "staffordshire-students-genai-202610",
+  "coder": "td-t32",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "winchester-students-genai-202610",
+  "coder": "td-t32",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The University will make University-provided AI tools available to students and colleagues and will offer training to support their confident and responsible use.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "east-london-students-genai-202610",
+  "coder": "td-t33",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "not_endorsed",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Other than Keenious, the University of East London does not support or endorse any of the AI tools mentioned in this guide.",
+    "anchor": "Disclaimer"
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do be wary that your personal data may be vulnerable if used in interacting with Generative AI.",
+    "anchor": "Using Generative AI"
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "lancaster-students-genai-202610",
+  "coder": "td-t33",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Unless express permission is received in advance, students must not submit or upload assessment submissions to any external detection software or platforms designed to inspect for academic malpractice or artificial intelligence usage.",
+    "anchor": "AM 2.9.1"
+   }
+  ],
+  "data": [
+   {
+    "data_type": "student_work",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Unless express permission is received in advance, students must not submit or upload assessment submissions to any external detection software or platforms designed to inspect for academic malpractice or artificial intelligence usage.",
+    "anchor": "AM 2.9.1"
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "lse-students-genai-202610",
+  "coder": "td-t33",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Claude",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "the university provides institutional access to Claude and Microsoft Copilot.",
+    "anchor": "Resources: building AI fluency"
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Tools for grammar and spell check (Grammarly, DeepL, Microsoft Word’s built-in editor) are generally fine.",
+    "anchor": "Rules: the AI policy"
+   }
+  ],
+  "data": [],
+  "safeguards": [
+   {
+    "value": "training_on_user_work_restricted",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Anthropic guarantees that data shared with Claude by LSE staff and students will not be used to train their models, which makes it safer to use compared to other AI chatbots.",
+    "anchor": "Resources: building AI fluency"
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "LSE’s broader research guidance (PDF) highlights further aspects of AI usage. These include data privacy, copyright, and the environmental impact.",
+    "anchor": "Rules: the AI policy"
+   },
+   {
+    "value": "copyright",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "LSE’s broader research guidance (PDF) highlights further aspects of AI usage. These include data privacy, copyright, and the environmental impact.",
+    "anchor": "Rules: the AI policy"
+   }
+  ]
+ },
+ {
+  "doc_id": "setu-students-genai-202610",
+  "coder": "td-t33",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "SETU recognises that students shall have the opportunity to self- submit a draft of their work to Turnitin.",
+    "anchor": "A.3"
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "unspecified",
+    "conditions": [
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "Data Privacy: In relation to GenAI, student data and privacy must be maintained through compliance with GDPR (General Data Protection Regulation) and best practice. This includes the inputting of such data to produce a GenAI response;",
+    "anchor": "6.11"
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "Data Privacy: In relation to GenAI, student data and privacy must be maintained through compliance with GDPR (General Data Protection Regulation) and best practice.",
+    "anchor": "6.11"
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "Data Privacy: In relation to GenAI, student data and privacy must be maintained through compliance with GDPR (General Data Protection Regulation) and best practice.",
+    "anchor": "6.11"
+   }
+  ]
+ },
+ {
+  "doc_id": "west-scotland-students-genai-202610",
+  "coder": "td-t33",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "abertay-students-genai-202610",
+  "coder": "td-t34",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "city-st-georges-london-students-genai-202610",
+  "coder": "td-t34",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "edge-hill-students-genai-202610",
+  "coder": "td-t34",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "falmouth-students-genai-202610",
+  "coder": "td-t34",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "st-marys-twickenham-london-students-genai-202610",
+  "coder": "td-t34",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "brighton-students-genai-202610",
+  "coder": "td-t35",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "london-school-hygiene-and-tropical-medicine-students-genai-202610",
+  "coder": "td-t35",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "london-south-bank-students-genai-202610",
+  "coder": "td-t35",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "newman-students-genai-202610",
+  "coder": "td-t35",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "ollscoil-na-gaillimhe-galway-students-genai-202610",
+  "coder": "td-t35",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "aston-students-genai-202610",
+  "coder": "td-t36",
+  "tools": [
+   {
+    "tool_class": "agentic_tools",
+    "stance": "prohibited",
+    "audience": "both",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "the university explicitly prohibits the development, deployment, or integration of agentic AI systems",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Do not disclose personal, confidential or third-party proprietary data to public AI services without the written approval of the Chief Information Officer and Data Protection Officer.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Do not disclose personal, confidential or third-party proprietary data to public AI services without the written approval of the Chief Information Officer and Data Protection Officer.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "anonymise_before_entry",
+    "audience": "both",
+    "ai_named": false,
+    "quote": "Respect and protect personal data. Use data minimisation and anonymisation where possible.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "unspecified",
+    "ai_named": false,
+    "quote": "Adhere to data protection, privacy, and intellectual property laws.",
+    "anchor": null
+   },
+   {
+    "value": "copyright",
+    "audience": "unspecified",
+    "ai_named": false,
+    "quote": "Adhere to data protection, privacy, and intellectual property laws.",
+    "anchor": null
+   },
+   {
+    "value": "eu_ai_act",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "Embed cybersecurity and data governance controls aligned with the EU AI Act’s risk-based requirements.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "cardiff-students-genai-202610",
+  "coder": "td-t36",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "greenwich-students-genai-202610",
+  "coder": "td-t36",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "northumbria-students-genai-202610",
+  "coder": "td-t36",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Claude for Education",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Claude for Education is a next-generation AI assistant built by Anthropic to be safe, accurate and secure. It provides Northumbria University with ethical and transparent access to AI that ensures data security and copyright compliance.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "plymouth-students-genai-202610",
+  "coder": "td-t36",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "unspecified",
+    "name": "Copilot Chat",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Using CoPilot Chat Securely - The UoP AI Tool",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "aub-students-genai-202610",
+  "coder": "td-t37",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "kcl-students-genai-202610",
+  "coder": "td-t37",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Please note that Microsoft Copilot is available to all King's students with your KCL Microsoft log in credentials.",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Please also note you should exercise caution when using any tools that require additional log ins or account generation as these will likely collect personal data.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "You should not input personal data, sensitive information or content created by others into any AI platform.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "You should not input personal data, sensitive information or content created by others into any AI platform.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Please note that there are ongoing controversies and challenges across the globe about use of text and images generated by AI, with many arguing that these breach copyright rules.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "loughborough-students-genai-202610",
+  "coder": "td-t37",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Co-pilot (integrated into LU Microsoft applications)",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "I will not enter any personally identifiable or commercially sensitive data into a GenAI tool",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "I will not enter any personally identifiable or commercially sensitive data into a GenAI tool",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "I will carefully consider the GenAI tool(s) that I use and how they may share any data that I input",
+    "anchor": null
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "strath-students-genai-202610",
+  "coder": "td-t37",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The only Gen-AI tool that the University currently allows staff and students to sign-up to with their University credentials is Microsoft Copilot in Edge.",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "You should be aware that there are risks associated with using any Gen-AI tool, especially those that they are signing up to without the University’s explicit knowledge and support.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Gen-AI tools may collect user data. Read privacy policies carefully and avoid sharing Personal, sensitive or copyright protected information.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Gen-AI tools may collect user data. Read privacy policies carefully and avoid sharing Personal, sensitive or copyright protected information.",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Make sure you are not giving any tools or services access to restricted or copyright protected content including materials provided to you by the University (for example lecture slides, assessment questions or feedback on assessment, library resources or research papers).",
+    "anchor": null
+   },
+   {
+    "data_type": "assessment_material",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Make sure you are not giving any tools or services access to restricted or copyright protected content including materials provided to you by the University (for example lecture slides, assessment questions or feedback on assessment, library resources or research papers).",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Gen-AI tools may collect user data. Read privacy policies carefully and avoid sharing Personal, sensitive or copyright protected information.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Gen-AI models can generate content that may infringe upon existing intellectual property rights, such as copyright.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "ucl-students-genai-202610",
+  "coder": "td-t37",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "prohibited",
+    "audience": "staff",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Staff must not submit student work into such tools, including GenAI themselves, as this may compromise students' intellectual property and personal data rights.",
+    "anchor": null
+   },
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Studiosity",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "it is permissible for a third party, such as UCL's academic support tool Studiosity, to “check areas of academic writing such as structure, fluency, presentation, grammar, spelling, punctuation, and language translation.”",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "staff",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Staff must not submit student work into such tools, including GenAI themselves, as this may compromise students' intellectual property and personal data rights.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "meets_security_policy",
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "It must also be made clear to students that they must not upload any sensitive data to GenAI systems without taking into account UCL's data protection requirements. Approvals and consents are likely to be required, as such sensitive data usage should be overseen by a staff supervisor.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "It must also be made clear to students that they must not upload any sensitive data to GenAI systems without taking into account UCL's data protection requirements.",
+    "anchor": null
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "gannon-university-students-genai-202610",
+  "coder": "td-t4",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "huston-tillotson-university-students-genai-202610",
+  "coder": "td-t4",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "southwest-baptist-university-students-genai-202610",
+  "coder": "td-t4",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "university-of-niagara-falls-canada-students-genai-202610",
+  "coder": "td-t4",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "conditional",
+    "audience": "both",
+    "name": null,
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "Refrain from using or adopting AI tools that process institutional or personal data without appropriate review and approval.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "Refrain from using or adopting AI tools that process institutional or personal data without appropriate review and approval.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Use AI technologies—whether institutionally supported or externally adopted—in accordance with privacy, academic integrity, and ethical guidelines.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "All institutionally adopted AI tools must comply with Canadian privacy requirements (e.g., PIPEDA) and institutional privacy policies.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "wilfrid-laurier-university-students-genai-202610",
+  "coder": "td-t4",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Microsoft Copilot is currently Laurier’s approved generative AI tool.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Recommended: Microsoft Copilot",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "not_endorsed",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Tools such as ChatGPT, Gemini, and Claude have not been approved by Laurier through the same review processes.",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Did you also know that gen AI tools can collect and share prompts and inputs for training purposes?",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Don't upload personal or confidential information.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Don't upload personal or confidential information.",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": false,
+    "quote": "Don't upload course materials unless you have explicit permission from your course instructor.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Don't upload copyrighted materials.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Don’t upload someone’s intellectual property into a gen AI tool without their permission.",
+    "anchor": null
+   },
+   {
+    "data_type": "credentials_or_accounts",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Don't use your Laurier password when creating accounts.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Sign in with your MyLaurier student account",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Don’t upload someone’s intellectual property into a gen AI tool without their permission.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "grambling-state-university-students-genai-202610",
+  "coder": "td-t5",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission",
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "Users must not input personally identifiable information (PII), protected student data, research data, or confidential internal materials into AI tools without: i. Division Vice President review/approval ii. Signed agreements ensuring data security with the AI vendor",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission",
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "Users must not input personally identifiable information (PII), protected student data, research data, or confidential internal materials into AI tools without: i. Division Vice President review/approval ii. Signed agreements ensuring data security with the AI vendor",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission",
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "Users must not input personally identifiable information (PII), protected student data, research data, or confidential internal materials into AI tools without: i. Division Vice President review/approval ii. Signed agreements ensuring data security with the AI vendor",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "AI may not be used for: a. Entering or processing sensitive data, including: i. Student records (FERPA-protected) ii. Health information (HIPAA-protected)",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "prohibited",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "AI may not be used for: a. Entering or processing sensitive data, including: i. Student records (FERPA-protected) ii. Health information (HIPAA-protected) iii. Research involving unpublished data or intellectual property",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Grambling State University data storage and security policies apply to all AI interactions.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "The use of AI must comply with all applicable data protection laws and university policies.",
+    "anchor": null
+   },
+   {
+    "value": "copyright",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "AI-assisted works must comply with applicable copyright and licensing requirements.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "leedstrinity-students-genai-202610",
+  "coder": "td-t5",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "portsmouth-students-genai-202610",
+  "coder": "td-t5",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "As a University of Portsmouth student you can access Microsoft Copilot, a generative AI assistant which can help you with a range of tasks from research to planning, and more.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "We encourage you to explore and use Copilot responsibly and ethically to support your learning.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "southampton-solent-students-genai-202610",
+  "coder": "td-t5",
+  "tools": [
+   {
+    "tool_class": "ai_detection_tools",
+    "stance": "prohibited",
+    "audience": "both",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Students and staﬀ are not permitted to upload student assessments or any identiﬁable data to AI applications for any reason (this includes attempts to check for AI generated content).",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Students and staﬀ are not permitted to upload student assessments or any identiﬁable data to AI applications for any reason (this includes attempts to check for AI generated content).",
+    "anchor": null
+   },
+   {
+    "data_type": "student_work",
+    "stance": "prohibited",
+    "audience": "staff",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "staﬀ may not upload student work into any AI tool.",
+    "anchor": null
+   },
+   {
+    "data_type": "student_work",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "there is no circumstance where staﬀ can use the work of learners as input for AI tools without express permission.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Students and staﬀ are not permitted to upload student assessments or any identiﬁable data to AI applications for any reason (this includes attempts to check for AI generated content).",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "any data used for input for generative AI tools cannot contain the identiﬁable information or proprietary data of other people, without their express permission.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "any data used for input for generative AI tools cannot contain the identiﬁable information or proprietary data of other people, without their express permission.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "prohibited",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Staﬀ and students may not upload any content access through University-subscribed resources, including Library resources, to LLMs as this will potentially breach licence and copyright restrictions.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "permitted",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Students and staﬀ remain free to upload any of their own personal information wherever they like.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "both",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Most large language models (LLMs) are designed to continuously learn from the data that is collected from user input, as well as scraping information from the entirety of the internet.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "ethics_approval",
+     "anonymised"
+    ],
+    "ai_named": true,
+    "quote": "AI tools may not be used to analyse primary data, particularly where it involves human participants (whether collected directly or user generated), unless this is explicitly stated in the relevant ethics application and unless the data are completely anonymous.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "To protect data privacy and data governance, the use of all generative AI applications must comply with GDPR.",
+    "anchor": null
+   },
+   {
+    "value": "copyright",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Staﬀ and students may not upload any content access through University-subscribed resources, including Library resources, to LLMs as this will potentially breach licence and copyright restrictions.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "university-of-arkansas-at-fayetteville-students-genai-202610",
+  "coder": "td-t5",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "bedfordshire-students-genai-202610",
+  "coder": "td-t6",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "birkbeck-london-students-genai-202610",
+  "coder": "td-t6",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "bristol-students-genai-202610",
+  "coder": "td-t6",
+  "tools": [
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Translation tools may only be used for assessments if the assessment brief specifically allows it (for example, annotating or improving on an AI translation).",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Do not upload university-sensitive data into AI tools unless you have been given permission by academic staff.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Do not upload university-sensitive data into AI tools unless you have been given permission by academic staff.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Do not upload university-sensitive data into AI tools unless you have been given permission by academic staff.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "ucd-students-genai-202610",
+  "coder": "td-t6",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "eu_ai_act",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "It is the intention of this guide to provide a starting point for all members of the UCD community to find adequate support and links to training opportunities in order to foster the development of AI literacy skills as per the provisions of Article 4: AI literacy2 of the EU AI Act.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "west-london-students-genai-202610",
+  "coder": "td-t6",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The University of West London has opted to use Microsoft Copilot and Adobe Express as its base AI technologies.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "students",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "To keep your data as private as possible, UWL recommends you use Copilot.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Not processing personal or confidential information. For example, uncoded responses from a research survey.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Not processing personal or confidential information. For example, uncoded responses from a research survey.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Not processing personal or confidential information. For example, uncoded responses from a research survey.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Inputting confidential information into AI tools could breach GDPR and professional society ethics codes.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Not uploading someone else’s content to an AI tool where you don’t have permission to do this.",
+    "anchor": null
+   },
+   {
+    "data_type": "own_work",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Ownership (not uploading your work to non-UWL tools or giving it to other students).",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "AI can summarise a transcript of your lecture to help you discover the key points, when you have permission to do this.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Knowing what the AI tool is going to do with the information you provide to it.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Inputting confidential information into AI tools could breach GDPR and professional society ethics codes.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "national-ireland-students-genai-202610",
+  "coder": "td-t7",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Data Privacy: Use of AI tools might entail sharing sensitive information online, posing potential risks to students' privacy and data security.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "sheffield-hallam-students-genai-202610",
+  "coder": "td-t7",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "soas-london-students-genai-202610",
+  "coder": "td-t7",
+  "tools": [],
+  "data": [],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Forget any security/GDPR measures you must adhere to.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Forget any security/GDPR measures you must adhere to.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "ucb-students-genai-202610",
+  "coder": "td-t7",
+  "tools": [
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "both",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Users must understand risks of external/public AI systems",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Sensitive, personal, or confidential data must not be entered into AI tools unless approved",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "conditional",
+    "audience": "both",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Sensitive, personal, or confidential data must not be entered into AI tools unless approved",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "both",
+    "ai_named": false,
+    "quote": "Use must comply with UCB’s data security policies",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "both",
+    "ai_named": false,
+    "quote": "Data protection legislation",
+    "anchor": null
+   },
+   {
+    "value": "copyright",
+    "audience": "both",
+    "ai_named": false,
+    "quote": "Intellectual property rights",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "westminster-students-genai-202610",
+  "coder": "td-t7",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "bath-spa-students-genai-202610",
+  "coder": "td-t8",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "students",
+    "name": "Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "As the university pays for Copilot, your data is more secure than when using other forms of AI.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "students",
+    "name": "Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "If your lecturer has given permission for you to use GenAI, the university recommends the use of Copilot, as it is safe and secure so long as you are logged into your university account.",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "warned",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "There are concerns around data privacy when using tools not provided by the university, such as ChatGPT",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Always be mindful of the information you share online, including with AI platforms. Make sure you don’t share personal, sensitive, or confidential details.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Always be mindful of the information you share online, including with AI platforms. Make sure you don’t share personal, sensitive, or confidential details.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "Guidelines for copying any text or image or part thereof into any AI tool You must ensure one of the conditions applies: You have consent from the owner",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "permitted",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "You can cut and paste a section of open access text into Copilot and ask for a summary to help you understand the original.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "the university recommends the use of Copilot, as it is safe and secure so long as you are logged into your university account",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "If you are not sure the content, text or image is under copyright you must assume it is.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "gloucestershire-students-genai-202610",
+  "coder": "td-t8",
+  "tools": [
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "not_endorsed",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "The University of Gloucestershire currently doesn't endorse or provide any of the AI tools mentioned in this guide.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "it is wise to be cautious and to avoid entering confidential or personal information, and in particular to avoid entering any data that you may have collected from other people as part of your research.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "it is wise to be cautious and to avoid entering confidential or personal information, and in particular to avoid entering any data that you may have collected from other people as part of your research.",
+    "anchor": null
+   },
+   {
+    "data_type": "research_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "it is wise to be cautious and to avoid entering confidential or personal information, and in particular to avoid entering any data that you may have collected from other people as part of your research.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Check privacy policies and settings when you are using AI tools.",
+    "anchor": null
+   }
+  ],
+  "legal": []
+ },
+ {
+  "doc_id": "oxford-brookes-students-genai-202610",
+  "coder": "td-t8",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Microsoft Co-pilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Oxford Brookes students and staff have access to the data-secure Microsoft Co-pilot AI chatbot, available through a Microsoft academic institutional licence.",
+    "anchor": null
+   },
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "recommended",
+    "audience": "students",
+    "name": "Microsoft Co-pilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Oxford Brookes recommends Microsoft Co-pilot",
+    "anchor": null
+   },
+   {
+    "tool_class": "external_or_consumer_tools",
+    "stance": "conditional",
+    "audience": "students",
+    "name": null,
+    "conditions": [
+     "meets_security_policy"
+    ],
+    "ai_named": true,
+    "quote": "We recommend only using AI models or software tools that are considered safe and secure in how they handle your information.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "when using AI tools, beware of uploading any sensitive, confidential or protected data",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "when using AI tools, beware of uploading any sensitive, confidential or protected data",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Do not upload any confidential or protected data or information to Gemini.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": false,
+    "quote": "do I have the right to give it to them, is it my information and not someone else’s?",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "do I fully understand the data protection and privacy settings on this AI tool?",
+    "anchor": null
+   },
+   {
+    "value": "use_institutional_account",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "When using Microsoft Co-pilot, signing in with your Oxford Brookes log-in ensures your data is protected in accordance with Microsoft’s privacy notice.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "data_protection",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "With all Gen AI tools, if you are not fully confident they are safe and secure, and so GDPR compliant, don't enter anything you wouldn't want a human reviewer to see, or the AI model or software tool to store, use, or distribute.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "teesside-students-genai-202610",
+  "coder": "td-t8",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Never share personal, confidential, or copyrighted material with public AI tools.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Never share personal, confidential, or copyrighted material with public AI tools.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Never share personal, confidential, or copyrighted material with public AI tools.",
+    "anchor": null
+   },
+   {
+    "data_type": "university_materials",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Respect copyright — don’t upload university materials like lecture slides or readings.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Respect copyright — don’t upload university materials like lecture slides or readings.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "ulster-library-genai-guide-202610",
+  "coder": "td-t8",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Be careful when uploading personal, confidential or copyrighted material.",
+    "anchor": null
+   },
+   {
+    "data_type": "confidential_or_client_data",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Be careful when uploading personal, confidential or copyrighted material.",
+    "anchor": null
+   },
+   {
+    "data_type": "others_work_and_copyright",
+    "stance": "warned",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Be careful when uploading personal, confidential or copyrighted material.",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "bimm-students-genai-202610",
+  "coder": "td-t9",
+  "tools": [
+   {
+    "tool_class": "writing_and_translation_tools",
+    "stance": "permitted",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Using digital tools including AI to help you with things like editing and refining your writing (spelling, grammar, syntax, and clarity ) is permissible and does not require attribution.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "estate-management-students-genai-202610",
+  "coder": "td-t9",
+  "tools": [],
+  "data": [],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "heriot-watt-students-genai-202610",
+  "coder": "td-t9",
+  "tools": [
+   {
+    "tool_class": "approved_or_validated_tools",
+    "stance": "recommended",
+    "audience": "students",
+    "name": null,
+    "conditions": [],
+    "ai_named": false,
+    "quote": "Students should use HW supported technology as this has been reviewed to ensure that it protects their privacy, is cyber secure and is safe to use.",
+    "anchor": null
+   }
+  ],
+  "data": [],
+  "safeguards": [],
+  "legal": [
+   {
+    "value": "copyright",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "The output may draw on copyright information as generative AI operates by scraping information from the internet without checking the owners’ permission.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "southampton-students-genai-202610",
+  "coder": "td-t9",
+  "tools": [
+   {
+    "tool_class": "institution_provided_tool",
+    "stance": "provided",
+    "audience": "both",
+    "name": "Microsoft Copilot",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "Student and members of staff currently have access to the generative AI tool CoPilot within Microsoft Office365.",
+    "anchor": null
+   }
+  ],
+  "data": [
+   {
+    "data_type": "university_materials",
+    "stance": "prohibited",
+    "audience": "students",
+    "conditions": [],
+    "ai_named": true,
+    "quote": "sharing the materials and resources from your module tutors in a GenAI tool - you do not have permission to share these materials openly because they belong to the University",
+    "anchor": null
+   }
+  ],
+  "safeguards": [],
+  "legal": []
+ },
+ {
+  "doc_id": "tud-students-genai-202610",
+  "coder": "td-t9",
+  "tools": [],
+  "data": [
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "staff",
+    "conditions": [
+     "approved_tool_only"
+    ],
+    "ai_named": true,
+    "quote": "Personal data should not be entered into GenAI systems that are not supported/approved by the University.",
+    "anchor": null
+   },
+   {
+    "data_type": "personal_data",
+    "stance": "conditional",
+    "audience": "students",
+    "conditions": [
+     "needs_permission"
+    ],
+    "ai_named": true,
+    "quote": "No personal data should be collected, stored or uploaded to a GenAI system, without permission/consent, including images or photographs",
+    "anchor": null
+   }
+  ],
+  "safeguards": [
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "staff",
+    "ai_named": false,
+    "quote": "Personal data should be used in line with the University’s data protection policies and data protection notices (student and staff).",
+    "anchor": null
+   },
+   {
+    "value": "follow_data_protection_policy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Where specific prompts or other initial/seed inputs are used, these should be used in line with the University’s Artificial Intelligence Information Security Policy (when commenced).",
+    "anchor": null
+   },
+   {
+    "value": "check_terms_and_privacy",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Students should familiarise themselves with the capabilities and limitations of any Generative AI tool or system they propose to use, including changes that may emerge as part of a review of new product iterations, particularly those that may impact data privacy and copyright.",
+    "anchor": null
+   }
+  ],
+  "legal": [
+   {
+    "value": "eu_ai_act",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "EU AI Act 2024. 2024/1689. 12.7.2024.",
+    "anchor": null
+   }
+  ]
+ }
+]
