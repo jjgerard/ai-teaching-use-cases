@@ -1,0 +1,52 @@
+{
+ "doc_id": "mtu-students-genai-202610",
+ "coder": "cmp-c34",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The use of Generative Artificial Intelligence to generate text, materials or other outputs presented by the student as the student’s own work.",
+   "anchor": "5.6.14"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "The use of Generative Artificial Intelligence that does not comply with assignment instructions;",
+   "anchor": "5.6.14"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Unauthorised use of Generative Artificial Intelligence.",
+   "anchor": "5.6.14",
+   "tier": "Unauthorised use"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "The use of Generative Artificial Intelligence that does not comply with assignment instructions;"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "batch": "c39",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "london-south-bank-students-genai-202610",
+   "note": "Skills for Success team and drop-in support would be named_academic_support, but that form already has a row (librarians); one row per form. Declaration duty coded conditional from 'any declarations that need to be submitted'."
+  },
+  {
+   "doc_id": "newman-students-genai-202610",
+   "note": "Only video titles and nav labels; nothing further the vocabularies can hold."
+  },
+  {
+   "doc_id": "ollscoil-na-gaillimhe-galway-students-genai-202610",
+   "note": "Existing ai_named false offence rows left as is. Misconduct validator allows one row per value, so second quotes for existing values (e.g. falsified references, essay mills, collusion in projects, selling assignments) could not be added. Existing ignorance_mitigates quote is weak but not edited. staff_development row is academic-integrity education, not AI-specific."
+  },
+  {
+   "doc_id": "abertay-students-genai-202610",
+   "note": "One row per value limits extras (AI-named contract cheating already coded on AI quote; false citation, device-in-exam, in-Faculty warning not addable). Duty not coded for acknowledgement (only 'appropriate acknowledgement' in misconduct definition)."
+  }
+ ],
+ "added": {
+  "london-south-bank-students-genai-202610": {
+   "uses": 2,
+   "support": 0,
+   "misconduct": 0
+  },
+  "newman-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "ollscoil-na-gaillimhe-galway-students-genai-202610": {
+   "uses": 0,
+   "support": 1,
+   "misconduct": 5
+  },
+  "abertay-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 4
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "doc_id": "abertay-students-genai-202610",
+ "coder": "cmp-c39",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Unacceptable use of AI (Artificial Intelligence) is where a student uses an AI tool/s to generate academic work on their behalf and presents AI ideas as their own without appropriate acknowledgement.",
+   "anchor": "Academic Misconduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Unacceptable use of AI (Artificial Intelligence) is where a student uses an AI tool/s to generate academic work on their behalf and presents AI ideas as their own without appropriate acknowledgement."
+  },
+  "exempt": []
+ }
+}

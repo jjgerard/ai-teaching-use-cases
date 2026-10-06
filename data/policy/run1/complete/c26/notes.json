@@ -1,0 +1,57 @@
+{
+ "batch": "c26",
+ "unmapped": [
+  {
+   "doc_id": "ucd-d2-misconduct-procedure-202610",
+   "quote": "unauthorised and / or unacknowledged use of paraphrasing or translation software to, for example, disguise plagiarism, collusion, contract cheating or other academic integrity breach.",
+   "what_it_says": "Unacknowledged paraphrasing/translation software use is an integrity breach (not coded as translate row: AI not clearly named)."
+  },
+  {
+   "doc_id": "ul-d2-assessment-policy-202610",
+   "quote": "We urge staff and students not to upload student assignments/assessments to any websites or tools to check for AI use.",
+   "what_it_says": "Staff and students urged not to upload student work to AI-checking tools (data rule, no fitting misconduct value)."
+  },
+  {
+   "doc_id": "ucc-d2-misconduct-procedure-202610",
+   "quote": "Academic misconduct will not appear on the student’s transcript.",
+   "what_it_says": "Misconduct findings are kept off the transcript (no outcome value fits)."
+  },
+  {
+   "doc_id": "ucd-d2-misconduct-procedure-202610",
+   "quote": "It is noted that the UCD Plagiarism Tariff is not appropriate for guiding penalties in relation to other categories of academic misconduct, such as the unauthorised use of generative AI.",
+   "what_it_says": "The plagiarism tariff does not apply to unauthorised generative AI use (tariff_or_factors key already used)."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "ucd-d2-misconduct-procedure-202610",
+   "note": "Existing disguising_use misconduct row has ai_named false although paraphrasing/translation software is not clearly AI; left as is."
+  },
+  {
+   "doc_id": "tcd-d2-misconduct-procedure-202610",
+   "note": "Little AI-specific misconduct wording; no support forms added (Ready Steady Write tutorial and Academic Integrity guide are not AI-specific)."
+  }
+ ],
+ "added": {
+  "tcd-d2-misconduct-procedure-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 1
+  },
+  "ucc-d2-misconduct-procedure-202610": {
+   "uses": 2,
+   "support": 0,
+   "misconduct": 10
+  },
+  "ucd-d2-misconduct-procedure-202610": {
+   "uses": 2,
+   "support": 0,
+   "misconduct": 6
+  },
+  "ul-d2-assessment-policy-202610": {
+   "uses": 6,
+   "support": 0,
+   "misconduct": 5
+  }
+ }
+}

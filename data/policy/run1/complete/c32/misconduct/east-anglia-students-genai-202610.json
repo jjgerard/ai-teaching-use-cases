@@ -1,0 +1,73 @@
+{
+ "doc_id": "east-anglia-students-genai-202610",
+ "coder": "cmp-c32",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "If you use artificial intelligence software to complete the work for you, that will be plagiarism. In some cases, it will reach the level of contract cheating",
+   "anchor": null
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "If you use artificial intelligence software to complete the work for you, that will be plagiarism. In some cases, it will reach the level of contract cheating",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "you are not allowed to use that software to complete the assessment (or any part of it) for you.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "UEA has approved the use of the TurnitIn AI detection software for taught programmes",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "restricted",
+   "ai_named": true,
+   "quote": "UEA has approved the use of the TurnitIn AI detection software for taught programmes, but this must be used with caution by Plagiarism Officers only due to reported inaccuracy",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "UEA has approved the use of the TurnitIn AI detection software for taught programmes, but this must be used with caution by Plagiarism Officers only due to reported inaccuracy",
+   "anchor": null
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "You can sometimes detect ChatGPT generated text by experience of looking at the outputs.",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "There are detection tools available. You can use ZeroGPT, there are also tools available from TurnitIn",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "merely one factor in potentially identifying submissions which warrant further investigation",
+   "anchor": null
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}

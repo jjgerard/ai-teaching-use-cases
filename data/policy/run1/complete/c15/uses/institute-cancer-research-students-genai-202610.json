@@ -1,0 +1,102 @@
+{
+ "doc_id": "institute-cancer-research-students-genai-202610",
+ "coder": "cmp-c15",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "person or generative AI tool to complete the majority of the assignment, with minimal input",
+   "anchor": "10. Appendix: Penalties"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "use of AI to summarise background content without disclosure",
+   "anchor": "10. Appendix: Penalties"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "undisclosed use of AI tools for writing support, paraphrasing or translation.",
+   "anchor": "10. Appendix: Penalties"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "undisclosed use of AI tools for writing support, paraphrasing or translation.",
+   "anchor": "10. Appendix: Penalties"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "research_or_thesis",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "including plagiarism, fabrication of data, falsifying the results of laboratory, field work or other forms of data collection and analysis.",
+   "anchor": "1.4. Definitions and glossary",
+   "ai_named": false
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "research_or_thesis",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "collusion, or AI authorship (e.g. AI-generated thesis",
+   "anchor": "10. Appendix: Penalties"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "research_or_thesis",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "plagiarism, collusion, or inappropriate use of generative AI (e.g. use of AI to summarise background content without disclosure, or light editing of AI-generated text).",
+   "anchor": "10. Appendix: Penalties"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This may include indications of abrupt changes of writing style, mismatch with previous work, and/or fabricated references or citations.",
+   "anchor": "4. Initial review"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Not disclosing third-party contributions to assessed work."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Not disclosing third-party contributions to assessed work."
+  },
+  "exempt": []
+ }
+}

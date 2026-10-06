@@ -1,0 +1,36 @@
+{
+ "batch": "c38",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "edge-hill-students-genai-202610",
+   "note": "Page is a repository record for a guide; no further content codable."
+  },
+  {
+   "doc_id": "falmouth-students-genai-202610",
+   "note": "AI-specific misconduct wording absent; scope kept general_misconduct. Generic misrepresentation not mapped to passing_off."
+  }
+ ],
+ "added": {
+  "edge-hill-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "falmouth-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 1
+  },
+  "st-marys-twickenham-london-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "city-st-georges-london-students-genai-202610": {
+   "uses": 1,
+   "support": 2,
+   "misconduct": 0
+  }
+ }
+}

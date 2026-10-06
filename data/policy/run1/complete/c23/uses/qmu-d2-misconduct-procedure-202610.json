@@ -1,0 +1,59 @@
+{
+ "doc_id": "qmu-d2-misconduct-procedure-202610",
+ "coder": "cmp-c23",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Such work would include, but is not limited to work obtained from an essay bank or website essay writing service, or produced by an Artificial Intelligence language model programme.",
+   "anchor": "3. Student Responsibility in Assessment"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Plagiarism, including the unauthorized and unattributed use of generative AI in written assignments",
+   "anchor": "6.2 Academic Misconduct"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Changing, creating or misrepresenting information or data in order to deceive.",
+   "anchor": "Falsification",
+   "ai_named": false
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Familiarise themselves with the assessment schedule and assessment specification for all modules on their programme, including an awareness of the extent to which generative AI can be used in any given assessment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Plagiarism, including the unauthorized and unattributed use of generative AI in written assignments"
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Plagiarism, including the unauthorized and unattributed use of generative AI in written assignments"
+  },
+  "exempt": []
+ }
+}

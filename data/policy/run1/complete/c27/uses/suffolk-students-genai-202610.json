@@ -1,0 +1,148 @@
+{
+ "doc_id": "suffolk-students-genai-202610",
+ "coder": "cmp-c27",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Using Generative AI to create or substantially edit work submitted for assessment, without explicit permission and without acknowledging its contribution, constitutes academic misconduct.",
+   "anchor": "Use of Generative AI in research activities"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement",
+    "limited_extent"
+   ],
+   "quote": "Using Generative AI to create or substantially edit work submitted for assessment, without explicit permission and without acknowledging its contribution, constitutes academic misconduct.",
+   "anchor": "Use of Generative AI in research activities"
+  },
+  {
+   "use": "analyse_data",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Be transparent about their use of AI tools, clearly documenting where such tools have contributed to data analysis, literature review, writing, or other aspects of the research process.",
+   "anchor": "Use of Generative AI in research activities"
+  },
+  {
+   "use": "find_sources",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Be transparent about their use of AI tools, clearly documenting where such tools have contributed to data analysis, literature review, writing, or other aspects of the research process.",
+   "anchor": "Use of Generative AI in research activities"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Whilst the use of assistive technologies is not prohibited, users must comply with this policy and the ‘AI Traffic Light System’ and other University guidance, to ensure that academic misconduct does not occur.",
+   "anchor": "AI and assistive technologies"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Students on placement and work-based projects or equivalent should check the policy and approach to the use of AI tools of the placement provider or employer and ensure that their behaviour and practice whilst in the workplace also aligns with that policy.",
+   "anchor": "Institutional practice"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "AI-generated content must not be presented as original work.",
+   "anchor": "Use of Generative AI in research activities"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "research_or_thesis",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Critically evaluate all AI outputs for accuracy, bias, and relevance, recognising that these tools can produce misleading or fabricated information, including false citations.",
+   "anchor": "Use of Generative AI in research activities"
+  },
+  {
+   "use": "analyse_data",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Where AI tools, including AI language models are used, for assistance with writing, research or analysis, this must be acknowledged and properly referenced.",
+   "anchor": "Acknowledging and referencing use of AI tools"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "The Policy allows for differential use across the University according to discipline but must align with institutional policy and guidance and be clearly and consistently communicated to students."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Expectations for the appropriate use of Generative AI within a discipline must be clearly defined, consistently applied, and communicated to students by academic staff, including explicitly within assessment briefs."
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "Support will be provided to students through mandatory training accompanied by guidance including the ‘AI traffic light system’."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Establish and maintain a shared understanding within teaching teams regarding permitted, encouraged, restricted, or prohibited uses of Generative AI for each module or course."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Students will be required to complete an AI use declaration for all assessments. Failure to accurately declare use may constitute academic misconduct."
+  },
+  "contents": [],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "Students will be required to complete an AI use declaration for all assessments."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Students must follow institutional guidance for acknowledgement, attribution and referencing; and what constitutes inappropriate or unacceptable use."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Failure to accurately declare use may constitute academic misconduct."
+  },
+  "exempt": []
+ }
+}

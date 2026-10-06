@@ -1,0 +1,55 @@
+{
+ "batch": "c25",
+ "unmapped": [
+  {
+   "doc_id": "royal-surgeons-in-ireland-d2-misconduct-procedure-202610",
+   "quote": "RCSI reserves the right to avail of any technological or other means available to it to detect academic misconduct in respect of any assessment or other academic activity undertaken by any of its students.",
+   "what_it_says": "Reserves right to use unspecified technological means to detect misconduct; no method named."
+  },
+  {
+   "doc_id": "mary-immaculate-d2-other-202610",
+   "quote": "Include elements for students to record their individual pathways of thinking, demonstrating students own work. ePortfolios are good examples of requiring students to record their individual pathways of thinking.",
+   "what_it_says": "Staff-facing assessment design advice (viva, staged drafts, oral assessment) to design out GenAI; prevention not detection, not coded."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "royal-surgeons-in-ireland-d2-misconduct-procedure-202610",
+   "note": "Not coded as support: mandatory completion of the RCSI online Academic Integrity resource (integrity, not AI-specific). Existing rely_on_ai_as_source row (prohibited) concerns fabricated output; added row is a discouraged critiquing duty, a loose fit."
+  },
+  {
+   "doc_id": "mary-immaculate-d2-other-202610",
+   "note": "Course row is an external open course named as source of adapted material; audience unspecified. Academic Learning Centre and Library supports are about referencing/notetaking, not AI, so not coded."
+  },
+  {
+   "doc_id": "dundalk-institute-technology-d2-misconduct-procedure-202610",
+   "note": "No AI-specific uses beyond existing rows; training duties concern academic integrity generally."
+  },
+  {
+   "doc_id": "highlands-and-islands-d2-misconduct-procedure-202610",
+   "note": "Existing use row for GAI with permission says referenced or acknowledged; consequence field filled from the plagiarism list lead-in."
+  }
+ ],
+ "added": {
+  "dundalk-institute-technology-d2-misconduct-procedure-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 2
+  },
+  "highlands-and-islands-d2-misconduct-procedure-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 4
+  },
+  "mary-immaculate-d2-other-202610": {
+   "uses": 0,
+   "support": 1,
+   "misconduct": 3
+  },
+  "royal-surgeons-in-ireland-d2-misconduct-procedure-202610": {
+   "uses": 7,
+   "support": 0,
+   "misconduct": 5
+  }
+ }
+}

@@ -1,0 +1,294 @@
+{
+ "doc_id": "wales-trinity-saint-david-d2-misconduct-procedure-202610",
+ "coder": "cmp-c22",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "using AI to generate material for submission where this is not permitted;",
+   "anchor": "3.1.1.5"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "using AI to generate material for submission where this is not permitted;",
+   "anchor": "3.1.1.5"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "Using automated paraphrasing software.",
+   "anchor": "3.1.1.1"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsifying data, evidence or experimental results",
+   "anchor": "3.1.1.4"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "use of an essay writing service or buying work online;",
+   "anchor": "3.1.1.5"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "“Plagiarism” – presenting someone else’s work or ideas as the student’s own, including",
+   "anchor": "3.1.1.1"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "“Cheating in examinations” (or other formal assessment), including possession of unauthorised material or technology during an examination",
+   "anchor": "3.1.1.6"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Enabling Plagiarism – making assignment work, including old assignment work, available to others.",
+   "anchor": "3.1.1.9"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "arranging for someone else to impersonate a student in relation to an assessment;",
+   "anchor": "3.1.1.5"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "“Self-plagiarism” – submitting work that the student has already submitted for another assessment when this is not permitted;",
+   "anchor": "3.1.1.2"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "A claim that Academic Misconduct has been committed unintentionally or accidentally is no defence.",
+   "anchor": "2.5"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "“Poor Academic Practice” – is judged to be a minor breach of standard academic conventions, such as poorly attributed or incorrect referencing to a limited extent, or over-reliance on referenced material.",
+   "anchor": "3.1.2"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Ensure that everything goes through Turnitin.",
+   "anchor": "28.5.7"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "Tutors must recognise that the % similarity score is not an absolute identifier of academic misconduct.",
+   "anchor": "28.5.2"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "In identifying academic misconduct, it is important to use academic judgement appropriately, and that where academic judgement is made it must be evidence-based.",
+   "anchor": "28.5.1"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "In cases where it is difficult to document evidence of academic misconduct a viva voce examination will be convened by the Academic Misconduct Co-ordinator.",
+   "anchor": "28.5.20"
+  },
+  {
+   "method": "forensic_or_specialist_analysis",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Where a Formal Panel requires the advice of an expert to deal with a question of fact or special difficulty, such an expert may provide a written report in advance of the panel",
+   "anchor": "14. Academic Misconduct Investigation Panel and Formal Panels"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "Students are able to approach a member of staff, e.g. their Programme Manager, Lecturer, or Academic Misconduct Co-ordinator, to discuss informally any concerns",
+   "anchor": "8.1"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "In all other cases the allegation of academic misconduct will be referred to the Academic Misconduct Investigation Panel.",
+   "anchor": "13.9.4"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The Academic Misconduct Co-ordinator shall undertake an investigation into the allegation to determine whether or not there is sufficient evidence of academic misconduct to proceed with the allegation.",
+   "anchor": "11.1"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student will be asked to respond to the allegation, normally within 14 days, either accepting or denying the allegation of academic misconduct.",
+   "anchor": "13.6"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "the Panel may decide to require the student to attend a Formal Panel meeting in person.",
+   "anchor": "14.5"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "the University reserves the right to proceed with such a meeting in the absence of the student, subject to the student having been properly notified of the date and time of the meeting.",
+   "anchor": "9.9"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "All students will have the right to be accompanied by a person of their choosing at any meeting associated with the Academic Misconduct process",
+   "anchor": "7.6"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "If the student is dissatisfied with the outcome of the formal stage, they may be able to request a review.",
+   "anchor": "16.1"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The Academic Misconduct Investigation Panel shall normally meet within 30 days of receipt of the allegation.",
+   "anchor": "14.4"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The standard of proof to be applied is “on the balance of probabilities”.",
+   "anchor": "2.4"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "the outcome is noted on the student’s record and the student may be placed on a monitoring system such as Academic Probation.",
+   "anchor": "27.1"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "The probation programme will include the requirement to complete the University’s academic misconduct refresher module provided on Moodle.",
+   "anchor": "28.3"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "190 – 329 Formal warning letter (further offences will be repeat offences)",
+   "anchor": "27.2.8"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "330 – 424 Component awarded mark of 0% (fail)",
+   "anchor": "27.2.8"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "425 – 524 All components in module awarded mark of 0% (fail)",
+   "anchor": "27.2.8"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "525 – 559 Student expelled from University and is disqualified from any further study at the University (retains credit previously gained)",
+   "anchor": "27.2.8"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "If it is subsequently substantiated that there has been previous academic misconduct, the Panel has discretion to decide that the student will lose all credit from the programme of study.",
+   "anchor": "27.2.9.2"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Failure to complete this module will result in an increased penalty for any subsequent substantiated allegations.",
+   "anchor": "28.3"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "If an allegation has been substantiated, then the following will be used to calculate the penalty imposed:",
+   "anchor": "27.2"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "This policy may be applied to former students of the University of Wales Trinity Saint David if it becomes clear that academic misconduct took place in the pursuit of their award.",
+   "anchor": "4.3"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "academic misconduct",
+   "ai_named": false,
+   "quote": "“Academic Misconduct” – Any action by a student which gives or has the potential to give an unfair advantage in an examination or assessment, or might assist someone else to gain an unfair advantage, or any activity likely to undermine the integrity essential to scholarship and research."
+  },
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "“Plagiarism” – presenting someone else’s work or ideas as the student’s own, including"
+  },
+  {
+   "term": "self-plagiarism",
+   "ai_named": false,
+   "quote": "“Self-plagiarism” – submitting work that the student has already submitted for another assessment when this is not permitted;"
+  },
+  {
+   "term": "collusion",
+   "ai_named": false,
+   "quote": "“Collusion” – working with someone else on an assessment which is intended to be the student’s own work and leads to the work being submitted that is substantially different from what they originally wrote;"
+  },
+  {
+   "term": "false authorship",
+   "ai_named": false,
+   "quote": "“False Authorship” – where someone completes work for a student who then submits it as their own, including:"
+  },
+  {
+   "term": "poor academic practice",
+   "ai_named": false,
+   "quote": "“Poor Academic Practice” – is judged to be a minor breach of standard academic conventions, such as poorly attributed or incorrect referencing to a limited extent, or over-reliance on referenced material."
+  },
+  {
+   "term": "enabling plagiarism",
+   "ai_named": false,
+   "quote": "Enabling Plagiarism – making assignment work, including old assignment work, available to others."
+  },
+  {
+   "term": "cheating in examinations",
+   "ai_named": false,
+   "quote": "“Cheating in examinations” (or other formal assessment), including possession of unauthorised material or technology during an examination, and attempting to access unseen assessment materials in an advance of an examination;"
+  },
+  {
+   "term": "student",
+   "ai_named": false,
+   "quote": "“Student” - any person enrolled or registered to follow a Programme of Study or module(s) offered by the University."
+  },
+  {
+   "term": "assessment",
+   "ai_named": false,
+   "quote": "“Assessment” - any assessment leading to credit which counts towards a student’s overall result."
+  }
+ ]
+}

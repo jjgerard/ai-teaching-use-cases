@@ -1,0 +1,35 @@
+{
+ "doc_id": "ollscoil-na-gaillimhe-galway-students-genai-202610",
+ "coder": "cmp-c39",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Submitting all or part of an assessment item which has been produced using artificial intelligence (e.g. Google Translate or other machine translation services/software, generative AI, etc.) and claiming it as your own work.",
+   "anchor": "2.0 Description"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Submitting all or part of an assessment item which has been produced using artificial intelligence (e.g. Google Translate or other machine translation services/software, generative AI, etc.) and claiming it as your own work.",
+   "anchor": "2.0 Description"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

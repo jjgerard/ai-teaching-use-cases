@@ -1,0 +1,452 @@
+{
+ "doc_id": "canterbury-students-genai-202610",
+ "coder": "cmp-c33",
+ "uses": [
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "planning an assignment",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "generating ideas for a topic",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "learning new concepts (cross-check facts with reputable sources)",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "creating revision materials",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "You may not use GenAI to produce work for assessment, unless explicitly told to do so by your module lead.",
+   "anchor": "Using genAI at CCCU by Education and Student Success"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Only use GenAI to produce work for assessed presentations with the explicit permission of your module lead.",
+   "anchor": "Presentations (slides and posters)"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "GenAI tools can help to shorten and simplify sentences for speech, or transcribe your speech so you can refine it further.",
+   "anchor": "Presentations (slides and posters)"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "correct or suggest appropriate SPaG",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "define or translate words for English comprehension",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "translate or rewrite blocks of text",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "generate or extensively edit work for assessment",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "These images might provide inspiration or starting points for your own projects.",
+   "anchor": "Image generation"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Always ensure you check the specific criteria for each assignment and give a reference for the code in your work.",
+   "anchor": "Computer code"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "research_or_thesis",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You might use GenAI to help you to develop ideas or identify relevant sources during the research process",
+   "anchor": "Evaluating information"
+  },
+  {
+   "use": "find_sources",
+   "context": "research_or_thesis",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You might use GenAI to help you to develop ideas or identify relevant sources during the research process",
+   "anchor": "Evaluating information"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Always reference GenAI in your work. Do not submit work produced in whole or part by GenAI tools, either verbatim or after paraphrasing, without citation.",
+   "anchor": "Referencing and declaring the use of GenAI"
+  },
+  {
+   "use": "analyse_data",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Use GenAI platforms to undertake data analysis, evaluation or calculations without acknowledgement.",
+   "anchor": "Academic integrity and plagiarism"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "account_or_age_limit"
+   ],
+   "quote": "Under 18s are not currently permitted to use GenAI.",
+   "anchor": "Privacy and data protection"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "to falsely insert references;",
+   "anchor": "How do I avoid academic misconduct when using digital tools for proofreading?",
+   "ai_named": false
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Do not request that the GenAI platform creates images and videos that are close copies of copyrighted outputs.",
+   "anchor": "Copyright",
+   "ai_named": true
+  },
+  {
+   "use": "harmful_or_deceptive_content",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Ensure you do not perpetuate bias and stereotyping that is offensive and harmful, for instance, around gender, race, and disability.",
+   "anchor": "Image generation",
+   "ai_named": false
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "research_or_thesis",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "it can supplement your own research and critical thinking skills, not replace them.",
+   "anchor": "Research and GenAI",
+   "ai_named": false
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "producing work that will be assessed",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "GenAI cannot be used in writing your assignments, unless it has been specified as a part of your assessment at levels 2-5 of the Artificial Intelligence Assessment Scale (AIAS) .",
+   "anchor": "What can I not use GenAI for?",
+   "tier": "AIAS 2-5"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "If your assessment is specifically and explicitly designed to use GenAI it will be rated 3, 4 or 5 and this will be written into the module handbook.",
+   "anchor": "What can I use GenAI for?",
+   "tier": "AIAS 3-5"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "All use of GenAI in assessment should be acknowledged and referenced.",
+   "anchor": "What does this mean? A glossary of keywords"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "generate or extensively edit work for assessment",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)",
+   "tier": "SPaG do nots"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "However, they should not be used to replace your written work, by copying content or to prevent you developing your writing by uncritically accepting corrections or edits to your work.",
+   "anchor": "Written work (essays, reports, and dissertations)",
+   "tier": "Written work"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "translate or rewrite blocks of text",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)",
+   "tier": "SPaG do nots"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "overly rely on tools at the expense of learning",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "identify common errors in your work",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using GenAI tools can enhance the development of academic writing skills by offering a more sophisticated self-directed practice.",
+   "anchor": "Written work (essays, reports, and dissertations)"
+  },
+  {
+   "use": "translate",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "GenAI can make language learning more effective and more accessible; it can be engaging and fun.",
+   "anchor": "Written work (essays, reports, and dissertations)"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "research_or_thesis",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "They can retrieve data, summarise it, present it in a variety of formats, allow you to manipulate and tweak the data, and they can do all of this very quickly.",
+   "anchor": "Conducting research using GenAI"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "research_or_thesis",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "GenAI can be useful as a research assistant or learning partner; it can supplement your own research and critical thinking skills, not replace them.",
+   "anchor": "Research and GenAI"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "so view any information given or content generated with caution and a critical eye.",
+   "anchor": "Evaluating information"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "An over-reliance on GenAI may hinder your own critical skills development.",
+   "anchor": "Evaluating information"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "to paraphrase without understanding the text or how it contributes to their work;",
+   "anchor": "How do I avoid academic misconduct when using digital tools for proofreading?",
+   "ai_named": false
+  },
+  {
+   "use": "generate_code",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "However, lecturers will be assessing your ability to create and modify code, problem solve and understand coding concepts, so use these tools for learning.",
+   "anchor": "Computer code"
+  },
+  {
+   "use": "personal_advice",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "it is important to maintain a healthy balance and be mindful not to become overly reliant on its responses or let the information it provides overly influence our own thoughts and decisions.",
+   "anchor": "Wellbeing"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Before we look at how GenAI can be used, consider whether you really need to use a GenAI tool for your task.",
+   "anchor": "Do I need to use GenAI?"
+  }
+ ],
+ "default_when_silent": {
+  "value": "use_by_use_rule",
+  "quote": "You may not use GenAI to produce work for assessment, unless explicitly told to do so by your module lead."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Always check and follow the guidance provided by your lecturers if you are considering using GenAI for your academic work."
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "your module assessment will be rated 1-5 using the Artificial Intelligence Assessment Scale (AIAS) found in your module handbook."
+  },
+  {
+   "value": "institution_wide",
+   "quote": "GenAI should be used in accordance with the guidance given here."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "You must acknowledge all use of GenAI in the preparation for assessment and reference its direct use correctly (see the section on Referencing above)."
+  },
+  "contents": [],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "Always acknowledge the use of GenAI in your work using the relevant statement provided in your module handbook."
+   },
+   {
+    "value": "with_references",
+    "quote": "Always reference GenAI in your work."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "Always reference GenAI in your work."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Without acknowledgement of the use of a GenAI tool, you risk academic misconduct."
+  },
+  "exempt": []
+ }
+}

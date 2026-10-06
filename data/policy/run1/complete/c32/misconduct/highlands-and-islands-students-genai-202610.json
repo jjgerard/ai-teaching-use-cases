@@ -1,0 +1,39 @@
+{
+ "doc_id": "highlands-and-islands-students-genai-202610",
+ "coder": "cmp-c32",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "failure to cite and reference GAI content will be treated as a form of academic misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": false,
+   "quote": "Misuse of these technologies (including that which compromises the integrity and originality of the student's work) will be penalised as normal and subject to normal misconduct processes.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "If you and several other students then made use of the GAI generated content, it could be detected by Turnitin as not being original work.",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "will be penalised as normal and subject to normal misconduct processes.",
+   "anchor": null
+  }
+ ],
+ "definitions": []
+}

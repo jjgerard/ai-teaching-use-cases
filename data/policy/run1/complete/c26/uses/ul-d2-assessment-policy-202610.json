@@ -1,0 +1,54 @@
+{
+ "doc_id": "ul-d2-assessment-policy-202610",
+ "coder": "cmp-c26",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "If AI is used in a manner which has not been permitted by the module leader, then this is a breach of academic integrity.",
+   "anchor": "What is the University’s position on the use of AI for teaching, learning and assessment activities?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "it is the responsibility of the module leader/equivalent to decide and communicate the level of acceptable use of AI to students"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "These approaches focus on requiring students to declare and/or describe the level of AI use within their work."
+  },
+  "contents": [
+   {
+    "value": "extent_or_scope",
+    "quote": "Declarative approaches, require students to include an acknowledgement or declaration template as part of an assessment, to indicate the nature and extent of AI use"
+   },
+   {
+    "value": "how_used",
+    "quote": "Declarative approaches, require students to include an acknowledgement or declaration template as part of an assessment, to indicate the nature and extent of AI use"
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "Declarative approaches, require students to include an acknowledgement or declaration template as part of an assessment, to indicate the nature and extent of AI use"
+   },
+   {
+    "value": "appendix",
+    "quote": "Discursive approaches require students to indicate, often through commentary and/or appendices, the level of AI use within an assessment."
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

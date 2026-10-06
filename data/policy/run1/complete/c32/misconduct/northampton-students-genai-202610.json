@@ -1,0 +1,30 @@
+{
+ "doc_id": "northampton-students-genai-202610",
+ "coder": "cmp-c32",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "If you have used AI in a piece of assessed work at UON, you must make it clear where and how you have used AI output, not doing so can be seen as Academic Misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Not doing so can be seen as academic misconduct. In particular, you should not pass off content produced by AI as your own work.",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Use AI where prohibited or in ways that breach academic integrity requirements.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [],
+ "definitions": []
+}

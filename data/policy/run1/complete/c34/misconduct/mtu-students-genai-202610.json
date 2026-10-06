@@ -1,0 +1,181 @@
+{
+ "doc_id": "mtu-students-genai-202610",
+ "coder": "cmp-c34",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Submitting work as one’s own for assessment, which has, in fact, been done in whole or in part by someone else or submitting work which has been created artificially, e.g., by a machine or through artificial intelligence.",
+   "anchor": "5.6.1"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Unauthorised use of Generative Artificial Intelligence.",
+   "anchor": "5.6.14"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "it may be use of a ghost writer to carry out assessed work which is then submitted as the learner’s own work",
+   "anchor": "5.6.1"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Misrepresenting research including, but not limited to, fabrication of data, falsification of data and plagiarism",
+   "anchor": "5.6.5"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "work in which the learner has included unreferenced material taken from another source(s) (plagiarism)",
+   "anchor": "5.6.1"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Cheating in exams",
+   "anchor": "5.6.11"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Helping a peer to do their assignment which develops into the helper doing some or all of the assignment",
+   "anchor": "5.6.9"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Bribery, i.e., the offering, promising, giving, accepting or soliciting of an advantage as an inducement for an action",
+   "anchor": "5.6.6"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism",
+   "anchor": "5.6.13"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Academic misconduct can be either intentional or inadvertent.",
+   "anchor": "5.6"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "The determination of the penalties will take into account the gravity of the academic misconduct, the scale of the unfair advantage potentially gained, and the degree to which the act of misconduct was premeditated and deliberate.",
+   "anchor": "5.2.11"
+  }
+ ],
+ "detection": [
+  {
+   "method": "forensic_or_specialist_analysis",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Staff will be able to refer suspected cases of academic misconduct to a specialist function which can analyse files and other digital content, and, as appropriate, internet and software usage to help gather evidence to determine the probability and extent of possible misconduct.",
+   "anchor": "5.3.2"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "When a case of academic misconduct is considered to be of a serious nature, such a case will be referred for formal inquiry to the UAMB by the relevant Head of Department",
+   "anchor": "5.10"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "All instances of alleged academic misconduct will be investigated effectively and efficiently.",
+   "anchor": "5.2.6"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "At each stage of the procedure, the student will be informed of the allegations and offered an opportunity to respond within a defined time frame.",
+   "anchor": "5.11"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Stage 2 - Formal Hearing by University Academic Misconduct Board (UAMB)",
+   "anchor": "5.11"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student may bring a student colleague of their choice or a sabbatical officer of the Students’ Union to any meeting held under this policy and associated procedure.",
+   "anchor": "5.11"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A student may appeal a Stage 1b decision to the UAMB within the prescribed timeframe.",
+   "anchor": "6"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The level of proof is “on the balance of probabilities” (i.e., whether it is more likely than not that the action or event occurred).",
+   "anchor": "5.5"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "When students have been found to have engaged in academic misconduct, as part of the process outlined in this policy their name is entered on the Academic Misconduct Register.",
+   "anchor": "5.7"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "If the student is already on the Academic Misconduct Register or if the alleged misconduct is deemed to be a Level 2 or a Level 3 violation, the case will be referred to the University Academic Misconduct Board",
+   "anchor": "5.11"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The determination of the penalties will take into account the gravity of the academic misconduct, the scale of the unfair advantage potentially gained, and the degree to which the act of misconduct was premeditated and deliberate.",
+   "anchor": "5.2.11"
+  },
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Penalties imposed for academic misconduct will be proportionate, appropriate, objective and relevant.",
+   "anchor": "5.2.10"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct covers all behaviours which contravene academic integrity."
+  },
+  {
+   "term": "Academic Misconduct Register",
+   "ai_named": false,
+   "quote": "The Academic Misconduct Register is a database of records on Academic Misconduct."
+  },
+  {
+   "term": "Departmental Review Panel",
+   "ai_named": false,
+   "quote": "The Departmental Review Panel (DRP) is convened by the Module Coordinator/Head of Department to consider and decide upon allegations of minor academic misconduct."
+  },
+  {
+   "term": "University Academic Misconduct Board",
+   "ai_named": false,
+   "quote": "The University Academic Misconduct Board is a standing board of the University which is appointed by the Academic Council and is responsible for investigating and adjudicating allegations of Academic Misconduct."
+  },
+  {
+   "term": "academic integrity",
+   "ai_named": false,
+   "quote": "and professional principles, standards and practices, and consistent system of values, that"
+  }
+ ]
+}

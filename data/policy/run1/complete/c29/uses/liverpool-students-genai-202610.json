@@ -1,0 +1,44 @@
+{
+ "doc_id": "liverpool-students-genai-202610",
+ "coder": "cmp-c29",
+ "uses": [
+  {
+   "use": "analyse_data",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools can help you organise, visualise and analyse data more efficiently.",
+   "anchor": "Online tutorials - using AI effectively"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools can provide information which is incorrect or biased, so it is important to apply your critical thinking skills to check the reliability of outputs",
+   "anchor": "Online tutorials - using AI effectively"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools can be used to enhance and support traditional research methods and save time throughout various stages of the research process.",
+   "anchor": "Online tutorials - using AI effectively"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

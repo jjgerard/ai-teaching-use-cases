@@ -1,0 +1,64 @@
+{
+ "doc_id": "middlesex-london-students-genai-202610",
+ "coder": "cmp-c35",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "It is not acceptable for students or staff to use Gen AI in contexts where use may gain an unfair advantage over others, and / or to claim the production of work which an individual has not produced.",
+   "anchor": "para 21"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Paraphrase the work of others, including other staff, students or organisations.",
+   "anchor": "para 22b"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Manipulate or fabricate data or research findings.",
+   "anchor": "para 22e"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Produce and submit assessed work where the use of Gen AI has been cited, but the work has been produced using a prompt which would be in contravention of good academic practice",
+   "anchor": "para 22d"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": false,
+   "quote": "To translate work originally produced in a language other than English, without appropriate acknowledgement or citation of the original source.",
+   "anchor": "para 22c"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "AI detection tools continue to generate an unproportionate number of ‘false positives’, meaning that results are not sufficiently reliable as a basis for judging academic misconduct investigations.",
+   "anchor": "para 24"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "to make human decisions on the potential use of Gen AI in the production of student assessed work, where the assessed work is categorised as being ‘red’ or ‘amber’.",
+   "anchor": "para 26"
+  }
+ ],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "the individual may be subject to action taken under the relevant policy, for example the Academic Misconduct Policy.",
+   "anchor": "para 28"
+  }
+ ],
+ "definitions": []
+}

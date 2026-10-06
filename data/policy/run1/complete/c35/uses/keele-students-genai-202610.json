@@ -1,0 +1,36 @@
+{
+ "doc_id": "keele-students-genai-202610",
+ "coder": "cmp-c35",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Staff should remind students that they must disclose when AI tools have been used in their work, that they require proper citation and refer them to the Academic Misconduct Code of Practice",
+   "anchor": "3.2 Students will be supported to use AI tools ethically and appropriate in their learning"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Students must be advised on how AI can be used in assessments, and this must be clearly stated, as outlined in the Assessment and Feedback Code of Practice"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Staff should remind students that they must disclose when AI tools have been used in their work, that they require proper citation and refer them to the Academic Misconduct Code of Practice"
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

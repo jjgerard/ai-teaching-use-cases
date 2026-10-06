@@ -1,0 +1,265 @@
+{
+ "doc_id": "york-st-john-students-genai-202610",
+ "coder": "cmp-c34",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generate ideas to stimulate your own academic explorations",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Provide an accessible summary of concepts, ideas or bodies of literature freely available online",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Review and summarise your own notes or those generated in group work or discussion (with consent from your fellow participants)",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Ask for feedback on an assignment structure or plan (while likely simplistic, this could provide a foundation for your own development)",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Provide feedback on your writing style or clarity of expression",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Experiment with different writing styles or levels of formality",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Debug code",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generate presentation slides from your notes",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Formulate practice questions for the Q&A part of a presentation or project pitch",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Submitting GenAI generated content as if it were your own work (Principles 1 and 2)",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Submitting GenAI generated content without citation of the AI tool or evidence of how you used it (Principles 1 and 2)",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Translating into English the work of another person originally published in another language, without acknowledgement and citation of the original source (Principles 3 and 4)",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "I have not relied on GenAI tools as if they were an authoritative or expert scholarly source.",
+   "anchor": "GenAI checklist"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Some students may have AI tools provided as part of reasonable adjustments, and we have additional guidance to help you decide whether and how to use AI: Using AI as Assistive Technology.",
+   "anchor": null
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use AI to help you think - not to think for you.",
+   "anchor": "1. You stay in charge",
+   "ai_named": true
+  },
+  {
+   "use": "disguise_ai_use",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using AI may not be cheating - but hiding it could be a breach of academic integrity.",
+   "anchor": "2. Be honest and transparent",
+   "ai_named": true
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Paraphrasing text (whether published or the work of another student) in order to pass off the work of others as your own",
+   "anchor": "What you could or should not use AI for in assessed work",
+   "ai_named": true
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabricating empirical data to use in a research project or other assessment",
+   "anchor": "What you could or should not use AI for in assessed work",
+   "ai_named": false
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Translating the majority of your own work into English (Principle 4)",
+   "anchor": "What you could or should not use AI for in assessed work",
+   "tier": "Majority of own work"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Generating code for programming without acknowledgement of the source (Principle 2)",
+   "anchor": "What you could or should not use AI for in assessed work"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Review and summarise your own notes or those generated in group work or discussion (with consent from your fellow participants)",
+   "anchor": "What you could or should not use AI for in assessed work"
+  }
+ ],
+ "default_when_silent": {
+  "value": "use_by_use_rule",
+  "quote": "Unless your assignment brief tells you otherwise, you can use AI to:"
+ },
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Unless your assignment brief tells you otherwise, you can use AI to:"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "I have checked my assessment brief, or with my module tutor, and the use of GenAI tools is not prohibited for my assessment type."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you use a GenAI tool as part of your learning or assessment, you must clearly state this on your work."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "Describing how you used it, on a cover sheet or reflective note, and"
+   },
+   {
+    "value": "prompts",
+    "quote": "Submitting your prompts and outputs with your work."
+   },
+   {
+    "value": "tool_name",
+    "quote": "Submitting GenAI generated content without citation of the AI tool or evidence of how you used it (Principles 1 and 2)"
+   },
+   {
+    "value": "outputs",
+    "quote": "Submitting your prompts and outputs with your work."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "Describing how you used it, on a cover sheet or reflective note, and"
+   },
+   {
+    "value": "statement_in_work",
+    "quote": "you must clearly state this on your work."
+   },
+   {
+    "value": "appendix",
+    "quote": "I know I may be asked to provide these as an appendix to my assessment or as part of any misconduct process."
+   }
+  ],
+  "records": {
+   "value": "recommended",
+   "quote": "I have saved copies of GenAI outputs used in preparing my assessment."
+  },
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "you are expected to follow the same format for citing your use of AI tools."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Using AI may not be cheating - but hiding it could be a breach of academic integrity."
+  },
+  "exempt": []
+ }
+}

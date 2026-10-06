@@ -1,0 +1,45 @@
+{
+ "doc_id": "swansea-d2-assessment-policy-202610",
+ "coder": "cmp-c21",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Staff and students will not be permitted to present work completed by AI applications as their own without acknowledgement.",
+   "anchor": "3.iv"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Staff and students will not be permitted to present work completed by AI applications as their own without acknowledgement.",
+   "anchor": "3.iv"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": true,
+   "quote": "Staff or students are not permitted to upload student assessment, or any identifiable data without explicit written consent, to AI applications for any reason (including attempts to check for AI generated content).",
+   "anchor": "5.iv"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "restricted",
+   "ai_named": true,
+   "quote": "Staff or students are not permitted to upload student assessment, or any identifiable data without explicit written consent, to AI applications for any reason (including attempts to check for AI generated content).",
+   "anchor": "5.iv"
+  }
+ ],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": true,
+   "quote": "The Assessment, Marking and Feedback Policy, Proofreading Policy and Academic Misconduct procedure will make reference to appropriate usage of AI in assessment, explaining the risks and consequences of inappropriate usage for students.",
+   "anchor": "6.iii"
+  }
+ ],
+ "definitions": []
+}

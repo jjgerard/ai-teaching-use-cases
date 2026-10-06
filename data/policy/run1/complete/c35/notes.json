@@ -1,0 +1,51 @@
+{
+ "batch": "c35",
+ "unmapped": [
+  {
+   "doc_id": "winchester-students-genai-202610",
+   "quote": "Students and staff always remain accountable for their final outputs.",
+   "what_it_says": "Individual accountability for outputs; no liability value fits cleanly."
+  },
+  {
+   "doc_id": "middlesex-london-students-genai-202610",
+   "quote": "Students and staff are each individually responsible for their use of Gen AI and are accountable for the outputs and outcomes created.",
+   "what_it_says": "Individual responsibility for AI use and outputs; no liability value fits cleanly."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "atu-students-genai-202610",
+   "note": "Hub page; workshops and integrity resources not AI-specific, so nothing added."
+  },
+  {
+   "doc_id": "keele-students-genai-202610",
+   "note": "Framework addressed mainly to staff; nothing further codable for students. Existing any_use row is conditional with acknowledge required while duty is staff-reminded; left as is."
+  },
+  {
+   "doc_id": "middlesex-london-students-genai-202610",
+   "note": "Existing row for para 22e coded as analyse_data prohibited research_or_thesis alongside fabricate row; left as is. Existing outcomes row is generic."
+  }
+ ],
+ "added": {
+  "keele-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "middlesex-london-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 1
+  },
+  "winchester-students-genai-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 0
+  },
+  "atu-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

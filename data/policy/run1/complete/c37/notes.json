@@ -1,0 +1,44 @@
+{
+ "batch": "c37",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "setu-students-genai-202610",
+   "note": "Existing misconduct rows quote the 'misuse of generative artificial intelligence' list with ai_named false although the quote names AI; left unchanged."
+  },
+  {
+   "doc_id": "east-london-students-genai-202610",
+   "note": "Nothing further codable: personal-data caution is a data rule, tutor referral is generic."
+  },
+  {
+   "doc_id": "lse-students-genai-202610",
+   "note": "Blog author's own tool tips coded as permitted with context unspecified; they are recommendations, not department rules."
+  },
+  {
+   "doc_id": "lancaster-students-genai-202610",
+   "note": "Further outcome/process rows (exam penalties, 15-day appeal, 7-day notice) could not be added: validator allows one row per key."
+  }
+ ],
+ "added": {
+  "east-london-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "lancaster-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 1
+  },
+  "lse-students-genai-202610": {
+   "uses": 5,
+   "support": 0,
+   "misconduct": 0
+  },
+  "setu-students-genai-202610": {
+   "uses": 1,
+   "support": 1,
+   "misconduct": 4
+  }
+ }
+}

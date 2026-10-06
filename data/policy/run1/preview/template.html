@@ -212,9 +212,9 @@ section { scroll-margin-top: 64px; }
   <div class="head">
     <div class="head-text">
       <h1>AI guidance analysis</h1>
-      <p class="lede">What universities in the UK, Ireland and four other countries tell students about generative AI: what it can be used for, what has to be acknowledged, what help is offered, and how that differs. Every statement counted here traces to a quote in the institution’s own document.</p>
+      <p class="lede">What universities tell students about generative AI: what it can be used for, what has to be acknowledged, what help is offered, and how that differs. Every statement counted here traces to a quote in the institution’s own document.</p>
     </div>
-    <p class="note"><b>Draft.</b> Counts are minimums: a statement counts only where a quote shows it, from one or two documents per institution, read by one model. They are not prevalence estimates. Coverage and method are further down.</p>
+    <p class="note"><b>Draft.</b> <span id="srcnote"></span> Counts are minimums: a statement counts only where a quote shows it, read by one model, so they are not prevalence estimates. How institutions and pages were chosen is under “How to read this”.</p>
   </div>
 </div>
 
@@ -294,7 +294,7 @@ section { scroll-margin-top: 64px; }
 <section id="method">
   <h2>How to read this</h2>
   <ul class="lim">
-    <li>Institutions come from a curated frame and a seeded stratified sample, and documents were found by search. Counts are institutions, with a second document counted under its institution. Some pages could not be archived (bot walls, JavaScript-only pages, robots.txt, missing pages) and are not coded.</li>
+    <li>Where the guidance comes from. UK and Irish institutions come from a frame of universities and higher education providers built from the ROR registry and drafted for inclusion by hand (not yet checked against the OfS and HEA registers), then a seeded stratified sample. Australia, New Zealand, Canada and the United States are a first pilot: a seeded random draw of institutions from ROR whose names contain “university”, not a curated or representative sample, with non-universities in the draw (a system office, a research centre, a library consortium) set aside. For each institution a web search looked for one student-facing page on generative AI, preferring an institution-wide student guide or policy, then a library or teaching-centre guide, then an academic integrity policy that names AI, then a student news page. Many institutions also have a second page of a different kind. A second page counts under its institution, so counts are institutions, not documents. The page found is often a library guide or a landing page that points elsewhere, so what an institution says here is only what that page says. Institutions whose pages sit behind bot walls, JavaScript-only pages, robots.txt blocks or missing links could not be archived and are not coded; they are listed for manual fetching.</li>
     <li>Every value rests on a verbatim quote from an archived snapshot, checked by a validator. One model did all the coding passes, with a pilot of two independent coders before each full run. Agreement figures from the pilots are therefore optimistic.</li>
     <li>Counts are minimums. A statement counts only where a quote shows it, so a missing value means no quote was found, not that the institution disagrees. Some rows rest on a link label or on general misconduct wording that does not name AI; the misconduct section shows which.</li>
     <li>Documents with tiered rules (for example traffic-light levels) give several rows for one use, so their counts are lower bounds.</li>
@@ -577,6 +577,9 @@ section { scroll-margin-top: 64px; }
         row.appendChild(tr); row.title = label + "\n" + tips.join("\n"); row.appendChild(el("span", "tgn", x.it.kind === "use" ? bu.size + " of " + un.size + " institutions" : parts[0].replace("/", " of "))); box.appendChild(row); });
       one.appendChild(box); });
   }
+  function srcNote() { var by = {}, n = 0; TR.sdocs.forEach(function (d) { var r = PD[d] && PD[d].region; if (!r) return; by[r] = (by[r] || 0) + 1; n++; });
+    var uk = ["England", "Scotland", "Wales", "Northern Ireland", "Ireland"].filter(function (r) { return by[r]; }).map(function (r) { return r + " " + by[r]; }), ot = ["Australia", "New Zealand", "Canada", "United States"].filter(function (r) { return by[r]; }).map(function (r) { return r + " " + by[r]; });
+    $("srcnote").textContent = "Guidance from " + n + " institutions: " + uk.join(", ") + (ot.length ? ", plus a first pilot elsewhere (" + ot.join(", ") + ")" : "") + "."; }
   function tinit() { drawSupport(); }
 
   function refresh() {
@@ -585,6 +588,6 @@ section { scroll-margin-top: 64px; }
     drawPoints(); drawUses(); drawAck(); drawMisconduct(); drawTogether();
   }
   csvInit();
-  tinit(); pinit(); refresh();
+  tinit(); pinit(); srcNote(); refresh();
 })();
 </script>

@@ -1,0 +1,46 @@
+{
+ "doc_id": "londonmet-students-genai-202610",
+ "coder": "cmp-c15",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Plagiarism, where AI tools are used to generate output and ideas that are presented or submitted as if they were the student's own work, without proper citation or references.",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Plagiarism, where AI tools are used to generate output and ideas that are presented or submitted as if they were the student's own work, without proper citation or references.",
+   "anchor": null
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Where a complete assignment is created using Generative AI and represented as a student's own work, this will be regarded as contract cheating in the same way as commissioning an 'Essay Mill' or other third party to complete your work.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "plagiarism",
+   "ai_named": true,
+   "quote": "Plagiarism, where AI tools are used to generate output and ideas that are presented or submitted as if they were the student's own work, without proper citation or references."
+  },
+  {
+   "term": "contract cheating",
+   "ai_named": true,
+   "quote": "Where a complete assignment is created using Generative AI and represented as a student's own work, this will be regarded as contract cheating in the same way as commissioning an 'Essay Mill' or other third party to complete your work."
+  },
+  {
+   "term": "academic integrity",
+   "ai_named": false,
+   "quote": "Academic Integrity means being honest in your academic work and your studies making sure that you acknowledge the work of others and giving credit where you have used other people's ideas as part of presenting your arguments."
+  }
+ ]
+}

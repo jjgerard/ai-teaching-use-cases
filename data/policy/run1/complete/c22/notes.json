@@ -1,0 +1,44 @@
+{
+ "batch": "c22",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "edinburgh-napier-d2-institutional-policy-202610",
+   "note": "Existing 'any_use / unspecified / conditional' and 'include_ai_output_in_work' rows were left as is. The existing research_or_thesis generate_assessed_text row is 'discouraged' for 'should be your own work', which is arguably 'prohibited'. The existing acknowledgement duty 'conditional' is arguably 'always_required' for 'expected to declare when they directly use'. Nothing was added for support or misconduct: every form and value the text supports already has a row."
+  },
+  {
+   "doc_id": "wales-trinity-saint-david-d2-misconduct-procedure-202610",
+   "note": "General misconduct policy; the only AI wording is 'using AI to generate material for submission where this is not permitted' and 'automated paraphrasing software', both already coded. Scope left general_misconduct. The AI generation use row is 'conditional' with needs_permission, which fits 'where this is not permitted'. Support: the refresher module on Moodle, Academic Misconduct Co-ordinator advice and Student Services are about academic misconduct in general, not AI, so no support rows were added. Third-party proofreading guidelines are human proofreaders, not AI, so no use rows."
+  },
+  {
+   "doc_id": "aberdeen-d2-misconduct-procedure-202610",
+   "note": "Only AI wording is the AI plagiarism definition (3.2). Acknowledgement duty set to 'conditional' because the quote limits the duty to AI used to generate content for assessed work. Scope left general_misconduct. No new support rows: the Student Learning Service and Students' Association are already coded; plagiarism-avoidance guidance is not about AI."
+  },
+  {
+   "doc_id": "heriot-watt-d2-misconduct-procedure-202610",
+   "note": "Existing similarity_software row is 'may_be_used'; added 'used' and 'restricted' as separate stances. Existing outcomes row 'repeat_offence_escalation' quotes the Category A list ('A repeat of a previous offence') which is acceptable. The mandatory academic integrity course and Student Union Advice Hub are already coded; guidance on avoiding plagiarism at induction is not about AI. Nothing added for support."
+  }
+ ],
+ "added": {
+  "edinburgh-napier-d2-institutional-policy-202610": {
+   "uses": 4,
+   "support": 0,
+   "misconduct": 0
+  },
+  "wales-trinity-saint-david-d2-misconduct-procedure-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 4
+  },
+  "aberdeen-d2-misconduct-procedure-202610": {
+   "uses": 2,
+   "support": 0,
+   "misconduct": 3
+  },
+  "heriot-watt-d2-misconduct-procedure-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 11
+  }
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "batch": "c33",
+ "unmapped": [
+  {
+   "doc_id": "edinburgh-napier-students-genai-202610",
+   "quote": "This could lead to a fail, whether or not plagiarism can be demonstrated.",
+   "what_it_says": "Heavy use of AI text in a research thesis risks failing the viva; a failed viva fits no outcome value exactly (not module failure)."
+  },
+  {
+   "doc_id": "canterbury-students-genai-202610",
+   "quote": "The University does not recommend or endorse any specific GenAI tools.",
+   "what_it_says": "The institution endorses no specific GenAI tool; no tool-stance value exists."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "bangor-students-genai-202610",
+   "note": "Existing Category 2 generate_assessed_text prohibited row is arguably stronger than the note supports (basic expression must be own); left unchanged."
+  },
+  {
+   "doc_id": "canterbury-students-genai-202610",
+   "note": "Data and tool rules (privacy, copyright uploads) were not added as use rows per the uses brief; one data_or_upload_breach offence row added only where the quote calls it a breach."
+  },
+  {
+   "doc_id": "salford-students-genai-202610",
+   "note": "Data and approved-tool rules left out of uses per brief."
+  }
+ ],
+ "added": {
+  "salford-students-genai-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 0
+  },
+  "bangor-students-genai-202610": {
+   "uses": 3,
+   "support": 1,
+   "misconduct": 0
+  },
+  "canterbury-students-genai-202610": {
+   "uses": 20,
+   "support": 0,
+   "misconduct": 5
+  },
+  "edinburgh-napier-students-genai-202610": {
+   "uses": 11,
+   "support": 0,
+   "misconduct": 3
+  }
+ }
+}

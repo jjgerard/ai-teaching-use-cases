@@ -1,0 +1,306 @@
+{
+ "doc_id": "ucd-d2-misconduct-procedure-202610",
+ "coder": "cmp-c26",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "unauthorised and / or unacknowledged use of artificial intelligence tools to generate content for assessment purposes",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "unauthorised and / or unacknowledged use of artificial intelligence tools to generate content for assessment purposes",
+   "anchor": null
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "unauthorised and / or unacknowledged use of paraphrasing or translation software to, for example, disguise plagiarism, collusion, contract cheating or other academic integrity breach.",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Misrepresentation of authorship: The submission of someone else’s work (or part thereof) as one’s own, when the work (all or in part) has been produced by, or purchased from, another person or party.",
+   "anchor": null
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabricating or falsifying data",
+   "anchor": null
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating: a form of academic misconduct where a person uses an undeclared and/or unauthorised third party, online or directly, to assist them to produce work for academic credit or progression, whether or not payment or other favour is involved.",
+   "anchor": null
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism: Presenting work / ideas taken from other sources without proper acknowledgement.",
+   "anchor": null
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Facilitating academic dishonesty by assisting another student to obtain an academic advantage by dishonest or unfair means.",
+   "anchor": null
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonation, sitting an exam in the place of an enrolled student or having someone else sit an exam.",
+   "anchor": null
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-Plagiarism: Reusing one’s own work without citing or acknowledging its original use. This could mean submitting one piece of work in more than one course.",
+   "anchor": null
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": false,
+   "quote": "Inappropriately publishing, uploading University teaching or course material to third party a website or file sharing site.",
+   "anchor": null
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Invigilator reports of alleged breaches of Examination Regulations should be submitted to be dealt with under the Student Discipline Procedure",
+   "anchor": null
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Plagiarism is unacceptable in academic work, even where it arises as a result of",
+   "anchor": null
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Mitigating Factors: circumstances that reduce the severity of misconduct, which warrant consideration of a more lenient penalty. These may include first-time offenses, lack of intent, genuine misunderstanding, demonstrated remorse, cooperation during the investigation, or challenging personal circumstances which may have affected judgement.",
+   "anchor": null
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "failure to cite correctly may be considered as poor academic practice for inexperienced students",
+   "anchor": null
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Reports produced by the University’s originality checking software should be reviewed carefully before discussing them with students.",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "Arrange a meeting with the student to discuss the issue that has arisen with their assessment,",
+   "anchor": null
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Where a Module Coordinator decides to refer an alleged incident of academic misconduct to the School Academic Integrity Committee they will:",
+   "anchor": null
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Examining allegations of academic misconduct in submitted work referred by Module Coordinators.",
+   "anchor": null
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student will be asked to respond to the allegation / provide an explanation for the anomalies outlined.",
+   "anchor": null
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "the student will be invited to meet the School Academic Integrity Committee to discuss the alleged academic misconduct case.",
+   "anchor": null
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "if the student does not respond to the meeting notification, or cannot or does not attend the meeting, the committee may proceed in their absence, based on the documentary evidence.",
+   "anchor": null
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "Advise the student that they may be accompanied to meetings by a support person, who may be a student adviser, students’ union representative, friend or family member.",
+   "anchor": null
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "An appeal to decisions of the committee may be made to the University’s Student Appeals Committee within 10 working days from the date of issue of the decision of the School Academic Integrity Committee.",
+   "anchor": null
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "In all cases decisions of the committee should be communicated within 5 working days.",
+   "anchor": null
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "Decisions will be taken by a simple majority and will be made on the balance of probabilities, i.e. that the alleged breach is more likely to have occurred than not.",
+   "anchor": null
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Keeping a record of the meeting, e.g. summary note or minutes and record the case on the University’s Academic Misconduct Record System where academic misconduct has been found.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Module Coordinators have discretion to address minor incidents as poor academic practice directly with the student, using the incident as a learning opportunity where additional guidance can be offered and training recommended.",
+   "anchor": null
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "In all cases the student will receive a verbal or written warning",
+   "anchor": null
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Reduce the grade for the assessment without an opportunity to resubmit the assessment.",
+   "anchor": null
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Permit the student to re-submit the assessment component without academic penalty.",
+   "anchor": null
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "Permit the student to re-submit the assessment component and cap the resubmitted work.",
+   "anchor": null
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "reduction of a component assessment or module grade up to and including the award of NM (No Grade) for the module",
+   "anchor": null
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "suspension or expulsion at a Student Disciplinary hearing",
+   "anchor": null
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "deprivation of any academic award, scholarship or prize",
+   "anchor": null
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Aggravating Factors: circumstances that increase the severity of academic misconduct, warranting stricter penalties. These may include repeated offenses, deliberate deception, premeditation, largescale impact, involvement of third parties, or refusal to take responsibility.",
+   "anchor": null
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "In cases where it is determined that plagiarism has taken place, the penalty will be guided by a University approved UCD Plagiarism Tariff.",
+   "anchor": null
+  },
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Any of the penalties available under the Student Discipline Procedure may be applied",
+   "anchor": null
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism: Presenting work / ideas taken from other sources without proper acknowledgement."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-Plagiarism: Reusing one’s own work without citing or acknowledging its original use."
+  },
+  {
+   "term": "Misrepresentation of authorship",
+   "ai_named": false,
+   "quote": "Misrepresentation of authorship: The submission of someone else’s work (or part thereof) as one’s own, when the work (all or in part) has been produced by, or purchased from, another person or party."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating: a form of academic misconduct where a person uses an undeclared and/or unauthorised third party, online or directly, to assist them to produce work for academic credit or progression, whether or not payment or other favour is involved."
+  },
+  {
+   "term": "Facilitating academic dishonesty",
+   "ai_named": false,
+   "quote": "Facilitating academic dishonesty by assisting another student to obtain an academic advantage by dishonest or unfair means."
+  },
+  {
+   "term": "Inappropriate use of technology",
+   "ai_named": true,
+   "quote": "unauthorised and / or unacknowledged use of artificial intelligence tools to generate content for assessment purposes"
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor Academic Practice: minor errors or inconsistencies in a student’s work such as inadequate citation; poor referencing, inappropriate paraphrasing; overreliance on sources without sufficient input of the students own work."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion or violating the limits of acceptable collaboration in coursework set by a faculty member or School, through undisclosed collaboration of two or more people on an assignment or task, which is supposed to be completed individually."
+  },
+  {
+   "term": "Recycling",
+   "ai_named": false,
+   "quote": "Recycling: The practice of data fragmentation or salami slicing where the author(s) separates aspects of a study or their work."
+  },
+  {
+   "term": "Ghost writing",
+   "ai_named": false,
+   "quote": "Ghost writing or authorship by use of a non-named (merited, but not listed) author to write or prepare a text for publication."
+  },
+  {
+   "term": "Aggravating factors",
+   "ai_named": false,
+   "quote": "Aggravating Factors: circumstances that increase the severity of academic misconduct, warranting stricter penalties."
+  },
+  {
+   "term": "Mitigating factors",
+   "ai_named": false,
+   "quote": "Mitigating Factors: circumstances that reduce the severity of misconduct, which warrant consideration of a more lenient penalty."
+  }
+ ]
+}

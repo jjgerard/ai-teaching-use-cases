@@ -1,0 +1,45 @@
+{
+ "doc_id": "east-london-students-genai-202610",
+ "coder": "cmp-c37",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "If you do use Generative AI for your assessed work, you must acknowledge that you have used it (see Referencing).",
+   "anchor": "Using Generative AI"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You should ensure you verify all information provided by Generative AI and not just assume it to be accurate.",
+   "anchor": "Using Generative AI"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "You must follow the latest guidance on using Generative AI as provided by your School."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you do use Generative AI for your assessed work, you must acknowledge that you have used it (see Referencing)."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

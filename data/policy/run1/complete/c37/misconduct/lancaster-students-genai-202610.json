@@ -1,0 +1,279 @@
+{
+ "doc_id": "lancaster-students-genai-202610",
+ "coder": "cmp-c37",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "The submission of undeclared work which is either generated and/or improved by language model software for the purposes of gaining marks will be regarded as False Authorship and interpreted as an attempt to gain an intentional unfair academic advantage.",
+   "anchor": "AM 2.3.1"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "The submission of undeclared work which is either generated and/or improved by language model software for the purposes of gaining marks will be regarded as False Authorship and interpreted as an attempt to gain an intentional unfair academic advantage.",
+   "anchor": "AM 2.3.1"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "This may include work produced by another individual, an essay mill, a commercial service, or through the use of Artificial Intelligence software.",
+   "anchor": "AM 2.3.1"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "the submission of all or part of another student’s work, whether with or without that student’s knowledge or consent;",
+   "anchor": "AM 2.2.1(b)"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication or falsification of results occurs when a student claims to have carried out tests, experiments or observations that have not taken place or presents results not supported by the evidence with the object of obtaining an unfair advantage.",
+   "anchor": "AM 2.5.1"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "attempts to introduce or consult during the examination or test any unauthorised printed or written material, or electronic calculating or information storage device or mobile phone or other communication device;",
+   "anchor": "AM 2.6.1(c)"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": true,
+   "quote": "students must not submit or upload assessment submissions to any external detection software or platforms designed to inspect for academic malpractice or artificial intelligence usage.",
+   "anchor": "AM 2.9.1"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "This can also occur by enabling a fellow student to obtain academic credit to which they are not entitled.",
+   "anchor": "AM 2.4.1"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "personates another student or allows themselves to be impersonated;",
+   "anchor": "AM 2.6.1(d)"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "reproduction of the same or almost identical own work, in full or in part, which has previously been submitted for assessment.",
+   "anchor": "AM 2.2.1(g)"
+  }
+ ],
+ "liability": [
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Where it is decided that student work displays some form of poor academic practice but not academic malpractice the academic marker will deal with this as part of the normal feedback and assessment procedures.",
+   "anchor": "AM 4.1.2"
+  }
+ ],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The University reserves the right to use such software (e.g., Turnitin) upon the receipt of assessment submissions, and reports delivered by this software may be used as evidence in cases of alleged academic malpractice.",
+   "anchor": "AM 2.9.2"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The University reserves the right to use such software (e.g., Turnitin) upon the receipt of assessment submissions, and reports delivered by this software may be used as evidence in cases of alleged academic malpractice.",
+   "anchor": "AM 2.9.2"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The student should be able to review any documentary evidence prior to the Hearing, including in the case of plagiarism any Turnitin reports or coursework annotated by the Academic Marker.",
+   "anchor": "AM 4.2.2(b)"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Academic Markers shall, when concern is identified, use their judgement to decide if some form of poor academic practice or some form of academic malpractice has occurred.",
+   "anchor": "AM 4.1.1"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "then the case shall be referred to the Academic Integrity Officer as the first step in an investigation.",
+   "anchor": "AM 4.1.8"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The Academic Integrity Officer shall investigate the matter and use their academic judgement and experience",
+   "anchor": "AM 4.2.1(a)"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "All students shall be given the opportunity to submit a defence against an allegation of academic malpractice",
+   "anchor": "AM 1.6"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "should undertake this investigation and arrange for a Hearing with the student.",
+   "anchor": "AM 4.2.2"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "the Panel may proceed to hear the matter in the student’s absence.",
+   "anchor": "Appendix 1 para 13"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "shall have access to Lancaster University Students’ Union support and advice at all stages of the procedures contained in these regulations",
+   "anchor": "AM 1.5"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "shall have the right to request a review of the judgement.",
+   "anchor": "AM 8.1"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The Academic Integrity Officer should inform the student of their decision as soon as possible and at the latest, in writing within seven days.",
+   "anchor": "AM 4.2.4"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "shall be made on the basis of the balance of probability and take full account of the principles of natural justice, fairness and equity.",
+   "anchor": "AM 1.2"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "keeping a written record of all cases of alleged academic malpractice.",
+   "anchor": "AM 3.1.2"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "The student must be informed of the nature of the problem and why it is unacceptable and a note of ‘poor academic practice’ shall be recorded by the department in the LUSI Student Record.",
+   "anchor": "AM 4.1.4"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "be required to meet with their Director of Studies and an ‘academic warning’ shall be recorded by the department in the LUSI Student Record.",
+   "anchor": "AM 4.1.5"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "the poor academic practice should lead to a significant reduction in the mark awarded",
+   "anchor": "AM 4.1.3"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "to award zero or equivalent grade for the whole coursework or dissertation;",
+   "anchor": "AM 4.3.1(f)"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "to permit the student to repeat the work;",
+   "anchor": "AM 4.3.1(c)"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "to award zero or equivalent grade for the unit or course module;",
+   "anchor": "AM 4.3.1(g)"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "to exclude the student permanently from the University, where the offence is detected before the final assessment is completed;",
+   "anchor": "AM 4.3.1(i)"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "where the inclusion makes no difference to the class of award, to recommend that one class lower than the one determined by the arithmetic be awarded;",
+   "anchor": "AM 4.3.1(h)"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "that the case should be referred to the Academic Misconduct Panel because of its serious nature, or there being repeated offences despite warnings received.",
+   "anchor": "AM 4.2.3(f)"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The Panel’s decisions shall be informed by the seriousness of the offence rather than by the time of year.",
+   "anchor": "Appendix 1 para 1(c)"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "that the student will be required to submit an alternative piece of work and such work shall be eligible to receive only the minimum pass mark appropriate to the student’s programme of study.",
+   "anchor": "AM 4.2.3(d)"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "The University has the power to revoke an award under the procedures defined in its Charter and Ordinances",
+   "anchor": "AM 7.7"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "the academic malpractice judgement must be available in order to inform the Fitness to Practise proceedings at the appropriate stage.",
+   "anchor": "AM 1.7"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is understood to include, in whatever format it is presented, including written work, group work or oral presentations, the following:"
+  },
+  {
+   "term": "False authorship",
+   "ai_named": false,
+   "quote": "False Authorship is a form of plagiarism where misrepresentations are made on who created material, either by falsely claiming ownership of work produced or by attributing work to a person or tool (e.g. software coding) that did not create it."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion occurs where a piece of work prepared by a group is represented as if it were the student’s own."
+  },
+  {
+   "term": "Fabrication or falsification",
+   "ai_named": false,
+   "quote": "Fabrication or falsification of results occurs when a student claims to have carried out tests, experiments or observations that have not taken place"
+  },
+  {
+   "term": "Retrospective detection",
+   "ai_named": false,
+   "quote": "Retrospective detection is defined as the discovery of alleged academic malpractice in work that has been subject to final moderation, including by a relevant board of examiners."
+  },
+  {
+   "term": "Academic malpractice",
+   "ai_named": false,
+   "quote": "It is an academic offence (termed academic malpractice) for a student to commit any act designed to obtain for themselves or others an unfair advantage with a view to achieving a higher grade, mark or more favourable outcome than they would otherwise secure."
+  }
+ ]
+}

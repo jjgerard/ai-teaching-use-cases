@@ -1,0 +1,51 @@
+{
+ "batch": "c15",
+ "unmapped": [
+  {
+   "doc_id": "institute-cancer-research-students-genai-202610",
+   "quote": "The burden of proof rests with the ICR.",
+   "what_it_says": "Burden of proof lies with the institution; no process value for burden (only standard_of_proof)."
+  },
+  {
+   "doc_id": "wales-trinity-saint-david-students-genai-202610",
+   "quote": "You should be aware of AI’s negative environmental impact, due to the large amount of energy consumed by AI systems.",
+   "what_it_says": "Students should be aware of AI's environmental impact; no use or condition value fits."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "institute-cancer-research-students-genai-202610",
+   "note": "Scope left as general_misconduct: it is a general procedure whose AI wording (1.1.1, 1.4.2, Appendix) is incidental. Section 1.4.2 deems 'another person' to include generative AI, so the existing generic collusion, conspiracy and exam rows apply to AI; added as a definition."
+  },
+  {
+   "doc_id": "wales-trinity-saint-david-students-genai-202610",
+   "note": "Existing check_language/Proofreading and format_references rows set acknowledge=required by inference from the document-level duty; my additions use not_stated unless the quote says so. Skipped as stretch: ethics/bias guidance in Creative section (no harmful_or_deceptive_content value fits cleanly)."
+  },
+  {
+   "doc_id": "glasgow-student-genai-guidance-202610",
+   "note": "Existing find_sources/assessed_work prohibited row quotes the outcome line for the fabricated-citation example; it is an example label, left unchanged."
+  }
+ ],
+ "added": {
+  "glasgow-student-genai-guidance-202610": {
+   "uses": 9,
+   "support": 1,
+   "misconduct": 3
+  },
+  "institute-cancer-research-students-genai-202610": {
+   "uses": 3,
+   "support": 1,
+   "misconduct": 6
+  },
+  "londonmet-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 1
+  },
+  "wales-trinity-saint-david-students-genai-202610": {
+   "uses": 26,
+   "support": 1,
+   "misconduct": 3
+  }
+ }
+}

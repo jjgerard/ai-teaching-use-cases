@@ -1,0 +1,86 @@
+{
+ "doc_id": "londonmet-students-genai-202610",
+ "coder": "cmp-c15",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Where a complete assignment is created using Generative AI and represented as a student's own work, this will be regarded as contract cheating in the same way as commissioning an 'Essay Mill' or other third party to complete your work.",
+   "anchor": "AI and Academic Integrity"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "The exception will be for tasks where the extensive and critical use of a specific AI tool is part of the assessment brief.",
+   "anchor": "AI and Academic Integrity"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Plagiarism, where AI tools are used to generate output and ideas that are presented or submitted as if they were the student's own work, without proper citation or references.",
+   "anchor": "AI and Academic Integrity"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "We also urge caution when it comes to the use of generative AI apps as research tools because the information, they present is not always trustworthy or accurate",
+   "anchor": "AI and Academic Integrity"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools sometimes invent information and references when they cannot find it. This is called 'hallucinating.'",
+   "anchor": "AI and Academic Integrity"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "For specific guidance related to your subject speak to your course leader or any member of the teaching staff."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "The exception will be for tasks where the extensive and critical use of a specific AI tool is part of the assessment brief."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Your assessment submissions must therefore always be entirely your own work, based on your own learning and appropriately referenced including how you have used Generative AI."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "The University regards the use of Generative AI applications by students to deceive to gain unfair advantage as academic misconduct."
+  },
+  "exempt": [
+   {
+    "what": "assignment_designed_for_ai",
+    "quote": "The exception will be for tasks where the extensive and critical use of a specific AI tool is part of the assessment brief."
+   }
+  ]
+ }
+}

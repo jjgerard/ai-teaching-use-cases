@@ -1,0 +1,307 @@
+{
+ "doc_id": "heriot-watt-d2-misconduct-procedure-202610",
+ "coder": "cmp-c22",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "In most instances misuse of GenAI would fall under the definition of plagiarism (either through failing to appropriately reference sources (i.e. GenAI) or presenting work that is not student’s own as if it were) but could also fall under the definition of dishonest practice where appropriate.",
+   "anchor": "2.17"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "In most instances misuse of GenAI would fall under the definition of plagiarism (either through failing to appropriately reference sources (i.e. GenAI) or presenting work that is not student’s own as if it were) but could also fall under the definition of dishonest practice where appropriate.",
+   "anchor": "2.17"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "any suspected misuse of generative artificial intelligence (GenAI) will be dealt with under this policy.",
+   "anchor": "2.17"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is defined as the presentation, by a student, of work for assessment that draws from another source without acknowledgement of that source.",
+   "anchor": "2.13"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Examination Misconduct: unauthorised materials or devices being in the vicinity of a student during an examination or the use of such materials, the use of electronic devices not permitted during an examination",
+   "anchor": "2.17"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating happens when a third party completes work for a student who then submits it to an education provider as their own, where such input is not permitted.",
+   "anchor": "2.17"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Any student who knowingly permits another student to plagiarise their work will be regarded as having breached the University's disciplinary procedures.",
+   "anchor": "2.5"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism, in which a student resubmits work that they originally completed and submitted for another purpose, without acknowledgment of this. This is regarded as academic misconduct (unless resubmission was permitted).",
+   "anchor": "2.14"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsifying Data: presenting data based on work which a student claims to have carried out but which they have invented or obtained by unfair means.",
+   "anchor": "2.17"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Failing to cite and reference correctly, either intentional or unintentional, is a form of academic misconduct.",
+   "anchor": "2.17"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "The offence of plagiarism takes place when, having had the opportunity of advice and guidance, a student submits work which they know contains matter taken from other sources and for which no attribution is given according to the conventions normally adopted in academic writing.",
+   "anchor": "2.6"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The University reserves the right to utilise electronic plagiarism and similarity detection and checker systems and, where such systems are available, requires students to make their submissions through them.",
+   "anchor": "2.9"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "requires students to make their submissions through them",
+   "anchor": "2. DEFINITIONS OF ACADEMIC MISCONDUCT"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "restricted",
+   "ai_named": false,
+   "quote": "Only University approved detection tools should be used by students.",
+   "anchor": "2. DEFINITIONS OF ACADEMIC MISCONDUCT"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "It is the University’s Discipline Committee’s role to use the academic expertise and judgement of its members to investigate and make decisions to determine if, on the balance of probability, academic misconduct has occurred, or not",
+   "anchor": "6. APPEALS"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "Make provision for informality and flexibility in proceedings so that matters can be considered at the Primary Academic Unit at an early stage where appropriate;",
+   "anchor": "Objective"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Refer the allegation to the University Student Conduct Office to be considered by the relevant Discipline Committee.",
+   "anchor": "3.15.2"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The School for which the course resides will conduct the academic misconduct investigation and determine an appropriate penalty.",
+   "anchor": "3.4.3"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "Any student against whom an allegation of academic misconduct is being made will be informed if a case is being submitted for consideration.",
+   "anchor": "3.12"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Students who have an allegation of academic misconduct are expected to fully co-operate with the University during the investigation of an allegation of academic misconduct and should be prepared to attend meetings if required in connection with the investigation.",
+   "anchor": "3.13"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "A student against whom an allegation has been made may wish to access support from the Student Union Advice Hub or the Student Representative Bodies for students at the Dubai and Malaysia campuses.",
+   "anchor": "1.15"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Appeals against a disciplinary, academic misconduct outcome may be formally requested, subject to the acceptable grounds for an academic misconduct appeal.",
+   "anchor": "6.1"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The students must submit their appeal within ten working days of being sent their formal academic misconduct outcome letter.",
+   "anchor": "6.5"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "the standard of proof required is that it is more likely than not that something is or is not the case (the 'balance of probability', or civil justice)",
+   "anchor": "1.9"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "A written record will be maintained of meetings held with students involved in cases of alleged academic misconduct.",
+   "anchor": "3.6"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "An official written warning (for Category A or Category B offence).",
+   "anchor": "4.3.1"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "reduction in marks/grades awarded in one or more of the assessments",
+   "anchor": "4.3.3"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "This means the student will get zero for that component.",
+   "anchor": "2.13 Void"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "the relevant Committee can, under exceptional circumstances, allow a resubmission of the voided component (usually for Stage 1 students).",
+   "anchor": "9.5 note 1"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "Any resubmitted work because of a disciplinary penalty, is always subject to cap of the mark for the component or the course at an appropriate pass mark, i.e., 40% or 50%",
+   "anchor": "9.5 notes"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Depending on the severity of a case, the committee may impose the voiding of one or more than one course as penalty.",
+   "anchor": "2.13 Void"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Exclusion, suspension, or disqualification from assessments or studies (for Category A offence).",
+   "anchor": "4.3.2"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "a reduction in classification of degree to be awarded (for Category A offence).",
+   "anchor": "4.3.6"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Alleged offences that meet the circumstances listed below may be classified as Category A offences: i) A repeat of a previous offence.",
+   "anchor": "3.1.1"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": true,
+   "quote": "Table 9.2 – Penalties relating to proven forms of Contract Cheating and inappropriate use of GenAI tools",
+   "anchor": "9.2"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Revocation of an award, having determined that there is good cause to do so (Category A offence).",
+   "anchor": "4.3.7"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "The University defines academic misconduct as any action or attempted action that may result in a student or group of students obtaining an unfair academic advantage in formal University assessment, or any activity likely to undermine the integrity essential to scholarship and research."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is defined as the presentation, by a student, of work for assessment that draws from another source without acknowledgement of that source."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "collusion occurs where students work together to complete an assessment, in whole or in part, that should have been completed independently."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating happens when a third party completes work for a student who then submits it to an education provider as their own, where such input is not permitted."
+  },
+  {
+   "term": "Dishonest practice",
+   "ai_named": false,
+   "quote": "Dishonest Practice: this covers any form of practice which attempts to deceive others, or obtain any form of academic advantage, but is not specifically identified by the above."
+  },
+  {
+   "term": "Void",
+   "ai_named": false,
+   "quote": "The penalty is providing no credit for the submitted work, e.g., a component of a coursework or an examination that is under disciplinary investigation."
+  },
+  {
+   "term": "misuse of GenAI",
+   "ai_named": true,
+   "quote": "In most instances misuse of GenAI would fall under the definition of plagiarism (either through failing to appropriately reference sources (i.e. GenAI) or presenting work that is not student’s own as if it were) but could also fall under the definition of dishonest practice where appropriate."
+  },
+  {
+   "term": "allegation",
+   "ai_named": false,
+   "quote": "A concern raised by a member of staff as to whether a piece of work submitted for assessment is the student’s own."
+  },
+  {
+   "term": "component",
+   "ai_named": false,
+   "quote": "Any part of the assessment that has been referred to Discipline Committees."
+  },
+  {
+   "term": "invalid grade",
+   "ai_named": false,
+   "quote": "Course result of ‘IG’ will be added to a student’s record by the relevant Registry and Academic Support team only when it has been determined by the relevant Discipline Committee that an entire course is void."
+  },
+  {
+   "term": "offence",
+   "ai_named": false,
+   "quote": "A case of proven academic misconduct will be referred to as an offence."
+  },
+  {
+   "term": "examination misconduct",
+   "ai_named": false,
+   "quote": "Examination Misconduct: unauthorised materials or devices being in the vicinity of a student during an examination or the use of such materials, the use of electronic devices not permitted during an examination"
+  },
+  {
+   "term": "visual plagiarism",
+   "ai_named": false,
+   "quote": "Visual plagiarism: A ‘like for like’ copying of the sum of a design or creative process;"
+  },
+  {
+   "term": "self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism, in which a student resubmits work that they originally completed and submitted for another purpose, without acknowledgment of this."
+  }
+ ]
+}

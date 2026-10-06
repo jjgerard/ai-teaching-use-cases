@@ -1,0 +1,154 @@
+{
+ "doc_id": "west-england-students-genai-202610",
+ "coder": "cmp-c29",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "There are few restrictions on the use of generative AI to help your personal studies.",
+   "anchor": "Using generative AI at UWE Bristol"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "If you are guided to use generative AI in your assessments or assignments, you will need to acknowledge its use through referencing.",
+   "anchor": "Referencing the use of generative AI"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Do not submit AI generated work in assessments without appropriate acknowledgement.",
+   "anchor": "Good practice"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "please suggest some prompts that I might want to use to help me brainstorm ideas around running a successful project.",
+   "anchor": "How to use generative AI"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You can use generative AI to search for information by providing a query or a prompt that describes what you are looking for.",
+   "anchor": "Searching for information"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "create a visual representation of a concept.",
+   "anchor": "Searching for information"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You can test your knowledge by creating questions, quizzes, or exercises based on your own study notes.",
+   "anchor": "Testing your knowledge"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "To function as a learning aid, you will need to provide the generative AI with a specific query or a prompt that describes what you want to learn or improve.",
+   "anchor": "Teaching yourself"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "To help you with organising your work, you may want to ask generative AI to create a to-do list, a timeline, or a checklist for your work.",
+   "anchor": "Organising your work"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You can use generative AI to make a study plan by providing a query or a prompt that describes what kind of approach you want to take.",
+   "anchor": "Making a study plan",
+   "tier": "study plan"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Remember that generative AI is often inaccurate, creating false references, out-of-date detail and false information (known as ‘hallucinations’). Always check your results.",
+   "anchor": "How to use generative AI"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "It is important to remember that it is an academic offence to download material from the web and submit it as your own work, or submit work created by using AI tools without appropriate acknowledgement.",
+   "anchor": "Using it in an assessment or assignment set by your tutor"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "Always speak to your tutor if you are unsure whether specific uses of generative AI are permitted for specific assignments or assessments."
+ },
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Your assessment brief may describe what use of AI is appropriate."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Always take the lead from your tutor."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "If you are guided to use generative AI in your assessments or assignments, you will need to acknowledge its use through referencing."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "You should follow our guidelines on referencing generative AI."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "it is an academic offence to download material from the web and submit it as your own work, or submit work created by using AI tools without appropriate acknowledgement."
+  },
+  "exempt": []
+ }
+}

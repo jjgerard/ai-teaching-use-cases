@@ -1,0 +1,208 @@
+{
+ "doc_id": "hartpury-students-genai-202610",
+ "coder": "cmp-c36",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Failure to reference AI use correctly is malpractice.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Misuse of AI tools in relation to qualification assessments at any time constitutes malpractice",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Copying or paraphrasing sections of AI-generated content so that the work submitted for assessment is no longer the student’s own.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Making a false declaration of authenticity in relation to the authorship of controlled assessments, coursework or the contents of a portfolio.",
+   "anchor": "Learner malpractice"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Using AI to complete parts of the assessment so that the work does not reflect the student’s own work, analysis, evaluation or calculations.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism: unacknowledged copying from published sources or incomplete referencing.",
+   "anchor": "Learner malpractice"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Failing to abide by the conditions of supervision designed to maintain the security ofthe examinations or assessments.",
+   "anchor": "Learner malpractice"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion: working collaboratively with other learners, beyond what is permitted.",
+   "anchor": "Learner malpractice"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonation: pretending to be someone else, arranging for another person to take one’s place in an examination or an assessment.",
+   "anchor": "Learner malpractice"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "teacher professional judgement and familiarity with students’ typical writing style and ability",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "draft reviews and verbal questioning",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "draft reviews and verbal questioning",
+   "anchor": "Misuse of AI/ Generative AI"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "it will conduct an investigation in a form commensurate with the nature of the assessment malpractice and maladministration allegation.",
+   "anchor": "PROCEDURE 1"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Should it be determined that a full investigation is necessary it shall be conducted by an independent investigation officer appointed by the College Principal .",
+   "anchor": "PROCEDURE 4.2"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "During the investigation the college will give the individual the opportunity to respond to all the allegations made.",
+   "anchor": "PROCEDURE 6"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Subject to agreement it may be appropriate for a member of staff from the awarding organisation to give evidence at any hearing called as part of the investigation.",
+   "anchor": "PROCEDURE 5"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "The individual(s) concerned has/have the right to appeal against any decision(s) or sanction(s) imposed.",
+   "anchor": "Right of Appeal"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "An appeal must be made in writing to the College Principal within 30 working days from receipt of the written notification of the reported incident.",
+   "anchor": "PROCEDURE 8"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "All stages of the investigation shall be documented by the investigating officer leading the investigation.",
+   "anchor": "PROCEDURE 7"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "The learner is issued with a warning that if the offence is repeated within a set period oftime, further specified sanctions will be applied.",
+   "anchor": "Sanctions and penalties against learners"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "The learner is issued with a warning that if the offence is repeated within a set period oftime, further specified sanctions will be applied.",
+   "anchor": "Sanctions and penalties against learners"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "The learner loses all the marks gained for a discrete section of the work.",
+   "anchor": "Penalty 2"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "The learner loses all the marks gained for a unit.",
+   "anchor": "Penalty 4"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "The learner could be barred from entering for one or more examinations for a set period oftime.",
+   "anchor": "Penalty 9"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "make retake the component(s), unit(s), or qualification(s) affectedin the next examination series or assessment opportunity.",
+   "anchor": "Sanctions and penalties against learners"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Awarding organisations will determine the appropriateness ofa sanction depending on the evidence presented, the nature and circumstances of the malpractice, and the type of qualification involved.",
+   "anchor": "Sanctions for college staff assessment malpractice"
+  },
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": true,
+   "quote": "Misuse of AI tools in relation to qualification assessments at any time constitutes malpractice and in accordance with JCQ regulations may attract severe sanctions.",
+   "anchor": "Misuse of AI/ Generative AI"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "AI misuse",
+   "ai_named": true,
+   "quote": "AI misuse is where a student has used one or more AI tools but has not appropriately acknowledged this use and has submitted work for assessment which is not their own."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism: unacknowledged copying from published sources or incomplete referencing."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion: working collaboratively with other learners, beyond what is permitted."
+  },
+  {
+   "term": "Impersonation",
+   "ai_named": false,
+   "quote": "Impersonation: pretending to be someone else, arranging for another person to take one’s place in an examination or an assessment.",
+   "anchor": null
+  },
+  {
+   "term": "Artificial intelligence",
+   "ai_named": true,
+   "quote": "Artificial Intelligence (AI) is defined as: “Technology that uses algorithms or machine‑learning models to generate content, make decisions, or perform tasks that typically require human intelligence.",
+   "anchor": "Misuse of AI/ Generative AI"
+  }
+ ]
+}

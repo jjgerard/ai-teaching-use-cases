@@ -1,0 +1,55 @@
+{
+ "batch": "c24",
+ "unmapped": [
+  {
+   "doc_id": "stir-d2-misconduct-procedure-202610",
+   "quote": "Secure and always protect their work, including from unsolicited capture for AI training purposes by online AI providers.",
+   "what_it_says": "Students must protect their work from capture for AI training; a data/tool rule with no vocabulary slot."
+  },
+  {
+   "doc_id": "strath-d2-misconduct-procedure-202610",
+   "quote": "The University does not endorse or permit the use of any Artificial Intelligence detection tools or services to determine if the unauthorised use of Generative AI has taken place, and does not permit the submission of students' work to these tools or services.",
+   "what_it_says": "Students' work may not be submitted to AI detection tools (a data/tool rule); detection side already coded as not_used."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "d-n-laoghaire-institute-art-design-and-technology-d2-guide-202610",
+   "note": "Library guide with only headings and an overview; no rows could be added beyond the existing four support rows. No uses or misconduct content."
+  },
+  {
+   "doc_id": "st-andrews-d2-misconduct-procedure-202610",
+   "note": "Scope kept as general_misconduct (general procedure with AI wording). Existing check_language row has acknowledge=required for routine editorial correction although the quote says it falls outside the policy and the declaration paragraph is separate; left unchanged. Exempt list: appended spellcheck_or_embedded_tools entry. Existing use rows for translate and summarise already cover the prohibited-unless-authorised list. No AI-named detection or sanctions wording exists."
+  },
+  {
+   "doc_id": "stir-d2-misconduct-procedure-202610",
+   "note": "Scope kept general_misconduct. Existing oral_viva_or_interview detection quote does not name AI; the AI-naming sentence is in para 45 but the key (method/stance) is already taken. Existing misconduct and uses rows left as is."
+  },
+  {
+   "doc_id": "strath-d2-misconduct-procedure-202610",
+   "note": "Scope kept general_misconduct. Existing oral_viva row quote omits the AI mention in para 45 (same key taken). Plagiarism/acknowledgement wording in Annex 3 A names no AI, so no acknowledgement fields were filled."
+  }
+ ],
+ "added": {
+  "st-andrews-d2-misconduct-procedure-202610": {
+   "uses": 4,
+   "support": 1,
+   "misconduct": 2
+  },
+  "stir-d2-misconduct-procedure-202610": {
+   "uses": 4,
+   "support": 0,
+   "misconduct": 5
+  },
+  "strath-d2-misconduct-procedure-202610": {
+   "uses": 2,
+   "support": 2,
+   "misconduct": 4
+  },
+  "d-n-laoghaire-institute-art-design-and-technology-d2-guide-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

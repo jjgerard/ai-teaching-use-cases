@@ -1,0 +1,198 @@
+{
+ "doc_id": "highlands-and-islands-students-genai-202610",
+ "coder": "cmp-c32",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Do not use GAI to help you with course work or assessments unless you have permission from your tutor or lecturer.",
+   "anchor": "Ethical use of GAI"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Assist with improving the quality of your writing by checking spelling, using GAI tools as a thesaurus, and to suggest better grammar and vocabulary.",
+   "anchor": "Examples of good practice for students"
+  },
+  {
+   "use": "format_references",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "prompting the GAI tool to put your references in the correct format.",
+   "anchor": "Examples of good practice for students"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Using GAI tools to assist with planning your project.",
+   "anchor": "Examples of good practice for students"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Conversation-based tools are useful for brainstorming and generating initial ideas and alternatives.",
+   "anchor": "Examples of good practice for students"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Using GAI tools to breakdown complicated subject material into more manageable language, allowing you to digest more information effectively.",
+   "anchor": "Examples of good practice for students"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "uses of GAI that are unwise will largely mirror what it would be inappropriate to as a ‘study buddy’ or classmate to do, for example, asking them to do your work for you.",
+   "anchor": "Examples of good practice for students"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "The UHI library service recommends usage of Library Search and our subscribed online resources, rather than solely relying on third-party search facilities or AI tools,",
+   "anchor": "Finding credible and reliable published material"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Do not use GAI generated information without checking it first.",
+   "anchor": "Ethical use of GAI"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The policy and guidance do not preclude students from using assistive technologies or accessibility features available to them, or those recommended to them as a reasonable adjustment",
+   "anchor": "Introduction"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Please note that failure to cite and reference GAI content will be treated as a form of academic misconduct.",
+   "anchor": "May GAI be used for course and assessed work?"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "GAI tools can help with suggesting things like colour schemes, but they will always need your imagination and creativity to build on those ideas.",
+   "anchor": "Examples of good practice for students"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Misuse of these technologies (including that which compromises the integrity and originality of the student's work) will be penalised as normal and subject to normal misconduct processes.",
+   "anchor": "Introduction"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Check with your tutor/lecturer first that you are permitted to use GAI tools in the context of the course work and other activities you are undertaking for your units/modules/courses.",
+   "anchor": "Ethical use of GAI"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "quote": "UHI recommends that you only use the GAI tools that have already been approved for learning and teaching.",
+   "anchor": "Ethical use of GAI",
+   "tier": "approved tools"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "account_or_age_limit"
+   ],
+   "quote": "If you have not reached the minimum age specified, you should not use the tool/site.",
+   "anchor": "Ethical use of GAI",
+   "tier": "age limit"
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "Do not use GAI to help you with course work or assessments unless you have permission from your tutor or lecturer."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Your tutor/lecturer will tell you if and how GAI may be used in your unit/module."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "You should be told at induction and in the programme handbook what the general position is on the use of GAI on your course"
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "lecturers should also make this clear in the context of their own unit or modules, and the specific assignments they ask you to undertake."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "All use of GAI must be acknowledged, and full details of how to do this are in the GAI policy."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Cite Them Right has a good article on Use of artificial intelligence (AI) sources in academic work."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Please note that failure to cite and reference GAI content will be treated as a form of academic misconduct."
+  },
+  "exempt": []
+ }
+}

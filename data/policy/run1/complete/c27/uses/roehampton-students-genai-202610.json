@@ -1,0 +1,203 @@
+{
+ "doc_id": "roehampton-students-genai-202610",
+ "coder": "cmp-c27",
+ "uses": [
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Plan the overall structure of your work.",
+   "anchor": "Using AI in Assessment"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Express your ideas more clearly by acting as a \"critical friend\" that gives feedback on your thoughts.",
+   "anchor": "Using AI in Assessment"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Improve your writing by suggesting ways to link your sentences and giving tips on grammar.",
+   "anchor": "Using AI in Assessment"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Remember, only use AI if your assessment type allows it, or requires it. You must reference any use of AI.",
+   "anchor": "Using AI to Create Images"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Again, remember to only use AI if your assessment type allows it, or requires it. You must reference any use of AI.",
+   "anchor": "Using AI for Coding and Maths"
+  },
+  {
+   "use": "analyse_data",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI can also help with data analysis, but be very careful, especially in research.",
+   "anchor": "Using AI for Coding and Maths"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "You should not copy and paste from an AI tool.",
+   "anchor": "Using AI in Assessment"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You will always need to follow up on suggestions made by AI using traditional search methods, correct referencing techniques and always check the accuracy of everything AI provides.",
+   "anchor": "Using AI in Assessment"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use of AI is not allowed",
+   "anchor": "Types of Assessment",
+   "tier": "Type 1"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent",
+    "not_required_to_use"
+   ],
+   "quote": "AI can be used as an assistive tool only",
+   "anchor": "Types of Assessment",
+   "tier": "Type 2"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "A written assignment where AI was used to proofread a draft",
+   "anchor": "Types of Assessment",
+   "tier": "Type 2"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "An exam, where AI was used to help revise and study the material beforehand",
+   "anchor": "Types of Assessment",
+   "tier": "Type 2"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use of AI is mandatory",
+   "anchor": "Types of Assessment",
+   "tier": "Type 3"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The Assessment ruberic requires the use and inclusion of AI in the final draft",
+   "anchor": "Types of Assessment",
+   "tier": "Type 3"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Ensure that you are using AI to support rather than replace your own thinking.",
+   "anchor": "Using AI in Assessment",
+   "ai_named": true
+  },
+  {
+   "use": "analyse_data",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "no_personal_data"
+   ],
+   "quote": "To safeguard your information, avoid sharing any personal or confidential data with AI systems.",
+   "anchor": "Using AI for Coding and Maths"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "tiered_scale",
+   "quote": "At Roehampton, assessments generally fall into one of three categories regarding AI."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Always check your assessment criteria, attend your assessment brief or ask for advice."
+  },
+  {
+   "value": "institution_wide",
+   "quote": "The University's guidelines lay out three kinds of rule-sets, for the use of AI, that your programme might apply to any given assessment."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Read the University's guidelines, here, and check with your lecturers if you are not sure what is allowed for your current assessment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "You must reference any use of AI."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

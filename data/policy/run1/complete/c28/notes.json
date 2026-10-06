@@ -1,0 +1,36 @@
+{
+ "batch": "c28",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "brunel-london-students-genai-202610",
+   "note": "Records field filled from the recommendation to include the interaction transcript as an appendix; duty left null as no general duty to declare is stated."
+  },
+  {
+   "doc_id": "edinburgh-student-genai-guidelines-202610",
+   "note": "Existing 'misuse_of_others_work' row quotes generic passing-off wording; left unchanged."
+  }
+ ],
+ "added": {
+  "warwick-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  },
+  "brunel-london-students-genai-202610": {
+   "uses": 4,
+   "support": 0,
+   "misconduct": 1
+  },
+  "dundalk-institute-technology-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  },
+  "edinburgh-student-genai-guidelines-202610": {
+   "uses": 5,
+   "support": 0,
+   "misconduct": 2
+  }
+ }
+}

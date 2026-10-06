@@ -1,0 +1,40 @@
+{
+ "batch": "c23",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "qmu-d2-misconduct-procedure-202610",
+   "note": "Existing uses row for fabricate_data_or_references carries an extra ai_named field; left unchanged. Section 7 supporting guidance is TBC, so no support rows."
+  },
+  {
+   "doc_id": "edinburgh-d2-assessment-policy-202610",
+   "note": "Existing uses row 1 has anchor null; left unchanged. Proof-reading and translation services text (30.3) names no AI, so not coded."
+  },
+  {
+   "doc_id": "robert-gordon-d2-misconduct-procedure-202610",
+   "note": "Only AI wording is in 6.1.1(i) (false authorship); everything else is generic. Existing uses fabricate row quote is truncated mid-sentence; left unchanged."
+  }
+ ],
+ "added": {
+  "qmu-d2-misconduct-procedure-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 6
+  },
+  "glasgow-d2-misconduct-procedure-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  },
+  "edinburgh-d2-assessment-policy-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  },
+  "robert-gordon-d2-misconduct-procedure-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 4
+  }
+ }
+}

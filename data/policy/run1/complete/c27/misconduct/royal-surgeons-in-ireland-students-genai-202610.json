@@ -1,0 +1,66 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-students-genai-202610",
+ "coder": "cmp-c27",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Any usage of GenAI tools in assessments outside what is explicitly permitted will, subject to investigation, be considered a breach of academic integrity, and may lead to disciplinary proceedings in line with RCSI’s Academic Integrity policy.",
+   "anchor": "assessment guidance 6"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": true,
+   "quote": "Uploading personally identifying, institutional, copyrighted or research-related data onto public GenAI platforms may be considered a breach of RCSI’s data privacy protection policy.",
+   "anchor": "risk 4"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "The ease with which GenAI can be used to generate content in a variety of formats leaves it open to misuse, including submission of work that is not one’s own.",
+   "anchor": "AI concerns and risks"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "It is not advisable to rely on AI detection tools to detect GenAI accurately or reliably.",
+   "anchor": "assessment guidance 7"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Employing follow-up oral examinations where academic integrity breaches are suspected",
+   "anchor": "redesign 2"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "using version histories to verify students' work",
+   "anchor": "redesign 2"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": true,
+   "quote": "Any usage of GenAI tools in assessments outside what is explicitly permitted will, subject to investigation, be considered a breach of academic integrity, and may lead to disciplinary proceedings in line with RCSI’s Academic Integrity policy.",
+   "anchor": "assessment guidance 6"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": true,
+   "quote": "Any usage of GenAI tools in assessments outside what is explicitly permitted will, subject to investigation, be considered a breach of academic integrity, and may lead to disciplinary proceedings in line with RCSI’s Academic Integrity policy.",
+   "anchor": "assessment guidance 6"
+  }
+ ],
+ "definitions": []
+}

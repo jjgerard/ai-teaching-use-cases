@@ -1,0 +1,194 @@
+{
+ "doc_id": "east-anglia-students-genai-202610",
+ "coder": "cmp-c32",
+ "uses": [
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI as tutor - explanations can be provided to gain understanding.",
+   "anchor": "5.1 Student Practice"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Inspiration and ideas can be provided.",
+   "anchor": "5.1 Student Practice"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can help develop thinking by checking responses, providing counterarguments and generating questions.",
+   "anchor": "5.1 Student Practice"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "generative AI can be used to gain ongoing feedback on tasks and assignments.",
+   "anchor": "5.1 Student Practice"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI can be used to surface relevant literature, however students should be aware that references can be fictional, not current and",
+   "anchor": "5.1 Student Practice"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "you are not allowed to use that software to complete the assessment (or any part of it) for you.",
+   "anchor": "Detection of AI generated content"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "unless specifically required to use AI as part of the assessment submitted work must always be the student’s own writing therefore they must not copy and paste computer generated text directly.",
+   "anchor": "5.1.2 red light"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Students should not use content or ideas from Generative AI without appropriate citation.",
+   "anchor": "5.1.2 red light"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Students should not rely on Generative AI when working in an important context where the student is reliant on the generated output being correct",
+   "anchor": "5.1.2 red light"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI can be used to create study and work schedules allowing students to create personalised study plans or group work schedules.",
+   "anchor": "Organisation"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Students can generate outlines that are then used as the basis for deeper research and investigation.",
+   "anchor": "Research skills"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI can be used by a team of students to act as a virtual member, maybe playing a role which other students might find awkward or difficult, e.g. asking for a counterargument or acting as a disrupter.",
+   "anchor": "5.1 Student Practice"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Students should not use Generative AI as the first step in their thinking (i.e. to immediately ask the computer the exact question that they have been asked).",
+   "anchor": "5.1.2 red light"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "each School of Study should meet at least once per academic year to discuss the impact of generative AI on their assessment design and set School-level expectations around the appropriate use of AI for students within their discipline."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Module organisers should make it clear within assessment briefs how Generative AI can be used, ensuring that the policy is adhered to, or where it differs explain why."
+  },
+  {
+   "value": "institution_wide",
+   "quote": "where there is a School approach or practice which differs from the general University guidance (as set out in this policy)"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Make sure that students know that if they use it within their work, that they must reference the contribution made."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "Author of AI model used. (Year of AI model used). Name of AI model used (Version of AI model used) [Type or description of AI model used]. Web address of AI model used"
+   },
+   {
+    "value": "tool_version",
+    "quote": "Author of AI model used. (Year of AI model used). Name of AI model used (Version of AI model used) [Type or description of AI model used]. Web address of AI model used"
+   },
+   {
+    "value": "prompts",
+    "quote": "And a screenshot of the full thread of the cited AI interactions pasted to an Appendix."
+   },
+   {
+    "value": "outputs",
+    "quote": "And a screenshot of the full thread of the cited AI interactions pasted to an Appendix."
+   },
+   {
+    "value": "learning_reflection",
+    "quote": "Students should reflect on AI feedback and other outputs against their own knowledge and understanding and report on the guidance which has been provided and how they may or may not include it in their work."
+   },
+   {
+    "value": "how_used",
+    "quote": "A general overview use declaration (in the submission declaration) in which you explain in general how technology assistance was used"
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "A general overview use declaration (in the submission declaration)"
+   },
+   {
+    "value": "appendix",
+    "quote": "And a screenshot of the full thread of the cited AI interactions pasted to an Appendix."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "Specifically, when you would cite a human (for the idea, exact or general wording) then cite the technology:"
+  },
+  "consequence": null,
+  "exempt": [
+   {
+    "what": "assignment_designed_for_ai",
+    "quote": "Make sure that students know that they cannot copy and paste AI generated content (when it is not part of the assessment design itself)."
+   }
+  ]
+ }
+}

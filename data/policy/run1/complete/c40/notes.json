@@ -1,0 +1,44 @@
+{
+ "batch": "c40",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "london-school-hygiene-and-tropical-medicine-students-genai-202610",
+   "note": "Existing check_language row anchored to B.1 and the Personation rows are kept as is. The 'Turnitin is just a tool' detection row (stance unreliable) is a loose fit; left unchanged. Scope kept general_misconduct. Chapter 4 acknowledgement of third-party help is not AI-specific and was not coded. Essay-bank wording (contract cheating) and 'ignorance can be no excuse' (strict liability) not added because those keys already hold a row."
+  },
+  {
+   "doc_id": "northumbria-students-genai-202610",
+   "note": "Claude for Education licence access is an institutional tool right, not a support form. Statements that Claude 'won't' write assignments are tool behaviour, not student rules, so were not coded."
+  },
+  {
+   "doc_id": "plymouth-students-genai-202610",
+   "note": "Snapshot is a LibGuide navigation page with no use, misconduct or further support content; nothing to add."
+  },
+  {
+   "doc_id": "brighton-students-genai-202610",
+   "note": "Overreliance caution and Accuracy caution coded as discouraged in context unspecified; Teaching row (educators) is staff-facing and not coded."
+  }
+ ],
+ "added": {
+  "london-school-hygiene-and-tropical-medicine-students-genai-202610": {
+   "uses": 1,
+   "support": 1,
+   "misconduct": 5
+  },
+  "northumbria-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 0
+  },
+  "plymouth-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "brighton-students-genai-202610": {
+   "uses": 4,
+   "support": 0,
+   "misconduct": 0
+  }
+ }
+}

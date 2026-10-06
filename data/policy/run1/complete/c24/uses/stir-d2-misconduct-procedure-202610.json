@@ -1,0 +1,177 @@
+{
+ "doc_id": "stir-d2-misconduct-procedure-202610",
+ "coder": "cmp-c24",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Submission of any form of assessment, which the student has not individually created or written, as the content wholly or substantially originates from output of an artificial intelligence tool.",
+   "anchor": "21.1.2. Inappropriate use of artificial intelligence tools"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "When part of an assessment originates from an artificial tool without appropriate acknowledgement.",
+   "anchor": "21.1.2. Inappropriate use of artificial intelligence tools"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The use of websites or software to mask or facilitate plagiarism. This includes platforms oﬀering AI services that oﬀer automated summaries or collation of ideas",
+   "anchor": "21.1.3. Plagiarism"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "use of most external AI tools for rephrasing students’ own material to avoid selfplagiarism entails the risk of student's own work being used to train future generations of",
+   "anchor": "21.1.4. Self-plagiarism"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "such a use of AI proofreading tools beyond assistive purposes is also prohibited, unless tasks allow their use",
+   "anchor": "21.1.12. Inappropriate use of proofreaders"
+  },
+  {
+   "use": "any_use",
+   "context": "exams_or_supervised",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Unauthorised notes or information resources in any form, including AI tools.",
+   "anchor": null
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "In cases where such adjustments have been approved, permitted use of proofreaders, spell-checking tools, grammar aids, or speciﬁc AI functionalities may be allowed to support equitable access to learning and assessment.",
+   "anchor": null
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "inappropriate use such as unacknowledged reliance on AI-generated content, submitting AI output as one’s own work, or failing to engage critically with content provided by AI, may constitute poor",
+   "anchor": "Artificial Intelligence"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsification is the fabrication or invention of data, information, or references in any formal academic exercise.",
+   "anchor": "21.1.6. Falsification",
+   "ai_named": false
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It is noted that the use of AI tools to paraphrase other students’ work is strictly prohibited as it constitutes a case of collusion.",
+   "anchor": "21.1.5. Collusion",
+   "ai_named": true
+  },
+  {
+   "use": "disguise_ai_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Making false or misleading statements as to the extent to which, and how, artificial intelligence tools were used in an assessment.",
+   "anchor": "21.1.11. Dishonest Practice",
+   "ai_named": true
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Use artificial intelligence tools, such as ChatGPT, ethically and within the guidelines issued by the University and in connection with specific assessments.",
+   "anchor": "Points of Policy"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "such a use of AI proofreading tools beyond assistive purposes is also prohibited, unless tasks allow their use for the purposes of formation of ideas or concepts.",
+   "anchor": "21.1.12. Inappropriate use of proofreaders"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Inappropriate quoting from sources, including artificial intelligence tools, whether or not referenced in-text and/or in the bibliography",
+   "anchor": "20.3 Poor Academic Practice"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "The permitted use of AI for a particular assessment or learning activity should be explicitly outlined by Module Coordinators or Supervisors"
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "according to the University of Stirling’s AI Assessment Scale."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Where an artificial intelligence tool has been used in a manner contrary to the instructions of the particular assessment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "When part of an assessment originates from an artificial tool without appropriate acknowledgement."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "When part of an assessment originates from an artificial tool without appropriate acknowledgement."
+  },
+  "exempt": []
+ }
+}

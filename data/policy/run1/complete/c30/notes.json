@@ -1,0 +1,51 @@
+{
+ "batch": "c30",
+ "unmapped": [
+  {
+   "doc_id": "bpp-students-genai-202610",
+   "quote": "Using Gen AI in a way that would bring BPP or its clients into disrepute.",
+   "what_it_says": "Misuse of AI that brings the institution or clients into disrepute is a potential misconduct breach (no matching offence value)."
+  },
+  {
+   "doc_id": "bpp-students-genai-202610",
+   "quote": "Any student suspected of using AI in such a presentation will have their application refused, their visa turned down or simply be failed at the test.",
+   "what_it_says": "Stated consequences for suspected AI use in presentations (refused application, visa, fail); no exact outcome value."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "newcastle-students-genai-202610",
+   "note": "Existing fabricate_data_or_references row quotes a generic misconduct sentence; left unchanged. Existing ai_detection_software rows with stance restricted and may_be_used share a quote; left unchanged."
+  },
+  {
+   "doc_id": "surrey-students-genai-202610",
+   "note": "Page has no named uses, acknowledgement rules or misconduct content; nothing added."
+  },
+  {
+   "doc_id": "bpp-students-genai-202610",
+   "note": "Existing exams_or_supervised row for speech/viva coded conditional; the same table says AI must not be used where oral skills assessed, added as separate prohibited row."
+  }
+ ],
+ "added": {
+  "newcastle-students-genai-202610": {
+   "uses": 2,
+   "support": 0,
+   "misconduct": 3
+  },
+  "st-andrews-students-genai-202610": {
+   "uses": 11,
+   "support": 1,
+   "misconduct": 1
+  },
+  "surrey-students-genai-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 0
+  },
+  "bpp-students-genai-202610": {
+   "uses": 11,
+   "support": 0,
+   "misconduct": 1
+  }
+ }
+}

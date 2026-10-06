@@ -1,0 +1,312 @@
+{
+ "doc_id": "stir-d2-misconduct-procedure-202610",
+ "coder": "cmp-c24",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "When part of an assessment originates from an artificial tool without appropriate acknowledgement.",
+   "anchor": "21.1.2"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Where an artificial intelligence tool has been used in a manner contrary to the instructions of the particular assessment.",
+   "anchor": "21.1.2"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Submission of any form of assessment, which the student has not individually created or written, as the content wholly or substantially originates from output of an artificial intelligence tool.",
+   "anchor": "21.1.2"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsification is the fabrication or invention of data, information, or references in any formal academic exercise.",
+   "anchor": "21.1.6"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": true,
+   "quote": "Making false or misleading statements as to the extent to which, and how, artificial intelligence tools were used in an assessment.",
+   "anchor": "21.1.11"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "It is a broad category that includes, but is not limited to, work bought from so-called essay mills, substantially unchanged/unmodified output from an artificial intelligence tool, customised work commissioned from ghost writers, and selling or exchanging work for use by others.",
+   "anchor": "21.1.1"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "The practice of taking someone else’s work or ideas or words and passing them off as one’s own.",
+   "anchor": "21.1.3"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": true,
+   "quote": "Unauthorised notes or information resources in any form, including AI tools.",
+   "anchor": "21.1.9"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": true,
+   "quote": "It is noted that the use of AI tools to paraphrase other students’ work is strictly prohibited as it constitutes a case of collusion.",
+   "anchor": "21.1.5"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Students must not impersonate another student, nor allow themselves to be impersonated at any time whether in a learning and teaching activity, in an assessment or at University meetings.",
+   "anchor": "21.1.8"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Duplicate submission of an item of written work in any other circumstance is not allowed and constitutes academic misconduct.",
+   "anchor": "21.1.4"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "It is not required to prove intention for academic misconduct to be confirmed as having taken place.",
+   "anchor": "31"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Good academic practice is a skill which students take time to learn and develop through repeated practice and with guidance and support. Therefore, instances of poor academic practice can be part of the learning process.",
+   "anchor": "20.1"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The University makes use of similarity checking software to check originality.",
+   "anchor": "34"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "restricted",
+   "ai_named": false,
+   "quote": "Staff of the University will only use such software and methods of detection of misconduct as approved by the University.",
+   "anchor": "34"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "While ultimately academic judgement will be exercised in determining if academic misconduct had indeed taken place",
+   "anchor": "35"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Comment orally on the work they had submitted – e.g., defend/explain the main arguments presented in the written work or discuss one aspect of the topic; and/or",
+   "anchor": "56"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "In cases of alleged contract cheating, it may be beneficial for the Panel to compare the work in which academic misconduct is suspected with assessments previously submitted by the student.",
+   "anchor": "55"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "An Academic Practice Discussion is a less formal discussion than those that take place in line with the Academic Misconduct Procedure",
+   "anchor": "27"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Matters of suspected academic misconduct are considered by an Academic Integrity Panel in line with this procedure.",
+   "anchor": "40"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student will be provided the opportunity within the meeting to respond to the allegation of academic misconduct and to provide both verbal and written information that is relevant to their response.",
+   "anchor": "49"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The purpose of a meeting of the Academic Integrity Panel is for the Panel members to make a decision on whether or not academic misconduct has taken place, and classify any offence that is confirmed.",
+   "anchor": "45"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "The failure of the student to attend the meeting will not prevent the Academic Integrity Panel from deciding on the matter and taking appropriate action in accordance with this procedure, and the Academic Integrity Policy.",
+   "anchor": "55"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student has the right to be accompanied at the meeting by one member of the University of Stirling community who is one of the following: fellow student, staff member, or a representative from the University of Stirling Students’ Union.",
+   "anchor": "50"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "The University of Stirling Policy and Procedure on Academic Appeals exists to provide an opportunity for a student to request a review of a decision made regarding an academic matter.",
+   "anchor": "80"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Students should be given notice, by email, of the meeting at least five working days before it is due to take place.",
+   "anchor": "53"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "Decisions on whether or not an allegation of academic misconduct is confirmed are determined on the balance of probabilities and as noted in paragraph 23, constitute academic judgement.",
+   "anchor": "31"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "The entire form is also automatically sent to Student Administration in order to enable the offence and penalty to be ratified and recorded.",
+   "anchor": "62"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "The purpose of the Academic Misconduct Procedure is not solely punitive, in that opportunities should be taken to facilitate a student learning from the experience so that it minimises the likelihood of repetition in the future.",
+   "anchor": "70"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "The submission is graded however all sentences in the assessment that contain academic misconduct are excluded from marking",
+   "anchor": "79 Minor"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "For taught provision, the final mark for the submission will be capped at the pass mark.",
+   "anchor": "79 Serious"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Allocation of zero for the relevant assessment.",
+   "anchor": "79 Major"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Thesis/dissertation not accepted in its present form but the student given the opportunity to revise and resubmit the thesis within three months.",
+   "anchor": "79 Major"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Allocation of zero for the module, no reassessment allowed, and unable to graduate with honours or masters.",
+   "anchor": "79 Serious"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Termination of studies and no award possible.",
+   "anchor": "79 Gross"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "PGR thesis rejected and no degree possible to be awarded.",
+   "anchor": "79 Gross"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Where academic misconduct is suspected or alleged after the University has confirmed and/or granted an academic award or academic credit, the matter should be referred to Academic Registry in the first instance via quality@stir.ac.uk.",
+   "anchor": "19"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "However, in cases where a student is found to have demonstrated academic misconduct in more than one assessment, and the second case occurred after the meeting of the Academic Integrity Panel took place to consider the first, the offences will usually represent an offence at the next higher level.",
+   "anchor": "74"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "In determining the severity of an act of academic misconduct and the penalty to apply, the Academic Integrity Panel will be guided by matters such as the nature of the conduct, the level and year of study, the extent of the academic misconduct and the impact of penalties on the student.",
+   "anchor": "75"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "All confirmed offences will be reported to relevant Professional, Statutory and Regulatory bodies (PSRBs) and Fitness to Practice Panels where this is considered relevant and required.",
+   "anchor": "68"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "academic misconduct",
+   "ai_named": false,
+   "quote": "any act or attempted act that does not demonstrate academic integrity and that may result in creating an academic advantage for you or another person, or an academic disadvantage for any other member or member of the academic community."
+  },
+  {
+   "term": "poor academic practice",
+   "ai_named": false,
+   "quote": "Poor Academic Practice occurs when a student submits any type of assessment that does not properly acknowledge the origin of words, ideas, images, tables, diagrams, maps, code, sound, and any other sources used in the assessment."
+  },
+  {
+   "term": "artificial intelligence",
+   "ai_named": true,
+   "quote": "Artificial Intelligence (AI), within the educational context, refers to a diverse range of software tools and platform services"
+  },
+  {
+   "term": "contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating takes place when a student submits an assessment that was completed by a third-party either for payment or for free."
+  },
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "The practice of taking someone else’s work or ideas or words and passing them off as one’s own."
+  },
+  {
+   "term": "falsification",
+   "ai_named": false,
+   "quote": "Falsification is the fabrication or invention of data, information, or references in any formal academic exercise."
+  },
+  {
+   "term": "academic integrity",
+   "ai_named": false,
+   "quote": "Academic integrity is acting consistently in accordance with the fundamental values of honesty, fairness, responsibility, respect, trust and courage in your studies, research and conduct."
+  },
+  {
+   "term": "collusion",
+   "ai_named": false,
+   "quote": "When two or more students work together to produce an assessment that they are to submit individually."
+  },
+  {
+   "term": "piracy",
+   "ai_named": false,
+   "quote": "The deliberate exploitation of material objects, ideas, pieces of writing, code, software or hardware from others without proper acknowledgement."
+  },
+  {
+   "term": "exam conditions",
+   "ai_named": false,
+   "quote": "‘Exam conditions’ refers to when an assessment is required to be completed by a student: without consultation with others and within a set period of time."
+  }
+ ]
+}

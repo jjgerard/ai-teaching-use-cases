@@ -1,0 +1,83 @@
+{
+ "doc_id": "ucd-d2-misconduct-procedure-202610",
+ "coder": "cmp-c26",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "unauthorised and / or unacknowledged use of artificial intelligence tools to generate content for assessment purposes",
+   "anchor": null
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabricating or falsifying data",
+   "anchor": null,
+   "ai_named": false
+  },
+  {
+   "use": "disguise_ai_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "unauthorised and / or unacknowledged use of paraphrasing or translation software to, for example, disguise plagiarism, collusion, contract cheating or other academic integrity breach.",
+   "anchor": null,
+   "ai_named": true
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "using such technology without explicit permission from relevant academic staff and / or not acknowledging use of such technology when its use is permitted",
+   "anchor": "3. Definitions",
+   "ai_named": false
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Plagiarism: Presenting work / ideas taken from other sources without proper acknowledgement.",
+   "anchor": "3. Definitions",
+   "ai_named": false
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "using such technology without explicit permission from relevant academic staff"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "not acknowledging use of such technology when its use is permitted"
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "unauthorised and / or unacknowledged use of artificial intelligence tools to generate content for assessment purposes"
+  },
+  "exempt": []
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "batch": "c32",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "east-anglia-students-genai-202610",
+   "note": "Section 4.3 (computer assistance to give the impression of more learning is academic misconduct) fits passing_off but that key is already used; not added."
+  },
+  {
+   "doc_id": "highlands-and-islands-students-genai-202610",
+   "note": "Existing uses rows mark acknowledge=required on permitted uses and default prohibit_all; left unchanged. Added three any_use/unspecified rows distinguished by tier (permission, approved tools, age)."
+  },
+  {
+   "doc_id": "northampton-students-genai-202610",
+   "note": "Existing explain_or_tutor and revise_or_practise rows use needs_permission under Category 2, which looks questionable; left unchanged."
+  }
+ ],
+ "added": {
+  "aberdeen-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 4
+  },
+  "east-anglia-students-genai-202610": {
+   "uses": 5,
+   "support": 1,
+   "misconduct": 1
+  },
+  "highlands-and-islands-students-genai-202610": {
+   "uses": 6,
+   "support": 2,
+   "misconduct": 1
+  },
+  "northampton-students-genai-202610": {
+   "uses": 1,
+   "support": 1,
+   "misconduct": 0
+  }
+ }
+}

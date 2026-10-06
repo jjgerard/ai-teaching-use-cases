@@ -1,0 +1,274 @@
+{
+ "doc_id": "strath-d2-misconduct-procedure-202610",
+ "coder": "cmp-c24",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Other behaviours that may give an unfair academic advantage, including the unauthorised use of Generative Artificial Intelligence tools and services.",
+   "anchor": "Annex 3 C"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Plagiarism may also include circumstances where minor amendments are made to disguise the original source, or to pass off an idea as a student’s own, including the use of any software or artificial intelligence to generate create or revise work, simply because the way that idea is expressed has been changed.",
+   "anchor": "Annex 3 A"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": true,
+   "quote": "Plagiarism may also include circumstances where minor amendments are made to disguise the original source, or to pass off an idea as a student’s own, including the use of any software or artificial intelligence to generate create or revise work, simply because the way that idea is expressed has been changed.",
+   "anchor": "Annex 3 A"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is the use, without acknowledgement, of the intellectual work of other people, and the act of representing the ideas or discoveries of others as your own in submitted assessments and publications.",
+   "anchor": "Annex 3 A"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "This includes either changing any information (e.g. data) to support a hypothesis, or inventing information (e.g. experimental results, interview questions or answers, survey results), which are then reported as genuine observations or measurements.",
+   "anchor": "Annex 3 E"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "This involves any means where a student submits work for any assessment which has been produced – in part or in full - by someone else (e.g. another student, someone from outside the University, internet “cheat sites” or “essay mills”).",
+   "anchor": "Annex 3 F"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Having access or attempting to gain access, during a formal examination or class test, to any unauthorised material, electronic device or calculator;",
+   "anchor": "Annex 3 C"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion includes circumstances where two or more candidates work or plan jointly to cheat in any of the above ways.",
+   "anchor": "Annex 3 D"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Writing an assignment or completing an examination on behalf of another student is also a form of academic misconduct, as is impersonating another student.",
+   "anchor": "Annex 3 F"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "it is unacceptable to resubmit material that has already been assessed, unless this has been expressly permitted.",
+   "anchor": "Annex 3 B"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": false,
+   "quote": "Uploading or in any way sharing or distributing learning, teaching or assessment materials via online platforms with the intention of facilitating plagiarism or any other form of cheating may also be considered a form of collusion.",
+   "anchor": "Annex 3 D"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "The use of other people’s research, written works, or phrasing without proper acknowledgement is considered to be plagiarism, whether or not a student has intended this.",
+   "anchor": "Annex 3 A"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The University reserves the right to put a student’s academic work through similarity checking software, such as Turnitin, as part of a misconduct investigation process.",
+   "anchor": "12"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": true,
+   "quote": "The University does not endorse or permit the use of any Artificial Intelligence detection tools or services to determine if the unauthorised use of Generative AI has taken place, and does not permit the submission of students' work to these tools or services.",
+   "anchor": "12"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Misconduct Officers can use a portion of the Stage 1 Investigation Interview to explore the Reported Student’s engagement with the assessment including their understanding of the source material, key concepts in the subject area, the research methodology used, and their approach to writing and completing the assessment.",
+   "anchor": "45"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "If work previously submitted by the Reported Student is being considered to compare the consistency of submissions this must be included as evidence and be shared with the student in advance of the Stage 1 Investigation Interview.",
+   "anchor": "45"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "A Misconduct Officer may also refer a case for consideration under Stage 2 of the Procedure.",
+   "anchor": "56"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "A Misconduct Officer will be appointed by the Head of Department to investigate the allegations of misconduct.",
+   "anchor": "41"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "Their right to submit a written statement in response to the alleged offence(s) to the Misconduct Officer in advance of the interview;",
+   "anchor": "46f"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "In cases where the University Secretary, (or nominee), decides that the case should be heard by a Senate Discipline Committee for consideration, the Senate Office will organise a hearing of a Senate Discipline Committee.",
+   "anchor": "64"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If a Reported Student fails to attend a Senate Discipline Committee, the hearing will proceed in their absence.",
+   "anchor": "71"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The Reported Student may be accompanied to the interview by a Supporter and/or a Representative, (see Table of Roles in Annex 1), of the Reported Student’s choice.",
+   "anchor": "51"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A Reported Student has the right to submit an appeal on one or more of the following criteria against a decision made, or the penalty imposed, in both Stage 1 and Stage 2 cases:",
+   "anchor": "83"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "A Reported Student wishing to submit an appeal against the outcome of a Stage 1 case must do so within 10 working days of receipt of written confirmation of the outcome of the case from the Misconduct Officer.",
+   "anchor": "81"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "Any disciplinary process is a civil matter where the alleged Academic Misconduct is more likely than not to have occurred.",
+   "anchor": "24"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "The Senate Office will keep a record of the case for the duration of the student’s registration, for reporting purposes.",
+   "anchor": "73"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "The University of Strathclyde views this Procedure as part of a supportive and educational approach, as Academic Misconduct may be the first indicator of underlying challenges.",
+   "anchor": "33"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "Reported Student issued with a written warning, setting out terms for the student’s continued registration at the University of Strathclyde and timelines within which any specific actions must be taken;",
+   "anchor": "55b"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "A reduction of the mark assigned to the assessment/s in question is applied, up to and including awarding a zero with no right to resubmit;",
+   "anchor": "55c"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "A reduction of the mark assigned to the assessment/s in question is applied, up to and including awarding a zero with no right to resubmit;",
+   "anchor": "55c"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Reported Student to rewrite and resubmit the assessment, with appropriate referencing.",
+   "anchor": "35b"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Reported Student suspended from attendance at the University for a stipulated period;",
+   "anchor": "74d"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "Reported Student’s degree classification will be capped;",
+   "anchor": "74g"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "An award previously granted by the University of Strathclyde is revoked, either permanently or for a specified period of time, under Statute 3.6.3;",
+   "anchor": "74j"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Referral to Stage 2 will normally occur in instances where there is a repeated offence, with previous offence(s) having been formally investigated under Stage 1.",
+   "anchor": "56"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "In cases where a Senate Discipline Committee upholds the allegation of Academic Misconduct, it is empowered to impose one or more of the following sanctions or penalties:",
+   "anchor": "74"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "In some cases, where contravention of the Regulations leads to concerns regarding a Reported Student’s fitness to practise, the University may, separately from this Procedure, implement a Fitness to Practise procedure.",
+   "anchor": "19"
+  },
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Such other penalties as may be proportionate to the offence committed by the Reported Student and considered appropriate by a Senate Discipline Committee.",
+   "anchor": "74n"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "academic misconduct",
+   "ai_named": false,
+   "quote": "Any action or attempted action that may result in creating an unfair academic advantage for a student, or an unfair academic advantage or disadvantage for any other student member/s of the academic community"
+  },
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the use, without acknowledgement, of the intellectual work of other people, and the act of representing the ideas or discoveries of others as your own in submitted assessments and publications."
+  },
+  {
+   "term": "collusion",
+   "ai_named": false,
+   "quote": "Collusion includes circumstances where two or more candidates work or plan jointly to cheat in any of the above ways."
+  },
+  {
+   "term": "duplication of submitted work",
+   "ai_named": false,
+   "quote": "This is the submission, in whole or in part, of your own work that has previously been submitted for a different assignment (either at the University of Strathclyde or elsewhere)."
+  },
+  {
+   "term": "non-academic misconduct",
+   "ai_named": false,
+   "quote": "Violation of the University’s Regulations though behaviour which is not defined as Academic Misconduct."
+  }
+ ]
+}

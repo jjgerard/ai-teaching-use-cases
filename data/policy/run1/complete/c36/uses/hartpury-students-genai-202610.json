@@ -1,0 +1,176 @@
+{
+ "doc_id": "hartpury-students-genai-202610",
+ "coder": "cmp-c36",
+ "uses": [
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Acceptable use might include understanding difficult topics, summarising information, generate ideas and writing prompts etc. however students must always adhere to JCQ guidelines and maintain academic integrity by acknowledging any AI use.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Acceptable use might include understanding difficult topics, summarising information, generate ideas and writing prompts etc. however students must always adhere to JCQ guidelines and maintain academic integrity by acknowledging any AI use.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Acceptable use might include understanding difficult topics, summarising information, generate ideas and writing prompts etc. however students must always adhere to JCQ guidelines and maintain academic integrity by acknowledging any AI use.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "While Generative AI can be a valuable tool to support learning, it should not replace critical thinking and analysis.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Copying or paraphrasing sections of AI-generated content so that the work submitted for assessment is no longer the student’s own.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "if the qualification/ assessment rules allow the use of AI tools, students must reference any content produced correctly. Failure to reference AI use correctly is malpractice.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using AI to complete parts of the assessment so that the work does not reflect the student’s own work, analysis, evaluation or calculations.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Copying or paraphrasing whole responses of AI-generated content.",
+   "anchor": "Misuse of AI/ Generative AI",
+   "tier": "whole responses"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Failing to acknowledge use of AI tools when they have been used as a source of information.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "students must always adhere to JCQ guidelines and maintain academic integrity by acknowledging any AI use.",
+   "anchor": "Misuse of AI/ Generative AI",
+   "tier": "acknowledgement"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "if the qualification/ assessment rules allow the use of AI tools, students must reference any content produced correctly.",
+   "anchor": "Misuse of AI/ Generative AI"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It is important students develop the knowledge, skills and understanding of the subjects they are studying and do not rely on AI.",
+   "anchor": "Misuse of AI/ Generative AI"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "students must always adhere to JCQ guidelines and maintain academic integrity by acknowledging any AI use."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "the student must show the name of the AI source and the date the content was generated."
+   },
+   {
+    "value": "date_accessed",
+    "quote": "the student must show the name of the AI source and the date the content was generated."
+   },
+   {
+    "value": "how_used",
+    "quote": "provide a brief explanation of how it has been used."
+   },
+   {
+    "value": "prompts",
+    "quote": "The student must also retain a copy of the question(s) and computer-generated content for reference and authentication purposes in a non-editable format (e.g. screenshot)"
+   },
+   {
+    "value": "outputs",
+    "quote": "The student must also retain a copy of the question(s) and computer-generated content for reference and authentication purposes in a non-editable format (e.g. screenshot)"
+   }
+  ],
+  "location": [],
+  "records": {
+   "value": "required",
+   "quote": "The student must also retain a copy of the question(s) and computer-generated content for reference and authentication purposes in a non-editable format (e.g. screenshot)"
+  },
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "if the qualification/ assessment rules allow the use of AI tools, students must reference any content produced correctly."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Failure to reference AI use correctly is malpractice."
+  },
+  "exempt": []
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "doc_id": "mary-immaculate-d2-other-202610",
+ "coder": "cmp-c25",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "may unintentionally lead to you presenting someone else's work or ideas as your own",
+   "anchor": "Strategies for Students: Note Taking"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "When panic sets in, it becomes easier to unintentionally plagiarise or misuse AI-generated material, actions that carry serious consequences.",
+   "anchor": "Personal Care and Wellness"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Poor notetaking practices can inadvertently lead to academic integrity breaches.",
+   "anchor": "Strategies for Students: Note Taking"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Traditional plagiarism-detection tools are rendered ineffective in this context, as AI becomes more capable of human-like text",
+   "anchor": "Strategies for Teachers: GenAI challenges"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Detection tools which purport to specifically focus on GenAI detection raise some significant implications for privacy, equity, and data security (Dalalah & Dalalah, 2023). There is also a lack of evidence as to whether they are effective, with many institutions citing instances of false positives.",
+   "anchor": "Strategies for Teachers: GenAI challenges"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "While text-matching software such as Turnitin should recognise a submitted assignment from a different cohort, this will not be the case if a student has significantly paraphrased an assignment from a previous year.",
+   "anchor": "Reusing the same assessment task"
+  }
+ ],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Failure to use the correct citation method may result in a reduced grade.",
+   "anchor": "Strategies for Students: Referencing"
+  },
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": true,
+   "quote": "When panic sets in, it becomes easier to unintentionally plagiarise or misuse AI-generated material, actions that carry serious consequences.",
+   "anchor": "Personal Care and Wellness"
+  }
+ ],
+ "definitions": []
+}

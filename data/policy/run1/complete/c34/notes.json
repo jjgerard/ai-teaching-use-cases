@@ -1,0 +1,40 @@
+{
+ "batch": "c34",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "mtu-students-genai-202610",
+   "note": "Scope left as general_misconduct: the policy is a general integrity policy with one AI-specific offence clause (5.6.14)."
+  },
+  {
+   "doc_id": "york-st-john-students-genai-202610",
+   "note": "Existing row translate/assessed_work/prohibited kept; the 'majority of own work' ban added with tier qualifier. No further offence, detection, process or outcome values found."
+  },
+  {
+   "doc_id": "derby-students-genai-202610",
+   "note": "Page is a general AI explainer; 'Academic Misconduct' appears only as a menu label, so scope none is kept."
+  }
+ ],
+ "added": {
+  "derby-students-genai-202610": {
+   "uses": 1,
+   "support": 1,
+   "misconduct": 0
+  },
+  "for-creative-arts-students-genai-202610": {
+   "uses": 4,
+   "support": 0,
+   "misconduct": 2
+  },
+  "york-st-john-students-genai-202610": {
+   "uses": 5,
+   "support": 1,
+   "misconduct": 0
+  },
+  "mtu-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 1
+  }
+ }
+}

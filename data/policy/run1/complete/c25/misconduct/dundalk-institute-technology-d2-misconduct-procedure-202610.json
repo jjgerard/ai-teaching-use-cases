@@ -1,0 +1,256 @@
+{
+ "doc_id": "dundalk-institute-technology-d2-misconduct-procedure-202610",
+ "coder": "cmp-c25",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism.",
+   "anchor": "Section 4"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism.",
+   "anchor": "Section 4"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism.",
+   "anchor": "Section 4"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of submitting for academic credit someone else’s work as one’s own, without acknowledging the source and without using accepted referencing norms.",
+   "anchor": "Section 4"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "purchasing work from another / others and submitting this as one’s own;",
+   "anchor": "Section 4"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication is understood as the act of presenting information as the results from an experiment, a trial or a survey which was not carried out.",
+   "anchor": "Section 5"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Use of / or access to telecommunications aids, written materials or data devices when not explicitly permitted in the context of the examination;",
+   "anchor": "Section 6"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Deliberately facilitating plagiarism by permitting another to copy one’s work contravenes the principles of Academic Integrity.",
+   "anchor": "Section 4"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonation;",
+   "anchor": "Section 6"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "submitting the same piece of work more than once to gain academic credit;",
+   "anchor": "Section 4"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "changing words, sentences or references to avoid detection",
+   "anchor": "Appendix 1"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "All incidences of plagiarism, whether minor or major, even where unintentional, constitute a breach of Academic Integrity",
+   "anchor": "Section 4"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Evidence of deliberate attempt to disguise plagiarism by",
+   "anchor": "Appendix 1"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "apparently innocent misuse of materials;",
+   "anchor": "Section 4"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Verification may take the form of an oral verification interview (see Appendix 3: Guidelines for Staff on the Conduct of Oral Verification Interviews) with the submitting learner or learners, using plagiarism detection software (e.g. Turnitin), or any other process appropriate to a particular discipline to safeguard Academic Integrity.",
+   "anchor": "Section 8"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Verification may take the form of an oral verification interview (see Appendix 3: Guidelines for Staff on the Conduct of Oral Verification Interviews) with the submitting learner or learners, using plagiarism detection software (e.g. Turnitin), or any other process appropriate to a particular discipline to safeguard Academic Integrity.",
+   "anchor": "Section 8"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "restricted",
+   "ai_named": false,
+   "quote": "The scope of the Oral Verification Interview should be limited to questions which assess the students’ knowledge of the subject matter of the relevant assessment.",
+   "anchor": "Appendix 3"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "he/she may propose that the matter is resolved informally by referring the student for training on academic writing and referencing",
+   "anchor": "Section 8"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "In cases where the incident is to be referred to a Disciplinary Panel, the learner will be notified, in writing by the Department, of the suspected infringement",
+   "anchor": "Section 8"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "all suspected cases will be investigated and dealt with appropriately by the Institute following the procedures outlined here",
+   "anchor": "Section 4"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The learner is given the opportunity to justify the work submitted and is invited to admit or deny responsibility.",
+   "anchor": "Section 8"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "A Departmental Disciplinary Hearing is convened where a breach of the Academic Integrity Policy is suspected",
+   "anchor": "Section 8"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "the hearing will proceed in the absence of the learner and a decision will be taken on the evidence to hand.",
+   "anchor": "Section 8"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The learner will have the right to be accompanied by and assisted at the Departmental Disciplinary Hearing by a representative.",
+   "anchor": "Section 8"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "the learner shall be entitled to appeal a decision to the Registrar.",
+   "anchor": "Section 8"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "within three working days of the Departmental Disciplinary Hearing",
+   "anchor": "Section 8"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "to establish whether a prima facie case exists",
+   "anchor": "Section 8"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "shall be recorded in a Departmental log and the learner / researcher so advised. Records shall be retained for five years.",
+   "anchor": "Section 4"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "referring the student for training on academic writing and referencing",
+   "anchor": "Section 8"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "In all cases a formal warning is given and a record made contributing to the student’s previous history.",
+   "anchor": "Appendix 1"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Assignment awarded 0% - resubmission required, with no penalty on mark",
+   "anchor": "Appendix 1"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Assignment awarded 0% - resubmission required, with no penalty on mark",
+   "anchor": "Appendix 1"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "*Normally, marks will be capped at the pass mark for the assignment",
+   "anchor": "Appendix 1"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Assignment awarded 0% - resubmission required but with capped* or reduced mark",
+   "anchor": "Appendix 1"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "second and subsequent offence(s) where the learner / researcher has been in receipt of an earlier written warning.",
+   "anchor": "Section 4"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Each suspected case of plagiarism is scored against a number of criteria (history, amount/extent, level/stage, value of assignment, additional characteristics) and the resultant total score is matched against a sliding scale of penalties.",
+   "anchor": "Appendix 1"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of submitting for academic credit someone else’s work as one’s own, without acknowledging the source and without using accepted referencing norms."
+  },
+  {
+   "term": "Fabrication",
+   "ai_named": false,
+   "quote": "Fabrication is understood as the act of presenting information as the results from an experiment, a trial or a survey which was not carried out."
+  },
+  {
+   "term": "Cheating",
+   "ai_named": false,
+   "quote": "Cheating is where the learner seeks to gain an unfair advantage over other learners by having access to material or equipment at a time or at a place where it is not intended, by the examiner, to be available."
+  },
+  {
+   "term": "Critical aspects",
+   "ai_named": false,
+   "quote": "*critical aspects are key ideas central to the assignment"
+  }
+ ]
+}

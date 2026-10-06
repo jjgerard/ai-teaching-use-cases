@@ -1,0 +1,45 @@
+{
+ "doc_id": "aberdeen-d2-misconduct-procedure-202610",
+ "coder": "cmp-c22",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "research_or_thesis",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The fabrication, falsification, plagiarism or deception in proposing, carrying out or reporting results of",
+   "anchor": "Research misconduct",
+   "ai_named": false
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment."
+  },
+  "exempt": []
+ }
+}

@@ -1,0 +1,319 @@
+{
+ "doc_id": "harper-adams-students-genai-202610",
+ "coder": "cmp-c31",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "AI-generated answers presented as a student’s own work",
+   "anchor": "3"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Misconduct arises from the inclusion of unattributed material, including AI sources, as opposed to solely the misuse of citation conventions.",
+   "anchor": "4.3"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Extensive and deliberate use of artificial intelligence where it was not permitted or with the intention to untruthfully and unreasonably claim the work is original.",
+   "anchor": "4.4"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "Intent to deceive or circumvent text-matching software such as Turnitin",
+   "anchor": "3"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": true,
+   "quote": "It also covers falsifying data, misleading tutors, misusing AI-generated content, and manipulating assignment submission systems.",
+   "anchor": "Appendix 2"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating or ‘ghosting,’ where work has been produced in whole or in part by another person and/or organisation on the student’s behalf.",
+   "anchor": "4.4"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of using someone else’s work without proper attribution, effectively presenting it as one’s own.",
+   "anchor": "Appendix 2"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Being in possession of unauthorised items/materials during an examination.",
+   "anchor": "4.4"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion involves students collaborating to produce work meant to be submitted by one student alone, misleading markers about the sole authorship.",
+   "anchor": "Appendix 2"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": true,
+   "quote": "It also covers falsifying data, misleading tutors, misusing AI-generated content, and manipulating assignment submission systems.",
+   "anchor": "Appendix 2"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Auto-plagiarism, or self-plagiarism involves resubmitting one's own previous work for new academic credit without proper citation, except in cases like reassessment, where it’s permitted.",
+   "anchor": "Appendix 2"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": true,
+   "quote": "Notes, handouts and slides created by lecturers represent their intellectual property and should never be uploaded into AI without their explicit permission to do so.",
+   "anchor": "Appendix 1"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Neither can a student appeal on the grounds that they did not understand or were not aware of the University’s regulations or procedures.",
+   "anchor": "8"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "There is a reasonable indication that the student sought to gain an unfair advantage.",
+   "anchor": "4.4"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor academic practice occurs when students show they do not understand proper academic rules, often early in their studies.",
+   "anchor": "4.1"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The use of technologies such as original text-matching software",
+   "anchor": "3"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "AI generated text can be easy to spot due to its common usage of particular words, hyperbolic tone and Americanisms.",
+   "anchor": "Appendix 1"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "the University reserves the right to use appropriate methods to detect academic misconduct, which may include the use of a viva voce.",
+   "anchor": "3"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The student will need to provide clear evidence of their authorship of the work, for example, dated files or screenshots providing evidence of research and planning or evidence of prompts used and outputs generated.",
+   "anchor": "6"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "AI generated work is often flagged for misconduct investigation because it does not reflect what has been taught or because it is very similar to other submissions in wording, choice of examples and structure.",
+   "anchor": "Appendix 1"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Where student conduct in an examination is suspected to show gross academic misconduct, the Senior Invigilator should refer cases to the Academic Misconduct Panel.",
+   "anchor": "7.4"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Dedicated staff, including a Principal Academic Misconduct Investigator, who leads investigations into suspected academic misconduct.",
+   "anchor": "3"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": true,
+   "quote": "If a student wishes to refute a judgment of misconduct related to how they have used AI in constructing their work, they may request a meeting with the Principal Academic Misconduct Investigator.",
+   "anchor": "6"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "An Academic Misconduct Panel will be convened when a student is suspected of gross academic misconduct once the procedures outlined have been completed.",
+   "anchor": "7.5"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "Where a student elects not to attend the meeting, steps h, j, k, l and n are omitted.",
+   "anchor": "7.5"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "they may be accompanied by a current Harper Adams University enrolled student, Students’ Union representative, or staff member for support.",
+   "anchor": "7.5 d"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "The student has the right to appeal against the decision of the Academic Misconduct Panel.",
+   "anchor": "7.5 p"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "An appeal must be received by the Head of Registry Services within fourteen days of the notification of the Panel’s decision to the student.",
+   "anchor": "7.5 p"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The Panel’s decision shall be guided by the standard of proof required (i.e. balance of probability) and the penalty tariffs outlined.",
+   "anchor": "7.5 n"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Please note the occurrence of minor academic misconduct will be recorded centrally on a database.",
+   "anchor": "7.1"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "students are advised on proper academic practices, possibly with a requirement for mandatory online training.",
+   "anchor": "4.1"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "Written warning by Module Leader and note to student record database and file.",
+   "anchor": "5"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Marks reduced in line with extent of assessment affected.",
+   "anchor": "5"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Maximum penalty is award of zero marks for the work.",
+   "anchor": "5"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Zero marks for the module with opportunity to be reassessed",
+   "anchor": "5"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": true,
+   "quote": "Some work has been flagged as major misconduct as the statistical tests conducted by AI were highly unusual, overly advanced, or contained inaccuracies and unusual reporting of results. This led to failure of the module.",
+   "anchor": "Appendix 1"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "the candidate is withdrawn from the programme permanently.",
+   "anchor": "5"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "failed module should impact on any progression or award entitlement",
+   "anchor": "5"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "There is a prior record of the student having previously committed major academic misconduct.",
+   "anchor": "4.4"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Penalties are more severe for more severe forms of misconduct.",
+   "anchor": "4"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "In cases of severe misconduct, penalties will be applied retroactively according to the penalty guidelines, which may include revoking previously awarded credits or degrees.",
+   "anchor": "5.2"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "Academic misconduct could raise questions to a student’s fitness to practise, and as such, fitness to practice policies will be initiated as appropriate.",
+   "anchor": "5.1"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Cheating",
+   "ai_named": false,
+   "quote": "Cheating refers to any student attempting to unfairly advantage themselves in assessments through dishonest means, such as communication during exams, using unauthorised materials, obtaining papers early, and passing off another’s work as one’s own."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion involves students collaborating to produce work meant to be submitted by one student alone, misleading markers about the sole authorship."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contact Cheating is when a student commissions another person or organisation to complete their assignments or exams, presenting the work as their own."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of using someone else’s work without proper attribution, effectively presenting it as one’s own."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Auto-plagiarism, or self-plagiarism involves resubmitting one's own previous work for new academic credit without proper citation, except in cases like reassessment, where it’s permitted."
+  },
+  {
+   "term": "Viva voce",
+   "ai_named": false,
+   "quote": "Viva Voce is an oral examination where students are required to explain and defend their work in person."
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice occurs when students show they do not understand proper academic rules, often early in their studies."
+  },
+  {
+   "term": "Academic integrity",
+   "ai_named": false,
+   "quote": "Our aim is to promote academic integrity, which is the commitment to act honestly during academic studies, maintain professional conduct, take responsibility for one’s own work, and respect the rights of others' work."
+  },
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Actions that fail to meet academic integrity requirements are considered academic misconduct and can result in penalties."
+  }
+ ]
+}

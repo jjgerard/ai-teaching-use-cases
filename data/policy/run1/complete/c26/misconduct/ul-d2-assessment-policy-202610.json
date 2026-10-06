@@ -1,0 +1,97 @@
+{
+ "doc_id": "ul-d2-assessment-policy-202610",
+ "coder": "cmp-c26",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "If AI is used in a manner which has not been permitted by the module leader, then this is a breach of academic integrity.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Detection systems cannot be relied upon to detect use of GenAI accurately or consistently.",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": false,
+   "quote": "The AI Advisory Council recommend that detectors should not be used",
+   "anchor": null
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "Identifying false citations or references within an assignment, possibly as a result of AI hallucinations",
+   "anchor": null
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Where a module leader/nominee has credible grounds to believe that a submitted assessment does not represent a student’s own work or there are other concerns relating to academic integrity, the student can be required to demonstrate authorship directly.",
+   "anchor": null
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "These features may provide some evidence on which to base a claim of academic misconduct. However, further investigation is required in order to proceed with an academic misconduct investigation.",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "a case can be reported to the Academic Integrity Unit as a suspected breach of academic integrity aligning to Level Two: Academic Misconduct or Level Three: Academic Misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "further investigation is required in order to proceed with an academic misconduct investigation.",
+   "anchor": null
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The grounds for the invitation to undertake the live review should be outlined to the student.",
+   "anchor": null
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "Where necessary reasonable accommodations should be made for students to engage in a live review. This may involve consultation with Disability Services.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Conversely, inability to explain or extend the work constitutes evidence of a breach of academic integrity and may warrant sanction.",
+   "anchor": null
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Live review",
+   "ai_named": false,
+   "quote": "The form of a live review may differ according to the nature of the academic discipline. Examples include but are not limited to oral discussion, code walk-through, studio critique, or equivalent dialogic exercise."
+  },
+  {
+   "term": "False positives",
+   "ai_named": true,
+   "quote": "‘false positives’ (incorrectly concluding that human-written text was AI-generated)"
+  }
+ ]
+}

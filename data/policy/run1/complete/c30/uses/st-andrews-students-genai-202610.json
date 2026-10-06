@@ -1,0 +1,340 @@
+{
+ "doc_id": "st-andrews-students-genai-202610",
+ "coder": "cmp-c30",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Students should not use Generative AI for the preparation and presentation of assessed work unless authorised explicitly by the module co-ordinator.",
+   "anchor": "4. Can Students use AI to produce assessed work?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission",
+    "other_rules_apply"
+   ],
+   "quote": "These features should be disabled when writing assessments unless expressly permitted by your module co-ordinator or permitted as a reasonable adjustment by the Disability Team in Student Services.",
+   "anchor": "12. Can I use Grammarly in my assessments?"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "While students may choose to use Generative AI to generate notes, study aids, or other materials that they consider helpful in their learning, this type of usage may not be allowed in specific modules, so students should always check the relevant School or module handbook.",
+   "anchor": "3. What is St Andrews’ standpoint on the use of generative AI for assessment?"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It may help with notetaking and summarisation.",
+   "anchor": "8. How may AI assist me in my studies?"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It may help with notetaking and summarisation.",
+   "anchor": "8. How may AI assist me in my studies?"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Where summation is required as part of formative or summative assessment, AI should only be used with the express permission of the module co-ordinator.",
+   "anchor": "8. How may AI assist me in my studies?"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "some people find it helpful to ask a Generative AI based chatbot to critique their own writing.",
+   "anchor": "8. How may AI assist me in my studies?"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "It may be used to proof-read for grammatical errors, as directed by your module coordinator.",
+   "anchor": "8. How may AI assist me in my studies?"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "It may be used to suggest improvements to your writing, as directed by your module coordinator.",
+   "anchor": "8. How may AI assist me in my studies?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It may help explain terms or key concepts in different ways to suit your own individual learning style.",
+   "anchor": "8. How may AI assist me in my studies?"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Examples of where AI may be permitted includes for students with Specific Learning Difficulties (SpLD) who may use AI to proofread their work.",
+   "anchor": "14. How can AI support disabled students?"
+  },
+  {
+   "use": "any_use",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "PGR students considering the use of Generative AI should discuss and agree appropriate scope, boundaries, and applications with their supervisor at the start of the project or before commencing usage.",
+   "anchor": "15. What should PGR students consider before using AI?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "It is expected that Generative AI, even when used, will be applied only to specific sentences or paragraphs, and not used more broadly to contribute to the thesis.",
+   "anchor": "15. What should PGR students consider before using AI?"
+  },
+  {
+   "use": "check_language",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Use of AI specifically for language correction should be acknowledged in the same way as any other assistance with writing is acknowledged as per the Language Correction policy.",
+   "anchor": "15. What should PGR students consider before using AI?"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "A reliance on Generative AI could impact your ability to develop important skills, including those associated with research design and critical engagement.",
+   "anchor": "9. What are the risks of using AI in my academic work?",
+   "ai_named": true
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It can create practice learning exercises.",
+   "anchor": "8. How may AI assist me in my studies?"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "you could experiment with asking AI to design a study plan.",
+   "anchor": "8. How may AI assist me in my studies?",
+   "tier": "Study plan"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "If a module does not allow Generative AI at all, then any use would be considered a case of Unauthorised Use of AI and, therefore, academic misconduct.",
+   "anchor": "5. How does the Good Academic Practice policy address the use of AI?",
+   "tier": "Module bans AI"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "If a module does not prohibit the use of Generative AI, and yet a student submits content produced by Generative AI as their own work without acknowledgement, this will also be considered academic misconduct.",
+   "anchor": "5. How does the Good Academic Practice policy address the use of AI?",
+   "tier": "Module silent"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI should not be used as a substitute for your own work.",
+   "anchor": "6. How can I maintain academic integrity when using AI?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "You should not use Grammarly to generate content unless explicitly allowed to do so in your assignment guidance.",
+   "anchor": "14. How can AI support disabled students?",
+   "tier": "Grammarly content"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Students with SpLDs may use generative AI to re-draft and improve sentence structure and phrasing and then combine the two in a finished piece of writing.",
+   "anchor": "14. How can AI support disabled students?",
+   "tier": "SpLD adjustment"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The Scholarcy AI summarisation tool can help with condensing articles/reports/chapters into short summaries",
+   "anchor": "14. How can AI support disabled students?",
+   "tier": "Disabled students"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Glean, a notetaking piece of software, has in-built AI that can record, caption & transcribe lecture content.",
+   "anchor": "14. How can AI support disabled students?",
+   "tier": "Disabled students"
+  },
+  {
+   "use": "any_use",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "If Generative AI forms an integral part of the research conducted or thesis production (e.g., a Computer Science thesis), a methodological statement must be included in the thesis.",
+   "anchor": "15. What should PGR students consider before using AI?",
+   "tier": "Integral to research"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI summarisation is not always correct and should always be checked for accurateness.",
+   "anchor": "9. What are the risks of using AI in my academic work?"
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "Students should not use Generative AI for the preparation and presentation of assessed work unless authorised explicitly by the module co-ordinator."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "unless authorised explicitly by the module co-ordinator."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "Further requirements may be stipulated by a School, academic programme, or individual member of teaching staff, or for a particular assignment, and will be made clear when an assignment is set."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If AI has been used, this should be clearly declared by the student on an assessment coversheet."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "You should include a declaration statement along with your references stating the AI tool used, describing how you used it, and indicating the date you accessed it."
+   },
+   {
+    "value": "how_used",
+    "quote": "You should include a declaration statement along with your references stating the AI tool used, describing how you used it, and indicating the date you accessed it."
+   },
+   {
+    "value": "date_accessed",
+    "quote": "You should include a declaration statement along with your references stating the AI tool used, describing how you used it, and indicating the date you accessed it."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "If AI has been used, this should be clearly declared by the student on an assessment coversheet."
+   },
+   {
+    "value": "with_references",
+    "quote": "You should include a declaration statement along with your references stating the AI tool used, describing how you used it, and indicating the date you accessed it."
+   },
+   {
+    "value": "appendix",
+    "quote": "AI use should be cited, and any prompts used, and responses received should be reported in an appendix."
+   }
+  ],
+  "records": {
+   "value": "required",
+   "quote": "If AI use is authorised, all prompts used should be retained for reference and should be available to the module co-ordinator on request."
+  },
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "If AI use is authorised, it must be cited."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "If a module does not prohibit the use of Generative AI, and yet a student submits content produced by Generative AI as their own work without acknowledgement, this will also be considered academic misconduct."
+  },
+  "exempt": []
+ }
+}

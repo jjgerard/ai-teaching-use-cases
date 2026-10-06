@@ -1,0 +1,46 @@
+{
+ "batch": "c21",
+ "unmapped": [
+  {
+   "doc_id": "bangor-d2-misconduct-procedure-202610",
+   "quote": "Conducting research without the required ethical approval and/or other relevant permissions.",
+   "what_it_says": "Research ethics breach listed as misconduct; not AI-related and no offence value fits."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "swansea-d2-assessment-policy-202610",
+   "note": "Existing duty value conditional (3.iv) looks like always_required in effect; left unchanged. Swansea 6.i (AI enabled in assessment where appropriate) is a general line, not coded."
+  },
+  {
+   "doc_id": "bangor-d2-misconduct-procedure-202610",
+   "note": "Study Skills Centre and Library workshops are named but are not about AI, so no named_academic_support row. Same for Cardiff Library Services and Wellbeing."
+  },
+  {
+   "doc_id": "cardiff-metropolitan-d2-misconduct-procedure-202610",
+   "note": "Existing uses rows for copy_or_paraphrase_others_work carry ai_named true on a quote that does not name AI; left unchanged."
+  }
+ ],
+ "added": {
+  "aberystwyth-d2-misconduct-procedure-202610": {
+   "uses": 2,
+   "support": 1,
+   "misconduct": 5
+  },
+  "bangor-d2-misconduct-procedure-202610": {
+   "uses": 3,
+   "support": 1,
+   "misconduct": 3
+  },
+  "cardiff-metropolitan-d2-misconduct-procedure-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 6
+  },
+  "swansea-d2-assessment-policy-202610": {
+   "uses": 0,
+   "support": 0,
+   "misconduct": 3
+  }
+ }
+}

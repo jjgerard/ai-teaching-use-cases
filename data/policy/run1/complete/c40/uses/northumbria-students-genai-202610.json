@@ -1,0 +1,118 @@
+{
+ "doc_id": "northumbria-students-genai-202610",
+ "coder": "cmp-c40",
+ "uses": [
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Claude can help with things like checking grammar, helping with structure format, organising ideas, and generating suggestions.",
+   "anchor": "Key points when using Claude for Education?"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Claude can help with things like checking grammar, helping with structure format, organising ideas, and generating suggestions.",
+   "anchor": "Key points when using Claude for Education?"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Claude can help with things like checking grammar, helping with structure format, organising ideas, and generating suggestions.",
+   "anchor": "Key points when using Claude for Education?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Claude should not be used to do the core work for you, unless the assessment guidelines (which will be outlined in your assessment brief) specifically allow it.",
+   "anchor": "Key points when using Claude for Education?"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "However, the main content, analysis, and conclusions in your work must always be your own. Claude should not be used to do the core work for you, unless the assessment guidelines (which will be outlined in your assessment brief) specifically allow it.",
+   "anchor": "Key points when using Claude for Education?"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It’s your responsibility to use reliable sources to verify all information provided by Claude and ensure any sources or references it suggests are accurate.",
+   "anchor": "Key points when using Claude for Education?"
+  },
+  {
+   "use": "personal_advice",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Claude is not a substitute for mental health support or professional therapy.",
+   "anchor": "What Claude for Education won’t do?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Claude acts as a 24/7 study partner for students, designed to guide learning and develop critical thinking rather than providing direct answers.",
+   "anchor": "What is Claude for Education?"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Claude teaches you to question sources, consider different perspectives, and build stronger arguments.",
+   "anchor": "How can I use Claude for Education?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "unless the assessment guidelines (which will be outlined in your assessment brief) specifically allow it."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you use Claude in your work, you must acknowledge it."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "You must explain how and where you used AI in your work and reference it where appropriate."
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "For quick guidance on how to reference AI tools properly, including declaration examples, visit the University Library’s AI referencing guide."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

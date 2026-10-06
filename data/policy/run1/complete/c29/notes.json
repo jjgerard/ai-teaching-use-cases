@@ -1,0 +1,46 @@
+{
+ "batch": "c29",
+ "unmapped": [
+  {
+   "doc_id": "york-students-genai-202610",
+   "quote": "for many of your assessments (and unless otherwise stated), there will be a strict expectation that any use of generative AI in the production of work you submit will adhere to University policy regarding false authorship.",
+   "what_it_says": "Default when brief silent is a strict expectation of no false authorship; fits no default_when_silent value."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "york-students-genai-202610",
+   "note": "Existing translate row (conditional, limited_extent) is arguably prohibited-in-extent; left as is. Consequence field filled from the false authorship definition."
+  },
+  {
+   "doc_id": "liverpool-students-genai-202610",
+   "note": "Tutorials not coded as course_or_module (existing guide row covers them); Jisc self-assessment coded as quiz_test_or_badge, borderline."
+  },
+  {
+   "doc_id": "leeds-beckett-students-genai-202610",
+   "note": "Skills for Learning coded named_academic_support although resources are not AI-specific, borderline."
+  }
+ ],
+ "added": {
+  "west-england-students-genai-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 0
+  },
+  "york-students-genai-202610": {
+   "uses": 11,
+   "support": 0,
+   "misconduct": 0
+  },
+  "leeds-beckett-students-genai-202610": {
+   "uses": 2,
+   "support": 1,
+   "misconduct": 1
+  },
+  "liverpool-students-genai-202610": {
+   "uses": 1,
+   "support": 1,
+   "misconduct": 0
+  }
+ }
+}

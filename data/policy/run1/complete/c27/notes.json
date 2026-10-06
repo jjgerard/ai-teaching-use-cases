@@ -1,0 +1,40 @@
+{
+ "batch": "c27",
+ "unmapped": [],
+ "notes": [
+  {
+   "doc_id": "roehampton-students-genai-202610",
+   "note": "Existing Type 2 row coded conditional/limited_extent for 'assistive tool only' left as is; existing check_language and revise rows are examples, not rules."
+  },
+  {
+   "doc_id": "suffolk-students-genai-202610",
+   "note": "Existing generate_assessed_text and rewrite rows carry the same quote with different conditions; left unchanged. Para 23 declaration failure is already covered by para 15 undeclared_use row."
+  },
+  {
+   "doc_id": "sheffield-students-genai-202610",
+   "note": "Document is principles only; no misconduct or specific use rules beyond assistive use."
+  }
+ ],
+ "added": {
+  "roehampton-students-genai-202610": {
+   "uses": 3,
+   "support": 0,
+   "misconduct": 0
+  },
+  "royal-surgeons-in-ireland-students-genai-202610": {
+   "uses": 7,
+   "support": 0,
+   "misconduct": 1
+  },
+  "sheffield-students-genai-202610": {
+   "uses": 2,
+   "support": 2,
+   "misconduct": 0
+  },
+  "suffolk-students-genai-202610": {
+   "uses": 5,
+   "support": 1,
+   "misconduct": 0
+  }
+ }
+}
