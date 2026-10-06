@@ -1,0 +1,23 @@
+{
+ "doc_id": "cardiff-metropolitan-students-genai-202610",
+ "coder": "rk-t19",
+ "risks": [],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "students remain responsible for their own work and must not submit AI‑generated content as their own.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "helping them to question, evaluate and verify AI outputs rather than relying on them uncritically.",
+   "anchor": null
+  }
+ ]
+}

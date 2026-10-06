@@ -1,0 +1,30 @@
+{
+ "doc_id": "manchester-metropolitan-students-genai-202610",
+ "coder": "rk-t17",
+ "risks": [
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI can identify information and present it in a very convincing way, but remember, it doesn't know if its sources are correct or not. This means output might be biased, misleading or wrong.",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "As generative AI does not critically evaluate the content it produces or its information sources, it's important to be wary of any secondary sources cited. They may be fictitious, unreliable or completely unrelated to the subject area.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "You should use the same caution with a generative AI that you would with non-academic sources, such as Wikipedia, and always verify information and sources independently.",
+   "anchor": null
+  }
+ ]
+}
