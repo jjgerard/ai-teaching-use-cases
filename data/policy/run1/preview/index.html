@@ -150,6 +150,13 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 .dlcsv:hover { color: var(--accent-ink); border-color: var(--accent-ink); }
 .dlcsv[hidden] { display: none; }
 .sub ul.sch { margin: 6px 0 0; padding-left: 20px; } .sub ul.sch li { margin: 2px 0; }
+table.tgt { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 6px; }
+table.tgt th { text-align: left; font-weight: 600; color: var(--ink2); padding: 4px 8px 4px 0; border-bottom: 1px solid var(--line); }
+table.tgt td { padding: 4px 8px 4px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.tgt .num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+tr.tgrow { cursor: pointer; } tr.tgrow:hover td { background: var(--tint); }
+#tgsel { max-width: 100%; }
+@media (max-width: 520px) { table.tgt { font-size: 12px; } }
 .udet h4 { margin: 12px 0 4px; font-size: 14px; }
 .udet blockquote { margin: 4px 0 8px; padding-left: 10px; border-left: 2px solid var(--line); color: var(--ink2); font-size: 13px; overflow-wrap: anywhere; }
 @media (max-width: 520px) { .urow { grid-template-columns: 1fr; } .urow .un { white-space: normal; } }
@@ -220,6 +227,16 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   <h2>What kind of help institutions offer <button class="dlcsv" data-csv="support" hidden type="button">Download CSV</button></h2>
   <p class="sub" id="supsub"></p>
   <div class="panel udet"><div id="supbars"></div></div>
+</section>
+
+<section id="together">
+  <h2>What goes together</h2>
+  <p class="sub">Which statements tend to appear in the same institution’s guidance, across the four sections above. Pairs are ranked by overlap: the share of institutions saying either that say both.</p>
+  <div class="pctl"><span class="mono" style="color:var(--ink2)">Pairs</span><span id="tgscope"></span><span class="mono" style="color:var(--ink2);margin-left:12px">Rank by</span><span id="tgrank"></span></div>
+  <div class="panel udet"><div id="tgtop"></div></div>
+  <h3 style="margin:22px 0 6px">Pick one statement</h3>
+  <div class="pctl"><label class="mono" for="tgsel" style="color:var(--ink2)">Statement</label><select id="tgsel"></select></div>
+  <div class="panel udet"><div id="tgone"></div></div>
 </section>
 
 <section id="points">
@@ -637,7 +654,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   var RRANK = { mandatory: 3, advised: 2, planned: 1 };
   function drawSupport() {
     var S = TR.support, N = TR.docs.filter(function (d) { return PD[d]; }).length, host = $("supbars"); host.textContent = "";
-    desc("supsub", "The training, guidance and support an institution offers about AI, recorded as:", ["Form: ten kinds, from courses and workshops to guides, prompt banks, referencing help, staff development, named support services, misconduct-case support and wellbeing support", "Requirement: mandatory, advised, optional, planned, unspecified", "Evidence: a verbatim quote"]);
+    desc("supsub", "Each chip is one form of training, guidance or support. The number is how many institutions offer it.", ["The ten forms: course or module, workshop or live session, quiz or badge, guide or resource hub, prompt bank, referencing help, named support service, support in a misconduct case, wellbeing support, staff development", "“Required” after the number: how many of them make it mandatory", "Open a chip: each institution’s quote, with required and advised ones marked and first"]);
     xgroup(host, S.forms.map(function (f) { var req = ["mandatory", "advised", "planned"].filter(function (k) { return f.req[k]; }).map(function (k) { return f.req[k] + " " + k; }).join(", ");
       return { key: "sup|" + f.id, label: f.label, def: f.def, n: f.n, bar: simpleBar(100 * f.n / N, "sg-permitted"), count: f.n + " of " + N + " (" + Math.round(100 * f.n / N) + "%)" + (f.nAi < f.n ? " · " + f.nAi + " name AI" : "") + (req ? " · " + req : ""), cn: f.n + (f.req.mandatory ? " · " + f.req.mandatory + " required" : ""), detail: function (d) { quotes(d, f.rows.slice().sort(function (a, b) { return (RRANK[b.rq] || 0) - (RRANK[a.rq] || 0); }), 8, function (r) { return (r.n ? " · " + r.n : "") + (r.s ? " · second document" : ""); }); } }; }), N);
   }
@@ -649,7 +666,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   function drawUses() {
     var N = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }).length, rows = urowsFor(), per = {};
     rows.forEach(function (r) { var o = (per[r.u] = per[r.u] || {}); (o[r.s] = o[r.s] || new Set()).add(r.i); });
-    desc("usub", "What students may use generative AI for, as a closed list of uses. Each statement is recorded with:", ["Use: one of 29 entries (generate assessed text, check spelling and grammar, brainstorm, and so on, plus a rule for any use of AI in a setting)", "Setting: study, assessed work, exams or supervised, research or thesis", "Stance: permitted, conditional, discouraged, prohibited, required", "Conditions on a conditional stance: needs permission, needs acknowledgement, approved tool only, limited extent, no personal data, other rules apply, account or age limit", "Evidence: a verbatim quote"]);
+    desc("usub", "Each chip is one thing students might use generative AI for. The number is how many institutions say something about it.", ["Dots: one per institution, coloured by its stance (permitted, conditional, discouraged, prohibited, required); over ten institutions the dots become a strip", "Setting buttons: all settings, study, assessed work, exams or supervised, research or thesis", "Open a chip: the use’s definition and each institution’s quote, grouped by stance, with the conditions attached to conditional ones"]);
     var ch = $("uctx"); ch.textContent = ""; [["all", "All settings"]].concat(Object.keys(UD.contexts).filter(function (k) { return k !== "unspecified"; }).map(function (k) { return [k, k.replace(/_/g, " ")]; })).forEach(function (x) { ch.appendChild(mkChip(x[1], uctx === x[0], function () { uctx = x[0]; drawUses(); })); });
     var lg = $("uleg"); lg.textContent = ""; UD.stances.forEach(function (s) { var sp = el("span"), i = el("i"); i.className = "sg-" + s; sp.appendChild(i); sp.appendChild(document.createTextNode(STLAB[s])); lg.appendChild(sp); });
     var list = UD.uses.map(function (u) { var o = per[u.id] || {}, n = new Set(); Object.keys(o).forEach(function (s) { o[s].forEach(function (i) { n.add(i); }); }); return { u: u, o: o, n: n.size }; }).filter(function (x) { return x.n > 0; }).sort(function (a, b) { return (a.u.id === "any_use" ? -1 : b.u.id === "any_use" ? 1 : b.n - a.n); });
@@ -660,7 +677,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   }
   function drawAck() {
     var ids = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), okI = {}; ids.forEach(function (d) { okI[d] = 1; }); var N = ids.length, A = UD.ack, AQ = UD.ackq, host = $("ackbars"); host.textContent = "";
-    desc("acksub", "What students are asked to say about their AI use, recorded as:", ["Duty: always required, conditional, recommended, not required", "Default when a brief is silent: no AI, AI allowed, ask the instructor, allowed if acknowledged, per-use rules, depends on assessment type, and others", "Who decides: whole institution, school or department, module leader, each brief, a tiered scale", "What to include and where it goes", "How to reference it and whether records are kept", "What follows if it is missing", "Uses exempt from acknowledgement"]);
+    desc("acksub", "Each chip is one answer to a question about acknowledging AI use. The number is how many institutions give that answer.", ["Is acknowledgement required? Who decides? What applies when a brief is silent?", "What to include, where it goes, how to reference it, whether records are kept", "What happens if it is missing, and which uses need no acknowledgement", "Open a chip: each institution’s quote"]);
     function bars(title, cat, counts, labels) { var keys = Object.keys(counts).filter(function (k) { return counts[k] > 0; }).sort(function (a, b) { return counts[b] - counts[a]; }); if (!keys.length) return; host.appendChild(el("h4", null, title));
       xgroup(host, keys.map(function (k) { var lab = (labels && labels[k]) || k.replace(/_/g, " "); return { key: "ack|" + cat + "|" + k, label: lab, n: counts[k], bar: simpleBar(100 * counts[k] / N, "sg-permitted"), count: counts[k] + " of " + N + " (" + Math.round(100 * counts[k] / N) + "%)", detail: function (d) { var L = (AQ[cat + "|" + k] || []).filter(function (r) { return okI[r.i]; }); if (!L.length) d.appendChild(el("p", "small", "No quote kept for this value.")); else quotes(d, L, 8); } }; }), N); }
     function tally(fn) { var c = {}; ids.forEach(function (d) { var a = A[d]; if (!a) return; fn(a).forEach(function (v) { if (v) c[v] = (c[v] || 0) + 1; }); }); return c; }
@@ -683,7 +700,7 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
     var ids = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), N = ids.length, okI = {}; ids.forEach(function (d) { okI[d] = 1; });
     var rows = MS.rows.filter(function (r) { return okI[r.i] && (!misAi || r.ai || r.g === "process" || r.g === "outcomes" || r.g === "liability"); });
     var withDoc = ids.filter(function (d) { return MS.scope[d]; }).length, sc = {}; ids.forEach(function (d) { var s = MS.scope[d]; if (s) sc[s] = (sc[s] || 0) + 1; });
-    desc("missub", "What a document says about academic misconduct involving AI, recorded as:", ["Offence: 12 kinds, such as undeclared use, unauthorised use, passing off, contract cheating, fabrication", "Detection: six methods (AI detection software, similarity software, staff judgement, oral viva, drafts or version history, specialist analysis), each with a stance: used, may be used, not used, restricted, unreliable", "Process: 11 steps, from informal conversation and investigation to hearing, appeal and records", "Outcome: 14 kinds, from a warning or mark reduction to module failure, degree effect and professional referral", "Intent: strict liability, intent considered, ignorance mitigates", "Evidence: a verbatim quote, and whether the quote itself names AI"]);
+    desc("missub", "Each chip is one thing a document says about misconduct involving AI. The number is how many institutions say it.", ["What counts as an offence: undeclared use, unauthorised use, passing off, contract cheating and others", "How use is detected: each method with its stance (used, may be used, not used, restricted, unreliable)", "How a case is handled, what the outcomes can be, and whether intent matters", "Open a chip: each institution’s quote, marked where the quote does not itself name AI"]);
     var c = $("misctl"); c.textContent = ""; c.appendChild(mkChip("Quote names AI", misAi, function () { misAi = true; drawMisconduct(); })); c.appendChild(mkChip("Any misconduct wording", !misAi, function () { misAi = false; drawMisconduct(); }));
     var host = $("misrows"); host.textContent = ""; var per = {};
     rows.forEach(function (r) { var k = r.g + "|" + r.v + "|" + (r.st || ""); (per[k] = per[k] || []).push(r); });
@@ -696,12 +713,55 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
   var DLN = null;
   function csvInit() { var btns = document.querySelectorAll(".dlcsv"); if (!btns.length || !window.claude || !window.claude.use) return;
     window.claude.use("downloads").then(function (dl) { if (!dl) return; DLN = dl; btns.forEach(function (b) { b.hidden = false; b.addEventListener("click", function () { var k = b.getAttribute("data-csv"), old = b.textContent; DLN.save({ filename: "ai-policy-" + k + ".csv", data: TR.csv[k] }).then(function () { b.textContent = "Saved"; setTimeout(function () { b.textContent = old; }, 1500); }, function (e) { if (e && e.code !== "declined") { b.textContent = "Not available"; setTimeout(function () { b.textContent = old; }, 2000); } }); }); }); }, function () {}); }
+  // what goes together: institution-level co-occurrence of statements from the four schemas
+  var TG = { scope: "across", rank: "overlap", sel: null, base: null };
+  function tgBase() {
+    var B = {}; function add(k, g, l, i) { var o = (B[k] = B[k] || { k: k, g: g, l: l, s: new Set() }); o.s.add(i); }
+    UD.rows.forEach(function (r) { add("use|" + r.u + "|" + r.s, "AI use", (ULAB[r.u] ? ULAB[r.u].label : r.u) + " — " + r.s, r.i); });
+    var AL = { duty: "Duty", def: "When brief silent", decided: "Decided by", contents: "Include", location: "Place", referencing: "Reference", records: "Records", consequence: "If missing", exempt: "Exempt" };
+    function nice(v) { return String(v).replace(/_/g, " "); }
+    Object.keys(UD.ack).forEach(function (i) { var a = UD.ack[i]; if (a.duty) add("ack|duty|" + a.duty.v, "Acknowledgement", AL.duty + ": " + nice(a.duty.v), i); if (a.def) add("ack|def|" + a.def.v, "Acknowledgement", AL.def + ": " + nice(a.def.v), i);
+      [["decided", a.decided], ["contents", a.contents], ["location", a.location], ["exempt", a.exempt]].forEach(function (p) { (p[1] || []).forEach(function (v) { add("ack|" + p[0] + "|" + v, "Acknowledgement", AL[p[0]] + ": " + nice(v), i); }); });
+      ["referencing", "records", "consequence"].forEach(function (k) { if (a[k]) add("ack|" + k + "|" + a[k], "Acknowledgement", AL[k] + ": " + nice(a[k]), i); }); });
+    TR.support.forms.forEach(function (f) { f.rows.forEach(function (r) { add("sup|" + f.id, "Help offered", f.label, r.i); if (r.rq === "mandatory") add("sup|" + f.id + "|req", "Help offered", f.label + " — required", r.i); }); });
+    MS.rows.forEach(function (r) { if (!(r.ai || r.g === "process" || r.g === "outcomes" || r.g === "liability")) return; var l = r.v.replace(/_/g, " ") + (r.st ? " — " + r.st.replace(/_/g, " ") : ""); add("mis|" + r.g + "|" + r.v + "|" + (r.st || ""), "Misconduct", ({ offences: "Offence", detection: "Detection", process: "Process", outcomes: "Outcome", liability: "Intent" })[r.g] + ": " + l, r.i); });
+    return B;
+  }
+  function tgStats() {
+    if (!TG.base) TG.base = tgBase();
+    var ids = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), N = ids.length, F = [];
+    Object.keys(TG.base).forEach(function (k) { var o = TG.base[k], m = []; ids.forEach(function (d, ix) { if (o.s.has(d)) m.push(ix); }); if (m.length >= 6) F.push({ k: k, g: o.g, l: o.l, m: m, set: new Set(m), n: m.length }); });
+    return { ids: ids, N: N, F: F };
+  }
+  function tgPair(a, b, N) { var both = 0; a.m.forEach(function (x) { if (b.set.has(x)) both++; }); var un = a.n + b.n - both; return { a: a, b: b, both: both, jac: un ? both / un : 0, lift: both * N / (a.n * b.n), pa: both / a.n }; }
+  function tgSame(a, b) { return a.g === b.g; }
+  function drawTogether() {
+    var S = tgStats(), N = S.N;
+    var sc = $("tgscope"); sc.textContent = ""; sc.appendChild(mkChip("Across sections", TG.scope === "across", function () { TG.scope = "across"; drawTogether(); })); sc.appendChild(mkChip("All pairs", TG.scope === "all", function () { TG.scope = "all"; drawTogether(); }));
+    var rk = $("tgrank"); rk.textContent = ""; rk.appendChild(mkChip("Most often together", TG.rank === "overlap", function () { TG.rank = "overlap"; drawTogether(); })); rk.appendChild(mkChip("Most unexpected", TG.rank === "lift", function () { TG.rank = "lift"; drawTogether(); }));
+    var P = [], F = S.F; for (var i = 0; i < F.length; i++) for (var j = i + 1; j < F.length; j++) { if (TG.scope === "across" && tgSame(F[i], F[j])) continue; var p = tgPair(F[i], F[j], N); if (p.both >= 4) P.push(p); }
+    P.sort(function (x, y) { return TG.rank === "overlap" ? (y.jac - x.jac) || (y.both - x.both) : (y.lift - x.lift) || (y.both - x.both); });
+    var host = $("tgtop"); host.textContent = ""; host.appendChild(el("p", "small", "Out of " + N + " institutions. Each row: how many have both statements, how many have each, and how much more often they appear together than chance would give (1 = no more than chance). Descriptive only: many pairs are compared, so single pairs prove little, and a statement missing from a document is counted as absent."));
+    var tb = el("table", "tgt"); var hd = el("tr"); ["Statement A", "Statement B", "Both", "A", "B", "Lift"].forEach(function (h) { hd.appendChild(el("th", null, h)); }); tb.appendChild(hd);
+    P.slice(0, 25).forEach(function (p) { var tr = el("tr"); tr.className = "tgrow"; tr.appendChild(el("td", null, p.a.l)); tr.appendChild(el("td", null, p.b.l)); tr.appendChild(el("td", "num", String(p.both))); tr.appendChild(el("td", "num", String(p.a.n))); tr.appendChild(el("td", "num", String(p.b.n))); tr.appendChild(el("td", "num", p.lift.toFixed(1))); tr.title = p.a.g + " + " + p.b.g + " — click to explore the first"; tr.addEventListener("click", function () { TG.sel = p.a.k; drawTogether(); $("tgsel").scrollIntoView({ block: "center" }); }); tb.appendChild(tr); });
+    if (!P.length) host.appendChild(el("p", null, "No pair of statements shared by at least four institutions in this region.")); else host.appendChild(tb);
+    // one statement
+    var sel = $("tgsel"); if (!sel.options.length) { var gs = {}; Object.keys(TG.base).forEach(function (k) { var o = TG.base[k]; if (o.s.size >= 6) (gs[o.g] = gs[o.g] || []).push(o); }); Object.keys(gs).forEach(function (g) { var og = document.createElement("optgroup"); og.label = g; gs[g].sort(function (a, b) { return b.s.size - a.s.size; }).forEach(function (o) { var op = document.createElement("option"); op.value = o.k; op.textContent = o.l + " (" + o.s.size + ")"; og.appendChild(op); }); sel.appendChild(og); }); sel.addEventListener("change", function () { TG.sel = sel.value; drawTogether(); }); }
+    if (!TG.sel && P.length) TG.sel = P[0].a.k; if (TG.sel) sel.value = TG.sel;
+    var one = $("tgone"); one.textContent = ""; var A = F.filter(function (f) { return f.k === TG.sel; })[0];
+    if (!A) { one.appendChild(el("p", "small", "Fewer than six institutions in this region say this.")); return; }
+    one.appendChild(el("h4", null, A.l + " — " + A.n + " of " + N + " institutions"));
+    var R = F.filter(function (f) { return f.k !== A.k && (TG.scope === "all" || !tgSame(A, f)); }).map(function (f) { return tgPair(A, f, N); }).filter(function (p) { return p.both >= 2; }).sort(function (x, y) { return (y.pa - x.pa) || (y.lift - x.lift); });
+    var t2 = el("table", "tgt"), h2 = el("tr"); ["Also says", "Both", "Of those saying A", "Lift"].forEach(function (h) { h2.appendChild(el("th", null, h)); }); t2.appendChild(h2);
+    R.slice(0, 20).forEach(function (p) { var tr = el("tr"); tr.appendChild(el("td", null, p.b.l)); tr.appendChild(el("td", "num", p.both + " of " + p.b.n)); tr.appendChild(el("td", "num", Math.round(100 * p.pa) + "%")); tr.appendChild(el("td", "num", p.lift.toFixed(1))); t2.appendChild(tr); });
+    one.appendChild(R.length ? t2 : el("p", "small", "Nothing else is shared by two or more of these institutions."));
+  }
   function tinit() { drawSupport(); }
 
   function refresh() {
     drawRegs(); $("k-all").setAttribute("aria-pressed", kind === "all"); $("k-rules").setAttribute("aria-pressed", kind === "rules");
     $("nowshown").textContent = shown().length + " of " + DATA.docs.length + " documents shown";
-    drawExplorer(); drawMatrix(); drawCommon(); drawCross(); drawPairs(); drawPoints(); drawUses(); drawAck(); drawMisconduct();
+    drawExplorer(); drawMatrix(); drawCommon(); drawCross(); drawPairs(); drawPoints(); drawUses(); drawAck(); drawMisconduct(); drawTogether();
   }
   csvInit();
   drawCoverage();
