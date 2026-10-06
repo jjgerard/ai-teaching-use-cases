@@ -1,0 +1,66 @@
+{
+ "doc_id": "st-andrews-students-genai-202610",
+ "coder": "rk-t28",
+ "risks": [
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "There are risks of copyright infringements on pictures and other copyrighted material.",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI can generate incorrect data, produce “hallucinations” and out of date data.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI can reproduce biased data.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The energy required for AI data processing and storage is damaging to the environment, as this uses excessive amounts of electricity and water, as well as rare minerals.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI use may hinder a student’s independent thought and problem-solving skills.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI may capture data from input prompts, so it is important not to submit personal or sensitive information to an AI tool.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "AI summarisation is not always correct and should always be checked for accurateness.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Students should be aware of the many risks associated with using Generative AI – see Question 9 below.",
+   "anchor": null
+  }
+ ]
+}

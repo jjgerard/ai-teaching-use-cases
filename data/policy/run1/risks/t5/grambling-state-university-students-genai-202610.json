@@ -1,0 +1,106 @@
+{
+ "doc_id": "grambling-state-university-students-genai-202610",
+ "coder": "rk-t5",
+ "risks": [
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "the policy is intended to maximize the benefits of AI while mitigating risks related to misinformation, academic integrity, privacy, intellectual property, institutional reputation, and regulatory compliance",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "the policy is intended to maximize the benefits of AI while mitigating risks related to misinformation, academic integrity, privacy, intellectual property, institutional reputation, and regulatory compliance",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "the policy is intended to maximize the benefits of AI while mitigating risks related to misinformation, academic integrity, privacy, intellectual property, institutional reputation, and regulatory compliance",
+   "anchor": null
+  },
+  {
+   "risk": "reputational_harm",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "the policy is intended to maximize the benefits of AI while mitigating risks related to misinformation, academic integrity, privacy, intellectual property, institutional reputation, and regulatory compliance",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Users should critically evaluate AI outputs for bias, misinformation, or hallucinated data.",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Users should critically evaluate AI outputs for bias, misinformation, or hallucinated data.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Users are responsible for the outputs, actions, and consequences of AI use.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Users should critically evaluate AI outputs for bias, misinformation, or hallucinated data.",
+   "anchor": null
+  },
+  {
+   "duty": "human_oversight",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "All AI outputs must be reviewed by a human before final use in decision-making, publishing, or student evaluation.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "The use of AI must comply with all applicable data protection laws and university policies.",
+   "anchor": null
+  },
+  {
+   "duty": "assess_risk_before_use",
+   "bearer": "unspecified",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Any AI that uses proprietary Grambling State University data or external datasets must undergo a data governance and ethics review.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": false,
+   "quote": "The University’s Information Technology Center shall provide AI literacy and compliance training to faculty, staff, and students.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": false,
+   "quote": "The Office of University Compliance will review and update this policy periodically to reflect changes in technology or regulations.",
+   "anchor": null
+  }
+ ]
+}

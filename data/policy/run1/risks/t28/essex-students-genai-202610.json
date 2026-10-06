@@ -1,0 +1,46 @@
+{
+ "doc_id": "essex-students-genai-202610",
+ "coder": "rk-t28",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Other known limitations of generative AI are that it can create fictitious citations, make up facts, express biased views, give weak responses about nuanced, contextual, or contemporary matters for which there is often little or no accurate web-based information for it to draw upon.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Other known limitations of generative AI are that it can create fictitious citations, make up facts, express biased views, give weak responses about nuanced, contextual, or contemporary matters for which there is often little or no accurate web-based information for it to draw upon.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "never assume that the content created by generative AI is accurate, up to date or true unless you know it to be so or have verified it through another reliable source.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "You are always responsible for determining the accuracy of what you write.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "At Essex, we want you to explore generative AI tools responsibly.",
+   "anchor": null
+  }
+ ]
+}
