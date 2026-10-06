@@ -1,0 +1,55 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-d2-misconduct-procedure-202610",
+ "coder": "rk-t24",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "unspecified",
+   "ai_named": null,
+   "quote": "includes the use of GenAI created content or output that is fabricated or\n“hallucinated” by it.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Learners are authors of any work they submit and bear responsibility for its content, accuracy and integrity.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "the learner is responsible for critiquing its output in terms of logic, consistency, accuracy and bias. This includes where GenAI is used as authorised.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "the use of AI for any placement activity must be in accordance with both this policy and approved by the student’s supervisor or equivalent in the relevant placement setting.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "The RCSI Academic Council requires all students to successfully complete the RCSI online Academic Integrity resource on at least one occasion while completing their studies.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "Reviews will normally take place every three years, or sooner where required due to legislative changes, developments in technology (including artificial intelligence), or recommendations arising from quality assurance reviews or audits.",
+   "anchor": null
+  }
+ ]
+}
