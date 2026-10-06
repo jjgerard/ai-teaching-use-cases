@@ -1,0 +1,61 @@
+{
+ "doc_id": "wales-trinity-saint-david-students-genai-202610",
+ "coder": "rk-t16",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Ensure that you always check your work and results; AI tools can be inaccurate.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Be aware of potential biases in AI models and strive to ensure fairness and equity in AI outcomes.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "You should be aware of AI's negative environmental impact, due to the large amount of energy consumed by AI systems.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Ensure that you always check your work and results; AI tools can be inaccurate.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Ensure that you check any references or citations produced by these AI tools; correct referencing is your responsibility.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Ensure that you have completed the UWTSD LLR's Infoskils unit on Artificial Intelligence before using any AI tools as part of your studies and assessment",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "It is imperative that you consider the ethical and legal implications of the use of AI tools when handling sensitive data.",
+   "anchor": null
+  }
+ ]
+}

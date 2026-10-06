@@ -1,0 +1,62 @@
+{
+ "doc_id": "exeter-students-assessment-202610",
+ "coder": "rk-t12",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "It is important to note that GenAI tools do not always output",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "It is important to note that GenAI tools do not always output",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "and verify any information that you plan to use in your academic work, including any references or sources provided by a GenAI tool.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Ensure that you have the necessary skills to use AI critically and responsibly.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "You can choose to use GenAI tools ethically and responsibly to assist in the development of an assessment.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Make sure you can confidently answer 'me' before you submit your assessment.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "If you are using a GenAI tool as part of your academic work, please check that you have followed this guidance",
+   "anchor": null
+  }
+ ]
+}

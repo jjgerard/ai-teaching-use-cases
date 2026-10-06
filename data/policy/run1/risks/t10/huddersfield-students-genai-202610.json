@@ -1,0 +1,37 @@
+{
+ "doc_id": "huddersfield-students-genai-202610",
+ "coder": "rk-t10",
+ "risks": [
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "the tools can be misused which might lead to privacy concerns, academic integrity breaches or ethical issues",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "the tools can be misused which might lead to privacy concerns, academic integrity breaches or ethical issues",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Because AI summaries may not be accurate, you should only use the summary as a guide",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "You should complete this module each year to make sure that you are up to date with the latest developments.",
+   "anchor": null
+  }
+ ]
+}

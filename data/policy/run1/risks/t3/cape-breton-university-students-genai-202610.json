@@ -1,0 +1,91 @@
+{
+ "doc_id": "cape-breton-university-students-genai-202610",
+ "coder": "rk-t3",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI content can be incomplete, inaccurate or biased and must not be treated as authoritative.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI content can be incomplete, inaccurate or biased and must not be treated as authoritative.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "The environmental footprint of AI technologies is substantial, including high energy demands, data centre emissions and contributions to electronic waste.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Legal and ethical concerns regarding the use of copyrighted content in training large language models (LLMs) remain unresolved.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Privacy is not guaranteed when data/information is entered into AI applications.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "staff",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "CBU employees are fully responsible for any inaccuracies or unverified content when using AI tools.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Users are responsible for how they input data into AI systems and how they interpret and apply AI-generated outputs.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "AI content can be incomplete, inaccurate or biased and must not be treated as authoritative.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "All uses of AI must be consistent with these obligations.",
+   "anchor": null
+  },
+  {
+   "duty": "human_oversight",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "strategic and evaluative decisions remain under human authority.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": false,
+   "quote": "It will require regular review and revision to ensure continued alignment with CBU’s academic mission, social responsibilities and strategic priorities.",
+   "anchor": null
+  }
+ ]
+}

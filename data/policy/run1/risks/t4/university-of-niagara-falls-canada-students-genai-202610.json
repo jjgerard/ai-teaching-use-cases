@@ -1,0 +1,87 @@
+{
+ "doc_id": "university-of-niagara-falls-canada-students-genai-202610",
+ "coder": "rk-t4",
+ "risks": [
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Regularly assessing the performance and impact of A.I. tools on teaching, learning, and academic outcomes, and making necessary adjustments to improve effectiveness and mitigate potential biases.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "human_oversight",
+   "bearer": "unspecified",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Humans oversight is essential. Humans must remain responsible for decisions informed or supported by AI.",
+   "anchor": null
+  },
+  {
+   "duty": "assess_risk_before_use",
+   "bearer": "institution",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Ensures that proposed AI technologies undergo the appropriate academic, ethical, and governance review before procurement or approval for use.",
+   "anchor": null
+  },
+  {
+   "duty": "assess_risk_before_use",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Refrain from using or adopting AI tools that process institutional or personal data without appropriate review and approval.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Use AI technologies—whether institutionally supported or externally adopted—in accordance with privacy, academic integrity, and ethical guidelines.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "Ensuring institutionally adopted A.I. technologies comply with relevant privacy regulations and align with our commitments to transparency, fairness, accountability, and privacy.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "unspecified",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Collected, stored, or processed data must be used ethically and responsibly.",
+   "anchor": null
+  },
+  {
+   "duty": "report_concerns_or_incidents",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Report concerns or risks associated with AI tools to their supervisor, IT, or the relevant academic or administrative unit.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "Providing training and support to faculty and staff on the appropriate selection, use, adoption, and integration of A.I. technologies.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "This Artificial Intelligence (A.I.) Policy will be reviewed annually to ensure its alignment with the evolving needs of the institution, and advancements in AI technologies.",
+   "anchor": null
+  }
+ ]
+}

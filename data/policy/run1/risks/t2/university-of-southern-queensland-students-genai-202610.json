@@ -1,0 +1,61 @@
+{
+ "doc_id": "university-of-southern-queensland-students-genai-202610",
+ "coder": "rk-t2",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI-generated content may also be inaccurate, incomplete, outdated, or biased.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI-generated content may also be inaccurate, incomplete, outdated, or biased.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Using AI in ways that are not authorised may bypass important learning processes and undermine your ability to demonstrate your own capabilities.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "You remain responsible for checking the accuracy and appropriateness of any information or content produced by AI tools.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "You remain responsible for checking the accuracy and appropriateness of any information or content produced by AI tools.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Respecting copyright and privacy laws - don’t use or share things you’re not allowed to.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Use AI wisely. If AI tools are allowed, use them to enhance your work, not replace it.",
+   "anchor": null
+  }
+ ]
+}

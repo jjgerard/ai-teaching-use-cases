@@ -1,0 +1,28 @@
+{
+ "doc_id": "cambridge-staff-assessment-202610",
+ "coder": "rk-t14",
+ "risks": [
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "The change enables staff and students to engage with these tools more in independent study and formative work, encouraging open dialogue about suitable use, ethical implications, the consequences of over-reliance, what stands to be gained, and what could be lost in the use of these emerging tools.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "staff",
+   "ai_named": false,
+   "quote": "Due to lack of clarity and uncertainty of how these tools use and/or store input data, it is not permitted to share student IP and submitted work without permission from the student.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Large Language Models and Generative AI require the use of information to derive their responses so anything generated has already been informed by the work of others without appropriate attribution or reference",
+   "anchor": null
+  }
+ ],
+ "responsibilities": []
+}

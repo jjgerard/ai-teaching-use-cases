@@ -1,0 +1,23 @@
+{
+ "doc_id": "sunderland-students-genai-202610",
+ "coder": "rk-t18",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen-AI is predicting results based on the information you put into it and its stored data, it does NOT know and is not always accurate.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "FACT CHECK, FACT CHECK, FACT CHECK all AI outputs.",
+   "anchor": null
+  }
+ ]
+}

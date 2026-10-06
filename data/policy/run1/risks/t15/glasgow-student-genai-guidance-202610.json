@@ -1,0 +1,52 @@
+{
+ "doc_id": "glasgow-student-genai-guidance-202610",
+ "coder": "rk-t15",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI tools do not 'know' the meaning of what they produce, can only simulate the act of being critical, and are prone to biases, inaccuracies and mistakes.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI tools do not 'know' the meaning of what they produce, can only simulate the act of being critical, and are prone to biases, inaccuracies and mistakes.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "It should not be outsourced to Gen AI, and will damage the development of your understanding and skills in the long run",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Unless they give you explicit permission to share their work in a tool to be analysed, summarised, remixed, etc., doing so would be a breach of their legal rights to their material.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "When you use these tools, you have a responsibility to carefully check any output, and not just assume that what it produces will be acceptable.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "We strongly recommend, however, that you treat AI with caution.",
+   "anchor": null
+  }
+ ]
+}

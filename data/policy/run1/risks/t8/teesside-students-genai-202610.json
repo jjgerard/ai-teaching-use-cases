@@ -1,0 +1,60 @@
+{
+ "doc_id": "teesside-students-genai-202610",
+ "coder": "rk-t8",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Be aware AI can make mistakes, misunderstand instructions, or generate false information (“hallucinations”).",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI can reflect biases found in its training data. Think carefully about what it produces.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Using AI wrongly can lead to \"learning loss\" by skipping key learning steps.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Be aware of environmental impact. Each AI query uses energy. Combine your questions into one well-thought-out prompt to reduce your digital footprint.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "AI-generated content should always be checked for accuracy, bias, and relevance before use.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Follow the University’s Academic Misconduct to stay within academic integrity rules.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Artificial Intelligence tools are constantly evolving and so is advice about how and when to use them. Please keep checking this page or with your module tutor for the most up-to-date guidance.",
+   "anchor": null
+  }
+ ]
+}

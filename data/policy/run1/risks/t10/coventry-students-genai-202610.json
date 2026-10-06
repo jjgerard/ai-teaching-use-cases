@@ -1,0 +1,39 @@
+{
+ "doc_id": "coventry-students-genai-202610",
+ "coder": "rk-t10",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "There is no wider understanding of the world or the context, and this leads to many of the errors Generative AI produces.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "All use of Artificial Intelligence (AI) must follow the University or your placement's guidance.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Can you verify its content?",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "be careful when using AI that you abide by copyright restrictions.",
+   "anchor": null
+  }
+ ]
+}

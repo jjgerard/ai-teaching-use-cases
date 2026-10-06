@@ -1,0 +1,82 @@
+{
+ "doc_id": "ucc-students-genai-202610",
+ "coder": "rk-t14",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "GenAI is known to “hallucinate” and is not credible as a source. While it can produce accurate outputs that are useful in a variety of ways, we cannot automatically trust that the content it provides us is reliable.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "This may take the form of a checklist but should also explain why GenAI is not allowed (either for specific purposes or completely) to ensure that students understand the importance of this reasoning and why using GenAI for certain purposes can be detrimental to their learning.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "critical thinking/analysis is paired with any use of GenAI tools in order to reduce potential harmful impacts resulting from the spread of misinformation and bias in the content these tools produce and to encourage learning.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "critical thinking/analysis is paired with any use of GenAI tools in order to reduce potential harmful impacts resulting from the spread of misinformation and bias in the content these tools produce and to encourage learning.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Educators should not run student work through any AI detector tools that are external to their institution as most of these tools train on content that is submitted to them and there can often be a lack of transparency around where this data is stored and how it is used.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "In addition to their lack of reliability, there are copyright and privacy concerns related to use of AI detectors that are not institutionally approved (i.e., have not gone through the institution's procurement process).",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "This means that we need to critically analyse outputs from GenAI before using them.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Individuals are responsible for the work they produce. This means that individuals using AI-generated content need to analyse it to ensure that it is accurate and unbiased.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "the same standards or expectations around the responsible use of GenAI apply equally to staff and to students, ensuring transparency and fairness.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "It is recommended that all students engage with this course, which also covers principles of academic integrity, skills that support it, and various types of academic misconduct and associated risks.",
+   "anchor": null
+  }
+ ]
+}

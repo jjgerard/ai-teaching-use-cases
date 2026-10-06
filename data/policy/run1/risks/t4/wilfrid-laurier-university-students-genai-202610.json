@@ -1,0 +1,90 @@
+{
+ "doc_id": "wilfrid-laurier-university-students-genai-202610",
+ "coder": "rk-t4",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen AI may be useful, but it can also be wrong.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Can reinforce biases and stereotypes?",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Did you also know that gen AI tools can collect and share prompts and inputs for training purposes?",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen AI tools will plagiarize directly from other sources.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Every use of gen AI has an environmental cost.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen AI can support learning, but it shouldn't replace the thinking, practice, and reflection that help you grow.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "You are responsible for anything you submit, even if it was created with a gen AI tool.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Not every gen AI output is accurate, reliable, and relevant. So, before using any outputs, apply the E.V.E.R.Y. framework.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "All Laurier students, staff and faculty are expected to follow Laurier's principles of use for gen AI.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Complete these self-paced learning modules to help you build the knowledge and judgement you need to make responsible decisions about gen AI in your academic work.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "If you use gen AI, do so thoughtfully, be transparent about its use, and work closely with your advisor to make informed decisions throughout your research journey.",
+   "anchor": null
+  }
+ ]
+}

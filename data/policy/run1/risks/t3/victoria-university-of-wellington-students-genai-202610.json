@@ -1,0 +1,98 @@
+{
+ "doc_id": "victoria-university-of-wellington-students-genai-202610",
+ "coder": "rk-t3",
+ "risks": [
+  {
+   "risk": "security_or_misuse",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "ensuring appropriate oversight of AI content generation to mitigate risks, including those related to cybersecurity, privacy, inaccuracy, bias, misinformation, disinformation and the reputation of the University",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "ensuring appropriate oversight of AI content generation to mitigate risks, including those related to cybersecurity, privacy, inaccuracy, bias, misinformation, disinformation and the reputation of the University",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "ensuring appropriate oversight of AI content generation to mitigate risks, including those related to cybersecurity, privacy, inaccuracy, bias, misinformation, disinformation and the reputation of the University",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "ensuring appropriate oversight of AI content generation to mitigate risks, including those related to cybersecurity, privacy, inaccuracy, bias, misinformation, disinformation and the reputation of the University",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "ensuring appropriate oversight of AI content generation to mitigate risks, including those related to cybersecurity, privacy, inaccuracy, bias, misinformation, disinformation and the reputation of the University",
+   "anchor": null
+  },
+  {
+   "risk": "reputational_harm",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "ensuring appropriate oversight of AI content generation to mitigate risks, including those related to cybersecurity, privacy, inaccuracy, bias, misinformation, disinformation and the reputation of the University",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "human_oversight",
+   "bearer": "staff",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "The use of generative AI technologies should not serve as a substitute for expert judgment and critical evaluation by Staff Members.",
+   "anchor": null
+  },
+  {
+   "duty": "assess_risk_before_use",
+   "bearer": "staff",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Staff Members intending to use generative AI technologies as a Safe alternative to those listed in the University’s register (including those developed internally at the University) must request approval from Te Tai Matihiko—Digital Solutions. However, approval in such cases will be contingent upon a Privacy Impact Assessment and data security checks.",
+   "anchor": null
+  },
+  {
+   "duty": "assess_risk_before_use",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Members of the University Community intending to use generative AI technologies (including those developed internally at the University) in Human Research must obtain approval from the Human Ethics Committee (HEC) in the regular way before any formal research procedures commence.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "students enrolled in coursework degrees must comply with the Student Academic Integrity Regulation",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "familiarise themselves with relevant online resources to learn how to use generative AI technologies without breaching University policies",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "are free to use all generative AI technologies (including those developed internally at the University) for research purposes provided that they comply with this Policy, the Acceptable Use of Information Systems Statute, Responsible Research Policy, Human Ethics Policy, Intellectual Property Policy, Privacy Policy, Cyber Security Procedures and other relevant University policies as appropriate.",
+   "anchor": null
+  }
+ ]
+}

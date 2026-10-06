@@ -1,0 +1,45 @@
+{
+ "doc_id": "soas-london-students-genai-202610",
+ "coder": "rk-t7",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Assume that AI will or can teach you content that you do not understand as the information you receive may not be correct.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Responses generated can be westerncentric, be dated, make assumptions and contain bias.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "At its worst, if abused, AI has the potential to devalue our degrees and detract students from the learning gained through their assessments.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Copy references used in an AI generated text without verifying its credibility and reading the original source.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "we all (staff and students) need to unite to uphold core principles and values such as our (academic) integrity with the advancement of AI",
+   "anchor": null
+  }
+ ]
+}

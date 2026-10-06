@@ -1,0 +1,31 @@
+{
+ "doc_id": "de-montfort-students-genai-202610",
+ "coder": "rk-t11",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "As AI can be unreliable you also always need to fact check its answers",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "As AI can be unreliable you also always need to fact check its answers",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "AI tools are very powerful and it is important to use them ethically.",
+   "anchor": null
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "doc_id": "oxford-brookes-students-genai-202610",
+ "coder": "rk-t8",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Output from ChatGPT may contain falsified or misrepresented references, which should not be used in your work.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "By searching for quick (and potentially unreliable or false) answers, you may miss out on the opportunity to develop the critical research and thinking skills that are key to learning at university",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Be aware of the potential for bias in texts produced by AI models, including ChatGPT, and take steps to mitigate this in your work.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI models and software tools might save you time and help you to think differently but they might also store, use or distribute data uploaded to them.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Make sure that you understand the limitations of ChatGPT and take steps to verify any information before using it in your work.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "all students at Oxford Brookes are strongly encouraged to complete the 'Use of Artificial Intelligence' section of the Academic Integrity Moodle course",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "We must all develop AI literacy so that we know what AI to use, as well as how and when it is appropriate to use it.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Observe the principles of Good Academic Practice at all times.",
+   "anchor": null
+  }
+ ]
+}

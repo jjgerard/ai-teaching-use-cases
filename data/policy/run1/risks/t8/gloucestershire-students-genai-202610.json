@@ -1,0 +1,88 @@
+{
+ "doc_id": "gloucestershire-students-genai-202610",
+ "coder": "rk-t8",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI tools can sound very plausible, even when fabricating false information.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen AI tools learn patterns from existing data, so they can easily reproduce bias.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "It is currently unclear exactly how Gen AI tools use the data you enter, so it is wise to be cautious and to avoid entering confidential or personal information",
+   "anchor": null
+  },
+  {
+   "risk": "opacity_or_lack_of_transparency",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen AI doesn't tend to cite its sources, so you won't know where the information has come from",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI makes intensive use of energy and water",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "there is a vast amount of invisible labour used to develop and refine Gen AI tools.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen AI tools are trained on data, millions of examples of text and images, without the knowledge or consent of the original creators.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Creating a piece of assessed work is about the process as well as the final product, and skipping any steps along the way will have an impact on what you are able to take away with you.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "This is why you must always check any information you take from a Gen AI tool, as the accuracy of any work you produce is ultimately your responsibility.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "This is why you must always check any information you take from a Gen AI tool, as the accuracy of any work you produce is ultimately your responsibility.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Before you use any Generative AI as part of your research or writing, you should read the University's Student guidance for using Generative AI in learning",
+   "anchor": null
+  }
+ ]
+}

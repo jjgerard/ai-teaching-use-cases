@@ -1,0 +1,77 @@
+{
+ "doc_id": "d-n-laoghaire-institute-art-design-and-technology-students-genai-202610",
+ "coder": "rk-t15",
+ "risks": [
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "Source bias: Be aware of bias and inaccuracy in the outputs of these tools.",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "Source bias: Be aware of bias and inaccuracy in the outputs of these tools.",
+   "anchor": null
+  },
+  {
+   "risk": "inequity_of_access",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "Fairness: When incorporating these tools into teaching and learning, issues of inequity and access must be considered.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Critical thinking: Students must assess the validity and applicability of any Generative AI output that is generated and should be able to effectively critique the work.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "it is the individual student, who is responsible for their academic submissions.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "It is crucial to be aware of what these tools can and cannot do, as well as recognise the ethical and other concerns associated with their development and use.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Generative AI is an evolving suite of tools and these guidelines should be revisited at regular intervals.",
+   "anchor": null
+  },
+  {
+   "duty": "ensure_equitable_access",
+   "bearer": "staff",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Fairness: When incorporating these tools into teaching and learning, issues of inequity and access must be considered.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "unspecified",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Generative AI should always be used to support learning and academic integrity in line with IADT’s values and standards",
+   "anchor": null
+  }
+ ]
+}

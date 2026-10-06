@@ -1,0 +1,31 @@
+{
+ "doc_id": "ulster-library-genai-guide-202610",
+ "coder": "rk-t8",
+ "risks": [],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "GenAI can be a useful study tool, but you are the author and responsible for the accuracy, originality and integrity of your work.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Check all GenAI-generated information against reliable academic sources.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Read this guidance to know more about what you are expected to comply with as an Ulster student.",
+   "anchor": null
+  }
+ ]
+}

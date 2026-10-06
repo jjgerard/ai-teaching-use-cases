@@ -1,0 +1,23 @@
+{
+ "doc_id": "bedfordshire-students-genai-202610",
+ "coder": "rk-t6",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "BUT the content it pulls together may be false and inaccurate.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "You need to use your information literacy and evaluation skills to check and review what the tool is telling you.",
+   "anchor": null
+  }
+ ]
+}

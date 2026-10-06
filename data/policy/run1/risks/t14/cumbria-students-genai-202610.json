@@ -1,0 +1,90 @@
+{
+ "doc_id": "cumbria-students-genai-202610",
+ "coder": "rk-t14",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Therefore Gen AI tools should be used with caution as there are serious limitations to some of the content they generate currently, such as drawing on biased, inaccurate sources or producing hallucinations.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Bias: the dominant GenAI models tend to come from the global North, and therefore are being trained by and generating information that has a global North bias.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI tools often keep copies of materials and might even use those materials for further training.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Researchers have estimated that a ChatGPT query consumes about five times more electricity than a simple web search",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "concerns are also being raised about the exploitation of workers employed to tag information in the training data and make it \"safe\" for others to view.",
+   "anchor": null
+  },
+  {
+   "risk": "opacity_or_lack_of_transparency",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Some Gen AI tools won’t necessarily tell us where the information is coming from unless we specifically ask them for references.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Before starting work on any piece of assessed work, please explore and complete our interactive guide to safe and responsible Generative AI use.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Become more familiar with AI in order to better understand and develop an increased ability to detect AI generated content that might be harmful",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Translation tools can be valuable for multilingual learners—but they must be used with integrity, care, and a genuine desire to learn.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "it’s down to us to use our critical thinking and analytical skills to evaluate the relevance, validity, and appropriateness of all information, including any content generated through AI.",
+   "anchor": null
+  },
+  {
+   "duty": "human_oversight",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "We need to be the AI literate human in the loop.",
+   "anchor": null
+  }
+ ]
+}

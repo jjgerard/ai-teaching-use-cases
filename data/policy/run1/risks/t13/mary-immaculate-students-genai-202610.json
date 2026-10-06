@@ -1,0 +1,26 @@
+{"doc_id": "mary-immaculate-students-genai-202610", "coder": "rk-t13",
+ "risks": [
+  {"risk": "inaccurate_or_fabricated_output", "audience": "students", "ai_named": true, "quote": "The outputs from LLM powered Generative AIs often assume the voice of an expert but their outputs often include false information.", "anchor": null},
+  {"risk": "inaccurate_or_fabricated_output", "audience": "both", "ai_named": true, "quote": "Hallucinations happen when an AI model produces false, inaccurate or illogical outputs.", "anchor": null},
+  {"risk": "bias_or_discrimination", "audience": "both", "ai_named": true, "quote": "As some Generative AI models are trained on biased information and misinformation, at times Generative AI can produce hurtful content.", "anchor": null},
+  {"risk": "privacy_or_data_exposure", "audience": "both", "ai_named": false, "quote": "Some tools will collect the data that is inputted into them.", "anchor": null},
+  {"risk": "copyright_or_ip_infringement", "audience": "both", "ai_named": true, "quote": "As Generative AI draws on the data of others without referencing this material, it in a sense plagiarises ideas, concepts and, at times, phrasings.", "anchor": null},
+  {"risk": "environmental_impact", "audience": "both", "ai_named": true, "quote": "Generative AI has a large environmental impact, as the data centres it runs on requires significant cooling as well as rare metals to be use", "anchor": null},
+  {"risk": "opacity_or_lack_of_transparency", "audience": "both", "ai_named": true, "quote": "Generative AI is known for working in a 'black box' and for producing unique outputs.", "anchor": null},
+  {"risk": "ethical_or_societal_harm", "audience": "both", "ai_named": false, "quote": "Workers in these regions, earning as little as $1.50 per hour, face precarious conditions with minimal social safety protections.", "anchor": null},
+  {"risk": "wellbeing_or_safety", "audience": "both", "ai_named": true, "quote": "As some Generative AI models are trained on biased information and misinformation, at times Generative AI can produce hurtful content.", "anchor": null},
+  {"risk": "overreliance_or_loss_of_skills", "audience": "both", "ai_named": true, "quote": "When the opportunities for skill development and learning are lost because of a reliance on and/or inappropriate use of Generative AI technologies.", "anchor": null}
+ ],
+ "responsibilities": [
+  {"duty": "verify_output", "bearer": "both", "strength": "must", "ai_named": true, "quote": "When looking at a Generative AI output we must assess for bias or misinformation.", "anchor": null},
+  {"duty": "verify_output", "bearer": "students", "strength": "should", "ai_named": true, "quote": "Be sure to prioritise your own academic judgement, the academic judgement of your lecturer and the scholarly works you have engaged with over a Generative AI output.", "anchor": null},
+  {"duty": "use_ethically_and_responsibly", "bearer": "both", "strength": "must", "ai_named": true, "quote": "it must be used responsibly and with a clear understanding of its limitations.", "anchor": null},
+  {"duty": "use_ethically_and_responsibly", "bearer": "both", "strength": "should", "ai_named": false, "quote": "Staff and students should seek to ensure that their use of data does not infringe on the fundamental rights of others.", "anchor": null},
+  {"duty": "comply_with_policy_and_law", "bearer": "both", "strength": "must", "ai_named": true, "quote": "Use of AI must be compliant with GDPR principles.", "anchor": null},
+  {"duty": "comply_with_policy_and_law", "bearer": "students", "strength": "must", "ai_named": true, "quote": "When using Generative AI students must adhere to the Academic Integrity Policy", "anchor": null},
+  {"duty": "comply_with_policy_and_law", "bearer": "staff", "strength": "must", "ai_named": true, "quote": "Staff looking to use AI need to comply with the AI Public Sector Guidelines.", "anchor": null},
+  {"duty": "assess_risk_before_use", "bearer": "both", "strength": "must", "ai_named": true, "quote": "Use of any other AI system requires prior approval from ICT Services, and a Data Protection Impact Assessment (DPIA) must be completed in consultation with the Information Compliance Office (ICO).", "anchor": null},
+  {"duty": "assess_risk_before_use", "bearer": "staff", "strength": "must", "ai_named": true, "quote": "Staff must assess whether using an AI product or system is appropriate for the task we need to undertake", "anchor": null},
+  {"duty": "assess_risk_before_use", "bearer": "staff", "strength": "should", "ai_named": false, "quote": "A Fundamental Rights Impact Assessment (FRIA) should be undertaken where MIC is a data controller and the AI product being used relies on personal data.", "anchor": null},
+  {"duty": "stay_informed_and_trained", "bearer": "students", "strength": "should", "ai_named": true, "quote": "the College would advise students to educate themselves about the data use agreements they make with any AI system that they intend to use.", "anchor": null}
+ ]}

@@ -1,0 +1,69 @@
+{
+ "doc_id": "heriot-watt-students-genai-202610",
+ "coder": "rk-t9",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI generated content may not be accurate (even where it includes references), the outputs are predictions, they are not facts, and the content may be based on biased or stereotypical perspectives.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI generated content may not be accurate (even where it includes references), the outputs are predictions, they are not facts, and the content may be based on biased or stereotypical perspectives.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The output may draw on copyright information as generative AI operates by scraping information from the internet without checking the owners’ permission.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Any use of artificial intelligence must align with the principles of academic integrity as outlined by the International Centre for Academic Integrity.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Use generative AI that identifies where information is sourced from so that you can check that it has used a real source, them make sure that you do check the source",
+   "anchor": null
+  },
+  {
+   "duty": "report_concerns_or_incidents",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "If it is a requirement of your course, and you have concerns about using AI, you should raise this with your course leader clearly explaining your concerns.",
+   "anchor": null
+  },
+  {
+   "duty": "no_compulsion_to_use",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "however there is no requirement for a course or programme to utilise generative AI.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "HW will keep under review developments on generative AI detection tools.",
+   "anchor": null
+  }
+ ]
+}

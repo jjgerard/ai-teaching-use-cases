@@ -1,0 +1,30 @@
+{
+ "doc_id": "massey-university-students-genai-202610",
+ "coder": "rk-t2",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI frequently produces false and inaccurate references.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Look for any potentially biased assumptions embedded in the output.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Check the accuracy of any AI-produced references. AI frequently produces false and inaccurate references. You need to know and check what the original sources say",
+   "anchor": null
+  }
+ ]
+}

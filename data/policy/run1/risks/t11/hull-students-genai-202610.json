@@ -1,0 +1,44 @@
+{
+ "doc_id": "hull-students-genai-202610",
+ "coder": "rk-t11",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI can sometimes produce information that seems believable but is actually incorrect. Even the references it generates might be fake or wrongly interpreted.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI can generate content from text or images without the original creator’s consent, raising ethical issues about creativity and authorship.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI tools may reflect biases present in the data they were trained on, and they often don’t rely on impartial or peer-reviewed sources.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Information you provide to an AI tool might be stored and used by others, so avoid sharing personal or sensitive details with AI.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Always double-check and critically review any factual information produced by AI.",
+   "anchor": null
+  }
+ ]
+}

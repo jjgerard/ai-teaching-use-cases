@@ -1,0 +1,28 @@
+{
+ "doc_id": "ucd-students-genai-202610",
+ "coder": "rk-t6",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "You should also be aware that AI content is not entirely reliable.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI, through regurgitation of the flawed training data can reinforce established biased narratives and amplify their effects when not evaluated correctly before reuse.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Responsible use of generative AI also includes developing an understanding of the environmental and socioeconomic impacts that result from the use of AI tools.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": []
+}

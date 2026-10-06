@@ -1,0 +1,31 @@
+{
+ "doc_id": "kent-students-genai-202610",
+ "coder": "rk-t15",
+ "risks": [
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "We encourage you to use generative AI to enhance your critical thinking skills rather than replacing them.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Engaging in discussion with AI tools as a \"study buddy\" (always double checking everything it outputs).",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "The University is updating its regulations on academic misconduct to clarify Policy around the use of Generative AI in your learning and assessment.",
+   "anchor": null
+  }
+ ]
+}

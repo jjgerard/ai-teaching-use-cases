@@ -1,0 +1,31 @@
+{
+ "doc_id": "lincoln-university-students-genai-202610",
+ "coder": "rk-t2",
+ "risks": [],
+ "responsibilities": [
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Always follow the specific GenAI Usage Guidelines provided in each course and assessment.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Use GenAI appropriately, ethically, honestly and transparently.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "staff",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "They should model ethical and responsible use by telling you when GenAI has been used.",
+   "anchor": null
+  }
+ ]
+}

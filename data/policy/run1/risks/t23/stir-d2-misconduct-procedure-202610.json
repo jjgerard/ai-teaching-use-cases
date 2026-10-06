@@ -1,0 +1,74 @@
+{
+ "doc_id": "stir-d2-misconduct-procedure-202610",
+ "coder": "rk-t23",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Users should be aware of the current technical limitations of AI, including but not limited to: generation of inaccurate or fabricated information, lack of source transparency, and reproduction of unintended and potentially harmful biases embedded in training data.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Users should be aware of the current technical limitations of AI, including but not limited to: generation of inaccurate or fabricated information, lack of source transparency, and reproduction of unintended and potentially harmful biases embedded in training data.",
+   "anchor": null
+  },
+  {
+   "risk": "opacity_or_lack_of_transparency",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Users should be aware of the current technical limitations of AI, including but not limited to: generation of inaccurate or fabricated information, lack of source transparency, and reproduction of unintended and potentially harmful biases embedded in training data.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "use of AI platforms may raise ethical and legal concerns including violations of intellectual property rights",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "especially when personal or unpublished work is input into these systems that, in turn, may become output to another user.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "use of most external AI tools for rephrasing students’ own material to avoid selfplagiarism entails the risk of student's own work being used to train future generations of AI services",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "students and staff are encouraged to remain informed about updates to institutional guidelines and to seek clarification when in doubt.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Use artificial intelligence tools, such as ChatGPT, ethically and within the guidelines issued by the University and in connection with specific assessments.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Students are still required to use AI appropriately according to the University Policy on the use of AI, and to adhere to standards of academic integrity",
+   "anchor": null
+  }
+ ]
+}

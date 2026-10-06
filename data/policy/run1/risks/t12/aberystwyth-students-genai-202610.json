@@ -1,0 +1,46 @@
+{
+ "doc_id": "aberystwyth-students-genai-202610",
+ "coder": "rk-t12",
+ "risks": [
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Use of AI in research can have significant ethical implications.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "If you outsource this to Generative AI, then you are not going to get that experience.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "There are many third party Generative AI tools available. As with all third party software, you should ensure that you are using it safely, responsibly, and ethically.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Your department might have its own local Generative AI guidance which you must follow.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "All staff and students are automatically enrolled on this course. We recommend engaging with this course before using Generative AI.",
+   "anchor": null
+  }
+ ]
+}

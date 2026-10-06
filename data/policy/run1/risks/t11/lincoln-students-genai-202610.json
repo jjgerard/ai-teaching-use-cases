@@ -1,0 +1,37 @@
+{
+ "doc_id": "lincoln-students-genai-202610",
+ "coder": "rk-t11",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Accuracy: AI can sound confident but still give you incorrect or misleading information. Always fact-check.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Bias and gaps: AI is trained on existing data, which can include biases or outdated views.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Over-reliance: it is a tool, not a replacement for learning. Relying too much on AI can limit your development of key academic skills.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Accuracy: AI can sound confident but still give you incorrect or misleading information. Always fact-check.",
+   "anchor": null
+  }
+ ]
+}

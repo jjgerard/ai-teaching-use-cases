@@ -1,0 +1,96 @@
+{
+ "doc_id": "maynooth-ug-ptm-genai-guidelines-202610",
+ "coder": "rk-t11",
+ "risks": [
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Over-reliance on GenAI can damage students’ ability to solve problems in their subjects, and actively harm academic performance, because they may not have the foundational knowledge they need later on.",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "While GenAI tools often sound authoritative, they may produce output that can be misleading, factually incorrect, and/or made up.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI output may replicate cultural biases and generate racist, sexist, ageist, and ableist responses.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Personal Data such as your name, email address, and your work could also be used for training or other purposes without your permission.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Not all companies are transparent about the training data they have used, often using copyrighted material in their development.",
+   "anchor": null
+  },
+  {
+   "risk": "opacity_or_lack_of_transparency",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Companies are not obliged to be open about their GenAI tools’ training data and capabilities, so it is not always clear what the limits of that tool might be.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI tools are having an increasing impact on the environment, in terms of electricity and water consumption, and other resources.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI development raises concerns about the exploitation of, and detrimental impact on workers.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "While GenAI tools often sound authoritative, they may produce output that can be misleading, factually incorrect, and/or made up. These are called ‘hallucinations’. Therefore, checking the outputs for accuracy and appropriateness is essential.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Ethical and responsible GenAI use at Maynooth University is not just about how it can help your learning, there are also other issues around using these tools that we encourage you to consider before using them:",
+   "anchor": null
+  },
+  {
+   "duty": "human_oversight",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "GenAI tools will not be used by staff to grade or provide feedback on students’ assessed work.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": false,
+   "quote": "The Guidelines will be reviewed in advance of the next academic year, 2025-2026.",
+   "anchor": null
+  }
+ ]
+}

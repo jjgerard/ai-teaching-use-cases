@@ -1,0 +1,62 @@
+{
+ "doc_id": "swansea-d2-assessment-policy-202610",
+ "coder": "rk-t21",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "results and outputs produced by generative AI tools may be inaccurate, irrelevant is misleading",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Users should have a clear understanding of how AI systems make decisions and the underlying algorithms used, including the risks, limitations and biases within said algorithms.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "All users of AI applications within the University and its programmes must adhere to ethical principles, respecting human rights, privacy, and data protection.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Users must always ensure the accuracy of results produced by generative AI tools.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Use of any AI applications must comply with relevant General Data Protection Regulations (GDPR).",
+   "anchor": null
+  },
+  {
+   "duty": "ensure_equitable_access",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "The University will provide necessary accommodations and support to ensure equitable access to AI-based resources and services.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": false,
+   "quote": "Formally, this policy will be reviewed at least annually.",
+   "anchor": null
+  }
+ ]
+}

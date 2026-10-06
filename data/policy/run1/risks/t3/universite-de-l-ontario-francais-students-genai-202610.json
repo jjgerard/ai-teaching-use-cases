@@ -1,0 +1,71 @@
+{
+ "doc_id": "universite-de-l-ontario-francais-students-genai-202610",
+ "coder": "rk-t3",
+ "risks": [
+  {
+   "risk": "inequity_of_access",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "favoriser l'équité des savoirs au sein du corps étudiant face à la fracture numérique engendrée par l'essor de ces nouvelles technologies.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "La personne étudiante doit conserver la responsabilité intégrale du raisonnement académique",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "comprendre et valider le contenu soumis",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Adopter un usage éthique et responsable : éviter les usages discriminatoires, trompeurs, nuisibles ou contraires aux valeurs de l'Université.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "le maintien d’un climat de confiance mutuelle concernant l’usage éthique et responsable de l’IAG",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "Les lignes directrices doivent faire l’objet d’une révision un (1) an après son adoption par le Sénat.",
+   "anchor": null
+  },
+  {
+   "duty": "ensure_equitable_access",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "faciliter, lorsque possible, l’accès à des outils ou ressources liés à l’IAG pour le corps professoral et les personnes étudiantes",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "soutenir le développement de formations ou d’activités de sensibilisation sur l’usage éthique, critique et responsable de l’IAG",
+   "anchor": null
+  }
+ ]
+}

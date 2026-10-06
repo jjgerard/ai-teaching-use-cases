@@ -1,0 +1,37 @@
+{
+ "doc_id": "national-ireland-students-genai-202610",
+ "coder": "rk-t7",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "These AI tools, while powerful, can sometimes give misleading or incorrect information.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Dependency: Overreliance on AI tools may lead to a lack of independent thinking and problem-solving skills, making students less capable of handling tasks without such assistance.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Data Privacy: Use of AI tools might entail sharing sensitive information online, posing potential risks to students' privacy and data security.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It is a student’s responsibility to distinguish between acceptable use of these tools and the point at which their use could be perceived as providing an unfair advantage.",
+   "anchor": null
+  }
+ ]
+}

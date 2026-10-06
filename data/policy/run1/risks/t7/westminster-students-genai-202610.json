@@ -1,0 +1,23 @@
+{
+ "doc_id": "westminster-students-genai-202610",
+ "coder": "rk-t7",
+ "risks": [],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "However, you must always verify a GenAI’s output using your critical thinking skills to address ethical considerations and check accuracy.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "While these tools offer exciting possibilities, it's important to understand how to use them responsibly in your studies at the University.",
+   "anchor": null
+  }
+ ]
+}

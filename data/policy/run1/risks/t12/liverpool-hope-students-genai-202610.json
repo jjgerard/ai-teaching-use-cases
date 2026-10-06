@@ -1,0 +1,52 @@
+{
+ "doc_id": "liverpool-hope-students-genai-202610",
+ "coder": "rk-t12",
+ "risks": [
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The power and water resources used during the creation and then operation of Generative AI and the impact this has on the environment is an area of concern.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "There are also social and ethical considerations including the exploitation of human labour to review the content in these tools.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "The material used by these tools has been scrapped from the internet this therefore contains bias, misrepresentation and marginalization of some groups.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI is already being adopted in the workplace and it is important that you are prepared with the skills and knowledge for its use, including an awareness of the limitations and risks. However, over reliance can impact on your ability to develop the key skills such as critical thinking, analysis and writing",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "AI can also be disruptive and it is important that in an academic context it is used ethically and transparently",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "it is important that you are prepared with the skills and knowledge for its use, including an awareness of the limitations and risks",
+   "anchor": null
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "doc_id": "qmu-students-genai-202610",
+ "coder": "rk-t10",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI models can confidently present incorrect or false information as factual (also know as hallucinations).",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The presence of unfair or unrepresentative information in the dataset used to train an AI model can result in unfair outcomes when using the AI tool.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Many ethical issues have been raised about the potential for AI tools to reproduce the biases in their training data, to be exploited to spread misinformation or disinformation",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Generative AI systems consume a substantial amount of energy, require large amount of water to cool their processors and generate electricity, and lead to significant carbon emissions.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "overreliance on AI tools simply to generate written content, software code or analysis reduces your opportunity to develop and practice key skills",
+   "anchor": null
+  },
+  {
+   "risk": "security_or_misuse",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI can create software/code that has security flaws and bugs.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI may use illegal libraries and material generated from AI may infringe copyright or intellectual property.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "A knowledgeable human must check the output.",
+   "anchor": null
+  }
+ ]
+}
