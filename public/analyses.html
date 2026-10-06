@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Analyses — Field Notes</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/shared.css">
+<style>
+  .analyses-wrap { max-width: 1180px; margin: 0 auto; padding: 1.6rem 1.5rem 5rem; }
+  .analysis-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.1rem; }
+  @media (max-width: 720px) { .analysis-grid { grid-template-columns: minmax(0, 1fr); } }
+  .analysis-card {
+    display: flex; flex-direction: column; gap: 0.5rem; min-width: 0;
+    background: var(--paper-raised); border: 1.5px solid var(--line-strong); border-radius: var(--radius-lg);
+    box-shadow: var(--shadow); padding: 1.3rem 1.5rem 1.4rem; text-decoration: none; color: var(--ink);
+  }
+  .analysis-card:hover { border-color: var(--accent); }
+  .analysis-card:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .analysis-kicker { font-size: 0.68rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-faint); margin: 0; }
+  .analysis-card h2 { font-family: var(--face-display); font-size: 1.1rem; line-height: 1.25; margin: 0; text-wrap: balance; }
+  .analysis-card p { font-size: 0.88rem; line-height: 1.55; color: var(--ink-soft); margin: 0; }
+  .analysis-open { margin-top: auto; padding-top: 0.4rem; font-size: 0.8rem; font-weight: 700; color: var(--accent-ink); }
+  .analysis-card:hover .analysis-open { text-decoration: underline; }
+</style>
+</head>
+<body>
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="masthead-text">
+      <p class="catalog-mark">Analyses</p>
+      <h1 class="title">Analyses of the catalog and the wider evidence</h1>
+      <p class="lede">Cross-tabulations of the case studies, an analysis of university AI guidance, and a literature briefing on detecting AI writing.</p>
+    </div>
+    <div class="tally">
+      <div class="tally-count">
+        <span class="big">4</span>
+        <span class="cap">Analyses</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<nav class="tab-nav" id="tabNav">
+  <div class="tab-nav-inner">
+    <button class="tab-nav-toggle" type="button" aria-expanded="false" aria-controls="tabNavLinks" aria-label="Toggle navigation menu">
+      <span class="tab-nav-toggle-bar"></span>
+      <span class="tab-nav-toggle-bar"></span>
+      <span class="tab-nav-toggle-bar"></span>
+    </button>
+    <div class="tab-nav-links" id="tabNavLinks">
+      <a class="tab-link" href="/">Teaching Case Studies</a>
+      <a class="tab-link" href="/ai-for-research">Research Case Studies</a>
+      <a class="tab-link" href="/reducing-ai-use">Reducing AI (mis)use</a>
+      <a class="tab-link active" href="/analyses">Analyses</a>
+      <a class="tab-link" href="/about">About</a>
+    </div>
+  </div>
+</nav>
+<script>
+  (function () {
+    var nav = document.getElementById("tabNav");
+    var toggle = nav.querySelector(".tab-nav-toggle");
+    toggle.addEventListener("click", function () {
+      var open = nav.classList.toggle("open");
+      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    });
+  })();
+</script>
+
+<main class="analyses-wrap">
+  <div class="analysis-grid">
+    <a class="analysis-card" href="/trends">
+      <p class="analysis-kicker">Teaching case studies</p>
+      <h2>Teaching applications trends</h2>
+      <p>Which disciplines, tools, activity themes, years and regions go together across the teaching case studies, with a small model that answers &ldquo;given X, what&rsquo;s likely?&rdquo;</p>
+      <span class="analysis-open">Open &rarr;</span>
+    </a>
+    <a class="analysis-card" href="/research-trends">
+      <p class="analysis-kicker">Research case studies</p>
+      <h2>Research applications trends</h2>
+      <p>The same cross-tabulations and trends over time for the AI-assisted research case studies. There is no predictor, because there are too few entries per category.</p>
+      <span class="analysis-open">Open &rarr;</span>
+    </a>
+    <a class="analysis-card" href="/ai-guidance-analysis">
+      <p class="analysis-kicker">University documents</p>
+      <h2>Analysis of AI guidance</h2>
+      <p>What UK and Irish universities tell students about generative AI: what it can be used for, what must be acknowledged, and what help is offered. Every count traces to a quote.</p>
+      <span class="analysis-open">Open &rarr;</span>
+    </a>
+    <a class="analysis-card" href="/teachers-spotting-ai">
+      <p class="analysis-kicker">Literature briefing</p>
+      <h2>Research on AI detection</h2>
+      <p>How well teachers and other readers can tell AI-written text from student writing: accuracy, false accusations, confidence, and what helps.</p>
+      <span class="analysis-open">Open &rarr;</span>
+    </a>
+  </div>
+</main>
+</body>
+</html>
