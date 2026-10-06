@@ -1,0 +1,37 @@
+{
+ "doc_id": "west-england-students-genai-202610",
+ "coder": "rk-t27",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Remember that generative AI is often inaccurate, creating false references, out-of-date detail and false information (known as ‘hallucinations’).",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Do not enter personal or sensitive information into AI tools. It is often unknown how that data will be stored or could be accessed and used by others.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Submitting material that has been created by others may break copyright and intellectual property rules.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Always check the results of generative AI for accuracy, reliability, and originality.",
+   "anchor": null
+  }
+ ]
+}

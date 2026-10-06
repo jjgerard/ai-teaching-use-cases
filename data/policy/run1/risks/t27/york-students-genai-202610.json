@@ -1,0 +1,52 @@
+{
+ "doc_id": "york-students-genai-202610",
+ "coder": "rk-t27",
+ "risks": [
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "it is crucial to recognise the limitations, biases, and ethical concerns associated with AI use, which we are all continuously learning about and addressing.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The use of AI undoubtedly has the potential to hinder your learning, misrepresent your genuine academic ability (both positively and negatively), and lead to misconduct cases that will be treated very seriously.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The emergence of generative AI, for example, has raised serious concerns about how data is processed and used by the companies and software.",
+   "anchor": null
+  },
+  {
+   "risk": "inequity_of_access",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "much of the supportive functionality of the tools discussed above is often only available in ‘premium’ editions which must be paid for.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "there will be a strict expectation that any use of generative AI in the production of work you submit will adhere to University policy regarding false authorship.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Please ensure you have read the information on the Generative AI tools webpage before you start using any recommended tools.",
+   "anchor": null
+  }
+ ]
+}

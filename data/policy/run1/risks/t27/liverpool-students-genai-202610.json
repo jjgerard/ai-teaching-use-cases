@@ -1,0 +1,30 @@
+{
+ "doc_id": "liverpool-students-genai-202610",
+ "coder": "rk-t27",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI tools can provide information which is incorrect or biased, so it is important to apply your critical thinking skills to check the reliability of outputs",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI tools can provide information which is incorrect or biased, so it is important to apply your critical thinking skills to check the reliability of outputs",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "AI tools can provide information which is incorrect or biased, so it is important to apply your critical thinking skills to check the reliability of outputs",
+   "anchor": null
+  }
+ ]
+}

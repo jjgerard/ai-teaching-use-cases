@@ -1,0 +1,71 @@
+{
+ "doc_id": "setu-students-genai-202610",
+ "coder": "rk-t33",
+ "risks": [
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "GenAI assisted learning and assessment should be so designed as to not perpetuate biases or inequalities;",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It is the student’s responsibility to use the required academic integrity guidance and follow lecturers’ instructions.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Students are expected to inform themselves, by reading and complying with relevant guidelines and policies.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "The University shall ensure that staff and students are offered training and development opportunities, so they are appropriately informed about, and accountable for, any GenAI based",
+   "anchor": null
+  },
+  {
+   "duty": "human_oversight",
+   "bearer": "staff",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Academics are responsible for maintaining a balance between GenAI automation and human oversight, for example in creating educational material or assessments;",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "unspecified",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "The use of GenAI should align with SETU’s ethical values and standards;",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "unspecified",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "student data and privacy must be maintained through compliance with GDPR (General Data Protection Regulation) and best practice. This includes the inputting of such data to produce a GenAI response;",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": false,
+   "quote": "This policy will be reviewed in advance of the review date, every 3 years from approval date and/or as soon as possible following new or updated legislation, national or sectoral policy.",
+   "anchor": null
+  }
+ ]
+}

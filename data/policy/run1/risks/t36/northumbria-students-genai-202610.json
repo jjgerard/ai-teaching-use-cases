@@ -1,0 +1,38 @@
+{
+ "doc_id": "northumbria-students-genai-202610",
+ "coder": "rk-t36",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Claude tools can sometimes generate incorrect information or make up facts, this is known as AI hallucination.",
+   "anchor": null
+  },
+  {
+   "risk": "wellbeing_or_safety",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Claude is not a substitute for mental health support or professional therapy.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It is important to remember that you are responsible for the content of any work you submit.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "It’s your responsibility to use reliable sources to verify all information provided by Claude and ensure any sources or references it suggests are accurate.",
+   "anchor": null
+  }
+ ]
+}

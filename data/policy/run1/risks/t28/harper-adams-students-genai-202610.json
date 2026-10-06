@@ -1,0 +1,54 @@
+{
+ "doc_id": "harper-adams-students-genai-202610",
+ "coder": "rk-t28",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "There can be mistakes in the transcriptions though, so these must be checked carefully for accuracy.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Concerns have been expressed about the level of data extraction demanded by these tools, with this possibly conflicting with data protection requirements.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "AI is a machine operated by algorithms. Its outputs must always be treated critically.",
+   "anchor": null
+  },
+  {
+   "duty": "assess_risk_before_use",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Use such tools cautiously and only ever with explicit ethics committee approval.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Responsible use of technology",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Being responsible for complying with regulatory, legal, and professional obligations",
+   "anchor": null
+  }
+ ]
+}
