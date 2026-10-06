@@ -1,0 +1,130 @@
+[
+ {
+  "name": "Buckinghamshire New University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.bucks.ac.uk/sites/default/files/2025-09/Academic%20Integrity%20Policy.pdf",
+   "title": "Academic Integrity Policy Incorporating procedures for investigating and ...",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2025-09 (from URL)",
+   "retrieved_here": false,
+   "http": null,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.bucks.ac.uk/life/student-success-and-support/student-learning-achievement",
+    "why": "fetch returned empty content"
+   },
+   {
+    "url": "https://www.bucks.ac.uk/news/comment-use-ai-education",
+    "why": "staff-author opinion piece, not rules"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "Buckinghamshire New University generative AI students guidance (bucks.ac.uk)",
+   "Buckinghamshire New University Artificial Intelligence Guidance for Students academic integrity (bucks.ac.uk)"
+  ]
+ },
+ {
+  "name": "Dublin City University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://dcu.libguides.com/c.php?g=729468&p=5315423",
+   "title": "AI Introduction - Gen AI: A Library Guide",
+   "kind": "library_guide",
+   "format": "html",
+   "date_as_shown": "Last updated September 23, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.dcu.ie/dts/ai-hub",
+    "why": "mostly links onward"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.dcu.ie/sites/default/files/inline-files/guidance-on-gen-ai-in-doc-research_v1_.pdf",
+    "title": "Guidance on Gen AI in doctoral research",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "DCU generative AI students guidance (dcu.ie)"
+  ]
+ },
+ {
+  "name": "Edge Hill University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://eshare.edgehill.ac.uk/16667/",
+   "title": "A Student Guide to Ethical Use of Generative AI",
+   "kind": "guide",
+   "format": "docx",
+   "date_as_shown": "17 May 2024",
+   "retrieved_here": false,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://figshare.edgehill.ac.uk/articles/educational_resource/Using_Generative_Artificial_Intelligence_-_A_Student_Guide_pdf/24259597",
+    "why": "403"
+   },
+   {
+    "url": "https://figshare.edgehill.ac.uk/articles/educational_resource/Guidelines_on_Using_AI_in_Academic_Assessments_pdf/24259600",
+    "why": "403"
+   },
+   {
+    "url": "https://askusatcatalyst.edgehill.ac.uk/faq/278212",
+    "why": "only points to Blackboard login"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.edgehill.ac.uk/departments/support/ls/research/resources-and-training/ai-guidance/",
+    "title": "AI for research",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "Edge Hill student guide generative AI (edgehill.ac.uk)"
+  ]
+ },
+ {
+  "name": "The Open University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.open.ac.uk/libraryservices/beingdigital/accessible/accessible-pdf-138-responsible-and-ethical-use-of-generative-ai.pdf",
+   "title": "Responsible and ethical use of generative AI",
+   "kind": "library_guide",
+   "format": "pdf",
+   "date_as_shown": "2024",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://university.open.ac.uk/library/news/how-to-acknowledge-generative-ai-such-as-chatgpt-in-assignments",
+    "why": "short news item; acceptable fallback"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://help.open.ac.uk/documents/policies/plagiarism/files/343/academic-conduct-policy-JUN25.pdf",
+    "title": "Academic Conduct Policy (s3.6 generative AI)",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "Open University generative AI students learning assessment (open.ac.uk)",
+   "Open University students generative AI acknowledge use assessment academic conduct (open.ac.uk)"
+  ]
+ }
+]

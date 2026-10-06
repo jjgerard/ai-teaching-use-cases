@@ -1,0 +1,116 @@
+[
+ {
+  "name": "Scotland's Rural College",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://www.sruc.ac.uk/study-with-us/student-life/student-guides/digital-guide/",
+    "why": "retrieved; no AI content"
+   },
+   {
+    "url": "https://www.sruc.ac.uk/media/13jkqhrj/good-research-practice-manual-redacted-v1.pdf",
+    "why": "research staff/PGR misconduct manual, no student AI guidance seen in results"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "SRUC generative AI students guidance",
+   "SRUC academic misconduct policy artificial intelligence students",
+   "SRUC students use of AI ChatGPT assessment",
+   "SRUC Copilot artificial intelligence guidance learners"
+  ]
+ },
+ {
+  "name": "University of Plymouth",
+  "outcome": "found",
+  "doc": {
+   "url": "https://plymouth.libguides.com/Ailibraryskills",
+   "title": "AI Principles - Artificial Intelligence and Library Skills",
+   "kind": "library_guide",
+   "format": "html",
+   "date_as_shown": "Last updated 13 September 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://ec.plymouth.ac.uk/academic-integrity/",
+    "why": "host did not resolve (ENOTFOUND)"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "University of Plymouth generative AI students guidance",
+   "Plymouth AI education principles students academic integrity"
+  ],
+  "note": "thin (~120 words); links to blocked PDF; same page as earlier known page"
+ },
+ {
+  "name": "University of Reading",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.reading.ac.uk/essentials/Study/ai/A-students-guide-to-using-Gen-AI",
+   "title": "A student's guide to using Gen AI",
+   "kind": "guide",
+   "format": "html",
+   "date_as_shown": "none shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://libguides.reading.ac.uk/generative-AI-and-university-study/UoR_policy",
+    "why": "thin (~250-300 words), reserve"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.reading.ac.uk/cqsd/artificial-intelligence",
+    "title": "GenAI for Teaching and Learning at UoR",
+    "audience": "staff"
+   },
+   {
+    "url": "https://www.reading.ac.uk/essentials/Study/ai/Using-Gen-AI-in-your-assessments",
+    "title": "Using Gen AI in your assessments",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "University of Reading students guide generative AI"
+  ]
+ },
+ {
+  "name": "London School of Hygiene & Tropical Medicine",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.lshtm.ac.uk/sites/default/files/academicwritinghandbook.pdf",
+   "title": "Academic Writing Handbook: Guidance for students",
+   "kind": "guide",
+   "format": "pdf",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.lshtm.ac.uk/study/new-students/study-skills",
+    "why": "403 Forbidden"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.lshtm.ac.uk/sites/default/files/academic-manual-chapter-07.pdf",
+    "title": "Academic Manual Ch 7 General Academic Regulations",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "LSHTM generative AI students guidance",
+   "LSHTM academic integrity assessment offences artificial intelligence students policy"
+  ],
+  "note": "AI is a minor part of an 18k-word handbook; the dedicated AI statement is the blocked media/74671"
+ }
+]
