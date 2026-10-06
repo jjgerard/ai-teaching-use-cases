@@ -37,6 +37,21 @@ One row per tool class, stance and audience; per data type, stance and audience;
 
 A document with nothing on tools or data gets empty lists: a valid result.
 
+## Rulings from the pilot (apply them)
+
+Two independent coders agreed on 75% of tool, data, safeguard and law values (tools 54%, data 78%, safeguards 100%, laws 86%). The disagreements were mostly about stances for tools, so:
+
+- **`not_endorsed`, `discouraged`, `prohibited`:** "does not support", "does not recommend", "does not endorse" is `not_endorsed`. "Advises against", "should avoid", "not recommended for use" is `discouraged`. "Must not use", "not permitted" is `prohibited`. AI detectors the institution "does not support" are `ai_detection_tools` / `not_endorsed`.
+- **Outside tools as a class** (`external_or_consumer_tools`): record a row only when the document states a general stance about tools outside the institution's provision: `prohibited` if they are banned outright, `conditional` (with `approved_tool_only` or `meets_security_policy`) if they are allowed under conditions, `warned` if the document only warns. A ban on entering one kind of data into outside tools is a `data` row, not a tool row.
+- **Writing and translation tools** (Grammarly and the like): the stance is the document's own rule about the tool class. "Basic checks are fine, generative features not unless permitted" is `conditional` with `needs_permission`; do not add a second `warned` row for the same sentence. `provided` only when the institution supplies the tool.
+- **One row per class, stance and audience** can leave out a second provided tool (for example a screen-reader tool beside Copilot). Record the institution's main AI tool and put the product name in `name`.
+- **`permitted` data rows** only where the document explicitly says the data may be entered ("you may enter your own work"). Do not infer permission from silence.
+- **Personal and confidential:** "personal, confidential or sensitive data" gets both a `personal_data` row and a `confidential_or_client_data` row when the quote names both.
+- **Assessments:** assessment briefs, exam papers and marking schemes the institution sets are `assessment_material`. Work students submit is `student_work`. "Assessments" with no further word, in a rule about university materials, is `university_materials`.
+- **Laws:** "intellectual property law" counts as `copyright`. `terms_of_service` only where the document names a tool's terms or licence; "check the terms" as an instruction is also the safeguard `check_terms_and_privacy`.
+- **Conditions:** under-18 or parental-permission rules are `conditional` with `needs_permission`. "Ethics review might be required" is `ethics_approval`. A rule that names the institution's own policy (information security, ICT policy) is `meets_security_policy`.
+- **Fit no value (do not record, list in your report):** age bans, impact-assessment duties (DPIA and similar), named national guidelines, assistive technology for disability adjustments, the institution's own use of detection tools, and use rules for particular tools (they belong in the uses schema).
+
 ## Output: one file per document, `data/policy/run1/toolsdata/<batch>/<doc_id>.json`
 
     {"doc_id": "...", "coder": "<name>",
