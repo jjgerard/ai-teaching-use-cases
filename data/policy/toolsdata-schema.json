@@ -1,0 +1,64 @@
+{
+  "version": "1.0",
+  "purpose": "What a document says about the AI tools people may use and the data they may put into them: which kinds of tool are provided, approved, allowed or ruled out, which kinds of data may or may not be entered, what safeguards people are asked to apply, and which laws are named. Each row has a verbatim quote and a flag for whether the quote itself names AI. Rules about what AI may be used for are in the uses schema, and academic misconduct is in the misconduct schema.",
+  "tool_classes": {
+    "institution_provided_tool": "a tool or platform the institution supplies or licenses (for example Copilot, an in-house platform, a licensed edition)",
+    "approved_or_validated_tools": "a list of approved, validated, supported or recommended tools, or a process for approving tools",
+    "external_or_consumer_tools": "tools outside the institution's provision, including free public versions of commercial tools",
+    "ai_detection_tools": "services that check text for AI or similarity, when the statement is about whether people may use or submit work to them",
+    "writing_and_translation_tools": "grammar checkers, paraphrasing or rewriting tools and translation software",
+    "agentic_tools": "AI agents, agentic browsers and tools that act for the user"
+  },
+  "tool_stances": {
+    "provided": "the institution supplies or licenses it",
+    "recommended": "the institution recommends or prefers it",
+    "permitted": "allowed, with no condition stated",
+    "conditional": "allowed only on a stated condition",
+    "not_endorsed": "the institution does not recommend, endorse or vouch for it, without prohibiting it",
+    "discouraged": "advised against",
+    "prohibited": "not allowed",
+    "warned": "the document warns of risks or lost protections without a rule"
+  },
+  "data_types": {
+    "personal_data": "personal, sensitive or identifiable information",
+    "own_work": "the user's own work, drafts or ideas, including intellectual property in them",
+    "others_work_and_copyright": "work created by others, copyright-protected material or licensed content",
+    "university_materials": "university-owned or university-sensitive material such as slides, recordings, teaching materials and internal documents",
+    "student_work": "work submitted by students, such as assignments and assessments",
+    "confidential_or_client_data": "confidential institutional information, client data or information held under a non-disclosure agreement",
+    "research_data": "research participant data, unpublished research or peer-review material",
+    "assessment_material": "assessment briefs, exam papers, marking schemes or answer keys",
+    "credentials_or_accounts": "passwords, login details or access to institutional accounts"
+  },
+  "data_stances": {
+    "prohibited": "may not be entered, uploaded or shared with AI tools",
+    "conditional": "may be entered only on a stated condition",
+    "warned": "the document warns of risk without a rule",
+    "permitted": "may be entered, with no condition stated"
+  },
+  "conditions": {
+    "needs_permission": "needs permission or consent (from staff, the owner or the person concerned)",
+    "anonymised": "only if anonymised or stripped of identifying detail",
+    "approved_tool_only": "only in an approved or institutional tool",
+    "meets_security_policy": "only where the tool meets the institution's security, privacy or data protection requirements",
+    "ethics_approval": "only with ethics approval",
+    "risk_tiered": "depends on a risk or sensitivity classification of the data"
+  },
+  "safeguards": {
+    "check_terms_and_privacy": "check a tool's terms of use, privacy settings or data practices before using it",
+    "opt_out_of_training": "opt out of, or protect work from, use of inputs to train models",
+    "use_institutional_account": "sign in with an institutional account or use an institution-managed version",
+    "anonymise_before_entry": "remove identifying detail before entering material",
+    "follow_data_protection_policy": "apply the institution's data protection, privacy or information security policy",
+    "training_on_user_work_restricted": "a statement that student or user work must not be used to train models without consent (a rule for the institution or vendors)"
+  },
+  "legal": {
+    "data_protection": "GDPR or data protection law",
+    "copyright": "copyright law",
+    "eu_ai_act": "the EU AI Act",
+    "freedom_of_information": "freedom of information law",
+    "safeguarding": "safeguarding rules",
+    "terms_of_service": "a tool's licence or terms of service"
+  },
+  "audience": ["students", "staff", "both", "unspecified"]
+}
