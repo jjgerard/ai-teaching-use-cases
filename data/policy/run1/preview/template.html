@@ -205,7 +205,7 @@ section { scroll-margin-top: 64px; }
 <div class="wrap" id="top">
   <h1>AI policy atlas</h1>
   <p class="lede">What UK and Irish universities tell students about generative AI: what it can be used for, what has to be acknowledged, what help is offered, and how that differs. Every statement counted here traces to a quote in the institution’s own document.</p>
-  <p class="note"><b>Draft.</b> Counts are minimums: a statement counts only where a quote shows it, from one document per institution, read by one model. They are not prevalence estimates. Coverage and method are further down.</p>
+  <p class="note"><b>Draft.</b> Counts are minimums: a statement counts only where a quote shows it, from one or two documents per institution, read by one model. They are not prevalence estimates. Coverage and method are further down.</p>
 </div>
 
 <div class="bar-filter"><div class="in">
@@ -631,7 +631,9 @@ section { scroll-margin-top: 64px; }
     if (!host.firstChild) host.appendChild(el("span", null, "No misconduct statements yet."));
   }
   var DLN = null;
-  function csvInit() { var btns = document.querySelectorAll(".dlcsv"); if (!btns.length || !window.claude || !window.claude.use) return;
+  function csvInit() { var btns = document.querySelectorAll(".dlcsv"); if (!btns.length) return;
+    function blobSave(k) { var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([TR.csv[k]], { type: "text/csv" })); a.download = "ai-policy-" + k + ".csv"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000); }
+    if (!window.claude || !window.claude.use) { btns.forEach(function (b) { b.hidden = false; b.addEventListener("click", function () { blobSave(b.getAttribute("data-csv")); }); }); return; }
     window.claude.use("downloads").then(function (dl) { if (!dl) return; DLN = dl; btns.forEach(function (b) { b.hidden = false; b.addEventListener("click", function () { var k = b.getAttribute("data-csv"), old = b.textContent; DLN.save({ filename: "ai-policy-" + k + ".csv", data: TR.csv[k] }).then(function () { b.textContent = "Saved"; setTimeout(function () { b.textContent = old; }, 1500); }, function (e) { if (e && e.code !== "declined") { b.textContent = "Not available"; setTimeout(function () { b.textContent = old; }, 2000); } }); }); }); }, function () {}); }
   // what goes together: institution-level co-occurrence of statements from the four schemas
   var TG = { sel: null, base: null, groups: null };
