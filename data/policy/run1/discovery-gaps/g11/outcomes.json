@@ -1,0 +1,120 @@
+[
+ {
+  "name": "Abertay University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.abertay.ac.uk/about/the-university/governance-and-management/freedom-of-information/823-information-procedures-on-student-discipline/code-of-student-discipline-academic-misconduct/",
+   "title": "Code of Student Discipline: Academic Misconduct",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "Approved 3 June 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://intranet.abertay.ac.uk/students/study-skills/guides/generative-ai/ules-and-responsibilities/",
+    "why": "same intranet host as robots-disallowed blocked_url; redirects to skills-hub path"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "Abertay University generative AI students guidance",
+   "Abertay students artificial intelligence academic misconduct assessment policy",
+   "Abertay academic misconduct generative AI students regulations"
+  ]
+ },
+ {
+  "name": "University of Buckingham",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.buckingham.ac.uk/wp-content/uploads/2022/10/3.6a-Academic-Integrity-Policy-PDF.pdf",
+   "title": "Academic Integrity and Misconduct Policy and Procedures (Appendix 1: generative AI)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.buckingham.ac.uk/wp-content/uploads/2025/03/Academic-Artificial-Intelligence-Policy.pdf",
+    "why": "blocked_url (robots disallowed)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.buckingham.ac.uk/about/handbooks/regulations-handbook/",
+    "title": "Regulations Handbook",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "Buckingham academic artificial intelligence policy students",
+   "Buckingham students use of generative AI assessment academic misconduct",
+   "Buckingham Academic Integrity and Misconduct policy appendix generative AI guidance"
+  ]
+ },
+ {
+  "name": "University of Oxford",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://libguides.bodleian.ox.ac.uk/using-ai-to-support-academic-work/university-policies",
+   "title": "The University's Policies on AI - Using AI to Support Academic Work: A Library Guide",
+   "kind": "library_guide",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": false,
+   "http": 404,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.ox.ac.uk/students/news/2024-01-08-advice-using-artificial-intelligence-ai-tools-support-your-learning",
+    "why": "HTTP 403"
+   },
+   {
+    "url": "https://www.ox.ac.uk/students/life/it/genai-tools",
+    "why": "HTTP 403"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.materials.ox.ac.uk/generative-artificial-intelligence",
+    "title": "Generative AI for PGR Students",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "Oxford students generative AI guidance",
+   "Oxford guide generative AI students library",
+   "Oxford University students AI plagiarism declaration policy"
+  ]
+ },
+ {
+  "name": "University College London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library-guides.ucl.ac.uk/referencing-plagiarism/acknowledging-genAI",
+   "title": "Acknowledging and Referencing GenAI",
+   "kind": "library_guide",
+   "format": "html",
+   "date_as_shown": "July 29, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/three-categories-genai-use-assessment",
+    "why": "HTTP 403"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "UCL students generative AI assessment guidance"
+  ]
+ }
+]
