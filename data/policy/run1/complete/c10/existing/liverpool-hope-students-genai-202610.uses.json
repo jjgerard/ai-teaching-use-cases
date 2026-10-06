@@ -1,0 +1,98 @@
+{
+ "doc_id": "liverpool-hope-students-genai-202610",
+ "coder": "use-u16",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Your tutors will provide clear guidance on whether AI tools can or cannot be used in a particular assignment.",
+   "anchor": null
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Assignments produced wholly or partly using AI tools and submitted as your own work without acknowledgement will be treated as academic misconduct.",
+   "anchor": null
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Studiosity provides 24/7 writing support including feedback on a piece of writing.",
+   "anchor": "Academic Writing and Grammar"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You can also sign up to Grammarly for free.",
+   "anchor": "Academic Writing and Grammar"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Research Assistant on OneSearch allows you to search the library’s resources using this AI tool which allows you to search using natural language as a starting point to your research.",
+   "anchor": "Finding Academic Sources"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Your tutors will provide clear guidance on whether AI tools can or cannot be used in a particular assignment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Assignments produced wholly or partly using AI tools and submitted as your own work without acknowledgement will be treated as academic misconduct."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "You should include the details of the AI tool used, how you have used it and your search prompts."
+   },
+   {
+    "value": "how_used",
+    "quote": "You should include the details of the AI tool used, how you have used it and your search prompts."
+   },
+   {
+    "value": "prompts",
+    "quote": "You should include the details of the AI tool used, how you have used it and your search prompts."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "The Use of Generative AI Tools Declaration Form can be attached to your assignment to show when you have used a generative AI tool."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "The Library team has produced a Referencing Generative AI (GenAI) sources in your work guide, which highlights how to reference using the referencing styles in use across the University."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Assignments produced wholly or partly using AI tools and submitted as your own work without acknowledgement will be treated as academic misconduct."
+  },
+  "exempt": []
+ }
+}

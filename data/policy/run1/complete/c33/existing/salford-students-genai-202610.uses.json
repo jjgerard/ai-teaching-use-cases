@@ -1,0 +1,38 @@
+{
+ "doc_id": "salford-students-genai-202610",
+ "coder": "use-u7",
+ "uses": [
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Treat GenAI outputs as a starting point, not a source.",
+   "anchor": "Verify, understand and take responsibility."
+  }
+ ],
+ "default_when_silent": {
+  "value": "permit_all",
+  "quote": "The default position across the University is that you may use GenAI in reasonable and appropriate ways to support your work."
+ },
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "This can vary from one assessment to another, though, so you always need to check your Assessment Guidance document before using GenAI."
+  },
+  {
+   "value": "institution_wide",
+   "quote": "The default position across the University is that you may use GenAI in reasonable and appropriate ways to support your work."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

@@ -1,0 +1,55 @@
+{
+ "doc_id": "canterbury-students-genai-202610",
+ "coder": "mis-m8",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Without acknowledgement of the use of a GenAI tool, you risk academic misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Submit work produced in whole or part by GenAI, either verbatim, or paraphrased, without acknowledgment, citation and referencing.",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "There is a risk of academic misconduct and plagiarism if you choose not to follow the University guidance on using GenAI.",
+   "anchor": null
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "to falsely insert references;",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "It may be picked up by similarity software either from other sources or other students’ work.",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "Misuse of AI tools",
+   "ai_named": true,
+   "quote": "Misuse of digital/ generative and other AI tools occurs when students use such tools (whether free or behind a paywall) to:"
+  },
+  {
+   "term": "Academic integrity",
+   "ai_named": false,
+   "quote": "Academic integrity is about our responsible sharing and use of information created by others."
+  }
+ ]
+}

@@ -1,0 +1,151 @@
+{
+ "doc_id": "lincoln-university-students-genai-202610",
+ "coder": "uses-i2",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "No Usage: GenAI cannot be used at all.",
+   "anchor": "WHAT YOU CAN AND CANNOT DO WITH GENAI IN AROMATAWAI | ASSESSMENT",
+   "tier": "No Usage"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Partial Usage – Idea Generation: Using GenAI to brainstorm topics, ideas, questions, and/or examples.",
+   "anchor": "WHAT YOU CAN AND CANNOT DO WITH GENAI IN AROMATAWAI | ASSESSMENT",
+   "tier": "Partial: idea generation"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Partial Usage – Refinement: Using GenAI to improve writing (structure, grammar and/or tone), code (optimisation and/or readability), or visual media.",
+   "anchor": "WHAT YOU CAN AND CANNOT DO WITH GENAI IN AROMATAWAI | ASSESSMENT",
+   "tier": "Partial: refinement"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Partial Usage – Refinement: Using GenAI to improve writing (structure, grammar and/or tone), code (optimisation and/or readability), or visual media.",
+   "anchor": "WHAT YOU CAN AND CANNOT DO WITH GENAI IN AROMATAWAI | ASSESSMENT",
+   "tier": "Partial: refinement"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Partial Usage – Refinement: Using GenAI to improve writing (structure, grammar and/or tone), code (optimisation and/or readability), or visual media.",
+   "anchor": "WHAT YOU CAN AND CANNOT DO WITH GENAI IN AROMATAWAI | ASSESSMENT",
+   "tier": "Partial: refinement"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Partial Usage – Refinement: Using GenAI to improve writing (structure, grammar and/or tone), code (optimisation and/or readability), or visual media.",
+   "anchor": "WHAT YOU CAN AND CANNOT DO WITH GENAI IN AROMATAWAI | ASSESSMENT",
+   "tier": "Partial: refinement"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Partial Usage – Content Creation: Using GenAI to generate some of, or all, the",
+   "anchor": "WHAT YOU CAN AND CANNOT DO WITH GENAI IN AROMATAWAI | ASSESSMENT",
+   "tier": "Partial: content creation"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The use of any GenAI tools used outside of the permitted use in this assessment is strictly prohibited.",
+   "anchor": "GENAI USAGE STATEMENTS YOU WILL SEE IN YOUR COURSE ASSESSMENT",
+   "tier": "Partial: outside permitted"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Full Use: Students may use GenAI for any aspect of assessment.",
+   "anchor": "WHAT YOU CAN AND CANNOT DO WITH GENAI IN AROMATAWAI | ASSESSMENT",
+   "tier": "Full usage"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Your Course Examiner will tell you exactly how much GenAI, if any, you can use in each course and assessment item."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Each assessment item will include a Generative Artificial Intelligence (GenAI) Usage statement."
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "There are three levels of GenAI usage:"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Always acknowledge the use of GenAI tools, as you would with any source."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "you must identify the GenAI tool used, describe how it was used, including the prompts utilised, and when it was used."
+   },
+   {
+    "value": "how_used",
+    "quote": "describe how it was used, including the prompts utilised"
+   },
+   {
+    "value": "prompts",
+    "quote": "including the prompts utilised"
+   },
+   {
+    "value": "date_accessed",
+    "quote": "and when it was used."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "Any use of GenAI tools must be clearly acknowledged in your assessment submission"
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Acknowledge any use, or not, of GenAI in your assessment submission (follow the guidelines on Te Kete Wānaka's Referencing page)."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Using GenAI without following the guidelines is a breach of academic integrity."
+  },
+  "exempt": []
+ }
+}

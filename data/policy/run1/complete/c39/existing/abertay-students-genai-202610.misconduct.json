@@ -1,0 +1,237 @@
+{
+ "doc_id": "abertay-students-genai-202610",
+ "coder": "mis-x5",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Unacceptable use of AI (Artificial Intelligence) is where a student uses an AI tool/s to generate academic work on their behalf and presents AI ideas as their own without appropriate acknowledgement.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Unacceptable use of AI (Artificial Intelligence) is where a student uses an AI tool/s to generate academic work on their behalf and presents AI ideas as their own without appropriate acknowledgement.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Unacceptable use of AI (Artificial Intelligence) is where a student uses an AI tool/s to generate academic work on their behalf and presents AI ideas as their own without appropriate acknowledgement.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of taking another’s ideas and representing them as one’s own.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsification is the fabrication or alteration of data – for example, by changing data in order to confirm a hypothesis not supported by the actual data",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Failure to follow the rules for an examination (whether in‐person or online), in a way that might result in the gaining of an academic advantage.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion is where students act together in order to deceive or cheat.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Coercion is where a student puts pressure on another student or member of staff to act in a particular way, or attempts to do so, with the intention of gaining an academic advantage.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self‐plagiarism is the act of submitting for assessment a piece of work already (or simultaneously) submitted for assessment in the same module, another module or in another context.",
+   "anchor": "Academic Misconduct"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "In judging whether or not there is a reasonable case, the ADO will scrutinise the work in associated with the accusation",
+   "anchor": "3a Investigation"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Alleged misconduct will initially be investigated by an Authorised Disciplinary Officer (ADO).",
+   "anchor": "3a Investigation"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "All suspicions of academic misconduct in a piece of work should be referred to the Faculty’s delegated ADO",
+   "anchor": "3a Investigation"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The ADO will inform the student as soon as possible of the alleged offence or offences and give reasonable notice of the time, date and place at which the student should attend.",
+   "anchor": "3a Investigation"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The student will be invited to attend the Disciplinary Panel, although it may proceed in their absence (see below).",
+   "anchor": "Appendix A"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "Failure to attend the meeting will not preclude the ADO from reaching a decision, based on the evidence available.",
+   "anchor": "3a Investigation"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "At the meeting, the student may be accompanied by another member of the University community, i.e. a fellow student, a member of staff or a member of the Students’ Association.",
+   "anchor": "3a Investigation"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A student may appeal against the decision of an Authorised Disciplinary Officer (ADO) or a Disciplinary Panel, but only if there are valid grounds to appeal.",
+   "anchor": "Right of Appeal"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The process from ADO meeting to a sanction or referral to a Panel from the Faculty will normally be completed within five working days.",
+   "anchor": "3a Investigation"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The standard of proof that will be used in all cases is the balance of probabilities.",
+   "anchor": "Academic Misconduct"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "The sanction/s will be sent to Academic Services in order to lodge it in the student’s record for the remainder of their studies.",
+   "anchor": "3a Investigation"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "The purpose of the Code is to be corrective if possible rather than punitive",
+   "anchor": "Purpose"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "A written reprimand or severe reprimand.",
+   "anchor": "3c Panel Sanctions"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "a grade being awarded for only that part of the unit of assessment which reflects the student’s original work, or",
+   "anchor": "3a Investigation"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Grade F awarded for the unit of assessment with an opportunity for reassessment capped at Grade D (if misconduct occurred at the first attempt).",
+   "anchor": "3a Investigation"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "Grade F awarded for the unit of assessment with an opportunity for reassessment capped at Grade D (if misconduct occurred at the first attempt).",
+   "anchor": "3a Investigation"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Grade of F awarded for the module with no opportunity for re‐assessment",
+   "anchor": "3c Panel Sanctions"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Discontinuation of studies.",
+   "anchor": "3c Panel Sanctions"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "If an in‐Faculty sanction has been previously applied, the ADO will refer the case to a Student Academic Disciplinary Panel.",
+   "anchor": "3a Investigation"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The level of penalty or sanction imposed will depend upon the nature of the misconduct and whether it is persistent or particularly severe.",
+   "anchor": "3c Panel Sanctions"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "A proven case of academic misconduct will require reporting to the Law Society of Scotland for those studying for a Law degree",
+   "anchor": "Footnote 3"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of taking another’s ideas and representing them as one’s own."
+  },
+  {
+   "term": "self-plagiarism",
+   "ai_named": false,
+   "quote": "Self‐plagiarism is the act of submitting for assessment a piece of work already (or simultaneously) submitted for assessment in the same module, another module or in another context."
+  },
+  {
+   "term": "falsification",
+   "ai_named": false,
+   "quote": "Falsification is the fabrication or alteration of data"
+  },
+  {
+   "term": "false citation",
+   "ai_named": false,
+   "quote": "False citation is the citing of a source for information, when the source does not contain that information or when the information cited was not gleaned from that source."
+  },
+  {
+   "term": "collusion",
+   "ai_named": false,
+   "quote": "Collusion is where students act together in order to deceive or cheat."
+  },
+  {
+   "term": "coercion",
+   "ai_named": false,
+   "quote": "Coercion is where a student puts pressure on another student or member of staff to act in a particular way, or attempts to do so, with the intention of gaining an academic advantage."
+  },
+  {
+   "term": "contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating is where a student commissions or seeks to commission another party (either paid or unpaid) to perform academic work on their behalf."
+  },
+  {
+   "term": "unacceptable use of AI",
+   "ai_named": true,
+   "quote": "Unacceptable use of AI (Artificial Intelligence) is where a student uses an AI tool/s to generate academic work on their behalf and presents AI ideas as their own without appropriate acknowledgement."
+  }
+ ]
+}

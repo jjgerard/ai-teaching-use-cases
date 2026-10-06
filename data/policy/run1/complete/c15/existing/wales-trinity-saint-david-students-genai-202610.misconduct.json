@@ -1,0 +1,58 @@
+{
+ "doc_id": "wales-trinity-saint-david-students-genai-202610",
+ "coder": "mis-m2",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "trying to claim AI-generated content as their own is considered academic misconduct",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "The use of AI generated outcomes that are not identified as such, is academic misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Violating this policy inadvertently using an autocomplete generative AI or similar tool still constitutes academic misconduct.",
+   "anchor": null
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": true,
+   "quote": "Violating this policy inadvertently using an autocomplete generative AI or similar tool still constitutes academic misconduct.",
+   "anchor": null
+  }
+ ],
+ "detection": [
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "If there is suspicion of use of AI tools beyond what was specified for the particular assignment, you will be asked to provide previous drafts and notes.",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "If you submit work that is not your own, then you will be committing academic misconduct, which carries severe penalties.",
+   "anchor": null
+  }
+ ],
+ "definitions": [
+  {
+   "term": "artificial intelligence",
+   "ai_named": true,
+   "quote": "Artificial Intelligence (AI) are machine-based systems that can, given a set of human-defined objectives, make predictions, recommendations or decisions that influence real or virtual environments."
+  }
+ ]
+}

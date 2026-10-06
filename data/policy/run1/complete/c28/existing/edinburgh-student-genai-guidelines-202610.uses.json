@@ -1,0 +1,240 @@
+{
+ "doc_id": "edinburgh-student-genai-guidelines-202610",
+ "coder": "use-u4",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "The University does not ban the use of AI, though its use will be restricted for much of your assessed work.",
+   "anchor": "Using generative AI in your studies: guidelines for students"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Presenting AI outputs as your own, original work.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using an AI translator to convert assessed work to English before submission: English is the language of teaching and assessment at Edinburgh – machine translation is treated as false authorship and is not acceptable.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Submitting an assessment which includes elements of AI-generated text without acknowledgment.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Submitting an assessment which includes AI-generated images, audio or video without acknowledgment.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Submitting an assessment which includes AI-generated mathematical formulae or reasoning, or computer code, without acknowledgment.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Citing and referencing AI-found sources without reading and verifying them.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using an AI agent or AI browser to complete any type of work – assessed or not – within your virtual learning environment.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "use": "translate",
+   "context": "study",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "As a result, you must not use third-party AI-based translation apps in class.",
+   "anchor": "Use of live translation apps in class"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "brainstorm ideas",
+   "anchor": "Using generative AI to support your learning"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "get quick definitions of concepts",
+   "anchor": "Using generative AI to support your learning"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "overcome writer’s block through dialogue",
+   "anchor": "Using generative AI to support your learning"
+  },
+  {
+   "use": "check_language",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "check your grammar",
+   "anchor": "Using generative AI to support your learning"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "organise or summarise information",
+   "anchor": "Using generative AI to support your learning"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "organise or summarise information",
+   "anchor": "Using generative AI to support your learning"
+  },
+  {
+   "use": "format_references",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "re-format your references",
+   "anchor": "Using generative AI to support your learning"
+  },
+  {
+   "use": "generate_code",
+   "context": "study",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "if you are using it to regularly assist with mathematical reasoning or coding, you are undermining your own ability to learn and become expert at doing this yourself.",
+   "anchor": "Cognitive offloading"
+  },
+  {
+   "use": "delegate_to_ai_agent",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using an AI agent within Learn or any other University learning or assessment platform which requires you to log in is not permitted.",
+   "anchor": "Agentic AI",
+   "ai_named": true
+  },
+  {
+   "use": "delegate_to_ai_agent",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "getting someone or something else (such as an AI agent) to complete your work for you",
+   "anchor": "Unacceptable uses of generative AI for assessment",
+   "ai_named": true
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "study",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "If you routinely use generative AI for breaking down and summarising long texts, for example, you will not be developing your own critical skills in the analysis of complex documents.",
+   "anchor": "Cognitive offloading",
+   "ai_named": true
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "These guidelines are general to the whole University."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "It is important that you are aware that each course will have its own, more detailed, guidance."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "If you choose to use generative AI for permitted aspects of an assessment, it is important to be transparent about how you have done so."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "I used GPT 5 via ELM to check grammar and spelling throughout my assignment."
+   },
+   {
+    "value": "how_used",
+    "quote": "I used GPT 5 via ELM to check grammar and spelling throughout my assignment."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "You should include a brief acknowledgment at the end of your piece of work, for example:"
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "This means including an in-text citation or footnote in the body of your work, and a corresponding reference in your reference list."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Submitting an assessment which includes elements of AI-generated text without acknowledgment."
+  },
+  "exempt": []
+ }
+}

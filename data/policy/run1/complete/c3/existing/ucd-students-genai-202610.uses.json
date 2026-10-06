@@ -1,0 +1,97 @@
+{
+ "doc_id": "ucd-students-genai-202610",
+ "coder": "use-u10",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "for student assignments you should seek prior approval of your module coordinator before using GenAI Tools",
+   "anchor": "About this Guide"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "you should never rely on AI to create content for your academic work without appropriate acknowledgement",
+   "anchor": "About this Guide"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "When you do use AI generated content you must acknowledge its use with proper attribution and citation.",
+   "anchor": "About this Guide"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use it to help clarify your ideas, structure your arguments and familiarise yourself with new topics.",
+   "anchor": "About this Guide"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use it to help clarify your ideas, structure your arguments and familiarise yourself with new topics.",
+   "anchor": "About this Guide"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use it to help clarify your ideas, structure your arguments and familiarise yourself with new topics.",
+   "anchor": "About this Guide"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You should also be aware that AI content is not entirely reliable.",
+   "anchor": "About this Guide"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "for student assignments you should seek prior approval of your module coordinator before using GenAI Tools"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "When you do use AI generated content you must acknowledge its use with proper attribution and citation."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "The library provides guidance on how to correctly cite and reference Generative AI in this guide as well as in each of the citation style guides available on our website."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

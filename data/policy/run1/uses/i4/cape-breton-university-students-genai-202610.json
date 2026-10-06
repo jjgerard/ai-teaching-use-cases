@@ -1,0 +1,31 @@
+{
+ "doc_id": "cape-breton-university-students-genai-202610",
+ "coder": "uses-i4",
+ "uses": [
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI content can be incomplete, inaccurate or biased and must not be treated as authoritative.",
+   "anchor": "“Accountability” Principle"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "AI with Purpose provides institution-wide direction while acknowledging that complete regulation of every AI scenario is neither feasible nor desirable."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

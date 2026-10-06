@@ -1,0 +1,98 @@
+{
+ "doc_id": "bimm-students-genai-202610",
+ "coder": "use-u14",
+ "uses": [
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_required",
+   "conditions": [],
+   "quote": "Using digital tools including AI to help you with things like editing and refining your writing (spelling, grammar, syntax, and clarity ) is permissible and does not require attribution.",
+   "anchor": "Permissible Proofreading and Editing Assistance"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_required",
+   "conditions": [],
+   "quote": "Using digital tools including AI to help you with things like editing and refining your writing (spelling, grammar, syntax, and clarity ) is permissible and does not require attribution.",
+   "anchor": "Permissible Proofreading and Editing Assistance"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "However, where AI is used to create content that forms part of an assessment this must be attributed as detailed above in the section on plagiarism.",
+   "anchor": "Permissible Proofreading and Editing Assistance"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Failing to attribute the use of AI applications in generating elements of audio -visual content.",
+   "anchor": "Major Academic Misconduct"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Deliberately presenting outputs from AI applications as your work (false authorship) .",
+   "anchor": "Gross Academic Misconduct"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Presenting work that has been processed through AI applications beyond that permitted by the third -party proofreading and editing guidelines referenced above .",
+   "anchor": "Major Academic Misconduct"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsification : Submitting assessed work which has been either fabricated or falsified.",
+   "anchor": null,
+   "ai_named": false
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "However, where AI is used to create content that forms part of an assessment this must be attributed as detailed above in the section on plagiarism."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Using Artificial Intelligence (AI) applications to create work or elements of work without fully attributing their use."
+  },
+  "exempt": [
+   {
+    "what": "check_language",
+    "quote": "Using digital tools including AI to help you with things like editing and refining your writing (spelling, grammar, syntax, and clarity ) is permissible and does not require attribution."
+   }
+  ]
+ }
+}

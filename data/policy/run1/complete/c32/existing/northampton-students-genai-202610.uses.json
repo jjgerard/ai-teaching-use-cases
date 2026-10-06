@@ -1,0 +1,285 @@
+{
+ "doc_id": "northampton-students-genai-202610",
+ "coder": "use-u7",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_required",
+   "conditions": [],
+   "quote": "You are unable to use AI for the final output of the assessment due to the assessment design.",
+   "anchor": "Category 1: No AI allowed",
+   "tier": "No AI allowed"
+  },
+  {
+   "use": "any_use",
+   "context": "exams_or_supervised",
+   "stance": "prohibited",
+   "acknowledge": "not_required",
+   "conditions": [],
+   "quote": "For example, a closed book exam where you are required to demonstrate within controlled conditions that you have core knowledge or a skill in a particular area. As it is not possible to use AI within this type of assessment, you do not need to acknowledge use of AI.",
+   "anchor": "Category 1: No AI allowed",
+   "tier": "No AI allowed"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "You may make use of AI in your assessment in an assistive role, but you must acknowledge this appropriately.",
+   "anchor": "Category 2: AI can be used in an assistive role",
+   "tier": "Assistive role"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Using AI is part of the assessment and will be expected. You must still acknowledge where and how you have used AI.",
+   "anchor": "Category 3: AI is an integral part of assessment",
+   "tier": "Integral to assessment"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_required",
+   "conditions": [],
+   "quote": "Checking spelling, punctuation and grammar",
+   "anchor": "Permitted uses",
+   "tier": "Permitted use"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_required",
+   "conditions": [],
+   "quote": "Researching or finding sources",
+   "anchor": "Permitted uses",
+   "tier": "Permitted use"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_required",
+   "conditions": [],
+   "quote": "Audio-transcription",
+   "anchor": "Permitted uses",
+   "tier": "Permitted use"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Getting ideas for structuring or planning your assessment",
+   "anchor": "Uses where you will need to provide an acknowledgment",
+   "tier": "Lower-risk use"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Getting feedback or recommendations on your writing style or tone",
+   "anchor": "Uses where you will need to provide an acknowledgment",
+   "tier": "Lower-risk use"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Summarising text, notes or data.",
+   "anchor": "Uses where you will need to provide an acknowledgment",
+   "tier": "Lower-risk use"
+  },
+  {
+   "use": "analyse_data",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Analysing content or data in your assessment",
+   "anchor": "Uses where you will need to provide an acknowledgment",
+   "tier": "Higher-risk use"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Generating ideas, concepts or arguments to include in an assessment",
+   "anchor": "Uses where you will need to provide an acknowledgment",
+   "tier": "Higher-risk use"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Generating text, images or any other content to add to your assessment.",
+   "anchor": "Uses where you will need to provide an acknowledgment",
+   "tier": "Higher-risk use"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Support your learning, understanding, planning, and revision. In the acknowledgement section your use could be flagged in sections: 1. Structuring or planning your assessment or 5. Ideas, concepts and arguments",
+   "anchor": "Category 2: AI can be used in an assistive role",
+   "tier": "Assistive role"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Support your learning, understanding, planning, and revision.",
+   "anchor": "Category 2: AI can be used in an assistive role",
+   "tier": "Assistive role"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Improve the quality and presentation of your work. In the acknowledgement section your use could be flagged in sections: 2. Writing style or tone or 6. Content",
+   "anchor": "Category 2: AI can be used in an assistive role",
+   "tier": "Assistive role"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Generate ideas, examples, and learning resources. In the acknowledgement section your use could be flagged in sections: 5. Ideas, concepts and arguments or 6. Content",
+   "anchor": "Category 2: AI can be used in an assistive role",
+   "tier": "Assistive role"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Complete assessed work on your behalf.",
+   "anchor": "You must not use AI to:"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Submit AI-generated content as your own.",
+   "anchor": "You must not use AI to:"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Rely on unverified AI-generated information, references, calculations, or code.",
+   "anchor": "You must not use AI to:"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "If your use of AI is not listed above, you should check first with your tutor to see if your use of AI is allowed in your assessment."
+ },
+ "decided_by": [
+  {
+   "value": "tiered_scale",
+   "quote": "Most assessments in UON will fall into one of the three following categories:"
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Before using any AI to support an assessment, you should always check and follow your assessment brief and your tutor’s guidance on use of AI."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "You should always check and follow your tutor’s guidance on use of AI within your work."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Some uses of AI are seen as ‘permitted use’ and do not normally require an acknowledgement in your work."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "This should include the name of the AI software that you used and a clear description of where and how the output was used in your work."
+   },
+   {
+    "value": "how_used",
+    "quote": "This should include the name of the AI software that you used and a clear description of where and how the output was used in your work."
+   }
+  ],
+  "location": [
+   {
+    "value": "appendix",
+    "quote": "Acknowledgements should be included as appendices in your assessment."
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Not doing so can be seen as academic misconduct."
+  },
+  "exempt": [
+   {
+    "what": "check_language",
+    "quote": "Checking spelling, punctuation and grammar"
+   },
+   {
+    "what": "find_sources",
+    "quote": "Researching or finding sources"
+   },
+   {
+    "what": "record_or_transcribe",
+    "quote": "Audio-transcription"
+   }
+  ]
+ }
+}

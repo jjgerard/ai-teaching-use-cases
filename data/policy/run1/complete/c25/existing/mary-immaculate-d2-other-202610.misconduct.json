@@ -1,0 +1,47 @@
+{
+ "doc_id": "mary-immaculate-d2-other-202610",
+ "coder": "mis-m27",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "may unintentionally lead to you presenting someone else's work or ideas as your own",
+   "anchor": "Strategies for Students: Note Taking"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Poor notetaking practices can inadvertently lead to academic integrity breaches.",
+   "anchor": "Strategies for Students: Note Taking"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Traditional plagiarism-detection tools are rendered ineffective in this context, as AI becomes more capable of human-like text",
+   "anchor": "Strategies for Teachers: GenAI challenges"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Detection tools which purport to specifically focus on GenAI detection raise some significant implications for privacy, equity, and data security (Dalalah & Dalalah, 2023). There is also a lack of evidence as to whether they are effective, with many institutions citing instances of false positives.",
+   "anchor": "Strategies for Teachers: GenAI challenges"
+  }
+ ],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Failure to use the correct citation method may result in a reduced grade.",
+   "anchor": "Strategies for Students: Referencing"
+  }
+ ],
+ "definitions": []
+}

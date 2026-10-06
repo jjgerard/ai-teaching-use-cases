@@ -1,0 +1,70 @@
+{
+ "doc_id": "glasgow-student-genai-guidance-202610",
+ "coder": "mis-m2",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "It is important to note that using any form of AI or other computational aids in your university coursework, study, exams, or research without acknowledging that input counts as academic misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Submitting AI-generated content as your own work without appropriate acknowledgement is academic misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Issue here – misconduct. The assessment details prohibited Gen AI use for a specific task, but David didn’t read them.",
+   "anchor": null
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "The submitted work contained fabricated citations: authors and journals that don’t exist, misattributed articles, and page numbers that were incorrect.",
+   "anchor": null
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": true,
+   "quote": "Using Gen AI to rewrite sections of your work, even unintentionally, means that the submitted work is no longer substantially your own.",
+   "anchor": null
+  }
+ ],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "The writing style didn’t match previous assessments submitted in the course, and one of the points Gen AI added was an advanced theory that wasn’t covered anywhere on the course.",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "If you want to know more about academic misconduct, and the processes involved if you are called to an exploratory meeting, then you can find more information on the Student Conduct pages.",
+   "anchor": null
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": true,
+   "quote": "The Student Representative Council Advice Centre can also offer advice and information on Gen AI use, and a number of other academic issues.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "generative AI",
+   "ai_named": true,
+   "quote": "Tools that can replicate and create the complex responses and behaviours of humans are referred to as 'generative AI'."
+  }
+ ]
+}

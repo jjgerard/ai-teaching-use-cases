@@ -1,0 +1,37 @@
+{
+ "doc_id": "warwick-students-genai-202610",
+ "coder": "mis-m3",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Inappropriate use of AI tools can be considered academic misconduct",
+   "anchor": "intro"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Failing to honestly acknowledge your use of AI in could be considered academic misconduct.",
+   "anchor": "declare section"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "If you've been invited to an academic conduct meeting, there is lots of support to help you.",
+   "anchor": "support section"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "If you've been invited to an academic conduct meeting, there is lots of support to help you.",
+   "anchor": "support section"
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}

@@ -1,0 +1,66 @@
+{
+ "doc_id": "bath-spa-students-genai-202610",
+ "coder": "mis-m13",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "You must not directly copy larger chunks of text or images that have been produced for you by AI without attributing the source, as this will count as ‘passing off the work of another as your own’ and is against our academic integrity policy.",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "You must not directly copy larger chunks of text or images that have been produced for you by AI without attributing the source, as this will count as ‘passing off the work of another as your own’ and is against our academic integrity policy.",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Tools with enhanced AI functionality like Grammarly or paraphrasing applications offer substantial text rewrites which if copied and pasted directly into your work would count as academic misconduct.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": true,
+   "quote": "At Bath Spa we have no current plans to use AI detection tools as they are currently inaccurate",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "At Bath Spa we have no current plans to use AI detection tools as they are currently inaccurate",
+   "anchor": null
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "the writing produced by GenAI can often be identified by its bland and repetitive nature. Lecturers will also be looking for work that's beyond your current capability, or expressed in a way that's clearly different to your normal style.",
+   "anchor": null
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "This means you'll need to be able to discuss and show understanding of the concepts and evidence that you've presented in your essay.",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": true,
+   "quote": "If your lecturer suspects that your assignment contains larger sections that have been pasted from AI, they'll first have an informal chat with you to find out more about how you produced your work.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}

@@ -1,0 +1,67 @@
+{
+ "doc_id": "birmingham-students-genai-202610",
+ "coder": "mis-m18",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Submitting work and assessments created by someone or something else, as if it was your own, is plagiarism and is a form of academic misconduct. This includes Artificial Intelligence (AI)-generated content",
+   "anchor": "1.5"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "content written by a third party (e.g. a company, other person, or a friend or family member)",
+   "anchor": "1.5"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "and fabricating data",
+   "anchor": "1.5"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "This may occur in a number of ways e.g. copying and pasting material, adapting material and self-plagiarism.",
+   "anchor": "1.5"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "This may occur in a number of ways e.g. copying and pasting material, adapting material and self-plagiarism.",
+   "anchor": "1.5"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "The Code of Practice stipulates that you cannot use the output of Generative AI (i.e., the content it creates) in any assessment, unless explicitly authorised.",
+   "anchor": "Academic misconduct"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "the misuse of Generative AI tools in assessment, such as improper referencing or non-acknowledgement of use, will be dealt with in-line with this Code of Practice",
+   "anchor": "Plagiarism"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Plagiarism can occur in all types of assessment when a Student claims as their own, intentionally or by omission, work which was not done by that Student.",
+   "anchor": "1.5"
+  }
+ ],
+ "detection": [],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism can occur in all types of assessment when a Student claims as their own, intentionally or by omission, work which was not done by that Student."
+  }
+ ]
+}

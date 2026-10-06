@@ -1,0 +1,132 @@
+{
+ "doc_id": "setu-students-genai-202610",
+ "coder": "mis-x2",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "These include breaches of examination regulations, cheating, plagiarism, impersonation, purchase of examination material, contract cheating, data falsification, misuse of generative artificial intelligence and other acts which dishonestly use information to gain academic credit",
+   "anchor": "5. Definitions"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "These include breaches of examination regulations, cheating, plagiarism, impersonation, purchase of examination material, contract cheating, data falsification, misuse of generative artificial intelligence and other acts which dishonestly use information to gain academic credit",
+   "anchor": "5. Definitions"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "These include breaches of examination regulations, cheating, plagiarism, impersonation, purchase of examination material, contract cheating, data falsification, misuse of generative artificial intelligence and other acts which dishonestly use information to gain academic credit",
+   "anchor": "5. Definitions"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "These include breaches of examination regulations, cheating, plagiarism, impersonation, purchase of examination material, contract cheating, data falsification, misuse of generative artificial intelligence and other acts which dishonestly use information to gain academic credit",
+   "anchor": "5. Definitions"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "These include breaches of examination regulations, cheating, plagiarism, impersonation, purchase of examination material, contract cheating, data falsification, misuse of generative artificial intelligence and other acts which dishonestly use information to gain academic credit",
+   "anchor": "5. Definitions"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": false,
+   "quote": "the production of academic work, in whole or part, for academic recognition such as credit, progression or award; or competition; or placement interview, whether a payment or other favour is involved, using unapproved or undeclared human or technological assistance.",
+   "anchor": "5. Definitions"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "Tools to detect artificial intelligence generated content may be used to assist the University in identifying potential academic misconduct, acknowledging that these tools are developing, and the outputs must be carefully and ethically interpreted.",
+   "anchor": "6.6"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "acknowledging that these tools are developing, and the outputs must be carefully and ethically interpreted.",
+   "anchor": "6.6"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Turnitin Text-Matching Software (or other university approved software) may be used",
+   "anchor": "Appendix 1 A.1"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "Irrespective of the Turnitin Similarity Report, the lecturer shall make the academic judgment as to whether or not work is plagiarised.",
+   "anchor": "Appendix 1 A.4"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The lecturer shall make the academic judgement as to whether work adheres to academic integrity and good academic practice.",
+   "anchor": "6.8"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "any student may be called upon to engage in an informal discussion and/or oral examination in order to assist the lecturer in forming that academic judgement.",
+   "anchor": "6.8"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "any student may be called upon to engage in an informal discussion and/or oral examination in order to assist the lecturer in forming that academic judgement.",
+   "anchor": "6.8"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "SETU shall examine all alleged instances of academic misconduct in accordance with the SETU Student Discipline and Academic Misconduct Policy.",
+   "anchor": "6.9"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "implementing corrective measures upon detecting inappropriate academic behaviour.",
+   "anchor": "4.7"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "behaviours perpetrated by individuals or institutions that transgress ethical standards held in common between other individuals and/ or groups in institutions of education, research, or scholarship."
+  },
+  {
+   "term": "Unauthorised content generation",
+   "ai_named": false,
+   "quote": "the production of academic work, in whole or part, for academic recognition such as credit, progression or award; or competition; or placement interview, whether a payment or other favour is involved, using unapproved or undeclared human or technological assistance."
+  },
+  {
+   "term": "Academic fraud",
+   "ai_named": false,
+   "quote": "Academic Fraud is defined as actions that are intended to deceive for unfair advantage by violating academic regulations."
+  },
+  {
+   "term": "Generative AI",
+   "ai_named": true,
+   "quote": "is the use or study of artificial intelligences that are able to produce text, images, music, video, audio, code, or other synthetic data."
+  }
+ ]
+}

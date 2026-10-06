@@ -1,0 +1,273 @@
+{
+ "doc_id": "massey-university-students-genai-202610",
+ "coder": "uses-i2",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The assessment is completed entirely without AI, in a controlled environment, ensuring that students rely solely on their own knowledge, understanding and skills.",
+   "anchor": "AI Use Framework",
+   "tier": "No AI"
+  },
+  {
+   "use": "any_use",
+   "context": "exams_or_supervised",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI use is not permitted in secured assessments, such as practicals, invigilated tests and exams.",
+   "anchor": "AI Use Framework"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI may be used for pre-task activities such as brainstorming, outlining and initial research.",
+   "anchor": "AI Use Framework",
+   "tier": "AI planning"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI may be used for pre-task activities such as brainstorming, outlining and initial research.",
+   "anchor": "AI Use Framework",
+   "tier": "AI planning"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI may be used for pre-task activities such as brainstorming, outlining and initial research.",
+   "anchor": "AI Use Framework",
+   "tier": "AI planning"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI can be used to help complete the task, including idea generation, drafting, feedback and refinement.",
+   "anchor": "AI Use Framework",
+   "tier": "AI collaboration"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI can be used to help complete the task, including idea generation, drafting, feedback and refinement.",
+   "anchor": "AI Use Framework",
+   "tier": "AI collaboration"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI can be used to help complete the task, including idea generation, drafting, feedback and refinement.",
+   "anchor": "AI Use Framework",
+   "tier": "AI collaboration"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI can be used to help complete the task, including idea generation, drafting, feedback and refinement.",
+   "anchor": "AI Use Framework",
+   "tier": "AI collaboration"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI is used creatively to enhance problem-solving, generate novel insights or develop innovative solutions to solve problems.",
+   "anchor": "AI Use Framework",
+   "tier": "AI exploration"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "suggesting structures or frameworks for your argument",
+   "anchor": "What you may be allowed to do with AI tools",
+   "tier": "Course-dependent list"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "summarising your notes or identifying key points for revision purposes",
+   "anchor": "What you may be allowed to do with AI tools",
+   "tier": "Course-dependent list"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "simplifying complex academic concepts.",
+   "anchor": "What you may be allowed to do with AI tools",
+   "tier": "Course-dependent list"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "identifying grammar or vocabulary errors and typos in your originally produced text and suggesting how to correct them",
+   "anchor": "What you may be allowed to do with AI tools",
+   "tier": "Course-dependent list"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "evaluating the structure and organisation of your writing.",
+   "anchor": "What you may be allowed to do with AI tools",
+   "tier": "Course-dependent list"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Submit AI-created content as your own. Copying and pasting chunks of text generated by an AI tool into your assessment is plagiarism.",
+   "anchor": "What you must not do when using AI",
+   "tier": "Copy-paste as own"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Take what an AI tool produces at face value.",
+   "anchor": "What you must not do when using AI"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "If your assessment contains fabricated data, this is regarded as academic misconduct.",
+   "anchor": "What you must not do when using AI"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use paraphrasing tools to rewrite material someone else has written and copy it into your text.",
+   "anchor": "What you must not do when using AI"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using a tool to only translate material you have authored yourself is not considered an integrity breach",
+   "anchor": "What you must not do when using AI"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "tiered_scale",
+   "quote": "Massey uses an Artificial Intelligence Use Framework to determine what level of use of generative AI is permitted for specific assessments."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Massey uses an Artificial Intelligence Use Framework to determine what level of use of generative AI is permitted for specific assessments."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Specific information about how you may use AI is provided in each course."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Whenever you use AI tools, you must keep and provide records that identify the AI used, reference it appropriately and describe how you adapted the outputs to produce your own work."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "identify the AI used"
+   },
+   {
+    "value": "how_used",
+    "quote": "describe how you adapted the outputs to produce your own work."
+   },
+   {
+    "value": "prompts",
+    "quote": "a full record of all the AI tools and prompts you used"
+   },
+   {
+    "value": "outputs",
+    "quote": "the AI-generated content"
+   },
+   {
+    "value": "own_contribution",
+    "quote": "an explanation of where and how you used and modified that content in your assignment."
+   }
+  ],
+  "location": [
+   {
+    "value": "appendix",
+    "quote": "Submit an appendix with your assessment containing a full record of all the AI tools and prompts you used, the AI-generated content and an explanation of where and how you used and modified that content in your assignment."
+   }
+  ],
+  "records": {
+   "value": "required",
+   "quote": "you must keep and provide records that identify the AI used"
+  },
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Find out how to cite information from an AI platform in APA Style"
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "if the tool is used to generate work that is not your own and which you do not disclose, this may be regarded as a breach of academic integrity."
+  },
+  "exempt": []
+ }
+}

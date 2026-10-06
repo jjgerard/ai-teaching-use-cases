@@ -1,0 +1,59 @@
+{
+ "doc_id": "dundalk-institute-technology-students-genai-202610",
+ "coder": "mis-m4",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Remember that it is always unethical to use generative AI to produce work that you claim as your own. This is plagiarism.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "New tools are available that aim to detect AI generated content. While these are at an early stage, and further development and testing is needed, they may be used as one of a number of indicators if further investigation is needed.",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "While these are at an early stage, and further development and testing is needed, they may be used as one of a number of indicators if further investigation is needed.",
+   "anchor": null
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Your lecturers are subject experts, and will spot issues like inaccuracies, false references and inconsistent style.",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": true,
+   "quote": "any suspected misuse of AI to plagiarise will be investigated in the same way as any other suspected breach of academic integrity",
+   "anchor": null
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}

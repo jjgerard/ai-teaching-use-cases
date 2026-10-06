@@ -1,0 +1,242 @@
+{
+ "doc_id": "bradford-students-genai-202610",
+ "coder": "mis-m20",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Using generative AI tools outside the given parameters of the assessment brief without acknowledgement or attribution.",
+   "anchor": "4.5"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Using generative AI tools outside the given parameters of the assessment brief without acknowledgement or attribution.",
+   "anchor": "4.5"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Plagiarism, whereby a student presents someone else's work or ideas as their own without acknowledgement/citation.",
+   "anchor": "4.5"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism, whereby a student presents someone else's work or ideas as their own without acknowledgement/citation.",
+   "anchor": "4.5"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsifying or inventing data, information, sources, citations and/or experiences (e.g. in reflective assignments).",
+   "anchor": "4.5"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating, whereby a student commissions a person or organisation to complete assessments (including exams) on their behalf, e.g. in exchange for some kind of financial payment or other reward.",
+   "anchor": "4.7"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Accessing unauthorised materials or assistance during exams.",
+   "anchor": "4.5"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Colluding on an assignment without permission as part of the assessment brief.",
+   "anchor": "4.5"
+  }
+ ],
+ "liability": [
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "‘poor academic practice’ refers to instances where a student has failed to adhere fully to the academic conventions of a particular assessment, despite them demonstrating attempts to do so.",
+   "anchor": "4.2"
+  }
+ ],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "There appears to be a significant discrepancy between the student’s writing (i.e. in emails or formative tasks) and the quality of submitted work for review.",
+   "anchor": null
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "The nature of the allegation means that a conversation with the student about their work is necessary to determine genuine authorship, and the academic concern meeting did not provide sufficient clarity for the investigator to reach a decision (e.g. in the case of generative AI use on a dissertation-type assignment).",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "While an academic concern meeting may inform elements of an Academic Integrity Investigation, it does not constitute an investigation in its own right and is not accompanied by any formal warnings and/or penalties.",
+   "anchor": "6.3"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "If there is believed to be sufficient evidence to pursue an academic misconduct investigation, the marking team will submit a case to the next step in the process via the ‘Academic Misconduct Referral Form’",
+   "anchor": "7.2"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "the academic misconduct investigation case will be assigned to an investigator who is independent of the module and programme area.",
+   "anchor": "7.10"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "They will be presented with the allegation, any supporting evidence submitted by the marking team, and will be given the opportunity to respond to the details outlined in the case.",
+   "anchor": "7.5"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "an Academic Integrity Panel will be convened to review the case and agree an appropriate course of action.",
+   "anchor": "7.12"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "While there is no obligation for the student to attend, the invitation allows them the opportunity to discuss their work with the Panel.",
+   "anchor": "7.16"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student is able to bring someone to the Panel to support them.",
+   "anchor": "7.16"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Students can appeal directly against the outcome and/or penalty of an academic misconduct investigation within 14 days of their outcome notification.",
+   "anchor": "9.1"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "they will be given 7 days from the date of notification to respond if they wish to do so.",
+   "anchor": "7.6"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "They will then make a judgement as to whether, on the balance of probabilities, academic misconduct has occurred.",
+   "anchor": "7.10"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "The Student Circumstances & Casework Team is expected to maintain accurate records of all academic misconduct investigations",
+   "anchor": "11.11"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "offer the student the ability to learn from their academic misconduct/poor academic practice through reassessment.",
+   "anchor": "8.2"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Component capped at zero.",
+   "anchor": "Framework"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Undertake reassessment and pass the compromised component.",
+   "anchor": "Framework"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Module capped at zero (i.e. for credit only).",
+   "anchor": "Framework"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "Module capped at pass mark.",
+   "anchor": "Framework"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Suspension from studies.",
+   "anchor": "Framework"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "Rescinding of credit/award.",
+   "anchor": "Framework"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Rescinding of credit/award.",
+   "anchor": "Framework"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "A student has had two or more upheld academic misconduct outcomes in any previous semester, stage or level of their studies, with a combined credit value exceeding 40 credits.",
+   "anchor": "Framework"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Penalty dependent on the nature and extent of the misconduct,",
+   "anchor": "Framework"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "If misconduct is broader in scope than solely academic integrity issues – e.g. relating to disciplinary policy, fitness to practice/study, and/or criminal proceedings.",
+   "anchor": "Framework"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "academic misconduct",
+   "ai_named": false,
+   "quote": "‘academic misconduct’ describes more serious breaches of academic integrity and/or expected academic practice."
+  },
+  {
+   "term": "poor academic practice",
+   "ai_named": false,
+   "quote": "‘poor academic practice’ refers to instances where a student has failed to adhere fully to the academic conventions of a particular assessment, despite them demonstrating attempts to do so."
+  },
+  {
+   "term": "gross academic misconduct",
+   "ai_named": false,
+   "quote": "‘gross academic misconduct’ describes severe violations of academic integrity and/or flagrant breaches of expected academic standards."
+  },
+  {
+   "term": "academic integrity",
+   "ai_named": false,
+   "quote": "Academic integrity means acting in an honest and ethical way, both in the pursuit of knowledge (e.g. in learning and research activity) and in the demonstration of knowledge (e.g. through assessment activity)."
+  },
+  {
+   "term": "contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating, whereby a student commissions a person or organisation to complete assessments (including exams) on their behalf, e.g. in exchange for some kind of financial payment or other reward."
+  }
+ ]
+}

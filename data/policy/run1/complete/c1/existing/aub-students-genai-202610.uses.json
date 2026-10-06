@@ -1,0 +1,102 @@
+{
+ "doc_id": "aub-students-genai-202610",
+ "coder": "use-u1",
+ "uses": [
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AUB recognises that Gen AI is very good at summarising a large volume of information.",
+   "anchor": "Key points"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Some Gen AI tools generate reasonable reading lists",
+   "anchor": "Key points"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It can also be used to simplify language and give grammatical feedback – checking spelling, grammar or sentence structure.",
+   "anchor": "Key points"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Some tools might create a framework for an essay; or generate some initial ideas for a project, in a variety of formats.",
+   "anchor": "Key points"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Some tools might create a framework for an essay; or generate some initial ideas for a project, in a variety of formats.",
+   "anchor": "Key points"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "these instruments can be used for dishonest purposes, such as to generate work which a student claims to be their own and submits for assessment.",
+   "anchor": "Introductory statement"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "any information produced cannot be treated as reliable or accurate.",
+   "anchor": "Key points"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "It is for course teams – not individual staff members – to agree the type and level of use which is acceptable at different stages of the course."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "confirmation of acceptable use should be included within assignment briefs."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Failure to reference the use of Gen AI, including the submission of work which is not a student’s own, will in all cases be considered a matter of Academic Misconduct."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Guidance on how to reference the use of Gen AI has been produced by the Library."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Failure to reference the use of Gen AI, including the submission of work which is not a student’s own, will in all cases be considered a matter of Academic Misconduct."
+  },
+  "exempt": []
+ }
+}

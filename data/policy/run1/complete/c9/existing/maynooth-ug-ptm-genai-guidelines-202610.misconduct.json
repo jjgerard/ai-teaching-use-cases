@@ -1,0 +1,53 @@
+{
+ "doc_id": "maynooth-ug-ptm-genai-guidelines-202610",
+ "coder": "mis-m15",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Using GenAI in an assignment beyond what is permitted is a breach of academic integrity (including plagiarism).",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Using GenAI in an assignment beyond what is permitted is a breach of academic integrity (including plagiarism).",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "Turnitin also provides teaching staff with a second score outlining possible GenAI use",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "This Turnitin GenAI score is not definitive proof of GenAI use.",
+   "anchor": null
+  },
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Turnitin compares submitted text with matched text found in its database and on the internet",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Usage outside of the prescribed guidelines can endanger a student",
+   "anchor": null
+  }
+ ],
+ "definitions": []
+}

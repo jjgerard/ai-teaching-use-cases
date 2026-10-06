@@ -1,0 +1,90 @@
+{
+ "doc_id": "essex-students-genai-202610",
+ "coder": "use-u6",
+ "uses": [
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "creating an essay plan to help you develop and improve the structure of your assignment",
+   "anchor": "Using AI with your learning"
+  },
+  {
+   "use": "check_language",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "using AI to help you improve your grammar or your writing style by looking at how it constructs answers to questions",
+   "anchor": "Using AI with your learning"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_required",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "asking AI to explain a concept, theory, or text that you have had trouble understanding. Providing the explanation is used to help you understand and is not copied into your assignment, you will not be committing any academic offence.",
+   "anchor": "Using AI with your learning"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Never present AI generated work as your own in an assignment. That would be cheating.",
+   "anchor": "How to avoid an academic offence"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Never ask AI to generate experimental data which you then submit having purported to have collected it yourself as primary data, either in raw form or after analysis. This is fabrication and counts as serious misconduct.",
+   "anchor": "How to avoid an academic offence",
+   "ai_named": true
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Your lecturers and teachers will give you more specific instructions but in general you will be expected to include information about how you have used AI as part of your assignment submissions."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Be transparent about which tools you use and how you have used them to create your academic work."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "Be transparent about which tools you use and how you have used them to create your academic work."
+   },
+   {
+    "value": "how_used",
+    "quote": "Be transparent about which tools you use and how you have used them to create your academic work."
+   }
+  ],
+  "location": [],
+  "records": {
+   "value": "recommended",
+   "quote": "it is a good idea to keep notes that you make along the way and try to keep different versions saved as separate files as your work develops."
+  },
+  "referencing": null,
+  "consequence": null,
+  "exempt": [
+   {
+    "what": "learning_aid_use",
+    "quote": "Providing the explanation is used to help you understand and is not copied into your assignment, you will not be committing any academic offence."
+   }
+  ]
+ }
+}

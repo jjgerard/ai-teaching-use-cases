@@ -1,0 +1,164 @@
+{
+ "doc_id": "universite-de-l-ontario-francais-students-genai-202610",
+ "coder": "uses-i4",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "L’IAG peut être utilisée sans condition pour une activité précisée par la personne enseignante. La personne étudiante doit toutefois inclure une déclaration indiquant l'utilisation de l’IAG.",
+   "anchor": "Catégorisation des usages",
+   "tier": "Catégorie A"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "L’IAG peut être utilisée à certaines étapes du travail, mais sous conditions explicites avec transparence, réflexion critique et attribution, et selon les usages définis par la personne enseignante.",
+   "anchor": "Catégorisation des usages",
+   "tier": "Catégorie B"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "L’IAG ne peut pas être utilisée lorsque le travail exige une contribution autonome, personnelle et démontrable sans assistance automatisée.",
+   "anchor": "Catégorisation des usages",
+   "tier": "Catégorie C"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Plan préliminaire ;",
+   "anchor": "Catégorisation des usages",
+   "tier": "Catégorie B"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Reformulation ou génération d’idées ;",
+   "anchor": "Catégorisation des usages",
+   "tier": "Catégorie B"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Génération d’images ;",
+   "anchor": "Catégorisation des usages",
+   "tier": "Catégorie B"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "de soumettre comme original un contenu généré intégralement par l’IAG ;",
+   "anchor": "Responsabilités éthiques"
+  },
+  {
+   "use": "disguise_ai_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "présente un contenu généré par l’IAG comme s’il s’agissait de sa propre production intellectuelle.",
+   "anchor": "Intégrité intellectuelle"
+  },
+  {
+   "use": "harmful_or_deceptive_content",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Adopter un usage éthique et responsable : éviter les usages discriminatoires, trompeurs, nuisibles ou contraires aux valeurs de l'Université.",
+   "anchor": "Responsabilités des étudiantes et des étudiants :"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "L’IAG est un outil de soutien. Elle ne remplace ni la réflexion critique, ni l’analyse, ni le développement des compétences disciplinaires.",
+   "anchor": "L’apprentissage avant tout"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Toute décision en ce sens demeure du ressort de la personne enseignante, pour chaque activité pédagogique de leur cours."
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "les usages sont répartis en trois catégories"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "déclarer tout usage d’IAG conformément aux consignes et comprendre et valider le contenu soumis ;"
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "l’outil utilisé ;"
+   },
+   {
+    "value": "prompts",
+    "quote": "le contexte d’utilisation (les requêtes formulées, si nécessaires) ;"
+   },
+   {
+    "value": "outputs",
+    "quote": "les extraits générés (si requis) ;"
+   },
+   {
+    "value": "learning_reflection",
+    "quote": "une réflexion éthique et critique sur l’usage."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "L’Université mettra à disposition un formulaire institutionnel de déclaration comprenant :"
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "omet de déclarer un usage qui devait l’être"
+  },
+  "exempt": []
+ }
+}

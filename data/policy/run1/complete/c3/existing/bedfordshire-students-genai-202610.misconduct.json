@@ -1,0 +1,52 @@
+{
+ "doc_id": "bedfordshire-students-genai-202610",
+ "coder": "mis-m11",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "If AI text is generated and then included in an assignment as your own work, it would be considered under the university Academic Integrity Policy as work produced by a third party",
+   "anchor": null
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "If AI text is generated and then included in an assignment as your own work, it would be considered under the university Academic Integrity Policy as work produced by a third party",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Cutting and pasting all or some of the content created by the AI used and not citing could be considered plagiarism.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "Yes, Turnitin can detect and provide an overall percentage of how much text has been AI generated.",
+   "anchor": null
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "Equally your tutor marking your assignment may have concerns that AI has been used to create the assignment.",
+   "anchor": null
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "you may be asked to take part in a Viva to explain the score.",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": []
+}

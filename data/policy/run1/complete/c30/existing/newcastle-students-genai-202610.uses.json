@@ -1,0 +1,115 @@
+{
+ "doc_id": "newcastle-students-genai-202610",
+ "coder": "use-u5",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_required",
+   "conditions": [],
+   "quote": "Generally speaking, if you are using generative AI to support you learning and academic development, you are unlikely to need to acknowledge it.",
+   "anchor": "Acknowledging your use of AI"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "other_rules_apply"
+   ],
+   "quote": "if you are using it to support the preparation of an assessed piece of work, you will need to acknowledge in an open and transparent way how and why you have used AI for the development of your work.",
+   "anchor": "Acknowledging your use of AI"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Passing off someone or something's work as your own, whether this is copying in an exam, getting someone else to write an assignment on your behalf or claiming authorship of machine generated content (including text, code and creative works) means that you are not demonstrating your own skills and learning.",
+   "anchor": "AI and assessment"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "ensuring the work you submit represents your own effort and has not been extensively edited or enhanced by AI technology or another person",
+   "anchor": "AI and assessment"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "if you think it is appropriate for the task you have been given to use this material directly in your work, perhaps as a verbatim quotation, embedded image or figure, or by summarising and paraphrasing the materials, you must include an in text citation and reference.",
+   "anchor": "Referencing AI generated sources"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "acknowledging AI sources through appropriate referencing where you have used content as an information source alongside your other reading",
+   "anchor": "AI and assessment"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Poor research and academic practice or misconduct such as plagiarism, collusion, fabrication, or falsification, undermine the advancement of knowledge and innovation that are at the core of the University’s vision.",
+   "anchor": "What is academic integrity?",
+   "ai_named": false
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "abiding by any expectations set by your academics about how AI can be used within the study of a module or specific assessment"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "if you are using it to support the preparation of an assessed piece of work, you will need to acknowledge in an open and transparent way how and why you have used AI for the development of your work."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "acknowledge in an open and transparent way how and why you have used AI for the development of your work."
+   },
+   {
+    "value": "why_used",
+    "quote": "acknowledge in an open and transparent way how and why you have used AI for the development of your work."
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "you must include an in text citation and reference."
+  },
+  "consequence": null,
+  "exempt": [
+   {
+    "what": "learning_aid_use",
+    "quote": "Generally speaking, if you are using generative AI to support you learning and academic development, you are unlikely to need to acknowledge it."
+   }
+  ]
+ }
+}

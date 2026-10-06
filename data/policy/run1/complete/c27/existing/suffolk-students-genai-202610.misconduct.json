@@ -1,0 +1,38 @@
+{
+ "doc_id": "suffolk-students-genai-202610",
+ "coder": "mis-m3",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "The use of Generative AI tools to give the impression that a student has learned more than they have is academic misconduct.",
+   "anchor": "para 15"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Using Generative AI to create or substantially edit work submitted for assessment, without explicit permission and without acknowledging its contribution, constitutes academic misconduct.",
+   "anchor": "para 15"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Using Generative AI to create or substantially edit work submitted for assessment, without explicit permission and without acknowledging its contribution, constitutes academic misconduct.",
+   "anchor": "para 15"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "AI detection tools are unreliable and should not be used as the basis for academic misconduct allegations.",
+   "anchor": "para 21"
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": []
+}

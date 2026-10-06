@@ -1,0 +1,33 @@
+{
+ "doc_id": "city-st-georges-london-students-genai-202610",
+ "coder": "uses-x4",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "You should never use AI for an assignment without the express permission of your module leader.",
+   "anchor": "AI at City St George's"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "You should never use AI for an assignment without the express permission of your module leader."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

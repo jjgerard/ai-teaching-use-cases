@@ -1,0 +1,38 @@
+{
+ "doc_id": "brunel-london-students-genai-202610",
+ "coder": "mis-m4",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Presenting AI-generated content as your own work is a form of academic misconduct.",
+   "anchor": "Academic misconduct and referencing generative AI"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "the use of any type of generative artificial intelligence tools (such as text generating, image generating, computer software generating, and translators) is not permitted in your assignment unless your module leader has explicitly specified that their use is permitted",
+   "anchor": "The University's official guidance"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "If your work is thought to contain content that you did not create yourself, it can lead to a lengthy investigation and very serious consequences.",
+   "anchor": "Academic misconduct and referencing generative AI"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "If your work is thought to contain content that you did not create yourself, it can lead to a lengthy investigation and very serious consequences.",
+   "anchor": "Academic misconduct and referencing generative AI"
+  }
+ ],
+ "definitions": []
+}

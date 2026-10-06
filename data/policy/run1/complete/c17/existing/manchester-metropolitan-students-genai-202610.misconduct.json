@@ -1,0 +1,52 @@
+{
+ "doc_id": "manchester-metropolitan-students-genai-202610",
+ "coder": "mis-m21",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "If you make unauthorised use of generative AI within your assessment and attempt to gain an unfair advantage by passing this work off as your own, this will be considered academic misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "If you make unauthorised use of generative AI within your assessment and attempt to gain an unfair advantage by passing this work off as your own, this will be considered academic misconduct.",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": false,
+   "quote": "This will be investigated on a case-by-case basis under the Academic Misconduct Policy, and the penalty will depend on the severity of the case.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Some indicators wouldn’t appear in an assessment written by a human.",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": true,
+   "quote": "Wherever the use of generative AI is suspected, we will investigate this fully in line with our Academic Misconduct Policy.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "the penalty will depend on the severity of the case",
+   "anchor": null
+  }
+ ],
+ "definitions": []
+}

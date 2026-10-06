@@ -1,0 +1,38 @@
+{
+ "doc_id": "maynooth-ug-ptm-genai-guidelines-202610",
+ "coder": "existing",
+ "found": [
+  {
+   "form": "guide_toolkit_or_hub",
+   "requirement": "optional",
+   "audience": "students",
+   "name": "Student GenAI Hub",
+   "quote": "Refer to the Student GenAI Hub: This web resource built by and for students contains a range of relevant and additional resources for students on the Student Skills and Success website.",
+   "anchor": "6. Where can I find more information?"
+  },
+  {
+   "form": "named_academic_support",
+   "requirement": "optional",
+   "audience": "students",
+   "name": "Academic Writing Support",
+   "quote": "Book into a one-to-one appointment or group session with Academic Writing Support: This service offers free, friendly, non-judgemental writing help to any student who can discuss their writing with expert peer tutors.",
+   "anchor": "6. Where can I find more information?"
+  },
+  {
+   "form": "disability_or_wellbeing_support",
+   "requirement": "optional",
+   "audience": "unspecified",
+   "name": "Maynooth University Counselling Service",
+   "quote": "Contact the Maynooth University Counselling Service. The Service offers one-to-one counselling and support on a wide range of psychological and mental health issues, as well as academic, family and social concerns.",
+   "anchor": "6. Where can I find more information?"
+  },
+  {
+   "form": "prompt_bank_or_tool_howto",
+   "requirement": "optional",
+   "audience": "unspecified",
+   "name": "Prompting Basics",
+   "quote": "A good prompt for a GenAI model should be specific enough to generate detailed and useful responses. For more information, see “Overview of prompts”.",
+   "anchor": "4.3 Prompting Basics"
+  }
+ ]
+}

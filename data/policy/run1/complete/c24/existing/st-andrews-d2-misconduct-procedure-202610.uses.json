@@ -1,0 +1,122 @@
+{
+ "doc_id": "st-andrews-d2-misconduct-procedure-202610",
+ "coder": "use-u26",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Output, in whole or in part, of Artificial Intelligence (AI), including LLMs, where this is not permitted. Permission to make use of AI within assessments varies depending on the module and assessment",
+   "anchor": "Plagiarism"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "The use of tools – be they AI-powered or not – that correct spelling, punctuation, typographical errors and minor grammatical mistakes is permitted and falls outside the scope of Good Academic Practice Policy.",
+   "anchor": "Routine Editorial Correction"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "The use of software or services (including, but not limited to, tools and services marketed specifically as ‘language correction tools’ or ‘grammar checkers’) to generate, develop or materially alter academic content is not permitted unless explicitly authorised in the assessment brief.",
+   "anchor": "Substantive Alteration and Generation"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "The use of software or services (including, but not limited to, tools and services marketed specifically as ‘language correction tools’ or ‘grammar checkers’) to generate, develop or materially alter academic content is not permitted unless explicitly authorised in the assessment brief.",
+   "anchor": "Substantive Alteration and Generation"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "The use of software or services (including, but not limited to, tools and services marketed specifically as ‘language correction tools’ or ‘grammar checkers’) to generate, develop or materially alter academic content is not permitted unless explicitly authorised in the assessment brief.",
+   "anchor": "Substantive Alteration and Generation"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_required",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Note that students with a registered disability specifically allowing assistive technology, are not required to declare the use of assistive technology.",
+   "anchor": "Reasonable Adjustments"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsification is the fabrication, alteration, or false representation of anything that forms part of a student’s output; this may include, inter alia, data, materials, quotations, or citation.",
+   "anchor": "2.2. Academic misconduct",
+   "ai_named": false
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Permission to make use of AI within assessments varies depending on the module and assessment"
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "is not permitted unless explicitly authorised in the assessment brief."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "Schools may opt to prohibit the use of any language correction outright"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "The declaration should contain whether and how any language correction software or services has been used."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "The declaration should contain whether and how any language correction software or services has been used."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "All UG and PGT students will include a declaration at the beginning of the assessment."
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": [
+   {
+    "what": "assistive_use",
+    "quote": "Note that students with a registered disability specifically allowing assistive technology, are not required to declare the use of assistive technology."
+   }
+  ]
+ }
+}

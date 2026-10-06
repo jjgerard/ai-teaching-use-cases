@@ -1,0 +1,249 @@
+{
+ "doc_id": "aberdeen-d2-misconduct-procedure-202610",
+ "coder": "mis-m25",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment.",
+   "anchor": "3.2"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment.",
+   "anchor": "3.2"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment.",
+   "anchor": "3.2"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "“Plagiarism” is defined by the University as the use, without adequate acknowledgment, of the intellectual work of another person in work submitted for assessment.",
+   "anchor": "3.2"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "“Self-plagiarism” is defined as the duplication of work for assessment by submitting coursework containing material identical, or substantially similar, to material which has already been submitted by the same student for any other assessment.",
+   "anchor": "3.2"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "It is defined as collaboration between students in an assignment that has not been authorised by the course coordinator.",
+   "anchor": "3.3"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "“Contract cheating” is an umbrella term to denote the submission of work by a student where some or all has been produced by someone other than that student with the intention to deceive.",
+   "anchor": "3.4"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "possession in an examination of any material or electronic device which has not been authorised in writing by the relevant Course Co-ordinator.",
+   "anchor": "3.5(a)"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "impersonating another candidate in relation to any assessment;",
+   "anchor": "3.5(f)"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "The fabrication, falsification, plagiarism or deception in proposing, carrying out or reporting results of research",
+   "anchor": "3.6.1"
+  }
+ ],
+ "liability": [
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "A student cannot be found to have committed plagiarism where it can be shown that the student has taken all reasonable care to avoid representing the work of others as his or her own.",
+   "anchor": "3.2"
+  }
+ ],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Suspicion that a student has submitted work that has not been written by them may arise when there is a disparity in the grades awarded, or the style or fluency of writing, in an assessment in comparison to other assessments submitted by that student",
+   "anchor": "4.3.1"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The student may be interviewed to assess their level of understanding of the work submitted.",
+   "anchor": "4.3.3"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "the source of the plagiarised material should be clearly marked on the original piece(s) of work submitted to identify the corresponding section(s) and, if available, the Originality report;",
+   "anchor": "5.1"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Cases must be referred in writing to the Academic Registrar within five working days of the conclusion of the Preliminary Investigation.",
+   "anchor": "5.1"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "the Head of School shall decide if it is appropriate to conduct a Preliminary Investigation in accordance with section 4.1.3.",
+   "anchor": "4.1.1"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student shall be invited to respond in writing to allegations but shall not be required to do so.",
+   "anchor": "App A 1.3"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "On receipt of a properly referred case the Academic Registrar shall then arrange for a Discipline Hearing to be conducted in accordance with the procedures in this Code.",
+   "anchor": "5.2"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "Where a student has not informed the School/Registry in advance that they are unable to attend a meeting/Discipline Hearing, or is a no show, and has not asked for the meeting to be rescheduled will have their case considered, and a decision reached in the absence of the student.",
+   "anchor": "App A 4.4"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "Students can seek independent advice on the application of this Code, and obtain representation at a meeting/Discipline Hearing, from Aberdeen University Students’ Association.",
+   "anchor": "App A 2.3"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A student has the right of appeal against any decision made under this Code using the University’s Policy and Procedures on Student Appeals but only if there are valid grounds to appeal.",
+   "anchor": "8.1"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "a meeting, held on campus or online (e.g. Microsoft Teams) should be arranged with the student no later than 10 working days after the allegation is raised;",
+   "anchor": "4.1.3(a)"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The standard of proof that shall be used in all cases under this Code is the balance of probabilities.",
+   "anchor": "2.4"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "The finding of Plagiarism/Collusion, and the specific outcome, shall then be recorded on the student’s record by Registry.",
+   "anchor": "4.2.6"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "the Academic Registrar who will issue a formal written warning to the student that any future allegation of Plagiarism/collusion will be dealt with under the Code and the nature of the penalty that may be imposed in such a case.",
+   "anchor": "4.2.6"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "The student shall be awarded CGS G3 for the component of assessment (for example, a written examination or piece of in-course assessment) in which they are found guilty.",
+   "anchor": "6.2.1"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "to allow the student to resubmit the work in question for assessment, taking into account advice given during the meeting on avoiding plagiarism/collusion",
+   "anchor": "4.2.5(b)"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "the CGS mark attainable following reassessment will be restricted to a maximum of CGS D3.",
+   "anchor": "6.2.3"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Students who are found guilty of submitting work that has been partly or wholly undertaken by someone other than themselves (“contract cheating”, as defined in Section 3.4) shall be awarded an overall CGS G3 for the course in question and will usually be expelled from the University.",
+   "anchor": "6.5.1"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Students who are found guilty of submitting work that has been partly or wholly undertaken by someone other than themselves (“contract cheating”, as defined in Section 3.4) shall be awarded an overall CGS G3 for the course in question and will usually be expelled from the University.",
+   "anchor": "6.5.1"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "The student shall fail the degree in respect of which Research Misconduct is established and shall not be permitted to submit work for this or any other research degree of the University.",
+   "anchor": "6.7.1"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Where a student is found guilty of Plagiarism/Collusion in any component of assessment for the second time the student shall be awarded an overall CGS G3 for the course(s) and may be expelled.",
+   "anchor": "6.3.1"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The outcome chosen can be based on consideration of mitigating circumstances raised by the student during the Preliminary Investigation or the general significance of the elements of the assessment in question",
+   "anchor": "4.2.5"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "the Investigating Officer will decide, in consultation with the relevant School(s) as appropriate, whether a lower award is possible, or whether the award should be rescinded.",
+   "anchor": "7.1"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "“Plagiarism” is defined by the University as the use, without adequate acknowledgment, of the intellectual work of another person in work submitted for assessment."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "“Self-plagiarism” is defined as the duplication of work for assessment by submitting coursework containing material identical, or substantially similar, to material which has already been submitted by the same student for any other assessment."
+  },
+  {
+   "term": "AI plagiarism",
+   "ai_named": true,
+   "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "It is defined as collaboration between students in an assignment that has not been authorised by the course coordinator."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "“Contract cheating” is an umbrella term to denote the submission of work by a student where some or all has been produced by someone other than that student with the intention to deceive."
+  }
+ ]
+}

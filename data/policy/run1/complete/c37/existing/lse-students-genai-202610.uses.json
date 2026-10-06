@@ -1,0 +1,76 @@
+{
+ "doc_id": "lse-students-genai-202610",
+ "coder": "uses-x2",
+ "uses": [
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Tools for grammar and spell check (Grammarly, DeepL, Microsoft Word’s built-in editor) are generally fine.",
+   "anchor": "Rules: the AI policy"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "My department, the European Institute, for example, allows generative AI to be used to support learning and research. This includes identifying articles, directing further reading, or explaining unfamiliar terms, much like a database search.",
+   "anchor": "Rules: the AI policy"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "My department, the European Institute, for example, allows generative AI to be used to support learning and research. This includes identifying articles, directing further reading, or explaining unfamiliar terms, much like a database search.",
+   "anchor": "Rules: the AI policy"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "But summative and formative assessments must be planned, researched and written solely by the student: no AI wording, in original or amended form, and no AI outputs cited as sources.",
+   "anchor": "Rules: the AI policy"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "But summative and formative assessments must be planned, researched and written solely by the student: no AI wording, in original or amended form, and no AI outputs cited as sources.",
+   "anchor": "Rules: the AI policy"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "But summative and formative assessments must be planned, researched and written solely by the student: no AI wording, in original or amended form, and no AI outputs cited as sources.",
+   "anchor": "Rules: the AI policy"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "each department sets out its own policy for assessments, whether they allow no, limited or full authorised use of generative AI."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

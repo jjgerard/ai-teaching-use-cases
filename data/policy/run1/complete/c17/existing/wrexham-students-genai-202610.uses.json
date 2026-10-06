@@ -1,0 +1,36 @@
+{
+ "doc_id": "wrexham-students-genai-202610",
+ "coder": "use-u20",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "it has become a growing problem thanks to commercial essay mills and the use of artificial intelligence (AI).",
+   "anchor": "Contract cheating"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Don’t feel tempted to make something up, there will be options and help that can be given.",
+   "anchor": "Fabrication of data/evidence and Research misconduct",
+   "ai_named": false
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

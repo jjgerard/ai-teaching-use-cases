@@ -1,0 +1,39 @@
+{
+ "doc_id": "robert-gordon-d2-misconduct-procedure-202610",
+ "coder": "use-u25",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "This may include work produced by, but not attributed to: another student, an essay mill 4, a family member or friend, a tutoring service or the unauthorised use of Artificial Intelligence (AI) software.",
+   "anchor": "False Authorship"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsification or fabrication of data. The University defines this as the",
+   "anchor": "Falsification or fabrication of data",
+   "ai_named": false
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

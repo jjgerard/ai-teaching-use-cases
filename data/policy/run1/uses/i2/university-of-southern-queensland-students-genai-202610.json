@@ -1,0 +1,50 @@
+{
+ "doc_id": "university-of-southern-queensland-students-genai-202610",
+ "coder": "uses-i2",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "If your Course Coordinator permits AI use, the way it can be used will be outlined in your assessment task sheet. You must still acknowledge AI according to academic integrity practices.",
+   "anchor": "Referencing artificial intelligence"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "If your Course Coordinator permits AI use, the way it can be used will be outlined in your assessment task sheet."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "the way it can be used will be outlined in your assessment task sheet."
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "UniSQ uses two assessment categories, Verified and Open, to clearly communicate expectations regarding assessment conditions and the use of AI."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "You must still acknowledge AI according to academic integrity practices."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Always acknowledge the tools you used and cite them properly—UniSQ’s library guides can help."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Failure to reference AI correctly can result in academic misconduct penalties."
+  },
+  "exempt": []
+ }
+}

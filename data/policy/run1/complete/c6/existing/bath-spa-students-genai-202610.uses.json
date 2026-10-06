@@ -1,0 +1,168 @@
+{
+ "doc_id": "bath-spa-students-genai-202610",
+ "coder": "use-u13",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You can ask Copilot for topic suggestions, feedback on ideas, or help writing emails.",
+   "anchor": "Pros and cons of using AI at university"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "If you have been given permission to use GenAI, it can be most helpful in the planning stages of your work.",
+   "anchor": "Get help with planning"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You can also ask GenAI for feedback on what you've written, and the more specific you can be the better.",
+   "anchor": "Ask for feedback"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "You can cut and paste a section of open access text into Copilot and ask for a summary to help you understand the original.",
+   "anchor": "Get help with your academic reading"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "AI tools such as Adobe’s Firefly can also generate images and audio which might serve as starting points for projects.",
+   "anchor": "Generation of images and sounds"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_required",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "you can copy word-for-word, without referencing, sentence fragments that don’t contain facts. These should be no more than 5-8 words long, and you should limit the amount of these",
+   "anchor": "Consider how much text to use"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "You must not directly copy larger chunks of text or images that have been produced for you by AI without attributing the source",
+   "anchor": "Academic integrity and GenAI"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Tools with enhanced AI functionality like Grammarly or paraphrasing applications offer substantial text rewrites which if copied and pasted directly into your work would count as academic misconduct.",
+   "anchor": "AI and translation tools"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "Use LEAs to point out but not automatically correct poor grammar and writing.",
+   "anchor": "AI and translation tools"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "limited_extent"
+   ],
+   "quote": "Any use of translation tools in assessed work must be clearly acknowledged and referenced.",
+   "anchor": "AI and translation tools"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "GenAI can invent facts that seem plausible (‘hallucinations’), therefore you must check everything it says with a reputable source",
+   "anchor": "Pros and cons of using AI at university"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "At Bath Spa, your lecturers are free to specify the extent to which you may use AI in your work and will make this clear in your assessment guidelines."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "will make this clear in your assessment guidelines."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you use any generative AI tools at any stage of your assessment, include information on how you have used it as an appendix at the end of your piece of work."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "Name the generative AI tool(s) you have used and summarise how you have used them."
+   },
+   {
+    "value": "how_used",
+    "quote": "Name the generative AI tool(s) you have used and summarise how you have used them."
+   }
+  ],
+  "location": [
+   {
+    "value": "appendix",
+    "quote": "include information on how you have used it as an appendix at the end of your piece of work."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "If you choose to copy and paste a large amount of text from GenAI, it is important to cite this correctly as outlined in Cite them Right."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "You must not directly copy larger chunks of text or images that have been produced for you by AI without attributing the source"
+  },
+  "exempt": [
+   {
+    "what": "below_length_threshold",
+    "quote": "you can copy word-for-word, without referencing, sentence fragments that don’t contain facts."
+   }
+  ]
+ }
+}

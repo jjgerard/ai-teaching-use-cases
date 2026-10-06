@@ -1,0 +1,215 @@
+{
+ "doc_id": "bpp-students-genai-202610",
+ "coder": "use-u6",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Simple copy and paste of Gen AI outputs for assessment submission",
+   "anchor": "General unacceptable use"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Apprentices must not submit the output of Gen AI in any work submitted to their portfolio for End Point Assessment",
+   "anchor": "General unacceptable use"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "If there is no explicit mention being allowed to use AI in your summative assessment brief, then you must not use AI in any part of the final submission.",
+   "anchor": "Acceptable Use in Assessment Briefs"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "exams_or_supervised",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Write a speech that forms the basis of a viva, advocacy exam or other assessed presentation where this is not explicitly allowed in the presentation instructions",
+   "anchor": "General unacceptable use"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "you should not use any software to rewrite sentences or make substantive changes to your original work unless conditions in the assignment brief explicitly allows it.",
+   "anchor": "Acceptable Use in Assessment Briefs"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You can use spelling, grammar-checking software and thesauri to assist you in your writing. Some of these may be AI powered",
+   "anchor": "Acceptable Use in Assessment Briefs"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Where explicitly allowed in the assignment brief, you are able use Gen AI tools to suggest frameworks on which you can structure your assignment.",
+   "anchor": "Acceptable Use in Assessment Briefs"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Non-approved Gen AI tools can conduct research and find papers that may be relevant to your studies.",
+   "anchor": "General Acceptable Use"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "you could upload 3 papers or documents that are in the public domain that relate you your subject/problem/assignment and ask ChatGPT to provide a summary of the contrasting points and evidence.",
+   "anchor": "General Acceptable Use"
+  },
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You are allowed to use Gen AI tools to upload your own writing and thoughts to begin a discussion or self-reflection with the AI to gain insight into your writing.",
+   "anchor": "General Acceptable Use"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It is acceptable to ask Gen AI tools to provide feedback and suggest improvements to your own written work.",
+   "anchor": "General Acceptable Use"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen AI tools are great at helping kick start a thought process or to generate ideas for a topic for discussion.",
+   "anchor": "General Acceptable Use"
+  },
+  {
+   "use": "generate_code",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Supporting you to develop your coding skills through advice of coding structure and syntax where this is not an assessed skill or intended learning outcome.",
+   "anchor": "General Acceptable Use"
+  },
+  {
+   "use": "translate",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "no_personal_data"
+   ],
+   "quote": "Translating content to or from English, excluding any personal, client or business confidential content",
+   "anchor": "Quick reference sheet of Acceptable and Unacceptable Use Cases of Generative AI tools"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Creation of unique images and graphics for use in presentations or documents",
+   "anchor": "Quick reference sheet of Acceptable and Unacceptable Use Cases of Generative AI tools"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "no_personal_data"
+   ],
+   "quote": "Create subtitles, voice to text transcripts of video lessons ensuring no personal, client-specific or businessconfidential information is included in the video",
+   "anchor": "Quick reference sheet of Acceptable and Unacceptable Use Cases of Generative AI tools"
+  },
+  {
+   "use": "disguise_ai_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Paraphrasing the output of generative AI to avoid arousing suspicion of AI use or deceive a marker",
+   "anchor": "Unacceptable Use At Any Time",
+   "ai_named": true
+  },
+  {
+   "use": "personal_advice",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "BPP strongly recommend that you do not use any Gen AI tools in the following situations for the reasons provided.",
+   "anchor": "3. Recommendations",
+   "ai_named": true
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "If there is no explicit mention being allowed to use AI in your summative assessment brief, then you must not use AI in any part of the final submission."
+ },
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "In each case, the specific use of AI will be explicitly mentioned in the assignment brief."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "If it has, then you must declare your use of AI on the coversheet that will be provided to you by your school administration team or tutor."
+  },
+  "contents": [],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "you must declare your use of AI on the coversheet that will be provided to you by your school administration team or tutor."
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Submitting the undeclared outputs of Gen AI in summative work"
+  },
+  "exempt": []
+ }
+}

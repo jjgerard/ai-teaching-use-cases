@@ -1,0 +1,136 @@
+{
+ "doc_id": "kent-students-genai-202610",
+ "coder": "use-u19",
+ "uses": [
+  {
+   "use": "discuss_or_test_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Engaging in discussion with AI tools as a \"study buddy\" (always double checking everything it outputs).",
+   "anchor": "Appropriate use"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Engaging in discussion with AI tools as a \"study buddy\" (always double checking everything it outputs).",
+   "anchor": "Appropriate use"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Helping you to identify positive and productive study habits or schedules that work for you.",
+   "anchor": "Appropriate use"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Searching for potential reading materials (again, always checking their relevance and refining your searches as you go).",
+   "anchor": "Appropriate use"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Presenting a Generative AI output or another person’s work as your own is a breach of academic integrity.",
+   "anchor": "Appropriate use"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "In some cases, you may be permitted to incorporate AI-generated content, similar to how you might incorporate ideas from books or websites, with clear attribution and academic judgment.",
+   "anchor": "What ‘Your Own Work’ Means When Using AI"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission",
+    "limited_extent"
+   ],
+   "quote": "Not submit materials that you have written but that have been substantially altered by AI.",
+   "anchor": "What ‘Your Own Work’ Means When Using AI"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "your work should not be altered more than it would be by the spellchecking or grammar checking software that you would find in Microsoft Office products (i.e. a spellchecker that is not AI enabled).",
+   "anchor": "What ‘Your Own Work’ Means When Using AI"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "encourage you to use generative AI to enhance your critical thinking skills rather than replacing them.",
+   "anchor": "Appropriate use",
+   "ai_named": true
+  }
+ ],
+ "default_when_silent": {
+  "value": "use_by_use_rule",
+  "quote": "Unless it is otherwise noted, you should:"
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Each assignment or module may have different rules about whether AI tools can be used."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Always check your assignment brief or ask your Module Convenor if you're unsure."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "Some schools may also ask you to include a short declaration in your assessment submissions to confirm whether you have used generative AI and to what extent."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Some schools may also ask you to include a short declaration in your assessment submissions to confirm whether you have used generative AI and to what extent."
+  },
+  "contents": [
+   {
+    "value": "extent_or_scope",
+    "quote": "to confirm whether you have used generative AI and to what extent."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "Some schools may also ask you to include a short declaration in your assessment submissions"
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

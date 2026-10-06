@@ -1,0 +1,57 @@
+{
+ "doc_id": "falmouth-students-genai-202610",
+ "coder": "mis-x3",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "One form of academic misconduct is plagiarism. This means using someone else's work, ideas, or words without proper acknowledgment.",
+   "anchor": null
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "academic misconduct also includes acts of collusion, commissioning, duplication (including self-plagiarism), and misrepresentation",
+   "anchor": null
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "academic misconduct also includes acts of collusion, commissioning, duplication (including self-plagiarism), and misrepresentation",
+   "anchor": null
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "academic misconduct also includes acts of collusion, commissioning, duplication (including self-plagiarism), and misrepresentation",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Most universities, including Falmouth, use text-matching software such as Turnitin to help them detect copied work.",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "This document outlines the procedures for investigating an allegation of academic misconduct.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "using someone else's work, ideas, or words without proper acknowledgment"
+  }
+ ]
+}

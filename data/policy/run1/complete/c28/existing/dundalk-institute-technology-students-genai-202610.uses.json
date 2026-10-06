@@ -1,0 +1,145 @@
+{
+ "doc_id": "dundalk-institute-technology-students-genai-202610",
+ "coder": "use-u4",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism",
+   "anchor": "Is it plagiarism to submit a piece of assessment that has been wholly or partially created by an artificial intelligence tool?"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "The use of artificial intelligence will be “unrestricted”, “restricted”, or “prohibited”.",
+   "anchor": "What happens if my lecturer allows the use of AI in an assessment?",
+   "tier": "Unrestricted"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "The use of artificial intelligence will be “unrestricted”, “restricted”, or “prohibited”.",
+   "anchor": "What happens if my lecturer allows the use of AI in an assessment?",
+   "tier": "Restricted"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The use of artificial intelligence will be “unrestricted”, “restricted”, or “prohibited”.",
+   "anchor": "What happens if my lecturer allows the use of AI in an assessment?",
+   "tier": "Prohibited"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Remember that it is always unethical to use generative AI to produce work that you claim as your own. This is plagiarism.",
+   "anchor": "I’m not sure what is an ethical use of generative AI and what is not?"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "For example, you could use them to help you to draw up a study plan, to summarise information, to help narrow down a topic or to generate flashcards or practice questions.",
+   "anchor": "Can I use a generative artificial intelligence tool, such as ChatGPT, to help me prepare an assignment?"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "For example, you could use them to help you to draw up a study plan, to summarise information, to help narrow down a topic or to generate flashcards or practice questions.",
+   "anchor": "Can I use a generative artificial intelligence tool, such as ChatGPT, to help me prepare an assignment?"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "For example, you could use them to help you to draw up a study plan, to summarise information, to help narrow down a topic or to generate flashcards or practice questions.",
+   "anchor": "Can I use a generative artificial intelligence tool, such as ChatGPT, to help me prepare an assignment?"
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism"
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "If a lecturer permits the use of artificial intelligence (AI), the terms of this use will be included in the assessment brief by the lecturer(s)."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "the terms of this use will be included in the assessment brief by the lecturer(s)."
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "The use of artificial intelligence will be “unrestricted”, “restricted”, or “prohibited”."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you use generative AI in an assignment, you do need to acknowledge this."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "Specify which technology/technologies were used."
+   },
+   {
+    "value": "prompts",
+    "quote": "Identify the prompts used."
+   },
+   {
+    "value": "outputs",
+    "quote": "Provide the resulting outputs."
+   },
+   {
+    "value": "how_used",
+    "quote": "Explain how the output was used in the submitted work (used directly or modified)."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "If you permitted to use AI, you will be asked to provide a declaration of use in your submitted assessment."
+   },
+   {
+    "value": "appendix",
+    "quote": "The prompt outputs were as follows / are included in an appendix"
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism"
+  },
+  "exempt": []
+ }
+}

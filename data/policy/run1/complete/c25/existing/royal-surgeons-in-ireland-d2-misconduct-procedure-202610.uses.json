@@ -1,0 +1,86 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-d2-misconduct-procedure-202610",
+ "coder": "use-u27",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Unauthorised use of Gen AI includes but is not limited to the use of a Gen AI tool to generate any form of submitted work that a learner submits without proper acknowledgment of that tool’s use in its generation.",
+   "anchor": "Generative Artificial Intelligence (GenAI)"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Presenting text, digital work (e.g. computer code or programs), video recordings or images copied with only minor changes from sources such as the internet, the output of GenAI, books, journals or any other media, without due acknowledgement;",
+   "anchor": "Plagiarism"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The presenting or making use of fictitious, altered or misrepresented data, evidence, references, citations or experimental results and includes the use of GenAI created content or output that is fabricated or",
+   "anchor": "Falsification"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission",
+    "other_rules_apply"
+   ],
+   "quote": "the use of AI for any placement activity must be in accordance with both this policy and approved by the student’s supervisor or equivalent in the relevant placement setting.",
+   "anchor": "Academic Integrity and Student Responsibilities"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The presenting or making use of fictitious, altered or misrepresented data, evidence, references, citations or experimental results and includes the use of GenAI created content or output that is fabricated or",
+   "anchor": "Falsification",
+   "ai_named": true
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI-empowered plagiarism is “the use of AI tools to generate text that closely mimics existing sources without proper attribution”",
+   "anchor": "Plagiarism",
+   "ai_named": true
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Unauthorised use of Gen AI includes but is not limited to the use of a Gen AI tool to generate any form of submitted work that a learner submits without proper acknowledgment of that tool’s use in its generation."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Unauthorised use of Gen AI includes but is not limited to the use of a Gen AI tool to generate any form of submitted work that a learner submits without proper acknowledgment of that tool’s use in its generation."
+  },
+  "exempt": []
+ }
+}

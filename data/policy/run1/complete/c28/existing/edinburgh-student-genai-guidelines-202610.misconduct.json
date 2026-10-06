@@ -1,0 +1,80 @@
+{
+ "doc_id": "edinburgh-student-genai-guidelines-202610",
+ "coder": "mis-m4",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Presenting AI outputs as your own, original work.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Submitting an assessment which includes elements of AI-generated text without acknowledgment.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Using an AI agent or AI browser to complete any type of work – assessed or not – within your virtual learning environment.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": true,
+   "quote": "Citing and referencing AI-found sources without reading and verifying them.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "getting someone or something else (such as an AI agent) to complete your work for you",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Passing off someone – or something’s – work as your own for an assessment is academic misconduct.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": true,
+   "quote": "Sharing your login details with an agent or agentic browser is a breach of the University Computing Acceptable Use Policy.",
+   "anchor": "Agentic AI"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "If you submit a piece of work for assessment that is not your own original work you risk being investigated according to the university’s academic misconduct investigation procedures.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": true,
+   "quote": "The following uses of generative and agentic AI are not acceptable and constitute misconduct: if you use them you risk investigation and penalties.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "Those on professionally accredited programmes may be referred for fitness to practice concerns if found to engage in academic misconduct.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "This will result in your access to University digital services being removed and disciplinary action being taken against you.",
+   "anchor": "Agentic AI"
+  }
+ ],
+ "definitions": []
+}

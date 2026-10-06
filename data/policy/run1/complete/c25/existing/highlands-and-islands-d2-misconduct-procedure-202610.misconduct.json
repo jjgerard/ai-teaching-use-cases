@@ -1,0 +1,127 @@
+{
+ "doc_id": "highlands-and-islands-d2-misconduct-procedure-202610",
+ "coder": "mis-m27",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "the use of material produced by generative artificial intelligence (GAI) without the specific permission of the tutor/lecturer",
+   "anchor": "G.1 i b"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "the use of material produced by generative artificial intelligence (GAI) without the specific permission of the tutor/lecturer",
+   "anchor": "G.1 i b"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "where permission to use GAI has been granted, the use of material produced by GAI must be referenced or acknowledged",
+   "anchor": "G.1 i c"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "the use of material produced by paraphrasing tools",
+   "anchor": "G.1 i d"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "the use of another person’s material without reference or acknowledgement",
+   "anchor": "G.1 i a"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "use of commissioned material presented as the student’s own (e.g. purchasing material from an essay mill)",
+   "anchor": "G.1 i h"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsification or fabrication of data: the presentation of data in laboratory reports, projects etc based on work falsely presented as having been carried out by the student; obtained by unfair means; or to present fictitious results.",
+   "anchor": "G.1 iv"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "being found in possession of any printed, written or electronic material or unauthorised material during an examination which may contain information relevant to the subjects of the examination",
+   "anchor": "G.1 ii d"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "knowingly permits another student to copy all or part of their own work and to submit it as that student’s own work",
+   "anchor": "G.1 iii b"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Personation: the assumption by a student of the identity of another person with the intent to deceive or gain unfair advantage.",
+   "anchor": "G.1 v"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "(to avoid self-plagiarism) this must be referenced in the same way as any other text",
+   "anchor": "G.4 b"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The university subscribes to an externally hosted software program that may be used for originality checking, anonymous marking and peer review of students’ text based work",
+   "anchor": "G.3"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "the penalty to be applied in each case will be determined through the formal investigation process",
+   "anchor": "G.6"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Reduce mark by:",
+   "anchor": "G.6"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Other factors will be considered as well as the proportion of the assessment which has been plagiarised.",
+   "anchor": "G.6"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism: unacknowledged incorporation in a student’s work either in an examination or assessment of material derived from the work (published or unpublished) of another."
+  },
+  {
+   "term": "Personation",
+   "ai_named": false,
+   "quote": "Personation: the assumption by a student of the identity of another person with the intent to deceive or gain unfair advantage."
+  },
+  {
+   "term": "Bribery",
+   "ai_named": false,
+   "quote": "Bribery: the paying, offering or attempted exchange of an inducement for information or material intended to advantage the recipient in an assessment."
+  },
+  {
+   "term": "Falsification or fabrication",
+   "ai_named": false,
+   "quote": "Falsification or fabrication of data: the presentation of data in laboratory reports, projects etc based on work falsely presented as having been carried out by the student; obtained by unfair means; or to present fictitious results."
+  }
+ ]
+}

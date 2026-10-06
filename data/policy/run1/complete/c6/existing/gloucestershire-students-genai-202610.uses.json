@@ -1,0 +1,34 @@
+{
+ "doc_id": "gloucestershire-students-genai-202610",
+ "coder": "use-u13",
+ "uses": [
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "you must always check any information you take from a Gen AI tool, as the accuracy of any work you produce is ultimately your responsibility.",
+   "anchor": "Before you start"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "Each academic school has a statement which sets out expectations around the use of generative AI"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Cite them Right includes more information about this aspect of AI usage including suggested citations."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

@@ -1,0 +1,131 @@
+{
+ "doc_id": "universite-du-quebec-a-chicoutimi-students-genai-202610",
+ "coder": "uses-i4",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "La production ne peut bénéficier d’aucune intervention de l’IAg, que ce soit pour le texte ou les images.",
+   "anchor": "Les niveaux:",
+   "tier": "Aucune utilisation"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "L’IA générative peut être utilisée uniquement pour des suggestions ou des corrections mineures (orthographe, grammaire)",
+   "anchor": "Les niveaux:",
+   "tier": "Assistance limitée"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "ainsi que pour l’amélioration d’éléments visuels, tels que l’ajout d’un titre ou d’une légende, ou encore la traduction d’éléments présents dans une image.",
+   "anchor": "Les niveaux:",
+   "tier": "Assistance limitée"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "ainsi que pour l’amélioration d’éléments visuels, tels que l’ajout d’un titre ou d’une légende, ou encore la traduction d’éléments présents dans une image.",
+   "anchor": "Les niveaux:",
+   "tier": "Assistance limitée"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "Le contenu textuel peut-être en partie généré ou reformulé par celle-ci, tandis que les éléments visuels peuvent être majoritairement produits ou modifiés grâce à son intervention.",
+   "anchor": "Les niveaux:",
+   "tier": "Production partagée"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "Le contenu textuel peut-être en partie généré ou reformulé par celle-ci, tandis que les éléments visuels peuvent être majoritairement produits ou modifiés grâce à son intervention.",
+   "anchor": "Les niveaux:",
+   "tier": "Production partagée"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Le contenu textuel peut-être en partie généré ou reformulé par celle-ci, tandis que les éléments visuels peuvent être majoritairement produits ou modifiés grâce à son intervention.",
+   "anchor": "Les niveaux:",
+   "tier": "Production partagée"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Les contenus sont principalement le fruit d’un travail automatisé par l’IAg, avec une intervention humaine minimale (presque intégralement générés par l’IAg).",
+   "anchor": "Les niveaux:",
+   "tier": "Majoritairement assistée"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "À la personne enseignante de déclarer (par exemple dans le plan de cours) le niveau d’utilisation de l’intelligence artificielle autorisé pour chaque travail, production ou évaluation demandé aux personnes étudiantes;"
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "La déclaration et l’autorisation d’utilisation des niveaux d’utilisation de l’intelligence artificielle générative (IAg) font référence aux niveaux qui sont présentés par les pictogrammes de déclaration d’utilisation de l’IAg."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "À la personne étudiante d’indiquer le niveau d’utilisation de l’intelligence artificielle générative qu’elle a fait pour chaque travail, production ou évaluation, par exemple en:"
+  },
+  "contents": [],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "remplissant le formulaire de déclaration d’utilisation de l’IAg dans une production étudiante (exemple)."
+   },
+   {
+    "value": "with_references",
+    "quote": "l’endroit dans la production où la déclaration d’utilisation de l’IAg est attendue (page frontispice, références, bibliographies, etc.);"
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Une utilisation de l’IA générative qui n’a pas été mentionnée ou citée peut constituer une infraction."
+  },
+  "exempt": []
+ }
+}

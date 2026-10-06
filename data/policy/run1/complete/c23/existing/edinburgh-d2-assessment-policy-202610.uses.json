@@ -1,0 +1,41 @@
+{
+ "doc_id": "edinburgh-d2-assessment-policy-202610",
+ "coder": "use-u26",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The use of Generative AI tools (such as ChatGPT or others) to generate an assignment (or part of an assignment) and submit this as if were one’s own work will be regarded as academic misconduct and treated as such.",
+   "anchor": null
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "for a student to invent or falsify data, evidence, references, experimental results or other material contributing to any student’s assessed work or for a student knowingly to make use of such material.",
+   "anchor": "30.2",
+   "ai_named": false
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Programme and/or course handbooks will provide additional guidance in cases where AI tools might form part of an assessment task."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

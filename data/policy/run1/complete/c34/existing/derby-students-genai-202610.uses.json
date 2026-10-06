@@ -1,0 +1,62 @@
+{
+ "doc_id": "derby-students-genai-202610",
+ "coder": "use-u9",
+ "uses": [
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI can be valuable for understanding concepts, producing idea prompts and understanding different perspectives as well as creating images in some image generating models (such as Adobe Firefly, Padlet, DALL.E, Canva).",
+   "anchor": "Generative Artificial Intelligence"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI can be valuable for understanding concepts, producing idea prompts and understanding different perspectives as well as creating images in some image generating models (such as Adobe Firefly, Padlet, DALL.E, Canva).",
+   "anchor": "Generative Artificial Intelligence"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "In conclusion, you can use AI images for simple illustrations, but sometimes it is easier to do things manually or find creative commons licensed images instead.",
+   "anchor": "Generative AI for Images"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools like Consensus have practical applications in locating and summarising research information.",
+   "anchor": "AI for Research"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools; like Consensus, can provide an initial insight into a research topic but should not replace your own research skills.",
+   "anchor": "AI for Research"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "doc_id": "wales-trinity-saint-david-d2-misconduct-procedure-202610",
+ "coder": "use-u24",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "using AI to generate material for submission where this is not permitted;",
+   "anchor": null
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsifying data, evidence or experimental results",
+   "anchor": "3.1.1.4 Academic Misconduct",
+   "ai_named": false
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using automated paraphrasing software.",
+   "anchor": "3.1.1.1 Plagiarism",
+   "ai_named": true
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

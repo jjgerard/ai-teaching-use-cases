@@ -1,0 +1,262 @@
+{
+ "doc_id": "institute-cancer-research-students-genai-202610",
+ "coder": "mis-m2",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism: direct copying of another person’s work without proper acknowledgement; or claiming another person’s ideas as the student’s own.",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "substantial plagiarism, collusion, or AI use, replacing student authorship in more than half the work",
+   "anchor": null
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "there is undisclosed use of AI tools for writing support, paraphrasing or translation",
+   "anchor": null
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "person or generative AI tool to complete the majority of the assignment, with minimal input",
+   "anchor": null
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Colluding with others such that assessed work is the result of more than one person’s work without properly acknowledging the contribution of others.",
+   "anchor": null
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Research misconduct in relation to original research-based assessment (taught course dissertation, research degree thesis): including plagiarism, fabrication of data, falsifying the results of laboratory, field work or other forms of data collection and analysis.",
+   "anchor": null
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonation of another during an examination or other assessment related event.",
+   "anchor": null
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Possessing and/or using prohibited materials in an examination room.",
+   "anchor": null
+  }
+ ],
+ "liability": [
+  {
+   "value": "intent_considered",
+   "ai_named": true,
+   "quote": "Misconduct involving the use of generative AI will be judged by the same principles as other types of misconduct. Relevant factors include whether the tool was used without disclosure, whether it replaced a core academic task (e.g. writing, analysis), and whether its use appears intentional or negligent.",
+   "anchor": null
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "In exceptional circumstances where it is considered that the offence was a genuine mistake, such that any reasonable person might have made in the circumstances, no action will be taken",
+   "anchor": null
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "At any time, Registry may be asked to pass assessed work through TurnItIn to check for simple provable copying of existing text.",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": true,
+   "quote": "Use of generative AI detection tools will not be used at this stage, to avoid false positives.",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Use of generative AI detection tools will not be used at this stage, to avoid false positives.",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "Authorship verification tools (e.g. GPTZero) may be used by the Academic Registrar at this stage for all or some of the assessed material.",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "restricted",
+   "ai_named": true,
+   "quote": "Authorship verification tools (e.g. GPTZero) may be used by the Academic Registrar at this stage for all or some of the assessed material.",
+   "anchor": null
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "This may include indications of abrupt changes of writing style, mismatch with previous work, and/or fabricated references or citations.",
+   "anchor": null
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "the Deputy Dean or Course Director will usually meet with the student and/or hold a viva to determine whether they consider that plagiarism may have taken place",
+   "anchor": null
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Cases of suspected assessment misconduct should be reported in the first instance to the relevant Deputy Dean for research degrees or Course Director for taught courses.",
+   "anchor": null
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "If the Academic Registrar deems that a full investigation is necessary, they will inform the Academic Dean, presenting the case with all the evidence received, and will nominate a member of staff to act as Case Handler.",
+   "anchor": null
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student will be given an initial opportunity to respond to the allegation(s) made against them.",
+   "anchor": null
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The Hearing Committee will be established by the Academic Dean.",
+   "anchor": null
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If the student fails to attend the Hearing Committee meeting and the steps above have been followed the meeting will go ahead in their absence.",
+   "anchor": null
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student may be accompanied to the hearing by an ICR colleague or student representative.",
+   "anchor": null
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Where the student wishes to appeal the findings of the decision of the Academic Dean or Hearing Committee, they may submit a Review Form within 14 calendar days of receipt of written notification of the outcome of the formal complaint procedure",
+   "anchor": null
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The ICR aims to process any case of suspected academic conduct within 90 calendar days from the date of the initial letter confirming the allegation to the student.",
+   "anchor": null
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The standard of proof used to consider whether or not alleged misconduct is found to have been proven will be the civil standard, i.e. on the balance of probabilities.",
+   "anchor": null
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Appropriate and proportionate written records will be kept by the Case Handler throughout the process",
+   "anchor": null
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": true,
+   "quote": "Further education about appropriate ways to cite and use sources, and/or AI use, will be provided.",
+   "anchor": null
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "For very minor offences outside of examinations, it may be appropriate to issue a written or verbal warning rather than the penalties outlined below.",
+   "anchor": null
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "The student receives a zero mark for the work submitted but retains the right to resubmit the work with a mark limited to a bare pass.",
+   "anchor": null
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "The student receives a zero mark for the work submitted but retains the right to resubmit the work with a mark limited to a bare pass.",
+   "anchor": null
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "The student receives a zero mark for the work submitted but retains the right to resubmit the work with a mark limited to a bare pass.",
+   "anchor": null
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "The student receives a mark of zero for the module in which the offence occurs but retains the right to resubmit all elements with the overall module mark limited to a bare pass.",
+   "anchor": null
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Sanctions range from warnings to exclusion.",
+   "anchor": null
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "has previously committed an assessment misconduct offence.",
+   "anchor": null
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "they may still receive an award in respect of these",
+   "anchor": null
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": true,
+   "quote": "Misconduct involving the use of generative AI will be judged by the same principles as other types of misconduct. Relevant factors include whether the tool was used without disclosure, whether it replaced a core academic task (e.g. writing, analysis), and whether its use appears intentional or negligent.",
+   "anchor": null
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "In the case of the MSc in Oncology course, at the Course Director’s discretion, details of upheld assessment misconduct allegations will be reported to the student’s NHS Trust or other healthcare employer.",
+   "anchor": null
+  }
+ ],
+ "definitions": [
+  {
+   "term": "assessment misconduct",
+   "ai_named": false,
+   "quote": "Assessment misconduct is any action or attempted action that may result in a student obtaining an unfair academic advantage in relation to an assessment."
+  },
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism: direct copying of another person’s work without proper acknowledgement; or claiming another person’s ideas as the student’s own."
+  }
+ ]
+}

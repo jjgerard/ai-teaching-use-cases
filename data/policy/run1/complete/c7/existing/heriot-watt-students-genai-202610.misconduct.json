@@ -1,0 +1,32 @@
+{
+ "doc_id": "heriot-watt-students-genai-202610",
+ "coder": "mis-m14",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "you do not unintentionally plagiarise by presenting AI generated work as if it were your own",
+   "anchor": "Top tip"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": true,
+   "quote": "HW will not be utilising any generative AI detection tools for the period of AY23-24.",
+   "anchor": "AI point 6"
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "Academic integrity",
+   "ai_named": false,
+   "quote": "Academic integrity is the umbrella term used to describe 6 fundamental values of academia honesty, fairness, responsibility, trust, respect and courage"
+  }
+ ]
+}

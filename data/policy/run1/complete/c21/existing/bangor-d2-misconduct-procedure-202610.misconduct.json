@@ -1,0 +1,288 @@
+{
+ "doc_id": "bangor-d2-misconduct-procedure-202610",
+ "coder": "mis-m24",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Plagiarism: using without acknowledgement another person’s words or ideas and submitting them for assessment as though it were one’s own work. This includes copying materials from the internet, unfair use of generative artificial intelligence software,",
+   "anchor": "Examples A[i]"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "This includes copying materials from the internet, unfair use of generative artificial intelligence software, rewriting published material without acknowledging the source and the translation of materials using unauthorized methods.",
+   "anchor": "Examples A[i]"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication of data: making false claims to have carried out experiments, observations, interviews or other forms of data collection and analysis.",
+   "anchor": "Examples A[iii]"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Obtaining documents, and / or assignment tasks from, individuals, companies or agencies and submitting them for assessment as though it were one’s own work, usually paying for the work.",
+   "anchor": "Examples A[viii]"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "students must not copy another’s work or use another’s work without acknowledgement.",
+   "anchor": "Appendix 2 para 2"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Taking unauthorised materials such as a book, loose papers, mobile phone or smart device into an examination room.",
+   "anchor": "Examples B[i]"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Promoting ways to breach academic integrity by sharing information with other students about ways to commit academic misconduct, or by facilitating academic misconduct.",
+   "anchor": "Examples A[x]"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonating a student or allowing oneself to be impersonated.",
+   "anchor": "Examples B[iv]"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self plagiarism: re-using work for which credit has already been achieved at the University or elsewhere (unless specific permission to do this has been granted).",
+   "anchor": "Examples A[ix]"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "The Panel is not required to prove intent on the part of the student to engage in an act of academic misconduct in order to substantiate the allegation, but additional proof of intent can be relevant to the Panel in arriving at an appropriate penalty.",
+   "anchor": "32"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "The Panel is not required to prove intent on the part of the student to engage in an act of academic misconduct in order to substantiate the allegation, but additional proof of intent can be relevant to the Panel in arriving at an appropriate penalty.",
+   "anchor": "32"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "The Lower Penalties are applied if one or more of the following apply: actions were inadvertent or due to poor understanding of University regulations;",
+   "anchor": "Appendix 4 note 1"
+  }
+ ],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": true,
+   "quote": "Generative-Artificial Intelligence detection software will not normally be used in the operation of this procedure, to either evidence allegations of academic misconduct or as a tool in an investigation of academic misconduct.",
+   "anchor": "13"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The University strongly recommends the use of electronic plagiarism detection systems, currently Turnitin.",
+   "anchor": "Appendix 3 para 2"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "The reports produced by detection software must not be used by themselves to determine if academic misconduct has taken place.",
+   "anchor": "Appendix 3 para 3"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Staff marking students’ work must use their professional judgement to determine whether plagiarism, and other forms of academic misconduct, has occurred.",
+   "anchor": "Appendix 3 para 4"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "At the meeting, the student can be asked questions to verify that the work is their own.",
+   "anchor": "16"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Allegations of academic misconduct, in examinations or coursework, must be referred to the Chair of the Board of Examiners in the student’s home school in the first instance",
+   "anchor": "10"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Conduct an investigation: This option must be chosen if the alleged academic misconduct is in assessed work, including examinations and coursework, that:",
+   "anchor": "14(iii)"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The Chair of the Board of Examiners must invite the student to present a written response, by letter or email, to the allegation.",
+   "anchor": "15"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Panels must be convened and must not consider the case based only on electronic communication.",
+   "anchor": "22"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "the Panel meeting will normally proceed in the absence of the student.",
+   "anchor": "27"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student can be accompanied by a member of academic staff, a staff member or officer of the Students’ Union, or by another student.",
+   "anchor": "16"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "The Chair of the Board of Examiners must inform the student in writing of the decision and of the right to appeal within 10 working days, where practicably possible.",
+   "anchor": "20"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The student must respond within 10 working days, where practicably possible.",
+   "anchor": "15"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "unless there is sufficient evidence to prove, on the balance of probabilities, that the allegations are true.",
+   "anchor": "About this Procedure 4"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "If an allegation of academic misconduct is upheld the decision must be recorded as a confidential note on MyBangor (where this is relevant, or otherwise kept on the student’s file).",
+   "anchor": "21"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "The first semester period of each student’s study period must be regarded as developmental, providing opportunities to encourage and develop good academic practices.",
+   "anchor": "Appendix 1 para 10"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "Where the Panel issues a formal reprimand, the Panel can recommend that the student must receive advice from an appropriate member of academic staff",
+   "anchor": "37"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Instruct examiners to assign a mark ignoring that part of the assessed work affected by academic misconduct (e.g. plagiarised text).",
+   "anchor": "17"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Award a mark of zero (0%) for the element where academic misconduct occurred.",
+   "anchor": "17"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Award a mark of zero (0%) for the module in which academic misconduct occurred.",
+   "anchor": "17"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "the Chair of the Board of Examiners must determine whether the student will be allowed to submit work for reassessment, and which assessed elements of a module are to be resubmitted.",
+   "anchor": "19"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "Allow resubmission but mark capped at 50%",
+   "anchor": "Appendix 4"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "These penalties can include assigning a mark ignoring that part of the assessed work affected by academic misconduct, awarding a mark of zero (0%) for the module in which academic misconduct occurred, decreasing the degree classification by one class, and exclusion from the University.",
+   "anchor": "35"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "These penalties can include assigning a mark ignoring that part of the assessed work affected by academic misconduct, awarding a mark of zero (0%) for the module in which academic misconduct occurred, decreasing the degree classification by one class, and exclusion from the University.",
+   "anchor": "35"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "academic misconduct is repeat offence after prior warning from Panel;",
+   "anchor": "Appendix 4 note 3"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The penalties will normally be as defined in Appendix 4, but the Panel can apply other penalties at its discretion and based on previous penalties/precedents.",
+   "anchor": "35"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Boards of Examiners have authority to cancel a result previously published and to publish a supplementary pass-list, if academic misconduct is proven after the publication of the original pass-list.",
+   "anchor": "41"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "the case can be referred for consideration under the Suitability / Fitness to Practise procedure (or its equivalent).",
+   "anchor": "36"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct includes (but is not limited to) issues of plagiarism, collusion, cheating, breach of examination regulations, fabrication of data, impersonation of others or the use of essay banks or mills for assessment.",
+   "anchor": "Definitions 2"
+  },
+  {
+   "term": "poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice is weaknesses in the way that the work of others is referenced or over-reliance on referenced material with insufficient independent academic input from the student."
+  },
+  {
+   "term": "plagiarism",
+   "ai_named": true,
+   "quote": "Plagiarism: using without acknowledgement another person’s words or ideas and submitting them for assessment as though it were one’s own work. This includes copying materials from the internet, unfair use of generative artificial intelligence software,"
+  },
+  {
+   "term": "collusion",
+   "ai_named": false,
+   "quote": "Collusion: working with another person to submit some or all the other person’s work as their own."
+  },
+  {
+   "term": "contract cheating",
+   "ai_named": false,
+   "quote": "These activities are known as contract cheating."
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "doc_id": "worcester-students-genai-202610",
+ "coder": "use-u21",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "For example, students might be encouraged to use GenAI tools to prepare for classes and seminars or workshops, and also in relation to aspects of assessment preparation.",
+   "anchor": "3 GenAI and Learning and Teaching"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "This Policy is based on the position that the use of GenAI tools for assessments is acceptable provided such tools are used responsibly, and academic integrity is maintained.",
+   "anchor": "4 GenAI, Assessment and Academic Integrity"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "This Policy is based on the position that the use of GenAI tools for assessments is acceptable provided such tools are used responsibly, and academic integrity is maintained."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "Course teams working with Learning and Teaching Directors and Co-ordinators should determine how GenAI can be incorporated into programme design and learning and teaching activity."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "There may be assessment contexts where the use of GenAI tools is not appropriate, and module tutors should make this clear in assignment briefs."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "module tutors should make this clear in assignment briefs."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "recommended",
+   "quote": "the proper acknowledgement of the role played by GenAI tool in developing the work."
+  },
+  "contents": [],
+  "location": [],
+  "records": {
+   "value": "recommended",
+   "quote": "The importance of students maintaining a record of how they planned and constructed their assignment, detailing the use of GenAI where appropriate, should be embedded as part of good academic practice."
+  },
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "there should be clarity for students on how they should acknowledge and reference the use of GenAI (see Cite them right guidance here)."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

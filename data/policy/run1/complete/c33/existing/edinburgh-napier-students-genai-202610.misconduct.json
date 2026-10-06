@@ -1,0 +1,61 @@
+{
+ "doc_id": "edinburgh-napier-students-genai-202610",
+ "coder": "mis-m8",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "You submit Gen AI content in an assessment as if it is your own work (undeclared use of Gen AI)",
+   "anchor": null
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Misrepresenting AI-generated work as your own is academic misconduct and may result in an academic integrity investigation.",
+   "anchor": null
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "You declare your use of Gen AI, but the Gen AI content replaces the learning, thinking or skills that the assessment is designed to assess (declared, but inappropriate use of Gen AI)",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": true,
+   "quote": "Misrepresenting AI-generated work as your own is academic misconduct and may result in an academic integrity investigation.",
+   "anchor": null
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "If a concern is raised about the Academic Integrity of your work, you will have an opportunity to explain and provide evidence.",
+   "anchor": null
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "The penalties imposed for academic misconduct reflect the seriousness of this conduct.",
+   "anchor": null
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Undeclared use",
+   "ai_named": true,
+   "quote": "You submit Gen AI content in an assessment as if it is your own work (undeclared use of Gen AI)"
+  },
+  {
+   "term": "Declared inappropriate use",
+   "ai_named": true,
+   "quote": "You declare your use of Gen AI, but the Gen AI content replaces the learning, thinking or skills that the assessment is designed to assess (declared, but inappropriate use of Gen AI)"
+  }
+ ]
+}

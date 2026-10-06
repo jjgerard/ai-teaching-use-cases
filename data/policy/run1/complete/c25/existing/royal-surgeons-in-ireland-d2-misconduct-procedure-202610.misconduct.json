@@ -1,0 +1,198 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-d2-misconduct-procedure-202610",
+ "coder": "mis-m27",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Unauthorised use of generative artificial intelligence (GenAI)",
+   "anchor": "3 Academic Misconduct"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Unauthorised use of Gen AI includes but is not limited to the use of a Gen AI tool to generate any form of submitted work that a learner submits without proper acknowledgment of that tool’s use in its generation.",
+   "anchor": "3.4"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "AI-empowered plagiarism is “the use of AI tools to generate text that closely mimics existing sources without proper attribution”",
+   "anchor": "3.1"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": true,
+   "quote": "The presenting or making use of fictitious, altered or misrepresented data, evidence, references, citations or experimental results and includes the use of GenAI created content or output that is fabricated or",
+   "anchor": "3.2"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating is a form of academic misconduct when a person uses an undeclared and/or unauthorised third party, online or directly, to assist them to produce work for academic credit or progression, whether or not payment or other favour is involved.",
+   "anchor": "3.3"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Presenting in your own name, work authored by another person or entity, such as other students, friends or family (with or without permission), or work purchased through any source or given to you by another person or entity",
+   "anchor": "3.1"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Breaches of the Examinations and Assessment Regulations",
+   "anchor": "3 Academic Misconduct"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonation",
+   "anchor": "3 Academic Misconduct"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion",
+   "anchor": "3 Academic Misconduct"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Presenting work for an assignment which has also been submitted (in part or whole) for another assignment at RCSI or another institution (i.e. self-plagiarism).",
+   "anchor": "3.1"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "The unacknowledged inclusion, whether intentional or unintentional in any form of assessment for a programme of study of material without due acknowledgement of its original source.",
+   "anchor": "3.1"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Unintentional breach of Academic Integrity by a student in the early stages of their",
+   "anchor": "Table 1"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Where it becomes apparent that students in the early stages of their programme of studies or research are not learning as expected, a supportive approach to addressing their shortcomings with regard to demonstrating academic integrity will be adopted by the University.",
+   "anchor": "4"
+  }
+ ],
+ "detection": [
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "As part of the investigation, the student may be asked to participate in an oral assessment of their work as submitted.",
+   "anchor": "5"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "it must be investigated in consultation with the relevant Programme Director, Cycle Director, Year Lead or equivalent and with the Module Lead",
+   "anchor": "5"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "If the suspected breach appears to warrant a Level 3 response, the matter is referred to Registry for further consideration under the Disciplinary Regulations.",
+   "anchor": "5"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Any determination made in accordance with the provisions of this policy may be reviewed in accordance with the appeal provisions of the University’s Disciplinary Regulations.",
+   "anchor": "5"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "it is sufficient to establish that academic misconduct has occurred based on ‘the balance of probabilities’ standard of proof rather than ‘beyond all reasonable doubt’.",
+   "anchor": "5"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Registry will maintain a centralised record of all reported cases to enable monitoring, identify trends and facilitate annual reporting.",
+   "anchor": "6"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Academic Integrity retraining.",
+   "anchor": "Table 1"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "A Level 1 response may incur sanctions such as penalties in respect of the grade awarded",
+   "anchor": "Table 1"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "The outcome of any investigation may be: no case to answer; a Level 1, 2 or 3 response with or without an accompanying sanction (e.g. grade penalty) or corrective action (e.g. re-submit assignment).",
+   "anchor": "5"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Breach of Academic Integrity Standards resulting in academic misconduct where a Level 2 has previously been applied to the student OR",
+   "anchor": "Table 1"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Table 1 (below) classifies the response level (Level 1, 2 or 3) for breaches of academic integrity in accordance with the criteria provided.",
+   "anchor": "5"
+  },
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "The School/Academic Unit to determine the sanction to be applied and the corrective action to be undertaken by the student within a specified timeframe, including any penalty in respect of grade awarded.",
+   "anchor": "Table 1"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct is any attempt to seek unfair advantage in relation to any academic activity including through unauthorised content generation."
+  },
+  {
+   "term": "Unauthorised content generation",
+   "ai_named": false,
+   "quote": "Unauthorised content generation is “the production of academic work, in whole or in part, for academic credit, progression or award, whether or not a payment or other favour is involved, using unapproved or undeclared human or technological assistance”."
+  },
+  {
+   "term": "AI-empowered plagiarism",
+   "ai_named": true,
+   "quote": "AI-empowered plagiarism is “the use of AI tools to generate text that closely mimics existing sources without proper attribution”"
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "The unacknowledged inclusion, whether intentional or unintentional in any form of assessment for a programme of study of material without due acknowledgement of its original source."
+  },
+  {
+   "term": "Falsification",
+   "ai_named": true,
+   "quote": "The presenting or making use of fictitious, altered or misrepresented data, evidence, references, citations or experimental results and includes the use of GenAI created content or output that is fabricated or"
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating is a form of academic misconduct when a person uses an undeclared and/or unauthorised third party, online or directly, to assist them to produce work for academic credit or progression, whether or not payment or other favour is involved."
+  }
+ ]
+}
