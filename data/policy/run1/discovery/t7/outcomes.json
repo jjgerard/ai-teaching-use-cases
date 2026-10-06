@@ -1,0 +1,123 @@
+[
+ {
+  "ror_id": "https://ror.org/02wn5qz54",
+  "name": "University of St Andrews",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.st-andrews.ac.uk/policy/academic-policies-assessment-examination-and-award-good-academic-practice/generative-ai-faqs-students-guidance.pdf",
+   "title": "Generative AI \u2013 FAQs for students",
+   "kind": "faq",
+   "audience_as_stated": "Staff and students (document scope)",
+   "owner_as_stated": "Learning and Teaching Committee (approver); Education and Student Experience",
+   "date_as_shown": "Approved 28/01/2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.st-andrews.ac.uk/education/handbook/good-academic-practice/",
+    "title": "Good academic practice"
+   }
+  ],
+  "doc_id": "st-andrews-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00t67pt25",
+  "name": "Birmingham City University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.bcu.ac.uk/AI-Guidelines",
+   "title": "AI Guidelines: Welcome (BCU Student AI Guidelines 2026-27)",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Birmingham City University (Library guide hosting the Student AI Guidelines)",
+   "date_as_shown": "2026-27 (as shown in text)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bcu.ac.uk/library/services-and-support/artificial-intelligence",
+    "title": "Using Generative Artificial Intelligence (library hub)"
+   }
+  ],
+  "doc_id": "birmingham-city-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/0524sp257",
+  "name": "University of Bristol",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bristol.ac.uk/students/support/academic-advice/using-artificial-intelligence/",
+   "title": "Using artificial intelligence (AI) in assessments and for studying",
+   "kind": "guidance",
+   "audience_as_stated": "undergraduates and PGT students (as stated on page)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.bristol.ac.uk/students/support/academic-advice/academic-integrity/",
+    "title": "Academic integrity"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.bristol.ac.uk/bilt/sharing-practice/guides/guidance-on-ai/our-key-messages/",
+    "title": "Our Key Messages (BILT guidance on AI)"
+   }
+  ],
+  "doc_id": "bristol-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/03dvm1235",
+  "name": "Glasgow Caledonian University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.gcu.ac.uk/currentstudents/essentials/onlinelearning/assessmentandintegrity",
+   "title": "Academic integrity",
+   "kind": "webpage",
+   "audience_as_stated": "current students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [],
+  "notes": "Cloudflare challenge (HTTP 403) on fetch; not bypassed. Search snippets indicate the page refers to a 'GenAI for students' page whose URL was not found. Fallback = academic integrity page.",
+  "doc_id": "glasgow-caledonian-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00wygct11",
+  "name": "University of Gloucestershire",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.glos.ac.uk/AIGuidance",
+   "title": "Using Generative AI in your studies (AI guidance)",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": "University of Gloucestershire Libraries (LibGuides)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://connectglosac.sharepoint.com/sites/myhelp/SitePages/Student-Guidance-for-Using-Generative-AI-in-Learning.aspx",
+    "title": "Student guidance for using Generative AI in learning (SharePoint, HTTP 403 not retrievable)"
+   }
+  ],
+  "notes": "The library guide points to the SharePoint student guidance, which returned 403 here; recorded the retrievable library guide.",
+  "doc_id": "gloucestershire-students-genai-202610"
+ }
+]

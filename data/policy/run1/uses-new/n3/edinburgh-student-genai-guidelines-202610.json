@@ -1,0 +1,36 @@
+{
+ "doc_id": "edinburgh-student-genai-guidelines-202610",
+ "coder": "un-n3",
+ "uses": [
+  {
+   "use": "delegate_to_ai_agent",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using an AI agent within Learn or any other University learning or assessment platform which requires you to log in is not permitted.",
+   "anchor": "Agentic AI"
+  },
+  {
+   "use": "delegate_to_ai_agent",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "getting someone or something else (such as an AI agent) to complete your work for you",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "study",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "If you routinely use generative AI for breaking down and summarising long texts, for example, you will not be developing your own critical skills in the analysis of complex documents.",
+   "anchor": "Cognitive offloading"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": null
+}

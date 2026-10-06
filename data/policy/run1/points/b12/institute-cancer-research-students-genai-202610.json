@@ -1,0 +1,158 @@
+{
+ "doc_id": "institute-cancer-research-students-genai-202610",
+ "coder": "pts-b12",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "In all cases, references to another person shall be deemed to include a digital tool such as generative AI unless the context clearly indicates otherwise.",
+   "anchor": "1.4.2",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "References to another person in the misconduct examples are deemed to include digital tools such as generative AI."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Misconduct involving the use of generative AI will be judged by the same principles as other types of misconduct. Relevant factors include whether the tool was used without disclosure, whether it replaced a core academic task (e.g. writing, analysis), and whether its use appears intentional or negligent.",
+   "anchor": "10. Appendix: Penalties",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "AI misconduct is judged by the same principles as other misconduct, considering non-disclosure, replacement of a core task, and whether use was intentional or negligent."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Not disclosing third-party contributions to assessed work.",
+   "anchor": "1.4.2",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Not disclosing third-party contributions to assessed work is listed as an example of assessment misconduct."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Use of generative AI detection tools will not be used at this stage, to avoid false positives.",
+   "anchor": "3.2",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "Generative AI detection tools will not be used at the preliminary stage, to avoid false positives."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Authorship verification tools (e.g. GPTZero) may be used by the Academic Registrar at this stage for all or some of the assessed material. In the use of such tools, any personally identifiable information (such as student identifiers or patient data) will be removed.",
+   "anchor": "4.3",
+   "addressee": "staff",
+   "force": "may",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "The Academic Registrar may use authorship verification tools such as GPTZero at initial review, with personally identifiable information removed."
+  },
+  {
+   "point_id": "p06",
+   "quote": "This may include indications of abrupt changes of writing style, mismatch with previous work, and/or fabricated references or citations.",
+   "anchor": "4.2",
+   "addressee": "staff",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Evidence supporting an allegation may include abrupt changes of writing style, mismatch with previous work, and fabricated references or citations."
+  },
+  {
+   "point_id": "p07",
+   "quote": "The student receives a zero mark for the work submitted but retains the right to resubmit the work with a mark limited to a bare pass.",
+   "anchor": "Table 2: Example taught course penalties",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "A taught-course student receives zero for the work but may resubmit it with the mark capped at a bare pass."
+  },
+  {
+   "point_id": "p08",
+   "quote": "The candidate will be required to re-write the section(s) affected, including properly acknowledging all sources, within a specified time period.",
+   "anchor": "Table 1: Example research degree penalties",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "A research degree candidate must re-write the affected sections, acknowledging all sources, within a specified time."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Sanctions range from warnings to exclusion.",
+   "anchor": "10. Appendix: Penalties",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Sanctions range from warnings to exclusion."
+  },
+  {
+   "point_id": "p10",
+   "quote": "The student receives a mark of zero for the module in which the offence occurs but retains the right to resubmit all elements with the overall module mark limited to a bare pass.",
+   "anchor": "Table 2: Example taught course penalties",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Zero for the module, with the right to resubmit all elements for a bare-pass module mark."
+  },
+  {
+   "point_id": "p11",
+   "quote": "The burden of proof rests with the ICR. It is the ICR's responsibility to prove that assessment conduct occurred; it is not the student's responsibility to prove that it did not occur.",
+   "anchor": "2.7",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "The ICR carries the burden of proof; the student does not have to prove that misconduct did not occur."
+  },
+  {
+   "point_id": "p12",
+   "quote": "The student will be told in writing at the beginning of the process which offence(s) they are suspected of committing and why.",
+   "anchor": "4.4",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "The student is told in writing at the start which offences are suspected and why."
+  },
+  {
+   "point_id": "p13",
+   "quote": "In the case of the MSc in Oncology course, at the Course Director’s discretion, details of upheld assessment misconduct allegations will be reported to the student’s NHS Trust or other healthcare employer.",
+   "anchor": "2.9",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "For the MSc in Oncology, upheld misconduct details may be reported to the student's NHS Trust or healthcare employer at the Course Director's discretion."
+  },
+  {
+   "point_id": "p14",
+   "quote": "they may submit a Review Form within 14 calendar days of receipt of written notification of the outcome",
+   "anchor": "8.1",
+   "addressee": "student",
+   "force": "may",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "A student wishing to appeal may submit a Review Form within 14 calendar days of written notification of the outcome."
+  },
+  {
+   "point_id": "p15",
+   "quote": "In exceptional circumstances where it is considered that the offence was a genuine mistake, such that any reasonable person might have made in the circumstances, no action will be taken; the student will receive a written warning",
+   "anchor": "6.10",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Where an offence was a genuine mistake any reasonable person might make, no action is taken but the student receives a written warning."
+  }
+ ]
+}

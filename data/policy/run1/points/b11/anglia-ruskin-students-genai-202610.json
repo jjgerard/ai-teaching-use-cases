@@ -1,0 +1,28 @@
+{
+ "doc_id": "anglia-ruskin-students-genai-202610",
+ "coder": "pts-b11",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "your work must always be your own, and you must be able to understand and communicate complex ideas clearly.",
+   "anchor": "Will my work still have to be my own if AI tools are available?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Students’ work must always be their own, and they must be able to understand and communicate complex ideas clearly."
+  },
+  {
+   "point_id": "p02",
+   "quote": "We provide step-by-step support through the student intranet, a website that provides information and support as soon you start your course.",
+   "anchor": "What resources do we offer to help you develop AI skills safely?",
+   "addressee": "student",
+   "force": "commits",
+   "topic": "tools_provided_or_recommended",
+   "specific": false,
+   "gist": "ARU provides step-by-step AI support through the student intranet, available from the start of the course."
+  }
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "doc_id": "mary-immaculate-d2-other-202610",
+ "coder": "pts-q6",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Traditional plagiarism-detection tools are rendered ineffective in this context, as AI becomes more capable of human-like text",
+   "anchor": "Responding to GenAI",
+   "addressee": "staff",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "Traditional plagiarism-detection tools are ineffective because AI is becoming more capable of human-like text."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Detection tools which purport to specifically focus on GenAI detection raise some significant implications for privacy, equity, and data security",
+   "anchor": "Responding to GenAI",
+   "addressee": "staff",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "GenAI detection tools raise significant implications for privacy, equity and data security."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Increasingly there has been a recognition that these tools may disproportionally misjudge the work of non-native English writers",
+   "anchor": "Responding to GenAI",
+   "addressee": "staff",
+   "force": "explains",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "AI detection tools may disproportionately misjudge the work of non-native English writers."
+  },
+  {
+   "point_id": "p04",
+   "quote": "In stressful moments, reliance on generative AI may seem like a quick fix, sometimes without fully considering the implications.",
+   "anchor": "Personal Care and Wellness",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": false,
+   "gist": "In stressful moments, relying on generative AI may seem a quick fix without considering the implications."
+  },
+  {
+   "point_id": "p05",
+   "quote": "these tools are not designed to address complex emotional or mental health concerns. Their guidance may be incomplete or even misleading",
+   "anchor": "Personal Care and Wellness",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Generative AI tools are not designed for complex emotional or mental health concerns, and their guidance may be incomplete or misleading."
+  },
+  {
+   "point_id": "p06",
+   "quote": "This approach is very vulnerable to collusion, copying or outsourcing through the use of contract cheating services or Generative AI.",
+   "anchor": "Responding to GenAI - Solutions",
+   "addressee": "staff",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Take-home tests with one right answer are very vulnerable to collusion, copying or outsourcing via contract cheating services or Generative AI."
+  }
+ ]
+}

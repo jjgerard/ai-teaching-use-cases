@@ -1,0 +1,29 @@
+{
+ "doc_id": "mtu-students-genai-202610",
+ "coder": "aud-a18",
+ "checked_types": 65,
+ "found": [
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "The use of Generative Artificial Intelligence to generate text, materials or other outputs presented by the student as the student’s own work.",
+   "anchor": "5.6.14 Unauthorised use of Generative Artificial Intelligence"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "it may be that references have been falsified to give credibility to the assignment and to show evidence of research",
+   "why": "Falsified references listed as misconduct, not AI-specific"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "The University will provide information, training, guidance and other supports to students and staff to facilitate the effective implementation of this policy.",
+   "why": "Training on the policy, not explicitly about AI"
+  },
+  {
+   "type": "assessment_redesigned_to_test_process_and_understanding",
+   "quote": "Academic staff will prioritise the development of rigorous and robust assessment design to ensure academic integrity is maintained and upheld.",
+   "why": "General assessment design, no AI mention"
+  }
+ ]
+}

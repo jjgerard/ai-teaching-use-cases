@@ -1,0 +1,19 @@
+{
+ "doc_id": "chester-students-genai-202610",
+ "coder": "aud-a12",
+ "checked_types": 67,
+ "found": [
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "remember to check your assessment briefs to identify if you are permitted to use AI or ask a tutor if you are unsure.",
+   "anchor": "Complete the AI Moodle Module"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "submit_declaration_form_with_assessment",
+   "quote": "the Academic Conduct and GenAI Declaration tile on the GenAI Literacies Moodle module offers further guidance and step by step instructions about how to check whether you can use GenAI and how to declare its use.",
+   "why": "Guidance on declaring, no form named as submitted."
+  }
+ ]
+}

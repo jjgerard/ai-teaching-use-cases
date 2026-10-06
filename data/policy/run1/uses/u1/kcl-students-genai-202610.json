@@ -1,0 +1,326 @@
+{
+ "doc_id": "kcl-students-genai-202610",
+ "coder": "use-u1",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Help generate ideas and frameworks for study and assessments",
+   "anchor": "How could generative AI help with my studies?"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Help generate ideas and frameworks for study and assessments",
+   "anchor": "How could generative AI help with my studies?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Provide explanations of concepts you are struggling to understand through dialogic exchanges",
+   "anchor": "How could generative AI help with my studies?"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Paraphrase and summarise sources as a study aid",
+   "anchor": "How could generative AI help with my studies?"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Provide feedback on your ideas and work, and help you improve it",
+   "anchor": "How could generative AI help with my studies?"
+  },
+  {
+   "use": "generate_code",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Suggest code completions or assist with debugging for programming work",
+   "anchor": "How could generative AI help with my studies?"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Translate texts between languages for multilingual research or for communicating with researchers across the globe",
+   "anchor": "How could generative AI help with my studies?"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Summarise meeting, video or podcast transcripts",
+   "anchor": "How could generative AI help with my studies?"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Help you create effective presentations",
+   "anchor": "How could generative AI help with my studies?"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Help challenge some of the issues in study experienced by neurodivergent students.",
+   "anchor": "How could generative AI help with my studies?"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "they should never be used instead of, but may be used alongside, conventional approaches to sourcing information",
+   "anchor": "What do you mean by AI and generative AI?"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Includes routine and established use of tools such as auto transcription, spell checkers, grammar check.",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Minimal"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Includes routine and established use of tools such as auto transcription, spell checkers, grammar check.",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Minimal"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Ideation/brainstorming",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Limited/selective"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Concept checking/explanation",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Limited/selective"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Suggesting structures",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Limited/selective"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Summarising own or other’s key ideas",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Limited/selective"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Illustrative image or other media generation",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Limited/selective"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Socratic chat bot/tutor",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Open"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Summarisation, simplification, synthesis, translation",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Open"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Summarisation, simplification, synthesis, translation",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Open"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Generate illustrative media content",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Open"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI use is a feature of the assessment itself.",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Embedded"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Develop or error check code",
+   "anchor": "What constitutes appropriate use?",
+   "tier": "Embedded"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "in no circumstance is it appropriate to use generated content verbatim without clear indication and acknowledgement, or to effectively outsource the writing task",
+   "anchor": "What constitutes appropriate use?"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "never copy-paste text generated from a prompt directly into summative assignments (unless you are specifically told you can do this).",
+   "anchor": "What are the ‘golden rules’ of use?"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Write, rewrite, rephrase and/or paraphrase part of this essay.",
+   "anchor": "How do I acknowledge use of generative AI?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "tiered_scale",
+   "quote": "We have suggested four broad levels that your Programme and Module leaders may adjust to the specifics of an assessment:"
+  },
+  {
+   "value": "school_or_department",
+   "quote": "It is absolutely essential that you are clear about any particular requirements or restrictions at programme level as these can vary, even across modules."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "so long as acknowledged use falls within the scope of appropriate use as defined in the assessment brief/guidance"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "King's requires students to acknowledge any use of generative AI tools in coursework by including a declaration statement along with your references."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "insert AI tool(s) and links and/or how used"
+   },
+   {
+    "value": "how_used",
+    "quote": "insert AI tool(s) and links and/or how used"
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "King's requires students to acknowledge any use of generative AI tools in coursework by including a declaration statement along with your references."
+   },
+   {
+    "value": "with_references",
+    "quote": "King's requires students to acknowledge any use of generative AI tools in coursework by including a declaration statement along with your references."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "acknowledge_without_reference_entry",
+   "quote": "King’s College London, unlike some other universities, does not require students to reference generative AI as an authoritative source in the reference list"
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Inappropriate use without attribution is considered academic misconduct."
+  },
+  "exempt": [
+   {
+    "what": "check_language",
+    "quote": "Note. Using software for English grammar and spell checking is consistent with Statement 1."
+   },
+   {
+    "what": "spellcheck_or_embedded_tools",
+    "quote": "We understand that common tools (such as grammar and spell checks) are already embedded into the software you use for assignments and, unless measurement of spelling, for example, is an aspect of an assessment we would not anticipate any issues."
+   }
+  ]
+ }
+}

@@ -1,0 +1,158 @@
+{
+ "doc_id": "keele-students-genai-202610",
+ "coder": "pts-b28",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Staff should remind students that they must disclose when AI tools have been used in their work, that they require proper citation and refer them to the Academic Misconduct Code of Practice",
+   "anchor": "3.2.4",
+   "addressee": "staff",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Staff should remind students they must disclose AI use, that it needs proper citation, and point them to the Academic Misconduct Code of Practice."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Students must be advised on how AI can be used in assessments, and this must be clearly stated, as outlined in the Assessment and Feedback Code of Practice",
+   "anchor": "3.3.5",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Students must be told how AI can be used in assessments, and this must be clearly stated."
+  },
+  {
+   "point_id": "p03",
+   "quote": "AI-driven content must be treated with transparency, ensuring that students are not penalised for using AI responsibly.",
+   "anchor": "3.5.2",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "AI content must be treated transparently so that students are not penalised for using AI responsibly."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Microsoft Copilot is the institutional tool available free to staﬀ and students as part of the MS Oﬃce 365 suite.",
+   "anchor": "3.4.3",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Microsoft Copilot is the institutional AI tool, free to staff and students within MS Office 365."
+  },
+  {
+   "point_id": "p05",
+   "quote": "it is recommended that staff use institutional Gen AI tools, for example Microsoft Copilot, that comply with GDPR and relevant privacy regulations.",
+   "anchor": "3.4.1",
+   "addressee": "staff",
+   "force": "should",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Staff are recommended to use institutional Gen AI tools such as Microsoft Copilot that comply with GDPR and privacy regulations."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Use of other AI tools must consider accessibility and equitable access along with GDPR and data privacy.",
+   "anchor": "3.4.3",
+   "addressee": "both",
+   "force": "must",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Use of other AI tools must consider accessibility, equitable access, GDPR and data privacy."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Staff must communicate to students the AI tools and platforms that are available to them",
+   "anchor": "3.4.2",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Staff must tell students which AI tools and platforms are available to them."
+  },
+  {
+   "point_id": "p08",
+   "quote": "We should ensure that assessments using AI remain inclusive and do not alienate students who have legitimate concerns, whether they are philosophical, ethical, environmental or cultural.",
+   "anchor": "3.3.6",
+   "addressee": "institution",
+   "force": "should",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "Assessments using AI should remain inclusive and not alienate students with philosophical, ethical, environmental or cultural concerns."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Where AI is used it must be to support learning, not as a replacement for it.",
+   "anchor": "3.3.6",
+   "addressee": "both",
+   "force": "must",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Where AI is used it must support learning rather than replace it."
+  },
+  {
+   "point_id": "p10",
+   "quote": "AI tools and outputs must be tested before assessment design to understand their capabilities and limitations.",
+   "anchor": "3.3.3",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "AI tools and outputs must be tested before assessments are designed."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Assessment methods should be reviewed to ensure that they remain fair, transparent, and resistant to the misuse of AI.",
+   "anchor": "3.3.3",
+   "addressee": "staff",
+   "force": "should",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Assessment methods should be reviewed so they stay fair, transparent and resistant to AI misuse."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Staﬀ should be careful to manage “cognitive oﬄoading” through a balance of AI and non-AI activities.",
+   "anchor": "3.2.5",
+   "addressee": "staff",
+   "force": "should",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Staff should manage cognitive offloading by balancing AI and non-AI activities."
+  },
+  {
+   "point_id": "p13",
+   "quote": "It is recommended to undertake a specific learning activity on ethics in module delivery",
+   "anchor": "3.2.3",
+   "addressee": "staff",
+   "force": "should",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "A specific learning activity on ethics is recommended in module delivery."
+  },
+  {
+   "point_id": "p14",
+   "quote": "Staff will be supported through the launch of a new self-enrol AI for Educators course on Blackboard Ultra, AI Exploration days and workshops on Critical AI Literacy",
+   "anchor": "3.6.1",
+   "addressee": "staff",
+   "force": "commits",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Staff will be supported through an AI for Educators course on Blackboard Ultra, AI Exploration days and Critical AI Literacy workshops."
+  },
+  {
+   "point_id": "p15",
+   "quote": "Staff should ensure there are regular feedback loops from students to inform ongoing improvements in AI adoption in teaching and learning and assessment.",
+   "anchor": "3.6.2",
+   "addressee": "staff",
+   "force": "should",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "Staff should ensure regular student feedback loops inform improvements in AI adoption."
+  }
+ ]
+}

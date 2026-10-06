@@ -1,0 +1,89 @@
+{
+ "doc_id": "tud-students-genai-202610",
+ "coder": "aud-a38",
+ "checked_types": 61,
+ "found": [
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "The outputs of any GenAI system should be reliable and validated as much as is practicable, noting the accountability requirement above.",
+   "anchor": "Reliability"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "The approved use of artificial intelligence systems and/or generative models are transparent and they are appropriately cited as set out in library guidelines.",
+   "anchor": "Principles Underpinning use of AI and GenAI in TU Dublin"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "Rather than strictly enforcing a single set of rules for all assessments, the Artificial Intelligence Assessment Scale provides the flexibility for lecturers to determine whether and how Generative Artificial Intelligence can be used in a specific assessment.",
+   "anchor": "Use of Artificial Intelligence Assessment Scale (AIAS)"
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "GenAI should only be used to a level allowed by assessment guidelines",
+   "anchor": "Table 1: Ethical Principles on the use of Generative Artificial Intelligence"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "lecturers will clearly communicate to students about the ways in which AI can be used",
+   "anchor": "Principles Underpinning use of AI and GenAI in TU Dublin"
+  },
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "This level requires critical engagement with AI generated content and evaluating its output.",
+   "anchor": "Use of Artificial Intelligence Assessment Scale (AIAS)"
+  },
+  {
+   "type": "ai_output_may_be_included_when_assessment_allows",
+   "quote": "Level 4: AI Task Completion, Human Evaluation. AI is used to complete certain elements of the task, with students providing discussion or commentary on the AI generated content.",
+   "anchor": "Use of Artificial Intelligence Assessment Scale (AIAS)"
+  },
+  {
+   "type": "assessment_redesigned_to_test_process_and_understanding",
+   "quote": "TU Dublin recommends the use of the Artificial Intelligence Assessment Scale in the design of assessments and for communication with students about assessments.",
+   "anchor": "Use of Artificial Intelligence Assessment Scale (AIAS)"
+  },
+  {
+   "type": "comply_with_data_protection_law_and_policy",
+   "quote": "Personal data should be used in line with the University’s data protection policies and data protection notices (student and staff).",
+   "anchor": "Respect for privacy"
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "This statement is a living document that will be reviewed annually and updated as Artificial Intelligence (AI) and Generative Artificial Intelligence (GenAI) technologies evolve",
+   "anchor": "Scope"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "the AI Guidance Note available in the Referencing LibGuides from Library Services.",
+   "anchor": "Principles Underpinning use of AI and GenAI in TU Dublin"
+  },
+  {
+   "type": "staff_should_disclose_own_ai_use",
+   "quote": "Any potential uses of GenAI for marking, feedback provision etc. should be clearly presented and explained",
+   "anchor": "Transparency"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "must_acknowledge_or_declare_ai_use",
+   "quote": "Transparency: Clearly disclose how GenAI is used, especially regarding university data, and inform users when and why it is employed.",
+   "why": "General principle for all users, not clearly a student duty"
+  },
+  {
+   "type": "uses_exempt_from_acknowledgement",
+   "quote": "This includes the use of any system that amends text beyond simple spelling and grammar checks.",
+   "why": "Exemption for simple checks only implied"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "Level 2: AI-Assisted Idea Generation and Brainstorming. AI can be used in the assessment for brainstorming, creating structures, and generating ideas for improving work.",
+   "why": "Tier-scheme level, not general study permission"
+  },
+  {
+   "type": "do_not_upload_copyright_or_third_party_material",
+   "quote": "particularly those that may impact data privacy and copyright.",
+   "why": "Copyright mentioned only as tool-change awareness"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "doc_id": "sheffield-hallam-students-genai-202610",
+ "coder": "aud-a23",
+ "checked_types": 62,
+ "found": [
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "The library has created a comprehensive guide to AI and its potential uses during your time at Hallam. It highlights good practices and warns about the limitations of AI.",
+   "anchor": "Understanding Artificial Intelligence"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "See the Library's guidance about when and how to reference AI.",
+   "anchor": "Acknowledging the use of AI in your work"
+  },
+  {
+   "type": "must_acknowledge_or_declare_ai_use",
+   "quote": "If you have used AI in your work, you need to be clear about whether to reference your use of AI as a source, or to acknowledge your use of AI, or both.",
+   "anchor": "Acknowledging the use of AI in your work"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "rather than seek to prohibit your use of them, we will support you in using them effectively, ethically, and transparently.",
+   "anchor": "Understanding Artificial Intelligence"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "default_ai_permitted_unless_restricted",
+   "quote": "rather than seek to prohibit your use of them, we will support you in using them effectively, ethically, and transparently.",
+   "why": "Stance wording; elsewhere default is no AI if in doubt"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "It highlights good practices and warns about the limitations of AI.",
+   "why": "Only says library guide warns of limitations"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "you need to be clear about whether to reference your use of AI as a source",
+   "why": "Duty to reference is conditional and unclear"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "follow any AI-related guidance to succeed at the task and avoid academic misconduct.",
+   "why": "Implied breach by ignoring guidance, not explicit"
+  }
+ ]
+}

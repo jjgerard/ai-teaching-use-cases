@@ -1,0 +1,34 @@
+{
+ "doc_id": "de-montfort-students-genai-202610",
+ "coder": "aud-a10",
+ "checked_types": 71,
+ "found": [
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "You need to ask yourself whether you are using AI tools to do the thinking for you or simply to assist you in thinking better.",
+   "anchor": "Using AI ethically"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Guides, tutorials, and resources on Generative AI created by DMU and curated from trusted sources",
+   "anchor": "AI guides"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "DMU recognises that some generative AI tools can help develop academic skills.",
+   "why": "Recognises benefit but no commitment to enabling AI."
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "Some tools can help with finding academic papers whilst others can help with generating images, summarising, making sense of materials and proofreading.",
+   "why": "Describes tool capabilities, not explicit permission."
+  },
+  {
+   "type": "should_or_encouraged_to_acknowledge_ai_use",
+   "quote": "If you have been permitted to use AI tools in your work there are ways to acknowledge and referencing their use.",
+   "why": "Pointer to ways to acknowledge, not advisory duty."
+  }
+ ]
+}

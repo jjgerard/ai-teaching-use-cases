@@ -1,0 +1,50 @@
+{
+ "doc_id": "bangor-d2-misconduct-procedure-202610",
+ "coder": "use-u24",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This includes copying materials from the internet, unfair use of generative artificial intelligence software, rewriting published material without acknowledging the source",
+   "anchor": "A. Examples of Academic Misconduct in Coursework"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "make acknowledgements in submitted work as required by the University and/or their subject or discipline (e.g. to sources, methods, translation, use of generative artificial intelligence software)",
+   "anchor": "Appendix 2 - Students' Responsibilities"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "Schools must provide students with guidance on any subject- or discipline-specific examples of academic misconduct."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "make acknowledgements in submitted work as required by the University and/or their subject or discipline (e.g. to sources, methods, translation, use of generative artificial intelligence software)"
+  },
+  "contents": [],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "Instruct students to complete and submit the Generative-Artificial Intelligence Declaration coversheet for all appropriate assessments"
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

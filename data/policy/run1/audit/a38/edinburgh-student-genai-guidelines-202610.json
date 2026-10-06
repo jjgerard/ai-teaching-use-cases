@@ -1,0 +1,109 @@
+{
+ "doc_id": "edinburgh-student-genai-guidelines-202610",
+ "coder": "aud-a38",
+ "checked_types": 60,
+ "found": [
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "they can perpetuate harmful biases, fabricate information and make errors.",
+   "anchor": "Bias and inaccuracy"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "they can perpetuate harmful biases, fabricate information and make errors.",
+   "anchor": "Bias and inaccuracy"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "This might include using it to: brainstorm ideas get quick definitions of concepts overcome writer’s block through dialogue",
+   "anchor": "Using generative AI to support your learning"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "each course will have its own, more detailed, guidance.",
+   "anchor": "Generative AI"
+  },
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "speak to your Course Organiser if you are unsure.",
+   "anchor": "Generative AI"
+  },
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "Some courses may encourage or even require you to use it in certain ways, while others may ask you not to use it at all.",
+   "anchor": "Using generative AI to support your learning"
+  },
+  {
+   "type": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "quote": "Submitting an assessment which includes elements of AI-generated text without acknowledgment.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "you risk being investigated according to the university’s academic misconduct investigation procedures.",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "AI-based translation apps retain and process recordings in a way that is not allowed in this policy.",
+   "anchor": "Use of live translation apps in class"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "You can access ELM and find out about training opportunities here.",
+   "anchor": "Using the University’s own generative AI platform (ELM)"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "The University recognises that developing skills in the responsible use of generative AI is important and will likely be significant for your future life and work.",
+   "anchor": "Generative AI"
+  },
+  {
+   "type": "ai_environmental_impact",
+   "quote": "it is clear that use of generative AI has a higher impact than, for example, a simple web search.",
+   "anchor": "Environmental and social impact of generative AI"
+  },
+  {
+   "type": "ensure_equal_access_to_ai_tools",
+   "quote": "It is free to use for all staff and students, providing the same access for all and saving you money.",
+   "anchor": "Using the University’s own generative AI platform (ELM)"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "The Library’s guide to using generative AI gives very useful guidance on this.",
+   "anchor": "Citing your use of generative AI"
+  },
+  {
+   "type": "declaration_must_state_tool_and_how_used",
+   "quote": "I used GPT 5 via ELM to check grammar and spelling throughout my assignment.",
+   "anchor": "Acknowledging your use of AI"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "spelling_grammar_proofreading_permitted",
+   "quote": "check your grammar",
+   "why": "Listed as study-support use; not framed as proofreading own text"
+  },
+  {
+   "type": "ai_must_not_write_assessed_work_for_you",
+   "quote": "getting someone or something else (such as an AI agent) to complete your work for you",
+   "why": "Misconduct-labelled; may belong to passing-off type"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "Many in our community are concerned about the negative impacts of generative AI in areas such as:",
+   "why": "Only lists intellectual property as a concern"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "Edinburgh University Students Assembly on AI – principles",
+   "why": "Link label only; role in governance not stated"
+  },
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "For more detailed information about the restrictions around using AI-supported online proofing tools",
+   "why": "Restrictions mentioned but not stated"
+  }
+ ]
+}

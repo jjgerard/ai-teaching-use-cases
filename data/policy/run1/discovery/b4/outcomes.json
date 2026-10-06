@@ -1,0 +1,142 @@
+[
+ {
+  "ror_id": "https://ror.org/03angcq70",
+  "name": "University of Birmingham",
+  "outcome": "found",
+  "doc": {
+   "url": "https://intranet.birmingham.ac.uk/student/libraries/asc/student-guidance-gai.aspx",
+   "title": "Student and PGR guidance on using GenAI tools ethically for work",
+   "kind": "webpage",
+   "audience_as_stated": "undergraduate and postgraduate research students",
+   "owner_as_stated": "University of Birmingham Academic Skills Centre",
+   "date_as_shown": "(c) 2026 (footer only)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "pgr",
+    "url": "https://intranet.birmingham.ac.uk/student/libraries/research/thesis/genai-thesis-pgrs.aspx",
+    "title": "Guidance on the use of GenAI for thesis writing by postgraduate research students"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.birmingham.ac.uk/libraries/education-excellence/gai",
+    "title": "Generative Artificial Intelligence and its role within teaching, learning and assessment"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.birmingham.ac.uk/libraries/education-excellence/gai/guidance-pgt-dissertations",
+    "title": "Guidance for Academic Schools Relating to PGT Dissertations and the use of Generative Artificial Intelligence Tools"
+   }
+  ],
+  "notes": "Page is on the intranet host but fetched without login.",
+  "region": "England",
+  "doc_id": "birmingham-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/009tnsj43",
+  "name": "Newman University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://newman.ac.uk/student-life-and-support/ai-guidelines/",
+   "title": "Generative AI guidelines",
+   "kind": "webpage",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Birmingham Newman University",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.newman.ac.uk/genai",
+    "title": "AI guidance (library guide)"
+   }
+  ],
+  "notes": "No explicit date; page refers to 2024-25 regulations.",
+  "region": "England",
+  "doc_id": "newman-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/044e2ja82",
+  "name": "Scotland's Rural College",
+  "outcome": "not_found",
+  "reasons": "No generative-AI student page or academic-integrity section naming AI surfaced under sruc.ac.uk in 4 domain-filtered queries plus 1 unfiltered; digital-guide page fetched and has no AI mention. Site was reachable. Absence of search hits is not proof; SRUC policies may sit in the student portal or PDFs not indexed.",
+  "queries_tried": [
+   "generative AI students guidance (allowed_domains sruc.ac.uk)",
+   "SRUC artificial intelligence students academic integrity (allowed_domains sruc.ac.uk)",
+   "SRUC ChatGPT AI use in assessments students policy (allowed_domains sruc.ac.uk)",
+   "SRUC academic misconduct plagiarism artificial intelligence generative (allowed_domains sruc.ac.uk)",
+   "Scotland's Rural College generative AI guidance for students (no filter)"
+  ],
+  "other_pages": [],
+  "region": "Scotland",
+  "doc_id": "scotlands-rural-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02mzn7s88",
+  "name": "University of South Wales",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.southwales.ac.uk/artificialintelligence",
+   "title": "Artificial Intelligence at USW: Introduction",
+   "kind": "library_guide",
+   "audience_as_stated": "students and staff",
+   "owner_as_stated": "University of South Wales Library Services",
+   "date_as_shown": "2024-09-17 (last updated)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.southwales.ac.uk/c.php?g=712885&p=5152643",
+    "title": "Using AI in assignments"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.southwales.ac.uk/c.php?g=712885&p=5160420",
+    "title": "Guidance for Assessment"
+   }
+  ],
+  "notes": "Guide links to a USW AI Position Statement and AI Guidance for Students (PDF/DOCX); those link targets not captured, worth archiving in the next step.",
+  "region": "Wales",
+  "doc_id": "south-wales-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/03fgx6868",
+  "name": "South East Technological University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://library.setu.ie/introducing-generative-ai-and-prompt-literacy-a-comprehensive-guide-for-students/",
+   "title": "Introducing 'Generative AI and Prompt Literacy: A Comprehensive Guide for Students'",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": "SETU Libraries",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://www.setu.ie/Craft/assets/policies/SETU-Staff-Guidelines-on-the-Use-of-GenAI-Web.pdf",
+    "title": "SETU Staff Guidelines on the Use of Generative AI (GenAI)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.setu.ie/Craft/assets/policies/Student-Academic-Integrity-Policy-V1.0-Feb-2026.pdf",
+    "title": "Student Academic Integrity Policy v1.0 (Feb 2026); fetched but image-only PDF, AI content unconfirmed"
+   }
+  ],
+  "notes": "Library page returned 403 to fetch (not circumvented). A search snippet says SETU published student GenAI guidelines in Oct 2023, but no URL for that was found; locate it and prefer it over this library page.",
+  "region": "Ireland",
+  "doc_id": "setu-students-genai-202610"
+ }
+]

@@ -1,0 +1,138 @@
+{
+ "doc_id": "sheffield-students-genai-202610",
+ "coder": "pts-b35",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "All students and staff have access to Google Gemini (university login required) as the institutionally supported GenAI tool.",
+   "anchor": "Inclusivity and accessibility",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "All students and staff have access to Google Gemini, with university login, as the institutionally supported GenAI tool."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Giving a clear and consistent approach for students to declare their use of AI tools within assessment activities. The Acknowledge, Describe, Evidence approach is provided as a model for this.",
+   "anchor": "AI and academic integrity",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "The university commits to a consistent way for students to declare AI use, with Acknowledge, Describe, Evidence as the model."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Providing clarity in expectations regarding the appropriate use of AI, with a specific focus on how this would apply in assessments.",
+   "anchor": "AI and academic integrity",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "The university commits to clear expectations on appropriate AI use, focused on assessments, communicated in programme and module handbooks."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Where the use of AI is not encouraged or is prohibited, providing clarity on what this includes and why this decision has been made.",
+   "anchor": "AI and academic integrity",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Where AI use is discouraged or prohibited, the university will explain what this includes and why."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Clarity will be provided within assessment criteria regarding how AI can contribute to or detract from the achievement of learning objectives, including recognition for appropriate and responsible use.",
+   "anchor": "A human-centred approach to AI",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Assessment criteria will clarify how AI can contribute to or detract from learning objectives, including recognition for appropriate and responsible use."
+  },
+  {
+   "point_id": "p06",
+   "quote": "The University has developed a Common Approach to ensure every undergraduate programme integrates GenAI literacy through structured teaching activities and formal assessment",
+   "anchor": "A Common Approach to generative AI in the curriculum",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "A Common Approach ensures every undergraduate programme integrates GenAI literacy through structured teaching activities and formal assessment."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Due consideration is given to the equity of access to AI tools used in learning and teaching activities, ensuring that student access does not require any additional cost to the student",
+   "anchor": "Inclusivity and accessibility",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "Student access to AI tools used in learning and teaching should not require any additional cost to the student."
+  },
+  {
+   "point_id": "p08",
+   "quote": "We endorse the use of AI as an assistive technology, ensuring barriers to the use of AI tools are removed for all staff and students.",
+   "anchor": "Inclusivity and accessibility",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "The university endorses AI as an assistive technology and aims to remove barriers to using AI tools for all staff and students."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Where tools other than Google Suite are made available to students on a use case basis, the New IT Solution Request Process (staff university login required)has been followed to ensure they comply with data protection and information security policies.",
+   "anchor": "Data protection and safe use of AI tools",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Tools other than Google Suite made available to students go through the New IT Solution Request Process to ensure data protection and security compliance."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Raising critical awareness of the potential environmental, social and economic impacts of using AI tools. This includes the consumption of electricity and other natural resources, as well as the exploitation of workers in the development of AI tools.",
+   "anchor": "Ethical use of AI tools",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "The university will raise awareness of environmental, social and economic impacts of AI tools, including resource use and worker exploitation."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Staff will be provided with appropriate development and training opportunities to support the embedding of AI literacy within the curriculum",
+   "anchor": "A human-centred approach to AI",
+   "addressee": "staff",
+   "force": "commits",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "Staff will be given development and training opportunities to embed AI literacy in the curriculum."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Recognising the potential for bias, as a result of existing biases within training datasets, and also the potential of AI tools to provide inaccurate information, false references or other hallucinations.",
+   "anchor": "The limitations of AI tools",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Training-data bias and inaccurate information, false references and hallucinations are recognised as limitations of AI tools."
+  },
+  {
+   "point_id": "p13",
+   "quote": "These principles will be revisited and updated regularly.",
+   "anchor": "AI and academic integrity",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "review_and_governance",
+   "specific": false,
+   "gist": "The principles will be revisited and updated regularly."
+  }
+ ]
+}

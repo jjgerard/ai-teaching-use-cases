@@ -1,0 +1,190 @@
+[
+ {
+  "ror_id": "https://ror.org/03yeq9x20",
+  "name": "University of Lincoln",
+  "outcome": "found",
+  "doc": {
+   "url": "https://learning.lincoln.ac.uk/academic-skills/ai-guidelines/",
+   "title": "Artificial Intelligence (AI)",
+   "kind": "webpage",
+   "audience_as_stated": "current students",
+   "owner_as_stated": "Libraries and Learning Skills",
+   "date_as_shown": "Last updated September 2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://guides.library.lincoln.ac.uk/learningdevelopment/ai",
+    "title": "Artificial Intelligence (AI) - Study skills (library guide)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://digitaleducation.lincoln.ac.uk/resourceshub/ai-toolkit/governance-and-policies/",
+    "title": "Governance and Policies"
+   }
+  ],
+  "queries": [
+   "University of Lincoln generative AI students guidance (allowed_domains lincoln.ac.uk)"
+  ],
+  "notes": "Page links the university AI Policy, AI Teaching/Learning/Assessment Policy and AI in Research policy.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "lincoln-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/001htc678",
+  "name": "Ravensbourne University London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ravensbourne.ac.uk/asset-bucket/prod/2025-09/Ravensbourne%20University%20General%20Academic%20Regulations%20for%202025-26%20publishing%20v3.pdf",
+   "title": "General Academic Regulations 2025-2026",
+   "kind": "pdf",
+   "audience_as_stated": "students (academic regulations)",
+   "owner_as_stated": "University Secretary and Registrar",
+   "date_as_shown": "2025-2026",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [],
+  "queries": [
+   "Ravensbourne generative AI students guidance (allowed_domains ravensbourne.ac.uk)",
+   "Ravensbourne academic integrity artificial intelligence students policy (allowed_domains)",
+   "Ravensbourne University London use of AI tools students assessments ChatGPT (allowed_domains)",
+   "Ravensbourne student guidance generative AI use in your work acknowledgement (allowed_domains)",
+   "Ravensbourne University London generative AI policy (no domain filter)"
+  ],
+  "notes": "No standalone student GenAI guidance found by search (not a finding of absence). Fallback: academic misconduct list item k names AI-generated output. WebFetch could not render the PDF text; confirmed by saving the PDF and extracting text locally.",
+  "country": "GB",
+  "region": "England",
+  "doc_id": "ravensbourne-london-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02s08xt61",
+  "name": "University of the Highlands and Islands",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uhi.ac.uk/en/t4-media/one-web/university/about-uhi/governance/policies-and-regulations/policies/generative-ai/student-gai-guidance.pdf",
+   "title": "Student guidance on the use of Generative AI (Version 1.2)",
+   "kind": "pdf",
+   "audience_as_stated": "students",
+   "owner_as_stated": "University of the Highlands and Islands",
+   "date_as_shown": "21 May 2024",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://www.uhi.ac.uk/en/t4-media/one-web/university/about-uhi/governance/policies-and-regulations/policies/generative-ai/generative-ai-policy.pdf",
+    "title": "Generative Artificial Intelligence (GAI) policy"
+   },
+   {
+    "audience": "all",
+    "url": "https://www.uhi.ac.uk/en/t4-media/one-web/university/about-uhi/governance/policies-and-regulations/policies/generative-ai/uhi-principles-on-the-use-of-generative-ai-tools.pdf",
+    "title": "UHI Principles on the use of Generative AI tools"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.uhi.ac.uk/en/t4-media/one-web/university/about-uhi/governance/policies-and-regulations/policies/generative-ai/staff-gai-guidance.pdf",
+    "title": "Staff guidance on the use of Generative AI"
+   }
+  ],
+  "queries": [
+   "UHI generative AI students guidance (allowed_domains uhi.ac.uk)"
+  ],
+  "notes": "Date from fetch summary, not independently checked against the PDF header.",
+  "country": "GB",
+  "region": "Scotland",
+  "doc_id": "highlands-and-islands-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00hswnk62",
+  "name": "Queen's University Belfast",
+  "outcome": "found",
+  "doc": {
+   "url": "https://blogs.qub.ac.uk/digitallearning/ai/ai-in-education/teaching-and-learning/student-aisupport/",
+   "title": "AI Support for Students",
+   "kind": "webpage",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Queen's DigiHub (AI Hub)",
+   "date_as_shown": "resources added through 2024-2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.qub.ac.uk/sites/my-queens/student-roundup/using-ai-as-a-student.html",
+    "title": "Using AI as a student (HTTP 403 to fetch tool, not retrieved)"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.qub.ac.uk/AILibrary",
+    "title": "AI and the Library (library guide)"
+   },
+   {
+    "audience": "all",
+    "url": "https://blogs.qub.ac.uk/digitallearning/ai/",
+    "title": "Artificial Intelligence Hub"
+   }
+  ],
+  "queries": [
+   "Queen's University Belfast generative AI students guidance (allowed_domains qub.ac.uk)"
+  ],
+  "notes": "Page links the 'QUB Student Guidance on the Use of Generative AI' (RAISE guide) and 'Acceptable and Unacceptable AI Use at QUB'; those target URLs were not captured, so a later pass could prefer them.",
+  "country": "GB",
+  "region": "Northern Ireland",
+  "doc_id": "queens-belfast-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/05m7pjf47",
+  "name": "University College Dublin",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.ucd.ie/GENAI",
+   "title": "Artificial Intelligence: Welcome (UCD Library guide)",
+   "kind": "libguide",
+   "audience_as_stated": "UCD community incl. students",
+   "owner_as_stated": "UCD Library",
+   "date_as_shown": "Last updated 22 September 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://www.ucd.ie/registrar/ucdstrategicpoliciesandinitatives/ai-at-ucd/ai-at-UCD",
+    "title": "AI at UCD / AI Governance Principles (HTTP 403 to fetch tool, not retrieved)"
+   },
+   {
+    "audience": "students",
+    "url": "https://hub.ucd.ie/usis/!W_HU_MENU.P_PUBLISH?p_tag=GD-DOCLAND&ID=274",
+    "title": "UCD Academic Integrity Policy (linked from guide, not fetched)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.ucd.ie/artshumanities/study/aifutures/trafficlightsystem/",
+    "title": "Traffic Light System (College of Arts and Humanities only)"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.ucd.ie/graduatestudies/researchsupervisorhub/generativeai/",
+    "title": "Generative AI (Graduate Studies, supervisor hub)"
+   }
+  ],
+  "queries": [
+   "UCD generative AI students guidance (allowed_domains ucd.ie)"
+  ],
+  "notes": "Library guide is the UCD Library's own guidance, acceptable per procedure but the policy it points to is preferred; the AI at UCD page returned 403, so it was not retrieved (bot wall not bypassed). Worth a manual check.",
+  "country": "IE",
+  "region": "Ireland",
+  "doc_id": "ucd-students-genai-202610"
+ }
+]

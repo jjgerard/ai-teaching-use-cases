@@ -1,0 +1,69 @@
+{
+ "doc_id": "essex-students-genai-202610",
+ "coder": "aud-a30",
+ "checked_types": 63,
+ "found": [
+  {
+   "type": "ai_must_not_write_assessed_work_for_you",
+   "quote": "AI can't be used to write assessments",
+   "anchor": "AI can't be used to write assessments"
+  },
+  {
+   "type": "must_acknowledge_or_declare_ai_use",
+   "quote": "in general you will be expected to include information about how you have used AI as part of your assignment submissions.",
+   "anchor": "How to avoid an academic offence"
+  },
+  {
+   "type": "do_not_upload_copyright_or_third_party_material",
+   "quote": "remember to think about things like keeping your data safe, respecting copyrights, and being honest in your academic work.",
+   "anchor": "The University's position on AI"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "it can create fictitious citations, make up facts, express biased views",
+   "anchor": "Limitations of AI"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "At Essex, we want you to explore generative AI tools responsibly.",
+   "anchor": "The University's position on AI"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "Under 1.2c of our current Academic Offences Procedures the following would constitute an academic offence:",
+   "anchor": "What would be cheating?"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "This is fabrication and counts as serious misconduct.",
+   "anchor": "How to avoid an academic offence"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "submitted_work_must_be_own_not_ai_generated",
+   "quote": "Writing your own assignments is the only way in which you will develop the skill of communicating effectively in written form.",
+   "why": "Principle about own writing, framed as skill development"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "Your lecturers and teachers will give you more specific instructions",
+   "why": "Predicts staff instructions, not a staff duty"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "Always cite and reference material included in your assignments that is not your own work.",
+   "why": "Citation duty does not mention AI explicitly"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "For further help and advice please contact the Student Services Hub.",
+   "why": "General help, not clearly AI-specific"
+  },
+  {
+   "type": "do_not_enter_personal_or_sensitive_data",
+   "quote": "remember to think about things like keeping your data safe",
+   "why": "Vague data safety reminder, no prohibition"
+  }
+ ]
+}

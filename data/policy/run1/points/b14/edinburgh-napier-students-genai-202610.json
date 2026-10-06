@@ -1,0 +1,168 @@
+{
+ "doc_id": "edinburgh-napier-students-genai-202610",
+ "coder": "pts-b14",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "you are required to submit an AI declaration form on Moodle for every assessment which includes information if and how you have used Gen AI.",
+   "anchor": "Am I allowed to use Gen AI or is it considered cheating?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students must submit an AI declaration form on Moodle for every assessment, stating whether and how Gen AI was used."
+  },
+  {
+   "point_id": "p02",
+   "quote": "b) You declare your use of Gen AI, but the Gen AI content replaces the learning, thinking or skills that the assessment is designed to assess (declared, but inappropriate use of Gen AI)",
+   "anchor": "Am I allowed to use Gen AI or is it considered cheating?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Declared use is still not acceptable if the Gen AI content replaces the learning, thinking or skills the assessment is designed to assess."
+  },
+  {
+   "point_id": "p03",
+   "quote": "a) You submit Gen AI content in an assessment as if it is your own work (undeclared use of Gen AI)",
+   "anchor": "Am I allowed to use Gen AI or is it considered cheating?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Submitting Gen AI content as your own work without declaring it is not acceptable."
+  },
+  {
+   "point_id": "p04",
+   "quote": "You may not upload teaching materials, such as lecture slides, lecture recordings or assessment briefs, to Gen AI tools unless you have your module leader’s permission to do so.",
+   "anchor": "Students’ Responsibilities (Undergraduate and Taught Postgraduate)",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Teaching materials such as slides, recordings or assessment briefs may not be uploaded to Gen AI tools without the module leader's permission."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Never give your own or other’s personal information (name, health information, photos of faces etc.) to Gen AI.",
+   "anchor": "Are there any risks with using Gen AI content generation tools?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Never give your own or other people's personal information, such as name, health information or photos of faces, to Gen AI."
+  },
+  {
+   "point_id": "p06",
+   "quote": "You should always first check with your module leader or tutor about what – if any – use of Gen AI is allowed in your work.",
+   "anchor": "Generative Artificial Intelligence tools and your learning",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Students should first check with their module leader or tutor what use of Gen AI, if any, is allowed in their work."
+  },
+  {
+   "point_id": "p07",
+   "quote": "You may not upload copyrighted materials, such as journal articles or books, to Gen AI tools unless you have the author’s or publication’s permission to do so or, b) you are using a tool provided to you as a reasonable adjustment for your disability.",
+   "anchor": "Students’ Responsibilities (Undergraduate and Taught Postgraduate)",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Copyrighted works may not be uploaded to Gen AI tools without permission, unless the tool is provided as a disability reasonable adjustment."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Is using this tool stopping me from learning or developing a skill which I am expected to demonstrate in this module?",
+   "anchor": "Am I allowed to use Gen AI or is it considered cheating?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "The question to ask whenever opening a Gen AI tool is whether it stops you learning a skill you are expected to demonstrate."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Keep drafts and notes as you work. Save file versions with dates, take photos of handwritten work and take screenshots with timestamps.",
+   "anchor": "How can I protect myself from being falsely accused of cheating with Gen AI?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "To guard against false accusations, keep dated drafts, notes, photos of handwritten work and timestamped screenshots."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Be careful with tools that re-write your text. If a tool changes the wording, style and tone of your writing, it may no longer accurately represent your learning, and raise questions that the work is not your own.",
+   "anchor": "How can I protect myself from being falsely accused of cheating with Gen AI?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Be careful with tools that rewrite text, since changed wording, style and tone may raise questions about whether the work is your own."
+  },
+  {
+   "point_id": "p11",
+   "quote": "No, you don’t have to use Gen AI tools. The University’s Position Statement makes it clear that no student is required to sign up to and use a Gen AI tool, and that alternative means to engage with tasks will be provided.",
+   "anchor": "I don’t agree with the use of Gen AI tools, do I have to use them?",
+   "addressee": "student",
+   "force": "commits",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "No student is required to use a Gen AI tool, and alternative means to engage with tasks will be provided."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Check the settings on the tools you use, and turn off generative features which may be on by default.",
+   "anchor": "How can I protect myself from being falsely accused of cheating with Gen AI?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Check tool settings and turn off generative features that may be on by default."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Any use of Gen AI in the process and writing-up of your research should be clearly acknowledged.",
+   "anchor": "Students’ Responsibilities (Postgraduate Research)",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Postgraduate research students should clearly acknowledge any use of Gen AI in the research process and write-up."
+  },
+  {
+   "point_id": "p14",
+   "quote": "All of our research postgraduate degrees (excluding MRes) are examined by viva voce.",
+   "anchor": "What about Postgraduate Research and Generative AI?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Research postgraduate degrees other than MRes are examined by viva voce."
+  },
+  {
+   "point_id": "p15",
+   "quote": "all students are required to make a declaration of their use of Gen AI in their thesis, including in the course of the research reported in the thesis.",
+   "anchor": "Statement of Generative AI Use",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "All students must declare in their thesis any use of Gen AI, including during the research reported in it."
+  },
+  {
+   "point_id": "p16",
+   "quote": "Recent research has shown students in Scotland object to Gen AI use in their university for the following reasons;",
+   "anchor": "Why do some people not agree with the use of Gen AI tools?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Research shows students in Scotland object to Gen AI use in their university for a list of reasons."
+  }
+ ]
+}

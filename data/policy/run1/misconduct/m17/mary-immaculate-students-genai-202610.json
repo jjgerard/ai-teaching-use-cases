@@ -1,0 +1,101 @@
+{
+ "doc_id": "mary-immaculate-students-genai-202610",
+ "coder": "mis-m17",
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Detectors cannot be used as reliable evidence in a circumstance where the unauthorised use of GenAI is suspected.",
+   "anchor": "Academic Integrity Considerations"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": false,
+   "quote": "The College does not support the use of any such tools.",
+   "anchor": "Academic Integrity Considerations"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "The unauthorised use of GenAI can be challenging to identify. However, the following may be indicators:",
+   "anchor": "Academic Integrity Considerations"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": true,
+   "quote": "if a student's assessment submission contains indicators of the use of GenAI, without any citation of the use of GenAI tools, then there may be a case for further investigation for a breach of the MIC Academic Integrity Policy",
+   "anchor": "Academic Integrity Considerations"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "In such instances, the agreed procedures for reporting suspected breaches should be followed, as outlined in the MIC Code of Student Conduct.",
+   "anchor": "Academic Integrity Considerations"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "mark_reduction",
+   "ai_named": true,
+   "quote": "Students may incur a grade penalty if prior communication has been issued to them advising that GenAI cannot to be used for a particular assessment or in a particular way within the assessment.",
+   "anchor": "Academic Misconduct and Generative AI"
+  },
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Students who fail to comply with this will be in violation of the Student Code of Conduct, the Electronic Copyright Material Policy and the Data Protection Policy, and could face sanctions.",
+   "anchor": "Students (EU AI Act compliance)"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is defined as the use of either published or unpublished writing, ideas or works without proper acknowledgement."
+  },
+  {
+   "term": "AI detection tool",
+   "ai_named": true,
+   "quote": "Software that seeks to identify patterns that might suggest that AI-generated content has been used."
+  }
+ ],
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "If a student's use of Generative AI is in violation of the Academic Integrity Policy, and aligns with the policy's definition of plagiarism or academic dishonesty, the student will have engaged in academic misconduct.",
+   "anchor": "Academic Misconduct and Generative AI"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "If a student's use of Generative AI is in violation of the Academic Integrity Policy, and aligns with the policy's definition of plagiarism or academic dishonesty, the student will have engaged in academic misconduct.",
+   "anchor": "Academic Misconduct and Generative AI"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "if a student's assessment submission contains indicators of the use of GenAI, without any citation of the use of GenAI tools, then there may be a case for further investigation for a breach of the MIC Academic Integrity Policy",
+   "anchor": "Academic Integrity Considerations"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is defined as the use of either published or unpublished writing, ideas or works without proper acknowledgement.",
+   "anchor": "Academic Misconduct and Generative AI, 2.1"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": false,
+   "quote": "Students who fail to comply with this will be in violation of the Student Code of Conduct, the Electronic Copyright Material Policy and the Data Protection Policy, and could face sanctions.",
+   "anchor": "Students (EU AI Act compliance)"
+  }
+ ],
+ "scope": "ai_specific"
+}

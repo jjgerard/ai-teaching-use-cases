@@ -1,0 +1,182 @@
+[
+ {
+  "ror_id": "https://ror.org/01a77tt86",
+  "name": "University of Warwick",
+  "outcome": "found",
+  "doc": {
+   "url": "https://warwick.ac.uk/students/academic-essentials/academic-integrity/artificial-intelligence/",
+   "title": "Artificial Intelligence (Artificial Intelligence and Academic Integrity)",
+   "kind": "webpage",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Academic Essentials / Academic Integrity (contact named on page)",
+   "date_as_shown": "Last revised 24 September 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://warwick.ac.uk/fac/soc/law/student-hub/ai-guidance-students/",
+    "title": "Artificial Intelligence (AI) Guidance (Law School)"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://warwick.ac.uk/fac/sci/lifesci/research/der/workshop/sls_pgr_ai_guidance.pdf",
+    "title": "Guidance on the use of Generative AI (Life Sciences PGR)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://warwick.ac.uk/fac/cross_fac/academic-development/ai/learning-and-teaching/",
+    "title": "Using AI in learning and teaching"
+   }
+  ],
+  "queries": [
+   "University of Warwick generative AI students guidance (allowed_domains warwick.ac.uk)"
+  ],
+  "notes": "Sits under Academic Integrity in Academic Essentials.",
+  "doc_id": "warwick-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/0009t4v78",
+  "name": "Anglia Ruskin University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.aru.ac.uk/student-life/support-and-facilities/careers-and-employability/how-we-are-using-ai-at-aru",
+   "title": "How we're using AI at ARU",
+   "kind": "webpage",
+   "audience_as_stated": "current and prospective students",
+   "owner_as_stated": "Anglia Ruskin University (no named unit)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://www.aru.ac.uk/anglia-learning-and-teaching/cpd-opportunities/upcoming-events/ai-and-the-integrity-of-assessment-practices-the-challenge-of-chatgpt",
+    "title": "AI: University guidance on what students can do and how (staff CPD event)"
+   }
+  ],
+  "queries": [
+   "Anglia Ruskin generative AI students guidance (allowed_domains aru.ac.uk)",
+   "ARU students using AI study buddy getting started with AI academic misconduct (aru.ac.uk)",
+   "Anglia Ruskin University student intranet AI guidance what you can and cannot do with AI (aru.ac.uk)"
+  ],
+  "notes": "Public page under careers and employability; says step-by-step guidance ('Getting Started with AI', 'Using AI as a Study Buddy') is on the MyARU student intranet, which was not accessed (login). Main guidance may be behind login; public page may be thin. ARU academic honesty page (aru.ac.uk/anglia-learning-and-teaching/.../academic-honesty) fetched and does not mention AI.",
+  "doc_id": "anglia-ruskin-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/03h2bxq36",
+  "name": "University of Dundee",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.dundee.ac.uk/corporate-information/use-generative-artificial-intelligence-students",
+   "title": "Use of generative artificial intelligence for students",
+   "kind": "webpage",
+   "audience_as_stated": "University of Dundee student community",
+   "owner_as_stated": "Library Academic and Cultural Services",
+   "date_as_shown": "Updated 1 November 2024",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.dundee.ac.uk/guides/get-help-using-ai-responsibly-study",
+    "title": "Get help with acknowledging and using AI responsibly in assessment and study"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.dundee.ac.uk/academicskills/gai",
+    "title": "Using Generative AI (Academic Skills LibGuide)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.dundee.ac.uk/guides/ai-artificial-intelligence-teaching-and-assessment",
+    "title": "AI in Teaching and Assessment"
+   }
+  ],
+  "queries": [
+   "University of Dundee generative AI students guidance (allowed_domains dundee.ac.uk)"
+  ],
+  "notes": "Includes AI assessment scale.",
+  "doc_id": "dundee-students-genai-202610",
+  "region": "Scotland"
+ },
+ {
+  "ror_id": "https://ror.org/053fq8t95",
+  "name": "Swansea University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://hwb.swansea.ac.uk/academic-life/academic-regulations/other-university-regulations/ai-framework-students/",
+   "title": "Artificial Intelligence Framework: Students",
+   "kind": "webpage",
+   "audience_as_stated": "current students",
+   "owner_as_stated": "Academic Life / Academic Regulations (Hwb)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://hwb.swansea.ac.uk/academic-life/academic-regulations/taught-guidance/assessment-and-progress-taught/artificial-intelligence-guidance/",
+    "title": "Artificial Intelligence Guidance"
+   },
+   {
+    "audience": "students",
+    "url": "https://hwb.swansea.ac.uk/academic-life/academic-regulations/aqs-policies/policy-on-the-use-of-artificial-intelligence-ai-in-student-assessment/",
+    "title": "Policy on the Use of AI in Student Assessment"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://hwb.swansea.ac.uk/pgr/regulations-policy-and-processes/ai/",
+    "title": "AI Guidelines (PGR)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.swansea.ac.uk/the-university/artificial-intelligence-framework/ai-framework-teaching-staff/the-5p-model/",
+    "title": "The 5P Approach (staff)"
+   }
+  ],
+  "queries": [
+   "Swansea University generative AI students guidance (allowed_domains swansea.ac.uk)"
+  ],
+  "notes": "On hwb.swansea.ac.uk (student hub subdomain). Also exists: Policy on the Use of AI in Student Assessment (AQS policy) and Artificial Intelligence Guidance (taught guidance), not fetched.",
+  "doc_id": "swansea-students-genai-202610",
+  "region": "Wales"
+ },
+ {
+  "ror_id": "https://ror.org/013xpqh61",
+  "name": "Munster Technological University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/academic-policies/Academic-Integrity-Policy_ApprovedAC17June2026.pdf",
+   "title": "Academic Integrity Policy (Version 3.0)",
+   "kind": "pdf",
+   "audience_as_stated": "students and staff (per policy scope; not re-checked)",
+   "owner_as_stated": "MTU Academic Council policy (www.mtu.ie/policies)",
+   "date_as_shown": "17 June 2026",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [],
+  "queries": [
+   "Munster Technological University generative AI students guidance (mtu.ie)",
+   "MTU academic integrity artificial intelligence students policy (mtu.ie)",
+   "MTU students guide use of generative AI tools learning assessment (mtu.ie)",
+   "Munster Technological University artificial intelligence policy students ChatGPT guidance (mtu.ie)",
+   "MTU generative AI students library guide referencing AI acknowledge (mtu.ie)"
+  ],
+  "notes": "No dedicated student GenAI guidance found on mtu.ie. Policy section 5.6.14 'Unauthorised use of Generative Artificial Intelligence' confirmed in PDF text. Prior version V2.0 (1 Sept 2025) URL now 404. Fallback per DISCOVERY.md step 3.",
+  "doc_id": "mtu-students-genai-202610",
+  "region": "Ireland"
+ }
+]

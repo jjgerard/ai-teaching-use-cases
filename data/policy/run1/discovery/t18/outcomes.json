@@ -1,0 +1,136 @@
+[
+ {
+  "ror_id": "https://ror.org/03zjvnn91",
+  "name": "Edinburgh Napier University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://my.napier.ac.uk/your-studies/improve-your-academic-and-study-skills/artificial-intelligence-tools",
+   "title": "Artificial intelligence tools (Student Portal)",
+   "kind": "guidance",
+   "audience_as_stated": "students (Student Portal, Improve your academic & study skills)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://documentcentre.napier.ac.uk/-/media/files/university-governance/artificial-intelligence/edinburghnapieruniversityspositionongenerativeartificialintelligence.pdf",
+    "title": "Edinburgh Napier University's Position on Generative Artificial Intelligence (August 2025)"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.napier.ac.uk/c.php?g=717851&p=5204062",
+    "title": "University Guidance - AI and Literature Searching (library guide)"
+   }
+  ],
+  "queries": [
+   "Edinburgh Napier University generative AI students guidance (allowed_domains napier.ac.uk)"
+  ]
+ },
+ {
+  "ror_id": "https://ror.org/010jbqd54",
+  "name": "University of Lancashire",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.lancashire.ac.uk/assets/student-contracts/2025-26/academic-integrity-policy-and-procedure-for-academic-misconduct-2526.pdf",
+   "title": "Academic Integrity Policy and Academic Misconduct Procedure",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students (student contracts)",
+   "owner_as_stated": null,
+   "date_as_shown": "Applicable from October 2025",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [],
+  "queries": [
+   "University of Lancashire generative AI students guidance (allowed_domains lancashire.ac.uk)",
+   "University of Lancashire students using generative AI in your studies GenAI guidance acknowledge AI use (allowed_domains lancashire.ac.uk)"
+  ],
+  "notes": "Fallback: section 11.6 Unauthorised Use of Technology names AI. No standalone student GenAI guidance surfaced in two searches."
+ },
+ {
+  "ror_id": "https://ror.org/052gg0110",
+  "name": "University of Oxford",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.ox.ac.uk/students/life/it/genai-tools/guidance-on-safe-and-responsible-use-of-genai",
+   "title": "Guidance on safe and responsible use of GenAI",
+   "kind": "guidance",
+   "audience_as_stated": "students (ox.ac.uk/students)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.ox.ac.uk/students/life/it/genai-tools/genai-faqs-for-students",
+    "title": "GenAI FAQs for students"
+   }
+  ],
+  "queries": [
+   "University of Oxford guidance students use of generative AI tools study (allowed_domains ox.ac.uk)"
+  ],
+  "notes": "Search result only; curl got 403 'Just a moment' JavaScript challenge. Not bypassed."
+ },
+ {
+  "ror_id": "https://ror.org/04tj7zv24",
+  "name": "BPP University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.datocms-assets.com/106045/1783433984-22a-acceptable-use-of-gen-ai-tools-students.pdf",
+   "title": "Acceptable use of Gen AI tools (students)",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://www.bpp.com/about-bpp/bpp-university/academic-quality/manual-of-policies-and-procedures",
+    "title": "BPP University Policies and Procedures (hub linking the PDF)"
+   }
+  ],
+  "queries": [
+   "BPP University generative AI students guidance academic integrity (allowed_domains bpp.com)"
+  ],
+  "notes": "PDF hosted on datocms-assets, linked from bpp.com policies page; text read, BPP-authored (refers to BPP throughout). No date or owner seen in first lines."
+ },
+ {
+  "ror_id": "https://ror.org/03fmjzx88",
+  "name": "University of Winchester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.winchester.ac.uk/media/Approved-Generative-AI-Statement-Senate-24.06.26-to-21.06.28.pdf",
+   "title": "Generative AI Statement (Statement of Principles)",
+   "kind": "policy",
+   "audience_as_stated": "students, staff and the public; teaching, learning, assessment",
+   "owner_as_stated": "PVC (Faculties); approved by Senate",
+   "date_as_shown": "24/06/2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "all",
+    "url": "https://www.winchester.ac.uk/About-Us/Leadership-and-governance/Policies-and-Regulations/",
+    "title": "Policies and Regulations (hub)"
+   }
+  ],
+  "queries": [
+   "University of Winchester generative AI students guidance (allowed_domains winchester.ac.uk)"
+  ],
+  "notes": "Header form shows both Public Access and Internal Access Only with strikethrough not discernible in text."
+ }
+]

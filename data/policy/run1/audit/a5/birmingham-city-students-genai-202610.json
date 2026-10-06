@@ -1,0 +1,39 @@
+{
+ "doc_id": "birmingham-city-students-genai-202610",
+ "coder": "aud-a5",
+ "checked_types": 70,
+ "found": [
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "BCU embraces a positive approach to GenAI and encourages students to use it in critical and responsible ways to support their learning",
+   "anchor": "AI Guidelines: Welcome"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "the rules around GenAI use may differ between assessments. Your assessment or exam brief will explain the AI usage level for that specific task",
+   "anchor": "AI Guidelines: Welcome"
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "Always check your assessment brief and exam instructions carefully.",
+   "anchor": "AI Guidelines: Welcome"
+  },
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "Option C \u2013 AI required",
+   "anchor": "AI Guidelines: Welcome"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "BCU single sign-on is required to watch this resource.",
+   "why": "Resource unspecified; menu labels only otherwise."
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "encourages students to use it in critical and responsible ways to support their learning",
+   "why": "Supports learning but no explicit not-replace-thinking statement."
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "doc_id": "cardiff-metropolitan-students-genai-202610",
+ "coder": "use-u23",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Emphasises that students remain responsible for their own work and must not submit AI‑generated content as their own.",
+   "anchor": "What the Internal AI Student Hub Provides"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "assessment rules are set at module level and must always be checked"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

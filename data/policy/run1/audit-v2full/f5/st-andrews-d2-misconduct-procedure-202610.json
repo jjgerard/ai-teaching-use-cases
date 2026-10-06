@@ -1,0 +1,134 @@
+{
+ "doc_id": "st-andrews-d2-misconduct-procedure-202610",
+ "coder": "v2f-f5",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "Permission to make use of AI within assessments varies depending on the module and assessment, and will be set and communicated to students in accordance with the Policy on Generative AI in Learning, Teaching and Assessment",
+   "anchor": "2.2. Academic misconduct"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "Output, in whole or in part, of Artificial Intelligence (AI), including LLMs, where this is not permitted.",
+   "anchor": "2.2. Academic misconduct"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Plagiarism is the act of taking ideas or work from other sources and representing them as if it is the student’s own ideas or work.",
+   "anchor": "2.2. Academic misconduct"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Falsification as a misconduct type is agnostic about motivation and means: it can occur due to, inter alia a deliberate attempt to obfuscate, or inadvertent inclusion because of incorporation of outputs of Generative AI tools powered by Large Language Models.",
+   "anchor": "2.2. Academic misconduct"
+  },
+  {
+   "type": "spelling_grammar_proofreading_permitted",
+   "quote": "The use of tools – be they AI-powered or not – that correct spelling, punctuation, typographical errors and minor grammatical mistakes is permitted and falls outside the scope of Good Academic Practice Policy.",
+   "anchor": "2.3. Language Correction Software and Services"
+  },
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "The use of software or services (including, but not limited to, tools and services marketed specifically as ‘language correction tools’ or ‘grammar checkers’) to generate, develop or materially alter academic content is not permitted unless explicitly authorised in the assessment brief.",
+   "anchor": "2.3.2. Substantive Alteration and Generation"
+  },
+  {
+   "type": "translation_tools_restricted",
+   "quote": "Translate text drafted in another language before being submitted as the student’s own work in the assessment’s language.",
+   "anchor": "2.3.2. Substantive Alteration and Generation"
+  },
+  {
+   "type": "declaration_form_or_content",
+   "quote": "All UG and PGT students will include a declaration at the beginning of the assessment. The declaration should contain whether and how any language correction software or services has been used.",
+   "anchor": "2.3.3. Declaration"
+  },
+  {
+   "type": "assistive_technology_use_permitted",
+   "quote": "The policy here concerning language correction is not intended to impede the use of assistive technologies approved as part of a formal reasonable adjustment.",
+   "anchor": "2.3.4. Reasonable Adjustments"
+  },
+  {
+   "type": "uses_exempt_from_acknowledgement",
+   "quote": "students with a registered disability specifically allowing assistive technology, are not required to declare the use of assistive technology.",
+   "anchor": "2.3.4. Reasonable Adjustments"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "the assessment instructions to students must be clear on this point; Schools with modules that fall under this exception should develop ways of consistently informing the students that this exception applies.",
+   "anchor": "2.3.1. Routine Editorial Correction"
+  },
+  {
+   "type": "strict_liability_ignorance_no_defence",
+   "quote": "In determining whether an accusation of academic misconduct is upheld, absence of intention to commit misconduct, extenuating circumstances or ignorance of the rules is not a valid defence.",
+   "anchor": "1. HIGH PRINCIPLES"
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "Students are treated as innocent until a case against them has been upheld.",
+   "anchor": "1. HIGH PRINCIPLES"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "Zero for piece of assessment",
+   "anchor": "4.1. Sanctions for UG/PGT Students"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "Sanctions on those found to have committed academic misconduct will, as far as possible, reflect the severity of the offence that has been committed.",
+   "anchor": "1. HIGH PRINCIPLES"
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "If the student has no prior history of misconduct, a written warning may be appropriate.",
+   "anchor": "3.4. Escalation of cases of alleged misconduct"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "If a student fails to attend without good cause, the Board of Adjudication may choose to proceed in the student’s absence.",
+   "anchor": "3.5. Boards of Adjudication"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "default_ai_banned_unless_authorised",
+   "quote": "is not permitted unless explicitly authorised in the assessment brief",
+   "why": "Covers language software generating content; AI not named as such."
+  },
+  {
+   "type": "ai_banned_for_whole_assessment",
+   "quote": "Schools may opt to prohibit the use of any language correction outright",
+   "why": "Optional School ban for language-proficiency assessments; not a stated ban."
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "use of tools that reformulate or enhance language may undermine the validity of the assessment and can be treated as unauthorised assistance",
+   "why": "Language tools, AI not explicit; plagiarism type already recorded."
+  },
+  {
+   "type": "student_responsible_for_ai_content",
+   "quote": "remain responsible for ensuring that submitted work represents their own intellectual output and complies with the Good Academic Practice Policy",
+   "why": "Responsibility stated only for assistive technology users."
+  },
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "consult a member of the teaching staff such as their tutor, the module coordinator or the School’s Academic Misconduct Officer",
+   "why": "About misconduct doubt generally, AI not mentioned."
+  },
+  {
+   "type": "complete_training_before_using_ai",
+   "quote": "all newly matriculated students are required to engage in a course on good academic practice at the start of their studies",
+   "why": "Required course not tied to AI."
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "The University makes refresher training available to students at regular intervals throughout their studies.",
+   "why": "Good academic practice training, AI not mentioned."
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "copy of the plagiarism detection software report (if applicable)",
+   "why": "Plagiarism detection software, not AI detection; no investigation trigger stated."
+  }
+ ]
+}

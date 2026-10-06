@@ -1,0 +1,28 @@
+{
+ "doc_id": "robert-gordon-d2-misconduct-procedure-202610",
+ "coder": "pts-q3",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "This may include work produced by, but not attributed to: another student, an essay mill 4, a family member or friend, a tutoring service or the unauthorised use of Artificial Intelligence (AI) software.",
+   "anchor": "False Authorship",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "False authorship can include work produced by but not attributed to others, including unauthorised use of AI software."
+  },
+  {
+   "point_id": "p02",
+   "quote": "The ‘false authorship’ may relate to the student engaging with a third party and/or software tool to complete an assessment, either in part or whole.",
+   "anchor": "False Authorship",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "False authorship may involve using a third party or software tool to complete an assessment, in part or whole."
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "doc_id": "canterbury-students-genai-202610",
+ "coder": "aud-a10",
+ "checked_types": 59,
+ "found": [
+  {
+   "type": "ai_must_not_write_assessed_work_for_you",
+   "quote": "You may not use GenAI applications for: producing work that will be assessed",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "generate or extensively edit work for assessment",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "You may use GenAI tools for: time management planning an assignment generating ideas for a topic learning new concepts",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "type": "consider_whether_ai_fits_learning_outcomes",
+   "quote": "lecturers will be assessing your ability to create and modify code, problem solve and understand coding concepts, so use these tools for learning.",
+   "anchor": "Computer code"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "Your module leads may use the Artificial Intelligence Assessment Scale (AIAS) to 'rate' your module assessments according to how much GenAI interaction they will allow for your assessments.",
+   "anchor": "Producing work with GenAI"
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "Always check and follow the guidance provided by your lecturers if you are considering using GenAI for your academic work.",
+   "anchor": "Producing work with GenAI"
+  },
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "Your lecturers are your first point of contact to discuss how you would like to work with GenAI to support your learning at University.",
+   "anchor": "Frequently asked questions (FAQs)"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "If your assessment is specifically and explicitly designed to use GenAI it will be rated 3, 4 or 5 and this will be written into the module handbook.",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "If your assessment is specifically and explicitly designed to use GenAI it will be rated 3, 4 or 5",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "type": "must_acknowledge_or_declare_ai_use",
+   "quote": "You must acknowledge all use of GenAI in the preparation for assessment and reference its direct use correctly",
+   "anchor": "Academic integrity and plagiarism"
+  },
+  {
+   "type": "personal_or_confidential_data_only_under_stated_conditions",
+   "quote": "Do not share others' personal, identifiable, or sensitive information with GenAI platforms unless you have their express consent.",
+   "anchor": "Personal data security"
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "Some platforms store the interactions, which may constitute a data breach under the Data Protection Act and UK GDPR 2018.",
+   "anchor": "Privacy and data protection"
+  },
+  {
+   "type": "comply_with_data_protection_law_and_policy",
+   "quote": "If you do so, you may be in breach of the UKs Data Protection Act 2018 and Europe's GDPR laws.",
+   "anchor": "Personal data security"
+  },
+  {
+   "type": "institution_provides_or_recommends_tool",
+   "quote": "To securely access Copilot log into copilot.microsoft.com using your CCCU credentials.",
+   "anchor": "Copilot"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "GenAI tools are known to produce false, inaccurate, or misleading information, called 'hallucinations'.",
+   "anchor": "Accuracy, fabrication and misinformation"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "There is a risk of academic misconduct and plagiarism if you choose not to follow the University guidance on using GenAI.",
+   "anchor": "Frequently asked questions (FAQs)"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "It may be picked up by similarity software either from other sources or other students’ work.",
+   "anchor": "Computer code"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "If you are a final-year Undergraduate, Postgraduate research student, or researcher, please also refer to our additional research guidance: Using generative AI in research: A checklist",
+   "anchor": "Research and GenAI"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "You can also contact your Learning Skills Team for further advice and guidance.",
+   "anchor": "Frequently asked questions (FAQs)"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "Bias in training data, including on gender, race, religion, sexuality, disability, and geo-politics, among others.",
+   "anchor": "Ethics"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "to falsely insert references;",
+   "anchor": "How do I avoid academic misconduct when using digital tools for proofreading?"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "Training GenAI on copyrighted images, texts, music, and code, which are then remixed/reproduced without compensation to the original creator.",
+   "anchor": "Ethics"
+  },
+  {
+   "type": "institution_does_not_endorse_or_provide_listed_tools",
+   "quote": "The University does not recommend or endorse any specific GenAI tools.",
+   "anchor": "Frequently asked questions (FAQs)"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "Thanks to the Student AI Working Group (CCCU staff and students) for their contributions to this guidance.",
+   "anchor": null
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_output_may_be_included_when_assessment_allows",
+   "quote": "GenAI cannot be used in writing your assignments, unless it has been specified as a part of your assessment at levels 2-5",
+   "why": "Permits use at some AIAS levels but not explicit about inclusion in submission."
+  },
+  {
+   "type": "translation_tools_restricted",
+   "quote": "translate or rewrite blocks of text",
+   "why": "Translation named only within a rewriting limit list."
+  },
+  {
+   "type": "do_not_use_ai_references_or_treat_ai_as_source",
+   "quote": "We firmly advocate that you use reliable, academic sources for research.",
+   "why": "Advocates reliable sources; not explicit that AI is not a source."
+  },
+  {
+   "type": "student_responsible_for_ai_content",
+   "quote": "Any output generated should be cross-referenced for accuracy, using authoritative sources, by you as the author of your work.",
+   "why": "Mainly a verify instruction; responsibility implicit."
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "Without acknowledgement of the use of a GenAI tool, you risk academic misconduct.",
+   "why": "Misconduct tied to omitted acknowledgement, not own-work language."
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "Our approach to GenAI is educative, rather than punitive.",
+   "why": "General approach, not explicitly about first or minor offences."
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "Navigating the world of GenAI requires a balanced approach, embracing its potential whilst maintaining a sense of awareness and responsibility.",
+   "why": "Balanced attitude in wellbeing section, not institutional stance."
+  },
+  {
+   "type": "ensure_equal_access_to_ai_tools",
+   "quote": "The inequitable access to GenAI platforms within our University community, broadly and globally, creating a further divide",
+   "why": "Notes inequity as ethical issue; no commitment on access."
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "Thanks to the Learning Skills Team for their continuing support to revise and update this guidance.",
+   "why": "Implies updating but not stated as provisional."
+  }
+ ]
+}

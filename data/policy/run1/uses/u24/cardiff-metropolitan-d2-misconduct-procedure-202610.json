@@ -1,0 +1,36 @@
+{
+ "doc_id": "cardiff-metropolitan-d2-misconduct-procedure-202610",
+ "coder": "use-u24",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Assignment briefs will identify where use of artificial intelligence may be appropriate; in all other cases it is not.",
+   "anchor": null
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "Assignment briefs will identify where use of artificial intelligence may be appropriate; in all other cases it is not."
+ },
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Assignment briefs will identify where use of artificial intelligence may be appropriate; in all other cases it is not."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

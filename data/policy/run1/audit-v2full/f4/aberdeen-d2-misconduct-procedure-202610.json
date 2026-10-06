@@ -1,0 +1,59 @@
+{
+ "doc_id": "aberdeen-d2-misconduct-procedure-202610",
+ "coder": "v2f-f4",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment.",
+   "anchor": "ACADEMIC MISCONDUCT"
+  },
+  {
+   "type": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment.",
+   "anchor": "ACADEMIC MISCONDUCT"
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "A student has the right of appeal against any decision made under this Code",
+   "anchor": "RIGHTS OF APPEAL"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "Students who are found guilty of more than one instance of academic misconduct of any sort shall usually be expelled.",
+   "anchor": "Standard outcome for students found guilty of a second offence of academic misconduct"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "The student may be interviewed to assess their level of understanding of the work submitted.",
+   "anchor": "School dealing with alleged Contract Cheating by students in taught courses at level 1-5"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "or is a no show, and has not asked for the meeting to be rescheduled will have their case considered, and a decision reached in the absence of the student.",
+   "anchor": "Determination of a case in the absence of the student"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "Plagiarism through the use of artificial intelligence tools is defined as the unauthorised or unacknowledged use of artificial intelligence tools to generate content for work submitted for assessment.",
+   "why": "covers unauthorised AI use but only as plagiarism definition"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "shall be awarded an overall CGS G3 for the course in question and will usually be expelled from the University",
+   "why": "penalties generic, not AI-specific"
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "to allow the student to resubmit the work in question for assessment",
+   "why": "first-offence resubmission option, not AI-specific"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "In the case of Postgraduate Research Graduates, the Policy for Dealing with Allegations",
+   "why": "separate policy for PGR graduates, misconduct not AI"
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "doc_id": "sussex-students-genai-202610",
+ "coder": "pts-b11",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "You should only use generative AI if your School has explicitly allowed it for a specific module or assessment.",
+   "anchor": "Can I use generative AI to write my assessments?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Students should use generative AI only where their School has explicitly allowed it for a specific module or assessment."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Using AI in an assessment where it is not permitted, or submitting AI-generated work without the required acknowledgement, is academic misconduct under the University’s policy on the misuse of digital technologies.",
+   "anchor": "Can I use generative AI to write my assessments?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Unpermitted AI use, or AI-generated work submitted without required acknowledgement, is academic misconduct."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Generative AI tools must not be used to generate any materials or content for this assessment",
+   "anchor": "How do I know if the use of AI is permitted on my module?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "One of three assessment statements says generative AI must not be used to generate any materials or content."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Generative AI tools can be used in an assistive role: You are permitted to use generative AI tools for specific defined processes within this assessment.",
+   "anchor": "How do I know if the use of AI is permitted on my module?",
+   "addressee": "student",
+   "force": "may",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "The assistive-role statement permits AI for specific defined processes within the assessment."
+  },
+  {
+   "point_id": "p05",
+   "quote": "If AI use is permitted, you must keep a record of the prompts you used, the outputs generated, and how those outputs informed your work.",
+   "anchor": "How do I know if the use of AI is permitted on my module?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Where AI use is permitted, students must record their prompts, the outputs, and how outputs informed their work."
+  },
+  {
+   "point_id": "p06",
+   "quote": "I acknowledge the use of [1. insert AI system(s) and link] on [date] to [2.specific use of generative artificial intelligence]. The prompts used include [3. list of prompts]. The output from these prompts was used to [4. explain use].",
+   "anchor": "How do I reference the use of AI in my work?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "A suggested acknowledgement template names the AI system and date, the specific use, the prompts, and how the output was used."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Permissions only apply to the specific assessment and module. Do not assume that AI use is allowed in other modules.",
+   "anchor": "How do I know if the use of AI is permitted on my module?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "AI permission applies only to the specific assessment and module; students should not assume it carries over."
+  },
+  {
+   "point_id": "p08",
+   "quote": "you must not use Grammarly’s generative AI features (including: drafting new text, rewriting paragraphs, reorganising your argument, paraphrasing large sections, or generating references) unless the assessment instructions explicitly permit such use",
+   "anchor": "Can I use Grammarly?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Grammarly’s generative AI features are not allowed unless assessment instructions explicitly permit them."
+  },
+  {
+   "point_id": "p09",
+   "quote": "This should be limited to minor language correction, which is available via the free version of Grammarly. Do not pay for the premium version.",
+   "anchor": "Can I use Grammarly?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Grammarly use should be limited to minor correction in the free version, and students should not pay for premium."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Correct calculations, data, factual information, or subject-specific content.",
+   "anchor": "A proofreader (person or AI) may not:",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "A proofreader, human or AI, may not correct calculations, data, factual information, or subject-specific content."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Highlight (but not correct) areas where your communication is unclear.",
+   "anchor": "A proofreader (person or AI) may:",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "A proofreader, human or AI, may highlight but not correct areas where communication is unclear."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Any suggestions made by a person or an AI proofreading your work should be retained in case of any concerns about academic misconduct.",
+   "anchor": "Can I use generative AI to edit or proofread my assessments?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Proofreading suggestions from a person or AI should be kept in case of academic misconduct concerns."
+  },
+  {
+   "point_id": "p13",
+   "quote": "It is important to note that minor (single word) translation is permitted, however, translating substantial sections of text is not.",
+   "anchor": "Can I use generative AI tools to translate my work?",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Single-word translation is permitted but translating substantial sections is not."
+  },
+  {
+   "point_id": "p14",
+   "quote": "If you’re working with University of Sussex data, always use Microsoft Copilot via your Sussex account.",
+   "anchor": "What information should I avoid sharing with AI tools?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "When working with University of Sussex data, students should always use Microsoft Copilot through their Sussex account."
+  },
+  {
+   "point_id": "p15",
+   "quote": "Even when using Copilot, never share sensitive information such as names, addresses, health data, passwords or unpublished research.",
+   "anchor": "What information should I avoid sharing with AI tools?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Even in Copilot, sensitive information such as names, addresses, health data, passwords or unpublished research must not be shared."
+  },
+  {
+   "point_id": "p16",
+   "quote": "Submitting fabricated references is a form of academic misconduct.",
+   "anchor": "Can I use AI tools to find references for my essays?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Submitting fabricated references is academic misconduct."
+  },
+  {
+   "point_id": "p17",
+   "quote": "Students registered with the Disability Advice team and in receipt of reasonable adjustments are still permitted to use other assistive technology as recommended by the University in their Learning Support Plan.",
+   "anchor": "Can I use generative AI to edit or proofread my assessments?",
+   "addressee": "student",
+   "force": "may",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "Students with reasonable adjustments may still use assistive technology recommended in their Learning Support Plan."
+  },
+  {
+   "point_id": "p18",
+   "quote": "The University of Sussex does not recommend any of these tools for assessment.",
+   "anchor": "Finding academic sources",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "The University does not recommend Research Rabbit, Elicit or similar tools for assessment."
+  }
+ ]
+}

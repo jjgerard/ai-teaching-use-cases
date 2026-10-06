@@ -1,0 +1,63 @@
+{
+ "doc_id": "ucb-students-genai-202610",
+ "coder": "use-u11",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "AI must not be used to generate assessed work unless explicitly permitted",
+   "anchor": "5.1 Student Learning and Assessment"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "AI may be used to support preparation activities (e.g. drafting CVs, interview practice, and labour market research), provided its use enhances understanding and does not replace the development of a student’s own skills and judgement.",
+   "anchor": "5.2 Employability and Recruitment"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "AI may be used to support preparation activities (e.g. drafting CVs, interview practice, and labour market research), provided its use enhances understanding and does not replace the development of a student’s own skills and judgement.",
+   "anchor": "5.2 Employability and Recruitment"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Use must be clearly acknowledged"
+  },
+  "contents": [
+   {
+    "value": "extent_or_scope",
+    "quote": "The nature and extent of AI use must be explained"
+   },
+   {
+    "value": "learning_reflection",
+    "quote": "Reflections on the quality of AI outputs should be explored"
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

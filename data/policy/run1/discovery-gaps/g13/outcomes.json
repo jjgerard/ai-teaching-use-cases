@@ -1,0 +1,106 @@
+[
+ {
+  "name": "St Mary's University College",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://www.stmarys-belfast.ac.uk/study/writing-centre/",
+    "why": "blocked (HTTP 403)"
+   },
+   {
+    "url": "https://www.stmarys-belfast.ac.uk/st-marys-digital-services-faq/",
+    "why": "blocked (HTTP 403)"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "generative AI students guidance",
+   "artificial intelligence students (St Mary's University College Belfast)",
+   "generative AI academic integrity plagiarism ChatGPT",
+   "assessment regulations student handbook AI",
+   "library guide AI tools"
+  ]
+ },
+ {
+  "name": "University of the Arts London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.arts.ac.uk/about-ual/teaching-and-learning-exchange/digital-learning/ai-and-education/student-guide-to-generative-ai",
+   "title": "Student guide to generative AI",
+   "kind": "guide",
+   "format": "html",
+   "date_as_shown": "none (c) 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.arts.ac.uk/about-ual/learning-and-teaching/digital-learning/ai-and-education/ai-and-assessment",
+    "title": "AI and Assessment",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "student guide to generative AI"
+  ]
+ },
+ {
+  "name": "Northeastern University London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.nulondon.ac.uk/wp-content/uploads/2025/01/AY24-AQF7-Part-C-Assessment-Regulations-24.3.0.pdf",
+   "title": "AQF7: Academic Regulations, Part C: Assessment Regulations",
+   "kind": "assessment_policy",
+   "format": "pdf",
+   "date_as_shown": "AY24, v24.3.0",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.nulondon.ac.uk/academic-handbook/strategies/ai/",
+    "why": "loads, but only an index page pointing to a downloadable AI Strategy; no AI substance"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "students artificial intelligence guidance academic integrity",
+   "Northeastern University London generative AI students policy"
+  ]
+ },
+ {
+  "name": "Health Sciences University",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://www.hsu.ac.uk/wp-content/uploads/2025/08/Academic-Integrity-and-Academic-Misconduct-Policy-and-Procedure-v1.3.pdf",
+    "why": "is blocked_url; not chosen (names AI only in one misconduct sentence)"
+   },
+   {
+    "url": "https://www.hsu.ac.uk/student-life/services/library-learning-services/",
+    "why": "no AI mention"
+   },
+   {
+    "url": "https://www.hsu.ac.uk/about/policies-and-procedures/academic-regulations-policies-and-procedures/",
+    "why": "hub, no AI text, only links onward"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.hsu.ac.uk/wp-content/uploads/2024/07/Course-Design-Framework-Combined-v2.0.pdf",
+    "title": "Course Design Framework",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "students generative AI guidance",
+   "Health Sciences University AI use assessment students",
+   "HSU AI Assessment Scale students",
+   "ChatGPT generative AI library guide",
+   "AI in assessments student handbook plagiarism"
+  ]
+ }
+]

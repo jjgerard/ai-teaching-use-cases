@@ -1,0 +1,38 @@
+{"doc_id":"glasgow-d2-misconduct-procedure-202610","coder":"mis-p2","scope":"general_misconduct",
+"offences":[
+{"value":"undeclared_use","ai_named":true,"quote":"Where the use of AI is permitted, it must be verified and appropriately referenced in the work for transparency, with details of how it was used being provided.","anchor":"32.3"},
+{"value":"unauthorised_use","ai_named":true,"quote":"Students must not use generative Artificial Intelligence (AI) tools or AI-powered websites in ways which breach assessment instructions, for example to generate content, answers, or references.","anchor":"32.3"},
+{"value":"passing_off","ai_named":true,"quote":"an unacknowledged summary of a source, including a summary produced by generative Artificial Intelligence (GenAI);","anchor":"32.2"},
+{"value":"contract_cheating_or_ghostwriting","ai_named":false,"quote":"The use of ghost writing services (whether paid or not) is strictly prohibited in all assessed work and, if identified, will be considered an extremely serious breach of the University’s regulations.","anchor":"32.4"},
+{"value":"misuse_of_others_work","ai_named":false,"quote":"Working jointly to prepare an assignment or examination answers is considered collusion.","anchor":"32.5"}
+],
+"liability":[
+{"value":"strict_liability","ai_named":false,"quote":"There does not need to be any deliberate attempt to deceive.","anchor":"32.2"}
+],
+"detection":[
+{"method":"similarity_software","stance":"may_be_used","ai_named":true,"quote":"The University reserves the right to use University-approved systems, such as similarity checking software, to assist with the detection of plagiarism or generative AI misuse in the interests of improving academic standards.","anchor":"32.8"},
+{"method":"oral_viva_or_interview","stance":"may_be_used","ai_named":false,"quote":"the School may arrange an Exploratory Interview with the student in order to assess their understanding of the work they have submitted.","anchor":"32.12"}
+],
+"process":[
+{"value":"referral_to_officer_or_panel","ai_named":false,"quote":"the case will be referred to the Student Conduct Team (for Honours, postgraduate and repeat cases)","anchor":"32.12"},
+{"value":"investigation","ai_named":false,"quote":"Alleged misconduct, at whatever stage of a student's studies, whether before or after graduation, will be investigated and dealt with appropriately by the University.","anchor":"32.7"},
+{"value":"student_right_to_respond","ai_named":false,"quote":"At the interview, the student will be given a clear explanation of what is alleged and will be given the opportunity to respond, and to admit or deny responsibility.","anchor":"32.18"},
+{"value":"hearing","ai_named":false,"quote":"the Head of School will interview the student concerned.","anchor":"32.15"},
+{"value":"support_for_student","ai_named":false,"quote":"The student has the right to be accompanied, assisted or represented at the interview by one of the following: a parent or guardian; another student or friend; an Adviser from the Students’ Representative Council Advice Centre; a member of University staff, or any other person.","anchor":"32.16"},
+{"value":"appeal","ai_named":false,"quote":"The student has the right of appeal to the Senate Assessors for Student Conduct in respect of any penalty imposed by the Head of School.","anchor":"32.25"},
+{"value":"timescale","ai_named":false,"quote":"A student who wishes to appeal must do so in writing to student-conduct@glasgow.ac.uk within 10 working days of the date of the Head of School’s written decision.","anchor":"32.25"},
+{"value":"standard_of_proof","ai_named":false,"quote":"If the Head of School is satisfied, on the balance of probabilities, that a breach has occurred they may impose an academic penalty","anchor":"32.19"}
+],
+"outcomes":[
+{"value":"educative_first_offence","ai_named":false,"quote":"The student will be given guidance to help them avoid similar problems in future, which may include a referral to Student Learning Development or a requirement to complete a training course.","anchor":"32.19"},
+{"value":"warning","ai_named":false,"quote":"then the student should receive guidance about good practice and a warning.","anchor":"32.21"},
+{"value":"mark_reduction","ai_named":false,"quote":"The Head of School may reduce the grade by one or more bands, down to grade H.","anchor":"32.19"},
+{"value":"resubmission","ai_named":false,"quote":"If a resubmission is permitted and available, the resubmission will be capped at the pass mark, as will the course to which it contributes.","anchor":"32.19"},
+{"value":"degree_effect","ai_named":false,"quote":"to determine if the nature and extent of the misconduct had been material to the award or classification of the degree, diploma or certificate.","anchor":"32.27"},
+{"value":"repeat_offence_escalation","ai_named":false,"quote":"The Head of School will refer all Honours and postgraduate level cases, and all repeat allegations, directly to the Student Conduct Team for investigation under the Code of Student Conduct.","anchor":"32.10"},
+{"value":"tariff_or_factors","ai_named":false,"quote":"they may impose an academic penalty, which will take account of the extent of the misconduct.","anchor":"32.19"}
+],
+"definitions":[
+{"term":"plagiarism","ai_named":false,"quote":"Plagiarism is defined as the submission or presentation of work, in any form, which is not one's own, without proper acknowledgement of the source(s).","anchor":"32.2"},
+{"term":"collusion","ai_named":false,"quote":"Working jointly to prepare an assignment or examination answers is considered collusion.","anchor":"32.5"}
+]}

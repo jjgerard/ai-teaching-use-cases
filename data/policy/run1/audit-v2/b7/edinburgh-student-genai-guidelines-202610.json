@@ -1,0 +1,24 @@
+{
+ "doc_id": "edinburgh-student-genai-guidelines-202610",
+ "coder": "v2-b7",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Passing off someone – or something’s – work as your own for an assessment is academic misconduct. This could be failing to cite a source you have used in a piece of assessed work, getting someone or something else (such as an AI agent) to complete your work for you",
+   "anchor": "Unacceptable uses of generative AI for assessment"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "Generative AI use for Postgraduate Research students",
+   "anchor": "Further guidance"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "Edinburgh University Students Assembly on AI – principles",
+   "why": "Link label to principles, unclear whether institutional governance principles"
+  }
+ ]
+}

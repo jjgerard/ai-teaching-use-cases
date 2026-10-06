@@ -1,0 +1,27 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-d2-misconduct-procedure-202610",
+ "coder": "un-n20",
+ "uses": [
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The presenting or making use of fictitious, altered or misrepresented data, evidence, references, citations or experimental results and includes the use of GenAI created content or output that is fabricated or",
+   "anchor": "Falsification"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI-empowered plagiarism is “the use of AI tools to generate text that closely mimics existing sources without proper attribution”",
+   "anchor": "Plagiarism"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": null
+}

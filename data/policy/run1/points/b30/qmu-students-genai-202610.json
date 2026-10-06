@@ -1,0 +1,98 @@
+{
+ "doc_id": "qmu-students-genai-202610",
+ "coder": "pts-b30",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "They generate text that is not always factually correct. A knowledgeable human must check the output.",
+   "anchor": "Risks of over-reliance on generative AI",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Generated text is not always correct and a knowledgeable human must check the output."
+  },
+  {
+   "point_id": "p02",
+   "quote": "A human trained in that programming language should fully check any code or calculation produced in this way.",
+   "anchor": "Risks of over-reliance on generative AI",
+   "addressee": "student",
+   "force": "should",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Someone trained in the programming language should fully check any AI-produced code or calculation."
+  },
+  {
+   "point_id": "p03",
+   "quote": "They can occasionally produce fake citations and references.",
+   "anchor": "Risks of over-reliance on generative AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "AI tools can occasionally produce fake citations and references."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Importantly, overreliance on AI tools simply to generate written content, software code or analysis reduces your opportunity to develop and practice key skills (e.g. writing, critical thinking, evaluation, analysis, coding, reasoning).",
+   "anchor": "Risks of over-reliance on generative AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Over-reliance on AI to generate writing, code or analysis reduces the chance to develop and practise key skills."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Environmental costs. Generative AI systems consume a substantial amount of energy, require large amount of water to cool their processors and generate electricity, and lead to significant carbon emissions.",
+   "anchor": "Disadvantages of using AI in academic work",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Generative AI uses substantial energy and large amounts of water and leads to significant carbon emissions."
+  },
+  {
+   "point_id": "p06",
+   "quote": "They include hidden plagiarism – meaning that they make use of words and ideas from human authors without referencing them.",
+   "anchor": "Risks of over-reliance on generative AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "AI tools can contain hidden plagiarism by using human authors' words and ideas without referencing them."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Generative AI may use illegal libraries and material generated from AI may infringe copyright or intellectual property.",
+   "anchor": "Risks of over-reliance on generative AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "AI may use illegal libraries and its output may infringe copyright or intellectual property."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Part seven of our self-enrol Study Skills Canvas module focuses on generative AI.",
+   "anchor": "Want to learn more about generative AI for your studies?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Part seven of the self-enrol Study Skills Canvas module covers generative AI."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Such systems are amoral – they do not know that it is wrong to generate offensive, inaccurate or misleading content, and sometimes do so.",
+   "anchor": "Risks of over-reliance on generative AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": false,
+   "gist": "These systems do not know it is wrong to generate offensive, inaccurate or misleading content and sometimes do so."
+  }
+ ]
+}

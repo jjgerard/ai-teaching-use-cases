@@ -1,0 +1,13 @@
+{
+ "doc_id": "roehampton-students-genai-202610",
+ "coder": "v2-b16",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "You will always need to follow up on suggestions made by AI using traditional search methods, correct referencing techniques and always check the accuracy of everything AI provides.",
+   "why": "Verify AI via traditional search, but no library or reading-sources advice"
+  }
+ ]
+}

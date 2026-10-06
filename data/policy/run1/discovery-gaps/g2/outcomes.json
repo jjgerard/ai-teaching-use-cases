@@ -1,0 +1,22 @@
+[
+ {"name":"Lancaster University","outcome":"found",
+  "doc":{"url":"https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/student-based-services/asq/marp/Academic-Integrity-Regs.pdf","title":"Academic Integrity Regulations (Manual of Academic Regulations and Procedures 2026-27)","kind":"misconduct_procedure","format":"pdf","date_as_shown":"Applicable from October 2026","retrieved_here":true,"http":200,"mentions_ai":true},
+  "rejected":[{"url":"https://www.lancaster.ac.uk/iss/itpi/our-projects/generativeai/","why":"IT project page (prompt guide, chatbots), not student rules"},{"url":"https://www.lancaster.ac.uk/iss/itpi/safe-ai-at-lancaster-sail/","why":"pilot description, no student rules"}],
+  "other_pages":[{"url":"https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/student-based-services/asq/marp/into-regulations/LUISC-Academic-Integrity-Regulations.pdf","title":"Academic Integrity Regulations and Procedures 2025-26 (INTO)","audience":"students"}],
+  "queries":["Lancaster University generative AI students guidance","Lancaster University red amber green generative AI assessment students acknowledge use","Lancaster University library using AI tools in your studies students","Lancaster University academic integrity misconduct artificial intelligence student"]},
+ {"name":"South East Technological University","outcome":"found",
+  "doc":{"url":"https://www.setu.ie/Craft/assets/policies/Student-Academic-Integrity-Policy-V1.0-Feb-2026.pdf","title":"Student Academic Integrity Policy","kind":"institutional_policy","format":"pdf","date_as_shown":"17 February 2026, Version 1.0","retrieved_here":true,"http":200,"mentions_ai":true},
+  "rejected":[{"url":"https://www.setu.ie/Craft/assets/policies/Student-Academic-Misconduct-Policy-and-Disciplinary-Procedure-V1.0-27-February-2024.pdf","why":"2024 PDF, no AI text found by local extraction"}],
+  "other_pages":[{"url":"https://www.setu.ie/Craft/assets/policies/SETU-Staff-Guidelines-on-the-Use-of-GenAI-Web.pdf","title":"SETU Staff Guidelines on the Use of GenAI","audience":"staff"}],
+  "queries":["SETU generative AI students guide","SETU student academic integrity policy generative AI"]},
+ {"name":"University of Wolverhampton","outcome":"found_unverified",
+  "doc":{"url":"https://www.wlv.ac.uk/current-students/news/march-2025/free-skills-workshop---using-ai-in-your-studies.php","title":"Free skills workshop - using AI in your studies","kind":"news","format":"html","date_as_shown":"March 2025","retrieved_here":false,"http":202,"mentions_ai":true},
+  "rejected":[{"url":"https://www.wlv.ac.uk/current-students/conduct-and-appeals/academic-misconduct/","why":"bot challenge (HTTP 202, empty body); AI content not shown in result"},{"url":"https://www.wlv.ac.uk/about-us/corporate-information/wlv-policies/academic-integrity-policy/","why":"bot challenge (empty body)"}],
+  "other_pages":[],
+  "queries":["University of Wolverhampton artificial intelligence students guidance","Wolverhampton academic misconduct policy generative AI students"]},
+ {"name":"London School of Economics and Political Science","outcome":"found",
+  "doc":{"url":"https://blogs.lse.ac.uk/studentsatlse/2026/05/26/what-to-know-about-using-ai-while-studying-at-lse/","title":"What to know about using AI while studying at LSE","kind":"news","format":"html","date_as_shown":"26 May 2026","retrieved_here":true,"http":200,"mentions_ai":true},
+  "rejected":[],
+  "other_pages":[{"url":"https://info.lse.ac.uk/staff/divisions/Eden-Centre/Artificial-Intelligence-Education-and-Assessment/School-position-on-generative-AI","title":"School position on generative AI","audience":"staff"}],
+  "queries":[]}
+]

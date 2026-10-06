@@ -1,0 +1,92 @@
+{
+ "doc_id": "edinburgh-napier-d2-institutional-policy-202610",
+ "coder": "use-u25",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "other_rules_apply"
+   ],
+   "quote": "If you use Gen AI tools in your learning or assessments, you must follow university guidance and acknowledge AI-generated content.",
+   "anchor": "5. Students (Undergraduate and Taught Postgraduate)"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Staff and students are expected to declare when they directly use",
+   "anchor": "1. Our Collective Responsibilities"
+  },
+  {
+   "use": "any_use",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Any use of Gen AI in the process and writing-up of your research should be clearly acknowledged.",
+   "anchor": "6. Students (Postgraduate Research)"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "research_or_thesis",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Your final thesis should be your own work, not AI-generated content.",
+   "anchor": "6. Students (Postgraduate Research)"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Gen AI can be a valuable and enabling tool for many, enhancing understanding, productivity and accessibility, and offering particular benefits for disabled and neurodivergent individuals.",
+   "anchor": "2. University Leadership"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "If you are unsure about permissible use of Gen AI in your assessments, check the Assessment Brief and ask your module leader/tutor."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "You have the academic freedom to decide what use of Gen AI – if any – is permitted, on individual assessments and other learning activities."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "clear guidance on Gen AI use should be included in every assessment brief as per the University Assessment Policy [forthcoming]."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Staff and students are expected to declare when they directly use"
+  },
+  "contents": [],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "Use the Assessment Gen AI Declaration sheet with students for each assessment submission."
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Misrepresenting AI-generated work as your own is academic misconduct and may result in an academic integrity investigation."
+  },
+  "exempt": []
+ }
+}

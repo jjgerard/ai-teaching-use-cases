@@ -1,0 +1,69 @@
+{
+ "doc_id": "tcd-d2-misconduct-procedure-202610",
+ "coder": "v2f-f7",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Trinity commits to providing ongoing resources and guidance to support students and staff in the responsible and ethical use of AI and GenAI.",
+   "anchor": "5. Principles"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "Programme handbooks must also clearly outline and communicate the permitted use of GenAI by students in learning activities and assessment tasks",
+   "anchor": "7. Policy"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "If individual modules have further restrictions or permit greater allowances in the use of GenAI, those restrictions or allowances must be stated in the module descriptions in the Blackboard VLE.",
+   "anchor": "7. Policy"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "Students should familiarise themselves with the Library Guide on Generative AI, which outlines considerations for using and acknowledging the use of Gen AI in academic work.",
+   "anchor": "7. Policy"
+  },
+  {
+   "type": "declaration_form_or_content",
+   "quote": "All students must complete a signed declaration to be submitted with all assessed coursework, declaring that they have read and understood the Library guide on Academic Integrity and Generative AI",
+   "anchor": "7. Policy"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "Living Guidelines on the Responsible Use of Generative AI in Research.",
+   "anchor": "9. Related Documents"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "complete_training_before_using_ai",
+   "quote": "complete the Ready, Steady, Write plagiarism tutorial, as specified by Trinity.",
+   "why": "Plagiarism tutorial, not tied to AI use"
+  },
+  {
+   "type": "acknowledge_or_declare_ai_use",
+   "quote": "considerations for using and acknowledging the use of Gen AI in academic work.",
+   "why": "Points to guide; no direct duty to declare AI use"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "different consequences are applied according to the level.",
+   "why": "Generic levels; no AI-specific consequence"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "(including the inappropriate use of GenAI)",
+   "why": "Inappropriate GenAI use mentioned but not labelled misconduct"
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "The responsibility for this policy lies with the Senior Lecturer/Dean of Undergraduate Studies and the Dean of Graduate Studies.",
+   "why": "Policy ownership; AI not central"
+  },
+  {
+   "type": "work_must_be_own_not_written_by_ai",
+   "quote": "declaring that the work is entirely their own",
+   "why": "Own-work declaration without reference to AI writing"
+  }
+ ]
+}

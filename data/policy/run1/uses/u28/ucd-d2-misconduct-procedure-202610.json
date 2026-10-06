@@ -1,0 +1,40 @@
+{
+ "doc_id": "ucd-d2-misconduct-procedure-202610",
+ "coder": "use-u28",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "unauthorised and / or unacknowledged use of artificial intelligence tools to generate content for assessment purposes",
+   "anchor": null
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "using such technology without explicit permission from relevant academic staff"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "not acknowledging use of such technology when its use is permitted"
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "unauthorised and / or unacknowledged use of artificial intelligence tools to generate content for assessment purposes"
+  },
+  "exempt": []
+ }
+}

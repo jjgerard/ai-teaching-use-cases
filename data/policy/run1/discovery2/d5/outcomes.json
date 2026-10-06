@@ -1,0 +1,152 @@
+[
+ {
+  "name": "Dún Laoghaire Institute of Art, Design and Technology",
+  "outcome": "found",
+  "doc": {
+   "url": "https://iadt.libguides.com/AI",
+   "title": "Artificial Intelligence: Introduction (IADT Library Guide)",
+   "kind": "guide",
+   "format": "html",
+   "date_as_shown": "Last Updated: May 1, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.iadt.ie/content/files/00_iadtpolicy_IADT_Marks_+_Standards_Policy.pdf",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://iadt.ie/wp-content/uploads/2023/12/Guidelines-for-Academic-Teams-GenAI-Assessments-IADT-Approved.pdf",
+    "why": "staff only"
+   },
+   {
+    "url": "https://library.iadt.ie/guidesandhelp/",
+    "why": "only links onward"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://iadt.ie/wp-content/uploads/2023/12/Guidelines-for-Academic-Teams-GenAI-Assessments-IADT-Approved.pdf",
+    "title": "GenAI Assessment Guidelines for Academic Teams",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "Dundalk Institute of Technology",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.dkit.ie/system/files/2025-06/DkIT-Academic-Integrity-Policy-and-Procedures.pdf",
+   "title": "Academic Integrity Policy and Procedures",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Date approved 28/04/2023",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.dkit.ie/students/new-students/induction/learning-experience/academic-integrity",
+    "title": "Academic Integrity (induction page)",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Mary Immaculate College",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.mic.ul.ie/lead/projects-initiatives/academic-integrity/strategies-for-integrity",
+   "title": "Institutional Strategies for Integrity",
+   "kind": "other",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.mic.ul.ie/sites/default/files/policy/2023-03/Academic-Integrity-Policy.pdf",
+    "why": "no AI content (2014 policy; only 'technical assistance')"
+   },
+   {
+    "url": "https://www.mic.ul.ie/sites/default/files/policy/2024-05/PGP107-Assessment-and-Feedback.pdf",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.mic.ul.ie/sites/default/files/2025-09/MIC-Handbook-Academic-Regulations-and-Procedures-2025-26.pdf",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://lead.mic.ul.ie/generative-ai/academic-integrity-policy-at-mic",
+    "why": "only links onward"
+   },
+   {
+    "url": "https://www.mic.ul.ie/lead/gen-ai-guidelines",
+    "why": "staff only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.mic.ul.ie/lead/gen-ai-guidelines",
+    "title": "Guidelines for Generative AI",
+    "audience": "staff"
+   }
+  ],
+  "note": "weak fit: institutional integrity-strategies page, audience mixed; MIC Academic Integrity Policy is under review and has no AI text"
+ },
+ {
+  "name": "Munster Technological University",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/academic-policies/PolicyRegsModulesProgsMS_Ac-app-120326.pdf",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/academic-policies/Academic-Integrity_Policy_V2.0.pdf",
+    "why": "same kind as first (earlier version)"
+   },
+   {
+    "url": "https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/research-innovation-and-postgraduate-study/Authorship-Policy_V3.0.pdf",
+    "why": "research/PGR authorship"
+   }
+  ],
+  "queries": [
+   "MTU generative AI students assessment",
+   "MTU artificial intelligence statement of intent students policy",
+   "MTU library guide generative AI students using AI tools responsibly",
+   "MTU assessment regulations marks and standards generative AI",
+   "MTU students guidance use of AI tools assignments acknowledge",
+   "MTU Cork Kerry library guide artificial intelligence referencing AI"
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "National College of Ireland",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ncirl.ie/Portals/0/Library/NCI%20Academic%20Integrity%20Policy%20on%20Assessments%20and%20use%20of%20AI%20Generated%20Material%20such%20as%20ChatGPT.pdf?ver=2023-05-22-161619-910&timestamp=1684768817233",
+   "title": "NCI Academic Integrity Policy on Assessments and use of AI Generated Material such as ChatGPT",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "May 2023 (from URL ver 2023-05-22)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://ncisupporthub.ncirl.ie/hc/en-ie/articles/15684868313884-Code-of-Practice-for-Academic-Honesty-and-Integrity-Student-Guide",
+    "title": "Code of Practice for Academic Honesty and Integrity - Student Guide",
+    "audience": "students"
+   }
+  ]
+ }
+]

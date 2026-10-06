@@ -1,0 +1,59 @@
+{
+ "doc_id": "southampton-students-genai-202610",
+ "coder": "aud-a38",
+ "checked_types": 60,
+ "found": [
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "ready for work and life in an AI-enabled world",
+   "anchor": "Our views on using GenAI"
+  },
+  {
+   "type": "default_ai_permitted_unless_restricted",
+   "quote": "You are allowed to use GenAI tools like ChatGPT to develop your learning and support your studies.",
+   "anchor": "Using GenAI in your studies"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "How far, and in what ways, you can use generative AI will depend on the particular task or learning you are carrying out and what capabilities you are expected to demonstrate.",
+   "anchor": "Using GenAI in your studies"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "citing or clearly referencing your use of GenAI",
+   "anchor": "Acceptable and unacceptable GenAI use"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Searching and Generative AI – advice from our Library Services",
+   "anchor": "Further guidance for students and staff"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "For some learning activities your tutor will build use of GenAI into teaching and give guidelines on how to use the tools.",
+   "why": "Learning activities, not clearly assessments"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "your tutor will build use of GenAI into teaching and give guidelines on how to use the tools.",
+   "why": "Tutor guidelines mentioned for teaching, not assessments"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "using GenAI as an assistive technology by arrangement with our Disability and Inclusion team",
+   "why": "Named team but arrangement, not help with questions"
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "create generic, bland text that does not show the knowledge, understanding and critical thinking your university studies give you.",
+   "why": "Descriptive warning, not clearly normative"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "Rommel chairs a discussion with students Saddir, Chloe and Adele.",
+   "why": "Student video; no governance role stated"
+  }
+ ]
+}

@@ -1,0 +1,168 @@
+{
+ "doc_id": "kcl-students-genai-202610",
+ "coder": "pts-b24",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "King's requires students to acknowledge any use of generative AI tools in coursework by including a declaration statement along with your references.",
+   "anchor": "How do I acknowledge use of generative AI?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students must include a declaration statement with their references acknowledging any use of generative AI in coursework."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Golden Rule 1: Learn with your chats and interactions with AI, but never copy-paste text generated from a prompt directly into summative assignments (unless you are specifically told you can do this).",
+   "anchor": "What are the ‘golden rules’ of use?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Never copy-paste prompt-generated text directly into summative assignments unless specifically told you can."
+  },
+  {
+   "point_id": "p03",
+   "quote": "You should not input personal data, sensitive information or content created by others into any AI platform.",
+   "anchor": "What should I be alert to?",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Students should not enter personal data, sensitive information or others' content into any AI platform."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Potential penalties can range from formal warnings, resubmitting the coursework, suspension or expulsion.",
+   "anchor": "What are the consequences of inappropriate use of generative AI?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Penalties may range from formal warnings and resubmission to suspension or expulsion."
+  },
+  {
+   "point_id": "p05",
+   "quote": "We have suggested four broad levels that your Programme and Module leaders may adjust to the specifics of an assessment:",
+   "anchor": "What constitutes appropriate use?",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Four broad levels of AI use are suggested, which Programme and Module leaders may adjust for a specific assessment."
+  },
+  {
+   "point_id": "p06",
+   "quote": "No specific restrictions but with requirement to track key stages/tools utilised.",
+   "anchor": "What constitutes appropriate use?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "The Open level has no specific restrictions but requires tracking key stages and tools used."
+  },
+  {
+   "point_id": "p07",
+   "quote": "No, King's does not ban the use of any type of AI.",
+   "anchor": "Is generative AI banned at King’s?",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "King's does not ban any type of AI."
+  },
+  {
+   "point_id": "p08",
+   "quote": "does not require students to reference generative AI as an authoritative source in the reference list for much the same reason you would not be expected to cite a search engine",
+   "anchor": "How do I acknowledge use of generative AI?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "King's does not require generative AI to be cited in the reference list, for the same reason a search engine is not cited."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Please note that Microsoft Copilot is available to all King's students with your KCL Microsoft log in credentials.",
+   "anchor": "Text generation",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Microsoft Copilot is available to all King's students through their KCL Microsoft login."
+  },
+  {
+   "point_id": "p10",
+   "quote": "so long as acknowledged use falls within the scope of appropriate use as defined in the assessment brief/guidance then this will not have any direct impact on the grades awarded.",
+   "anchor": "How do I acknowledge use of generative AI?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Acknowledged use within the scope of appropriate use in the assessment brief has no direct impact on grades."
+  },
+  {
+   "point_id": "p11",
+   "quote": "If inappropriate use is suspected, a student may be called to an academic integrity meeting with academics to discuss authorship concerns and resolve any issues.",
+   "anchor": "What is an Academic Integrity meeting (AIM)?",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "If inappropriate use is suspected, a student may be called to an academic integrity meeting to discuss authorship concerns."
+  },
+  {
+   "point_id": "p12",
+   "quote": "These tools are NOT databases of knowledge.",
+   "anchor": "Text generation",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "AI text tools are not databases of knowledge."
+  },
+  {
+   "point_id": "p13",
+   "quote": "It is absolutely essential that you are clear about any particular requirements or restrictions at programme level as these can vary, even across modules.",
+   "anchor": "What should I be alert to?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Students must be clear about programme-level requirements or restrictions, which can vary even between modules."
+  },
+  {
+   "point_id": "p14",
+   "quote": "in no circumstance is it appropriate to use generated content verbatim without clear indication and acknowledgement, or to effectively outsource the writing task",
+   "anchor": "What constitutes appropriate use?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using generated content verbatim without clear acknowledgement, or outsourcing the writing task, is never appropriate."
+  },
+  {
+   "point_id": "p15",
+   "quote": "Golden rule 2: Ask if you are uncertain about what is allowed in any given assessment.",
+   "anchor": "What are the ‘golden rules’ of use?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Ask if you are uncertain what is allowed in a given assessment."
+  },
+  {
+   "point_id": "p16",
+   "quote": "Please also note you should exercise caution when using any tools that require additional log ins or account generation as these will likely collect personal data.",
+   "anchor": "What should I be alert to?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Be cautious with tools requiring extra log-ins or accounts, as they will likely collect personal data."
+  }
+ ]
+}

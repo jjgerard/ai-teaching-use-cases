@@ -1,0 +1,49 @@
+{
+ "doc_id": "liverpool-hope-students-genai-202610",
+ "coder": "aud-a21",
+ "checked_types": 61,
+ "found": [
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "Research Assistant on OneSearch allows you to search the library’s resources using this AI tool which allows you to search using natural language as a starting point to your research.",
+   "anchor": "Finding Academic Sources"
+  },
+  {
+   "type": "include_prompts_and_outputs_as_evidence",
+   "quote": "The Use of Generative AI Tools Declaration Form can be attached to your assignment to show when you have used a generative AI tool. You should include the details of the AI tool used, how you have used it and your search prompts.",
+   "anchor": "Environmental and Ethical Issues"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "The Library team has produced a Referencing Generative AI (GenAI) sources in your work guide, which highlights how to reference using the referencing styles in use across the University.",
+   "anchor": "Environmental and Ethical Issues"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "The material used by these tools has been scrapped from the internet this therefore contains bias, misrepresentation and marginalization of some groups.",
+   "anchor": "Environmental and Ethical Issues"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "spelling_grammar_proofreading_permitted",
+   "quote": "You can also sign up to Grammarly for free.",
+   "why": "tool offered, no explicit permission statement"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "The University's Academic Misconduct Policy highlights the policy on academic integrity, including the use of GenAI.",
+   "why": "points to policy, no procedure stated"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "There are also social and ethical considerations including the exploitation of human labour to review the content in these tools.",
+   "why": "labour exploitation, not authors' work without credit"
+  },
+  {
+   "type": "keep_record_of_ai_interactions",
+   "quote": "documenting use of AI",
+   "why": "only video description fragment"
+  }
+ ]
+}

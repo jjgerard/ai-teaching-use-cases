@@ -1,0 +1,79 @@
+{
+ "doc_id": "northampton-students-genai-202610",
+ "coder": "aud-a31",
+ "checked_types": 56,
+ "found": [
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "You should always critically evaluate AI outputs, verifying them against reliable information sources.",
+   "anchor": "Guidance intro"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "This can constrain originality and plurality of views, and lead to the further exclusion of marginalised groups.",
+   "anchor": "Bias and constraint"
+  },
+  {
+   "type": "ai_tools_may_store_or_train_on_inputs",
+   "quote": "the information and data you submit could be used to train the AI",
+   "anchor": "Privacy, data protection and copyright"
+  },
+  {
+   "type": "ai_environmental_impact",
+   "quote": "Like many human activities, our use of AI has an environmental impact.",
+   "anchor": "Environmental"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "Not doing so can be seen as academic misconduct. In particular, you should not pass off content produced by AI as your own work.",
+   "anchor": "Guidance on AI in Assessments"
+  },
+  {
+   "type": "ai_must_not_write_assessed_work_for_you",
+   "quote": "Complete assessed work on your behalf.",
+   "anchor": "Step 2: When do I need to acknowledge using AI?"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "Support your learning, understanding, planning, and revision.",
+   "anchor": "Step 2: When do I need to acknowledge using AI?"
+  },
+  {
+   "type": "ai_output_may_be_included_when_assessment_allows",
+   "quote": "Generating text, images or any other content to add to your assessment.",
+   "anchor": "Step 2: When do I need to acknowledge using AI?"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "Different assessments will have different rules regarding the use of AI in your work.",
+   "anchor": "Step 1: What category is my assessment?"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "UON takes an acknowledgment-based approach to use of AI and commits to support staff and students to build their critical AI literacy.",
+   "anchor": "AI Guidance for Your Academic Work"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "Your assessment brief should outline how your tutor wants you to do this.",
+   "anchor": "Category 3: AI is an integral part of assessment"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "Use AI where prohibited or in ways that breach academic integrity requirements.",
+   "why": "listed as must-not, no misconduct label"
+  },
+  {
+   "type": "default_ai_permitted_unless_restricted",
+   "quote": "Many staff and students will benefit in the use of AI tools",
+   "why": "stance and acknowledgement approach, no explicit default rule"
+  },
+  {
+   "type": "institution_provides_or_recommends_tool",
+   "quote": "LLS have developed a recommended tool for writing AI acknowledgements",
+   "why": "tool is for acknowledgements, not an AI tool"
+  }
+ ]
+}

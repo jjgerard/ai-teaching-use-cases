@@ -1,0 +1,148 @@
+{
+ "doc_id": "winchester-students-genai-202610",
+ "coder": "pts-b32",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Students must never use Generative AI tools to produce content that is presented as their own critical thinking or original creation, whether for assessment or formative work.",
+   "anchor": "Principle 3",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Students must never use generative AI to produce content presented as their own critical thinking or original creation, in assessed or formative work."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Where the University suspects that Generative AI has been used to create assessment content without acknowledgement or authorisation, it reserves the right to invoke formal processes of investigation.",
+   "anchor": "Principle 3",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "The University may start formal investigation where it suspects AI was used to create assessment content without acknowledgement or authorisation."
+  },
+  {
+   "point_id": "p03",
+   "quote": "The University does not prohibit the use of Generative AI tools.",
+   "anchor": "Principle 2",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "The University does not prohibit the use of generative AI tools."
+  },
+  {
+   "point_id": "p04",
+   "quote": "We encourage students and staff to use AI tools to help get started on tasks, improve their work, and generate new ideas.",
+   "anchor": "Principle 3",
+   "addressee": "both",
+   "force": "encouraged",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Students and staff are encouraged to use AI tools to get started, improve work and generate ideas."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Students and staff always remain accountable for their final outputs. This includes ensuring that content is appropriate and free of errors.",
+   "anchor": "Principle 3",
+   "addressee": "both",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Students and staff remain accountable for final outputs, including that content is appropriate and free of errors."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Students and colleagues should state where AI has been used substantially.",
+   "anchor": "Principle 3",
+   "addressee": "both",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students and colleagues should state where AI has been used substantially."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Assessment guidance will make clear when the use of Generative AI tools is not permitted, when it is permitted, and under what conditions.",
+   "anchor": "Principle 6",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Assessment guidance will state when AI use is not permitted, when it is permitted, and under what conditions."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Colleagues and students should use AI proportionately, avoid unnecessary regeneration, and are encouraged to choose lower-impact approaches where these meet their needs.",
+   "anchor": "Principle 3",
+   "addressee": "both",
+   "force": "should",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Use AI proportionately, avoid unnecessary regeneration, and choose lower-impact approaches where they meet needs."
+  },
+  {
+   "point_id": "p09",
+   "quote": "As set out in University IT policies, use of tools (including AI tools) may be monitored.",
+   "anchor": "Principle 3",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Use of tools, including AI tools, may be monitored under University IT policies."
+  },
+  {
+   "point_id": "p10",
+   "quote": "All students will be offered the opportunity to complete an AI training module.",
+   "anchor": "Principle 4",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "All students will be offered the chance to complete an AI training module."
+  },
+  {
+   "point_id": "p11",
+   "quote": "The University will make University-provided AI tools available to students and colleagues and will offer training to support their confident and responsible use.",
+   "anchor": "Principle 4",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "The University will make its provided AI tools available to students and colleagues, with training."
+  },
+  {
+   "point_id": "p12",
+   "quote": "However, we expect applications to the University (to either study or work here) to be your own, drawing on your skills and experience and expressing your views and values authentically.",
+   "anchor": "Principle 7",
+   "addressee": "student",
+   "force": "should",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Applications to study or work at the University are expected to be the applicant's own and authentic."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Students are encouraged to speak to the Disability and Inclusion Team, and staff to their line manager and other relevant colleagues, about how University-provided AI tools can be used appropriately as part of a learning agreement or reasonable adjustment.",
+   "anchor": "Principle 8",
+   "addressee": "both",
+   "force": "encouraged",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "Students are encouraged to speak to the Disability and Inclusion Team about using provided AI tools within a learning agreement or reasonable adjustment."
+  },
+  {
+   "point_id": "p14",
+   "quote": "Students and staff should remember that many large language models (LLMs) have been trained on the work of others, including copyrighted and other intellectual property, without permission or payment.",
+   "anchor": "Principle 3",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Many LLMs have been trained on others' work, including copyrighted material, without permission or payment."
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "doc_id": "exeter-students-assessment-202610",
+ "coder": "v2-b8",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "which covers situations where a person deliberately or accidentally represents work or ideas as their own without appropriate acknowledgement or referencing, including AI;",
+   "anchor": "Academic Honesty and Policy"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "The use of GenAI tools is required by the module\u2019s Intended Learning Outcomes.",
+   "why": "Defines a tier; not a commitment to teach AI literacy"
+  }
+ ]
+}

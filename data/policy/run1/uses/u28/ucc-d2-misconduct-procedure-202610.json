@@ -1,0 +1,35 @@
+{
+ "doc_id": "ucc-d2-misconduct-procedure-202610",
+ "coder": "use-u28",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Academic integrity is breached if students submit the products of GenAI as their own work without acknowledgement and without authorisation to use GenAI in fulﬁlling the task.",
+   "anchor": null
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Academic integrity is breached if students submit the products of GenAI as their own work without acknowledgement and without authorisation to use GenAI in fulﬁlling the task."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Academic integrity is breached if students submit the products of GenAI as their own work without acknowledgement and without authorisation to use GenAI in fulﬁlling the task."
+  },
+  "exempt": []
+ }
+}

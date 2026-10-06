@@ -1,0 +1,29 @@
+{
+ "doc_id": "york-st-john-students-genai-202610",
+ "coder": "v2-d3",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "Using AI may not be cheating - but hiding it could be a breach of academic integrity.",
+   "anchor": "2. Be honest and transparent"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "York St John University Guiding Principles on the Use of Generative Artificial Intelligence (2025)",
+   "why": "Published principles, but mostly student-facing use rules"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "Research policies and documents that support us to deliver the highest quality research in a supportive environment.",
+   "why": "Generic research section, not AI-specific guidance"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "use of any technology that breaches Academic Integrity can result in you being investigated for academic misconduct.",
+   "why": "Mentions investigation, no process step described"
+  }
+ ]
+}

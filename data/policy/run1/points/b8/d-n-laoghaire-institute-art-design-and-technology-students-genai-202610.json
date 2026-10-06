@@ -1,0 +1,148 @@
+{
+ "doc_id": "d-n-laoghaire-institute-art-design-and-technology-students-genai-202610",
+ "coder": "pts-b8",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Academic Integrity is breached if students submit the products of GenAI as their own work without acknowledgement or without authorisation to use GenAI in fulfilling the task.",
+   "anchor": "9. Generative Artificial Intelligence",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Submitting GenAI output as your own without acknowledgement or without authorisation to use GenAI breaches academic integrity."
+  },
+  {
+   "point_id": "p02",
+   "quote": "The if, how, and the extent to which GenAI tools may or may not be acceptably incorporated and the use of GenAI tools in formative and summative learning will be decided by the Faculty, Department, Programme Teams, and lecturers in IADT.",
+   "anchor": "9. Generative Artificial Intelligence",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Faculty, Department, Programme Teams and lecturers decide whether, how and how far GenAI may be used in formative and summative learning."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Inappropriate use of Generative AI tools without express permission from lecturer (with or without citation)",
+   "anchor": "Appendix 1: Penalties for Academic Misconduct",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Listed in the penalties table: inappropriate GenAI use without express lecturer permission, with or without citation."
+  },
+  {
+   "point_id": "p04",
+   "quote": "The output of GenAI tools is classed as a source and requires citation as referred to in the tables below",
+   "anchor": "Appendix 1: Penalties for Academic Misconduct",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "GenAI output is classed as a source and requires citation."
+  },
+  {
+   "point_id": "p05",
+   "quote": "If the assessment specifically allows for the use of Generative AI tools, students are required to cite the tool’s contribution to their work.",
+   "anchor": "9. Generative Artificial Intelligence",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Where GenAI is allowed, students must cite its contribution."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Students are advised to document the process of their work and how they arrived at the outputs submitted.",
+   "anchor": "9. Generative Artificial Intelligence",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students are advised to document their process and how they reached their submitted outputs."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Please note repeat offenses of academic misconduct will incur stronger penalties up to and including disqualification.",
+   "anchor": "Appendix 1: Penalties for Academic Misconduct",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Repeat offences bring stronger penalties, up to and including disqualification."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Students must assess the validity and applicability of any Generative AI output that is generated and should be able to effectively critique the work.",
+   "anchor": "9. Generative Artificial Intelligence",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Students must assess the validity and applicability of GenAI output and be able to critique it."
+  },
+  {
+   "point_id": "p09",
+   "quote": "all students submitting written submissions are required to do so using the Turnitin tool that is integrated into the Institute’s virtual learning environment, The Hub [Blackboard].",
+   "anchor": "10. Detection and Investigation",
+   "addressee": "student",
+   "force": "must",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "Written submissions must be made using Turnitin in the Hub (Blackboard)."
+  },
+  {
+   "point_id": "p10",
+   "quote": "IADT reserves the right to utilise similarity and AI detection tools, for example Turnitin or other supporting software, being mindful of the limitations of these detection tools.",
+   "anchor": "10. Detection and Investigation",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "IADT may use similarity and AI detection tools while mindful of their limitations."
+  },
+  {
+   "point_id": "p11",
+   "quote": "the lecturer will discuss this with the learner and may ask for proof of process as a ‘Viva’ (oral defence of the thesis), oral presentation, process walk-through or other means of assessment.",
+   "anchor": "10. Detection and Investigation",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "When authenticity is questioned, the lecturer discusses it with the learner and may ask for proof of process such as a viva or walk-through."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Using Turnitin for text matching prior to submitting an assignment, where appropriate.",
+   "anchor": "12. Roles and Responsibilities",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "Students can minimise accidental misconduct by using Turnitin text matching before submitting, where appropriate."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Data Privacy: GDPR and best practice standards regarding data must be considered in usage.",
+   "anchor": "9. Generative Artificial Intelligence",
+   "addressee": "both",
+   "force": "must",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "GDPR and best-practice data standards must be considered when using GenAI."
+  },
+  {
+   "point_id": "p14",
+   "quote": "Training will be made available to staff and students",
+   "anchor": "9. Generative Artificial Intelligence",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Training will be made available to staff and students."
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "doc_id": "bradford-students-genai-202610",
+ "coder": "use-u20",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using generative AI tools outside the given parameters of the assessment brief without acknowledgement or attribution.",
+   "anchor": "4. Poor Academic Practice versus Academic Misconduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Using generative AI tools outside the given parameters of the assessment brief without acknowledgement or attribution."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

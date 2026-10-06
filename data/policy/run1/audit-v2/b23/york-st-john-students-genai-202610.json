@@ -1,0 +1,23 @@
+{
+ "doc_id": "york-st-john-students-genai-202610",
+ "coder": "v2-b23",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "Using AI may not be cheating - but hiding it could be a breach of academic integrity.",
+   "why": "Names hiding AI use but may be plain duty to declare"
+  },
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "I have not relied on GenAI tools as if they were an authoritative or expert scholarly source.",
+   "why": "Closer to not treating AI as a source"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "Research policies and documents that support us to deliver the highest quality research in a supportive environment.",
+   "why": "Generic research policies link, not AI-specific guidance"
+  }
+ ]
+}

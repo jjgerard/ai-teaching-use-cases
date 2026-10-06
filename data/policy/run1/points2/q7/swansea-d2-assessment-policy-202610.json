@@ -1,0 +1,88 @@
+{
+ "doc_id": "swansea-d2-assessment-policy-202610",
+ "coder": "pts-q7",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Staff or students are not permitted to upload student assessment, or any identifiable data without explicit written consent, to AI applications for any reason (including attempts to check for AI generated content).",
+   "anchor": "5. Data Governance and Privacy",
+   "addressee": "both",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Uploading student assessment or identifiable data to AI applications without explicit written consent is not permitted, including to check for AI content."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Staff and students will not be permitted to present work completed by AI applications as their own without acknowledgement.",
+   "anchor": "3. Ethical Use of AI",
+   "addressee": "both",
+   "force": "must_not",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Work completed by AI applications may not be presented as one's own without acknowledgement."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Staff and students should not enter any identifiable information into any AI application.",
+   "anchor": "5. Data Governance and Privacy",
+   "addressee": "both",
+   "force": "should_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Identifiable information should not be entered into any AI application."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Users must always ensure the accuracy of results produced by generative AI tools.",
+   "anchor": "4. Transparency, Accuracy, Fairness and Bias",
+   "addressee": "both",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Users must always check the accuracy of generative AI outputs."
+  },
+  {
+   "point_id": "p05",
+   "quote": "The University will enable the use of AI applications in assessment where this is appropriate and relevant to enhance student learning.",
+   "anchor": "6. Assessment Design",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "The University will enable AI use in assessment where appropriate and relevant to enhance learning."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Swansea University trusts its students to use AI ethically and transparently.",
+   "anchor": "2. Key Principles",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "other",
+   "specific": false,
+   "gist": "The University states it trusts students to use AI ethically and transparently."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Non-compliance with this policy will be reported to the Regulations, Quality and Standards Board.",
+   "anchor": "9. Policy Compliance and Review",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "Non-compliance with the policy will be reported to the Regulations, Quality and Standards Board."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Formally, this policy will be reviewed at least annually.",
+   "anchor": "9. Policy Compliance and Review",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "The policy will be formally reviewed at least annually."
+  }
+ ]
+}

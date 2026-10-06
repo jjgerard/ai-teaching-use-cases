@@ -1,0 +1,138 @@
+{
+ "doc_id": "west-england-students-genai-202610",
+ "coder": "pts-b33",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Do not submit AI generated work in assessments without appropriate acknowledgement.",
+   "anchor": "Good practice",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Do not submit AI-generated work in assessments without appropriate acknowledgement."
+  },
+  {
+   "point_id": "p02",
+   "quote": "It is important to remember that it is an academic offence to download material from the web and submit it as your own work, or submit work created by using AI tools without appropriate acknowledgement.",
+   "anchor": "Different scenarios for AI use",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Submitting AI-created work without appropriate acknowledgement is an academic offence."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Do not enter personal or sensitive information into AI tools. It is often unknown how that data will be stored or could be accessed and used by others.",
+   "anchor": "Good practice",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Do not enter personal or sensitive information into AI tools, as storage and access are often unknown."
+  },
+  {
+   "point_id": "p04",
+   "quote": "This includes your colleagues, teaching staff, and materials such as transcripts of teaching materials (including slides and exam papers) or content from UWE Bristol Library resources.",
+   "anchor": "Good practice",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Others' data and work, including teaching materials, slides, exam papers and Library content, should not be submitted without consent."
+  },
+  {
+   "point_id": "p05",
+   "quote": "You should not upload teaching materials or other resources provided by your tutor.",
+   "anchor": "Testing your knowledge",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Do not upload teaching materials or other resources provided by your tutor."
+  },
+  {
+   "point_id": "p06",
+   "quote": "There are few restrictions on the use of generative AI to help your personal studies. However, there may be restrictions when completing assessments or assignments.",
+   "anchor": "Using generative AI at UWE Bristol",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Few restrictions apply to personal study use, but assessments or assignments may be restricted."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Always speak to your tutor if you are unsure whether specific uses of generative AI are permitted for specific assignments or assessments.",
+   "anchor": "Referencing the use of generative AI",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Speak to your tutor if unsure whether specific AI uses are permitted for an assignment."
+  },
+  {
+   "point_id": "p08",
+   "quote": "If you are guided to use generative AI in your assessments or assignments, you will need to acknowledge its use through referencing.",
+   "anchor": "Referencing the use of generative AI",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "If guided to use generative AI in assessments, acknowledge its use through referencing."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Check the assessment brief. Does it describe how AI could be used? Does it say what is and is not allowed?",
+   "anchor": "Different scenarios for AI use",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Check whether the assessment brief says how AI could be used and what is and is not allowed."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Check the learning outcomes of your module. Does your planned use of AI fit with them?",
+   "anchor": "Different scenarios for AI use",
+   "addressee": "student",
+   "force": "should",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Check whether your planned AI use fits the module's learning outcomes."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Remember that generative AI is often inaccurate, creating false references, out-of-date detail and false information (known as ‘hallucinations’). Always check your results.",
+   "anchor": "How to use generative AI",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Generative AI often produces false references and information, so always check results."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Do not simply trust or follow the study plan created by generative AI. Always verify the information, deadlines, and requirements.",
+   "anchor": "Making a study plan",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Do not simply trust an AI-created study plan; verify information, deadlines and requirements."
+  },
+  {
+   "point_id": "p13",
+   "quote": "You can test your knowledge by creating questions, quizzes, or exercises based on your own study notes.",
+   "anchor": "Testing your knowledge",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Students may create questions, quizzes or exercises from their own study notes."
+  }
+ ]
+}

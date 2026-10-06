@@ -1,0 +1,71 @@
+{
+ "doc_id": "brighton-students-genai-202610",
+ "coder": "uses-x6",
+ "uses": [
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Learning: by summarising long texts or videos and explaining concepts",
+   "anchor": "In education AI can be used for:"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Learning: by summarising long texts or videos and explaining concepts",
+   "anchor": "In education AI can be used for:"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Writing: AI programs can help with structure and grammar",
+   "anchor": "In education AI can be used for:"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Writing: AI programs can help with structure and grammar",
+   "anchor": "In education AI can be used for:"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Accessibility: by providing text-to-speech and alternative formats",
+   "anchor": "In education AI can be used for:"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Research: by focusing searches and providing keyword suggestions",
+   "anchor": "In education AI can be used for:"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

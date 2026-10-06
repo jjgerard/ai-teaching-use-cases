@@ -1,0 +1,31 @@
+{
+ "doc_id": "swansea-d2-assessment-policy-202610",
+ "coder": "use-p1",
+ "uses": [
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Staff and students will not be permitted to present work completed by AI applications as their own without acknowledgement.",
+   "anchor": "3. Ethical Use of AI"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Staff and students will not be permitted to present work completed by AI applications as their own without acknowledgement."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

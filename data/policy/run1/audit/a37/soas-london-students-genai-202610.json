@@ -1,0 +1,49 @@
+{
+ "doc_id": "soas-london-students-genai-202610",
+ "coder": "aud-a37",
+ "checked_types": 61,
+ "found": [
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "This is a form of plagiarism with potentially serious consequences.",
+   "anchor": null
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "Evaluate the responses generated for any signs of bias or discrimination.",
+   "anchor": "Working with Data"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "The Student Learning Centre is your portal to learning support at SOAS.",
+   "anchor": "Additional support and guidance available"
+  },
+  {
+   "type": "translation_tools_restricted",
+   "quote": "Use it to translate language (where appropriate) remembering that it should not be a substitute for learning.",
+   "anchor": "Developing language"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "You should speak to your teacher, seek support offered by SOAS or discuss with your peers if you are having difficulty understanding key concepts.",
+   "why": "About understanding content, not AI permission"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "SOAS offers study skills workshops to support students with their reading, writing and referencing skills.",
+   "why": "Workshops are general skills, not AI-specific"
+  },
+  {
+   "type": "research_use_of_ai_needs_ethics_approval_or_consent",
+   "quote": "Forget any ethical standards you must adhere to depending on the type of data you're analysing.",
+   "why": "Ethics mention without ethics approval or consent"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "Used in the right way, generative AI can support students' learning and development.",
+   "why": "Mild positive framing, not clear stance"
+  }
+ ]
+}

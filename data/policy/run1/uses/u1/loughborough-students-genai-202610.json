@@ -1,0 +1,60 @@
+{
+ "doc_id": "loughborough-students-genai-202610",
+ "coder": "use-u1",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "in your academic work where their use is permitted in the assessment brief",
+   "anchor": "Using GenAI responsibly: what you need to know"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "If I use GenAI in my studies, including the submission of GenAI created content in an assessment, I confirm that:",
+   "anchor": "Generative Artificial Intelligence (GenAI) Responsible Use Checklist"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "I will ensure that I have fully complied with the requirements in the assessment brief setting out how GenAI may or may not be used."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "I will appropriately reference the use of GenAI tools in my work"
+  },
+  "contents": [
+   {
+    "value": "outputs",
+    "quote": "I will save copies of any GenAI outputs used in the development work for my assessment."
+   }
+  ],
+  "location": [
+   {
+    "value": "appendix",
+    "quote": "I understand that these outputs may be required as an appendix to my assessment or as part of any academic misconduct process"
+   }
+  ],
+  "records": {
+   "value": "required",
+   "quote": "I will save copies of any GenAI outputs used in the development work for my assessment."
+  },
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

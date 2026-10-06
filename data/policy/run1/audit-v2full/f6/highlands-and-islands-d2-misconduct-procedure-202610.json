@@ -1,0 +1,54 @@
+{
+ "doc_id": "highlands-and-islands-d2-misconduct-procedure-202610",
+ "coder": "v2f-f6",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "Plagiarism may, therefore, include: a. the use of another person’s material without reference or acknowledgement b. the use of material produced by generative artificial intelligence (GAI) without the specific permission of the tutor/lecturer",
+   "anchor": "DEFINITIONS"
+  },
+  {
+   "type": "acknowledge_or_declare_ai_use",
+   "quote": "where permission to use GAI has been granted, the use of material produced by GAI must be referenced or acknowledged",
+   "anchor": "DEFINITIONS"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Plagiarism: unacknowledged incorporation in a student’s work either in an examination or assessment of material derived from the work (published or unpublished) of another.",
+   "anchor": "DEFINITIONS"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "Other factors will be considered as well as the proportion of the assessment which has been plagiarised.",
+   "anchor": "INDICATIVE PENALTY IN CASES OF PLAGIARISM (TAUGHT PROVISION)"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "default_ai_banned_unless_authorised",
+   "quote": "the use of material produced by generative artificial intelligence (GAI) without the specific permission of the tutor/lecturer",
+   "why": "Framed as plagiarism label, not a stated default ban"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "Reduce mark by:",
+   "why": "Penalty table is for plagiarism generally, AI not named in it"
+  },
+  {
+   "type": "work_must_be_own_not_written_by_ai",
+   "quote": "complete their assessed work by themselves, in their own words and using their own notes, figures or rough workings",
+   "why": "No AI mention in guideline"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "Originality checkers assist staff in assessing potential instances of plagiarism.",
+   "why": "Originality checkers, AI detection not named"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Falsification or fabrication of data: the presentation of data in laboratory reports, projects etc based on work falsely presented as having been carried out by the student",
+   "why": "Data fabrication defined, no AI or references link"
+  }
+ ]
+}

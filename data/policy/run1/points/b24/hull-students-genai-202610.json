@@ -1,0 +1,148 @@
+{
+ "doc_id": "hull-students-genai-202610",
+ "coder": "pts-b24",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "However, unless you have explicit permission, you cannot use AI to:\n•\n\nWrite or rewrite your work for you",
+   "anchor": "AI in Assessment",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Without explicit permission, you cannot use AI to write or rewrite your work for you."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Contribute to a viva or exam that is invigilated",
+   "anchor": "AI in Assessment",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Without explicit permission, you cannot use AI to contribute to an invigilated viva or exam."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Create images or code without acknowledging the source",
+   "anchor": "AI in Assessment",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Without explicit permission, you cannot use AI to create images or code without acknowledging the source."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Perform research tasks, such as generating data or acting as a source of factual information, without acknowledging the source",
+   "anchor": "AI in Assessment",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Without explicit permission, you cannot use AI for research tasks such as generating data or as a factual source without acknowledging it."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Paraphrase someone else’s work without proper citation",
+   "anchor": "AI in Assessment",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Without explicit permission, you cannot use AI to paraphrase someone else's work without proper citation."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Unless specified otherwise, you can use AI to:\n•\n\nGet a general structure for an essay, presentation, or other work as a starting\npoint",
+   "anchor": "AI in Assessment",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Unless specified otherwise, you can use AI to get a general structure for an essay or presentation as a starting point."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Help with research by providing an overview of a topic (just remember to\nreference it if you use it in your work)",
+   "anchor": "AI in Assessment",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Unless specified otherwise, you can use AI for a topic overview, remembering to reference it if used."
+  },
+  {
+   "point_id": "p08",
+   "quote": "check with your module leader and the assessment brief to see if it’s appropriate for that specific task.",
+   "anchor": "AI in Assessment",
+   "addressee": "student",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Check with your module leader and the assessment brief to see whether AI is appropriate for a specific task."
+  },
+  {
+   "point_id": "p09",
+   "quote": "if you’re working on a research thesis, discuss the use of AI with your supervisor.",
+   "anchor": "AI in Assessment",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "If working on a research thesis, discuss AI use with your supervisor."
+  },
+  {
+   "point_id": "p10",
+   "quote": "You might need to make a general statement about your AI use or include details of the prompts you used.",
+   "anchor": "How to Acknowledge the Use of AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "You might need to make a general statement about AI use or include details of the prompts used."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Information you provide to an AI tool might be stored and used by others, so avoid sharing personal or sensitive details with AI.",
+   "anchor": "AI Guidance",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Information given to an AI tool might be stored and used by others, so avoid sharing personal or sensitive details."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Even the references it generates might be fake or wrongly\ninterpreted. Always double-check and critically review any factual information\nproduced by AI.",
+   "anchor": "AI Guidance",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "AI-generated references might be fake or misinterpreted; always double-check and critically review factual information from AI."
+  },
+  {
+   "point_id": "p13",
+   "quote": "If you fail to follow this guidance there is a risk that your work may be considered an\ninstance of academic misconduct.",
+   "anchor": "Introduction",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Failing to follow this guidance risks your work being considered academic misconduct."
+  },
+  {
+   "point_id": "p14",
+   "quote": "the University’s AI SkillsGuide provides instructions on how to reference it.",
+   "anchor": "How to Acknowledge the Use of AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "The University's AI SkillsGuide provides instructions on how to reference AI-generated content."
+  }
+ ]
+}

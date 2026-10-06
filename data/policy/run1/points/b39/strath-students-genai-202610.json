@@ -1,0 +1,128 @@
+{
+ "doc_id": "strath-students-genai-202610",
+ "coder": "pts-b39",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Your module and/or programme leader will make it clear whether or not the use of Gen-AI in general and any Gen-AI tools or service in particular is permitted when they explain the task they are asking you to complete.",
+   "anchor": "Which Gen-AI tools can students use?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "The module or programme leader states whether Gen-AI and particular tools are permitted when explaining each task."
+  },
+  {
+   "point_id": "p02",
+   "quote": "The work you submit for assessment should always be your own.",
+   "anchor": "Can I use Gen-AI to help me with writing and creating other content I will submit for an assessment?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Work submitted for assessment should always be your own."
+  },
+  {
+   "point_id": "p03",
+   "quote": "The only Gen-AI tool that the University currently allows staff and students to sign-up to with their University credentials is Microsoft Copilot in Edge.",
+   "anchor": "Which Gen-AI tools can students use?",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Microsoft Copilot in Edge is the only Gen-AI tool staff and students may sign up to with University credentials."
+  },
+  {
+   "point_id": "p04",
+   "quote": "students who are under the age of eighteen are not permitted to use Microsoft Copilot in Edge while logged into their University Microsoft account.",
+   "anchor": "Which Gen-AI tools can students use?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Students under eighteen are not permitted to use Microsoft Copilot in Edge while logged into their University account."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Staff and students will also have access to the in-built Zoom AI Assistant while using Zoom.",
+   "anchor": "Which Gen-AI tools can students use?",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Staff and students also have access to the in-built Zoom AI Assistant in Zoom."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Make sure you are not giving any tools or services access to restricted or copyright protected content including materials provided to you by the University (for example lecture slides, assessment questions or feedback on assessment, library resources or research papers).",
+   "anchor": "Is my data safe and secure when I use Gen-AI tools and services?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Do not give tools access to restricted or copyright-protected content, including University materials such as lecture slides, assessment questions, feedback, library resources or papers."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Gen-AI tools can also generate fake references that look genuine and may even contain some correct details such as real author names or journal titles. Always check the original source to verify outputs.",
+   "anchor": "What is meant by thinking critically about Gen-AI output?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Gen-AI can produce fake references that look genuine, so outputs should always be verified against the original source."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Where the misuse of Gen-AI has been identified, the University’s Academic Misconduct Procedure will be followed, which could lead to a range of penalties for any individual who is found to have committed academic misconduct.",
+   "anchor": "What are the consequences of unethical Gen-AI use?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Identified misuse leads to the Academic Misconduct Procedure, which could result in a range of penalties."
+  },
+  {
+   "point_id": "p09",
+   "quote": "not disclosing the use of Gen-AI when this is required, and in any circumstances where the module or programme leader has prohibited its use could be unethical.",
+   "anchor": "Is it ethical to use Gen-AI?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Not disclosing Gen-AI use where required, or using it where the module or programme leader has prohibited it, could be unethical."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Not necessarily, but you should always ensure that you are aware of the expectations of the module or programme leader around the use of Gen-AI and understand what is required of you in any given learning or assessment task.",
+   "anchor": "Does the use of Gen-AI compromise my academic integrity or mean that I am cheating?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Using Gen-AI is not necessarily cheating, but you should know the module or programme leader's expectations for each task."
+  },
+  {
+   "point_id": "p11",
+   "quote": "You should check this guidance regularly and especially whenever you are completing a new piece of work involving Gen-AI, as it is a rapidly evolving area, and the guidance may have changed since you last checked it.",
+   "anchor": "What are the university’s policies on using Gen-AI?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "Check the guidance regularly and whenever starting new work involving Gen-AI, since it may have changed."
+  },
+  {
+   "point_id": "p12",
+   "quote": "This means that any dependency on these tools or services that is built up now could be damaging to your learning and development in the future.",
+   "anchor": "Which Gen-AI tools can students use?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Dependency built up on these tools now could harm your future learning and development."
+  }
+ ]
+}

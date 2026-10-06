@@ -1,0 +1,29 @@
+{
+ "doc_id": "law-students-genai-202610",
+ "coder": "aud-a17",
+ "checked_types": 70,
+ "found": [
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "At The University of Law, we are harnessing the power of Artificial Intelligence to enhance the quality of your education: responsibly, ethically, and with you at the centre.",
+   "anchor": "Leading with Purpose, Teaching with Intelligence"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "The ability to critically evaluate AI outputs",
+   "why": "Graduate attribute, not instruction to students to check output."
+  },
+  {
+   "type": "ai_environmental_impact",
+   "quote": "Sustainability in AI (launching soon)",
+   "why": "Course title only; no statement on environmental impact."
+  },
+  {
+   "type": "staff_should_disclose_own_ai_use",
+   "quote": "We model the behaviour we expect with clear guidelines on academic integrity, privacy, and fairness.",
+   "why": "Institution models behaviour; not explicitly staff disclosing AI use."
+  }
+ ]
+}

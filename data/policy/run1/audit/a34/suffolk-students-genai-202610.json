@@ -1,0 +1,99 @@
+{
+ "doc_id": "suffolk-students-genai-202610",
+ "coder": "aud-a34",
+ "checked_types": 59,
+ "found": [
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "The use of Generative AI in Learning and Teaching may be different across the University by subject area and disciplines.",
+   "anchor": "Institutional practice"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "Students must follow institutional guidance for acknowledgement, attribution and referencing; and what constitutes inappropriate or unacceptable use.",
+   "anchor": "Acknowledging and referencing use of AI tools"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "users should be aware that generated content can contain incomplete, inaccurate, misleading and/or biased information",
+   "anchor": "Pedagogy and AI"
+  },
+  {
+   "type": "submitted_work_must_be_own_not_ai_generated",
+   "quote": "AI-generated content must not be presented as original work.",
+   "anchor": "Use of Generative AI in research activities"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "Generative AI should be embedded in curricula and assessment in ways which enhance and deepen key student skills such as critical analysis and evaluation",
+   "anchor": "Purpose"
+  },
+  {
+   "type": "comply_with_data_protection_law_and_policy",
+   "quote": "Users must continue to follow all University policies on information classification, data handling, and confidentiality",
+   "anchor": "Technology and AI tools"
+  },
+  {
+   "type": "research_use_of_ai_needs_ethics_approval_or_consent",
+   "quote": "Comply with internal and external requirements, including funder requirements, journal submission guidelines, and the University's Research and Knowledge Exchange Ethics Governance Framework.",
+   "anchor": "Use of Generative AI in research activities"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "Research and Knowledge Exchange team and Data Governance team.",
+   "anchor": "Use of Generative AI in research activities"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Support will be given to staff through asynchronous materials, in-person training sessions and opportunities for discussion.",
+   "anchor": "Support, training and professional development for staff"
+  },
+  {
+   "type": "assessment_redesigned_to_test_process_and_understanding",
+   "quote": "Review and adapt assessment design on an ongoing basis to ensure assessments remain authentic, robust, and aligned with intended learning outcomes",
+   "anchor": "Institutional practice"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "taking appropriate action where misuse, misunderstanding, or academic integrity concerns are identified, in accordance with University Academic Misconduct procedures.",
+   "anchor": "Institutional practice"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "Students on placement and work-based projects or equivalent should check the policy and approach to the use of AI tools of the placement provider or employer",
+   "why": "placement provider policy, not assessment brief"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "generated content can contain incomplete, inaccurate, misleading and/or biased information",
+   "why": "bias mentioned within accuracy warning"
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "Identify and manage discipline-specific risks, including the potential for Generative AI to shortcut the development of foundational knowledge or skills",
+   "why": "addressed to staff"
+  },
+  {
+   "type": "consider_whether_ai_fits_learning_outcomes",
+   "quote": "where its use may undermine core learning outcomes",
+   "why": "staff review duty, not student"
+  },
+  {
+   "type": "do_not_upload_university_teaching_materials",
+   "quote": "sensitive/commercial University information may be uploaded into any external AI system unless explicitly approved",
+   "why": "generic institutional information, not teaching materials"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "Monitor and respond to student use of Generative AI within learning activities and assessments",
+   "why": "monitoring stated, no detection or investigation trigger"
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "Emerging technologies, opportunities and challenges in this field will be surfaced and interrogated as required.",
+   "why": "vague; not guidance revision"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "doc_id": "estate-management-students-genai-202610",
+ "coder": "v2-b7",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "This occurs when the work of others, including content created by generative Artificial Intelligence systems (AI), is not cited or referenced, with the intention of convincing the marker or other readers that it is your own work.",
+   "anchor": "Types of academic misconduct"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "is punishable by a range of sanctions, depending on the seriousness of the offence.",
+   "why": "Mentions seriousness as factor but no tariff or detail"
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "Appointing a designated Academic Integrity Lead in the School of the Built Environment to promote academic integrity at University of the Built Environment",
+   "why": "Designated role but about integrity generally, not AI"
+  }
+ ]
+}

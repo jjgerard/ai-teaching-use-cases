@@ -1,0 +1,138 @@
+{
+ "doc_id": "coventry-students-genai-202610",
+ "coder": "pts-b25",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "AI tools must not be used to generate your assessment and submit it as if it was your own work.",
+   "anchor": "Studying with AI: Introduction",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "AI tools must not be used to generate your assessment and submit it as your own work."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Your assignment briefs will state if you are allowed to use AI and what types of use are permissible. You must follow those instructions to comply with the University or your placement's regulations.",
+   "anchor": "Student Guidance",
+   "addressee": "student",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Assignment briefs state whether AI is allowed and which uses are permissible, and you must follow those instructions."
+  },
+  {
+   "point_id": "p03",
+   "quote": "When permitted to use AI, it is your responsibility to keep a record of the prompts used, and drafts of your work to evidence that the final submission is your own work.",
+   "anchor": "Student Guidance",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "When AI use is permitted, you are responsible for keeping a record of prompts and drafts to evidence the work is your own."
+  },
+  {
+   "point_id": "p04",
+   "quote": "You are also required to acknowledge where and how you have used generative AI in an assignment, to aid this it is a good idea keep a record of:",
+   "anchor": "Disclaimer",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "You are required to acknowledge where and how you used generative AI in an assignment."
+  },
+  {
+   "point_id": "p05",
+   "quote": "When using AI for assessments, it is your responsibility to demonstrate that you have completed the assignment yourself. You may be required to provide evidence of this such as:",
+   "anchor": "Disclaimer",
+   "addressee": "student",
+   "force": "must",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "You must be able to demonstrate you completed the assignment yourself and may be required to provide evidence."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Version-controlled documents",
+   "anchor": "Disclaimer",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Version-controlled documents are one example of evidence you may be asked to provide."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Also, be careful when using AI that you abide by copyright restrictions.",
+   "anchor": "Disclaimer",
+   "addressee": "student",
+   "force": "should",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Be careful to abide by copyright restrictions when using AI."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Can you verify its content?",
+   "anchor": "Before Using AI",
+   "addressee": "student",
+   "force": "should",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Before using an AI tool, consider whether you can verify its content."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Do you have permission from the University or your placement?",
+   "anchor": "Before Using AI",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Before using an AI tool, consider whether you have permission from the University or your placement."
+  },
+  {
+   "point_id": "p10",
+   "quote": "There is no wider understanding of the world or the context, and this leads to many of the errors Generative AI produces.",
+   "anchor": "Generative AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Generative AI has no wider understanding of the world or context, which leads to many of its errors."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Translate small sections of your written or recorded work",
+   "anchor": "Examples of how AI can support you in your study?",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "AI can be used to translate small sections of your written or recorded work."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Spot errors and suggest corrections in your writing",
+   "anchor": "Examples of how AI can support you in your study?",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "AI can be used to spot errors and suggest corrections in your writing."
+  },
+  {
+   "point_id": "p13",
+   "quote": "As well as following the University’s AI Postgraduate Researchers (PGR) guidance, researchers should also check publishers' policies about how and when AI can be used when writing for publication.",
+   "anchor": "Researcher Guidance",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Researchers should follow the PGR AI guidance and check publishers' policies on how and when AI can be used."
+  }
+ ]
+}

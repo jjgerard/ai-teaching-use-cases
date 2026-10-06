@@ -1,0 +1,163 @@
+[
+ {
+  "name": "Heriot-Watt University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.hw.ac.uk/document-library/students/student-academic-misconduct-policy.pdf",
+   "title": "Global Student Academic Misconduct Policy",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Approved 12 June 2025; effective September 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.hw.ac.uk/document-library/students/student-academic-misconduct-policy-2024-.pdf",
+    "why": "identical file (same size) to chosen URL"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.hw.ac.uk/document-library/students/plagiarismguide.pdf",
+    "title": "Academic Integrity Group plagiarism guide",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.hw.ac.uk/document-library/professional-services/registry-services/academic-registry/student-guide-how-to-avoid-academic-misconduct-foa.pdf",
+    "title": "Student guide: how to avoid academic misconduct",
+    "audience": "students"
+   },
+   {
+    "url": "https://lta.hw.ac.uk/wp-content/uploads/Reviewing-your-assessments-in-light-of-increased-availability-of-AI-content-creation-tools-such-as-ChatGPT-external.pdf",
+    "title": "Reviewing your assessments in light of AI",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "Queen Margaret University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.qmu.ac.uk/about-the-university/quality/committees-regulations-policies-and-procedures/regulations-policies-and-procedures/academic-integrity-policy",
+   "title": "Academic Integrity Policy",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "September 2025 v1.0",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://libguides.qmu.ac.uk/referencing/ai",
+    "why": "library guide, same kind as first"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://libguides.qmu.ac.uk/referencing/regs",
+    "title": "QMU regulations and procedures - Academic Integrity",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Robert Gordon University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.rgu.ac.uk/files/1079/2026-27/3269/Regulation-A3-2-Student-Conduct-Procedure---A--Student-Academic-Misconduct-Procedure-2026-27.pdf",
+   "title": "Regulation A3 Section 2A: Student Academic Misconduct Procedure 2026-27",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2026-27",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.rgu.ac.uk/files/1079/2026-27/3268/Regulation-A4-Assessment-and-Assessment-Boards-2026-27.pdf",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.rgu.ac.uk/about/governance/academic-governance/academic-regulations",
+    "why": "index page, only links onward; no AI content"
+   },
+   {
+    "url": "https://campusmoodle.rgu.ac.uk/course/view.php?id=104016",
+    "why": "Moodle course, likely login wall; not used"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://library.rgu.ac.uk/harvard-essentials-pathway/plagiarism-and-academic-integrity",
+    "title": "Plagiarism and Academic Integrity (library, no AI text found)",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Aberdeen",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.abdn.ac.uk/media/site/staffnet/documents/academic-quality-handbook/Code_of_Practice_on_Student_Discipline_(Academic)_(2024-2025).pdf",
+   "title": "Code of Practice on Student Discipline (Academic) 2024-2025",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2024-2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.abdn.ac.uk/media/site/staffnet/registry/QAC-121125-009-Generative-AI-for-PGR-students.pdf",
+    "title": "Generative AI for PGR students",
+    "audience": "pgr"
+   },
+   {
+    "url": "https://www.abdn.ac.uk/students/academic-life/academic-integrity/",
+    "title": "Academic Integrity",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Edinburgh",
+  "outcome": "found",
+  "doc": {
+   "url": "https://registryservices.ed.ac.uk/academic-services/policies-regulations/regulations/assessment-regulations/taught/section-b",
+   "title": "Taught Assessment Regulations, Section B: conduct of assessment",
+   "kind": "assessment_policy",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://edwebprofiles.ed.ac.uk/academic-services/students/conduct/academic-misconduct/academic-misconduct-procedure",
+    "why": "no AI content in page text"
+   },
+   {
+    "url": "https://registryservices.ed.ac.uk/academic-services/staff/discipline/code-discipline",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://registryservices.ed.ac.uk/sites/default/files/2024-10/Generative%20AI%20Guidance%20for%20Students%20October%202024.pdf",
+    "why": "guide, same kind as first"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://information-services.ed.ac.uk/computing/comms-and-collab/elm/generative-ai-guidelines-for-students/generative-ai",
+    "title": "Generative AI Guidelines for Postgraduate Research Students",
+    "audience": "pgr"
+   }
+  ]
+ }
+]

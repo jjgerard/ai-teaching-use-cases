@@ -1,0 +1,6 @@
+{
+  "_note": "Applied by check.js after coders' registration proposals. Each entry drops proposed dates whose label or reading is ambiguous in the snapshot; date_known becomes false.",
+  "aub-students-genai-202610": { "drop": ["published", "last_updated"], "reason": "printed 'Oct 24' could be a month and year or a day in October" },
+  "stir-students-genai-202610": { "drop": ["published", "last_updated"], "reason": "two bare dates with no labels; which is published and which updated was assumed" },
+  "herts-students-genai-202610": { "drop": ["published", "last_updated"], "reason": "a bare date at the top of the page, not labelled as published or updated" }
+}

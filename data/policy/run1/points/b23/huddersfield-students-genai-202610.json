@@ -1,0 +1,108 @@
+{
+ "doc_id": "huddersfield-students-genai-202610",
+ "coder": "pts-b23",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Our general principle is that the work you hand in must be your own, and where it is acceptable to make use of AI, you need to acknowledge this.",
+   "anchor": "AI Guidance",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Submitted work must be your own, and any acceptable use of AI must be acknowledged."
+  },
+  {
+   "point_id": "p02",
+   "quote": "You should expect to see clear statements in assignment briefs about whether using AI is acceptable.",
+   "anchor": "AI Guidance",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Assignment briefs should clearly state whether using AI is acceptable."
+  },
+  {
+   "point_id": "p03",
+   "quote": "It is not acceptable to use the software to generate content which you hand in, unless this is allowed in the assessment brief and correctly referenced.",
+   "anchor": "Guidance for users of assistive technology",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Writing software must not be used to generate content you submit unless the brief allows it and it is correctly referenced."
+  },
+  {
+   "point_id": "p04",
+   "quote": "you can use tools like Grammarly to suggest changes to how individual sentences are worded or structured, but you cannot use it to rewrite larger sections of your work.",
+   "anchor": "Guidance for users of assistive technology",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Tools like Grammarly may suggest changes to individual sentences but may not rewrite larger sections of work."
+  },
+  {
+   "point_id": "p05",
+   "quote": "You may use paraphrasing and summarising features to help you to understand texts you are working with, but these summaries should not be included in your final assessment.",
+   "anchor": "Guidance for users of assistive technology",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Summarising features may be used to understand texts, but the summaries should not appear in the final assessment."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Because you are primarily referring to the original text, you should reference this, not the AI summary.",
+   "anchor": "Guidance for users of assistive technology",
+   "addressee": "student",
+   "force": "should",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Reference the original text, not the AI summary."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Some other referencing systems don't have specific guidance on how to reference AI output. If your subject uses a referencing system which does not specify how to reference AI, follow the format for citing a personal communication.",
+   "anchor": "Referencing Guides",
+   "addressee": "student",
+   "force": "should",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Where a referencing system has no AI guidance, follow the format for citing a personal communication."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Your PLSP does not give you permission to use these features to generate work which you submit, unless permitted by the assessment brief..",
+   "anchor": "Guidance for users of assistive technology",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "A PLSP does not permit using generative features to produce submitted work unless the assessment brief permits it."
+  },
+  {
+   "point_id": "p09",
+   "quote": "You should complete this module each year to make sure that you are up to date with the latest developments.",
+   "anchor": "AI Guidance",
+   "addressee": "student",
+   "force": "should",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Students should complete the Academic Integrity module on Brightspace each year."
+  },
+  {
+   "point_id": "p10",
+   "quote": "For some pieces of work, your use of English is part of the assessment criteria. Where you are told that this is the case, please contact the module tutor to clarify what is acceptable in your specific circumstances.",
+   "anchor": "Guidance for users of assistive technology",
+   "addressee": "student",
+   "force": "should",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "Where English use is assessed, contact the module tutor to clarify what is acceptable in your circumstances."
+  }
+ ]
+}

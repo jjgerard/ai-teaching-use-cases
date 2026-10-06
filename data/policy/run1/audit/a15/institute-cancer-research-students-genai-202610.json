@@ -1,0 +1,39 @@
+{
+ "doc_id": "institute-cancer-research-students-genai-202610",
+ "coder": "aud-a15",
+ "checked_types": 67,
+ "found": [
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Research misconduct in relation to original research-based assessment (taught course dissertation, research degree thesis): including plagiarism, fabrication of data, falsifying",
+   "anchor": "1.4. Definitions and glossary"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "references to another person shall be deemed to include a digital tool such as generative AI",
+   "anchor": "1.4. Definitions and glossary"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "the Deputy Dean or Course Director will usually meet with the student and/or hold a viva to determine whether they consider that plagiarism may have taken place",
+   "anchor": "3. Preliminary investigation"
+  },
+  {
+   "type": "ai_detectors_unreliable_not_sole_basis",
+   "quote": "Use of generative AI detection tools will not be used at this stage, to avoid false positives.",
+   "anchor": "3. Preliminary investigation"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Guidance on plagiarism and the use of generative AI",
+   "anchor": "11. Related documents"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "Failure to observe the regulations or instructions for an examination.",
+   "why": "Not AI-specific; relies on generative AI deeming sentence"
+  }
+ ]
+}

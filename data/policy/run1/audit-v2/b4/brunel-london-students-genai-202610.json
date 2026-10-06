@@ -1,0 +1,13 @@
+{
+ "doc_id": "brunel-london-students-genai-202610",
+ "coder": "v2-b4",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Generative AI is not a credible academic source.",
+   "why": "Closer to treating AI as source; library not recommended instead."
+  }
+ ]
+}

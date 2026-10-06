@@ -1,0 +1,54 @@
+{
+ "doc_id": "robert-gordon-d2-misconduct-procedure-202610",
+ "coder": "v2f-f3",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "The ‘false authorship’ may relate to the student engaging with a third party and/or software tool to complete an assessment, either in part or whole. This may include work produced by, but not attributed to: another student, an essay mill 4, a family member or friend, a tutoring service or the unauthorised use of Artificial Intelligence (AI) software.",
+   "anchor": "6.1 Academic Misconduct (including Research Misconduct)"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "False Authorship. The University defines this as the practice of submitting work where the student is not the author of that work.",
+   "anchor": "6.1 Academic Misconduct (including Research Misconduct)"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Falsification or fabrication of data. The University defines this as the misrepresentation of the results of experimental work or the presentation of fictitious results.",
+   "anchor": "6.1 Academic Misconduct (including Research Misconduct)"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "When determining a proportionate sanction, the following criteria will be used:",
+   "anchor": "10.1 Criteria"
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "to reflect the principles of natural justice, including the assumption of innocence until guilt is determined, in the context of any matter which affects a student’s educational progress and well-being;",
+   "anchor": "2. Statement of Principles"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "In cases of alleged academic misconduct which relate to issues regarding the authenticity of the work, the Dean shall have discretion to question the student on various aspects of the work, including the methods used to produce the work, key sources underpinning the work and the student’s knowledge of the subject area.",
+   "anchor": "7.4 Misconduct Hearing Protocol"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "advising that if they fail to attend, without good reason, the Misconduct Hearing may proceed in their absence, without this constituting grounds for appeal.",
+   "anchor": "7.3 Misconduct Hearing Arrangements"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "One or more of the following sanctions may be applied for established misconduct.",
+   "why": "sanctions generic, AI not named in sanctions"
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "Reprimand: Written warning, retained by the Dean in the School’s student file. This sanction would normally be appropriate if University staff were satisfied the misconduct was minor.",
+   "why": "minor misconduct lighter outcome, not AI or educational"
+  }
+ ]
+}

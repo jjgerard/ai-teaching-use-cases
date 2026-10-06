@@ -1,0 +1,179 @@
+[
+ {
+  "ror_id": "https://ror.org/049e6bc10",
+  "name": "Northumbria University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.northumbria.ac.uk/c.php?g=690936&p=5237243",
+   "title": "Academic Integrity and Artificial Intelligence",
+   "kind": "library_guide",
+   "audience_as_stated": "students (University Library guide)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.northumbria.ac.uk/about-us/university-services/it-services/student-digital-induction/claude-for-education/",
+    "title": "Claude for Education your AI tool (IT Services; page last reviewed 22 May 2026)"
+   },
+   {
+    "audience": "students",
+    "url": "https://corp.northumbria.ac.uk/-/media/university-policies/policy-master-versions/academic-misconduct-policy.pdf?modified=20250523120544",
+    "title": "Academic Misconduct Policy (PL.005-V007; names AI ghosting)"
+   }
+  ],
+  "queries": [
+   "Northumbria University generative AI students guidance (northumbria.ac.uk)",
+   "Northumbria University students using generative AI academic integrity guidance acknowledge AI (northumbria.ac.uk)",
+   "Northumbria University library skills plus generative AI student guide referencing AI use"
+  ],
+  "notes": "No standalone institution-wide student GenAI guidance page found on the main site; selected library guide linked from the Claude for Education page. Policy PDF not read in full.",
+  "region": "England",
+  "doc_id": "northumbria-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/0220mzb33",
+  "name": "King's College London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.kcl.ac.uk/about/strategy/learning-and-teaching/ai-guidance/student-guidance",
+   "title": "Generative AI - Student guidance",
+   "kind": "guidance",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": "First published October 2023; last updated April 2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.kcl.ac.uk/about/strategy/learning-and-teaching/ai-guidance/macro-level",
+    "title": "Macro-level: University-wide principles and policy"
+   },
+   {
+    "audience": "pgr",
+    "url": "https://www.kcl.ac.uk/about/strategy/learning-and-teaching/ai-guidance/doctoral-assessment",
+    "title": "Generative AI: Guidance for doctoral students, supervisors and examiners"
+   }
+  ],
+  "queries": [
+   "King's College London generative AI students guidance (kcl.ac.uk)"
+  ],
+  "notes": "Page states it is guidance not policy.",
+  "region": "England",
+  "doc_id": "kcl-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02qzs9336",
+  "name": "National College of Ireland",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.ncirl.ie/useofaiinteachingandlearning/studentguide",
+   "title": "Student Guide - Use of AI in Teaching and Learning",
+   "kind": "library_guide",
+   "audience_as_stated": "students (NCI guidance document)",
+   "owner_as_stated": null,
+   "date_as_shown": "Last Updated: Jul 8, 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://ncisupporthub.ncirl.ie/hc/en-ie/articles/29573869721500-Acceptable-Use-of-Generative-AI-in-Teaching-Learning-and-Assessment-Draft",
+    "title": "Acceptable Use of Generative AI in Teaching, Learning and Assessment - Draft (Support Hub; 403 bot wall to curl, not read)"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.ncirl.ie/artificialintelligenceatnci",
+    "title": "Introduction to Generative AI and AI Literacy - Artificial Intelligence at NCI"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.ncirl.ie/Portals/0/Library/NCI%20Academic%20Integrity%20Policy%20on%20Assessments%20and%20use%20of%20AI%20Generated%20Material%20such%20as%20ChatGPT.pdf?ver=2023-05-22-161619-910&timestamp=1684768817233",
+    "title": "NCI Academic Integrity Policy on Assessments and use of AI (2023 PDF, not read)"
+   }
+  ],
+  "queries": [
+   "National College of Ireland generative AI students guidance (ncirl.ie)"
+  ],
+  "notes": "Support Hub policy draft is likely the more authoritative document but was behind a Cloudflare challenge; not bypassed.",
+  "region": "Ireland",
+  "doc_id": "national-ireland-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/0312pnr83",
+  "name": "De Montfort University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.dmu.ac.uk/genai",
+   "title": "Using Generative Artificial Intelligence (Welcome)",
+   "kind": "library_guide",
+   "audience_as_stated": "students (DMU Library guide)",
+   "owner_as_stated": null,
+   "date_as_shown": "Last Updated: Sep 4, 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.dmu.ac.uk/Documents/current-students/student-support/exams-deferrals-policies/policies/Academic-Integrity-and-Misconduct-Policy.pdf",
+    "title": "Academic Integrity and Misconduct Policy (PDF read; has AI provisions)"
+   },
+   {
+    "audience": "students",
+    "url": "https://library.dmu.ac.uk/genai/ethics",
+    "title": "Using AI ethically"
+   }
+  ],
+  "queries": [
+   "De Montfort University generative AI students guidance (dmu.ac.uk)",
+   "De Montfort University policy generative AI students academic integrity misconduct artificial intelligence (dmu.ac.uk)"
+  ],
+  "region": "England",
+  "doc_id": "de-montfort-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/009q3yg92",
+  "name": "Mary Immaculate College",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.mic.ul.ie/lead/projects-initiatives/generative-ai",
+   "title": "Generative AI Guidance",
+   "kind": "guidance",
+   "audience_as_stated": "staff and students (LEAD page)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.mic.ul.ie/lead/gen-ai-guidelines",
+    "title": "Guidelines for Generative AI"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.mic.ul.ie/c.php?g=732974&p=5350289",
+    "title": "Considerations When Using Gen AI in Your Work (AI Literacy Guide)"
+   }
+  ],
+  "queries": [
+   "Mary Immaculate College generative AI students guidance (mic.ul.ie)"
+  ],
+  "notes": "Requested URL /lead/generative-ai redirected to the recorded URL; owner (LEAD) named only in search snippet, not confirmed on page.",
+  "region": "Ireland",
+  "doc_id": "mary-immaculate-students-genai-202610"
+ }
+]

@@ -1,0 +1,148 @@
+{
+ "doc_id": "roehampton-students-genai-202610",
+ "coder": "pts-b30",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "At Roehampton, assessments generally fall into one of three categories regarding AI. One, where no AI is possible or permitted; Two, where AI can be used as an assistive tool only; and three, where the use of AI is required to meet the design of the assessment.",
+   "anchor": "Types of Assessment",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Roehampton assessments fall into three AI categories: no AI, AI as an assistive tool only, or AI required by the assessment design."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Remember, only use AI if your assessment type allows it, or requires it. You must reference any use of AI.",
+   "anchor": "Ways to use AI",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "AI may be used only if the assessment type allows or requires it, and any use of AI must be referenced."
+  },
+  {
+   "point_id": "p03",
+   "quote": "You should check which AI rule-set applies to the assessment that you're working on.",
+   "anchor": "Using AI in Assessment",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Students should check which of the University's AI rule-sets applies to the assessment they are working on."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Use of AI is not allowed",
+   "anchor": "Type 1",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Type 1 assessments do not allow use of AI."
+  },
+  {
+   "point_id": "p05",
+   "quote": "An in person presentation or oral report",
+   "anchor": "Type 1",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "An in-person presentation or oral report is given as a Type 1 example."
+  },
+  {
+   "point_id": "p06",
+   "quote": "AI can be used as an assistive tool only",
+   "anchor": "Type 2",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "In Type 2 assessments AI can be used as an assistive tool only."
+  },
+  {
+   "point_id": "p07",
+   "quote": "A written assignment where AI was used to proofread a draft",
+   "anchor": "Type 2",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Using AI to proofread a draft of a written assignment is a Type 2 example."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Use of AI is mandatory",
+   "anchor": "Type 3",
+   "addressee": "student",
+   "force": "must",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "In Type 3 assessments use of AI is mandatory."
+  },
+  {
+   "point_id": "p09",
+   "quote": "A reflective essay in which students critique AI output",
+   "anchor": "Type 3",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "A reflective essay critiquing AI output is given as a Type 3 example."
+  },
+  {
+   "point_id": "p10",
+   "quote": "You should not copy and paste from an AI tool.",
+   "anchor": "Using AI in Assessment",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Students should not copy and paste from an AI tool."
+  },
+  {
+   "point_id": "p11",
+   "quote": "You should turn off the tool’s ability to learn on your data, this means your information is not used to train AI.",
+   "anchor": "Using AI for Coding and Maths",
+   "addressee": "student",
+   "force": "should",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "When using AI for data analysis, turn off the tool's ability to learn on your data so it is not used for training."
+  },
+  {
+   "point_id": "p12",
+   "quote": "To safeguard your information, avoid sharing any personal or confidential data with AI systems. Always anonymise datasets, and limit access to only trusted platforms.",
+   "anchor": "Using AI for Coding and Maths",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Avoid sharing personal or confidential data with AI systems; always anonymise datasets and limit access to trusted platforms."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Have I fact checked everything? AI will sometimes produce factually inaccurate information such as fabricated sources.",
+   "anchor": "Using AI in Assessment",
+   "addressee": "student",
+   "force": "should",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Students should fact check everything, since AI sometimes produces inaccurate information such as fabricated sources."
+  },
+  {
+   "point_id": "p14",
+   "quote": "Ensure that you are using AI to support rather than replace your own thinking.",
+   "anchor": "Using AI in Assessment",
+   "addressee": "student",
+   "force": "should",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Students should use AI to support rather than replace their own thinking."
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{"doc_id":"herts-students-genai-202610","coder":"use-u15",
+"uses":[
+{"use":"check_language","context":"assessed_work","stance":"conditional","acknowledge":"not_stated","conditions":["limited_extent"],"quote":"the proof-reader or proof reading tool must only identify potential changes which you must then choose to accept or reject; this will ensure that you remain the author of your work.","anchor":"Can AI proofread my work?"},
+{"use":"get_feedback_on_draft","context":"assessed_work","stance":"conditional","acknowledge":"not_stated","conditions":["limited_extent"],"quote":"Identify areas for possible improvement","anchor":"Can AI proofread my work?"}
+],
+"default_when_silent":null,
+"decided_by":[
+{"value":"tiered_scale","quote":"Your assessments will fall into one of the following three categories."},
+{"value":"assessment_brief","quote":"Each assessment brief will state clearly which one of the categories applies."},
+{"value":"module_or_lecturer","quote":"if you have any doubts as to the extent to which genAI use may be allowed in an assessment, please always speak to the module leader."}
+],
+"acknowledgement":{"duty":{"value":"always_required","quote":"If you use AI in an assessment, you must disclose your use in line with the requirements of your assessment brief."},"contents":[],"location":[],"records":null,"referencing":null,"consequence":null,"exempt":[]}}

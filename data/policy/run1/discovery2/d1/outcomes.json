@@ -1,0 +1,150 @@
+[
+ {
+  "name": "Queen's University Belfast",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.qub.ac.uk/directorates/AcademicStudentAffairs/AcademicAffairs/GeneralRegulations/AppealsConductandComplaints/AcademicOffences/AcademicOffencesRegulations/",
+   "title": "Academic Offences Regulations",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": null,
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": null
+  },
+  "rejected": [
+   {
+    "url": "https://blogs.qub.ac.uk/digitallearning/wp-content/uploads/sites/270/2018/06/QUB-AI-guidance-FINAL.pdf",
+    "why": "HTTP 500, 2022-23 guidance, audience unconfirmed"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.qub.ac.uk/directorates/AcademicStudentAffairs/AcademicAffairs/GeneralRegulations/AppealsConductandComplaints/AcademicOffences/AcademicOffencesProcedure/",
+    "title": "Academic Offences Procedure",
+    "audience": "students"
+   },
+   {
+    "url": "https://blogs.qub.ac.uk/studentatguide/2025/10/02/using-ai-safely-and-smartly-at-qub/",
+    "title": "Using AI Safely and Smartly at QUB",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Ulster",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.ulster.ac.uk/__data/assets/pdf_file/0004/1535971/Academic-Misconduct-Procedure.pdf",
+   "title": "Student Academic Misconduct Procedure (Taught Courses)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": null,
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": null
+  },
+  "rejected": [
+   {
+    "url": "https://www.ulster.ac.uk/learningenhancement/cqe/assessment-code-of-practice/academic-misconduct",
+    "why": "blocked, HTTP 403"
+   },
+   {
+    "url": "https://www.ulster.ac.uk/student/success/academic/professional-and-research-integrity",
+    "why": "blocked, HTTP 403"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.ulster.ac.uk/learningenhancement/cqe/ai/guidance-for-students",
+    "title": "Guidance on use of AI for students",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.ulster.ac.uk/__data/assets/pdf_file/0010/1677286/Assessment-Code-of-Practice.pdf",
+    "title": "Assessment Code of Practice",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.ulster.ac.uk/learningenhancement/cqe/ai/guidance-for-staff",
+    "title": "Guidance on use of AI for Staff",
+    "audience": "staff"
+   },
+   {
+    "url": "https://www.ulster.ac.uk/doctoralcollege/current/research-studies-guide/guidance-on-the-use-of-generative-ai-tools",
+    "title": "Guidance on the use of Generative AI tools",
+    "audience": "pgr"
+   }
+  ]
+ },
+ {
+  "name": "Aberystwyth University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.aber.ac.uk/en/academic-registry/handbook/regulations/uap/",
+   "title": "Regulation on Unacceptable Academic Practice",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "September 2024",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": []
+ },
+ {
+  "name": "Bangor University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bangor.ac.uk/regulations/procs/documents/BUProc05-2024v1.1.pdf",
+   "title": "Academic Integrity Procedure (Procedure 05: 2024 Version 1.1)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Effective from 6 October 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.bangor.ac.uk/regulations/regulations/documents/BUReg01-2024v1EN.pdf",
+    "title": "Regulations for Taught Programmes",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Cardiff Metropolitan University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.cardiffmet.ac.uk/support/registry/academic-integrity/",
+   "title": "Academic Integrity",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": null,
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/position-statement/",
+    "why": "lower preference (institutional policy); kept as other page"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/position-statement/",
+    "title": "Position Statement",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/principles/",
+    "title": "AI Principles",
+    "audience": "students"
+   }
+  ]
+ }
+]

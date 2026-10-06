@@ -1,0 +1,148 @@
+{
+ "doc_id": "gloucestershire-students-genai-202610",
+ "coder": "pts-b34",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Each academic school has a statement which sets out expectations around the use of generative AI and you can find the most recent versions of those statements at the bottom of the Student guidance page.",
+   "anchor": "Before you start",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Each school has its own statement setting expectations for generative AI use."
+  },
+  {
+   "point_id": "p02",
+   "quote": "This includes guidance on how to acknowledge AI use in your assessments.",
+   "anchor": "Before you start",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "School statements include guidance on how to acknowledge AI use in assessments."
+  },
+  {
+   "point_id": "p03",
+   "quote": "This is why you must always check any information you take from a Gen AI tool, as the accuracy of any work you produce is ultimately your responsibility.",
+   "anchor": "Before you start",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "You must check any information taken from a Gen AI tool; accuracy of your work is your responsibility."
+  },
+  {
+   "point_id": "p04",
+   "quote": "any work submitted for assessment must represent a genuine demonstration of your own work, skills and subject knowledge",
+   "anchor": "AI and academic integrity",
+   "addressee": "student",
+   "force": "must",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Work submitted for assessment must genuinely demonstrate your own work, skills and subject knowledge."
+  },
+  {
+   "point_id": "p05",
+   "quote": "It is your responsibility to act with academic integrity. In this context that involves deciding whether any particular use of Gen AI tools (or other resources) is appropriate, or whether it might be considered as academic misconduct.",
+   "anchor": "AI and academic integrity",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Students are responsible for deciding whether a particular use of Gen AI is appropriate or might be misconduct."
+  },
+  {
+   "point_id": "p06",
+   "quote": "did I follow all the guidance and restrictions on the use of AI for this particular assessment?",
+   "anchor": "AI and academic integrity",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "One suggested reflection question asks whether you followed the guidance and restrictions for this assessment."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Giving appropriate credit to the use of Gen AI includes accurate referencing. This is a complicated process as (a) Gen AI doesn't tend to cite its sources, so you won't know where the information has come from and (b) your conversation with Gen AI isn't publically available to be referenced.",
+   "anchor": "AI and academic integrity",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Crediting Gen AI includes accurate referencing, which is hard because AI does not cite sources and conversations are not public."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Cite them Right includes more information about this aspect of AI usage including suggested citations.",
+   "anchor": "AI and academic integrity",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Cite them Right gives more information and suggested citations for AI use."
+  },
+  {
+   "point_id": "p09",
+   "quote": "it is wise to be cautious and to avoid entering confidential or personal information, and in particular to avoid entering any data that you may have collected from other people as part of your research.",
+   "anchor": "Privacy",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Avoid entering confidential or personal information, especially data collected from other people in your research."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Even AI detection tools have been found to be biased. In the process of trying to detect machine-written text, tools frequently \"misclassify non-native English writing as AI generated\"",
+   "anchor": "Bias",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "AI detection tools have been found biased and often misclassify non-native English writing as AI generated."
+  },
+  {
+   "point_id": "p11",
+   "quote": "An interactive training package is available on Moodle to introduce you to Generative AI and how it can be used in your studies",
+   "anchor": "AI training",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "An interactive Moodle training package introduces Generative AI and its use in studies."
+  },
+  {
+   "point_id": "p12",
+   "quote": "GenAI makes intensive use of energy and water",
+   "anchor": "Environment",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Generative AI makes intensive use of energy and water."
+  },
+  {
+   "point_id": "p13",
+   "quote": "students at UoG have expressed their discomfort at using tools which make use of other people's creativity without providing any credit.",
+   "anchor": "Copyright and Intellectual Property",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Some UoG students are uncomfortable using tools that draw on others' creativity without credit."
+  },
+  {
+   "point_id": "p14",
+   "quote": "The University of Gloucestershire currently doesn't endorse or provide any of the AI tools mentioned in this guide.",
+   "anchor": "Disclaimer",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "The University does not endorse or provide any of the AI tools mentioned in the guide."
+  }
+ ]
+}

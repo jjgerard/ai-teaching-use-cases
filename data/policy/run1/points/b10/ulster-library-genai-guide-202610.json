@@ -1,0 +1,78 @@
+{
+ "doc_id": "ulster-library-genai-guide-202610",
+ "coder": "pts-b10",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Do not copy and paste GenAI-generated content into assignments.",
+   "anchor": "Quick tips",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Do not copy and paste GenAI-generated content into assignments."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Keep a screenshot of conversations or outputs in your appendix where required.",
+   "anchor": "Quick tips",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Keep a screenshot of conversations or outputs in your appendix where required."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Always acknowledge and reference any tools you use, following university guidance.",
+   "anchor": "Quick tips",
+   "addressee": "student",
+   "force": "should",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Always acknowledge and reference any tools you use, following university guidance."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Check all GenAI-generated information against reliable academic sources.",
+   "anchor": "Quick tips",
+   "addressee": "student",
+   "force": "should",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Check all GenAI-generated information against reliable academic sources."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Be careful when uploading personal, confidential or copyrighted material.",
+   "anchor": "Quick tips",
+   "addressee": "student",
+   "force": "should",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Be careful when uploading personal, confidential or copyrighted material."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Please check with your course instructor about the use of Generative AI in accordance with each module specifications.",
+   "anchor": "Welcome",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Check with your course instructor about GenAI use in line with each module's specifications."
+  },
+  {
+   "point_id": "p07",
+   "quote": "GenAI can be a useful study tool, but you are the author and responsible for the accuracy, originality and integrity of your work.",
+   "anchor": "Quick tips",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": false,
+   "gist": "GenAI can be a useful study tool, but the student is the author and is responsible for accuracy, originality and integrity."
+  }
+ ]
+}

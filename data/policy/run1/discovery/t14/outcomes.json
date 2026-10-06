@@ -1,0 +1,141 @@
+[
+ {
+  "ror_id": "https://ror.org/02vwnat91",
+  "name": "London South Bank University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.lsbu.ac.uk/__data/assets/pdf_file/0006/432375/LSBU-AI-policy.pdf",
+   "title": "LSBU's Policy on Student Use of Generative Artificial Intelligence",
+   "kind": "policy",
+   "audience_as_stated": "students",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://library.lsbu.ac.uk/AI-academic-study",
+    "title": "AI tools and academic study (library guide, retrieved 200; links to the policy PDF)"
+   },
+   {
+    "audience": "students",
+    "url": "https://library.lsbu.ac.uk/artificial-intelligence",
+    "title": "How to Use Artificial Intelligence (library guide, retrieved 200; calls the PDF the official LSBU document)"
+   }
+  ],
+  "notes": "Policy PDF returned HTTP 403 to curl (bot wall, not bypassed). URL and title taken from the retrieved library guide links. Issuer and date not seen.",
+  "doc_id": "london-south-bank-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/04kw8et29",
+  "name": "Bishop Grosseteste University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.lincolnbishop.ac.uk/document-download/461884",
+   "title": "Code of Practice for Academic Misconduct",
+   "kind": "misconduct_policy",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Executive Dean: Teaching, Learning & Student Success",
+   "date_as_shown": "Reviewed & effective from 11 March 2026 (v4.4)",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.lincolnbishop.ac.uk/about/policies-and-procedures/keyinformationforstudents",
+    "title": "Key information for students (policy hub)"
+   }
+  ],
+  "notes": "Institution now trades as Lincoln Bishop University; bgu.ac.uk redirects/links to lincolnbishop.ac.uk. Document names AI at section 2.3.8 'Plagiarism through AI'. No standalone student AI guidance found in searches.",
+  "doc_id": "bishop-grosseteste-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/033byn085",
+  "name": "Royal Agricultural University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.rau.ac.uk/sites/default/files/2025-04/Code%20of%20Practice%20D_Assessment_0.pdf",
+   "title": "Code of Practice: Assessment (section 3.3 Generative Artificial Intelligence)",
+   "kind": "policy",
+   "audience_as_stated": null,
+   "owner_as_stated": "Head of Academic Quality; Head of Registry (Professional Services Owner); approved by AQSC",
+   "date_as_shown": "AQSC 23 May 2022; 3 July 2024; updates 28 May 2025",
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://res.rau.ac.uk/docs/www/policies/Academic-Regulations-Taught-Programmes.pdf",
+    "title": "Academic Regulations for Taught Programmes (retrieved; includes Generative AI declaration in appendix)"
+   }
+  ],
+  "notes": "Weak target: GenAI section 3.3 is short and points to staff pages on the Gateway; no dedicated student AI guidance found on rau.ac.uk.",
+  "doc_id": "royal-agricultural-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/01wka8n18",
+  "name": "Royal Veterinary College",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.rvc.ac.uk/Media/Default/About/Academic%20Quality,%20Regulations%20and%20Procedures/Further%20Student%20Policies%20and%20Procedures/AM01%20RVC%20Student%20Academic%20Misconduct%20Procedure.pdf",
+   "title": "AM01 RVC Student Academic Misconduct Procedure",
+   "kind": "misconduct_policy",
+   "audience_as_stated": null,
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.rvc.ac.uk/Media/Default/About/Academic%20Quality,%20Regulations%20and%20Procedures/Further%20Student%20Policies%20and%20Procedures/AM01%20RVC%20Student%20Academic%20Misconduct%20Procedure%20-%20V.4.pdf",
+    "title": "AM01 ... Procedures 2023/24 (V.4)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.rvc.ac.uk/Media/Default/About/Academic%20Quality,%20Regulations%20and%20Procedures/Examiners%20and%20Assessment/RVC_avoiding_plagiarism.pdf",
+    "title": "Supporting RVC staff and students in avoiding plagiarism"
+   }
+  ],
+  "notes": "rvc.ac.uk returns 403 to curl and WebFetch (bot wall, not bypassed). A search snippet stated ChatGPT/AI use is not prohibited unless specified and must be referenced, but which RVC document carries it was not confirmed; AM01 is the top plausible match. A dedicated student GenAI page may exist.",
+  "doc_id": "royal-veterinary-students-genai-202610",
+  "region": "England"
+ },
+ {
+  "ror_id": "https://ror.org/01800zd49",
+  "name": "Dundalk Institute of Technology",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.dkit.ie/about/policies/generative-artificial-intelligence-ai-and-your-assessments-a-guide-for-students",
+   "title": "Generative Artificial Intelligence (AI) and Your Assessments - A Guide for Students",
+   "kind": "guidance",
+   "audience_as_stated": "Students",
+   "owner_as_stated": "Registrar",
+   "date_as_shown": "Approval date: 29th September 2023",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.dkit.ie/system/files/2025-08/Generative-Artificial-Intelligence-and-Your-Assessments-A-Guide-for-Students-Sept-2023-FINAL.pdf",
+    "title": "Guide for Students (PDF, text read)"
+   }
+  ],
+  "doc_id": "dundalk-institute-technology-students-genai-202610",
+  "region": "Ireland"
+ }
+]

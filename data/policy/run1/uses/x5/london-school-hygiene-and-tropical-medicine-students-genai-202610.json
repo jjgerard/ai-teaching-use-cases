@@ -1,0 +1,86 @@
+{
+ "doc_id": "london-school-hygiene-and-tropical-medicine-students-genai-202610",
+ "coder": "uses-x5",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Artificial Intelligence tools (AI) can be helpful for generating and synthesising ideas about topics.",
+   "anchor": "General guidance"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "They can also help you with the writing process, for example by providing feedback on written work or help with grammar and spelling.",
+   "anchor": "General guidance"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "They can also help you with the writing process, for example by providing feedback on written work or help with grammar and spelling.",
+   "anchor": "General guidance"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "If you are considering using Artificial Intelligence (AI) for proof-reading support, make sure to consult the LSHTM Artificial Intelligence in assessments resource first to learn what types of usage are permitted.",
+   "anchor": "B.1. Proof-reading and advice from others",
+   "tier": "Proof-reading"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Personation is the deliberate submission of work done by another person or technology (e.g. another student, a friend, a relative, a peer, a tutor, or anyone else, including generative AI and translation software) as if it were one\u2019s own.",
+   "anchor": "A.4. Personation, and how to avoid it"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Personation is the deliberate submission of work done by another person or technology (e.g. another student, a friend, a relative, a peer, a tutor, or anyone else, including generative AI and translation software) as if it were one\u2019s own.",
+   "anchor": "A.4. Personation, and how to avoid it"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Always remember that, whilst you may use AI to assist you, you must declare this."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "You must cite AI tools and include them in your reference list."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

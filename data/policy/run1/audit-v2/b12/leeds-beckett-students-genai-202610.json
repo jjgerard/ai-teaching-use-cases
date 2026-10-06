@@ -1,0 +1,24 @@
+{
+ "doc_id": "leeds-beckett-students-genai-202610",
+ "coder": "v2-b12",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "Separate guidance is available for postgraduate research students.",
+   "anchor": "Key principles:"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "remember these tools are not search engines. These tools are trained on content, primarily sourced from the internet",
+   "why": "Not-a-search-engine remark; no explicit library or reading-sources instruction."
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "we will support you to develop your understanding of generative AI and how it relates to learning and assessment.",
+   "why": "Support commitment, not stated as taught within programmes or outcome."
+  }
+ ]
+}

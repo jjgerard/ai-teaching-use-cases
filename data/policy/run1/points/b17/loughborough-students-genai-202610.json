@@ -1,0 +1,88 @@
+{
+ "doc_id": "loughborough-students-genai-202610",
+ "coder": "pts-b17",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "I will not enter any personally identifiable or commercially sensitive data into a GenAI tool",
+   "anchor": "Generative Artificial Intelligence (GenAI) Responsible Use Checklist",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Checklist item: no personally identifiable or commercially sensitive data entered into a GenAI tool."
+  },
+  {
+   "point_id": "p02",
+   "quote": "I will save copies of any GenAI outputs used in the development work for my assessment. I understand that these outputs may be required as an appendix to my assessment or as part of any academic misconduct process",
+   "anchor": "Generative Artificial Intelligence (GenAI) Responsible Use Checklist",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students confirm they will save GenAI outputs, which may be required as an appendix or in a misconduct process."
+  },
+  {
+   "point_id": "p03",
+   "quote": "I will ensure that I have fully complied with the requirements in the assessment brief setting out how GenAI may or may not be used.",
+   "anchor": "Generative Artificial Intelligence (GenAI) Responsible Use Checklist",
+   "addressee": "student",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Students confirm they will comply with the assessment brief on how GenAI may or may not be used."
+  },
+  {
+   "point_id": "p04",
+   "quote": "I will appropriately reference the use of GenAI tools in my work",
+   "anchor": "Generative Artificial Intelligence (GenAI) Responsible Use Checklist",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Students confirm they will appropriately reference GenAI tool use."
+  },
+  {
+   "point_id": "p05",
+   "quote": "The checklist is included at the start of the Academic Integrity quiz to raise awareness of good scholarly practice. You will be expected to complete the quiz and checklist at the beginning of each academic year.",
+   "anchor": "Using GenAI responsibly: what you need to know",
+   "addressee": "student",
+   "force": "must",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "The checklist opens the Academic Integrity quiz, and students are expected to complete both at the start of each academic year."
+  },
+  {
+   "point_id": "p06",
+   "quote": "I will seek help from my module tutors if I am unsure about the use of GenAI in specific assessments",
+   "anchor": "Generative Artificial Intelligence (GenAI) Responsible Use Checklist",
+   "addressee": "student",
+   "force": "should",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Checklist item: ask module tutors if unsure about GenAI use in a specific assessment."
+  },
+  {
+   "point_id": "p07",
+   "quote": "I will seek help from my Academic Librarian if I need general guidance on GenAI use.",
+   "anchor": "Generative Artificial Intelligence (GenAI) Responsible Use Checklist",
+   "addressee": "student",
+   "force": "should",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Checklist item: ask the Academic Librarian for general guidance on GenAI use."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Co-pilot (integrated into LU Microsoft applications)",
+   "anchor": "Generative Artificial Intelligence (GenAI) Responsible Use Checklist",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": false,
+   "gist": "Copilot is listed as an example tool, integrated into LU Microsoft applications."
+  }
+ ]
+}

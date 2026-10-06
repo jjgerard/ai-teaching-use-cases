@@ -1,0 +1,27 @@
+{
+ "doc_id": "maynooth-ug-ptm-genai-guidelines-202610",
+ "coder": "un-n11",
+ "uses": [
+  {
+   "use": "harmful_or_deceptive_content",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Creation of information with the intent to mislead.",
+   "anchor": "2. Limitations, Disadvantages, and Inappropriate Use of GenAI"
+  },
+  {
+   "use": "job_applications",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Support with interview preparation (ShortlistMe)",
+   "anchor": "4.1 How GenAI tools can be used effectively"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": null
+}

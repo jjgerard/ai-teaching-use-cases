@@ -1,0 +1,158 @@
+{
+ "doc_id": "wales-trinity-saint-david-students-genai-202610",
+ "coder": "pts-p4",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Considering the options below, and what is best for the learners and assessment in the module, the module leader will identify the appropriate use(s) of AI in each assessment.",
+   "anchor": "Use of Generative AI in Assessment",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "The module leader identifies the appropriate uses of AI in each assessment."
+  },
+  {
+   "point_id": "p02",
+   "quote": "You cannot and must not simply prompt an AI tool to write on the topic of your assignment.",
+   "anchor": "RESEARCH with AI",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "You must not simply prompt an AI tool to write on your assignment topic."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Remember always to keep a copy of your drafts, notes and other resources you used, before and after the use of AI tools. If there is suspicion of use of AI tools beyond what was specified for the particular assignment, you will be asked to provide previous drafts and notes.",
+   "anchor": "Allowable Uses of Artificial Intelligence – General Guidance for Students",
+   "addressee": "student",
+   "force": "must",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Keep drafts, notes and resources from before and after AI use; if AI misuse is suspected you will be asked to provide them."
+  },
+  {
+   "point_id": "p04",
+   "quote": "You are expected to include this acknowledgement in a separate page at the beginning of your submission.",
+   "anchor": "How to Acknowledge your use of AI",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "The AI acknowledgement goes on a separate page at the start of your submission."
+  },
+  {
+   "point_id": "p05",
+   "quote": "If you have not used AI tools, whether because it is not allowed or because you have chosen not to use AI tools at all, you need to include the following acknowledgement.",
+   "anchor": "If you have not used AI tools",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students who did not use AI tools must still include a stated acknowledgement."
+  },
+  {
+   "point_id": "p06",
+   "quote": "If you submit work that is not your own, then you will be committing academic misconduct, which carries severe penalties.",
+   "anchor": "RESEARCH with AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Submitting work that is not your own is academic misconduct with severe penalties."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Ensure that you have completed the UWTSD LLR’s Infoskils unit on Artificial Intelligence before using any AI tools as part of your studies and assessment",
+   "anchor": "Allowable Uses of Artificial Intelligence – General Guidance for Students",
+   "addressee": "student",
+   "force": "must",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Complete the library Infoskills unit on AI before using AI tools in studies and assessment."
+  },
+  {
+   "point_id": "p08",
+   "quote": "You cannot ask a Generative Artificial Intelligence (GAI) tool to create text for you or allow it to rewrite, expand or change beyond recognition your own text.",
+   "anchor": "Basic Proofreading: What you cannot do",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Under basic proofreading, you cannot have AI create text or rewrite, expand or change your own text beyond recognition."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Grammarly has a number of optional Generative AI features. These are not included in this allowable use of AI for basic proofreading.",
+   "anchor": "Basic Proofreading: Grammarly",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Grammarly's generative AI features are not covered by the basic proofreading allowance."
+  },
+  {
+   "point_id": "p10",
+   "quote": "you must be specific about what was produced by the AI, what changes you made to it, and what you wrote yourself.",
+   "anchor": "PROGRAMMING with AI",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "For assessed code, state what the AI produced, what you changed and what you wrote."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Violating this policy inadvertently using an autocomplete generative AI or similar tool still constitutes academic misconduct.",
+   "anchor": "Generative AI within Integrated Development Environments",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Inadvertent use of an autocomplete AI tool that breaches the policy is still academic misconduct."
+  },
+  {
+   "point_id": "p12",
+   "quote": "In the first instance you must discuss the use and implementation of AI in projects with the Module Leader. The use of AI in any or part of any project is entirely at the discretion of the Module Leader.",
+   "anchor": "What you should do when using AI as part of the creative process",
+   "addressee": "student",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Discuss AI use in creative projects with the Module Leader, who has sole discretion over it."
+  },
+  {
+   "point_id": "p13",
+   "quote": "you must not use the names of artists/designers, artworks, companies, or brands within any AI prompts.",
+   "anchor": "What you cannot do when using AI as part of the creative process",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Do not use names of artists, designers, artworks, companies or brands in AI prompts."
+  },
+  {
+   "point_id": "p14",
+   "quote": "Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+   "anchor": "RESEARCH with AI",
+   "addressee": "student",
+   "force": "must",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Ensure sensitive or confidential data is not used to train AI models, made public or breach GDPR."
+  },
+  {
+   "point_id": "p15",
+   "quote": "So, do not use the references from Bing Chat in your work.",
+   "anchor": "Using Bing Chat",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Do not use the references that Bing Chat supplies in your work."
+  }
+ ]
+}

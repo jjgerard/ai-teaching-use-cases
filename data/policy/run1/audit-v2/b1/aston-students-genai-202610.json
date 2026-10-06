@@ -1,0 +1,19 @@
+{
+ "doc_id": "aston-students-genai-202610",
+ "coder": "v2-b1",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "Assessments: All AI projects require an AI Risk Assessment; Medium/High risk mandates Data Privacy Impact Assessment and Ethics review.",
+   "anchor": "Risk-Based Framework"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "AI-related projects, including those underpinning research outputs (subject to separate Research Governance provisions).",
+   "why": "Mentions separate research governance, not guidance for researchers"
+  }
+ ]
+}

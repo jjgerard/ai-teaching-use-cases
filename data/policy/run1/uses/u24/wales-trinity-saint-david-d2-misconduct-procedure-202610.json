@@ -1,0 +1,28 @@
+{
+ "doc_id": "wales-trinity-saint-david-d2-misconduct-procedure-202610",
+ "coder": "use-u24",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "using AI to generate material for submission where this is not permitted;",
+   "anchor": null
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

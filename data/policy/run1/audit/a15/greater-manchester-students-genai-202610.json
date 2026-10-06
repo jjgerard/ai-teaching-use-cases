@@ -1,0 +1,29 @@
+{
+ "doc_id": "greater-manchester-students-genai-202610",
+ "coder": "aud-a15",
+ "checked_types": 73,
+ "found": [
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Don't forget to complete the assessment to earn your digital badge!",
+   "anchor": "Introduction"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "Co-designed with students, the LEAP Online team and researchers in learning and information technologies",
+   "anchor": "Introduction"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "complete_training_before_using_ai",
+   "quote": "The tutorial is essential for all students to develop critical literacy in a world infused with AI",
+   "why": "Endorsement quote; not a stated precondition or requirement"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "designed to be a guide and a catalyst for thoughtful, responsible and innovative engagement with AI",
+   "why": "Framework aim, not clearly an institutional stance on enabling AI"
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "doc_id": "bishop-grosseteste-students-genai-202610",
+ "coder": "use-u18",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Drawing down text in whole or part from Artificial Intelligence (AI) that is more substantial than grammar, spelling and punctuation checks of your original work is not permitted unless specified within the assignment brief.",
+   "anchor": "2.3.8. Plagiarism through AI"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Drawing down text in whole or part from Artificial Intelligence (AI) that is more substantial than grammar, spelling and punctuation checks of your original work is not permitted unless specified within the assignment brief.",
+   "anchor": "2.3.8. Plagiarism through AI"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "not permitted unless specified within the assignment brief."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

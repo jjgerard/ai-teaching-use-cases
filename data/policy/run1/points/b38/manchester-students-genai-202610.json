@@ -1,0 +1,148 @@
+{
+ "doc_id": "manchester-students-genai-202610",
+ "coder": "pts-b38",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Students must not upload any University of Manchester owned materials, including lecture – recordings, slides, question papers, handouts or any other copyrighted resources to external AI tools.",
+   "anchor": "2.2.1",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Students must not upload University-owned materials such as recordings, slides, question papers or handouts to external AI tools."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Assessments must be assigned to one of the following AI categories, and this must be communicated to students and stated on assessment briefs, including on the Course Unit Canvas assessment information.",
+   "anchor": "2.1.1",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Every assessment must be placed in one of the AI categories, and the category must be stated on the brief and on Canvas."
+  },
+  {
+   "point_id": "p03",
+   "quote": "AI Prohibited: AI is not permitted or is unable to be used in this assessment.",
+   "anchor": "2.1.1 a)",
+   "addressee": "both",
+   "force": "must_not",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "In AI Prohibited assessments, AI is not permitted or cannot be used."
+  },
+  {
+   "point_id": "p04",
+   "quote": "AI Minimal: AI is permitted to be used in this assessment in limited ways that contribute to the presentation (for example surface level use to improve grammar, fluency, and formatting) without changing the ideas, arguments or conclusions developed by the student.",
+   "anchor": "2.1.1 b)",
+   "addressee": "both",
+   "force": "may",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "AI Minimal allows limited presentation-level use such as grammar, fluency and formatting, without changing the student's ideas, arguments or conclusions."
+  },
+  {
+   "point_id": "p05",
+   "quote": "AI-Integrated: AI use is necessary to meet the course unit intended learning outcomes. This does not imply that all AI use is permitted.",
+   "anchor": "2.1.1 d)",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "In AI-Integrated assessments AI use is necessary for the learning outcomes, but not all AI use is permitted."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Students may choose not to use AI for assessment, unless the assessment has been designated as Category D.",
+   "anchor": "2.1.2",
+   "addressee": "student",
+   "force": "may",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Students may choose not to use AI in assessment, except where the assessment is Category D."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Where a recording of a taught session is available, students are permitted to use their University of Manchester Microsoft 365 Copilot access to upload this for the purposes of supporting their learning.",
+   "anchor": "2.2.2",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Students may upload an available recording of a taught session to the University's Microsoft 365 Copilot to support their learning."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Within assessed work, students’ failure to document use of Generative AI could be a form of plagiarism contrary to the Academic Malpractice Procedure.",
+   "anchor": "3.0.2",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Failing to document GenAI use in assessed work could count as plagiarism under the Academic Malpractice Procedure."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Students must seek prior agreement from all group members before recording or transcribing group conversations.",
+   "anchor": "2.1.5",
+   "addressee": "student",
+   "force": "must",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Students must get all group members' agreement before recording or transcribing group conversations."
+  },
+  {
+   "point_id": "p10",
+   "quote": "For assessed group work, the course unit lead must state the category of the assessment and provide clear information to students about how to approach AI use as a group before beginning the activity.",
+   "anchor": "2.1.4",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "For group work, the unit lead must state the category and explain how to approach AI use as a group before the activity starts."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Microsoft 365 Copilot is not a suitable substitute for therapy, any other medical and health advice, or academic advice.",
+   "anchor": "1.2.3",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "other",
+   "specific": true,
+   "gist": "Microsoft 365 Copilot is not a suitable substitute for therapy, medical or health advice, or academic advice."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Only the University-provided Microsoft 365 Copilot service may be used for student-identifiable or confidential data.",
+   "anchor": "2.3.1",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Only the University-provided Microsoft 365 Copilot may be used for student-identifiable or confidential data."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Chairs of Faculty Teaching and Learning Committees will collate issues with this policy raised by Schools and are responsible for including a review of the impact of the AI Policy by the Committee at least once a semester.",
+   "anchor": "2.3.2",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "Faculty committee chairs collate issues and ensure the committee reviews the AI Policy's impact at least once a semester."
+  },
+  {
+   "point_id": "p14",
+   "quote": "The Environmental and Sustainability AI Working Group has been tasked with reviewing and assessing the environmental impact of AI and coordinating University-based sustainability initiatives, including in Teaching and Learning.",
+   "anchor": "Introduction",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "A working group is tasked with assessing AI's environmental impact and coordinating sustainability initiatives."
+  }
+ ]
+}

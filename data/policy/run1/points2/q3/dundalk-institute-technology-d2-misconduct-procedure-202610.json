@@ -1,0 +1,28 @@
+{
+ "doc_id": "dundalk-institute-technology-d2-misconduct-procedure-202610",
+ "coder": "pts-q3",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism.",
+   "anchor": "Plagiarism",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using generative AI tools such as ChatGPT in an assessment without explicit permission and proper acknowledgement counts as plagiarism."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Verification may take the form of an oral verification interview (see Appendix 3: Guidelines for Staff on the Conduct of Oral Verification Interviews) with the submitting learner or learners, using plagiarism detection software (e.g. Turnitin), or any other process appropriate to a particular discipline to safeguard Academic Integrity.",
+   "anchor": "Verification of originality",
+   "addressee": "staff",
+   "force": "may",
+   "topic": "detection_tools",
+   "specific": false,
+   "gist": "Lecturers may verify originality through an oral verification interview, plagiarism detection software such as Turnitin, or another discipline-appropriate process."
+  }
+ ]
+}

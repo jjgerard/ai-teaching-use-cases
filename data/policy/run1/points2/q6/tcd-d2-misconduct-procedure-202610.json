@@ -1,0 +1,78 @@
+{
+ "doc_id": "tcd-d2-misconduct-procedure-202610",
+ "coder": "pts-q6",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Programme handbooks must also clearly outline and communicate the permitted use of GenAI by students in learning activities and assessment tasks",
+   "anchor": "7. Policy",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Programme handbooks must clearly state the permitted use of GenAI by students in learning activities and assessments."
+  },
+  {
+   "point_id": "p02",
+   "quote": "If individual modules have further restrictions or permit greater allowances in the use of GenAI, those restrictions or allowances must be stated in the module descriptions in the Blackboard VLE.",
+   "anchor": "7. Policy",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Module-specific GenAI restrictions or allowances must be stated in module descriptions in the Blackboard VLE."
+  },
+  {
+   "point_id": "p03",
+   "quote": "In such circumstances, it is the module permissions regarding the use of GenAI which are deemed to be definitive for use in that module.",
+   "anchor": "7. Policy",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Where a module sets its own GenAI permissions, those are the definitive ones for that module."
+  },
+  {
+   "point_id": "p04",
+   "quote": "All students must complete a signed declaration to be submitted with all assessed coursework, declaring that they have read and understood the Library guide on Academic Integrity and Generative AI",
+   "anchor": "7. Policy",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students must submit a signed declaration with all assessed coursework stating they have read the Library guide on Academic Integrity and Generative AI."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Students should familiarise themselves with the Library Guide on Generative AI, which outlines considerations for using and acknowledging the use of Gen AI in academic work.",
+   "anchor": "7. Policy",
+   "addressee": "student",
+   "force": "should",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Students should read the Library Guide on Generative AI, which covers using and acknowledging Gen AI in academic work."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Staff and students of Trinity College Dublin, when using AI and GenAI, must do so in ways that are appropriate, transparent, responsible and prioritise ethical considerations",
+   "anchor": "5. Principles",
+   "addressee": "both",
+   "force": "must",
+   "topic": "ethics_bias_environment",
+   "specific": false,
+   "gist": "Staff and students using AI and GenAI must do so appropriately, transparently, responsibly and with ethical considerations first."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Trinity commits to providing ongoing resources and guidance to support students and staff in the responsible and ethical use of AI and GenAI.",
+   "anchor": "5. Principles",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "support_and_training",
+   "specific": false,
+   "gist": "Trinity commits to ongoing resources and guidance on responsible and ethical AI and GenAI use."
+  }
+ ]
+}

@@ -1,0 +1,178 @@
+{
+ "doc_id": "birmingham-students-genai-202610",
+ "coder": "pts-b17",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "The Code of Practice stipulates that you cannot use the output of Generative AI (i.e., the content it creates) in any assessment, unless explicitly authorised.",
+   "anchor": "Academic misconduct",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "The Code of Practice bars use of GenAI output in any assessment unless explicitly authorised."
+  },
+  {
+   "point_id": "p02",
+   "quote": "The University's framework does allow you to use Generative AI tools as study aids for your personal learning and in your research. You are permitted to use these tools in this context, as long as you do not submit the actual AI-generated output as your own work for assessment.",
+   "anchor": "Student and PGR use of Generative AI tools",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "GenAI may be used as a study aid and in research, provided its output is not submitted as your own assessed work."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Where the use of Generative AI tools is allowed, the assessment specification should also specify how use should be acknowledged.",
+   "anchor": "Student and PGR use of Generative AI tools",
+   "addressee": "both",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Where use is allowed, the assessment specification should say how use must be acknowledged."
+  },
+  {
+   "point_id": "p04",
+   "quote": "a pre-defined statement that indicates whether you have used Generative AI tools.",
+   "anchor": "Student and PGR use of Generative AI tools",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "One possible acknowledgement method is a pre-defined statement indicating whether GenAI tools were used."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Using appropriate referencing as outlined in Cite them Right Online (Institutional login required).",
+   "anchor": "Student and PGR use of Generative AI tools",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Another acknowledgement option is referencing as outlined in Cite them Right Online."
+  },
+  {
+   "point_id": "p06",
+   "quote": "It can act as a ‘third-party editorial assistant’, which means you can use the tools to correct spelling, punctuation and basic grammar errors; shorten long sentences or paragraphs, provided the meaning remains unchanged; ensure your writing adheres to standard English conventions; check consistency in formatting. For PGR theses, this use must be declared using the ‘third party editor declaration’ form.",
+   "anchor": "Editing and proofreading work",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Tools may act as editorial assistant for spelling, grammar, sentence shortening and formatting; PGR theses must declare this using the third party editor form."
+  },
+  {
+   "point_id": "p07",
+   "quote": "However Generative AI tools must not be used to alter your text in the following ways: to rewrite or improve your arguments, explanations or ideas; translate work into or from a language you’re being assessed on; shorten work to meet a word count; correct factual inaccuracies or enhance the content of your writing; rewrite code in computing or programming assessments.",
+   "anchor": "Editing and proofreading work",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Tools must not rewrite or improve arguments, translate assessed-language work, cut to a word count, correct facts or enhance content, or rewrite code."
+  },
+  {
+   "point_id": "p08",
+   "quote": "You should not copy and paste large amounts of your own writing into the tool.",
+   "anchor": "Editing and proofreading work",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "When correcting grammar, do not paste large amounts of your own writing into the tool."
+  },
+  {
+   "point_id": "p09",
+   "quote": "there are potentially serious copyright implications for doing this and you should only upload other people’s work if the item is no longer in copyright or if you have permission to do so.",
+   "anchor": "Summarise and understand research",
+   "addressee": "student",
+   "force": "should",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Only upload others' work if it is out of copyright or you have permission."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Please note that none of the print or electronic content held by the Library is currently licensed for such use.",
+   "anchor": "Copyright",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Library print and electronic content is not currently licensed for upload to GenAI tools."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Rather than supplying a full copy of a text by uploading or copying and pasting it directly into the Generative AI platforms, it is recommended that you point to the article title, DOI, or link for the Generative AI tool to then find the content itself and summarise it from there.",
+   "anchor": "Summarise and understand research",
+   "addressee": "student",
+   "force": "should",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Instead of uploading a full text, it is recommended to give the title, DOI or link."
+  },
+  {
+   "point_id": "p12",
+   "quote": "It’s advisable to remove any identifiable information from work you submit into the tool.",
+   "anchor": "Privacy and data considerations",
+   "addressee": "student",
+   "force": "should",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Remove identifiable information from work put into a tool."
+  },
+  {
+   "point_id": "p13",
+   "quote": "If you include other people’s personal data into the tools an ethics review might be required.",
+   "anchor": "Privacy and data considerations",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Including other people's personal data in tools might require an ethics review."
+  },
+  {
+   "point_id": "p14",
+   "quote": "Always double-check and verify information obtained from Generative AI tools.",
+   "anchor": "Inaccuracy and misrepresentation of information",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Always verify information obtained from GenAI tools."
+  },
+  {
+   "point_id": "p15",
+   "quote": "the misuse of Generative AI tools in assessment, such as improper referencing or non-acknowledgement of use, will be dealt with in-line with this Code of Practice.",
+   "anchor": "Plagiarism",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Improper referencing or non-acknowledgement of GenAI use is handled under the Code of Practice."
+  },
+  {
+   "point_id": "p16",
+   "quote": "Be assured that your School will give you all the guidance you need about when Generative AI tools can and cannot be used in academic work.",
+   "anchor": "Student and PGR use of Generative AI tools",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Your School will give guidance on when GenAI can and cannot be used in academic work."
+  },
+  {
+   "point_id": "p17",
+   "quote": "The Environmental Agency (2025) estimates that asking ChatGPT 10–50 questions (one conversation) uses approximately 500ml of water (equivalent to one bottle).",
+   "anchor": "Sustainability",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Asking ChatGPT 10 to 50 questions is estimated to use about 500ml of water."
+  }
+ ]
+}

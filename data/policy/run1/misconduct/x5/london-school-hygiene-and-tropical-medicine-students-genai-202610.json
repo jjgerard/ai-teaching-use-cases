@@ -1,0 +1,182 @@
+{
+ "doc_id": "london-school-hygiene-and-tropical-medicine-students-genai-202610",
+ "coder": "mis-x5",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Personation is the deliberate submission of work done by another person or technology (e.g. another student, a friend, a relative, a peer, a tutor, or anyone else, including generative AI and translation software) as if it were one’s own.",
+   "anchor": "Ch3 A.4 Personation"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Personation is the deliberate submission of work done by another person or technology (e.g. another student, a friend, a relative, a peer, a tutor, or anyone else, including generative AI and translation software) as if it were one’s own.",
+   "anchor": "Ch3 A.4 Personation"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is the copying or use of the work of others, whether intentionally or unintentionally, as if it were your own.",
+   "anchor": "Ch3 A.2"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabricating (making up) data, quotes, results or any other aspect of your work should be self-evidently wrong and will be treated as fraud.",
+   "anchor": "Ch3 A.5"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "This covers a range of offences, from significant instances of plagiarism to exam misconduct.",
+   "anchor": "Ch3 A.6"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion is any form of collaboration with another person, including another student, that has not been clearly acknowledged or permitted for assessment purposes",
+   "anchor": "Ch3 A.3"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Arranging for another person to falsely identify themselves as a student and take an exam on their behalf would be seen as a particularly severe form of personation and cheating.",
+   "anchor": "Ch3 A.4"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "if you fail to reference or acknowledge your own work (i.e. anything originally done for other purposes) as clearly as the work of others, then this may be treated as a form of plagiarism",
+   "anchor": "Ch2 self-citation"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Any breach of the rules, whether intentional or unintentional, will be treated very seriously and may result in penalties which affect your degree.",
+   "anchor": "Ch3 intro"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "The most serious forms of fraud are deliberate – fabricating or falsifying work, or omitting significant items, while knowing that this misrepresents the work done (or not done).",
+   "anchor": "Ch3 A.5"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Where genuine errors or poor practice occur (e.g. sloppy data handling which brings in false data, or disregarding outliers in results due to a lack of understanding of what they might mean), these will usually be seen as part of the learning process – being awarded a lower mark, rather than being penalised.",
+   "anchor": "Ch3 A.5"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "LSHTM uses the plagiarism detection service Turnitin UK, which is widely used by universities across the country.",
+   "anchor": "Ch3 C"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "Turnitin is just a tool: it does not make any 'decisions' about students or their work.",
+   "anchor": "Ch3 C.2"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Staff have considerable expertise in identifying plagiarism, and all markers look out for assessment irregularities and have access to a variety of tools to assist them.",
+   "anchor": "Ch3 C"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Judgement as to whether a specific offence has occurred will only be made following proper investigation of the case under LSHTM’s procedures.",
+   "anchor": "Ch3 A"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "students will be presumed innocent unless the contrary can be established through formal procedures and on the balance of probabilities.",
+   "anchor": "Ch3 B.1"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "a range of penalties may be invoked – e.g. a reduction of the grade, or an outright fail for the piece of work with a requirement to re-submit.",
+   "anchor": "Ch3 B.1"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "a range of penalties may be invoked – e.g. a reduction of the grade, or an outright fail for the piece of work with a requirement to re-submit.",
+   "anchor": "Ch3 B.1"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "severe offences may result in students having their registration on a programme terminated, or even being excluded from entry to any further LSHTM examinations or future degree/certificate awards from LSHTM.",
+   "anchor": "Ch3 B.1"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "Any breach of the rules, whether intentional or unintentional, will be treated very seriously and may result in penalties which affect your degree.",
+   "anchor": "Ch3 intro"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "It is not unusual for one or two students a year to fail an entire module or even their entire degree programme due to assessment irregularity issues, including for plagiarism.",
+   "anchor": "Ch3 B.1"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Cheating will be treated more seriously and result in heavier penalties than other forms of assessment irregularities.",
+   "anchor": "Ch3 A.6"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "assessment irregularity",
+   "ai_named": false,
+   "quote": "The term ‘assessment irregularity’ applies to any suspected instance of plagiarism, cheating, fraud, collusion, personation or other non-standard activity identified in connection with assessed work"
+  },
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the copying or use of the work of others, whether intentionally or unintentionally, as if it were your own."
+  },
+  {
+   "term": "collusion",
+   "ai_named": false,
+   "quote": "Collusion is any form of collaboration with another person, including another student, that has not been clearly acknowledged or permitted for assessment purposes"
+  },
+  {
+   "term": "personation",
+   "ai_named": true,
+   "quote": "Personation is the deliberate submission of work done by another person or technology (e.g. another student, a friend, a relative, a peer, a tutor, or anyone else, including generative AI and translation software) as if it were one’s own."
+  },
+  {
+   "term": "fraud",
+   "ai_named": false,
+   "quote": "Fraud is the submission of any work which may cause others to regard as true that which is not true."
+  },
+  {
+   "term": "cheating",
+   "ai_named": false,
+   "quote": "Cheating is a deliberate attempt to deceive in order to gain advantage in an assessed piece of work, including coursework, in-module assessments and examinations."
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "doc_id": "sheffield-hallam-students-genai-202610",
+ "coder": "use-u12",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It is important you do not use AI tools to generate an assignment and submit it as if it were your own work.",
+   "anchor": "Artificial Intelligence and Academic Integrity"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI is not used for any part of the activity.",
+   "anchor": "The Artificial Intelligence Transparency Scale",
+   "tier": "No AI"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This includes initial outlining, concept development, prompting thinking, and/or improving structure/quality of the final output.",
+   "anchor": "The Artificial Intelligence Transparency Scale",
+   "tier": "AI for Shaping"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This includes initial outlining, concept development, prompting thinking, and/or improving structure/quality of the final output.",
+   "anchor": "The Artificial Intelligence Transparency Scale",
+   "tier": "AI for Shaping"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This includes initial outlining, concept development, prompting thinking, and/or improving structure/quality of the final output.",
+   "anchor": "The Artificial Intelligence Transparency Scale",
+   "tier": "AI for Shaping"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI is used to undertake detailed development of many or most aspects of an activity and outputs of that activity.",
+   "anchor": "The Artificial Intelligence Transparency Scale",
+   "tier": "AI for Developing"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI is used extensively throughout the task to achieve goals and outcomes.",
+   "anchor": "The Artificial Intelligence Transparency Scale",
+   "tier": "AI for Enhancing"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI is implemented in an advanced and innovative way throughout all aspects of the activity.",
+   "anchor": "The Artificial Intelligence Transparency Scale",
+   "tier": "AI for Innovating"
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "If in doubt, assume that AI cannot be used in your assessment task."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Your tutors should give you guidance about the level of AI which is allowed in your assessment task."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "This guidance on what is allowed and how to acknowledge any use of AI in your assessment should typically be included in your assessment brief."
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "Sometimes tutors may use the Artificial Intelligence Transparency Scale below to help communicate about how AI may be used, although they may use a different approach."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you have used AI in your work, you need to be clear about whether to reference your use of AI as a source, or to acknowledge your use of AI, or both."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "If you are acknowledging the use of AI in your work, you should provide a statement about how you have used it."
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "See the Library's guidance about when and how to reference AI."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

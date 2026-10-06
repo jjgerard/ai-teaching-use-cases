@@ -1,0 +1,29 @@
+{
+ "doc_id": "arts-plymouth-students-genai-202610",
+ "coder": "aud-a26",
+ "checked_types": 63,
+ "found": [
+  {
+   "type": "default_ai_permitted_unless_restricted",
+   "quote": "This approach allows our students to use or experiment with generative AI provided they do so within the guidelines of our academic policy and as stated within the Academic Misconduct Policy.",
+   "anchor": "Generative AI"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "must_acknowledge_or_declare_ai_use",
+   "quote": "Students can use generative AI as a tool for idea generation (ideation) and assisted creation of work when this is clearly credited and rationalised.",
+   "why": "Credit is a condition of permission; main verb is permission."
+  },
+  {
+   "type": "assessment_redesigned_to_test_process_and_understanding",
+   "quote": "The University will adapt teaching and assessment to incorporate the appropriate use of generative AI and support equal access.",
+   "why": "Adapting assessment stated, but not to test process or limit misuse."
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "provided they do so within the guidelines of our academic policy and as stated within the Academic Misconduct Policy.",
+   "why": "Only references the Academic Misconduct Policy, no procedure described."
+  }
+ ]
+}

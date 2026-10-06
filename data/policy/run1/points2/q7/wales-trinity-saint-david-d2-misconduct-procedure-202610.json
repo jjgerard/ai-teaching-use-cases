@@ -1,0 +1,28 @@
+{
+ "doc_id": "wales-trinity-saint-david-d2-misconduct-procedure-202610",
+ "coder": "pts-q7",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "using AI to generate material for submission where this is not permitted;",
+   "anchor": "3.1.1.5 False Authorship",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using AI to generate material for submission is listed as false authorship where it is not permitted."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Using automated paraphrasing software.",
+   "anchor": "3.1.1.1 Plagiarism",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using automated paraphrasing software is given as an example of plagiarism."
+  }
+ ]
+}

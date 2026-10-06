@@ -1,0 +1,148 @@
+{
+ "doc_id": "ucb-students-genai-202610",
+ "coder": "pts-b27",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "AI must not be used to generate assessed work unless explicitly permitted",
+   "anchor": "5.1 Student Learning and Assessment",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "AI must not be used to generate assessed work unless explicitly permitted."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Use must be clearly acknowledged",
+   "anchor": "5.1 Student Learning and Assessment",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Where AI use is permitted, it must be clearly acknowledged."
+  },
+  {
+   "point_id": "p03",
+   "quote": "The nature and extent of AI use must be explained",
+   "anchor": "5.1 Student Learning and Assessment",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Where AI use is permitted, the nature and extent of the use must be explained."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Reflections on the quality of AI outputs should be explored",
+   "anchor": "5.1 Student Learning and Assessment",
+   "addressee": "student",
+   "force": "should",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Where AI use is permitted, reflections on the quality of AI outputs should be explored."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Unauthorised AI use in formal assessments may be considered as academic misconduct, depending on its use and advantage.",
+   "anchor": "5.1 Student Learning and Assessment",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Unauthorised AI use in formal assessments may count as academic misconduct, depending on its use and advantage."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Sensitive, personal, or confidential data must not be entered into AI tools unless approved",
+   "anchor": "2.3 Data Protection and Security",
+   "addressee": "both",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Sensitive, personal or confidential data must not be entered into AI tools unless approved."
+  },
+  {
+   "point_id": "p07",
+   "quote": "The use of AI to generate or substantially assist responses in live recruitment activities (including interviews, assessment centres, or timed tasks) is inappropriate unless explicitly permitted by the employer.",
+   "anchor": "5.2 Employability and Recruitment",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using AI to generate or substantially assist responses in live recruitment activities is inappropriate unless the employer explicitly permits it."
+  },
+  {
+   "point_id": "p08",
+   "quote": "AI may be used to support preparation activities (e.g. drafting CVs, interview practice, and labour market research), provided its use enhances understanding and does not replace the development of a student’s own skills and judgement.",
+   "anchor": "5.2 Employability and Recruitment",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "AI may support preparation such as drafting CVs or interview practice if it enhances understanding and does not replace the student's own skills."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Students remain fully accountable for all AI-supported outputs and must be able to explain, justify, and critically evaluate any content they submit.",
+   "anchor": "5.2 Employability and Recruitment",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Students remain accountable for AI-supported outputs and must be able to explain, justify and critically evaluate what they submit."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Circumventing academic or professional integrity requirements.",
+   "anchor": "6. Prohibited Uses",
+   "addressee": "both",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Circumventing academic or professional integrity requirements is strictly prohibited."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Harassment, discrimination, or deceptive practices (e.g. deepfakes)",
+   "anchor": "6. Prohibited Uses",
+   "addressee": "both",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Harassment, discrimination, or deceptive practices such as deepfakes are strictly prohibited."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Any breaches will be treated seriously and addressed proportionately in line with established UCB procedures and applicable regulations.",
+   "anchor": "9. Consequences of Breach",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Breaches are treated seriously and addressed proportionately under established UCB procedures and applicable regulations."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Staff and students should use AI tools proportionately and consider their energy and resource implications where practical.",
+   "anchor": "2.4 Environmental Responsibility",
+   "addressee": "both",
+   "force": "should",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Staff and students should use AI tools proportionately and consider energy and resource implications where practical."
+  },
+  {
+   "point_id": "p14",
+   "quote": "The Learning and Teaching Strategy (2025–2030) positions AI capability as a core graduate outcome.",
+   "anchor": "3. UCB Approach to AI in Education",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "other",
+   "specific": true,
+   "gist": "The Learning and Teaching Strategy (2025–2030) positions AI capability as a core graduate outcome."
+  }
+ ]
+}

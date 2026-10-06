@@ -1,0 +1,126 @@
+[
+ {
+  "ror_id": "https://ror.org/008n7pv89",
+  "name": "University of Plymouth",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://liveplymouthac.sharepoint.com/:b:/r/sites/x110/Principles/AI%20Education%20Principles%202025-26.pdf?csf=1&web=1&e=WfxpL6",
+   "title": "AI Education Principles 2025-26 (University GenAI Principles)",
+   "kind": "policy",
+   "audience_as_stated": "staff and students (principles on teaching, learning, assessment and research)",
+   "owner_as_stated": "University of Plymouth",
+   "date_as_shown": "2025-26 (from file name/library guide heading)",
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://plymouth.libguides.com/Ailibraryskills",
+    "title": "AI Principles - Artificial Intelligence and Library Skills (library guide, retrieved 200, thin ~150 words, links to the PDF)"
+   }
+  ],
+  "notes": "PDF on SharePoint returned 403 so content not seen; link and 'University GenAI Principles (2025-26)' label seen on the retrieved library guide. Four searches on plymouth.ac.uk surfaced no main plymouth.ac.uk student page.",
+  "doc_id": "plymouth-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00xkeyj56",
+  "name": "University of Kent",
+  "outcome": "found",
+  "doc": {
+   "url": "https://student.kent.ac.uk/studies/using-generative-ai-in-your-studies/ai-use-guidelines/ai-and-academic-integrity",
+   "title": "AI and Academic Integrity - Your studies - University of Kent",
+   "kind": "guidance",
+   "audience_as_stated": "students ('As a student at the University of Kent')",
+   "owner_as_stated": "University of Kent",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://student.kent.ac.uk/studies/using-generative-ai-in-your-studies",
+    "title": "Using Generative AI in your studies (hub)"
+   },
+   {
+    "audience": "students",
+    "url": "https://student.kent.ac.uk/studies/using-generative-ai-in-your-studies/ai-use-guidelines/our-ai-principles",
+    "title": "Our AI Principles"
+   },
+   {
+    "audience": "students",
+    "url": "https://student.kent.ac.uk/studies/using-generative-ai-in-your-studies/tips",
+    "title": "Tips on using generative AI"
+   }
+  ],
+  "doc_id": "kent-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04kp2b655",
+  "name": "University of Brighton",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://unibrightonac.sharepoint.com/:b:/s/public/ET4jBPx7tdtEr4dABxqvZrMBEYv7SBjpJ0MET49NtzXOjg?e=3JPNkl",
+   "title": "Policy on the use of Generative AI in summative assessment (Taught Provision)",
+   "kind": "policy",
+   "audience_as_stated": "taught students (listed on Student Contract 2026-27 policies page)",
+   "owner_as_stated": "University of Brighton",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.brighton.ac.uk/brighton-students/your-learning/student-policies-and-regulations/index.aspx",
+    "title": "The University of Brighton Student Contract 2026-27 (hub linking the policy; retrieved 200)"
+   },
+   {
+    "audience": "students",
+    "url": "https://libguides.brighton.ac.uk/GenerativeAI",
+    "title": "GENERATIVE AI library guide (retrieved 200)"
+   }
+  ],
+  "notes": "SharePoint policy returned 403; link title seen on the retrieved hub page.",
+  "doc_id": "brighton-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00dn4t376",
+  "name": "Brunel University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.brunel.ac.uk/AI_guidance",
+   "title": "Generative AI - Guidance for students (Overview)",
+   "kind": "library_guide",
+   "audience_as_stated": "students",
+   "owner_as_stated": "Brunel University Library",
+   "date_as_shown": "Last Updated: 13 Feb 2025",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://students.brunel.ac.uk/study/using-artificial-intelligence-in-your-studies",
+    "title": "Using artificial intelligence in your studies (BruNet; retrieved 200 but accordion text not captured, ~116 words)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.brunel.ac.uk/life/study-support/computer-services/media-services/digital-education/AI-at-Brunel",
+    "title": "AI at Brunel (staff guidance)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.brunel.ac.uk/life/study-support/computer-services/media-services/digital-education/Principles-of-AI",
+    "title": "Principles of AI"
+   }
+  ],
+  "notes": "Library guide points to the BruNet university page, which was too thin to select.",
+  "doc_id": "brunel-london-students-genai-202610"
+ }
+]

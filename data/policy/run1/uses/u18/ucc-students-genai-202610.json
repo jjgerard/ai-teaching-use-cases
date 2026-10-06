@@ -1,0 +1,72 @@
+{
+ "doc_id": "ucc-students-genai-202610",
+ "coder": "use-u18",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This will model acceptable use for the students who may similarly use a GenAI tool to brainstorm some key points for their essay, going on to research these themselves to develop their response.",
+   "anchor": "Considerations for Using GenAI in Education"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "GenAI is known to “hallucinate” and is not credible as a source.",
+   "anchor": "Trust"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "It is possible that these may vary from module to module for students, so it is important that expectations are made clear in each module and that students are aware of these."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "This can take the form of a GenAI Statement that you include in your course syllabus, in Canvas, and/or in assignment briefs."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "recommended",
+   "quote": "This means that use of GenAI should be acknowledged and made transparent."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "What GenAI tool(s) and version were used"
+   },
+   {
+    "value": "tool_version",
+    "quote": "What GenAI tool(s) and version were used"
+   },
+   {
+    "value": "how_used",
+    "quote": "How these were used (detailing how they were engaged with, how their output was integrated into the work or what impact it had on the work)"
+   },
+   {
+    "value": "prompts",
+    "quote": "This acknowledgement may take the form of a statement that details how a GenAI tool was used (potentially including information on the prompting process, screenshots of output, or a link to the conversation thread)."
+   },
+   {
+    "value": "outputs",
+    "quote": "This acknowledgement may take the form of a statement that details how a GenAI tool was used (potentially including information on the prompting process, screenshots of output, or a link to the conversation thread)."
+   },
+   {
+    "value": "own_contribution",
+    "quote": "Acknowledgement that the author has reviewed and evaluated all AI-generated content and confirmed that it accurately reflects their understanding and intended meaning, along with acceptance of responsibility for the content and its accuracy."
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

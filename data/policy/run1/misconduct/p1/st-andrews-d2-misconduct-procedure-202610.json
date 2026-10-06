@@ -1,0 +1,218 @@
+{
+ "doc_id": "st-andrews-d2-misconduct-procedure-202610",
+ "coder": "mis-p1",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Output, in whole or in part, of Artificial Intelligence (AI), including LLMs, where this is not permitted.",
+   "anchor": "2.2 Plagiarism"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Output, in whole or in part, of Artificial Intelligence (AI), including LLMs, where this is not permitted.",
+   "anchor": "2.2 Plagiarism"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": true,
+   "quote": "Falsification as a misconduct type is agnostic about motivation and means: it can occur due to, inter alia a deliberate attempt to obfuscate, or inadvertent inclusion because of incorporation of outputs of Generative AI tools powered by Large Language Models.",
+   "anchor": "2.2 Falsification"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Work produced by, or obtained from, services such as essay mills, web sites, friends, family members, with or without monetary transactions,",
+   "anchor": "2.2 Plagiarism"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Published or unpublished work done partly or wholly by another person,",
+   "anchor": "2.2 Plagiarism"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Taking electronic devices, software or materials into an examination venue (other than those specifically permitted), irrespective of whether or not any use of the item(s) was made.",
+   "anchor": "2.2 Examinations"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "In determining whether an accusation of academic misconduct is upheld, absence of intention to commit misconduct, extenuating circumstances or ignorance of the rules is not a valid defence.",
+   "anchor": "1, High Principle 9"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "copy of the plagiarism detection software report (if applicable) and any supporting evidence provided by the AMO (this should also be sent to the student(s)).",
+   "anchor": "3.5.2"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "the distinction between failure to observe good academic practice and academic misconduct is an academic judgement.",
+   "anchor": "1, High Principle 5"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "Markers of work may raise the issue of poor academic practice with a student when this does not constitute academic misconduct.",
+   "anchor": "3.1"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "The AMO will then refer the case to be heard at the appropriate level.",
+   "anchor": "3.4"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "In judging whether or not there is a case to answer, the AMO may scrutinise all work for a module in which the allegation of misconduct has been raised, even if that work has already been marked and returned to the student.",
+   "anchor": "3.2"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student has the right to challenge any evidence presented and to present their own evidence.",
+   "anchor": "3.5.3"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The convener will arrange a hearing of the Board",
+   "anchor": "3.5.1"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If a student fails to attend without good cause, the Board of Adjudication may choose to proceed in the student’s absence.",
+   "anchor": "3.5.3"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "A student attending a Board of Adjudication has the right to be accompanied and represented by another member of the University.",
+   "anchor": "3.5.3"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Students have a right of appeal against any outcomes",
+   "anchor": "7.1"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Boards must meet to consider the case within fifteen working days of the convener being appointed, unless there is a compelling reason why this is not possible.",
+   "anchor": "3.5.3"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The standard of proof that will normally apply in determining whether an accusation of academic misconduct is upheld is ‘based on the balance of probabilities’.",
+   "anchor": "1, High Principle 10"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "The student must retake the online Training in Good Academic Practice course within five working days of the date of the written warning.",
+   "anchor": "3.4.2"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "If the student has no prior history of misconduct, a written warning may be appropriate.",
+   "anchor": "3.4.2"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Piece of assessment capped at 7",
+   "anchor": "4.1"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Zero for piece of assessment",
+   "anchor": "4.1"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Candidate must amend the parts affected by misconduct and resubmit the revised thesis within three months.",
+   "anchor": "4.2 PGR sanction 2"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Zero for module with a) the right to retake the module for credit only,",
+   "anchor": "4.1"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Termination of Studies",
+   "anchor": "4.1"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "if the misconduct is considered egregious, alteration or withdrawal of the degree award.",
+   "anchor": "3.6"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "students who have been found to have committed academic misconduct on two or more occasions must be referred to a University Board.",
+   "anchor": "3.4.1"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Sanctions on those found to have committed academic misconduct will, as far as possible, reflect the severity of the offence that has been committed.",
+   "anchor": "1, High Principle 11"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of taking ideas or work from other sources and representing them as if it is the student’s own ideas or work."
+  },
+  {
+   "term": "multiple submission",
+   "ai_named": false,
+   "quote": "Multiple submission is the act of submitting for assessment a piece of work already (or simultaneously) submitted for assessment in the same module, another module or in another context."
+  },
+  {
+   "term": "falsification",
+   "ai_named": false,
+   "quote": "Falsification is the fabrication, alteration, or false representation of anything that forms part of a student’s output"
+  },
+  {
+   "term": "aiding and abetting",
+   "ai_named": false,
+   "quote": "Aiding and abetting is any form of assistance with another person’s academic misconduct."
+  },
+  {
+   "term": "coercion",
+   "ai_named": false,
+   "quote": "Coercion is where a student puts pressure on another student or member of staff to act in a particular way, or attempts to do so, with the intention of gaining an academic advantage."
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+[
+ {
+  "name": "University College Cork",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ucc.ie/en/academicgov/policies/standards/academicintegrityforexaminationsandassessmentspolicy2025-2026/",
+   "title": "Academic Integrity for Examinations and Assessments Policy 2025-2026",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "Updated 29 June 2026; approved by Academic Council 6 June 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.ucc.ie/en/research/responsible-use-of-generative-ai-in-research/",
+    "title": "Guidelines for the Responsible Use of Generative AI in Research",
+    "audience": "pgr"
+   }
+  ]
+ },
+ {
+  "name": "University College Dublin",
+  "outcome": "found",
+  "doc": {
+   "url": "https://hub.ucd.ie/usis/W_HU_MENU.P_DOWNLOAD_FILE?p_filename=Student+Academic+Misconduct+Procedure.pdf&p_parameters=36F8A0AC5B0D6F23FA1EEB8E7C5668E87D47F894CE813A2C5A31FE1A69D113A3E1C278129BDAF0CFDDCE3164583EBA53D7A9D384A4291FC47769BDC4FE684C51",
+   "title": "Student Academic Misconduct Procedure",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Approved by Academic Council 30 April 2025; effective 1 September 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://hub.ucd.ie/usis/W_HU_MENU.P_DOWNLOAD_FILE?p_filename=Academic+Integrity+Policy.pdf&p_parameters=36F8A0AC5B0D6F23FA1EEB8E7C5668E87D47F894CE813A2C5A31FE1A69D113A3E1C278129BDAF0CFDDCE3164583EBA5375F8415E6CDF572FA156DC54645D6B52",
+    "title": "Academic Integrity Policy (effective 1 Sept 2024; names generative AI at s4.3; alternative misconduct-kind document)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.ucd.ie/artshumanities/study/aifutures/trafficlightsystem/",
+    "title": "Traffic Light System (College of Arts and Humanities only)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.ucd.ie/graduatestudies/researchsupervisorhub/generativeai/",
+    "title": "Generative AI (Graduate Studies, supervisor hub)",
+    "audience": "pgr"
+   },
+   {
+    "url": "https://www.ucd.ie/teaching/resources/generativeai/genaiassessmentdesign/",
+    "title": "GenAI & Assessment Design",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "University of Limerick",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ul.ie/provost/functions-processes/academic-integrity-unit/assessment-and-gen-ai",
+   "title": "Assessment and Gen AI",
+   "kind": "assessment_policy",
+   "format": "html",
+   "date_as_shown": "July 2024 (inferred from image date)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://ul.ie/media/academic-integrity-policy-v11/download?inline=",
+    "why": "no AI content (Academic Integrity Policy v11 PDF names AI only in a reference list)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.ul.ie/provost/functions-processes/academic-integrity-unit/generative-artificial-intelligence-principles",
+    "title": "Generative Artificial Intelligence Principles for the University, Staff, Researchers and Students",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.ul.ie/provost/functions-processes/academic-integrity-unit/toolkit",
+    "title": "UL Academic Integrity and GenAI toolkit",
+    "audience": "students"
+   }
+  ]
+ }
+]

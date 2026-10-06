@@ -1,0 +1,25 @@
+{
+ "doc_id": "manchester-students-genai-202610",
+ "coder": "mis-m18",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "students’ failure to document use of Generative AI could be a form of plagiarism contrary to the Academic Malpractice Procedure",
+   "anchor": "3.0.2"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Failure to adhere to the terms of an assessment brief is handled on an assessment-by-assessment basis and may be accounted for through the marking process.",
+   "anchor": "3.0.2"
+  }
+ ],
+ "definitions": []
+}

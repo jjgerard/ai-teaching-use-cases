@@ -1,0 +1,143 @@
+[
+ {
+  "name": "Cardiff University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://sites.cardiff.ac.uk/ilrb/using-gen-ai-to-support-your-literature-searching/",
+   "title": "Using Gen AI to support your literature searching",
+   "kind": "library_guide",
+   "format": "html",
+   "date_as_shown": "28 November 2024",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://intranet.cardiff.ac.uk/students/study/exams-and-assessment/academic-integrity/artificial-intelligence-ai-in-education",
+    "why": "blocked (HTTP 403)"
+   },
+   {
+    "url": "https://www.cardiff.ac.uk/documents/2985525-use-of-artificial-intelligence-ai-in-the-admissions-process",
+    "why": "admissions, not not fetched; not student guidance on learning"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://sites.cardiff.ac.uk/studentfuturesplus/skills-and-attributes/using-ai-in-your-career-development/",
+    "title": "Using AI in your career development",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "Cardiff University generative AI students guidance",
+   "Cardiff University student guidance use of generative AI in assessment academic integrity",
+   "Cardiff University library guide artificial intelligence tools students"
+  ]
+ },
+ {
+  "name": "Nottingham Trent University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.ntu.ac.uk/studenthub/news/2023/12/artificial-intelligence-ntu",
+   "title": "Artificial Intelligence @ NTU",
+   "kind": "news",
+   "format": "html",
+   "date_as_shown": "2023-12 (from URL)",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.ntu.ac.uk/media/documents/policies/academic-quality-handbook/17C-Academic-Integrity-Policy-Requirements.pdf",
+    "why": "blocked (HTTP 403)"
+   },
+   {
+    "url": "https://www.ntu.ac.uk/studenthub/my-course/student-handbook/policies-and-procedures",
+    "why": "blocked (HTTP 403)"
+   },
+   {
+    "url": "https://www.ntu.ac.uk/__data/assets/pdf_file/0036/921987/17C-Academic-Integrity-Policy-Sept-2023.pdf",
+    "why": "blocked (HTTP 403)"
+   },
+   {
+    "url": "https://www.ntu.ac.uk/studenthub/documents/studenthub/Student-Code-of-Behaviour.pdf",
+    "why": "blocked (HTTP 403)"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "NTU generative AI students guidance",
+   "NTU academic integrity policy generative AI student misconduct",
+   "NTU library guide generative AI referencing students"
+  ]
+ },
+ {
+  "name": "University of Brighton",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.brighton.ac.uk/GenerativeAI",
+   "title": "What is Generative AI? - GENERATIVE AI - Subject Guides",
+   "kind": "library_guide",
+   "format": "html",
+   "date_as_shown": "Last updated Sep 2, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://unibrightonac.sharepoint.com/:b:/s/public/ET4jBPx7tdtEr4dABxqvZrMBEYv7SBjpJ0MET49NtzXOjg?e=3JPNkl",
+    "why": "robots disallowed"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://blogs.brighton.ac.uk/studentnewsandevents/2024/02/21/student-qa-how-are-the-university-managing-advances-in-artificial-intelligence/",
+    "title": "Student Q&A - how is the university managing advances in AI?",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.brighton.ac.uk/research/postgraduate-research-degrees/applying/use-of-gen-ai-for-pgr-admissions.aspx",
+    "title": "Use of Generative AI for PGR Admissions",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "University of Brighton generative AI students"
+  ]
+ },
+ {
+  "name": "University of Greenwich",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.gre.ac.uk/docs/rep/information-and-library-services/ai-guidance",
+   "title": "Artificial Intelligence (AI) guidance for students",
+   "kind": "guide",
+   "format": "html",
+   "date_as_shown": "Last updated 10 September 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.gre.ac.uk/__data/assets/pdf_file/0022/364711/ai-guidance-for-students.pdf",
+    "why": "HTTP 404"
+   },
+   {
+    "url": "https://www.gre.ac.uk/articles/ils/ai-guidance",
+    "why": "HTTP 404"
+   },
+   {
+    "url": "https://www.gre.ac.uk/articles/public-relations/guidance-on-the-use-of-artificial-intelligence-ai",
+    "why": "HTTP 404"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "University of Greenwich AI guidance students"
+  ]
+ }
+]

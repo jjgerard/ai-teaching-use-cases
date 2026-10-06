@@ -1,0 +1,134 @@
+[
+ {
+  "name": "Ravensbourne University London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ravensbourne.ac.uk/asset-bucket/prod/2024-09/Ravensbourne_University_General_Academic_Regulations_2024-25.pdf",
+   "title": "Ravensbourne University London General Academic Regulations 2024-2025",
+   "kind": "assessment_policy",
+   "format": "pdf",
+   "date_as_shown": "2024-2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.ravensbourne.ac.uk/asset-bucket/prod/2025-09/Ravensbourne%20University%20General%20Academic%20Regulations%20for%202025-26%20publishing%20v3.pdf",
+    "why": "is blocked_url"
+   },
+   {
+    "url": "https://www.ravensbourne.ac.uk/knowledge-exchange-research/research-projects/closing-equity-gaps-through-use-ai-assisted-tools",
+    "why": "research project page, not student guidance"
+   },
+   {
+    "url": "https://www.ravensbourne.ac.uk/people-and-stories/news/research/uncharted-terrain-creativity-age-ai",
+    "why": "research news essay, not rules for students"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "Ravensbourne generative AI students guidance",
+   "Ravensbourne academic misconduct policy artificial intelligence students",
+   "Ravensbourne students use of AI tools assessment guidance library",
+   "Ravensbourne academic misconduct policy appendix AI generated work students"
+  ],
+  "note": "Superseded prior-year edition; misconduct list item k covers AI-generated work claimed as own. No standalone student AI guide found."
+ },
+ {
+  "name": "Northumbria University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.northumbria.ac.uk/about-us/university-services/it-services/student-digital-induction/claude-for-education/",
+   "title": "Claude for Education your AI tool",
+   "kind": "guide",
+   "format": "html",
+   "date_as_shown": "Page last reviewed: 22 May 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://library.northumbria.ac.uk/c.php?g=690936&p=5237243",
+    "why": "is blocked_url (robots disallowed)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://corp.northumbria.ac.uk/-/media/university-policies/policy-master-versions/academic-misconduct-policy.pdf?modified=20250523120544",
+    "title": "Academic Misconduct Policy (PL.005-V007; not retrieved here)",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "Northumbria generative AI students guidance",
+   "Northumbria library guide generative AI students using AI in your studies"
+  ]
+ },
+ {
+  "name": "National College of Art and Design",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ncad.ie/files/undergrad_files/Critical_Cultures_Research_Essay_Handbook_24-25.pdf",
+   "title": "School of Visual Culture Critical Cultures Research Project Handbook 2024-25",
+   "kind": "other",
+   "format": "pdf",
+   "date_as_shown": "2024-25",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.ncad.ie/files/download/Generative_Artificial_Intelligence_(AI)_Use_Policy.pdf",
+    "why": "is blocked_url (js shell)"
+   },
+   {
+    "url": "https://www.ncad.ie/staff/policies-procedures-regulations2/",
+    "why": "staff page"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.ncad.ie/students/academic-student-affairs-registration-regulation/policies-procedures-regulations/",
+    "title": "Academic Affairs: Policies, Procedures & Regulations (hub, links to the AI policy PDF)",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "NCAD generative artificial intelligence use policy students",
+   "NCAD students AI policy plagiarism academic integrity generative AI"
+  ],
+  "note": "Single school (Visual Culture) section 10 'NCAD's Generative AI Policy'; fallback, not institution-wide."
+ },
+ {
+  "name": "University College of Osteopathy",
+  "outcome": "not_found",
+  "doc": null,
+  "rejected": [
+   {
+    "url": "https://www.hsu.ac.uk/student-life/services/library-learning-services/",
+    "why": "retrieved; no AI content"
+   },
+   {
+    "url": "https://www.hsu.ac.uk/wp-content/uploads/2024/08/Academic-Policy-and-Procedure-updates-for-2024-UCO-new.pdf",
+    "why": "retrieved; no AI mention found"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.hsu.ac.uk/wp-content/uploads/2024/07/Course-Design-Framework-Combined-v2.0.pdf",
+    "title": "Course Design Framework (mentions generative AI; not retrieved)",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "University College of Osteopathy generative AI students",
+   "UCO osteopathy academic integrity artificial intelligence policy student",
+   "Health Sciences University UCO students generative AI guidance",
+   "University College of Osteopathy student handbook use of AI assessments"
+  ],
+  "note": "UCO is now part of Health Sciences University (hsu.ac.uk)."
+ }
+]

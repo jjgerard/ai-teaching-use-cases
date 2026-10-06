@@ -1,0 +1,44 @@
+{
+ "doc_id": "setu-students-genai-202610",
+ "coder": "uses-x2",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Where permitted, documented use of GenAI, and any other tools for writing or producing any work which is submitted for assessment, should be appropriately acknowledged as required under SETU regulations for undergraduate and taught postgraduate programmes, as well as regulations set out for research candidates.",
+   "anchor": "6. Policy"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Students should be guided by their lecturers on the acceptable usage of GenAI within their assessments."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "While specific guidance on GenAI for learning and assessment will be provided by SETU through the student's Faculty, Department, Programme and/or internal examiner"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Where permitted, documented use of GenAI, and any other tools for writing or producing any work which is submitted for assessment, should be appropriately acknowledged as required under SETU regulations for undergraduate and taught postgraduate programmes, as well as regulations set out for research candidates."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "acknowledgement is given to the contributions of others, which includes substantive contribution of technology, including generative artificial intelligence in any work, through appropriate internal citations and references."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

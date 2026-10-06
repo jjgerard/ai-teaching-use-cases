@@ -1,0 +1,37 @@
+{
+ "doc_id": "southampton-students-genai-202610",
+ "coder": "mis-m13",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "If you submit work that has been created by someone other than yourself (including GenAI), then this breaks our rules on Academic Responsibility and Conduct.",
+   "anchor": null
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "If you submit work that has been created by someone other than yourself (including GenAI), then this breaks our rules on Academic Responsibility and Conduct.",
+   "anchor": null
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "We will take disciplinary action that may result in penalties on your marks.",
+   "anchor": null
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "We will take disciplinary action that may result in penalties on your marks.",
+   "anchor": null
+  }
+ ],
+ "definitions": []
+}

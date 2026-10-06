@@ -1,0 +1,227 @@
+{
+ "doc_id": "canterbury-students-genai-202610",
+ "coder": "use-u8",
+ "uses": [
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "planning an assignment",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "generating ideas for a topic",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "learning new concepts (cross-check facts with reputable sources)",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "creating revision materials",
+   "anchor": "What can I use GenAI for?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "You may not use GenAI to produce work for assessment, unless explicitly told to do so by your module lead.",
+   "anchor": "Using genAI at CCCU by Education and Student Success"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Only use GenAI to produce work for assessed presentations with the explicit permission of your module lead.",
+   "anchor": "Presentations (slides and posters)"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "GenAI tools can help to shorten and simplify sentences for speech, or transcribe your speech so you can refine it further.",
+   "anchor": "Presentations (slides and posters)"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "correct or suggest appropriate SPaG",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "define or translate words for English comprehension",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "translate or rewrite blocks of text",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "generate or extensively edit work for assessment",
+   "anchor": "Spelling, punctuation, and grammar (SPaG)"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "These images might provide inspiration or starting points for your own projects.",
+   "anchor": "Image generation"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Always ensure you check the specific criteria for each assignment and give a reference for the code in your work.",
+   "anchor": "Computer code"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "research_or_thesis",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You might use GenAI to help you to develop ideas or identify relevant sources during the research process",
+   "anchor": "Evaluating information"
+  },
+  {
+   "use": "find_sources",
+   "context": "research_or_thesis",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You might use GenAI to help you to develop ideas or identify relevant sources during the research process",
+   "anchor": "Evaluating information"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Always reference GenAI in your work. Do not submit work produced in whole or part by GenAI tools, either verbatim or after paraphrasing, without citation.",
+   "anchor": "Referencing and declaring the use of GenAI"
+  },
+  {
+   "use": "analyse_data",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Use GenAI platforms to undertake data analysis, evaluation or calculations without acknowledgement.",
+   "anchor": "Academic integrity and plagiarism"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "account_or_age_limit"
+   ],
+   "quote": "Under 18s are not currently permitted to use GenAI.",
+   "anchor": "Privacy and data protection"
+  }
+ ],
+ "default_when_silent": {
+  "value": "use_by_use_rule",
+  "quote": "You may not use GenAI to produce work for assessment, unless explicitly told to do so by your module lead."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Always check and follow the guidance provided by your lecturers if you are considering using GenAI for your academic work."
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "your module assessment will be rated 1-5 using the Artificial Intelligence Assessment Scale (AIAS) found in your module handbook."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "You must acknowledge all use of GenAI in the preparation for assessment and reference its direct use correctly (see the section on Referencing above)."
+  },
+  "contents": [],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "Always acknowledge the use of GenAI in your work using the relevant statement provided in your module handbook."
+   },
+   {
+    "value": "with_references",
+    "quote": "Always reference GenAI in your work."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "Always reference GenAI in your work."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Without acknowledgement of the use of a GenAI tool, you risk academic misconduct."
+  },
+  "exempt": []
+ }
+}

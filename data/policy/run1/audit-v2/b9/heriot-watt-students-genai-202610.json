@@ -1,0 +1,18 @@
+{
+ "doc_id": "heriot-watt-students-genai-202610",
+ "coder": "v2-b9",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Double check the accuracy of the content and the references using trusted academic sources e.g. via the University Library to access peer-reviewed journals.",
+   "why": "Verification of AI output via library; close to generic verify-output type."
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "HW will support students to develop the digital capabilities needed to participate effectively in the university and wider society.",
+   "why": "Digital capabilities support, not clearly curriculum or learning outcome."
+  }
+ ]
+}

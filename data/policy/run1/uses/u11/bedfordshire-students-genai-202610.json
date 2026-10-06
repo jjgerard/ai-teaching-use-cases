@@ -1,0 +1,120 @@
+{
+ "doc_id": "bedfordshire-students-genai-202610",
+ "coder": "use-u11",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Identify ideas and concepts to research further.",
+   "anchor": "Can I use AI in my assignment?"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Planning your assignment, the structure, conducting a literature search, etc.",
+   "anchor": "Can I use AI in my assignment?"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Planning your assignment, the structure, conducting a literature search, etc.",
+   "anchor": "Can I use AI in my assignment?"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Suggest images, visuals, and graphs (remember to cite correctly).",
+   "anchor": "Can I use AI in my assignment?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Think about AI as a tool to help with your assignment, not create your assignment.",
+   "anchor": "Can I use AI in my assignment?"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Cutting and pasting all or some of the content created by the AI used and not citing could be considered plagiarism.",
+   "anchor": "Can AI be detected in assignments?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Firstly, check whether you are allowed to use AI in assignments and your course, the assignment brief and your tutors will be able to advise."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Firstly, check whether you are allowed to use AI in assignments and your course, the assignment brief and your tutors will be able to advise."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you do use AI as a help tool, you will need to reference it in your assignment."
+  },
+  "contents": [
+   {
+    "value": "prompts",
+    "quote": "Best practice is to save a transcript, or a screen shot of the question you posed and the answer you got and add to your assignment as an appendix."
+   },
+   {
+    "value": "outputs",
+    "quote": "Best practice is to save a transcript, or a screen shot of the question you posed and the answer you got and add to your assignment as an appendix."
+   }
+  ],
+  "location": [
+   {
+    "value": "appendix",
+    "quote": "Best practice is to save a transcript, or a screen shot of the question you posed and the answer you got and add to your assignment as an appendix."
+   }
+  ],
+  "records": {
+   "value": "recommended",
+   "quote": "Best practice is to save a transcript, or a screen shot of the question you posed and the answer you got and add to your assignment as an appendix."
+  },
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "The citation gives an example of how to create the intext citation and the reference list."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Cutting and pasting all or some of the content created by the AI used and not citing could be considered plagiarism."
+  },
+  "exempt": []
+ }
+}

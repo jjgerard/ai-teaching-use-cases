@@ -1,0 +1,74 @@
+{
+ "doc_id": "edinburgh-d2-assessment-policy-202610",
+ "coder": "v2f-f4",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "work_must_be_own_not_written_by_ai",
+   "quote": "The use of Generative AI tools (such as ChatGPT or others) to generate an assignment (or part of an assignment) and submit this as if were one’s own work will be regarded as academic misconduct and treated as such.",
+   "anchor": "Regulation 30 Academic misconduct"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "The use of Generative AI tools (such as ChatGPT or others) to generate an assignment (or part of an assignment) and submit this as if were one’s own work will be regarded as academic misconduct and treated as such.",
+   "anchor": "Regulation 30 Academic misconduct"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Further guidance on the use of Generative AI tools can be found at:",
+   "anchor": "Regulation 30 Academic misconduct"
+  },
+  {
+   "type": "translation_tools_restricted",
+   "quote": "Proof-reading and use of translation services may constitute academic misconduct where it includes rewriting or rewording of the student’s original work.",
+   "anchor": "Regulation 30 Academic misconduct"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "It is academically fraudulent and an offence against the University’s Code of Student Conduct for a student to invent or falsify data, evidence, references, experimental results or other material",
+   "anchor": "Regulation 30 Academic misconduct"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Plagiarism is the act of copying or including in one’s own work, without adequate acknowledgement, intentionally or unintentionally, the work of another or one’s own previously assessed original work.",
+   "anchor": "Regulation 30 Academic misconduct"
+  },
+  {
+   "type": "strict_liability_ignorance_no_defence",
+   "quote": "The innocent misuse or quotation of material without formal and proper acknowledgement can constitute plagiarism, even when there is no deliberate intent to deceive.",
+   "anchor": "Regulation 30 Academic misconduct"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "Programme and/or course handbooks will provide additional guidance in cases where AI tools might form part of an assessment task.",
+   "why": "handbook guidance for AI tasks, not clearly local rule-setting"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "Programme and/or course handbooks will provide additional guidance in cases where AI tools might form part of an assessment task.",
+   "why": "handbooks give guidance only where AI part of task"
+  },
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "cases where AI tools might form part of an assessment task",
+   "why": "only a conditional mention of AI in tasks"
+  },
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "Proof-reading and use of translation services may constitute academic misconduct where it includes rewriting or rewording of the student’s original work.",
+   "why": "rewriting ban stated for proof-readers and translation, not AI"
+  },
+  {
+   "type": "declaration_form_or_content",
+   "quote": "Students may be asked to sign a declaration that the work submitted is their own work.",
+   "why": "declaration not about AI"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "will be regarded as academic misconduct and treated as such",
+   "why": "consequence stated only as misconduct, no penalty"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+[
+ {
+  "name": "Cardiff University",
+  "region": "Wales",
+  "website": "http://www.cardiff.ac.uk/",
+  "base": "cardiff",
+  "doc_id": "cardiff-students-genai-202610",
+  "blocked_url": "https://blogs.cardiff.ac.uk/LTAcademy/ai-in-education-at-cardiff-university/",
+  "why_not_archived": "blocked (HTTP 403)",
+  "known_other_pages": [
+   {
+    "url": "https://intranet.cardiff.ac.uk/__data/assets/pdf_file/0006/1549878/Academic-Integrity-Policy.pdf",
+    "title": "Academic Integrity Policy (Aug 2022; search result, not fetched)",
+    "audience": "staff_and_students"
+   },
+   {
+    "url": "https://sites.cardiff.ac.uk/studentfuturesplus/skills-and-attributes/using-ai-in-your-career-development/",
+    "title": "Using AI in your career development (Student Futures+)",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "Nottingham Trent University",
+  "region": "England",
+  "website": "https://www.ntu.ac.uk",
+  "base": "nottingham-trent",
+  "doc_id": "nottingham-trent-students-genai-202610",
+  "blocked_url": "https://www.ntu.ac.uk/studenthub/news/2025/02/how-to-get-the-most-out-generative-ai-at-ntu",
+  "why_not_archived": "blocked (bot challenge page)",
+  "known_other_pages": [
+   {
+    "url": "https://www.ntu.ac.uk/studenthub/news/2023/12/artificial-intelligence-ntu",
+    "title": "Artificial Intelligence @ NTU",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "University of Brighton",
+  "region": "England",
+  "website": "https://www.brighton.ac.uk",
+  "base": "brighton",
+  "doc_id": "brighton-students-genai-202610",
+  "blocked_url": "https://unibrightonac.sharepoint.com/:b:/s/public/ET4jBPx7tdtEr4dABxqvZrMBEYv7SBjpJ0MET49NtzXOjg?e=3JPNkl",
+  "why_not_archived": "robots_disallowed",
+  "known_other_pages": [
+   {
+    "url": "https://www.brighton.ac.uk/brighton-students/your-learning/student-policies-and-regulations/index.aspx",
+    "title": "The University of Brighton Student Contract 2026-27 (hub linking the policy; retrieved 200)",
+    "audience": "students"
+   },
+   {
+    "url": "https://libguides.brighton.ac.uk/GenerativeAI",
+    "title": "GENERATIVE AI library guide (retrieved 200)",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ },
+ {
+  "name": "University of Greenwich",
+  "region": "England",
+  "website": "https://www.gre.ac.uk",
+  "base": "greenwich",
+  "doc_id": "greenwich-students-genai-202610",
+  "blocked_url": "https://portal.gre.ac.uk/ai-guidance/students",
+  "why_not_archived": "blocked (bot challenge page)",
+  "known_other_pages": [
+   {
+    "url": "https://www.gre.ac.uk/ai-guidance/students",
+    "title": "Old URL; stub says section moved to portal.gre.ac.uk/ai-guidance",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found_unverified"
+ }
+]

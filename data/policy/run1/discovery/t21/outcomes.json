@@ -1,0 +1,105 @@
+[
+ {
+  "ror_id": "https://ror.org/03kd28f18",
+  "name": "University of Buckingham",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.buckingham.ac.uk/wp-content/uploads/2025/03/Academic-Artificial-Intelligence-Policy.pdf",
+   "title": "Academic Artificial Intelligence Policy",
+   "kind": "policy",
+   "audience_as_stated": "students and staff (applies to all students)",
+   "owner_as_stated": "University Assessment Learning and Teaching Committee",
+   "date_as_shown": "Implementation date 1st March 2024",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.buckingham.ac.uk/about/handbooks/regulations-handbook/",
+    "title": "Regulations Handbook (hub linking policy 3.8)"
+   }
+  ],
+  "doc_id": "buckingham-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/022gstf70",
+  "name": "Falmouth University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.falmouth.ac.uk/corporate/artificial-intelligence-at-falmouth-university",
+   "title": "Artificial Intelligence (AI) at Falmouth University",
+   "kind": "webpage",
+   "audience_as_stated": null,
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 403
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.falmouth.ac.uk/sites/default/files/media/downloads/academic-integrity-policy-23-july-2025.pdf",
+    "title": "Academic Integrity policy (approved 23 July 2025 per search snippet; curl 403)"
+   }
+  ],
+  "notes": "Cloudflare challenge (403) on curl for page and PDF; not bypassed. Search-result snippet describes student principles and guidance.",
+  "doc_id": "falmouth-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04jp2hx10",
+  "name": "University of Northampton",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.northampton.ac.uk/about-us/statement-on-artificial-intelligence/ai-guidance-for-your-academic-work/",
+   "title": "AI Guidance for Your Academic Work",
+   "kind": "guidance",
+   "audience_as_stated": "students (addressed as \"you\"; staff directed to LTE page)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://libguides.northampton.ac.uk/artificialintelligence/guidance",
+    "title": "Guidance on GenAI in Assessments (library guide)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://mypad.northampton.ac.uk/lte/learning-and-teaching-toolkit/artificial-intelligence-tools-in-learning-teaching-and-assessmentuse-of-ai-in-academic-work/",
+    "title": "LTE toolkit AI in academic work"
+   }
+  ],
+  "doc_id": "northampton-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/00v6s9648",
+  "name": "University of Worcester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.worcester.ac.uk/documents/policies/PositionStatementGenAI.pdf",
+   "title": "Position Statement on the use of generative AI tools in teaching, learning and assessment",
+   "kind": "policy",
+   "audience_as_stated": "staff and students (university community)",
+   "owner_as_stated": "Head of Quality and Educational Development; Quality and Educational Development",
+   "date_as_shown": "June 2024 (last reviewed; review date May 2027)",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.worcester.ac.uk/life/help-and-support/Centre-for-academic-english-and-skills/academic-writing-guidance.aspx",
+    "title": "Academic Writing Guidance"
+   }
+  ],
+  "notes": "Document says student guidance is published on webpages; those not located.",
+  "doc_id": "worcester-students-genai-202610"
+ }
+]

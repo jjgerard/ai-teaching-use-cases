@@ -1,0 +1,58 @@
+{
+ "doc_id": "leedstrinity-students-genai-202610",
+ "coder": "pts-b12",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "We therefore expect all students to submit work that represents their own ideas and effort.",
+   "anchor": "University position statement",
+   "addressee": "student",
+   "force": "must",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "All students are expected to submit work that represents their own ideas and effort."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Rather than banning the use of these tools outright – which would be impractical and out of step with how society and workplaces are already embracing them – we will provide clear guidance on their responsible use in modules and assessments.",
+   "anchor": "University position statement",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "The university will not ban GenAI outright and will provide clear guidance on responsible use in modules and assessments."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Should students feel unsure about how to use GenAI responsibly within a particular assignment, they should contact their module tutor.",
+   "anchor": "University position statement",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Students unsure how to use GenAI responsibly in a particular assignment should contact their module tutor."
+  },
+  {
+   "point_id": "p04",
+   "quote": "General advice and support can be provided by their module tutor, personal tutor, the Learning Hub, or the Library and Information Services, including assistance with using GenAI responsibly in academic research, writing, and referencing.",
+   "anchor": "University position statement",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "General advice is available from the module tutor, personal tutor, Learning Hub, or Library and Information Services, including help with research, writing and referencing."
+  },
+  {
+   "point_id": "p05",
+   "quote": "we will invest in the development of AI literacy skills for everyone to understand how to use these tools responsibly and effectively.",
+   "anchor": "University position statement",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "support_and_training",
+   "specific": false,
+   "gist": "The university will invest in developing AI literacy skills for everyone."
+  }
+ ]
+}

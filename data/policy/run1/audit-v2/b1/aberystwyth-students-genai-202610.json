@@ -1,0 +1,13 @@
+{
+ "doc_id": "aberystwyth-students-genai-202610",
+ "coder": "v2-b1",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Whether it is finding and summarising material, planning and doing work, or understanding the question, the practice of this is what you are at university to do.",
+   "why": "Discourages outsourcing finding material, no library search named"
+  }
+ ]
+}

@@ -1,0 +1,89 @@
+{
+ "doc_id": "dundalk-institute-technology-d2-misconduct-procedure-202610",
+ "coder": "v2f-f6",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism.",
+   "anchor": "4 Plagiarism"
+  },
+  {
+   "type": "work_must_be_own_not_written_by_ai",
+   "quote": "All work submitted by learners for assessment purposes, or for written or oral publication, must be their own work.",
+   "anchor": "4 Plagiarism"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Plagiarism is the act of submitting for academic credit someone else’s work as one’s own, without acknowledging the source and without using accepted referencing norms.",
+   "anchor": "4 Plagiarism"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "Assignment awarded 0% - resubmission required but with capped* or reduced mark",
+   "anchor": "10 Appendix 1: Plagiarism Penalty Grid"
+  },
+  {
+   "type": "sanction_tariff_and_penalty_factors",
+   "quote": "Each suspected case of plagiarism is scored against a number of criteria (history, amount/extent, level/stage, value of assignment, additional characteristics) and the resultant total score is matched against a sliding scale of penalties.",
+   "anchor": "10 Appendix 1: Plagiarism Penalty Grid"
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "he/she may propose that the matter is resolved informally by referring the student for training on academic writing and referencing.",
+   "anchor": "8 Dealing with Breaches of Academic Integrity"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "Verification may take the form of an oral verification interview",
+   "anchor": "8 Dealing with Breaches of Academic Integrity"
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "The learner will have the right to be accompanied by and assisted at the Departmental Disciplinary Hearing by a representative.",
+   "anchor": "8 Dealing with Breaches of Academic Integrity"
+  },
+  {
+   "type": "strict_liability_ignorance_no_defence",
+   "quote": "All incidences of plagiarism, whether minor or major, even where unintentional, constitute a breach of Academic Integrity",
+   "anchor": "4 Plagiarism"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "using plagiarism detection software (e.g. Turnitin), or any other process appropriate to a particular discipline to safeguard Academic Integrity.",
+   "anchor": "8 Dealing with Breaches of Academic Integrity"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "Should the learner fail to attend the second convened hearing, the hearing will proceed in the absence of the learner and a decision will be taken on the evidence to hand.",
+   "anchor": "8 Dealing with Breaches of Academic Integrity"
+  },
+  {
+   "type": "declaration_form_or_content",
+   "quote": "It is good practice for Schools and Departments to require learners to attach a declaration (i.e. continuous assessment coversheet) to all submitted work, where appropriate, indicating that the work is their own.",
+   "anchor": "8 Dealing with Breaches of Academic Integrity"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "default_ai_banned_unless_authorised",
+   "quote": "unless explicitly permitted to do so and with proper acknowledgement",
+   "why": "Framed as plagiarism label, not stated default ban"
+  },
+  {
+   "type": "complete_training_before_using_ai",
+   "quote": "Such training should be compulsory for first year students",
+   "why": "Training on academic integrity, AI not named"
+  },
+  {
+   "type": "using_ai_or_tools_to_disguise_ai_use",
+   "quote": "Evidence of deliberate attempt to disguise plagiarism by",
+   "why": "Disguising plagiarism, no AI or tool named"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Fabrication is understood as the act of presenting information as the results from an experiment, a trial or a survey which was not carried out.",
+   "why": "Fabricated data defined, no AI link"
+  }
+ ]
+}

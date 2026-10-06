@@ -1,0 +1,149 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-students-genai-202610",
+ "coder": "use-u3",
+ "uses": [
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "the appropriate use of tools that influence only the form of an assessment is generally acceptable (e.g. proof readers, proofreading tools, spelling checkers, thesaurus).",
+   "anchor": "General guidance for assessments"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "However, its use to generate content relating to the substantive aspect of the assessment would generally not be acceptable.",
+   "anchor": "General guidance for assessments"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Its use for activities such as brainstorming or outline generation would require consideration on a case-by-case basis.",
+   "anchor": "General guidance for assessments"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Its use for activities such as brainstorming or outline generation would require consideration on a case-by-case basis.",
+   "anchor": "General guidance for assessments"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Any usage of GenAI tools in assessments outside what is explicitly permitted will, subject to investigation, be considered a breach of academic integrity, and may lead to disciplinary proceedings in line with RCSI’s Academic Integrity policy.",
+   "anchor": "General guidance for assessments"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It is the student’s responsibility to confirm that content acquired via GenAI tools is factually correct as these tools are not co-authors and cannot take responsibility for their output.",
+   "anchor": "General guidance for assessments"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Study aid: AI can serve as a study aid, providing explanations and clarifications on complex topics and generating summaries and practice questions for revision.",
+   "anchor": "For students"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Study aid: AI can serve as a study aid, providing explanations and clarifications on complex topics and generating summaries and practice questions for revision.",
+   "anchor": "For students"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It can also be used to enhance drafts of written output from EAL students and translate materials into their native language.",
+   "anchor": "For students"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "Rather, a tiered approach is needed wherein high-level university-wide guidance informs the development of specific policies for individual schools, and, where necessary, more specific"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Ultimately, it should be the role of the relevant assessment creators within each academic unit to clearly articulate the constraints and possibilities of GenAI tools in relation to their own assessment task."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "To provide clarity for students, clear written guidance regarding what constitutes acceptable or unacceptable use of GenAI should accompany each assessment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "When GenAI models or tools are used in academic work or research, proper citation is required."
+  },
+  "contents": [
+   {
+    "value": "prompts",
+    "quote": "Where GenAI is used, students should include screen captures of both their prompts to and outputs from the GenAI tool as appendices in their submitted work to ensure transparency."
+   },
+   {
+    "value": "outputs",
+    "quote": "Where GenAI is used, students should include screen captures of both their prompts to and outputs from the GenAI tool as appendices in their submitted work to ensure transparency."
+   },
+   {
+    "value": "tool_name",
+    "quote": "acknowledgment of the GenAI tool used and the segment in which it was used in the completion of the assessment."
+   },
+   {
+    "value": "extent_or_scope",
+    "quote": "acknowledgment of the GenAI tool used and the segment in which it was used in the completion of the assessment."
+   }
+  ],
+  "location": [
+   {
+    "value": "appendix",
+    "quote": "Where GenAI is used, students should include screen captures of both their prompts to and outputs from the GenAI tool as appendices in their submitted work to ensure transparency."
+   },
+   {
+    "value": "statement_in_work",
+    "quote": "acknowledgment of the GenAI tool used and the segment in which it was used in the completion of the assessment."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Clear guidelines and examples for citing GenAI are provided by the RCSI Library to assist students and staff."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

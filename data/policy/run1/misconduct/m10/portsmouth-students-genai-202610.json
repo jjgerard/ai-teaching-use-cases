@@ -1,0 +1,26 @@
+{
+ "doc_id": "portsmouth-students-genai-202610",
+ "coder": "mis-m10",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Submitting AI generated work as your own is academic misconduct.",
+   "anchor": "What not to do"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "You may be asked to discuss your work to demonstrate your understanding.",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": []
+}

@@ -1,0 +1,98 @@
+{
+ "doc_id": "ul-d2-assessment-policy-202610",
+ "coder": "pts-q3",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "it is the responsibility of the module leader/equivalent to decide and communicate the level of acceptable use of AI to students i.e. to determine what is authorised/unauthorised use.",
+   "anchor": "Assessment and Gen AI",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "The module leader decides and communicates the acceptable level of AI use to students, determining what is authorised or unauthorised."
+  },
+  {
+   "point_id": "p02",
+   "quote": "If AI is used in a manner which has not been permitted by the module leader, then this is a breach of academic integrity.",
+   "anchor": "Assessment and Gen AI",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "AI use not permitted by the module leader is a breach of academic integrity."
+  },
+  {
+   "point_id": "p03",
+   "quote": "We urge staff and students not to upload student assignments/assessments to any websites or tools to check for AI use.",
+   "anchor": "Is it possible to reliably ‘detect’ or ‘spot’ the use of GenAI?",
+   "addressee": "both",
+   "force": "should_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Staff and students are urged not to upload student assignments to websites or tools to check for AI use."
+  },
+  {
+   "point_id": "p04",
+   "quote": "The AI Advisory Council recommend that detectors should not be used (AI and Education Advice Paper - February 2025)",
+   "anchor": "Is it possible to reliably ‘detect’ or ‘spot’ the use of GenAI?",
+   "addressee": "staff",
+   "force": "should_not",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "The AI Advisory Council recommends that AI detectors should not be used."
+  },
+  {
+   "point_id": "p05",
+   "quote": "It is exceptionally challenging to ‘detect’ or ‘spot’ GenAI use.",
+   "anchor": "Is it possible to reliably ‘detect’ or ‘spot’ the use of GenAI?",
+   "addressee": "staff",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "It is exceptionally challenging to detect GenAI use."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Declarative approaches, require students to include an acknowledgement or declaration template as part of an assessment, to indicate the nature and extent of AI use (including declaration that AI was not used in any aspect of the assignment).",
+   "anchor": "Declarative/discursive approaches",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Declarative approaches have students include an acknowledgement or declaration template stating the nature and extent of AI use, including that none was used."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Academic staff should consider whether assessment rubrics need to be reviewed to ensure that marks are not being awarded for work that the Gen AI tool has completed e.g. grammar and punctuation.",
+   "anchor": "Declarative/discursive approaches",
+   "addressee": "staff",
+   "force": "should",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Staff should consider reviewing rubrics so marks are not awarded for work the GenAI tool completed, such as grammar and punctuation."
+  },
+  {
+   "point_id": "p08",
+   "quote": "The AI Assessment Scale is an example of such a discursive approach that might be of assistance to educators (Perkins et al. 2024).",
+   "anchor": "Declarative/discursive approaches",
+   "addressee": "staff",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "The AI Assessment Scale is an example of a discursive approach that might assist educators."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Identifying false citations or references within an assignment, possibly as a result of AI hallucinations",
+   "anchor": "Is it possible to reliably ‘detect’ or ‘spot’ the use of GenAI?",
+   "addressee": "staff",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Limited success identifying unauthorised GenAI use has come from identifying false citations or references, possibly due to AI hallucinations."
+  }
+ ]
+}

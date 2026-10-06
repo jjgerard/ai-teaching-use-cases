@@ -1,0 +1,3419 @@
+[
+ {
+  "doc_id": "ni-exec-strategy-draft-202608",
+  "institution_id": "ni-exec",
+  "url_id": "ni-exec-ai-strategy",
+  "level": "government",
+  "audience": "all",
+  "status": "draft",
+  "format": "pdf",
+  "published": "2026-08",
+  "last_updated": "2026-08",
+  "retrieved": "2026-10-02",
+  "word_count": 11666,
+  "domains": [
+   "public_services",
+   "school_education"
+  ]
+ },
+ {
+  "doc_id": "ulster-library-genai-guide-202610",
+  "institution_id": "ulster",
+  "url_id": "ulster-library-genai",
+  "level": "institution",
+  "audience": "students_all",
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": "2026-08-26",
+  "retrieved": "2026-10-02",
+  "word_count": 350,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "edinburgh-student-genai-guidelines-202610",
+  "institution_id": "edinburgh",
+  "url_id": "edinburgh-student-genai",
+  "level": "institution",
+  "audience": "students_all",
+  "status": "live",
+  "format": "webpage",
+  "published": "2025-07-23",
+  "last_updated": "2026-03",
+  "retrieved": "2026-10-02",
+  "word_count": 1913,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "edinburgh-pgr-genai-guidelines-202610",
+  "institution_id": "edinburgh",
+  "url_id": "edinburgh-pgr-genai",
+  "level": "institution",
+  "audience": "pgr",
+  "status": "live",
+  "format": "webpage",
+  "published": "2025-09-16",
+  "last_updated": "2026-03",
+  "retrieved": "2026-10-02",
+  "word_count": 2589,
+  "domains": [
+   "assessed_work",
+   "research_conduct"
+  ]
+ },
+ {
+  "doc_id": "edinburgh-staff-guidance-202610",
+  "institution_id": "edinburgh",
+  "url_id": "edinburgh-staff-genai",
+  "level": "institution",
+  "audience": "staff_all",
+  "status": "live",
+  "format": "webpage",
+  "published": "2026-03-24",
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "word_count": 2426,
+  "domains": [
+   "teaching_practice",
+   "research_conduct",
+   "administration",
+   "funding_applications"
+  ]
+ },
+ {
+  "doc_id": "maynooth-ug-ptm-genai-guidelines-202610",
+  "institution_id": "maynooth",
+  "url_id": "maynooth-ug-ptm-genai",
+  "level": "institution",
+  "audience": [
+   "ug",
+   "pgt"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": "2025-04-02",
+  "retrieved": "2026-10-02",
+  "word_count": 3042,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ]
+ },
+ {
+  "doc_id": "warwick-law-all-aipolicy-202610",
+  "institution_id": "warwick",
+  "url_id": "warwick-law-ai-policy",
+  "level": "faculty",
+  "audience": [
+   "staff_teaching",
+   "students_all"
+  ],
+  "status": "live",
+  "format": "policy_doc",
+  "published": "2024-11-20",
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "word_count": 4340,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ]
+ },
+ {
+  "doc_id": "ukri-applicants-assessors-policy-202610",
+  "institution_id": "ukri",
+  "url_id": "ukri-genai-applicants",
+  "level": "sector_body",
+  "audience": "staff_research",
+  "status": "live",
+  "format": "policy_doc",
+  "published": "2024-09-23",
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "word_count": 1148,
+  "domains": [
+   "funding_applications",
+   "research_conduct"
+  ]
+ },
+ {
+  "doc_id": "helsinki-students-ai-guidelines-202610",
+  "institution_id": "helsinki",
+  "url_id": "helsinki-students-ai",
+  "level": "institution",
+  "audience": "students_all",
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": "2023-03-02",
+  "last_updated": "2026-08-27",
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "word_count": 1427
+ },
+ {
+  "doc_id": "glasgow-student-genai-guidance-202610",
+  "institution_id": "glasgow",
+  "url_id": "glasgow-student-genai",
+  "level": "institution",
+  "audience": "students_all",
+  "domains": [
+   "assessed_work",
+   "research_conduct"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "date_known": false,
+  "word_count": 3225
+ },
+ {
+  "doc_id": "exeter-students-assessment-202610",
+  "institution_id": "exeter",
+  "url_id": "exeter-students-assessment",
+  "level": "institution",
+  "audience": "students_all",
+  "domains": [
+   "assessed_work",
+   "research_conduct"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": "2026-09-22",
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "word_count": 1493
+ },
+ {
+  "doc_id": "harvard-fas-instructors-genai-guidance-202610",
+  "institution_id": "harvard",
+  "url_id": "harvard-fas-instructors",
+  "level": "faculty",
+  "audience": "staff_teaching",
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "date_known": false,
+  "word_count": 1569
+ },
+ {
+  "doc_id": "cambridge-staff-assessment-202610",
+  "institution_id": "cambridge",
+  "url_id": "cambridge-staff-assessment",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_teaching"
+  ],
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "date_known": false,
+  "word_count": 479
+ },
+ {
+  "doc_id": "hea-hei-leaders-policyframework-202610",
+  "institution_id": "hea-ie",
+  "url_id": "hea-hei-framework",
+  "level": "sector_body",
+  "audience": [
+   "staff_teaching",
+   "staff_prof"
+  ],
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "status": "live",
+  "format": "policy_doc",
+  "published": "2025-12",
+  "last_updated": "2025-12",
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "word_count": 6705
+ },
+ {
+  "doc_id": "picardie-all-genai-charte-202610",
+  "institution_id": "picardie",
+  "url_id": "picardie-charte",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_all"
+  ],
+  "domains": [
+   "assessed_work",
+   "teaching_practice",
+   "research_conduct",
+   "administration"
+  ],
+  "status": "live",
+  "format": "policy_doc",
+  "published": "2026-03-12",
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "language": "fr",
+  "word_count": 2367
+ },
+ {
+  "doc_id": "toronto-instructors-students-genai-faq-202610",
+  "institution_id": "toronto",
+  "url_id": "toronto-instructors-students-faq",
+  "level": "institution",
+  "audience": [
+   "staff_teaching",
+   "students_all"
+  ],
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "status": "live",
+  "format": "faq",
+  "published": null,
+  "last_updated": "2025-06-18",
+  "retrieved": "2026-10-02",
+  "language": "en",
+  "word_count": 5273
+ },
+ {
+  "doc_id": "essex-students-genai-202610",
+  "institution_id": "essex",
+  "url_id": "essex-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 1403,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.essex.ac.uk/student/academic-offences/artificial-intelligence"
+ },
+ {
+  "doc_id": "canterbury-students-genai-202610",
+  "institution_id": "canterbury",
+  "url_id": "canterbury-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": "2025-09",
+  "date_known": true,
+  "retrieved": "2026-10-02",
+  "word_count": 5713,
+  "domains": [
+   "assessed_work",
+   "research_conduct"
+  ],
+  "url": "https://students.canterbury.ac.uk/study/study-support-and-platforms/generative-ai-guidance"
+ },
+ {
+  "doc_id": "aub-students-genai-202610",
+  "institution_id": "aub",
+  "url_id": "aub-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_teaching"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 939,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://webdocs.aub.ac.uk/Artificial%20intelligence%20policy%20statement.pdf"
+ },
+ {
+  "doc_id": "londonmet-students-genai-202610",
+  "institution_id": "londonmet",
+  "url_id": "londonmet-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 568,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://student.londonmet.ac.uk/your-studies/student-administration/guidance-on-the-use-of-artificial-intelligence/"
+ },
+ {
+  "doc_id": "leedstrinity-students-genai-202610",
+  "institution_id": "leedstrinity",
+  "url_id": "leedstrinity-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 376,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://library.leedstrinity.ac.uk/artificial-intelligence/university-position-statement"
+ },
+ {
+  "doc_id": "cranfield-students-genai-202610",
+  "institution_id": "cranfield",
+  "url_id": "cranfield-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": "2026-09-25",
+  "retrieved": "2026-10-02",
+  "word_count": 255,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://library.cranfield.ac.uk/AI"
+ },
+ {
+  "doc_id": "herts-students-genai-202610",
+  "institution_id": "herts",
+  "url_id": "herts-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 721,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://ask.herts.ac.uk/ai-tools"
+ },
+ {
+  "doc_id": "strath-students-genai-202610",
+  "institution_id": "strath",
+  "url_id": "strath-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "faq",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 1631,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.strath.ac.uk/professionalservices/educationenhancement/qualityassurance/useofgen-aiinlearningassessment/"
+ },
+ {
+  "doc_id": "stir-students-genai-202610",
+  "institution_id": "stir",
+  "url_id": "stir-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 275,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://learnteach.stir.ac.uk/ai-assessment-scale/"
+ },
+ {
+  "doc_id": "qmu-students-genai-202610",
+  "institution_id": "qmu",
+  "url_id": "qmu-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": "2026-08-12",
+  "date_known": true,
+  "retrieved": "2026-10-02",
+  "word_count": 1081,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.qmu.ac.uk/generative-ai"
+ },
+ {
+  "doc_id": "bangor-students-genai-202610",
+  "institution_id": "bangor",
+  "url_id": "bangor-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 1080,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://www.bangor.ac.uk/regulations/documents/artificial-intelligence-software-explainer-en.docx"
+ },
+ {
+  "doc_id": "ul-students-genai-202610",
+  "institution_id": "ul",
+  "url_id": "ul-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_teaching"
+  ],
+  "status": "live",
+  "format": "faq",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 691,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://www.ul.ie/provost/functions-processes/academic-integrity-unit/tips-for-students-on-the-use-of-gen-ai"
+ },
+ {
+  "doc_id": "tus-students-genai-202610",
+  "institution_id": "tus",
+  "url_id": "tus-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 1632,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://tus.ie/cpid/academic-integrity/"
+ },
+ {
+  "doc_id": "surrey-students-genai-202610",
+  "institution_id": "surrey",
+  "url_id": "surrey-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 398,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://my.surrey.ac.uk/study/using-ai-surrey/policy-and-guidance"
+ },
+ {
+  "doc_id": "heriot-watt-students-genai-202610",
+  "institution_id": "heriot-watt",
+  "url_id": "heriot-watt-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 1521,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://lta.hw.ac.uk/wp-content/uploads/Student-guidance-on-Artificial-Intelligence-in-Learning-and-Teaching-AY23-24.pdf"
+ },
+ {
+  "doc_id": "cardiff-metropolitan-students-genai-202610",
+  "institution_id": "cardiff-metropolitan",
+  "url_id": "cardiff-metropolitan-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 324,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.cardiffmet.ac.uk/about/artificial-intelligence/ai-student-hub/"
+ },
+ {
+  "doc_id": "manchester-students-genai-202610",
+  "institution_id": "manchester",
+  "url_id": "manchester-students-genai",
+  "level": "institution",
+  "audience": [
+   "ug",
+   "pgt",
+   "staff_teaching"
+  ],
+  "status": "live",
+  "format": "policy_doc",
+  "published": "2026-04-22",
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "word_count": 1771,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://documents.manchester.ac.uk/display.aspx?DocID=79331"
+ },
+ {
+  "doc_id": "robert-gordon-students-genai-202610",
+  "institution_id": "robert-gordon",
+  "url_id": "robert-gordon-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 245,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://library.rgu.ac.uk/apa-referencing/ai"
+ },
+ {
+  "doc_id": "warwick-students-genai-202610",
+  "institution_id": "warwick",
+  "url_id": "warwick-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 1277,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://warwick.ac.uk/students/academic-essentials/academic-integrity/artificial-intelligence/"
+ },
+ {
+  "doc_id": "anglia-ruskin-students-genai-202610",
+  "institution_id": "anglia-ruskin",
+  "url_id": "anglia-ruskin-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "faq",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 370,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.aru.ac.uk/student-life/support-and-facilities/careers-and-employability/how-we-are-using-ai-at-aru"
+ },
+ {
+  "doc_id": "swansea-students-genai-202610",
+  "institution_id": "swansea",
+  "url_id": "swansea-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 1476,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://hwb.swansea.ac.uk/academic-life/academic-regulations/other-university-regulations/ai-framework-students/"
+ },
+ {
+  "doc_id": "mtu-students-genai-202610",
+  "institution_id": "mtu",
+  "url_id": "mtu-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_all"
+  ],
+  "status": "live",
+  "format": "policy_doc",
+  "published": "2023-05-31",
+  "last_updated": "2026-06-17",
+  "retrieved": "2026-10-02",
+  "word_count": 3706,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.mtu.ie/media/mtu-website/governance/policies-and-publications/academic-council-policies-and-regulations/academic-policies/Academic-Integrity-Policy_ApprovedAC17June2026.pdf"
+ },
+ {
+  "doc_id": "birmingham-students-genai-202610",
+  "institution_id": "birmingham",
+  "url_id": "birmingham-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 3304,
+  "domains": [
+   "assessed_work",
+   "teaching_practice",
+   "research_conduct"
+  ],
+  "url": "https://intranet.birmingham.ac.uk/student/libraries/asc/student-guidance-gai.aspx"
+ },
+ {
+  "doc_id": "south-wales-students-genai-202610",
+  "institution_id": "south-wales",
+  "url_id": "south-wales-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": "2024-09-17",
+  "retrieved": "2026-10-02",
+  "word_count": 425,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.southwales.ac.uk/artificialintelligence"
+ },
+ {
+  "doc_id": "southampton-students-genai-202610",
+  "institution_id": "southampton",
+  "url_id": "southampton-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 1767,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://www.southampton.ac.uk/about/governance/regulations-policies/policies/using-gen-ai-during-your-studies"
+ },
+ {
+  "doc_id": "kingston-london-students-genai-202610",
+  "institution_id": "kingston-london",
+  "url_id": "kingston-london-students-genai",
+  "level": "institution",
+  "audience": [
+   "ug",
+   "pgt"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 6255,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://assets.kingston.ac.uk/m/7de3ec2278ed38ed/original/Policies-2025-26_AR6_Academic-Integrity-taught-courses-2025-2026.pdf"
+ },
+ {
+  "doc_id": "west-scotland-students-genai-202610",
+  "institution_id": "west-scotland",
+  "url_id": "west-scotland-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": "2026-07-21",
+  "retrieved": "2026-10-02",
+  "word_count": 467,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://uws-uk.libguides.com/GenAI"
+ },
+ {
+  "doc_id": "wales-trinity-saint-david-students-genai-202610",
+  "institution_id": "wales-trinity-saint-david",
+  "url_id": "wales-trinity-saint-david-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": "2025-05",
+  "retrieved": "2026-10-02",
+  "word_count": 10089,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://www.uwtsd.ac.uk/media/5728/download?attachment="
+ },
+ {
+  "doc_id": "atu-students-genai-202610",
+  "institution_id": "atu",
+  "url_id": "atu-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 527,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.atu.ie/about/teaching-and-learning/academic-integrity"
+ },
+ {
+  "doc_id": "liverpool-students-genai-202610",
+  "institution_id": "liverpool",
+  "url_id": "liverpool-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 361,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.liverpool.ac.uk/about/the-university/reports-policies-and-governance/ai-at-liverpool/ai-in-education/students/"
+ },
+ {
+  "doc_id": "wrexham-students-genai-202610",
+  "institution_id": "wrexham",
+  "url_id": "wrexham-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 1660,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://wrexham.ac.uk/media/marketing/quality-and-student-admin-documents/Academic-Integrity-a-brief-guide-for-students.pdf"
+ },
+ {
+  "doc_id": "tcd-students-genai-202610",
+  "institution_id": "tcd",
+  "url_id": "tcd-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": "2026-06-10",
+  "retrieved": "2026-10-02",
+  "word_count": 258,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.tcd.ie/gen-ai"
+ },
+ {
+  "doc_id": "lincoln-students-genai-202610",
+  "institution_id": "lincoln",
+  "url_id": "lincoln-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 437,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://learning.lincoln.ac.uk/your-academic-journey/gen-ai/"
+ },
+ {
+  "doc_id": "highlands-and-islands-students-genai-202610",
+  "institution_id": "highlands-and-islands",
+  "url_id": "highlands-and-islands-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": "2024-03-01",
+  "last_updated": "2024-04-22",
+  "retrieved": "2026-10-02",
+  "word_count": 2326,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://www.uhi.ac.uk/en/t4-media/one-web/university/about-uhi/governance/policies-and-regulations/policies/generative-ai/student-gai-guidance.pdf"
+ },
+ {
+  "doc_id": "queens-belfast-students-genai-202610",
+  "institution_id": "queens-belfast",
+  "url_id": "queens-belfast-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 352,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://blogs.qub.ac.uk/digitallearning/ai/ai-in-education/teaching-and-learning/student-aisupport/"
+ },
+ {
+  "doc_id": "ucd-students-genai-202610",
+  "institution_id": "ucd",
+  "url_id": "ucd-students-genai",
+  "level": "institution",
+  "audience": [
+   "all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": "2026-09-22",
+  "retrieved": "2026-10-02",
+  "word_count": 805,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://libguides.ucd.ie/GENAI"
+ },
+ {
+  "doc_id": "aston-students-genai-202610",
+  "institution_id": "aston",
+  "url_id": "aston-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": "2026-02-16",
+  "last_updated": null,
+  "retrieved": "2026-10-02",
+  "word_count": 1001,
+  "domains": [
+   "administration"
+  ],
+  "url": "https://www.aston.ac.uk/sites/default/files/2026-04/responsible-adoption-and-use-of-artificial-intelligence-ai-policy.pdf"
+ },
+ {
+  "doc_id": "institute-cancer-research-students-genai-202610",
+  "institution_id": "institute-cancer-research",
+  "url_id": "institute-cancer-research-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "policy_doc",
+  "published": null,
+  "last_updated": "2025-07-21",
+  "retrieved": "2026-10-02",
+  "word_count": 3947,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.icr.ac.uk/docs/default-source/studying-and-training/student-resources/assessment-misconduct-procedure.pdf?sfvrsn=f3c4b3c2_5"
+ },
+ {
+  "doc_id": "aberystwyth-students-genai-202610",
+  "institution_id": "aberystwyth",
+  "url_id": "aberystwyth-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-02",
+  "word_count": 1273,
+  "domains": [
+   "assessed_work",
+   "teaching_practice",
+   "research_conduct",
+   "administration"
+  ],
+  "url": "https://www.aber.ac.uk/en/library/help/ai/"
+ },
+ {
+  "doc_id": "ucc-students-genai-202610",
+  "institution_id": "ucc",
+  "url_id": "ucc-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_teaching"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": "2026-09-18",
+  "date_known": true,
+  "retrieved": "2026-10-02",
+  "word_count": 2088,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://www.ucc.ie/en/ethical-use-of-generative-ai-toolkit/academic-integrity/"
+ },
+ {
+  "doc_id": "tud-students-genai-202610",
+  "institution_id": "tud",
+  "url_id": "tud-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all",
+   "staff_teaching"
+  ],
+  "status": "live",
+  "format": "policy_doc",
+  "published": "2025-05-13",
+  "last_updated": null,
+  "date_known": true,
+  "retrieved": "2026-10-02",
+  "word_count": 1748,
+  "domains": [
+   "assessed_work",
+   "teaching_practice"
+  ],
+  "url": "https://www.tudublin.ie/media/website/explore/about-the-university/academic-affairs/quality-framework/documents/Guidelines-on-the-Responsible-Use-of-Generative-Artificial-Intelligence-in-Teaching-and-Learning-13.5.25.docx"
+ },
+ {
+  "doc_id": "oxford-brookes-students-genai-202610",
+  "institution_id": "oxford-brookes",
+  "url_id": "oxford-brookes-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1515,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.brookes.ac.uk/students/academic-development/online-resources/artificial-intelligence"
+ },
+ {
+  "doc_id": "d-n-laoghaire-institute-art-design-and-technology-students-genai-202610",
+  "institution_id": "d-n-laoghaire-institute-art-design-and-technology",
+  "url_id": "d-n-laoghaire-institute-art-design-and-technology-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 5423,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://iadt.ie/wp-content/uploads/2024/03/Academic-Integrity-Policy-V1-2024.pdf"
+ },
+ {
+  "doc_id": "york-st-john-students-genai-202610",
+  "institution_id": "york-st-john",
+  "url_id": "york-st-john-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1804,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.yorksj.ac.uk/policies-and-documents/generative-artificial-intelligence/"
+ },
+ {
+  "doc_id": "for-creative-arts-students-genai-202610",
+  "institution_id": "for-creative-arts",
+  "url_id": "for-creative-arts-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 2204,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://mylibrary.uca.ac.uk/artificialintelligence"
+ },
+ {
+  "doc_id": "sussex-students-genai-202610",
+  "institution_id": "sussex",
+  "url_id": "sussex-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 3969,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.sussex.ac.uk/skills-hub/writing-and-assessments/ai"
+ },
+ {
+  "doc_id": "greater-manchester-students-genai-202610",
+  "institution_id": "greater-manchester",
+  "url_id": "greater-manchester-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 522,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://leaponline.greatermanchester.ac.uk/My-Academic-Development/My-Research-Needs/AI-Literacy-Framework.aspx"
+ },
+ {
+  "doc_id": "arts-plymouth-students-genai-202610",
+  "institution_id": "arts-plymouth",
+  "url_id": "arts-plymouth-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1197,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.aup.ac.uk/reports-legal-privacy/generative-ai"
+ },
+ {
+  "doc_id": "westminster-students-genai-202610",
+  "institution_id": "westminster",
+  "url_id": "westminster-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 429,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.westminster.ac.uk/current-students/studies/study-skills-and-training/guidance-for-students-on-using-generative-ai"
+ },
+ {
+  "doc_id": "southampton-solent-students-genai-202610",
+  "institution_id": "southampton-solent",
+  "url_id": "southampton-solent-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 3775,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://students.solent.ac.uk/official-documents/solent-learning-and-teaching-institute/ai-and-academic-integrity-policy.pdf"
+ },
+ {
+  "doc_id": "east-anglia-students-genai-202610",
+  "institution_id": "east-anglia",
+  "url_id": "east-anglia-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 5811,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://assets.uea.ac.uk/f/185167/x/5558a0f812/generative-ai-policy-for-teaching-and-learning.pdf"
+ },
+ {
+  "doc_id": "sheffield-students-genai-202610",
+  "institution_id": "sheffield",
+  "url_id": "sheffield-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1429,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://sheffield.ac.uk/our-education/ai-principles"
+ },
+ {
+  "doc_id": "bradford-students-genai-202610",
+  "institution_id": "bradford",
+  "url_id": "bradford-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 6072,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.bradford.ac.uk/__data/assets/file/0022/44455/Academic-Integrity-Policy.pdf"
+ },
+ {
+  "doc_id": "norwich-arts-students-genai-202610",
+  "institution_id": "norwich-arts",
+  "url_id": "norwich-arts-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 483,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://norwichuni.ac.uk/about-us/governance/our-artificial-intelligence-ai-posture-for-students/"
+ },
+ {
+  "doc_id": "ucb-students-genai-202610",
+  "institution_id": "ucb",
+  "url_id": "ucb-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1016,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.ucb.ac.uk/media/zzikgpgf/ai-acceptable-use-policy.pdf"
+ },
+ {
+  "doc_id": "keele-students-genai-202610",
+  "institution_id": "keele",
+  "url_id": "keele-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 2292,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.keele.ac.uk/media/keeleuniversity/policyzone20/studentandacademicservices/AI-in-Education-Framework-2025-1.pdf"
+ },
+ {
+  "doc_id": "aberdeen-students-genai-202610",
+  "institution_id": "aberdeen",
+  "url_id": "aberdeen-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1670,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://abdn.blackboard.com/bbcswebdav/institution/eLearning%20Team/eLearning%20Guidelines%20-%20Communication%2C%20Course%20Design%20etc/GL23_Student%20Guidance%20on%20Use%20of%20GenAI%20Tools%20in%20Education.pdf"
+ },
+ {
+  "doc_id": "royal-surgeons-in-ireland-students-genai-202610",
+  "institution_id": "royal-surgeons-in-ireland",
+  "url_id": "royal-surgeons-in-ireland-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 4884,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.rcsi.com/dublin/-/media/feature/media/download-document/rcsi-policies/guidance-on-the-ethical-use-of-ai.pdf"
+ },
+ {
+  "doc_id": "sheffield-hallam-students-genai-202610",
+  "institution_id": "sheffield-hallam",
+  "url_id": "sheffield-hallam-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1046,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.shu.ac.uk/myhallam/study/assessment/artificial-intelligence-and-assessment"
+ },
+ {
+  "doc_id": "chester-students-genai-202610",
+  "institution_id": "chester",
+  "url_id": "chester-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 450,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.chester.ac.uk/welcome/prepare-to-study/using-artificial-intelligence-in-your-academic-studies/"
+ },
+ {
+  "doc_id": "st-andrews-students-genai-202610",
+  "institution_id": "st-andrews",
+  "url_id": "st-andrews-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 2131,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.st-andrews.ac.uk/policy/academic-policies-assessment-examination-and-award-good-academic-practice/generative-ai-faqs-students-guidance.pdf"
+ },
+ {
+  "doc_id": "birmingham-city-students-genai-202610",
+  "institution_id": "birmingham-city",
+  "url_id": "birmingham-city-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 344,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.bcu.ac.uk/AI-Guidelines"
+ },
+ {
+  "doc_id": "bristol-students-genai-202610",
+  "institution_id": "bristol",
+  "url_id": "bristol-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 423,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.bristol.ac.uk/students/support/academic-advice/using-artificial-intelligence/"
+ },
+ {
+  "doc_id": "gloucestershire-students-genai-202610",
+  "institution_id": "gloucestershire",
+  "url_id": "gloucestershire-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1907,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.glos.ac.uk/AIGuidance"
+ },
+ {
+  "doc_id": "manchester-metropolitan-students-genai-202610",
+  "institution_id": "manchester-metropolitan",
+  "url_id": "manchester-metropolitan-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1237,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.mmu.ac.uk/student-life/course/artificial-intelligence-and-assessments"
+ },
+ {
+  "doc_id": "regents-london-students-genai-202610",
+  "institution_id": "regents-london",
+  "url_id": "regents-london-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 6402,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.regents.ac.uk/sites/default/files/2025-08/Academic%20Regulations%202025-26%20-%20Academic%20Integrity%20and%20Misconduct.pdf"
+ },
+ {
+  "doc_id": "hull-students-genai-202610",
+  "institution_id": "hull",
+  "url_id": "hull-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 869,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.hull.ac.uk/asset-library/docs/student-use-of-ai.pdf"
+ },
+ {
+  "doc_id": "loughborough-students-genai-202610",
+  "institution_id": "loughborough",
+  "url_id": "loughborough-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 468,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.lboro.ac.uk/students/academic-integrity/generative-ai/"
+ },
+ {
+  "doc_id": "harper-adams-students-genai-202610",
+  "institution_id": "harper-adams",
+  "url_id": "harper-adams-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 6231,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://cdn.harper-adams.ac.uk/document/ki/key-info-page/Academic-Integrity-and-Academic-Misconduct-A-Guide.pdf"
+ },
+ {
+  "doc_id": "liverpool-hope-students-genai-202610",
+  "institution_id": "liverpool-hope",
+  "url_id": "liverpool-hope-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 994,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.hope.ac.uk/genai/"
+ },
+ {
+  "doc_id": "newcastle-students-genai-202610",
+  "institution_id": "newcastle",
+  "url_id": "newcastle-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1665,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.ncl.ac.uk/academic-skills-kit/good-academic-practice/artificial-intelligence/"
+ },
+ {
+  "doc_id": "roehampton-students-genai-202610",
+  "institution_id": "roehampton",
+  "url_id": "roehampton-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1188,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://library.roehampton.ac.uk/studyskills/aiassessment"
+ },
+ {
+  "doc_id": "teesside-students-genai-202610",
+  "institution_id": "teesside",
+  "url_id": "teesside-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1836,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.tees.ac.uk/ArtificialIntelligence"
+ },
+ {
+  "doc_id": "west-london-students-genai-202610",
+  "institution_id": "west-london",
+  "url_id": "west-london-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 2932,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.uwl.ac.uk/current-students/support-students/using-generative-ai-find-sources-information"
+ },
+ {
+  "doc_id": "law-students-genai-202610",
+  "institution_id": "law",
+  "url_id": "law-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 787,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.law.ac.uk/ai-at-ulaw/"
+ },
+ {
+  "doc_id": "portsmouth-students-genai-202610",
+  "institution_id": "portsmouth",
+  "url_id": "portsmouth-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1405,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://myport.port.ac.uk/my-course/using-ai-at-university"
+ },
+ {
+  "doc_id": "york-students-genai-202610",
+  "institution_id": "york",
+  "url_id": "york-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 2424,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.york.ac.uk/students/studying/assessment-and-examination/ai/"
+ },
+ {
+  "doc_id": "west-england-students-genai-202610",
+  "institution_id": "west-england",
+  "url_id": "west-england-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1374,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.uwe.ac.uk/study/study-support/study-skills/using-generative-ai-at-uwe-bristol"
+ },
+ {
+  "doc_id": "salford-students-genai-202610",
+  "institution_id": "salford",
+  "url_id": "salford-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 795,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.salford.ac.uk/skills/using-gen-ai-at-salford"
+ },
+ {
+  "doc_id": "bath-spa-students-genai-202610",
+  "institution_id": "bath-spa",
+  "url_id": "bath-spa-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1983,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.bathspa.ac.uk/students/ask/genai-guidance/"
+ },
+ {
+  "doc_id": "staffordshire-students-genai-202610",
+  "institution_id": "staffordshire",
+  "url_id": "staffordshire-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 339,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.staffs.ac.uk/AI"
+ },
+ {
+  "doc_id": "coventry-students-genai-202610",
+  "institution_id": "coventry",
+  "url_id": "coventry-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 887,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.coventry.ac.uk/studyingwithai/introduction"
+ },
+ {
+  "doc_id": "estate-management-students-genai-202610",
+  "institution_id": "estate-management",
+  "url_id": "estate-management-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 2667,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.ube.ac.uk/wp-content/uploads/2026/02/Guide-to-Academic-Integrity.pdf"
+ },
+ {
+  "doc_id": "derby-students-genai-202610",
+  "institution_id": "derby",
+  "url_id": "derby-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1223,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.derby.ac.uk/develop-at-derby/generative-artificial-intelligence-AI/generative-artificial-intelligence"
+ },
+ {
+  "doc_id": "middlesex-london-students-genai-202610",
+  "institution_id": "middlesex-london",
+  "url_id": "middlesex-london-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1478,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.mdx.ac.uk/media/middlesex-university/about-us-pdfs/academic-quality/AI-in-Learning-and-Teaching-Policy-August-2026.pdf"
+ },
+ {
+  "doc_id": "bath-students-genai-202610",
+  "institution_id": "bath",
+  "url_id": "bath-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 482,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.bath.ac.uk/campaigns/engaging-critically-with-genai-tools-for-your-work/"
+ },
+ {
+  "doc_id": "soas-london-students-genai-202610",
+  "institution_id": "soas-london",
+  "url_id": "soas-london-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1679,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.soas.ac.uk/sites/default/files/2023-07/ChatGPT%20and%20generative%20AI%20%E2%80%93%20a%20guide%20for%20students.pdf"
+ },
+ {
+  "doc_id": "birkbeck-london-students-genai-202610",
+  "institution_id": "birkbeck-london",
+  "url_id": "birkbeck-london-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 2240,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.bbk.ac.uk/documents/student-policy-2025-26-ai-guidance-for-students.pdf"
+ },
+ {
+  "doc_id": "bishop-grosseteste-students-genai-202610",
+  "institution_id": "bishop-grosseteste",
+  "url_id": "bishop-grosseteste-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 3567,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.lincolnbishop.ac.uk/download-document/461884"
+ },
+ {
+  "doc_id": "royal-agricultural-students-genai-202610",
+  "institution_id": "royal-agricultural",
+  "url_id": "royal-agricultural-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 10815,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.rau.ac.uk/sites/default/files/2025-04/Code%20of%20Practice%20D_Assessment_0.pdf"
+ },
+ {
+  "doc_id": "dundalk-institute-technology-students-genai-202610",
+  "institution_id": "dundalk-institute-technology",
+  "url_id": "dundalk-institute-technology-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1075,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.dkit.ie/system/files/2025-08/Generative-Artificial-Intelligence-and-Your-Assessments-A-Guide-for-Students-Sept-2023-FINAL.pdf"
+ },
+ {
+  "doc_id": "bedfordshire-students-genai-202610",
+  "institution_id": "bedfordshire",
+  "url_id": "bedfordshire-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 933,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://lrweb.beds.ac.uk/skills-for-success/academic-skills-guides/microsoft-office-and-digital-learning-tools/ai/"
+ },
+ {
+  "doc_id": "bimm-students-genai-202610",
+  "institution_id": "bimm",
+  "url_id": "bimm-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 4319,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.bimm.ac.uk/document/academic-integrity/?v=1790251511"
+ },
+ {
+  "doc_id": "leeds-beckett-students-genai-202610",
+  "institution_id": "leeds-beckett",
+  "url_id": "leeds-beckett-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1081,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.leedsbeckett.ac.uk/-/media/files/our-university/academic-regulations/principles-for-the-use-of-generative-ai.pdf"
+ },
+ {
+  "doc_id": "kcl-students-genai-202610",
+  "institution_id": "kcl",
+  "url_id": "kcl-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 2525,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.kcl.ac.uk/about/strategy/learning-and-teaching/ai-guidance/student-guidance"
+ },
+ {
+  "doc_id": "national-ireland-students-genai-202610",
+  "institution_id": "national-ireland",
+  "url_id": "national-ireland-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1269,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.ncirl.ie/useofaiinteachingandlearning/studentguide"
+ },
+ {
+  "doc_id": "de-montfort-students-genai-202610",
+  "institution_id": "de-montfort",
+  "url_id": "de-montfort-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 429,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://library.dmu.ac.uk/genai"
+ },
+ {
+  "doc_id": "mary-immaculate-students-genai-202610",
+  "institution_id": "mary-immaculate",
+  "url_id": "mary-immaculate-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 7932,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.mic.ul.ie/lead/projects-initiatives/generative-ai"
+ },
+ {
+  "doc_id": "suffolk-students-genai-202610",
+  "institution_id": "suffolk",
+  "url_id": "suffolk-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1626,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.uos.ac.uk/media/uniofsuffolk/website/content-assets/documents/policies-and-procedures/GenAI-Policy.pdf"
+ },
+ {
+  "doc_id": "edinburgh-napier-students-genai-202610",
+  "institution_id": "edinburgh-napier",
+  "url_id": "edinburgh-napier-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 3749,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://my.napier.ac.uk/your-studies/improve-your-academic-and-study-skills/artificial-intelligence-tools"
+ },
+ {
+  "doc_id": "lancashire-students-genai-202610",
+  "institution_id": "lancashire",
+  "url_id": "lancashire-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 7766,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.lancashire.ac.uk/assets/student-contracts/2025-26/academic-integrity-policy-and-procedure-for-academic-misconduct-2526.pdf"
+ },
+ {
+  "doc_id": "bpp-students-genai-202610",
+  "institution_id": "bpp",
+  "url_id": "bpp-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 3197,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.datocms-assets.com/106045/1783433984-22a-acceptable-use-of-gen-ai-tools-students.pdf"
+ },
+ {
+  "doc_id": "winchester-students-genai-202610",
+  "institution_id": "winchester",
+  "url_id": "winchester-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 2113,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.winchester.ac.uk/media/Approved-Generative-AI-Statement-Senate-24.06.26-to-21.06.28.pdf"
+ },
+ {
+  "doc_id": "goldsmiths-london-students-genai-202610",
+  "institution_id": "goldsmiths-london",
+  "url_id": "goldsmiths-london-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 417,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.gold.ac.uk/AI"
+ },
+ {
+  "doc_id": "cumbria-students-genai-202610",
+  "institution_id": "cumbria",
+  "url_id": "cumbria-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 2423,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://my.cumbria.ac.uk/Student-Life/Learning/Skills-Cumbria/Referencing-and-Avoiding-Plagiarism/Generative-Artificial-Intelligence/"
+ },
+ {
+  "doc_id": "huddersfield-students-genai-202610",
+  "institution_id": "huddersfield",
+  "url_id": "huddersfield-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 788,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://students.hud.ac.uk/studies/ai/"
+ },
+ {
+  "doc_id": "kent-students-genai-202610",
+  "institution_id": "kent",
+  "url_id": "kent-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 724,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://student.kent.ac.uk/studies/using-generative-ai-in-your-studies/ai-use-guidelines/ai-and-academic-integrity"
+ },
+ {
+  "doc_id": "brunel-london-students-genai-202610",
+  "institution_id": "brunel-london",
+  "url_id": "brunel-london-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 2877,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.brunel.ac.uk/AI_guidance"
+ },
+ {
+  "doc_id": "northampton-students-genai-202610",
+  "institution_id": "northampton",
+  "url_id": "northampton-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1446,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.northampton.ac.uk/about-us/statement-on-artificial-intelligence/ai-guidance-for-your-academic-work/"
+ },
+ {
+  "doc_id": "worcester-students-genai-202610",
+  "institution_id": "worcester",
+  "url_id": "worcester-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1826,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.worcester.ac.uk/documents/policies/PositionStatementGenAI.pdf"
+ },
+ {
+  "doc_id": "sunderland-students-genai-202610",
+  "institution_id": "sunderland",
+  "url_id": "sunderland-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 1379,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libraryguides.sunderland.ac.uk/referencing/referencing-gen-ai"
+ },
+ {
+  "doc_id": "imperial-students-genai-202610",
+  "institution_id": "imperial",
+  "url_id": "imperial-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-03",
+  "word_count": 516,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.imperial.ac.uk/students/academic-support/ai-and-study-guidance-hub/"
+ },
+ {
+  "doc_id": "aberystwyth-d2-misconduct-procedure-202610",
+  "institution_id": "aberystwyth",
+  "url_id": "aberystwyth-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 6147,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "bangor-d2-misconduct-procedure-202610",
+  "institution_id": "bangor",
+  "url_id": "bangor-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 7373,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "cardiff-metropolitan-d2-misconduct-procedure-202610",
+  "institution_id": "cardiff-metropolitan",
+  "url_id": "cardiff-metropolitan-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 2313,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "swansea-d2-assessment-policy-202610",
+  "institution_id": "swansea",
+  "url_id": "swansea-d2-assessment_policy",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 962,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "wales-trinity-saint-david-d2-misconduct-procedure-202610",
+  "institution_id": "wales-trinity-saint-david",
+  "url_id": "wales-trinity-saint-david-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 8008,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "edinburgh-napier-d2-institutional-policy-202610",
+  "institution_id": "edinburgh-napier",
+  "url_id": "edinburgh-napier-d2-institutional_policy",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 2364,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "heriot-watt-d2-misconduct-procedure-202610",
+  "institution_id": "heriot-watt",
+  "url_id": "heriot-watt-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 9974,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "qmu-d2-misconduct-procedure-202610",
+  "institution_id": "qmu",
+  "url_id": "qmu-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 2318,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "robert-gordon-d2-misconduct-procedure-202610",
+  "institution_id": "robert-gordon",
+  "url_id": "robert-gordon-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 10311,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "aberdeen-d2-misconduct-procedure-202610",
+  "institution_id": "aberdeen",
+  "url_id": "aberdeen-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 5834,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "edinburgh-d2-assessment-policy-202610",
+  "institution_id": "edinburgh",
+  "url_id": "edinburgh-d2-assessment_policy",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 5264,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "glasgow-d2-misconduct-procedure-202610",
+  "institution_id": "glasgow",
+  "url_id": "glasgow-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 2060,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "st-andrews-d2-misconduct-procedure-202610",
+  "institution_id": "st-andrews",
+  "url_id": "st-andrews-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 12496,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "stir-d2-misconduct-procedure-202610",
+  "institution_id": "stir",
+  "url_id": "stir-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 9779,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "strath-d2-misconduct-procedure-202610",
+  "institution_id": "strath",
+  "url_id": "strath-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 10346,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "highlands-and-islands-d2-misconduct-procedure-202610",
+  "institution_id": "highlands-and-islands",
+  "url_id": "highlands-and-islands-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 1141,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "d-n-laoghaire-institute-art-design-and-technology-d2-guide-202610",
+  "institution_id": "d-n-laoghaire-institute-art-design-and-technology",
+  "url_id": "d-n-laoghaire-institute-art-design-and-technology-d2-guide",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 502,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "dundalk-institute-technology-d2-misconduct-procedure-202610",
+  "institution_id": "dundalk-institute-technology",
+  "url_id": "dundalk-institute-technology-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 4332,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "mary-immaculate-d2-other-202610",
+  "institution_id": "mary-immaculate",
+  "url_id": "mary-immaculate-d2-other",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 8179,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "royal-surgeons-in-ireland-d2-misconduct-procedure-202610",
+  "institution_id": "royal-surgeons-in-ireland",
+  "url_id": "royal-surgeons-in-ireland-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 3372,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "tcd-d2-misconduct-procedure-202610",
+  "institution_id": "tcd",
+  "url_id": "tcd-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 1013,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "ucc-d2-misconduct-procedure-202610",
+  "institution_id": "ucc",
+  "url_id": "ucc-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 6707,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "ucd-d2-misconduct-procedure-202610",
+  "institution_id": "ucd",
+  "url_id": "ucd-d2-misconduct_procedure",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 5776,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "ul-d2-assessment-policy-202610",
+  "institution_id": "ul",
+  "url_id": "ul-d2-assessment_policy",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-05",
+  "word_count": 2207,
+  "domains": [
+   "assessed_work"
+  ]
+ },
+ {
+  "doc_id": "hartpury-students-genai-202610",
+  "institution_id": "hartpury",
+  "url_id": "hartpury-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 7356,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.hartpury.ac.uk/media/iljlhle4/fe-malpractice-inc-ai-misuse.pdf"
+ },
+ {
+  "doc_id": "lancaster-students-genai-202610",
+  "institution_id": "lancaster",
+  "url_id": "lancaster-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 7369,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/student-based-services/asq/marp/Academic-Integrity-Regs.pdf"
+ },
+ {
+  "doc_id": "setu-students-genai-202610",
+  "institution_id": "setu",
+  "url_id": "setu-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 3319,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.setu.ie/Craft/assets/policies/Student-Academic-Integrity-Policy-V1.0-Feb-2026.pdf"
+ },
+ {
+  "doc_id": "lse-students-genai-202610",
+  "institution_id": "lse",
+  "url_id": "lse-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 916,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://blogs.lse.ac.uk/studentsatlse/2026/05/26/what-to-know-about-using-ai-while-studying-at-lse/"
+ },
+ {
+  "doc_id": "dcu-students-genai-202610",
+  "institution_id": "dcu",
+  "url_id": "dcu-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 1056,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://dcu.libguides.com/c.php?g=729468&p=5315423"
+ },
+ {
+  "doc_id": "edge-hill-students-genai-202610",
+  "institution_id": "edge-hill",
+  "url_id": "edge-hill-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 137,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://eshare.edgehill.ac.uk/16667/"
+ },
+ {
+  "doc_id": "east-london-students-genai-202610",
+  "institution_id": "east-london",
+  "url_id": "east-london-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 411,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.uel.ac.uk/artificial-intelligence"
+ },
+ {
+  "doc_id": "st-marys-twickenham-london-students-genai-202610",
+  "institution_id": "st-marys-twickenham-london",
+  "url_id": "st-marys-twickenham-london-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 179,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.stmarys.ac.uk/policies/ai.aspx"
+ },
+ {
+  "doc_id": "falmouth-students-genai-202610",
+  "institution_id": "falmouth",
+  "url_id": "falmouth-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 714,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.falmouth.ac.uk/academic-integrity-referencing/academic-integrity"
+ },
+ {
+  "doc_id": "newman-students-genai-202610",
+  "institution_id": "newman",
+  "url_id": "newman-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 392,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.newman.ac.uk/genai"
+ },
+ {
+  "doc_id": "ollscoil-na-gaillimhe-galway-students-genai-202610",
+  "institution_id": "ollscoil-na-gaillimhe-galway",
+  "url_id": "ollscoil-na-gaillimhe-galway-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 4216,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.universityofgalway.ie/media/academicintegrity/files/QA220-Academic-Integrity-Policy.pdf"
+ },
+ {
+  "doc_id": "london-south-bank-students-genai-202610",
+  "institution_id": "london-south-bank",
+  "url_id": "london-south-bank-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 485,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://library.lsbu.ac.uk/AI-academic-study"
+ },
+ {
+  "doc_id": "city-st-georges-london-students-genai-202610",
+  "institution_id": "city-st-georges-london",
+  "url_id": "city-st-georges-london-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 158,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.citystgeorges.ac.uk/ai-research/home"
+ },
+ {
+  "doc_id": "northumbria-students-genai-202610",
+  "institution_id": "northumbria",
+  "url_id": "northumbria-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 1107,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.northumbria.ac.uk/about-us/university-services/it-services/student-digital-induction/claude-for-education/"
+ },
+ {
+  "doc_id": "plymouth-students-genai-202610",
+  "institution_id": "plymouth",
+  "url_id": "plymouth-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 120,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://plymouth.libguides.com/Ailibraryskills"
+ },
+ {
+  "doc_id": "london-school-hygiene-and-tropical-medicine-students-genai-202610",
+  "institution_id": "london-school-hygiene-and-tropical-medicine",
+  "url_id": "london-school-hygiene-and-tropical-medicine-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "pdf",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 18429,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.lshtm.ac.uk/sites/default/files/academicwritinghandbook.pdf"
+ },
+ {
+  "doc_id": "abertay-students-genai-202610",
+  "institution_id": "abertay",
+  "url_id": "abertay-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 4956,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.abertay.ac.uk/about/the-university/governance-and-management/freedom-of-information/823-information-procedures-on-student-discipline/code-of-student-discipline-academic-misconduct/"
+ },
+ {
+  "doc_id": "cardiff-students-genai-202610",
+  "institution_id": "cardiff",
+  "url_id": "cardiff-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 192,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://sites.cardiff.ac.uk/ilrb/using-gen-ai-to-support-your-literature-searching/"
+ },
+ {
+  "doc_id": "brighton-students-genai-202610",
+  "institution_id": "brighton",
+  "url_id": "brighton-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 555,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://libguides.brighton.ac.uk/GenerativeAI"
+ },
+ {
+  "doc_id": "greenwich-students-genai-202610",
+  "institution_id": "greenwich",
+  "url_id": "greenwich-students-genai",
+  "level": "institution",
+  "audience": [
+   "students_all"
+  ],
+  "status": "live",
+  "format": "webpage",
+  "published": null,
+  "last_updated": null,
+  "date_known": false,
+  "retrieved": "2026-10-06",
+  "word_count": 98,
+  "domains": [
+   "assessed_work"
+  ],
+  "url": "https://www.gre.ac.uk/docs/rep/information-and-library-services/ai-guidance"
+ }
+]

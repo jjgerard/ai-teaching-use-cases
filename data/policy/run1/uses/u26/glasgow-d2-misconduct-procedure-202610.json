@@ -1,0 +1,83 @@
+{
+ "doc_id": "glasgow-d2-misconduct-procedure-202610",
+ "coder": "use-u26",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Students must not use generative Artificial Intelligence (AI) tools or AI-powered websites in ways which breach assessment instructions, for example to generate content, answers, or references.",
+   "anchor": "Generative Artificial Intelligence"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Students must not use generative Artificial Intelligence (AI) tools or AI-powered websites in ways which breach assessment instructions, for example to generate content, answers, or references.",
+   "anchor": "Generative Artificial Intelligence"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "an unacknowledged summary of a source, including a summary produced by generative Artificial Intelligence (GenAI);",
+   "anchor": "Plagiarism"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "any unacknowledged content that has been produced by another person, website, software, or Artificial intelligence (AI) tool; or",
+   "anchor": "Introduction"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "Schools will advise students of their specific rules and in assessment specifications, where appropriate."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Schools will advise students of their specific rules and in assessment specifications, where appropriate."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If information or ideas are obtained from any source (including GenAI), those sources must be acknowledged according to the appropriate convention in that subject"
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "Where the use of AI is permitted, it must be verified and appropriately referenced in the work for transparency, with details of how it was used being provided."
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Any failure to acknowledge adequately or to cite properly other sources in submitted work is plagiarism."
+  },
+  "exempt": []
+ }
+}

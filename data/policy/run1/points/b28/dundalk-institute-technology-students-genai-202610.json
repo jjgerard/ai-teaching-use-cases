@@ -1,0 +1,148 @@
+{
+ "doc_id": "dundalk-institute-technology-students-genai-202610",
+ "coder": "pts-b28",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Using generative artificial intelligence tools (e.g. ChatGPT) in an assessment unless explicitly permitted to do so and with proper acknowledgement, is a form of plagiarism",
+   "anchor": "Is it plagiarism to submit a piece of assessment that has been wholly or partially created by an artificial intelligence tool?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using generative AI in an assessment without explicit permission and proper acknowledgement is a form of plagiarism."
+  },
+  {
+   "point_id": "p02",
+   "quote": "The use of artificial intelligence will be “unrestricted”, “restricted”, or “prohibited”. If you permitted to use AI, you will be asked to provide a declaration of use in your submitted assessment.",
+   "anchor": "What happens if my lecturer allows the use of AI in an assessment?",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "AI use is categorised as unrestricted, restricted or prohibited, and where permitted a declaration of use is required."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Specify which technology/technologies were used.",
+   "anchor": "What happens if my lecturer allows the use of AI in an assessment?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "The declaration must specify which technology or technologies were used."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Identify the prompts used.",
+   "anchor": "What happens if my lecturer allows the use of AI in an assessment?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "The declaration must identify the prompts used."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Explain how the output was used in the submitted work (used directly or modified).",
+   "anchor": "What happens if my lecturer allows the use of AI in an assessment?",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "The declaration must explain how the output was used, directly or modified."
+  },
+  {
+   "point_id": "p06",
+   "quote": "If use is permitted, and you decide not to use AI, you should include the following declaration in your submitted assessment:",
+   "anchor": "What happens if my lecturer allows the use of AI in an assessment?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "If use is permitted but you choose not to use AI, include a declaration saying so."
+  },
+  {
+   "point_id": "p07",
+   "quote": "You can use these tools ethically to help you learn. For example, you could use them to help you to draw up a study plan, to summarise information, to help narrow down a topic or to generate flashcards or practice questions.",
+   "anchor": "Can I use a generative artificial intelligence tool, such as ChatGPT, to help me prepare an assignment?",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Students can use AI ethically to learn, for example for study plans, summaries, narrowing a topic, flashcards or practice questions."
+  },
+  {
+   "point_id": "p08",
+   "quote": "You should not use them unethically to create some or all of your assignments.",
+   "anchor": "Can I use a generative artificial intelligence tool, such as ChatGPT, to help me prepare an assignment?",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "You should not use AI unethically to create some or all of your assignments."
+  },
+  {
+   "point_id": "p09",
+   "quote": "For example, you might be asked to critique an AIgenerated response to a question.",
+   "anchor": "Can I use a generative artificial intelligence tool, such as ChatGPT, to help me prepare an assignment?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Example of lecturer-required AI use: critiquing an AIgenerated response to a question."
+  },
+  {
+   "point_id": "p10",
+   "quote": "It is also your responsibility to check the accuracy of the information.",
+   "anchor": "If you use generative AI in an assignment",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "It is your responsibility to check the accuracy of the information."
+  },
+  {
+   "point_id": "p11",
+   "quote": "the content might include references that look good but do not exist.",
+   "anchor": "Are there any disadvantages to using generative AI?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "AI content might include references that look good but do not exist."
+  },
+  {
+   "point_id": "p12",
+   "quote": "New tools are available that aim to detect AI generated content. While these are at an early stage, and further development and testing is needed, they may be used as one of a number of indicators if further investigation is needed.",
+   "anchor": "Will my lecturer know if I use generative AI to produce an assignment?",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "AI detection tools are at an early stage but may be used as one of several indicators if investigation is needed."
+  },
+  {
+   "point_id": "p13",
+   "quote": "any suspected misuse of AI to plagiarise will be investigated in the same way as any other suspected breach of academic integrity.",
+   "anchor": "Will my lecturer know if I use generative AI to produce an assignment?",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Suspected AI misuse to plagiarise will be investigated like any other suspected academic integrity breach."
+  },
+  {
+   "point_id": "p14",
+   "quote": "There are other great sources of help and guidance including the Student Learning and Development Centre (SLDC) and the Library.",
+   "anchor": "I’m not sure what is an ethical use of generative AI and what is not?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Help is available from the Student Learning and Development Centre (SLDC) and the Library."
+  }
+ ]
+}

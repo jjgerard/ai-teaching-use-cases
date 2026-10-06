@@ -1,0 +1,34 @@
+{
+ "doc_id": "edinburgh-napier-students-genai-202610",
+ "coder": "v2-b7",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "Edinburgh Napier University’s position statement on Gen AI outlines our shared commitment to ethical and responsible use.",
+   "anchor": "What is Edinburgh Napier’s position on using Gen AI tools?"
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "there may be specialist applications of AI which are an important skill to develop for employment. These will be addressed within your modules and programme.",
+   "anchor": "Am I allowed to use Gen AI or is it considered cheating?"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "Share your research writing with your supervisors regularly during your studies and always discuss any intended use of Gen AI with them first.",
+   "anchor": "Students’ Responsibilities (Postgraduate Research)"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "Any use of AI should be alongside skilled use of other more reliable sources.",
+   "why": "Says use other reliable sources; library only mentioned in preceding sentence"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "b) You declare your use of Gen AI, but the Gen AI content replaces the learning, thinking or skills that the assessment is designed to assess (declared, but inappropriate use of Gen AI)",
+   "why": "Describes when use is misconduct, borderline definition of a term"
+  }
+ ]
+}

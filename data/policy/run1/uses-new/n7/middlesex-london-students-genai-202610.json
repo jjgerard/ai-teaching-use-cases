@@ -1,0 +1,27 @@
+{
+ "doc_id": "middlesex-london-students-genai-202610",
+ "coder": "un-n7",
+ "uses": [
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Paraphrase the work of others, including other staff, students or organisations.",
+   "anchor": "Unacceptable use of Gen AI"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Manipulate or fabricate data or research findings.",
+   "anchor": "Unacceptable use of Gen AI"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": null
+}

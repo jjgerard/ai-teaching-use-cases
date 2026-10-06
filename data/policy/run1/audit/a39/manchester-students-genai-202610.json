@@ -1,0 +1,74 @@
+{
+ "doc_id": "manchester-students-genai-202610",
+ "coder": "aud-a39",
+ "checked_types": 61,
+ "found": [
+  {
+   "type": "research_use_of_ai_needs_ethics_approval_or_consent",
+   "quote": "The Policy on Ethical Approval of Research on Human Subjects in Taught Assessment.",
+   "anchor": "2.2 General Student Use of AI for Teaching and Learning Activities"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "Staff and students can raise issues in relation to the use of AI in Teaching and Learning through the Teaching and Learning Policy Comments Form. Comments will be reviewed regularly and used to inform the development of training and guidance",
+   "anchor": "Monitoring Compliance"
+  },
+  {
+   "type": "follow_institutional_referencing_guidance_for_ai",
+   "quote": "The University’s AI Guidelines (including referencing)",
+   "anchor": "2.2 General Student Use of AI for Teaching and Learning Activities"
+  },
+  {
+   "type": "provided_tool_has_data_protection_assurances",
+   "quote": "Both services operate within the University’s Microsoft 365 environment, respect existing permissions and data security controls.",
+   "anchor": "Definitions"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "quote": "surface level use to improve grammar, fluency, and formatting) without changing the ideas, arguments or conclusions developed by the student.",
+   "why": "Limit stated within AI Minimal tier description"
+  },
+  {
+   "type": "ai_output_may_be_included_when_assessment_allows",
+   "quote": "AI Permitted: AI may be used to complete the assessment.",
+   "why": "Tier definition; unclear if AI content may appear in submission"
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "Students must adhere to the University’s AI Guidelines when using AI tools.",
+   "why": "Refers to institutional guidelines, not brief or local guidance"
+  },
+  {
+   "type": "use_beyond_permitted_is_misconduct",
+   "quote": "Failure to adhere to the terms of an assessment brief is handled on an assessment-by-assessment basis and may be accounted for through the marking process.",
+   "why": "Not labelled misconduct; handled through marking"
+  },
+  {
+   "type": "assistive_technology_use_permitted",
+   "quote": "General Student Use of AI for Teaching and Learning Activities (unless required in a DASS plan)",
+   "why": "Only a heading carve-out for DASS plans"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "students should continue to access relevant University of Manchester support services or contact their GP.",
+   "why": "Wellbeing support, not AI-related skills or questions"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "while enabling appropriate use of AI.",
+   "why": "Purpose clause; stance weakly stated"
+  },
+  {
+   "type": "keep_record_of_ai_interactions",
+   "quote": "how students should record any decisions regarding their individual or collective use of AI as a group",
+   "why": "Records decisions on group AI use, not chats or outputs"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Disciplinespecific guidance will support decision making where needed.",
+   "why": "Promise of guidance, vague; not a named resource"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "doc_id": "sheffield-students-genai-202610",
+ "coder": "v2-d3",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "The University has developed a Common Approach to ensure every undergraduate programme integrates GenAI literacy through structured teaching activities and formal assessment",
+   "anchor": "A Common Approach to generative AI in the curriculum"
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "This page sets out the principles which guide the use of generative AI (GenAI) in any aspect of education at the University of Sheffield.",
+   "anchor": "Principles for generative AI in education"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "Ensuring students and staff are familiar with the University\u2019s principles for using GenAI in research and innovation.",
+   "why": "Points to research principles but not clearly separate guidance document"
+  }
+ ]
+}

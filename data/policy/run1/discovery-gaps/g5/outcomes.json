@@ -1,0 +1,128 @@
+[
+ {
+  "name": "St Mary's University Twickenham London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.stmarys.ac.uk/policies/ai.aspx",
+   "title": "AI policy",
+   "kind": "institutional_policy",
+   "format": "html",
+   "date_as_shown": "July 2024 (per linked PDF name)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.stmarys.ac.uk/staff/docs/docs/st-marys-ai-policy-july-2024.pdf",
+    "why": "login wall"
+   },
+   {
+    "url": "https://www.stmarys.ac.uk/policies/docs/student-guidance-on-ai-september-2023.pdf",
+    "why": "known 404, superseded"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.stmarys.ac.uk/staff/docs/staff-ai-guidance.pdf",
+    "title": "Staff guidance on AI",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "St Mary's University Twickenham generative AI students guidance (allowed_domains stmarys.ac.uk)"
+  ]
+ },
+ {
+  "name": "Queen Mary University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.qmul.ac.uk/governance-and-legal-services/media/dgls-media/policy/current-policies/Academic-Integrity-&-Misconduct-Policy.pdf",
+   "title": "Academic Integrity & Misconduct Policy",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.qmul.ac.uk/its/basic-introduction-to-ai/ai-faqs/",
+    "why": "mixed staff/student IT FAQ, lower preference"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.qmul.ac.uk/doctoralcollege/skills-training/training-and-development-tools/ai-guidance-for-pgrs/",
+    "title": "AI Guidance for PGRs",
+    "audience": "pgr"
+   },
+   {
+    "url": "https://www.qmul.ac.uk/its/basic-introduction-to-ai/ai-faqs/",
+    "title": "AI FAQs",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "Queen Mary University of London students generative AI guide",
+   "Queen Mary academic integrity misconduct policy generative AI students"
+  ]
+ },
+ {
+  "name": "Falmouth University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.falmouth.ac.uk/academic-integrity-referencing/academic-integrity",
+   "title": "What is academic integrity? - Academic Integrity and Referencing",
+   "kind": "library_guide",
+   "format": "html",
+   "date_as_shown": "September 8, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.falmouth.ac.uk/sites/default/files/media/downloads/academic-integrity-policy-23-july-2025.pdf",
+    "why": "blocked (HTTP 403)"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "Falmouth University artificial intelligence students guidance",
+   "Falmouth academic integrity policy students use of generative AI",
+   "Falmouth libguides generative AI students referencing AI"
+  ]
+ },
+ {
+  "name": "Royal Veterinary College",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.rvc.ac.uk/Media/Default/About/Academic%20Quality,%20Regulations%20and%20Procedures/Further%20Student%20Policies%20and%20Procedures/AM01%20RVC%20Student%20Academic%20Misconduct%20Procedure%20-%20V.4.pdf",
+   "title": "AM01 RVC Student Academic Misconduct Procedures 2023/24",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2023/24",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.rvc.ac.uk/study/blended-learning/strategy/faqs",
+    "why": "blocked (HTTP 403)"
+   },
+   {
+    "url": "https://www.rvc.ac.uk/study/support-for-students/getting-support/digital-literacy-and-learning",
+    "why": "blocked (HTTP 403)"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "Royal Veterinary College generative AI students academic misconduct",
+   "RVC student guidance use of AI tools assessment",
+   "RVC ChatGPT AI sites not prohibited reference academic misconduct students"
+  ]
+ }
+]

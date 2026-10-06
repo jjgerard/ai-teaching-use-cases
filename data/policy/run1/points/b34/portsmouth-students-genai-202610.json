@@ -1,0 +1,148 @@
+{
+ "doc_id": "portsmouth-students-genai-202610",
+ "coder": "pts-b34",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "That’s why every summative assessment in Moodle now includes an AI acknowledgment form. The golden rule is “Own what you submit”.",
+   "anchor": "Responsible Use",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Every summative assessment in Moodle includes an AI acknowledgment form; the golden rule is 'Own what you submit'."
+  },
+  {
+   "point_id": "p02",
+   "quote": "You need to acknowledge whenever you use AI to help with an assessment you completed during your own time.",
+   "anchor": "Acknowledging AI use in Moodle",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "You need to acknowledge whenever you use AI to help with an assessment completed in your own time."
+  },
+  {
+   "point_id": "p03",
+   "quote": "The form is important. If it is not completed, or not completed accurately, lecturers may need to contact you about your submission.",
+   "anchor": "Why the Form Matters",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "If the form is incomplete or inaccurate, lecturers may need to contact you about your submission."
+  },
+  {
+   "point_id": "p04",
+   "quote": "If you skip this dropbox, you can submit the assignment but it won't have an attached declaration, which may be reported.",
+   "anchor": "1. Select whether you used AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Skipping the dropbox still allows submission, but with no declaration attached, which may be reported."
+  },
+  {
+   "point_id": "p05",
+   "quote": "When you submit your assignment in Moodle, you'll choose a checkbox to either state you did or did not use AI in the assessment.",
+   "anchor": "1. Select whether you used AI",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "On submission in Moodle you choose a checkbox stating whether or not you used AI."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Data analysis: using AI to analyse data sets or interpret results",
+   "anchor": "2. Tell us how you used AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Declaration option: data analysis, using AI to analyse data sets or interpret results."
+  },
+  {
+   "point_id": "p07",
+   "quote": "If you select the 'Other' option, you'll explain exactly how you used AI in the 'Other AI usage' text box.",
+   "anchor": "2. Tell us how you used AI",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Choosing 'Other' means explaining exactly how you used AI in the text box."
+  },
+  {
+   "point_id": "p08",
+   "quote": "You must not AI if you have been told not to do so in the assessment brief. You must not use AI to write or complete your assignments for you.",
+   "anchor": "When is it not appropriate to use AI?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "You must not use AI if the assessment brief says not to, nor to write or complete your assignments."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Claiming AI-generated work to be your own is academic misconduct.",
+   "anchor": "When is it not appropriate to use AI?",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Claiming AI-generated work as your own is academic misconduct."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Your tutors may ask you to discuss your work in person to assess your understanding of what you submitted.",
+   "anchor": "When is it not appropriate to use AI?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Tutors may ask you to discuss your work in person to assess your understanding."
+  },
+  {
+   "point_id": "p11",
+   "quote": "As a University of Portsmouth student you can access Microsoft Copilot, a generative AI assistant which can help you with a range of tasks from research to planning, and more.",
+   "anchor": "What AI tools are there?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Portsmouth students can access Microsoft Copilot, a generative AI assistant."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Get feedback on drafts, with your own judgement applied. You may use this feedback to inform and enhance your work.",
+   "anchor": "When is it appropriate to use AI?",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "You may get AI feedback on drafts, applying your own judgement, to inform and enhance your work."
+  },
+  {
+   "point_id": "p13",
+   "quote": "The goal isn’t to ban AI or ‘catch you out’, but to make sure your work remains your own.",
+   "anchor": "What does the University expect of you?",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "other",
+   "specific": false,
+   "gist": "The goal is not to ban AI or catch students out but to ensure work remains their own."
+  },
+  {
+   "point_id": "p14",
+   "quote": "The University offers workshops, examples and short guides to help you learn how to use AI effectively and responsibly.",
+   "anchor": "What support is available?",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "The University offers workshops, examples and short guides on using AI effectively and responsibly."
+  }
+ ]
+}

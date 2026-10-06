@@ -236,6 +236,12 @@ app.get("/ai-for-research", (req, res) => {
 app.get("/teachers-spotting-ai", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "public", "teachers-spotting-ai.html"));
 });
+app.get("/ai-guidance-analysis", (req, res) => {
+  res.sendFile(path.join(__dirname, "..", "public", "ai-guidance-analysis.html"));
+});
+app.get("/ai-policy-atlas", (req, res) => {
+  res.redirect(301, "/ai-guidance-analysis");
+});
 app.get("/about", (req, res) => {
   res.sendFile(path.join(__dirname, "..", "public", "about.html"));
 });

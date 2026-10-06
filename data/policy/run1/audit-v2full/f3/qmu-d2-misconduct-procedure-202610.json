@@ -1,0 +1,59 @@
+{
+ "doc_id": "qmu-d2-misconduct-procedure-202610",
+ "coder": "v2f-f3",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "Familiarise themselves with the assessment schedule and assessment specification for all modules on their programme, including an awareness of the extent to which generative AI can be used in any given assessment.",
+   "anchor": "3. Student Responsibility in Assessment"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "Such work would include, but is not limited to work obtained from an essay bank or website essay writing service, or produced by an Artificial Intelligence language model programme. Such presentation is cheating and will be dealt with under the University’s Student Misconduct Regulations.",
+   "anchor": "3. Student Responsibility in Assessment"
+  },
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "The process or practice of using another person’s ideas or work and pretending it is your own. This includes E-cheating, specifically the unauthorized and unattributed use of generative Artificial Intelligence (AI) in written assignments, and essay banks.",
+   "anchor": "Appendix 1 - Definitions of Academic Misconduct"
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "The student will have at least 14 days’ notice of any meeting, unless otherwise agreed by the Student and the University, and will be advised of the allegations and any supporting evidence.",
+   "anchor": "6.3 Investigation of Academic Misconduct – Stage 1"
+  },
+  {
+   "type": "oral_viva_or_panel_to_verify_authorship",
+   "quote": "a structured oral discussion with the student regarding their process for creating their assignment submission, led by one of the module team may establish whether, and the extent to which, a student has breached the assessment guidelines.",
+   "anchor": "6.1 Poor Academic Practice and Local Intervention"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "Fraudulent practices such as copying, collusion, plagiarism (i.e. the presentation by an individual of another person’s ideas or work, in any medium, published or unpublished, as though they were their own) are serious academic offences and will incur appropriate penalties.",
+   "why": "penalty stated for plagiarism; AI only in next clause"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "Academic staff may submit student work to TurnItIn UK or another equivalent system.",
+   "why": "similarity checker, AI not mentioned"
+  },
+  {
+   "type": "first_or_minor_offence_handled_educatively",
+   "quote": "the Module Coordinator or Programme Leader will meet with the student to provide feedback and direct the student to access further support on academic integrity.",
+   "why": "poor practice generally, not AI-specific"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "Stage 2 allegations will be heard by a Disciplinary Panel at a hearing.",
+   "why": "generic misconduct stage, no AI-specific step"
+  },
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Changing, creating or misrepresenting information or data in order to deceive.",
+   "why": "falsification defined vaguely, no references or findings"
+  }
+ ]
+}

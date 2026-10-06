@@ -1,0 +1,1030 @@
+{
+ "version": "0.1",
+ "derived_from": "616 points from 57 institutions",
+ "types": [
+  {
+   "id": "default_ai_banned_unless_authorised",
+   "label": "Default: no AI unless expressly permitted",
+   "group": "use_rules",
+   "definition": "The baseline rule is that AI use in coursework is not allowed unless the module, brief or lecturer expressly permits it.",
+   "decision_rule": "Use when the quote sets a general default of prohibition with a named route to permission (brief, module leader, tutor, approval in advance). Differs from rules_set_locally_by_module_or_lecturer, which only says who decides without stating the default, and from ai_banned_for_whole_assessment, which bans AI for one named assessment or tier.",
+   "examples": [
+    "huddersfield-students-genai-202610:p08",
+    "maynooth-ug-ptm-genai-guidelines-202610:p01",
+    "birmingham-students-genai-202610:p01",
+    "highlands-and-islands-students-genai-202610:p02"
+   ],
+   "n_institutions": 8,
+   "n_points": 9
+  },
+  {
+   "id": "default_ai_permitted_unless_restricted",
+   "label": "Default: AI allowed unless restricted",
+   "group": "use_rules",
+   "definition": "The baseline rule is that AI use is acceptable unless an assessment, handbook or tutor restricts or prohibits it.",
+   "decision_rule": "Use when the quote states a general permissive default or says restrictions are few and specific. Mirror image of default_ai_banned_unless_authorised; do not use for a list of permitted tasks (see the study, proofreading and brainstorming types).",
+   "examples": [
+    "warwick-students-genai-202610:p02",
+    "harper-adams-students-genai-202610:p01",
+    "west-england-students-genai-202610:p06",
+    "worcester-students-genai-202610:p01"
+   ],
+   "n_institutions": 4,
+   "n_points": 4
+  },
+  {
+   "id": "ai_banned_for_whole_assessment",
+   "label": "No AI at all in a given assessment",
+   "group": "use_rules",
+   "definition": "AI must not be used in any way for a particular assessment or assessment category.",
+   "decision_rule": "Use when the quote bans every kind of AI use (including spell-checkers or all tools) for an assessment or category, outside a described tier scheme. Differs from default_ai_banned_unless_authorised (a general default) and from no_ai_rewriting_or_paraphrasing_beyond_proofreading (partial ban).",
+   "examples": [
+    "bristol-students-genai-202610:p03",
+    "roehampton-students-genai-202610:p04",
+    "exeter-students-assessment-202610:p02",
+    "middlesex-london-students-genai-202610:p01"
+   ],
+   "n_institutions": 4,
+   "n_points": 4
+  },
+  {
+   "id": "ai_output_may_be_included_when_assessment_allows",
+   "label": "AI output may be included where assessment allows",
+   "group": "use_rules",
+   "definition": "In assessments that permit it, AI-generated content may appear in the submitted work.",
+   "decision_rule": "Use when the quote says AI output or AI-created content may form part of the final submission, usually under conditions (limit, attribution). Differs from do_not_submit_ai_generated_content_as_own, which forbids it, and from some_assessments_require_or_build_in_ai_use, where AI use is required.",
+   "examples": [
+    "maynooth-ug-ptm-genai-guidelines-202610:p05",
+    "middlesex-london-students-genai-202610:p03",
+    "bimm-students-genai-202610:p11"
+   ],
+   "n_institutions": 3,
+   "n_points": 3
+  },
+  {
+   "id": "do_not_submit_ai_generated_content_as_own",
+   "label": "Do not paste or submit AI text",
+   "group": "use_rules",
+   "definition": "Students must not copy, paste or hand in AI-generated content as their submitted work.",
+   "decision_rule": "Use for an imperative (must not, cannot, should never) about copying or submitting AI output, with no mention that it counts as misconduct. If the quote's main point is that doing so is misconduct, plagiarism or false authorship, use passing_off_ai_work_as_own_is_misconduct. Differs from ai_must_not_write_assessed_work_for_you, which is about asking the AI to produce the work.",
+   "examples": [
+    "ulster-library-genai-guide-202610:p01",
+    "kent-students-genai-202610:p02",
+    "maynooth-ug-ptm-genai-guidelines-202610:p03",
+    "roehampton-students-genai-202610:p10"
+   ],
+   "n_institutions": 10,
+   "n_points": 11
+  },
+  {
+   "id": "work_submitted_must_be_own_ideas_and_effort",
+   "label": "Submitted work must be your own",
+   "group": "use_rules",
+   "definition": "Work submitted for assessment must represent the student's own ideas, understanding and effort.",
+   "decision_rule": "Use for a general statement of the authorship principle that does not name a specific prohibited act. Differs from do_not_submit_ai_generated_content_as_own, which names AI output, and from ai_should_support_not_replace_own_thinking, which addresses how to use AI generally.",
+   "examples": [
+    "leedstrinity-students-genai-202610:p01",
+    "kent-students-genai-202610:p10",
+    "strath-students-genai-202610:p02",
+    "huddersfield-students-genai-202610:p01"
+   ],
+   "n_institutions": 4,
+   "n_points": 4
+  },
+  {
+   "id": "ai_must_not_write_assessed_work_for_you",
+   "label": "Do not have AI write your assignment",
+   "group": "use_rules",
+   "definition": "Students must not ask AI to write, answer, analyse or otherwise complete their assessed work for them.",
+   "decision_rule": "Use when the quote forbids prompting AI to generate the essay, answer or work itself (whole or large parts). Differs from do_not_submit_ai_generated_content_as_own (the act of submitting or pasting) and from no_ai_rewriting_or_paraphrasing_beyond_proofreading (altering the student's own text).",
+   "examples": [
+    "york-students-genai-202610:p05",
+    "lancashire-students-genai-202610:p02",
+    "southampton-students-genai-202610:p07",
+    "soas-london-students-genai-202610:p01"
+   ],
+   "n_institutions": 8,
+   "n_points": 14
+  },
+  {
+   "id": "no_ai_rewriting_or_paraphrasing_beyond_proofreading",
+   "label": "No AI rewriting beyond proofreading",
+   "group": "use_rules",
+   "definition": "AI may not be used to rewrite, paraphrase, improve or substantially alter the student's own text beyond spelling and grammar correction.",
+   "decision_rule": "Use when the quote draws the line at rewriting, paraphrasing, rewording or editing for content or argument. Differs from spelling_grammar_proofreading_permitted, which states what is allowed, and from ai_must_not_write_assessed_work_for_you, which concerns creating new text.",
+   "examples": [
+    "birmingham-students-genai-202610:p07",
+    "kent-students-genai-202610:p03",
+    "lancashire-students-genai-202610:p07",
+    "bath-spa-students-genai-202610:p04"
+   ],
+   "n_institutions": 8,
+   "n_points": 9
+  },
+  {
+   "id": "translation_tools_restricted",
+   "label": "Translation tools restricted or conditional",
+   "group": "use_rules",
+   "definition": "Machine translation may not be used, or only in limited ways, in assessed work.",
+   "decision_rule": "Use when the quote's main subject is translation or machine translation limits (word or phrase only, not sentences, only if brief allows). Takes priority over the general rewriting type when translation is named.",
+   "examples": [
+    "bristol-students-genai-202610:p06",
+    "cumbria-students-genai-202610:p09",
+    "exeter-students-assessment-202610:p07",
+    "york-students-genai-202610:p12"
+   ],
+   "n_institutions": 5,
+   "n_points": 6
+  },
+  {
+   "id": "do_not_use_ai_references_or_treat_ai_as_source",
+   "label": "Do not cite AI or its references",
+   "group": "use_rules",
+   "definition": "AI is not a credible academic source and references it supplies must not be used or copied.",
+   "decision_rule": "Use when the quote forbids relying on AI as a source or using references it generated. Differs from verify_ai_output_before_relying_on_it, which allows use after checking.",
+   "examples": [
+    "brunel-london-students-genai-202610:p08",
+    "ucc-students-genai-202610:p11",
+    "oxford-brookes-students-genai-202610:p06",
+    "wales-trinity-saint-david-students-genai-202610:p15"
+   ],
+   "n_institutions": 5,
+   "n_points": 5
+  },
+  {
+   "id": "spelling_grammar_proofreading_permitted",
+   "label": "Spelling, grammar and proofreading help allowed",
+   "group": "use_rules",
+   "definition": "AI or digital tools may be used for spelling, grammar, clarity and light proofreading of the student's own text.",
+   "decision_rule": "Use when the quote affirmatively permits correction or light editing of the student's own writing. Differs from no_ai_rewriting_or_paraphrasing_beyond_proofreading, which states the limit, and from ai_banned_for_whole_assessment, where even these are banned.",
+   "examples": [
+    "bimm-students-genai-202610:p01",
+    "bristol-students-genai-202610:p02",
+    "birmingham-students-genai-202610:p06",
+    "exeter-students-assessment-202610:p03"
+   ],
+   "n_institutions": 10,
+   "n_points": 10
+  },
+  {
+   "id": "ai_permitted_for_study_and_preparation",
+   "label": "AI allowed for study, revision and preparation",
+   "group": "use_rules",
+   "definition": "AI may be used as a study aid, for revision, idea generation, brainstorming or preparatory work that does not become the submission.",
+   "decision_rule": "Use when the quote affirms uses such as summarising to understand, quizzes, study plans, brainstorming, searching for readings or exploring a question. Differs from spelling_grammar_proofreading_permitted (editing the student's own text) and from ai_output_may_be_included_when_assessment_allows (content goes into the submission).",
+   "examples": [
+    "westminster-students-genai-202610:p02",
+    "birmingham-students-genai-202610:p02",
+    "dundalk-institute-technology-students-genai-202610:p07",
+    "west-england-students-genai-202610:p13"
+   ],
+   "n_institutions": 17,
+   "n_points": 20
+  },
+  {
+   "id": "assistive_technology_use_permitted",
+   "label": "Assistive technology and adjustments allowed",
+   "group": "use_rules",
+   "definition": "Assistive technologies and reasonable-adjustment uses of AI are permitted even where other AI use is restricted.",
+   "decision_rule": "Use when the quote protects or permits assistive or accessibility use of AI. Differs from ensure_equal_access_to_ai_tools, which is about provision of tools to all.",
+   "examples": [
+    "highlands-and-islands-students-genai-202610:p11",
+    "middlesex-london-students-genai-202610:p13",
+    "exeter-students-assessment-202610:p12",
+    "suffolk-students-genai-202610:p10"
+   ],
+   "n_institutions": 5,
+   "n_points": 5
+  },
+  {
+   "id": "ai_should_support_not_replace_own_thinking",
+   "label": "AI should support, not replace, your thinking",
+   "group": "use_rules",
+   "definition": "Students should use AI to assist, not substitute for, their own thinking, judgement and learning.",
+   "decision_rule": "Use for normative statements about the purpose of use or the risk of over-reliance, without a specific banned act. Differs from work_submitted_must_be_own_ideas_and_effort (authorship of the submission) and from consider_whether_ai_fits_learning_outcomes (a prompt to check fit).",
+   "examples": [
+    "bimm-students-genai-202610:p04",
+    "roehampton-students-genai-202610:p14",
+    "warwick-students-genai-202610:p12",
+    "highlands-and-islands-students-genai-202610:p15"
+   ],
+   "n_institutions": 8,
+   "n_points": 8
+  },
+  {
+   "id": "consider_whether_ai_fits_learning_outcomes",
+   "label": "Check AI suits what is being assessed",
+   "group": "use_rules",
+   "definition": "Students should consider whether AI use is appropriate given the learning outcomes or skills the task assesses.",
+   "decision_rule": "Use when the quote asks the student to weigh AI use against learning outcomes, skills to be gained or what is being assessed. Differs from ai_should_support_not_replace_own_thinking, which is general.",
+   "examples": [
+    "west-england-students-genai-202610:p10",
+    "brunel-london-students-genai-202610:p04",
+    "aberystwyth-students-genai-202610:p08",
+    "southampton-students-genai-202610:p05"
+   ],
+   "n_institutions": 4,
+   "n_points": 5
+  },
+  {
+   "id": "account_and_age_restrictions_on_ai_services",
+   "label": "Account and age limits on AI services",
+   "group": "use_rules",
+   "definition": "Restrictions on who may sign up to AI services and with which university credentials (external services, age minimums).",
+   "decision_rule": "Use when the quote restricts which accounts, credentials or ages may be used to access AI services. Differs from recommended_institution_provided_tool, which promotes a tool.",
+   "examples": [
+    "birmingham-city-students-genai-202610:p02",
+    "highlands-and-islands-students-genai-202610:p13",
+    "strath-students-genai-202610:p03"
+   ],
+   "n_institutions": 3,
+   "n_points": 5
+  },
+  {
+   "id": "rules_set_locally_by_module_or_lecturer",
+   "label": "Lecturer or module leader sets AI rules",
+   "group": "use_rules",
+   "definition": "Permitted AI use is decided at module, programme or assessment level by the lecturer, module leader or school.",
+   "decision_rule": "Use for descriptive statements about who has authority or that rules vary between modules and assessments. Differs from follow_assessment_brief_instructions (an instruction to the student) and from default_ai_banned_unless_authorised (states the default).",
+   "examples": [
+    "bristol-students-genai-202610:p09",
+    "imperial-students-genai-202610:p02",
+    "ul-students-genai-202610:p04",
+    "highlands-and-islands-students-genai-202610:p01"
+   ],
+   "n_institutions": 13,
+   "n_points": 15
+  },
+  {
+   "id": "follow_assessment_brief_instructions",
+   "label": "Follow assessment brief and local guidance",
+   "group": "use_rules",
+   "definition": "Students must or should follow the AI instructions in the assessment brief, handbook or local guidance.",
+   "decision_rule": "Use when the addressee is told to check or comply with the brief, handbook or departmental guidance. Differs from ask_tutor_when_unsure (consult a person) and rules_set_locally_by_module_or_lecturer (descriptive).",
+   "examples": [
+    "birkbeck-london-students-genai-202610:p01",
+    "swansea-students-genai-202610:p01",
+    "estate-management-students-genai-202610:p04",
+    "aberystwyth-students-genai-202610:p01"
+   ],
+   "n_institutions": 11,
+   "n_points": 13
+  },
+  {
+   "id": "ask_tutor_when_unsure",
+   "label": "Ask your tutor if unsure",
+   "group": "use_rules",
+   "definition": "Students who are unsure whether AI use is allowed should ask or consult their tutor, module leader or similar.",
+   "decision_rule": "Use when the quote tells the student to consult staff to resolve doubt. Differs from follow_assessment_brief_instructions, which points to documents.",
+   "examples": [
+    "birmingham-city-students-genai-202610:p04",
+    "ulster-library-genai-guide-202610:p06",
+    "leedstrinity-students-genai-202610:p03",
+    "bath-students-genai-202610:p02"
+   ],
+   "n_institutions": 12,
+   "n_points": 13
+  },
+  {
+   "id": "staff_must_state_ai_expectations_in_assessments",
+   "label": "Staff must state AI expectations clearly",
+   "group": "staff_and_governance",
+   "definition": "Staff or institutions must make AI expectations explicit in assessments, briefs, handbooks or syllabi.",
+   "decision_rule": "Use when the duty to communicate expected AI use falls on staff or the institution (clear statements in briefs, statements on acceptable level). Differs from rules_set_locally_by_module_or_lecturer (who decides) and follow_assessment_brief_instructions (the student duty).",
+   "examples": [
+    "worcester-students-genai-202610:p03",
+    "middlesex-london-students-genai-202610:p08",
+    "suffolk-students-genai-202610:p13",
+    "aberystwyth-students-genai-202610:p09"
+   ],
+   "n_institutions": 9,
+   "n_points": 12
+  },
+  {
+   "id": "assessment_tiered_ai_use_categories",
+   "label": "Assessments sorted into AI-use tiers",
+   "group": "assessment_design",
+   "definition": "Assessments are assigned to a defined scheme of AI-use levels (for example none, assistive, required).",
+   "decision_rule": "Use when the quote describes the tier or traffic-light scheme or one of its levels. Differs from ai_banned_for_whole_assessment, which is a standalone ban outside a scheme.",
+   "examples": [
+    "birmingham-city-students-genai-202610:p03",
+    "dundalk-institute-technology-students-genai-202610:p02",
+    "roehampton-students-genai-202610:p01",
+    "exeter-students-assessment-202610:p01"
+   ],
+   "n_institutions": 7,
+   "n_points": 11
+  },
+  {
+   "id": "some_assessments_require_or_build_in_ai_use",
+   "label": "Some assessments require or critique AI use",
+   "group": "assessment_design",
+   "definition": "Some assessments are designed to require AI use or to have students critique AI output.",
+   "decision_rule": "Use when AI use is mandatory for or integral to a task, including critique of AI output. Differs from ai_output_may_be_included_when_assessment_allows, where use is merely optional.",
+   "examples": [
+    "bristol-students-genai-202610:p08",
+    "roehampton-students-genai-202610:p08",
+    "dundalk-institute-technology-students-genai-202610:p09"
+   ],
+   "n_institutions": 3,
+   "n_points": 4
+  },
+  {
+   "id": "assessment_redesigned_to_test_process_and_understanding",
+   "label": "Assessment redesigned to test own understanding",
+   "group": "assessment_design",
+   "definition": "Assessments are designed or reviewed to assess process and understanding, or to limit inappropriate AI use.",
+   "decision_rule": "Use when the quote describes redesign of assessment (in-person tasks, process evidence, review of assessments). Differs from oral_viva_or_panel_to_verify_authorship, which is a post-submission check.",
+   "examples": [
+    "surrey-students-genai-202610:p01",
+    "worcester-students-genai-202610:p12",
+    "roehampton-students-genai-202610:p05"
+   ],
+   "n_institutions": 3,
+   "n_points": 4
+  },
+  {
+   "id": "staff_not_to_use_ai_to_grade_or_give_feedback",
+   "label": "Staff should not use AI to mark",
+   "group": "assessment_design",
+   "definition": "Marking and feedback are done by staff, not by AI, or AI must not alone decide on student quality.",
+   "decision_rule": "Use for restrictions on staff using AI for grading or feedback. Differs from staff_should_disclose_own_ai_use, which concerns teaching materials.",
+   "examples": [
+    "maynooth-ug-ptm-genai-guidelines-202610:p10",
+    "tud-students-genai-202610:p14",
+    "norwich-arts-students-genai-202610:p01"
+   ],
+   "n_institutions": 3,
+   "n_points": 3
+  },
+  {
+   "id": "must_acknowledge_or_declare_ai_use",
+   "label": "Must acknowledge or declare AI use",
+   "group": "disclosure_and_evidence",
+   "definition": "Students must acknowledge, disclose or declare any AI use in submitted work.",
+   "decision_rule": "Use for a mandatory general obligation (must, required, need to, expected) to disclose AI use. Use should_or_encouraged_to_acknowledge_ai_use when the wording is advisory. Differs from referencing types (citation mechanics) and submit_declaration_form_with_assessment (a formal form).",
+   "examples": [
+    "royal-agricultural-students-genai-202610:p03",
+    "bimm-students-genai-202610:p02",
+    "westminster-students-genai-202610:p01",
+    "chester-students-genai-202610:p02"
+   ],
+   "n_institutions": 17,
+   "n_points": 19
+  },
+  {
+   "id": "should_or_encouraged_to_acknowledge_ai_use",
+   "label": "Should or encouraged to acknowledge AI use",
+   "group": "disclosure_and_evidence",
+   "definition": "Students are advised or encouraged to acknowledge AI use, including where not strictly required.",
+   "decision_rule": "Use when the disclosure wording is advisory (should, recommended, encouraged, transparent). Differs from must_acknowledge_or_declare_ai_use by modal strength.",
+   "examples": [
+    "ul-students-genai-202610:p03",
+    "estate-management-students-genai-202610:p01",
+    "middlesex-london-students-genai-202610:p04",
+    "swansea-students-genai-202610:p10"
+   ],
+   "n_institutions": 5,
+   "n_points": 5
+  },
+  {
+   "id": "submit_declaration_form_with_assessment",
+   "label": "Submit an AI declaration with assessments",
+   "group": "disclosure_and_evidence",
+   "definition": "Students submit a standard declaration, statement or form about AI use with each assessment, including declaring non-use.",
+   "decision_rule": "Use when the quote concerns a formal declaration or statement submitted with work (when, where, whether needed, non-use statements). Differs from must_acknowledge_or_declare_ai_use, a general duty with no named form.",
+   "examples": [
+    "birmingham-students-genai-202610:p04",
+    "maynooth-ug-ptm-genai-guidelines-202610:p08",
+    "kent-students-genai-202610:p05",
+    "birkbeck-london-students-genai-202610:p03"
+   ],
+   "n_institutions": 13,
+   "n_points": 17
+  },
+  {
+   "id": "declaration_must_state_tool_and_how_used",
+   "label": "Declaration must name tool and use",
+   "group": "disclosure_and_evidence",
+   "definition": "A disclosure must say which tool and version was used and how it was used or changed.",
+   "decision_rule": "Use when the quote specifies content of a disclosure (tool name, version, purpose, how output was used or modified). Differs from include_prompts_and_outputs_as_evidence, which concerns attaching transcripts.",
+   "examples": [
+    "dundalk-institute-technology-students-genai-202610:p03",
+    "national-ireland-students-genai-202610:p02",
+    "ucc-students-genai-202610:p07",
+    "harper-adams-students-genai-202610:p03"
+   ],
+   "n_institutions": 6,
+   "n_points": 9
+  },
+  {
+   "id": "include_prompts_and_outputs_as_evidence",
+   "label": "Include prompts and outputs as evidence",
+   "group": "disclosure_and_evidence",
+   "definition": "Students include or supply the prompts and AI outputs in an appendix, screenshot or link.",
+   "decision_rule": "Use when the quote asks for prompts, transcripts or outputs to be attached or supplied. Differs from keep_record_of_ai_interactions, which is about retaining them privately.",
+   "examples": [
+    "maynooth-ug-ptm-genai-guidelines-202610:p06",
+    "ulster-library-genai-guide-202610:p02",
+    "dundalk-institute-technology-students-genai-202610:p04",
+    "national-ireland-students-genai-202610:p04"
+   ],
+   "n_institutions": 10,
+   "n_points": 11
+  },
+  {
+   "id": "keep_record_of_ai_interactions",
+   "label": "Keep a record of your AI interactions",
+   "group": "disclosure_and_evidence",
+   "definition": "Students should keep records of AI chats, prompts and outputs.",
+   "decision_rule": "Use when the duty is to retain records of AI use (history, screenshots, saved output) for possible later request. Differs from include_prompts_and_outputs_as_evidence (submitted with work) and keep_drafts_and_notes_as_evidence_of_authorship (non-AI work materials).",
+   "examples": [
+    "national-ireland-students-genai-202610:p05",
+    "harper-adams-students-genai-202610:p16",
+    "warwick-students-genai-202610:p04",
+    "exeter-students-assessment-202610:p06"
+   ],
+   "n_institutions": 5,
+   "n_points": 6
+  },
+  {
+   "id": "keep_drafts_and_notes_as_evidence_of_authorship",
+   "label": "Keep drafts and notes to prove authorship",
+   "group": "disclosure_and_evidence",
+   "definition": "Students should keep drafts, notes and dated files and may be asked to produce them to show how work was developed.",
+   "decision_rule": "Use when the quote concerns drafts, notes or process evidence of the student's own work. Differs from keep_record_of_ai_interactions, which is about AI chat records.",
+   "examples": [
+    "york-students-genai-202610:p09",
+    "lancashire-students-genai-202610:p11",
+    "wales-trinity-saint-david-students-genai-202610:p03",
+    "cumbria-students-genai-202610:p10"
+   ],
+   "n_institutions": 7,
+   "n_points": 7
+  },
+  {
+   "id": "follow_institutional_referencing_guidance_for_ai",
+   "label": "Follow the referencing guide for AI",
+   "group": "referencing",
+   "definition": "Students should consult and follow the institution's or style guide's guidance for referencing AI.",
+   "decision_rule": "Use when the quote points to referencing guidance or standards for AI without giving the rule. Differs from reference_ai_use_with_citation (states the duty to cite) and ai_reference_format_or_personal_communication (states the format).",
+   "examples": [
+    "birmingham-students-genai-202610:p05",
+    "bath-students-genai-202610:p07",
+    "sunderland-students-genai-202610:p08",
+    "swansea-students-genai-202610:p02"
+   ],
+   "n_institutions": 7,
+   "n_points": 8
+  },
+  {
+   "id": "reference_ai_use_with_citation",
+   "label": "Cite AI use like any other source",
+   "group": "referencing",
+   "definition": "AI use or content must be cited or referenced in the text and reference list.",
+   "decision_rule": "Use when the duty is to cite or reference AI use. Differs from must_acknowledge_or_declare_ai_use, which is about disclosure statements.",
+   "examples": [
+    "ulster-library-genai-guide-202610:p03",
+    "maynooth-ug-ptm-genai-guidelines-202610:p14",
+    "west-england-students-genai-202610:p08",
+    "suffolk-students-genai-202610:p04"
+   ],
+   "n_institutions": 6,
+   "n_points": 6
+  },
+  {
+   "id": "ai_reference_format_or_personal_communication",
+   "label": "How to format an AI citation",
+   "group": "referencing",
+   "definition": "The quote prescribes how AI output is cited, for example as personal communication or with a given entry format.",
+   "decision_rule": "Use when the quote states a specific citation format or classification of AI output. Differs from follow_institutional_referencing_guidance_for_ai, which only points to a guide.",
+   "examples": [
+    "brunel-london-students-genai-202610:p11",
+    "huddersfield-students-genai-202610:p07",
+    "cumbria-students-genai-202610:p08",
+    "sunderland-students-genai-202610:p07"
+   ],
+   "n_institutions": 5,
+   "n_points": 13
+  },
+  {
+   "id": "do_not_enter_personal_or_sensitive_data",
+   "label": "Do not enter personal or confidential data",
+   "group": "data_and_privacy",
+   "definition": "Personal, sensitive or confidential data must not be entered into AI tools.",
+   "decision_rule": "Use for an unconditional prohibition or strong warning not to put personal, sensitive or confidential data into AI. If the quote makes it conditional on approval or safeguards use personal_or_confidential_data_only_under_stated_conditions.",
+   "examples": [
+    "maynooth-ug-ptm-genai-guidelines-202610:p11",
+    "brunel-london-students-genai-202610:p06",
+    "cumbria-students-genai-202610:p02",
+    "aberystwyth-students-genai-202610:p04"
+   ],
+   "n_institutions": 11,
+   "n_points": 15
+  },
+  {
+   "id": "personal_or_confidential_data_only_under_stated_conditions",
+   "label": "Data only with approval or safeguards",
+   "group": "data_and_privacy",
+   "definition": "Personal or confidential data may be entered only with explicit approval, in approved tools, or after safeguards such as anonymising.",
+   "decision_rule": "Use when the prohibition has a stated exception (written approval, permission of the owner, approved tool, anonymised data, safeguards in place). Differs from do_not_enter_personal_or_sensitive_data, which has no exception.",
+   "examples": [
+    "bristol-students-genai-202610:p05",
+    "aston-students-genai-202610:p01",
+    "highlands-and-islands-students-genai-202610:p06",
+    "suffolk-students-genai-202610:p08"
+   ],
+   "n_institutions": 10,
+   "n_points": 11
+  },
+  {
+   "id": "do_not_upload_university_teaching_materials",
+   "label": "Do not upload university teaching materials",
+   "group": "data_and_privacy",
+   "definition": "Lecturer-provided or university-owned materials (slides, exam questions, library content) must not be put into AI tools.",
+   "decision_rule": "Use when the quote names teaching materials, assessment questions or library resources as not to be uploaded. Differs from do_not_upload_copyright_or_third_party_material, which concerns others' work generally.",
+   "examples": [
+    "highlands-and-islands-students-genai-202610:p05",
+    "west-england-students-genai-202610:p04",
+    "southampton-students-genai-202610:p06",
+    "strath-students-genai-202610:p06"
+   ],
+   "n_institutions": 5,
+   "n_points": 6
+  },
+  {
+   "id": "do_not_upload_copyright_or_third_party_material",
+   "label": "Mind copyright when uploading others' work",
+   "group": "data_and_privacy",
+   "definition": "Third-party or copyrighted work should not be uploaded to AI without the right or permission to do so.",
+   "decision_rule": "Use when the quote concerns copyright or the right to share others' texts with AI. Differs from do_not_upload_university_teaching_materials.",
+   "examples": [
+    "birmingham-students-genai-202610:p09",
+    "bath-spa-students-genai-202610:p12",
+    "oxford-brookes-students-genai-202610:p11"
+   ],
+   "n_institutions": 3,
+   "n_points": 5
+  },
+  {
+   "id": "research_use_of_ai_needs_ethics_approval_or_consent",
+   "label": "Research use of AI needs ethics approval",
+   "group": "data_and_privacy",
+   "definition": "Using AI with research data or participant data needs ethics review, consent and anonymisation.",
+   "decision_rule": "Use when the quote ties AI use in research to ethics committees, panels or participant consent. Differs from the general data types, which have no research ethics element.",
+   "examples": [
+    "harper-adams-students-genai-202610:p11",
+    "birmingham-students-genai-202610:p13",
+    "aberystwyth-students-genai-202610:p11"
+   ],
+   "n_institutions": 3,
+   "n_points": 3
+  },
+  {
+   "id": "ai_tools_may_store_or_train_on_inputs",
+   "label": "AI tools may keep or train on input",
+   "group": "data_and_privacy",
+   "definition": "AI services may retain user inputs and use them for training or human review.",
+   "decision_rule": "Use for descriptive warnings about retention or training on inputs. Differs from provided_tool_has_data_protection_assurances, which says a tool does not do this.",
+   "examples": [
+    "cumbria-students-genai-202610:p14",
+    "national-ireland-students-genai-202610:p13",
+    "oxford-brookes-students-genai-202610:p09"
+   ],
+   "n_institutions": 3,
+   "n_points": 3
+  },
+  {
+   "id": "comply_with_data_protection_law_and_policy",
+   "label": "Comply with data protection law and policy",
+   "group": "data_and_privacy",
+   "definition": "Use of AI must comply with GDPR and institutional data protection policy.",
+   "decision_rule": "Use when the quote refers to compliance with data protection law or policy as such. Differs from the data-entry prohibitions, which name specific data.",
+   "examples": [
+    "swansea-students-genai-202610:p05",
+    "soas-london-students-genai-202610:p08",
+    "royal-surgeons-in-ireland-students-genai-202610:p10",
+    "wales-trinity-saint-david-students-genai-202610:p14"
+   ],
+   "n_institutions": 4,
+   "n_points": 4
+  },
+  {
+   "id": "provided_tool_has_data_protection_assurances",
+   "label": "Provided tool has data protection assurances",
+   "group": "data_and_privacy",
+   "definition": "The institution states that its provided AI tool protects data and does not train on or expose inputs.",
+   "decision_rule": "Use for descriptive assurances about a provided tool's privacy, security or contract. Differs from recommended_institution_provided_tool, which recommends use.",
+   "examples": [
+    "ul-students-genai-202610:p02",
+    "bath-spa-students-genai-202610:p09",
+    "warwick-students-genai-202610:p09",
+    "maynooth-ug-ptm-genai-guidelines-202610:p12"
+   ],
+   "n_institutions": 6,
+   "n_points": 6
+  },
+  {
+   "id": "recommended_institution_provided_tool",
+   "label": "Institution recommends a named AI tool",
+   "group": "tools",
+   "definition": "The institution names or recommends a preferred or approved AI tool.",
+   "decision_rule": "Use when a specific provided tool is preferred, endorsed or recommended, or only approved tools should be used. Differs from institution_provides_access_to_tool (availability only).",
+   "examples": [
+    "birmingham-city-students-genai-202610:p01",
+    "imperial-students-genai-202610:p01",
+    "ul-students-genai-202610:p01",
+    "york-students-genai-202610:p01"
+   ],
+   "n_institutions": 9,
+   "n_points": 9
+  },
+  {
+   "id": "institution_provides_access_to_tool",
+   "label": "Institution provides access to AI tool",
+   "group": "tools",
+   "definition": "The institution states that staff or students have access to a particular AI tool or service.",
+   "decision_rule": "Use for availability statements with no recommendation or data claim. Differs from recommended_institution_provided_tool and provided_tool_has_data_protection_assurances.",
+   "examples": [
+    "southampton-students-genai-202610:p12",
+    "strath-students-genai-202610:p05",
+    "warwick-students-genai-202610:p10",
+    "soas-london-students-genai-202610:p13"
+   ],
+   "n_institutions": 5,
+   "n_points": 5
+  },
+  {
+   "id": "verify_ai_output_before_relying_on_it",
+   "label": "Verify and fact-check AI output",
+   "group": "accuracy_and_responsibility",
+   "definition": "Students must or should check AI output against reliable sources and evaluate it critically before use.",
+   "decision_rule": "Use for an instruction to verify, fact-check or critically evaluate. Differs from ai_output_can_be_wrong_or_fabricated, which only warns, and from do_not_use_ai_references_or_treat_ai_as_source, which forbids use.",
+   "examples": [
+    "ulster-library-genai-guide-202610:p04",
+    "de-montfort-students-genai-202610:p03",
+    "westminster-students-genai-202610:p03",
+    "birmingham-students-genai-202610:p14"
+   ],
+   "n_institutions": 15,
+   "n_points": 17
+  },
+  {
+   "id": "ai_output_can_be_wrong_or_fabricated",
+   "label": "AI can be wrong, biased or fabricate",
+   "group": "accuracy_and_responsibility",
+   "definition": "AI output may be inaccurate, outdated, biased or include invented content and references.",
+   "decision_rule": "Use for descriptive warnings with no instruction to act. Differs from verify_ai_output_before_relying_on_it, which instructs.",
+   "examples": [
+    "brunel-london-students-genai-202610:p13",
+    "cumbria-students-genai-202610:p12",
+    "dundalk-institute-technology-students-genai-202610:p11",
+    "southampton-students-genai-202610:p13"
+   ],
+   "n_institutions": 5,
+   "n_points": 5
+  },
+  {
+   "id": "student_responsible_for_ai_content",
+   "label": "You are responsible for AI-derived content",
+   "group": "accuracy_and_responsibility",
+   "definition": "Students are responsible for the accuracy and content of anything they submit that involved AI.",
+   "decision_rule": "Use when responsibility or accountability is assigned to the user. Differs from verify_ai_output_before_relying_on_it, which instructs a check.",
+   "examples": [
+    "dundalk-institute-technology-students-genai-202610:p10",
+    "tud-students-genai-202610:p07",
+    "royal-surgeons-in-ireland-students-genai-202610:p04",
+    "ucc-students-genai-202610:p06"
+   ],
+   "n_institutions": 5,
+   "n_points": 5
+  },
+  {
+   "id": "passing_off_ai_work_as_own_is_misconduct",
+   "label": "Presenting AI work as own is misconduct",
+   "group": "integrity_and_consequences",
+   "definition": "Presenting AI-generated work as one's own is classed as academic misconduct, plagiarism or false authorship.",
+   "decision_rule": "Use when the quote classifies passing off AI content as own work as a breach. Differs from do_not_submit_ai_generated_content_as_own (imperative without misconduct label) and undeclared_or_unreferenced_ai_use_is_misconduct (about missing acknowledgement).",
+   "examples": [
+    "bimm-students-genai-202610:p05",
+    "de-montfort-students-genai-202610:p01",
+    "bishop-grosseteste-students-genai-202610:p02",
+    "kent-students-genai-202610:p07"
+   ],
+   "n_institutions": 15,
+   "n_points": 18
+  },
+  {
+   "id": "use_beyond_permitted_is_misconduct",
+   "label": "Use beyond what is permitted is misconduct",
+   "group": "integrity_and_consequences",
+   "definition": "AI use beyond what the assessment, policy or tutor permits, or failure to follow AI instructions, is misconduct.",
+   "decision_rule": "Use when the breach is defined by exceeding permission or ignoring instructions. Differs from passing_off_ai_work_as_own_is_misconduct (defined by claiming authorship).",
+   "examples": [
+    "bristol-students-genai-202610:p04",
+    "maynooth-ug-ptm-genai-guidelines-202610:p02",
+    "middlesex-london-students-genai-202610:p14",
+    "regents-london-students-genai-202610:p03"
+   ],
+   "n_institutions": 13,
+   "n_points": 16
+  },
+  {
+   "id": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "label": "Hiding or not acknowledging AI is misconduct",
+   "group": "integrity_and_consequences",
+   "definition": "Failing to declare, cite or be transparent about AI use is misconduct or taken into account in investigations.",
+   "decision_rule": "Use when the breach is the omission of acknowledgement or concealment. Differs from must_acknowledge_or_declare_ai_use, which states the duty and no consequence.",
+   "examples": [
+    "bimm-students-genai-202610:p08",
+    "institute-cancer-research-students-genai-202610:p03",
+    "lancashire-students-genai-202610:p05",
+    "chester-students-genai-202610:p03"
+   ],
+   "n_institutions": 15,
+   "n_points": 19
+  },
+  {
+   "id": "ai_misconduct_handled_under_existing_policy",
+   "label": "AI misconduct follows existing misconduct policy",
+   "group": "integrity_and_consequences",
+   "definition": "Suspected AI misuse is handled under the institution's existing misconduct or plagiarism procedures.",
+   "decision_rule": "Use when the quote says AI cases go through the normal procedure. Differs from the penalty type, which states outcomes.",
+   "examples": [
+    "institute-cancer-research-students-genai-202610:p02",
+    "dundalk-institute-technology-students-genai-202610:p13",
+    "strath-students-genai-202610:p08",
+    "kingston-london-students-genai-202610:p02"
+   ],
+   "n_institutions": 4,
+   "n_points": 4
+  },
+  {
+   "id": "penalties_for_ai_misconduct_stated",
+   "label": "Penalties for AI misconduct stated",
+   "group": "integrity_and_consequences",
+   "definition": "Consequences of AI-related misconduct are stated, either generally (serious, exclusion) or specifically (zero mark, capped resubmission, module failure).",
+   "decision_rule": "Use when the quote names or characterises sanctions. Differs from first_or_minor_offence_handled_educatively, which describes lenient handling.",
+   "examples": [
+    "institute-cancer-research-students-genai-202610:p09",
+    "brunel-london-students-genai-202610:p03",
+    "estate-management-students-genai-202610:p08",
+    "lancashire-students-genai-202610:p14"
+   ],
+   "n_institutions": 8,
+   "n_points": 14
+  },
+  {
+   "id": "first_or_minor_offence_handled_educatively",
+   "label": "First offences handled educatively",
+   "group": "integrity_and_consequences",
+   "definition": "First, minor or inadvertent offences are handled by education or lighter outcomes.",
+   "decision_rule": "Use when the quote describes lenient or educational handling of early or genuine-mistake cases. Differs from penalties_for_ai_misconduct_stated.",
+   "examples": [
+    "institute-cancer-research-students-genai-202610:p15",
+    "bishop-grosseteste-students-genai-202610:p05",
+    "bath-spa-students-genai-202610:p07",
+    "kingston-london-students-genai-202610:p10"
+   ],
+   "n_institutions": 4,
+   "n_points": 10
+  },
+  {
+   "id": "oral_viva_or_panel_to_verify_authorship",
+   "label": "Oral questioning to verify authorship",
+   "group": "integrity_and_consequences",
+   "definition": "Students may be asked to explain or defend their work orally or before a panel when authorship is in doubt.",
+   "decision_rule": "Use when the quote describes viva, panel questions or oral verification. Differs from assessment_redesigned_to_test_process_and_understanding, which is design before submission.",
+   "examples": [
+    "royal-surgeons-in-ireland-students-genai-202610:p14",
+    "bishop-grosseteste-students-genai-202610:p03",
+    "york-students-genai-202610:p10",
+    "regents-london-students-genai-202610:p07"
+   ],
+   "n_institutions": 5,
+   "n_points": 6
+  },
+  {
+   "id": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "label": "Fair process and right to appeal",
+   "group": "integrity_and_consequences",
+   "definition": "Students facing misconduct allegations have procedural safeguards and a right to appeal.",
+   "decision_rule": "Use for burden of proof, notice, representation, timelines and appeal rights. Differs from penalties_for_ai_misconduct_stated.",
+   "examples": [
+    "bimm-students-genai-202610:p15",
+    "institute-cancer-research-students-genai-202610:p14",
+    "bishop-grosseteste-students-genai-202610:p08",
+    "lancashire-students-genai-202610:p15"
+   ],
+   "n_institutions": 4,
+   "n_points": 9
+  },
+  {
+   "id": "strict_liability_ignorance_no_defence",
+   "label": "Ignorance or accident is no defence",
+   "group": "integrity_and_consequences",
+   "definition": "Misconduct is established whether the AI use was deliberate, accidental or due to not understanding the rules.",
+   "decision_rule": "Use when the quote rules out intent or ignorance as a defence. Differs from first_or_minor_offence_handled_educatively, which allows leniency.",
+   "examples": [
+    "regents-london-students-genai-202610:p06",
+    "kingston-london-students-genai-202610:p03",
+    "wales-trinity-saint-david-students-genai-202610:p11"
+   ],
+   "n_institutions": 3,
+   "n_points": 3
+  },
+  {
+   "id": "ai_use_can_be_spotted_by_staff_or_tools",
+   "label": "AI use can be spotted by staff",
+   "group": "integrity_and_consequences",
+   "definition": "Students are told that AI use may be recognised through style changes, mismatch with previous work or detection scores.",
+   "decision_rule": "Use for statements that unusual style, mismatch, or detection results may lead to investigation, or that no score is safe. Differs from the detection-tool types, which describe institutional policy on the tools.",
+   "examples": [
+    "institute-cancer-research-students-genai-202610:p06",
+    "york-students-genai-202610:p08",
+    "wrexham-students-genai-202610:p03",
+    "harper-adams-students-genai-202610:p17"
+   ],
+   "n_institutions": 6,
+   "n_points": 7
+  },
+  {
+   "id": "ai_detectors_not_to_be_used",
+   "label": "AI detection tools not used",
+   "group": "integrity_and_consequences",
+   "definition": "The institution does not use, or forbids staff from using, AI detection tools.",
+   "decision_rule": "Use for a commitment or rule not to use detectors. Differs from ai_detectors_unreliable_not_sole_basis, where use is possible but cautioned.",
+   "examples": [
+    "institute-cancer-research-students-genai-202610:p04",
+    "bath-spa-students-genai-202610:p06",
+    "worcester-students-genai-202610:p06",
+    "ucc-students-genai-202610:p01"
+   ],
+   "n_institutions": 4,
+   "n_points": 4
+  },
+  {
+   "id": "ai_detectors_unreliable_not_sole_basis",
+   "label": "AI detectors unreliable, not sole evidence",
+   "group": "integrity_and_consequences",
+   "definition": "AI detection results are unreliable and must not alone justify allegations.",
+   "decision_rule": "Use when the quote cautions about false positives or states a result is not proof. Differs from ai_detectors_not_to_be_used.",
+   "examples": [
+    "maynooth-ug-ptm-genai-guidelines-202610:p09",
+    "dundalk-institute-technology-students-genai-202610:p12",
+    "lancashire-students-genai-202610:p12",
+    "middlesex-london-students-genai-202610:p10"
+   ],
+   "n_institutions": 7,
+   "n_points": 9
+  },
+  {
+   "id": "detection_tools_used_in_checking_submissions",
+   "label": "Detection or similarity tools used on work",
+   "group": "integrity_and_consequences",
+   "definition": "The institution uses similarity or AI detection tools or other checks on submissions.",
+   "decision_rule": "Use for statements that such tools are run or reviewed by markers. Differs from ai_detectors_not_to_be_used.",
+   "examples": [
+    "royal-agricultural-students-genai-202610:p06",
+    "birkbeck-london-students-genai-202610:p10",
+    "national-ireland-students-genai-202610:p07",
+    "regents-london-students-genai-202610:p04"
+   ],
+   "n_institutions": 4,
+   "n_points": 4
+  },
+  {
+   "id": "complete_training_before_using_ai",
+   "label": "Complete training before using AI",
+   "group": "support_and_training",
+   "definition": "Students must or are urged to complete a training module or course before using AI or starting assessment.",
+   "decision_rule": "Use when training is required or recommended as a precondition or regular duty. Differs from ai_training_courses_and_guides_available, which is availability only.",
+   "examples": [
+    "chester-students-genai-202610:p04",
+    "cumbria-students-genai-202610:p03",
+    "aston-students-genai-202610:p03",
+    "aberystwyth-students-genai-202610:p06"
+   ],
+   "n_institutions": 6,
+   "n_points": 6
+  },
+  {
+   "id": "ai_training_courses_and_guides_available",
+   "label": "AI training courses and guides available",
+   "group": "support_and_training",
+   "definition": "Courses, guides, toolkits and self-assessments on AI are available to students or staff.",
+   "decision_rule": "Use when the quote describes or points to a resource or course with no requirement. Differs from complete_training_before_using_ai.",
+   "examples": [
+    "queens-belfast-students-genai-202610:p02",
+    "bath-students-genai-202610:p03",
+    "imperial-students-genai-202610:p03",
+    "ul-students-genai-202610:p09"
+   ],
+   "n_institutions": 14,
+   "n_points": 21
+  },
+  {
+   "id": "support_services_available_for_ai_questions",
+   "label": "Support services available for AI help",
+   "group": "support_and_training",
+   "definition": "Named staff or services offer help with AI use, skills or data security questions.",
+   "decision_rule": "Use for named people or teams who can help. Differs from ask_tutor_when_unsure, which is about permission.",
+   "examples": [
+    "leedstrinity-students-genai-202610:p04",
+    "brunel-london-students-genai-202610:p15",
+    "dundalk-institute-technology-students-genai-202610:p14",
+    "bath-spa-students-genai-202610:p15"
+   ],
+   "n_institutions": 6,
+   "n_points": 6
+  },
+  {
+   "id": "institution_will_provide_training_and_resources",
+   "label": "Institution will provide AI training",
+   "group": "support_and_training",
+   "definition": "The institution commits to provide training, guidance or resources on AI.",
+   "decision_rule": "Use for institutional promises of provision. Differs from ai_training_courses_and_guides_available, which describes existing items.",
+   "examples": [
+    "norwich-arts-students-genai-202610:p03",
+    "estate-management-students-genai-202610:p07",
+    "middlesex-london-students-genai-202610:p15",
+    "worcester-students-genai-202610:p09"
+   ],
+   "n_institutions": 5,
+   "n_points": 5
+  },
+  {
+   "id": "institution_embraces_ai_enabled_education",
+   "label": "Institution embraces AI in education",
+   "group": "staff_and_governance",
+   "definition": "The institution takes a stance of enabling and integrating AI rather than banning it.",
+   "decision_rule": "Use for stance or commitment statements about enabling AI use and skills. Differs from the training-provision type, which is specific provision.",
+   "examples": [
+    "leedstrinity-students-genai-202610:p02",
+    "surrey-students-genai-202610:p04",
+    "south-wales-students-genai-202610:p02"
+   ],
+   "n_institutions": 3,
+   "n_points": 3
+  },
+  {
+   "id": "staff_should_disclose_own_ai_use",
+   "label": "Staff should disclose their own AI use",
+   "group": "staff_and_governance",
+   "definition": "Staff should acknowledge or model transparent use of AI in teaching materials.",
+   "decision_rule": "Use when the addressee is staff and the topic is disclosing AI use in materials. Differs from must_acknowledge_or_declare_ai_use, which addresses students.",
+   "examples": [
+    "aberystwyth-students-genai-202610:p10",
+    "worcester-students-genai-202610:p11",
+    "suffolk-students-genai-202610:p14",
+    "ucc-students-genai-202610:p12"
+   ],
+   "n_institutions": 4,
+   "n_points": 4
+  },
+  {
+   "id": "ai_environmental_impact",
+   "label": "AI has an environmental cost",
+   "group": "ethics_and_equity",
+   "definition": "AI use has energy and water costs, sometimes with advice to reduce use.",
+   "decision_rule": "Use for descriptive or advisory statements about the environmental impact. Differs from bias type.",
+   "examples": [
+    "birmingham-students-genai-202610:p17",
+    "norwich-arts-students-genai-202610:p05",
+    "maynooth-ug-ptm-genai-guidelines-202610:p15",
+    "brunel-london-students-genai-202610:p14"
+   ],
+   "n_institutions": 8,
+   "n_points": 8
+  },
+  {
+   "id": "bias_and_exclusion_risks_to_consider",
+   "label": "Consider bias and exclusion in AI",
+   "group": "ethics_and_equity",
+   "definition": "AI can be biased or exclusionary and users or designers should watch for and counter this.",
+   "decision_rule": "Use for statements about bias or discrimination in AI systems. Differs from ai_output_can_be_wrong_or_fabricated, which is about accuracy.",
+   "examples": [
+    "norwich-arts-students-genai-202610:p04",
+    "aston-students-genai-202610:p09",
+    "tud-students-genai-202610:p13"
+   ],
+   "n_institutions": 3,
+   "n_points": 4
+  },
+  {
+   "id": "ensure_equal_access_to_ai_tools",
+   "label": "Ensure equal access to AI tools",
+   "group": "ethics_and_equity",
+   "definition": "All students should have equal access to approved AI tools and support must not disadvantage those without paid tools.",
+   "decision_rule": "Use for equity-of-access statements. Differs from assistive_technology_use_permitted.",
+   "examples": [
+    "york-students-genai-202610:p15",
+    "royal-surgeons-in-ireland-students-genai-202610:p15",
+    "surrey-students-genai-202610:p03"
+   ],
+   "n_institutions": 3,
+   "n_points": 3
+  }
+ ],
+ "unclassified_note": "Unclassified quotes are one-offs or fragments: facts about a single institution (AI risk-assessment, audit and incident-reporting governance, policy under revision), recording lectures without consent, disabling built-in AI features, naming artists in prompts, placement-provider rules, bare definitions or examples, and context-free headings or list items."
+}

@@ -1,0 +1,590 @@
+<title>AI Guidance Analysis</title>
+<style>
+/* Layout: one column of sections under a sticky filter bar. Coverage and document kinds first (they set how to read everything),
+   then a variable explorer and an evidence matrix that both honour the filters. Single blue accent, neutrals tinted toward it. */
+:root {
+  --bg: #f4f6f8; --surface: #ffffff; --ink: #14181d; --ink2: #48505a; --muted: #7b848f; --line: #dde2e8;
+  --accent: #2a78d6; --tg-lt: #cfe0f3; --tg-dk: #1b4f9c; --st-req: #009E73; --st-perm: #0072B2; --st-cond: #56B4E9; --st-disc: #E69F00; --st-proh: #D55E00; --accent-ink: #1c5cab; --tint: #dbe9fa; --bar-mute: #c4cbd3; --warn: #a15c07; --warn-tint: #fbefd9;
+  --hatch: #e6eaee;
+  --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1317; --surface: #171c21; --ink: #f1f4f7; --ink2: #b6bec8; --muted: #7e8893; --line: #2a3138;
+  --accent: #3987e5; --tg-lt: #2c4466; --tg-dk: #8dbbf2; --st-req: #2fc29a; --st-perm: #3d9be0; --st-cond: #7cc6f0; --st-disc: #f0b232; --st-proh: #f07d3a; --accent-ink: #86b6ef; --tint: #1d3352; --bar-mute: #3a424b; --warn: #e3a64a; --warn-tint: #3a2c12; --hatch: #1f262c; color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0f1317; --surface: #171c21; --ink: #f1f4f7; --ink2: #b6bec8; --muted: #7e8893; --line: #2a3138;
+  --accent: #3987e5; --tg-lt: #2c4466; --tg-dk: #8dbbf2; --st-req: #2fc29a; --st-perm: #3d9be0; --st-cond: #7cc6f0; --st-disc: #f0b232; --st-proh: #f07d3a; --accent-ink: #86b6ef; --tint: #1d3352; --bar-mute: #3a424b; --warn: #e3a64a; --warn-tint: #3a2c12; --hatch: #1f262c; color-scheme: dark; }
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 14px/1.5 var(--sans); padding-inline: 16px; padding-block: 0 56px; }
+.wrap { max-width: 1120px; margin-inline: auto; }
+h1 { font-size: 28px; line-height: 1.15; font-weight: 600; letter-spacing: -0.01em; margin: 28px 0 8px; text-wrap: balance; }
+h2 { font-size: 18px; font-weight: 600; margin: 0 0 4px; text-wrap: balance; }
+p { margin: 0; }
+.lede { max-width: 68ch; color: var(--ink2); font-size: 15px; }
+.note { margin-top: 14px; max-width: 76ch; padding: 10px 12px; background: var(--warn-tint); color: var(--ink); border: 1px solid var(--line); }
+.note b { color: var(--warn); font-weight: 600; }
+section { margin-top: 40px; }
+.sub { color: var(--ink2); max-width: 72ch; margin-bottom: 14px; }
+.mono { font-family: var(--mono); font-size: 12px; }
+.panel { background: var(--surface); border: 1px solid var(--line); padding: 16px; }
+.bar-filter { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); margin-inline: -16px; padding: 10px 16px; }
+.bar-filter .in { max-width: 1120px; margin-inline: auto; display: flex; flex-wrap: wrap; gap: 8px 18px; align-items: center; }
+.grp { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
+.lab { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-right: 4px; }
+button, select { font: inherit; color: var(--ink); }
+.chip { border: 1px solid var(--line); background: var(--surface); padding: 3px 10px; cursor: pointer; border-radius: 3px; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+select { background: var(--surface); border: 1px solid var(--line); padding: 4px 8px; max-width: 100%; border-radius: 3px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.count-now { margin-left: auto; color: var(--ink2); }
+/* coverage */
+.stack { display: flex; height: 26px; gap: 2px; }
+.stack div { min-width: 3px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 10px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 12px; height: 12px; display: inline-block; }
+.s-coded { background: var(--accent); } .s-fetch { background: var(--accent-ink); opacity: .55; } .s-none { background: var(--bar-mute); } .s-deferred { background: var(--hatch); border: 1px solid var(--muted); }
+table { border-collapse: collapse; width: 100%; }
+.reg th, .reg td { text-align: right; padding: 6px 10px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.reg th:first-child, .reg td:first-child { text-align: left; }
+.reg th { font-weight: 500; color: var(--muted); font-size: 12px; }
+.scroll { overflow-x: auto; max-width: 100%; }
+/* bars */
+.cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 16px; }
+.cols > * { min-width: 0; }
+.bars { display: grid; gap: 4px; margin-top: 10px; }
+.brow { display: grid; grid-template-columns: minmax(110px, 40%) 1fr 34px; gap: 10px; align-items: center; padding: 2px 0; background: none; border: 0; text-align: left; width: 100%; cursor: pointer; }
+.brow:hover .bl, .brow[aria-pressed="true"] .bl { color: var(--accent-ink); }
+.bl { overflow-wrap: anywhere; line-height: 1.25; }
+.bt { height: 10px; background: color-mix(in srgb, var(--line) 55%, transparent); }
+.bf { height: 100%; background: var(--accent); border-radius: 0 3px 3px 0; min-width: 2px; }
+.brow.state .bf { background: var(--bar-mute); }
+.brow.state .bl { color: var(--ink2); }
+.bn { text-align: right; font-variant-numeric: tabular-nums; }
+.who { margin-top: 12px; display: flex; flex-wrap: wrap; gap: 4px; }
+.who span { background: var(--tint); padding: 2px 8px; border-radius: 3px; font-size: 13px; }
+.qline { color: var(--ink2); margin-bottom: 8px; max-width: 80ch; }
+/* matrix */
+.mx { font-size: 12px; }
+.mx th, .mx td { border-bottom: 1px solid var(--line); padding: 0; height: 30px; }
+.mx thead th { position: sticky; top: 0; background: var(--surface); z-index: 2; font-weight: 500; color: var(--ink2); text-align: left; vertical-align: bottom; padding: 6px 6px; min-width: 128px; max-width: 128px; line-height: 1.2; }
+.mx td.nm, .mx th.nm { position: sticky; left: 0; background: var(--surface); z-index: 3; min-width: 190px; max-width: 190px; padding: 0 8px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mx thead th.nm { z-index: 4; }
+.mx tr.rg td { background: var(--bg); color: var(--muted); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; padding: 6px 8px; height: auto; }
+.cell { display: block; width: 128px; height: 30px; padding: 0 6px; background: none; border: 0; text-align: left; line-height: 30px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; cursor: pointer; font-family: var(--mono); font-size: 11px; }
+.cell.v { background: var(--tint); color: var(--ink); }
+.cell.ns { color: var(--muted); }
+.cell.na { background: repeating-linear-gradient(135deg, var(--hatch) 0 3px, transparent 3px 7px); }
+.cell.mf { background: var(--warn-tint); color: var(--warn); }
+.cell.sel { outline: 2px solid var(--accent); outline-offset: -2px; }
+.key { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 10px 0 12px; color: var(--ink2); }
+.key span { display: inline-flex; gap: 6px; align-items: center; }
+.key i { width: 22px; height: 14px; display: inline-block; font-style: normal; }
+#detail { margin-bottom: 12px; min-height: 64px; }
+#detail h3 { font-size: 15px; margin: 0 0 4px; font-weight: 600; }
+#detail .meta { color: var(--muted); }
+#detail blockquote { margin: 8px 0 0; padding-left: 12px; border-left: 2px solid var(--line); color: var(--ink); max-width: 80ch; }
+#detail .val { font-weight: 600; margin-top: 10px; }
+#detail .gloss { color: var(--ink2); font-size: 13px; }
+#detail a { color: var(--accent-ink); }
+ul.lim { margin: 10px 0 0; padding-left: 18px; display: grid; gap: 6px; }
+
+/* patterns */
+.xt { font-size: 13px; }
+.xt th, .xt td { padding: 6px 10px; border-bottom: 1px solid var(--line); text-align: right; font-variant-numeric: tabular-nums; }
+.xt th { font-weight: 500; color: var(--ink2); vertical-align: bottom; }
+.xt th:first-child, .xt td:first-child { text-align: left; }
+.xt td.c { color: var(--ink); }
+.xsel { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; margin-bottom: 12px; }
+.xsel label { color: var(--muted); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; margin-right: 4px; }
+.pairs td, .pairs th { font-size: 12.5px; }
+.pairs .flag { color: var(--accent-ink); font-weight: 600; }
+.small { color: var(--ink2); font-size: 13px; max-width: 80ch; margin-top: 10px; }
+.brow.share { grid-template-columns: minmax(110px, 40%) 1fr 70px; }
+.brow.share .bn { white-space: nowrap; }
+.brow.hl { grid-template-columns: minmax(110px, 40%) 1fr 112px; }
+.brow.hl .bn { white-space: normal; line-height: 1.25; }
+
+
+/* uses and acknowledgement */
+.ubar { display: flex; height: 14px; background: var(--tint); border-radius: 2px; overflow: hidden; min-width: 0; }
+.ubar i { display: block; height: 100%; }
+.sg-required { background: var(--st-req); }
+.sg-permitted { background: var(--st-perm); }
+.sg-conditional { background: var(--st-cond); }
+.sg-discouraged { background: var(--st-disc); }
+.sg-prohibited { background: var(--st-proh); }
+.ulegend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--ink2); margin: 0 0 10px; }
+.ulegend span { display: inline-flex; align-items: center; gap: 6px; }
+.ulegend i { width: 14px; height: 10px; display: inline-block; border-radius: 2px; }
+.urow { display: grid; grid-template-columns: minmax(120px, 30%) minmax(60px, 1fr) minmax(120px, 190px); gap: 10px; align-items: center; width: 100%; background: none; border: 0; padding: 4px 0; text-align: left; cursor: pointer; font: inherit; color: var(--ink); }
+.urow:hover .bl, .urow[aria-pressed="true"] .bl { color: var(--accent-ink); }
+.urow .un { font-size: 12px; line-height: 1.3; color: var(--ink2); white-space: normal; }
+.xr { border-bottom: 1px solid var(--line); }
+.xr:last-child { border-bottom: 0; }
+.xt { display: grid; grid-template-columns: 22px minmax(120px, 30%) minmax(60px, 1fr) minmax(120px, 190px); gap: 10px; align-items: center; width: 100%; background: none; border: 0; padding: 5px 0; text-align: left; cursor: pointer; font: inherit; color: var(--ink); }
+.xt:hover .bl { color: var(--accent-ink); }
+.xt .xp { display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; border: 1px solid var(--line); border-radius: 4px; font-family: ui-monospace, monospace; font-size: 14px; line-height: 1; color: var(--ink2); }
+.xt[aria-expanded="true"] .xp { background: var(--tint); color: var(--accent-ink); }
+.xt .un { font-size: 12px; line-height: 1.3; color: var(--ink2); white-space: normal; }
+.xd { padding: 2px 0 10px 32px; }
+.xd[hidden] { display: none; }
+.xd .xdef { margin: 0 0 6px; font-size: 13px; color: var(--ink2); font-style: italic; }
+@media (max-width: 520px) { .xt { grid-template-columns: 22px 1fr; } .xt .ubar, .xt .un { grid-column: 2; } .xd { padding-left: 8px; } }
+.xrare { margin: 10px 0 4px; font-size: 12px; color: var(--ink2); }
+.xchips { display: flex; flex-wrap: wrap; gap: 6px; padding: 2px 0 8px; }
+.xchip { display: inline-flex; align-items: center; gap: 6px; padding: 3px 8px 3px 4px; border: 1px solid var(--line); border-radius: 14px; background: var(--card, transparent); font: inherit; font-size: 13px; color: var(--ink); cursor: pointer; text-align: left; }
+.xchip:hover .bl { color: var(--accent-ink); }
+.xchip[aria-expanded="true"] { background: var(--tint); }
+.xchip .xp { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; border: 1px solid var(--line); border-radius: 50%; font-family: ui-monospace, monospace; font-size: 13px; line-height: 1; color: var(--ink2); }
+.xchip .dots { display: inline-flex; gap: 2px; }
+.xchip .dots.mix { width: 140px; height: 8px; border-radius: 2px; overflow: hidden; gap: 0; }
+.xchip .dots.mix i { height: 100%; border-radius: 0; }
+.xchip .dots i { display: block; width: 8px; height: 8px; border-radius: 50%; }
+.xchip .cn { font-size: 12px; font-weight: 600; color: var(--ink2); }
+.xd.xdw { flex-basis: 100%; padding-left: 8px; border-left: 2px solid var(--line); margin: 2px 0 6px; }
+.qscroll { max-height: 340px; overflow-y: auto; padding-right: 6px; margin: 2px 0 6px; border: 1px solid var(--line); border-radius: 4px; padding: 4px 8px; }
+.rtag { display: inline-block; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .03em; padding: 0 6px; border-radius: 3px; background: var(--accent-ink); color: #fff; vertical-align: 1px; }
+.rtag.soft { background: var(--tint); color: var(--ink2); border: 1px solid var(--line); }
+.dlcsv { margin-left: 12px; font: inherit; font-size: 12px; padding: 2px 10px; border: 1px solid var(--line); border-radius: 12px; background: none; color: var(--ink2); cursor: pointer; vertical-align: 2px; }
+.dlcsv:hover { color: var(--accent-ink); border-color: var(--accent-ink); }
+.dlcsv[hidden] { display: none; }
+.sub ul.sch { margin: 6px 0 0; padding-left: 20px; } .sub ul.sch li { margin: 2px 0; }
+.tgr { display: grid; grid-template-columns: minmax(140px, 36%) minmax(80px, 1fr) minmax(110px, 170px); gap: 10px; align-items: center; padding: 3px 0; font-size: 13px; }
+.tgb { display: flex; height: 14px; background: transparent; }
+.tgs { position: relative; display: block; height: 100%; min-width: 2px; }
+.tgs .lt, .tgs .dk { position: absolute; left: 0; top: 0; height: 100%; display: block; }
+.tgs .lt { width: 100%; background: var(--tg-lt); }
+.tgs .dk { background: var(--tg-dk); }
+.sg-neutral { background: var(--bar-mute); }
+.tgs .sg-neutral { background: var(--bar-mute); }
+.tgs .sg-required { background: var(--st-req); } .tgs .sg-permitted { background: var(--st-perm); } .tgs .sg-conditional { background: var(--st-cond); } .tgs .sg-discouraged { background: var(--st-disc); } .tgs .sg-prohibited { background: var(--st-proh); }
+.tgs .lt[class*="sg-"] { opacity: .3; }
+.tgs .dk[class*="sg-"] { opacity: 1; }
+.tgn { font-size: 12px; color: var(--ink2); }
+.tgleg { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.tgleg .sw { display: inline-block; width: 22px; height: 10px; background: var(--tg-dk); }
+.tgleg .sw.lt { background: var(--tg-lt); }
+.tgscroll { max-height: 340px; overflow-y: auto; padding-right: 6px; }
+button.tgnote { display: block; width: 100%; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 8px 0; font: inherit; color: var(--ink); cursor: pointer; }
+button.tgnote:hover { background: var(--tint); }
+@media (max-width: 520px) { .tgr { grid-template-columns: 1fr; gap: 2px; } }
+#tgsel { max-width: 100%; }
+@media (max-width: 520px) { table.tgt { font-size: 12px; } }
+.head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(260px, 360px); gap: 8px 32px; align-items: start; }
+.head .note { margin-top: 6px; }
+@media (max-width: 760px) { .head { grid-template-columns: minmax(0, 1fr); } .head .note { margin-top: 14px; } }
+.toc { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 13px; margin: 0 0 18px; padding: 12px; border: 1px solid var(--line); border-radius: 8px; }
+.toc strong { margin-right: 6px; }
+.toc a { display: inline-block; padding: 4px 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--accent-ink); text-decoration: none; line-height: 1.4; }
+.toc a:hover { background: var(--tint); border-color: var(--accent-ink); text-decoration: none; }
+.totop { display: inline-block; margin-top: 10px; font-size: 13px; color: var(--accent-ink); text-decoration: none; } .totop:hover { text-decoration: underline; }
+section { scroll-margin-top: 64px; }
+.udet h4 { margin: 12px 0 4px; font-size: 14px; }
+.udet blockquote { margin: 4px 0 8px; padding-left: 10px; border-left: 2px solid var(--line); color: var(--ink2); font-size: 13px; overflow-wrap: anywhere; }
+@media (max-width: 520px) { .urow { grid-template-columns: 1fr; } .urow .un { white-space: normal; } }
+
+/* guidance points */
+.pctl { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-bottom: 10px; }
+.pctl input[type="search"] { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--line); padding: 5px 9px; min-width: min(100%, 260px); border-radius: 3px; }
+.tchips { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 12px; }
+.tchips .chip small { color: inherit; opacity: .7; margin-left: 4px; }
+.pc { background: var(--surface); border: 1px solid var(--line); padding: 12px 14px; display: grid; gap: 6px; min-width: 0; }
+.pc .who2 { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: baseline; }
+.pc .who2 a { font-weight: 600; color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line); }
+.pc .who2 a:hover { color: var(--accent-ink); border-color: var(--accent); }
+.pc .gist { font-size: 15px; line-height: 1.45; max-width: 80ch; }
+.pc .qt { margin: 0; padding-left: 10px; border-left: 2px solid var(--line); color: var(--ink2); font-size: 13px; max-width: 90ch; overflow-wrap: anywhere; }
+.tags { display: flex; flex-wrap: wrap; gap: 4px; }
+.tag { font-size: 11px; letter-spacing: .02em; padding: 1px 7px; background: var(--tint); color: var(--ink); border-radius: 3px; }
+.tag.f-must, .tag.f-must_not { background: var(--accent); color: #fff; }
+.tag.gen { background: transparent; border: 1px solid var(--line); color: var(--muted); }
+.plist { display: grid; gap: 10px; }
+.more { margin-top: 12px; }
+.pctl > span, .xsel > span { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; min-width: 0; max-width: 100%; }
+.pctl select, .xsel select, #varsel { min-width: 0; max-width: 100%; }
+@media (max-width: 520px) { .brow.share { grid-template-columns: 1fr 70px; } .brow.hl { grid-template-columns: 1fr 112px; } h1 { font-size: 24px; } .brow { grid-template-columns: 1fr 34px; } .brow .bt { grid-column: 1 / -1; grid-row: 2; } .brow .bn { grid-row: 1; grid-column: 2; } .mx td.nm, .mx th.nm { min-width: 140px; max-width: 140px; } }
+@media (prefers-reduced-motion: no-preference) { .bf { transition: width .2s ease; } }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<div class="wrap" id="top">
+  <div class="head">
+    <div class="head-text">
+      <h1>AI guidance analysis</h1>
+      <p class="lede">What UK and Irish universities tell students about generative AI: what it can be used for, what has to be acknowledged, what help is offered, and how that differs. Every statement counted here traces to a quote in the institution’s own document.</p>
+    </div>
+    <p class="note"><b>Draft.</b> Counts are minimums: a statement counts only where a quote shows it, from one or two documents per institution, read by one model. They are not prevalence estimates. Coverage and method are further down.</p>
+  </div>
+</div>
+
+<div class="bar-filter"><div class="in">
+  <div class="grp" role="group" aria-label="Region"><span class="lab">Region</span><span id="regs"></span></div>
+
+  <span class="count-now mono" id="nowshown"></span>
+</div></div>
+
+<div class="wrap">
+
+
+
+<nav class="toc" id="toc" aria-label="Contents"><strong>Contents</strong>
+  <a href="#uses">What AI can be used for</a><a href="#ack">What has to be acknowledged</a><a href="#misconduct">Academic misconduct</a><a href="#support">What kind of help institutions offer</a><a href="#together">What goes together</a><a href="#points">What the guidance says</a><a href="#method">How to read this</a>
+</nav>
+
+<section id="uses">
+  <h2>What AI can be used for <button class="dlcsv" data-csv="uses" hidden type="button">Download CSV</button></h2>
+  <p class="sub" id="usub"></p>
+  <div class="pctl"><span class="mono" style="color:var(--ink2)">Setting</span><span id="uctx"></span></div>
+  <div class="ulegend" id="uleg"></div>
+  <div class="panel udet"><div id="urows"></div></div>
+  <a class="totop" href="#top">↑ Back to top</a>
+</section>
+
+<section id="ack">
+  <h2>What has to be acknowledged <button class="dlcsv" data-csv="acknowledgement" hidden type="button">Download CSV</button></h2>
+  <p class="sub" id="acksub"></p>
+  <div class="panel udet"><div id="ackbars"></div></div>
+  <a class="totop" href="#top">↑ Back to top</a>
+</section>
+
+<section id="misconduct">
+  <h2>Academic misconduct <button class="dlcsv" data-csv="misconduct" hidden type="button">Download CSV</button></h2>
+  <p class="sub" id="missub"></p>
+  <div class="pctl"><span class="mono" style="color:var(--ink2)">Wording</span><span id="misctl"></span></div>
+  <div class="panel udet"><div id="misrows"></div></div>
+  <a class="totop" href="#top">↑ Back to top</a>
+</section>
+
+<section id="support">
+  <h2>What kind of help institutions offer <button class="dlcsv" data-csv="support" hidden type="button">Download CSV</button></h2>
+  <p class="sub" id="supsub"></p>
+  <div class="panel udet"><div id="supbars"></div></div>
+  <a class="totop" href="#top">↑ Back to top</a>
+</section>
+
+<section id="together">
+  <h2>What goes together</h2>
+  <p class="sub">How the statements above line up with each other across institutions.</p>
+  <h3 style="margin:14px 0 4px">Noteworthy correspondences</h3>
+  <div class="panel udet"><div id="tgnote"></div></div>
+  <h3 style="margin:22px 0 4px">Pick a statement</h3>
+  <p class="sub">The bars repeat the sections above. Same bars as above. The faded part of each bar is every institution that says it; the solid part is the institutions that also say the statement you picked.</p>
+  <div class="pctl"><label class="mono" for="tgsel" style="color:var(--ink2)">Institutions that say</label><select id="tgsel"></select></div>
+  <div class="panel udet"><div id="tgone"></div></div>
+  <a class="totop" href="#top">↑ Back to top</a>
+</section>
+
+<section id="points">
+  <h2>What the guidance says</h2>
+  <p class="sub">Specific points from each institution's own document, quoted word for word. Each card links to the source. The one-line summary restates only what its quote says. Filter by theme, strength of wording, who it is addressed to, or a single institution.</p>
+  <div class="pctl">
+    <span><label class="lab" for="psearch">Search</label> <input type="search" id="psearch" placeholder="e.g. Copilot, translation, personal data"></span>
+    <span><label class="lab" for="pforce">Wording</label> <select id="pforce"></select></span>
+    <span><label class="lab" for="pwho">Addressed to</label> <select id="pwho"></select></span>
+    <span><label class="lab" for="pinst">Institution</label> <select id="pinst"></select></span>
+    <label><input type="checkbox" id="pspec" checked> specific points only</label>
+  </div>
+  <div class="tchips" id="ptopics" role="group" aria-label="Theme"></div>
+  <p class="sub mono" id="pcount" style="margin-bottom:10px"></p>
+  <div class="plist" id="plist"></div>
+  <button class="chip more" id="pmore" type="button" hidden>Show more</button>
+</section>
+
+<section id="method">
+  <h2>How to read this</h2>
+  <ul class="lim">
+    <li>Institutions come from a curated frame and a seeded stratified sample, and documents were found by search. Counts are institutions, with a second document counted under its institution. Some pages could not be archived (bot walls, JavaScript-only pages, robots.txt, missing pages) and are not coded.</li>
+    <li>Every value rests on a verbatim quote from an archived snapshot, checked by a validator. One model did all the coding passes, with a pilot of two independent coders before each full run. Agreement figures from the pilots are therefore optimistic.</li>
+    <li>Counts are minimums. A statement counts only where a quote shows it, so a missing value means no quote was found, not that the institution disagrees. Some rows rest on a link label or on general misconduct wording that does not name AI; the misconduct section shows which.</li>
+    <li>Documents with tiered rules (for example traffic-light levels) give several rows for one use, so their counts are lower bounds.</li>
+    <li>“What goes together” is descriptive. The noteworthy pairs are corrected for the number of pairs compared, but an association in what documents say is not a reason, and three-way combinations are too thin to test with this many institutions.</li>
+  </ul>
+</section>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  var DATA = JSON.parse(document.getElementById("data").textContent);
+  var V = {}; DATA.vars.forEach(function (v) { V[v.id] = v; });
+  var hum = function (s) { return String(s).replace(/_/g, " "); };
+  var $ = function (id) { return document.getElementById(id); };
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  var region = "All", kind = "all", selVar = "institutional_posture", selCell = null;
+  var REGIONS = ["England", "Scotland", "Wales", "Northern Ireland", "Ireland"];
+  var KEY = ["instrument_force", "issued_by_type", "institutional_posture", "default_when_silent", "precedence", "permission_set_by", "disclosure_obligation", "referencing_requirement", "use_full_text_generation", "detector_stance", "sanctions_stated", "misconduct_framed_as", "ai_training"];
+
+
+  function isRule(d) { var c = d.cells.instrument_force; if (!c || c.s !== "v") return false; return c.v.indexOf("pointer_page") < 0; }
+  function shown() { return DATA.docs.filter(function (d) { return (region === "All" || d.region === region) && (kind === "all" || isRule(d)); }); }
+
+  // filters
+  function mkChip(label, on, fn) { var b = el("button", "chip", label); b.type = "button"; b.setAttribute("aria-pressed", on ? "true" : "false"); b.addEventListener("click", fn); return b; }
+  function drawRegs() { var h = $("regs"); h.textContent = ""; ["All"].concat(REGIONS).forEach(function (r) { h.appendChild(mkChip(r, r === region, function () { region = r; refresh(); })); }); }
+
+  // coverage
+  var ST = [["coded", "Document read, points extracted", "s-coded"], ["fetch", "Found, not archived (needs a local fetch)", "s-fetch"], ["none", "Searched, none found", "s-none"], ["deferred", "Archived, deferred (oversized)", "s-deferred"]];
+
+  // bar chart
+  function tally(docs, vid) {
+    var out = { vals: {}, ns: [], na: [], mf: [], ne: [], unc: [] };
+    docs.forEach(function (d) {
+      var c = d.cells[vid];
+      if (!c) out.unc.push(d); else if (c.s === "v") c.v.forEach(function (x) { (out.vals[x] = out.vals[x] || []).push(d); }); else out[c.s].push(d);
+    });
+    return out;
+  }
+
+  // explorer select
+  var GROUPS = { document: "Document", stance: "Stance", uses: "Permitted uses", disclosure: "Disclosure", integrity: "Integrity and enforcement", tools_data: "Tools and data", access_equity: "Access and equity", research_pgr: "Research and PGR", governance: "Governance", strategy: "Strategy" };
+
+  // matrix
+  function cellText(c) { if (!c) return ""; if (c.s === "v") return c.v.map(hum).join(", "); if (c.s === "ne") return "none exists"; if (c.s === "ns") return "–"; if (c.s === "mf") return "no value fits"; return ""; }
+
+  // ---- patterns ----
+  var P = DATA.patterns;
+  var CHOICE = { enum: 1, ordinal: 1, multi: 1 };
+  function fillShare(host, rows) {
+    host.textContent = "";
+    rows.forEach(function (r) {
+      var b = el("div", "brow share"); b.style.cursor = "default"; if (r.gloss) b.title = r.gloss;
+      b.appendChild(el("span", "bl", r.label)); var tr = el("span", "bt"), f = el("span", "bf"); f.style.display = "block"; f.style.width = (100 * r.n / r.of) + "%"; tr.appendChild(f); b.appendChild(tr);
+      b.appendChild(el("span", "bn", r.n + " of " + r.of)); host.appendChild(b);
+    });
+    if (!rows.length) host.appendChild(el("p", null, "No variable has enough documents with the current filters."));
+  }
+
+
+  // ---- guidance points ----
+  var PD = {}; DATA.pdocs.forEach(function (d) { PD[d.id] = d; });
+  var PT = DATA.points, ptopic = "all", plimit = 40;
+  var FORCEL = { must: "must", must_not: "must not", should: "should", should_not: "should not", may: "may", encouraged: "encouraged", commits: "institution commits", explains: "explains" };
+  var WHOL = { student: "students", staff: "staff", both: "students and staff", institution: "the institution" };
+  function pfilter() {
+    var q = $("psearch").value.trim().toLowerCase(), f = $("pforce").value, w = $("pwho").value, inst = $("pinst").value, spec = $("pspec").checked;
+    return PT.filter(function (p) {
+      var d = PD[p.d]; if (!d) return false;
+      if (region !== "All" && d.region !== region) return false;
+      if (ptopic !== "all" && p.t !== ptopic) return false;
+      if (f !== "all" && p.f !== f) return false; if (w !== "all" && p.ad !== w) return false;
+      if (inst !== "all" && p.d !== inst) return false; if (spec && !p.s) return false;
+      if (q && (p.g + " " + p.q + " " + d.name).toLowerCase().indexOf(q) < 0) return false; return true;
+    });
+  }
+  function pfillSelect(id, entries) { var s = $(id); s.textContent = ""; entries.forEach(function (e) { var o = document.createElement("option"); o.value = e[0]; o.textContent = e[1]; s.appendChild(o); }); s.addEventListener("change", function () { plimit = 40; drawPoints(); }); }
+  function pinit() {
+    pfillSelect("pforce", [["all", "any"]].concat(Object.keys(FORCEL).map(function (k) { return [k, FORCEL[k]]; })));
+    pfillSelect("pwho", [["all", "anyone"]].concat(Object.keys(WHOL).map(function (k) { return [k, WHOL[k]]; })));
+    pfillSelect("pinst", [["all", "all institutions"]].concat(DATA.pdocs.map(function (d) { return [d.id, d.name + (d.none ? " (no points)" : "")]; })));
+    $("psearch").addEventListener("input", function () { plimit = 40; drawPoints(); }); $("pspec").addEventListener("change", function () { plimit = 40; drawPoints(); });
+    $("pmore").addEventListener("click", function () { plimit += 60; drawPoints(); });
+  }
+  function drawPoints() {
+    var rows = pfilter(), cnt = {}; var all = PT.filter(function (p) { var d = PD[p.d]; return d && (region === "All" || d.region === region) && (!$("pspec").checked || p.s); });
+    all.forEach(function (p) { cnt[p.t] = (cnt[p.t] || 0) + 1; });
+    var tc = $("ptopics"); tc.textContent = ""; var tot = all.length;
+    var chip = function (k, label, n) { var b = mkChip(label, ptopic === k, function () { ptopic = k; plimit = 40; drawPoints(); }); var s = el("small", null, String(n)); b.appendChild(s); tc.appendChild(b); };
+    chip("all", "All themes", tot); Object.keys(cnt).sort(function (a, b) { return cnt[b] - cnt[a]; }).forEach(function (k) { chip(k, hum(k), cnt[k]); });
+    var insts = {}; rows.forEach(function (p) { insts[p.d] = 1; });
+    $("pcount").textContent = rows.length + " points from " + Object.keys(insts).length + " institutions";
+    var host = $("plist"); host.textContent = "";
+    var emptyDoc = $("pinst").value !== "all" && PD[$("pinst").value] && PD[$("pinst").value].none;
+    if (emptyDoc) { var n = el("div", "pc"); n.appendChild(el("p", null, "This document sets no rules of its own: " + PD[$("pinst").value].none)); host.appendChild(n); }
+    rows.slice(0, plimit).forEach(function (p) {
+      var d = PD[p.d], c = el("article", "pc"), h = el("div", "who2");
+      var a = el("a", null, d.name); a.href = d.url; a.target = "_blank"; a.rel = "noopener"; h.appendChild(a);
+      h.appendChild(el("span", "mono", d.region + (p.a ? " · " + p.a : ""))); c.appendChild(h);
+      c.appendChild(el("p", "gist", p.g)); c.appendChild(el("blockquote", "qt", "“" + p.q + "”"));
+      var tg = el("div", "tags"); tg.appendChild(el("span", "tag f-" + p.f, FORCEL[p.f])); tg.appendChild(el("span", "tag", "to " + WHOL[p.ad])); tg.appendChild(el("span", "tag", hum(p.t))); if (!p.s) tg.appendChild(el("span", "tag gen", "general principle")); c.appendChild(tg);
+      host.appendChild(c);
+    });
+    if (!rows.length && !emptyDoc) host.appendChild(el("p", null, "No points match these filters."));
+    $("pmore").hidden = rows.length <= plimit;
+  }
+
+  // ---- statement-type trends (provisional) ----
+  var TR = DATA.trends, TT = {}; TR.types.forEach(function (t) { TT[t.id] = t; });
+  var PX = {}; DATA.points.forEach(function (p) { PX[p.d + ":" + p.n] = p; });
+  var DT = {}; TR.docs.forEach(function (d) { DT[d] = new Set(); });
+  TR.rows.forEach(function (r) { [r.c, r.c2].forEach(function (t) { if (t && t !== "unclassified") DT[r.d].add(t); }); });
+  var GL = { use_rules: "Use rules", disclosure_and_evidence: "Declaring and evidence", referencing: "Referencing", data_and_privacy: "Data and privacy", tools: "Tools", assessment_design: "Assessment design", integrity_and_consequences: "Integrity and consequences", accuracy_and_responsibility: "Accuracy and responsibility", support_and_training: "Support and training", staff_and_governance: "Staff and governance", ethics_and_equity: "Ethics and equity", other: "Other" };
+  var tgroup = "all", tsel = null;
+  function extN(ds, id) { var n = 0; ds.forEach(function (d) { if (DT[d].has(id)) n++; }); return n; }
+
+
+
+  var ACKG = [["duty", "Is acknowledgement required?", { always_required: "Every use must be acknowledged", conditional: "Acknowledgement depends on a condition", recommended: "Acknowledgement is recommended", not_required: "No acknowledgement needed" }], ["def", "What applies when the brief says nothing?", { prohibit_all: "No AI when the brief is silent", permit_all: "AI allowed when the brief is silent", ask_instructor: "Ask when the brief is silent", permit_with_acknowledgement: "Allowed if acknowledged", use_by_use_rule: "Per-use rules apply", differs_by_assessment_type: "Depends on the assessment type", misconduct_only_if_unacknowledged: "Misconduct only if unacknowledged", treated_as_human_assistance: "Treated like human help" }], ["decided", "Who decides?", { institution_wide: "Whole institution", school_or_department: "School or department", module_or_lecturer: "Module leader or lecturer", assessment_brief: "Each assessment brief", tiered_scale: "A tiered scale" }], ["contents", "What to include", null], ["location", "Where it goes", null], ["referencing", "How to reference", { cite_in_reference_list: "Cite with a reference list entry", acknowledge_without_reference_entry: "Acknowledge, no reference entry", follow_guide: "Follow the referencing guide", not_required_in_reference_list: "No reference list entry" }], ["records", "Keeping records", { required: "Records must be kept", recommended: "Keeping records is advised" }], ["consequence", "If it is missing", { submission_blocked: "Submission blocked", treated_as_non_submission: "Counts as non-submission", treated_as_misconduct: "Treated as misconduct", safe_if_declared: "Declared permitted use is safe" }], ["exempt", "Uses that need no acknowledgement", null]];
+  var ACKV = { duty: function (a) { return [a.duty && a.duty.v]; }, def: function (a) { return [a.def && a.def.v]; }, decided: function (a) { return a.decided; }, contents: function (a) { return a.contents; }, location: function (a) { return a.location; }, referencing: function (a) { return [a.referencing]; }, records: function (a) { return [a.records]; }, consequence: function (a) { return [a.consequence]; }, exempt: function (a) { return a.exempt; } };
+  var OPEN = {};
+  function xrow(host, key, o) {
+    var w = el("div", "xr"), isOpen = !!OPEN[key], b = el("button", "xt"); b.type = "button"; b.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    b.appendChild(el("span", "xp", isOpen ? "−" : "+")); b.appendChild(el("span", "bl", o.label)); b.appendChild(o.bar); b.appendChild(el("span", "un", o.count)); if (o.def) b.title = o.def; w.appendChild(b);
+    var d = el("div", "xd"); d.hidden = !isOpen; w.appendChild(d); var built = false;
+    function fill() { if (built) return; built = true; if (o.def) d.appendChild(el("p", "xdef", o.def)); o.detail(d); }
+    if (isOpen) fill();
+    b.addEventListener("click", function () { var on = d.hidden; d.hidden = !on; OPEN[key] = on; b.setAttribute("aria-expanded", on ? "true" : "false"); b.firstChild.textContent = on ? "−" : "+"; if (on) fill(); });
+    host.appendChild(w);
+  }
+  var MINBAR = 6;
+  function xchip(host, key, o) {
+    var isOpen = !!OPEN[key], b = el("button", "xchip"); b.type = "button"; b.setAttribute("aria-expanded", isOpen ? "true" : "false"); b.title = (o.count || "") + (o.def ? " — " + o.def : "");
+    b.appendChild(el("span", "xp", isOpen ? "−" : "+")); b.appendChild(el("span", "bl", o.label));
+    if (o.dots && o.dots.length) { var ds = el("span", "dots"); if (o.dots.length <= 10) o.dots.forEach(function (c) { var i = el("i"); i.className = c; ds.appendChild(i); }); else { ds.className = "dots mix"; var cnt = {}, ord = []; o.dots.forEach(function (c) { if (!cnt[c]) { cnt[c] = 0; ord.push(c); } cnt[c]++; }); ord.forEach(function (c) { var i = el("i"); i.className = c; i.style.width = (100 * cnt[c] / o.dots.length) + "%"; ds.appendChild(i); }); } b.appendChild(ds); }
+    b.appendChild(el("span", "cn", o.cn || String(o.n))); host.appendChild(b);
+    var d = el("div", "xd xdw"); d.hidden = !isOpen; host.appendChild(d); var built = false;
+    function fill() { if (built) return; built = true; if (o.def) d.appendChild(el("p", "xdef", o.def)); o.detail(d); }
+    if (isOpen) fill();
+    b.addEventListener("click", function () { var on = d.hidden; d.hidden = !on; OPEN[key] = on; b.setAttribute("aria-expanded", on ? "true" : "false"); b.firstChild.textContent = on ? "−" : "+"; if (on) fill(); });
+  }
+  // items: {key,label,def,n,bar,count,dots,detail}; common ones get bars, rare ones a compact wrapping chip list
+  function xgroup(host, items, N) { var c = el("div", "xchips"); items.forEach(function (x) { x.pct = N ? Math.round(100 * x.n / N) : 0; xchip(c, x.key, x); }); host.appendChild(c); }
+  function simpleBar(pct, cls) { var bar = el("span", "ubar"), i = el("i"); i.className = cls || "sg-permitted"; i.style.width = Math.min(100, pct) + "%"; bar.appendChild(i); return bar; }
+  function desc(id, intro, items) { var p = $(id); p.textContent = ""; p.appendChild(document.createTextNode(intro)); if (!items.length) return; var ul = el("ul", "sch"); items.forEach(function (x) { var i = x.indexOf(":"), li = el("li"); if (i > 0 && i < 40) { li.appendChild(el("strong", null, x.slice(0, i))); li.appendChild(document.createTextNode(x.slice(i))); } else li.appendChild(document.createTextNode(x)); ul.appendChild(li); }); p.appendChild(ul); }
+  var RTAG = { mandatory: "required", advised: "advised" };
+  function quotes(d, list, max, tag) { var host = d; if (list.length > (max || 8)) { host = el("div", "qscroll"); d.appendChild(host); }
+    list.forEach(function (r) { var bq = el("blockquote"); if (r.rq && RTAG[r.rq]) { var s = el("span", "rtag" + (r.rq === "advised" ? " soft" : ""), RTAG[r.rq]); bq.appendChild(s); bq.appendChild(document.createTextNode(" ")); } bq.appendChild(document.createTextNode("“" + r.q + "” — " + (PD[r.i] ? PD[r.i].name : r.i) + (tag ? tag(r) : ""))); host.appendChild(bq); }); }
+  function uniqBy(list) { var seen = {}, out = []; list.forEach(function (r) { if (!seen[r.i]) { seen[r.i] = 1; out.push(r); } }); return out; }
+  var DETCLS = { used: "sg-permitted", may_be_used: "sg-conditional", restricted: "sg-discouraged", unreliable: "sg-prohibited", not_used: "sg-neutral" }, DETLAB = { used: "used", may_be_used: "may be used", restricted: "restricted", unreliable: "unreliable", not_used: "not used" }, DETORDER = ["used", "may_be_used", "restricted", "unreliable", "not_used"];
+  var SUPCLS = { mandatory: "sg-required", advised: "sg-conditional", other: "sg-permitted" }, SUPLAB = { mandatory: "required", advised: "advised", other: "optional or not stated" }, SUPORDER = ["mandatory", "advised", "other"];
+  function supLevel(rq) { return rq === "mandatory" ? "mandatory" : rq === "advised" ? "advised" : "other"; }
+  function mkLegend(order, cls, lab) { var lg = el("div", "ulegend"); order.forEach(function (k) { var sp = el("span"), i = el("i"); i.className = cls[k]; sp.appendChild(i); sp.appendChild(document.createTextNode(lab[k])); lg.appendChild(sp); }); return lg; }
+  var RRANK = { mandatory: 3, advised: 2, planned: 1 };
+  function drawSupport() {
+    var S = TR.support, N = TR.sdocs.filter(function (d) { return PD[d]; }).length, host = $("supbars"); host.textContent = "";
+    desc("supsub", "The training, guidance and support institutions offer about AI.", []);
+    host.appendChild(mkLegend(SUPORDER, SUPCLS, SUPLAB));
+    xgroup(host, S.forms.map(function (f) { var best = {}; f.rows.forEach(function (r) { var l = supLevel(r.rq), cur = best[r.i]; if (!cur || SUPORDER.indexOf(l) < SUPORDER.indexOf(cur)) best[r.i] = l; });
+      var dots = Object.keys(best).map(function (i) { return best[i]; }).sort(function (x, y) { return SUPORDER.indexOf(x) - SUPORDER.indexOf(y); }).map(function (l) { return SUPCLS[l]; }), n = dots.length;
+      return { key: "sup|" + f.id, label: f.label, def: f.def, n: n, dots: dots, cn: String(n), count: n + " institutions", detail: function (d) { quotes(d, f.rows.slice().sort(function (a, b) { return (RRANK[b.rq] || 0) - (RRANK[a.rq] || 0); }), 8, function (r) { return (r.n ? " · " + r.n : "") + (r.s ? " · second document" : ""); }); } }; }).sort(function (x, y) { return y.n - x.n; }), N);
+  }
+
+  var UD = TR.usesData, ULAB = {}; UD.uses.forEach(function (u) { ULAB[u.id] = u; });
+  var uctx = "all", STORDER = ["required", "permitted", "conditional", "discouraged", "prohibited"], STSCORE = { required: 0, permitted: 0, conditional: 1, discouraged: 2, prohibited: 3 };
+  var USEORD = (function () { var pairs = {}; UD.rows.forEach(function (r) { (pairs[r.u] = pairs[r.u] || {})[r.i + "|" + r.s] = STSCORE[r.s]; }); var o = {}; Object.keys(pairs).forEach(function (u) { var v = Object.keys(pairs[u]).map(function (k) { return pairs[u][k]; }); o[u] = { score: v.reduce(function (a, b) { return a + b; }, 0) / v.length, n: v.length }; }); var ids = Object.keys(o).sort(function (a, b) { return (a === "any_use" ? -1 : b === "any_use" ? 1 : (o[a].score - o[b].score) || (o[b].n - o[a].n)); }); var rank = {}; ids.forEach(function (u, i) { rank[u] = i; }); return rank; })();
+  var STLAB = { permitted: "Permitted", conditional: "Conditional", discouraged: "Discouraged", prohibited: "Prohibited", required: "Required" };
+  function urowsFor() { return UD.rows.filter(function (r) { return PD[r.i] && (region === "All" || PD[r.i].region === region) && (uctx === "all" || r.c === uctx); }); }
+  function drawUses() {
+    var N = TR.sdocs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }).length, rows = urowsFor(), per = {};
+    rows.forEach(function (r) { var o = (per[r.u] = per[r.u] || {}); (o[r.s] = o[r.s] || new Set()).add(r.i); });
+    desc("usub", "What students may use generative AI for, from the most permitted uses to the most restricted.", []);
+    var ch = $("uctx"); ch.textContent = ""; [["all", "All settings"]].concat(Object.keys(UD.contexts).filter(function (k) { return k !== "unspecified"; }).map(function (k) { return [k, k.replace(/_/g, " ")]; })).forEach(function (x) { ch.appendChild(mkChip(x[1], uctx === x[0], function () { uctx = x[0]; drawUses(); })); });
+    var lg = $("uleg"); lg.textContent = ""; STORDER.forEach(function (s) { var sp = el("span"), i = el("i"); i.className = "sg-" + s; sp.appendChild(i); sp.appendChild(document.createTextNode(STLAB[s])); lg.appendChild(sp); });
+    var list = UD.uses.map(function (u) { var o = per[u.id] || {}, n = new Set(); Object.keys(o).forEach(function (s) { o[s].forEach(function (i) { n.add(i); }); }); return { u: u, o: o, n: n.size }; }).filter(function (x) { return x.n > 0; }).sort(function (a, b) { return USEORD[a.u.id] - USEORD[b.u.id]; });
+    var host = $("urows"); host.textContent = "";
+    xgroup(host, list.map(function (x) { var bar = el("span", "ubar"), dots = []; STORDER.forEach(function (s) { var c = x.o[s] ? x.o[s].size : 0; if (c) { var i = el("i"); i.className = "sg-" + s; i.style.width = (100 * c / N) + "%"; i.title = STLAB[s] + ": " + c; bar.appendChild(i); for (var k = 0; k < c; k++) dots.push("sg-" + s); } });
+      return { key: "use|" + x.u.id, label: x.u.label, def: x.u.def, n: x.n, bar: bar, dots: dots, count: STORDER.filter(function (s) { return x.o[s]; }).map(function (s) { return x.o[s].size + " " + s.slice(0, 4); }).join(" · ") + " (" + x.n + " inst.)",
+        detail: function (dt) { STORDER.forEach(function (s) { var uniq = uniqBy(rows.filter(function (r) { return r.u === x.u.id && r.s === s; })); if (!uniq.length) return; dt.appendChild(el("h4", null, STLAB[s] + " (" + uniq.length + ")")); quotes(dt, uniq, 6, function (r) { var cond = r.s === "conditional" && r.k.length ? " [" + r.k.map(function (k) { return k.replace(/_/g, " "); }).join(", ") + "]" : ""; return (uctx === "all" ? " · " + r.c.replace(/_/g, " ") : "") + (r.t ? " · " + r.t : "") + cond; }); }); } }; }), N);
+  }
+  function drawAck() {
+    var ids = TR.sdocs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), okI = {}; ids.forEach(function (d) { okI[d] = 1; }); var N = ids.length, A = UD.ack, AQ = UD.ackq, host = $("ackbars"); host.textContent = "";
+    desc("acksub", "What students are asked to say about their AI use, and what happens if they don’t.", []);
+    function bars(title, cat, counts, labels) { var keys = Object.keys(counts).filter(function (k) { return counts[k] > 0; }).sort(function (a, b) { return counts[b] - counts[a]; }); if (!keys.length) return; host.appendChild(el("h4", null, title));
+      xgroup(host, keys.map(function (k) { var lab = (labels && labels[k]) || k.replace(/_/g, " "); return { key: "ack|" + cat + "|" + k, label: lab, n: counts[k], bar: simpleBar(100 * counts[k] / N, "sg-permitted"), count: counts[k] + " of " + N + " (" + Math.round(100 * counts[k] / N) + "%)", detail: function (d) { var L = (AQ[cat + "|" + k] || []).filter(function (r) { return okI[r.i]; }); if (!L.length) d.appendChild(el("p", "small", "No quote kept for this value.")); else quotes(d, L, 8); } }; }), N); }
+    function tally(fn) { var c = {}; ids.forEach(function (d) { var a = A[d]; if (!a) return; fn(a).forEach(function (v) { if (v) c[v] = (c[v] || 0) + 1; }); }); return c; }
+    ACKG.forEach(function (g) { bars(g[1], g[0], tally(ACKV[g[0]]), g[2]); });
+  }
+
+  var MS = TR.misconduct, misAi = true;
+  var MGROUPS = [["offences", "What counts as an offence", "offences"], ["detection", "How use is detected", "methods"], ["process", "How a case is handled", "process"], ["outcomes", "What the outcomes can be", "outcomes"], ["liability", "Does intent matter?", "liability"]];
+  function drawMisconduct() {
+    var ids = TR.sdocs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), N = ids.length, okI = {}; ids.forEach(function (d) { okI[d] = 1; });
+    var rows = MS.rows.filter(function (r) { return okI[r.i] && (!misAi || r.ai || r.g === "process" || r.g === "outcomes" || r.g === "liability"); });
+    var withDoc = ids.filter(function (d) { return MS.scope[d]; }).length, sc = {}; ids.forEach(function (d) { var s = MS.scope[d]; if (s) sc[s] = (sc[s] || 0) + 1; });
+    desc("missub", "What documents say about academic misconduct involving AI: offences, detection, process and outcomes.", []);
+    var c = $("misctl"); c.textContent = ""; c.appendChild(mkChip("Quote names AI", misAi, function () { misAi = true; drawMisconduct(); })); c.appendChild(mkChip("Any misconduct wording", !misAi, function () { misAi = false; drawMisconduct(); }));
+    var host = $("misrows"); host.textContent = ""; var per = {};
+    rows.forEach(function (r) { var k = r.g + "|" + r.v + "|" + (r.st || ""); (per[k] = per[k] || []).push(r); });
+    MGROUPS.forEach(function (g) { var sch = MS.schema[g[2]], items = [];
+      if (g[0] === "detection") Object.keys(sch).forEach(function (v) { var byS = {}, dots = [], un = {}; DETORDER.forEach(function (st) { var k = "detection|" + v + "|" + st; if (per[k]) { var u = uniqBy(per[k]); byS[st] = u; u.forEach(function (r) { dots.push(DETCLS[st]); un[r.i] = 1; }); } }); var n = Object.keys(un).length; if (n) items.push({ det: true, k: "detection|" + v, label: v.replace(/_/g, " "), def: sch[v], byS: byS, dots: dots, n: n, list: [] }); });
+      else Object.keys(sch).forEach(function (v) { var k = g[0] + "|" + v + "|"; if (per[k]) items.push({ k: k, label: v.replace(/_/g, " "), def: sch[v], list: uniqBy(per[k]) }); });
+      if (!items.length) return; items.forEach(function (x) { if (!x.det) x.n = x.list.length; }); items.sort(function (a, b) { return b.n - a.n; }); host.appendChild(el("h4", null, g[1])); if (g[0] === "detection") host.appendChild(mkLegend(DETORDER, DETCLS, DETLAB));
+      xgroup(host, items.map(function (x) { var n = x.n; return { key: "mis|" + x.k, label: x.label, def: x.def, n: n, dots: x.det ? x.dots : null, cn: String(n), count: n + " institutions", detail: function (d) { if (x.det) { DETORDER.forEach(function (st) { if (!x.byS[st]) return; d.appendChild(el("h4", null, DETLAB[st] + " (" + x.byS[st].length + ")")); quotes(d, x.byS[st], 8, function (r) { return (r.ai ? "" : " · general wording") + (r.sc === "general_misconduct" ? " · general procedure" : ""); }); }); } else quotes(d, x.list, 12, function (r) { return (r.ai ? "" : " · general wording") + (r.sc === "general_misconduct" ? " · general procedure" : ""); }); } }; }), N); });
+    if (!host.firstChild) host.appendChild(el("span", null, "No misconduct statements yet."));
+  }
+  var DLN = null;
+  function csvInit() { var btns = document.querySelectorAll(".dlcsv"); if (!btns.length) return;
+    function blobSave(k) { var a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([TR.csv[k]], { type: "text/csv" })); a.download = "ai-guidance-" + k + ".csv"; document.body.appendChild(a); a.click(); a.remove(); setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000); }
+    if (!window.claude || !window.claude.use) { btns.forEach(function (b) { b.hidden = false; b.addEventListener("click", function () { blobSave(b.getAttribute("data-csv")); }); }); return; }
+    window.claude.use("downloads").then(function (dl) { if (!dl) return; DLN = dl; btns.forEach(function (b) { b.hidden = false; b.addEventListener("click", function () { var k = b.getAttribute("data-csv"), old = b.textContent; DLN.save({ filename: "ai-guidance-" + k + ".csv", data: TR.csv[k] }).then(function () { b.textContent = "Saved"; setTimeout(function () { b.textContent = old; }, 1500); }, function (e) { if (e && e.code !== "declined") { b.textContent = "Not available"; setTimeout(function () { b.textContent = old; }, 2000); } }); }); }); }, function () {}); }
+  // what goes together: institution-level co-occurrence of statements from the four schemas
+  var TG = { sel: null, base: null, groups: null };
+  var TGSEC = ["AI use", "Acknowledgement", "Help offered", "Misconduct"];
+  function sep(title) { return /[?:]$/.test(title) ? " " : ": "; }
+  function nice(v) { return String(v).replace(/_/g, " "); }
+  function tgBuild() {
+    var all = TR.sdocs.filter(function (d) { return PD[d]; }), B = {}, groups = [];
+    function feat(k, sec, l, s, extra) { var o = B[k] = { k: k, sec: sec, l: l, s: s, gk: extra.gk, short: extra.short || l, noteOk: extra.noteOk !== false }; return o; }
+    function setOf(rows, fn) { var s = new Set(); rows.forEach(function (r) { if (fn(r)) s.add(r.i); }); return s; }
+    // AI use: chip order is any use first, then by number of institutions
+    var uorder = UD.uses.map(function (u) { var s = setOf(UD.rows, function (r) { return r.u === u.id; }); return { u: u, n: s.size }; }).filter(function (x) { return x.n > 0; }).sort(function (a, b) { return USEORD[a.u.id] - USEORD[b.u.id]; });
+    var ug = { sec: "AI use", title: "What AI can be used for", items: [] };
+    uorder.forEach(function (x) { var it = { kind: "use", label: x.u.label, feats: [] }; STORDER.forEach(function (st) { var s = setOf(UD.rows, function (r) { return r.u === x.u.id && r.s === st; }); if (s.size) { var f = feat("use|" + x.u.id + "|" + st, "AI use", x.u.label + " — " + st, s, { gk: "use:" + x.u.id }); f.stance = st; it.feats.push(f); } }); ug.items.push(it); });
+    groups.push(ug);
+    // acknowledgement
+    ACKG.forEach(function (g) { var cnt = {}, sets = {}; Object.keys(UD.ack).forEach(function (i) { if (!PD[i]) return; (ACKV[g[0]](UD.ack[i]) || []).forEach(function (v) { if (!v) return; (sets[v] = sets[v] || new Set()).add(i); }); });
+      var ks = Object.keys(sets).sort(function (a, b) { return sets[b].size - sets[a].size; }), gr = { sec: "Acknowledgement", title: g[1], items: [] };
+      ks.forEach(function (v) { var lab = (g[2] && g[2][v]) || nice(v); gr.items.push({ kind: "one", feats: [feat("ack|" + g[0] + "|" + v, "Acknowledgement", g[1] + sep(g[1]) + lab, sets[v], { gk: "ack:" + g[0], short: lab, noteOk: g[0] !== "consequence" })] }); }); if (gr.items.length) groups.push(gr); });
+    // help offered
+    var sg = { sec: "Help offered", title: "What kind of help institutions offer", items: [] };
+    sg.legend = { order: SUPORDER, cls: SUPCLS, lab: SUPLAB };
+    TR.support.forms.forEach(function (f) { var best = {}; f.rows.forEach(function (r) { if (!PD[r.i]) return; var l = supLevel(r.rq), cur = best[r.i]; if (!cur || SUPORDER.indexOf(l) < SUPORDER.indexOf(cur)) best[r.i] = l; });
+      var it = { kind: "use", label: f.label, feats: [] }; SUPORDER.forEach(function (l) { var s = new Set(); Object.keys(best).forEach(function (i) { if (best[i] === l) s.add(i); }); if (s.size) { var ft = feat("sup|" + f.id + "|" + l, "Help offered", f.label + " — " + SUPLAB[l], s, { gk: "sup:" + f.id }); ft.cls = SUPCLS[l]; it.feats.push(ft); } }); if (it.feats.length) sg.items.push(it); });
+    groups.push(sg);
+    // misconduct (the page default: AI-named offences and detection, any wording for process, outcomes, intent)
+    MGROUPS.forEach(function (g) { var sch = MS.schema[g[2]], sets = {}, lab = {};
+      MS.rows.forEach(function (r) { if (r.g !== g[0] || !PD[r.i] || !(r.ai || r.g === "process" || r.g === "outcomes" || r.g === "liability")) return; var k = r.v + "|" + (r.st || ""); (sets[k] = sets[k] || new Set()).add(r.i); lab[k] = r.v.replace(/_/g, " ") + (r.st ? " — " + r.st.replace(/_/g, " ") : ""); });
+      var gr = { sec: "Misconduct", title: g[1], items: [] };
+      if (g[0] === "detection") { gr.legend = { order: DETORDER, cls: DETCLS, lab: DETLAB }; Object.keys(sch).forEach(function (v) { var it = { kind: "use", label: v.replace(/_/g, " "), feats: [] }; DETORDER.forEach(function (st) { var s = sets[v + "|" + st]; if (s && s.size) { var ft = feat("mis|detection|" + v + "|" + st, "Misconduct", g[1] + ": " + v.replace(/_/g, " ") + " — " + st.replace(/_/g, " "), s, { gk: "mis:detection" + v, noteOk: true }); ft.cls = DETCLS[st]; it.feats.push(ft); } }); if (it.feats.length) gr.items.push(it); }); gr.items.sort(function (a, b) { var n = function (x) { var u = new Set(); x.feats.forEach(function (f) { f.s.forEach(function (i) { u.add(i); }); }); return u.size; }; return n(b) - n(a); }); }
+      else Object.keys(sets).sort(function (a, b) { return sets[b].size - sets[a].size; }).forEach(function (k) { gr.items.push({ kind: "one", feats: [feat("mis|" + g[0] + "|" + k, "Misconduct", g[1] + ": " + lab[k], sets[k], { gk: "mis:" + g[0] + k, short: lab[k], noteOk: g[0] === "offences" })] }); });
+      if (gr.items.length) groups.push(gr); });
+    TG.base = B; TG.groups = groups;
+  }
+  function tgState() {
+    if (!TG.base) tgBuild();
+    var ids = TR.sdocs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), N = ids.length, ix = {}; ids.forEach(function (d, i) { ix[d] = i; });
+    var cur = {}; Object.keys(TG.base).forEach(function (k) { var o = TG.base[k], m = []; o.s.forEach(function (d) { if (ix[d] != null) m.push(ix[d]); }); cur[k] = { o: o, m: m, set: new Set(m), n: m.length }; });
+    return { N: N, cur: cur };
+  }
+  function inter(a, b) { var c = 0; a.m.forEach(function (x) { if (b.set.has(x)) c++; }); return c; }
+  var LF = [0]; function lf(n) { while (LF.length <= n) LF.push(LF[LF.length - 1] + Math.log(LF.length)); return LF[n]; }
+  function fisher(a, b, c, d) { var n = a + b + c + d, r1 = a + b, c1 = a + c; function h(x) { return lf(r1) + lf(n - r1) + lf(c1) + lf(n - c1) - lf(n) - lf(x) - lf(r1 - x) - lf(c1 - x) - lf(n - r1 - c1 + x); } var po = h(a), p = 0; for (var x = Math.max(0, r1 + c1 - n); x <= Math.min(r1, c1); x++) { var hx = h(x); if (hx <= po + 1e-9) p += Math.exp(hx); } return Math.min(1, p); }
+  function drawNotable(S) {
+    var host = $("tgnote"); host.textContent = ""; var N = S.N, F = Object.keys(S.cur).map(function (k) { return S.cur[k]; }).filter(function (f) { return f.n >= 8 && f.n <= N - 8 && f.o.noteOk; }), P = [];
+    for (var i = 0; i < F.length; i++) for (var j = i + 1; j < F.length; j++) { var A = F[i], Bf = F[j]; if (A.o.sec === Bf.o.sec || A.o.gk === Bf.o.gk) continue; var both = inter(A, Bf); P.push({ A: A, B: Bf, both: both, p: fisher(both, A.n - both, Bf.n - both, N - A.n - Bf.n + both) }); }
+    P.sort(function (x, y) { return x.p - y.p; }); var m = P.length; var q = new Array(m), prev = 1; for (var k = m - 1; k >= 0; k--) { prev = Math.min(prev, P[k].p * m / (k + 1)); q[k] = prev; } P.forEach(function (p, k) { p.q = q[k]; });
+    var used = {}, out = [];
+    P.forEach(function (p) { if (out.length >= 6 || p.q >= 0.05 || p.both < 6) return; var lift = p.both * N / (p.A.n * p.B.n); if (lift < 1.4) return; if ((used[p.A.o.gk] || 0) >= 1 || (used[p.B.o.gk] || 0) >= 1) return; used[p.A.o.gk] = (used[p.A.o.gk] || 0) + 1; used[p.B.o.gk] = (used[p.B.o.gk] || 0) + 1; out.push(p); });
+    if (!out.length) { host.appendChild(el("p", "small", "No pair of statements stands out clearly enough in this region (it needs at least 8 institutions on each side and a difference that survives correcting for the many pairs compared).")); return; }
+    out.forEach(function (p) { var row = el("button", "tgnote"); row.type = "button"; var pa = Math.round(100 * p.both / p.A.n), oth = p.B.n - p.both, po = Math.round(100 * oth / (N - p.A.n));
+      var s1 = el("span", "tgsent"); s1.appendChild(document.createTextNode("Of the " + p.A.n + " institutions that say ")); s1.appendChild(el("strong", null, "“" + p.A.o.l + "”")); s1.appendChild(document.createTextNode(", " + p.both + " (" + pa + "%) also say ")); s1.appendChild(el("strong", null, "“" + p.B.o.l + "”")); s1.appendChild(document.createTextNode(", against " + oth + " of the other " + (N - p.A.n) + " (" + po + "%).")); row.appendChild(s1);
+      row.title = "Click to explore"; row.addEventListener("click", function () { TG.sel = p.A.o.k; drawTogether(); $("tgsel").scrollIntoView({ block: "center" }); }); host.appendChild(row); });
+    host.appendChild(el("p", "small", "Chosen from pairs in different sections where each statement has at least 8 institutions, the gap is larger than chance after correcting for all the pairs compared, and no section or statement is repeated. Process, outcome and intent statements are left out because they come together whenever a document includes a full misconduct procedure. These are associations in what documents say, not reasons."));
+  }
+  function drawTogether() {
+    var S = tgState(), N = S.N, cur = S.cur; drawNotable(S);
+    var sel = $("tgsel"); if (!sel.options.length) { TGSEC.forEach(function (sec) { var og = document.createElement("optgroup"); og.label = sec; TG.groups.filter(function (g) { return g.sec === sec; }).forEach(function (g) { g.items.forEach(function (it) { it.feats.forEach(function (f) { var op = document.createElement("option"); op.value = f.k; op.textContent = (sec === "AI use" || sec === "Help offered" ? "" : g.title + sep(g.title)) + (sec === "AI use" || sec === "Help offered" ? f.l : f.l.slice((g.title + sep(g.title)).length)) + " (" + f.s.size + ")"; og.appendChild(op); }); }); }); sel.appendChild(og); }); sel.addEventListener("change", function () { TG.sel = sel.value; drawTogether(); }); }
+    if (!TG.sel || !TG.base[TG.sel]) TG.sel = "use|any_use|permitted"; sel.value = TG.sel;
+    var one = $("tgone"); one.textContent = ""; var A = cur[TG.sel];
+    one.appendChild(el("h4", null, A.n + " of " + N + " institutions say: " + A.o.l));
+    if (A.n === 0) { one.appendChild(el("p", "small", "No institution in this region says this.")); return; }
+    if (A.n < 6) one.appendChild(el("p", "small", "Only " + A.n + (A.n === 1 ? " institution" : " institutions") + ", so the shading moves a lot with a single institution."));
+    var lg = el("p", "small tgleg"); var sw1 = el("i", "sw lt"), sw2 = el("i", "sw dk"); lg.appendChild(sw1); lg.appendChild(document.createTextNode(" says it  ")); lg.appendChild(sw2); lg.appendChild(document.createTextNode(" says it and also “" + A.o.l + "”")); one.appendChild(lg);
+    TG.groups.forEach(function (g) { var items = g.items.map(function (it) { return { it: it, f: it.feats.map(function (f) { return cur[f.k]; }).filter(function (c) { return c.n > 0; }) }; }).filter(function (x) { return x.f.length; }); if (!items.length) return;
+      one.appendChild(el("h4", null, g.title)); if (g.legend) one.appendChild(mkLegend(g.legend.order, g.legend.cls, g.legend.lab)); var box = el("div", items.length > 14 ? "tgscroll" : "");
+      items.forEach(function (x) { var row = el("div", "tgr"), label = x.it.kind === "use" ? x.it.label : x.f[0].o.short; row.appendChild(el("span", "tgl", label)); var tr = el("span", "tgb"), un = new Set(), bu = new Set(), parts = [], tips = [];
+        x.f.forEach(function (c) { var both = inter(c, A), seg = el("span", "tgs"), cls = c.o.cls ? " " + c.o.cls : (c.o.stance ? " sg-" + c.o.stance : ""); seg.style.width = (100 * c.n / N) + "%"; var lt = el("span", "lt" + cls), dk = el("span", "dk" + cls); dk.style.width = (100 * both / c.n) + "%"; seg.appendChild(lt); seg.appendChild(dk); tips.push((x.it.kind === "use" ? (c.o.stance || "") + ": " : "") + both + " of " + c.n + (x.it.kind === "use" ? " institutions" : " institutions that say it") + " also say “" + A.o.l + "”"); tr.appendChild(seg); c.m.forEach(function (i) { un.add(i); if (A.set.has(i)) bu.add(i); }); parts.push(both + "/" + c.n); });
+        row.appendChild(tr); row.title = label + "\n" + tips.join("\n"); row.appendChild(el("span", "tgn", x.it.kind === "use" ? bu.size + " of " + un.size + " institutions" : parts[0].replace("/", " of "))); box.appendChild(row); });
+      one.appendChild(box); });
+  }
+  function tinit() { drawSupport(); }
+
+  function refresh() {
+    drawRegs();
+    $("nowshown").textContent = shown().length + " of " + DATA.docs.length + " documents shown";
+    drawPoints(); drawUses(); drawAck(); drawMisconduct(); drawTogether();
+  }
+  csvInit();
+  tinit(); pinit(); refresh();
+})();
+</script>

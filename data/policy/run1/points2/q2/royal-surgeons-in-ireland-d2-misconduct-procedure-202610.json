@@ -1,0 +1,48 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-d2-misconduct-procedure-202610",
+ "coder": "pts-q2",
+ "extracted_at": "2026-10-05",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Unauthorised use of Gen AI includes but is not limited to the use of a Gen AI tool to generate any form of submitted work that a learner submits without proper acknowledgment of that tool’s use in its generation.",
+   "anchor": "3.4 Generative Artificial Intelligence (GenAI)",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Submitting GenAI-generated work without proper acknowledgment of the tool counts as unauthorised use."
+  },
+  {
+   "point_id": "p02",
+   "quote": "In particular, the use of AI for any placement activity must be in accordance with both this policy and approved by the student’s supervisor or equivalent in the relevant placement setting.",
+   "anchor": "Academic Integrity and Student Responsibilities",
+   "addressee": "student",
+   "force": "must",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "AI use for any placement activity must follow the policy and be approved by the supervisor or equivalent."
+  },
+  {
+   "point_id": "p03",
+   "quote": "AI-empowered plagiarism is “the use of AI tools to generate text that closely mimics existing sources without proper attribution”",
+   "anchor": "3.1 Plagiarism",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "AI-empowered plagiarism is defined as using AI to generate text closely mimicking existing sources without attribution."
+  },
+  {
+   "point_id": "p04",
+   "quote": "RCSI reserves the right to avail of any technological or other means available to it to detect academic misconduct in respect of any assessment or other academic activity undertaken by any of its students.",
+   "anchor": "Suspected Incidences of Academic Misconduct",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "RCSI reserves the right to use any technological or other means to detect academic misconduct."
+  }
+ ]
+}

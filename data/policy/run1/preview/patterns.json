@@ -1,0 +1,2120 @@
+{
+ "all": {
+  "label": "all coded documents",
+  "docs": 47,
+  "tests_run": 353,
+  "freq": [
+   {
+    "v": "names_institution_provided_tool",
+    "x": true,
+    "key": "names_institution_provided_tool=true",
+    "n": 14,
+    "addressed": 14
+   },
+   {
+    "v": "states_user_remains_responsible",
+    "x": true,
+    "key": "states_user_remains_responsible=true",
+    "n": 12,
+    "addressed": 12
+   },
+   {
+    "v": "date_source",
+    "x": "stated_on_page",
+    "key": "date_source=stated_on_page",
+    "n": 23,
+    "addressed": 24
+   },
+   {
+    "v": "declaration_enforced_by",
+    "x": "treated_as_misconduct",
+    "key": "declaration_enforced_by=treated_as_misconduct",
+    "n": 13,
+    "addressed": 14
+   },
+   {
+    "v": "tiers_present",
+    "x": "no_ai_tier",
+    "key": "tiers_present=no_ai_tier",
+    "n": 8,
+    "addressed": 9
+   },
+   {
+    "v": "tiers_present",
+    "x": "assistance_tier",
+    "key": "tiers_present=assistance_tier",
+    "n": 8,
+    "addressed": 9
+   },
+   {
+    "v": "institutional_tool_class",
+    "x": "microsoft_copilot",
+    "key": "institutional_tool_class=microsoft_copilot",
+    "n": 10,
+    "addressed": 12
+   },
+   {
+    "v": "use_study_revision",
+    "x": "permitted",
+    "key": "use_study_revision=permitted",
+    "n": 9,
+    "addressed": 11
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "accuracy",
+    "key": "ethical_concerns_named=accuracy",
+    "n": 24,
+    "addressed": 30
+   },
+   {
+    "v": "ai_training",
+    "x": "provided_optional",
+    "key": "ai_training=provided_optional",
+    "n": 15,
+    "addressed": 19
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "how_used",
+    "key": "disclosure_contents=how_used",
+    "n": 11,
+    "addressed": 14
+   },
+   {
+    "v": "issued_by_type",
+    "x": "central_service",
+    "key": "issued_by_type=central_service",
+    "n": 14,
+    "addressed": 18
+   },
+   {
+    "v": "sanctions_stated",
+    "x": "existing_procedure",
+    "key": "sanctions_stated=existing_procedure",
+    "n": 14,
+    "addressed": 18
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "personal_data",
+    "key": "data_entry_rules=personal_data",
+    "n": 13,
+    "addressed": 17
+   },
+   {
+    "v": "disclosure_obligation",
+    "x": "always_required",
+    "key": "disclosure_obligation=always_required",
+    "n": 23,
+    "addressed": 31
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "bias",
+    "key": "ethical_concerns_named=bias",
+    "n": 22,
+    "addressed": 30
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "parent_institutional_policy",
+    "key": "external_frameworks_adopted=parent_institutional_policy",
+    "n": 15,
+    "addressed": 21
+   },
+   {
+    "v": "institutional_posture",
+    "x": "permit_within_rules",
+    "key": "institutional_posture=permit_within_rules",
+    "n": 29,
+    "addressed": 41
+   },
+   {
+    "v": "tiers_present",
+    "x": "ai_required_or_integrated_tier",
+    "key": "tiers_present=ai_required_or_integrated_tier",
+    "n": 6,
+    "addressed": 9
+   },
+   {
+    "v": "use_language_editing",
+    "x": "conditional",
+    "key": "use_language_editing=conditional",
+    "n": 11,
+    "addressed": 17
+   },
+   {
+    "v": "instructor_must_communicate_rules",
+    "x": "required",
+    "key": "instructor_must_communicate_rules=required",
+    "n": 8,
+    "addressed": 13
+   },
+   {
+    "v": "non_institutional_tool_rule",
+    "x": "institutional_preferred",
+    "key": "non_institutional_tool_rule=institutional_preferred",
+    "n": 8,
+    "addressed": 13
+   },
+   {
+    "v": "permission_set_by",
+    "x": "module_or_instructor",
+    "key": "permission_set_by=module_or_instructor",
+    "n": 20,
+    "addressed": 33
+   },
+   {
+    "v": "permission_set_by",
+    "x": "assessment_brief",
+    "key": "permission_set_by=assessment_brief",
+    "n": 20,
+    "addressed": 33
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "over_reliance",
+    "key": "ethical_concerns_named=over_reliance",
+    "n": 18,
+    "addressed": 30
+   },
+   {
+    "v": "use_summarising_sources",
+    "x": "permitted",
+    "key": "use_summarising_sources=permitted",
+    "n": 9,
+    "addressed": 15
+   },
+   {
+    "v": "assessments_must_be_labelled",
+    "x": "required",
+    "key": "assessments_must_be_labelled=required",
+    "n": 8,
+    "addressed": 14
+   },
+   {
+    "v": "use_full_text_generation",
+    "x": "conditional",
+    "key": "use_full_text_generation=conditional",
+    "n": 13,
+    "addressed": 23
+   },
+   {
+    "v": "defers_audience_to_other_document",
+    "x": "students_all",
+    "key": "defers_audience_to_other_document=students_all",
+    "n": 5,
+    "addressed": 9
+   },
+   {
+    "v": "disclosure_location",
+    "x": "statement_in_work",
+    "key": "disclosure_location=statement_in_work",
+    "n": 5,
+    "addressed": 9
+   },
+   {
+    "v": "tiers_present",
+    "x": "language_editing_only_tier",
+    "key": "tiers_present=language_editing_only_tier",
+    "n": 5,
+    "addressed": 9
+   },
+   {
+    "v": "instrument_force",
+    "x": "guidance",
+    "key": "instrument_force=guidance",
+    "n": 24,
+    "addressed": 44
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "copyright_ip",
+    "key": "ethical_concerns_named=copyright_ip",
+    "n": 16,
+    "addressed": 30
+   },
+   {
+    "v": "use_idea_generation",
+    "x": "permitted",
+    "key": "use_idea_generation=permitted",
+    "n": 8,
+    "addressed": 16
+   },
+   {
+    "v": "use_idea_generation",
+    "x": "conditional",
+    "key": "use_idea_generation=conditional",
+    "n": 8,
+    "addressed": 16
+   },
+   {
+    "v": "precedence",
+    "x": "layered",
+    "key": "precedence=layered",
+    "n": 7,
+    "addressed": 14
+   },
+   {
+    "v": "precedence",
+    "x": "local_overrides",
+    "key": "precedence=local_overrides",
+    "n": 7,
+    "addressed": 14
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "prompts",
+    "key": "disclosure_contents=prompts",
+    "n": 7,
+    "addressed": 14
+   },
+   {
+    "v": "legal_instruments_named",
+    "x": "data_protection",
+    "key": "legal_instruments_named=data_protection",
+    "n": 6,
+    "addressed": 12
+   },
+   {
+    "v": "use_literature_search",
+    "x": "permitted",
+    "key": "use_literature_search=permitted",
+    "n": 4,
+    "addressed": 8
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "copyrighted_material",
+    "key": "data_entry_rules=copyrighted_material",
+    "n": 8,
+    "addressed": 17
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "academic_misconduct_unspecified",
+    "key": "misconduct_framed_as=academic_misconduct_unspecified",
+    "n": 12,
+    "addressed": 27
+   },
+   {
+    "v": "use_full_text_generation",
+    "x": "prohibited",
+    "key": "use_full_text_generation=prohibited",
+    "n": 10,
+    "addressed": 23
+   },
+   {
+    "v": "assessments_must_be_labelled",
+    "x": "recommended",
+    "key": "assessments_must_be_labelled=recommended",
+    "n": 6,
+    "addressed": 14
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "outputs",
+    "key": "disclosure_contents=outputs",
+    "n": 6,
+    "addressed": 14
+   },
+   {
+    "v": "legal_instruments_named",
+    "x": "copyright",
+    "key": "legal_instruments_named=copyright",
+    "n": 5,
+    "addressed": 12
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "plagiarism",
+    "key": "misconduct_framed_as=plagiarism",
+    "n": 11,
+    "addressed": 27
+   },
+   {
+    "v": "use_summarising_sources",
+    "x": "conditional",
+    "key": "use_summarising_sources=conditional",
+    "n": 6,
+    "addressed": 15
+   },
+   {
+    "v": "assessment_scheme",
+    "x": "other_scale",
+    "key": "assessment_scheme=other_scale",
+    "n": 4,
+    "addressed": 10
+   },
+   {
+    "v": "review_commitment",
+    "x": "ongoing_unspecified",
+    "key": "review_commitment=ongoing_unspecified",
+    "n": 4,
+    "addressed": 10
+   },
+   {
+    "v": "permission_set_by",
+    "x": "institution_wide_rule",
+    "key": "permission_set_by=institution_wide_rule",
+    "n": 13,
+    "addressed": 33
+   },
+   {
+    "v": "default_when_silent",
+    "x": "ask_instructor",
+    "key": "default_when_silent=ask_instructor",
+    "n": 10,
+    "addressed": 26
+   },
+   {
+    "v": "instructor_must_communicate_rules",
+    "x": "recommended",
+    "key": "instructor_must_communicate_rules=recommended",
+    "n": 5,
+    "addressed": 13
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "definition_or_scale_source",
+    "key": "external_frameworks_adopted=definition_or_scale_source",
+    "n": 8,
+    "addressed": 21
+   },
+   {
+    "v": "use_literature_search",
+    "x": "conditional",
+    "key": "use_literature_search=conditional",
+    "n": 3,
+    "addressed": 8
+   },
+   {
+    "v": "accessibility_provisions",
+    "x": "ai_presented_as_accessibility_benefit",
+    "key": "accessibility_provisions=ai_presented_as_accessibility_benefit",
+    "n": 3,
+    "addressed": 8
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "environment",
+    "key": "ethical_concerns_named=environment",
+    "n": 11,
+    "addressed": 30
+   },
+   {
+    "v": "use_language_editing",
+    "x": "permitted",
+    "key": "use_language_editing=permitted",
+    "n": 6,
+    "addressed": 17
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "confidential_unspecified",
+    "key": "data_entry_rules=confidential_unspecified",
+    "n": 6,
+    "addressed": 17
+   },
+   {
+    "v": "institutional_tool_class",
+    "x": "licensed_third_party_tool",
+    "key": "institutional_tool_class=licensed_third_party_tool",
+    "n": 4,
+    "addressed": 12
+   },
+   {
+    "v": "legal_instruments_named",
+    "x": "eu_ai_act",
+    "key": "legal_instruments_named=eu_ai_act",
+    "n": 4,
+    "addressed": 12
+   },
+   {
+    "v": "defers_audience_to_other_document",
+    "x": "staff_all",
+    "key": "defers_audience_to_other_document=staff_all",
+    "n": 3,
+    "addressed": 9
+   },
+   {
+    "v": "disclosure_location",
+    "x": "coversheet_or_form",
+    "key": "disclosure_location=coversheet_or_form",
+    "n": 3,
+    "addressed": 9
+   },
+   {
+    "v": "referencing_requirement",
+    "x": "required_in_reference_list",
+    "key": "referencing_requirement=required_in_reference_list",
+    "n": 5,
+    "addressed": 16
+   },
+   {
+    "v": "referencing_requirement",
+    "x": "per_library_or_instructor_guidance",
+    "key": "referencing_requirement=per_library_or_instructor_guidance",
+    "n": 5,
+    "addressed": 16
+   },
+   {
+    "v": "non_institutional_tool_rule",
+    "x": "prohibited_for_defined_data",
+    "key": "non_institutional_tool_rule=prohibited_for_defined_data",
+    "n": 4,
+    "addressed": 13
+   },
+   {
+    "v": "assessment_scheme",
+    "x": "four_level",
+    "key": "assessment_scheme=four_level",
+    "n": 3,
+    "addressed": 10
+   },
+   {
+    "v": "review_commitment",
+    "x": "fixed_date",
+    "key": "review_commitment=fixed_date",
+    "n": 3,
+    "addressed": 10
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "false_authorship",
+    "key": "misconduct_framed_as=false_authorship",
+    "n": 8,
+    "addressed": 27
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "tool_name",
+    "key": "disclosure_contents=tool_name",
+    "n": 4,
+    "addressed": 14
+   },
+   {
+    "v": "accessibility_provisions",
+    "x": "ai_as_adjustment_possible",
+    "key": "accessibility_provisions=ai_as_adjustment_possible",
+    "n": 2,
+    "addressed": 8
+   },
+   {
+    "v": "accessibility_provisions",
+    "x": "assistive_tools_exempt",
+    "key": "accessibility_provisions=assistive_tools_exempt",
+    "n": 2,
+    "addressed": 8
+   },
+   {
+    "v": "default_when_silent",
+    "x": "prohibit_all",
+    "key": "default_when_silent=prohibit_all",
+    "n": 6,
+    "addressed": 26
+   },
+   {
+    "v": "issued_by_type",
+    "x": "governing_body",
+    "key": "issued_by_type=governing_body",
+    "n": 4,
+    "addressed": 18
+   },
+   {
+    "v": "sanctions_stated",
+    "x": "vague_disciplinary",
+    "key": "sanctions_stated=vague_disciplinary",
+    "n": 4,
+    "addressed": 18
+   },
+   {
+    "v": "disclosure_location",
+    "x": "appendix",
+    "key": "disclosure_location=appendix",
+    "n": 2,
+    "addressed": 9
+   },
+   {
+    "v": "institutional_posture",
+    "x": "encourage",
+    "key": "institutional_posture=encourage",
+    "n": 9,
+    "addressed": 41
+   },
+   {
+    "v": "permission_set_by",
+    "x": "programme_or_course_team",
+    "key": "permission_set_by=programme_or_course_team",
+    "n": 7,
+    "addressed": 33
+   },
+   {
+    "v": "assessment_scheme",
+    "x": "three_category",
+    "key": "assessment_scheme=three_category",
+    "n": 2,
+    "addressed": 10
+   },
+   {
+    "v": "review_commitment",
+    "x": "fixed_interval",
+    "key": "review_commitment=fixed_interval",
+    "n": 2,
+    "addressed": 10
+   },
+   {
+    "v": "referencing_requirement",
+    "x": "acknowledge_like_human_sources",
+    "key": "referencing_requirement=acknowledge_like_human_sources",
+    "n": 3,
+    "addressed": 16
+   },
+   {
+    "v": "permission_set_by",
+    "x": "school_or_faculty",
+    "key": "permission_set_by=school_or_faculty",
+    "n": 6,
+    "addressed": 33
+   },
+   {
+    "v": "use_study_revision",
+    "x": "conditional",
+    "key": "use_study_revision=conditional",
+    "n": 2,
+    "addressed": 11
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "student_work",
+    "key": "data_entry_rules=student_work",
+    "n": 3,
+    "addressed": 17
+   },
+   {
+    "v": "sanctions_stated",
+    "x": "penalties_listed",
+    "key": "sanctions_stated=penalties_listed",
+    "n": 3,
+    "addressed": 18
+   },
+   {
+    "v": "instrument_force",
+    "x": "pointer_page",
+    "key": "instrument_force=pointer_page",
+    "n": 7,
+    "addressed": 44
+   },
+   {
+    "v": "instrument_force",
+    "x": "policy",
+    "key": "instrument_force=policy",
+    "n": 7,
+    "addressed": 44
+   },
+   {
+    "v": "non_institutional_tool_rule",
+    "x": "approved_tool_only_for_uploads",
+    "key": "non_institutional_tool_rule=approved_tool_only_for_uploads",
+    "n": 2,
+    "addressed": 13
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "eu_ai_act",
+    "key": "external_frameworks_adopted=eu_ai_act",
+    "n": 3,
+    "addressed": 21
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "tool_version",
+    "key": "disclosure_contents=tool_version",
+    "n": 2,
+    "addressed": 14
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "own_contribution",
+    "key": "disclosure_contents=own_contribution",
+    "n": 2,
+    "addressed": 14
+   },
+   {
+    "v": "disclosure_obligation",
+    "x": "recommended",
+    "key": "disclosure_obligation=recommended",
+    "n": 4,
+    "addressed": 31
+   },
+   {
+    "v": "disclosure_obligation",
+    "x": "required_if_course_specifies",
+    "key": "disclosure_obligation=required_if_course_specifies",
+    "n": 4,
+    "addressed": 31
+   },
+   {
+    "v": "referencing_requirement",
+    "x": "left_to_course_or_discipline",
+    "key": "referencing_requirement=left_to_course_or_discipline",
+    "n": 2,
+    "addressed": 16
+   },
+   {
+    "v": "use_literature_search",
+    "x": "prohibited",
+    "key": "use_literature_search=prohibited",
+    "n": 1,
+    "addressed": 8
+   },
+   {
+    "v": "accessibility_provisions",
+    "x": "inclusion_by_design",
+    "key": "accessibility_provisions=inclusion_by_design",
+    "n": 1,
+    "addressed": 8
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "confidential_institutional",
+    "key": "data_entry_rules=confidential_institutional",
+    "n": 2,
+    "addressed": 17
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "third_party_confidential",
+    "key": "data_entry_rules=third_party_confidential",
+    "n": 2,
+    "addressed": 17
+   },
+   {
+    "v": "default_when_silent",
+    "x": "use_by_use_rule",
+    "key": "default_when_silent=use_by_use_rule",
+    "n": 3,
+    "addressed": 26
+   },
+   {
+    "v": "default_when_silent",
+    "x": "misconduct_only_if_unacknowledged",
+    "key": "default_when_silent=misconduct_only_if_unacknowledged",
+    "n": 3,
+    "addressed": 26
+   },
+   {
+    "v": "defers_audience_to_other_document",
+    "x": "staff_research",
+    "key": "defers_audience_to_other_document=staff_research",
+    "n": 1,
+    "addressed": 9
+   },
+   {
+    "v": "defers_audience_to_other_document",
+    "x": "pgr",
+    "key": "defers_audience_to_other_document=pgr",
+    "n": 1,
+    "addressed": 9
+   },
+   {
+    "v": "ai_training",
+    "x": "mandatory",
+    "key": "ai_training=mandatory",
+    "n": 2,
+    "addressed": 19
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "labour",
+    "key": "ethical_concerns_named=labour",
+    "n": 3,
+    "addressed": 30
+   },
+   {
+    "v": "assessment_scheme",
+    "x": "two_lane",
+    "key": "assessment_scheme=two_lane",
+    "n": 1,
+    "addressed": 10
+   },
+   {
+    "v": "review_commitment",
+    "x": "relative_timing",
+    "key": "review_commitment=relative_timing",
+    "n": 1,
+    "addressed": 10
+   },
+   {
+    "v": "instrument_force",
+    "x": "recommendations",
+    "key": "instrument_force=recommendations",
+    "n": 4,
+    "addressed": 44
+   },
+   {
+    "v": "institutional_tool_class",
+    "x": "in_house_platform",
+    "key": "institutional_tool_class=in_house_platform",
+    "n": 1,
+    "addressed": 12
+   },
+   {
+    "v": "non_institutional_tool_rule",
+    "x": "warns_no_protection_outside",
+    "key": "non_institutional_tool_rule=warns_no_protection_outside",
+    "n": 1,
+    "addressed": 13
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "unauthorised_aid",
+    "key": "misconduct_framed_as=unauthorised_aid",
+    "n": 2,
+    "addressed": 27
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "breach_of_other_policy",
+    "key": "misconduct_framed_as=breach_of_other_policy",
+    "n": 2,
+    "addressed": 27
+   },
+   {
+    "v": "institutional_posture",
+    "x": "prohibit",
+    "key": "institutional_posture=prohibit",
+    "n": 3,
+    "addressed": 41
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "date_accessed",
+    "key": "disclosure_contents=date_accessed",
+    "n": 1,
+    "addressed": 14
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "why_used",
+    "key": "disclosure_contents=why_used",
+    "n": 1,
+    "addressed": 14
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "learning_reflection",
+    "key": "disclosure_contents=learning_reflection",
+    "n": 1,
+    "addressed": 14
+   },
+   {
+    "v": "declaration_enforced_by",
+    "x": "submission_blocked",
+    "key": "declaration_enforced_by=submission_blocked",
+    "n": 1,
+    "addressed": 14
+   },
+   {
+    "v": "referencing_requirement",
+    "x": "convention_unsettled",
+    "key": "referencing_requirement=convention_unsettled",
+    "n": 1,
+    "addressed": 16
+   },
+   {
+    "v": "sanctions_stated",
+    "x": "access_removal",
+    "key": "sanctions_stated=access_removal",
+    "n": 1,
+    "addressed": 18
+   },
+   {
+    "v": "ai_training",
+    "x": "planned",
+    "key": "ai_training=planned",
+    "n": 1,
+    "addressed": 19
+   },
+   {
+    "v": "ai_training",
+    "x": "auto_enrolled_recommended",
+    "key": "ai_training=auto_enrolled_recommended",
+    "n": 1,
+    "addressed": 19
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "other_named_institution",
+    "key": "external_frameworks_adopted=other_named_institution",
+    "n": 1,
+    "addressed": 21
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "unesco",
+    "key": "external_frameworks_adopted=unesco",
+    "n": 1,
+    "addressed": 21
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "government_framework",
+    "key": "external_frameworks_adopted=government_framework",
+    "n": 1,
+    "addressed": 21
+   },
+   {
+    "v": "instrument_force",
+    "x": "faq",
+    "key": "instrument_force=faq",
+    "n": 2,
+    "addressed": 44
+   },
+   {
+    "v": "date_source",
+    "x": "inferred_from_content",
+    "key": "date_source=inferred_from_content",
+    "n": 1,
+    "addressed": 24
+   },
+   {
+    "v": "default_when_silent",
+    "x": "permit_all",
+    "key": "default_when_silent=permit_all",
+    "n": 1,
+    "addressed": 26
+   },
+   {
+    "v": "default_when_silent",
+    "x": "treated_as_human_assistance",
+    "key": "default_when_silent=treated_as_human_assistance",
+    "n": 1,
+    "addressed": 26
+   },
+   {
+    "v": "default_when_silent",
+    "x": "permit_with_acknowledgement",
+    "key": "default_when_silent=permit_with_acknowledgement",
+    "n": 1,
+    "addressed": 26
+   },
+   {
+    "v": "default_when_silent",
+    "x": "differs_by_assessment_type",
+    "key": "default_when_silent=differs_by_assessment_type",
+    "n": 1,
+    "addressed": 26
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "poor_academic_practice",
+    "key": "misconduct_framed_as=poor_academic_practice",
+    "n": 1,
+    "addressed": 27
+   }
+  ],
+  "top": [
+   {
+    "A": "instrument_force=policy",
+    "B": "issued_by_type=central_service",
+    "n": 18,
+    "a": 0,
+    "b": 4,
+    "c": 14,
+    "d": 0,
+    "p": 0.0003267973856209159,
+    "lift": 0,
+    "q": 0.05767973856209185
+   },
+   {
+    "A": "instrument_force=policy",
+    "B": "issued_by_type=governing_body",
+    "n": 18,
+    "a": 4,
+    "b": 0,
+    "c": 0,
+    "d": 14,
+    "p": 0.000326797385620917,
+    "lift": 4.5,
+    "q": 0.05767973856209185
+   },
+   {
+    "A": "use_language_editing=permitted",
+    "B": "use_full_text_generation=conditional",
+    "n": 15,
+    "a": 0,
+    "b": 5,
+    "c": 9,
+    "d": 1,
+    "p": 0.0019980019980019984,
+    "lift": 0,
+    "q": 0.11754911754911779
+   },
+   {
+    "A": "use_language_editing=conditional",
+    "B": "use_full_text_generation=conditional",
+    "n": 15,
+    "a": 9,
+    "b": 1,
+    "c": 0,
+    "d": 5,
+    "p": 0.0019980019980019984,
+    "lift": 1.5,
+    "q": 0.11754911754911779
+   },
+   {
+    "A": "use_language_editing=permitted",
+    "B": "use_full_text_generation=prohibited",
+    "n": 15,
+    "a": 5,
+    "b": 0,
+    "c": 1,
+    "d": 9,
+    "p": 0.001998001998002002,
+    "lift": 2.5,
+    "q": 0.11754911754911779
+   },
+   {
+    "A": "use_language_editing=conditional",
+    "B": "use_full_text_generation=prohibited",
+    "n": 15,
+    "a": 1,
+    "b": 9,
+    "c": 5,
+    "d": 0,
+    "p": 0.001998001998002002,
+    "lift": 0.25,
+    "q": 0.11754911754911779
+   },
+   {
+    "A": "instrument_force=guidance",
+    "B": "issued_by_type=central_service",
+    "n": 18,
+    "a": 11,
+    "b": 0,
+    "c": 3,
+    "d": 4,
+    "p": 0.011437908496732069,
+    "lift": 1.29,
+    "q": 0.5046977124183043
+   },
+   {
+    "A": "instrument_force=guidance",
+    "B": "issued_by_type=governing_body",
+    "n": 18,
+    "a": 0,
+    "b": 11,
+    "c": 4,
+    "d": 3,
+    "p": 0.011437908496732109,
+    "lift": 0,
+    "q": 0.5046977124183043
+   },
+   {
+    "A": "default_when_silent=ask_instructor",
+    "B": "ethical_concerns_named=copyright_ip",
+    "n": 21,
+    "a": 3,
+    "b": 6,
+    "c": 10,
+    "d": 2,
+    "p": 0.03184431667403816,
+    "lift": 0.54,
+    "q": 1
+   },
+   {
+    "A": "permission_set_by=assessment_brief",
+    "B": "use_language_editing=permitted",
+    "n": 17,
+    "a": 1,
+    "b": 9,
+    "c": 5,
+    "d": 2,
+    "p": 0.03450226244343889,
+    "lift": 0.28,
+    "q": 1
+   },
+   {
+    "A": "permission_set_by=assessment_brief",
+    "B": "use_language_editing=conditional",
+    "n": 17,
+    "a": 9,
+    "b": 1,
+    "c": 2,
+    "d": 5,
+    "p": 0.034502262443438944,
+    "lift": 1.39,
+    "q": 1
+   },
+   {
+    "A": "permission_set_by=school_or_faculty",
+    "B": "ethical_concerns_named=copyright_ip",
+    "n": 25,
+    "a": 5,
+    "b": 0,
+    "c": 9,
+    "d": 11,
+    "p": 0.04637681159420286,
+    "lift": 1.79,
+    "q": 1
+   },
+   {
+    "A": "default_when_silent=prohibit_all",
+    "B": "ethical_concerns_named=environment",
+    "n": 21,
+    "a": 4,
+    "b": 1,
+    "c": 4,
+    "d": 12,
+    "p": 0.047471620227038235,
+    "lift": 2.1,
+    "q": 1
+   },
+   {
+    "A": "permission_set_by=school_or_faculty",
+    "B": "ethical_concerns_named=over_reliance",
+    "n": 25,
+    "a": 5,
+    "b": 0,
+    "c": 10,
+    "d": 10,
+    "p": 0.06126482213438706,
+    "lift": 1.67,
+    "q": 1
+   }
+  ]
+ },
+ "rules": {
+  "label": "excluding pointer pages and documents with no stated force",
+  "docs": 37,
+  "tests_run": 278,
+  "freq": [
+   {
+    "v": "names_institution_provided_tool",
+    "x": true,
+    "key": "names_institution_provided_tool=true",
+    "n": 12,
+    "addressed": 12
+   },
+   {
+    "v": "states_user_remains_responsible",
+    "x": true,
+    "key": "states_user_remains_responsible=true",
+    "n": 10,
+    "addressed": 10
+   },
+   {
+    "v": "date_source",
+    "x": "stated_on_page",
+    "key": "date_source=stated_on_page",
+    "n": 20,
+    "addressed": 21
+   },
+   {
+    "v": "declaration_enforced_by",
+    "x": "treated_as_misconduct",
+    "key": "declaration_enforced_by=treated_as_misconduct",
+    "n": 13,
+    "addressed": 14
+   },
+   {
+    "v": "tiers_present",
+    "x": "no_ai_tier",
+    "key": "tiers_present=no_ai_tier",
+    "n": 7,
+    "addressed": 8
+   },
+   {
+    "v": "tiers_present",
+    "x": "assistance_tier",
+    "key": "tiers_present=assistance_tier",
+    "n": 7,
+    "addressed": 8
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "how_used",
+    "key": "disclosure_contents=how_used",
+    "n": 11,
+    "addressed": 13
+   },
+   {
+    "v": "institutional_tool_class",
+    "x": "microsoft_copilot",
+    "key": "institutional_tool_class=microsoft_copilot",
+    "n": 10,
+    "addressed": 12
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "accuracy",
+    "key": "ethical_concerns_named=accuracy",
+    "n": 21,
+    "addressed": 26
+   },
+   {
+    "v": "use_study_revision",
+    "x": "permitted",
+    "key": "use_study_revision=permitted",
+    "n": 8,
+    "addressed": 10
+   },
+   {
+    "v": "institutional_posture",
+    "x": "permit_within_rules",
+    "key": "institutional_posture=permit_within_rules",
+    "n": 26,
+    "addressed": 33
+   },
+   {
+    "v": "sanctions_stated",
+    "x": "existing_procedure",
+    "key": "sanctions_stated=existing_procedure",
+    "n": 14,
+    "addressed": 18
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "bias",
+    "key": "ethical_concerns_named=bias",
+    "n": 20,
+    "addressed": 26
+   },
+   {
+    "v": "issued_by_type",
+    "x": "central_service",
+    "key": "issued_by_type=central_service",
+    "n": 13,
+    "addressed": 17
+   },
+   {
+    "v": "disclosure_obligation",
+    "x": "always_required",
+    "key": "disclosure_obligation=always_required",
+    "n": 21,
+    "addressed": 28
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "personal_data",
+    "key": "data_entry_rules=personal_data",
+    "n": 12,
+    "addressed": 16
+   },
+   {
+    "v": "ai_training",
+    "x": "provided_optional",
+    "key": "ai_training=provided_optional",
+    "n": 12,
+    "addressed": 16
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "parent_institutional_policy",
+    "key": "external_frameworks_adopted=parent_institutional_policy",
+    "n": 12,
+    "addressed": 18
+   },
+   {
+    "v": "instrument_force",
+    "x": "guidance",
+    "key": "instrument_force=guidance",
+    "n": 24,
+    "addressed": 37
+   },
+   {
+    "v": "use_summarising_sources",
+    "x": "permitted",
+    "key": "use_summarising_sources=permitted",
+    "n": 9,
+    "addressed": 14
+   },
+   {
+    "v": "use_language_editing",
+    "x": "conditional",
+    "key": "use_language_editing=conditional",
+    "n": 10,
+    "addressed": 16
+   },
+   {
+    "v": "disclosure_location",
+    "x": "statement_in_work",
+    "key": "disclosure_location=statement_in_work",
+    "n": 5,
+    "addressed": 8
+   },
+   {
+    "v": "tiers_present",
+    "x": "language_editing_only_tier",
+    "key": "tiers_present=language_editing_only_tier",
+    "n": 5,
+    "addressed": 8
+   },
+   {
+    "v": "tiers_present",
+    "x": "ai_required_or_integrated_tier",
+    "key": "tiers_present=ai_required_or_integrated_tier",
+    "n": 5,
+    "addressed": 8
+   },
+   {
+    "v": "permission_set_by",
+    "x": "module_or_instructor",
+    "key": "permission_set_by=module_or_instructor",
+    "n": 18,
+    "addressed": 29
+   },
+   {
+    "v": "permission_set_by",
+    "x": "assessment_brief",
+    "key": "permission_set_by=assessment_brief",
+    "n": 18,
+    "addressed": 29
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "copyright_ip",
+    "key": "ethical_concerns_named=copyright_ip",
+    "n": 16,
+    "addressed": 26
+   },
+   {
+    "v": "instructor_must_communicate_rules",
+    "x": "required",
+    "key": "instructor_must_communicate_rules=required",
+    "n": 8,
+    "addressed": 13
+   },
+   {
+    "v": "non_institutional_tool_rule",
+    "x": "institutional_preferred",
+    "key": "non_institutional_tool_rule=institutional_preferred",
+    "n": 8,
+    "addressed": 13
+   },
+   {
+    "v": "use_full_text_generation",
+    "x": "conditional",
+    "key": "use_full_text_generation=conditional",
+    "n": 12,
+    "addressed": 20
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "over_reliance",
+    "key": "ethical_concerns_named=over_reliance",
+    "n": 15,
+    "addressed": 26
+   },
+   {
+    "v": "assessments_must_be_labelled",
+    "x": "required",
+    "key": "assessments_must_be_labelled=required",
+    "n": 8,
+    "addressed": 14
+   },
+   {
+    "v": "precedence",
+    "x": "local_overrides",
+    "key": "precedence=local_overrides",
+    "n": 7,
+    "addressed": 13
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "prompts",
+    "key": "disclosure_contents=prompts",
+    "n": 7,
+    "addressed": 13
+   },
+   {
+    "v": "use_idea_generation",
+    "x": "permitted",
+    "key": "use_idea_generation=permitted",
+    "n": 8,
+    "addressed": 15
+   },
+   {
+    "v": "legal_instruments_named",
+    "x": "data_protection",
+    "key": "legal_instruments_named=data_protection",
+    "n": 6,
+    "addressed": 12
+   },
+   {
+    "v": "use_idea_generation",
+    "x": "conditional",
+    "key": "use_idea_generation=conditional",
+    "n": 7,
+    "addressed": 15
+   },
+   {
+    "v": "precedence",
+    "x": "layered",
+    "key": "precedence=layered",
+    "n": 6,
+    "addressed": 13
+   },
+   {
+    "v": "permission_set_by",
+    "x": "institution_wide_rule",
+    "key": "permission_set_by=institution_wide_rule",
+    "n": 13,
+    "addressed": 29
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "academic_misconduct_unspecified",
+    "key": "misconduct_framed_as=academic_misconduct_unspecified",
+    "n": 11,
+    "addressed": 25
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "copyrighted_material",
+    "key": "data_entry_rules=copyrighted_material",
+    "n": 7,
+    "addressed": 16
+   },
+   {
+    "v": "assessments_must_be_labelled",
+    "x": "recommended",
+    "key": "assessments_must_be_labelled=recommended",
+    "n": 6,
+    "addressed": 14
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "environment",
+    "key": "ethical_concerns_named=environment",
+    "n": 11,
+    "addressed": 26
+   },
+   {
+    "v": "legal_instruments_named",
+    "x": "copyright",
+    "key": "legal_instruments_named=copyright",
+    "n": 5,
+    "addressed": 12
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "plagiarism",
+    "key": "misconduct_framed_as=plagiarism",
+    "n": 10,
+    "addressed": 25
+   },
+   {
+    "v": "use_full_text_generation",
+    "x": "prohibited",
+    "key": "use_full_text_generation=prohibited",
+    "n": 8,
+    "addressed": 20
+   },
+   {
+    "v": "review_commitment",
+    "x": "ongoing_unspecified",
+    "key": "review_commitment=ongoing_unspecified",
+    "n": 4,
+    "addressed": 10
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "definition_or_scale_source",
+    "key": "external_frameworks_adopted=definition_or_scale_source",
+    "n": 7,
+    "addressed": 18
+   },
+   {
+    "v": "instructor_must_communicate_rules",
+    "x": "recommended",
+    "key": "instructor_must_communicate_rules=recommended",
+    "n": 5,
+    "addressed": 13
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "outputs",
+    "key": "disclosure_contents=outputs",
+    "n": 5,
+    "addressed": 13
+   },
+   {
+    "v": "default_when_silent",
+    "x": "ask_instructor",
+    "key": "default_when_silent=ask_instructor",
+    "n": 9,
+    "addressed": 24
+   },
+   {
+    "v": "use_language_editing",
+    "x": "permitted",
+    "key": "use_language_editing=permitted",
+    "n": 6,
+    "addressed": 16
+   },
+   {
+    "v": "disclosure_location",
+    "x": "coversheet_or_form",
+    "key": "disclosure_location=coversheet_or_form",
+    "n": 3,
+    "addressed": 8
+   },
+   {
+    "v": "accessibility_provisions",
+    "x": "ai_presented_as_accessibility_benefit",
+    "key": "accessibility_provisions=ai_presented_as_accessibility_benefit",
+    "n": 3,
+    "addressed": 8
+   },
+   {
+    "v": "use_summarising_sources",
+    "x": "conditional",
+    "key": "use_summarising_sources=conditional",
+    "n": 5,
+    "addressed": 14
+   },
+   {
+    "v": "referencing_requirement",
+    "x": "per_library_or_instructor_guidance",
+    "key": "referencing_requirement=per_library_or_instructor_guidance",
+    "n": 5,
+    "addressed": 15
+   },
+   {
+    "v": "institutional_tool_class",
+    "x": "licensed_third_party_tool",
+    "key": "institutional_tool_class=licensed_third_party_tool",
+    "n": 4,
+    "addressed": 12
+   },
+   {
+    "v": "legal_instruments_named",
+    "x": "eu_ai_act",
+    "key": "legal_instruments_named=eu_ai_act",
+    "n": 4,
+    "addressed": 12
+   },
+   {
+    "v": "assessment_scheme",
+    "x": "four_level",
+    "key": "assessment_scheme=four_level",
+    "n": 3,
+    "addressed": 9
+   },
+   {
+    "v": "assessment_scheme",
+    "x": "other_scale",
+    "key": "assessment_scheme=other_scale",
+    "n": 3,
+    "addressed": 9
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "false_authorship",
+    "key": "misconduct_framed_as=false_authorship",
+    "n": 8,
+    "addressed": 25
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "confidential_unspecified",
+    "key": "data_entry_rules=confidential_unspecified",
+    "n": 5,
+    "addressed": 16
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "tool_name",
+    "key": "disclosure_contents=tool_name",
+    "n": 4,
+    "addressed": 13
+   },
+   {
+    "v": "non_institutional_tool_rule",
+    "x": "prohibited_for_defined_data",
+    "key": "non_institutional_tool_rule=prohibited_for_defined_data",
+    "n": 4,
+    "addressed": 13
+   },
+   {
+    "v": "review_commitment",
+    "x": "fixed_date",
+    "key": "review_commitment=fixed_date",
+    "n": 3,
+    "addressed": 10
+   },
+   {
+    "v": "referencing_requirement",
+    "x": "required_in_reference_list",
+    "key": "referencing_requirement=required_in_reference_list",
+    "n": 4,
+    "addressed": 15
+   },
+   {
+    "v": "accessibility_provisions",
+    "x": "ai_as_adjustment_possible",
+    "key": "accessibility_provisions=ai_as_adjustment_possible",
+    "n": 2,
+    "addressed": 8
+   },
+   {
+    "v": "accessibility_provisions",
+    "x": "assistive_tools_exempt",
+    "key": "accessibility_provisions=assistive_tools_exempt",
+    "n": 2,
+    "addressed": 8
+   },
+   {
+    "v": "permission_set_by",
+    "x": "programme_or_course_team",
+    "key": "permission_set_by=programme_or_course_team",
+    "n": 7,
+    "addressed": 29
+   },
+   {
+    "v": "issued_by_type",
+    "x": "governing_body",
+    "key": "issued_by_type=governing_body",
+    "n": 4,
+    "addressed": 17
+   },
+   {
+    "v": "sanctions_stated",
+    "x": "vague_disciplinary",
+    "key": "sanctions_stated=vague_disciplinary",
+    "n": 4,
+    "addressed": 18
+   },
+   {
+    "v": "assessment_scheme",
+    "x": "three_category",
+    "key": "assessment_scheme=three_category",
+    "n": 2,
+    "addressed": 9
+   },
+   {
+    "v": "default_when_silent",
+    "x": "prohibit_all",
+    "key": "default_when_silent=prohibit_all",
+    "n": 5,
+    "addressed": 24
+   },
+   {
+    "v": "permission_set_by",
+    "x": "school_or_faculty",
+    "key": "permission_set_by=school_or_faculty",
+    "n": 6,
+    "addressed": 29
+   },
+   {
+    "v": "referencing_requirement",
+    "x": "acknowledge_like_human_sources",
+    "key": "referencing_requirement=acknowledge_like_human_sources",
+    "n": 3,
+    "addressed": 15
+   },
+   {
+    "v": "use_study_revision",
+    "x": "conditional",
+    "key": "use_study_revision=conditional",
+    "n": 2,
+    "addressed": 10
+   },
+   {
+    "v": "review_commitment",
+    "x": "fixed_interval",
+    "key": "review_commitment=fixed_interval",
+    "n": 2,
+    "addressed": 10
+   },
+   {
+    "v": "instrument_force",
+    "x": "policy",
+    "key": "instrument_force=policy",
+    "n": 7,
+    "addressed": 37
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "student_work",
+    "key": "data_entry_rules=student_work",
+    "n": 3,
+    "addressed": 16
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "eu_ai_act",
+    "key": "external_frameworks_adopted=eu_ai_act",
+    "n": 3,
+    "addressed": 18
+   },
+   {
+    "v": "sanctions_stated",
+    "x": "penalties_listed",
+    "key": "sanctions_stated=penalties_listed",
+    "n": 3,
+    "addressed": 18
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "tool_version",
+    "key": "disclosure_contents=tool_version",
+    "n": 2,
+    "addressed": 13
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "own_contribution",
+    "key": "disclosure_contents=own_contribution",
+    "n": 2,
+    "addressed": 13
+   },
+   {
+    "v": "non_institutional_tool_rule",
+    "x": "approved_tool_only_for_uploads",
+    "key": "non_institutional_tool_rule=approved_tool_only_for_uploads",
+    "n": 2,
+    "addressed": 13
+   },
+   {
+    "v": "institutional_posture",
+    "x": "encourage",
+    "key": "institutional_posture=encourage",
+    "n": 5,
+    "addressed": 33
+   },
+   {
+    "v": "disclosure_obligation",
+    "x": "recommended",
+    "key": "disclosure_obligation=recommended",
+    "n": 4,
+    "addressed": 28
+   },
+   {
+    "v": "referencing_requirement",
+    "x": "left_to_course_or_discipline",
+    "key": "referencing_requirement=left_to_course_or_discipline",
+    "n": 2,
+    "addressed": 15
+   },
+   {
+    "v": "default_when_silent",
+    "x": "use_by_use_rule",
+    "key": "default_when_silent=use_by_use_rule",
+    "n": 3,
+    "addressed": 24
+   },
+   {
+    "v": "default_when_silent",
+    "x": "misconduct_only_if_unacknowledged",
+    "key": "default_when_silent=misconduct_only_if_unacknowledged",
+    "n": 3,
+    "addressed": 24
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "confidential_institutional",
+    "key": "data_entry_rules=confidential_institutional",
+    "n": 2,
+    "addressed": 16
+   },
+   {
+    "v": "data_entry_rules",
+    "x": "third_party_confidential",
+    "key": "data_entry_rules=third_party_confidential",
+    "n": 2,
+    "addressed": 16
+   },
+   {
+    "v": "ai_training",
+    "x": "mandatory",
+    "key": "ai_training=mandatory",
+    "n": 2,
+    "addressed": 16
+   },
+   {
+    "v": "disclosure_location",
+    "x": "appendix",
+    "key": "disclosure_location=appendix",
+    "n": 1,
+    "addressed": 8
+   },
+   {
+    "v": "accessibility_provisions",
+    "x": "inclusion_by_design",
+    "key": "accessibility_provisions=inclusion_by_design",
+    "n": 1,
+    "addressed": 8
+   },
+   {
+    "v": "ethical_concerns_named",
+    "x": "labour",
+    "key": "ethical_concerns_named=labour",
+    "n": 3,
+    "addressed": 26
+   },
+   {
+    "v": "assessment_scheme",
+    "x": "two_lane",
+    "key": "assessment_scheme=two_lane",
+    "n": 1,
+    "addressed": 9
+   },
+   {
+    "v": "instrument_force",
+    "x": "recommendations",
+    "key": "instrument_force=recommendations",
+    "n": 4,
+    "addressed": 37
+   },
+   {
+    "v": "disclosure_obligation",
+    "x": "required_if_course_specifies",
+    "key": "disclosure_obligation=required_if_course_specifies",
+    "n": 3,
+    "addressed": 28
+   },
+   {
+    "v": "review_commitment",
+    "x": "relative_timing",
+    "key": "review_commitment=relative_timing",
+    "n": 1,
+    "addressed": 10
+   },
+   {
+    "v": "institutional_tool_class",
+    "x": "in_house_platform",
+    "key": "institutional_tool_class=in_house_platform",
+    "n": 1,
+    "addressed": 12
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "unauthorised_aid",
+    "key": "misconduct_framed_as=unauthorised_aid",
+    "n": 2,
+    "addressed": 25
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "breach_of_other_policy",
+    "key": "misconduct_framed_as=breach_of_other_policy",
+    "n": 2,
+    "addressed": 25
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "date_accessed",
+    "key": "disclosure_contents=date_accessed",
+    "n": 1,
+    "addressed": 13
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "why_used",
+    "key": "disclosure_contents=why_used",
+    "n": 1,
+    "addressed": 13
+   },
+   {
+    "v": "disclosure_contents",
+    "x": "learning_reflection",
+    "key": "disclosure_contents=learning_reflection",
+    "n": 1,
+    "addressed": 13
+   },
+   {
+    "v": "non_institutional_tool_rule",
+    "x": "warns_no_protection_outside",
+    "key": "non_institutional_tool_rule=warns_no_protection_outside",
+    "n": 1,
+    "addressed": 13
+   },
+   {
+    "v": "declaration_enforced_by",
+    "x": "submission_blocked",
+    "key": "declaration_enforced_by=submission_blocked",
+    "n": 1,
+    "addressed": 14
+   },
+   {
+    "v": "referencing_requirement",
+    "x": "convention_unsettled",
+    "key": "referencing_requirement=convention_unsettled",
+    "n": 1,
+    "addressed": 15
+   },
+   {
+    "v": "ai_training",
+    "x": "planned",
+    "key": "ai_training=planned",
+    "n": 1,
+    "addressed": 16
+   },
+   {
+    "v": "ai_training",
+    "x": "auto_enrolled_recommended",
+    "key": "ai_training=auto_enrolled_recommended",
+    "n": 1,
+    "addressed": 16
+   },
+   {
+    "v": "institutional_posture",
+    "x": "prohibit",
+    "key": "institutional_posture=prohibit",
+    "n": 2,
+    "addressed": 33
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "other_named_institution",
+    "key": "external_frameworks_adopted=other_named_institution",
+    "n": 1,
+    "addressed": 18
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "unesco",
+    "key": "external_frameworks_adopted=unesco",
+    "n": 1,
+    "addressed": 18
+   },
+   {
+    "v": "external_frameworks_adopted",
+    "x": "government_framework",
+    "key": "external_frameworks_adopted=government_framework",
+    "n": 1,
+    "addressed": 18
+   },
+   {
+    "v": "sanctions_stated",
+    "x": "access_removal",
+    "key": "sanctions_stated=access_removal",
+    "n": 1,
+    "addressed": 18
+   },
+   {
+    "v": "instrument_force",
+    "x": "faq",
+    "key": "instrument_force=faq",
+    "n": 2,
+    "addressed": 37
+   },
+   {
+    "v": "date_source",
+    "x": "inferred_from_content",
+    "key": "date_source=inferred_from_content",
+    "n": 1,
+    "addressed": 21
+   },
+   {
+    "v": "default_when_silent",
+    "x": "permit_all",
+    "key": "default_when_silent=permit_all",
+    "n": 1,
+    "addressed": 24
+   },
+   {
+    "v": "default_when_silent",
+    "x": "treated_as_human_assistance",
+    "key": "default_when_silent=treated_as_human_assistance",
+    "n": 1,
+    "addressed": 24
+   },
+   {
+    "v": "default_when_silent",
+    "x": "permit_with_acknowledgement",
+    "key": "default_when_silent=permit_with_acknowledgement",
+    "n": 1,
+    "addressed": 24
+   },
+   {
+    "v": "default_when_silent",
+    "x": "differs_by_assessment_type",
+    "key": "default_when_silent=differs_by_assessment_type",
+    "n": 1,
+    "addressed": 24
+   },
+   {
+    "v": "misconduct_framed_as",
+    "x": "poor_academic_practice",
+    "key": "misconduct_framed_as=poor_academic_practice",
+    "n": 1,
+    "addressed": 25
+   }
+  ],
+  "top": [
+   {
+    "A": "instrument_force=policy",
+    "B": "issued_by_type=central_service",
+    "n": 17,
+    "a": 0,
+    "b": 4,
+    "c": 13,
+    "d": 0,
+    "p": 0.00042016806722689056,
+    "lift": 0,
+    "q": 0.05840336134453779
+   },
+   {
+    "A": "instrument_force=policy",
+    "B": "issued_by_type=governing_body",
+    "n": 17,
+    "a": 4,
+    "b": 0,
+    "c": 0,
+    "d": 13,
+    "p": 0.00042016806722689056,
+    "lift": 4.25,
+    "q": 0.05840336134453779
+   },
+   {
+    "A": "instrument_force=guidance",
+    "B": "issued_by_type=central_service",
+    "n": 17,
+    "a": 11,
+    "b": 0,
+    "c": 2,
+    "d": 4,
+    "p": 0.006302521008403361,
+    "lift": 1.31,
+    "q": 0.43802521008403356
+   },
+   {
+    "A": "instrument_force=guidance",
+    "B": "issued_by_type=governing_body",
+    "n": 17,
+    "a": 0,
+    "b": 11,
+    "c": 4,
+    "d": 2,
+    "p": 0.006302521008403361,
+    "lift": 0,
+    "q": 0.43802521008403356
+   },
+   {
+    "A": "instrument_force=policy",
+    "B": "institutional_posture=encourage",
+    "n": 33,
+    "a": 3,
+    "b": 3,
+    "c": 2,
+    "d": 25,
+    "p": 0.0313100414602083,
+    "lift": 3.3,
+    "q": 1
+   },
+   {
+    "A": "permission_set_by=assessment_brief",
+    "B": "use_language_editing=conditional",
+    "n": 16,
+    "a": 8,
+    "b": 1,
+    "c": 2,
+    "d": 5,
+    "p": 0.034965034965035,
+    "lift": 1.42,
+    "q": 1
+   },
+   {
+    "A": "permission_set_by=assessment_brief",
+    "B": "use_language_editing=permitted",
+    "n": 16,
+    "a": 1,
+    "b": 8,
+    "c": 5,
+    "d": 2,
+    "p": 0.034965034965035065,
+    "lift": 0.3,
+    "q": 1
+   },
+   {
+    "A": "permission_set_by=school_or_faculty",
+    "B": "ethical_concerns_named=over_reliance",
+    "n": 23,
+    "a": 5,
+    "b": 0,
+    "c": 8,
+    "d": 10,
+    "p": 0.04573687182382828,
+    "lift": 1.77,
+    "q": 1
+   },
+   {
+    "A": "permission_set_by=module_or_instructor",
+    "B": "disclosure_obligation=always_required",
+    "n": 25,
+    "a": 10,
+    "b": 6,
+    "c": 9,
+    "d": 0,
+    "p": 0.057075098814229036,
+    "lift": 0.82,
+    "q": 1
+   },
+   {
+    "A": "default_when_silent=ask_instructor",
+    "B": "ethical_concerns_named=copyright_ip",
+    "n": 20,
+    "a": 3,
+    "b": 5,
+    "c": 10,
+    "d": 2,
+    "p": 0.06233230134158951,
+    "lift": 0.58,
+    "q": 1
+   },
+   {
+    "A": "use_full_text_generation=prohibited",
+    "B": "misconduct_framed_as=plagiarism",
+    "n": 18,
+    "a": 1,
+    "b": 6,
+    "c": 7,
+    "d": 4,
+    "p": 0.06561085972850698,
+    "lift": 0.32,
+    "q": 1
+   },
+   {
+    "A": "use_full_text_generation=conditional",
+    "B": "misconduct_framed_as=plagiarism",
+    "n": 18,
+    "a": 7,
+    "b": 4,
+    "c": 1,
+    "d": 6,
+    "p": 0.06561085972850698,
+    "lift": 1.43,
+    "q": 1
+   },
+   {
+    "A": "permission_set_by=module_or_instructor",
+    "B": "misconduct_framed_as=false_authorship",
+    "n": 23,
+    "a": 3,
+    "b": 12,
+    "c": 5,
+    "d": 3,
+    "p": 0.07133387992184592,
+    "lift": 0.58,
+    "q": 1
+   },
+   {
+    "A": "institutional_posture=permit_within_rules",
+    "B": "permission_set_by=programme_or_course_team",
+    "n": 29,
+    "a": 4,
+    "b": 20,
+    "c": 3,
+    "d": 2,
+    "p": 0.07474211612142703,
+    "lift": 0.69,
+    "q": 1
+   }
+  ]
+ }
+}

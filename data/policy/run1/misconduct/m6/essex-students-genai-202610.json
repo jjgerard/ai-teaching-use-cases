@@ -1,0 +1,44 @@
+{
+ "doc_id": "essex-students-genai-202610",
+ "coder": "mis-m6",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Never present AI generated work as your own in an assignment. That would be cheating.",
+   "anchor": "How to avoid an academic offence"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "false authorship or contract cheating, including the soliciting of a third party or the use of artificial intelligence, machine learning or other automated technology, to produce material that is then submitted for assessment and presented as one’s own original work.",
+   "anchor": "What would be cheating?"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": true,
+   "quote": "Never ask AI to generate experimental data which you then submit having purported to have collected it yourself as primary data, either in raw form or after analysis. This is fabrication and counts as serious misconduct.",
+   "anchor": "How to avoid an academic offence"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Should you be suspected of committing an academic offence you will be able to use such notes and archived files to demonstrate how you have constructed the assignment.",
+   "anchor": "How to avoid an academic offence"
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "False authorship",
+   "ai_named": true,
+   "quote": "false authorship or contract cheating, including the soliciting of a third party or the use of artificial intelligence, machine learning or other automated technology, to produce material that is then submitted for assessment and presented as one’s own original work."
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{"doc_id":"cambridge-staff-assessment-202610","coder":"aud-a13","checked_types":68,
+"found":[
+{"type":"ai_draws_on_others_work_without_credit_or_consent","quote":"anything generated has already been informed by the work of others without appropriate attribution or reference and as such is a violation of academic misconduct when submitted.","anchor":"Plagiarism & Academic Misconduct"},
+{"type":"rules_set_locally_by_module_or_lecturer","quote":"allowing for discipline-specific definitions of what is appropriate","anchor":"Plagiarism & Academic Misconduct"},
+{"type":"ai_permitted_for_study_and_preparation","quote":"The change enables staff and students to engage with these tools more in independent study and formative work","anchor":"Plagiarism & Academic Misconduct"},
+{"type":"ai_tools_may_store_or_train_on_inputs","quote":"Due to lack of clarity and uncertainty of how these tools use and/or store input data","anchor":"Guidance for Examiners"},
+{"type":"training_and_guidance_resources_provided","quote":"The information available on this site is designed to support local discussions within departments and faculties and facilitate the development of discipline-specific statements on the use of GenAI in assessments.","anchor":"Guidance for Staff"}
+],
+"unsure":[
+{"type":"ai_misconduct_handled_under_existing_policy","quote":"We recommend using this guidance together with the information available in the","why":"Points staff to misconduct guidance document; not explicit AI procedure"},
+{"type":"default_ai_permitted_unless_restricted","quote":"unless explicitly stated otherwise in the assessment brief","why":"Exception to misconduct rule, not a stated permissive default"},
+{"type":"ai_should_support_not_replace_own_thinking","quote":"the consequences of over-reliance, what stands to be gained, and what could be lost","why":"Dialogue topic mention, not normative statement"},
+{"type":"declaration_must_state_tool_and_how_used","quote":"should declare their use and describe how it was used within their work.","why":"Staff to consider; content of declaration not mandated"},
+{"type":"personal_or_confidential_data_only_under_stated_conditions","quote":"it is not permitted to share student IP and submitted work without permission from the student","why":"Examiner rule with permission exception; staff precedence applies"},
+{"type":"institution_embraces_ai_enabled_education","quote":"encouraging open dialogue about suitable use, ethical implications","why":"Open stance implied, not explicit commitment"}
+]}

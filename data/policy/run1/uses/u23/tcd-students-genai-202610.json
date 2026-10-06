@@ -1,0 +1,30 @@
+{
+ "doc_id": "tcd-students-genai-202610",
+ "coder": "use-u23",
+ "uses": [],
+ "default_when_silent": {
+  "value": "permit_with_acknowledgement",
+  "quote": "the use of Generative AI is permitted unless otherwise stated in course and module handbooks, or in module descriptions in the Blackboard VLE. However, you must (at a minimum) acknowledge its use"
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "permitted unless otherwise stated in course and module handbooks, or in module descriptions in the Blackboard VLE"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "However, you must (at a minimum) acknowledge its use, using the guidance given in this LibGuide."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "you must (at a minimum) acknowledge its use, using the guidance given in this LibGuide."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

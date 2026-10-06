@@ -1,0 +1,59 @@
+{
+ "doc_id": "keele-students-genai-202610",
+ "coder": "aud-a31",
+ "checked_types": 64,
+ "found": [
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "As an institution our approach to AI is to be risk-aware not risk averse, and to educate ourselves about the opportunities and risks that Gen AI presents",
+   "anchor": "Introduction"
+  },
+  {
+   "type": "guidance_is_provisional_and_will_be_updated",
+   "quote": "This framework will evolve as the use of AI in education develops. Keele is committed to regular review and updates",
+   "anchor": "1. Purpose"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "the output may not be relevant to the prompt, may contain errors and may draw on unreliable or out of date sources",
+   "anchor": "3.3 Staff will be supported to adapt their teaching learning and assessment methods"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "if the training data is biased, the output will likely reﬂect that bias",
+   "anchor": "3.3 Staff will be supported to adapt their teaching learning and assessment methods"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "Staff should remind students that they must disclose when AI tools have been used in their work, that they require proper citation",
+   "anchor": "3.2 Students will be supported to use AI tools ethically and appropriate in their learning"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_environmental_impact",
+   "quote": "discussions on ethical implications, societal and environmental impact",
+   "why": "only a suggested activity topic"
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "copyright infringement, data security and privacy",
+   "why": "passing topic mention in ethics list"
+  },
+  {
+   "type": "assistive_technology_use_permitted",
+   "quote": "have access to AI tools and assistive technologies",
+   "why": "access provision, not clearly permitting assistive AI use"
+  },
+  {
+   "type": "provided_tool_has_data_protection_assurances",
+   "quote": "institutional Gen AI tools, for example Microsoft Copilot, that comply with GDPR and relevant privacy regulations",
+   "why": "recommendation more than assurance about tool"
+  },
+  {
+   "type": "students_not_required_to_use_ai",
+   "quote": "do not alienate students who have legitimate concerns",
+   "why": "inclusion of objectors, not explicit freedom to decline"
+  }
+ ]
+}

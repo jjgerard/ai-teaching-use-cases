@@ -1,0 +1,169 @@
+{
+ "doc_id": "edinburgh-napier-d2-institutional-policy-202610",
+ "coder": "v2f-f2",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "acknowledge_or_declare_ai_use",
+   "quote": "Staff and students are expected to declare when they directly use AIgenerated content.",
+   "anchor": "1. Our Collective Responsibilities"
+  },
+  {
+   "type": "declaration_form_or_content",
+   "quote": "Use the Assessment Gen AI Declaration sheet with students for each assessment submission.",
+   "anchor": "3. Academic Staff (Teaching)"
+  },
+  {
+   "type": "staff_should_disclose_own_ai_use",
+   "quote": "You should always declare use of Gen AI in the creation of teaching materials or feedback to students.",
+   "anchor": "3. Academic Staff (Teaching)"
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "You are responsible for clearly informing students on your modules and programmes about what uses of Gen AI are permitted for learning tasks and assessments.",
+   "anchor": "3. Academic Staff (Teaching)"
+  },
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "You have the academic freedom to decide what use of Gen AI – if any – is permitted, on individual assessments and other learning activities.",
+   "anchor": "3. Academic Staff (Teaching)"
+  },
+  {
+   "type": "students_not_required_to_use_ai",
+   "quote": "You should never require students to sign-up for or use Gen AI tools, as they may have privacy, ethical and environmental concerns. Always provide an alternative means for engaging with the task",
+   "anchor": "3. Academic Staff (Teaching)"
+  },
+  {
+   "type": "ai_detectors_not_to_be_used",
+   "quote": "The University Leadership does not permit the use of Gen AI detection tools on student assessment submissions",
+   "anchor": "2. University Leadership"
+  },
+  {
+   "type": "staff_not_to_use_ai_to_grade_or_give_feedback",
+   "quote": "The University Leadership does not permit the use of Gen AI in marking student submissions or generating feedback, unless this has been made clear to students in advance",
+   "anchor": "2. University Leadership"
+  },
+  {
+   "type": "comply_with_data_protection_law_and_policy",
+   "quote": "Anyone processing personal data on behalf of the University is required to comply with the University Data Protection Policy when using any Gen AI tools.",
+   "anchor": "1. Our Collective Responsibilities"
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "The University Leadership is committed to maintaining transparency, data privacy, and human oversight in all AI-related processes",
+   "anchor": "2. University Leadership"
+  },
+  {
+   "type": "passing_off_ai_work_as_own_is_misconduct",
+   "quote": "Misrepresenting AI-generated work as your own is academic misconduct and may result in an academic integrity investigation.",
+   "anchor": "5. Students (Undergraduate and Taught Postgraduate)"
+  },
+  {
+   "type": "penalties_for_ai_misconduct_stated",
+   "quote": "The outcome of such an investigation may have significant implications for your future studies and negatively impact your personal development and future career prospects.",
+   "anchor": "5. Students (Undergraduate and Taught Postgraduate)"
+  },
+  {
+   "type": "work_must_be_own_not_written_by_ai",
+   "quote": "Your final thesis should be your own work, not AI-generated content.",
+   "anchor": "6. Students (Postgraduate Research)"
+  },
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "If you are unsure about permissible use of Gen AI in your assessments, check the Assessment Brief and ask your module leader/tutor.",
+   "anchor": "5. Students (Undergraduate and Taught Postgraduate)"
+  },
+  {
+   "type": "follow_assessment_brief_instructions",
+   "quote": "If you are unsure about permissible use of Gen AI in your assessments, check the Assessment Brief and ask your module leader/tutor.",
+   "anchor": "5. Students (Undergraduate and Taught Postgraduate)"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "DLTE provides support and training in Gen AI for staff and students",
+   "anchor": "1. Our Collective Responsibilities"
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "Employ strategies for developing students’ Gen AI literacy throughout programmes.",
+   "anchor": "3. Academic Staff (Teaching)"
+  },
+  {
+   "type": "assessment_redesigned_to_test_process_and_understanding",
+   "quote": "Engage in ongoing discussions and critical reflections with your programme team, subject group and Associate Dean for Learning and Teaching to identify actions for assessment redesign.",
+   "anchor": "3. Academic Staff (Teaching)"
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "ENSA works in collaboration with University departments around creation of policy and guidance on the use of Generative AI.",
+   "anchor": "9. Edinburgh Napier Students Association (ENSA)"
+  },
+  {
+   "type": "ai_environmental_impact",
+   "quote": "You have a personal responsibility to think critically about the ethical implications of Gen AI as part of your learning, including its environmental impact, bias, misinformation, and data privacy.",
+   "anchor": "5. Students (Undergraduate and Taught Postgraduate)"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "due to ongoing concerns regarding security, reliability, reproduction of bias, inequity in access, copyright infringements, and environmental impact.",
+   "anchor": "2. University Leadership"
+  },
+  {
+   "type": "assistive_technology_use_permitted",
+   "quote": "Gen AI can be a valuable and enabling tool for many, enhancing understanding, productivity and accessibility, and offering particular benefits for disabled and neurodivergent individuals.",
+   "anchor": "2. University Leadership"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "you should follow the university’s academic integrity referral process and/or discuss with your School Academic Integrity Officer.",
+   "anchor": "3. Academic Staff (Teaching)"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "Share your research writing with your supervisors regularly during your studies and always discuss any intended use of Gen AI with them first.",
+   "anchor": "6. Students (Postgraduate Research)"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_detectors_unreliable_not_sole_basis",
+   "quote": "current technologies have proven to be unreliable, prone to bias",
+   "why": "Given as reason for ban, not a caution on use."
+  },
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "we do not have students’ informed consent for their use with their work",
+   "why": "Consent concern about detectors, not clearly GDPR or IP."
+  },
+  {
+   "type": "assessment_tiered_ai_use_categories",
+   "quote": "You can use and adapt the ‘traffic light’ slide from DLTE’s Gen AI toolkit to communicate to students what is and is not allowed",
+   "why": "Traffic light slide mentioned, scheme not described."
+  },
+  {
+   "type": "ai_should_support_not_replace_own_thinking",
+   "quote": "Ensure that any use of Gen AI in your studies does not compromise your ability to undertake research that achieves these three pillars.",
+   "why": "Research independence, not general support-not-replace statement."
+  },
+  {
+   "type": "ensure_equal_access_to_ai_tools",
+   "quote": "inequity in access",
+   "why": "Listed as concern only, no equal access commitment."
+  },
+  {
+   "type": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "quote": "undeclared or inappropriate use of Gen AI tools",
+   "why": "Named as suspicion trigger for referral, not labelled misconduct."
+  },
+  {
+   "type": "fair_process_and_appeal_rights_in_misconduct_cases",
+   "quote": "ENSA provides support to students following accusations of inappropriate use of Generative AI.",
+   "why": "Student support after accusation, no procedural safeguard stated."
+  },
+  {
+   "type": "ai_draws_on_others_work_without_credit_or_consent",
+   "quote": "copyright infringements",
+   "why": "Passing concern in list, no statement about AI reuse of work."
+  }
+ ]
+}

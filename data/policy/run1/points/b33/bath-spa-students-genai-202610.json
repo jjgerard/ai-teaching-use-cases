@@ -1,0 +1,168 @@
+{
+ "doc_id": "bath-spa-students-genai-202610",
+ "coder": "pts-b33",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "At Bath Spa, your lecturers are free to specify the extent to which you may use AI in your work and will make this clear in your assessment guidelines.",
+   "anchor": "What is Generative AI?",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "Lecturers decide how far AI may be used and state this in assessment guidelines."
+  },
+  {
+   "point_id": "p02",
+   "quote": "If you use any generative AI tools at any stage of your assessment, include information on how you have used it as an appendix at the end of your piece of work.",
+   "anchor": "Include references and an appendix",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Any AI use at any stage of an assessment must be described in an appendix at the end of the work."
+  },
+  {
+   "point_id": "p03",
+   "quote": "You must not directly copy larger chunks of text or images that have been produced for you by AI without attributing the source, as this will count as ‘passing off the work of another as your own’ and is against our academic integrity policy.",
+   "anchor": "Academic integrity and GenAI",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Copying larger chunks of AI text or images without attribution counts as passing off another's work and breaches academic integrity policy."
+  },
+  {
+   "point_id": "p04",
+   "quote": "This includes using the AI function in Grammarly to rewrite whole sentences.",
+   "anchor": "Academic integrity and GenAI",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Using Grammarly's AI function to rewrite whole sentences is included in the unattributed copying prohibition."
+  },
+  {
+   "point_id": "p05",
+   "quote": "you can copy word-for-word, without referencing, sentence fragments that don't contain facts. These should be no more than 5-8 words long, and you should limit the amount of these: it is suggested that you use a maximum of 3 of these per 150-word paragraph.",
+   "anchor": "Tips for using GenAI as a student",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Fact-free sentence fragments of 5-8 words may be copied without referencing, suggested maximum of 3 per 150-word paragraph."
+  },
+  {
+   "point_id": "p06",
+   "quote": "At Bath Spa we have no current plans to use AI detection tools as they are currently inaccurate",
+   "anchor": "Academic integrity and GenAI",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "The university has no current plans to use AI detection tools because they are inaccurate."
+  },
+  {
+   "point_id": "p07",
+   "quote": "If your lecturer suspects that your assignment contains larger sections that have been pasted from AI, they'll first have an informal chat with you to find out more about how you produced your work.",
+   "anchor": "Academic integrity and GenAI",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Suspected pasted AI sections lead first to an informal chat about how the work was produced."
+  },
+  {
+   "point_id": "p08",
+   "quote": "If your lecturer has given permission for you to use GenAI, the university recommends the use of Copilot, as it is safe and secure so long as you are logged into your university account.",
+   "anchor": "What is Generative AI?",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Where lecturers permit GenAI, the university recommends Copilot, which is safe and secure when logged into a university account."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Copilot encrypts your chat data; prompts and responses are not retained after the session ends; nobody at Microsoft can view your conversations; and the data from your chats is not used to train the underlying AI models.",
+   "anchor": "Think about your privacy",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Copilot encrypts chats, does not retain prompts and responses after the session, and does not use chats for training."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Make sure you don’t share personal, sensitive, or confidential details.",
+   "anchor": "Think about your privacy",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Do not share personal, sensitive or confidential details with AI platforms."
+  },
+  {
+   "point_id": "p11",
+   "quote": "GenAI can invent facts that seem plausible (‘hallucinations’), therefore you must check everything it says with a reputable source, such as resources from the Library, for example academic journals, and textbooks.",
+   "anchor": "Pros and cons of using AI at university",
+   "addressee": "student",
+   "force": "must",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "Everything GenAI says must be checked against reputable sources such as Library journals and textbooks."
+  },
+  {
+   "point_id": "p12",
+   "quote": "If you are not sure the content, text or image is under copyright you must assume it is.",
+   "anchor": "AI use and copyright",
+   "addressee": "student",
+   "force": "must",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "If unsure whether material is under copyright, assume it is before putting it into an AI tool."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Poor use includes relying on full‑sentence or whole‑text translation, accepting tool output uncritically, or submitting writing created by a tool, all of which may be regarded as academic misconduct.",
+   "anchor": "AI and translation tools",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Whole-text translation, uncritical acceptance of output, or submitting tool-created writing may be treated as academic misconduct."
+  },
+  {
+   "point_id": "p14",
+   "quote": "Any use of translation tools in assessed work must be clearly acknowledged and referenced.",
+   "anchor": "AI and translation tools",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "Translation tool use in assessed work must be clearly acknowledged and referenced."
+  },
+  {
+   "point_id": "p15",
+   "quote": "During term time, our Student Digital Learning Assistants are available in-person and online every weekday between 10am-2pm.",
+   "anchor": "Student Digital Learning Assistants",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Student Digital Learning Assistants offer in-person and online help every weekday 10am-2pm in term time."
+  },
+  {
+   "point_id": "p16",
+   "quote": "It is more energy intensive than other forms of internet use",
+   "anchor": "Pros and cons of using AI at university",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "GenAI is more energy intensive than other forms of internet use."
+  }
+ ]
+}

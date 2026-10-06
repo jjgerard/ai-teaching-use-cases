@@ -1,0 +1,38 @@
+{
+ "doc_id": "tcd-students-genai-202610",
+ "coder": "pts-b8",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "the use of Generative AI is permitted unless otherwise stated in course and module handbooks, or in module descriptions in the Blackboard VLE.",
+   "anchor": null,
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "GenAI use is permitted unless course or module handbooks, or Blackboard module descriptions, say otherwise."
+  },
+  {
+   "point_id": "p02",
+   "quote": "However, you must (at a minimum) acknowledge its use, using the guidance given in this LibGuide.",
+   "anchor": null,
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students must at minimum acknowledge GenAI use, following the LibGuide guidance."
+  },
+  {
+   "point_id": "p03",
+   "quote": "GenAI is evolving rapidly and there is not yet general consensus on how to acknowledge and reference it. This guidance will therefore continue to be reviewed and updated.",
+   "anchor": null,
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "Guidance on acknowledging and referencing GenAI will keep being reviewed and updated."
+  }
+ ]
+}

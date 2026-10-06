@@ -1,0 +1,158 @@
+{
+ "doc_id": "bimm-students-genai-202610",
+ "coder": "pts-b10",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Using digital tools including AI to help you with things like editing and refining your writing (spelling, grammar, syntax, and clarity ) is permissible and does not require attribution.",
+   "anchor": "Permissible Proofreading and Editing Assistance",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Using AI or digital tools to edit and refine writing (spelling, grammar, syntax, clarity) is permitted and needs no attribution."
+  },
+  {
+   "point_id": "p02",
+   "quote": "However, where AI is used to create content that forms part of an assessment this must be attributed as detailed above in the section on plagiarism.",
+   "anchor": "Permissible Proofreading and Editing Assistance",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Where AI is used to create content forming part of an assessment, that use must be attributed."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Using Artificial Intelligence (AI) applications to create work or elements of work without fully attributing their use.",
+   "anchor": "Academic Misconduct",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Listed as plagiarism: using AI applications to create work or elements of work without fully attributing their use."
+  },
+  {
+   "point_id": "p04",
+   "quote": "use AI to support and assist – not replace – your own voice and ideas.",
+   "anchor": "Permissible Proofreading and Editing Assistance",
+   "addressee": "student",
+   "force": "should",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Study Skills Hub guidance: use AI to support and assist, not replace, your own voice and ideas."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Deliberately presenting outputs from AI applications as your work (false authorship) .",
+   "anchor": "Examples of Academic Misconduct in Each Category: Gross Academic Misconduct",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Deliberately presenting AI outputs as your own work (false authorship) is listed as gross academic misconduct."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Presenting work that has been processed through AI applications beyond that permitted by the third -party proofreading and editing guidelines referenced above .",
+   "anchor": "Examples of Academic Misconduct in Each Category: Major Academic Misconduct",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Presenting work processed through AI beyond what the proofreading and editing guidelines permit is listed as major academic misconduct."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Minimal use of AI to generate content without acknowledging the source.",
+   "anchor": "Examples of Academic Misconduct in Each Category: Minor Academic Misconduct",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Minimal use of AI to generate content without acknowledgement is listed as minor academic misconduct."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Failing to attribute the use of AI applications in generating elements of audio -visual content.",
+   "anchor": "Examples of Academic Misconduct in Each Category: Major Academic Misconduct",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Failing to attribute AI use in generating elements of audio-visual content is listed as major academic misconduct."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Fail Course no right to retrieve credit or progress.",
+   "anchor": "Academic Misconduct Penalties Table",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "The penalties table lists failing the course, with no right to retrieve credit or progress, as a penalty."
+  },
+  {
+   "point_id": "p10",
+   "quote": "references must be submitted in Harvard form at, citing any cover songs performed",
+   "anchor": "Academic Misconduct",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "References must be submitted in Harvard format, citing any cover songs performed."
+  },
+  {
+   "point_id": "p11",
+   "quote": "provided it does not comprise more than 20% of the total volume and is appropriately referenced or used in appendices or supplementary materials.",
+   "anchor": "Academic Misconduct",
+   "addressee": "student",
+   "force": "may",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "Previously submitted work may be used in a dissertation or final-year project if under 20% of total volume and referenced or appended."
+  },
+  {
+   "point_id": "p12",
+   "quote": "You must make it clear whenever you work collaboratively and name all those who collaborated",
+   "anchor": "Academic Misconduct",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students must make clear when they work collaboratively and name everyone who collaborated."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Where a student fails to attend or make alternative arrangements, the investigation should proceed , and consideration should be given to the available evidence .",
+   "anchor": "Suspected Major or Gross Academic Misconduct",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "If a student neither attends the interview nor makes alternative arrangements, the investigation proceeds on the available evidence."
+  },
+  {
+   "point_id": "p14",
+   "quote": "the total time to complete a major or gross academic misconduct case is normally 25 working days.",
+   "anchor": "Suspected Major or Gross Academic Misconduct",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "The total time to complete a major or gross misconduct case is normally 25 working days."
+  },
+  {
+   "point_id": "p15",
+   "quote": "Appeals against academic misconduct decisions are considered in the same way as an academic appeal, under the Student Appeals Procedure .",
+   "anchor": "Appeals Against Decisions on Academic Misconduct",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Appeals against misconduct decisions are handled like an academic appeal, under the Student Appeals Procedure."
+  }
+ ]
+}

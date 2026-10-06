@@ -1,0 +1,150 @@
+[
+ {
+  "name": "University of Glasgow",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.gla.ac.uk/myglasgow/policy/regulations-current/general/plagiarism/",
+   "title": "Plagiarism & Academic Integrity Code",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.gla.ac.uk/myglasgow/apg/policies/uniregs/regulations2025-26/feesandgeneral/studentsupportandconductmatters/reg32/",
+    "why": "404"
+   },
+   {
+    "url": "https://www.gla.ac.uk/myglasgow/studentconduct/academicmisconduct/",
+    "why": "names AI only once in passing; links onward"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.gla.ac.uk/research/strategy/ourpolicies/ai-for-researchers/",
+    "title": "AI Guidance for Researchers",
+    "audience": "pgr"
+   },
+   {
+    "url": "https://www.gla.ac.uk/research/ourresearchenvironment/prs/pgrpolicystrategyqualityassurance/genaiforpgrschecklist/",
+    "title": "GenAI for PGRs Checklist",
+    "audience": "pgr"
+   },
+   {
+    "url": "https://www.gla.ac.uk/myglasgow/sld/ai/students/",
+    "title": "Artificial Intelligence - Info for Students",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of St Andrews",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.st-andrews.ac.uk/policy/academic-policies-assessment-examination-and-award-good-academic-practice/good-academic-practice.pdf",
+   "title": "Good academic practice (policy)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Approved 19/08/2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.st-andrews.ac.uk/policy/information-governance-and-management-information-security/use-of-generative-ai---llm.pdf",
+    "title": "Use of generative AI - LLM",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "University of Stirling",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.stir.ac.uk/media/stirling/services/academic-registry/documents/Academic-Integrity-Policy.pdf",
+   "title": "Academic Integrity Policy, Poor Academic Practice Procedure and Academic Misconduct Procedure",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Approved 11 August 2026 (version 8)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.stir.ac.uk/media/stirling/services/academic-registry/documents/academic-integrity-policy.pdf",
+    "why": "404 (lower-case path from search; capitalised path works)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://libguides.stir.ac.uk/c.php?g=720419&p=5234850",
+    "title": "Referencing AI",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Strathclyde",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.strath.ac.uk/media/ps/cs/gmap/academicaffairs/policies/Student_Discipline_Procedure_-_Academic_Misconduct.pdf",
+   "title": "Student Discipline Procedure: Academic Misconduct",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Effective 2026-27",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://guides.lib.strath.ac.uk/copyrightandgen-ai/coursework",
+    "title": "Using Gen-AI in coursework and Assessment",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of the Highlands and Islands",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uhi.ac.uk/en/t4-media/one-web/university/about-uhi/governance/policies-and-regulations/regulations/2024-25/appendix-g-academic-misconduct-2024-25.pdf",
+   "title": "Academic Standards and Quality Regulations 2024-25, Appendix G: Academic misconduct",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2024-25",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.uhi.ac.uk/en/t4-media/one-web/university/about-uhi/governance/policies-and-regulations/regulations/2024-25/section-19-academic-misconduct-policy-and-procedure-2024-25-v2.pdf",
+    "why": "procedure text does not name AI; definitions are in Appendix G"
+   },
+   {
+    "url": "https://www.uhi.ac.uk/en/t4-media/one-web/university/about-uhi/governance/policies-and-regulations/policies/generative-ai/staff-gai-guidance.pdf",
+    "why": "staff only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://staffresources.uhi.ac.uk/AMG/",
+    "title": "Academic Misconduct Guidance",
+    "audience": "staff"
+   },
+   {
+    "url": "https://www.uhi.ac.uk/en/t4-media/one-web/university/about-uhi/governance/policies-and-regulations/policies/generative-ai/generative-ai-policy.pdf",
+    "title": "Generative AI (GAI) policy",
+    "audience": "students"
+   }
+  ]
+ }
+]

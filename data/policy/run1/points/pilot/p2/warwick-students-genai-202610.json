@@ -1,0 +1,148 @@
+{
+ "doc_id": "warwick-students-genai-202610",
+ "coder": "pts-p2",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Your module tutor/leader decides what is ‘appropriate’ for each module assessment.",
+   "anchor": "What's 'acceptable' use of artificial intelligence (AI)?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "The module tutor or leader decides what AI use is appropriate for each module assessment."
+  },
+  {
+   "point_id": "p02",
+   "quote": "The general position is that you can use Artificial Intelligence (AI) but must follow any requirements set out in assessments and course handbooks. Those requirements may restrict or prohibit the use of AI.",
+   "anchor": "Check the rules",
+   "addressee": "student",
+   "force": "must",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "AI use is generally allowed but must follow assessment and handbook requirements, which may restrict or prohibit it."
+  },
+  {
+   "point_id": "p03",
+   "quote": "You will be required to state if any AI has been used as part of the submission procedure. If you use an AI, you must set out why, where and how you have done so - this may be done with a clear paragraph in your submission.",
+   "anchor": "Declare it",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Students must state at submission if AI was used, and explain why, where and how, possibly in a paragraph."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Record interactions with any AI that you later use or rely upon for a submission. This may be via screengrabs, or other recording techniques.",
+   "anchor": "Keep a record",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Record your interactions with any AI you later use or rely on for a submission, for example by screengrab."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Even if it's not required, always keep records just in case, and be prepared to share them with your tutor if you're asked.",
+   "anchor": "How to declare and reference AI in your assessments (if permitted)",
+   "addressee": "student",
+   "force": "should",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Keep records even when not required, and be ready to share them with your tutor if asked."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Do not input any personal or confidential data into any AI tools, unless you fully understand what will happen to that data. The university recommends using Co-Pilot chat for this kind of data - when logged in with your Warwick account.",
+   "anchor": "Protect privacy",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Do not enter personal or confidential data into AI tools unless you understand what happens to it; Co-Pilot chat with a Warwick login is recommended."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Treat AI content like any other source (e.g. books, reports).",
+   "anchor": "How to declare and reference AI in your assessments (if permitted)",
+   "addressee": "student",
+   "force": "must",
+   "topic": "referencing_and_citation",
+   "specific": true,
+   "gist": "AI content should be referenced like any other source."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Failing to honestly acknowledge your use of AI in could be considered academic misconduct.",
+   "anchor": "How to declare and reference AI in your assessments (if permitted)",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Not honestly acknowledging AI use could be treated as academic misconduct."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Staff cannot view what individual students input into co-pilot - your use of co-pilot is private.",
+   "anchor": "What is the official AI Warwick platform?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Staff cannot see what individual students enter into Co-Pilot; its use is private."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Warwick provides access to Microsoft Co-PilotLink opens in a new window for students and staff.",
+   "anchor": "What is the official AI Warwick platform?",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Warwick provides Microsoft Co-Pilot to students and staff."
+  },
+  {
+   "point_id": "p11",
+   "quote": "AI-generated content may include biases, inaccuracies and outdated information.",
+   "anchor": "Are there limitations to AI?",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "AI-generated content may contain biases, inaccuracies and outdated information."
+  },
+  {
+   "point_id": "p12",
+   "quote": "But, AI should never replace your own thinking, judgement or original work.",
+   "anchor": "Are artificial intelligence tools helpful?",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "AI should never replace your own thinking, judgement or original work."
+  },
+  {
+   "point_id": "p13",
+   "quote": "For example, you might use AI tools to help summarise complex topics to aid understanding, or test your knowledge of a topic ahead of an exam.",
+   "anchor": "Are artificial intelligence tools helpful?",
+   "addressee": "student",
+   "force": "encouraged",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Examples of use: summarising complex topics or testing your knowledge before an exam."
+  },
+  {
+   "point_id": "p14",
+   "quote": "AI Pathways - Warwick Award: Students can complete AI pathway courses - General and Technical - as part of the Warwick Award.",
+   "anchor": "Helpful resources to support you",
+   "addressee": "student",
+   "force": "may",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Students can take General and Technical AI pathway courses as part of the Warwick Award."
+  }
+ ]
+}

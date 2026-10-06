@@ -1,0 +1,49 @@
+{
+ "doc_id": "manchester-metropolitan-students-genai-202610",
+ "coder": "aud-a27",
+ "checked_types": 64,
+ "found": [
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "Never be afraid to ask your tutor if you aren’t clear.",
+   "anchor": "When can I use it?"
+  },
+  {
+   "type": "submitted_work_must_be_own_not_ai_generated",
+   "quote": "Your work should always authentically represent your capabilities.",
+   "anchor": "Artificial intelligence and assessments"
+  },
+  {
+   "type": "ai_use_may_be_detected_by_staff_or_software",
+   "quote": "Some indicators wouldn’t appear in an assessment written by a human. Wherever the use of generative AI is suspected, we will investigate this fully in line with our Academic Misconduct Policy.",
+   "anchor": "Is it possible my tutors could mistake my work for that of an AI?"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "We’re exploring the many opportunities AI will bring and how we can use it to enhance your teaching and learning.",
+   "anchor": "Artificial intelligence and assessments"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "some_assessments_require_or_build_in_ai_use",
+   "quote": "For students on certain courses, understanding and engaging with AI is essential.",
+   "why": "Courses, not assessments, require AI engagement"
+  },
+  {
+   "type": "undeclared_or_unreferenced_ai_use_is_misconduct",
+   "quote": "What’s the penalty for unacknowledged use of AI?",
+   "why": "Only a heading question; answer does not name omission as misconduct"
+  },
+  {
+   "type": "do_not_use_ai_references_or_treat_ai_as_source",
+   "quote": "You should use the same caution with a generative AI that you would with non-academic sources, such as Wikipedia, and always verify information and sources independently.",
+   "why": "Source-caution analogy; may be verification type only"
+  },
+  {
+   "type": "support_services_available_for_ai_questions",
+   "quote": "Specialist tutors provide help with academic writing, numeracy, specific learning difficulties, study skills and assistive technologies.",
+   "why": "General study support, not AI-specific"
+  }
+ ]
+}

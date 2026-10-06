@@ -1,0 +1,49 @@
+{
+ "doc_id": "salford-students-genai-202610",
+ "coder": "aud-a18",
+ "checked_types": 62,
+ "found": [
+  {
+   "type": "ask_tutor_when_unsure",
+   "quote": "If anything is unclear, ask your module leader.",
+   "anchor": "Follow the guidance in your Assessment Guidance document"
+  },
+  {
+   "type": "submitted_work_must_be_own_not_ai_generated",
+   "quote": "Make sure your submitted work reflects your own understanding.",
+   "anchor": "Verify, understand and take responsibility"
+  },
+  {
+   "type": "ai_misconduct_handled_under_existing_policy",
+   "quote": "Using it outside the permitted scope may be considered misrepresentation under the University’s Academic Integrity Policy and Academic Misconduct Procedure.",
+   "anchor": "Follow the guidance in your Assessment Guidance document"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Learn about AI tools supported by the University and explore how to write effective prompts.",
+   "anchor": "Tools and Tips"
+  },
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "We aren’t saying don’t use GenAI, but ensure your use is considered and thoughtful.",
+   "anchor": "Gen AI and the environment"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "rules_set_locally_by_module_or_lecturer",
+   "quote": "This can vary from one assessment to another, though",
+   "why": "Rules vary by assessment but stated alongside a default"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "GenAI can produce inaccurate, incomplete, or biased information.",
+   "why": "Bias mentioned only within accuracy warning"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "We have three guiding principles to follow when you use GenAI as part of your studies, including when you're:",
+   "why": "Study uses listed but not expressly permitted"
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "doc_id": "aston-students-genai-202610",
+ "coder": "pts-b27",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Do not disclose personal, confidential or third-party proprietary data to public AI services without the written approval of the Chief Information Officer and Data Protection Officer.",
+   "anchor": "CODE OF CONDUCT",
+   "addressee": "both",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Do not disclose personal, confidential or third-party proprietary data to public AI services without written approval from the CIO and Data Protection Officer."
+  },
+  {
+   "point_id": "p02",
+   "quote": "the university explicitly prohibits the development, deployment, or integration of agentic AI systems — defined as AI entities that exhibit autonomous decision-making capabilities with the potential to act independently of human oversight or control.",
+   "anchor": "CODE OF CONDUCT",
+   "addressee": "both",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "The university prohibits developing, deploying or integrating agentic AI systems that can act independently of human oversight."
+  },
+  {
+   "point_id": "p03",
+   "quote": "All staff and students working with AI must complete the University’s Ethical AI and Data Protection e-module.",
+   "anchor": "TRAINING AND CAPACITY BUILDING",
+   "addressee": "both",
+   "force": "must",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Staff and students working with AI must complete the Ethical AI and Data Protection e-module."
+  },
+  {
+   "point_id": "p04",
+   "quote": "All AI projects require an AI Risk Assessment; Medium/High risk mandates Data Privacy Impact Assessment and Ethics review.",
+   "anchor": "Risk-Based Framework",
+   "addressee": "both",
+   "force": "must",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "All AI projects need an AI Risk Assessment, and Medium or High risk projects also need a Data Privacy Impact Assessment and Ethics review."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Report AI-related incidents to Legal Services and Data Protection team; follow the University’s incident response plan",
+   "anchor": "The Procedures",
+   "addressee": "both",
+   "force": "must",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "AI-related incidents are to be reported to Legal Services and the Data Protection team, following the incident response plan."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Ensure AI decision-making processes are explainable to stakeholders, with clear disclosures of AI use.",
+   "anchor": "Guiding Principles",
+   "addressee": "both",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "AI decision-making should be explainable to stakeholders, with clear disclosures of AI use."
+  },
+  {
+   "point_id": "p07",
+   "quote": "Maintain human-in-the-loop for significant decisions and provide mechanisms for challenge and redress.",
+   "anchor": "Guiding Principles",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "Humans stay in the loop for significant decisions, with mechanisms for challenge and redress."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Each AI system must have a designated Business Owner accountable for risk assessments, RAAC submissions, documentation, and performance monitoring.",
+   "anchor": "GOVERNANCE AND ROLES",
+   "addressee": "staff",
+   "force": "must",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "Each AI system needs a designated Business Owner accountable for risk assessments, RAAC submissions, documentation and monitoring."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Ensure that AI systems do not perpetuate or amplify bias and discrimination.",
+   "anchor": "CODE OF CONDUCT",
+   "addressee": "both",
+   "force": "must",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "AI systems must not perpetuate or amplify bias and discrimination."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Design AI systems to be inclusive and usable by people of all abilities.",
+   "anchor": "CODE OF CONDUCT",
+   "addressee": "both",
+   "force": "should",
+   "topic": "accessibility_and_equity",
+   "specific": true,
+   "gist": "AI systems should be designed to be inclusive and usable by people of all abilities."
+  },
+  {
+   "point_id": "p11",
+   "quote": "Annual audit of high-risk AI systems and solutions.",
+   "anchor": "Audit and Review",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "review_and_governance",
+   "specific": true,
+   "gist": "High-risk AI systems and solutions are audited annually."
+  },
+  {
+   "point_id": "p12",
+   "quote": "All staff, students, contractors, honorary and adjunct personnel.",
+   "anchor": "SCOPE OF THE POLICY",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "other",
+   "specific": false,
+   "gist": "The policy covers all staff, students, contractors, and honorary and adjunct personnel."
+  }
+ ]
+}

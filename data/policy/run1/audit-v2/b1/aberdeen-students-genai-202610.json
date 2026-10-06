@@ -1,0 +1,18 @@
+{
+ "doc_id": "aberdeen-students-genai-202610",
+ "coder": "v2-b1",
+ "checked_types": 11,
+ "found": [],
+ "unsure": [
+  {
+   "type": "use_library_sources_not_ai_for_facts",
+   "quote": "use academic sources and discipline-specific sources to fact check the outputs",
+   "why": "Verification advice, not library search in place of AI"
+  },
+  {
+   "type": "specialist_referral_or_investigation_process",
+   "quote": "they have the option to discuss this with you or they may request that this be investigated further",
+   "why": "Generic further investigation; no specialist step described"
+  }
+ ]
+}

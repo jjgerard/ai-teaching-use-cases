@@ -1,0 +1,29 @@
+{
+ "doc_id": "bishop-grosseteste-students-genai-202610",
+ "coder": "aud-a19",
+ "checked_types": 67,
+ "found": [
+  {
+   "type": "fabricated_references_or_data_is_misconduct",
+   "quote": "Falsification is an attempt to present fictitious or distorted data, evidence, references, citations, or experimental results, and/or to knowingly make use of such material.",
+   "anchor": "2.3.2. Falsification"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "strict_liability_ignorance_no_defence",
+   "quote": "Academic misconduct is where the balance of probability indicates any intentional, unintentional or reckless conduct by a student",
+   "why": "Generic definition; does not explicitly rule out ignorance as defence."
+  },
+  {
+   "type": "default_ai_banned_unless_authorised",
+   "quote": "is not permitted unless specified within the assignment brief",
+   "why": "Partial ban on AI text with brief route; not a general default."
+  },
+  {
+   "type": "ai_output_may_be_included_when_assessment_allows",
+   "quote": "is not permitted unless specified within the assignment brief",
+   "why": "Implies brief may permit AI text; not stated directly."
+  }
+ ]
+}

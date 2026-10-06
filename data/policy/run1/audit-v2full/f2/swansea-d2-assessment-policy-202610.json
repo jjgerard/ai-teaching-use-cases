@@ -1,0 +1,84 @@
+{
+ "doc_id": "swansea-d2-assessment-policy-202610",
+ "coder": "v2f-f2",
+ "checked_types": 77,
+ "found": [
+  {
+   "type": "work_must_be_own_not_written_by_ai",
+   "quote": "Staff and students will not be permitted to present work completed by AI applications as their own without acknowledgement.",
+   "anchor": "3. Ethical Use of AI"
+  },
+  {
+   "type": "ai_output_may_be_wrong_so_verify_it",
+   "quote": "results and outputs produced by generative AI tools may be inaccurate, irrelevant is misleading. Users must always ensure the accuracy of results produced by generative AI tools.",
+   "anchor": "4. Transparency, Accuracy, Fairness and Bias"
+  },
+  {
+   "type": "bias_and_exclusion_risks_to_consider",
+   "quote": "There will be active monitoring and mitigation of bias in AI systems and their usage within the University and its programmes to ensure fairness and prevent discrimination.",
+   "anchor": "4. Transparency, Accuracy, Fairness and Bias"
+  },
+  {
+   "type": "ensure_equal_access_to_ai_tools",
+   "quote": "The University will provide necessary accommodations and support to ensure equitable access to AI-based resources and services.",
+   "anchor": "4. Transparency, Accuracy, Fairness and Bias"
+  },
+  {
+   "type": "comply_with_data_protection_law_and_policy",
+   "quote": "Use of any AI applications must comply with relevant General Data Protection Regulations (GDPR).",
+   "anchor": "5. Data Governance and Privacy"
+  },
+  {
+   "type": "do_not_enter_personal_or_sensitive_data",
+   "quote": "Staff and students should not enter any identifiable information into any AI application.",
+   "anchor": "5. Data Governance and Privacy"
+  },
+  {
+   "type": "staff_not_to_use_ai_to_grade_or_give_feedback",
+   "quote": "Staff or students are not permitted to upload student assessment, or any identifiable data without explicit written consent, to AI applications for any reason (including attempts to check for AI generated content).",
+   "anchor": "5. Data Governance and Privacy"
+  },
+  {
+   "type": "assessment_redesigned_to_test_process_and_understanding",
+   "quote": "Assessment will be designed to ensure that integrity and standards are maintained where students have access to generative AI, without sacrificing the importance of authenticity of assessment and pedagogic practice.",
+   "anchor": "6. Assessment Design and Upholding Academic Standards"
+  },
+  {
+   "type": "training_and_guidance_resources_provided",
+   "quote": "Training, support and professional development opportunities for staff and students involved in the development, deployment, or use of AI technologies will be provided by the University.",
+   "anchor": "8. Training and Professional Development"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "personal_or_confidential_data_only_under_stated_conditions",
+   "quote": "Staff or students are not permitted to upload student assessment, or any identifiable data without explicit written consent, to AI applications for any reason",
+   "why": "Consent exception, but staff precedence assigned to grading type."
+  },
+  {
+   "type": "staff_must_state_ai_expectations_in_assessments",
+   "quote": "The Assessment, Marking and Feedback Policy, Proofreading Policy and Academic Misconduct procedure will make reference to appropriate usage of AI in assessment",
+   "why": "Policies will reference AI use; not explicit staff duty to tell students."
+  },
+  {
+   "type": "acknowledge_or_declare_ai_use",
+   "quote": "Swansea University trusts its students to use AI ethically and transparently.",
+   "why": "Transparency trust statement, no explicit duty to acknowledge."
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "Swansea University will work in partnership with students, and support students and staff to become AI literate.",
+   "why": "AI literacy support, not stated as within programmes."
+  },
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "Non-compliance with this policy will be reported to the Regulations, Quality and Standards Board.",
+   "why": "Policy oversight route, not clearly AI governance."
+  },
+  {
+   "type": "students_involved_in_shaping_ai_policy",
+   "quote": "Swansea University will work in partnership with students",
+   "why": "Vague partnership, no representation or co-creation described."
+  }
+ ]
+}

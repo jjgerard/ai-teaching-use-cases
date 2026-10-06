@@ -1,0 +1,44 @@
+{
+ "doc_id": "leeds-beckett-students-genai-202610",
+ "coder": "aud-a25",
+ "checked_types": 59,
+ "found": [
+  {
+   "type": "institution_embraces_ai_enabled_education",
+   "quote": "Our focus is on enabling the effective and ethical use of generative AI",
+   "anchor": "Key principles:"
+  },
+  {
+   "type": "reference_ai_use_with_citation",
+   "quote": "Where AI generated content is directly copied into your assessments, ensure that related citations are used.",
+   "anchor": "Please beware:"
+  },
+  {
+   "type": "student_responsible_for_ai_content",
+   "quote": "it remains your duty to employ them ethically and responsibly",
+   "anchor": "How can LBU students use generative AI in their studies?"
+  },
+  {
+   "type": "ai_permitted_for_study_and_preparation",
+   "quote": "Generate initial ideas and get feedback on your own ideas.",
+   "anchor": "How can LBU students use generative AI in their studies?"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "should_or_encouraged_to_acknowledge_ai_use",
+   "quote": "If generative AI tools are utilised in your work, it's important to acknowledge, explain, and provide references for their use.",
+   "why": "Advisory versus mandatory wording unclear"
+  },
+  {
+   "type": "do_not_upload_copyright_or_third_party_material",
+   "quote": "which are the Intellectual Property of the University or others for copyright breach",
+   "why": "Garbled sentence; mainly teaching materials, already recorded"
+  },
+  {
+   "type": "ai_output_may_be_included_when_assessment_allows",
+   "quote": "Where AI generated content is directly copied into your assessments, ensure that related citations are used.",
+   "why": "Implies permitted inclusion but framed as plagiarism caution"
+  }
+ ]
+}

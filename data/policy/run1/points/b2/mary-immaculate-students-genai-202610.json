@@ -1,0 +1,178 @@
+{
+ "doc_id": "mary-immaculate-students-genai-202610",
+ "coder": "pts-b2",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "Students who fail to comply with this will be in violation of the Student Code of Conduct, the Electronic Copyright Material Policy and the Data Protection Policy, and could face sanctions.",
+   "anchor": "For Students",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Students who input MIC data or others' personal data without consent violate several college policies and could face sanctions."
+  },
+  {
+   "point_id": "p02",
+   "quote": "This means staff and students cannot input MIC data or the personal data of staff or fellow students into AI systems without written prior consent.",
+   "anchor": "Data Compliance",
+   "addressee": "both",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Staff and students cannot input MIC data or others' personal data into AI systems without written prior consent."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Students cannot be penalised for academic misconduct when appropriately citing the use of GenAI.",
+   "anchor": "Academic Misconduct and Generative AI",
+   "addressee": "institution",
+   "force": "commits",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Students cannot be penalised for academic misconduct when they appropriately cite their GenAI use."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Students may incur a grade penalty if prior communication has been issued to them advising that GenAI cannot to be used for a particular assessment or in a particular way within the assessment.",
+   "anchor": "Academic Misconduct and Generative AI",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "A grade penalty is possible if students were told in advance that GenAI cannot be used for an assessment or in a particular way."
+  },
+  {
+   "point_id": "p05",
+   "quote": "There is currently no policy in the College that prohibits students from using generative artificial intelligence (GenAI), if its use aligns with the values of academic integrity.",
+   "anchor": "Policy Considerations",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "No College policy prohibits student GenAI use, provided it aligns with academic integrity values."
+  },
+  {
+   "point_id": "p06",
+   "quote": "The below recommendations for possible AI use are subject to approval from your lecturer::",
+   "anchor": "Generative AI Use Case Scenarios",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "The listed recommended AI uses are subject to lecturer approval."
+  },
+  {
+   "point_id": "p07",
+   "quote": "If you are not sure what you are allowed to use, you should speak to your lecturer to ask.",
+   "anchor": "Knowing Boundaries of Use",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "If unsure what is allowed, students should ask their lecturer."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Within the context of the College, staff and students should make use of institutionally approved and secure AI systems. Use of any other AI system requires prior approval from ICT Services, and a Data Protection Impact Assessment (DPIA) must be completed in consultation with the Information Compliance Office (ICO).",
+   "anchor": "Data Compliance",
+   "addressee": "both",
+   "force": "should",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Staff and students should use institutionally approved, secure AI systems; any other system needs ICT Services approval and a DPIA."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Public AI tools (e.g., ChatGPT, Gemini, Claude) must not be used with MIC data unless authorisation has been granted and an approved DPIA is in place.",
+   "anchor": "For Staff",
+   "addressee": "staff",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Public AI tools such as ChatGPT, Gemini and Claude must not be used with MIC data without authorisation and an approved DPIA."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Students should seek to ensure that their use of data does not infringe on the fundamental rights of others. This means that students should not use AI in a way that promotes bias, discrimination and data misuse.",
+   "anchor": "For Students",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Students should not use AI in ways that promote bias, discrimination or data misuse."
+  },
+  {
+   "point_id": "p11",
+   "quote": "AI can be used as a study aid for exams or tests by having it develop mock exams and quizzes for you.",
+   "anchor": "Exam Prep",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "AI can be used as a study aid by developing mock exams and quizzes."
+  },
+  {
+   "point_id": "p12",
+   "quote": "Detectors cannot be used as reliable evidence in a circumstance where the unauthorised use of GenAI is suspected. The College does not support the use of any such tools.",
+   "anchor": "Considerations Relating to Suspected Breaches of the Academic Integrity Policy",
+   "addressee": "institution",
+   "force": "must_not",
+   "topic": "detection_tools",
+   "specific": true,
+   "gist": "Detectors cannot be used as reliable evidence of unauthorised GenAI use, and the College does not support using such tools."
+  },
+  {
+   "point_id": "p13",
+   "quote": "Fabricated references.",
+   "anchor": "Considerations Relating to Suspected Breaches of the Academic Integrity Policy",
+   "addressee": "staff",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": false,
+   "gist": "Fabricated references are listed as an indicator of unauthorised GenAI use."
+  },
+  {
+   "point_id": "p14",
+   "quote": "In the case where students are required to use a particular GenAI application as part of an assessment task, it is recommended that students are directed towards institutionally approved tools.",
+   "anchor": "Academic Integrity Considerations",
+   "addressee": "staff",
+   "force": "should",
+   "topic": "staff_duties",
+   "specific": true,
+   "gist": "If students must use a particular GenAI application for an assessment, they should be directed to institutionally approved tools."
+  },
+  {
+   "point_id": "p15",
+   "quote": "Students' assignments and data should not be submitted to third party applications without consulting with the College and without obtaining the student’s consent.",
+   "anchor": "Considerations Relating to Suspected Breaches of the Academic Integrity Policy",
+   "addressee": "staff",
+   "force": "should_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Student assignments and data should not be submitted to third party applications without consulting the College and obtaining student consent."
+  },
+  {
+   "point_id": "p16",
+   "quote": "Generative AI has a large environmental impact, as the data centres it runs on requires significant cooling as well as rare metals to be use (Berthelot et al, 2024).",
+   "anchor": "Environmental Impact",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "ethics_bias_environment",
+   "specific": true,
+   "gist": "Generative AI has a large environmental impact because data centres need significant cooling and rare metals."
+  },
+  {
+   "point_id": "p17",
+   "quote": "If you come across something distressing when using Generative AI, please speak to your module lead or Head of Department to be referred to the appropriate supports, or contact Student Life or Counselling Service.",
+   "anchor": "Wellbeing",
+   "addressee": "student",
+   "force": "should",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Students should speak to their module lead or Head of Department, or contact Student Life or Counselling, if something distressing arises."
+  }
+ ]
+}

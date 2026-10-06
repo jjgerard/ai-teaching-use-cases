@@ -1,0 +1,158 @@
+{
+ "doc_id": "bpp-students-genai-202610",
+ "coder": "pts-b19",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "If there is no explicit mention being allowed to use AI in your summative assessment brief, then you must not use AI in any part of the final submission.",
+   "anchor": "4. Acceptable Use in Assessment Briefs",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Without explicit permission in the summative assessment brief, AI must not be used in any part of the final submission."
+  },
+  {
+   "point_id": "p02",
+   "quote": "If it has, then you must declare your use of AI on the coversheet that will be provided to you by your school administration team or tutor.",
+   "anchor": "4. Acceptable Use in Assessment Briefs",
+   "addressee": "student",
+   "force": "must",
+   "topic": "disclosure_and_acknowledgement",
+   "specific": true,
+   "gist": "Where the brief permits AI, its use must be declared on the coversheet supplied by the school administration team or tutor."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Apprentices must not submit the output of Gen AI in any work submitted to their portfolio for End Point Assessment",
+   "anchor": "2. General unacceptable use",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Apprentices must not submit Gen AI output in work submitted to their End Point Assessment portfolio."
+  },
+  {
+   "point_id": "p04",
+   "quote": "Apprentices who are on Degree Apprenticeships are permitted to use generative AI in assessments leading to module completion and module credit.",
+   "anchor": "2. General unacceptable use",
+   "addressee": "student",
+   "force": "may",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Degree Apprentices may use generative AI in assessments leading to module completion and module credit."
+  },
+  {
+   "point_id": "p05",
+   "quote": "Input any data, such as company strategy or financial figures that may be a breach of confidentiality, data or privacy.",
+   "anchor": "2. General unacceptable use",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Inputting data such as company strategy or financial figures that may breach confidentiality, data or privacy is unacceptable."
+  },
+  {
+   "point_id": "p06",
+   "quote": "Unless AI is explicitly allowed in a summative assessment and written into the brief, any attempts to disguise the use of AI would be subject to Academic Misconduct.",
+   "anchor": "2. General unacceptable use",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "Attempts to disguise AI use, unless AI is explicitly allowed in the brief, are subject to Academic Misconduct."
+  },
+  {
+   "point_id": "p07",
+   "quote": "You must not use AI to generate copy where your real-time oral speaking skills are being assessed. This includes scripts, slides, or other aides to prompt the oratory performance.",
+   "anchor": "2. General unacceptable use",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "AI must not generate scripts, slides or other prompts where real-time oral speaking skills are assessed."
+  },
+  {
+   "point_id": "p08",
+   "quote": "Where English language skill and understanding is being explicitly tested, either written or spoken, AI must not be used in any of the process.",
+   "anchor": "2. General unacceptable use",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "AI must not be used in any part of the process where English language skill is explicitly tested."
+  },
+  {
+   "point_id": "p09",
+   "quote": "Any student suspected of using AI in such a presentation will have their application refused, their visa turned down or simply be failed at the test.",
+   "anchor": "2. General unacceptable use",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "integrity_and_consequences",
+   "specific": true,
+   "gist": "A student suspected of using AI in such a presentation will have their application refused, visa turned down or be failed."
+  },
+  {
+   "point_id": "p10",
+   "quote": "Using Gen AI tools in a way that would breach client confidentiality or would expose client data.",
+   "anchor": "1. General principles",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "data_privacy_and_confidentiality",
+   "specific": true,
+   "gist": "Using Gen AI in a way that breaches client confidentiality or exposes client data is a potential breach of Terms and Conditions."
+  },
+  {
+   "point_id": "p11",
+   "quote": "However, you should not use any software to rewrite sentences or make substantive changes to your original work unless conditions in the assignment brief explicitly allows it.",
+   "anchor": "4a",
+   "addressee": "student",
+   "force": "should_not",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "Software should not rewrite sentences or substantively change your work unless the assignment brief explicitly allows it."
+  },
+  {
+   "point_id": "p12",
+   "quote": "If you do this, you must make sure that the AI does not significantly change the actual words you have written as this would not be acceptable.",
+   "anchor": "4c",
+   "addressee": "student",
+   "force": "must",
+   "topic": "permitted_uses",
+   "specific": true,
+   "gist": "When uploading a draft for AI restructuring, make sure the AI does not significantly change your actual words."
+  },
+  {
+   "point_id": "p13",
+   "quote": "You should test all code generated by AI as often it will make suggestions or hallucinate functions that don’t exist in the programming framework.",
+   "anchor": "5e",
+   "addressee": "student",
+   "force": "should",
+   "topic": "accuracy_and_verification",
+   "specific": true,
+   "gist": "All AI-generated code should be tested, as AI may hallucinate functions that do not exist."
+  },
+  {
+   "point_id": "p14",
+   "quote": "BPPs Library service is the gateway to academic research and through your BPP account you will have access to 1000’s of journals, periodicals, books and databases and should always be your first point of call.",
+   "anchor": "5a",
+   "addressee": "student",
+   "force": "should",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "The BPP Library, with thousands of journals, books and databases, should always be your first point of call for research."
+  },
+  {
+   "point_id": "p15",
+   "quote": "Any student requiring Mental Health support, counselling or just wants to talk to someone should contact us at safeguarding@bpp.com",
+   "anchor": "3. Recommendations",
+   "addressee": "student",
+   "force": "explains",
+   "topic": "support_and_training",
+   "specific": true,
+   "gist": "Students needing mental health support or counselling should contact safeguarding@bpp.com."
+  }
+ ]
+}

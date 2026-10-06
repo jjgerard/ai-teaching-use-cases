@@ -1,0 +1,24 @@
+{
+ "doc_id": "maynooth-ug-ptm-genai-guidelines-202610",
+ "coder": "v2-b14",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "ai_detector_reports_interpretation_or_handling",
+   "quote": "This Turnitin GenAI score is not definitive proof of GenAI use. However, if it indicates possible use beyond that permitted (see section 5.2 above), it might be a first step in a process of ensuring academic integrity.",
+   "anchor": "5.3 GenAI detection and Turnitin"
+  },
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "All Research Students are covered by the University’s policies and GenAI Guidelines for Staﬀ.",
+   "anchor": "Audience"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "ai_governance_or_oversight_described",
+   "quote": "This update incorporates feedback from the Maynooth University AI Advisory",
+   "why": "passing mention of an advisory group, no governance description"
+  }
+ ]
+}

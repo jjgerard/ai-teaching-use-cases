@@ -1,0 +1,24 @@
+{
+ "doc_id": "st-andrews-students-genai-202610",
+ "coder": "v2-b18",
+ "checked_types": 11,
+ "found": [
+  {
+   "type": "separate_guidance_for_researchers_or_publication",
+   "quote": "PGR students considering the use of Generative AI should discuss and agree appropriate scope, boundaries, and applications with their supervisor at the start of the project or before commencing usage.",
+   "anchor": "15. What should PGR students consider before using AI?"
+  }
+ ],
+ "unsure": [
+  {
+   "type": "misconduct_terms_defined",
+   "quote": "Using AI is considered academic misconduct when a student presents the output of an AI technology, such as a large language model (LLM) or paraphrasing application, as their own work without acknowledgment in all situations.",
+   "why": "Reads as labelling misconduct rather than defining a term"
+  },
+  {
+   "type": "ai_literacy_built_into_curriculum",
+   "quote": "Skills in selectively utilising Generative AI as a resource will be required by our graduates.",
+   "why": "Graduate requirement, not stated as taught in programmes"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "doc_id": "birmingham-city-students-genai-202610",
+ "coder": "pts-b10",
+ "extracted_at": "2026-10-03",
+ "no_points_reason": null,
+ "points": [
+  {
+   "point_id": "p01",
+   "quote": "The default GenAI tool at BCU is Microsoft Copilot, for which you have free access via your BCU email address",
+   "anchor": "Welcome",
+   "addressee": "institution",
+   "force": "explains",
+   "topic": "tools_provided_or_recommended",
+   "specific": true,
+   "gist": "Microsoft Copilot is the default GenAI tool at BCU, with free access via a BCU email address."
+  },
+  {
+   "point_id": "p02",
+   "quote": "Do not use your BCU email address to sign up for third-party AI tools.",
+   "anchor": "Welcome",
+   "addressee": "student",
+   "force": "must_not",
+   "topic": "prohibited_uses",
+   "specific": true,
+   "gist": "Students must not use their BCU email address to sign up for third-party AI tools."
+  },
+  {
+   "point_id": "p03",
+   "quote": "Your assessment or exam brief will explain the AI usage level for that specific task (Option A – AI use allowed with conditions; Option B – AI not allowed; or Option C – AI required).",
+   "anchor": "What's BCU's position on GenAI?",
+   "addressee": "both",
+   "force": "explains",
+   "topic": "assessment_categories_and_design",
+   "specific": true,
+   "gist": "The assessment or exam brief states the AI usage level: Option A allowed with conditions, Option B not allowed, Option C required."
+  },
+  {
+   "point_id": "p04",
+   "quote": "If you are not sure, please check with your module tutor.",
+   "anchor": "What's BCU's position on GenAI?",
+   "addressee": "student",
+   "force": "should",
+   "topic": "who_decides_course_rules",
+   "specific": true,
+   "gist": "If unsure about the AI rules, check with the module tutor."
+  },
+  {
+   "point_id": "p05",
+   "quote": "BCU embraces a positive approach to GenAI and encourages students to use it in critical and responsible ways to support their learning",
+   "anchor": "What's BCU's position on GenAI?",
+   "addressee": "institution",
+   "force": "encouraged",
+   "topic": "permitted_uses",
+   "specific": false,
+   "gist": "BCU takes a positive approach to GenAI and encourages critical, responsible use to support learning."
+  }
+ ]
+}

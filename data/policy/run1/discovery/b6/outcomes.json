@@ -1,0 +1,186 @@
+[
+ {
+  "ror_id": "https://ror.org/04xs57h96",
+  "name": "University of Liverpool",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.liverpool.ac.uk/about/the-university/reports-policies-and-governance/ai-at-liverpool/ai-in-education/students/",
+   "title": "Students: AI for your studies",
+   "kind": "webpage",
+   "audience_as_stated": "University of Liverpool students",
+   "owner_as_stated": "University of Liverpool (AI at Liverpool / AI in Education)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://www.liverpool.ac.uk/media/livacuk/centre-for-innovation-in-education/digital-education/generative-ai-teach-learn-assess/guidance-on-the-use-of-gen-ai-learn-teach-assess.pdf",
+    "title": "Guidance on the use of Gen AI to learn, teach and assess (PDF)"
+   },
+   {
+    "audience": "students",
+    "url": "https://libanswers.liverpool.ac.uk/faq/271575",
+    "title": "How can I use Generative AI in my work? (library FAQ)"
+   }
+  ],
+  "queries": [
+   "University of Liverpool generative AI students guidance (allowed_domains liverpool.ac.uk)"
+  ],
+  "notes": "Page is a resource hub (tutorials, Jisc Discovery); points to the guidance PDF and Academic Integrity Policy, which may be a better coding target. Not date-stamped.",
+  "region": "England",
+  "doc_id": "liverpool-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/059hhvg49",
+  "name": "Arden University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://learningsuccess.arden.ac.uk/academic-skills/artificial-intelligence",
+   "title": "Artificial Intelligence - Learning Success Hub",
+   "kind": "webpage",
+   "audience_as_stated": "students (Academic Skills, Learning Success Hub)",
+   "owner_as_stated": "Academic Skills Team (Arden)",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": false,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://answers.arden.ac.uk/faq/282742",
+    "title": "Can I use generative artificial intelligence (AI) in my assessment? (FAQ, retrieved 200, updated 21 Apr 2026 as shown)"
+   },
+   {
+    "audience": "students",
+    "url": "https://cdn.arden.ac.uk/s3fs-public/2025-02/Arden-statement-3-Ai%20(1).pdf",
+    "title": "Arden University statement on the use of artificial intelligence in assessment (PDF, not readable via fetch)"
+   },
+   {
+    "audience": "students",
+    "url": "https://arden.ac.uk/knowledge-base/learning-styles/ai-tools-in-education",
+    "title": "Navigating AI Tools In Education"
+   }
+  ],
+  "queries": [
+   "Arden University generative AI students guidance (allowed_domains arden.ac.uk)"
+  ],
+  "notes": "Fetch of the AI page returned only the Learning Success Hub login/landing shell, so its content was not confirmed; the FAQ was retrieved and confirms student GenAI guidance exists. Not a bot wall; page likely JS/login rendered. Needs browser check or fetch.js import.",
+  "region": "England",
+  "doc_id": "arden-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/04mwwnx67",
+  "name": "Abertay University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://intranet.abertay.ac.uk/students/study-skills/guides/generative-ai/",
+   "title": "Using AI in Your Studies",
+   "kind": "webpage",
+   "audience_as_stated": "Abertay University students",
+   "owner_as_stated": "Student and Academic Services",
+   "date_as_shown": null,
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 307
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://intranet.abertay.ac.uk/students/study-skills/guides/generative-ai/ules-and-responsibilities/",
+    "title": "University position / rules and responsibilities"
+   }
+  ],
+  "queries": [
+   "Abertay University generative AI students guidance (allowed_domains abertay.ac.uk)"
+  ],
+  "notes": "Original URL 307-redirects to http://intranet.abertay.ac.uk/students/skills-hub/guides/generative-ai/ (retrieved there). Hosted on the student intranet; fetch tool did not hit a login but the summary suggested intranet login may be required, so archiving may be blocked. Use the redirect target as canonical if fetch.js follows.",
+  "region": "Scotland",
+  "doc_id": "abertay-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/048kc0s52",
+  "name": "Wrexham University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://wrexham.ac.uk/media/marketing/quality-and-student-admin-documents/Academic-Integrity-a-brief-guide-for-students.pdf",
+   "title": "Academic integrity: brief guide for students",
+   "kind": "pdf",
+   "audience_as_stated": "students (Wrexham University students)",
+   "owner_as_stated": null,
+   "date_as_shown": null,
+   "fallback": true,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "students",
+    "url": "https://wrexham.ac.uk/media/marketing/quality-and-student-admin-documents/Student-Guide-25-26.pdf",
+    "title": "The Student Guide (search snippet points to a Generative AI guidance section; URL returned 404 on re-fetch)"
+   },
+   {
+    "audience": "students",
+    "url": "https://wrexham.ac.uk/media/marketing/quality-and-student-admin-documents/Academic-Integrity-Procedure-2025-26.pdf",
+    "title": "Academic Integrity Procedure 2025/26 (search snippet; 404 on fetch)"
+   }
+  ],
+  "queries": [
+   "Wrexham University generative AI students guidance (allowed_domains wrexham.ac.uk)",
+   "Wrexham University artificial intelligence academic integrity students declare use (allowed_domains wrexham.ac.uk)",
+   "Wrexham University learning skills generative AI declare how you used AI (allowed_domains)",
+   "Wrexham University learning skills guide using generative AI responsibly transparently (allowed_domains)"
+  ],
+  "notes": "No standalone student GenAI page located. Fallback: academic-integrity guide lists AI under contract cheating. Student Guide mentions a 'Generative AI guidance' section in the Online learning part; worth a follow-up with the working URL.",
+  "region": "Wales",
+  "doc_id": "wrexham-students-genai-202610"
+ },
+ {
+  "ror_id": "https://ror.org/02tyrky19",
+  "name": "Trinity College Dublin",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.tcd.ie/gen-ai",
+   "title": "Generative AI: Introduction",
+   "kind": "library_guide",
+   "audience_as_stated": "Trinity College Dublin students (undergraduate and postgraduate)",
+   "owner_as_stated": "The Library of Trinity College Dublin",
+   "date_as_shown": "Last updated 10 June 2026",
+   "fallback": false,
+   "retrieved_here": true,
+   "http": 200
+  },
+  "other_pages": [
+   {
+    "audience": "staff",
+    "url": "https://www.tcd.ie/academicpractice/resources/generative_ai/",
+    "title": "GenAI in Teaching, Learning, Assessment & Research (hub, updated 3 July 2026; references College Statement on GenAI v2 2026)"
+   },
+   {
+    "audience": "staff",
+    "url": "https://www.tcd.ie/academicpractice/resources/gen-ai-hub/using-genai-in-teaching-and-learning/",
+    "title": "Using GenAI in Teaching and Learning"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.tcd.ie/media/tcd/academic-practice/pdfs/college-statement-on-genai.pdf",
+    "title": "College Statement on AI and Generative AI (404 on fetch; superseded by v2 2026?)"
+   },
+   {
+    "audience": "students",
+    "url": "https://www.tcd.ie/langs-lits-cultures/current-students/ai-guidelines/",
+    "title": "School of Languages AI Guidelines (school-level)"
+   }
+  ],
+  "queries": [
+   "Trinity College Dublin generative AI students guidance (allowed_domains tcd.ie)",
+   "Trinity College Dublin students generative AI policy academic integrity current students (allowed_domains tcd.ie)"
+  ],
+  "notes": "Library guide is the institution's own student guidance; thin (~200 words). Name check: this is Trinity College Dublin (tcd.ie), not Trinity Laban. College statement PDF URL from search returned 404; v2 2026 statement linked from hub is the better target if its URL can be found.",
+  "region": "Ireland",
+  "doc_id": "tcd-students-genai-202610"
+ }
+]

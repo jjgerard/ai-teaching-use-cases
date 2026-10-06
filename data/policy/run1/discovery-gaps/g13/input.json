@@ -1,0 +1,82 @@
+[
+ {
+  "name": "St Mary's University College",
+  "region": "Northern Ireland",
+  "website": "https://www.stmarys-belfast.ac.uk/",
+  "base": "st-marys",
+  "doc_id": "st-marys-students-genai-202610",
+  "blocked_url": null,
+  "why_not_archived": "not recorded",
+  "known_other_pages": [],
+  "previous_outcome": "not_found"
+ },
+ {
+  "name": "University of the Arts London",
+  "region": "England",
+  "website": "http://www.arts.ac.uk/",
+  "base": "arts-london",
+  "doc_id": "arts-london-students-genai-202610",
+  "blocked_url": "https://www.arts.ac.uk/about-ual/learning-and-teaching/digital-learning/ai-and-education/student-guide-to-generative-ai",
+  "why_not_archived": "blocked (bot challenge page)",
+  "known_other_pages": [
+   {
+    "url": "https://www.arts.ac.uk/about-ual/learning-and-teaching/digital-learning/ai-and-education",
+    "title": "AI and Arts Education",
+    "audience": "hub"
+   },
+   {
+    "url": "https://www.arts.ac.uk/about-ual/teaching-and-learning-exchange/digital-learning/ai-and-education/ai-position-statement",
+    "title": "Our position on using AI in teaching and learning",
+    "audience": "institution"
+   },
+   {
+    "url": "https://www.arts.ac.uk/about-ual/learning-and-teaching/digital-learning/ai-and-education/ai-and-assessment",
+    "title": "AI and Assessment",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "Northeastern University London",
+  "region": "England",
+  "website": "https://www.nulondon.ac.uk",
+  "base": "northeastern-london",
+  "doc_id": "northeastern-london-students-genai-202610",
+  "blocked_url": "https://www.nulondon.ac.uk/academic-handbook/ai-strategy/",
+  "why_not_archived": "robots_disallowed",
+  "known_other_pages": [
+   {
+    "url": "https://www.nulondon.ac.uk/wp-content/uploads/2025/01/AY24-AQF7-Part-C-Assessment-Regulations-24.3.0.pdf",
+    "title": "AQF7 Part C Assessment Regulations (lists 'Improper use of Artificial Intelligence' as an academic offence)"
+   },
+   {
+    "url": "https://www.nulondon.ac.uk/academic-handbook/strategies/ai/",
+    "title": "AI Strategy (alternate URL)"
+   }
+  ],
+  "previous_outcome": "found"
+ },
+ {
+  "name": "Health Sciences University",
+  "region": "England",
+  "website": "https://www.hsu.ac.uk",
+  "base": "health-sciences",
+  "doc_id": "health-sciences-students-genai-202610",
+  "blocked_url": "https://www.hsu.ac.uk/wp-content/uploads/2025/08/Academic-Integrity-and-Academic-Misconduct-Policy-and-Procedure-v1.3.pdf",
+  "why_not_archived": "ok",
+  "known_other_pages": [
+   {
+    "url": "https://www.hsu.ac.uk/wp-content/uploads/2024/07/Course-Design-Framework-Combined-v2.0.pdf",
+    "title": "Course Design Framework (names generative AI; HSU AI Assessment Scale)",
+    "audience": "staff"
+   },
+   {
+    "url": "https://www.hsu.ac.uk/about/policies-and-procedures/academic-regulations-policies-and-procedures/",
+    "title": "Academic regulations, policies and procedures (hub)",
+    "audience": "students"
+   }
+  ],
+  "previous_outcome": "found"
+ }
+]
