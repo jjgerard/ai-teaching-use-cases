@@ -1,0 +1,163 @@
+[
+ {
+  "name": "Flinders University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.flinders.edu.au/students/ai",
+   "title": "Learning to use AI artificial intelligence tools for study",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last Updated: 27 Jul 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://staff.flinders.edu.au/learning-teaching/artificial-intelligence",
+    "why": "staff only"
+   },
+   {
+    "url": "https://students.flinders.edu.au/my-course/hdr/using-genai-in-hdr-studies",
+    "why": "HDR students only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://students.flinders.edu.au/my-course/academic-integrity",
+    "title": "Academic integrity",
+    "audience": "students"
+   },
+   {
+    "url": "https://students.flinders.edu.au/content/dam/student/slss/academic-writing/position-statement-of-the-use-of-ai.pdf",
+    "title": "Position Statement of the use of Artificial Intelligence",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.flinders.edu.au/content/dam/documents/staff/policies/academic-students/student-academic-integrity-policy.pdf",
+    "title": "Student Academic Integrity Policy",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance [flinders.edu.au]",
+   "Flinders University students artificial intelligence academic integrity [flinders.edu.au]"
+  ]
+ },
+ {
+  "name": "Griffith University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://blogs.griffith.edu.au/library/2026/08/17/ai-and-assessment-what-every-student-should-know/",
+   "title": "AI and assessment: What every student should know",
+   "kind": "news",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "17 August 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.griffith.edu.au/library/study/digital-skills/generative-ai",
+    "why": "HTTP 403 on fetch (blocked); better candidate but unretrievable"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.griffith.edu.au/library/study/digital-skills/generative-ai",
+    "title": "Using generative AI",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.griffith.edu.au/academic-integrity",
+    "title": "Academic integrity",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.griffith.edu.au/centre-collaborative-educational-excellence/ai-in-assessment-approach",
+    "title": "AI in Assessment Approach",
+    "audience": "staff"
+   },
+   {
+    "url": "https://www.griffith.edu.au/__data/assets/pdf_file/0028/2082187/Gen-AI-guidence-for-researchers_11-April-2024.pdf",
+    "title": "Gen AI guidance for researchers",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance [griffith.edu.au]",
+   "Griffith University students use of generative AI academic integrity [griffith.edu.au]"
+  ]
+ },
+ {
+  "name": "The University of Melbourne",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://students.unimelb.edu.au/academic-skills/resources/academic-integrity/acknowledging-AI-tools-and-technologies",
+   "title": "Acknowledging AI tools and technologies",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://academicintegrity.unimelb.edu.au/staff-resources/artificial-intelligence/university-policy-and-actions",
+    "why": "staff resources; not fetched"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.unimelb.edu.au/tli/learning-design-and-assessment/preparing-for-teaching/navigating-genai",
+    "title": "Navigating GenAI",
+    "audience": "staff"
+   },
+   {
+    "url": "https://melbourne-cshe.unimelb.edu.au/resources/topics/assessment-and-feedback/specific-help/ai-in-teaching-and-learning",
+    "title": "Generative AI in T&L at the University of Melbourne",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance [unimelb.edu.au]",
+   "University of Melbourne students generative AI academic integrity [unimelb.edu.au]"
+  ]
+ },
+ {
+  "name": "Adelaide University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://adelaide.edu.au/about/policies/academic-integrity-policy/",
+   "title": "Academic Integrity Policy",
+   "kind": "institutional_policy",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Effective 28 May 2024; updated 1 January 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://libguides.adelaide.edu.au/c.php?amp=&g=959585&p=6965069",
+    "why": "HTTP 503 twice; appears to be legacy University of Adelaide guide"
+   },
+   {
+    "url": "https://www.adelaide.edu.au/student/academic-skills/academic-integrity-for-students/working-with-artificial-intelligence",
+    "why": "fetch returned the policy text, not the AI page; legacy University of Adelaide site"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "generative AI students guidance [adelaide.edu.au]",
+   "Using Generative AI at University students [adelaide.edu.au]",
+   "Adelaide University students AI academic integrity policy [adelaide.edu.au]"
+  ]
+ }
+]

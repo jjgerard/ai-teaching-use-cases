@@ -1,0 +1,149 @@
+[
+ {
+  "name": "The University of Western Australia",
+  "outcome": "found",
+  "doc": {
+   "url": "https://ipoint.uwa.edu.au/app/answers/detail/a_id/3432/~/using-chatgpt-and-other-ai-tools-in-your-assessments",
+   "title": "Using ChatGPT and other AI tools in your assessments - askUWA",
+   "kind": "other",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last updated 13/07/2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.uwa.edu.au/students/-/media/project/uwa/uwa/students/academic-support/using-artificial-intelligence-tools-at-uwa---a-guide-for-students-(2026).pdf",
+    "why": "preferred student guide seen in search result, but fetch returned a 404 page"
+   },
+   {
+    "url": "https://www.uwa.edu.au/news/article/2026/february/what-we-are-doing-about-ai-at-uwa",
+    "why": "DVC news article on strategy, not student rules"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://guides.library.uwa.edu.au/artificial_intelligence/acknowledging_and_referencing_AI",
+    "title": "Acknowledge and Reference AI",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance [allowed_domains uwa.edu.au]",
+   "uwa.edu.au students AI assessment academic integrity guidance [allowed_domains uwa.edu.au]",
+   "University of Western Australia students use of artificial intelligence in assessments academic integrity [allowed_domains uwa.edu.au]"
+  ]
+ },
+ {
+  "name": "Charles Darwin University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.cdu.edu.au/artificial-intelligence-cdu/ai-students",
+   "title": "AI for students",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.cdu.edu.au/library/language-and-learning-support/study-skills/research-communication/using-generative-ai-genai-hdr-studies",
+    "why": "HDR researchers only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://policies.cdu.edu.au/view-current.php?id=243",
+    "title": "Generative Artificial Intelligence Policy",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.cdu.edu.au/library/language-and-learning-support/study-skills/learning-cdu/using-ai-tools-university",
+    "title": "Using AI tools at university",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance [allowed_domains cdu.edu.au]",
+   "Charles Darwin University students generative AI study skills academic integrity [allowed_domains cdu.edu.au]"
+  ]
+ },
+ {
+  "name": "Auckland University of Technology",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.aut.ac.nz/student-life/studying/using-ai-in-your-studies-at-aut",
+   "title": "Using AI in your studies at AUT - AUT",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.aut.ac.nz/about/teaching-learning-and-assessment/generative-ai-and-assessment-at-aut",
+    "why": "blocked, HTTP 403; staff-oriented assessment design"
+   },
+   {
+    "url": "https://www.aut.ac.nz/research/postgraduate-student-support/pg-forms-policies-and-processes/ai-in-postgraduate-research",
+    "why": "PGR only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://thesislink.aut.ac.nz/?p=11166",
+    "title": "What do the New AI Guidelines Mean for You?",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance [allowed_domains aut.ac.nz]",
+   "AUT students artificial intelligence AI tools assessment guidance [allowed_domains aut.ac.nz]"
+  ]
+ },
+ {
+  "name": "Lincoln University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://ltl.lincoln.ac.nz/assets/Uploads/Learning-and-Research-Skills/GenAI/Using-GenAI-in-your-Learning-Student-Guidelines.pdf",
+   "title": "Using Generative Artificial Intelligence (GenAI) in your Learning - Student Guidelines",
+   "kind": "guide",
+   "format": "pdf",
+   "language": "en",
+   "date_as_shown": "Last Modified 02/12/25",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://ltl.lincoln.ac.nz/assets/Uploads/Teaching/GenAI/GenAI-Staff-Guidelines-for-Learning-and-Teaching.pdf",
+    "why": "staff only"
+   },
+   {
+    "url": "https://www.lincoln.ac.nz/assets/PoliciesAndProcedures/Academic-Integrity-Policy-and-Procedure-.pdf",
+    "why": "2025-03 version fetched showed no AI mention"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://ltl.lincoln.ac.nz/learning-and-research/getting-started/ai-and-assessments/",
+    "title": "Gen AI and Assessments",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance [allowed_domains lincoln.ac.nz]",
+   "Lincoln University students AI generative academic integrity [allowed_domains lincoln.ac.nz]",
+   "Lincoln University Te Kete Wanaka students generative AI use in assessments [allowed_domains ltl.lincoln.ac.nz, lincoln.ac.nz]"
+  ]
+ }
+]

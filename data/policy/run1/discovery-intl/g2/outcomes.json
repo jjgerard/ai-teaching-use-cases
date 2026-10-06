@@ -1,0 +1,121 @@
+[
+ {
+  "name": "Macquarie University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.mq.edu.au/generativeai",
+   "title": "Generative AI for students",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last Updated: September 25, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://students.mq.edu.au/study/assessment-exams/academic-integrity/ai-tools",
+    "why": "blocked: HTTP 403 on fetch (preferred institution-wide page; candidate for later import)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://policies.mq.edu.au/download.php?id=768&version=1&associated=",
+    "title": "Using Generative AI in Research Guidance Note",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "Macquarie University generative AI students guidance (allowed_domains mq.edu.au)"
+  ]
+ },
+ {
+  "name": "University of Tasmania",
+  "outcome": "found",
+  "doc": {
+   "url": "https://askus.utas.edu.au/app/answers/detail/a_id/2579/~/can-i-use-generative-artificial-intelligence-(ai)-for-my-assessments",
+   "title": "Can I use generative Artificial Intelligence (AI) for my assessments?",
+   "kind": "other",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.utas.edu.au/events/2025/august/library-webinar-when-to-use-generative-ai-a-practical-workshop",
+    "title": "Library webinar: When to use Generative AI",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "University of Tasmania generative AI students guidance (allowed_domains utas.edu.au)",
+   "UTAS using generative artificial intelligence in university studies student guide (allowed_domains utas.edu.au)"
+  ]
+ },
+ {
+  "name": "University of Southern Queensland",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.unisq.edu.au/current-students/your-study/academic-integrity/own-your-learning",
+   "title": "Own your learning",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Updated for 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://integrity.unisq.edu.au/further-resources/",
+    "why": "staff-oriented resource list"
+   },
+   {
+    "url": "https://www.unisq.edu.au/current-students/academic/academic-integrity/artificial-intelligence-and-assessment",
+    "why": "HTTP 404 on fetch"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://policy.unisq.edu.au/documents/13752pl",
+    "title": "Student Academic Integrity Policy",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.unisq.edu.au/research/graduate-research-school/current-hdr-students",
+    "title": "UniSQ Current HDR students",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "University of Southern Queensland generative AI students guidance (allowed_domains unisq.edu.au)",
+   "UniSQ students generative AI assessment academic integrity (allowed_domains unisq.edu.au)"
+  ]
+ },
+ {
+  "name": "Excelsia University College",
+  "outcome": "found",
+  "doc": {
+   "url": "https://excelsia.edu.au/wp-content/uploads/Artificial-Intelligence-Framework.pdf",
+   "title": "Artificial Intelligence Framework (GOV-STA-03)",
+   "kind": "institutional_policy",
+   "format": "pdf",
+   "language": "en",
+   "date_as_shown": "last-modified 18 Dec 2025 (HTTP header)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [],
+  "queries": [
+   "Excelsia University College generative AI students guidance (allowed_domains excelsia.edu.au)"
+  ]
+ }
+]
