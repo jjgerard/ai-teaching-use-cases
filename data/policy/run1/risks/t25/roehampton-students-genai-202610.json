@@ -1,0 +1,30 @@
+{
+ "doc_id": "roehampton-students-genai-202610",
+ "coder": "rk-t25",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI will sometimes produce factually inaccurate information such as fabricated sources.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "there are also ethical concerns about fairness and bias in the images it creates, based on the data the AI was trained on.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "You will always need to follow up on suggestions made by AI using traditional search methods, correct referencing techniques and always check the accuracy of everything AI provides.",
+   "anchor": null
+  }
+ ]
+}

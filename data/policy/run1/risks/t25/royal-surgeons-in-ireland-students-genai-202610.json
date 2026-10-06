@@ -1,0 +1,151 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-students-genai-202610",
+ "coder": "rk-t25",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "GenAI tools may sometimes fabricate information (known as hallucination), which means they are not completely reliable sources.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "There is also a danger for both faculty and students that cognitive offloading to GenAI may increase reliance on it, which may result in disempowerment over time.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Data inputted into GenAI platforms may not be secure.",
+   "anchor": null
+  },
+  {
+   "risk": "opacity_or_lack_of_transparency",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI tools, especially those that use artificial neural networks, are often seen as a \"black box\" due to their complexity, making it challenging even for experts to understand how they work.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI can perpetuate or amplify biases present in the training data, leading to discriminatory outputs.",
+   "anchor": null
+  },
+  {
+   "risk": "inequity_of_access",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "The most powerful GenAI tools are often behind a paywall and thus may not be equally accessible to all students.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Training the large-language models (LLMs), on which GenAI is based, requires significant computational resources, which can have a substantial negative environmental impact.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "GenAI models are trained on large volumes of data, very often appropriated from the Internet without the permission of the original creator.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "the labelling and cleaning of data required to create the LLMs on which GenAI is built is often carried out by workers in the Global South who may be subjected to exploitation and poor working conditions.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "When GenAI is used, it is the responsibility of the user to review its output to ensure its veracity and quality.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "It is the student’s responsibility to confirm that content acquired via GenAI tools is factually correct as these tools are not co-authors and cannot take responsibility for their output.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "It is the student’s responsibility to confirm that content acquired via GenAI tools is factually correct as these tools are not co-authors and cannot take responsibility for their output.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Students and staff must adhere to RCSI’s Academic Integrity policy, codes of conduct, privacy regulations, and ethical guidelines, reflecting the university's values.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Students and staff are encouraged, where permitted, to leverage GenAI responsibly, ensuring that their contributions remain unique and authentic.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "It is the responsibility of the user to familiarise themselves with the data privacy policies and Terms of Use of any GenAI platform they intend using.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Information and training should be provided to staff and students to support them to use AI in an informed and ethical way.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "The fast-moving pace of developments in GenAI mean that policies and guidance will require continual monitoring and development.",
+   "anchor": null
+  },
+  {
+   "duty": "human_oversight",
+   "bearer": "unspecified",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "AI-informed decision making should always be subject to human oversight.",
+   "anchor": null
+  },
+  {
+   "duty": "ensure_equitable_access",
+   "bearer": "institution",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Where the use of AI is permitted or encouraged, all students should be given access to institutionally approved AI tools.",
+   "anchor": null
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "doc_id": "winchester-students-genai-202610",
+ "coder": "rk-t32",
+ "risks": [
+  {
+   "risk": "environmental_impact",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "As a community we recognise the environmental impact associated with AI.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Students and staff should remember that many large language models (LLMs) have been trained on the work of others, including copyrighted and other intellectual property, without permission or payment.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI systems may reflect or amplify racial bias through stereotyping, uneven quality of outputs, or discriminatory assumptions.",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI-generated content may contain inaccurate, insensitive, or biased representations relating to religion or belief if used without appropriate human judgement.",
+   "anchor": null
+  },
+  {
+   "risk": "security_or_misuse",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "The data integrity and cyber security implications of the irresponsible use of Generative AI;",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Students must never use Generative AI tools to produce content that is presented as their own critical thinking or original creation, whether for assessment or formative work. This passive and uncritical use bypasses the requirement for students to demonstrate their own thinking and develop their individual skills.",
+   "anchor": null
+  },
+  {
+   "risk": "inequity_of_access",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Levels of familiarity and confidence in using AI may vary across age groups. This could disadvantage some users without appropriate support.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Students and staff always remain accountable for their final outputs. This includes ensuring that content is appropriate and free of errors.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Students and staff always remain accountable for their final outputs. This includes ensuring that content is appropriate and free of errors.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "The University is committed to ensuring that use of Generative AI is responsible and pays due regard to:",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "The University will enable students to become AI-literate graduates, capable of understanding and navigating Generative AI both within their discipline and in their chosen professional direction.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "Given the pace of development in Generative AI, this Statement will be kept under regular review by the University.",
+   "anchor": null
+  },
+  {
+   "duty": "ensure_equitable_access",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "The University will make University-provided AI tools available to students and colleagues and will offer training to support their confident and responsible use.",
+   "anchor": null
+  }
+ ]
+}

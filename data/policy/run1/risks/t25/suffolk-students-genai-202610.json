@@ -1,0 +1,107 @@
+{
+ "doc_id": "suffolk-students-genai-202610",
+ "coder": "rk-t25",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Critically evaluate all AI outputs for accuracy, bias, and relevance, recognising that these tools can produce misleading or fabricated information, including false citations.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "users should be aware that generated content can contain incomplete, inaccurate, misleading and/or biased information",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Identify and manage discipline-specific risks, including the potential for Generative AI to shortcut the development of foundational knowledge or skills, compromise academic integrity, or provide inaccurate, misleading or unsafe outputs, particularly in professional or practice-based contexts.",
+   "anchor": null
+  },
+  {
+   "risk": "wellbeing_or_safety",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Identify and manage discipline-specific risks, including the potential for Generative AI to shortcut the development of foundational knowledge or skills, compromise academic integrity, or provide inaccurate, misleading or unsafe outputs, particularly in professional or practice-based contexts.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Globally there are both positive and negative impacts of AI on sustainability development goals.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "assess_risk_before_use",
+   "bearer": "staff",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Identify and manage discipline-specific risks, including the potential for Generative AI to shortcut the development of foundational knowledge or skills, compromise academic integrity, or provide inaccurate, misleading or unsafe outputs, particularly in professional or practice-based contexts.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "staff",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Engage in continuing professional development (CPD) related to AI literacy, including the capabilities and limitations of AI tools and their pedagogical or ethical, and disciplinary implications.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "staff",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Model responsible and transparent use of Generative AI in teaching materials and interactions with students, including clear disclosure when AI-generated output is used in lectures or learning resources.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Students on placement and work-based projects or equivalent should check the policy and approach to the use of AI tools of the placement provider or employer and ensure that their behaviour and practice whilst in the workplace also aligns with that policy.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Critically evaluate all AI outputs for accuracy, bias, and relevance, recognising that these tools can produce misleading or fabricated information, including false citations.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Users must continue to follow all University policies on information classification, data handling, and confidentiality when using a Generative AI system that operates securely within the University’s environment",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": false,
+   "quote": "Support will be provided to students through mandatory training accompanied by guidance including the ‘AI traffic light system’.",
+   "anchor": null
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "Emerging technologies, opportunities and challenges in this field will be surfaced and interrogated as required.",
+   "anchor": null
+  }
+ ]
+}
