@@ -1,0 +1,8 @@
+{"doc_id":"aberdeen-students-genai-202610","coder":"td-t29",
+"tools":[],
+"data":[
+{"data_type":"university_materials","stance":"conditional","audience":"students","conditions":["needs_permission"],"ai_named":true,"quote":"Please note that any learning materials (e.g. lectures) and assessment information (e.g. questions, tasks, activities) must not be entered into these tools without the explicit permission of the author (e.g. Course Coordinator, Lecturer).","anchor":null},
+{"data_type":"assessment_material","stance":"conditional","audience":"students","conditions":["needs_permission"],"ai_named":true,"quote":"Please note that any learning materials (e.g. lectures) and assessment information (e.g. questions, tasks, activities) must not be entered into these tools without the explicit permission of the author (e.g. Course Coordinator, Lecturer).","anchor":null},
+{"data_type":"personal_data","stance":"prohibited","audience":"students","conditions":[],"ai_named":true,"quote":"Never enter personal and sensitive data into GenAI tools.","anchor":null}],
+"safeguards":[{"value":"check_terms_and_privacy","audience":"students","ai_named":false,"quote":"Review their privacy policy and terms of use, or equivalent statements, to inform your use.","anchor":null}],
+"legal":[{"value":"terms_of_service","audience":"students","ai_named":false,"quote":"Review their privacy policy and terms of use, or equivalent statements, to inform your use.","anchor":null}]}

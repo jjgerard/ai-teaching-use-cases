@@ -1,0 +1,59 @@
+{
+ "doc_id": "york-students-genai-202610",
+ "coder": "td-t27",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Google Gemini",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Google Gemini is the University's preferred generative AI tool because any data inputted is fully protected and chats are never used for training or human review by Google.",
+   "anchor": null
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "recommended",
+   "audience": "students",
+   "name": "Google Gemini",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Google Gemini is the University's preferred generative AI tool because any data inputted is fully protected and chats are never used for training or human review by Google.",
+   "anchor": null
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": false,
+   "quote": "If used in an appropriate way, and if permitted in your assignments, the use of online LEAs is not considered academic misconduct and can be beneficial during degree programme.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "own_work",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "providing your own work to an individual or software has a degree of risk. Once you have shared your work, you cannot guarantee how that will then be used. The emergence of generative AI, for example, has raised serious concerns about how data is processed and used by the companies and software.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "You must sign into Gemini using your University credentials to ensure this.",
+   "anchor": null
+  }
+ ],
+ "legal": []
+}

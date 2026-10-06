@@ -1,0 +1,137 @@
+{
+ "doc_id": "royal-surgeons-in-ireland-students-genai-202610",
+ "coder": "td-t25",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "At present, RCSI’s licence with Microsoft offers commercial data protection to faculty students on the free browser-based Copilot platform.",
+   "anchor": null
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "warned",
+   "audience": "both",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Uploading personally identifying, institutional, copyrighted or research-related data onto public GenAI platforms may be considered a breach of RCSI’s data privacy protection policy.",
+   "anchor": null
+  },
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "discouraged",
+   "audience": "unspecified",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "It is not advisable to rely on AI detection tools to detect GenAI accurately or reliably.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission",
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "Personal or proprietary data should only be added to an AI platform, where the privacy of that data is guaranteed, and the explicit permission of the owner has been provided.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission",
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "Personal or proprietary data should only be added to an AI platform, where the privacy of that data is guaranteed, and the explicit permission of the owner has been provided.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "it is important for both students and faculty to obtain permission before submitting content owned by another person to a GenAI platform.",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "warned",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Uploading personally identifying, institutional, copyrighted or research-related data onto public GenAI platforms may be considered a breach of RCSI’s data privacy protection policy.",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "warned",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Uploading personally identifying, institutional, copyrighted or research-related data onto public GenAI platforms may be considered a breach of RCSI’s data privacy protection policy.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "It is the responsibility of the user to familiarise themselves with the data privacy policies and Terms of Use of any GenAI platform they intend using.",
+   "anchor": null
+  },
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI should be used in ways that respect the privacy and confidentiality of all users and should align with GDPR and RCSI’s Data Protection policy.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI should be used in ways that respect the privacy and confidentiality of all users and should align with GDPR and RCSI’s Data Protection policy.",
+   "anchor": null
+  },
+  {
+   "value": "terms_of_service",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "It is the responsibility of the user to familiarise themselves with the data privacy policies and Terms of Use of any GenAI platform they intend using.",
+   "anchor": null
+  },
+  {
+   "value": "eu_ai_act",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "The EU’s Artificial Intelligence Act, which is due to come into force over the next few months, has classified some uses of AI in education as high risk and emphasises the importance of human oversight of AI systems.",
+   "anchor": null
+  },
+  {
+   "value": "copyright",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "GenAI models are trained on large volumes of data, very often appropriated from the Internet without the permission of the original creator. This may infringe upon copyrights and intellectual property rights.",
+   "anchor": null
+  }
+ ]
+}

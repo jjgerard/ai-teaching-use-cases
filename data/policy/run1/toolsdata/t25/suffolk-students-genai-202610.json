@@ -1,0 +1,58 @@
+{
+ "doc_id": "suffolk-students-genai-202610",
+ "coder": "td-t25",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "No personal data, confidential research materials, unpublished data, or sensitive/commercial University information may be uploaded into any external AI system unless explicitly approved and compliant with data protection and ethics requirements.",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "No personal data, confidential research materials, unpublished data, or sensitive/commercial University information may be uploaded into any external AI system unless explicitly approved and compliant with data protection and ethics requirements.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "No personal data, confidential research materials, unpublished data, or sensitive/commercial University information may be uploaded into any external AI system unless explicitly approved and compliant with data protection and ethics requirements.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Users must continue to follow all University policies on information classification, data handling, and confidentiality when using a Generative AI system that operates securely within the University’s environment",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "No personal data, confidential research materials, unpublished data, or sensitive/commercial University information may be uploaded into any external AI system unless explicitly approved and compliant with data protection and ethics requirements.",
+   "anchor": null
+  }
+ ]
+}

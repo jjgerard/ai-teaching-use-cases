@@ -1,0 +1,49 @@
+{
+ "doc_id": "roehampton-students-genai-202610",
+ "coder": "td-t25",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "To safeguard your information, avoid sharing any personal or confidential data with AI systems.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "To safeguard your information, avoid sharing any personal or confidential data with AI systems.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "opt_out_of_training",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "You should turn off the tool’s ability to learn on your data, this means your information is not used to train AI.",
+   "anchor": null
+  },
+  {
+   "value": "anonymise_before_entry",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Always anonymise datasets, and limit access to only trusted platforms.",
+   "anchor": null
+  },
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Read through the privacy policy to understand how your data is being used.",
+   "anchor": null
+  }
+ ],
+ "legal": []
+}

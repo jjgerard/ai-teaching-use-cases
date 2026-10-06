@@ -1,0 +1,92 @@
+{
+ "doc_id": "bpp-students-genai-202610",
+ "coder": "td-t27",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Students may be given access to Generative AI tools through an institutional licence, and this will be accessed through Single Sign On (SSO) using BPP credentials where it is granted.",
+   "anchor": null
+  },
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "BPP provides access to necessary software for you to complete your studies and this will have been approved for use.",
+   "anchor": null
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Some of these may be AI powered and will help you to identify and correct grammatical errors and spelling mistakes. However, you should not use any software to rewrite sentences or make substantive changes to your original work unless conditions in the assignment brief explicitly allows it.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Using Gen AI tools in a way that would breach client confidentiality or would expose client data.",
+   "anchor": null
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Translating content to or from English, excluding any personal, client or business confidential content",
+   "anchor": null
+  },
+  {
+   "data_type": "own_work",
+   "stance": "permitted",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "You are allowed to use Gen AI tools to upload your own writing and thoughts to begin a discussion or self-reflection with the AI to gain insight into your writing.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Students may be given access to Generative AI tools through an institutional licence, and this will be accessed through Single Sign On (SSO) using BPP credentials where it is granted.",
+   "anchor": null
+  },
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "ensuring that we comply with GDPR regulations and data protection protocols.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "ensuring that we comply with GDPR regulations and data protection protocols.",
+   "anchor": null
+  }
+ ]
+}

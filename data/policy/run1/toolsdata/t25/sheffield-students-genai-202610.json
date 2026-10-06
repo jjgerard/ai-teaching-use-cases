@@ -1,0 +1,49 @@
+{
+ "doc_id": "sheffield-students-genai-202610",
+ "coder": "td-t25",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Google Gemini",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "All students and staff have access to Google Gemini (university login required) as the institutionally supported GenAI tool.",
+   "anchor": null
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "recommended",
+   "audience": "both",
+   "name": "Google Gemini",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Where possible, Gemini should be used to support learning and teaching activities.",
+   "anchor": null
+  },
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "meets_security_policy"
+   ],
+   "ai_named": false,
+   "quote": "Where tools other than Google Suite are made available to students on a use case basis, the New IT Solution Request Process (staff university login required)has been followed to ensure they comply with data protection and information security policies.",
+   "anchor": null
+  }
+ ],
+ "data": [],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Acknowledging there are potential copyright implications in the use of GenAI tools, and that this is currently a partially understood and contested area.",
+   "anchor": null
+  }
+ ]
+}

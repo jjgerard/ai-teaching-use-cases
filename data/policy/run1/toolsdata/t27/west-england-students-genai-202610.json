@@ -1,0 +1,46 @@
+{
+ "doc_id": "west-england-students-genai-202610",
+ "coder": "td-t27",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not enter personal or sensitive information into AI tools. It is often unknown how that data will be stored or could be accessed and used by others.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": false,
+   "quote": "Do not submit other peoples’ data or work without their consent. This includes your colleagues, teaching staff, and materials such as transcripts of teaching materials (including slides and exam papers) or content from UWE Bristol Library resources.",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "You should not upload teaching materials or other resources provided by your tutor.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Submitting material that has been created by others may break copyright and intellectual property rules.",
+   "anchor": null
+  }
+ ]
+}

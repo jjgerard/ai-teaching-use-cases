@@ -1,0 +1,15 @@
+{"doc_id":"east-anglia-students-genai-202610","coder":"td-t29",
+"tools":[
+{"tool_class":"ai_detection_tools","stance":"warned","audience":"staff","name":null,"conditions":[],"ai_named":false,"quote":"You can use ZeroGPT, there are also tools available from TurnitIn, but Blackboard has recently stopped developing detection tools as they are unreliable. Detection tools should be used with caution due to reported inaccuracy","anchor":null},
+{"tool_class":"external_or_consumer_tools","stance":"not_endorsed","audience":"staff","name":null,"conditions":[],"ai_named":true,"quote":"Diagrams and images can also be created, but the AI tools here are often paid for, and run the risk of copyright issues. There are also tools which will generate online content, but they are not free, and unsupported by UEA.","anchor":null}],
+"data":[
+{"data_type":"personal_data","stance":"prohibited","audience":"students","conditions":[],"ai_named":true,"quote":"Students should be aware of privacy and GDPR and not input personal and private information about themselves or others. This is because the software will store data and information and potentially use it for other content.","anchor":null},
+{"data_type":"personal_data","stance":"conditional","audience":"students","conditions":["ethics_approval"],"ai_named":true,"quote":"If personal data is to be put into an AI tool this must be part of the ethics application process.","anchor":null},
+{"data_type":"personal_data","stance":"prohibited","audience":"staff","conditions":[],"ai_named":true,"quote":"There are a number of ‘red light’ activities where staff should not use Generative AI • Generation of letters to students or other staff including personal data and information. This is because the software will store data and information and potentially use it for other content.","anchor":null},
+{"data_type":"research_data","stance":"conditional","audience":"students","conditions":["needs_permission"],"ai_named":true,"quote":"Students should not input confidential research data, both quantitative and qualitative or copyrighted data/text into an AI tool without approval.","anchor":null},
+{"data_type":"others_work_and_copyright","stance":"conditional","audience":"students","conditions":["needs_permission"],"ai_named":true,"quote":"Students should not input confidential research data, both quantitative and qualitative or copyrighted data/text into an AI tool without approval.","anchor":null}],
+"safeguards":[],
+"legal":[
+{"value":"data_protection","audience":"students","ai_named":true,"quote":"Students should be aware of privacy and GDPR and not input personal and private information about themselves or others.","anchor":null},
+{"value":"copyright","audience":"students","ai_named":true,"quote":"Students should not input confidential research data, both quantitative and qualitative or copyrighted data/text into an AI tool without approval.","anchor":null},
+{"value":"copyright","audience":"staff","ai_named":true,"quote":"Diagrams and images can also be created, but the AI tools here are often paid for, and run the risk of copyright issues.","anchor":null}]}
