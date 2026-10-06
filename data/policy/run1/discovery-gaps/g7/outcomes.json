@@ -1,0 +1,150 @@
+[
+ {
+  "name": "Arden University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://answers.arden.ac.uk/faq/282742",
+   "title": "Can I use generative artificial intelligence (AI) in my assessment?",
+   "kind": "guide",
+   "format": "html",
+   "date_as_shown": "Last updated 21 Apr 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://learningsuccess.arden.ac.uk/academic-skills/artificial-intelligence",
+    "why": "blocked_url (login redirect)"
+   },
+   {
+    "url": "https://cdn.arden.ac.uk/s3fs-public/2025-02/Arden-statement-3-Ai%20(1).pdf",
+    "why": "not readable via fetch earlier; not retried"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://answers.arden.ac.uk/faq/287450",
+    "title": "What resources can I use to help me understand generative AI for university work?",
+    "audience": "students"
+   },
+   {
+    "url": "https://answers.arden.ac.uk/faq/282954",
+    "title": "What are some ways I can use generative AI for academic work?",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "Arden University students generative AI assessment guidance (allowed_domains arden.ac.uk)"
+  ]
+ },
+ {
+  "name": "London South Bank University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.lsbu.ac.uk/AI-academic-study",
+   "title": "AI tools and academic study: Home",
+   "kind": "library_guide",
+   "format": "html",
+   "date_as_shown": "16 Sep 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.lsbu.ac.uk/__data/assets/pdf_file/0006/432375/LSBU-AI-policy.pdf",
+    "why": "blocked_url (bot challenge)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://library.lsbu.ac.uk/artificial-intelligence",
+    "title": "How to Use Artificial Intelligence",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.lsbu.ac.uk/__data/assets/pdf_file/0004/118327/student-academic-misconduct-procedure.pdf",
+    "title": "Student academic misconduct procedure (not fetched)",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "LSBU artificial intelligence policy students generative AI (allowed_domains lsbu.ac.uk)"
+  ]
+ },
+ {
+  "name": "Liverpool John Moores University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ljmu.ac.uk/about-us/news/articles/2024/10/4/updated-assessment-and-feedback-policy",
+   "title": "Updated Assessment and Feedback Policy",
+   "kind": "news",
+   "format": "html",
+   "date_as_shown": "04/10/24",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.ljmu.ac.uk/about-us/public-information/student-regulations/academic-misconduct",
+    "why": "blocked_url (robots disallowed)"
+   },
+   {
+    "url": "https://www.ljmu.ac.uk/~/media/sample-sharepoint-libraries/policy-documents/246.pdf?la=en",
+    "why": "retrieved but no AI content seen in extract"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.ljmu.ac.uk/teaching-and-learning-academy/educational-policies-and-guidance",
+    "title": "Educational policies and guidance",
+    "audience": "staff"
+   },
+   {
+    "url": "https://www.ljmu.ac.uk/edtech/staff-guides/artificial-intelligence",
+    "title": "Staff guide on AI",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "Liverpool John Moores students generative AI academic misconduct guidance (allowed_domains ljmu.ac.uk)"
+  ]
+ },
+ {
+  "name": "City St George's, University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.citystgeorges.ac.uk/ai-research/home",
+   "title": "AI for study: Home",
+   "kind": "library_guide",
+   "format": "html",
+   "date_as_shown": "1 Sep 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://studenthub.citystgeorges.ac.uk/academic-resources/learning-and-study-support/online-learning-tools/using-generative-artificial-intelligence-ai-for-learning",
+    "why": "blocked_url (bot challenge)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://studenthub.citystgeorges.ac.uk/news-and-events/news/2025/april/ai-and-your-studies-what-you-need-to-know",
+    "title": "AI and your studies: What you need to know",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.citystgeorges.ac.uk/research/doctoral-college/doctoral-training-resources/use-of-generative-ai-tools-in-doctoral-research",
+    "title": "Use of generative AI tools in doctoral research",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "City St George's using generative artificial intelligence for learning students (allowed_domains citystgeorges.ac.uk)"
+  ]
+ }
+]
