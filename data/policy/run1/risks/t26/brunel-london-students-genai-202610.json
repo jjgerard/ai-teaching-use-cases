@@ -1,0 +1,88 @@
+{
+ "doc_id": "brunel-london-students-genai-202610",
+ "coder": "rk-t26",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "the free versions of Chat GPT are more likely to produce “hallucinations” and provide false or out-of-date information compared to the paid versions.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI scrapes data from the web in huge quantities, including biased, harmful, and/or misinformed content that perpetuates existing biases.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Any data entered into generative AI can be fed into the data sets that the generative AI relies upon",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "You could inadvertently plagiarise or breach the copyright of someone’s work when using generative AI.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Web-based technologies like generative AI have a significant environmental impact.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "relying solely on generative AI can seriously compromise your work",
+   "anchor": null
+  },
+  {
+   "risk": "security_or_misuse",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI is being used to create “deep fakes”, video content designed to appear authentic but are actually fake.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI is actively being used to spread misinformation and political propaganda, as well as being employed as sophisticated means of censoring information",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "Always cross-reference the information, including any references, presented with more valid academic sources.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Any permitted use of generative AI should be done in a transparent, ethical, and critically engaged manner.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Generative AI tools can be useful when used properly but make sure that you fully understand their limitations and the legal, ethical, and data protection issues they present before using them.",
+   "anchor": null
+  }
+ ]
+}

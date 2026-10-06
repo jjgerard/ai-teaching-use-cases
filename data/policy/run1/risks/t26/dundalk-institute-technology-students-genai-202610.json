@@ -1,0 +1,46 @@
+{
+ "doc_id": "dundalk-institute-technology-students-genai-202610",
+ "coder": "rk-t26",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "The tools can produce false information or ‘hallucinations’.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "In some cases, the content might be biased.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It is also your responsibility to check the accuracy of the information.",
+   "anchor": null
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It is also your responsibility to check the accuracy of the information.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Please familiarise yourself with DkIT’s Academic Integrity Policy and Procedures",
+   "anchor": null
+  }
+ ]
+}

@@ -1,0 +1,81 @@
+{
+ "doc_id": "edinburgh-student-genai-guidelines-202610",
+ "coder": "rk-t26",
+ "risks": [
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "There is growing research evidence that over-use of generative AI can negatively affect your learning.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "they can perpetuate harmful biases, fabricate information and make errors",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "they can perpetuate harmful biases, fabricate information and make errors",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI-based translation apps retain and process recordings in a way that is not allowed in this policy.",
+   "anchor": null
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "While there are ongoing efforts to reduce the environmental impact of the datacentres that make AI models work, it is clear that use of generative AI has a higher impact than, for example, a simple web search.",
+   "anchor": null
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Many in our community are concerned about the negative impacts of generative AI in areas such as: Energy and resource use Exploitative labour practices Intellectual property",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Many in our community are concerned about the negative impacts of generative AI in areas such as: Energy and resource use Exploitative labour practices Intellectual property",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "You will be held accountable for these errors and biases if you include them in assessed work.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "You must always check your course level guidance.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "The University trusts you as students to act responsibly in relation to the use of generative AI.",
+   "anchor": null
+  }
+ ]
+}

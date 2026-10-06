@@ -1,0 +1,90 @@
+{
+ "doc_id": "york-st-john-students-genai-202610",
+ "coder": "rk-t31",
+ "risks": [
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "We also acknowledge many others have ongoing concerns about GenAI's environmental and socioeconomic impacts.",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI tools are not experts. They can invent information or reinforce harmful stereotypes.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI tools are not experts. They can invent information or reinforce harmful stereotypes.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "If you rely too much on AI, you may miss chances to develop your own:",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Sharing your personal information, including contact details, health information or personal opinions, might be appropriate in specific contexts but could be abused by some.",
+   "anchor": null
+  },
+  {
+   "risk": "inequity_of_access",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Not all GenAI tools are free or accessible.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "You are responsible for what you input into GenAI tools and how you use the outputs.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "GenAI tools are not experts. They can invent information or reinforce harmful stereotypes. Always check:",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It is essential that you familiarise yourself with the Academic Misconduct Policy.",
+   "anchor": null
+  },
+  {
+   "duty": "no_compulsion_to_use",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "You will not be expected to use paid AI tools.",
+   "anchor": null
+  },
+  {
+   "duty": "ensure_equitable_access",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "Where AI tools are used, we endeavour to use tools to which all students have access.",
+   "anchor": null
+  }
+ ]
+}

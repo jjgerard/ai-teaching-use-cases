@@ -1,0 +1,69 @@
+{
+ "doc_id": "leeds-beckett-students-genai-202610",
+ "coder": "rk-t26",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Avoid presuming that AI tools always offer accurate information.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "phrases and concepts produced by certain generative AI tools may incorporate ideas from other human authors without proper referencing, potentially constituting plagiarism.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "These tools are trained on content, primarily sourced from the internet (mostly in English, from Western sources and with gender and race imbalances derived from their originating cultures) and can perpetuate biases and stereotypes.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It remains your responsibility to critically assess the output and cross-check the information with reputable sources.",
+   "anchor": null
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It remains your responsibility to critically assess the output and cross-check the information with reputable sources.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "it remains your duty to employ them ethically and responsibly.",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It is crucial to adhere to our university's regulations",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "we will support you to develop your understanding of generative AI and how it relates to learning and assessment.",
+   "anchor": null
+  }
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "doc_id": "warwick-students-genai-202610",
+ "coder": "rk-t26",
+ "risks": [
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI-generated content may include biases, inaccuracies and outdated information.",
+   "anchor": null
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI-generated content may include biases, inaccuracies and outdated information.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Always think critically when using AI",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "you can use Artificial Intelligence (AI) but must follow any requirements set out in assessments and course handbooks.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Complete the Artificial Intelligence and Academic IntegrityLink opens in a new window Moodle to learn more.",
+   "anchor": null
+  }
+ ]
+}

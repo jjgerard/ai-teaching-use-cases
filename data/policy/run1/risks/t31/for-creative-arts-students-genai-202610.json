@@ -1,0 +1,67 @@
+{
+ "doc_id": "for-creative-arts-students-genai-202610",
+ "coder": "rk-t31",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI makes things up by guessing – the results it produces might not be true or valid.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI is trained on texts produced by humans, from the Internet. It can replicate the same biases, in terms of race, gender, religion, sexuality, and socio-economic factors in its outputs.",
+   "anchor": null
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI prompts can be shared with others, so do not share personal data or sensitive information about yourself or others.",
+   "anchor": null
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Copyright ownership of AI outputs is unclear and inputting in-copyright material into an AI platform could be considered an infringement of copyright law.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "If you become too reliant on AI, you are not developing the competencies such as writing skills, deep learning, critical thinking and evaluation.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "AI tools are only as good as the information it has access to and the questions you ask. You need to thinking critically about the results you want, evaluate the results you get and try different approaches to get better results.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "It is therefore vital to be aware of the limitations AI system have and to be knowledgeable on how to use AI.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "The University is committed to supporting you in developing the awareness and skills needed to use AI effectively and ethically in your academic work.",
+   "anchor": null
+  }
+ ]
+}
