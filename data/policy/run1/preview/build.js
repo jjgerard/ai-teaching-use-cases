@@ -38,6 +38,7 @@ const points = rd("points.json"); const noPts = {};
 for (const d of PDIRS) for (const f of fs.readdirSync(d).filter((x) => x.endsWith(".json"))) { const j = JSON.parse(fs.readFileSync(path.join(d, f))); if (j.no_points_reason) noPts[j.doc_id] = j.no_points_reason; }
 const pdocIds = [...new Set([...points.map((p) => p.doc_id), ...Object.keys(noPts)])];
 const PDOCS = pdocIds.map((id) => { const d = docs.find((x) => x.doc_id === id); const inst = insts.find((i) => i.institution_id === d.institution_id); return { id, name: inst.name, region: REG[inst.region] || inst.region, url: d.url, words: d.word_count, retrieved: d.retrieved, none: noPts[id] || null }; }).sort((a, b) => a.name.localeCompare(b.name));
+const KINDS = rd("run1/archive3/kinds.json"); const FIRST = (d) => (KINDS[d] ? KINDS[d].first_doc_id : d);
 // institutions that have schema coding but were not read for guidance points still need a name and region
 { const have = new Set(PDOCS.map((p) => p.id)); const more = new Set(); for (const f of ["uses.json", "support.json", "misconduct.json"]) for (const r of rd(f)) { const F = FIRST(r.doc_id); if (!have.has(F)) more.add(F); }
   for (const id of more) { const d = docs.find((x) => x.doc_id === id); if (!d) continue; const inst = insts.find((i) => i.institution_id === d.institution_id); PDOCS.push({ id, name: inst.name, region: REG[inst.region] || inst.region, url: d.url, words: d.word_count, retrieved: d.retrieved, none: "not read for guidance points" }); } PDOCS.sort((a, b) => a.name.localeCompare(b.name)); }
@@ -46,7 +47,7 @@ const covAll = sample.map((s) => { const m = last.get(s.doc_id) || man.find((x) 
 // ---- statement-type trends (full set, vocabulary v2) ----
 const TYPES0 = rd("run1/claims/statement-types.v2.json").types;
 const CL = rd("claims.json");
-const KINDS = rd("run1/archive3/kinds.json"); const FIRST = (d) => (KINDS[d] ? KINDS[d].first_doc_id : d);
+
 const { hasAiLink, isSecondDoc } = require("../ailink.js");
 const THIN = 8;
 const GENERAL = new Set(TYPES0.filter((t) => t.general_advice).map((t) => t.id));

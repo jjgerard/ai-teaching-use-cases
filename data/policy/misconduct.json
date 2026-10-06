@@ -10778,5 +10778,1520 @@
   ],
   "outcomes": [],
   "definitions": []
+ },
+ {
+  "doc_id": "atu-students-genai-202610",
+  "coder": "mis-x1",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "hartpury-students-genai-202610",
+  "coder": "mis-x1",
+  "scope": "general_misconduct",
+  "offences": [
+   {
+    "value": "undeclared_use",
+    "ai_named": true,
+    "quote": "Failure to reference AI use correctly is malpractice.",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "value": "unauthorised_use",
+    "ai_named": true,
+    "quote": "Misuse of AI tools in relation to qualification assessments at any time constitutes malpractice",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "value": "passing_off",
+    "ai_named": true,
+    "quote": "Copying or paraphrasing sections of AI-generated content so that the work submitted for assessment is no longer the student’s own.",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "value": "fabrication_or_falsification",
+    "ai_named": false,
+    "quote": "Making a false declaration of authenticity in relation to the authorship of controlled assessments, coursework or the contents of a portfolio.",
+    "anchor": "Learner malpractice"
+   },
+   {
+    "value": "contract_cheating_or_ghostwriting",
+    "ai_named": true,
+    "quote": "Using AI to complete parts of the assessment so that the work does not reflect the student’s own work, analysis, evaluation or calculations.",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "value": "misuse_of_others_work",
+    "ai_named": false,
+    "quote": "Plagiarism: unacknowledged copying from published sources or incomplete referencing.",
+    "anchor": "Learner malpractice"
+   },
+   {
+    "value": "exam_or_supervised_breach",
+    "ai_named": false,
+    "quote": "Failing to abide by the conditions of supervision designed to maintain the security ofthe examinations or assessments.",
+    "anchor": "Learner malpractice"
+   },
+   {
+    "value": "facilitating_or_collusion",
+    "ai_named": false,
+    "quote": "Collusion: working collaboratively with other learners, beyond what is permitted.",
+    "anchor": "Learner malpractice"
+   },
+   {
+    "value": "impersonation_or_coercion",
+    "ai_named": false,
+    "quote": "Impersonation: pretending to be someone else, arranging for another person to take one’s place in an examination or an assessment.",
+    "anchor": "Learner malpractice"
+   }
+  ],
+  "liability": [],
+  "detection": [
+   {
+    "method": "staff_judgement",
+    "stance": "used",
+    "ai_named": false,
+    "quote": "teacher professional judgement and familiarity with students’ typical writing style and ability",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "method": "oral_viva_or_interview",
+    "stance": "used",
+    "ai_named": false,
+    "quote": "draft reviews and verbal questioning",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "method": "draft_or_version_history",
+    "stance": "used",
+    "ai_named": false,
+    "quote": "draft reviews and verbal questioning",
+    "anchor": "Misuse of AI/ Generative AI"
+   }
+  ],
+  "process": [
+   {
+    "value": "investigation",
+    "ai_named": false,
+    "quote": "it will conduct an investigation in a form commensurate with the nature of the assessment malpractice and maladministration allegation.",
+    "anchor": "PROCEDURE 1"
+   },
+   {
+    "value": "referral_to_officer_or_panel",
+    "ai_named": false,
+    "quote": "Should it be determined that a full investigation is necessary it shall be conducted by an independent investigation officer appointed by the College Principal .",
+    "anchor": "PROCEDURE 4.2"
+   },
+   {
+    "value": "student_right_to_respond",
+    "ai_named": false,
+    "quote": "During the investigation the college will give the individual the opportunity to respond to all the allegations made.",
+    "anchor": "PROCEDURE 6"
+   },
+   {
+    "value": "hearing",
+    "ai_named": false,
+    "quote": "Subject to agreement it may be appropriate for a member of staff from the awarding organisation to give evidence at any hearing called as part of the investigation.",
+    "anchor": "PROCEDURE 5"
+   },
+   {
+    "value": "appeal",
+    "ai_named": false,
+    "quote": "The individual(s) concerned has/have the right to appeal against any decision(s) or sanction(s) imposed.",
+    "anchor": "Right of Appeal"
+   },
+   {
+    "value": "timescale",
+    "ai_named": false,
+    "quote": "An appeal must be made in writing to the College Principal within 30 working days from receipt of the written notification of the reported incident.",
+    "anchor": "PROCEDURE 8"
+   },
+   {
+    "value": "records_or_register",
+    "ai_named": false,
+    "quote": "All stages of the investigation shall be documented by the investigating officer leading the investigation.",
+    "anchor": "PROCEDURE 7"
+   }
+  ],
+  "outcomes": [
+   {
+    "value": "warning",
+    "ai_named": false,
+    "quote": "The learner is issued with a warning that if the offence is repeated within a set period oftime, further specified sanctions will be applied.",
+    "anchor": "Sanctions and penalties against learners"
+   },
+   {
+    "value": "repeat_offence_escalation",
+    "ai_named": false,
+    "quote": "The learner is issued with a warning that if the offence is repeated within a set period oftime, further specified sanctions will be applied.",
+    "anchor": "Sanctions and penalties against learners"
+   },
+   {
+    "value": "mark_reduction",
+    "ai_named": false,
+    "quote": "The learner loses all the marks gained for a discrete section of the work.",
+    "anchor": "Penalty 2"
+   },
+   {
+    "value": "module_failure",
+    "ai_named": false,
+    "quote": "The learner loses all the marks gained for a unit.",
+    "anchor": "Penalty 4"
+   },
+   {
+    "value": "suspension_or_exclusion",
+    "ai_named": false,
+    "quote": "The learner could be barred from entering for one or more examinations for a set period oftime.",
+    "anchor": "Penalty 9"
+   },
+   {
+    "value": "resubmission",
+    "ai_named": false,
+    "quote": "make retake the component(s), unit(s), or qualification(s) affectedin the next examination series or assessment opportunity.",
+    "anchor": "Sanctions and penalties against learners"
+   },
+   {
+    "value": "tariff_or_factors",
+    "ai_named": false,
+    "quote": "Awarding organisations will determine the appropriateness ofa sanction depending on the evidence presented, the nature and circumstances of the malpractice, and the type of qualification involved.",
+    "anchor": "Sanctions for college staff assessment malpractice"
+   },
+   {
+    "value": "penalty_stated_without_detail",
+    "ai_named": true,
+    "quote": "Misuse of AI tools in relation to qualification assessments at any time constitutes malpractice and in accordance with JCQ regulations may attract severe sanctions.",
+    "anchor": "Misuse of AI/ Generative AI"
+   }
+  ],
+  "definitions": [
+   {
+    "term": "AI misuse",
+    "ai_named": true,
+    "quote": "AI misuse is where a student has used one or more AI tools but has not appropriately acknowledged this use and has submitted work for assessment which is not their own."
+   },
+   {
+    "term": "Plagiarism",
+    "ai_named": false,
+    "quote": "Plagiarism: unacknowledged copying from published sources or incomplete referencing."
+   },
+   {
+    "term": "Collusion",
+    "ai_named": false,
+    "quote": "Collusion: working collaboratively with other learners, beyond what is permitted."
+   },
+   {
+    "term": "Impersonation",
+    "ai_named": false,
+    "quote": "Impersonation: pretending to be someone else, arranging for another person to take one’s place in an examination or an assessment.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "staffordshire-students-genai-202610",
+  "coder": "mis-x1",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "west-scotland-students-genai-202610",
+  "coder": "mis-x1",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "dcu-students-genai-202610",
+  "coder": "mis-x2",
+  "scope": "ai_specific",
+  "offences": [
+   {
+    "value": "unauthorised_use",
+    "ai_named": true,
+    "quote": "Always consult your lecturer before use, academic misconduct includes submitting unauthorised generative AI work.",
+    "anchor": "Always Remember"
+   },
+   {
+    "value": "passing_off",
+    "ai_named": true,
+    "quote": "Submitting entire essays, assignments, projects and research generated by AI is considered plagiarism.",
+    "anchor": "Always Remember"
+   }
+  ],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "lancaster-students-genai-202610",
+  "coder": "mis-x2",
+  "scope": "general_misconduct",
+  "offences": [
+   {
+    "value": "passing_off",
+    "ai_named": true,
+    "quote": "The submission of undeclared work which is either generated and/or improved by language model software for the purposes of gaining marks will be regarded as False Authorship and interpreted as an attempt to gain an intentional unfair academic advantage.",
+    "anchor": "AM 2.3.1"
+   },
+   {
+    "value": "undeclared_use",
+    "ai_named": true,
+    "quote": "The submission of undeclared work which is either generated and/or improved by language model software for the purposes of gaining marks will be regarded as False Authorship and interpreted as an attempt to gain an intentional unfair academic advantage.",
+    "anchor": "AM 2.3.1"
+   },
+   {
+    "value": "contract_cheating_or_ghostwriting",
+    "ai_named": true,
+    "quote": "This may include work produced by another individual, an essay mill, a commercial service, or through the use of Artificial Intelligence software.",
+    "anchor": "AM 2.3.1"
+   },
+   {
+    "value": "misuse_of_others_work",
+    "ai_named": false,
+    "quote": "the submission of all or part of another student’s work, whether with or without that student’s knowledge or consent;",
+    "anchor": "AM 2.2.1(b)"
+   },
+   {
+    "value": "fabrication_or_falsification",
+    "ai_named": false,
+    "quote": "Fabrication or falsification of results occurs when a student claims to have carried out tests, experiments or observations that have not taken place or presents results not supported by the evidence with the object of obtaining an unfair advantage.",
+    "anchor": "AM 2.5.1"
+   },
+   {
+    "value": "exam_or_supervised_breach",
+    "ai_named": false,
+    "quote": "attempts to introduce or consult during the examination or test any unauthorised printed or written material, or electronic calculating or information storage device or mobile phone or other communication device;",
+    "anchor": "AM 2.6.1(c)"
+   },
+   {
+    "value": "data_or_upload_breach",
+    "ai_named": true,
+    "quote": "students must not submit or upload assessment submissions to any external detection software or platforms designed to inspect for academic malpractice or artificial intelligence usage.",
+    "anchor": "AM 2.9.1"
+   },
+   {
+    "value": "facilitating_or_collusion",
+    "ai_named": false,
+    "quote": "This can also occur by enabling a fellow student to obtain academic credit to which they are not entitled.",
+    "anchor": "AM 2.4.1"
+   },
+   {
+    "value": "impersonation_or_coercion",
+    "ai_named": false,
+    "quote": "personates another student or allows themselves to be impersonated;",
+    "anchor": "AM 2.6.1(d)"
+   },
+   {
+    "value": "self_plagiarism_or_multiple_submission",
+    "ai_named": false,
+    "quote": "reproduction of the same or almost identical own work, in full or in part, which has previously been submitted for assessment.",
+    "anchor": "AM 2.2.1(g)"
+   }
+  ],
+  "liability": [
+   {
+    "value": "ignorance_mitigates",
+    "ai_named": false,
+    "quote": "Where it is decided that student work displays some form of poor academic practice but not academic malpractice the academic marker will deal with this as part of the normal feedback and assessment procedures.",
+    "anchor": "AM 4.1.2"
+   }
+  ],
+  "detection": [
+   {
+    "method": "ai_detection_software",
+    "stance": "may_be_used",
+    "ai_named": false,
+    "quote": "The University reserves the right to use such software (e.g., Turnitin) upon the receipt of assessment submissions, and reports delivered by this software may be used as evidence in cases of alleged academic malpractice.",
+    "anchor": "AM 2.9.2"
+   },
+   {
+    "method": "similarity_software",
+    "stance": "may_be_used",
+    "ai_named": false,
+    "quote": "The University reserves the right to use such software (e.g., Turnitin) upon the receipt of assessment submissions, and reports delivered by this software may be used as evidence in cases of alleged academic malpractice.",
+    "anchor": "AM 2.9.2"
+   },
+   {
+    "method": "similarity_software",
+    "stance": "used",
+    "ai_named": false,
+    "quote": "The student should be able to review any documentary evidence prior to the Hearing, including in the case of plagiarism any Turnitin reports or coursework annotated by the Academic Marker.",
+    "anchor": "AM 4.2.2(b)"
+   },
+   {
+    "method": "staff_judgement",
+    "stance": "used",
+    "ai_named": false,
+    "quote": "Academic Markers shall, when concern is identified, use their judgement to decide if some form of poor academic practice or some form of academic malpractice has occurred.",
+    "anchor": "AM 4.1.1"
+   }
+  ],
+  "process": [
+   {
+    "value": "referral_to_officer_or_panel",
+    "ai_named": false,
+    "quote": "then the case shall be referred to the Academic Integrity Officer as the first step in an investigation.",
+    "anchor": "AM 4.1.8"
+   },
+   {
+    "value": "investigation",
+    "ai_named": false,
+    "quote": "The Academic Integrity Officer shall investigate the matter and use their academic judgement and experience",
+    "anchor": "AM 4.2.1(a)"
+   },
+   {
+    "value": "student_right_to_respond",
+    "ai_named": false,
+    "quote": "All students shall be given the opportunity to submit a defence against an allegation of academic malpractice",
+    "anchor": "AM 1.6"
+   },
+   {
+    "value": "hearing",
+    "ai_named": false,
+    "quote": "should undertake this investigation and arrange for a Hearing with the student.",
+    "anchor": "AM 4.2.2"
+   },
+   {
+    "value": "proceeds_if_absent",
+    "ai_named": false,
+    "quote": "the Panel may proceed to hear the matter in the student’s absence.",
+    "anchor": "Appendix 1 para 13"
+   },
+   {
+    "value": "support_for_student",
+    "ai_named": false,
+    "quote": "shall have access to Lancaster University Students’ Union support and advice at all stages of the procedures contained in these regulations",
+    "anchor": "AM 1.5"
+   },
+   {
+    "value": "appeal",
+    "ai_named": false,
+    "quote": "shall have the right to request a review of the judgement.",
+    "anchor": "AM 8.1"
+   },
+   {
+    "value": "timescale",
+    "ai_named": false,
+    "quote": "The Academic Integrity Officer should inform the student of their decision as soon as possible and at the latest, in writing within seven days.",
+    "anchor": "AM 4.2.4"
+   },
+   {
+    "value": "standard_of_proof",
+    "ai_named": false,
+    "quote": "shall be made on the basis of the balance of probability and take full account of the principles of natural justice, fairness and equity.",
+    "anchor": "AM 1.2"
+   },
+   {
+    "value": "records_or_register",
+    "ai_named": false,
+    "quote": "keeping a written record of all cases of alleged academic malpractice.",
+    "anchor": "AM 3.1.2"
+   }
+  ],
+  "outcomes": [
+   {
+    "value": "educative_first_offence",
+    "ai_named": false,
+    "quote": "The student must be informed of the nature of the problem and why it is unacceptable and a note of ‘poor academic practice’ shall be recorded by the department in the LUSI Student Record.",
+    "anchor": "AM 4.1.4"
+   },
+   {
+    "value": "warning",
+    "ai_named": false,
+    "quote": "be required to meet with their Director of Studies and an ‘academic warning’ shall be recorded by the department in the LUSI Student Record.",
+    "anchor": "AM 4.1.5"
+   },
+   {
+    "value": "mark_reduction",
+    "ai_named": false,
+    "quote": "the poor academic practice should lead to a significant reduction in the mark awarded",
+    "anchor": "AM 4.1.3"
+   },
+   {
+    "value": "zero_for_work",
+    "ai_named": false,
+    "quote": "to award zero or equivalent grade for the whole coursework or dissertation;",
+    "anchor": "AM 4.3.1(f)"
+   },
+   {
+    "value": "resubmission",
+    "ai_named": false,
+    "quote": "to permit the student to repeat the work;",
+    "anchor": "AM 4.3.1(c)"
+   },
+   {
+    "value": "module_failure",
+    "ai_named": false,
+    "quote": "to award zero or equivalent grade for the unit or course module;",
+    "anchor": "AM 4.3.1(g)"
+   },
+   {
+    "value": "suspension_or_exclusion",
+    "ai_named": false,
+    "quote": "to exclude the student permanently from the University, where the offence is detected before the final assessment is completed;",
+    "anchor": "AM 4.3.1(i)"
+   },
+   {
+    "value": "degree_effect",
+    "ai_named": false,
+    "quote": "where the inclusion makes no difference to the class of award, to recommend that one class lower than the one determined by the arithmetic be awarded;",
+    "anchor": "AM 4.3.1(h)"
+   },
+   {
+    "value": "repeat_offence_escalation",
+    "ai_named": false,
+    "quote": "that the case should be referred to the Academic Misconduct Panel because of its serious nature, or there being repeated offences despite warnings received.",
+    "anchor": "AM 4.2.3(f)"
+   },
+   {
+    "value": "tariff_or_factors",
+    "ai_named": false,
+    "quote": "The Panel’s decisions shall be informed by the seriousness of the offence rather than by the time of year.",
+    "anchor": "Appendix 1 para 1(c)"
+   },
+   {
+    "value": "mark_cap",
+    "ai_named": false,
+    "quote": "that the student will be required to submit an alternative piece of work and such work shall be eligible to receive only the minimum pass mark appropriate to the student’s programme of study.",
+    "anchor": "AM 4.2.3(d)"
+   },
+   {
+    "value": "award_withdrawn_or_post_award",
+    "ai_named": false,
+    "quote": "The University has the power to revoke an award under the procedures defined in its Charter and Ordinances",
+    "anchor": "AM 7.7"
+   },
+   {
+    "value": "professional_referral",
+    "ai_named": false,
+    "quote": "the academic malpractice judgement must be available in order to inform the Fitness to Practise proceedings at the appropriate stage.",
+    "anchor": "AM 1.7"
+   }
+  ],
+  "definitions": [
+   {
+    "term": "Plagiarism",
+    "ai_named": false,
+    "quote": "Plagiarism is understood to include, in whatever format it is presented, including written work, group work or oral presentations, the following:"
+   },
+   {
+    "term": "False authorship",
+    "ai_named": false,
+    "quote": "False Authorship is a form of plagiarism where misrepresentations are made on who created material, either by falsely claiming ownership of work produced or by attributing work to a person or tool (e.g. software coding) that did not create it."
+   },
+   {
+    "term": "Collusion",
+    "ai_named": false,
+    "quote": "Collusion occurs where a piece of work prepared by a group is represented as if it were the student’s own."
+   },
+   {
+    "term": "Fabrication or falsification",
+    "ai_named": false,
+    "quote": "Fabrication or falsification of results occurs when a student claims to have carried out tests, experiments or observations that have not taken place"
+   },
+   {
+    "term": "Retrospective detection",
+    "ai_named": false,
+    "quote": "Retrospective detection is defined as the discovery of alleged academic malpractice in work that has been subject to final moderation, including by a relevant board of examiners."
+   }
+  ]
+ },
+ {
+  "doc_id": "lse-students-genai-202610",
+  "coder": "mis-x2",
+  "scope": "ai_specific",
+  "offences": [
+   {
+    "value": "passing_off",
+    "ai_named": true,
+    "quote": "Passing off AI-generated work as your own counts as plagiarism.",
+    "anchor": "Rules: the AI policy"
+   }
+  ],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "setu-students-genai-202610",
+  "coder": "mis-x2",
+  "scope": "general_misconduct",
+  "offences": [
+   {
+    "value": "unauthorised_use",
+    "ai_named": true,
+    "quote": "These include breaches of examination regulations, cheating, plagiarism, impersonation, purchase of examination material, contract cheating, data falsification, misuse of generative artificial intelligence and other acts which dishonestly use information to gain academic credit",
+    "anchor": "5. Definitions"
+   },
+   {
+    "value": "exam_or_supervised_breach",
+    "ai_named": false,
+    "quote": "These include breaches of examination regulations, cheating, plagiarism, impersonation, purchase of examination material, contract cheating, data falsification, misuse of generative artificial intelligence and other acts which dishonestly use information to gain academic credit",
+    "anchor": "5. Definitions"
+   },
+   {
+    "value": "impersonation_or_coercion",
+    "ai_named": false,
+    "quote": "These include breaches of examination regulations, cheating, plagiarism, impersonation, purchase of examination material, contract cheating, data falsification, misuse of generative artificial intelligence and other acts which dishonestly use information to gain academic credit",
+    "anchor": "5. Definitions"
+   },
+   {
+    "value": "contract_cheating_or_ghostwriting",
+    "ai_named": false,
+    "quote": "These include breaches of examination regulations, cheating, plagiarism, impersonation, purchase of examination material, contract cheating, data falsification, misuse of generative artificial intelligence and other acts which dishonestly use information to gain academic credit",
+    "anchor": "5. Definitions"
+   },
+   {
+    "value": "fabrication_or_falsification",
+    "ai_named": false,
+    "quote": "These include breaches of examination regulations, cheating, plagiarism, impersonation, purchase of examination material, contract cheating, data falsification, misuse of generative artificial intelligence and other acts which dishonestly use information to gain academic credit",
+    "anchor": "5. Definitions"
+   },
+   {
+    "value": "undeclared_use",
+    "ai_named": false,
+    "quote": "the production of academic work, in whole or part, for academic recognition such as credit, progression or award; or competition; or placement interview, whether a payment or other favour is involved, using unapproved or undeclared human or technological assistance.",
+    "anchor": "5. Definitions"
+   }
+  ],
+  "liability": [],
+  "detection": [
+   {
+    "method": "ai_detection_software",
+    "stance": "may_be_used",
+    "ai_named": true,
+    "quote": "Tools to detect artificial intelligence generated content may be used to assist the University in identifying potential academic misconduct, acknowledging that these tools are developing, and the outputs must be carefully and ethically interpreted.",
+    "anchor": "6.6"
+   },
+   {
+    "method": "ai_detection_software",
+    "stance": "unreliable",
+    "ai_named": true,
+    "quote": "acknowledging that these tools are developing, and the outputs must be carefully and ethically interpreted.",
+    "anchor": "6.6"
+   },
+   {
+    "method": "similarity_software",
+    "stance": "may_be_used",
+    "ai_named": false,
+    "quote": "Turnitin Text-Matching Software (or other university approved software) may be used",
+    "anchor": "Appendix 1 A.1"
+   },
+   {
+    "method": "similarity_software",
+    "stance": "unreliable",
+    "ai_named": false,
+    "quote": "Irrespective of the Turnitin Similarity Report, the lecturer shall make the academic judgment as to whether or not work is plagiarised.",
+    "anchor": "Appendix 1 A.4"
+   },
+   {
+    "method": "staff_judgement",
+    "stance": "used",
+    "ai_named": false,
+    "quote": "The lecturer shall make the academic judgement as to whether work adheres to academic integrity and good academic practice.",
+    "anchor": "6.8"
+   },
+   {
+    "method": "oral_viva_or_interview",
+    "stance": "may_be_used",
+    "ai_named": false,
+    "quote": "any student may be called upon to engage in an informal discussion and/or oral examination in order to assist the lecturer in forming that academic judgement.",
+    "anchor": "6.8"
+   }
+  ],
+  "process": [
+   {
+    "value": "informal_conversation",
+    "ai_named": false,
+    "quote": "any student may be called upon to engage in an informal discussion and/or oral examination in order to assist the lecturer in forming that academic judgement.",
+    "anchor": "6.8"
+   },
+   {
+    "value": "investigation",
+    "ai_named": false,
+    "quote": "SETU shall examine all alleged instances of academic misconduct in accordance with the SETU Student Discipline and Academic Misconduct Policy.",
+    "anchor": "6.9"
+   }
+  ],
+  "outcomes": [
+   {
+    "value": "penalty_stated_without_detail",
+    "ai_named": false,
+    "quote": "implementing corrective measures upon detecting inappropriate academic behaviour.",
+    "anchor": "4.7"
+   }
+  ],
+  "definitions": [
+   {
+    "term": "Academic misconduct",
+    "ai_named": false,
+    "quote": "behaviours perpetrated by individuals or institutions that transgress ethical standards held in common between other individuals and/ or groups in institutions of education, research, or scholarship."
+   },
+   {
+    "term": "Unauthorised content generation",
+    "ai_named": false,
+    "quote": "the production of academic work, in whole or part, for academic recognition such as credit, progression or award; or competition; or placement interview, whether a payment or other favour is involved, using unapproved or undeclared human or technological assistance."
+   },
+   {
+    "term": "Academic fraud",
+    "ai_named": false,
+    "quote": "Academic Fraud is defined as actions that are intended to deceive for unfair advantage by violating academic regulations."
+   },
+   {
+    "term": "Generative AI",
+    "ai_named": true,
+    "quote": "is the use or study of artificial intelligences that are able to produce text, images, music, video, audio, code, or other synthetic data."
+   }
+  ]
+ },
+ {
+  "doc_id": "east-london-students-genai-202610",
+  "coder": "mis-x3",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "edge-hill-students-genai-202610",
+  "coder": "mis-x3",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "falmouth-students-genai-202610",
+  "coder": "mis-x3",
+  "scope": "general_misconduct",
+  "offences": [
+   {
+    "value": "misuse_of_others_work",
+    "ai_named": false,
+    "quote": "One form of academic misconduct is plagiarism. This means using someone else's work, ideas, or words without proper acknowledgment.",
+    "anchor": null
+   },
+   {
+    "value": "facilitating_or_collusion",
+    "ai_named": false,
+    "quote": "academic misconduct also includes acts of collusion, commissioning, duplication (including self-plagiarism), and misrepresentation",
+    "anchor": null
+   },
+   {
+    "value": "contract_cheating_or_ghostwriting",
+    "ai_named": false,
+    "quote": "academic misconduct also includes acts of collusion, commissioning, duplication (including self-plagiarism), and misrepresentation",
+    "anchor": null
+   },
+   {
+    "value": "self_plagiarism_or_multiple_submission",
+    "ai_named": false,
+    "quote": "academic misconduct also includes acts of collusion, commissioning, duplication (including self-plagiarism), and misrepresentation",
+    "anchor": null
+   }
+  ],
+  "liability": [],
+  "detection": [
+   {
+    "method": "similarity_software",
+    "stance": "used",
+    "ai_named": false,
+    "quote": "Most universities, including Falmouth, use text-matching software such as Turnitin to help them detect copied work.",
+    "anchor": null
+   }
+  ],
+  "process": [
+   {
+    "value": "investigation",
+    "ai_named": false,
+    "quote": "This document outlines the procedures for investigating an allegation of academic misconduct.",
+    "anchor": null
+   }
+  ],
+  "outcomes": [],
+  "definitions": [
+   {
+    "term": "plagiarism",
+    "ai_named": false,
+    "quote": "using someone else's work, ideas, or words without proper acknowledgment"
+   }
+  ]
+ },
+ {
+  "doc_id": "st-marys-twickenham-london-students-genai-202610",
+  "coder": "mis-x3",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "city-st-georges-london-students-genai-202610",
+  "coder": "mis-x4",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "london-south-bank-students-genai-202610",
+  "coder": "mis-x4",
+  "scope": "ai_specific",
+  "offences": [
+   {
+    "value": "unauthorised_use",
+    "ai_named": true,
+    "quote": "As with plagiarism, it is possible to accidentally use AI tools in a way that violates LSBU's academic misconduct policy.",
+    "anchor": null
+   }
+  ],
+  "liability": [
+   {
+    "value": "strict_liability",
+    "ai_named": true,
+    "quote": "As with plagiarism, it is possible to accidentally use AI tools in a way that violates LSBU's academic misconduct policy.",
+    "anchor": null
+   }
+  ],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "newman-students-genai-202610",
+  "coder": "mis-x4",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "ollscoil-na-gaillimhe-galway-students-genai-202610",
+  "coder": "mis-x4",
+  "scope": "general_misconduct",
+  "offences": [
+   {
+    "value": "passing_off",
+    "ai_named": true,
+    "quote": "Submitting all or part of an assessment item which has been produced using artificial intelligence (e.g. Google Translate or other machine translation services/software, generative AI, etc.) and claiming it as your own work.",
+    "anchor": null
+   },
+   {
+    "value": "contract_cheating_or_ghostwriting",
+    "ai_named": false,
+    "quote": "it may be use of a ghost writer to carry out assessed work which is then submitted as the learner’s own work;",
+    "anchor": null
+   },
+   {
+    "value": "misuse_of_others_work",
+    "ai_named": false,
+    "quote": "it may be work in which the learner has included unreferenced material taken from another source(s) (plagiarism);",
+    "anchor": null
+   },
+   {
+    "value": "fabrication_or_falsification",
+    "ai_named": false,
+    "quote": "Misrepresenting research (e.g., data fabrication, data falsification, misinterpretation);",
+    "anchor": null
+   },
+   {
+    "value": "exam_or_supervised_breach",
+    "ai_named": false,
+    "quote": "Cheating in exams (e.g., crib notes, copying, using disallowed tools, impersonation);",
+    "anchor": null
+   },
+   {
+    "value": "facilitating_or_collusion",
+    "ai_named": false,
+    "quote": "Helping a peer to do their assignment which develops into the helper doing some or all of",
+    "anchor": null
+   },
+   {
+    "value": "impersonation_or_coercion",
+    "ai_named": false,
+    "quote": "Bribery, i.e., the offering, promising, giving, accepting or soliciting of an advantage as an",
+    "anchor": null
+   },
+   {
+    "value": "self_plagiarism_or_multiple_submission",
+    "ai_named": false,
+    "quote": "Self-plagiarism where you submit work which has previously been submitted for a different",
+    "anchor": null
+   }
+  ],
+  "liability": [
+   {
+    "value": "strict_liability",
+    "ai_named": false,
+    "quote": "“Academic misconduct can be either intentional or inadvertent.",
+    "anchor": null
+   },
+   {
+    "value": "intent_considered",
+    "ai_named": false,
+    "quote": "A member of teaching staff who suspects academic misconduct should first consider if they believe",
+    "anchor": null
+   },
+   {
+    "value": "ignorance_mitigates",
+    "ai_named": false,
+    "quote": "This is not considered an instance of intentional academic misconduct.",
+    "anchor": null
+   }
+  ],
+  "detection": [
+   {
+    "method": "oral_viva_or_interview",
+    "stance": "may_be_used",
+    "ai_named": false,
+    "quote": "An interview with the student or students involved.",
+    "anchor": null
+   },
+   {
+    "method": "draft_or_version_history",
+    "stance": "may_be_used",
+    "ai_named": false,
+    "quote": "An investigation of any documents, files, or other resources relevant to the case and their",
+    "anchor": null
+   }
+  ],
+  "process": [
+   {
+    "value": "informal_conversation",
+    "ai_named": false,
+    "quote": "The Courageous Conversation is an open discussion between the Academic Integrity Advisor and the",
+    "anchor": null
+   },
+   {
+    "value": "referral_to_officer_or_panel",
+    "ai_named": false,
+    "quote": "Integrity Advisor refers the case to the Academic Integrity Officer for a formal investigation",
+    "anchor": null
+   },
+   {
+    "value": "investigation",
+    "ai_named": false,
+    "quote": "The Academic Integrity Officer will initiate an investigation to determine whether intentional",
+    "anchor": null
+   },
+   {
+    "value": "student_right_to_respond",
+    "ai_named": false,
+    "quote": "Advisor will email each student involved, outline the academic misconduct",
+    "anchor": null
+   },
+   {
+    "value": "hearing",
+    "ai_named": false,
+    "quote": "An interview with the student or students involved.",
+    "anchor": null
+   },
+   {
+    "value": "proceeds_if_absent",
+    "ai_named": false,
+    "quote": "scheduled meeting, the decision maker should make and issue a decision based on the available",
+    "anchor": null
+   },
+   {
+    "value": "support_for_student",
+    "ai_named": false,
+    "quote": "student may choose to bring a student colleague of the student’s choice or a Students’ Union",
+    "anchor": null
+   },
+   {
+    "value": "appeal",
+    "ai_named": false,
+    "quote": "There is at most one appeal allowed and the subsequent decision is final.",
+    "anchor": null
+   },
+   {
+    "value": "timescale",
+    "ai_named": false,
+    "quote": "within fourteen days of the date of the email communicating an outcome to the student.",
+    "anchor": null
+   },
+   {
+    "value": "standard_of_proof",
+    "ai_named": false,
+    "quote": "is satisfied that it is more likely than not that academic misconduct has taken place.",
+    "anchor": null
+   },
+   {
+    "value": "records_or_register",
+    "ai_named": false,
+    "quote": "Misconduct Register. This Academic Misconduct Register will be managed by the Academic Integrity",
+    "anchor": null
+   }
+  ],
+  "outcomes": [
+   {
+    "value": "educative_first_offence",
+    "ai_named": false,
+    "quote": "require the student to complete academic integrity training and may additionally choose any of the",
+    "anchor": null
+   },
+   {
+    "value": "zero_for_work",
+    "ai_named": false,
+    "quote": "Zero marks in relation to a specific component of assessment task",
+    "anchor": null
+   },
+   {
+    "value": "mark_reduction",
+    "ai_named": false,
+    "quote": "Reduction in marks for the assessment by stated amount",
+    "anchor": null
+   },
+   {
+    "value": "resubmission",
+    "ai_named": false,
+    "quote": "Resubmit the work for the full range of marks available",
+    "anchor": null
+   },
+   {
+    "value": "mark_cap",
+    "ai_named": false,
+    "quote": "Student repeats and resubmits assessment task for a mark of no more than 50%",
+    "anchor": null
+   },
+   {
+    "value": "repeat_offence_escalation",
+    "ai_named": false,
+    "quote": "immediately referred to the Academic Integrity Officer for investigation.",
+    "anchor": null
+   },
+   {
+    "value": "tariff_or_factors",
+    "ai_named": false,
+    "quote": "the summary of the points assigned to determine the level of academic misconduct using",
+    "anchor": null
+   },
+   {
+    "value": "award_withdrawn_or_post_award",
+    "ai_named": false,
+    "quote": "In the case where academic misconduct is determined after an exam board has taken",
+    "anchor": null
+   }
+  ],
+  "definitions": [
+   {
+    "term": "Academic misconduct",
+    "ai_named": false,
+    "quote": "Academic misconduct is any attempt to gain or help others gain an unfair academic advantage."
+   },
+   {
+    "term": "Standard of proof",
+    "ai_named": false,
+    "quote": "is satisfied that it is more likely than not that academic misconduct has taken place."
+   }
+  ]
+ },
+ {
+  "doc_id": "abertay-students-genai-202610",
+  "coder": "mis-x5",
+  "scope": "general_misconduct",
+  "offences": [
+   {
+    "value": "passing_off",
+    "ai_named": true,
+    "quote": "Unacceptable use of AI (Artificial Intelligence) is where a student uses an AI tool/s to generate academic work on their behalf and presents AI ideas as their own without appropriate acknowledgement.",
+    "anchor": "Academic Misconduct"
+   },
+   {
+    "value": "undeclared_use",
+    "ai_named": true,
+    "quote": "Unacceptable use of AI (Artificial Intelligence) is where a student uses an AI tool/s to generate academic work on their behalf and presents AI ideas as their own without appropriate acknowledgement.",
+    "anchor": "Academic Misconduct"
+   },
+   {
+    "value": "contract_cheating_or_ghostwriting",
+    "ai_named": true,
+    "quote": "Unacceptable use of AI (Artificial Intelligence) is where a student uses an AI tool/s to generate academic work on their behalf and presents AI ideas as their own without appropriate acknowledgement.",
+    "anchor": "Academic Misconduct"
+   },
+   {
+    "value": "misuse_of_others_work",
+    "ai_named": false,
+    "quote": "Plagiarism is the act of taking another’s ideas and representing them as one’s own.",
+    "anchor": "Academic Misconduct"
+   },
+   {
+    "value": "fabrication_or_falsification",
+    "ai_named": false,
+    "quote": "Falsification is the fabrication or alteration of data – for example, by changing data in order to confirm a hypothesis not supported by the actual data",
+    "anchor": "Academic Misconduct"
+   },
+   {
+    "value": "exam_or_supervised_breach",
+    "ai_named": false,
+    "quote": "Failure to follow the rules for an examination (whether in‐person or online), in a way that might result in the gaining of an academic advantage.",
+    "anchor": "Academic Misconduct"
+   },
+   {
+    "value": "facilitating_or_collusion",
+    "ai_named": false,
+    "quote": "Collusion is where students act together in order to deceive or cheat.",
+    "anchor": "Academic Misconduct"
+   },
+   {
+    "value": "impersonation_or_coercion",
+    "ai_named": false,
+    "quote": "Coercion is where a student puts pressure on another student or member of staff to act in a particular way, or attempts to do so, with the intention of gaining an academic advantage.",
+    "anchor": "Academic Misconduct"
+   },
+   {
+    "value": "self_plagiarism_or_multiple_submission",
+    "ai_named": false,
+    "quote": "Self‐plagiarism is the act of submitting for assessment a piece of work already (or simultaneously) submitted for assessment in the same module, another module or in another context.",
+    "anchor": "Academic Misconduct"
+   }
+  ],
+  "liability": [],
+  "detection": [
+   {
+    "method": "staff_judgement",
+    "stance": "used",
+    "ai_named": false,
+    "quote": "In judging whether or not there is a reasonable case, the ADO will scrutinise the work in associated with the accusation",
+    "anchor": "3a Investigation"
+   }
+  ],
+  "process": [
+   {
+    "value": "investigation",
+    "ai_named": false,
+    "quote": "Alleged misconduct will initially be investigated by an Authorised Disciplinary Officer (ADO).",
+    "anchor": "3a Investigation"
+   },
+   {
+    "value": "referral_to_officer_or_panel",
+    "ai_named": false,
+    "quote": "All suspicions of academic misconduct in a piece of work should be referred to the Faculty’s delegated ADO",
+    "anchor": "3a Investigation"
+   },
+   {
+    "value": "student_right_to_respond",
+    "ai_named": false,
+    "quote": "The ADO will inform the student as soon as possible of the alleged offence or offences and give reasonable notice of the time, date and place at which the student should attend.",
+    "anchor": "3a Investigation"
+   },
+   {
+    "value": "hearing",
+    "ai_named": false,
+    "quote": "The student will be invited to attend the Disciplinary Panel, although it may proceed in their absence (see below).",
+    "anchor": "Appendix A"
+   },
+   {
+    "value": "proceeds_if_absent",
+    "ai_named": false,
+    "quote": "Failure to attend the meeting will not preclude the ADO from reaching a decision, based on the evidence available.",
+    "anchor": "3a Investigation"
+   },
+   {
+    "value": "support_for_student",
+    "ai_named": false,
+    "quote": "At the meeting, the student may be accompanied by another member of the University community, i.e. a fellow student, a member of staff or a member of the Students’ Association.",
+    "anchor": "3a Investigation"
+   },
+   {
+    "value": "appeal",
+    "ai_named": false,
+    "quote": "A student may appeal against the decision of an Authorised Disciplinary Officer (ADO) or a Disciplinary Panel, but only if there are valid grounds to appeal.",
+    "anchor": "Right of Appeal"
+   },
+   {
+    "value": "timescale",
+    "ai_named": false,
+    "quote": "The process from ADO meeting to a sanction or referral to a Panel from the Faculty will normally be completed within five working days.",
+    "anchor": "3a Investigation"
+   },
+   {
+    "value": "standard_of_proof",
+    "ai_named": false,
+    "quote": "The standard of proof that will be used in all cases is the balance of probabilities.",
+    "anchor": "Academic Misconduct"
+   },
+   {
+    "value": "records_or_register",
+    "ai_named": false,
+    "quote": "The sanction/s will be sent to Academic Services in order to lodge it in the student’s record for the remainder of their studies.",
+    "anchor": "3a Investigation"
+   }
+  ],
+  "outcomes": [
+   {
+    "value": "educative_first_offence",
+    "ai_named": false,
+    "quote": "The purpose of the Code is to be corrective if possible rather than punitive",
+    "anchor": "Purpose"
+   },
+   {
+    "value": "warning",
+    "ai_named": false,
+    "quote": "A written reprimand or severe reprimand.",
+    "anchor": "3c Panel Sanctions"
+   },
+   {
+    "value": "mark_reduction",
+    "ai_named": false,
+    "quote": "a grade being awarded for only that part of the unit of assessment which reflects the student’s original work, or",
+    "anchor": "3a Investigation"
+   },
+   {
+    "value": "resubmission",
+    "ai_named": false,
+    "quote": "Grade F awarded for the unit of assessment with an opportunity for reassessment capped at Grade D (if misconduct occurred at the first attempt).",
+    "anchor": "3a Investigation"
+   },
+   {
+    "value": "mark_cap",
+    "ai_named": false,
+    "quote": "Grade F awarded for the unit of assessment with an opportunity for reassessment capped at Grade D (if misconduct occurred at the first attempt).",
+    "anchor": "3a Investigation"
+   },
+   {
+    "value": "module_failure",
+    "ai_named": false,
+    "quote": "Grade of F awarded for the module with no opportunity for re‐assessment",
+    "anchor": "3c Panel Sanctions"
+   },
+   {
+    "value": "suspension_or_exclusion",
+    "ai_named": false,
+    "quote": "Discontinuation of studies.",
+    "anchor": "3c Panel Sanctions"
+   },
+   {
+    "value": "repeat_offence_escalation",
+    "ai_named": false,
+    "quote": "If an in‐Faculty sanction has been previously applied, the ADO will refer the case to a Student Academic Disciplinary Panel.",
+    "anchor": "3a Investigation"
+   },
+   {
+    "value": "tariff_or_factors",
+    "ai_named": false,
+    "quote": "The level of penalty or sanction imposed will depend upon the nature of the misconduct and whether it is persistent or particularly severe.",
+    "anchor": "3c Panel Sanctions"
+   },
+   {
+    "value": "professional_referral",
+    "ai_named": false,
+    "quote": "A proven case of academic misconduct will require reporting to the Law Society of Scotland for those studying for a Law degree",
+    "anchor": "Footnote 3"
+   }
+  ],
+  "definitions": [
+   {
+    "term": "plagiarism",
+    "ai_named": false,
+    "quote": "Plagiarism is the act of taking another’s ideas and representing them as one’s own."
+   },
+   {
+    "term": "self-plagiarism",
+    "ai_named": false,
+    "quote": "Self‐plagiarism is the act of submitting for assessment a piece of work already (or simultaneously) submitted for assessment in the same module, another module or in another context."
+   },
+   {
+    "term": "falsification",
+    "ai_named": false,
+    "quote": "Falsification is the fabrication or alteration of data"
+   },
+   {
+    "term": "false citation",
+    "ai_named": false,
+    "quote": "False citation is the citing of a source for information, when the source does not contain that information or when the information cited was not gleaned from that source."
+   },
+   {
+    "term": "collusion",
+    "ai_named": false,
+    "quote": "Collusion is where students act together in order to deceive or cheat."
+   },
+   {
+    "term": "coercion",
+    "ai_named": false,
+    "quote": "Coercion is where a student puts pressure on another student or member of staff to act in a particular way, or attempts to do so, with the intention of gaining an academic advantage."
+   },
+   {
+    "term": "contract cheating",
+    "ai_named": false,
+    "quote": "Contract cheating is where a student commissions or seeks to commission another party (either paid or unpaid) to perform academic work on their behalf."
+   },
+   {
+    "term": "unacceptable use of AI",
+    "ai_named": true,
+    "quote": "Unacceptable use of AI (Artificial Intelligence) is where a student uses an AI tool/s to generate academic work on their behalf and presents AI ideas as their own without appropriate acknowledgement."
+   }
+  ]
+ },
+ {
+  "doc_id": "london-school-hygiene-and-tropical-medicine-students-genai-202610",
+  "coder": "mis-x5",
+  "scope": "general_misconduct",
+  "offences": [
+   {
+    "value": "passing_off",
+    "ai_named": true,
+    "quote": "Personation is the deliberate submission of work done by another person or technology (e.g. another student, a friend, a relative, a peer, a tutor, or anyone else, including generative AI and translation software) as if it were one’s own.",
+    "anchor": "Ch3 A.4 Personation"
+   },
+   {
+    "value": "contract_cheating_or_ghostwriting",
+    "ai_named": true,
+    "quote": "Personation is the deliberate submission of work done by another person or technology (e.g. another student, a friend, a relative, a peer, a tutor, or anyone else, including generative AI and translation software) as if it were one’s own.",
+    "anchor": "Ch3 A.4 Personation"
+   },
+   {
+    "value": "misuse_of_others_work",
+    "ai_named": false,
+    "quote": "Plagiarism is the copying or use of the work of others, whether intentionally or unintentionally, as if it were your own.",
+    "anchor": "Ch3 A.2"
+   },
+   {
+    "value": "fabrication_or_falsification",
+    "ai_named": false,
+    "quote": "Fabricating (making up) data, quotes, results or any other aspect of your work should be self-evidently wrong and will be treated as fraud.",
+    "anchor": "Ch3 A.5"
+   },
+   {
+    "value": "exam_or_supervised_breach",
+    "ai_named": false,
+    "quote": "This covers a range of offences, from significant instances of plagiarism to exam misconduct.",
+    "anchor": "Ch3 A.6"
+   },
+   {
+    "value": "facilitating_or_collusion",
+    "ai_named": false,
+    "quote": "Collusion is any form of collaboration with another person, including another student, that has not been clearly acknowledged or permitted for assessment purposes",
+    "anchor": "Ch3 A.3"
+   },
+   {
+    "value": "impersonation_or_coercion",
+    "ai_named": false,
+    "quote": "Arranging for another person to falsely identify themselves as a student and take an exam on their behalf would be seen as a particularly severe form of personation and cheating.",
+    "anchor": "Ch3 A.4"
+   },
+   {
+    "value": "self_plagiarism_or_multiple_submission",
+    "ai_named": false,
+    "quote": "if you fail to reference or acknowledge your own work (i.e. anything originally done for other purposes) as clearly as the work of others, then this may be treated as a form of plagiarism",
+    "anchor": "Ch2 self-citation"
+   }
+  ],
+  "liability": [
+   {
+    "value": "strict_liability",
+    "ai_named": false,
+    "quote": "Any breach of the rules, whether intentional or unintentional, will be treated very seriously and may result in penalties which affect your degree.",
+    "anchor": "Ch3 intro"
+   },
+   {
+    "value": "intent_considered",
+    "ai_named": false,
+    "quote": "The most serious forms of fraud are deliberate – fabricating or falsifying work, or omitting significant items, while knowing that this misrepresents the work done (or not done).",
+    "anchor": "Ch3 A.5"
+   },
+   {
+    "value": "ignorance_mitigates",
+    "ai_named": false,
+    "quote": "Where genuine errors or poor practice occur (e.g. sloppy data handling which brings in false data, or disregarding outliers in results due to a lack of understanding of what they might mean), these will usually be seen as part of the learning process – being awarded a lower mark, rather than being penalised.",
+    "anchor": "Ch3 A.5"
+   }
+  ],
+  "detection": [
+   {
+    "method": "similarity_software",
+    "stance": "used",
+    "ai_named": false,
+    "quote": "LSHTM uses the plagiarism detection service Turnitin UK, which is widely used by universities across the country.",
+    "anchor": "Ch3 C"
+   },
+   {
+    "method": "similarity_software",
+    "stance": "unreliable",
+    "ai_named": false,
+    "quote": "Turnitin is just a tool: it does not make any 'decisions' about students or their work.",
+    "anchor": "Ch3 C.2"
+   },
+   {
+    "method": "staff_judgement",
+    "stance": "used",
+    "ai_named": false,
+    "quote": "Staff have considerable expertise in identifying plagiarism, and all markers look out for assessment irregularities and have access to a variety of tools to assist them.",
+    "anchor": "Ch3 C"
+   }
+  ],
+  "process": [
+   {
+    "value": "investigation",
+    "ai_named": false,
+    "quote": "Judgement as to whether a specific offence has occurred will only be made following proper investigation of the case under LSHTM’s procedures.",
+    "anchor": "Ch3 A"
+   },
+   {
+    "value": "standard_of_proof",
+    "ai_named": false,
+    "quote": "students will be presumed innocent unless the contrary can be established through formal procedures and on the balance of probabilities.",
+    "anchor": "Ch3 B.1"
+   }
+  ],
+  "outcomes": [
+   {
+    "value": "mark_reduction",
+    "ai_named": false,
+    "quote": "a range of penalties may be invoked – e.g. a reduction of the grade, or an outright fail for the piece of work with a requirement to re-submit.",
+    "anchor": "Ch3 B.1"
+   },
+   {
+    "value": "resubmission",
+    "ai_named": false,
+    "quote": "a range of penalties may be invoked – e.g. a reduction of the grade, or an outright fail for the piece of work with a requirement to re-submit.",
+    "anchor": "Ch3 B.1"
+   },
+   {
+    "value": "suspension_or_exclusion",
+    "ai_named": false,
+    "quote": "severe offences may result in students having their registration on a programme terminated, or even being excluded from entry to any further LSHTM examinations or future degree/certificate awards from LSHTM.",
+    "anchor": "Ch3 B.1"
+   },
+   {
+    "value": "degree_effect",
+    "ai_named": false,
+    "quote": "Any breach of the rules, whether intentional or unintentional, will be treated very seriously and may result in penalties which affect your degree.",
+    "anchor": "Ch3 intro"
+   },
+   {
+    "value": "module_failure",
+    "ai_named": false,
+    "quote": "It is not unusual for one or two students a year to fail an entire module or even their entire degree programme due to assessment irregularity issues, including for plagiarism.",
+    "anchor": "Ch3 B.1"
+   },
+   {
+    "value": "tariff_or_factors",
+    "ai_named": false,
+    "quote": "Cheating will be treated more seriously and result in heavier penalties than other forms of assessment irregularities.",
+    "anchor": "Ch3 A.6"
+   }
+  ],
+  "definitions": [
+   {
+    "term": "assessment irregularity",
+    "ai_named": false,
+    "quote": "The term ‘assessment irregularity’ applies to any suspected instance of plagiarism, cheating, fraud, collusion, personation or other non-standard activity identified in connection with assessed work"
+   },
+   {
+    "term": "plagiarism",
+    "ai_named": false,
+    "quote": "Plagiarism is the copying or use of the work of others, whether intentionally or unintentionally, as if it were your own."
+   },
+   {
+    "term": "collusion",
+    "ai_named": false,
+    "quote": "Collusion is any form of collaboration with another person, including another student, that has not been clearly acknowledged or permitted for assessment purposes"
+   },
+   {
+    "term": "personation",
+    "ai_named": true,
+    "quote": "Personation is the deliberate submission of work done by another person or technology (e.g. another student, a friend, a relative, a peer, a tutor, or anyone else, including generative AI and translation software) as if it were one’s own."
+   },
+   {
+    "term": "fraud",
+    "ai_named": false,
+    "quote": "Fraud is the submission of any work which may cause others to regard as true that which is not true."
+   },
+   {
+    "term": "cheating",
+    "ai_named": false,
+    "quote": "Cheating is a deliberate attempt to deceive in order to gain advantage in an assessed piece of work, including coursework, in-module assessments and examinations."
+   }
+  ]
+ },
+ {
+  "doc_id": "northumbria-students-genai-202610",
+  "coder": "mis-x5",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "plymouth-students-genai-202610",
+  "coder": "mis-x5",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "brighton-students-genai-202610",
+  "coder": "mis-x6",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "cardiff-students-genai-202610",
+  "coder": "mis-x6",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
+ },
+ {
+  "doc_id": "greenwich-students-genai-202610",
+  "coder": "mis-x6",
+  "scope": "none",
+  "offences": [],
+  "liability": [],
+  "detection": [],
+  "process": [],
+  "outcomes": [],
+  "definitions": []
  }
 ]

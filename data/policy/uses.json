@@ -14437,5 +14437,966 @@
    "consequence": null,
    "exempt": []
   }
+ },
+ {
+  "doc_id": "atu-students-genai-202610",
+  "coder": "uses-x1",
+  "uses": [],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "hartpury-students-genai-202610",
+  "coder": "uses-x1",
+  "uses": [
+   {
+    "use": "explain_or_tutor",
+    "context": "unspecified",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_acknowledgement"
+    ],
+    "quote": "Acceptable use might include understanding difficult topics, summarising information, generate ideas and writing prompts etc. however students must always adhere to JCQ guidelines and maintain academic integrity by acknowledging any AI use.",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "use": "summarise_or_analyse_sources",
+    "context": "unspecified",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_acknowledgement"
+    ],
+    "quote": "Acceptable use might include understanding difficult topics, summarising information, generate ideas and writing prompts etc. however students must always adhere to JCQ guidelines and maintain academic integrity by acknowledging any AI use.",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "use": "generate_ideas",
+    "context": "unspecified",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_acknowledgement"
+    ],
+    "quote": "Acceptable use might include understanding difficult topics, summarising information, generate ideas and writing prompts etc. however students must always adhere to JCQ guidelines and maintain academic integrity by acknowledging any AI use.",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "While Generative AI can be a valuable tool to support learning, it should not replace critical thinking and analysis.",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "use": "include_ai_output_in_work",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Copying or paraphrasing sections of AI-generated content so that the work submitted for assessment is no longer the student’s own.",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "use": "include_ai_output_in_work",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_permission",
+     "needs_acknowledgement"
+    ],
+    "quote": "if the qualification/ assessment rules allow the use of AI tools, students must reference any content produced correctly. Failure to reference AI use correctly is malpractice.",
+    "anchor": "Misuse of AI/ Generative AI"
+   },
+   {
+    "use": "generate_assessed_text",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Using AI to complete parts of the assessment so that the work does not reflect the student’s own work, analysis, evaluation or calculations.",
+    "anchor": "Misuse of AI/ Generative AI"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": {
+    "value": "always_required",
+    "quote": "students must always adhere to JCQ guidelines and maintain academic integrity by acknowledging any AI use."
+   },
+   "contents": [
+    {
+     "value": "tool_name",
+     "quote": "the student must show the name of the AI source and the date the content was generated."
+    },
+    {
+     "value": "date_accessed",
+     "quote": "the student must show the name of the AI source and the date the content was generated."
+    },
+    {
+     "value": "how_used",
+     "quote": "provide a brief explanation of how it has been used."
+    },
+    {
+     "value": "prompts",
+     "quote": "The student must also retain a copy of the question(s) and computer-generated content for reference and authentication purposes in a non-editable format (e.g. screenshot)"
+    }
+   ],
+   "location": [],
+   "records": {
+    "value": "required",
+    "quote": "The student must also retain a copy of the question(s) and computer-generated content for reference and authentication purposes in a non-editable format (e.g. screenshot)"
+   },
+   "referencing": null,
+   "consequence": {
+    "value": "treated_as_misconduct",
+    "quote": "Failure to reference AI use correctly is malpractice."
+   },
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "staffordshire-students-genai-202610",
+  "coder": "uses-x1",
+  "uses": [],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "west-scotland-students-genai-202610",
+  "coder": "uses-x1",
+  "uses": [],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "dcu-students-genai-202610",
+  "coder": "uses-x2",
+  "uses": [
+   {
+    "use": "generate_assessed_text",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Submitting entire essays, assignments, projects and research generated by AI is considered plagiarism.",
+    "anchor": "Always Remember..."
+   },
+   {
+    "use": "any_use",
+    "context": "unspecified",
+    "stance": "conditional",
+    "acknowledge": "not_stated",
+    "conditions": [
+     "needs_permission"
+    ],
+    "quote": "Always consult your lecturer before use, academic misconduct includes submitting unauthorised generative AI work.",
+    "anchor": "Always Remember..."
+   },
+   {
+    "use": "generate_ideas",
+    "context": "unspecified",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "While generative AI can assist with certain stages of the library search process, such as generating ideas or creating and refining search strategies, it should not be used as a substitute for using library databases to locate quality peer-reviewed, scholarly sources.",
+    "anchor": "AI Introduction"
+   },
+   {
+    "use": "find_sources",
+    "context": "unspecified",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "While generative AI can assist with certain stages of the library search process, such as generating ideas or creating and refining search strategies, it should not be used as a substitute for using library databases to locate quality peer-reviewed, scholarly sources.",
+    "anchor": "AI Introduction",
+    "tier": "search strategies"
+   },
+   {
+    "use": "find_sources",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "While generative AI can assist with certain stages of the library search process, such as generating ideas or creating and refining search strategies, it should not be used as a substitute for using library databases to locate quality peer-reviewed, scholarly sources.",
+    "anchor": "AI Introduction",
+    "tier": "database substitute"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [
+   {
+    "value": "module_or_lecturer",
+    "quote": "Students should always check any specific module advice or guidelines on the use of generative AI tools."
+   }
+  ],
+  "acknowledgement": {
+   "duty": {
+    "value": "always_required",
+    "quote": "Be transparent about using AI - always cite and reference your use."
+   },
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": {
+    "value": "cite_in_reference_list",
+    "quote": "Be transparent about using AI - always cite and reference your use."
+   },
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "lancaster-students-genai-202610",
+  "coder": "uses-x2",
+  "uses": [
+   {
+    "use": "generate_assessed_text",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_acknowledgement"
+    ],
+    "quote": "The submission of undeclared work which is either generated and/or improved by language model software for the purposes of gaining marks will be regarded as False Authorship and interpreted as an attempt to gain an intentional unfair academic advantage.",
+    "anchor": "FALSE AUTHORSHIP"
+   },
+   {
+    "use": "rewrite_or_paraphrase_own_text",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_acknowledgement"
+    ],
+    "quote": "The submission of undeclared work which is either generated and/or improved by language model software for the purposes of gaining marks will be regarded as False Authorship and interpreted as an attempt to gain an intentional unfair academic advantage.",
+    "anchor": "FALSE AUTHORSHIP"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": {
+    "value": "treated_as_misconduct",
+    "quote": "The submission of undeclared work which is either generated and/or improved by language model software for the purposes of gaining marks will be regarded as False Authorship and interpreted as an attempt to gain an intentional unfair academic advantage."
+   },
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "lse-students-genai-202610",
+  "coder": "uses-x2",
+  "uses": [
+   {
+    "use": "check_language",
+    "context": "unspecified",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Tools for grammar and spell check (Grammarly, DeepL, Microsoft Word’s built-in editor) are generally fine.",
+    "anchor": "Rules: the AI policy"
+   },
+   {
+    "use": "find_sources",
+    "context": "study",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "My department, the European Institute, for example, allows generative AI to be used to support learning and research. This includes identifying articles, directing further reading, or explaining unfamiliar terms, much like a database search.",
+    "anchor": "Rules: the AI policy"
+   },
+   {
+    "use": "explain_or_tutor",
+    "context": "study",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "My department, the European Institute, for example, allows generative AI to be used to support learning and research. This includes identifying articles, directing further reading, or explaining unfamiliar terms, much like a database search.",
+    "anchor": "Rules: the AI policy"
+   },
+   {
+    "use": "generate_assessed_text",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "But summative and formative assessments must be planned, researched and written solely by the student: no AI wording, in original or amended form, and no AI outputs cited as sources.",
+    "anchor": "Rules: the AI policy"
+   },
+   {
+    "use": "rewrite_or_paraphrase_own_text",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "But summative and formative assessments must be planned, researched and written solely by the student: no AI wording, in original or amended form, and no AI outputs cited as sources.",
+    "anchor": "Rules: the AI policy"
+   },
+   {
+    "use": "rely_on_ai_as_source",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "But summative and formative assessments must be planned, researched and written solely by the student: no AI wording, in original or amended form, and no AI outputs cited as sources.",
+    "anchor": "Rules: the AI policy"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [
+   {
+    "value": "school_or_department",
+    "quote": "each department sets out its own policy for assessments, whether they allow no, limited or full authorised use of generative AI."
+   }
+  ],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "setu-students-genai-202610",
+  "coder": "uses-x2",
+  "uses": [
+   {
+    "use": "any_use",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_permission",
+     "needs_acknowledgement"
+    ],
+    "quote": "Where permitted, documented use of GenAI, and any other tools for writing or producing any work which is submitted for assessment, should be appropriately acknowledged as required under SETU regulations for undergraduate and taught postgraduate programmes, as well as regulations set out for research candidates.",
+    "anchor": "6. Policy"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [
+   {
+    "value": "module_or_lecturer",
+    "quote": "Students should be guided by their lecturers on the acceptable usage of GenAI within their assessments."
+   },
+   {
+    "value": "school_or_department",
+    "quote": "While specific guidance on GenAI for learning and assessment will be provided by SETU through the student's Faculty, Department, Programme and/or internal examiner"
+   }
+  ],
+  "acknowledgement": {
+   "duty": {
+    "value": "conditional",
+    "quote": "Where permitted, documented use of GenAI, and any other tools for writing or producing any work which is submitted for assessment, should be appropriately acknowledged as required under SETU regulations for undergraduate and taught postgraduate programmes, as well as regulations set out for research candidates."
+   },
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": {
+    "value": "cite_in_reference_list",
+    "quote": "acknowledgement is given to the contributions of others, which includes substantive contribution of technology, including generative artificial intelligence in any work, through appropriate internal citations and references."
+   },
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "east-london-students-genai-202610",
+  "coder": "uses-x3",
+  "uses": [
+   {
+    "use": "any_use",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_acknowledgement"
+    ],
+    "quote": "If you do use Generative AI for your assessed work, you must acknowledge that you have used it (see Referencing).",
+    "anchor": "Using Generative AI"
+   },
+   {
+    "use": "rely_on_ai_as_source",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "You should ensure you verify all information provided by Generative AI and not just assume it to be accurate.",
+    "anchor": "Using Generative AI"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [
+   {
+    "value": "school_or_department",
+    "quote": "You must follow the latest guidance on using Generative AI as provided by your School."
+   }
+  ],
+  "acknowledgement": {
+   "duty": {
+    "value": "always_required",
+    "quote": "If you do use Generative AI for your assessed work, you must acknowledge that you have used it (see Referencing)."
+   },
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "edge-hill-students-genai-202610",
+  "coder": "uses-x3",
+  "uses": [],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "falmouth-students-genai-202610",
+  "coder": "uses-x3",
+  "uses": [],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "st-marys-twickenham-london-students-genai-202610",
+  "coder": "uses-x3",
+  "uses": [],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "city-st-georges-london-students-genai-202610",
+  "coder": "uses-x4",
+  "uses": [
+   {
+    "use": "any_use",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "not_stated",
+    "conditions": [
+     "needs_permission"
+    ],
+    "quote": "You should never use AI for an assignment without the express permission of your module leader.",
+    "anchor": "AI at City St George's"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [
+   {
+    "value": "module_or_lecturer",
+    "quote": "You should never use AI for an assignment without the express permission of your module leader."
+   }
+  ],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "london-south-bank-students-genai-202610",
+  "coder": "uses-x4",
+  "uses": [],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "newman-students-genai-202610",
+  "coder": "uses-x4",
+  "uses": [],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "ollscoil-na-gaillimhe-galway-students-genai-202610",
+  "coder": "uses-x4",
+  "uses": [
+   {
+    "use": "generate_assessed_text",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Submitting all or part of an assessment item which has been produced using artificial intelligence (e.g. Google Translate or other machine translation services/software, generative AI, etc.) and claiming it as your own work.",
+    "anchor": "2.0 Description"
+   },
+   {
+    "use": "translate",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Submitting all or part of an assessment item which has been produced using artificial intelligence (e.g. Google Translate or other machine translation services/software, generative AI, etc.) and claiming it as your own work.",
+    "anchor": "2.0 Description"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "abertay-students-genai-202610",
+  "coder": "uses-x5",
+  "uses": [
+   {
+    "use": "generate_assessed_text",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_acknowledgement"
+    ],
+    "quote": "Unacceptable use of AI (Artificial Intelligence) is where a student uses an AI tool/s to generate academic work on their behalf and presents AI ideas as their own without appropriate acknowledgement.",
+    "anchor": "Academic Misconduct"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "london-school-hygiene-and-tropical-medicine-students-genai-202610",
+  "coder": "uses-x5",
+  "uses": [
+   {
+    "use": "generate_ideas",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_acknowledgement"
+    ],
+    "quote": "Artificial Intelligence tools (AI) can be helpful for generating and synthesising ideas about topics.",
+    "anchor": "General guidance"
+   },
+   {
+    "use": "get_feedback_on_draft",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_acknowledgement"
+    ],
+    "quote": "They can also help you with the writing process, for example by providing feedback on written work or help with grammar and spelling.",
+    "anchor": "General guidance"
+   },
+   {
+    "use": "check_language",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_acknowledgement"
+    ],
+    "quote": "They can also help you with the writing process, for example by providing feedback on written work or help with grammar and spelling.",
+    "anchor": "General guidance"
+   },
+   {
+    "use": "check_language",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "not_stated",
+    "conditions": [
+     "other_rules_apply"
+    ],
+    "quote": "If you are considering using Artificial Intelligence (AI) for proof-reading support, make sure to consult the LSHTM Artificial Intelligence in assessments resource first to learn what types of usage are permitted.",
+    "anchor": "B.1. Proof-reading and advice from others",
+    "tier": "Proof-reading"
+   },
+   {
+    "use": "generate_assessed_text",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Personation is the deliberate submission of work done by another person or technology (e.g. another student, a friend, a relative, a peer, a tutor, or anyone else, including generative AI and translation software) as if it were one’s own.",
+    "anchor": "A.4. Personation, and how to avoid it"
+   },
+   {
+    "use": "translate",
+    "context": "assessed_work",
+    "stance": "prohibited",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Personation is the deliberate submission of work done by another person or technology (e.g. another student, a friend, a relative, a peer, a tutor, or anyone else, including generative AI and translation software) as if it were one’s own.",
+    "anchor": "A.4. Personation, and how to avoid it"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": {
+    "value": "always_required",
+    "quote": "Always remember that, whilst you may use AI to assist you, you must declare this."
+   },
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": {
+    "value": "cite_in_reference_list",
+    "quote": "You must cite AI tools and include them in your reference list."
+   },
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "northumbria-students-genai-202610",
+  "coder": "uses-x5",
+  "uses": [
+   {
+    "use": "check_language",
+    "context": "assessed_work",
+    "stance": "permitted",
+    "acknowledge": "required",
+    "conditions": [],
+    "quote": "Claude can help with things like checking grammar, helping with structure format, organising ideas, and generating suggestions.",
+    "anchor": "Key points when using Claude for Education?"
+   },
+   {
+    "use": "plan_or_structure",
+    "context": "assessed_work",
+    "stance": "permitted",
+    "acknowledge": "required",
+    "conditions": [],
+    "quote": "Claude can help with things like checking grammar, helping with structure format, organising ideas, and generating suggestions.",
+    "anchor": "Key points when using Claude for Education?"
+   },
+   {
+    "use": "generate_ideas",
+    "context": "assessed_work",
+    "stance": "permitted",
+    "acknowledge": "required",
+    "conditions": [],
+    "quote": "Claude can help with things like checking grammar, helping with structure format, organising ideas, and generating suggestions.",
+    "anchor": "Key points when using Claude for Education?"
+   },
+   {
+    "use": "generate_assessed_text",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_permission"
+    ],
+    "quote": "Claude should not be used to do the core work for you, unless the assessment guidelines (which will be outlined in your assessment brief) specifically allow it.",
+    "anchor": "Key points when using Claude for Education?"
+   },
+   {
+    "use": "critical_analysis_and_evaluation",
+    "context": "assessed_work",
+    "stance": "conditional",
+    "acknowledge": "required",
+    "conditions": [
+     "needs_permission"
+    ],
+    "quote": "However, the main content, analysis, and conclusions in your work must always be your own. Claude should not be used to do the core work for you, unless the assessment guidelines (which will be outlined in your assessment brief) specifically allow it.",
+    "anchor": "Key points when using Claude for Education?"
+   },
+   {
+    "use": "rely_on_ai_as_source",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "It’s your responsibility to use reliable sources to verify all information provided by Claude and ensure any sources or references it suggests are accurate.",
+    "anchor": "Key points when using Claude for Education?"
+   },
+   {
+    "use": "personal_advice",
+    "context": "unspecified",
+    "stance": "discouraged",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Claude is not a substitute for mental health support or professional therapy.",
+    "anchor": "What Claude for Education won’t do?"
+   },
+   {
+    "use": "explain_or_tutor",
+    "context": "study",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Claude acts as a 24/7 study partner for students, designed to guide learning and develop critical thinking rather than providing direct answers.",
+    "anchor": "What is Claude for Education?"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [
+   {
+    "value": "assessment_brief",
+    "quote": "unless the assessment guidelines (which will be outlined in your assessment brief) specifically allow it."
+   }
+  ],
+  "acknowledgement": {
+   "duty": {
+    "value": "always_required",
+    "quote": "If you use Claude in your work, you must acknowledge it."
+   },
+   "contents": [
+    {
+     "value": "how_used",
+     "quote": "You must explain how and where you used AI in your work and reference it where appropriate."
+    }
+   ],
+   "location": [],
+   "records": null,
+   "referencing": {
+    "value": "follow_guide",
+    "quote": "For quick guidance on how to reference AI tools properly, including declaration examples, visit the University Library’s AI referencing guide."
+   },
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "plymouth-students-genai-202610",
+  "coder": "uses-x5",
+  "uses": [],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "brighton-students-genai-202610",
+  "coder": "uses-x6",
+  "uses": [
+   {
+    "use": "summarise_or_analyse_sources",
+    "context": "study",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Learning: by summarising long texts or videos and explaining concepts",
+    "anchor": "In education AI can be used for:"
+   },
+   {
+    "use": "explain_or_tutor",
+    "context": "study",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Learning: by summarising long texts or videos and explaining concepts",
+    "anchor": "In education AI can be used for:"
+   },
+   {
+    "use": "plan_or_structure",
+    "context": "unspecified",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Writing: AI programs can help with structure and grammar",
+    "anchor": "In education AI can be used for:"
+   },
+   {
+    "use": "check_language",
+    "context": "unspecified",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Writing: AI programs can help with structure and grammar",
+    "anchor": "In education AI can be used for:"
+   },
+   {
+    "use": "assistive_use",
+    "context": "unspecified",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Accessibility: by providing text-to-speech and alternative formats",
+    "anchor": "In education AI can be used for:"
+   },
+   {
+    "use": "find_sources",
+    "context": "unspecified",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Research: by focusing searches and providing keyword suggestions",
+    "anchor": "In education AI can be used for:"
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "cardiff-students-genai-202610",
+  "coder": "uses-x6",
+  "uses": [
+   {
+    "use": "generate_ideas",
+    "context": "unspecified",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Generative AI tools such as Microsoft Copilot can be helpful when you need to identify a topic to research and/or define a research question.",
+    "anchor": null
+   },
+   {
+    "use": "find_sources",
+    "context": "unspecified",
+    "stance": "permitted",
+    "acknowledge": "not_stated",
+    "conditions": [],
+    "quote": "Welcome to the Library’s guide to using Generative Artificial Intelligence (Gen AI) to support your literature searching.",
+    "anchor": null
+   }
+  ],
+  "default_when_silent": null,
+  "decided_by": [
+   {
+    "value": "module_or_lecturer",
+    "quote": "Before you use any AI tool to support your assessed work, please check the guidance from your module or course and read the University’s guidance for students on using artificial intelligence in your learning."
+   }
+  ],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
+ },
+ {
+  "doc_id": "greenwich-students-genai-202610",
+  "coder": "uses-x6",
+  "uses": [],
+  "default_when_silent": null,
+  "decided_by": [],
+  "acknowledgement": {
+   "duty": null,
+   "contents": [],
+   "location": [],
+   "records": null,
+   "referencing": null,
+   "consequence": null,
+   "exempt": []
+  }
  }
 ]
