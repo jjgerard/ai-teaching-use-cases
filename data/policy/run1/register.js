@@ -12,7 +12,7 @@ const SKIP = { "hartpury-students-genai-202610": "whole regulations bundle (42,0
 const REGION = { England: "GB-ENG", Scotland: "GB-SCT", Wales: "GB-WLS", "Northern Ireland": "GB-NIR", Ireland: "IE" };
 let added = 0; const skipped = [];
 const SKIP4 = { "plymouth-marjon-students-genai-202610": "assessment policy with no AI text", "ravensbourne-london-students-genai-202610": "82,000-word superseded regulations, 2 AI mentions", "national-art-and-design-students-genai-202610": "school-level handbook, not institution-wide", "bournemouth-students-genai-202610": "workshop listing, AI only as a topic" };
-for (const dir of ["trial", "run1/archive", "run1/archive2", "run1/archive4"]) {
+for (const dir of ["trial", "run1/archive", "run1/archive2", "run1/archive6"]) {
   const man = require(path.join(root, dir, "manifest.json"));
   for (const m of man) {
     if (m.status !== "ok" || have.has(m.doc_id)) continue;
