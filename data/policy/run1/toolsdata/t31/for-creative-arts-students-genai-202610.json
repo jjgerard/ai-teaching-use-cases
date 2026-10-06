@@ -1,0 +1,35 @@
+{
+ "doc_id": "for-creative-arts-students-genai-202610",
+ "coder": "td-t31",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "AI prompts can be shared with others, so do not share personal data or sensitive information about yourself or others.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Copyright ownership of AI outputs is unclear and inputting in-copyright material into an AI platform could be considered an infringement of copyright law.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Copyright ownership of AI outputs is unclear and inputting in-copyright material into an AI platform could be considered an infringement of copyright law.",
+   "anchor": null
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "doc_id": "keele-students-genai-202610",
+ "coder": "td-t31",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Microsoft Copilot is the institutional tool available free to staﬀ and students as part of the MS Oﬃce 365 suite.",
+   "anchor": null
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "recommended",
+   "audience": "staff",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "it is recommended that staff use institutional Gen AI tools, for example Microsoft Copilot, that comply with GDPR and relevant privacy regulations.",
+   "anchor": null
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "conditional",
+   "audience": "unspecified",
+   "name": null,
+   "conditions": [
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "Use of other AI tools must consider accessibility and equitable access along with GDPR and data privacy.",
+   "anchor": null
+  }
+ ],
+ "data": [],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "it is recommended that staff use institutional Gen AI tools, for example Microsoft Copilot, that comply with GDPR and relevant privacy regulations.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "it is recommended that staff use institutional Gen AI tools, for example Microsoft Copilot, that comply with GDPR and relevant privacy regulations.",
+   "anchor": null
+  }
+ ]
+}

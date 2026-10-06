@@ -1,0 +1,47 @@
+{
+ "doc_id": "york-st-john-students-genai-202610",
+ "coder": "td-t31",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "\"Never share personal and sensitive information with an AI tool.\"",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "I have not entered into GenAI tools any works that are copyright or the intellectual property of a third party.",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission",
+    "ethics_approval"
+   ],
+   "ai_named": true,
+   "quote": "Uploading participant data or responses into GenAI without the participants' consent or ethical approval (Principle 6)",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Sharing personal information of other people without their consent could be a breach of General Data Protection Regulation (GDPR).",
+   "anchor": null
+  }
+ ]
+}
