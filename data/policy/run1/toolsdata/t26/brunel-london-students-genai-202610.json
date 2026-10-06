@@ -1,0 +1,52 @@
+{
+ "doc_id": "brunel-london-students-genai-202610",
+ "coder": "td-t26",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not share any personal, confidential, or sensitive information. Any data entered into generative AI can be fed into the data sets that the generative AI relies upon",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not share any personal, confidential, or sensitive information. Any data entered into generative AI can be fed into the data sets that the generative AI relies upon",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "You should not enter any personal, sensitive, or confidential data. This goes for your own personal data (like asking a generative AI to write a CV for you) but also any research data that you might collect via primary research.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI tools can be useful when used properly but make sure that you fully understand their limitations and the legal, ethical, and data protection issues they present before using them.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "You could inadvertently plagiarise or breach the copyright of someone’s work when using generative AI.",
+   "anchor": null
+  }
+ ]
+}

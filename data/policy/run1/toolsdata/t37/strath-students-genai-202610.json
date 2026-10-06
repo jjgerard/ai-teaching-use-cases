@@ -1,0 +1,82 @@
+{
+ "doc_id": "strath-students-genai-202610",
+ "coder": "td-t37",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "The only Gen-AI tool that the University currently allows staff and students to sign-up to with their University credentials is Microsoft Copilot in Edge.",
+   "anchor": null
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "warned",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "You should be aware that there are risks associated with using any Gen-AI tool, especially those that they are signing up to without the University’s explicit knowledge and support.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Gen-AI tools may collect user data. Read privacy policies carefully and avoid sharing Personal, sensitive or copyright protected information.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Gen-AI tools may collect user data. Read privacy policies carefully and avoid sharing Personal, sensitive or copyright protected information.",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Make sure you are not giving any tools or services access to restricted or copyright protected content including materials provided to you by the University (for example lecture slides, assessment questions or feedback on assessment, library resources or research papers).",
+   "anchor": null
+  },
+  {
+   "data_type": "assessment_material",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Make sure you are not giving any tools or services access to restricted or copyright protected content including materials provided to you by the University (for example lecture slides, assessment questions or feedback on assessment, library resources or research papers).",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen-AI tools may collect user data. Read privacy policies carefully and avoid sharing Personal, sensitive or copyright protected information.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Gen-AI models can generate content that may infringe upon existing intellectual property rights, such as copyright.",
+   "anchor": null
+  }
+ ]
+}

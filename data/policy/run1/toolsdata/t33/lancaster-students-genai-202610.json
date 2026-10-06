@@ -1,0 +1,33 @@
+{
+ "doc_id": "lancaster-students-genai-202610",
+ "coder": "td-t33",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Unless express permission is received in advance, students must not submit or upload assessment submissions to any external detection software or platforms designed to inspect for academic malpractice or artificial intelligence usage.",
+   "anchor": "AM 2.9.1"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "student_work",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Unless express permission is received in advance, students must not submit or upload assessment submissions to any external detection software or platforms designed to inspect for academic malpractice or artificial intelligence usage.",
+   "anchor": "AM 2.9.1"
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}

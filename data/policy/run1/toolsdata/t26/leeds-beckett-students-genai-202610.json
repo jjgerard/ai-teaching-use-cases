@@ -1,0 +1,44 @@
+{
+ "doc_id": "leeds-beckett-students-genai-202610",
+ "coder": "td-t26",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Data privacy - Do not enter sensitive, personal, or protected information into AI tools, and remember that this includes e.g., assignments, exams, seminars and lecture slides, which are the Intellectual Property of the University or others for copyright breach).",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Data privacy - Do not enter sensitive, personal, or protected information into AI tools, and remember that this includes e.g., assignments, exams, seminars and lecture slides, which are the Intellectual Property of the University or others for copyright breach).",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Data privacy - Do not enter sensitive, personal, or protected information into AI tools, and remember that this includes e.g., assignments, exams, seminars and lecture slides, which are the Intellectual Property of the University or others for copyright breach).",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Data privacy - Do not enter sensitive, personal, or protected information into AI tools, and remember that this includes e.g., assignments, exams, seminars and lecture slides, which are the Intellectual Property of the University or others for copyright breach).",
+   "anchor": null
+  }
+ ]
+}

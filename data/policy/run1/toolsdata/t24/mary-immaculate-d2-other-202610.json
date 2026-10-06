@@ -1,0 +1,29 @@
+{
+ "doc_id": "mary-immaculate-d2-other-202610",
+ "coder": "td-t24",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "warned",
+   "audience": "staff",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Detection tools which purport to specifically focus on GenAI detection raise some significant implications for privacy, equity, and data security",
+   "anchor": null
+  },
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Turnitin",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Support students to avail of the Turnitin self-check facility and offer students opportunities to develop their skills in citation and referencing.",
+   "anchor": null
+  }
+ ],
+ "data": [],
+ "safeguards": [],
+ "legal": []
+}

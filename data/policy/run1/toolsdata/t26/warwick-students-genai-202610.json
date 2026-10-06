@@ -1,0 +1,50 @@
+{
+ "doc_id": "warwick-students-genai-202610",
+ "coder": "td-t26",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Warwick provides access to Microsoft Co-PilotLink opens in a new window for students and staff.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "Do not input any personal or confidential data into any AI tools, unless you fully understand what will happen to that data. The university recommends using Co-Pilot chat for this kind of data - when logged in with your Warwick account.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "Do not input any personal or confidential data into any AI tools, unless you fully understand what will happen to that data. The university recommends using Co-Pilot chat for this kind of data - when logged in with your Warwick account.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The university recommends using Co-Pilot chat for this kind of data - when logged in with your Warwick account.",
+   "anchor": null
+  }
+ ],
+ "legal": []
+}

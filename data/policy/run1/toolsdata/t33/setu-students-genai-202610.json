@@ -1,0 +1,47 @@
+{
+ "doc_id": "setu-students-genai-202610",
+ "coder": "td-t33",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "SETU recognises that students shall have the opportunity to self- submit a draft of their work to Turnitin.",
+   "anchor": "A.3"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "unspecified",
+   "conditions": [
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "Data Privacy: In relation to GenAI, student data and privacy must be maintained through compliance with GDPR (General Data Protection Regulation) and best practice. This includes the inputting of such data to produce a GenAI response;",
+   "anchor": "6.11"
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Data Privacy: In relation to GenAI, student data and privacy must be maintained through compliance with GDPR (General Data Protection Regulation) and best practice.",
+   "anchor": "6.11"
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Data Privacy: In relation to GenAI, student data and privacy must be maintained through compliance with GDPR (General Data Protection Regulation) and best practice.",
+   "anchor": "6.11"
+  }
+ ]
+}

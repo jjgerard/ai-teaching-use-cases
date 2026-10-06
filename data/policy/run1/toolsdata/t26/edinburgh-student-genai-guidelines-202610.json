@@ -1,0 +1,86 @@
+{
+ "doc_id": "edinburgh-student-genai-guidelines-202610",
+ "coder": "td-t26",
+ "tools": [
+  {
+   "tool_class": "agentic_tools",
+   "stance": "prohibited",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Using an AI agent within Learn or any other University learning or assessment platform which requires you to log in is not permitted.",
+   "anchor": null
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "ELM",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "All University of Edinburgh students have free access to ELM (Edinburgh access to Language Models), which offers you a secure gateway to a range of generative AI models.",
+   "anchor": null
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "recommended",
+   "audience": "students",
+   "name": "ELM",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "The university encourages you to use ELM over other platforms such as GPT, DeepSeek, Grok etc for the following reasons:",
+   "anchor": null
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "prohibited",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "As a result, you must not use third-party AI-based translation apps in class.",
+   "anchor": null
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "You should only use the University’s generative AI service – ELM – to do this as it has in-built privacy protections.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "credentials_or_accounts",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Sharing your login details with an agent or agentic browser is a breach of the University Computing Acceptable Use Policy.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "You should only use the University’s generative AI service – ELM – to do this as it has in-built privacy protections.",
+   "anchor": null
+  },
+  {
+   "value": "training_on_user_work_restricted",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "In ELM your data is secure – it will not be retained by third party services to train their models or for any other purpose.",
+   "anchor": null
+  }
+ ],
+ "legal": []
+}

@@ -1,0 +1,52 @@
+{
+ "doc_id": "lse-students-genai-202610",
+ "coder": "td-t33",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Claude",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "the university provides institutional access to Claude and Microsoft Copilot.",
+   "anchor": "Resources: building AI fluency"
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Tools for grammar and spell check (Grammarly, DeepL, Microsoft Word’s built-in editor) are generally fine.",
+   "anchor": "Rules: the AI policy"
+  }
+ ],
+ "data": [],
+ "safeguards": [
+  {
+   "value": "training_on_user_work_restricted",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Anthropic guarantees that data shared with Claude by LSE staff and students will not be used to train their models, which makes it safer to use compared to other AI chatbots.",
+   "anchor": "Resources: building AI fluency"
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "LSE’s broader research guidance (PDF) highlights further aspects of AI usage. These include data privacy, copyright, and the environmental impact.",
+   "anchor": "Rules: the AI policy"
+  },
+  {
+   "value": "copyright",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "LSE’s broader research guidance (PDF) highlights further aspects of AI usage. These include data privacy, copyright, and the environmental impact.",
+   "anchor": "Rules: the AI policy"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "doc_id": "ucl-students-genai-202610",
+ "coder": "td-t37",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "prohibited",
+   "audience": "staff",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Staff must not submit student work into such tools, including GenAI themselves, as this may compromise students' intellectual property and personal data rights.",
+   "anchor": null
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Studiosity",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "it is permissible for a third party, such as UCL's academic support tool Studiosity, to “check areas of academic writing such as structure, fluency, presentation, grammar, spelling, punctuation, and language translation.”",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "staff",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Staff must not submit student work into such tools, including GenAI themselves, as this may compromise students' intellectual property and personal data rights.",
+   "anchor": null
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "meets_security_policy",
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "It must also be made clear to students that they must not upload any sensitive data to GenAI systems without taking into account UCL's data protection requirements. Approvals and consents are likely to be required, as such sensitive data usage should be overseen by a staff supervisor.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "It must also be made clear to students that they must not upload any sensitive data to GenAI systems without taking into account UCL's data protection requirements.",
+   "anchor": null
+  }
+ ],
+ "legal": []
+}

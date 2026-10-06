@@ -1,0 +1,29 @@
+{
+ "doc_id": "east-london-students-genai-202610",
+ "coder": "td-t33",
+ "tools": [
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "not_endorsed",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Other than Keenious, the University of East London does not support or endorse any of the AI tools mentioned in this guide.",
+   "anchor": "Disclaimer"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do be wary that your personal data may be vulnerable if used in interacting with Generative AI.",
+   "anchor": "Using Generative AI"
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}

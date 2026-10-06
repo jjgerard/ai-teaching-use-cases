@@ -1,0 +1,46 @@
+{
+ "doc_id": "loughborough-students-genai-202610",
+ "coder": "td-t37",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Co-pilot (integrated into LU Microsoft applications)",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "I will not enter any personally identifiable or commercially sensitive data into a GenAI tool",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "I will not enter any personally identifiable or commercially sensitive data into a GenAI tool",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "I will carefully consider the GenAI tool(s) that I use and how they may share any data that I input",
+   "anchor": null
+  }
+ ],
+ "legal": []
+}
