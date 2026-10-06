@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "purpose": "What a document says about the risks of generative AI and who is responsible for what: which hazards it names, and which duties it puts on students, staff, the institution or providers. Each row has a verbatim quote and a flag for whether the quote itself names AI. Rules about what AI may be used for are in the uses schema, tools and data in the toolsdata schema, and academic misconduct in the misconduct schema.",
+  "risks": {
+    "inaccurate_or_fabricated_output": "AI output may be wrong, made up or out of date (hallucination, fabricated references, factual errors)",
+    "bias_or_discrimination": "AI may produce or repeat bias, stereotypes or unfair treatment",
+    "privacy_or_data_exposure": "information entered into AI may be stored, reused, leaked or seen by others",
+    "copyright_or_ip_infringement": "AI may reproduce or be trained on protected work, or put the user's or others' intellectual property at risk",
+    "environmental_impact": "AI uses energy and water or has other environmental costs",
+    "overreliance_or_loss_of_skills": "relying on AI may weaken learning, critical thinking or skills",
+    "security_or_misuse": "AI may be used for deception, deepfakes, cyber attacks, scams or other malicious use, or may have security weaknesses",
+    "ethical_or_societal_harm": "AI may cause wider ethical or social harm, including misinformation and exploitation of labour",
+    "opacity_or_lack_of_transparency": "how AI works or reaches its outputs is not visible or explainable",
+    "reputational_harm": "AI use may damage the reputation of a person or the institution",
+    "inequity_of_access": "unequal access to AI tools or skills may disadvantage some people",
+    "wellbeing_or_safety": "AI may be unsuitable or harmful for advice on health, wellbeing or safety"
+  },
+  "duties": {
+    "accountable_for_output": "the person remains responsible or accountable for what they submit or publish with AI help",
+    "verify_output": "check, fact-check or critically evaluate AI output before relying on it",
+    "human_oversight": "a human must keep judgement or review, for example no sole reliance on AI for marking or decisions",
+    "use_ethically_and_responsibly": "use AI ethically, responsibly, safely or transparently, stated in general terms",
+    "comply_with_policy_and_law": "follow the institution's policies and applicable law when using AI",
+    "assess_risk_before_use": "carry out a risk, impact or approval process before adopting or using an AI tool",
+    "report_concerns_or_incidents": "report misuse, incidents, breaches or concerns",
+    "stay_informed_and_trained": "learn about AI, take training or keep up with guidance",
+    "keep_guidance_under_review": "the institution reviews, updates or monitors its guidance and AI developments",
+    "ensure_equitable_access": "the institution commits to fair or inclusive access to AI tools or skills",
+    "no_compulsion_to_use": "students or staff are not required to use AI"
+  },
+  "bearers": {
+    "students": "students",
+    "staff": "staff, including academics, markers and supervisors",
+    "both": "students and staff, or everyone",
+    "institution": "the institution, its leadership, faculties or services",
+    "provider": "the AI vendor or tool provider",
+    "unspecified": "the text does not say who bears it"
+  },
+  "strengths": {
+    "must": "an obligation (must, required, will be expected to)",
+    "should": "advice or an expectation (should, encouraged, recommended)",
+    "will": "a commitment by the institution (we will, the university commits to)"
+  },
+  "audience": ["students", "staff", "both", "unspecified"]
+}
