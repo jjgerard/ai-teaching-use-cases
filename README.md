@@ -1,8 +1,13 @@
 # Case Study Catalog
 
-A starter template for a public catalog of anything you want to collect examples of, with
-a submission form and a password-gated dashboard for approving new entries before they go
-live. Fork it, replace the seed data and branding with your own topic, and deploy.
+Live at [case-study-catalog.fly.dev](https://case-study-catalog.fly.dev). A public catalog
+of real examples of generative AI in higher education, in three collections (teaching,
+research, and reducing AI misuse), with a submission form, a password-gated dashboard for
+approving new entries before they go live, and a set of analyses built on the catalogs.
+Every entry must describe something actually built, run or trialled, with a source link.
+
+The code is also usable as a starter template: fork it, replace the seed data and branding
+with your own topic, and deploy.
 
 - `GET /` — public catalog (search + facets)
 - `GET /submit` — public submission form
@@ -12,6 +17,7 @@ live. Fork it, replace the seed data and branding with your own topic, and deplo
 - `GET /reducing-ai-use` — companion catalog for "reducing AI (mis)use" case studies
 - `GET /trends`, `GET /research-trends` — aggregate trend/association views over the teaching and research catalogs, respectively
 - `GET /analyses` — landing page for the four analyses: teaching trends, research trends, AI guidance analysis, and research on AI detection
+- `GET /ai-guidance-analysis` — analysis of what UK and Irish universities tell students about generative AI; every count traces to a quote in the institution's own document (method and codebook in `policy/`, data in `data/policy/`). Draft, in progress. `/ai-policy-atlas` redirects here
 - `GET /teachers-spotting-ai` — research dashboard on whether teachers can tell AI-written work from student writing (sources in `docs/teachers-spotting-ai-writing.md`)
 - `GET /ai-perceptions` — findings explorer for the AI-perceptions research papers (separate from the case-study catalogs above)
 
@@ -180,15 +186,20 @@ public/
   trends.html          — aggregate trends/associations over the teaching catalog
   research-trends.html — aggregate trends/associations over the research catalog
   analyses.html        — landing page linking the four analysis pages
+  ai-guidance-analysis.html — analysis of university AI guidance, built from data/policy/
   teachers-spotting-ai.html — research dashboard on human detection of AI writing
   ai-perceptions.html  — findings explorer for the separate AI-perceptions research papers
   shared.css           — shared design system, linked by catalog/submit/admin/about/
                           ai-for-research/reducing-ai-use; the trends and ai-perceptions
                           pages inline their own copy plus page-specific chart extensions
   favicon.svg
+policy/   — method, codebook, coding briefs and scripts (`npm run policy:validate`,
+             `npm run policy:test`) for the AI guidance analysis; see `policy/README.md`
+docs/     — research briefing behind the AI detection page
 data/
   seed.json      — your curated entries, imported once on first boot
   community.json — approved community submissions, kept in sync by gitStore.js
+  policy/        — institutions, documents, and evidence-backed codes for the guidance analysis
 ```
 
 ## About this project
@@ -197,7 +208,7 @@ This catalog and its content were built by [Juliana Gerard](https://julianagerar
 a lecturer in Linguistics at [Ulster University](https://ulster.ac.uk).
 The application code was written with [Claude Code](https://claude.com/claude-code)
 (Anthropic), which was also used to source candidate case studies, screen them
-against the inclusion criteria, and write entries; the human work is setting
+against the inclusion criteria, write entries, and draft the analyses; the human work is setting
 those criteria, directing the research, and reviewing what actually qualifies.
 
 ## License
