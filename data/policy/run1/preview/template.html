@@ -219,7 +219,7 @@ section { scroll-margin-top: 64px; }
 
 
 <nav class="toc" id="toc" aria-label="Contents"><strong>Contents</strong>
-  <a href="#uses">What AI can be used for</a><a href="#ack">What has to be acknowledged</a><a href="#misconduct">Academic misconduct</a><a href="#support">What kind of help institutions offer</a><a href="#together">What goes together</a><a href="#points">What the guidance says</a><a href="#coverage">Who is covered</a><a href="#kinds">What kind of documents these are</a><a href="#explorer">One variable at a time</a><a href="#common">What is common</a><a href="#together-typed">What goes together (classified)</a><a href="#matrix">Every institution</a><a href="#method">How to read this</a>
+  <a href="#uses">What AI can be used for</a><a href="#ack">What has to be acknowledged</a><a href="#misconduct">Academic misconduct</a><a href="#support">What kind of help institutions offer</a><a href="#together">What goes together</a><a href="#points">What the guidance says</a><a href="#kinds">What kind of documents these are</a><a href="#explorer">Other document features, one at a time</a><a href="#common">Other document features: what is common</a><a href="#method">How to read this</a>
 </nav>
 
 <section id="uses">
@@ -281,18 +281,8 @@ section { scroll-margin-top: 64px; }
   <button class="chip more" id="pmore" type="button" hidden>Show more</button>
 </section>
 
-<section id="coverage">
-  <h2>Who is covered</h2>
-  <p class="sub"><span id="npd"></span> documents from <span id="ni"></span> institutions; <span id="nd"></span> of them also have the full coding against <span id="nv"></span> variables. The frame is a curated list of institutions, so "not found" and "blocked" are recorded outcomes about named institutions, not silent gaps.</p>
-  <div class="panel">
-    <div class="stack" id="stack" role="img" aria-label="Coverage of sampled institutions"></div>
-    <div class="legend" id="legend"></div>
-    <div class="scroll" style="margin-top:14px"><table class="reg" id="regtab"></table></div>
-  </div>
-</section>
-
 <section id="kinds">
-  <h2>What kind of documents these are</h2><p class="sub" style="margin-bottom:6px">The next sections use the 47 documents that were also classified.</p>
+  <h2>What kind of documents these are</h2><p class="sub" style="margin-bottom:6px">These two sections use the first, coarser coding of 47 documents. They cover areas the four schemas above do not: who issued a document and how binding it is, assessment schemes and tiers, tools and data rules, access, research and PGR, governance, and strategy. Each will be replaced by a schema as it is recoded.</p>
   <p class="sub">Documents differ in how binding they say they are and in who issued them. Compare institutions only after allowing for this. Click a bar to list the institutions.</p>
   <div class="cols">
     <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">How the document describes itself</h3><div class="mono" style="color:var(--muted)">instrument_force</div><div class="bars" id="b-force"></div></div>
@@ -314,7 +304,7 @@ section { scroll-margin-top: 64px; }
 
 
 <section id="common">
-  <h2>Classified documents: what is common</h2>
+  <h2>Other document features: what is common</h2>
   <p class="sub">Each bar is the share of documents <em>that give a value</em> for that variable, so the denominator is shown. Documents that are silent are left out, which makes these shares larger than a share of all documents. They describe this sample and are not prevalence estimates.</p>
   <div class="cols">
     <div class="panel"><h3 style="margin:0;font-size:14px;font-weight:600">Choices documents make</h3><div class="mono" style="color:var(--muted)">values given by at least 8 documents</div><div class="bars" id="b-common"></div></div>
@@ -322,37 +312,15 @@ section { scroll-margin-top: 64px; }
   </div>
 </section>
 
-<section id="together-typed">
-  <h2>Classified documents: what goes together</h2>
-  <p class="sub">Pick two variables. The table counts documents that give a value for both, so shared silence cannot make a pattern.</p>
-  <div class="panel">
-    <div class="xsel"><span><label for="xv">Rows</label><select id="xv"></select></span><span><label for="yv">Columns</label><select id="yv"></select></span><span class="mono" id="xn" style="color:var(--ink2)"></span></div>
-    <div class="scroll"><table class="xt" id="xt"></table></div>
-    <p class="small" id="xnote"></p>
-  </div>
-  <div class="panel" style="margin-top:16px">
-    <h3 style="margin:0;font-size:14px;font-weight:600">Strongest pairings across all variables</h3>
-    <p class="small" id="pnote" style="margin-top:4px"></p>
-    <div class="scroll" style="margin-top:8px"><table class="xt pairs" id="pairs"></table></div>
-  </div>
-</section>
-
-<section id="matrix">
-  <h2>Every institution, key variables</h2>
-  <p class="sub">Click any cell to read the quote it rests on. Most cells are empty because most documents are silent on most questions.</p>
-  <div class="panel" id="detail"><span style="color:var(--muted)">Select a cell to see its evidence.</span></div>
-  <div class="key"><span><i style="background:var(--tint)"></i>value coded</span><span><i style="border:1px solid var(--line)"></i>document is silent</span><span><i style="background:repeating-linear-gradient(135deg,var(--hatch) 0 3px,transparent 3px 7px)"></i>does not apply</span><span><i style="background:var(--warn-tint)"></i>no listed value fits</span></div>
-  <div class="scroll panel" style="padding:0;max-height:640px;overflow:auto"><table class="mx" id="mx"></table></div>
-</section>
-
 <section id="method">
   <h2>How to read this</h2>
   <ul class="lim">
-    <li>Coverage is by a curated frame of institutions and a seeded stratified sample, not by search. Twelve found documents could not be archived (bot walls, JavaScript-only pages, robots.txt) and are not coded.</li>
-    <li>Two coders, both the same model, coded 5 documents independently. They agreed on the kind of answer for 91% of cells (98% leaving out eight staff and teaching variables) and on the exact value in 87% of the 84 cells where both gave one. The weakest variables were default when silent and how misconduct is framed. This is optimistic and small. Human double-coding is still needed before any claim about how common something is.</li>
-    <li>Hub pages cannot be registered with an empty domain list, so some of their assessment variables show as silent where "does not apply" would be more accurate.</li>
-    <li>The pairing table runs hundreds of comparisons on a few dozen documents, so some small p-values appear by chance. Only pairs that survive a false-discovery correction are flagged, and even those need checking: two variables in a pair can be coded from the same sentence or by the same decision rule.</li>
-    <li>Codebook version <span id="cv"></span>. Rows coded under a different version are rejected, so a revised vocabulary means re-coding.</li>
+    <li>Institutions come from a curated frame and a seeded stratified sample, and documents were found by search. Counts are institutions, with a second document counted under its institution. Some pages could not be archived (bot walls, JavaScript-only pages, robots.txt, missing pages) and are not coded.</li>
+    <li>Every value rests on a verbatim quote from an archived snapshot, checked by a validator. One model did all the coding passes, with a pilot of two independent coders before each full run. Agreement figures from the pilots are therefore optimistic.</li>
+    <li>Counts are minimums. A statement counts only where a quote shows it, so a missing value means no quote was found, not that the institution disagrees. Some rows rest on a link label or on general misconduct wording that does not name AI; the misconduct section shows which.</li>
+    <li>Documents with tiered rules (for example traffic-light levels) give several rows for one use, so their counts are lower bounds.</li>
+    <li>“What goes together” is descriptive. The noteworthy pairs are corrected for the number of pairs compared, but an association in what documents say is not a reason, and three-way combinations are too thin to test with this many institutions.</li>
+    <li>The “other document features” sections use an older coding of 47 documents. Codebook version <span id="cv"></span>.</li>
   </ul>
 </section>
 </div>
@@ -369,8 +337,7 @@ section { scroll-margin-top: 64px; }
   var REGIONS = ["England", "Scotland", "Wales", "Northern Ireland", "Ireland"];
   var KEY = ["instrument_force", "issued_by_type", "institutional_posture", "default_when_silent", "precedence", "permission_set_by", "disclosure_obligation", "referencing_requirement", "use_full_text_generation", "detector_stance", "sanctions_stated", "misconduct_framed_as", "ai_training"];
 
-  $("nv").textContent = DATA.vars.length; $("cv").textContent = DATA.version;
-  $("nd").textContent = DATA.docs.length; $("ni").textContent = DATA.cov.length; $("npd").textContent = DATA.pdocs.length;
+  $("cv").textContent = DATA.version;
 
   function isRule(d) { var c = d.cells.instrument_force; if (!c || c.s !== "v") return false; return c.v.indexOf("pointer_page") < 0; }
   function shown() { return DATA.docs.filter(function (d) { return (region === "All" || d.region === region) && (kind === "all" || isRule(d)); }); }
@@ -381,20 +348,6 @@ section { scroll-margin-top: 64px; }
 
   // coverage
   var ST = [["coded", "Document read, points extracted", "s-coded"], ["fetch", "Found, not archived (needs a local fetch)", "s-fetch"], ["none", "Searched, none found", "s-none"], ["deferred", "Archived, deferred (oversized)", "s-deferred"]];
-  function drawCoverage() {
-    var tot = DATA.cov.length, st = $("stack"); st.textContent = ""; var lg = $("legend"); lg.textContent = "";
-    ST.forEach(function (s) {
-      var n = DATA.cov.filter(function (c) { return c.st === s[0]; }).length;
-      var d = el("div", s[2]); d.style.flex = n + " 1 0"; d.title = s[1] + ": " + n; st.appendChild(d);
-      var sp = el("span"); var sw = el("i", "sw " + s[2]); sp.appendChild(sw); sp.appendChild(document.createTextNode(s[1] + " " + n)); lg.appendChild(sp);
-    });
-    var t = $("regtab"); t.textContent = ""; var hr = el("tr"); ["Region"].concat(ST.map(function (s) { return s[1]; }), ["Sampled"]).forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
-    REGIONS.forEach(function (r) {
-      var rows = DATA.cov.filter(function (c) { return c.region === r; }); var tr = el("tr"); tr.appendChild(el("td", null, r));
-      ST.forEach(function (s) { tr.appendChild(el("td", null, String(rows.filter(function (c) { return c.st === s[0]; }).length))); });
-      tr.appendChild(el("td", null, String(rows.length))); t.appendChild(tr);
-    });
-  }
 
   // bar chart
   function tally(docs, vid) {
@@ -436,23 +389,6 @@ section { scroll-margin-top: 64px; }
 
   // matrix
   function cellText(c) { if (!c) return ""; if (c.s === "v") return c.v.map(hum).join(", "); if (c.s === "ne") return "none exists"; if (c.s === "ns") return "–"; if (c.s === "mf") return "no value fits"; return ""; }
-  function drawMatrix() {
-    var t = $("mx"); t.textContent = ""; var th = el("thead"), hr = el("tr"); var h0 = el("th", "nm", "Institution"); hr.appendChild(h0);
-    KEY.forEach(function (k) { var h = el("th", null, V[k].label); h.title = V[k].q; hr.appendChild(h); }); th.appendChild(hr); t.appendChild(th);
-    var tb = el("tbody"), last = null; var docs = shown();
-    docs.forEach(function (d) {
-      if (d.region !== last) { last = d.region; var rg = el("tr", "rg"); var td = el("td", null, d.region); td.colSpan = KEY.length + 1; rg.appendChild(td); tb.appendChild(rg); }
-      var tr = el("tr"); var nm = el("td", "nm", d.name); nm.title = d.name; tr.appendChild(nm);
-      KEY.forEach(function (k) {
-        var c = d.cells[k], td = el("td"), b = el("button", "cell " + (c ? c.s === "ne" ? "v" : c.s : "ns"), cellText(c)); b.type = "button"; b.title = cellText(c) || "not coded";
-        if (selCell && selCell[0] === d.id && selCell[1] === k) b.className += " sel";
-        b.addEventListener("click", function () { selCell = [d.id, k]; showDetail(d, k); Array.prototype.forEach.call(t.querySelectorAll(".cell.sel"), function (x) { x.classList.remove("sel"); }); b.classList.add("sel"); });
-        td.appendChild(b); tr.appendChild(td);
-      });
-      tb.appendChild(tr);
-    });
-    t.appendChild(tb);
-  }
   function showDetail(d, k) {
     var p = $("detail"); p.textContent = ""; var c = d.cells[k], v = V[k];
     p.appendChild(el("h3", null, d.name + ": " + v.label));
@@ -491,39 +427,6 @@ section { scroll-margin-top: 64px; }
       b.appendChild(el("span", "bn", r.n + " of " + r.of)); host.appendChild(b);
     });
     if (!rows.length) host.appendChild(el("p", null, "No variable has enough documents with the current filters."));
-  }
-  function crossSelect(id, val) {
-    var s = $(id); s.textContent = ""; var g = {};
-    DATA.vars.filter(function (v) { return CHOICE[v.type]; }).forEach(function (v) { (g[v.group] = g[v.group] || []).push(v); });
-    Object.keys(g).forEach(function (k) { var og = document.createElement("optgroup"); og.label = GROUPS[k] || k; g[k].forEach(function (v) { var o = document.createElement("option"); o.value = v.id; o.textContent = v.label; og.appendChild(o); }); s.appendChild(og); });
-    s.value = val; s.addEventListener("change", drawCross);
-  }
-  function drawCross() {
-    var xv = $("xv").value, yv = $("yv").value, docs = shown().filter(function (d) { var a = d.cells[xv], b = d.cells[yv]; return a && a.s === "v" && b && b.s === "v"; });
-    var xs = {}, ys = {}, cell = {};
-    docs.forEach(function (d) { d.cells[xv].v.forEach(function (x) { xs[x] = (xs[x] || 0) + 1; d.cells[yv].v.forEach(function (y) { ys[y] = (ys[y] || 0) + 1; var k = x + "|" + y; cell[k] = (cell[k] || 0) + 1; }); }); });
-    var xk = Object.keys(xs).sort(function (a, b) { return xs[b] - xs[a]; }), yk = Object.keys(ys).sort(function (a, b) { return ys[b] - ys[a]; });
-    var t = $("xt"); t.textContent = "";
-    $("xn").textContent = docs.length + " documents give a value for both";
-    if (xv === yv) { $("xnote").textContent = "Choose two different variables."; return; }
-    var hr = el("tr"); hr.appendChild(el("th", null, V[xv].label + " (rows) / " + V[yv].label + " (columns)")); yk.forEach(function (y) { hr.appendChild(el("th", null, hum(y))); }); t.appendChild(hr);
-    var mx = 1; Object.keys(cell).forEach(function (k) { if (cell[k] > mx) mx = cell[k]; });
-    xk.forEach(function (x) {
-      var tr = el("tr"); tr.appendChild(el("td", null, hum(x) + " (" + xs[x] + ")"));
-      yk.forEach(function (y) { var n = cell[x + "|" + y] || 0, td = el("td", "c", n ? String(n) : "·"); if (n) td.style.background = "color-mix(in srgb, var(--accent) " + Math.round(12 + 50 * n / mx) + "%, transparent)"; else td.style.color = "var(--muted)"; tr.appendChild(td); });
-      t.appendChild(tr);
-    });
-    $("xnote").textContent = docs.length < 15 ? "Fewer than 15 documents: read this as a list of cases, not a pattern." : "A document with several values (a multi-choice variable) counts in each row and column it belongs to. Counts show co-occurrence only, not cause.";
-  }
-  function drawPairs() {
-    var set = kind === "rules" ? P.rules : P.all, t = $("pairs"); t.textContent = "";
-    $("pnote").textContent = "Among " + set.docs + " documents (" + (kind === "rules" ? "rule-setting only" : "all coded") + "), " + set.tests_run + " pairings were testable. By chance alone about " + Math.round(set.tests_run * 0.05) + " would reach p < 0.05. Ranked by Fisher exact p; q is the false-discovery-corrected value. Regions are not split. Both variables need a value in at least 15 documents.";
-    var hr = el("tr"); ["Pairing", "Docs with both", "Both / A only / B only / neither", "p", "q"].forEach(function (h) { hr.appendChild(el("th", null, h)); }); t.appendChild(hr);
-    set.top.slice(0, 8).forEach(function (r) {
-      var tr = el("tr"); var td = el("td", null, hum(r.A) + "  +  " + hum(r.B)); td.style.whiteSpace = "normal"; tr.appendChild(td);
-      tr.appendChild(el("td", null, String(r.n))); tr.appendChild(el("td", null, [r.a, r.b, r.c, r.d].join(" / ")));
-      tr.appendChild(el("td", null, r.p < 0.001 ? "<0.001" : r.p.toFixed(3))); tr.appendChild(el("td", r.q < 0.1 ? "flag" : null, r.q.toFixed(2) + (r.q < 0.1 ? " ●" : ""))); t.appendChild(tr);
-    });
   }
 
 
@@ -801,11 +704,10 @@ section { scroll-margin-top: 64px; }
   function refresh() {
     drawRegs();
     $("nowshown").textContent = shown().length + " of " + DATA.docs.length + " documents shown";
-    drawExplorer(); drawMatrix(); drawCommon(); drawCross(); drawPairs(); drawPoints(); drawUses(); drawAck(); drawMisconduct(); drawTogether();
+    drawExplorer(); drawCommon(); drawPoints(); drawUses(); drawAck(); drawMisconduct(); drawTogether();
   }
   csvInit();
-  drawCoverage();
   drawBars($("b-force"), "instrument_force", DATA.docs, $("who-kinds")); drawBars($("b-issuer"), "issued_by_type", DATA.docs, $("who-kinds"));
-  tinit(); pinit(); drawSelect(); crossSelect("xv", "instrument_force"); crossSelect("yv", "issued_by_type"); refresh();
+  tinit(); pinit(); drawSelect(); refresh();
 })();
 </script>

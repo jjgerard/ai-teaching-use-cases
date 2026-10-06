@@ -7,7 +7,8 @@ const man = [...rd("trial/manifest.json"), ...rd("run1/archive/manifest.json")];
 const REG = { "GB-ENG": "England", "GB-SCT": "Scotland", "GB-WLS": "Wales", "GB-NIR": "Northern Ireland", IE: "Ireland", "IE-L": "Ireland" };
 const codedIds = new Set(codes.map((r) => r.doc_id));
 const hum = (s) => String(s).replace(/_/g, " ");
-const vars = codebook.variables.map((v) => ({ id: v.id, label: v.label, q: v.question, group: v.group, type: v.type, vals: Object.fromEntries((v.values || []).map((x) => [x.id, x.gloss])) }));
+const DROPVARS = new Set(["uses", "disclosure"]); const DROPIDS = new Set(["default_when_silent", "default_when_silent_supervised", "default_when_silent_unsupervised", "detector_stance", "misconduct_framed_as", "sanctions_stated", "oral_verification", "disclosure_obligation"]);
+const vars = codebook.variables.filter((v) => !DROPVARS.has(v.group) && !DROPIDS.has(v.id)).map((v) => ({ id: v.id, label: v.label, q: v.question, group: v.group, type: v.type, vals: Object.fromEntries((v.values || []).map((x) => [x.id, x.gloss])) }));
 const STATES = ["not_stated", "not_applicable"];
 const D = [];
 for (const d of docs.filter((x) => codedIds.has(x.doc_id))) {
