@@ -1,0 +1,15 @@
+{"doc_id":"bath-spa-students-genai-202610","coder":"td-p2",
+"tools":[
+{"tool_class":"institution_provided_tool","stance":"provided","audience":"students","name":"Microsoft Copilot","conditions":[],"ai_named":true,"quote":"Copilot (which is linked to your university Microsoft account)","anchor":"What is Generative AI?"},
+{"tool_class":"institution_provided_tool","stance":"recommended","audience":"students","name":"Microsoft Copilot","conditions":[],"ai_named":true,"quote":"the university recommends the use of Copilot, as it is safe and secure so long as you are logged into your university account","anchor":"What is Generative AI?"},
+{"tool_class":"writing_and_translation_tools","stance":"provided","audience":"students","name":"Read and Write","conditions":[],"ai_named":false,"quote":"Bath Spa now has access to Read and Write to help with accessibility.","anchor":"What is Generative AI?"},
+{"tool_class":"external_or_consumer_tools","stance":"warned","audience":"students","name":"ChatGPT","conditions":[],"ai_named":true,"quote":"There are concerns around data privacy when using tools not provided by the university, such as ChatGPT","anchor":"Pros and cons of using AI at university"}],
+"data":[
+{"data_type":"personal_data","stance":"prohibited","audience":"students","conditions":[],"ai_named":true,"quote":"Always be mindful of the information you share online, including with AI platforms. Make sure you don’t share personal, sensitive, or confidential details.","anchor":"Think about your privacy"},
+{"data_type":"confidential_or_client_data","stance":"prohibited","audience":"students","conditions":[],"ai_named":true,"quote":"Always be mindful of the information you share online, including with AI platforms. Make sure you don’t share personal, sensitive, or confidential details.","anchor":"Think about your privacy"},
+{"data_type":"others_work_and_copyright","stance":"conditional","audience":"students","conditions":["needs_permission"],"ai_named":true,"quote":"Guidelines for copying any text or image or part thereof into any AI tool You must ensure one of the conditions applies: You have consent from the owner","anchor":"AI use and copyright"},
+{"data_type":"others_work_and_copyright","stance":"permitted","audience":"students","conditions":[],"ai_named":true,"quote":"You can cut and paste a section of open access text into Copilot and ask for a summary to help you understand the original.","anchor":"Get help with your academic reading"}],
+"safeguards":[
+{"value":"use_institutional_account","audience":"students","ai_named":true,"quote":"the university recommends the use of Copilot, as it is safe and secure so long as you are logged into your university account","anchor":"What is Generative AI?"}],
+"legal":[
+{"value":"copyright","audience":"students","ai_named":false,"quote":"If you are not sure the content, text or image is under copyright you must assume it is.","anchor":"AI use and copyright"}]}

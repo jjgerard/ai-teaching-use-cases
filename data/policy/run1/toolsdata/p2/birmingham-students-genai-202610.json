@@ -1,0 +1,13 @@
+{"doc_id":"birmingham-students-genai-202610","coder":"td-p2",
+"tools":[],
+"data":[
+{"data_type":"own_work","stance":"warned","audience":"students","conditions":[],"ai_named":true,"quote":"For most Generative AI tools, by uploading your work you grant the providers the right to use it as they see fit, and this may include sharing it with other people.","anchor":"Copyright"},
+{"data_type":"others_work_and_copyright","stance":"conditional","audience":"students","conditions":["needs_permission"],"ai_named":true,"quote":"You should not upload content to Generative AI tools, or social media platforms, without the permission of the copyright holder.","anchor":"Copyright"},
+{"data_type":"personal_data","stance":"conditional","audience":"students","conditions":["ethics_approval"],"ai_named":true,"quote":"If you include other people’s personal data into the tools an ethics review might be required.","anchor":"Privacy and data considerations"}],
+"safeguards":[
+{"value":"check_terms_and_privacy","audience":"students","ai_named":true,"quote":"You should check the terms and conditions of any Generative AI tool that you use to understand the rights that you grant to the providers to re-use your work.","anchor":"Copyright"},
+{"value":"anonymise_before_entry","audience":"students","ai_named":false,"quote":"It’s advisable to remove any identifiable information from work you submit into the tool.","anchor":"Privacy and data considerations"}],
+"legal":[
+{"value":"data_protection","audience":"students","ai_named":true,"quote":"If you are using Generative AI tools to collect or process personal data, you need to comply with the DPA.","anchor":"Privacy and data considerations"},
+{"value":"copyright","audience":"students","ai_named":true,"quote":"When using Generative AI tools, it is important to be aware of copyright laws as they will apply to the content uploaded to the Generative AI interface, the training data used to build the models, and potentially the outputs generated.","anchor":"Copyright"},
+{"value":"terms_of_service","audience":"students","ai_named":true,"quote":"You should check the terms and conditions of any Generative AI tool that you use to understand the rights that you grant to the providers to re-use your work.","anchor":"Copyright"}]}
