@@ -1,0 +1,20 @@
+{"doc_id": "aston-students-genai-202610", "coder": "rk-p1",
+ "risks": [
+  {"risk": "bias_or_discrimination", "audience": "both", "ai_named": false, "quote": "It balances enabling sector-leading research, teaching, and operational excellence with robust safeguards against bias, discrimination, data misuse, and potential harm.", "anchor": null},
+  {"risk": "privacy_or_data_exposure", "audience": "both", "ai_named": false, "quote": "It balances enabling sector-leading research, teaching, and operational excellence with robust safeguards against bias, discrimination, data misuse, and potential harm.", "anchor": null},
+  {"risk": "security_or_misuse", "audience": "both", "ai_named": false, "quote": "Un-targeted personal data scraping; deepfake abuse", "anchor": null}
+ ],
+ "responsibilities": [
+  {"duty": "use_ethically_and_responsibly", "bearer": "institution", "strength": "will", "ai_named": true, "quote": "This Policy establishes Aston University’s commitment to fostering cutting-edge AI innovation while ensuring the ethical, safe, and privacy-preserving adoption and use of AI across all University activities.", "anchor": null},
+  {"duty": "comply_with_policy_and_law", "bearer": "unspecified", "strength": "must", "ai_named": false, "quote": "Protect Rights and Privacy: Adhere to data protection, privacy, and intellectual property laws.", "anchor": null},
+  {"duty": "assess_risk_before_use", "bearer": "unspecified", "strength": "must", "ai_named": true, "quote": "All AI projects require an AI Risk Assessment; Medium/High risk mandates Data Privacy Impact Assessment and Ethics review.", "anchor": null},
+  {"duty": "assess_risk_before_use", "bearer": "staff", "strength": "must", "ai_named": true, "quote": "Business Owners complete AI Risk and Data Privacy Impact Assessments", "anchor": null},
+  {"duty": "assess_risk_before_use", "bearer": "institution", "strength": "must", "ai_named": true, "quote": "Reviews and approves new AI initiatives.", "anchor": null},
+  {"duty": "human_oversight", "bearer": "both", "strength": "must", "ai_named": true, "quote": "Maintain human oversight; AI is an augmentation tool, not a replacement for professional judgment.", "anchor": null},
+  {"duty": "report_concerns_or_incidents", "bearer": "unspecified", "strength": "must", "ai_named": true, "quote": "Report AI-related incidents to Legal Services and Data Protection team; follow the University’s incident response plan", "anchor": null},
+  {"duty": "stay_informed_and_trained", "bearer": "both", "strength": "must", "ai_named": true, "quote": "All staff and students working with AI must complete the University’s Ethical AI and Data Protection e-module.", "anchor": null},
+  {"duty": "stay_informed_and_trained", "bearer": "institution", "strength": "will", "ai_named": true, "quote": "Continuous Learning: Quarterly workshops, webinars, and resources via the AI Accelerator and Digital Services.", "anchor": null},
+  {"duty": "keep_guidance_under_review", "bearer": "institution", "strength": "will", "ai_named": false, "quote": "Annual policy review (or earlier upon material changes in law or technology).", "anchor": null},
+  {"duty": "ensure_equitable_access", "bearer": "unspecified", "strength": "must", "ai_named": true, "quote": "Design AI systems to be inclusive and usable by people of all abilities.", "anchor": null}
+ ]
+}

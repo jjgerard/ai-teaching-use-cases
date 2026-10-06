@@ -1,0 +1,14 @@
+{"doc_id": "bath-spa-students-genai-202610", "coder": "rk-p1",
+ "risks": [
+  {"risk": "bias_or_discrimination", "audience": "students", "ai_named": false, "quote": "It can reflect cultural biases in its training data", "anchor": null},
+  {"risk": "environmental_impact", "audience": "students", "ai_named": false, "quote": "It is more energy intensive than other forms of internet use", "anchor": null},
+  {"risk": "copyright_or_ip_infringement", "audience": "students", "ai_named": false, "quote": "The results generated may plagiarise the data that it was trained on", "anchor": null},
+  {"risk": "overreliance_or_loss_of_skills", "audience": "students", "ai_named": false, "quote": "It can lead to superficial engagement with the material", "anchor": null},
+  {"risk": "privacy_or_data_exposure", "audience": "students", "ai_named": true, "quote": "There are concerns around data privacy when using tools not provided by the university, such as ChatGPT", "anchor": null},
+  {"risk": "inaccurate_or_fabricated_output", "audience": "students", "ai_named": true, "quote": "Most importantly, GenAI can invent facts that seem plausible (‘hallucinations’)", "anchor": null}
+ ],
+ "responsibilities": [
+  {"duty": "verify_output", "bearer": "students", "strength": "must", "ai_named": true, "quote": "GenAI can invent facts that seem plausible (‘hallucinations’), therefore you must check everything it says with a reputable source, such as resources from the Library", "anchor": null},
+  {"duty": "stay_informed_and_trained", "bearer": "institution", "strength": "will", "ai_named": true, "quote": "We know that you'll probably use GenAI in your future career, and we want to make sure you know how to use this technology, so that you're ready for life after university.", "anchor": null}
+ ]
+}

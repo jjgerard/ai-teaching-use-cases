@@ -35,6 +35,16 @@ One row per risk and audience; one per duty, bearer and strength. Choose the cle
 
 A document with nothing on risks or responsibilities gets empty lists: a valid result.
 
+## Rulings from the pilot (apply them)
+
+Two independent coders agreed on 98% of risk values, 83% of duties and 65% of duty-and-bearer pairs. The disagreements were about who bears a duty and how strong it is, and about marginal duties, so:
+
+- **Strength.** `must`: "must", "required", "need to", "always", "never", "do not", "will be expected to", "responsible for". `should`: "should", "encouraged", "recommended", "be aware", "consider", "it is advisable", and imperatives with no modal ("Check the output"). `will`: only a commitment made by the institution in its own voice ("we will", "the university will").
+- **Bearer for "you".** A page addressed to students makes "you" `students`; a page addressed to staff makes it `staff`; a page addressed to both, or a policy that says "staff and students", is `both`. Use `unspecified` only when the document gives no addressee at all. "We" in a university document is `institution`, but "we all have a responsibility" is `both`.
+- **Marginal duties.** Record `stay_informed_and_trained`, `assess_risk_before_use` and `comply_with_policy_and_law` only where the quote itself states the duty ("complete the training", "carry out a DPIA", "follow the university's policies"), not where the document merely offers a course, links a policy or implies a step.
+- **Risk implied by a rule.** Do not record a risk from a safeguard or rule alone ("do not upload personal data" does not make `privacy_or_data_exposure`); the sentence has to say what can go wrong.
+- **Fit no value (do not record, list in your report):** bias audits and testing duties on providers, documentation and retention duties, data-subject-rights processes, seeking support if distressed, model collapse, annual audits of high-risk systems, and "ethical access" or sustainability considerations that name no hazard from the vocabulary.
+
 ## Output: one file per document, `data/policy/run1/risks/<batch>/<doc_id>.json`
 
     {"doc_id": "...", "coder": "<name>",
