@@ -1,0 +1,134 @@
+[
+ {
+  "name": "Université du Québec à Chicoutimi",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uqac.ca/ressourcespedago/iag-declaration/",
+   "title": "Déclaration et autorisation d’utilisation des niveaux de l’intelligence artificielle générative (IAg)",
+   "kind": "guide",
+   "format": "html",
+   "language": "fr",
+   "date_as_shown": "2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.uqac.ca/ia/",
+    "why": "AI programs/research page, not student guidance"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.uqac.ca/ressourcespedago/rose-des-vents-de-ia-generative/",
+    "title": "Rose des vents de l’IA générative",
+    "audience": "staff"
+   },
+   {
+    "url": "https://www.uqac.ca/carrefour/tricherie-etudes-superieures/",
+    "title": "La tricherie aux études supérieures",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "intelligence artificielle générative étudiants [uqac.ca]"
+  ]
+ },
+ {
+  "name": "St. Mary's University",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://stmu.ca/wp-content/uploads/2025/05/Graduate-Student-Academic-Integrity-Policy.pdf",
+    "why": "graduate students only (names AI as misconduct)"
+   },
+   {
+    "url": "https://stmu.ca/wp-content/uploads/2024/08/StMU_AcademicCalendar_2024-25.pdf",
+    "why": "undergraduate calendar never mentions AI"
+   },
+   {
+    "url": "https://stmu.ca/campus-life/student-services/student-rights-responsibilities/",
+    "why": "HTTP 404 on retrieval"
+   },
+   {
+    "url": "https://stmu.ca/academics/resources/academic-policies/",
+    "why": "retrieved; no AI text"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://stmu.ca/wp-content/uploads/2025/05/Graduate-Student-Academic-Integrity-Policy.pdf",
+    "title": "Graduate Student Academic Integrity Policy",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "generative AI students academic integrity [stmu.ca]",
+   "St. Mary's University artificial intelligence policy [stmu.ca]",
+   "St. Mary's University Calgary academic misconduct unauthorized use of artificial intelligence students [stmu.ca]",
+   "St. Mary's University undergraduate academic integrity policy AI-generated work [stmu.ca]",
+   "StMU library guide ChatGPT generative AI students [stmu.ca]",
+   "St. Mary's University 2025-2026 Undergraduate Academic Calendar academic misconduct [stmu.ca]"
+  ]
+ },
+ {
+  "name": "Cape Breton University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.cbu.ca/about-cbu/artificial-intelligence-at-cape-breton-university/",
+   "title": "Artificial Intelligence at Cape Breton University - AI With a Purpose",
+   "kind": "institutional_policy",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "posted April 7, 2021; strategy referenced 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://libguides.cbu.ca/AI",
+    "title": "Artificial Intelligence - LibGuides",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.cbu.ca/newsroom/events/academic-integrity-in-the-age-of-ai-navigating-new-challenges-online-library-workshop/",
+    "title": "Academic Integrity in the Age of AI workshop",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance [cbu.ca]",
+   "Cape Breton University academic integrity artificial intelligence [cbu.ca]"
+  ]
+ },
+ {
+  "name": "Université de l'Ontario français",
+  "outcome": "found",
+  "doc": {
+   "url": "https://uontario.ca/fileadmin/Site_Corpo/Documents_0_papier/Politiques_et_directives/Politiques_academiques/Etudes/Lignes_sur_l_IA_generative_Senat___2026-06-26__VF.pdf",
+   "title": "Lignes directrices sur l’intelligence artificielle générative (IAG)",
+   "kind": "institutional_policy",
+   "format": "pdf",
+   "language": "fr",
+   "date_as_shown": "26 juin 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://uontario.ca/en/notre-universite/documents-zero-papier/politiques-et-directives",
+    "title": "Politiques et règlements",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "intelligence artificielle générative étudiants [uontario.ca]",
+   "Université de l'Ontario français intégrité académique intelligence artificielle politique [uontario.ca]"
+  ]
+ }
+]
