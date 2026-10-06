@@ -1,0 +1,124 @@
+{
+ "doc_id": "wilfrid-laurier-university-students-genai-202610",
+ "coder": "td-t4",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Microsoft Copilot is currently Laurier’s approved generative AI tool.",
+   "anchor": null
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "recommended",
+   "audience": "students",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Recommended: Microsoft Copilot",
+   "anchor": null
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "not_endorsed",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Tools such as ChatGPT, Gemini, and Claude have not been approved by Laurier through the same review processes.",
+   "anchor": null
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "warned",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Did you also know that gen AI tools can collect and share prompts and inputs for training purposes?",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Don't upload personal or confidential information.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Don't upload personal or confidential information.",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": false,
+   "quote": "Don't upload course materials unless you have explicit permission from your course instructor.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Don't upload copyrighted materials.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Don’t upload someone’s intellectual property into a gen AI tool without their permission.",
+   "anchor": null
+  },
+  {
+   "data_type": "credentials_or_accounts",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Don't use your Laurier password when creating accounts.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Sign in with your MyLaurier student account",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Don’t upload someone’s intellectual property into a gen AI tool without their permission.",
+   "anchor": null
+  }
+ ]
+}

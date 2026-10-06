@@ -1,0 +1,27 @@
+{
+ "doc_id": "heriot-watt-students-genai-202610",
+ "coder": "td-t9",
+ "tools": [
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "recommended",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Students should use HW supported technology as this has been reviewed to ensure that it protects their privacy, is cyber secure and is safe to use.",
+   "anchor": null
+  }
+ ],
+ "data": [],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "The output may draw on copyright information as generative AI operates by scraping information from the internet without checking the owners’ permission.",
+   "anchor": null
+  }
+ ]
+}

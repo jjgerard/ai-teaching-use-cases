@@ -1,0 +1,61 @@
+{
+ "doc_id": "tud-students-genai-202610",
+ "coder": "td-t9",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "staff",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "Personal data should not be entered into GenAI systems that are not supported/approved by the University.",
+   "anchor": null
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "No personal data should be collected, stored or uploaded to a GenAI system, without permission/consent, including images or photographs",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "staff",
+   "ai_named": false,
+   "quote": "Personal data should be used in line with the University’s data protection policies and data protection notices (student and staff).",
+   "anchor": null
+  },
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Where specific prompts or other initial/seed inputs are used, these should be used in line with the University’s Artificial Intelligence Information Security Policy (when commenced).",
+   "anchor": null
+  },
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Students should familiarise themselves with the capabilities and limitations of any Generative AI tool or system they propose to use, including changes that may emerge as part of a review of new product iterations, particularly those that may impact data privacy and copyright.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "eu_ai_act",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "EU AI Act 2024. 2024/1689. 12.7.2024.",
+   "anchor": null
+  }
+ ]
+}

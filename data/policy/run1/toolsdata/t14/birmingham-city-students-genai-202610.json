@@ -1,0 +1,29 @@
+{
+ "doc_id": "birmingham-city-students-genai-202610",
+ "coder": "td-t14",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "The default GenAI tool at BCU is Microsoft Copilot, for which you have free access via your BCU email address",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "credentials_or_accounts",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not use your BCU email address to sign up for third-party AI tools.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}

@@ -1,0 +1,31 @@
+{
+ "doc_id": "lancashire-students-genai-202610",
+ "coder": "td-t15",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "recommended",
+   "audience": "students",
+   "name": "Turnitin",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Make use of Turnitin as an education and detection tool.",
+   "anchor": null
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": false,
+   "quote": "Unauthorised use of any other technological aid, such as translation software, paraphrasing tools, essay bots and generated of graphics or artwork, unless otherwise stated in the assessment brief.",
+   "anchor": null
+  }
+ ],
+ "data": [],
+ "safeguards": [],
+ "legal": []
+}

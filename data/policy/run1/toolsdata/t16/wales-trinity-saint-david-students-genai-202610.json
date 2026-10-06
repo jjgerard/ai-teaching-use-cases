@@ -1,0 +1,85 @@
+{
+ "doc_id": "wales-trinity-saint-david-students-genai-202610",
+ "coder": "td-t16",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "UWTSD Library's AI Assistant",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Suggested AI Tool: UWTSD Library’s AI Assistant",
+   "anchor": null
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": "Grammarly",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "You can use integrated tools like Microsoft Editor, or a specialised tool, like Grammarly (not including the Grammarly Generative AI Assistant), to check for grammar, spelling and readability.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "meets_security_policy",
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+   "anchor": null
+  },
+  {
+   "value": "opt_out_of_training",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "terms_of_service",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+   "anchor": null
+  },
+  {
+   "value": "data_protection",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Make sure that you check the Terms and Conditions of all AI platforms that you use. Please ensure that any sensitive or confidential information or data are not used (accidentally or deliberately) to train AI models, made available publicly or contravene GDPR requirements.",
+   "anchor": null
+  }
+ ]
+}

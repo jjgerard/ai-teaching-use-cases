@@ -1,0 +1,29 @@
+{
+ "doc_id": "southampton-students-genai-202610",
+ "coder": "td-t9",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Student and members of staff currently have access to the generative AI tool CoPilot within Microsoft Office365.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "university_materials",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "sharing the materials and resources from your module tutors in a GenAI tool - you do not have permission to share these materials openly because they belong to the University",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}

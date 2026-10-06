@@ -1,0 +1,55 @@
+{
+ "doc_id": "gloucestershire-students-genai-202610",
+ "coder": "td-t8",
+ "tools": [
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "not_endorsed",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "The University of Gloucestershire currently doesn't endorse or provide any of the AI tools mentioned in this guide.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "it is wise to be cautious and to avoid entering confidential or personal information, and in particular to avoid entering any data that you may have collected from other people as part of your research.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "it is wise to be cautious and to avoid entering confidential or personal information, and in particular to avoid entering any data that you may have collected from other people as part of your research.",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "it is wise to be cautious and to avoid entering confidential or personal information, and in particular to avoid entering any data that you may have collected from other people as part of your research.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Check privacy policies and settings when you are using AI tools.",
+   "anchor": null
+  }
+ ],
+ "legal": []
+}

@@ -1,0 +1,55 @@
+{
+ "doc_id": "bristol-students-genai-202610",
+ "coder": "td-t6",
+ "tools": [
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Translation tools may only be used for assessments if the assessment brief specifically allows it (for example, annotating or improving on an AI translation).",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "university_materials",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Do not upload university-sensitive data into AI tools unless you have been given permission by academic staff.",
+   "anchor": null
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Do not upload university-sensitive data into AI tools unless you have been given permission by academic staff.",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Do not upload university-sensitive data into AI tools unless you have been given permission by academic staff.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}

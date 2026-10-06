@@ -1,0 +1,58 @@
+{
+ "doc_id": "cumbria-students-genai-202610",
+ "coder": "td-t14",
+ "tools": [
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "recommended",
+   "audience": "unspecified",
+   "name": "Microsoft CoPilot; Adobe Firefly",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "The University currently endorses the use of Microsoft CoPilot and Adobe Firefly.",
+   "anchor": null
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": false,
+   "quote": "Any use of translation tools in UK universities is typically determined by tutors, course leaders, or supervisors and will depend on the nature of the programme of study.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "unspecified",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "In line with data protection, no sensitive or confidential information should be shared with any GenAI tools, including CoPilot and Firefly.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "unspecified",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "In line with data protection, no sensitive or confidential information should be shared with any GenAI tools, including CoPilot and Firefly.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "In line with data protection, no sensitive or confidential information should be shared with any GenAI tools, including CoPilot and Firefly.",
+   "anchor": null
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{"doc_id":"sussex-students-genai-202610","coder":"td-t11","tools":[
+{"tool_class":"institution_provided_tool","stance":"provided","audience":"students","name":"Microsoft Copilot","conditions":[],"ai_named":true,"quote":"Microsoft CoPilot is available for University of Sussex students.","anchor":null},
+{"tool_class":"writing_and_translation_tools","stance":"conditional","audience":"students","name":"Grammarly","conditions":["needs_permission"],"ai_named":true,"quote":"However, you must not use Grammarly’s generative AI features (including: drafting new text, rewriting paragraphs, reorganising your argument, paraphrasing large sections, or generating references) unless the assessment instructions explicitly permit such use and you follow any required acknowledgement guidelines.","anchor":null},
+{"tool_class":"external_or_consumer_tools","stance":"discouraged","audience":"students","name":null,"conditions":[],"ai_named":true,"quote":"The full functionality of AI tools are usually only available via subscription, which we would discourage anyone from doing on an individual basis.","anchor":null}],
+"data":[
+{"data_type":"personal_data","stance":"prohibited","audience":"students","conditions":[],"ai_named":true,"quote":"You should never share personal or sensitive information with AI tools.","anchor":null},
+{"data_type":"credentials_or_accounts","stance":"prohibited","audience":"students","conditions":[],"ai_named":true,"quote":"Even when using Copilot, never share sensitive information such as names, addresses, health data, passwords or unpublished research.","anchor":null},
+{"data_type":"research_data","stance":"prohibited","audience":"students","conditions":[],"ai_named":true,"quote":"Even when using Copilot, never share sensitive information such as names, addresses, health data, passwords or unpublished research.","anchor":null},
+{"data_type":"university_materials","stance":"conditional","audience":"students","conditions":["approved_tool_only"],"ai_named":true,"quote":"If you’re working with University of Sussex data, always use Microsoft Copilot via your Sussex account.","anchor":null}],
+"safeguards":[
+{"value":"check_terms_and_privacy","audience":"students","ai_named":true,"quote":"Before using any AI tool, make sure you read its terms of use.","anchor":null},
+{"value":"opt_out_of_training","audience":"students","ai_named":true,"quote":"If you use any other AI tool, make sure to opt out of data collection whenever possible.","anchor":null},
+{"value":"use_institutional_account","audience":"students","ai_named":true,"quote":"If you’re working with University of Sussex data, always use Microsoft Copilot via your Sussex account.","anchor":null}],
+"legal":[
+{"value":"terms_of_service","audience":"students","ai_named":true,"quote":"Before using any AI tool, make sure you read its terms of use.","anchor":null}]}

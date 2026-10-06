@@ -1,0 +1,103 @@
+{
+ "doc_id": "oxford-brookes-students-genai-202610",
+ "coder": "td-t8",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Microsoft Co-pilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Oxford Brookes students and staff have access to the data-secure Microsoft Co-pilot AI chatbot, available through a Microsoft academic institutional licence.",
+   "anchor": null
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "recommended",
+   "audience": "students",
+   "name": "Microsoft Co-pilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Oxford Brookes recommends Microsoft Co-pilot",
+   "anchor": null
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "We recommend only using AI models or software tools that are considered safe and secure in how they handle your information.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "when using AI tools, beware of uploading any sensitive, confidential or protected data",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "when using AI tools, beware of uploading any sensitive, confidential or protected data",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not upload any confidential or protected data or information to Gemini.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": false,
+   "quote": "do I have the right to give it to them, is it my information and not someone else’s?",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "do I fully understand the data protection and privacy settings on this AI tool?",
+   "anchor": null
+  },
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "When using Microsoft Co-pilot, signing in with your Oxford Brookes log-in ensures your data is protected in accordance with Microsoft’s privacy notice.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "With all Gen AI tools, if you are not fully confident they are safe and secure, and so GDPR compliant, don't enter anything you wouldn't want a human reviewer to see, or the AI model or software tool to store, use, or distribute.",
+   "anchor": null
+  }
+ ]
+}

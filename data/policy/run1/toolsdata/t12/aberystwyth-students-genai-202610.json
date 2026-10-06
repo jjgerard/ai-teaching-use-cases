@@ -1,0 +1,9 @@
+{"doc_id":"aberystwyth-students-genai-202610","coder":"td-t12","tools":[
+{"tool_class":"institution_provided_tool","stance":"provided","audience":"both","name":"Microsoft Copilot","conditions":[],"ai_named":true,"quote":"The university’s recommended Generative AI tool is Microsoft Copilot. This is built into our Microsoft Licence.","anchor":null},
+{"tool_class":"approved_or_validated_tools","stance":"recommended","audience":"staff","name":null,"conditions":[],"ai_named":false,"quote":"We recommend that the following tools are used for learning and teaching activities:","anchor":"Using AI for your Teaching"},
+{"tool_class":"external_or_consumer_tools","stance":"warned","audience":"both","name":null,"conditions":[],"ai_named":true,"quote":"There are many third party Generative AI tools available. As with all third party software, you should ensure that you are using it safely, responsibly, and ethically.","anchor":"Statements and Safety"}],
+"data":[
+{"data_type":"personal_data","stance":"prohibited","audience":"both","conditions":[],"ai_named":true,"quote":"Remember to avoid uploading personal information (about identifiable individuals) or other confidential information to Copilot.","anchor":"Using AI for your Administration"},
+{"data_type":"confidential_or_client_data","stance":"prohibited","audience":"both","conditions":[],"ai_named":true,"quote":"Remember to avoid uploading personal information (about identifiable individuals) or other confidential information to Copilot.","anchor":"Using AI for your Administration"},
+{"data_type":"others_work_and_copyright","stance":"prohibited","audience":"both","conditions":[],"ai_named":false,"quote":"If you are using third party software, ensure that you are not entering any personal information relating to yourself or others, or content where the copyright is owned by other people or organisations.","anchor":"Statements and Safety"}],
+"safeguards":[],"legal":[]}

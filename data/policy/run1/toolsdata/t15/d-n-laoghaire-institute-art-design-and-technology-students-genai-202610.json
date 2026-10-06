@@ -1,0 +1,34 @@
+{
+ "doc_id": "d-n-laoghaire-institute-art-design-and-technology-students-genai-202610",
+ "coder": "td-t15",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": "Turnitin",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Using Turnitin for text matching prior to submitting an assignment, where appropriate.",
+   "anchor": null
+  }
+ ],
+ "data": [],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "Data Privacy: GDPR and best practice standards regarding data must be considered in usage.",
+   "anchor": null
+  },
+  {
+   "value": "terms_of_service",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Licensing: Be aware of the licenses associated with the output of Generative AI tools (e.g. do they have the right to share, used and build upon the output)",
+   "anchor": null
+  }
+ ]
+}

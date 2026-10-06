@@ -1,0 +1,37 @@
+{
+ "doc_id": "griffith-university-students-genai-202610",
+ "coder": "td-t1",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Microsoft Copilot is Griffith’s preferred AI tool and is available for free to all staff and students.",
+   "anchor": null
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "recommended",
+   "audience": "both",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Microsoft Copilot is Griffith’s preferred AI tool and is available for free to all staff and students.",
+   "anchor": null
+  }
+ ],
+ "data": [],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Copilot uses the same type of large language model technology as platforms such as ChatGPT, but with an added layer of security. When you sign in with your Griffith account, your prompts are not used to train the model, making it a safer option for university work.",
+   "anchor": null
+  }
+ ],
+ "legal": []
+}

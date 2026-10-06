@@ -1,0 +1,65 @@
+{
+ "doc_id": "ucb-students-genai-202610",
+ "coder": "td-t7",
+ "tools": [
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "warned",
+   "audience": "both",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Users must understand risks of external/public AI systems",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Sensitive, personal, or confidential data must not be entered into AI tools unless approved",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Sensitive, personal, or confidential data must not be entered into AI tools unless approved",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "Use must comply with UCB’s data security policies",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "Data protection legislation",
+   "anchor": null
+  },
+  {
+   "value": "copyright",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "Intellectual property rights",
+   "anchor": null
+  }
+ ]
+}

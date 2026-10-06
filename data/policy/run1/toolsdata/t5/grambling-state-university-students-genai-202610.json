@@ -1,0 +1,86 @@
+{
+ "doc_id": "grambling-state-university-students-genai-202610",
+ "coder": "td-t5",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission",
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "Users must not input personally identifiable information (PII), protected student data, research data, or confidential internal materials into AI tools without: i. Division Vice President review/approval ii. Signed agreements ensuring data security with the AI vendor",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission",
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "Users must not input personally identifiable information (PII), protected student data, research data, or confidential internal materials into AI tools without: i. Division Vice President review/approval ii. Signed agreements ensuring data security with the AI vendor",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission",
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "Users must not input personally identifiable information (PII), protected student data, research data, or confidential internal materials into AI tools without: i. Division Vice President review/approval ii. Signed agreements ensuring data security with the AI vendor",
+   "anchor": null
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "AI may not be used for: a. Entering or processing sensitive data, including: i. Student records (FERPA-protected) ii. Health information (HIPAA-protected)",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "AI may not be used for: a. Entering or processing sensitive data, including: i. Student records (FERPA-protected) ii. Health information (HIPAA-protected) iii. Research involving unpublished data or intellectual property",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Grambling State University data storage and security policies apply to all AI interactions.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "The use of AI must comply with all applicable data protection laws and university policies.",
+   "anchor": null
+  },
+  {
+   "value": "copyright",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI-assisted works must comply with applicable copyright and licensing requirements.",
+   "anchor": null
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "doc_id": "southampton-solent-students-genai-202610",
+ "coder": "td-t5",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "prohibited",
+   "audience": "both",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Students and staﬀ are not permitted to upload student assessments or any identiﬁable data to AI applications for any reason (this includes attempts to check for AI generated content).",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Students and staﬀ are not permitted to upload student assessments or any identiﬁable data to AI applications for any reason (this includes attempts to check for AI generated content).",
+   "anchor": null
+  },
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "staff",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "staﬀ may not upload student work into any AI tool.",
+   "anchor": null
+  },
+  {
+   "data_type": "student_work",
+   "stance": "conditional",
+   "audience": "staff",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "there is no circumstance where staﬀ can use the work of learners as input for AI tools without express permission.",
+   "anchor": null
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Students and staﬀ are not permitted to upload student assessments or any identiﬁable data to AI applications for any reason (this includes attempts to check for AI generated content).",
+   "anchor": null
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "any data used for input for generative AI tools cannot contain the identiﬁable information or proprietary data of other people, without their express permission.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "any data used for input for generative AI tools cannot contain the identiﬁable information or proprietary data of other people, without their express permission.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Staﬀ and students may not upload any content access through University-subscribed resources, including Library resources, to LLMs as this will potentially breach licence and copyright restrictions.",
+   "anchor": null
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "permitted",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Students and staﬀ remain free to upload any of their own personal information wherever they like.",
+   "anchor": null
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "warned",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Most large language models (LLMs) are designed to continuously learn from the data that is collected from user input, as well as scraping information from the entirety of the internet.",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "ethics_approval",
+    "anonymised"
+   ],
+   "ai_named": true,
+   "quote": "AI tools may not be used to analyse primary data, particularly where it involves human participants (whether collected directly or user generated), unless this is explicitly stated in the relevant ethics application and unless the data are completely anonymous.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "To protect data privacy and data governance, the use of all generative AI applications must comply with GDPR.",
+   "anchor": null
+  },
+  {
+   "value": "copyright",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Staﬀ and students may not upload any content access through University-subscribed resources, including Library resources, to LLMs as this will potentially breach licence and copyright restrictions.",
+   "anchor": null
+  }
+ ]
+}

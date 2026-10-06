@@ -1,0 +1,9 @@
+{"doc_id":"university-of-waikato-students-genai-202610","coder":"td-t3",
+"tools":[
+{"tool_class":"approved_or_validated_tools","stance":"permitted","audience":"students","name":"Studiosity","conditions":[],"ai_named":true,"quote":"does not apply to Studiosity, which is an approved AI tool","anchor":null},
+{"tool_class":"external_or_consumer_tools","stance":"warned","audience":"students","name":null,"conditions":[],"ai_named":false,"quote":"external tools often lack safeguards aligned with privacy laws like the NZ Privacy Act","anchor":null}],
+"data":[
+{"data_type":"own_work","stance":"warned","audience":"students","conditions":[],"ai_named":true,"quote":"Uploading work to non-institutional generative AI platforms poses significant privacy and ethical risks.","anchor":null},
+{"data_type":"personal_data","stance":"warned","audience":"students","conditions":[],"ai_named":false,"quote":"Such work may contain personally identifiable information, and external tools often lack safeguards aligned with privacy laws like the NZ Privacy Act","anchor":null}],
+"safeguards":[],
+"legal":[{"value":"data_protection","audience":"students","ai_named":false,"quote":"external tools often lack safeguards aligned with privacy laws like the NZ Privacy Act","anchor":null}]}

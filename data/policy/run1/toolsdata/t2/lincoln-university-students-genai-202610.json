@@ -1,0 +1,45 @@
+{
+ "doc_id": "lincoln-university-students-genai-202610",
+ "coder": "td-t2",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Input the work of other students (e.g. group members), assessment briefs, field trip information (written or oral), guest lecture information (written or oral), or course material (written or oral) into any public/open GenAI or AI tools",
+   "anchor": null
+  },
+  {
+   "data_type": "assessment_material",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Input the work of other students (e.g. group members), assessment briefs, field trip information (written or oral), guest lecture information (written or oral), or course material (written or oral) into any public/open GenAI or AI tools",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Input the work of other students (e.g. group members), assessment briefs, field trip information (written or oral), guest lecture information (written or oral), or course material (written or oral) into any public/open GenAI or AI tools",
+   "anchor": null
+  },
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "staff",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "They will not input your work, assessment submission, or data into any public/open Gen AI or AI tools",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}

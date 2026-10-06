@@ -1,0 +1,113 @@
+{
+ "doc_id": "west-london-students-genai-202610",
+ "coder": "td-t6",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "The University of West London has opted to use Microsoft Copilot and Adobe Express as its base AI technologies.",
+   "anchor": null
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "recommended",
+   "audience": "students",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "To keep your data as private as possible, UWL recommends you use Copilot.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Not processing personal or confidential information. For example, uncoded responses from a research survey.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Not processing personal or confidential information. For example, uncoded responses from a research survey.",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Not processing personal or confidential information. For example, uncoded responses from a research survey.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Inputting confidential information into AI tools could breach GDPR and professional society ethics codes.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Not uploading someone else’s content to an AI tool where you don’t have permission to do this.",
+   "anchor": null
+  },
+  {
+   "data_type": "own_work",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Ownership (not uploading your work to non-UWL tools or giving it to other students).",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "AI can summarise a transcript of your lecture to help you discover the key points, when you have permission to do this.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Knowing what the AI tool is going to do with the information you provide to it.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Inputting confidential information into AI tools could breach GDPR and professional society ethics codes.",
+   "anchor": null
+  }
+ ]
+}

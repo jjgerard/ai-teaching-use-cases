@@ -1,0 +1,87 @@
+{
+ "doc_id": "manchester-students-genai-202610",
+ "coder": "td-t13",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Microsoft 365 Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "In addition to their University-provided Microsoft 365 Copilot service, students may use other AI tools to support their learning where this use is consistent with:",
+   "anchor": "2.2.1"
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "staff",
+   "name": "Microsoft 365 Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Only the University-provided Microsoft 365 Copilot service may be used for student-identifiable or confidential data.",
+   "anchor": "2.3.1"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "university_materials",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Students must not upload any University of Manchester owned materials, including lecture – recordings, slides, question papers, handouts or any other copyrighted resources to external AI tools.",
+   "anchor": "2.2.1"
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "Uploading University of Manchester – owned materials to the University of Manchester Microsoft 365 Copilot will not contravene the Intellectual Property Policy providing students use their University-provided access.",
+   "anchor": "2.2.2"
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "staff",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "Only the University-provided Microsoft 365 Copilot service may be used for student-identifiable or confidential data.",
+   "anchor": "2.3.1"
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "conditional",
+   "audience": "staff",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "Only the University-provided Microsoft 365 Copilot service may be used for student-identifiable or confidential data.",
+   "anchor": "2.3.1"
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Uploading University of Manchester – owned materials to the University of Manchester Microsoft 365 Copilot will not contravene the Intellectual Property Policy providing students use their University-provided access.",
+   "anchor": "2.2.2"
+  },
+  {
+   "value": "use_institutional_account",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "Only the University-provided Microsoft 365 Copilot service may be used for student-identifiable or confidential data.",
+   "anchor": "2.3.1"
+  }
+ ],
+ "legal": []
+}

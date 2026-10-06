@@ -1,0 +1,53 @@
+{
+ "doc_id": "teesside-students-genai-202610",
+ "coder": "td-t8",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Never share personal, confidential, or copyrighted material with public AI tools.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Never share personal, confidential, or copyrighted material with public AI tools.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Never share personal, confidential, or copyrighted material with public AI tools.",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Respect copyright — don’t upload university materials like lecture slides or readings.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Respect copyright — don’t upload university materials like lecture slides or readings.",
+   "anchor": null
+  }
+ ]
+}

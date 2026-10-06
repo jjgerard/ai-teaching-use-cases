@@ -1,0 +1,61 @@
+{
+ "doc_id": "university-of-canterbury-students-genai-202610",
+ "coder": "td-t2",
+ "tools": [
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Visit the Gen-AI tools at UC page to confirm the tools available and approved by UC.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "UC-approved AI tools have been vetted to ensure that data is secured. You should, however, avoid sharing personal, sensitive, or confidential information, and do not put learning materials such as lecture slides into an unapproved tool without the permission of your Course Coordinator.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "UC-approved AI tools have been vetted to ensure that data is secured. You should, however, avoid sharing personal, sensitive, or confidential information, and do not put learning materials such as lecture slides into an unapproved tool without the permission of your Course Coordinator.",
+   "anchor": null
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission",
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "UC-approved AI tools have been vetted to ensure that data is secured. You should, however, avoid sharing personal, sensitive, or confidential information, and do not put learning materials such as lecture slides into an unapproved tool without the permission of your Course Coordinator.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "You must not put data into a Gen-AI tool without the permission of the person who it belongs to – this includes learning materials such as journal articles and lecture slides, which are the intellectual property of the author.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}

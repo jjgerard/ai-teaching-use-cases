@@ -1,0 +1,29 @@
+{
+ "doc_id": "portsmouth-students-genai-202610",
+ "coder": "td-t5",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "As a University of Portsmouth student you can access Microsoft Copilot, a generative AI assistant which can help you with a range of tasks from research to planning, and more.",
+   "anchor": null
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "recommended",
+   "audience": "students",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "We encourage you to explore and use Copilot responsibly and ethically to support your learning.",
+   "anchor": null
+  }
+ ],
+ "data": [],
+ "safeguards": [],
+ "legal": []
+}

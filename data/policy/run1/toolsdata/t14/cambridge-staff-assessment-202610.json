@@ -1,0 +1,29 @@
+{
+ "doc_id": "cambridge-staff-assessment-202610",
+ "coder": "td-t14",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "discouraged",
+   "audience": "staff",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Not relying on AI detection software as it is not proven to be accurate or reliable and provides no evidence to support investigations into the use of GenAI.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "staff",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Examiners across all programmes of study (including Undergraduate, Postgraduate Taught, and Postgraduate Research) are not permitted to upload, copy, or share student work with Generative AI (GenAI) tools and Large Language Models (LLMs).",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}

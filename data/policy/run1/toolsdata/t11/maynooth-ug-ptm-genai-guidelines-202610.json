@@ -1,0 +1,10 @@
+{"doc_id":"maynooth-ug-ptm-genai-guidelines-202610","coder":"td-t11","tools":[
+{"tool_class":"institution_provided_tool","stance":"provided","audience":"students","name":"Microsoft Copilot","conditions":[],"ai_named":true,"quote":"Microsoft’s Copilot is accessible to all MU students, and we currently have a data agreement in place with Microsoft, which means that our use of Copilot is GDPR-compliant.","anchor":null},
+{"tool_class":"external_or_consumer_tools","stance":"warned","audience":"students","name":null,"conditions":[],"ai_named":false,"quote":"The same protection does not apply when you use free or paid tools which are not supported by MU.","anchor":null}],
+"data":[
+{"data_type":"personal_data","stance":"prohibited","audience":"students","conditions":[],"ai_named":true,"quote":"Never put your personal data or anyone else’s into a GenAI tool.","anchor":null},
+{"data_type":"own_work","stance":"warned","audience":"students","conditions":[],"ai_named":false,"quote":"Personal Data such as your name, email address, and your work could also be used for training or other purposes without your permission.","anchor":null}],
+"safeguards":[
+{"value":"use_institutional_account","audience":"students","ai_named":true,"quote":"To use Copilot, students should log in with their MU login and password in the Edge browser.","anchor":null}],
+"legal":[
+{"value":"data_protection","audience":"students","ai_named":true,"quote":"GDPR is about your personal data rights. Never put your personal data or anyone else’s into a GenAI tool.","anchor":null}]}

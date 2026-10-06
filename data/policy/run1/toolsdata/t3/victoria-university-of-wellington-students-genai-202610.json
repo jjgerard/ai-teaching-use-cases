@@ -1,0 +1,16 @@
+{"doc_id":"victoria-university-of-wellington-students-genai-202610","coder":"td-t3",
+"tools":[
+{"tool_class":"approved_or_validated_tools","stance":"conditional","audience":"staff","name":null,"conditions":["approved_tool_only"],"ai_named":true,"quote":"Staff Members must only use generative AI technologies approved for Safe Use by the University when dealing with such types of information.","anchor":"4.3"}],
+"data":[
+{"data_type":"confidential_or_client_data","stance":"conditional","audience":"staff","conditions":["approved_tool_only","meets_security_policy"],"ai_named":true,"quote":"Staff Members are free to use all generative AI technologies except when dealing with information classified as “confidential” and “internal-use-only” under the University’s Cyber Security Procedures.","anchor":"4.3"},
+{"data_type":"personal_data","stance":"conditional","audience":"staff","conditions":["approved_tool_only","meets_security_policy"],"ai_named":false,"quote":"information about an identifiable individual (including biometric information);","anchor":"4.3(a)"},
+{"data_type":"credentials_or_accounts","stance":"conditional","audience":"staff","conditions":["approved_tool_only"],"ai_named":false,"quote":"login credentials used for accessing University systems and services (such as account passwords);","anchor":"4.3(c)"},
+{"data_type":"university_materials","stance":"conditional","audience":"staff","conditions":["approved_tool_only"],"ai_named":false,"quote":"emails, survey responses, or any other written correspondence through University systems; and","anchor":"4.3(d)"},
+{"data_type":"others_work_and_copyright","stance":"conditional","audience":"staff","conditions":["approved_tool_only","needs_permission"],"ai_named":false,"quote":"third-party intellectual property (including copyrighted material), unless explicitly permitted by the relevant third party.","anchor":"4.3(e)"},
+{"data_type":"student_work","stance":"conditional","audience":"staff","conditions":["approved_tool_only"],"ai_named":true,"quote":"examiners must not input any part of a thesis under examination into a generative AI technology that has not been approved for Safe Use for assessment purposes by Te Tai Matihiko—Digital Solutions.","anchor":"6.9"},
+{"data_type":"research_data","stance":"conditional","audience":"both","conditions":["needs_permission"],"ai_named":true,"quote":"Members of the University Community must not use generative AI technologies in assessing or reviewing material from an external party, unless explicitly permitted by that external party.","anchor":"6.3"}],
+"safeguards":[
+{"value":"follow_data_protection_policy","audience":"both","ai_named":true,"quote":"provided that they comply with this Policy, the Acceptable Use of Information Systems Statute, Responsible Research Policy, Human Ethics Policy, Intellectual Property Policy, Privacy Policy, Cyber Security Procedures and other relevant University policies as appropriate.","anchor":"6.1"}],
+"legal":[
+{"value":"data_protection","audience":"both","ai_named":false,"quote":"compliance with New Zealand legislation as well as any applicable privacy and data protection standards;","anchor":"3.2(a)"},
+{"value":"copyright","audience":"both","ai_named":false,"quote":"observance of copyright, intellectual property, and other contractual requirements;","anchor":"3.2(h)"}]}

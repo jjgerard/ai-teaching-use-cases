@@ -1,0 +1,79 @@
+{
+ "doc_id": "glasgow-student-genai-guidance-202610",
+ "coder": "td-t15",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Microsoft Copilot Chat",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "If you do want to use generative AI, the University's approved service is Microsoft Copilot Chat, available through your University Microsoft 365 account.",
+   "anchor": null
+  },
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": "Microsoft Copilot Chat",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "If you do choose to use GenAI to help you in your studies, then it is important to be aware that Copilot is the only tool approved for this by the University.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "university_materials",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission",
+    "approved_tool_only"
+   ],
+   "ai_named": false,
+   "quote": "It is the only tool you should use for uploading lecture materials, assessment briefs, slides, etc, and you must get permission from the staff member(s) who created them before you upload them.",
+   "anchor": null
+  },
+  {
+   "data_type": "assessment_material",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission",
+    "approved_tool_only"
+   ],
+   "ai_named": false,
+   "quote": "It is the only tool you should use for uploading lecture materials, assessment briefs, slides, etc, and you must get permission from the staff member(s) who created them before you upload them.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Books, articles and other copyrighted materials should not be uploaded to any tool.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Using the University-provided service helps protect your data and provides a secure environment for AI-assisted learning.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Copyright is immediately granted to any of us whenever we write something down, whether we mark the work as copyrighted or not, so your lecturers are automatically the copyright holders of their slides.",
+   "anchor": null
+  }
+ ]
+}

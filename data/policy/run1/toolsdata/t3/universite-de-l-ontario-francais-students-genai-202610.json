@@ -1,0 +1,8 @@
+{"doc_id":"universite-de-l-ontario-francais-students-genai-202610","coder":"td-t3",
+"tools":[],
+"data":[
+{"data_type":"personal_data","stance":"prohibited","audience":"students","conditions":[],"ai_named":true,"quote":"Protéger les données et la confidentialité : ne pas transmettre à des plateformes d’IAG des renseignements personnels, confidentiels ou sensibles, etc.;","anchor":"7.1"},
+{"data_type":"confidential_or_client_data","stance":"prohibited","audience":"students","conditions":[],"ai_named":true,"quote":"Protéger les données et la confidentialité : ne pas transmettre à des plateformes d’IAG des renseignements personnels, confidentiels ou sensibles, etc.;","anchor":"7.1"},
+{"data_type":"others_work_and_copyright","stance":"conditional","audience":"students","conditions":["needs_permission"],"ai_named":true,"quote":"d’insérer des travaux protégés par les droits d’auteur, sans autorisation dans une IAG ;","anchor":"4.4"}],
+"safeguards":[],
+"legal":[{"value":"copyright","audience":"students","ai_named":false,"quote":"Respecter les droits d’auteur et la propriété intellectuelle;","anchor":"7.1"}]}

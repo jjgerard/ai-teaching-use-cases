@@ -1,0 +1,44 @@
+{
+ "doc_id": "ucc-students-genai-202610",
+ "coder": "td-t14",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "discouraged",
+   "audience": "staff",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Educators should not run student work through any AI detector tools that are external to their institution as most of these tools train on content that is submitted to them",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "staff",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Educators should not run student work through any AI detector tools that are external to their institution as most of these tools train on content that is submitted to them",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "eu_ai_act",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Article 50 of the EU AI Act came into force in August 2026.",
+   "anchor": null
+  },
+  {
+   "value": "copyright",
+   "audience": "staff",
+   "ai_named": true,
+   "quote": "there are copyright and privacy concerns related to use of AI detectors that are not institutionally approved",
+   "anchor": null
+  }
+ ]
+}

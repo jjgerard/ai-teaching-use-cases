@@ -1,0 +1,49 @@
+{
+ "doc_id": "university-of-niagara-falls-canada-students-genai-202610",
+ "coder": "td-t4",
+ "tools": [
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "conditional",
+   "audience": "both",
+   "name": null,
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "Refrain from using or adopting AI tools that process institutional or personal data without appropriate review and approval.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "Refrain from using or adopting AI tools that process institutional or personal data without appropriate review and approval.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Use AI technologies—whether institutionally supported or externally adopted—in accordance with privacy, academic integrity, and ethical guidelines.",
+   "anchor": null
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "All institutionally adopted AI tools must comply with Canadian privacy requirements (e.g., PIPEDA) and institutional privacy policies.",
+   "anchor": null
+  }
+ ]
+}

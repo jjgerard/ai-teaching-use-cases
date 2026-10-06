@@ -1,0 +1,45 @@
+{
+ "doc_id": "massey-university-students-genai-202610",
+ "coder": "td-t2",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Enter any information that is personal, copyrighted, commercially sensitive, research sensitive or provided under non-disclosure agreements into GenAI tools.",
+   "anchor": null
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Enter any information that is personal, copyrighted, commercially sensitive, research sensitive or provided under non-disclosure agreements into GenAI tools.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Enter any information that is personal, copyrighted, commercially sensitive, research sensitive or provided under non-disclosure agreements into GenAI tools.",
+   "anchor": null
+  },
+  {
+   "data_type": "research_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Enter any information that is personal, copyrighted, commercially sensitive, research sensitive or provided under non-disclosure agreements into GenAI tools.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}
