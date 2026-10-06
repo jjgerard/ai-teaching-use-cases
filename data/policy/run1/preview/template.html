@@ -156,6 +156,9 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 .tgs .lt, .tgs .dk { position: absolute; left: 0; top: 0; height: 100%; display: block; }
 .tgs .lt { width: 100%; background: var(--tg-lt); }
 .tgs .dk { background: var(--tg-dk); }
+.tgs .sg-required { background: var(--st-req); } .tgs .sg-permitted { background: var(--st-perm); } .tgs .sg-conditional { background: var(--st-cond); } .tgs .sg-discouraged { background: var(--st-disc); } .tgs .sg-prohibited { background: var(--st-proh); }
+.tgs .lt[class*="sg-"] { opacity: .3; }
+.tgs .dk[class*="sg-"] { opacity: 1; }
 .tgn { font-size: 12px; color: var(--ink2); }
 .tgleg { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
 .tgleg .sw { display: inline-block; width: 22px; height: 10px; background: var(--tg-dk); }
@@ -256,7 +259,7 @@ section { scroll-margin-top: 64px; }
   <h3 style="margin:14px 0 4px">Noteworthy correspondences</h3>
   <div class="panel udet"><div id="tgnote"></div></div>
   <h3 style="margin:22px 0 4px">Pick a statement</h3>
-  <p class="sub">The bars repeat the sections above. The light bar is every institution that says it; the dark part is the institutions that also say the statement you picked.</p>
+  <p class="sub">The bars repeat the sections above. Same bars as above. The faded part of each bar is every institution that says it; the solid part is the institutions that also say the statement you picked.</p>
   <div class="pctl"><label class="mono" for="tgsel" style="color:var(--ink2)">Institutions that say</label><select id="tgsel"></select></div>
   <div class="panel udet"><div id="tgone"></div></div>
   <a class="totop" href="#top">↑ Back to top</a>
@@ -739,7 +742,7 @@ section { scroll-margin-top: 64px; }
     // AI use: chip order is any use first, then by number of institutions
     var uorder = UD.uses.map(function (u) { var s = setOf(UD.rows, function (r) { return r.u === u.id; }); return { u: u, n: s.size }; }).filter(function (x) { return x.n > 0; }).sort(function (a, b) { return USEORD[a.u.id] - USEORD[b.u.id]; });
     var ug = { sec: "AI use", title: "What AI can be used for", items: [] };
-    uorder.forEach(function (x) { STORDER.forEach(function (st) { var s = setOf(UD.rows, function (r) { return r.u === x.u.id && r.s === st; }); if (s.size) { var f = feat("use|" + x.u.id + "|" + st, "AI use", x.u.label + " — " + st, s, { gk: "use:" + x.u.id }); f.stance = st; ug.items.push({ kind: "one", feats: [f] }); } }); });
+    uorder.forEach(function (x) { var it = { kind: "use", label: x.u.label, feats: [] }; STORDER.forEach(function (st) { var s = setOf(UD.rows, function (r) { return r.u === x.u.id && r.s === st; }); if (s.size) { var f = feat("use|" + x.u.id + "|" + st, "AI use", x.u.label + " — " + st, s, { gk: "use:" + x.u.id }); f.stance = st; it.feats.push(f); } }); ug.items.push(it); });
     groups.push(ug);
     // acknowledgement
     ACKG.forEach(function (g) { var cnt = {}, sets = {}; Object.keys(UD.ack).forEach(function (i) { if (!PD[i]) return; (ACKV[g[0]](UD.ack[i]) || []).forEach(function (v) { if (!v) return; (sets[v] = sets[v] || new Set()).add(i); }); });
@@ -788,9 +791,9 @@ section { scroll-margin-top: 64px; }
     var lg = el("p", "small tgleg"); var sw1 = el("i", "sw lt"), sw2 = el("i", "sw dk"); lg.appendChild(sw1); lg.appendChild(document.createTextNode(" says it  ")); lg.appendChild(sw2); lg.appendChild(document.createTextNode(" says it and also “" + A.o.l + "”")); one.appendChild(lg);
     TG.groups.forEach(function (g) { var items = g.items.map(function (it) { return { it: it, f: it.feats.map(function (f) { return cur[f.k]; }).filter(function (c) { return c.n > 0; }) }; }).filter(function (x) { return x.f.length; }); if (!items.length) return;
       one.appendChild(el("h4", null, g.title)); var box = el("div", items.length > 14 ? "tgscroll" : "");
-      items.forEach(function (x) { var row = el("div", "tgr"), label = x.f[0].o.short; row.appendChild(el("span", "tgl", label)); var tr = el("span", "tgb"), un = new Set(), bu = new Set(), parts = [];
-        x.f.forEach(function (c) { var both = inter(c, A), seg = el("span", "tgs"); seg.style.width = (100 * c.n / N) + "%"; var lt = el("span", "lt"), dk = el("span", "dk"); dk.style.width = (100 * both / c.n) + "%"; seg.appendChild(lt); seg.appendChild(dk); seg.title = c.o.l + ": " + both + " of " + c.n + " also say “" + A.o.l + "”"; tr.appendChild(seg); c.m.forEach(function (i) { un.add(i); if (A.set.has(i)) bu.add(i); }); parts.push(both + "/" + c.n); });
-        row.appendChild(tr); row.appendChild(el("span", "tgn", parts[0].replace("/", " of "))); box.appendChild(row); });
+      items.forEach(function (x) { var row = el("div", "tgr"), label = x.it.kind === "use" ? x.it.label : x.f[0].o.short; row.appendChild(el("span", "tgl", label)); var tr = el("span", "tgb"), un = new Set(), bu = new Set(), parts = [], tips = [];
+        x.f.forEach(function (c) { var both = inter(c, A), seg = el("span", "tgs"), cls = c.o.stance ? " sg-" + c.o.stance : ""; seg.style.width = (100 * c.n / N) + "%"; var lt = el("span", "lt" + cls), dk = el("span", "dk" + cls); dk.style.width = (100 * both / c.n) + "%"; seg.appendChild(lt); seg.appendChild(dk); tips.push((x.it.kind === "use" ? (c.o.stance || "") + ": " : "") + both + " of " + c.n + (x.it.kind === "use" ? " institutions" : " institutions that say it") + " also say “" + A.o.l + "”"); tr.appendChild(seg); c.m.forEach(function (i) { un.add(i); if (A.set.has(i)) bu.add(i); }); parts.push(both + "/" + c.n); });
+        row.appendChild(tr); row.title = label + "\n" + tips.join("\n"); row.appendChild(el("span", "tgn", x.it.kind === "use" ? bu.size + " of " + un.size + " institutions" : parts[0].replace("/", " of "))); box.appendChild(row); });
       one.appendChild(box); });
   }
   function tinit() { drawSupport(); }
