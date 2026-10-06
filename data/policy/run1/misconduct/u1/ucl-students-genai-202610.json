@@ -1,0 +1,77 @@
+{
+ "doc_id": "ucl-students-genai-202610",
+ "coder": "mis-u1",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "There are no circumstances where students may use GenAI to gain unfair academic advantage. This constitutes academic misconduct (see Academic Manual 9.2.5).",
+   "anchor": "Guidance"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "If GenAI is misused in assessment, this is considered under the category of plagiarism or falsification, not contract cheating.",
+   "anchor": "Notes on academic integrity"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": true,
+   "quote": "If GenAI is misused in assessment, this is considered under the category of plagiarism or falsification, not contract cheating.",
+   "anchor": "Notes on academic integrity"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": true,
+   "quote": "UCL is not investing in GenAI detection software.",
+   "anchor": "Using GenAI to support learning"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "In the event that you suspect student work has made inappropriate use of GenAI, you should report it in the same way as any other Academic Misconduct, using the Student Academic Misconduct Report Form (download), to your Exam Board Chair who may initiate an Investigatory Viva.",
+   "anchor": "Notes on academic integrity"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "In the event that you suspect student work has made inappropriate use of GenAI",
+   "anchor": "Notes on academic integrity"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": true,
+   "quote": "In the event that you suspect student work has made inappropriate use of GenAI, you should report it in the same way as any other Academic Misconduct, using the Student Academic Misconduct Report Form (download), to your Exam Board Chair who may initiate an Investigatory Viva.",
+   "anchor": "Notes on academic integrity"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "they may be deanonymised if it is necessary to discuss the submission with the student to determine if an Academic Misconduct investigation is warranted",
+   "anchor": "Notes on academic integrity"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "who may initiate an Investigatory Viva",
+   "anchor": "Notes on academic integrity"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The purpose of the viva will be to assess whether, on the balance of probabilities, there is prima facie evidence that would support the conclusion that the work, or sections of it, were not authored by the student.",
+   "anchor": "Notes on academic integrity"
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}

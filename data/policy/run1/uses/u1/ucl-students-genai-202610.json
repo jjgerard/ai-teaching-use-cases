@@ -1,0 +1,261 @@
+{
+ "doc_id": "ucl-students-genai-202610",
+ "coder": "use-u1",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 1",
+   "quote": "The purpose and format of these assessments makes it inappropriate or impractical for GenAI tools to be used.",
+   "anchor": "Category 1. GenAI tools cannot be used"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "tier": "Category 1",
+   "quote": "Students may still use GenAI tools in a limited way to prepare for the assessment (e.g. as a revision tutor).",
+   "anchor": "Category 1. GenAI tools cannot be used"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "tier": "Category 1",
+   "quote": "it is permissible for a third party, such as UCL's academic support tool Studiosity, to “check areas of academic writing such as structure, fluency, presentation, grammar, spelling, punctuation, and language translation.”",
+   "anchor": "Category 1. GenAI tools cannot be used"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Cat 1 assessed language",
+   "quote": "in cases of language translation, if the student is being assessed on their ability to translate or use a language other than English.",
+   "anchor": "Category 1. GenAI tools cannot be used"
+  },
+  {
+   "use": "assistive_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "tier": "Category 1",
+   "quote": "Students with Reasonable Academic Adjustments may still be permitted to use other assistive technology required.",
+   "anchor": "*Students with Reasonable Academic Adjustments"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "tier": "Category 2",
+   "quote": "Students are permitted to use GenAI tools in a limited, critical and responsible way.",
+   "anchor": "Category 2. GenAI tools can be used in an assistive role"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 2",
+   "quote": "should not be completing the assessment (entirely or only in part) on the student’s behalf.",
+   "anchor": "Category 2. GenAI tools can be used in an assistive role"
+  },
+  {
+   "use": "analyse_data",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 2",
+   "quote": "students might use GenAI for tasks such as data analysis, pattern recognition, or generating insights.",
+   "anchor": "Category 2. GenAI tools can be used in an assistive role"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "tier": "Category 2",
+   "quote": "supporting the writing process in a limited manner (e.g., as a proofreader or to review academic tone)",
+   "anchor": "Category 2. GenAI tools can be used in an assistive role"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 2",
+   "quote": "as a support tutor",
+   "anchor": "Category 2. GenAI tools can be used in an assistive role"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 2",
+   "quote": "supporting a particular process such as testing code or translating content (as relevant to the individual discipline)",
+   "anchor": "Category 2. GenAI tools can be used in an assistive role"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 2",
+   "quote": "supporting a particular process such as testing code or translating content (as relevant to the individual discipline)",
+   "anchor": "Category 2. GenAI tools can be used in an assistive role"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 2",
+   "quote": "giving feedback.",
+   "anchor": "Category 2. GenAI tools can be used in an assistive role"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 3",
+   "quote": "GenAI is used as a primary tool during the assessment process.",
+   "anchor": "Category 3. GenAI has an integral role"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 3",
+   "quote": "generating ideas",
+   "anchor": "Category 3. GenAI has an integral role"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 3",
+   "quote": "creating content in particular styles",
+   "anchor": "Category 3. GenAI has an integral role"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 3",
+   "quote": "reframing content",
+   "anchor": "Category 3. GenAI has an integral role"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 3",
+   "quote": "researching and seeking answers",
+   "anchor": "Category 3. GenAI has an integral role"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 3",
+   "quote": "creating artwork (images, audio and videos)",
+   "anchor": "Category 3. GenAI has an integral role"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 3",
+   "quote": "developing code",
+   "anchor": "Category 3. GenAI has an integral role"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Category 3",
+   "quote": "translating content",
+   "anchor": "Category 3. GenAI has an integral role"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "The final decision about how GenAI may or may not be used is up to the staff member setting the assessment."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "instructions given in assessment briefs take precedence over the information on this page"
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "Colleagues from across UCL have pooled their expertise to offer a three-tiered categorisation of GenAI use in an assessment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Students must acknowledge GenAI use, but do not need to cite it."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "they should acknowledge how they have used it as part of their assessment submission."
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "acknowledge_without_reference_entry",
+   "quote": "Students must acknowledge GenAI use, but do not need to cite it."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}
