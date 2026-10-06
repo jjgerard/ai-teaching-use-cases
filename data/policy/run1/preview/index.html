@@ -4,16 +4,16 @@
    then a variable explorer and an evidence matrix that both honour the filters. Single blue accent, neutrals tinted toward it. */
 :root {
   --bg: #f4f6f8; --surface: #ffffff; --ink: #14181d; --ink2: #48505a; --muted: #7b848f; --line: #dde2e8;
-  --accent: #2a78d6; --accent-ink: #1c5cab; --tint: #dbe9fa; --bar-mute: #c4cbd3; --warn: #a15c07; --warn-tint: #fbefd9;
+  --accent: #2a78d6; --tg-lt: #cfe0f3; --tg-dk: #1b4f9c; --st-req: #009E73; --st-perm: #0072B2; --st-cond: #56B4E9; --st-disc: #E69F00; --st-proh: #D55E00; --accent-ink: #1c5cab; --tint: #dbe9fa; --bar-mute: #c4cbd3; --warn: #a15c07; --warn-tint: #fbefd9;
   --hatch: #e6eaee;
   --sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif; --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
 }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
   --bg: #0f1317; --surface: #171c21; --ink: #f1f4f7; --ink2: #b6bec8; --muted: #7e8893; --line: #2a3138;
-  --accent: #3987e5; --accent-ink: #86b6ef; --tint: #1d3352; --bar-mute: #3a424b; --warn: #e3a64a; --warn-tint: #3a2c12; --hatch: #1f262c; color-scheme: dark; } }
+  --accent: #3987e5; --tg-lt: #2c4466; --tg-dk: #8dbbf2; --st-req: #2fc29a; --st-perm: #3d9be0; --st-cond: #7cc6f0; --st-disc: #f0b232; --st-proh: #f07d3a; --accent-ink: #86b6ef; --tint: #1d3352; --bar-mute: #3a424b; --warn: #e3a64a; --warn-tint: #3a2c12; --hatch: #1f262c; color-scheme: dark; } }
 :root[data-theme="dark"] {
   --bg: #0f1317; --surface: #171c21; --ink: #f1f4f7; --ink2: #b6bec8; --muted: #7e8893; --line: #2a3138;
-  --accent: #3987e5; --accent-ink: #86b6ef; --tint: #1d3352; --bar-mute: #3a424b; --warn: #e3a64a; --warn-tint: #3a2c12; --hatch: #1f262c; color-scheme: dark; }
+  --accent: #3987e5; --tg-lt: #2c4466; --tg-dk: #8dbbf2; --st-req: #2fc29a; --st-perm: #3d9be0; --st-cond: #7cc6f0; --st-disc: #f0b232; --st-proh: #f07d3a; --accent-ink: #86b6ef; --tint: #1d3352; --bar-mute: #3a424b; --warn: #e3a64a; --warn-tint: #3a2c12; --hatch: #1f262c; color-scheme: dark; }
 * { box-sizing: border-box; }
 body { background: var(--bg); color: var(--ink); font: 14px/1.5 var(--sans); padding-inline: 16px; padding-block: 0 56px; }
 .wrap { max-width: 1120px; margin-inline: auto; }
@@ -109,11 +109,11 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 /* uses and acknowledgement */
 .ubar { display: flex; height: 14px; background: var(--tint); border-radius: 2px; overflow: hidden; min-width: 0; }
 .ubar i { display: block; height: 100%; }
-.sg-permitted { background: var(--accent); }
-.sg-conditional { background: var(--accent); opacity: .5; }
-.sg-discouraged { background: var(--muted); opacity: .75; }
-.sg-prohibited { background: var(--ink); }
-.sg-required { background: var(--accent-ink, var(--accent)); outline: 2px solid var(--accent); outline-offset: -2px; }
+.sg-required { background: var(--st-req); }
+.sg-permitted { background: var(--st-perm); }
+.sg-conditional { background: var(--st-cond); }
+.sg-discouraged { background: var(--st-disc); }
+.sg-prohibited { background: var(--st-proh); }
 .ulegend { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13px; color: var(--ink2); margin: 0 0 10px; }
 .ulegend span { display: inline-flex; align-items: center; gap: 6px; }
 .ulegend i { width: 14px; height: 10px; display: inline-block; border-radius: 2px; }
@@ -154,15 +154,12 @@ ul.lim { margin: 10px 0 0; padding-left: 18px; max-width: 80ch; display: grid; g
 .tgb { display: flex; height: 14px; background: transparent; }
 .tgs { position: relative; display: block; height: 100%; min-width: 2px; }
 .tgs .lt, .tgs .dk { position: absolute; left: 0; top: 0; height: 100%; display: block; }
-.tgs .lt { width: 100%; opacity: .28; outline: none; }
-.tgs .dk { opacity: 1; }
-.tgs .tg-acc, .sw.tg-acc { background: var(--accent); }
-.tgs .sg-conditional.lt { opacity: .2; } .tgs .sg-conditional.dk { opacity: .7; }
-.tgs .sg-required { outline: none; }
+.tgs .lt { width: 100%; background: var(--tg-lt); }
+.tgs .dk { background: var(--tg-dk); }
 .tgn { font-size: 12px; color: var(--ink2); }
 .tgleg { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
-.tgleg .sw { display: inline-block; width: 22px; height: 10px; background: var(--accent); }
-.tgleg .sw.lt { opacity: .28; }
+.tgleg .sw { display: inline-block; width: 22px; height: 10px; background: var(--tg-dk); }
+.tgleg .sw.lt { background: var(--tg-lt); }
 .tgscroll { max-height: 340px; overflow-y: auto; padding-right: 6px; }
 button.tgnote { display: block; width: 100%; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--line); padding: 8px 0; font: inherit; color: var(--ink); cursor: pointer; }
 button.tgnote:hover { background: var(--tint); }
@@ -247,7 +244,7 @@ button.tgnote:hover { background: var(--tint); }
   <h3 style="margin:14px 0 4px">Noteworthy correspondences</h3>
   <div class="panel udet"><div id="tgnote"></div></div>
   <h3 style="margin:22px 0 4px">Pick a statement</h3>
-  <p class="sub">The bars repeat the sections above. The pale bar is every institution that says it; the darker part is the institutions that also say the statement you picked.</p>
+  <p class="sub">The bars repeat the sections above. The light bar is every institution that says it; the dark part is the institutions that also say the statement you picked.</p>
   <div class="pctl"><label class="mono" for="tgsel" style="color:var(--ink2)">Institutions that say</label><select id="tgsel"></select></div>
   <div class="panel udet"><div id="tgone"></div></div>
 </section>
@@ -675,20 +672,21 @@ button.tgnote:hover { background: var(--tint); }
   }
 
   var UD = TR.usesData, ULAB = {}; UD.uses.forEach(function (u) { ULAB[u.id] = u; });
-  var uctx = "all";
+  var uctx = "all", STORDER = ["required", "permitted", "conditional", "discouraged", "prohibited"], STSCORE = { required: 0, permitted: 0, conditional: 1, discouraged: 2, prohibited: 3 };
+  var USEORD = (function () { var pairs = {}; UD.rows.forEach(function (r) { (pairs[r.u] = pairs[r.u] || {})[r.i + "|" + r.s] = STSCORE[r.s]; }); var o = {}; Object.keys(pairs).forEach(function (u) { var v = Object.keys(pairs[u]).map(function (k) { return pairs[u][k]; }); o[u] = { score: v.reduce(function (a, b) { return a + b; }, 0) / v.length, n: v.length }; }); var ids = Object.keys(o).sort(function (a, b) { return (a === "any_use" ? -1 : b === "any_use" ? 1 : (o[a].score - o[b].score) || (o[b].n - o[a].n)); }); var rank = {}; ids.forEach(function (u, i) { rank[u] = i; }); return rank; })();
   var STLAB = { permitted: "Permitted", conditional: "Conditional", discouraged: "Discouraged", prohibited: "Prohibited", required: "Required" };
   function urowsFor() { return UD.rows.filter(function (r) { return PD[r.i] && (region === "All" || PD[r.i].region === region) && (uctx === "all" || r.c === uctx); }); }
   function drawUses() {
     var N = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }).length, rows = urowsFor(), per = {};
     rows.forEach(function (r) { var o = (per[r.u] = per[r.u] || {}); (o[r.s] = o[r.s] || new Set()).add(r.i); });
-    desc("usub", "Each chip is one thing students might use generative AI for. The number is how many institutions say something about it.", ["Dots: one per institution, coloured by its stance (permitted, conditional, discouraged, prohibited, required); over ten institutions the dots become a strip", "Setting buttons: all settings, study, assessed work, exams or supervised, research or thesis", "Open a chip: the use’s definition and each institution’s quote, grouped by stance, with the conditions attached to conditional ones"]);
+    desc("usub", "Each chip is one thing students might use generative AI for. The number is how many institutions say something about it.", ["Uses run from most permitted to most restricted, by the average stance across institutions. Dots: one per institution, coloured by stance (required, permitted, conditional, discouraged, prohibited); over ten institutions the dots become a strip", "Setting buttons: all settings, study, assessed work, exams or supervised, research or thesis", "Open a chip: the use’s definition and each institution’s quote, grouped by stance, with the conditions attached to conditional ones"]);
     var ch = $("uctx"); ch.textContent = ""; [["all", "All settings"]].concat(Object.keys(UD.contexts).filter(function (k) { return k !== "unspecified"; }).map(function (k) { return [k, k.replace(/_/g, " ")]; })).forEach(function (x) { ch.appendChild(mkChip(x[1], uctx === x[0], function () { uctx = x[0]; drawUses(); })); });
-    var lg = $("uleg"); lg.textContent = ""; UD.stances.forEach(function (s) { var sp = el("span"), i = el("i"); i.className = "sg-" + s; sp.appendChild(i); sp.appendChild(document.createTextNode(STLAB[s])); lg.appendChild(sp); });
-    var list = UD.uses.map(function (u) { var o = per[u.id] || {}, n = new Set(); Object.keys(o).forEach(function (s) { o[s].forEach(function (i) { n.add(i); }); }); return { u: u, o: o, n: n.size }; }).filter(function (x) { return x.n > 0; }).sort(function (a, b) { return (a.u.id === "any_use" ? -1 : b.u.id === "any_use" ? 1 : b.n - a.n); });
+    var lg = $("uleg"); lg.textContent = ""; STORDER.forEach(function (s) { var sp = el("span"), i = el("i"); i.className = "sg-" + s; sp.appendChild(i); sp.appendChild(document.createTextNode(STLAB[s])); lg.appendChild(sp); });
+    var list = UD.uses.map(function (u) { var o = per[u.id] || {}, n = new Set(); Object.keys(o).forEach(function (s) { o[s].forEach(function (i) { n.add(i); }); }); return { u: u, o: o, n: n.size }; }).filter(function (x) { return x.n > 0; }).sort(function (a, b) { return USEORD[a.u.id] - USEORD[b.u.id]; });
     var host = $("urows"); host.textContent = "";
-    xgroup(host, list.map(function (x) { var bar = el("span", "ubar"), dots = []; UD.stances.forEach(function (s) { var c = x.o[s] ? x.o[s].size : 0; if (c) { var i = el("i"); i.className = "sg-" + s; i.style.width = (100 * c / N) + "%"; i.title = STLAB[s] + ": " + c; bar.appendChild(i); for (var k = 0; k < c; k++) dots.push("sg-" + s); } });
-      return { key: "use|" + x.u.id, label: x.u.label, def: x.u.def, n: x.n, bar: bar, dots: dots, count: UD.stances.filter(function (s) { return x.o[s]; }).map(function (s) { return x.o[s].size + " " + s.slice(0, 4); }).join(" · ") + " (" + x.n + " inst.)",
-        detail: function (dt) { UD.stances.forEach(function (s) { var uniq = uniqBy(rows.filter(function (r) { return r.u === x.u.id && r.s === s; })); if (!uniq.length) return; dt.appendChild(el("h4", null, STLAB[s] + " (" + uniq.length + ")")); quotes(dt, uniq, 6, function (r) { var cond = r.s === "conditional" && r.k.length ? " [" + r.k.map(function (k) { return k.replace(/_/g, " "); }).join(", ") + "]" : ""; return (uctx === "all" ? " · " + r.c.replace(/_/g, " ") : "") + (r.t ? " · " + r.t : "") + cond; }); }); } }; }), N);
+    xgroup(host, list.map(function (x) { var bar = el("span", "ubar"), dots = []; STORDER.forEach(function (s) { var c = x.o[s] ? x.o[s].size : 0; if (c) { var i = el("i"); i.className = "sg-" + s; i.style.width = (100 * c / N) + "%"; i.title = STLAB[s] + ": " + c; bar.appendChild(i); for (var k = 0; k < c; k++) dots.push("sg-" + s); } });
+      return { key: "use|" + x.u.id, label: x.u.label, def: x.u.def, n: x.n, bar: bar, dots: dots, count: STORDER.filter(function (s) { return x.o[s]; }).map(function (s) { return x.o[s].size + " " + s.slice(0, 4); }).join(" · ") + " (" + x.n + " inst.)",
+        detail: function (dt) { STORDER.forEach(function (s) { var uniq = uniqBy(rows.filter(function (r) { return r.u === x.u.id && r.s === s; })); if (!uniq.length) return; dt.appendChild(el("h4", null, STLAB[s] + " (" + uniq.length + ")")); quotes(dt, uniq, 6, function (r) { var cond = r.s === "conditional" && r.k.length ? " [" + r.k.map(function (k) { return k.replace(/_/g, " "); }).join(", ") + "]" : ""; return (uctx === "all" ? " · " + r.c.replace(/_/g, " ") : "") + (r.t ? " · " + r.t : "") + cond; }); }); } }; }), N);
   }
   function drawAck() {
     var ids = TR.docs.filter(function (d) { return PD[d] && (region === "All" || PD[d].region === region); }), okI = {}; ids.forEach(function (d) { okI[d] = 1; }); var N = ids.length, A = UD.ack, AQ = UD.ackq, host = $("ackbars"); host.textContent = "";
@@ -728,9 +726,9 @@ button.tgnote:hover { background: var(--tint); }
     function feat(k, sec, l, s, extra) { var o = B[k] = { k: k, sec: sec, l: l, s: s, gk: extra.gk, short: extra.short || l, noteOk: extra.noteOk !== false }; return o; }
     function setOf(rows, fn) { var s = new Set(); rows.forEach(function (r) { if (fn(r)) s.add(r.i); }); return s; }
     // AI use: chip order is any use first, then by number of institutions
-    var uorder = UD.uses.map(function (u) { var s = setOf(UD.rows, function (r) { return r.u === u.id; }); return { u: u, n: s.size }; }).filter(function (x) { return x.n > 0; }).sort(function (a, b) { return (a.u.id === "any_use" ? -1 : b.u.id === "any_use" ? 1 : b.n - a.n); });
+    var uorder = UD.uses.map(function (u) { var s = setOf(UD.rows, function (r) { return r.u === u.id; }); return { u: u, n: s.size }; }).filter(function (x) { return x.n > 0; }).sort(function (a, b) { return USEORD[a.u.id] - USEORD[b.u.id]; });
     var ug = { sec: "AI use", title: "What AI can be used for", items: [] };
-    uorder.forEach(function (x) { var it = { kind: "use", label: x.u.label, feats: [] }; UD.stances.forEach(function (st) { var s = setOf(UD.rows, function (r) { return r.u === x.u.id && r.s === st; }); if (s.size) { var f = feat("use|" + x.u.id + "|" + st, "AI use", x.u.label + " — " + st, s, { gk: "use:" + x.u.id }); f.stance = st; it.feats.push(f); } }); ug.items.push(it); });
+    uorder.forEach(function (x) { STORDER.forEach(function (st) { var s = setOf(UD.rows, function (r) { return r.u === x.u.id && r.s === st; }); if (s.size) { var f = feat("use|" + x.u.id + "|" + st, "AI use", x.u.label + " — " + st, s, { gk: "use:" + x.u.id }); f.stance = st; ug.items.push({ kind: "one", feats: [f] }); } }); });
     groups.push(ug);
     // acknowledgement
     ACKG.forEach(function (g) { var cnt = {}, sets = {}; Object.keys(UD.ack).forEach(function (i) { if (!PD[i]) return; (ACKV[g[0]](UD.ack[i]) || []).forEach(function (v) { if (!v) return; (sets[v] = sets[v] || new Set()).add(i); }); });
@@ -779,9 +777,9 @@ button.tgnote:hover { background: var(--tint); }
     var lg = el("p", "small tgleg"); var sw1 = el("i", "sw lt"), sw2 = el("i", "sw dk"); lg.appendChild(sw1); lg.appendChild(document.createTextNode(" says it  ")); lg.appendChild(sw2); lg.appendChild(document.createTextNode(" says it and also “" + A.o.l + "”")); one.appendChild(lg);
     TG.groups.forEach(function (g) { var items = g.items.map(function (it) { return { it: it, f: it.feats.map(function (f) { return cur[f.k]; }).filter(function (c) { return c.n > 0; }) }; }).filter(function (x) { return x.f.length; }); if (!items.length) return;
       one.appendChild(el("h4", null, g.title)); var box = el("div", items.length > 14 ? "tgscroll" : "");
-      items.forEach(function (x) { var row = el("div", "tgr"), label = x.it.kind === "use" ? x.it.label : x.f[0].o.short; row.appendChild(el("span", "tgl", label)); var tr = el("span", "tgb"), un = new Set(), bu = new Set(), parts = [];
-        x.f.forEach(function (c) { var both = inter(c, A), seg = el("span", "tgs"); seg.style.width = (100 * c.n / N) + "%"; var cls = c.o.stance ? "sg-" + c.o.stance : "tg-acc", lt = el("span", "lt " + cls), dk = el("span", "dk " + cls); dk.style.width = (100 * both / c.n) + "%"; seg.appendChild(lt); seg.appendChild(dk); seg.title = c.o.l + ": " + both + " of " + c.n + " also say “" + A.o.l + "”"; tr.appendChild(seg); c.m.forEach(function (i) { un.add(i); if (A.set.has(i)) bu.add(i); }); parts.push(both + "/" + c.n); });
-        row.appendChild(tr); row.appendChild(el("span", "tgn", x.it.kind === "use" ? bu.size + " of " + un.size + " institutions" : parts[0].replace("/", " of "))); box.appendChild(row); });
+      items.forEach(function (x) { var row = el("div", "tgr"), label = x.f[0].o.short; row.appendChild(el("span", "tgl", label)); var tr = el("span", "tgb"), un = new Set(), bu = new Set(), parts = [];
+        x.f.forEach(function (c) { var both = inter(c, A), seg = el("span", "tgs"); seg.style.width = (100 * c.n / N) + "%"; var lt = el("span", "lt"), dk = el("span", "dk"); dk.style.width = (100 * both / c.n) + "%"; seg.appendChild(lt); seg.appendChild(dk); seg.title = c.o.l + ": " + both + " of " + c.n + " also say “" + A.o.l + "”"; tr.appendChild(seg); c.m.forEach(function (i) { un.add(i); if (A.set.has(i)) bu.add(i); }); parts.push(both + "/" + c.n); });
+        row.appendChild(tr); row.appendChild(el("span", "tgn", parts[0].replace("/", " of "))); box.appendChild(row); });
       one.appendChild(box); });
   }
   function tinit() { drawSupport(); }
