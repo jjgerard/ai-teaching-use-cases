@@ -1,0 +1,42 @@
+{
+ "doc_id": "lancaster-students-genai-202610",
+ "coder": "uses-x2",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "The submission of undeclared work which is either generated and/or improved by language model software for the purposes of gaining marks will be regarded as False Authorship and interpreted as an attempt to gain an intentional unfair academic advantage.",
+   "anchor": "FALSE AUTHORSHIP"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "The submission of undeclared work which is either generated and/or improved by language model software for the purposes of gaining marks will be regarded as False Authorship and interpreted as an attempt to gain an intentional unfair academic advantage.",
+   "anchor": "FALSE AUTHORSHIP"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "The submission of undeclared work which is either generated and/or improved by language model software for the purposes of gaining marks will be regarded as False Authorship and interpreted as an attempt to gain an intentional unfair academic advantage."
+  },
+  "exempt": []
+ }
+}
