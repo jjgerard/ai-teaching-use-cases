@@ -1,0 +1,50 @@
+{
+ "batch": "c31",
+ "unmapped": [
+  {
+   "doc_id": "swansea-students-genai-202610",
+   "quote": "Apply University policies on data protection, privacy, and academic integrity when selecting and using approved academic work, ensuring responsible and ethical practice.",
+   "what_it_says": "Data protection duty for AI use (data and tool rules vocabulary, not uses)."
+  }
+ ],
+ "notes": [
+  {
+   "doc_id": "harper-adams-students-genai-202610",
+   "note": "Existing impersonation_or_coercion row quotes falsifying data and misleading tutors; this is a stretch but left unchanged. Existing summarise row quote begins mid-sentence."
+  },
+  {
+   "doc_id": "swansea-students-genai-202610",
+   "note": "Baseline/Established/Innovative are competency levels, not permission tiers, so decided_by tiered_scale was not added; tier labels are used on added rows only. Scope none kept; no misconduct wording."
+  },
+  {
+   "doc_id": "kingston-london-students-genai-202610",
+   "note": "Almost all misconduct values were already held; additions are an oral-check detection row and definitions. No support forms specific to AI."
+  },
+  {
+   "doc_id": "essex-students-genai-202610",
+   "note": "Existing explain_or_tutor row coded other_rules_apply for a condition about not copying into the assignment; left unchanged."
+  }
+ ],
+ "added": {
+  "essex-students-genai-202610": {
+   "uses": 3,
+   "support": 1,
+   "misconduct": 0
+  },
+  "swansea-students-genai-202610": {
+   "uses": 4,
+   "support": 0,
+   "misconduct": 0
+  },
+  "harper-adams-students-genai-202610": {
+   "uses": 6,
+   "support": 1,
+   "misconduct": 4
+  },
+  "kingston-london-students-genai-202610": {
+   "uses": 1,
+   "support": 0,
+   "misconduct": 5
+  }
+ }
+}
