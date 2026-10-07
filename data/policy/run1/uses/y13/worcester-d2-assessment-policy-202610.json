@@ -1,0 +1,35 @@
+{
+ "doc_id": "worcester-d2-assessment-policy-202610",
+ "coder": "y-y13",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "No, the use of third parties, including generative artificial intelligence sites to write assignments is not permitted and may lead to an academic misconduct investigation.",
+   "anchor": "Appendix 8 FAQs"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "There are a number of suggested writing tools to support academic writing which can be found on the Study Skills Portal.",
+   "anchor": "Appendix 8 FAQs"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

@@ -1,0 +1,29 @@
+{
+ "doc_id": "york-d2-misconduct-procedure-202610",
+ "coder": "y-y13",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "prohibited",
+   "audience": "staff",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "please contact SCA@york.ac.uk for the latest guidance on AI detection and do not run student work through freely available AI detectors online.",
+   "anchor": "AM Appendix 3"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "staff",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "please contact SCA@york.ac.uk for the latest guidance on AI detection and do not run student work through freely available AI detectors online.",
+   "anchor": "AM Appendix 3"
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}

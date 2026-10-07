@@ -1,0 +1,268 @@
+{
+ "doc_id": "salford-d2-misconduct-procedure-202610",
+ "coder": "y-y8",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "This could include work which is written using Gen AI where that use is not permitted even when subsequently edited by the student.",
+   "anchor": "Falsification of authorship: Unauthorised use of Generative Artificial Intelligence"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Plagiarism involves taking the work of another person or source and using it as if it were one’s own.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "This might include the use of ‘text in an image’ (that is text that is in an image file which may disguise it from text matching software), paraphrasing software or other means used to disguise part or all the content of assessment in any way which could give an unfair advantage.",
+   "anchor": "Using means to disguise or alter the content of an assessment"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "This involves any means whereby work (in whole or in part) is completed on behalf of another which is then submitted for assessment.",
+   "anchor": "Contracting another to write a piece of assessed work"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Where one student uses the work of another (without proper acknowledgement), this is potentially an act of plagiarism (see i) above.",
+   "anchor": "Collusion"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "This could involve a range of means that make it appear that information has been collected by scientific investigation, the compilation of questionnaire results, interviews etc. whereas, in reality, it has been made up or altered.",
+   "anchor": "Falsifying experimental or other investigative results"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "This involves taking materials, notes or electronic devices of any sort, other than those specifically permitted, into any examination, whether or not they could be used to gain advantage and whether used or not.",
+   "anchor": "Breaching the University Examination Rules"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": false,
+   "quote": "provision of work, such as assignments, to external websites or other external services which could be used for academic misconduct.",
+   "anchor": "Who Does the Procedure Apply to?"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Any student found to have aided others to commit any act of academic misconduct will be considered to have breached the University’s Student Misconduct Procedure and/or Fitness to Practise Procedure.",
+   "anchor": "Who Does the Procedure Apply to?"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "A student must not offer or give any member of academic or professional service staff money, gifts or any other advantage which is intended to induce or reward impropriety in the marking and/or processing of the student’s examination or assessment.",
+   "anchor": "Bribery"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism (or double submission) is resubmitting previously submitted work on one or more occasions (without proper acknowledgement) for separate blocks of credit and/or award.",
+   "anchor": "Self-plagiarism (or double submission)"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "As the Procedure requires all cases to be considered as strict liability, the action does not require intent on behalf of the student or other party.",
+   "anchor": "3.2 What is Academic Misconduct?"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "They are likely to be Level specific, with more allowance made for poor academic practice for students at Levels 3 and 4, than at Levels 6 and 7.",
+   "anchor": "Review Stage"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "A matching report from a text matching service (for example Turnitin) is not, on its own, evidence of academic misconduct, even where the proportion of matching text is high.",
+   "anchor": "Reports from assessment not completed as part of an Examination"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Where submission by the student via the text matching tool is not required in cases of suspected academic misconduct, the University may submit such work through the text matching tool to aid any investigation.",
+   "anchor": "Reports from assessment not completed as part of an Examination"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "When a member of staff suspects academic misconduct in a piece of assessed work a student may be interviewed by an appropriate member of academic staff, for example see guidance on “Bought Work” and “unauthorised use of GenAI”",
+   "anchor": "Reports from assessment not completed as part of an Examination"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Where a member of academic staff marking a piece of assessment believes that academic misconduct has occurred, they should not normally continue to mark that work, but should prepare a case and refer to the School’s Academic Misconduct Officer (AMO).",
+   "anchor": "Reports from assessment not completed as part of an Examination"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "Where the AMO review finds poor academic practice, the student should be informed of this in writing and be invited to discuss this with an appropriate member of academic staff (such as the Academic Progression Tutor) at the earliest possible opportunity.",
+   "anchor": "Review Stage"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Where the AMO finds that academic misconduct may have occurred, the student will be informed in writing that the matter is referred either to a hearing within the School, or in the most serious cases, the University’s Student Misconduct Panel.",
+   "anchor": "Review Stage"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "All cases of suspected academic misconduct must be supported by evidence documented by the person(s) who suspects the academic misconduct.",
+   "anchor": "Reports from assessment not completed as part of an Examination"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student will be informed, in writing, of the nature of the allegations and be provided with all the evidence to be considered.",
+   "anchor": "Referral to School Level"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The purpose of the hearing is to determine whether an offence of academic misconduct has been committed and to determine and impose sanctions.",
+   "anchor": "School Hearing"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If the student or the AMO, to whom proper notice of a meeting has been given, does not appear at the meeting, the Chair may proceed to consider the case in their absence.",
+   "anchor": "Attendance at School Hearings"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "A student may be accompanied by one person of their choosing at any stage in the Academic Misconduct Procedure",
+   "anchor": "Attendance at School Hearings"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "The student shall be allowed 10 working days from the date on the formal outcome notification (either the outcome from a School hearing or a Panel hearing) to provide written notice of a Request for Review and relevant supporting evidence to QMO.",
+   "anchor": "Request for a Review (Appeal) of Outcome"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Review by Academic Misconduct Officers should normally be completed within one calendar month.",
+   "anchor": "Timeline for consideration"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "In deciding whether the student has committed academic misconduct; the standard of proof shall be ‘the balance of probabilities’, that is on the evidence, the student is more likely than not to have committed academic misconduct.",
+   "anchor": "Standard and Burden of Proof"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Records of all cases will be retained by QMO.",
+   "anchor": "Data Protection"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "If the student is found not to have committed academic misconduct, but the assessment is characterised by poor academic practice, then the student will be directed to discuss their practice with an appropriate member of staff (normally the Academic Progression Tutor), and to Skills in the Library, advice will be given and a record kept on the student’s record.",
+   "anchor": "Appendix B - School Hearings"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "a mark of 0 or grade of F is awarded for the component of assessment in question;",
+   "anchor": "Academic Sanctions – Taught Programmes"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "a mark of 0 or grade of F is awarded for the component in question and the module mark kept at the minimum pass mark",
+   "anchor": "Academic Sanctions – Taught Programmes"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "a student shall be permitted the normal entitlement of further opportunities to pass the assessment/module",
+   "anchor": "Entitlement to Reassessment/Retaking"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Any finding of academic misconduct at level 8 will normally result in the expulsion of the student from the University.",
+   "anchor": "Academic Sanctions – Research Programmes"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Where academic misconduct has been found to have occurred after the results have been ratified by an Assessment Board/Postgraduate Research Award Board, the sanctions will be retrospectively imposed, so necessitating the removal of previously awarded modules or credits.",
+   "anchor": "Retrospective Sanctions/Removal of Credit and Award"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Where students have been found to have committed repeat offences, later offences will be treated more severely than the first offence when sanctions are applied.",
+   "anchor": "Repeat Offences"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "In deciding which academic sanction to impose, the hearing shall take into consideration, amongst other matters, admission of academic misconduct by the student, the seriousness, and the extent of the misconduct.",
+   "anchor": "Academic Sanctions – Taught Programmes"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "If academic misconduct concerns arise in relation to a student on a programme leading to registration with a professional body, consideration may need to be given to referral to consider the professional consequences via the Fitness to Practise Procedure once the consideration under this procedure has been completed.",
+   "anchor": "Appendix A"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct occurs in University assessment and involves an action which gains, attempts to gain, or assists others in gaining or attempting to gain, unfair academic advantage, or which puts others at an unfair disadvantage."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism involves taking the work of another person or source and using it as if it were one’s own."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism (or double submission) is resubmitting previously submitted work on one or more occasions (without proper acknowledgement) for separate blocks of credit and/or award."
+  },
+  {
+   "term": "Unauthorised GenAI use",
+   "ai_named": true,
+   "quote": "Using Generative Artificial Intelligence (Gen AI) or other computer-based process to generate work which is then submitted in whole or in part towards credit or award."
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice is a term used when students badly prepare a piece of work for assessment, for example the work may be referenced and cited, but not using the correct format or system."
+  }
+ ]
+}

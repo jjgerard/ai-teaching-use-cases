@@ -1,0 +1,46 @@
+{
+ "doc_id": "sheffield-d2-misconduct-procedure-202610",
+ "coder": "y-y8",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Automated authorship, involving the inappropriate/unsanctioned use of Artificial Intelligence.",
+   "anchor": "Forms of academic misconduct"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabrication: submitting work (for example, data, evidence or experimental results) which is untrue, made up, falsified or fabricated in any way.",
+   "anchor": "Forms of academic misconduct"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Plagiarism (either intentional or unintentional): using the ideas or work of another person and submitting them as the student’s own.",
+   "anchor": "Forms of academic misconduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

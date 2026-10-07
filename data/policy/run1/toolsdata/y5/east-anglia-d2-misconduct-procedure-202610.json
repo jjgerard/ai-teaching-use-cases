@@ -1,0 +1,66 @@
+{
+ "doc_id": "east-anglia-d2-misconduct-procedure-202610",
+ "coder": "y-y5",
+ "tools": [
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Unless your assessment briefing says you cannot, you can use websites that help your written English, such as through identifying where your writing can be made clearer or where your grammar or punctuation needs correcting.",
+   "anchor": "11. HOW YOU CAN AVOID PLAGIARISM AND COLLUSION"
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "warned",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "do be aware that these sites are rough tools - they are not always correct and sometimes they can lead to paraplagiarism (paraphrasing too closely).",
+   "anchor": "11. HOW YOU CAN AVOID PLAGIARISM AND COLLUSION"
+  },
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": false,
+   "quote": "Module organisers can make it possible for students to submit a draft submission for the purposes of screening, so that students can eliminate any problematic material before summative submission.",
+   "anchor": "17. USING TEXT-MATCHING SOFTWARE AND AI-SCREENING TOOLS TO DETECT PLAGIARISM"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "assessment_material",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Contract cheating may also involve a student uploading an assessment question to a website so that it can be answered, partly or wholly, by others or by artificial intelligence",
+   "anchor": "9. WHAT IS CONTRACT CHEATING?"
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Uploading a question in this way would also breach Regulation 16 (Intellectual property, data protection, and copyright) of the General Regulations for Students.",
+   "anchor": "9. WHAT IS CONTRACT CHEATING?"
+  },
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Uploading a question in this way would also breach Regulation 16 (Intellectual property, data protection, and copyright) of the General Regulations for Students.",
+   "anchor": "9. WHAT IS CONTRACT CHEATING?"
+  }
+ ]
+}

@@ -1,0 +1,325 @@
+{
+ "doc_id": "east-anglia-d2-misconduct-procedure-202610",
+ "coder": "y-y5",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "If you use artificial intelligence software to complete the work for you, that will be plagiarism.",
+   "anchor": "5. WHAT IS PLAGIARISM?"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Contract cheating occurs when your assessment has been completed for you partially or wholly by a third party or by artificial intelligence software.",
+   "anchor": "9. WHAT IS CONTRACT CHEATING?"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": true,
+   "quote": "without any form of falsification or fabrication (including fabrication by artificial intelligence software)",
+   "anchor": "5. WHAT IS PLAGIARISM?"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism occurs when, in an assessment, you use or reproduce material without any or without sufficient attribution to the original source.",
+   "anchor": "5. WHAT IS PLAGIARISM?"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism is when you reuse material that you’ve already submitted for a summative assessment here or at another institution",
+   "anchor": "6. WHAT IS SELF-PLAGIARISM?"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion is when you and someone else work together to produce work that you or they submit for an assessment.",
+   "anchor": "7. WHAT IS COLLUSION?"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": false,
+   "quote": "You must not use language-specific auto-complete or language prediction models for assessments in language modules",
+   "anchor": "8. COLLUSION USING SOFTWARE OR WEBSITES"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": false,
+   "quote": "Uploading a question in this way would also breach Regulation 16 (Intellectual property, data protection, and copyright) of the General Regulations for Students.",
+   "anchor": "9. WHAT IS CONTRACT CHEATING?"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Where a student is alleged to have committed plagiarism, collusion, or contract cheating in an online assessment, this policy will apply.",
+   "anchor": "10. ONLINE EXAMINATIONS"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "It’s still plagiarism even if it is unintentional, but your intention and motivation is relevant to what penalty, if any, we impose.",
+   "anchor": "5. WHAT IS PLAGIARISM?"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "It’s still plagiarism even if it is unintentional, but your intention and motivation is relevant to what penalty, if any, we impose.",
+   "anchor": "5. WHAT IS PLAGIARISM?"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "However, there is a difference between deliberate ignorance and trying but failing to understand.",
+   "anchor": "30. USING THE CLASSIFICATION GRID"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "We use text-matching software and tools that screen for the use of text written by artificial intelligence to help us find cases of plagiarism, collusion, or contract cheating on our undergraduate, postgraduate and taught doctoral assessments.",
+   "anchor": "17. USING TEXT-MATCHING SOFTWARE AND AI-SCREENING TOOLS TO DETECT PLAGIARISM"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "We use text-matching software and tools that screen for the use of text written by artificial intelligence to help us find cases of plagiarism, collusion, or contract cheating on our undergraduate, postgraduate and taught doctoral assessments.",
+   "anchor": "17. USING TEXT-MATCHING SOFTWARE AND AI-SCREENING TOOLS TO DETECT PLAGIARISM"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "However, the report produced by the software requires careful interpretation since appropriately referenced texts or common turns of phrase will be highlighted alongside potentially plagiarised materials.",
+   "anchor": "17. USING TEXT-MATCHING SOFTWARE AND AI-SCREENING TOOLS TO DETECT PLAGIARISM"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Screening tools are capable of detecting the use of artificial intelligence to write material. As with text-matching software, the results need interpretation.",
+   "anchor": "17. USING TEXT-MATCHING SOFTWARE AND AI-SCREENING TOOLS TO DETECT PLAGIARISM"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "restricted",
+   "ai_named": false,
+   "quote": "We do not use this software to screen any parts of the thesis or research work of postgraduate research students except where this is explicitly approved via a concession request",
+   "anchor": "17. USING TEXT-MATCHING SOFTWARE AND AI-SCREENING TOOLS TO DETECT PLAGIARISM"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "restricted",
+   "ai_named": false,
+   "quote": "We do not use this software to screen any parts of the thesis or research work of postgraduate research students except where this is explicitly approved via a concession request",
+   "anchor": "17. USING TEXT-MATCHING SOFTWARE AND AI-SCREENING TOOLS TO DETECT PLAGIARISM"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "If a marker suspects plagiarism and/or collusion and/or contract cheating, they should continue to mark the work as if they had no such suspicion",
+   "anchor": "15. WHAT THE MARKER SHOULD DO"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "They may ask you a series of questions to examine your understanding of the subject matter of the work you have submitted.",
+   "anchor": "23. AT THE MEETING"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Students who elect to use a proof-reader (whether a friend or a professional service) must retain copies of all draft material sent to the proof-reader, showing their original material.",
+   "anchor": "11. HOW YOU CAN AVOID PLAGIARISM AND COLLUSION"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "the first stage will be a referral to your school Plagiarism Officer.",
+   "anchor": "3. WHAT HAPPENS IF I HAVE BREACHED THIS POLICY?"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The Plagiarism Officer will receive the information from the marker or other referrer and make such further investigations as may be required.",
+   "anchor": "16. WHAT THE PLAGIARISM OFFICER SHOULD DO"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "they must call a virtual or in-person investigative meeting with you.",
+   "anchor": "20. OTHER CASES"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "You will have the opportunity to respond to the allegations and to raise any mitigating circumstances.",
+   "anchor": "23. AT THE MEETING"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If you just do not turn up, then the meeting will be ended. However, the Plagiarism Officer will still deal with your case.",
+   "anchor": "21. PREPARING FOR THE INVESTIGATIVE MEETING"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "If you want, you can bring a Companion with you to the meeting.",
+   "anchor": "22. BRINGING SOMEONE WITH YOU"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A student may appeal against a penalty (i.e. the level and consequences) applied under paragraph 32",
+   "anchor": "APPEALS"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "should do so by completing a Stage One Academic Appeal form within 10 working days of the notification of the outcome setting out the grounds for the appeal.",
+   "anchor": "APPEALS"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The Plagiarism Officer(s) will then decide on the balance of probabilities whether or not you have breached this policy.",
+   "anchor": "23. AT THE MEETING"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "must keep a record of warnings in respect of formative work, in case of further breaches.",
+   "anchor": "29. RECORD KEEPING"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "then they will apply the educative penalty outlined at 32.",
+   "anchor": "19. CASES ASSESSED AS BEING AT LOW LEVEL"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "Your assignment will not be subject to a mark penalty, but the Plagiarism Officer will issue an informal warning which will be noted on your student record.",
+   "anchor": "32. THE OUTCOMES TO BE APPLIED"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "The Plagiarism Officer must give you a mark which is based on the work excluding that which has been identified as plagiarism or collusion",
+   "anchor": "32. THE OUTCOMES TO BE APPLIED"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "It gave the students a mark of zero for the work, and were not allowed to reassess, meaning that they failed the module.",
+   "anchor": "Case study C"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "It gave the students a mark of zero for the work, and were not allowed to reassess, meaning that they failed the module.",
+   "anchor": "Case study C"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "the Plagiarism Officer may recommend to the Board of Examiners that you be offered a further reassessment attempt",
+   "anchor": "32. THE OUTCOMES TO BE APPLIED"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "reassessment where their mark would be capped so that the maximum grade they could achieve would be the pass mark.",
+   "anchor": "Case study A"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "The most serious cases can result in referral to the Senate Student Discipline Committee (SSDC) which has wide-ranging powers including temporary suspension or permanent expulsion.",
+   "anchor": "3. WHAT HAPPENS IF I HAVE BREACHED THIS POLICY?"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "the Senate has the authority to reduce the classification of a conferred Degree, or to revoke a Degree, Diploma or Certificate or other distinction conferred by the University.",
+   "anchor": "2. TO WHOM DOES THIS POLICY APPLY?"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "the Senate has the authority to reduce the classification of a conferred Degree, or to revoke a Degree, Diploma or Certificate or other distinction conferred by the University.",
+   "anchor": "2. TO WHOM DOES THIS POLICY APPLY?"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "The student has previously received a warning about plagiarism and/or collusion in a piece of work",
+   "anchor": "30. USING THE CLASSIFICATION GRID"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The Plagiarism Officer(s) must consider the following criteria which are an aid to decision-making.",
+   "anchor": "30. USING THE CLASSIFICATION GRID"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "Students on courses leading to a profession may also find that they are held to be unsuited to professional practice, meaning that they have to leave their course and may not be allowed to do a similar course elsewhere.",
+   "anchor": "3. WHAT HAPPENS IF I HAVE BREACHED THIS POLICY?"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism occurs when, in an assessment, you use or reproduce material without any or without sufficient attribution to the original source."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism is when you reuse material that you’ve already submitted for a summative assessment here or at another institution"
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion is when you and someone else work together to produce work that you or they submit for an assessment."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": true,
+   "quote": "Contract cheating occurs when your assessment has been completed for you partially or wholly by a third party or by artificial intelligence software."
+  },
+  {
+   "term": "Paraplagiarism",
+   "ai_named": false,
+   "quote": "paraplagiarism (paraphrasing too closely)"
+  },
+  {
+   "term": "Mitigating circumstance",
+   "ai_named": false,
+   "quote": "A mitigating circumstance is one that makes the breach less serious than it would otherwise be, and is related to your personal circumstances."
+  },
+  {
+   "term": "Proof-reading",
+   "ai_named": false,
+   "quote": "Proof-reading is the systematic checking for and identification of errors in spelling, punctuation, grammar and sentence construction, formatting and layout in the text of a student script."
+  }
+ ]
+}

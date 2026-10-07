@@ -1,0 +1,120 @@
+{
+ "doc_id": "east-anglia-d2-misconduct-procedure-202610",
+ "coder": "y-y5",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Note that while you are permitted to use artificial intelligence software to help you understand material and how that can be expressed, you are not allowed to use that software to complete the assessment (or any part of it) for you.",
+   "anchor": "5. WHAT IS PLAGIARISM?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "You must not use language-specific auto-complete or language prediction models for assessments in language modules",
+   "anchor": "8. COLLUSION USING SOFTWARE OR WEBSITES",
+   "tier": "language modules"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Contract cheating may also involve a student uploading an assessment question to a website so that it can be answered, partly or wholly, by others or by artificial intelligence",
+   "anchor": "9. WHAT IS CONTRACT CHEATING?",
+   "tier": "uploading question"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Using artificial intelligence software to write your work. You may only use it as research to help understand material and to demonstrate different ways of writing, and ensure you cite it",
+   "anchor": "11. HOW YOU CAN AVOID PLAGIARISM AND COLLUSION"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Using artificial intelligence software to write your work. You may only use it as research to help understand material and to demonstrate different ways of writing, and ensure you cite it",
+   "anchor": "11. HOW YOU CAN AVOID PLAGIARISM AND COLLUSION"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Unless your assessment briefing says you cannot, you can use websites that help your written English, such as through identifying where your writing can be made clearer or where your grammar or punctuation needs correcting.",
+   "anchor": "11. HOW YOU CAN AVOID PLAGIARISM AND COLLUSION"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "When you submit work, it is on the basis that it is your work, and the product of your own intellectual efforts without any form of falsification or fabrication (including fabrication by artificial intelligence software).",
+   "anchor": "5. WHAT IS PLAGIARISM?"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "if you copied another student’s work and they knew you might do that, this would be plagiarism by you, and collusion by you both.",
+   "anchor": "7. WHAT IS COLLUSION?"
+  }
+ ],
+ "default_when_silent": {
+  "value": "use_by_use_rule",
+  "quote": "Unless your assessment briefing says you cannot, you can use websites that help your written English, such as through identifying where your writing can be made clearer or where your grammar or punctuation needs correcting."
+ },
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "In other modules, the assessment brief may specifically prohibit the use of certain technologies where this would also defeat the purpose of the assessment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Using artificial intelligence software to write your work. You may only use it as research to help understand material and to demonstrate different ways of writing, and ensure you cite it"
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "You should instead consider it as a research tool, and you should ensure that you cite its use by inserting a footnote or endnote which acknowledges that you used such software and what it helped you with."
+   },
+   {
+    "value": "how_used",
+    "quote": "You should instead consider it as a research tool, and you should ensure that you cite its use by inserting a footnote or endnote which acknowledges that you used such software and what it helped you with."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "You should instead consider it as a research tool, and you should ensure that you cite its use by inserting a footnote or endnote which acknowledges that you used such software and what it helped you with."
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

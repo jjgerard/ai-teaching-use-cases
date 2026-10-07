@@ -1,0 +1,70 @@
+{
+ "doc_id": "roehampton-d2-misconduct-procedure-202610",
+ "coder": "y-y8",
+ "uses": [
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Students shall not claim work or ideas that have been generated through Artificial Intelligence as their own",
+   "anchor": "Code of Conduct - Types of Academic Misconduct"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "where AI usage is permitted under the guidelines of the relevant assessment, its usage must be fully cited in accordance with academic best practice on referencing.",
+   "anchor": "Code of Conduct - Types of Academic Misconduct"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsification: inventing or altering facts, data, quotations or references without acknowledgement;",
+   "anchor": "Code of Conduct - Types of Academic Misconduct"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Plagiarism: presenting another person’s published or unpublished work in any quantity without adequately identifying it and citing its source;",
+   "anchor": "Code of Conduct - Types of Academic Misconduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "where AI usage is permitted under the guidelines of the relevant assessment"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "where AI usage is permitted under the guidelines of the relevant assessment, its usage must be fully cited in accordance with academic best practice on referencing."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "its usage must be fully cited in accordance with academic best practice on referencing."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Improper use of AI: Students shall not claim work or ideas that have been generated through Artificial Intelligence as their own; where AI usage is permitted under the guidelines of the relevant assessment, its usage must be fully cited in accordance with academic best practice on referencing."
+  },
+  "exempt": []
+ }
+}

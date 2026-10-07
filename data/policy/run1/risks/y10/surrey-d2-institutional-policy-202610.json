@@ -1,0 +1,132 @@
+{
+ "doc_id": "surrey-d2-institutional-policy-202610",
+ "coder": "y-y10",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "GenAI tools are not always going to get it right and cannot be held accountable.",
+   "anchor": "Accountable"
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Bias awareness: Recognising and mitigating biases in GenAI models helps prevent discrimination and ensures fair outcomes.",
+   "anchor": "Considered"
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "To reduce the risk of data breaches and misuse, personal, confidential, and commercially sensitive information (including Intellectual Property) must NOT be entered into GenAI tools",
+   "anchor": "Considered"
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Recognising the high energy and water demands of AI technologies, the University will actively assess and report on the environmental impact of AI tools and services",
+   "anchor": "Sustainability"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Take responsibility for GenAI-assisted work; apply human oversight and verify outputs.",
+   "anchor": "Accountable"
+  },
+  {
+   "duty": "human_oversight",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Take responsibility for GenAI-assisted work; apply human oversight and verify outputs.",
+   "anchor": "Accountable"
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "It is essential to verify GenAI-generated results and understand the limitations of the tools being used.",
+   "anchor": "Accountable"
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "staff",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Any AI generated code for use within approved systems needs to be reviewed in line with established code review practices before deployment.",
+   "anchor": "Approved tools"
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "We encourage the informed and responsible use of GenAI.",
+   "anchor": "Purpose"
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "GenAI technologies must be deployed responsibly and safely, with clear consideration of their societal and environmental impact.",
+   "anchor": "Ensuring Responsible and Sustainable Deployment"
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "All use of GenAI tools must comply with applicable UK Data Protection legislation and University policies.",
+   "anchor": "Data protection & privacy"
+  },
+  {
+   "duty": "assess_risk_before_use",
+   "bearer": "staff",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "If you wish to propose a new tool or enable a GenAI feature for University use, please ensure it first goes through the appropriate assessment process — including a Vendor Risk Assessment (VRA) and a Data Protection Impact Assessment (DPIA)",
+   "anchor": "Approved tools"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "All users must read and understand this procedure before engaging with any form of GenAI during University work.",
+   "anchor": "Purpose"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "Staff will be supported through training and awareness programmes to remain informed about current developments in GenAI ethics, safety, and regulation",
+   "anchor": "Fostering Lifelong Education and Adaptability"
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "This procedure will be reviewed annually, or sooner in response to regulatory changes, to remain aligned with emerging GenAI advancements and ethical considerations.",
+   "anchor": "Review"
+  },
+  {
+   "duty": "ensure_equitable_access",
+   "bearer": "staff",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Teams engaged in GenAI related work must foster equitable participation to ensure GenAI tools and systems are fair, representative, and beneficial, avoid reinforcing bias or discrimination, and be accessible to all.",
+   "anchor": "Promoting Inclusion & Diversity"
+  }
+ ]
+}

@@ -1,0 +1,184 @@
+{
+ "doc_id": "loughborough-d2-misconduct-procedure-202610",
+ "coder": "y-y18",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Unauthorised or unacknowledged use of Generative Artificial Intelligence(GenAI) or other computer assistance – this includes any unauthorised or unacknowledged use of GenAI, paraphrasing/translation software, or other computer assistance such that the work submitted, including referencing, cannot be considered wholly the student’s own.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Unauthorised or unacknowledged use of Generative Artificial Intelligence(GenAI) or other computer assistance – this includes any unauthorised or unacknowledged use of GenAI, paraphrasing/translation software, or other computer assistance such that the work submitted, including referencing, cannot be considered wholly the student’s own.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Plagiarism – presenting for assessment someone else’s work or ideas as the student’s own.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism – submitting for assessment the same work that the student has previously submitted at Loughborough, or which has contributed to an award at any other institution, unless specific provision for this is made in the assessment brief.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating – engaging a third party to complete assessed work for a student who then submits it as their own.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion – working with another student on an assessment which is intended to be the student’s own work.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Assisting another student to gain an advantage by unfair means or receiving such assistance, for example by impersonation",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Obtaining and/or distributing a copy of another student’s work without their permission.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsifying or fabricating data, evidence, or experimental results in assessed work.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Failing to comply with the rules for Written Examination Candidates (in Regulation VII), including possession of prohibited materials or technology during an examination, class-test, or equivalent.",
+   "anchor": "What is academic misconduct?"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Any circumstances which appear to suggest that a candidate has committed a minor act of academic misconduct will be reported to the Chair and Secretary of the Minor Academic Misconduct Committee for the School responsible for the module in question",
+   "anchor": "Minor offences"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The candidate will be invited to admit or deny the allegation, and permitted to defend themselves in writing and/or in person, accompanied by an individual of their own choosing.",
+   "anchor": "Minor offences"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Candidates may submit a written defence and any other written evidence, attend the Committee meeting in person accompanied by an individual of their own choosing and call witnesses.",
+   "anchor": "Major offences"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The candidate will be invited to admit or deny the allegation, and permitted to defend themselves in writing and/or in person, accompanied by an individual of their own choosing.",
+   "anchor": "Minor offences"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Students found guilty of either minor or major offences shall have the right of appeal against the decision taken and/or penalties imposed by the Minor Academic Misconduct Committee or the University’s Academic Misconduct Committee.",
+   "anchor": "Appeals"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Appeals must normally be submitted within 10 working days of the date on which the student was informed of the outcome of the academic misconduct meeting.",
+   "anchor": "Making an appeal"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "The issue of a formal reprimand.",
+   "anchor": "Potential penalties for academic misconduct"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "The reduction by any amount of any or all of the marks obtained by the candidate in any module in the current part of the candidate's programme.",
+   "anchor": "Potential penalties for academic misconduct"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "To set a cap on any mark achieved by the candidate on reassessment in any module in the current part of the candidate's programme.",
+   "anchor": "Potential penalties for academic misconduct"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "The immediate termination of the candidate's studies.",
+   "anchor": "Potential penalties for academic misconduct"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "In exceptional circumstances, where a student is found guilty of a first offence of academic misconduct in relation to a module undertaken on a second attempt basis, the Committee may permit the student to resubmit the work in which academic misconduct was found, at the next available opportunity",
+   "anchor": "Potential penalties for academic misconduct"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "A candidate suspected of committing a minor offence will automatically be referred for action under the major offence procedure if s/he has previously been found guilty of any offence of academic misconduct, or is suspected of an offence in more than one assessed element of his/her programme.",
+   "anchor": "Definitions"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Suspected incidents of academic misconduct will be defined as minor or major depending on their seriousness.",
+   "anchor": "Definitions"
+  },
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Having taken into account the evidence and the defence, if any, the Minor Academic Misconduct Committee will decide whether the candidate is guilty of the offence, and if so, what penalty should be imposed.",
+   "anchor": "Minor offences"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "The University defines academic misconduct as any action by a student which gives or has the potential to give them or any other student an unfair advantage in any examination or assessment"
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism – presenting for assessment someone else’s work or ideas as the student’s own."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism – submitting for assessment the same work that the student has previously submitted at Loughborough, or which has contributed to an award at any other institution, unless specific provision for this is made in the assessment brief."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating – engaging a third party to complete assessed work for a student who then submits it as their own."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion – working with another student on an assessment which is intended to be the student’s own work."
+  }
+ ]
+}

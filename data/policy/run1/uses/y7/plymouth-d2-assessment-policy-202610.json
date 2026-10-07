@@ -1,0 +1,77 @@
+{
+ "doc_id": "plymouth-d2-assessment-policy-202610",
+ "coder": "y-y7",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can be useful in brainstorming ideas, approaches, and structures to your work.",
+   "anchor": "What does this mean for me?"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools can be valuable for helping set out the parameters of arguments and providing examples of how to structure different pieces of work",
+   "anchor": "What can AI be useful for?"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can also be used to generate example code and also explore how other people's code works",
+   "anchor": "What can AI be useful for?"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can be used for proof-reading and checking for typos",
+   "anchor": "What can AI be useful for?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Your submitted work must NOT have been generated using AI tools only, unless this is explicitly asked for in the assessment briefing.",
+   "anchor": "What does this mean for me?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Any exceptions to this will be clearly stated in the coursework briefing."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "If you are in any doubt, speak to the member of staff who is responsible for setting that piece of assessed work."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "Faculty of Science and Engineering Guidelines for 2023-24 academic year"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

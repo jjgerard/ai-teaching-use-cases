@@ -1,0 +1,60 @@
+{
+ "doc_id": "surrey-d2-institutional-policy-202610",
+ "coder": "y-y10",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Plagiarism or submitting AI generated work as your own without proper attribution.",
+   "anchor": "Expected behaviours and example misuse cases"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Plagiarism or submitting AI generated work as your own without proper attribution.",
+   "anchor": "Expected behaviours and example misuse cases"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": true,
+   "quote": "Misrepresenting AI generated content as wholly human authored.",
+   "anchor": "Expected behaviours and example misuse cases"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Using personal devices or personal accounts to conduct University business via GenAI tools without explicit approval is prohibited.",
+   "anchor": "Expected behaviours and example misuse cases"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": true,
+   "quote": "personal, confidential, and commercially sensitive information (including Intellectual Property) must NOT be entered into GenAI tools—internal or external— unless they are approved by IT Services and meet the organisation’s security and compliance requirements.",
+   "anchor": "Protect Information"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Breaches of this procedure may result in disciplinary action in line with University procedures.",
+   "anchor": "Compliance"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Generative AI",
+   "ai_named": true,
+   "quote": "An AI system, tool, or facility that generates new outputs in a range of possible formats such as text, images, or sounds"
+  },
+  {
+   "term": "Public/Open GenAI",
+   "ai_named": true,
+   "quote": "AI services available via the internet that are not hosted or controlled by the University."
+  }
+ ]
+}

@@ -1,0 +1,303 @@
+{
+ "doc_id": "middlesex-london-d2-misconduct-procedure-202610",
+ "coder": "y-y18",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Unauthorised use of artificial intelligence in a piece of work submitted for grading.",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "It includes, but is not limited to, plagiarism, commissioning or buying work from a third party or copying the work of others, unauthorised and/or unacknowledged use of artificial intelligence in a piece of work submitted for grading.",
+   "anchor": "Introduction"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Plagiarism occurs when a student misrepresents, as their own work, work in the public domain, written or otherwise, of any other person (including another student) or of any institution.",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabricating or falsifying data to include presenting work that has not taken place.",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "Trying to deceive specialist text checking software (eg Turnitin) by, for example, using text replacement tools; images in documents instead of text; submitting documents in an alternative format than that stipulated by the assessor.",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Purchasing or commissioning is either attempting to purchase or purchasing work for an assessment including, for example from the internet, or attempting to commission, or commissioning someone else to complete an assessment.",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Copying occurs when a student consciously presents as their own work material copied directly from a fellow student or other person without their knowledge.",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion occurs when, unless with official approval (e.g. in the case of group projects), two or more students consciously collaborate in the preparation and production of work which is ultimately submitted by each in an identical or substantially similar form",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Being party to any arrangement whereby a person other than the candidate represents, or intends to represent, the candidate in an examination or test.",
+   "anchor": "H2"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self plagiarism is when a student submits the same piece of work, or substantial part thereof, for assessment more than once for graded credit without acknowledging what they are doing by citing the original content.",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Breaching the Examination Room Rules for Candidates (Section K).",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "This procedure is concerned with the actions of students and not their intentions. An excuse of “not intending to” is not an acceptable defence.",
+   "anchor": "Introduction"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Cases of plagiarism at all levels due to poor referencing, paraphrasing and unintentional mistakes in the form and frequency of citations in text where deception does not appear to be the intention will be considered as Poor Academic Practice and marked accordingly.",
+   "anchor": "Principles"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "The University recognises that undergraduate students (FHEQ Levels 3 & 4) who are new to Higher Education may need some time to learn how to acknowledge sources properly.",
+   "anchor": "Principles"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "Where Turnitin indicates possible plagiarism, Examiners and Academic Misconduct Officers must still exercise academic judgement in determining whether plagiarism has taken place",
+   "anchor": "Principles"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Interpret reports from plagiarism software to determine whether work should be referred or marked down for over reliance on external sources",
+   "anchor": "Roles and Responsibilities"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The University treats the decision as to whether minor errors, poor academic practice or unfair and/or dishonest academic misconduct has taken place as a matter for academic judgement",
+   "anchor": "Principles"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Where appropriate a Viva should be conducted to demonstrate the student’s understanding of the subject matter.",
+   "anchor": "Principles"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "summary of any informal interview with the student regarding the incident",
+   "anchor": "Referral to Academic Registry"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "If the AIT confirms Category B – D misconduct the case should be referred to the Academic Misconduct Team for investigation (see C below).",
+   "anchor": "Initial Review by Academic Integrity Tutor (AIT)"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "As soon as reasonably practicable following receipt of any allegation and supporting documentation, the Academic Misconduct Team shall decide if there are reasonable grounds at first sight to suggest the candidate contravened assessment regulations.",
+   "anchor": "Procedure for investigation by the Academic Misconduct Team"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "To request a written statement to explain how the allegation may have arisen, stating any mitigating circumstances which may be taken into account when considering a penalty",
+   "anchor": "Procedure for investigation by the Academic Misconduct Team"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "in person at a Panel of Investigation hearing (which may be held electronically).",
+   "anchor": "Consideration of Student Response"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "The meeting may proceed in the absence of a student who has either a) indicated an intention to attend and does not attend, b) never responded to communications; or c) indicated they do not wish to attend.",
+   "anchor": "Panel to investigate the allegation of academic misconduct"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student shall have the right to be accompanied by a companion, who will be a member of the University (ie a registered student, a staff member or a member of staff of MDXSU) and to submit oral or written evidence to the meeting.",
+   "anchor": "Panel to investigate the allegation of academic misconduct"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A student may appeal against the decision to impose a penalty.",
+   "anchor": "Outcome of an Investigation"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "and must be received by the Secretary to Academic Board within 10 working days of the decision being issued.",
+   "anchor": "Outcome of an Investigation"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "A finding that academic misconduct has occurred is a judgement based on available evidence, the standard of proof being the balance of probability.",
+   "anchor": "Introduction"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Keep records of all academic offences on Student Records",
+   "anchor": "Roles and Responsibilities"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Therefore, it operates an ‘academic writing induction period’ during which the focus of the University’s response to signs of academic misconduct is to educate students in regard to appropriate academic practice and academic integrity rather than to penalise unacceptable academic practice.",
+   "anchor": "Principles"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "Warning regarding penalties for Academic misconduct offences.",
+   "anchor": "Categories, Actions and Penalties"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Work will be marked down for an over-reliance on external sources or for being overly derivative.",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Fail mark awarded (score of 0%) with resit opportunity. Module mark for resit capped at 16.",
+   "anchor": "H4"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Research students will be required to resubmit a revised proposal/transfer document.",
+   "anchor": "Categories, Actions and Penalties"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Failure in the module. A fail grade of P (Proven Academic Misconduct) will be recorded, with no reassessment allowed",
+   "anchor": "Categories, Actions and Penalties"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Where the penalty involves awarding a lower qualification, expulsion or revoking an award, the Secretary to Academic Board will",
+   "anchor": "Procedures"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "Where the penalty involves awarding a lower qualification, expulsion or revoking an award, the Secretary to Academic Board will",
+   "anchor": "Procedures"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "The assessment component mark/grade will be capped at the minimum pass mark/grade.",
+   "anchor": "Categories, Actions and Penalties"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Where a student has already graduated, the outcome may result in the revoking of a qualification already awarded.",
+   "anchor": "Retrospective allegations of Academic Misconduct"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "(For Category B or C, where there is no right of reassessment, or is a repeat offence, Category C1 or D may apply)",
+   "anchor": "H1"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "the penalties applied will vary according to the individual case and the seriousness of the offence.",
+   "anchor": "Principles"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "Where students are registered on awards which lead to professional registration and there is Fitness to Practise requirements, a major offence may be referred to an appropriate Fitness to Practice Committee for consideration.",
+   "anchor": "Introduction"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct (cheating and unethical practices) in assessments is where a student gains, seeks, attempts or intends to gain advantage in relation to assessments or to aid another to gain such an advantage by unfair or improper means."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion occurs when, unless with official approval (e.g. in the case of group projects), two or more students consciously collaborate in the preparation and production of work"
+  },
+  {
+   "term": "Copying",
+   "ai_named": false,
+   "quote": "Copying occurs when a student consciously presents as their own work material copied directly from a fellow student or other person without their knowledge."
+  },
+  {
+   "term": "Self plagiarism",
+   "ai_named": false,
+   "quote": "Self plagiarism is when a student submits the same piece of work, or substantial part thereof, for assessment more than once for graded credit without acknowledging what they are doing by citing the original content."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism occurs when a student misrepresents, as their own work, work in the public domain, written or otherwise, of any other person (including another student) or of any institution."
+  },
+  {
+   "term": "Fake referencing",
+   "ai_named": false,
+   "quote": "Fake Referencing: To make up quotations and/or supply fake citations."
+  }
+ ]
+}

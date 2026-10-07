@@ -1,0 +1,266 @@
+{
+ "doc_id": "lincoln-d2-misconduct-procedure-202610",
+ "coder": "y-y7",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "The unauthorised use of AI, in whole or in part, to mean - the use of AI tools or outputs in academic work without explicit, documented permission from the relevant academic staff.",
+   "anchor": "2.1.viii Unauthorised use of artificial intelligence (AI)"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "submitting AI-generated content as original work (including generating substantive text, code or images)",
+   "anchor": "2.1.viii Unauthorised use of artificial intelligence (AI)"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "using AI to paraphrase or translate without disclosure",
+   "anchor": "2.1.viii Unauthorised use of artificial intelligence (AI)"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Inclusion of data or evidence which has been invented, falsified, improperly altered or obtained by unfair means.",
+   "anchor": "2.1.iv Misleading material"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract Cheating: The outsourcing of assessment work, in whole or in part, to any third party",
+   "anchor": "2.1.vi"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism, which is passing off another person’s thoughts, ideas, writings, or images as one’s own in assessed work without appropriate acknowledgement.",
+   "anchor": "2.1.ii"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism, which is a student using their own work that has previously been submitted for assessment",
+   "anchor": "2.1.iii"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Cheating: which is, any irregular behaviour during live assessment such as unauthorised possession of notes",
+   "anchor": "2.1.v"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion, which is submitting work for assessment which has been done in collaboration with another person but presenting it as entirely one’s own",
+   "anchor": "2.1.i"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": false,
+   "quote": "This also includes improper handling of privileged or private information on individuals collected during the research.",
+   "anchor": "2.1.vii"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "The University applies the principle of strict liability to academic offences: this means a student’s intentions will not be considered relevant when judging whether they have committed an offence.",
+   "anchor": "1.2"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Whilst a student’s intentions are not relevant to whether they have committed the offence, they could be relevant when an adjudicator considers application of penalties for proven offences.",
+   "anchor": "1.2"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Such suspicion may arise during the marking of a student’s work, review of work by an external examiner, exam invigilation, use of a plagiarism checking tool, or following a report made by another student or third-party.",
+   "anchor": "3.1"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Such suspicion may arise during the marking of a student’s work, review of work by an external examiner, exam invigilation, use of a plagiarism checking tool, or following a report made by another student or third-party.",
+   "anchor": "3.1"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The investigator will ask the student questions about the allegation, any defence or evidence the student presents, the assessed work or techniques used to complete it.",
+   "anchor": "4.10"
+  },
+  {
+   "method": "forensic_or_specialist_analysis",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "where an investigator determines specialist input into the investigatory interview is required",
+   "anchor": "4.11"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The Investigator will give written notice that an alleged academic offence is to be investigated",
+   "anchor": "4.1"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "the Head of School (or nominee) shall arrange for all documentation as directed by the evidence checklist to be submitted to the College Academic Offences Committee",
+   "anchor": "4.14"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student will be invited to give their defence, and to provide appropriate evidence, including presenting any mitigating factors;",
+   "anchor": "4.10"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "In cases where a meeting takes place:",
+   "anchor": "4.2"
+  },
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "The informal procedure is intended to be educational and supportive.",
+   "anchor": "Informal Procedure"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If, after being given reasonable notice and opportunity to respond in writing or attend an investigatory interview, the student does not attend/respond, the Head of School (or nominee) will determine whether a sufficient case of an academic offence exists based on the evidence available.",
+   "anchor": "4.5"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student will be informed of their right to be accompanied to any investigatory meetings by a supporter and signposted to Student Support and the Students’ Union Advice Centre for advice and support.",
+   "anchor": "4.2.i"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A student may submit an appeal within 10 working days of being notified of any finding or penalty under either of the informal or formal procedures.",
+   "anchor": "7 Appeals"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "A student may submit an appeal within 10 working days of being notified of any finding or penalty under either of the informal or formal procedures.",
+   "anchor": "7 Appeals"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The standard of proof required under these regulations is the balance of probabilities.",
+   "anchor": "5.4"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "The informal procedure is intended to be educational and supportive.",
+   "anchor": "Informal Procedure"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "Warn the student against any future academic offence but impose no other penalty.",
+   "anchor": "6.1"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Record a mark of zero for the piece of assessed work or examination only.",
+   "anchor": "6.1"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Record a mark of zero for every assessment item within the module.",
+   "anchor": "6.1"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "to reduce by a single classification the final award to be conferred at the conclusion of the programme",
+   "anchor": "6.1"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Reassessment entitlements, as appropriate, will be granted at the next available opportunity by the Board of Examiners.",
+   "anchor": "4.8"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Continuity: Repeat academic offences should generally be dealt with more severely than a first offence.",
+   "anchor": "5.5.i"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Where allegations are proven, penalties will be applied with the Committee having taken into consideration all the evidence presented including any mitigating and aggravating factors which might mean either a more lenient or severe penalty should be applied.",
+   "anchor": "5.5"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "a student against whom an academic offence is proven may also be subject to action under the Student Misconduct Regulations and/or the Fitness to Practise Regulations.",
+   "anchor": "6.5"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Unauthorised use of AI",
+   "ai_named": true,
+   "quote": "The unauthorised use of AI, in whole or in part, to mean - the use of AI tools or outputs in academic work without explicit, documented permission from the relevant academic staff."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism, which is passing off another person’s thoughts, ideas, writings, or images as one’s own in assessed work without appropriate acknowledgement."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion, which is submitting work for assessment which has been done in collaboration with another person but presenting it as entirely one’s own"
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism, which is a student using their own work that has previously been submitted for assessment"
+  },
+  {
+   "term": "Misleading material",
+   "ai_named": false,
+   "quote": "Inclusion of data or evidence which has been invented, falsified, improperly altered or obtained by unfair means."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract Cheating: The outsourcing of assessment work, in whole or in part, to any third party"
+  },
+  {
+   "term": "Formative assessment",
+   "ai_named": false,
+   "quote": "Formative assessment is used to monitor and evaluate how students are learning as they work through a module or programme of study."
+  }
+ ]
+}

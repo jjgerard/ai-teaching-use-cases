@@ -1,0 +1,116 @@
+{
+ "doc_id": "lincoln-d2-misconduct-procedure-202610",
+ "coder": "y-y7",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "submitting AI-generated content as original work (including generating substantive text, code or images)",
+   "anchor": "2.1.viii Unauthorised use of artificial intelligence (AI)"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "submitting AI-generated content as original work (including generating substantive text, code or images)",
+   "anchor": "2.1.viii Unauthorised use of artificial intelligence (AI)"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "submitting AI-generated content as original work (including generating substantive text, code or images)",
+   "anchor": "2.1.viii Unauthorised use of artificial intelligence (AI)"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "using AI to paraphrase or translate without disclosure",
+   "anchor": "2.1.viii Unauthorised use of artificial intelligence (AI)"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "using AI to paraphrase or translate without disclosure",
+   "anchor": "2.1.viii Unauthorised use of artificial intelligence (AI)"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "generation of references or relying on AI to complete assessments in ways that contravene assessment guidelines",
+   "anchor": "2.1.viii Unauthorised use of artificial intelligence (AI)"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Misleading material: Inclusion of data or evidence which has been invented, falsified, improperly altered or obtained by unfair means.",
+   "anchor": "2 Academic Offence Definitions"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "research_or_thesis",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Misconduct in Research: The fabrication or falsification of data",
+   "anchor": "2 Academic Offence Definitions"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Students are responsible for ensuring that any AI use complies with module-specific instructions and University policies."
+  },
+  {
+   "value": "institution_wide",
+   "quote": "Supplementary to these regulations, the University advises reading the AI Academic Offence guidance document"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "using AI to paraphrase or translate without disclosure"
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "using AI to paraphrase or translate without disclosure"
+  },
+  "exempt": []
+ }
+}

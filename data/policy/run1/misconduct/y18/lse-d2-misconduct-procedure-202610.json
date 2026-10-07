@@ -1,0 +1,268 @@
+{
+ "doc_id": "lse-d2-misconduct-procedure-202610",
+ "coder": "y-y18",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "The unauthorised use of Artificial Intelligence software to help with any part of a student’s assessment is strictly prohibited.",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Infringing these requirements, or passing off the work, content or ideas of others as the student’s own work, whether deliberately or not, is plagiarism and may constitute a breach of these regulations.",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Infringing these requirements, or passing off the work, content or ideas of others as the student’s own work, whether deliberately or not, is plagiarism and may constitute a breach of these regulations.",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "If the student has not been given permission, such work will be considered to be the product of unauthorised collusion regardless of whether",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Submitting the same work, or part of that work (either formative or summative) twice, by copying directly or by paraphrasing it, will be regarded as an integrity breach of",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "any attempt to solicit answers to an assessment through a third party, which includes Artificial Intelligence software will be deemed as academic misconduct, even where such an attempt is unsuccessful and/or where there is no evidence of the material from such a third party being used in the assessment in question.",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "falsification of data, e.g. the presentation of any quantitative or qualitative data, based on work purporting to have been carried out by the student, but which has been bought or invented by the student or altered, copied or obtained by unfair means;",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "using, or attempting to use software or information stored electronically in any form that is not expressly allowed by the department;",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "impersonating or trying to impersonate a candidate, or attempting to procure a third party to impersonate oneself;",
+   "anchor": "What is an assessment integrity breach?"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Infringing these requirements, or passing off the work, content or ideas of others as the student’s own work, whether deliberately or not, is plagiarism and may constitute a breach of these regulations.",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Such a warning will only be issued where a student appears to have breached the rules but has seemingly not done so deliberately and/or has not gained a material advantage",
+   "anchor": "Procedure under these Regulations"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "It will be open to the department to run all submissions through text matching software (for example Turnitin).",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "A department will normally use text matching software and/or their academic judgement to determine the plagiarised material to be excluded.",
+   "anchor": "Penalties for minor assessment integrity breaches"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "A department will normally use text matching software and/or their academic judgement to determine the plagiarised material to be excluded.",
+   "anchor": "Penalties for minor assessment integrity breaches"
+  },
+  {
+   "method": "forensic_or_specialist_analysis",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Independent expert evidence may be obtained and introduced by either party, as long as it is received by the secretary at least five working days before the Panel reconvenes.",
+   "anchor": "Assessment Integrity Panel hearings"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "The department must determine if the allegation is major or minor and whether it is appropriate to deal with the allegation at a local level or if it must be referred to an Assessment Integrity Panel.",
+   "anchor": "Procedure under these Regulations"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The department responsible for the assessment in question will normally be responsible for conducting an investigation into any allegations.",
+   "anchor": "Procedure under these Regulations"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student has the right to respond to any allegation and seek impartial advice from the Students’ Union Advice Team.",
+   "anchor": "Procedure under these Regulations"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "invite the student to attend the hearing of the allegation and to make representations, present evidence and question any witnesses;",
+   "anchor": "Preparation for an Assessment Integrity Panel hearing"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "The validity of the proceedings of the Panel will not be affected by the unwillingness of the student, or other person acting with or for them, to reply to questions, orally or in writing, or to appear before the Panel.",
+   "anchor": "Assessment Integrity Panel hearings"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student may be accompanied by a representative. This should normally be an officer of the Students' Union Advice Team.",
+   "anchor": "Assessment Integrity Panel hearings"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Where a Panel has decided that a student has breached these regulations, the student will have the right to appeal against that decision on one or more of the following grounds:",
+   "anchor": "The Assessment Integrity Panel's decision and subsequent action"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Any such appeal must be received by the secretary within ten working days of the date of the written confirmation of the Panel’s decision sent under Regulation 56.",
+   "anchor": "The Assessment Integrity Panel's decision and subsequent action"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "has been proved to the satisfaction of a majority of Panel members, on the balance of the evidence presented to them, and",
+   "anchor": "The Assessment Integrity Panel"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "The department will keep a formal record of the interview which may be referred to by a Panel if one is convened.",
+   "anchor": "Procedure under these Regulations"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "The SRT can issue a warning note to a student to caution their behaviour without the need to refer the matter to the relevant department.",
+   "anchor": "Procedure under these Regulations"
+  },
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "The SRT will flag the issue(s) to the student in order to prevent them from committing a serious breach of these regulations in any future assessment.",
+   "anchor": "Procedure under these Regulations"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "That the student’s be deducted either five, ten or fifteen marks from the assessment in question; or,",
+   "anchor": "Penalties for minor assessment integrity breaches"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "That the student’s mark in the assessment in question is capped at the pass mark of 40 for undergraduate students or 50 for taught graduate students; or,",
+   "anchor": "Penalties for minor assessment integrity breaches"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "That the student be required to replace the assessment in question with a new submission (without using a further attempt opportunity) that will be capped at the pass mark of 40 for undergraduate students or 50 for taught graduate students; or,",
+   "anchor": "Penalties for minor assessment integrity breaches"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "That the student be awarded a zero mark for the assessed work only, which can include an assessment worth up to 100% of a half or full unit course.",
+   "anchor": "Penalties for minor assessment integrity breaches"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "that the student be awarded a zero mark, either for the assessed work or for the course as a whole.",
+   "anchor": "The Assessment Integrity Panel's decision and subsequent action"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "that the student be awarded a zero mark for all courses taken that year, or for all courses taken that year and all previous years, and also be expelled from the School, or",
+   "anchor": "The Assessment Integrity Panel's decision and subsequent action"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "that the student’s overall award classification shall drop one class.",
+   "anchor": "The Assessment Integrity Panel's decision and subsequent action"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "If suspicion of an assessment integrity breach is discovered after graduation, the student will be subject to the procedure set out in these regulations which, if a breach is confirmed could result in the overall degree classification being lowered or the award being revoked.",
+   "anchor": "The Assessment Integrity Panel's decision and subsequent action"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "In doing so, it will seek to reflect the seriousness of the breach and may take into account any previous breaches committed by the student.",
+   "anchor": "The Assessment Integrity Panel's decision and subsequent action"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The Assessment Integrity guidance sets out factors relevant to the seriousness of different types of breach and the range of penalties that are likely to be proportionate in each case.",
+   "anchor": "Procedure under these Regulations"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Work",
+   "ai_named": false,
+   "quote": "“work” means summative work of any kind submitted for assessment or opinion by staff of the School, including material submitted for upgrade to PhD status;"
+  },
+  {
+   "term": "Exam",
+   "ai_named": false,
+   "quote": "“exam” means work undertaken in an invigilated exam room, usually under timed conditions or an online exam format"
+  },
+  {
+   "term": "Script",
+   "ai_named": false,
+   "quote": "“script” means a summative assessment written by hand or using a computer, under exam conditions;"
+  },
+  {
+   "term": "Source",
+   "ai_named": false,
+   "quote": "“source” means the published primary and secondary material from any source whatsoever (including websites and/or online material)"
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "“contract cheating” also sometimes known as 'Ghost Writing', or use of 'Essay Mills', or anything that constitutes commissioning (including buying or paying for) another person to complete an assignment, or part of an assignment which is then submitted as the student's own work."
+  }
+ ]
+}

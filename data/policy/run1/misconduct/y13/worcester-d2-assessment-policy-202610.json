@@ -1,0 +1,51 @@
+{
+ "doc_id": "worcester-d2-assessment-policy-202610",
+ "coder": "y-y13",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "the use of third parties, including generative artificial intelligence sites to write assignments is not permitted and may lead to an academic misconduct investigation.",
+   "anchor": "Appendix 8 FAQs"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "the use of third parties, including generative artificial intelligence sites to write assignments is not permitted and may lead to an academic misconduct investigation.",
+   "anchor": "Appendix 8 FAQs"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "If a tutor suspects that the work presented is not the student’s own work, it may be referred to an Academic Integrity Tutor for investigation",
+   "anchor": "Academic Integrity"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "If a tutor suspects that the work presented is not the student’s own work, it may be referred to an Academic Integrity Tutor for investigation as set out in the Academic Integrity policy.",
+   "anchor": "Academic Integrity"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "it may be referred to an Academic Integrity Tutor for investigation as set out in the Academic Integrity policy.",
+   "anchor": "Academic Integrity"
+  }
+ ],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "Academic integrity",
+   "ai_named": false,
+   "quote": "Academic Integrity: is behaving in a way that is honest, trustworthy, fair, respectful and responsible in assessment practice."
+  }
+ ]
+}

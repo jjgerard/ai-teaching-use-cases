@@ -1,0 +1,42 @@
+{
+ "doc_id": "bedfordshire-d2-misconduct-procedure-202610",
+ "coder": "y-y3",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "submitting work produced or assisted by a 3rd party (including use of AI beyond what is permitted in the assessment brief)",
+   "anchor": "Academic warning, concern or offence?"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "making up results or information",
+   "anchor": "What is an academic offence?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "submitting work produced or assisted by a 3rd party (including use of AI beyond what is permitted in the assessment brief)"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

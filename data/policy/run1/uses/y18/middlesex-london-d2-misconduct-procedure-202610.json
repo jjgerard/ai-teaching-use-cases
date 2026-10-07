@@ -1,0 +1,50 @@
+{
+ "doc_id": "middlesex-london-d2-misconduct-procedure-202610",
+ "coder": "y-y18",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "It includes, but is not limited to, plagiarism, commissioning or buying work from a third party or copying the work of others, unauthorised and/or unacknowledged use of artificial intelligence in a piece of work submitted for grading.",
+   "anchor": "Introduction"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fake Referencing: To make up quotations and/or supply fake citations.",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Copying occurs when a student consciously presents as their own work material copied directly from a fellow student or other person without their knowledge.",
+   "anchor": "Definitions of Types of Academic Misconduct:"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "It includes, but is not limited to, plagiarism, commissioning or buying work from a third party or copying the work of others, unauthorised and/or unacknowledged use of artificial intelligence in a piece of work submitted for grading."
+  },
+  "exempt": []
+ }
+}

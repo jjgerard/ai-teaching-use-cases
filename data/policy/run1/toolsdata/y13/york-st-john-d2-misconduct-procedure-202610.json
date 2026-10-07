@@ -1,0 +1,29 @@
+{
+ "doc_id": "york-st-john-d2-misconduct-procedure-202610",
+ "coder": "y-y13",
+ "tools": [
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Translation tools are acceptable to use and do not require citation if they only influence the form but not the content of an assessment or other output.",
+   "anchor": "27.6 Student responsibilities"
+  },
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Turnitin",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Access to Turnitin so that the student can test their work.",
+   "anchor": "27.6.2"
+  }
+ ],
+ "data": [],
+ "safeguards": [],
+ "legal": []
+}

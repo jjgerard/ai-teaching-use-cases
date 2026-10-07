@@ -1,0 +1,71 @@
+{
+ "doc_id": "york-d2-misconduct-procedure-202610",
+ "coder": "y-y13",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "it is an offence for students to use generative AI, commercial assignment writing services, or to seek the help of friends and family in improving their assessed work.",
+   "anchor": "AM1.2 The forms of academic misconduct"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "using unapproved, undeclared or falsely declared human (eg family members, friends, essay mills or other students not taking the same assessment) or technological assistance (eg generative AI or software).",
+   "anchor": "AM1.2.1 Assessment Offences"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent",
+    "other_rules_apply"
+   ],
+   "quote": "the work in question has been substantially edited or adapted or improved by a person or software other than the student beyond what is permissible by the University’s proofreading, translation and editing policy.",
+   "anchor": "AM3.2"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabrication – to seek to gain advantage by incorporating falsified or fabricated material or data in work submitted for assessment or publication.",
+   "anchor": "AM1.2.1 Assessment Offences"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Plagiarism – the presentation of ideas, material, or scholarship sourced from the work of another individual or group available in a public or private source without sufficient acknowledgement via appropriate referencing and citation.",
+   "anchor": "AM1.2.1 Assessment Offences"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "using unapproved, undeclared or falsely declared human (eg family members, friends, essay mills or other students not taking the same assessment) or technological assistance (eg generative AI or software)."
+  },
+  "exempt": []
+ }
+}

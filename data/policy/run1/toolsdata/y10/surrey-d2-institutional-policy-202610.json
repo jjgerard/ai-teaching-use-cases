@@ -1,0 +1,136 @@
+{
+ "doc_id": "surrey-d2-institutional-policy-202610",
+ "coder": "y-y10",
+ "tools": [
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "conditional",
+   "audience": "staff",
+   "name": null,
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "Before using any GenAI or digital tool, staff must check that it appears on this approved list",
+   "anchor": "Approved tools"
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "unspecified",
+   "name": "Grammarly",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "Any GenAI-related tools, e.g. AdBlock, Grammarly, Adobe Flash, or software should only be installed, connected, or enabled on University devices or networks once approved through this process.",
+   "anchor": "Approved tools"
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "conditional",
+   "audience": "both",
+   "name": null,
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Using personal devices or personal accounts to conduct University business via GenAI tools without explicit approval is prohibited.",
+   "anchor": "Expected behaviours and example misuse cases"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "unspecified",
+   "conditions": [
+    "approved_tool_only",
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "personal, confidential, and commercially sensitive information (including Intellectual Property) must NOT be entered into GenAI tools—internal or external— unless they are approved by IT Services and meet the organisation’s security and compliance requirements.",
+   "anchor": "Protect Information"
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "conditional",
+   "audience": "unspecified",
+   "conditions": [
+    "approved_tool_only",
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "personal, confidential, and commercially sensitive information (including Intellectual Property) must NOT be entered into GenAI tools—internal or external— unless they are approved by IT Services and meet the organisation’s security and compliance requirements.",
+   "anchor": "Protect Information"
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "unspecified",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Avoid entering Personal, Restricted and Confidential data prohibited data into any Public/Open GenAI system.",
+   "anchor": "User responsibilities"
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "unspecified",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Avoid entering Personal, Restricted and Confidential data prohibited data into any Public/Open GenAI system.",
+   "anchor": "User responsibilities"
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "unspecified",
+   "conditions": [
+    "ethics_approval"
+   ],
+   "ai_named": true,
+   "quote": "any use of GenAI in research involving personal data requires prior ethics approval.",
+   "anchor": "Establishing Responsible Governance & Oversight"
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "All use of GenAI tools must comply with applicable UK Data Protection legislation and University policies.",
+   "anchor": "Data protection & privacy"
+  },
+  {
+   "value": "training_on_user_work_restricted",
+   "audience": "staff",
+   "ai_named": false,
+   "quote": "Training restrictions: Prohibitions on using University data for model training without explicit consent.",
+   "anchor": "Third party risk"
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "All use of GenAI tools must comply with applicable UK Data Protection legislation and University policies.",
+   "anchor": "Data protection & privacy"
+  },
+  {
+   "value": "copyright",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Ensure training data and model use respect copyright, licensing, and consent requirements",
+   "anchor": "Integrity & ethics"
+  },
+  {
+   "value": "eu_ai_act",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "The University will monitor development nationally and internationally regarding AI governance as this is still an emerging and maturing area, such as the EU AI Act.",
+   "anchor": "Legislative Context"
+  }
+ ]
+}

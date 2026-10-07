@@ -1,0 +1,257 @@
+{
+ "doc_id": "liverpool-d2-misconduct-procedure-202610",
+ "coder": "y-y7",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "This dishonest practice occurs when a student presents assessment tasks (or parts thereof) that have been generated or completed by Generative Artificial Intelligence (GAI) software contrary to the guidance on using GAI",
+   "anchor": "3.5"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "presents assessment tasks (or parts thereof) that have been generated or completed by Generative Artificial Intelligence (GAI) software contrary to the guidance on using GAI",
+   "anchor": "3.5"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "the submission of unacceptable and unacknowledged artificial intelligence generated assessment tasks",
+   "anchor": "5.12 Category 4"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication of Data – occurs when a student creates and presents an extensive amount or significant piece of data in order to conceal a lack of legitimate data",
+   "anchor": "3.6"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "This example of dishonest practice occurs when a student submits, as their own work, assessment tasks (or parts thereof) that have been intentionally procured from third parties.",
+   "anchor": "3.4"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism occurs when a student misrepresents the work or ideas of any other person (including another student) or of any institution, as their own work.",
+   "anchor": "3.7"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion occurs when, unless with official approval (e.g. in the case of group projects), two or more students consciously collaborate in the preparation and production of work",
+   "anchor": "3.2"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism is considered a breach of academic integrity and includes the reuse of material that the student has previously submitted for assessment, without appropriate acknowledgement or permission.",
+   "anchor": "3.8"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "passing off as one’s own work the work of another student or person, fabrication of data, and coercive collusion.",
+   "anchor": "5.12"
+  }
+ ],
+ "liability": [
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "inherently dishonest acts where a student intends to gain an advantage over other students by wilfully seeking to deceive assessors and/or examiners and where a clear intent to deceive and gain unfair advantage can be established.",
+   "anchor": "5.12 Category 4"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor academic practice occurs where there has been a failure, due to lack of academic ability or understanding, to observe the expected standards",
+   "anchor": "3.1 Poor Academic Practice"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "where plagiarism or other another offence is indicated using detection software, Examiners, Assessment Integrity Officers and Board of Examiners must still exercise academic judgement in determining whether plagiarism or another offence has taken place.",
+   "anchor": "4.1 footnote"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The University treats the decision as to whether poor academic practice or unfair and/or dishonest academic practice has taken place as a matter for academic judgement",
+   "anchor": "3.8"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "who will undertake an investigation into the allegation on behalf of the Chair of the relevant Academic Integrity Committee",
+   "anchor": "4.4"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "The Academic Integrity Officer shall refer their investigation report and evidence base to the relevant Department/School Academic Integrity Committee (AIC) for further consideration",
+   "anchor": "4.10"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The notification will include an invitation to the student(s) to contribute to the investigation by providing a written explanation of the circumstances surrounding the allegation and any representations they wish to make.",
+   "anchor": "4.7"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The Academic Integrity Officer may hold a meeting with the student(s).",
+   "anchor": "4.8"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If a student chooses not to engage with the investigation, the investigation will proceed and a decision will be made based on the evidence available.",
+   "anchor": "4.7"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student(s) is entitled to be accompanied at any meeting by one other person (not party to the matters under investigation) acting as their friend.",
+   "anchor": "4.8"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Students may appeal against the decision of the Board of Examiners in relation to a Category 2, 3 or 4 decision but only on the grounds that there was a procedural error",
+   "anchor": "6.1"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "will have up to 10 working days from this point to notify the student(s) of the investigation",
+   "anchor": "4.7"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "has more likely than not occurred.",
+   "anchor": "4.10(c)"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "a note will be placed on the student’s records, including their records in Banner",
+   "anchor": "5.5"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "the assessment task mark shall be capped at the minimum pass grade for that assessment task by the examiner.",
+   "anchor": "5.1 Category 1"
+  },
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "the examiner should indicate the student’s errors in the assessment feedback so that they can learn from their mistakes.",
+   "anchor": "5.1 Category 1"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "the assessment task should be given a mark of zero;",
+   "anchor": "5.5"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "the student will be given a written warning about the need to observe the University’s Academic Integrity Policy;",
+   "anchor": "5.5"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "the student should be given zero for the module, regardless of any other assessment component marks for the module;",
+   "anchor": "5.10"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Suspension of studies for a period not exceeding one academic sessionor 8,",
+   "anchor": "5.14"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "the Board of Examiners will decide whether they should be permitted to re-submit the dissertation or project, revised and corrected, or whether they must complete and submit a whole new dissertation or project.",
+   "anchor": "5.7"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "any subsequent work submitted by the student in which plagiarism, copying, collusion, submission of unacceptable artificial intelligence generated assessment tasks or embellishment or falsification of data have occurred will be treated as Category 3.",
+   "anchor": "5.6"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "consideration may be given to the student’s level and year of study, any previous history of academic misconduct, the weighting of the assessment, any aggravating factors",
+   "anchor": "5 Categories and Indicative Penalties"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "may call into question the student’s fitness to practise, this must be clearly stated in the programme information provided to students.",
+   "anchor": "7.1"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "GAI software",
+   "ai_named": true,
+   "quote": "GAI software, for the purposes of this policy, is defined as software applications that create content in any form (including but not limited to text, graphs, data, code, images, audio and video) automatically based on the prompt of the user."
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice occurs where there has been a failure, due to lack of academic ability or understanding, to observe the expected standards"
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion occurs when, unless with official approval (e.g. in the case of group projects), two or more students consciously collaborate in the preparation and production of work"
+  },
+  {
+   "term": "Copying",
+   "ai_named": false,
+   "quote": "Copying occurs when a student consciously presents as their own work material copied directly from a fellow student or other person."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism occurs when a student misrepresents the work or ideas of any other person (including another student) or of any institution, as their own work."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism is considered a breach of academic integrity and includes the reuse of material that the student has previously submitted for assessment, without appropriate acknowledgement or permission."
+  },
+  {
+   "term": "Fabrication of data",
+   "ai_named": false,
+   "quote": "Fabrication of Data – occurs when a student creates and presents an extensive amount or significant piece of data in order to conceal a lack of legitimate data"
+  },
+  {
+   "term": "Commissioned or procured work",
+   "ai_named": false,
+   "quote": "This example of dishonest practice occurs when a student submits, as their own work, assessment tasks (or parts thereof) that have been intentionally procured from third parties."
+  }
+ ]
+}

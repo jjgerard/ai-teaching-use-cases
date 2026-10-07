@@ -1,0 +1,275 @@
+{
+ "doc_id": "canterbury-d2-misconduct-procedure-202610",
+ "coder": "y-y14",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Plagiarism by submitting Artificial Generated (AI) generated output, as some or part of an assessment submission and claiming it as the student’s own work without appropriate citation or declaration.",
+   "anchor": "Schedule 2"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Plagiarism by submitting Artificial Generated (AI) generated output, as some or part of an assessment submission and claiming it as the student’s own work without appropriate citation or declaration.",
+   "anchor": "Schedule 2"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Misuse of digital/generative and other Artificial Intelligence tools occurs when students use such tools, whether free or behind a paywall to:",
+   "anchor": "Schedule 1"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsification is where someone fabricates, manipulates, invents or distorts data, evidence, sources and/or citations.",
+   "anchor": "Schedule 1"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Contract cheating (also known as assessment outsourcing, commissioning or ghost writing) occurs when a student(s) seeks out another party (including generative AI) to produce work for the purposes of submitting that work for assessment and it is, either wholly or in part, not the student’s own work.",
+   "anchor": "Schedule 1"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism relates to the act of presenting the material, ideas, and/or arguments of another person as one’s own in work submitted for assessment without acknowledgement.",
+   "anchor": "Schedule 1"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Examination Misconduct is when someone acts dishonestly or unfairly before, during, or after an examination or a time-constrained assessment which may result in one student gaining or potentially gaining an unfair advantage over another.",
+   "anchor": "Schedule 1"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion can occur when two or more students collaborate in the production of work, and this is submitted as the efforts of an individual.",
+   "anchor": "Schedule 1"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": true,
+   "quote": "Examination Misconduct by impersonating or attempting to impersonate another student or asking another person to impersonate a student, including generative AI to impersonate the student, in any assessment.",
+   "anchor": "Schedule 2"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Duplication (also referred to as self-plagiarism) is the submission of work that has previously been submitted by the student for assessment purposes to the University or another institution.",
+   "anchor": "Schedule 1"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "This can occur knowingly, or unknowingly through negligence by one student sharing their own work with another student, and where one or more of the students then submit similar items of work.",
+   "anchor": "Schedule 1"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "This Procedure acknowledges that at the early stages of a student’s academic journey, proficiency in academic writing and/or conventions are still being developed and instances of Poor Academic Practice (PAP) may occur as defined in Schedule 1 of this Procedure.",
+   "anchor": "3. Early Resolution"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "All relevant supporting evidence from similarity or detection tools that are endorsed by the University.",
+   "anchor": "4. Initiating Academic Misconduct"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Academic judgement.",
+   "anchor": "4. Initiating Academic Misconduct"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "Where Poor Academic Practice (PAP) has been identified, the student can have the opportunity to meet with a relevant member of academic staff, such as their Personal Academic Tutor (PAT), to develop their academic skills.",
+   "anchor": "3. Early Resolution"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "they should refer the case to an Academic Integrity Officer of the School (or relevant department) responsible for the module concerned for an initial assessment within 5 working days of identifying the suspicion of academic misconduct.",
+   "anchor": "4. Initiating Academic Misconduct"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The School shall appoint an Investigating Officer to consider the case.",
+   "anchor": "5. Stage 1 Academic Misconduct"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "Where a student has been notified of an allegation of Academic Misconduct, they will be invited to respond to the allegation and provide written representations",
+   "anchor": "5. Stage 1 Academic Misconduct"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The Student Governance Team shall notify the student with an invitation letter to attend the Academic Misconduct Panel Hearing in person or via Microsoft (MS) Teams.",
+   "anchor": "Major Academic Misconduct and Academic Misconduct Panel"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "Where the student does not wish to attend the Panel or submit written representations, the Panel may make a decision in the student’s absence",
+   "anchor": "Major Academic Misconduct and Academic Misconduct Panel"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "Where a student attends a Panel Hearing, they have the right to be accompanied by a “Friend” should they wish to do so.",
+   "anchor": "Major Academic Misconduct and Academic Misconduct Panel"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A student who has received a substantiated decision and associated sanction under Stage 1 of this Procedure may submit a Stage 2 Academic Misconduct Appeal form if they wish to appeal the outcome and/or the sanction applied.",
+   "anchor": "6. Stage 2 Academic Misconduct Appeal"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The Student Governance Team shall notify the student that is subject to the academic misconduct investigation within 10 working days of raising the Stage 1 Academic Misconduct Allegation Report form.",
+   "anchor": "5. Stage 1 Academic Misconduct"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The standard of proof to be adopted when considering allegations of academic misconduct is on the balance of probabilities.",
+   "anchor": "1. Introduction"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "The Directorate will retain information related to academic misconduct matters in accordance with the Retention Schedule.",
+   "anchor": "8. Records, Monitoring and Confidentiality"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "the University allows for the opportunity for students to receive guidance on what constitutes poor academic practice, including but not limited to, referencing conventions and study skills.",
+   "anchor": "1. Introduction"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "where a first case of Minor academic misconduct is substantiated, the sanction that will be applied will be a Formal Reprimand which will be retained in the student’s record for the duration of their course of study.",
+   "anchor": "First Offence of Academic Misconduct"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Where a student is eligible for reassessment, having failed the attempt in question, the Board may offer this in line with the relevant Regulations.",
+   "anchor": "Schedule 2"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Failure of the module at the attempt in question",
+   "anchor": "Schedule 2"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "Overall module mark capped at the pass mark for the Level of study.",
+   "anchor": "Schedule 2"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Recommendation to the Deputy Vice Chancellor (DVC) that the student be expelled from the University",
+   "anchor": "Schedule 2"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "Reduction of Award and/or Classification:",
+   "anchor": "Schedule 2"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "It is expected that there is a progressive increase in the potential sanctions applied under this Procedure",
+   "anchor": "Previous Substantiated Academic Misconduct"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "This schedule provides definitions of each of the main categories (levels) of Academic Misconduct and an indication of the sanction(s) likely to apply.",
+   "anchor": "Schedule 2"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "The University reserves the right to initiate this procedure in respect of academic misconduct that comes to light after an assessment has been marked, a final grade awarded, or an award conferred",
+   "anchor": "4. Initiating Academic Misconduct"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "Refer a substantiated case of academic misconduct to the Fitness to Practise Procedures to assess any implications regarding the student's ability to meet the professional standards required.",
+   "anchor": "2. Scope of the Procedure"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Contract cheating",
+   "ai_named": true,
+   "quote": "Contract cheating (also known as assessment outsourcing, commissioning or ghost writing) occurs when a student(s) seeks out another party (including generative AI) to produce work for the purposes of submitting that work for assessment and it is, either wholly or in part, not the student’s own work."
+  },
+  {
+   "term": "Misuse of digital tools",
+   "ai_named": true,
+   "quote": "Misuse of digital/generative and other Artificial Intelligence tools occurs when students use such tools, whether free or behind a paywall to:"
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion can occur when two or more students collaborate in the production of work, and this is submitted as the efforts of an individual."
+  },
+  {
+   "term": "Duplication",
+   "ai_named": false,
+   "quote": "Duplication (also referred to as self-plagiarism) is the submission of work that has previously been submitted by the student for assessment purposes to the University or another institution."
+  },
+  {
+   "term": "Falsification",
+   "ai_named": false,
+   "quote": "Falsification is where someone fabricates, manipulates, invents or distorts data, evidence, sources and/or citations."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism relates to the act of presenting the material, ideas, and/or arguments of another person as one’s own in work submitted for assessment without acknowledgement."
+  },
+  {
+   "term": "Examination misconduct",
+   "ai_named": false,
+   "quote": "Examination Misconduct is when someone acts dishonestly or unfairly before, during, or after an examination or a time-constrained assessment which may result in one student gaining or potentially gaining an unfair advantage over another."
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor Academic Practice is when a student submits any form of assessment that does not properly reference or cite the sources of their research, ideas, data and words used in their assessment."
+  }
+ ]
+}

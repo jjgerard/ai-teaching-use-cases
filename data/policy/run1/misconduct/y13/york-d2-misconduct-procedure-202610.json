@@ -1,0 +1,311 @@
+{
+ "doc_id": "york-d2-misconduct-procedure-202610",
+ "coder": "y-y13",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "it is an offence for students to use generative AI, commercial assignment writing services, or to seek the help of friends and family in improving their assessed work.",
+   "anchor": "AM1.2"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "using unapproved, undeclared or falsely declared human (eg family members, friends, essay mills or other students not taking the same assessment) or technological assistance (eg generative AI or software).",
+   "anchor": "AM1.2.1"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "using unapproved, undeclared or falsely declared human (eg family members, friends, essay mills or other students not taking the same assessment) or technological assistance (eg generative AI or software).",
+   "anchor": "AM1.2.1"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "it is an offence for students to use generative AI, commercial assignment writing services, or to seek the help of friends and family in improving their assessed work.",
+   "anchor": "AM1.2"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication – to seek to gain advantage by incorporating falsified or fabricated material or data in work submitted for assessment or publication.",
+   "anchor": "AM1.2.1"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism – the presentation of ideas, material, or scholarship sourced from the work of another individual or group available in a public or private source without sufficient acknowledgement via appropriate referencing and citation.",
+   "anchor": "AM1.2.1"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion between students taking the same assessment – is the process whereby two or more students work together – without official approval – and share ideas, solutions or material in work submitted for assessment.",
+   "anchor": "AM1.2.1"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "failure to comply with the rules of an assessment e.g. unauthorised access to materials in a closed assessment",
+   "anchor": "AM1.2.1"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Personation – one, or both of, a) to produce work for another student with the reasonable expectation that the incorporation of that work is intended to deceive an examiner, such as appearing as another student in an assessment(s)",
+   "anchor": "AM1.2.2"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "expressions of guilt, remorse or lack of intent are neither to be accepted as justifications for any alleged misconduct or in determining how a student should be dealt with where such misconduct is established.",
+   "anchor": "AM1.3.3"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Seriousness and intention is a matter of judgement for the StAMP Investigatory Panel",
+   "anchor": "AM3.8.1"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "The emphasis in terms of response should be on the student correcting their errors and understanding of academic integrity, although a marks reduction will normally still be appropriate.",
+   "anchor": "AM1.3.13"
+  }
+ ],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "AI detection software may not accurately detect false authorship",
+   "anchor": "AM Appendix 3"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "restricted",
+   "ai_named": true,
+   "quote": "please contact SCA@york.ac.uk for the latest guidance on AI detection and do not run student work through freely available AI detectors online.",
+   "anchor": "AM Appendix 3"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Markers are encouraged to carry out random checks on assessed work using internet search engines (such as Advanced Google Search or Google Books) or to employ text matching software such as SafeAssign or Turnitin",
+   "anchor": "AM8.4 Detection"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "Turnitin originality check does not help in identifying assignments which contain false authorship.",
+   "anchor": "AM Appendix 3"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "As with plagiarism, the identification of false authorship starts with an academic judgement.",
+   "anchor": "AM Appendix 3"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The panel has further powers to request a compulsory interview with the student",
+   "anchor": "AM2.1.3"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Lack of preparatory work may be considered evidence of false authorship",
+   "anchor": "AM2.1.3"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "The student can be notified informally by the marker in the course of discussion.",
+   "anchor": "AM Appendix 4"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Offences 1-5 (assessment offences) are dealt with within schools, departments and faculties through Standing Academic Misconduct Investigatory Panels.",
+   "anchor": "AM1.2.3"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "If it is believed that the case warrants a full investigation",
+   "anchor": "AM2.2.3"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student can then respond to the panel within 7 days.",
+   "anchor": "AM2.2.3"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "In the event that the student elects to attend an interview, or that the panel determines that an interview is the most appropriate way to determine the nature of the offence",
+   "anchor": "AM2.2.3"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "The procedures should continue regardless of whether a student responds.",
+   "anchor": "AM2.2.3"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "It is recommended that students contact YUSU or GSA advice and support who may accompany them to the hearing.",
+   "anchor": "AM2.2.3"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "they must be advised that they have a right to appeal",
+   "anchor": "AM6.1"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The StAMP Investigatory Panel will normally be assigned within 5 working days of the initial report.",
+   "anchor": "AM2.1.1"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "It is sufficient to establish cases of academic misconduct ‘on the balance of probabilities’, rather than ‘beyond all reasonable doubt’.",
+   "anchor": "AM1.3.1"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Minutes of meetings of the Investigatory Panels should be forwarded to academic-misconduct@york.ac.uk for retention against the student record.",
+   "anchor": "AM4.5"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Any minor academic misconduct on these modules is considered probationary and therefore should be dealt with by the department and treated as a learning opportunity for the students",
+   "anchor": "AM Appendix 4"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "A formal warning letter will be issued by the Exams and Graduation Office to the student and a record kept.",
+   "anchor": "AM2.1.2"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "a marks reduction will normally still be appropriate.",
+   "anchor": "AM1.3.13"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Where students are found to have committed fabrication or false authorship, the penalty would normally be a zero in the affected assessment.",
+   "anchor": "AM3.8.1"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Required to resubmit corrected work to module leader",
+   "anchor": "AM3.6"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "a module failed as a result of academic misconduct will be treated in the same way as a module failed for inadequate scholarship or incorrect work.",
+   "anchor": "AM1.3.6"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "These offences can be punished by a fine, or a temporary or permanent exclusion.",
+   "anchor": "AM5.1"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Any offence, as defined above, alleged or discovered after the award of a degree from the University of York may be considered under Ordinance 7: Deprivation or Revocation of Academic Qualifications.",
+   "anchor": "AM1.2.4"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "A second offence means an offence discovered after procedures for the first offence have been completed.",
+   "anchor": "AM1.3.14"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "In deciding on a penalty, the StAMP Investigatory Panel may take into consideration other factors which, whilst not providing a defence for the academic misconduct offence, might provide mitigation when considering the penalty.",
+   "anchor": "AM3.7"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "the marks cap is not the final mark for the assessment but the maximum mark achievable for the piece of work.",
+   "anchor": "AM1.3.6"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "Where an academic misconduct offence has been established and this raises concerns about a student’s fitness to practise",
+   "anchor": "AM5.4"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism – the presentation of ideas, material, or scholarship sourced from the work of another individual or group available in a public or private source without sufficient acknowledgement via appropriate referencing and citation."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion between students taking the same assessment – is the process whereby two or more students work together – without official approval – and share ideas, solutions or material in work submitted for assessment."
+  },
+  {
+   "term": "False authorship",
+   "ai_named": true,
+   "quote": "using unapproved, undeclared or falsely declared human (eg family members, friends, essay mills or other students not taking the same assessment) or technological assistance (eg generative AI or software)."
+  },
+  {
+   "term": "Fabrication",
+   "ai_named": false,
+   "quote": "Fabrication – to seek to gain advantage by incorporating falsified or fabricated material or data in work submitted for assessment or publication."
+  },
+  {
+   "term": "Personation",
+   "ai_named": false,
+   "quote": "Personation – one, or both of, a) to produce work for another student with the reasonable expectation that the incorporation of that work is intended to deceive an examiner, such as appearing as another student in an assessment(s) or b) students providing material to commercial assignment writing services."
+  },
+  {
+   "term": "Deception",
+   "ai_named": false,
+   "quote": "Deception – presenting fabricated or misleading evidence to gain advantage in assessment arrangements"
+  },
+  {
+   "term": "Second offence",
+   "ai_named": false,
+   "quote": "A second offence means an offence discovered after procedures for the first offence have been completed."
+  }
+ ]
+}

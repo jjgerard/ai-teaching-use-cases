@@ -1,0 +1,275 @@
+{
+ "doc_id": "portsmouth-d2-misconduct-procedure-202610",
+ "coder": "y-y8",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "The use of AI in submitted work must adhere to principles of academic integrity, with proper citation and clear indication of where AI has been utilised. Failure to do so will be considered for academic misconduct action.",
+   "anchor": "1.1.12 Artificial Intelligence"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Improper use of generative AI (see 1.1.12)",
+   "anchor": "2.1 Definitions"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Plagiarism - presenting someone else’s work or ideas as the student’s own.",
+   "anchor": "2.1 Definitions"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Taking a copy of another student’s work without their permission.",
+   "anchor": "2.1 Definitions"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsifying data, evidence or experimental results.",
+   "anchor": "2.1 Definitions"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating - where someone completes work for a student who then submits it as their own (including the use of essay mills or buying work online).",
+   "anchor": "2.1 Definitions"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Cheating in examinations (or other formal assessments), including possession of unauthorised material or technology during an examination, and attempting to access unseen assessment materials in advance of an examination.",
+   "anchor": "2.1 Definitions"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion - working with someone else on an assessment which is intended to be the student’s own work.",
+   "anchor": "2.1 Definitions"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Arranging for someone else to impersonate a student by sitting their examination.",
+   "anchor": "2.1 Definitions"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism - submitting work that is the same or substantially the same as work that the student has already submitted for another assessment when this is not permitted.",
+   "anchor": "2.1 Definitions"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "It is not necessary to prove intention to commit academic misconduct to make a finding of academic misconduct.",
+   "anchor": "2.1 Definitions"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "However, proof of a lack of intent to commit misconduct is likely to be considered a mitigating factor when determining the outcome.",
+   "anchor": "2.1 Definitions"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "It is likely that cases falling under this severity will be offences such as incorrect use of referencing or an omission to reference, seemingly genuine mistakes, undue haste or academic inexperience",
+   "anchor": "4. Preliminary Assessment"
+  }
+ ],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Academic judgement will be applied when identifying suspected cases of academic misconduct, with detection methods varying based on the assessment type.",
+   "anchor": "2.1 Definitions"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "Where Poor Academic Practice is identified, the student will be invited to a meeting with the Associate Head (Students), or equivalent, or their nominated representative, who will explain the nature of the concern.",
+   "anchor": "5. Poor Academic Practice"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "The student has been considered to be in breach of the Policy, and a Panel should be convened to consider if a major sanction is appropriate.",
+   "anchor": "6.1 Investigation"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The Head (or equivalent) or their nominated representative shall appoint an Investigator who:",
+   "anchor": "6.1 Investigation"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "If the reported student is unable to attend (physically or virtually) they can submit a written statement of case in advance by email to studentcasework@port.ac.uk which will be considered at the Panel meeting.",
+   "anchor": "6.2 Panel"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The Panel will consider the evidence and form a conclusion based on the balance of probability.",
+   "anchor": "6.2 Panel"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If the reported student(s) fail to attend the meeting without good reason, the Investigator may proceed in their absence.",
+   "anchor": "6.1 Investigation"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "Students involved in procedures under this Policy are encouraged to make use of the Students’ Union Advice Service for independent support and advice at all stages of the Policy, including access to representation.",
+   "anchor": "1.5 Support"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Students may appeal within 10 working days of receiving a decision.",
+   "anchor": "Appeals"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The investigation must be carried out as quickly as possible and should, normally, be completed within 30 working days of the start date.",
+   "anchor": "6.1 Investigation"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "Under the Policy, the standard of proof is the “balance of probabilities.”",
+   "anchor": "1.1 Key Principles"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "A record of all formal action taken by staff against students is kept by Academic Registry.",
+   "anchor": "Summary"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "There should be no sanctions given for this category; the response is supportive and ensures that the student complies with an educational process to raise their academic practice.",
+   "anchor": "5. Poor Academic Practice"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "Warning issued to student - held on their record until completion of their current course.",
+   "anchor": "Appendix B: Taxonomy of Misconduct and Sanctions"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Mark for assessment reduced to module pass threshold where the original mark is above the threshold.",
+   "anchor": "Appendix B: Taxonomy of Misconduct and Sanctions"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "Students who receive an academic misconduct sanction remain subject to standard University regulations regarding referral assessments and mark capping, unless explicitly stated otherwise.",
+   "anchor": "1.4 Rights of Students"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Mark for assessment reduced to zero.",
+   "anchor": "Appendix B: Taxonomy of Misconduct and Sanctions"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Mark for the relevant module reduced to zero.",
+   "anchor": "Appendix B: Taxonomy of Misconduct and Sanctions"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Correction and resubmission of affected work (e.g. chapter, portfolio)",
+   "anchor": "Appendix B: Taxonomy of Misconduct and Sanctions"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "The student is excluded from the University.",
+   "anchor": "Appendix B: Taxonomy of Misconduct and Sanctions"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "In exceptional circumstances, the Academic Council may deprive any person of any award granted by the University, on the recommendation of the Vice-Chancellor or the relevant Board of Examiners.",
+   "anchor": "1.1 Key Principles"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "Findings of proven intent to commit academic misconduct may also be referred to the Fitness to Practise Procedures.",
+   "anchor": "1.1 Key Principles"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "A student’s previous disciplinary record will not normally be relevant to whether they have committed an offence. However, it is likely to be relevant to decisions about convening a Panel and to decisions on sanctions.",
+   "anchor": "Appendix B: Taxonomy of Misconduct and Sanctions"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "As a general principle, the consequences for academic misconduct will depend on the severity of the offence, any previous incidents of academic misconduct, and any additional mitigating or aggravating factors.",
+   "anchor": "1.1.12 Artificial Intelligence"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct is any inappropriate activity or behaviour by a student which may give that student, or another student, an unpermitted academic advantage in a summative assessment."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism - presenting someone else’s work or ideas as the student’s own."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism - submitting work that is the same or substantially the same as work that the student has already submitted for another assessment when this is not permitted."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion - working with someone else on an assessment which is intended to be the student’s own work."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating - where someone completes work for a student who then submits it as their own (including the use of essay mills or buying work online)."
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice refers to minor breaches of academic integrity, often stemming from a lack of understanding of proper academic conventions or a failure to follow assessment guidelines."
+  },
+  {
+   "term": "Balance of probabilities",
+   "ai_named": false,
+   "quote": "A standard of proof in which a decision is made following an objective assessment of the evidence of whether it is more likely than not that an alleged incident occurred."
+  }
+ ]
+}

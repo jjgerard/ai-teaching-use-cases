@@ -1,0 +1,51 @@
+{
+ "doc_id": "lse-d2-misconduct-procedure-202610",
+ "coder": "y-y18",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "The unauthorised use of Artificial Intelligence software to help with any part of a student’s assessment is strictly prohibited. Any use of Artificial Intelligence software must strictly comply with the requirements specified by the department responsible for the assessment.",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "any attempt to solicit answers to an assessment through a third party, which includes Artificial Intelligence software will be deemed as academic misconduct, even where such an attempt is unsuccessful and/or where there is no evidence of the material from such a third party being used in the assessment in question.",
+   "anchor": "What is an assessment integrity breach?"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "falsification of data, e.g. the presentation of any quantitative or qualitative data, based on work purporting to have been carried out by the student, but which has been bought or invented by the student or altered, copied or obtained by unfair means;",
+   "anchor": "What is an assessment integrity breach?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "The department shall state whether the use of Artificial Intelligence software is permitted and, where permitted, any conditions or limitations on its use."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

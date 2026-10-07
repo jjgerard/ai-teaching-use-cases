@@ -1,0 +1,65 @@
+{
+ "doc_id": "canterbury-d2-misconduct-procedure-202610",
+ "coder": "y-y14",
+ "uses": [
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Plagiarism by submitting Artificial Generated (AI) generated output, as some or part of an assessment submission and claiming it as the student’s own work without appropriate citation or declaration.",
+   "anchor": "Schedule 2: Categories and Sanctions"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Contract cheating (also known as assessment outsourcing, commissioning or ghost writing) occurs when a student(s) seeks out another party (including generative AI) to produce work for the purposes of submitting that work for assessment and it is, either wholly or in part, not the student’s own work.",
+   "anchor": "Schedule 1: Definitions of Types of Academic Misconduct"
+  },
+  {
+   "use": "harmful_or_deceptive_content",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Examination Misconduct by impersonating or attempting to impersonate another student or asking another person to impersonate a student, including generative AI to impersonate the student, in any assessment.",
+   "anchor": "Schedule 2: Categories and Sanctions"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "to falsely insert references",
+   "anchor": "Schedule 1: Definitions of Types of Academic Misconduct"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "to paraphrase without understanding the text or how it contributes to their work",
+   "anchor": "Schedule 1: Definitions of Types of Academic Misconduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Plagiarism by submitting Artificial Generated (AI) generated output, as some or part of an assessment submission and claiming it as the student’s own work without appropriate citation or declaration."
+  },
+  "exempt": []
+ }
+}

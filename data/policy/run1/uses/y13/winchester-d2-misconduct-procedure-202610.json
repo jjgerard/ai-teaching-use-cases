@@ -1,0 +1,58 @@
+{
+ "doc_id": "winchester-d2-misconduct-procedure-202610",
+ "coder": "y-y13",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "All students submitting work to be assessed are declaring that the work is their own creation and that it has not been produced through generative AI technologies unless explicitly directed or permitted.",
+   "anchor": "1. INTRODUCTION, PRINCIPLES and SCOPE of POLICY"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This can include unauthorised use of generative technology which you do not acknowledge.",
+   "anchor": "3. EXAMPLES OF BREACHES OF ACADEMIC CONDUCT and STANDARDS"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabrication or Falsification (including significant misuse of generative technologies), Cheating and Contract Cheating, Collusion, Personation, significant Unethical Conduct",
+   "anchor": "4.2 University Response to an Allegation of Academic Misconduct"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Plagiarism is when you use someone else’s work, ideas, words or intellectual property in your work without giving them appropriate acknowledgement, i.e. referencing correctly.",
+   "anchor": "3. EXAMPLES OF BREACHES OF ACADEMIC CONDUCT and STANDARDS"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "This can include unauthorised use of generative technology which you do not acknowledge."
+  },
+  "exempt": []
+ }
+}

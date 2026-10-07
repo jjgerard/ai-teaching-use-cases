@@ -1,0 +1,230 @@
+{
+ "doc_id": "sheffield-d2-misconduct-procedure-202610",
+ "coder": "y-y8",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Automated authorship, involving the inappropriate/unsanctioned use of Artificial Intelligence.",
+   "anchor": "Forms of academic misconduct"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Automated authorship, involving the inappropriate/unsanctioned use of Artificial Intelligence.",
+   "anchor": "Forms of academic misconduct"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication: submitting work (for example, data, evidence or experimental results) which is untrue, made up, falsified or fabricated in any way.",
+   "anchor": "Forms of academic misconduct"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating: submitting bought or commissioned work from a third party, including essay mills, other students, friends or family members.",
+   "anchor": "Forms of academic misconduct"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism (either intentional or unintentional): using the ideas or work of another person and submitting them as the student’s own.",
+   "anchor": "Forms of academic misconduct"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Cheating in examinations: Using unauthorised materials or methods to complete assignments or exams.",
+   "anchor": "Forms of academic misconduct"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Facilitating the use of unfair means: assisting a fellow student in using any of the forms of academic misconduct defined above, for example in submitting bought or commissioned work.",
+   "anchor": "Forms of academic misconduct"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonation: arranging for someone else to impersonate a student by undertaking their assessment, for example, sitting their examination.",
+   "anchor": "Forms of academic misconduct"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-Plagiarism: submitting work that has already been submitted for another assessment, without acknowledgement, or express authorisation by an academic tutor.",
+   "anchor": "Forms of academic misconduct"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Plagiarism (either intentional or unintentional): using the ideas or work of another person and submitting them as the student’s own.",
+   "anchor": "Forms of academic misconduct"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "the extent of the intent to deceive",
+   "anchor": "Determining penalties"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor academic practice: an inadvertent or low level breach of academic practice arising from a lack of understanding of academic protocols, where there is no evidence of an intention to gain an unfair advantage or to deceive the marker.",
+   "anchor": "Determining penalties"
+  }
+ ],
+ "detection": [],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Such cases must be referred to the Student Conduct and Appeals Team for consideration of a referral to a Summary Hearing or a Senate Discipline Panel in line with University regulations.",
+   "anchor": "Determining penalties"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Reports of academic misconduct in the assessment process will initially be considered by the relevant academic school who may investigate and respond to the matter.",
+   "anchor": "Determining penalties"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The process to establish whether a breach has occurred including how they can respond to the allegation and present any information, explanation or mitigating circumstances they feel are relevant.",
+   "anchor": "Principles and underpinning values"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Matters which are considered serious may be reported to the Chief Operating Officer for consideration for referral to a Summary Hearing or a Senate Discipline Panel in line with university regulations.",
+   "anchor": "Determining penalties"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The support available to them during and after the process.",
+   "anchor": "Principles and underpinning values"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "The right to appeal and how to do so.",
+   "anchor": "Principles and underpinning values"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Cases should be concluded within a reasonable timeframe, and not exceeding 30 working days of notification of the suspected breach to the student.",
+   "anchor": "Principles and underpinning values"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Students for whom it is a first breach of academic integrity, at any severity level, must be provided with material and/or tuition to clearly explain why the breach is below the standards expected and guidance as to how correct academic practice can be achieved.",
+   "anchor": "Determining penalties"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "No action beyond a formal warning",
+   "anchor": "Moderate misconduct"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Assessment component awarded 0 per cent - no opportunity to resubmit",
+   "anchor": "Moderate misconduct"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Assessment component awarded 0 per cent - resubmission required, with no penalty on mark",
+   "anchor": "Moderate misconduct"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "Assessment component awarded 0 per cent - resubmission required but mark capped or reduced",
+   "anchor": "Moderate misconduct"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Assessment component awarded 0 per cent - resubmission required but mark capped or reduced",
+   "anchor": "Moderate misconduct"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Module awarded 0 per cent - resit required, but mark capped or reduced, and a compensated pass in the module is not permitted",
+   "anchor": "Severe misconduct"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Expulsion (can only be imposed as a penalty by a Senate Discipline Panel)",
+   "anchor": "Severe misconduct"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "As a general principle, the consequences for academic misconduct will depend on the severity of the offence, any previous incidents of academic misconduct, and any additional mitigating or aggravating factors.",
+   "anchor": "Determining penalties"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Mitigating and aggravating factors may include (but are not limited to) consideration of the following;",
+   "anchor": "Determining penalties"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "False authorship",
+   "ai_named": false,
+   "quote": "False Authorship wherein authorship is claimed for work that was not solely or substantially created by the individual submitting it."
+  },
+  {
+   "term": "Automated authorship",
+   "ai_named": true,
+   "quote": "Automated authorship, involving the inappropriate/unsanctioned use of Artificial Intelligence."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism (either intentional or unintentional): using the ideas or work of another person and submitting them as the student’s own."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-Plagiarism: submitting work that has already been submitted for another assessment, without acknowledgement, or express authorisation by an academic tutor."
+  },
+  {
+   "term": "Fabrication",
+   "ai_named": false,
+   "quote": "Fabrication: submitting work (for example, data, evidence or experimental results) which is untrue, made up, falsified or fabricated in any way."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion: working with others to produce a piece of work, all or part of which is then submitted by each student as their own individual work without acknowledgement."
+  },
+  {
+   "term": "Impersonation",
+   "ai_named": false,
+   "quote": "Impersonation: arranging for someone else to impersonate a student by undertaking their assessment, for example, sitting their examination."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating: submitting bought or commissioned work from a third party, including essay mills, other students, friends or family members."
+  }
+ ]
+}

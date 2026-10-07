@@ -1,0 +1,79 @@
+{
+ "doc_id": "portsmouth-d2-misconduct-procedure-202610",
+ "coder": "y-y8",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The University permits the use of AI as a tool to assist and inform research and generation of ideas, planning and output.",
+   "anchor": "1.1.12 Artificial Intelligence"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The University permits the use of AI as a tool to assist and inform research and generation of ideas, planning and output.",
+   "anchor": "1.1.12 Artificial Intelligence"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The University permits the use of AI as a tool to assist and inform research and generation of ideas, planning and output.",
+   "anchor": "1.1.12 Artificial Intelligence"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "The use of AI in submitted work must adhere to principles of academic integrity, with proper citation and clear indication of where AI has been utilised.",
+   "anchor": "1.1.12 Artificial Intelligence"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsifying data, evidence or experimental results.",
+   "anchor": "2.1 Definitions"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Taking a copy of another student’s work without their permission.",
+   "anchor": "2.1 Definitions"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "The use of AI in submitted work must adhere to principles of academic integrity, with proper citation and clear indication of where AI has been utilised."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Failure to do so will be considered for academic misconduct action."
+  },
+  "exempt": []
+ }
+}

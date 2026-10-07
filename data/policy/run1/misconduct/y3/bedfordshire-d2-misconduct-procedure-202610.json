@@ -1,0 +1,146 @@
+{
+ "doc_id": "bedfordshire-d2-misconduct-procedure-202610",
+ "coder": "y-y3",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "submitting work produced or assisted by a 3rd party (including use of AI beyond what is permitted in the assessment brief)",
+   "anchor": null
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "purchasing or receiving assistance beyond what is permitted in the assessment brief",
+   "anchor": "What is an academic offence?"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "either as 'unattributed use of the words and / or ideas of others', or as 'incorrect attribution of the words and / or ideas of others'",
+   "anchor": null
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "making up results or information",
+   "anchor": "What is an academic offence?"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "taking notes into an invigilated exam",
+   "anchor": "What is an academic offence?"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "collusion",
+   "anchor": null
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "impersonation.",
+   "anchor": null
+  }
+ ],
+ "liability": [
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Evidence of a deliberate attempt to mislead or cheat such as:",
+   "anchor": "What is an academic offence?"
+  }
+ ],
+ "detection": [],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Penalties are decided by an Academic Conduct Panel (which consists of academic staff from different Faculties and Schools).",
+   "anchor": "What is an academic offence?"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "You will also receive a form to respond to the allegation.",
+   "anchor": "What is an academic offence?"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "Your tutor may recommend that you seek advice from the Study Hub team.",
+   "anchor": "What is an academic concern?"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Your work will be graded, and the warning will be noted as A1 so that you are aware of the issue.",
+   "anchor": "What is an academic warning?"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "In such cases you will be sent a warning email advising you of the issue.",
+   "anchor": "What is an academic warning?"
+  },
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "You will be advised of any guidance you should undertake to improve your practice, and are also able to ask your tutor for further guidance.",
+   "anchor": "What is an academic concern?"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "The concern will be recorded A4 as your grade which will cap the assessment at 0 and it will fail.",
+   "anchor": "What is an academic concern?"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "If the concern is within a 1st attempt at that assessment you will be able to submit a resit.",
+   "anchor": "What is an academic concern?"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "If the concern is within a resit attempt you will not be permitted another resit opportunity and will fail the unit.",
+   "anchor": "What is an academic concern?"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "However, in the most extreme cases a student could be asked to leave the University.",
+   "anchor": "What is an academic offence?"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Continuation may result in the issue becoming more serious and leading to a concern or offence.",
+   "anchor": "What is an academic warning?"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The severity of the violation will determine action taken by the University.",
+   "anchor": "Academic warning, concern or offence?"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic warning",
+   "ai_named": false,
+   "quote": "Sometimes the issue is very minor, does not need to be treated as a concern, and there is sufficient work to grade."
+  },
+  {
+   "term": "Academic concern",
+   "ai_named": false,
+   "quote": "Minor issues within any type of misconduct may be treated as an academic concern."
+  }
+ ]
+}

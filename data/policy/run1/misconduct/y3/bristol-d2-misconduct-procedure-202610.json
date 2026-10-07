@@ -1,0 +1,261 @@
+{
+ "doc_id": "bristol-d2-misconduct-procedure-202610",
+ "coder": "y-y3",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "unauthorised use of artificial intelligence to complete a piece of work (that means a student does not demonstrate the intended learning outcomes for the relevant unit through that assessment).",
+   "anchor": "10. Cheating"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "buying or commissioning a piece of work and presenting it as a student’s own work (contract cheating).",
+   "anchor": "10. Cheating"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "buying or commissioning a piece of work and presenting it as a student’s own work (contract cheating).",
+   "anchor": "10. Cheating"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is the unacknowledged inclusion in a student’s work of material from published or unpublished work of another source, whether it is intentional or unintentional.",
+   "anchor": "8. Plagiarism"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "planning, participating in or benefitting from collusion during any assessment (campus-based or remote).",
+   "anchor": "10. Cheating"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "accessing and/or making use of unauthorised items or texts during an examination (campus-based or online).",
+   "anchor": "10. Cheating"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Re-use of own academic work is where a student has submitted, in whole or in part, work which has previously been submitted by them for credit at the University of Bristol or elsewhere, without fully referencing it.",
+   "anchor": "9. Re-use of academic work"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Plagiarism is the unacknowledged inclusion in a student’s work of material from published or unpublished work of another source, whether it is intentional or unintentional.",
+   "anchor": "8. Plagiarism"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "where there is no suggestion that there is an intention to deceive.",
+   "anchor": "7. Poor academic practice"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Due to the potential for misconduct to occur because of different academic practices, and/or poor understanding of expectations, some cases can be dealt with through additional training and/or feedback",
+   "anchor": "12. Additional training for students on academic integrity"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Software may be used as to help identify potential academic misconduct.",
+   "anchor": "6. Detecting academic misconduct"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "Any suspected cases are reviewed before any action is taken.",
+   "anchor": "6. Detecting academic misconduct"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "restricted",
+   "ai_named": false,
+   "quote": "Where there are any contractual, security or safety obligations to safeguard student work, a request for exemption from using third-party software to check for plagiarism may be made by a student or appropriate member of staff",
+   "anchor": "6. Detecting academic misconduct"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Academic misconduct can be identified by staff involved in marking or teaching.",
+   "anchor": "6. Detecting academic misconduct"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "In cases of suspected cheating, further investigative work (i.e. discussion with the student about how they completed the work) may be necessary to determine if cheating may have occurred.",
+   "anchor": "10. Cheating"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "have a supportive discussion with the unit director, or another appropriate staff member on ways of working and expectations of academic integrity",
+   "anchor": "12. Additional training"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "convene a panel to investigate the academic misconduct:",
+   "anchor": "8. Plagiarism"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "If academic misconduct is suspected, the case is investigated and considered under one of the following procedures:",
+   "anchor": "6. Detecting academic misconduct"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student may elect not to attend an interview and to submit a statement to the panel instead.",
+   "anchor": "14. Academic misconduct panels"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The student is notified in writing of the suspected case (including the pieces of work affected) and invited to interview with a panel.",
+   "anchor": "14. Academic misconduct panels"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "Where the student does not attend an interview, unless prevented by unforeseeable circumstances, the panel proceeds to reach its conclusions without the student’s attendance.",
+   "anchor": "14. Academic misconduct panels"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student may be accompanied by another person at the panel interview.",
+   "anchor": "14. Academic misconduct panels"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "The student has the usual right of appeal against a decision of the Exam Board and, in the case of expulsion, the decision of the Dean of the Faculty.",
+   "anchor": "14. Academic misconduct panels"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The student is informed of the panel’s decision within two weeks of the date of the panel.",
+   "anchor": "14. Academic misconduct panels"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "the panel determines if, on the balance of probabilities, misconduct has occurred or not.",
+   "anchor": "14. Academic misconduct panels"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "A case is held on a student’s record for future internal reference in case further concerns over academic misconduct are raised.",
+   "anchor": "12. Additional training"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Providing it is a first offence of this nature and the case is not considered too serious, no further assessment is needed and support is provided to the student to prevent future occurrences,",
+   "anchor": "9. Re-use of academic work"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "the work in question is awarded a mark of zero.",
+   "anchor": "13. Academic integrity awareness course (AIAC)"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "redo the plagiarised section(s) of the assessment or complete an equivalent piece of work as the same attempt number, normally no later than two weeks after receiving the additional support,",
+   "anchor": "12. Additional training"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Where an UAMP decides the case is of such seriousness that the withdrawal of the student from the programme is recommended to the Dean of a Faculty",
+   "anchor": "14. Academic misconduct panels"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "For second or subsequent offences, to consider the case to be a form of plagiarism, under that procedure.",
+   "anchor": "9. Re-use of academic work"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "When considering what would be an appropriate outcome, the panel takes into account the seriousness of the offence. Factors that are considered are:",
+   "anchor": "14. Academic misconduct panels"
+  },
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "The panel determines an outcome of their investigation from the list in the Academic Misconduct Regulations.",
+   "anchor": "14. Academic misconduct panels"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "If there is a case to answer and the student is registered on a professional programme for which there is a Fitness to Practise (FtP) procedure, academic misconduct may also need to be considered under the FtP procedure.",
+   "anchor": "14. Academic misconduct panels"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice is minor instances of poor referencing, incorrect, or missing attribution for small sections of copied work, or similar infringements by a student where there is no suggestion that there is an intention to deceive."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the unacknowledged inclusion in a student’s work of material from published or unpublished work of another source, whether it is intentional or unintentional."
+  },
+  {
+   "term": "Re-use of own work",
+   "ai_named": false,
+   "quote": "Re-use of own academic work is where a student has submitted, in whole or in part, work which has previously been submitted by them for credit at the University of Bristol or elsewhere, without fully referencing it."
+  },
+  {
+   "term": "Cheating",
+   "ai_named": false,
+   "quote": "Cheating is where a where a student is considered to have broken the rules of an assessment or sought to gain an unfair advantage through unauthorised means."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion is defined as intentionally working with other students to complete an assessment that should be done independently"
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "buying or commissioning a piece of work and presenting it as a student’s own work (contract cheating)."
+  },
+  {
+   "term": "Unauthorised AI use",
+   "ai_named": true,
+   "quote": "unauthorised use of artificial intelligence to complete a piece of work (that means a student does not demonstrate the intended learning outcomes for the relevant unit through that assessment)."
+  }
+ ]
+}

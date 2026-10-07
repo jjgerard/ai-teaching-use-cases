@@ -1,0 +1,79 @@
+{
+ "doc_id": "loughborough-d2-misconduct-procedure-202610",
+ "coder": "y-y18",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Unauthorised or unacknowledged use of Generative Artificial Intelligence(GenAI) or other computer assistance – this includes any unauthorised or unacknowledged use of GenAI, paraphrasing/translation software, or other computer assistance such that the work submitted, including referencing, cannot be considered wholly the student’s own.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Unauthorised or unacknowledged use of Generative Artificial Intelligence(GenAI) or other computer assistance – this includes any unauthorised or unacknowledged use of GenAI, paraphrasing/translation software, or other computer assistance such that the work submitted, including referencing, cannot be considered wholly the student’s own.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Unauthorised or unacknowledged use of Generative Artificial Intelligence(GenAI) or other computer assistance – this includes any unauthorised or unacknowledged use of GenAI, paraphrasing/translation software, or other computer assistance such that the work submitted, including referencing, cannot be considered wholly the student’s own.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsifying or fabricating data, evidence, or experimental results in assessed work.",
+   "anchor": "What is academic misconduct?"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Obtaining and/or distributing a copy of another student’s work without their permission.",
+   "anchor": "What is academic misconduct?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "students should also refer to the relevant assessment brief for the requirements of how GenAI may or may not be used in a particular assessment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Unauthorised or unacknowledged use of Generative Artificial Intelligence(GenAI) or other computer assistance – this includes any unauthorised or unacknowledged use of GenAI, paraphrasing/translation software, or other computer assistance such that the work submitted, including referencing, cannot be considered wholly the student’s own."
+  },
+  "exempt": []
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "doc_id": "bradford-d2-assessment-policy-202610",
+ "coder": "y-y3",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "For Canvas submissions, the University uses Turnitin Originality which highlights similarities between a submitted text and a database of academic content, online sources, and other student papers to support the detection of academic misconduct such as plagiarism and/or collusion.",
+   "anchor": "6. Assessment implementation"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "For Canvas submissions, the University uses Turnitin Originality which highlights similarities between a submitted text and a database of academic content, online sources, and other student papers to support the detection of academic misconduct such as plagiarism and/or collusion.",
+   "anchor": "6. Assessment implementation"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Uploading the wrong version of a document will not be viewed as a legitimate excuse for the work being subject to an academic misconduct allegation.",
+   "anchor": "6. Assessment implementation"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "For Canvas submissions, the University uses Turnitin Originality which highlights similarities between a submitted text and a database of academic content, online sources, and other student papers to support the detection of academic misconduct such as plagiarism and/or collusion.",
+   "anchor": "6. Assessment implementation"
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": []
+}
