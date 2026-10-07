@@ -1,0 +1,134 @@
+[
+ {
+  "name": "Anglia Ruskin University",
+  "outcome": "not_found",
+  "queries": [
+   "Anglia Ruskin academic misconduct policy generative AI students",
+   "Anglia Ruskin Academic Honesty Policy artificial intelligence",
+   "ARU students toolkit generative AI use guidance",
+   "Anglia Ruskin Academic Honesty Policy pdf generative artificial intelligence assessment students own words (extended)"
+  ],
+  "rejected": [
+   {
+    "url": "https://www.aru.ac.uk/-/media/Files/about-us/corporate-documents/Rules_Regulations_Procedures_for_Students.pdf",
+    "why": "no AI content (27th ed, July 2026)"
+   },
+   {
+    "url": "https://www.aru.ac.uk/anglia-learning-and-teaching/good-teaching-practice-and-innovation/approaches-to-learning-and-teaching/academic-honesty",
+    "why": "no AI content; policy PDF dated 2020"
+   },
+   {
+    "url": "https://library.aru.ac.uk/academic/files/Academic%20Honesty%20Policy.pdf",
+    "why": "HTTP 522, could not retrieve; likely pre-AI (2020)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.aru.ac.uk/anglia-learning-and-teaching/cpd-opportunities/upcoming-events/ai-and-the-integrity-of-assessment-practices-the-challenge-of-chatgpt",
+    "title": "AI: University guidance on what students can do and how (staff CPD event)",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "Arts University Bournemouth",
+  "outcome": "found",
+  "doc": {
+   "url": "https://webdocs.aub.ac.uk/Learning%20Teaching%20and%20Assessment%20Framework.pdf",
+   "title": "Learning, Teaching and Assessment Framework",
+   "kind": "assessment_policy",
+   "format": "pdf",
+   "date_as_shown": "no date shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://webdocs.aub.ac.uk/Academic%20Misconduct%20Policy.pdf",
+    "why": "no AI content (dated Oct 2026)"
+   },
+   {
+    "url": "https://webdocs.aub.ac.uk/Regulatory%20Framework%20and%20Undergraduate%20Assessment%20Regulations.pdf",
+    "why": "no AI content"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "Arts University Plymouth",
+  "outcome": "found",
+  "doc": {
+   "url": "https://aup.lon1.digitaloceanspaces.com/production/files/Footer/Single-Source-of-Information-OfS-E6/Arts-University-Plymouth-Academic-Regulations-2526.pdf",
+   "title": "Arts University Plymouth Academic Regulations 2025/26",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2025/26",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.aup.ac.uk/resources/digital-education",
+    "title": "Digital Education",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Aston University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.aston.ac.uk/sites/default/files/Regulations%20on%20Student%20Discipline%20202627%20-%20AU-UESEC-25-6663-A.pdf",
+   "title": "Regulations on Student Discipline 2026-27 (AU-UESEC-25-6663-A)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2026/27",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.aston.ac.uk/sites/default/files/Tariff%20of%20Penalties%20202627%20-%20AU-QEASC-25-6523-A.pdf",
+    "title": "Tariff of Penalties 2026/27 (names unreferenced AI use)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.aston.ac.uk/sites/default/files/AI%20Briefing%20notes%20for%20staff%20July%202024%20V2.0.docx",
+    "title": "AI Staff Briefing Notes",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "Bath Spa University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bathspa.ac.uk/about-us/governance/policies/academic-integrity/",
+   "title": "Academic integrity policy",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "2026 (form dated 2026)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.bathspa.ac.uk/media/bathspaacuk/about-us/governance/Assessment-and-Feedback-policy-.pdf",
+    "title": "Assessment and Feedback Policy V7 July 2026 (not checked for AI)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.bathspa.ac.uk/artificial-intelligence/bsu-ai-policy/",
+    "title": "BSU AI Policy",
+    "audience": "students"
+   }
+  ]
+ }
+]
