@@ -1,0 +1,139 @@
+[
+ {
+  "name": "Kingston University London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://assets.kingston.ac.uk/m/6f5bd8c88b2500bd/original/Policies-2025-2026_AG02-Guidance-on-Editorial-Help-for-Student-Assessment.pdf",
+   "title": "Academic Guidance 2: Editorial Help for Student Assessment",
+   "kind": "guide",
+   "format": "pdf",
+   "date_as_shown": "2025-2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.kingston.ac.uk/about/governance/policies-and-regulations/academic-integrity",
+    "why": "blocked: HTTP 403 to fetch tool"
+   },
+   {
+    "url": "https://assets.kingston.ac.uk/m/4e636c6864eda687/original/Policies-2025-26_AP14-Fairness-in-Assessment-Policy-2025-2026-A1.pdf",
+    "why": "assessment policy; AI content not checked"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://assets.kingston.ac.uk/m/357c0f9dc4438351/original/Polices-2025-26_AR07_Academic-Integrity-Research_V2.pdf",
+    "title": "AR7 Academic Integrity Research Degrees",
+    "audience": "pgr"
+   }
+  ]
+ },
+ {
+  "name": "Lancaster University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://portal.lancaster.ac.uk/ask/university-position-ai/",
+   "title": "University position on Artificial Intelligence",
+   "kind": "institutional_policy",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": false,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.lancaster.ac.uk/iss/itpi/our-projects/generativeai/",
+    "why": "IT services project page, not a student policy"
+   },
+   {
+    "url": "https://portal.lancaster.ac.uk/ask/ai-infosec/",
+    "why": "information security guidance, body not retrievable"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://portal.lancaster.ac.uk/ask/study/developing-academic-skills/using-ai-in-your-learning-and-assessment/",
+    "title": "Using AI in your learning and assessment (student guide; body not retrievable, shell only)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.lancaster.ac.uk/media/lancaster-university/content-assets/documents/student-based-services/asq/marp/into-regulations/LUISC-Academic-Integrity-Regulations.pdf",
+    "title": "INTO academic integrity regs",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Leeds Beckett University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.leedsbeckett.ac.uk/-/media/files/our-university/academic-regulations/10-academic-honesty/ar10_academic_honesty.pdf",
+   "title": "Academic Regulations Section 10: Academic Honesty",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://libguides.leedsbeckett.ac.uk/artificial-intelligence/dos-donts-checklist",
+    "title": "Do's and Don'ts - The AI Checklist",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.leedsbeckett.ac.uk/-/media/files/policies/research-and-enterprise/responsible-use-of-ai-in-research-at-leeds-beckett-university.pdf",
+    "title": "Responsible Use of AI in Research",
+    "audience": "pgr"
+   }
+  ]
+ },
+ {
+  "name": "Leeds Trinity University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.leedstrinity.ac.uk/media/site-assets/documents/key-documents/pdfs/student-academic-misconduct-policy.pdf",
+   "title": "Academic Misconduct Policy - Student",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Applicable from June 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.leedstrinity.ac.uk/media/site-assets/documents/key-documents/pdfs/research-misconduct-policy.pdf",
+    "why": "research staff/PGR"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "Liverpool Hope University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.hope.ac.uk/media/gateway/studentgateway/supportandwellbeing/studentadministrationdocuments/17%20-%20Academic%20Misconduct%20Policy.pdf",
+   "title": "Academic Misconduct Policy",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Approved 22 June 2022; minor revisions Dec 2022",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.hope.ac.uk/media/gateway/studentgateway/supportandwellbeing/studentadministrationdocuments/PGR%20Academic%20Misconduct%20Policy.pdf",
+    "title": "PGR Academic Misconduct Policy",
+    "audience": "pgr"
+   }
+  ]
+ }
+]

@@ -1,0 +1,131 @@
+[
+ {
+  "name": "Norwich University of the Arts",
+  "outcome": "found",
+  "doc": {
+   "url": "https://norwichuni.ac.uk/app/uploads/2026/08/Student-Regulations-and-Procedures-2026-27_v1.pdf",
+   "title": "Student Regulations and Procedures 2026-27 (academic misconduct section names AI)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2026-27",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://library.norwichuni.ac.uk/referencing/referencing-ai/",
+    "title": "Referencing AI (library)",
+    "audience": "students"
+   },
+   {
+    "url": "https://norwichuni.ac.uk/app/uploads/2025/11/student-regulations-and-procedures_2025-26-2.pdf",
+    "title": "Student Regulations and Procedures 2025-26",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Oxford Brookes University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.brookes.ac.uk/students/sirt/academic-misconduct",
+   "title": "Academic Conduct",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "none shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": []
+ },
+ {
+  "name": "Regent's University London",
+  "outcome": "not_found",
+  "queries": [
+   "generative AI students guidance assessment policy",
+   "generative AI students policy use of AI",
+   "artificial intelligence policy statement",
+   "library guide AI tools students referencing generative AI",
+   "academic misconduct plagiarism artificial intelligence regulations"
+  ],
+  "rejected": [
+   {
+    "url": "https://www.regents.ac.uk/sites/default/files/2025-09/Academic%20Regulations%202025-26%20-%20Assessment%20and%20Course%20Regulations.pdf",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.regents.ac.uk/policies",
+    "why": "blocked (403); index page only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.regents.ac.uk/sites/default/files/2023-12/LTA%20Strategy%202023.pdf",
+    "title": "Learning, Teaching and Assessment Strategy 2023-2025 (mentions generative AI; strategy for staff/institution)",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "Royal Agricultural University",
+  "outcome": "not_found",
+  "queries": [
+   "academic misconduct procedure generative AI students",
+   "student code of conduct",
+   "academic misconduct plagiarism policy students procedure",
+   "student guide artificial intelligence ChatGPT students",
+   "assessment cover sheet declaration Generative Artificial Intelligence tools used",
+   "Academic Misconduct Procedure plagiarism collusion cheating AI"
+  ],
+  "rejected": [
+   {
+    "url": "https://www.rau.ac.uk/sites/default/files/policies/Academic%20misconduct%20procedure.pdf",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://res.rau.ac.uk/docs/www/policies/Academic-Regulations-Taught-Programmes.pdf",
+    "why": "no AI content (2018 version)"
+   },
+   {
+    "url": "https://www.rau.ac.uk/student-code-conduct",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.rau.ac.uk/sites/default/files/2025-04/Methods%20of%20Assessments%202026-27%20v3.pdf",
+    "why": "same kind as first (assessment); AI only a QAA quote"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "Sheffield Hallam University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.shu.ac.uk/myhallam/university-life/university-rules-and-regulations/student-conduct/academic-conduct-regulation/definitions-of-academic-misconduct",
+   "title": "Definitions of Academic Misconduct",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "none shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://lta.shu.ac.uk/assessment-and-feedback/academic-integrity/artificial-intelligence-and-academic-integrity",
+    "why": "404 on direct fetch"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://libguides.shu.ac.uk/ai",
+    "title": "AI and your Academic Work",
+    "audience": "students"
+   }
+  ]
+ }
+]

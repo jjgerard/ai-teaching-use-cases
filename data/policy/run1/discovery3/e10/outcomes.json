@@ -1,0 +1,141 @@
+[
+ {
+  "name": "SOAS University of London",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.soas.ac.uk/sites/default/files/2025-09/REG-183-10%20Academic%20Misconduct%20Procedure.pdf",
+   "title": "REG-183-10 Academic Misconduct Procedure",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2025-09 (path)",
+   "retrieved_here": false,
+   "http": 404,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.soas.ac.uk/sites/default/files/2022-12/Academic%20Misconduct%20Policyfin1212.pdf",
+    "why": "404, pre-AI version"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.soas.ac.uk/about/news/soas-issues-guidance-students-use-ai",
+    "title": "SOAS issues guidance to students on the use of AI",
+    "audience": "students"
+   }
+  ],
+  "note": "Search snippet shows generative AI section (2.9); fetch returned 404 twice, so unverified."
+ },
+ {
+  "name": "Southampton Solent University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://students.solent.ac.uk/studying/what-we-expect-from-you/student-academic-misconduct",
+   "title": "Student academic misconduct",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://libguides.solent.ac.uk/c.php?g=669821&p=5301628",
+    "title": "Research Skills & AI (library)",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "St Mary's University Twickenham London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.stmarys.ac.uk/policies/docs/academic-regulations-2025-26-final.pdf",
+   "title": "Academic Regulations 2025-26 (section 29.1.1 Artificial Intelligence)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2025-26",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.stmarys.ac.uk/registry/policies/academic-misconduct.aspx",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.stmarys.ac.uk/deeso/Learning-and-Teaching/academic-integrity/overview.aspx",
+    "why": "staff resources, AI only a video link"
+   },
+   {
+    "url": "https://www.stmarys.ac.uk/policies/docs/student-guidance-on-ai-september-2023.pdf",
+    "why": "guide, superseded; same kind as first"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.stmarys.ac.uk/staff/docs/staff-ai-guidance.pdf",
+    "title": "Staff guidance on AI",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "Teesside University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://connect.tees.ac.uk/docs/publicdocumentslibraries/default-document-library/legal-and-governance-services/academic-misconduct-regulations.pdf",
+   "title": "Academic Misconduct Regulations (taught provision)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "version 8.3; revised since Sept 2024",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://libguides.tees.ac.uk/AcademicMisconduct",
+    "title": "What is academic misconduct? (libguide, mentions AI, updated Jun 2026)",
+    "audience": "students"
+   },
+   {
+    "url": "https://connect.tees.ac.uk/docs/publicdocumentslibraries/default-document-library/legal-and-governance-services/generative-ai-policy.pdf",
+    "title": "Generative Artificial Intelligence Policy",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "The University of Law",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.law.ac.uk/globalassets/13.-media--doc-repo/08.-policies/pdf_policies_ai-and-assessment-student-protocol.pdf",
+   "title": "AI and Assessment: Student Protocol (V1.0)",
+   "kind": "assessment_policy",
+   "format": "pdf",
+   "date_as_shown": "V1.0",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.law.ac.uk/globalassets/13.-media--doc-repo/08.-policies/pdf_policies_assessment-policy.pdf",
+    "title": "Assessment Policy V5.0 (one AI mention)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.law.ac.uk/globalassets/13.-media--doc-repo/08.-policies/pdf_policies_ai-and-assessment-colleague-protocol.pdf",
+    "title": "AI and Assessment - Colleague Protocol",
+    "audience": "staff"
+   }
+  ]
+ }
+]

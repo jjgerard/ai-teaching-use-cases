@@ -1,0 +1,166 @@
+[
+ {
+  "name": "University of East London",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.uel.ac.uk/about/governance/manual-general-regulations/part-7-academic-integrity-academic-misconduct-regulations-2025-26",
+   "title": "Part 7 - Academic Integrity and Academic Misconduct Regulations 2025-26",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "2025-26",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.uel.ac.uk/about/governance/general-policies/generative-artificial-intelligence-usage-policy",
+    "why": "HTTP 403 (kept as fallback)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.uel.ac.uk/about/governance/manual-general-regulations/academic-integrity-academic-misconduct",
+    "title": "Academic Integrity and Academic Misconduct",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.uel.ac.uk/about/governance/generative-ai",
+    "title": "Generative AI",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.uel.ac.uk/about/governance/student-policies/assessment-feedback-policy-2024-25",
+    "title": "Assessment and Feedback Policy 2024-25",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Essex",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.essex.ac.uk/student/exams-and-coursework/about-academic-offences",
+   "title": "What is an academic offence?",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.essex.ac.uk/-/media/documents/about/governance/academic-offences-procedure.pdf",
+    "why": "HTTP 404"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.essex.ac.uk/student/academic-offences/artificial-intelligence",
+    "title": "Artificial intelligence guidance (same as first doc)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.essex.ac.uk/student/academic-skills/academic-integrity",
+    "title": "Academic integrity, authorship and plagiarism",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Exeter",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.exeter.ac.uk/students/facultycases/academicconductandpractice/",
+   "title": "Academic Conduct and Practice | Faculty Cases",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "not shown (flowchart 31.1.25)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.exeter.ac.uk/v8media/specificsites/tqa/apa/APA_Handbook_Chapter_12.pdf",
+    "why": "is Chapter 12 Degree Outcomes, no AI content"
+   },
+   {
+    "url": "http://as.exeter.ac.uk/academic-policy-standards/tqa-manual/aph/managingacademicmisconduct/",
+    "why": "redirects to homepage"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.exeter.ac.uk/students/facultycases/faqs/academicmisconduct/",
+    "title": "Academic Misconduct FAQs",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.exeter.ac.uk/students/infopoints/yourinfopointservices/assessments/",
+    "title": "Assessments (AI categories)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.exeter.ac.uk/about/strategies/enabling-ai/ai-for-researchers/",
+    "title": "Responsible use of AI in research",
+    "audience": "pgr"
+   }
+  ]
+ },
+ {
+  "name": "University of Gloucestershire",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.glos.ac.uk/information/knowledge-base/academic-regulations-for-taught-provision-2026-27/",
+   "title": "Academic Regulations for Taught Provision 2026/27",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "2026/27",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://connectglosac.sharepoint.com/sites/myhelp/SitePages/Student-Guidance-for-Using-Generative-AI-in-Learning.aspx",
+    "why": "login wall / 403"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.glos.ac.uk/information/knowledge-base/academic-regulations-for-taught-provision-2025-26/",
+    "title": "Academic Regulations for Taught Provision 2025/26",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.glos.ac.uk/information/knowledge-base/disciplinary-procedures-for-student-matters/",
+    "title": "Disciplinary Procedures for Student Matters",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Greater Manchester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://greatermanchester.ac.uk/assets/Academic-Misconduct-Regulations-and-Procedures-2025-26.pdf",
+   "title": "Academic Misconduct Regulations and Procedures 2025-26",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Approved by Senate Sep 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://greatermanchester.ac.uk/student-policy-zone",
+    "title": "Student Policy Zone (hub)",
+    "audience": "students"
+   }
+  ]
+ }
+]

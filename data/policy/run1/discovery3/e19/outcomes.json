@@ -1,0 +1,138 @@
+[
+ {
+  "name": "University of Sussex",
+  "outcome": "found",
+  "doc": {
+   "url": "https://student.sussex.ac.uk/complaints/against-you/misconduct",
+   "title": "Academic misconduct : University of Sussex",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.sussex.ac.uk/adqe/standards/academicmisconduct",
+    "title": "Academic misconduct for staff",
+    "audience": "staff"
+   },
+   {
+    "url": "https://www.sussex.ac.uk/about/ai-principles",
+    "title": "Our principles for AI in education",
+    "audience": "all"
+   }
+  ]
+ },
+ {
+  "name": "University of the West of England",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uwe.ac.uk/-/media/uwe/documents/study/academic-integrity-policy-and-procedures.pdf",
+   "title": "Academic Integrity Policy and Procedures",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "September 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.uwe.ac.uk/-/media/uwe/documents/study/academic-conduct-policy-and-academic-misconduct-procedures.pdf",
+    "why": "HTTP 404 (superseded)"
+   },
+   {
+    "url": "https://www.uwe.ac.uk/study/academic-information/assessments/academic-integrity",
+    "why": "no AI content"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "University of Warwick",
+  "outcome": "found",
+  "doc": {
+   "url": "https://warwick.ac.uk/fac/soc/law/student-hub/ai-guidance-students/",
+   "title": "Artificial Intelligence (AI) Guidance (Law School)",
+   "kind": "guide",
+   "format": "html",
+   "date_as_shown": "Last revised 3 Aug 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://warwick.ac.uk/services/gov/calendar/section2/regulations/academic_integrity/",
+    "why": "no AI content (Reg 11)"
+   },
+   {
+    "url": "https://warwick.ac.uk/services/aro/dar/quality/az/acintegrity/framework/institutional_approach_to_the_use_of_artificial_intelligence_and_academic_integrity.pdf",
+    "why": "login wall"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://warwick.ac.uk/fac/sci/lifesci/research/der/workshop/sls_pgr_ai_guidance.pdf",
+    "title": "Life Sciences PGR guidance",
+    "audience": "pgr"
+   }
+  ],
+  "note": "first row: first doc was the Law School AI policy; guide chosen as different kind"
+ },
+ {
+  "name": "University of Warwick",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://warwick.ac.uk/fac/arts/history/students/pgt/assess-plagiarism/",
+   "title": "Academic Integrity (History, PGT)",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://warwick.ac.uk/services/gov/calendar/section2/regulations/academic_integrity/",
+    "why": "no AI content (Reg 11)"
+   },
+   {
+    "url": "https://warwick.ac.uk/services/aro/dar/quality/az/acintegrity/framework/institutional_approach_to_the_use_of_artificial_intelligence_and_academic_integrity.pdf",
+    "why": "login wall"
+   },
+   {
+    "url": "https://warwick.ac.uk/students/academic-essentials/navigating-university/academic-integrity/",
+    "why": "gateway page, mostly links onward"
+   }
+  ],
+  "other_pages": [],
+  "note": "AI viva/disclosure text seen in search snippet only; fetch summary returned a generic hub and could not confirm AI text; departmental, PGT-oriented"
+ },
+ {
+  "name": "University of West London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.uwl.ac.uk/about-us/policies-and-regulations/academic-offences-regulations",
+   "title": "Academic offences regulations",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "Last revised August 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.uwl.ac.uk/about-us/policies-and-regulations/staff-use-artificial-intelligence-AI",
+    "title": "Policy and guidance for staff on the use of AI",
+    "audience": "staff"
+   }
+  ]
+ }
+]

@@ -1,0 +1,151 @@
+[
+ {
+  "name": "University of Plymouth",
+  "outcome": "found",
+  "doc": {
+   "url": "https://ecm-academics.plymouth.ac.uk/jsummerscales/MATS347/Publications/FoSE_AI_statement_V3.pdf",
+   "title": "Responsible Use of Artificial Intelligence (AI) in Assessments (Faculty of Science and Engineering guidelines)",
+   "kind": "assessment_policy",
+   "format": "pdf",
+   "date_as_shown": "2023-24 academic year",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.plymouth.ac.uk/student-life/your-studies/essential-information/regulations/plagiarism",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.plymouth.ac.uk/student-life/your-studies/essential-information/student-conduct",
+    "why": "no AI content"
+   },
+   {
+    "url": "Academic_Regulations_2025-26 Section D and Assessment Offences procedure 2019-20 PDFs (plymouth.ac.uk rails blobs)",
+    "why": "no AI content"
+   }
+  ],
+  "other_pages": [],
+  "note": "faculty-level (FoSE) and 2023-24, hosted on a staff web space; weak but only AI-naming assessment document found"
+ },
+ {
+  "name": "University of Portsmouth",
+  "outcome": "found",
+  "doc": {
+   "url": "https://policies.docstore.port.ac.uk/policy-297.pdf",
+   "title": "Academic Misconduct Policy",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "September 2026 (cover; search snippet showed September 2025)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://policies.docstore.port.ac.uk/policy-266.pdf",
+    "why": "Generative AI for teaching, assessment and feedback: staff-facing, not chosen"
+   },
+   {
+    "url": "https://www.port.ac.uk/policy/ai-guidance-for-teaching-staff",
+    "why": "staff only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://policies.docstore.port.ac.uk/policy-266.pdf",
+    "title": "Generative AI for teaching, assessment and feedback",
+    "audience": "staff"
+   },
+   {
+    "url": "https://myport.port.ac.uk/my-course/appeals-complaints-and-conduct/academic-misconduct",
+    "title": "Academic misconduct",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Roehampton",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.roehampton.ac.uk/globalassets/documents/corporate-information/policies/student-code-of-conduct-and-disciplinary-procedure-september-2025.pdf/",
+   "title": "Student Code of Conduct and Disciplinary Procedure",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "September 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.roehampton.ac.uk/globalassets/documents/corporate-information/council/university-regulations-march-2026.pdf/",
+    "why": "no AI content"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.roehampton.ac.uk/globalassets/documents/corporate-information/policies/use-of-artificial-intelligence-in-research-and-knowledge-exchange-activity-policy-sept-2025.pdf/",
+    "title": "Use of AI in research and knowledge exchange activity policy",
+    "audience": "staff"
+   },
+   {
+    "url": "https://library.roehampton.ac.uk/studyskills/academicintegrity",
+    "title": "Academic Integrity and Plagiarism (study skills hub)",
+    "audience": "students"
+   }
+  ],
+  "note": "general conduct and disciplinary procedure with an Improper use of AI clause, not a standalone academic misconduct policy"
+ },
+ {
+  "name": "University of Salford",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.salford.ac.uk/sites/default/files/2026-01/studentacademicintegritypolicyacademicmisconductprocedure.pdf",
+   "title": "Student Academic Integrity Policy and Academic Misconduct Procedure v4.6",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Effective from 1 January 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.salford.ac.uk/sites/default/files/2025-09/GenerativeAIPolicy.pdf",
+    "title": "Generative AI Policy v1.0",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Sheffield",
+  "outcome": "found",
+  "doc": {
+   "url": "https://sheffield.ac.uk/study/policies/academic-misconduct",
+   "title": "Academic misconduct policy - taught students",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "Approved 11 December 2024",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://sheffield.ac.uk/study-skills/assessment/academic-integrity/ai-and-academic-integrity",
+    "title": "Generative AI and academic integrity",
+    "audience": "students"
+   },
+   {
+    "url": "https://sheffield.ac.uk/rpi/pgr/guidance-pgrs-use-genai",
+    "title": "Guidance to PGRs on the use of GenAI",
+    "audience": "pgr"
+   }
+  ],
+  "note": "AI named once (false authorship: automated authorship)"
+ }
+]

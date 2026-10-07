@@ -1,0 +1,121 @@
+[
+ {
+  "name": "University College Birmingham",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ucb.ac.uk/media/sb3nznc1/cop-on-plagiarism-and-academic-misconduct-feb-25.pdf",
+   "title": "Code of Practice on Plagiarism and Academic Misconduct",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "March 2025 (file name Feb-25)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.ucb.ac.uk/media/yxgfqhh3/academic-regulations-part-2-assessment-progression-and-award-july-2026.pdf",
+    "title": "Academic Regulations Part 2 (not checked)",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University College London",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.ucl.ac.uk/study/current-students/academic-manual/chapters/chapter-6-student-casework-framework/section-9-student-academic-misconduct-procedure",
+   "title": "Section 9: Student Academic Misconduct Procedure",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/genai-and-academic-integrity-assessment",
+    "why": "blocked (HTTP 403)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.ucl.ac.uk/teaching-learning/generative-ai-hub/three-categories-genai-use-assessment",
+    "title": "Three categories of GenAI use in assessment",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University College of Estate Management",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.ube.ac.uk/student-academic-misconduct-procedure/",
+   "title": "Academic Misconduct Procedure (taught students), v19",
+   "format": "pdf",
+   "kind": "misconduct_procedure",
+   "date_as_shown": "Version 19.00",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": []
+ },
+ {
+  "name": "University for the Creative Arts",
+  "outcome": "found",
+  "doc": {
+   "url": "https://uca.assetbank-server.com/assetbank-uca/assetfile/69596",
+   "title": "Academic Misconduct Regulations and Procedures",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Version 2024 01.1, 24 July 2024",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://mylibrary.uca.ac.uk/academicintegritypolicy",
+    "why": "no AI content"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://uca.assetbank-server.com/assetbank-uca/assetfile/72537.pdf",
+    "title": "Appendix G: Academic Integrity and Technology",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Bath",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bath.ac.uk/publications/regulations-for-students-2025-26/attachments/regulations-for-students-2025-26-19-academic-misconduct.pdf",
+   "title": "19. Conduct of Investigations into Academic Misconduct (Regulations for Students 2025/26)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2025/26",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.bath.ac.uk/announcements/academic-integrity-in-the-generative-artificial-intelligence-genai-context/",
+    "why": "HTTP 404 on fetch"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://teachinghub.bath.ac.uk/wp-content/uploads/2024/02/Guidance-on-GenAI-Suspected-Misuse.pdf",
+    "title": "GenAI and Academic Misconduct: Guidance for Colleagues",
+    "audience": "staff"
+   }
+  ]
+ }
+]

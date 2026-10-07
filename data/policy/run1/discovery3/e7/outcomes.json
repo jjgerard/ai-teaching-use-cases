@@ -1,0 +1,121 @@
+[
+ {
+  "name": "London Metropolitan University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://student.londonmet.ac.uk/your-studies/student-administration/rules-and-regulations/academic-misconduct/",
+   "title": "Academic Misconduct (page carries 'principles on the use of Generative AI')",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://libguides.londonmet.ac.uk/ai/academic-integrity-ai",
+    "title": "Maintaining academic integrity when using AI (library guide)",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "London School of Economics and Political Science",
+  "outcome": "found",
+  "doc": {
+   "url": "https://info.lse.ac.uk/Staff/Divisions/Academic-Registrars-Division/Teaching-Quality-Assurance-and-Review-Office/Assets/Documents/Calendar/AssessmentIntegrityRegulations.pdf",
+   "title": "Assessment Integrity Regulations applicable to all students",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Last updated: July 2026 (applies 2026/27)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://info.lse.ac.uk/Staff/Divisions/Academic-Registrars-Division/Teaching-Quality-Assurance-and-Review-Office/Assets/Documents/Calendar/RegulationsAssessmentOffences.pdf",
+    "why": "superseded by Assessment Integrity Regulations"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://info.lse.ac.uk/current-students/lse100/Assets/Documents/LSE100-GenerativeAIPolicy.pdf",
+    "title": "LSE100 generative AI policy",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "London School of Hygiene & Tropical Medicine",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.lshtm.ac.uk/media/74671",
+   "title": "LSHTM Statement on using Artificial Intelligence (AI) in Assessments",
+   "kind": "assessment_policy",
+   "format": "html",
+   "date_as_shown": "last updated September 2025 (per search snippet)",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.lshtm.ac.uk/sites/default/files/academic-manual-chapter-07.pdf",
+    "why": "no AI content found in fetched text"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.lshtm.ac.uk/sites/default/files/artificial-intelligence-policy.pdf",
+    "title": "Artificial Intelligence (AI) Policy",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "London South Bank University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.lsbu.ac.uk/_resources/pdf/policies-and-regulations/student-academic-misconduct-procedure.pdf",
+   "title": "Student Academic Misconduct Procedure",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Policy last reviewed October 2025",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.lsbu.ac.uk/__data/assets/pdf_file/0006/432375/LSBU-AI-policy.pdf",
+    "why": "blocked (403); kept as fallback"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.lsbu.ac.uk/_resources/pdf/policies-and-regulations/Assessment-and-Examinations-Procedure.pdf",
+    "title": "Assessment and Exams Procedure 25-26",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Loughborough University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.lboro.ac.uk/students/handbook/assessments/assessment-information/academic-misconduct/",
+   "title": "Academic Misconduct (Student Handbook)",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": []
+ }
+]

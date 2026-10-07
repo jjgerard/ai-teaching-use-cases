@@ -1,0 +1,122 @@
+[
+ {
+  "name": "University of Cambridge",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.educationalpolicy.admin.cam.ac.uk/plagiarism-and-academic-misconduct/artificial-intelligence-ai",
+   "title": "Artificial Intelligence (AI) - Plagiarism and Academic Misconduct",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "none shown (c) 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.educationalpolicy.admin.cam.ac.uk/plagiarism-and-academic-misconduct/definition-academic-misconduct",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.educationalpolicy.admin.cam.ac.uk/plagiarism-and-academic-misconduct/what-are-students-responsibilities",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.studentcomplaints.admin.cam.ac.uk/files/suspected_academic_misconduct_guide_-_march_2023.pdf",
+    "why": "staff only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.hps.cam.ac.uk/students/academic-misconduct",
+    "title": "Academic misconduct: plagiarism and use of AI (HPS department)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.classics.cam.ac.uk/student-information/ai-policy",
+    "title": "AI Policy (Classics)",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Chester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.chester.ac.uk/media/media/documents/policies/Academic-Conduct-Policy.pdf",
+   "title": "Assessment Academic Conduct Policy v2.0",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Effective from 29 September 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://shoutout.chester.ac.uk/news-features/artificial-intelligence-and-your-assessment/",
+    "why": "redirects to student-shout-out landing page"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "University of Cumbria",
+  "outcome": "found",
+  "doc": {
+   "url": "https://my.cumbria.ac.uk/Student-Life/Your-Studies/Assessments/Malpractice/",
+   "title": "Academic Malpractice",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "none shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": []
+ },
+ {
+  "name": "University of Derby",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.derby.ac.uk/about/academic-regulations/academic-misconduct/",
+   "title": "Academic Misconduct - Academic regulations",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "none shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://libguides.derby.ac.uk/develop-at-derby/generative-artificial-intelligence-AI/academic-misconduct",
+    "why": "same kind as first (library guide)"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "University of East Anglia",
+  "outcome": "found",
+  "doc": {
+   "url": "https://assets.uea.ac.uk/f/185167/x/5bdaa7f701/plagiarism-and-collusion-policy-24-25-07-24.pdf",
+   "title": "Plagiarism, Collusion, and Contract Cheating Policy 2024/25",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Approved by LTC and Senate, July 2024",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://assets.uea.ac.uk/f/185167/x/ecb798aeb2/generative-ai-policy-for-research-and-innovation.pdf",
+    "title": "Generative AI Policy for Research and Innovation",
+    "audience": "pgr"
+   }
+  ]
+ }
+]

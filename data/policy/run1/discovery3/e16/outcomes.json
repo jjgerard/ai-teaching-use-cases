@@ -1,0 +1,116 @@
+[
+ {
+  "name": "University of Lancashire",
+  "outcome": "not_found",
+  "queries": [
+   "Lancashire university assessment regulations generative AI students",
+   "Lancashire Assessment Handbook 2025-26 artificial intelligence",
+   "Lancashire generative AI student guidance using GenAI in your studies",
+   "University of Lancashire AI statement principles students artificial intelligence",
+   "library guide generative AI referencing acknowledging AI use students"
+  ],
+  "rejected": [
+   {
+    "url": "https://www.lancashire.ac.uk/assets/student-contracts/2025-26/academic-regulations-2526.pdf",
+    "why": "blocked (HTTP 403), AI content unverified"
+   },
+   {
+    "url": "https://www.lancashire.ac.uk/assets/student-contracts/2024-25/academic-regulations-2425.pdf",
+    "why": "blocked (HTTP 403)"
+   },
+   {
+    "url": "https://www.lancashire.ac.uk/assets/student-contracts/2025-26/university-handbook-2526.pdf",
+    "why": "blocked (HTTP 403)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.lancashire.ac.uk/assets/research/code-of-conduct.pdf",
+    "title": "Code of Conduct for Research",
+    "audience": "pgr"
+   }
+  ]
+ },
+ {
+  "name": "University of Lincoln",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.lincoln.ac.uk/abouttheuniversity/governance/universityregulations/partl-academicoffences/",
+   "title": "Part L - Academic Offences",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://guides.library.lincoln.ac.uk/learningdevelopment/ai",
+    "title": "AI study skills library guide",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Liverpool",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.liverpool.ac.uk/media/livacuk/tqsd/code-of-practice-on-assessment/appendix_L_cop_assess.pdf",
+   "title": "Code of Practice on Assessment, Appendix L: Academic Integrity Policy 2026-27",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2026-27",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.liverpool.ac.uk/media/livacuk/english-language-centre/2025_ELC,AI,GuidelinesV8.pdf",
+    "title": "ELC Academic Integrity Policy",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Manchester",
+  "outcome": "found",
+  "doc": {
+   "url": "https://documents.manchester.ac.uk/display.aspx?DocID=639",
+   "title": "Academic Malpractice Procedure",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "version log shows revision 03/2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": []
+ },
+ {
+  "name": "University of Northampton",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://searchtundra.northampton.ac.uk/getfile.ashx?DocId=3837978882434213095&tag=6b623fba-68f4-4e99-915e-34128c51b1c6",
+   "title": "Academic Integrity and Misconduct (AIM) Policy",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "not seen",
+   "retrieved_here": false,
+   "http": 503,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://searchtundra.northampton.ac.uk/getfile.ashx?DocId=3584778165338040386&tag=6b623fba-68f4-4e99-915e-34128c51b1c6",
+    "title": "AIM Policy: AI Misuse Indicators",
+    "audience": "staff"
+   }
+  ]
+ }
+]

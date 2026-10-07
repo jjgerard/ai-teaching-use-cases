@@ -1,0 +1,113 @@
+[
+ {
+  "name": "Hartpury University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.hartpury.ac.uk/media/h4gdxowj/hartpury-university-academic-regulations-2025-26-version-1.pdf",
+   "title": "Hartpury Academic Regulations 2025-26",
+   "kind": "assessment_policy",
+   "format": "pdf",
+   "date_as_shown": "2025-26, version 1 (approved AB20250603)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.hartpury.ac.uk/about-us/governance-leadership/policies-regulation-and-information/policies/",
+    "title": "Hartpury Policies",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Imperial College London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/registry/academic-governance/public/academic-policy/academic-integrity/Academic-Misconduct-Policy-and-Procedure-v1.3-15.03.23.pdf",
+   "title": "Academic Misconduct Policy and Procedure",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Version 1.3, March 2023",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.imperial.ac.uk/media/imperial-college/administration-and-support-services/clcc/i-explore/Appropriate-and-Inappropriate-use-of-AI-tools-in-Written-Assessments.pdf",
+    "title": "Guidance on the Ethical Use of AI tools",
+    "audience": "students"
+   }
+  ],
+  "note": "curl returned 403 (bot protection, not bypassed); text was retrieved via WebFetch tool. Lead's fetch.js may be blocked."
+ },
+ {
+  "name": "Institute of Cancer Research",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://www.icr.ac.uk/docs/default-source/studying-and-training/student-resources/academic-regulations-25-26.pdf?sfvrsn=721b268e_6",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.icr.ac.uk/docs/default-source/studying-and-training/student-resources/msc-oncology-student-handbook-25-26.pdf?sfvrsn=37e1ab32_5",
+    "why": "no AI content"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "artificial intelligence students policy assessment",
+   "assessment regulations ChatGPT generative AI taught course students",
+   "MSc student handbook use of AI tools academic integrity",
+   "academic regulations examination offences code of practice",
+   "artificial intelligence policy statement use of AI tools institute staff students"
+  ]
+ },
+ {
+  "name": "Keele University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.keele.ac.uk/media/keeleuniversity/policyzone20/studentandacademicservices/Student-Academic-Misconduct-CoP-2025.pdf",
+   "title": "Student Academic Misconduct Code of Practice",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2025 (per filename)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.keele.ac.uk/library/academicskills/studyguides/",
+    "title": "Study guides",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "King's College London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.kcl.ac.uk/assets/policyzone/assessment/academic-misconduct-policy.pdf",
+   "title": "Academic Misconduct Policy",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Effective 1 September 2023; next review September 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.kcl.ac.uk/about/strategy/learning-and-teaching/ai-guidance/doctoral-assessment",
+    "title": "Doctoral guidance",
+    "audience": "pgr"
+   }
+  ]
+ }
+]

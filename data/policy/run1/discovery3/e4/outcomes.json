@@ -1,0 +1,112 @@
+[
+ {
+  "name": "De Montfort University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.dmu.ac.uk/Documents/current-students/student-support/exams-deferrals-policies/policies/Academic-Integrity-and-Misconduct-Policy.pdf",
+   "title": "Academic Integrity and Misconduct Policy",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": null,
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": []
+ },
+ {
+  "name": "Edge Hill University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.edgehill.ac.uk/wp-content/uploads/documents/Regulations_Appendix-8-Academic-Misconduct-Procedure.pdf",
+   "title": "Academic Regulations Appendix 8: Academic Misconduct Procedures 2024-2025",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2024-2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.edgehill.ac.uk/wp-content/uploads/documents/Academic-misconduct-practical-advice-for-students-V1.2.pdf",
+    "title": "Academic misconduct - practical advice for students V1.2",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.edgehill.ac.uk/departments/support/ls/research/resources-and-training/ai-guidance/",
+    "title": "AI for research",
+    "audience": "pgr"
+   }
+  ]
+ },
+ {
+  "name": "Falmouth University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.falmouth.ac.uk/sites/default/files/media/downloads/academic-integrity-policy-23-july-2025.pdf",
+   "title": "Policy: Academic Integrity (approved 23 July 2025)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Approved 23 July 2025",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.falmouth.ac.uk/corporate/artificial-intelligence-at-falmouth-university",
+    "title": "Artificial Intelligence (AI) at Falmouth University",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Goldsmiths University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.gold.ac.uk/media/docs/gam/Academic-Misconduct-Policy-and-Procedures.pdf",
+   "title": "Academic Misconduct Policy and Procedures",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": null,
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": []
+ },
+ {
+  "name": "Harper Adams University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.harper-adams.ac.uk/policy/899/undergraduate-study-guide",
+   "title": "Undergraduate Study Guide",
+   "kind": "guide",
+   "format": "html",
+   "date_as_shown": "September 2023",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://cdn.harper-adams.ac.uk/document/ki/key-info-page/Assessment-Regulations.pdf",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://cdn.harper-adams.ac.uk/document/ki/key-info-page/Assessment-Arrangements.pdf",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://cdn.harper-adams.ac.uk/document/ki/key-info-page/Academic-Integrity-and-Academic-Misconduct-A-Guide-for-Students-and-Tutors.pdf",
+    "why": "same kind as first"
+   }
+  ],
+  "other_pages": []
+ }
+]

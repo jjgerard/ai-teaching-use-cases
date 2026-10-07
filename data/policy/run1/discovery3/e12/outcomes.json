@@ -1,0 +1,119 @@
+[
+ {
+  "name": "University of Bedfordshire",
+  "outcome": "found",
+  "doc": {
+   "url": "https://lrweb.beds.ac.uk/academic-integrity-resource/university-response/academic-warning-concern-or-academic-offence/",
+   "title": "Academic warning, concern or academic offence",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.beds.ac.uk/student-experience/academic-information/academic-misconduct/",
+    "why": "blocked (403 Cloudflare bot wall)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://lrweb.beds.ac.uk/academic-integrity-resource/proofreading-editing-ai-and-academic-integrity/use-of-apps-or-tools/",
+    "title": "Use of apps or tools",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Birmingham",
+  "outcome": "found",
+  "doc": {
+   "url": "https://intranet.birmingham.ac.uk/student/academic-support/registry/legislation/documents/public/cohort-legislation-2026-27/cop-academic-integrity-26-27.pdf",
+   "title": "Code of Practice on Academic Integrity 2026-27",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2026-27",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://intranet.birmingham.ac.uk/student/academic-support/registry/ug-gt/student-conduct/guidance-students.aspx",
+    "title": "Guidance on plagiarism for students",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Bradford",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bradford.ac.uk/teaching-quality/policies/assessment/",
+   "title": "Assessment - Policies",
+   "kind": "assessment_policy",
+   "format": "html",
+   "date_as_shown": "approved 30 April 2025 (per search snippet)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.bradford.ac.uk/academic-misconduct-appeals-and-student-complaints/academic-misconduct/",
+    "why": "same kind as first"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "University of Brighton",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://unibrightonac.sharepoint.com/:b:/s/public/ET4jBPx7tdtEr4dABxqvZrMBEYv7SBjpJ0MET49NtzXOjg?e=3JPNkl",
+   "title": "Policy on the use of Generative AI in summative assessment (Taught Provision)",
+   "kind": "assessment_policy",
+   "format": "pdf",
+   "date_as_shown": "not shown",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://unibrightonac.sharepoint.com/:b:/s/public/IQDBpXDkw2QnQocAlN0J2TlfAdhCMj1Z2eD1riDnxnuWTBc?e=A8XDkH",
+    "why": "GEAR Section F misconduct regulations: SharePoint 403, AI content unconfirmed"
+   },
+   {
+    "url": "https://www.brighton.ac.uk/brighton-students/your-learning/student-policies-and-regulations/index.aspx",
+    "why": "hub only links onward"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "University of Bristol",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bristol.ac.uk/media-library/sites/academic-quality/documents/taught-code/procedures/academic-misconduct-procedure-25-26.pdf",
+   "title": "Academic Misconduct Procedure Summary",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2025-26",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.bristol.ac.uk/academic-quality/assessment/regulations-and-code-of-practice-for-taught-programmes/academic-misconduct/",
+    "title": "22: Academic misconduct (2026-27 code)",
+    "audience": "students"
+   }
+  ]
+ }
+]

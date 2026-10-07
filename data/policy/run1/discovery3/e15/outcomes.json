@@ -1,0 +1,151 @@
+[
+ {
+  "name": "University of Greenwich",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.gre.ac.uk/__data/assets/pdf_file/0034/378790/assessment-and-feedback-policy-2025-updated-july-2025.pdf",
+   "title": "University of Greenwich Assessment and Feedback Policy (2025)",
+   "kind": "assessment_policy",
+   "format": "pdf",
+   "date_as_shown": "2025, updated July 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.gre.ac.uk/docs/rep/sas/academic-misconduct-policy-and-procedure-taught-awards",
+    "why": "landing page for Assessment Misconduct Procedure (taught awards) shows no AI content; linked PDFs not checked"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.gre.ac.uk/docs/rep/sas/declaration-of-ai-use",
+    "title": "Declaration of AI use",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.gre.ac.uk/__data/assets/pdf_file/0023/251852/pgr-student-research-misconduct-procedure-sep-21-v1-0.pdf",
+    "title": "PGR student research misconduct procedure",
+    "audience": "pgr"
+   }
+  ]
+ },
+ {
+  "name": "University of Hertfordshire",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.herts.ac.uk/__data/assets/pdf_file/0011/444926/Academic-Handbook-2025-2026.pdf",
+   "title": "University of Hertfordshire Academic Regulations for Undergraduate and Taught Postgraduate Students (Academic Handbook 2025-2026; contains UPR AS14 Appendix III)",
+   "kind": "assessment_policy",
+   "format": "pdf",
+   "date_as_shown": "2025-2026",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://ask.herts.ac.uk/assessment-offences-and-academic-misconduct",
+    "why": "no AI content in fetched text"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://ask.herts.ac.uk/ai-tools",
+    "title": "Using AI tools in your studies and assessments",
+    "audience": "students"
+   }
+  ],
+  "note": "Handbook PDF returned 403 to fetch (blocked, not bypassed); search snippets attribute AI/fake-reference text to UPR AS14 Appendix III. Standalone Appendix III URL not found."
+ },
+ {
+  "name": "University of Huddersfield",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.hud.ac.uk/policies/registry/regs-taught/section-10/",
+   "title": "Regulations for taught students: Section 10 (academic misconduct)",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://staff.hud.ac.uk/strategic-teaching-and-learning-team/project/academicintegrity/",
+    "title": "Academic Integrity (staff)",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "University of Hull",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.hull.ac.uk/asset-library/docs/regulations-governing-academic-misconduct-v4-15-aug-2026.docx",
+   "title": "Regulations governing Academic Misconduct (v4.15)",
+   "kind": "misconduct_procedure",
+   "format": "docx",
+   "date_as_shown": "v4.15, Aug 2026 (from filename)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.hull.ac.uk/asset-library/docs/assessment-procedures.pdf",
+    "title": "Code of Practice - Assessment Procedures 2025",
+    "audience": "students"
+   },
+   {
+    "url": "https://libguides.hull.ac.uk/integrity/assessment",
+    "title": "Integrity in assessment (library guide)",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "University of Kent",
+  "outcome": "found",
+  "doc": {
+   "url": "https://student.kent.ac.uk/studies/using-generative-ai-in-your-studies/ai-use-guidelines/our-ai-principles",
+   "title": "Our AI Principles",
+   "kind": "institutional_policy",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://student.kent.ac.uk/studies/academic-integrity/academic-misconduct-penalties",
+    "why": "404 on fetch"
+   },
+   {
+    "url": "https://www.kent.ac.uk/ai/academicpolicies.html",
+    "why": "404 on fetch"
+   },
+   {
+    "url": "https://student.kent.ac.uk/studies/academic-integrity",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.kent.ac.uk/teaching/qa/credit-framework/",
+    "why": "landing page, no AI, Annex 10 main document URL not found"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://student.kent.ac.uk/studies/using-generative-ai-in-your-studies/tips",
+    "title": "Tips on using generative AI",
+    "audience": "students"
+   }
+  ],
+  "note": "Preferred misconduct procedure (Credit Framework Annex 10) exists but its document URL was not found; principles page chosen as fallback."
+ }
+]
