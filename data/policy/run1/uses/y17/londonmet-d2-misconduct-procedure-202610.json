@@ -1,0 +1,88 @@
+{
+ "doc_id": "londonmet-d2-misconduct-procedure-202610",
+ "coder": "y-y17",
+ "uses": [
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "assisting in the structuring or organising existing work.",
+   "anchor": "London Metropolitan University principles on the use of Generative AI"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "getting inspiration / overcoming 'writer's block'.",
+   "anchor": "London Metropolitan University principles on the use of Generative AI"
+  },
+  {
+   "use": "check_language",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "spelling and grammar checks.",
+   "anchor": "London Metropolitan University principles on the use of Generative AI"
+  },
+  {
+   "use": "assistive_use",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "aiding students with specific learning requirements.",
+   "anchor": "London Metropolitan University principles on the use of Generative AI"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "creative image making and media production.",
+   "anchor": "London Metropolitan University principles on the use of Generative AI"
+  },
+  {
+   "use": "summarise_or_analyse_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "producing quick summaries / synopses of large documents",
+   "anchor": "London Metropolitan University principles on the use of Generative AI"
+  },
+  {
+   "use": "generate_code",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "other subject specific tasks such as debugging code.",
+   "anchor": "London Metropolitan University principles on the use of Generative AI"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "For guidance related to your subject speak to your course leader or any member of the teaching staff."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "London Metropolitan University Students will be expected, when required, to document or reference their use of Generative AI for assessment submissions."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

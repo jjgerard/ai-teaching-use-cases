@@ -1,0 +1,37 @@
+{
+ "doc_id": "bimm-d2-assessment-policy-202610",
+ "coder": "y-y11",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "other_rules_apply"
+   ],
+   "quote": "the use of Artificial Intelligence (AI) in the work you submit for assessment must comply with the guidelines set out in our Academic Integrity Policy and be fully attributed.",
+   "anchor": null
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "the use of Artificial Intelligence (AI) in the work you submit for assessment must comply with the guidelines set out in our Academic Integrity Policy and be fully attributed."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "the use of Artificial Intelligence (AI) in the work you submit for assessment must comply with the guidelines set out in our Academic Integrity Policy and be fully attributed."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

@@ -1,0 +1,242 @@
+{
+ "doc_id": "leeds-beckett-d2-misconduct-procedure-202610",
+ "coder": "y-y17",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "use of generative artificial intelligence tools to gain an unfair advantage",
+   "anchor": "Other Forms of Unfair Practice"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "falsifying data in any piece of work",
+   "anchor": "Other Forms of Unfair Practice"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating occurs when a student instructs a third party to do some or all of a piece of work (paid or unpaid).",
+   "anchor": "Contract Cheating"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is the substantial, unacknowledged, incorporation in a student’s work of material derived from the work (published or unpublished) of another.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism occurs when a student submits their own work which has already received credit.",
+   "anchor": "Self-Plagiarism"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion occurs when a student collaborates with another student in the completion of work which is then submitted as unaided work by either student.",
+   "anchor": "Collusion"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Cheating is unfair behaviour relating to an examination.",
+   "anchor": "Cheating"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "the assumption by one person of the identity of another person with the intent to deceive or gain unfair advantage",
+   "anchor": "Other Forms of Unfair Practice"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "A suspected breach of academic honesty , whether intentional or unintentional, is a matter of academic judgement and may be considered a breach of these regulations.",
+   "anchor": "10.2 General Principles of Academic Honesty"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "This will not normally include students at Level 4 or the start of Level 7.",
+   "anchor": "Minor Offence"
+  }
+ ],
+ "detection": [
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "A viva voce examination should be held where a student has a suspected case of contract cheating.",
+   "anchor": "Viva Voce"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The student should be allowed to present evidence, such as date-stamped draft copies of their work, to support their claim that they did complete the work themselves.",
+   "anchor": "Conduct of the Viva"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "A suspected breach of academic honesty , whether intentional or unintentional, is a matter of academic judgement",
+   "anchor": "10.2 General Principles of Academic Honesty"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "An Academic Misconduct Board will be established to investigate suspected major offence.",
+   "anchor": "Major Offence"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The University has processes to investigate alleged breaches of academic honesty",
+   "anchor": "10.1 Purpose"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "Any student suspected of a breach of academic honesty will be provided with information about the alleged offence which explains why they are being investigated.",
+   "anchor": "10.2 General Principles of Academic Honesty"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "any student suspected of a breach of academic honesty will be investigated and will have a fair hearing.",
+   "anchor": "10.2 General Principles of Academic Honesty"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "the Academic Honesty Lead or Academic Misconduct Board is authorised to proceed in their absence.",
+   "anchor": "Non-Attendance of Student at any stage of these procedures"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The right to seek advice from the Students’ Union",
+   "anchor": "Minor Offence"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "All students have a right to request an appeal hearing in respect of the decision of a Module Board, Progression and Award Board or Research Degrees Sub-committee",
+   "anchor": "Right to Request an Appeal Hearing"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "A student will be given the following information in writing, at least 5 working days in advance of a request to attend a minor offence meeting:",
+   "anchor": "Minor Offence"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The standard of proof required at any stage of investigation is that of “the balance of probabilities”.",
+   "anchor": "Standard of Proof"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Where an offence has been admitted or found, all documentation associated with the case will be retained in accordance with the retention policy.",
+   "anchor": "10.2 General Principles of Academic Honesty"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "A mark of zero will be attributed to the assessment and the case will be referred to the Module Board.",
+   "anchor": "Schedule of Outcomes for Taught Awards"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "for a capped mark of 40% for Levels 4-6 and 50% for Level 7",
+   "anchor": "Schedule of Outcomes for Taught Awards"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Any eligibility for reassessment",
+   "anchor": "Schedule of Outcomes for Taught Awards"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "A letter of warning will be sent to the student",
+   "anchor": "Schedule of Outcomes for Taught Awards"
+  },
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "strongly recommended to engage with the opportunities for further education about academic honesty and good academic practice.",
+   "anchor": "Schedule of Outcomes for Taught Awards"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Module failed with no right of reassessment.",
+   "anchor": "Schedule of Outcomes for Taught Awards"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Level failed and requirement to withdraw from the course/pathway of study.",
+   "anchor": "Schedule of Outcomes for Taught Awards"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The category of the breach and the gravity and circumstances of the case will inform the penalty in accordance with the schedule of outcomes for taught awards.",
+   "anchor": "Schedule of Outcomes for Taught Awards"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Whether the offence was a repeat offence",
+   "anchor": "Consideration of Individual Cases"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice occurs when the standard of referencing is not at the level required by the nature of the assessment."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the substantial, unacknowledged, incorporation in a student’s work of material derived from the work (published or unpublished) of another."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism occurs when a student submits their own work which has already received credit."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion occurs when a student collaborates with another student in the completion of work which is then submitted as unaided work by either student."
+  },
+  {
+   "term": "Cheating",
+   "ai_named": false,
+   "quote": "Cheating is unfair behaviour relating to an examination."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating occurs when a student instructs a third party to do some or all of a piece of work (paid or unpaid)."
+  }
+ ]
+}

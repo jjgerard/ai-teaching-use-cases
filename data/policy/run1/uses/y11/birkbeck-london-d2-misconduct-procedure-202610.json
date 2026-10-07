@@ -1,0 +1,158 @@
+{
+ "doc_id": "birkbeck-london-d2-misconduct-procedure-202610",
+ "coder": "y-y11",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This might include using generative artificial intelligence tools such as ChatGPT to create content and/or argument for your assessment which you then present as your own intellectual work.",
+   "anchor": null,
+   "tier": "misconduct example"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "If you are permitted to use generative AI tools to create content, this will be included in",
+   "anchor": null,
+   "tier": "if permitted in brief"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "software, and tools to generate text, graphics or artwork, without citation or specific authorisation.",
+   "anchor": null,
+   "tier": "without citation"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "software, and tools to generate text, graphics or artwork, without citation or specific authorisation.",
+   "anchor": null
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Using technological aids, including translation software, paraphrasing tools, text generation",
+   "anchor": null
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "and then using translation software or assistance from a third party to convert into English.",
+   "anchor": null,
+   "tier": "English-only assignment"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "Using technological aids, including translation software, paraphrasing tools, text generation",
+   "anchor": null
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "The Learning Development team provides guidance on using proof-reading or grammar-checking software without being at risk of academic misconduct.",
+   "anchor": null
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This can also include using generative AI tools which can take other people’s words and ideas without reference.",
+   "anchor": null
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using another student’s work and submitting some or all of it as if it were the student’s own.",
+   "anchor": null,
+   "tier": "other students' work"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "‘Fabrication’ means creating false data or other aspects of research or assessed work.",
+   "anchor": null
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabricating references.",
+   "anchor": null,
+   "tier": "references"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "If you are permitted to use generative AI tools to create content, this will be included in"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "software, and tools to generate text, graphics or artwork, without citation or specific authorisation."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "software, and tools to generate text, graphics or artwork, without citation or specific authorisation."
+  },
+  "exempt": []
+ }
+}
