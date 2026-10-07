@@ -1,0 +1,83 @@
+{
+ "doc_id": "sussex-d2-misconduct-procedure-202610",
+ "coder": "y-y10",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "using AI or other digital tools, such as translation tools in an assessment where their use has been prohibited",
+   "anchor": "Unauthorised or inappropriate use of digital technologies, including artificial intelligence"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "using AI or other digital tools, such as translation tools in an assessment where their use has been prohibited",
+   "anchor": "Unauthorised or inappropriate use of digital technologies, including artificial intelligence"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "submitting AI-generated work, where this is permitted, without required acknowledgment.",
+   "anchor": "Unauthorised or inappropriate use of digital technologies, including artificial intelligence"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabrication is the creation of false data, evidence, quotations, citations or other information in any assessed work.",
+   "anchor": "Fabrication of results"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "any student is guilty of collusion if they access and copy any part of the work of another, regardless of whether permission was given.",
+   "anchor": "Collusion"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Plagiarism can also include paraphrasing someone else’s work without citing the original source.",
+   "anchor": "Plagiarism"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "submitting AI-generated work, where this is permitted, without required acknowledgment."
+  },
+  "exempt": []
+ }
+}

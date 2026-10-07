@@ -1,0 +1,58 @@
+{
+ "doc_id": "aston-d2-misconduct-procedure-202610",
+ "coder": "y-y1",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Misusing Artificial Intelligence (AI) tools – In an assessment where the use of Artificial Intelligence (AI) tools is not permitted, or permitted in only a specific manner as outlined in the relevant assessment brief, a student uses one or more AI tools to generate assessment content which is then submitted as their own original work.",
+   "anchor": "C1.2 Academic offences"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI tools can include Chatbots used to generate text or AI tools used to generate images.",
+   "anchor": "C1.2 Academic offences"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsification of data or other research – where a student deliberately falsifies or fabricates results in order to support a thesis or argument.",
+   "anchor": "C1.2 Academic offences"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Copying another student’s work – where a student copies another student’s work, with or without the other student’s knowledge, and submits it for assessment as their own work.",
+   "anchor": "C1.2 Academic offences"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "permitted in only a specific manner as outlined in the relevant assessment brief"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

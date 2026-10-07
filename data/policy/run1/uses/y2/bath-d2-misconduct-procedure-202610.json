@@ -1,0 +1,56 @@
+{
+ "doc_id": "bath-d2-misconduct-procedure-202610",
+ "coder": "y-y2",
+ "uses": [
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This includes paraphrasing without acknowledgement, whether by the student themselves or by a Gen AI tool.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Working with someone else, or a Gen AI tool, on an assessment which is intended to be the student’s sole work.",
+   "anchor": "Types of Academic Misconduct",
+   "tier": "Sole-work assessment"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This includes fabrication of references, data, evidence or experimental results",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "Unethical and/or unauthorised use of Generative AI and other artificial intelligence tools is a means by which students may engage in one or more of the types of the academic misconduct listed above.",
+   "anchor": "Types of Academic Misconduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

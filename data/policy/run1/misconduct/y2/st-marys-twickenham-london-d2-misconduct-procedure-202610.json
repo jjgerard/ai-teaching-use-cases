@@ -1,0 +1,183 @@
+{
+ "doc_id": "st-marys-twickenham-london-d2-misconduct-procedure-202610",
+ "coder": "y-y2",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Contracting another source to produce work which is presented as the student’s own, or utilising artificial intelligence platforms to generate text which is submitted (either whole or in part) as the student’s own work.",
+   "anchor": "G30. Possible infringements and Penalties for breaches of Academic Integrity Regulations"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Contracting another source to produce work which is presented as the student’s own, or utilising artificial intelligence platforms to generate text which is submitted (either whole or in part) as the student’s own work.",
+   "anchor": "G30. Possible infringements and Penalties for breaches of Academic Integrity Regulations"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "in contravention to the relevant school or programme policy on the usage of AI.",
+   "anchor": "29.1.1 Artificial Intelligence"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsification/fabrication of research or practical work data, results (including those of interviews) and other outputs in an assessment.",
+   "anchor": "G30. Possible infringements and Penalties for breaches of Academic Integrity Regulations"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Use of another person’s copyrighted materials, intellectual property or ideas presented inappropriately as the student’s own.",
+   "anchor": "G30. Possible infringements and Penalties for breaches of Academic Integrity Regulations"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "For a formal timed assessment, introducing into the examination room any unauthorised materials such as manuscripts, printed text, books, dictionaries, self-produced cribsheets, calculators and other electronic devices such as mobile phones",
+   "anchor": "G30. Possible infringements and Penalties for breaches of Academic Integrity Regulations"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion i.e. two or more students having worked together inappropriately on an assessment to jointly produce work that is intended as an independent submission according to the requirements of the assessment.",
+   "anchor": "G30. Possible infringements and Penalties for breaches of Academic Integrity Regulations"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonating another student in a formal timed assessment, submission of coursework, or other aspect of the programme of study.",
+   "anchor": "G30. Possible infringements and Penalties for breaches of Academic Integrity Regulations"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Submission of the student’s own previously or simultaneously assessed work for another assessment, whether previously/simultaneously submitted to the University or another institution (i.e. self-plagiarism).",
+   "anchor": "G30. Possible infringements and Penalties for breaches of Academic Integrity Regulations"
+  }
+ ],
+ "liability": [
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "The prior experience(s) of the student, their level of experience at St Mary’s (e.g. the level of study) and the degree to which they have had opportunities to learn about and practice the principles of good academic practice can be drawn upon when making such a distinction.",
+   "anchor": "30.1 Poor academic practice vs academic misconduct"
+  }
+ ],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Because of dynamic developments in technology, and uncertainties around the reliability of screening software, cases where the allegation (see 30.2.2) involves the use of Artificial Intelligence (AI) will be screened by a Faculty Screening Panel",
+   "anchor": "29.1.1 Artificial Intelligence"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "To support academic staff in the referral of cases associated with AI, the purpose of the Faculty Screening Panel is to review the evidence to assess whether it is (a) sufficient to justify a formal referral",
+   "anchor": "29.1.1 Artificial Intelligence"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": true,
+   "quote": "cases where the allegation (see 30.2.2) involves the use of Artificial Intelligence (AI) will be screened by a Faculty Screening Panel convened and chaired by the Academic Integrity Leads in the first instance.",
+   "anchor": "29.1.1 Artificial Intelligence"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "the University reserves the right to investigate the alleged infringement(s) via a formally constituted Academic Integrity Panel.",
+   "anchor": "29.8 Whistle-blowing"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "a student has the right to submit an appeal against any penalty in accordance with the University’s Appeals Policy.",
+   "anchor": "30.5 Academic Appeal"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "that finding will remain on the record, and any finding of academic misconduct on the new programme will be treated as a second (or sequential) finding.",
+   "anchor": "29.4 Application of penalties in the case of multiple referrals"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "either the original mark should be awarded, or an approach to poor academic practice may still be taken if there are sufficient grounds (see 30.1).",
+   "anchor": "29.1.1 Artificial Intelligence"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "For a first finding, the work will be awarded a mark of zero for the assessment and given the opportunity for a right of resit, although the resit will be capped at the pass mark.",
+   "anchor": "30.3 Escalation of penalties"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "For a first finding, the work will be awarded a mark of zero for the assessment and given the opportunity for a right of resit, although the resit will be capped at the pass mark.",
+   "anchor": "30.3 Escalation of penalties"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "For a first finding, the work will be awarded a mark of zero for the assessment and given the opportunity for a right of resit, although the resit will be capped at the pass mark.",
+   "anchor": "30.3 Escalation of penalties"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "For a first finding, the student will have their programme terminated.",
+   "anchor": "30.3 Escalation of penalties"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "For a second finding, the student will have their programme terminated.",
+   "anchor": "30.3 Escalation of penalties"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The penalties above are indicative and each panel will consider the specifics of the case and the extent of the material the student has used inappropriately in making it’s judgement.",
+   "anchor": "30.3 Escalation of penalties"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "The University reserves the right to revoke a degree or other award if it is found that a student has committed an act or acts of academic misconduct either during their time as a student of the University",
+   "anchor": "29.9 Post-graduation Revocation of Degrees"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "academic integrity",
+   "ai_named": false,
+   "quote": "Academic Integrity defined as a commitment to the values of honesty, trust, fairness, respect, and responsibility."
+  },
+  {
+   "term": "academic misconduct",
+   "ai_named": false,
+   "quote": "It will be regarded as academic misconduct for any candidate to commit an act whereby they seek to obtain for themselves, or for another candidate, an unfair advantage."
+  },
+  {
+   "term": "collusion",
+   "ai_named": false,
+   "quote": "Collusion i.e. two or more students having worked together inappropriately on an assessment to jointly produce work that is intended as an independent submission according to the requirements of the assessment."
+  },
+  {
+   "term": "self-plagiarism",
+   "ai_named": false,
+   "quote": "Submission of the student’s own previously or simultaneously assessed work for another assessment, whether previously/simultaneously submitted to the University or another institution (i.e. self-plagiarism)."
+  }
+ ]
+}

@@ -70,10 +70,11 @@
    "stance": "conditional",
    "acknowledge": "not_stated",
    "conditions": [
-    "needs_permission"
+    "other_rules_apply"
    ],
    "quote": "any use of GenAI in research involving personal data requires prior ethics approval.",
-   "anchor": "Establishing Responsible Governance & Oversight"
+   "anchor": "Establishing Responsible Governance & Oversight",
+   "tier": "ethics approval"
   }
  ],
  "default_when_silent": null,

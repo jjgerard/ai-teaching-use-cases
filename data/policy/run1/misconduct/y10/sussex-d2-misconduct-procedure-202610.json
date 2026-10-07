@@ -1,0 +1,216 @@
+{
+ "doc_id": "sussex-d2-misconduct-procedure-202610",
+ "coder": "y-y10",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "using AI or other digital tools, such as translation tools in an assessment where their use has been prohibited",
+   "anchor": "Unauthorised or inappropriate use of digital technologies, including artificial intelligence"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "submitting AI-generated work, where this is permitted, without required acknowledgment.",
+   "anchor": "Unauthorised or inappropriate use of digital technologies, including artificial intelligence"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is the use of others’ ideas, intellectual property or work (written or otherwise) without acknowledgement or permission.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Personation is the submission of work presented as a student’s own, which may be the preparation of the work, part of the work, or providing substantial assistance in completion of the work.",
+   "anchor": "Personation"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "purchasing or commissioning of work, such as essays from essay banks or tutors, commissioning someone else to write an assessment or sit an exam",
+   "anchor": "Personation"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication is the creation of false data, evidence, quotations, citations or other information in any assessed work.",
+   "anchor": "Fabrication of results"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Breach of in-person examination or test room protocols is having unauthorised materials (including books, notes on paper, or writing on the body), unauthorised calculators, mobile phones, internet-enabled devices and other prohibited electronic devices.",
+   "anchor": "Exam misconduct"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "An act of collusion includes those who actively assist others or allow others to access their work prior to submission for assessment.",
+   "anchor": "Collusion"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "coercion or bribery of project participants.",
+   "anchor": "Breach of research ethics"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "The act of presenting work that has been previously submitted for a different assessment, except where the nature of the assessment makes this permissible, is treated as ‘overlapping material’.",
+   "anchor": "Plagiarism"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Academic misconduct can be intentional or unintentional.",
+   "anchor": "Examples of academic misconduct"
+  }
+ ],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "If the person marking your work is concerned about academic misconduct, they will refer your assessment to an Investigating Officer, who will decide whether there is a case to take forwards.",
+   "anchor": "If you’re notified of academic misconduct"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "you will be asked to meet with the module convenor to discuss what happened during the preparation and submission of the assessment",
+   "anchor": "First cases"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "they will refer your assessment to an Investigating Officer, who will decide whether there is a case to take forwards.",
+   "anchor": "If you’re notified of academic misconduct"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Where academic misconduct is suspected it will be thoroughly investigated by your School following academic misconduct processes.",
+   "anchor": "Academic integrity statement"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "you’ll be invited to attend an academic misconduct panel and provide a statement. The statement should explain what happened and can help the panel understand your case.",
+   "anchor": "Academic misconduct panels"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "you’ll be invited to attend an academic misconduct panel and provide a statement.",
+   "anchor": "Academic misconduct panels"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "if you do not attend or respond, or attend and disagree that academic misconduct occurred without a reasonable explanation of the issues in the work, then the work will go forward to an Academic Misconduct Panel for a full investigation.",
+   "anchor": "First cases"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "a Support and Advocacy advisor from the Students’ Union",
+   "anchor": "Academic misconduct panels"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "If you think there has been an error in the process, you can appeal an academic misconduct decision.",
+   "anchor": "Submit an appeal"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "you’ll be sent an email within 10 working days confirming the decision.",
+   "anchor": "Getting the outcome"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "After your first case meeting, you’ll likely be referred to an academic practice online workshop.",
+   "anchor": "First cases"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "For Level 1 cases of “limited” misconduct, the penalty will be a 10% point reduction in the mark.",
+   "anchor": "Penalties"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "For Level 2 cases of “significant” misconduct, the penalty will be a mark of 0 for the initial attempt",
+   "anchor": "Penalties"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "either a sit with a 10% deduction or a capped resit will be given.",
+   "anchor": "Penalties"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "either a sit with a 10% deduction or a capped resit will be given.",
+   "anchor": "Penalties"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "This depends on the extent and type of misconduct, and whether you have done it before.",
+   "anchor": "If you’re notified of academic misconduct"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "For cases that go to panel, the most appropriate penalty from a list of indicative options, which scale according to the level of misconduct, will be given.",
+   "anchor": "Penalties"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Any action by a student which gives or has the potential to give an unfair advantage in an examination or assessment, or might assist someone else to gain an unfair advantage, or any activity likely to undermine the integrity essential to scholarship and research."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the use of others’ ideas, intellectual property or work (written or otherwise) without acknowledgement or permission."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion refers to the submission of substantially similar work produced in collaboration between two or more students, without approval."
+  },
+  {
+   "term": "Personation",
+   "ai_named": false,
+   "quote": "Personation is the submission of work presented as a student’s own, which may be the preparation of the work, part of the work, or providing substantial assistance in completion of the work."
+  },
+  {
+   "term": "Fabrication",
+   "ai_named": false,
+   "quote": "Fabrication is the creation of false data, evidence, quotations, citations or other information in any assessed work."
+  },
+  {
+   "term": "Misuse of digital technologies",
+   "ai_named": true,
+   "quote": "Misuse of digital technologies includes artificial intelligence."
+  }
+ ]
+}

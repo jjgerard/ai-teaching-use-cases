@@ -1,0 +1,302 @@
+{
+ "doc_id": "bath-d2-misconduct-procedure-202610",
+ "coder": "y-y2",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Presenting someone else’s work or ideas as the student’s own.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": true,
+   "quote": "This includes paraphrasing without acknowledgement, whether by the student themselves or by a Gen AI tool.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "This includes paraphrasing without acknowledgement, whether by the student themselves or by a Gen AI tool.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": true,
+   "quote": "Working with someone else, or a Gen AI tool, on an assessment which is intended to be the student’s sole work.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Unethical and/or unauthorised use of Generative AI and other artificial intelligence tools is a means by which students may engage in one or more of the types of the academic misconduct listed above.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "This includes fabrication of references, data, evidence or experimental results",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Where someone completes work for a student who then submits it as their own.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Arranging for someone else to impersonate a student by sitting their examination",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Breaching examination regulations",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Submitting the same work that the student has already submitted for another assessment when this is not permitted and/or without acknowledgement.",
+   "anchor": "Types of Academic Misconduct"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "The University does not consider a student’s intentions or any mitigating factors when determining whether they have engaged in academic misconduct.",
+   "anchor": "Principles"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "The University considers a student’s intentions when determining the severity of academic misconduct.",
+   "anchor": "Principles"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor academic practice is minor or technical error which likely results from a lack of understanding.",
+   "anchor": "Severity of Academic Misconduct"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Otherwise, where a notification is made, Unit Convenors review the work submitted for assessment, including where feasible submitting it to the University-licensed similarity-checking software.",
+   "anchor": "19.1 Responding to suspected academic misconduct"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "restricted",
+   "ai_named": false,
+   "quote": "Directors of Studies do not upload work submitted for assessment to any similarity-checking software for which the University does not have an institutional license.",
+   "anchor": "19.3 Investigating academic misconduct"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": true,
+   "quote": "Directors of Studies do not upload work submitted for assessment to any AI detection programme.",
+   "anchor": "19.3 Investigating academic misconduct"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "A presentation of learning consists of asking students questions about the work which is the subject of investigation.",
+   "anchor": "19.3 Investigating academic misconduct"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Unit Convenors make a report to Directors of Studies, including a recommendation on whether there is evidence of academic misconduct and of what severity.",
+   "anchor": "19.1 Responding to suspected academic misconduct"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "The Head of Department asks the Chair of the Board of Studies to convene a Board of Inquiry into Academic Misconduct.",
+   "anchor": "19.3 Investigating academic misconduct"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "they commence a formal investigation according to Section 3 of this regulation.",
+   "anchor": "19.1 Responding to suspected academic misconduct"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "Students have 14 calendar days to respond to the statement describing the suspected academic misconduct.",
+   "anchor": "19.3 Investigating academic misconduct"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The Secretary writes to students to invite them to a meeting of the Board.",
+   "anchor": "19.5 Board of Inquiry into Academic Misconduct"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If a student does not attend the meeting, the Board bases its review on any written submission by the student and any evidence collated during the meeting",
+   "anchor": "19.5 Board of Inquiry into Academic Misconduct"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "Students may be accompanied by a friend or advisor.",
+   "anchor": "19.5 Board of Inquiry into Academic Misconduct"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Students penalised for Moderate and Severe Academic Misconduct under this regulation have the right to request a review of on specified grounds.",
+   "anchor": "Principles"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "A student must make a request for review within 14 calendar days of receipt of the written notification of the decision of the Head of Department.",
+   "anchor": "19.6 Review of the decision of the Head of Department"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The standard of proof for determining that a student has engaged in academic misconduct is the civil standard, or “the balance of probabilities”.",
+   "anchor": "Principles"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "review any record of previous academic misconduct by the student.",
+   "anchor": "19.3 Investigating academic misconduct"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Unit Convenors provide students whose work includes Poor Academic Practice with feedback to help them avoid similar errors in the future.",
+   "anchor": "19.2 Handling Poor Academic Practice"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "The student must resubmit the work. The mark is not capped.",
+   "anchor": "Penalties for Academic Misconduct"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Reduce the mark for the work originally submitted by 10 marks.",
+   "anchor": "Penalties for Academic Misconduct"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "The student must resubmit the work. The mark is capped at the minimum pass mark.",
+   "anchor": "Penalties for Academic Misconduct"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Reduce the mark for the work originally submitted to 0/Fail.",
+   "anchor": "Penalties for Academic Misconduct"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Assign the unit a mark of 0/Fail.",
+   "anchor": "Penalties for Academic Misconduct"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "Downgrade the degree classification of the award, where the award is classified.",
+   "anchor": "Penalties for Academic Misconduct"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Terminate the course. This means the student is withdrawn.",
+   "anchor": "Penalties for Academic Misconduct"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "a student has previously been investigated and penalised for Moderate or Severe Academic Misconduct",
+   "anchor": "Severity of Academic Misconduct"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "A student’s intentions and any mitigating circumstances are considered when choosing a penalty.",
+   "anchor": "Penalties for Academic Misconduct"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Where suspected academic misconduct is identified after a Board of Studies has made an award to a student, the Board of Studies reports this to the Secretary to Senate who investigates and takes appropriate action.",
+   "anchor": "Policy Interactions"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "they also determine whether to refer the student for consideration under the Fitness to Practise Policy",
+   "anchor": "19.5 Board of Inquiry into Academic Misconduct"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "academic misconduct",
+   "ai_named": false,
+   "quote": "any action by a student which gives or has the potential to give an unfair advantage in an examination or assessment"
+  },
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "Presenting someone else’s work or ideas as the student’s own."
+  },
+  {
+   "term": "self-plagiarism",
+   "ai_named": false,
+   "quote": "Submitting the same work that the student has already submitted for another assessment when this is not permitted and/or without acknowledgement."
+  },
+  {
+   "term": "collusion",
+   "ai_named": true,
+   "quote": "Working with someone else, or a Gen AI tool, on an assessment which is intended to be the student’s sole work."
+  },
+  {
+   "term": "contract cheating",
+   "ai_named": false,
+   "quote": "Where someone completes work for a student who then submits it as their own."
+  },
+  {
+   "term": "fabrication",
+   "ai_named": false,
+   "quote": "This includes fabrication of references, data, evidence or experimental results"
+  },
+  {
+   "term": "poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice is minor or technical error which likely results from a lack of understanding."
+  },
+  {
+   "term": "presentation of learning",
+   "ai_named": false,
+   "quote": "A presentation of learning consists of asking students questions about the work which is the subject of investigation."
+  }
+ ]
+}

@@ -1,0 +1,205 @@
+{
+ "doc_id": "norwich-arts-d2-misconduct-procedure-202610",
+ "coder": "y-y19",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Using technological aids and Artificial Intelligence (AI) including text generating software, translation software, and tools to generate graphics or artwork without acknowledging that you have done so",
+   "anchor": "Deceitful behaviour"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "We would also use an investigation meeting to discuss your work with you where there were allegations of unauthorised or unacknowledged use of AI or related technological aids.",
+   "anchor": "Procedure for investigation of cases of academic misconduct"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Any form of plagiarism, by which we mean presenting someone else’s work as your own without acknowledging it",
+   "anchor": "Deceitful behaviour"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Any form of plagiarism, by which we mean presenting someone else’s work as your own without acknowledging it",
+   "anchor": "Deceitful behaviour"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion, which means working with one or more people to gain an unfair advantage",
+   "anchor": "Deceitful behaviour"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsification, which means changing or making up evidence or other information to gain an unfair advantage",
+   "anchor": "Deceitful behaviour"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Any attempt to deceive the University, its staff or students",
+   "anchor": "Deceitful behaviour"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "We would also use an investigation meeting to discuss your work with you where there were allegations of unauthorised or unacknowledged use of AI or related technological aids.",
+   "anchor": "Procedure for investigation of cases of academic misconduct"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "A Course Leader (or equivalent) will be asked to investigate an allegation of academic misconduct.",
+   "anchor": "Procedure for investigation of cases of academic misconduct"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "give you an opportunity to explain those areas of your work which we believe are subject to academic misconduct.",
+   "anchor": "Procedure for investigation of cases of academic misconduct"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "If you don’t accept at the initial investigation meeting that you have carried out academic misconduct – or if the matter is unresolved at the meeting – the Academic Registrar (or nominee) will refer the matter to a meeting of the Student Conduct Committee.",
+   "anchor": "Procedure for investigation of cases of academic misconduct"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The Student Conduct Committee will ask you to attend the meeting, in inviting you to attend the meeting the University is seeking only to establish the facts of a matter, and to give you an opportunity to put your side of the case.",
+   "anchor": "Procedure for investigation of cases of academic misconduct"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "Please be aware too that the Student Conduct Committee will take place and make a decision on your case whether or not you attend.",
+   "anchor": "Arrangements for a meeting of the Student Conduct Committee"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "You can bring a friend or supporter to the Student Conduct Committee.",
+   "anchor": "Arrangements for a meeting of the Student Conduct Committee"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "If you choose to, you can appeal as follows against any decision we have made about you in relation to academic misconduct:",
+   "anchor": "The actions an assessment or award board can take"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Within five working days (one week) of the meeting, we will write to you with the outcome of the case and any actions that have been applied.",
+   "anchor": "Procedure for investigation of cases of academic misconduct"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "We keep notes and records of all stages of our disciplinary processes, and we report to our Academic Board all disciplinary matters which we consider beyond the initial investigation stage.",
+   "anchor": "SECTION M"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "We give you a Fail mark (0%) for the unit but we allow you to resubmit the unit.",
+   "anchor": "The actions an assessment or award board can take"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "We give you a Fail mark (0%) for the unit but we allow you to resubmit the unit.",
+   "anchor": "The actions an assessment or award board can take"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "We give you a Fail mark (0%) for the unit but we allow you to resubmit the unit.",
+   "anchor": "The actions an assessment or award board can take"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "We reassess the unit but cap the mark. This means that if you pass, you could only receive a maximum mark of 40% for a unit on a percentage-based marking scheme, or a Pass for a unit on a Pass/Marginal Fail/Fail marking scheme.",
+   "anchor": "The actions an assessment or award board can take"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "We terminate your place on the course and award credit in the relevant year of study but not for the unit affected by academic misconduct.",
+   "anchor": "The actions an assessment or award board can take"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "We give you a lower degree classification or grade at final award.",
+   "anchor": "The actions an assessment or award board can take"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "the University can review any credit or any academic award we have previously made to you and could offer you a lower qualification.",
+   "anchor": "The actions an assessment or award board can take"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "• A written warning • A final written warning",
+   "anchor": "Deceitful behaviour"
+  },
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Having considered the evidence for an allegation of academic misconduct, the Academic Registrar may decide that the case is one of poor academic practice – for example, if you haven’t referenced external sources correctly in your work.",
+   "anchor": "Procedure for investigation of cases of academic misconduct"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The relevant assessment or award board will consider the following when deciding what action to take in proven cases of academic misconduct:",
+   "anchor": "The actions an assessment or award board can take"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "We can issue you with a final warning, for example if you have repeated an offence or if the incident and your part in it has been very serious.",
+   "anchor": "The possible outcomes of a meeting of the Student Conduct Committee"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "academic misconduct, which is the term we give to any act which could give you or someone you know an undeserved academic advantage"
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Any form of plagiarism, by which we mean presenting someone else’s work as your own without acknowledging it"
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion, which means working with one or more people to gain an unfair advantage"
+  },
+  {
+   "term": "Falsification",
+   "ai_named": false,
+   "quote": "Falsification, which means changing or making up evidence or other information to gain an unfair advantage"
+  }
+ ]
+}

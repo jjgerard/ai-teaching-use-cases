@@ -1,0 +1,274 @@
+{
+ "doc_id": "chester-d2-misconduct-procedure-202610",
+ "coder": "y-y4",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Unacknowledged use of Artiﬁcial Intelligence: Where artiﬁcial intelligence has been used to support the assessment without proper acknowledgement.",
+   "anchor": "2. Breaches of Academic Conduct"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Falsiﬁcation by Artiﬁcial Intelligence: A misrepresentation of knowledge. Where a student used artiﬁcial intelligence to complete the assessment [in part or full].",
+   "anchor": "2. Breaches of Academic Conduct"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": true,
+   "quote": "Falsiﬁcation by use of Artiﬁcial Intelligence",
+   "anchor": "5. Categorisation and Recording Breaches of the Academic Conduct Policy"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism: the use of ideas, intellectual property or work of others without acknowledgement or, where relevant, permission.",
+   "anchor": "2. Breaches of Academic Conduct"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Reuse of previously submitted material: the use of work, without appropriate referencing, that has been submitted for assessment, whether successful or not, by the same student in this University or any other institution.",
+   "anchor": "2. Breaches of Academic Conduct"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion: the unauthorised collaboration between two or more students resulting in the submission of work that is unreasonably similar, but which is submitted as being the product of the submitting student’s individual eﬀorts.",
+   "anchor": "2. Breaches of Academic Conduct"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Commissioning (Contract Cheating): engaging another person or organisation to complete or undertake an assessment, in part or in full, whether a ﬁnancial transaction has taken place or not.",
+   "anchor": "2. Breaches of Academic Conduct"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Failure to abide by the examination regulations",
+   "anchor": "5. Categorisation and Recording Breaches of the Academic Conduct Policy"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Presentation of fraudulent documents as a defence is considered a serious oﬀence of academic misconduct and may lead to the termination of studies.",
+   "anchor": "11. Defence of the allegation"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Inexperience, intention, lack of intention or unfamiliarity with the Academic Conduct Policy will not be regarded as a defence in the event that the policy is breached.",
+   "anchor": "2. Breaches of Academic Conduct"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The ﬁle contains the minimum of the Form AC-1 and the Turnitin report or similar evidence document(s).",
+   "anchor": "17. Confirming a breach of the Academic Conduct Policy"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "may require an electronic copy of any written work be submitted for originality checking via Turnitin.",
+   "anchor": "3. Allegations of Breaches of Academic and Research Integrity"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "the Chair of the Module Assessment Board might authorise a viva voce. The purpose of this will be to conﬁrm the authenticity of the work that has been submitted.",
+   "anchor": "2. Breaches of Academic Conduct"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The defence of an allegation may include communications, drafts or research documents which, on the balance of probability, indicate that the submission is completely the student’s own work in line with the policy.",
+   "anchor": "11. Defence of the allegation"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The decision of whether a student has breached the Policy is one of Academic Judgement.",
+   "anchor": "2. Breaches of Academic Conduct"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Suspected breaches of the Academic Conduct Policy will be initially referred by the relevant marker to the relevant Chair of the Module Assessment Board",
+   "anchor": "2. Breaches of Academic Conduct"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "If the Chair of the Module Assessment Board decides that the matter should be investigated further, they will:",
+   "anchor": "6. Identifying a Suspected Breach of the Academic Conduct Policy"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student is entitled to present a defence of the allegation to the Chair of the Module Assessment Board.",
+   "anchor": "11. Defence of the allegation"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The Academic Conduct Review Panel (the Panel) will meet to hear all allegations which could not be resolved by the procedure outlined in Part F.",
+   "anchor": "18. Scope and Composition of the Academic Conduct Review Panel"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If the student fails to arrive at the hearing, by the time given in their invitation letter, and they have not had a request to defer the hearing approved, the hearing will go ahead in their absence.",
+   "anchor": "21. Conduct of Hearings of the Academic Conduct Review Panel"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student can attend the meeting with another registered student of the University or by an oﬃcer of Chester Students’ Union if they wish.",
+   "anchor": "6. Identifying a Suspected Breach of the Academic Conduct Policy"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A student is entitled to appeal on the grounds of a procedural or administrative irregularity in the conduct of this procedure.",
+   "anchor": "27. Appeals relating to breaches of the Academic Conduct Policy"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Academic Services will send the student an invitation to attend the hearing at least 7 days before it takes place.",
+   "anchor": "19. Scheduling and Notification"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "determining, on the balance of probability, whether the Policy has been breached.",
+   "anchor": "4. Roles, Rights and Responsibilities"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Details of allegations and recorded oﬀences will be held electronically by Academic Services.",
+   "anchor": "5. Categorisation and Recording Breaches of the Academic Conduct Policy"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "they are required to complete the Academic Conduct Course within 14 days in accordance with Standard Penalty Guidance",
+   "anchor": "16. Application of a Standard Penalty"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "the University shall issue a ﬁnal written warning which may include any or all of the following",
+   "anchor": "7. Decisions of the PGR Academic Integrity Review Panel"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "they should continue to mark the work but disregard those elements that they believe constitute the breach.",
+   "anchor": "8. Unacceptable academic practice at Level 3 and Level 4 only"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "The component in question will be failed with a mark of 0.",
+   "anchor": "23. Penalties"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "The module in question will be failed with a mark of 0.",
+   "anchor": "23. Penalties"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "The student's marks on all modules at the same level of study will be capped at the pass threshold, AND the module in question will be failed with a mark of 0.",
+   "anchor": "23. Penalties"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Where permitted the student is entitled to reassessment.",
+   "anchor": "23. Penalties"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "The student’s ﬁnal degree classiﬁcation will be lowered by one class",
+   "anchor": "23. Penalties"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "The student’s programme of study is terminated with immediate eﬀect and they are not permitted to submit any further work for assessment.",
+   "anchor": "23. Penalties"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Where a student has previously been issued a penalty for breaching the Policy, a further proven allegation will result in a penalty from a higher penalty group, irrespective of any previous unspent oﬀences.",
+   "anchor": "23. Penalties"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Academic Services will determine an appropriate penalty, taking into account any previous proven breaches of the Academic Conduct Policy (whether by means of unacceptable academic practice or academic misconduct), the number of proven allegations in the current case, and the nature and seriousness of the allegations.",
+   "anchor": "25. Penalties for Academic Misconduct"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Where the complaint was made following the conferment of a degree, a report shall be made to Senate which may have recourse to the power to revoke the degree in accordance with the Principles and Regulations.",
+   "anchor": "7. Decisions of the PGR Academic Integrity Review Panel"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Unacknowledged use of AI",
+   "ai_named": true,
+   "quote": "Unacknowledged use of Artiﬁcial Intelligence: Where artiﬁcial intelligence has been used to support the assessment without proper acknowledgement."
+  },
+  {
+   "term": "Falsification by AI",
+   "ai_named": true,
+   "quote": "Falsiﬁcation by Artiﬁcial Intelligence: A misrepresentation of knowledge. Where a student used artiﬁcial intelligence to complete the assessment [in part or full]."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism: the use of ideas, intellectual property or work of others without acknowledgement or, where relevant, permission."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion: the unauthorised collaboration between two or more students resulting in the submission of work that is unreasonably similar, but which is submitted as being the product of the submitting student’s individual eﬀorts."
+  },
+  {
+   "term": "Commissioning",
+   "ai_named": false,
+   "quote": "Commissioning (Contract Cheating): engaging another person or organisation to complete or undertake an assessment, in part or in full, whether a ﬁnancial transaction has taken place or not."
+  },
+  {
+   "term": "Cheating",
+   "ai_named": false,
+   "quote": "Cheating: any action before, during or after an assessment or examination which has the potential for the student to gain an unfair advantage in assessment or assists another student to do so."
+  }
+ ]
+}

@@ -1,0 +1,231 @@
+{
+ "doc_id": "sunderland-d2-misconduct-procedure-202610",
+ "coder": "y-y9",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Unauthorised use of AI to write or substantially contribute to the creation of an assignment, in contravention of the assessment brief where the student then submits this as their own original piece of work.",
+   "anchor": "4. Recognised definitions"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Submission of work created wholly, substantially and/or partially using AI, in contravention of the assessment brief where the student then claims this to be their own original piece of work.",
+   "anchor": "7. Minor and serious criteria"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Commissioning or requesting an artificial intelligence/machine learning system (e.g. Chat-GPT) rather than a person to produce work which then you submit in full or in part as your own is considered to be equivalent.",
+   "anchor": "4. Recognised definitions"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "Submitting pictures of text, or hidden text, within an assignment to hide plagiarism or collusion, artificially increase or decrease the word count, or any other attempt to bypass originality detection.",
+   "anchor": "4. Recognised definitions"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsifying data, evidence or experimental results (either qualitative or quantitative), through invention or amendment",
+   "anchor": "4. Recognised definitions"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Theft of work – submitting another student’s work as the student’s own, either in whole or in part, without that student’s permission.",
+   "anchor": "4. Recognised definitions"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Additional material in examinations - taking into any examination - on campus or online - any unauthorised notes or other unauthorised material, including electronic devices capable of storing and retrieving data.",
+   "anchor": "4. Recognised definitions"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Making your own work available to another student for them to submit as their own work.",
+   "anchor": "4. Recognised definitions"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Bribery and blackmail - paying or offering inducements or coercing another person, in order to obtain higher marks or another form of advantage",
+   "anchor": "4. Recognised definitions"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism – submitting the same work that a student has already submitted and gained credit for in another assessment in a different module or for a different programme",
+   "anchor": "4. Recognised definitions"
+  }
+ ],
+ "liability": [
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Likely or proven intention to deceive.",
+   "anchor": "7. Minor and serious criteria"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor Academic Practice is defined as a student’s unfamiliarity with how to prepare and present academic work",
+   "anchor": "4. Recognised definitions"
+  }
+ ],
+ "detection": [],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "The Independent Reviewer will also be able to send cases to a Desk-Based Panel where the allegations are disputed by the student(s)",
+   "anchor": "9. Serious cases"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The University will ensure that all allegations of academic misconduct are investigated thoroughly, fairly, and as promptly as is feasible.",
+   "anchor": "5. Principles"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "students will be informed of the allegations against them and will be given the opportunity to respond.",
+   "anchor": "5. Principles"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The case will be heard at an Academic Misconduct Panel.",
+   "anchor": "11. Gross misconduct cases"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "Should the student fail to attend the further meeting then the Independent Reviewer will be able to impose an outcome.",
+   "anchor": "9. Serious cases"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student should have the opportunity to have a support accompany them who should be a member of university community (e.g. another student, a staff member or a Student Union advisor) who has no conflict of interest relating to their current case.",
+   "anchor": "8. Principles and procedures for minor cases"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "The student may appeal a penalty imposed if one or both of these grounds exist:",
+   "anchor": "12. Appealing academic misconduct outcomes"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The student retains the right to appeal at the faculty level within fifteen working days from the date of their outcome letter.",
+   "anchor": "10. Desk-based panels"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The ‘burden of proof’ rests upon the University that academic misconduct has taken place, and the ‘standard of proof’ is the ‘balance of probabilities’",
+   "anchor": "5. Principles"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "P2 - Referral to Library Study Skills and / or Academic Misconduct Awareness Course",
+   "anchor": "8. Principles and procedures for minor cases"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "P3 - A request to rewrite the work, or section of work, taking into account the feedback on the poor academic practice.",
+   "anchor": "8. Principles and procedures for minor cases"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "The repeated work will be capped at the pass mark for the assignment.",
+   "anchor": "8. Principles and procedures for minor cases"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "P4 - A marks deduction",
+   "anchor": "8. Principles and procedures for minor cases"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "P7 - Failure in the module (all assessment elements) with assessment right if eligible. Overall module mark capped at 40.",
+   "anchor": "9. Serious cases"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "Student will drop a degree classification within final award",
+   "anchor": "11. Gross misconduct cases"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "P10 - Recommendation of expulsion from the University with no exit award or right of readmittance",
+   "anchor": "11. Gross misconduct cases"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Previous formal offence.",
+   "anchor": "7. Minor and serious criteria"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "To determine the severity of the alleged academic misconduct please see below:",
+   "anchor": "7. Minor and serious criteria"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct is defined as any attempt by a student to gain unfair advantage in any piece of assessment."
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor Academic Practice is defined as a student’s unfamiliarity with how to prepare and present academic work"
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism may be defined as the representation of another person’s work, without acknowledgement of the source, as the student’s own."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism – submitting the same work that a student has already submitted and gained credit for in another assessment in a different module or for a different programme"
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion - where two or more students collaborate to produce a piece of work which is then submitted as though it were an individual student’s own work"
+  },
+  {
+   "term": "Commissioning",
+   "ai_named": true,
+   "quote": "Commissioning – involves requesting another person or electronic assistant to complete an assessment which is then submitted as the student’s own work"
+  },
+  {
+   "term": "Theft of work",
+   "ai_named": false,
+   "quote": "Theft of work – submitting another student’s work as the student’s own, either in whole or in part, without that student’s permission."
+  }
+ ]
+}

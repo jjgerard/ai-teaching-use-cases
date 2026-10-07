@@ -1,0 +1,35 @@
+{
+ "doc_id": "sheffield-hallam-d2-misconduct-procedure-202610",
+ "coder": "y-y19",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This form of misconduct involves another person (or artificial intelligence) creating the assignment which you then submit as your own.",
+   "anchor": "Contract cheating/concerns over authorship"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It is also an act of plagiarism to use paraphrasing software to reword the work of others without clear attribution of the original source.",
+   "anchor": "Plagiarism"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

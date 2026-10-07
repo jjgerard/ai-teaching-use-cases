@@ -1,0 +1,152 @@
+{
+ "doc_id": "sheffield-hallam-d2-misconduct-procedure-202610",
+ "coder": "y-y19",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "attempting to pass off work created by artificial intelligence as your own.",
+   "anchor": "Contract cheating/concerns over authorship"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "This form of misconduct involves another person (or artificial intelligence) creating the assignment which you then submit as your own.",
+   "anchor": "Contract cheating/concerns over authorship"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism: using the ideas or work of another person (including experts and fellow or former students), with or without their consent, incorporating them into your own work, and submitting the assessment piece as if it was your own original work.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "It is misconduct to submit data for assessment which you know to be false.",
+   "anchor": "Fabrication or falsification of data"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Cheating: unfair behaviour in an in-person or online exam, and any behaviours which contravene the Examination Conduct Policy.",
+   "anchor": "Cheating"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism: submission of work that is the same as, or broadly like, assessments you have submitted previously for academic credit, but without proper acknowledgement or the prior consent of the module leader for subsequent assessments.",
+   "anchor": "Self-plagiarism"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion: the unauthorised collaboration between two or more students, which may involve third parties, in the preparation and production of an assessment, which is then submitted individually by each student as their own work.",
+   "anchor": "Collusion"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "assuming the identity of someone else. by sitting or attempting to sit an examination in the place of the student who should be sitting it.",
+   "anchor": "Cheating"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": false,
+   "quote": "gaining access to, and using, unauthorised tools (such as algebra and maths solutions products), or any unauthorised material relating to an assessment prior to the release date of such information.",
+   "anchor": "Dishonest or unfair practice"
+  }
+ ],
+ "liability": [
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "We would not consider a case as poor academic practice where there is an indication that you intended to gain an unfair advantage by your actions, or if you have been warned previously about poor academic practice.",
+   "anchor": "Poor academic practice"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor academic practice is the least serious type of academic misconduct. We acknowledge that you may need time to learn university expectations, requirements, and values.",
+   "anchor": "Poor academic practice"
+  }
+ ],
+ "detection": [],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "you may be referred to an Academic Concern Meeting (ACM) to discuss allegations of poor academic practice, or an Academic Conduct Panel (ACP) for allegations of misconduct in coursework or examinations.",
+   "anchor": "Definitions of Academic Misconduct"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "you may be referred to an Academic Concern Meeting (ACM) to discuss allegations of poor academic practice",
+   "anchor": "Definitions of Academic Misconduct"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "If collusion is suspected, and following investigation it cannot be established who is responsible, all students involved will be deemed responsible.",
+   "anchor": "Collusion"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "which may result in you being penalised under this Regulation, or another Regulation such as the Student Fitness to Practise Regulations or the Student Conduct Regulations.",
+   "anchor": "Definitions of Academic Misconduct"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "another Regulation such as the Student Fitness to Practise Regulations or the Student Conduct Regulations.",
+   "anchor": "Definitions of Academic Misconduct"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice is the least serious type of academic misconduct."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism: using the ideas or work of another person (including experts and fellow or former students), with or without their consent, incorporating them into your own work, and submitting the assessment piece as if it was your own original work."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism: submission of work that is the same as, or broadly like, assessments you have submitted previously for academic credit"
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": true,
+   "quote": "Contract cheating/concerns over authorship: This form of misconduct involves another person (or artificial intelligence) creating the assignment which you then submit as your own."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion: the unauthorised collaboration between two or more students, which may involve third parties, in the preparation and production of an assessment, which is then submitted individually by each student as their own work."
+  },
+  {
+   "term": "Cheating",
+   "ai_named": false,
+   "quote": "Cheating: unfair behaviour in an in-person or online exam, and any behaviours which contravene the Examination Conduct Policy."
+  },
+  {
+   "term": "Fabrication or falsification",
+   "ai_named": false,
+   "quote": "Fabrication or falsification of data: submitting work containing data measured in the field, in the laboratory or other setting, any part of which is falsified in any way."
+  },
+  {
+   "term": "Dishonest or unfair practice",
+   "ai_named": false,
+   "quote": "Dishonest or unfair practice: the use of any form of dishonest academic practice not specifically categorised above."
+  }
+ ]
+}

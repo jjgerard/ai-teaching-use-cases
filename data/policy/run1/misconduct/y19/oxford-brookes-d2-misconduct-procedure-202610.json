@@ -1,0 +1,183 @@
+{
+ "doc_id": "oxford-brookes-d2-misconduct-procedure-202610",
+ "coder": "y-y19",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "The use of AI to generate text, materials or other outputs passed off as the student’s own",
+   "anchor": "Academic Conduct"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "the use of AI that does not comply with assignment instructions",
+   "anchor": "Academic Conduct"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "the use of AI in an assignment without the submission of a declaration form.",
+   "anchor": "Academic Conduct"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism / submitting other people's work as your own - e.g. copying the words or ideas of another person with or without their knowledge or agreement and presenting it as one’s own.",
+   "anchor": "Academic Conduct"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsification - e.g. the presentation or submission of false information within an attempt to gain academic credit. e.g. fabricating research results, or questionnaire responses.",
+   "anchor": "Academic Conduct"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Actions which enable another student to access or copy all or part of one’s own - e.g. sharing work with other students.",
+   "anchor": "Academic Conduct"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "the use of materials created by third parties and/or web sites and/or software/paraphrasing/image tools, and passed off as one’s own work.",
+   "anchor": "Academic Conduct"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Duplication - e.g. the inclusion in coursework of any material which is identical or similar to material which has already been awarded credit by the same student for any other assessment within the University or elsewhere",
+   "anchor": "Academic Conduct"
+  }
+ ],
+ "liability": [
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "if a student is referred for academic misconduct and they are in their first year at the University at any level and the breach is minor, the outcome may be an educational route.",
+   "anchor": "Centre for Academic Development (CAD)"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The letter should include the alleged breach and you will also be provided with the Turnitin report of your piece of work, if appropriate.",
+   "anchor": "The interview"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "If your marker believes you may have breached the academic conduct regulations, they will refer you to the Student Investigation and Resolution Team.",
+   "anchor": "Referral"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Time-stamped files and versions: Provide copies or screenshots of different versions of your work that you have saved which show the time stamps.",
+   "anchor": "Preparing for an interview or committee"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "If your marker believes you may have breached the academic conduct regulations, they will refer you to the Student Investigation and Resolution Team.",
+   "anchor": "Referral"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "If a full investigation is required, you will be invited for an interview.",
+   "anchor": "Referral"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "If you are asked to attend an interview or a conduct committee, you will have an opportunity to provide any evidence or documentation which you believe supports your case.",
+   "anchor": "Preparing for an interview or committee"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "Students have the right to see the evidence of their suspected misconduct, to be able to defend themselves and have the right to appeal a decision.",
+   "anchor": "Academic Conduct"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If you do not attend the interview or engage in the process, the case could be considered in your absence.",
+   "anchor": "The interview"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "For the interview, you are able to have someone accompany you, for example a friend.",
+   "anchor": "The interview"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "they have a right to appeal that decision.",
+   "anchor": "Possible outcomes"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "if a student is referred for academic misconduct and they are in their first year at the University at any level and the breach is minor, the outcome may be an educational route.",
+   "anchor": "Centre for Academic Development (CAD)"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "your work is awarded penalty 4.2 e (The award of no marks for the assessment or module and/or the removal of a resit opportunity, where appropriate)",
+   "anchor": "Possible outcomes"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "any future attempts at the assessment will be capped at the pass mark, including where a student retakes the affected module at a later date.",
+   "anchor": "Possible outcomes"
+  },
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "Given a penalty – this could be any of the penalties under section 4.2 of the academic conduct procedure.",
+   "anchor": "Possible outcomes"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism / submitting other people's work as your own - e.g. copying the words or ideas of another person with or without their knowledge or agreement and presenting it as one’s own."
+  },
+  {
+   "term": "Falsification",
+   "ai_named": false,
+   "quote": "Falsification - e.g. the presentation or submission of false information within an attempt to gain academic credit."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion - e.g. submitting work produced in collaboration with others, but claiming it is entirely the student’s own work."
+  },
+  {
+   "term": "Misuse of AI",
+   "ai_named": true,
+   "quote": "Misuse of Artificial Intelligence - The use of AI to generate text, materials or other outputs passed off as the student’s own; the use of AI that does not comply with assignment instructions; the use of AI in an assignment without the submission of a declaration form."
+  },
+  {
+   "term": "Duplication",
+   "ai_named": false,
+   "quote": "Duplication - e.g. the inclusion in coursework of any material which is identical or similar to material which has already been awarded credit by the same student for any other assessment within the University or elsewhere"
+  }
+ ]
+}

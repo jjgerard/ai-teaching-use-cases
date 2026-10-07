@@ -1,0 +1,112 @@
+{
+ "doc_id": "oxford-brookes-d2-misconduct-procedure-202610",
+ "coder": "y-y19",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The use of AI to generate text, materials or other outputs passed off as the student’s own",
+   "anchor": "Academic Conduct"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Remember that AI tools should not be used to replace you as the author of your work.",
+   "anchor": "Artificial Intelligence (AI)"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Never submit chunks of text produced by AI as your own work. You may be in breach of the academic conduct regulations.",
+   "anchor": "Artificial Intelligence (AI)"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "You should also check your module guidance or with your Module Leader to see if AI tools can be used for your assessment(s) as there may be some assessments where AI tools cannot be used.",
+   "anchor": "Artificial Intelligence (AI)"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Oxford Brookes students are required to use the form in Moodle to declare which AI tools you have used and how you have used them.",
+   "anchor": "Artificial Intelligence (AI)"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Approach any information the AI tool produces cautiously (be a critical reader).",
+   "anchor": "Artificial Intelligence (AI)"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "You should also check your module guidance or with your Module Leader to see if AI tools can be used for your assessment(s)"
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "the use of AI that does not comply with assignment instructions"
+  },
+  {
+   "value": "institution_wide",
+   "quote": "Oxford Brookes students are required to use the form in Moodle to declare which AI tools you have used and how you have used them."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Always declare your use of AI tools and explain how you used them."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "Oxford Brookes students are required to use the form in Moodle to declare which AI tools you have used and how you have used them."
+   },
+   {
+    "value": "how_used",
+    "quote": "Oxford Brookes students are required to use the form in Moodle to declare which AI tools you have used and how you have used them."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "Oxford Brookes students are required to use the form in Moodle to declare which AI tools you have used and how you have used them."
+   },
+   {
+    "value": "appendix",
+    "quote": "You will be emailed a receipt copy of your completed declaration which you must then paste into an appendix at the end of your assignment."
+   }
+  ],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "the use of AI in an assignment without the submission of a declaration form."
+  },
+  "exempt": []
+ }
+}

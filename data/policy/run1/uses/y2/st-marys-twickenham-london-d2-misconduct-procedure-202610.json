@@ -1,0 +1,49 @@
+{
+ "doc_id": "st-marys-twickenham-london-d2-misconduct-procedure-202610",
+ "coder": "y-y2",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Contracting another source to produce work which is presented as the student’s own, or utilising artificial intelligence platforms to generate text which is submitted (either whole or in part) as the student’s own work.",
+   "anchor": "G30. Possible infringements and Penalties for breaches of Academic Integrity Regulations"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsification/fabrication of research or practical work data, results (including those of interviews) and other outputs in an assessment.",
+   "anchor": "G30. Possible infringements and Penalties for breaches of Academic Integrity Regulations"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use of another person’s copyrighted materials, intellectual property or ideas presented inappropriately as the student’s own.",
+   "anchor": "G30. Possible infringements and Penalties for breaches of Academic Integrity Regulations"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "school_or_department",
+   "quote": "in contravention to the relevant school or programme policy on the usage of AI."
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

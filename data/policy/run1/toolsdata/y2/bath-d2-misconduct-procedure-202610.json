@@ -1,0 +1,52 @@
+{
+ "doc_id": "bath-d2-misconduct-procedure-202610",
+ "coder": "y-y2",
+ "tools": [
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "prohibited",
+   "audience": "staff",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Directors of Studies do not upload work submitted for assessment to any AI detection programme.",
+   "anchor": "19.3 Investigating academic misconduct"
+  },
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "conditional",
+   "audience": "staff",
+   "name": null,
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": false,
+   "quote": "Directors of Studies do not upload work submitted for assessment to any similarity-checking software for which the University does not have an institutional license.",
+   "anchor": "19.3 Investigating academic misconduct"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "student_work",
+   "stance": "prohibited",
+   "audience": "staff",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Directors of Studies do not upload work submitted for assessment to any AI detection programme.",
+   "anchor": "19.3 Investigating academic misconduct"
+  },
+  {
+   "data_type": "student_work",
+   "stance": "conditional",
+   "audience": "staff",
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": false,
+   "quote": "Directors of Studies do not upload work submitted for assessment to any similarity-checking software for which the University does not have an institutional license.",
+   "anchor": "19.3 Investigating academic misconduct"
+  }
+ ],
+ "safeguards": [],
+ "legal": []
+}

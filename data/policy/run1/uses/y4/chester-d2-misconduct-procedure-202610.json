@@ -1,0 +1,57 @@
+{
+ "doc_id": "chester-d2-misconduct-procedure-202610",
+ "coder": "y-y4",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Unacknowledged use of Artiﬁcial Intelligence: Where artiﬁcial intelligence has been used to support the assessment without proper acknowledgement.",
+   "anchor": "2. Breaches of Academic Conduct",
+   "tier": "unacknowledged"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsiﬁcation by Artiﬁcial Intelligence: A misrepresentation of knowledge. Where a student used artiﬁcial intelligence to complete the assessment [in part or full].",
+   "anchor": "2. Breaches of Academic Conduct"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsiﬁcation: the presentation of ﬁctitious or distorted documents, data, evidence or any other material, including submitting the work of another person as if it is their own.",
+   "anchor": "2. Breaches of Academic Conduct"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Plagiarism: the use of ideas, intellectual property or work of others without acknowledgement or, where relevant, permission.",
+   "anchor": "2. Breaches of Academic Conduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Unacknowledged use of Artiﬁcial Intelligence: Where artiﬁcial intelligence has been used to support the assessment without proper acknowledgement."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

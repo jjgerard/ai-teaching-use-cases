@@ -1,0 +1,180 @@
+{
+ "doc_id": "cumbria-d2-misconduct-procedure-202610",
+ "coder": "y-y4",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Plagiarism, including submitting AI‑generated content as your own",
+   "anchor": "Types of Academic Malpractice"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": true,
+   "quote": "Plagiarism, including submitting AI‑generated content as your own",
+   "anchor": "Types of Academic Malpractice"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion, where students work together when individual work is required",
+   "anchor": "Types of Academic Malpractice"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication or falsification of data or evidence",
+   "anchor": "Types of Academic Malpractice"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Cheating in examinations",
+   "anchor": "Types of Academic Malpractice"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Impersonation, including the use of essay mills, ghost‑writing services, or having work completed by friends or family",
+   "anchor": "Types of Academic Malpractice"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonation, including the use of essay mills, ghost‑writing services, or having work completed by friends or family",
+   "anchor": "Types of Academic Malpractice"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Submitting work (or substantial parts of work) that has already been assessed for another module also counts as academic malpractice.",
+   "anchor": "Turnitin & Intellectual Ownership"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Turnitin is a system used by the University to compare submitted work with online sources and previously submitted student work.",
+   "anchor": "Turnitin & Intellectual Ownership"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "Turnitin does not decide whether plagiarism has occurred",
+   "anchor": "Turnitin & Intellectual Ownership"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Students may be required to attend a viva or meeting to explain and verify their work in order to support the authenticity of their submission.",
+   "anchor": "Academic Malpractice"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Your tutor will inform you that your work is under investigation",
+   "anchor": "What happens if Malpractice is suspected?"
+  },
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "If the issue is considered minor malpractice, you may be invited to meet with the Module Leader.",
+   "anchor": "Minor Malpractice"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "If the issue is considered major malpractice, you will be invited to attend a Major Malpractice Panel of Inquiry.",
+   "anchor": "Major Malpractice"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "A Malpractice Panel of Inquiry is a formal meeting, usually held online.",
+   "anchor": "Major Malpractice"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "You may bring a support person (for example another student or a Students’ Union Advisor)",
+   "anchor": "Major Malpractice"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If you choose not to attend, a decision may still be made",
+   "anchor": "Major Malpractice"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "You will be asked to respond to the allegation",
+   "anchor": "Major Malpractice"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "In some cases, particularly where fitness to practise is affected, malpractice may lead to further formal procedures being initiated, which can be recorded on your academic record and affect future opportunities such as employment or further study.",
+   "anchor": "Academic Malpractice"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "A requirement to resubmit the work within a set timeframe",
+   "anchor": "Minor Malpractice"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "A reduction in marks",
+   "anchor": "Minor Malpractice"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Being found to have committed academic malpractice can have serious consequences, including failing the assessment, module, or even the entire programme depending on severity.",
+   "anchor": "Academic Malpractice"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Being found to have committed academic malpractice can have serious consequences, including failing the assessment, module, or even the entire programme depending on severity.",
+   "anchor": "Academic Malpractice"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "In the most severe cases, it can damage your reputation and result in suspension or expulsion from the institution.",
+   "anchor": "Academic Malpractice"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Repeated instances of minor malpractice may be treated as major malpractice.",
+   "anchor": "Minor Malpractice"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "In some cases, particularly where fitness to practise is affected, malpractice may lead to further formal procedures being initiated, which can be recorded on your academic record and affect future opportunities such as employment or further study.",
+   "anchor": "Academic Malpractice"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic malpractice",
+   "ai_named": false,
+   "quote": "Academic malpractice is any attempt to gain an unfair advantage in assessment."
+  }
+ ]
+}

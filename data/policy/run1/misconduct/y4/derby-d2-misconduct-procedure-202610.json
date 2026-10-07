@@ -1,0 +1,253 @@
+{
+ "doc_id": "derby-d2-misconduct-procedure-202610",
+ "coder": "y-y4",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Presents as if own work material created by any form of Generative AI without appropriate acknowledgment of how the material has been utilised or amended, or",
+   "anchor": "J2.1 Plagiarism"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Presents as if own work material created by any form of Generative AI without appropriate acknowledgment of how the material has been utilised or amended, or",
+   "anchor": "J2.1 Plagiarism"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": true,
+   "quote": "If a student's work is found to contain verbatim (or near verbatim) quotation from the work of others (including from Generative AI) without acknowledgement, then plagiarism has been committed",
+   "anchor": "J2.1 Plagiarism"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Has submitted the same piece of their own work for assessment and award of credit in two (or more) modules (self plagiarism).",
+   "anchor": "J2.1 Plagiarism"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "If the student has engaged a third party to significantly or partially create a piece of work on their behalf, then plagiarism has been committed.",
+   "anchor": "J2.1 Plagiarism"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Students who improperly work together in these circumstances and/or who permit the copying of their work by others have committed collusion.",
+   "anchor": "J2.2 Collusion"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "A student who is substituted by another person in an examination, or who submits by substitution the work of another person as their own, has committed deception by impersonation.",
+   "anchor": "J2.3 Impersonation"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Academic misconduct is committed when a student possesses unauthorised paper, material, any form of notes, wearable devices or electronic devices, or communicates with another student during an examination.",
+   "anchor": "J2.4 Improper conduct in formal examinations"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Invention of data occurs where a student effectively misrepresents data (through fabrication or falsification) to make it appear that the data has been derived by appropriate measurement in the field, in the laboratory or other setting.",
+   "anchor": "J2.6 Invention of data (fabrication / falsification of results)"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "The University applies the principle of strict liability to academic misconduct. This means that a student’s intentions are not relevant to whether or not they have committed the misconduct, but are likely to be a relevant consideration when the penalty is decided",
+   "anchor": "J1. Introduction"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "The University applies the principle of strict liability to academic misconduct. This means that a student’s intentions are not relevant to whether or not they have committed the misconduct, but are likely to be a relevant consideration when the penalty is decided",
+   "anchor": "J1. Introduction"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "If the academic misconduct was committed as a result of inexperience or misunderstanding, or contributing factors, or a first occurrence of misconduct.",
+   "anchor": "J4 Consequences of Committing Academic Misconduct"
+  }
+ ],
+ "detection": [
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The student may be asked to undertake a viva or another appropriate assessment at any step during the process.",
+   "anchor": "J1. Introduction"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Where a tutor or examiner suspects that academic misconduct has taken place, they report it to the programme leader/Chair of relevant Research Committee or nominee.",
+   "anchor": "J3.2.1 Step 1 Investigation Meeting"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The programme leader/Chair of relevant Research Committee or nominee will complete an investigation report based on their findings",
+   "anchor": "J3.2.1 Step 1 Investigation Meeting"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student is entitled to call witnesses and to present evidence to the meeting.",
+   "anchor": "J3.2.3 Step 2 Meeting"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Hearings will be held in order to consider evidence, decide whether academic misconduct has been committed and if so the nature of its effect on academic standards, and to determine the appropriate course of action.",
+   "anchor": "J3.3 Step 3 Academic Misconduct Panel"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "In the event that the student fails to respond to a request to meet with the programme leader/Chair of relevant Research Committee or nominee the meeting will be concluded in the student’s absence on the basis of any information available.",
+   "anchor": "J3.2.1 Step 1 Investigation Meeting"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "Students who are subject to the Academic Misconduct procedure are encouraged to take advantage of the advice and support available to them from the Union of Students.",
+   "anchor": "J1. Introduction"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Students have the right to appeal against the outcome of a Step 2 meeting, an Academic Misconduct Panel Hearing or fixed penalty decision.",
+   "anchor": "J5.1 Right to Appeal"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Appeals must be submitted to the Student Policy and Regulations team (appeals@derby.ac.uk), in writing, within 10 working days of written notification of the outcome following the meeting, hearing or fixed penalty decision",
+   "anchor": "J5.1 Right to Appeal"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "The University standard of proof applied is based on the balance of probability, that it is more likely than not something was or was not the case.",
+   "anchor": "J1. Introduction"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "A copy of the advisory note will be forwarded to the Student Policy and Regulations Team, in the Registry, for the central file.",
+   "anchor": "J4 Consequences of Committing Academic Misconduct"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "If the academic misconduct was committed as a result of inexperience or misunderstanding, or contributing factors, or a first occurrence of misconduct.",
+   "anchor": "J4 Consequences of Committing Academic Misconduct"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "The written warning states that any further academic misconduct committed while the student is registered with the University will normally lead to termination of registration and enrolment.",
+   "anchor": "J4 Consequences of Committing Academic Misconduct"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Where the effect of the misconduct on academic standards is limited the assignment(s)/examination in which the misconduct occurred will be failed and a numerical grade of 0 (Zero) is recorded.",
+   "anchor": "J4 Consequences of Committing Academic Misconduct"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "The student will be permitted to resubmit with the final assignment/examination mark limited to a minimum pass mark.",
+   "anchor": "J4 Consequences of Committing Academic Misconduct"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "The student will be permitted to resubmit with the final assignment/examination mark limited to a minimum pass mark.",
+   "anchor": "J4 Consequences of Committing Academic Misconduct"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "the module(s) in which the misconduct occurred will be failed and a numerical grade of 0 (Zero) recorded.",
+   "anchor": "J4 Consequences of Committing Academic Misconduct"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "termination of the student's registration, cancellation of enrolment and the annulment of all assessments for concurrent modules will normally be recommended.",
+   "anchor": "J4 Consequences of Committing Academic Misconduct"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "In the case of a PGR student registration will be terminated and they will not be awarded the degree and will not be permitted to be reassessed.",
+   "anchor": "J4 Consequences of Committing Academic Misconduct"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Where a student is found to have committed any further offence after a previous written warning a consequence of termination will normally apply to the student.",
+   "anchor": "J4.4 Repeat Academic Misconduct"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "A contract cheating offence will normally result the sanction detailed in J4.1 (iii) for the students involved.",
+   "anchor": "J4.2 Contract Cheating"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Where an individual is found to have committed academic misconduct after they have been conferred an award of the University, the University reserves the right to revoke the award.",
+   "anchor": "J4.5 Academic Misconduct found after an Award has been made"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "Following the outcome of academic misconduct it may be appropriate to refer the student to the Professional Conduct and Professional Suitability procedure.",
+   "anchor": "J1. Introduction"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic Misconduct is any action by a student which gives or has the potential to give an unfair advantage in an examination or assessment, or might assist someone else to gain an unfair advantage, or any activity likely to undermine the integrity essential to scholarship and research."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "An offence occurs when a student submits as work of their own, work of which they are not the author."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Where a student uses a third party, to create an entire piece or part of academic work with the intention of submitting this as their own piece of work."
+  },
+  {
+   "term": "Invention of data",
+   "ai_named": false,
+   "quote": "Invention of data occurs where a student effectively misrepresents data (through fabrication or falsification) to make it appear that the data has been derived by appropriate measurement in the field, in the laboratory or other setting."
+  },
+  {
+   "term": "Strict liability",
+   "ai_named": false,
+   "quote": "The University applies the principle of strict liability to academic misconduct. This means that a student’s intentions are not relevant to whether or not they have committed the misconduct, but are likely to be a relevant consideration when the penalty is decided"
+  }
+ ]
+}

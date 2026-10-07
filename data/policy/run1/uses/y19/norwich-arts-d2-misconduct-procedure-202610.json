@@ -1,0 +1,67 @@
+{
+ "doc_id": "norwich-arts-d2-misconduct-procedure-202610",
+ "coder": "y-y19",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Using technological aids and Artificial Intelligence (AI) including text generating software, translation software, and tools to generate graphics or artwork without acknowledging that you have done so",
+   "anchor": "Deceitful behaviour"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Using technological aids and Artificial Intelligence (AI) including text generating software, translation software, and tools to generate graphics or artwork without acknowledging that you have done so",
+   "anchor": "Deceitful behaviour"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Using technological aids and Artificial Intelligence (AI) including text generating software, translation software, and tools to generate graphics or artwork without acknowledging that you have done so",
+   "anchor": "Deceitful behaviour"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Using technological aids and Artificial Intelligence (AI) including text generating software, translation software, and tools to generate graphics or artwork without acknowledging that you have done so",
+   "anchor": "Deceitful behaviour"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Using technological aids and Artificial Intelligence (AI) including text generating software, translation software, and tools to generate graphics or artwork without acknowledging that you have done so"
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Using technological aids and Artificial Intelligence (AI) including text generating software, translation software, and tools to generate graphics or artwork without acknowledging that you have done so"
+  },
+  "exempt": []
+ }
+}

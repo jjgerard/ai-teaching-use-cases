@@ -1,0 +1,70 @@
+{
+ "doc_id": "sunderland-d2-misconduct-procedure-202610",
+ "coder": "y-y9",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Unauthorised use of AI to write or substantially contribute to the creation of an assignment, in contravention of the assessment brief where the student then submits this as their own original piece of work.",
+   "anchor": "4. Recognised definitions"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Commissioning or requesting an artificial intelligence/machine learning system (e.g. Chat-GPT) rather than a person to produce work which then you submit in full or in part as your own is considered to be equivalent.",
+   "anchor": "4. Recognised definitions",
+   "tier": "Commissioning"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsifying data, evidence or experimental results (either qualitative or quantitative), through invention or amendment",
+   "anchor": "4. Recognised definitions"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Copying another student’s assignment either in whole or in part even where the other student has given permission",
+   "anchor": "4. Recognised definitions"
+  },
+  {
+   "use": "disguise_ai_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Submitting pictures of text, or hidden text, within an assignment to hide plagiarism or collusion, artificially increase or decrease the word count, or any other attempt to bypass originality detection.",
+   "anchor": "4. Recognised definitions"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Unauthorised use of AI to write or substantially contribute to the creation of an assignment, in contravention of the assessment brief"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

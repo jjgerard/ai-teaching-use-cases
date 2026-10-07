@@ -1,0 +1,31 @@
+{
+ "doc_id": "oxford-brookes-d2-misconduct-procedure-202610",
+ "coder": "y-y19",
+ "risks": [],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Your responsibility to do your own work and give credit to others for their work applies to whatever is used in the production of assignments, including sources or Artificial Intelligence (AI) tools such as ChatGPT or Quillbot.",
+   "anchor": "Artificial Intelligence (AI)"
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Approach any information the AI tool produces cautiously (be a critical reader).",
+   "anchor": "Artificial Intelligence (AI)"
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Observe the principles of Good Academic Practice at all times.",
+   "anchor": "Artificial Intelligence (AI)"
+  }
+ ]
+}

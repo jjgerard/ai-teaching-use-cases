@@ -1,0 +1,249 @@
+{
+ "doc_id": "aston-d2-misconduct-procedure-202610",
+ "coder": "y-y1",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Misusing Artificial Intelligence (AI) tools – In an assessment where the use of Artificial Intelligence (AI) tools is not permitted, or permitted in only a specific manner as outlined in the relevant assessment brief, a student uses one or more AI tools to generate assessment content which is then submitted as their own original work.",
+   "anchor": "C1.2 Academic offences"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Misusing Artificial Intelligence (AI) tools – In an assessment where the use of Artificial Intelligence (AI) tools is not permitted, or permitted in only a specific manner as outlined in the relevant assessment brief, a student uses one or more AI tools to generate assessment content which is then submitted as their own original work.",
+   "anchor": "C1.2 Academic offences"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsification of data or other research – where a student deliberately falsifies or fabricates results in order to support a thesis or argument.",
+   "anchor": "C1.2 Academic offences"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contracting/purchasing – where a student contracts or purchases from someone else, a piece of written work and submits it as their own original piece of written work.",
+   "anchor": "C1.2 Academic offences"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism – where a student uses, without appropriate acknowledgement, the work of other people and presents it as their own which may give an unfair advantage over others.",
+   "anchor": "C1.2 Academic offences"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Taking unauthorised material into an assessment (including revision notes or unauthorised equipment) shall be regarded as a breach of Fixed-Time Assessment Regulations for Candidates",
+   "anchor": "C1.2 Academic offences"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion - where two or more people have worked together without permission to produce a piece of work which is then submitted for assessment as the work of only one person, which may give an unfair advantage over others.",
+   "anchor": "C1.2 Academic offences"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonating a student for the purposes of assessment attendance – where a student attends an assessment on behalf of another student with the intention of falsely representing their own work as having been produced by the impersonated person.",
+   "anchor": "C1.2 Academic offences"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Intentional and unintentional acts of plagiarism will be construed as offences.",
+   "anchor": "C1.2 Academic offences"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor academic practice will be addressed through the assessment of the work and will not result in disciplinary proceedings being brought against a student.",
+   "anchor": "C1.3"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Written material in cases of alleged plagiarism would usually be expected to comprise of marked up original source documents in addition to the text matching software report.",
+   "anchor": "C2.6"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "A text-matching software report alone is usually insufficient to determine if plagiarism has occurred.",
+   "anchor": "Appendix"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Academic or intellectual malpractice shall be established on the basis of academic judgement.",
+   "anchor": "C1.1"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The Academic Offences Officer has the right to request an exceptional viva voce examination in cases where it is suspected that a student has contracted and/or purchased material for written assignments including project and dissertation work.",
+   "anchor": "C2.10"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "(Optional: The Academic Offences Officer may hold an informal meeting with the student prior to this)",
+   "anchor": "Appendix"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "It is the responsibility of members of staff to refer cases of suspected academic offences to the Academic Offences Officer of the School in which the student is",
+   "anchor": "C1.6"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The Academic Offences Officer will investigate all referred allegations of Academic Offences.",
+   "anchor": "C2.4"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student shall have the right to make written representations to the Academic Offences Officer provided that they submit any written material not less than two working days before the date of the hearing.",
+   "anchor": "C2.7"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Where cases are dealt with by the Academic Offences Officer, a two-stage hearing will be convened.",
+   "anchor": "C2.6"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "if a student does not attend a scheduled hearing and fails to provide an explanation for their absence regarded as satisfactory by the Chair or Officer, the hearing may take place in the student’s absence",
+   "anchor": "A1.7"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "students may be represented. Normally, this role is fulfilled by a member of staff from the Students’ Union’s Advice Centre.",
+   "anchor": "A1.18"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "informed of the student’s right to appeal against the penalty within 10 working days.",
+   "anchor": "C2.15"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Investigations will normally be carried out in five working days but may take longer depending on the circumstances of the case.",
+   "anchor": "C2.4"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "where the consequences of finding the accused guilty using the test of the balance of probabilities would have serious repercussions for the accused’s future career prospects and reputation",
+   "anchor": "B2.4"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Admissions and findings of guilt shall be recorded on the student’s University and School record.",
+   "anchor": "A1.17"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "If the Academic Offences Officer identifies anything in an assessment which suggests a student may be in danger of committing a future offence an informal warning will be given.",
+   "anchor": "C2.12"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "A reprimand (formal warning) will be recorded and may be mentioned in references",
+   "anchor": "A1.13"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "set aside the whole module, qualifying report or thesis, i.e. the outcome or recorded mark for that module, qualifying report or thesis to be fail or zero;",
+   "anchor": "E1.4"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "set aside the whole module, qualifying report or thesis, i.e. the outcome or recorded mark for that module, qualifying report or thesis to be fail or zero;",
+   "anchor": "E1.4"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "this type of offence will, on completion of stage one of the disciplinary process, be referred to a University Academic Misconduct Board and the recommended penalty will normally be that of expulsion from the University.",
+   "anchor": "C1.5"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "The University Academic Misconduct Board is unlikely to accept mitigation when considering a repeat offence of (i) plagiarism, (ii) collusion or (iii) cheating.",
+   "anchor": "E1.7"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The penalties available to the Academic Offences Officer shall be in accordance with the Tariff of Penalties for Academic Offences.",
+   "anchor": "C2.18"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "These Regulations may also be adopted in the case of a former student who has been reported in respect of an offence which might merit the exercise of Senate’s powers described in Ordinance 2.6.2.3 to deprive persons of any Degrees or other academic awards or distinctions awarded by the University.",
+   "anchor": "B1.3"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Misusing AI tools",
+   "ai_named": true,
+   "quote": "Misusing Artificial Intelligence (AI) tools – In an assessment where the use of Artificial Intelligence (AI) tools is not permitted, or permitted in only a specific manner as outlined in the relevant assessment brief, a student uses one or more AI tools to generate assessment content which is then submitted as their own original work."
+  },
+  {
+   "term": "Cheating",
+   "ai_named": false,
+   "quote": "Cheating - any academic or intellectual malpractice normally in assessments such as fixed-time assessments, fixed-window assessments or coursework which may give an unfair advantage over others."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion - where two or more people have worked together without permission to produce a piece of work which is then submitted for assessment as the work of only one person, which may give an unfair advantage over others."
+  },
+  {
+   "term": "Contracting/purchasing",
+   "ai_named": false,
+   "quote": "Contracting/purchasing – where a student contracts or purchases from someone else, a piece of written work and submits it as their own original piece of written work."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism – where a student uses, without appropriate acknowledgement, the work of other people and presents it as their own which may give an unfair advantage over others."
+  },
+  {
+   "term": "Mitigation",
+   "ai_named": false,
+   "quote": "Mitigation: evidence offered by a student to explain circumstances related to a disciplinary case which may if relevant lessen the severity of the penalty."
+  }
+ ]
+}

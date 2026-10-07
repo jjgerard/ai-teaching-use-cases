@@ -1,0 +1,46 @@
+{
+ "doc_id": "staffordshire-d2-misconduct-procedure-202610",
+ "coder": "y-y9",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Any of the below definitions may also include the unauthorised use of Artificial Intelligence (AI) or other mechanisms.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This happens if you make up (or manipulate) data or results and record or report on them in a piece of assessment.",
+   "anchor": "Fabrication or Falsification of Data"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "exams_or_supervised",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Copying from, or trying to copy from, another candidate",
+   "anchor": "Examination Misconduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}
