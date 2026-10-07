@@ -1,0 +1,111 @@
+[
+ {
+  "name": "BIMM University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bimm.ac.uk/document/assessment-handbook-students/",
+   "title": "Higher Education Assessment and Feedback Student Handbook 2026-27",
+   "kind": "assessment_policy",
+   "format": "pdf",
+   "date_as_shown": "Last approved August 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.bimm.university/governance-and-quality/policies-procedures-and-key-documents/",
+    "why": "hub page only links onward"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "Birkbeck, University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bbk.ac.uk/documents/student-policy-2025-26-academic-integrity-misconduct-policy.pdf",
+   "title": "Academic Integrity and Misconduct (AIM) Policy and Procedures 2025/26",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "2025/26",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": []
+ },
+ {
+  "name": "Birmingham City University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bcu.ac.uk/Download/Asset/8e47fb9f-1492-f011-b483-002248c8f916",
+   "title": "Birmingham City University Academic Misconduct Procedure",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Effective from 15 September 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.bcu.ac.uk/library/services-and-support/artificial-intelligence",
+    "why": "library hub, same kind as first (guide), links onward"
+   },
+   {
+    "url": "https://bcuic.bcu.ac.uk/wp-content/uploads/2025/06/cpr-student-disciplinary.pdf",
+    "why": "BCU International College, different entity"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "Bishop Grosseteste University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.lincolnbishop.ac.uk/document-download/462619",
+   "title": "Code of Practice for the Assessment of Students (v6.0)",
+   "kind": "assessment_policy",
+   "format": "pdf",
+   "date_as_shown": "Version 6.0",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://s3.eu-west-1.amazonaws.com/bishopg.ac.uk/documents/policies-procedures/2425/B-Academic-Regulations-Governing-Taught-Qualifications-v1.3-Revised-August-2024-FINAL.pdf",
+    "why": "no AI content"
+   },
+   {
+    "url": "https://www.lincolnbishop.ac.uk/about/policies-and-procedures/keyinformationforstudents",
+    "why": "hub page only links onward"
+   }
+  ],
+  "other_pages": []
+ },
+ {
+  "name": "BPP University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.datocms-assets.com/106045/1783433803-22-academic-practice.pdf",
+   "title": "Academic Practice (Policy 22)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "March 2026 (v. 4.0)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.datocms-assets.com/106045/1783433332-17-assessment-and-examination-framework-procedures.pdf",
+    "title": "Assessment & Examinations Framework and Procedures",
+    "audience": "students"
+   }
+  ]
+ }
+]

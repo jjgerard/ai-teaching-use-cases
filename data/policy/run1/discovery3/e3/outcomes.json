@@ -1,0 +1,135 @@
+[
+ {
+  "name": "Brunel University of London",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.brunel.ac.uk/life/study-support/computer-services/media-services/digital-education/Principles-of-AI",
+   "title": "Principles of AI",
+   "kind": "institutional_policy",
+   "format": "html",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.brunel.ac.uk/about/documents/pdf/Academic-Misconduct-Procedure-September-2025.pdf",
+    "why": "no AI content (9,000 words, no mention of AI)"
+   },
+   {
+    "url": "https://www.brunel.ac.uk/about/documents/pdf/Senate-Regulation-4-2025-06-30.pdf",
+    "why": "no AI content"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.brunel.ac.uk/life/study-support/computer-services/media-services/digital-education/AI-at-Brunel",
+    "title": "AI at Brunel",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "Canterbury Christ Church University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.canterbury.ac.uk/asset-library/policy-zone/Student-Academic-Misconduct-Procedures-staff-students.pdf",
+   "title": "Academic Misconduct Procedures",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Effective 1 August 2025; next review 31 July 2027",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.canterbury.ac.uk/asset-library/policy-zone/Student-Academic-Integrity-Policy.pdf",
+    "title": "Student Academic Integrity Policy (effective 1 Aug 2024; names AI, 7 mentions)",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.canterbury.ac.uk/learning-and-teaching-enhancement/resources-for-academics/ai-staff-guidance.aspx",
+    "title": "Generative AI guidance for staff",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "City St George's, University of London",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://studenthub.citystgeorges.ac.uk/__data/assets/pdf_file/0008/494576/Academic-Integrity-and-Misconduct-Policy.pdf",
+   "title": "Academic Integrity & Misconduct Policy",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "not seen",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://studenthub.citystgeorges.ac.uk/student-support-services/student-concerns-and-rights/academic-misconduct",
+    "why": "blocked (403 to fetch); same content as the PDF"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.citystgeorges.ac.uk/research/doctoral-college/doctoral-training-resources/use-of-generative-ai-tools-in-doctoral-research",
+    "title": "Use of Generative AI Tools in Doctoral Research",
+    "audience": "pgr"
+   },
+   {
+    "url": "https://studenthub.citystgeorges.ac.uk/academic-resources/learning-and-study-support/online-learning-tools/using-generative-artificial-intelligence-ai-for-learning",
+    "title": "Using generative AI for learning (403)",
+    "audience": "students"
+   }
+  ]
+ },
+ {
+  "name": "Coventry University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.coventry.ac.uk/student-central/coventry/handbook/assessment-and-awards/academic-integrity/",
+   "title": "Academic integrity",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "date_as_shown": "Last updated: 21 September 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://student.ai.coventry.domains/",
+    "title": "Student Guidance (CAPTCHA, not bypassed)",
+    "audience": "students"
+   },
+   {
+    "url": "https://teach.coventry.domains/staffguidance-for-ai/",
+    "title": "Staff Guidance",
+    "audience": "staff"
+   }
+  ]
+ },
+ {
+  "name": "Cranfield University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.cranfield.ac.uk/-/media/files/corporate_documents/academicmisconduct.ashx",
+   "title": "Senate Handbook: Academic Misconduct",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "date_as_shown": "Version 3.2 August 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": []
+ }
+]

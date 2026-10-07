@@ -1,0 +1,106 @@
+[
+ {
+  "name": "Université de Sherbrooke",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.usherbrooke.ca/intelligence-artificielle/nouvelles/details/56944",
+   "title": "Aperçu de l’usage des intelligences artificielles génératives par les personnes étudiantes",
+   "kind": "news",
+   "format": "html",
+   "language": "fr",
+   "date_as_shown": "2025-11-25",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.usherbrooke.ca/psychologie/fileadmin/sites/psychologie/espace-etudiant/3e_cycle/Guide_declaration_IA_ES_UdeS_final.pdf",
+    "why": "graduate (3e cycle) psychology only; not fetched"
+   },
+   {
+    "url": "https://www.usherbrooke.ca/ssf/enseignement/intelligence-artificielle-ia/vue-ensemble",
+    "why": "teaching-support page for instructors"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.usherbrooke.ca/actualites/evenements/details/53557",
+    "title": "ANNÉE des IA : Baliser les usages des IA génératives dans vos évaluations",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "intelligence artificielle générative étudiants (domain usherbrooke.ca)"
+  ]
+ },
+ {
+  "name": "Concordia University of Edmonton",
+  "outcome": "found",
+  "doc": {
+   "url": "https://concordia.ab.ca/academic-integrity-at-cue/genai-guide-for-students/",
+   "title": "Student Guide to Generative AI & Academic Integrity",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://concordia.ab.ca/academic-integrity-at-cue/",
+    "title": "Academic Integrity at CUE",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance (domain concordia.ab.ca)"
+  ]
+ },
+ {
+  "name": "Université Laval",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.bibl.ulaval.ca/services/soutien-a-lapprentissage/utilisation-de-lia-dans-les-etudes/ressources-et-outils-sur-lia",
+   "title": "Ressources et outils sur l’IA",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "fr",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://enseigner.ulaval.ca/numerique/intelligence-artificielle-generative",
+    "title": "",
+    "why": "teaching site for instructors; not fetched"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.fesp.ulaval.ca/actualites/utilisation-de-lia-generative-dans-les-memoires-et-theses",
+    "title": "Utilisation de l'IA générative dans les mémoires et thèses",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "intelligence artificielle générative étudiants (domain ulaval.ca)"
+  ]
+ },
+ {
+  "name": "Université Sainte-Anne",
+  "outcome": "unresolved",
+  "doc": null,
+  "rejected": [],
+  "other_pages": [],
+  "queries": [
+   "intelligence artificielle générative étudiants (domain usainteanne.ca) -> no usainteanne.ca results",
+   "further queries blocked: search budget exhausted"
+  ]
+ }
+]

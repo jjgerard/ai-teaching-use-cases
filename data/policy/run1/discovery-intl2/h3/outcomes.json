@@ -1,0 +1,102 @@
+[
+ {
+  "name": "Queensland University of Technology",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.library.qut.edu.au/c.php?g=983158&p=7165590",
+   "title": "Generative AI Resources - Course Guide: QUT You",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last Updated: Jun 5, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://libguides.library.qut.edu.au/chatgpt",
+    "title": "Introduction - Generative AI in Research and Teaching",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance (domain filter qut.edu.au)"
+  ]
+ },
+ {
+  "name": "Edith Cowan University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://intranet.ecu.edu.au/student/my-studies/study-assistance/generative-ai-in-learning",
+   "title": "ECU Intranet: Generative AI in learning",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [],
+  "queries": [
+   "generative AI students guidance (domain filter ecu.edu.au)"
+  ],
+  "note": "fetch returned 403; not bypassed"
+ },
+ {
+  "name": "Southern Cross University",
+  "outcome": "unresolved",
+  "doc": null,
+  "rejected": [
+   {
+    "url": "https://www.scu.edu.au/staff/teaching-and-learning/future-focus/genai/",
+    "why": "staff page"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.scu.edu.au/staff/teaching-and-learning/future-focus/genai/",
+    "title": "Generative Artificial Intelligence in Learning and Teaching",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance (domain filter scu.edu.au)"
+  ],
+  "note": "search budget exhausted after one query; not a not_found; needs rerun"
+ },
+ {
+  "name": "Western Sydney University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.westernsydney.edu.au/studysmart/home/generative-ai",
+   "title": "Generative AI",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://subjectguides.library.westernsydney.edu.au/blog/Study-Smart-Generative-AI",
+    "title": "Study Smart",
+    "audience": "students"
+   },
+   {
+    "url": "https://policies.westernsydney.edu.au/document/view.current.php?id=315",
+    "title": "Student Misconduct Rule - Inappropriate Behaviour Guidelines",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance (domain filter westernsydney.edu.au)"
+  ]
+ }
+]

@@ -1,0 +1,110 @@
+[
+ {
+  "name": "Bond University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://bond.edu.au/current-students/study-information/integrity-at-bond/academic-integrity/academic-integrity-and-artificial-intelligence",
+   "title": "Generative Artificial Intelligence (Gen-AI) guide for students and staff",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "not shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [],
+  "queries": [
+   "Bond University students generative AI guide (allowed_domains bond.edu.au)"
+  ]
+ },
+ {
+  "name": "University of Newcastle Australia",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.newcastle.edu.au/AI-tools/students",
+   "title": "AI for Students - AI tools - LibGuides at University of Newcastle Library",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "September 24, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.newcastle.edu.au/current-students/study-essentials/assessment-and-exams/assessments-and-assignments/artificial-intelligence-in-assessment",
+    "why": "HTTP 403 on fetch; not bypassed (blocked)"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://policies.newcastle.edu.au/document/view-current.php?id=369",
+    "title": "Policy on the use of Generative AI in Teaching, Learning and Assessment",
+    "audience": "students"
+   },
+   {
+    "url": "https://www.newcastle.edu.au/__data/assets/pdf_file/0005/1080284/GenAI-and-HDR-Guidance.pdf",
+    "title": "GenAI HDR guidance",
+    "audience": "pgr"
+   }
+  ],
+  "queries": [
+   "University of Newcastle students generative AI guide (allowed_domains newcastle.edu.au)"
+  ]
+ },
+ {
+  "name": "Torrens University Australia",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.torrens.edu.au/genai/responsibly",
+   "title": "Responsible AI Use - AI Guide for Torrens",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "October 7, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://library.torrens.edu.au/genai",
+    "title": "AI Guide for Torrens",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "Torrens University students generative AI guide (allowed_domains torrens.edu.au)"
+  ]
+ },
+ {
+  "name": "University of Technology Sydney",
+  "outcome": "found",
+  "doc": {
+   "url": "https://studyguides.lib.uts.edu.au/genai",
+   "title": "Generative AI: Home - UTS Library study guide",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Sep 2, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.uts.edu.au/for-students/current-students/support/helps/self-help-resources/genai-learning-resources",
+    "title": "GenAI learning resources",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "UTS students generative AI guide (allowed_domains uts.edu.au)"
+  ]
+ }
+]
