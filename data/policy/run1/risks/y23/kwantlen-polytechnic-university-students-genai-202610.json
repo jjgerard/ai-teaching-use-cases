@@ -1,0 +1,90 @@
+{
+ "doc_id": "kwantlen-polytechnic-university-students-genai-202610",
+ "coder": "y-y23",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI can produce inaccurate or biased information, even if it seems confident in its responses.",
+   "anchor": "When generative AI is allowed in your course or assignment:"
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI can produce inaccurate or biased information, even if it seems confident in its responses.",
+   "anchor": "When generative AI is allowed in your course or assignment:"
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Evaluate the potential risks to Indigenous data sovereignty, reproducing cultural bias, and systemic inequalities by assessing whether AI is the most suitable source and evaluating GenAI results before using them.",
+   "anchor": "Social and Environmental Impact:"
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI tools use significant amounts of electricity, consider ways to limit power consumption.",
+   "anchor": "Social and Environmental Impact:"
+  },
+  {
+   "risk": "security_or_misuse",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Be cautious of phishing attempts and unauthorized access.",
+   "anchor": "Protecting Your Privacy and Security:"
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Entering content made by instructors or other students to AI tools without permission infringes on copyright.",
+   "anchor": "Respect Intellectual Property: Copyright"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "It’s important to check and evaluate output using other sources to consider different perspectives.",
+   "anchor": "When generative AI is allowed in your course or assignment:"
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Use with integrity - see link Generative AI and Academic Integrity",
+   "anchor": null
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Carefully read your instructors' guidelines for use in assignments and course activities.",
+   "anchor": "Follow Instructor Guidelines:"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Keep up to date with the latest developments in AI and guidelines.",
+   "anchor": "When generative AI is allowed in your course or assignment:"
+  },
+  {
+   "duty": "no_compulsion_to_use",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "Using generative AI for personal studying is not required for students.",
+   "anchor": "Personal Study Practices:"
+  }
+ ]
+}

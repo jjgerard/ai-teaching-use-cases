@@ -1,0 +1,206 @@
+{
+ "doc_id": "kwantlen-polytechnic-university-students-genai-202610",
+ "coder": "y-y23",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply",
+    "not_required_to_use"
+   ],
+   "quote": "As per KPU guidelines, outside of course assignments and activities, students may choose to use GenAI tools as long as the student is not inputting copyright materials into the tools and is not using restricted tools like DeepSeek on KPU systems (e.g. network, devices).",
+   "anchor": "Personal Study Practices:"
+  },
+  {
+   "use": "any_use",
+   "context": "exams_or_supervised",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Using Gen AI tools for personal studying would not constitute an academic integrity breach as long as the direct outputs of those tools are not present in submitted course work and/or the tool is not being used during an exam, unless these tools have been explicitly permitted by an instructor for these situations.",
+   "anchor": "Personal Study Practices:"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Using Gen AI tools for personal studying would not constitute an academic integrity breach as long as the direct outputs of those tools are not present in submitted course work and/or the tool is not being used during an exam, unless these tools have been explicitly permitted by an instructor for these situations.",
+   "anchor": "Personal Study Practices:"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Planning and prioritizing",
+   "anchor": "Personal Study Practices:"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Simplifying complex concepts or presenting them in a different way",
+   "anchor": "Personal Study Practices:"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generating examples",
+   "anchor": "Personal Study Practices:"
+  },
+  {
+   "use": "record_or_transcribe",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Organizing your notes",
+   "anchor": "Personal Study Practices:"
+  },
+  {
+   "use": "find_sources",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Suggesting related topics for research",
+   "anchor": "Personal Study Practices:"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Exam preparation, including generating study questions, acting as a chatbot tutor, etc.",
+   "anchor": "Personal Study Practices:"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "generative AI can provide you with an introduction to a topic, explanations, overview of key points, and generate many examples quickly to brainstorm with you.",
+   "anchor": "When generative AI is allowed in your course or assignment:"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "generative AI can provide you with an introduction to a topic, explanations, overview of key points, and generate many examples quickly to brainstorm with you.",
+   "anchor": "When generative AI is allowed in your course or assignment:"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI might also be used to critique your work, recognizing that it will not have the subject matter expertise that a tutor or instructor will have in giving specific feedback.",
+   "anchor": "When generative AI is allowed in your course or assignment:"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI can serve as a helpful starting place, but don’t rely only on AI generated content.",
+   "anchor": "When generative AI is allowed in your course or assignment:"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Ask generative AI to break down the process for a specific problem as opposed to answering it for you.",
+   "anchor": "When generative AI is allowed in your course or assignment:"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It is important that you apply your own thinking and creation through your own analysis, synthesis, evaluation, and critique.",
+   "anchor": "Original Work"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "If you use GenAI to generate content (text, images, videos etc.) shared with others, it’s important to document the tools and techniques you used.",
+   "anchor": "When generative AI is allowed in your course or assignment:"
+  },
+  {
+   "use": "assistive_use",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "For support with using AI for accessibility, contact accessibility services: https://www.kpu.ca/access.",
+   "anchor": "Follow Instructor Guidelines:"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Different courses may have different requirements, and your instructor can guide you if you are"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "If you use GenAI to generate content (text, images, videos etc.) shared with others, it’s important to document the tools and techniques you used."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "it’s important to document the tools and techniques you used."
+   },
+   {
+    "value": "how_used",
+    "quote": "it’s important to document the tools and techniques you used."
+   },
+   {
+    "value": "prompts",
+    "quote": "Maintain a record of your process and prompts in case you are asked to share or demonstrate your work."
+   }
+  ],
+  "location": [],
+  "records": {
+   "value": "recommended",
+   "quote": "Maintain a record of your process and prompts in case you are asked to share or demonstrate your work."
+  },
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Cite sources properly - see link KPU Generative AI Citation Guide"
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

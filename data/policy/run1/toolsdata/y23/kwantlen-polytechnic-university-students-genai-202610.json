@@ -1,0 +1,75 @@
+{
+ "doc_id": "kwantlen-polytechnic-university-students-genai-202610",
+ "coder": "y-y23",
+ "tools": [
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "prohibited",
+   "audience": "students",
+   "name": "DeepSeek",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "As per KPU guidelines, outside of course assignments and activities, students may choose to use GenAI tools as long as the student is not inputting copyright materials into the tools and is not using restricted tools like DeepSeek on KPU systems (e.g. network, devices).",
+   "anchor": "Personal Study Practices:"
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "warned",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Use reputable platforms to access generative AI services and review what you are agreeing to. Be cautious of phishing attempts and unauthorized access.",
+   "anchor": "Protecting Your Privacy and Security:"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Avoid sharing personal or sensitive information with generative AI tools.",
+   "anchor": "Protecting Your Privacy and Security:"
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "conditional",
+   "audience": "students",
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Entering content made by instructors or other students to AI tools without permission infringes on copyright.",
+   "anchor": "Respect Intellectual Property: Copyright"
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "As per KPU guidelines, outside of course assignments and activities, students may choose to use GenAI tools as long as the student is not inputting copyright materials into the tools and is not using restricted tools like DeepSeek on KPU systems (e.g. network, devices).",
+   "anchor": "Personal Study Practices:"
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Use reputable platforms to access generative AI services and review what you are agreeing to.",
+   "anchor": "Protecting Your Privacy and Security:"
+  }
+ ],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Entering content made by instructors or other students to AI tools without permission infringes on copyright.",
+   "anchor": "Respect Intellectual Property: Copyright"
+  }
+ ]
+}

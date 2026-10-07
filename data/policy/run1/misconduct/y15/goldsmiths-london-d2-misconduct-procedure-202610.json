@@ -1,0 +1,275 @@
+{
+ "doc_id": "goldsmiths-london-d2-misconduct-procedure-202610",
+ "coder": "y-y15",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Use of Artificial Intelligence (AI) tools to produce work that is presented as the student’s own.",
+   "anchor": "2.2.7"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Recourse to the services of ‘ghost-writing’ agencies or essay mills (for example in the preparation of essays or reports) is strictly forbidden, as is the use of AI tools (see 2.2.7)",
+   "anchor": "3.2 Academic Misconduct Statement"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Commissioning another person or persons to complete an assignment, which is then submitted as your own work.",
+   "anchor": "2.2.5"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": true,
+   "quote": "Plagiarism is an attempt (deliberate or inadvertent) to gain advantage by the representation of another person’s work, without acknowledgement of the source, as the student’s own. This includes the use of AI tools to produce work that has not been written by the student themselves (see also 2.2.7).",
+   "anchor": "2.2.13"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsification of data is the presentation of data in projects, laboratory reports etc. based on work purported to have been carried out by the students which have been invented by the student or altered or copied or obtained by other unfair means.",
+   "anchor": "2.2.11"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "taking into an examination or test an unauthorised electronic devices/storage devices containing pre-coded data;",
+   "anchor": "2.2.12"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Aiding and abetting a student in any form of dishonest practice.",
+   "anchor": "2.2"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Bribery is paying or offering inducements to another person to obtain an advance copy of an unseen examination or test paper or to obtain a copy of a coursework assignment in advance of its distribution to the students concerned.",
+   "anchor": "2.2.3"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Duplication is the inclusion of coursework of any material, which is identical or similar to material, which has already been submitted for any other assessment within the University or elsewhere e.g. submitting the same piece of coursework for two different modules.",
+   "anchor": "2.2.8"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Plagiarism is an attempt (deliberate or inadvertent) to gain advantage by the representation of another person’s work, without acknowledgement of the source, as the student’s own.",
+   "anchor": "2.2.13"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "These concerns must be cited, e.g. from ‘Turnitin’ or identified source material",
+   "anchor": "4.4 Step One"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Students should be aware that work may be submitted to JISC or other available electronic tools for detection.",
+   "anchor": "3.2 Academic Misconduct Statement"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "If, in the judgment of the marker, a student has committed an act of academic misconduct that meets the University definition",
+   "anchor": "4.4 Step One"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "(issues of style, or impressionistic judgements are not acceptable evidence to justify formal referral).",
+   "anchor": "4.4 Step One"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Students should be made aware that a viva voce or written examination may be arranged to establish the original source of any work submitted.",
+   "anchor": "4.6 Step Three"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Candidates are strongly advised to retain copies of any drafts produced while preparing assessed work, as this will be of assistance in demonstrating that the work is their own",
+   "anchor": "2.2.5"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "the work and analytic notes that identify specific concerns should be referred to the Head of School or a nominated senior academic.",
+   "anchor": "4.4 Step One"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "that further investigation is appropriate, and a hearing should be convened",
+   "anchor": "4.5 Step Two"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "Students should respond to the allegation and submit any extenuating circumstances to be taken into account if a penalty is imposed.",
+   "anchor": "4.6 Step Three"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The Hearing Panel should hear the witness testimony, consider the written evidence and decide whether:",
+   "anchor": "4.7 Step Four – Hearing"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "the Hearing will proceed in their absence. It will not be invalidated by their failure to attend.",
+   "anchor": "4.7 Step Four – Hearing"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student must be advised that they may bring a supporter, a friend or Student Union Representative, to the Hearing",
+   "anchor": "4.7 Step Four – Hearing"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A student has the right to challenge a finding of assessment misconduct, or a penalty imposed by the Chair of a Board of Examiners following a Hearing",
+   "anchor": "4.8 Step 5 – Challenge/Appeal"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The student must receive 7 days’ notice of the Hearing;",
+   "anchor": "4.7 Step Four – Hearing"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "the person against whom allegations have been made shall be presumed to be innocent until the contrary is established by consideration of the available evidence, on the balance of probabilities.",
+   "anchor": "4.1 Presumption of Innocence"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Records of investigations of academic misconduct will be maintained by the University",
+   "anchor": "4.7 Step Four – Hearing"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "Issue a written formal warning, that may be considered in the event of any subsequent offences;",
+   "anchor": "6.1"
+  },
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Require the student to read and sign the Academic Misconduct Statement and study the online good academic practice tutorial available on learn.gold,",
+   "anchor": "6.1"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Require the student to resubmit the work within 3-5 days, appropriately referenced without any additional changes to the substance of the submission.",
+   "anchor": "6.1"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Subtract ten percentage marks from the final mark for the module overall;",
+   "anchor": "6.1"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Award a mark of zero for the element of the module (the retake is penalised);",
+   "anchor": "6.1"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Award a mark of zero for all elements of the module (the retake is penalised);",
+   "anchor": "6.1"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "Award the minimum pass mark for the module;",
+   "anchor": "6.1"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "Reduce the student’s degree class by one class (unless by doing so a pass would be turned into a ‘fail’);",
+   "anchor": "6.1"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Suspension from University (an interruption of one academic year);",
+   "anchor": "6.1"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "When determining a penalty for a repeat offence, the prior offence and the level of it should be taken into account when determining the appropriate penalty for the repeat offence.",
+   "anchor": "6.2"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The Hearing Panel should decide on the appropriate penalty from the list of tariffs set out below, with reference to the application guidelines relating to the student’s level of study.",
+   "anchor": "4.7 Step Four – Hearing"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct is defined as any attempt by a student to gain an unfair advantage in any assessment."
+  },
+  {
+   "term": "collusion",
+   "ai_named": false,
+   "quote": "Collusion is where two or more students collaborate to produce a piece of work which is then submitted as though it was an individual student’s own work."
+  },
+  {
+   "term": "plagiarism",
+   "ai_named": true,
+   "quote": "Plagiarism is an attempt (deliberate or inadvertent) to gain advantage by the representation of another person’s work, without acknowledgement of the source, as the student’s own. This includes the use of AI tools to produce work that has not been written by the student themselves (see also 2.2.7)."
+  },
+  {
+   "term": "contract cheating",
+   "ai_named": false,
+   "quote": "Commissioning another person or persons to complete an assignment, which is then submitted as your own work."
+  },
+  {
+   "term": "duplication",
+   "ai_named": false,
+   "quote": "Duplication is the inclusion of coursework of any material, which is identical or similar to material, which has already been submitted for any other assessment within the University or elsewhere"
+  },
+  {
+   "term": "falsification of data",
+   "ai_named": false,
+   "quote": "Falsification of data is the presentation of data in projects, laboratory reports etc. based on work purported to have been carried out by the students which have been invented by the student or altered or copied or obtained by other unfair means."
+  }
+ ]
+}

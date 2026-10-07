@@ -1,0 +1,77 @@
+{
+ "doc_id": "goldsmiths-london-d2-misconduct-procedure-202610",
+ "coder": "y-y15",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Use of Artificial Intelligence (AI) tools to produce work that is presented as the student’s own.",
+   "anchor": "2.2.7"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "The use of AI tools may be legitimate within some assessments, where this is the case, this will be set out in the module specification or assessment brief. The use of AI tools in this instance will be appropriately cited within the student’s submitted assessment.",
+   "anchor": "2.2.7"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Recourse to the services of ‘ghost-writing’ agencies or essay mills (for example in the preparation of essays or reports) is strictly forbidden, as is the use of AI tools (see 2.2.7)",
+   "anchor": "3.2 Academic Misconduct Statement"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "copying the work of another person;",
+   "anchor": "2.2.13"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsification of data is the presentation of data in projects, laboratory reports etc. based on work purported to have been carried out by the students which have been invented by the student or altered or copied or obtained by other unfair means.",
+   "anchor": "2.2.11"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "The use of AI tools may be legitimate within some assessments, where this is the case, this will be set out in the module specification or assessment brief. The use of AI tools in this instance will be appropriately cited within the student’s submitted assessment."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "The use of AI tools may be legitimate within some assessments, where this is the case, this will be set out in the module specification or assessment brief. The use of AI tools in this instance will be appropriately cited within the student’s submitted assessment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "The use of AI tools in this instance will be appropriately cited within the student’s submitted assessment."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

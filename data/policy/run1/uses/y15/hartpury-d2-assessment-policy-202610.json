@@ -1,0 +1,53 @@
+{
+ "doc_id": "hartpury-d2-assessment-policy-202610",
+ "coder": "y-y15",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Submitting as your own, work which has been produced in whole or in part by AI content generating software (i.e. large language models including but not limited to ChatGPT, Explainpaper, and DALL-E 2).",
+   "anchor": "Contract Cheating"
+  },
+  {
+   "use": "create_images_or_media",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Submitting as your own, work which has been produced in whole or in part by AI content generating software (i.e. large language models including but not limited to ChatGPT, Explainpaper, and DALL-E 2).",
+   "anchor": "Contract Cheating"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Copying more than a single phrase from another person’s work without the use of quotation marks or acknowledgement of the sources;",
+   "anchor": "Plagiarism"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Falsifying your references, citations, and/or bibliography;",
+   "anchor": "Falsification"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

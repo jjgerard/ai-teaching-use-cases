@@ -1,0 +1,200 @@
+{
+ "doc_id": "hartpury-d2-assessment-policy-202610",
+ "coder": "y-y15",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Submitting as your own, work which has been produced in whole or in part by AI content generating software (i.e. large language models including but not limited to ChatGPT, Explainpaper, and DALL-E 2).",
+   "anchor": "Contract Cheating"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Submitting as your own, work which has been produced in whole or in part by AI content generating software (i.e. large language models including but not limited to ChatGPT, Explainpaper, and DALL-E 2).",
+   "anchor": "Contract Cheating"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is presenting someone else’s work as your own.",
+   "anchor": "Plagiarism"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsifying your references, citations, and/or bibliography;",
+   "anchor": "Falsification"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Students may not re-use work (or a substantial part of it) that has previously been submitted for a different assessment (internal or external to the University), unless this is explicitly allowed",
+   "anchor": "Self-plagiarism"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Making available, or seeking to make available, material to another student with the intention that the material is used by the other student within an assessment that they submit as being the product of their own work.",
+   "anchor": "Contract Cheating"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Having in your possession materials and/or devices which are not allowed for that assessment;",
+   "anchor": "Cheating in assessments"
+  }
+ ],
+ "liability": [
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "academic experience of the student, including but not limited to:",
+   "anchor": "Investigating Misconduct"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Hartpury reviews assessments for plagiarism and other academic misconduct as part of its assessment of student work and has the right to subject work to scrutiny using detection software, or other resources, as appropriate, on either a comprehensive or sample basis.",
+   "anchor": "The use of text-matching and academic misconduct detection software"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "It is important to note that the use of electronic detection software in this way is seen as an adjunct to the normal exercise of academic judgement not as a replacement for it.",
+   "anchor": "The use of text-matching and academic misconduct detection software"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "It is important to note that the use of electronic detection software in this way is seen as an adjunct to the normal exercise of academic judgement not as a replacement for it.",
+   "anchor": "The use of text-matching and academic misconduct detection software"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "A student must be prepared to submit all evidence of preparation of the assessment by themselves for scrutiny, regardless of final submission method.",
+   "anchor": "The use of text-matching and academic misconduct detection software"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "reserve the right to assess the student for the purposes of establishing originality of work or meeting learning outcomes where misconduct is suspected (e.g. viva voce, or other controlled conditions assessment).",
+   "anchor": "Academic Misconduct"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Where a submitted assessment is suspected to constitute academic misconduct it must be reported and will be considered in accordance with the procedure within the Appendix Academic Misconduct.",
+   "anchor": "C1 Assessment"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Allegations of misconduct will be investigated by the Academic Misconduct Investigation Process following three stages, represented in the process diagram.",
+   "anchor": "Investigating Misconduct"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "Student reviews evidence, discusses practice with AMA, student offered advice and has opportunity to provide written response.",
+   "anchor": "The Academic Misconduct Investigation Process"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Student notified of allegation and invited to a meeting with the AMA to review evidence.",
+   "anchor": "The Academic Misconduct Investigation Process"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "Provide advice about the implications and possible outcomes of the process of academic procedures to students and provide details of any other sources of support or counselling available to them e.g. the student representative body;",
+   "anchor": "Hartpury’s Responsibilities"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Stage 3 – Appealing a Stage 2 outcome. Appeals are made using Appendix: Academic Appeals,",
+   "anchor": "Investigating Misconduct"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Appeals should be made no later than six months after written notification of the Stage 2 outcome.",
+   "anchor": "Investigating Misconduct"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "a formal record of proven academic offences will be kept.",
+   "anchor": "C1 Assessment"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Students found to have engaged in poor academic practice or committed academic misconduct may be required to undertake supplementary academic integrity training to help them improve their academic practice in addition to any other penalty that may be imposed by the Institution.",
+   "anchor": "Penalties for proven academic offences"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "Feedback and warning letter for PS.",
+   "anchor": "The Academic Misconduct Investigation Process"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Assessment element and component marks reduced to 0% or NOT PASSED/FAIL regardless of the extent of the offence.",
+   "anchor": "Penalties for proven academic offences"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "Areas of the work affected by the academic offence identified, and submission is marked against the assessment criteria without it.",
+   "anchor": "Penalties for proven academic offences"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "vary the class of award recommended.",
+   "anchor": "Reporting academic misconduct to the Boards of Examiners"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "where an academic offence is found to have occurred in two or more modules the Programme Examination Board may decide to:",
+   "anchor": "Reporting academic misconduct to the Boards of Examiners"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Guidance to inform a decision of poor academic practice includes the: a. Volume of assessment affected; and;",
+   "anchor": "Investigating Misconduct"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct is any action which has the potential to give a student an unfair advantage in an assessment."
+  },
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is presenting someone else’s work as your own."
+  }
+ ]
+}

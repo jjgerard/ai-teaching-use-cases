@@ -1,0 +1,30 @@
+{
+ "doc_id": "kwantlen-polytechnic-university-students-genai-202610",
+ "coder": "y-y23",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Misue of AI can result in an academic integrity breach.",
+   "anchor": "Original Work"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": true,
+   "quote": "Using Gen AI tools for personal studying would not constitute an academic integrity breach as long as the direct outputs of those tools are not present in submitted course work and/or the tool is not being used during an exam, unless these tools have been explicitly permitted by an instructor for these situations.",
+   "anchor": "Personal Study Practices:"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": true,
+   "quote": "Entering content made by instructors or other students to AI tools without permission infringes on copyright.",
+   "anchor": "Respect Intellectual Property: Copyright"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [],
+ "definitions": []
+}
