@@ -1,0 +1,75 @@
+{
+ "doc_id": "kent-d2-institutional-policy-202610",
+ "coder": "y-y6",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "ChatGPT",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Following the announcement that Kent will be providing ChatGPT to all staff and students, we have provided some FAQs.",
+   "anchor": "Guidance and FAQs on AI tools at Kent"
+  },
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "conditional",
+   "audience": "both",
+   "name": null,
+   "conditions": [
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "AI tools used within the University must meet appropriate standards for safety, security, reliability, and vendor assurance, particularly where personal or sensitive data is involved.",
+   "anchor": "7) Safety, security and assurance"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not share personal data with AI tools",
+   "anchor": "Practical tips for using AI the right way"
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "conditional",
+   "audience": "both",
+   "conditions": [
+    "meets_security_policy"
+   ],
+   "ai_named": true,
+   "quote": "AI tools used within the University must meet appropriate standards for safety, security, reliability, and vendor assurance, particularly where personal or sensitive data is involved.",
+   "anchor": "7) Safety, security and assurance"
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "follow_data_protection_policy",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "This includes respecting data protection, privacy, intellectual property, and confidentiality requirements so that the University complies with its legal and regulatory obligations.",
+   "anchor": "6) Responsible use"
+  }
+ ],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "This includes respecting data protection, privacy, intellectual property, and confidentiality requirements so that the University complies with its legal and regulatory obligations.",
+   "anchor": "6) Responsible use"
+  },
+  {
+   "value": "copyright",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "This includes respecting data protection, privacy, intellectual property, and confidentiality requirements so that the University complies with its legal and regulatory obligations.",
+   "anchor": "6) Responsible use"
+  }
+ ]
+}

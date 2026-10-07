@@ -1,0 +1,149 @@
+{
+ "doc_id": "huddersfield-d2-misconduct-procedure-202610",
+ "coder": "y-y6",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Whilst the University is developing assessment modes in line with the development of AI Tools, current assessments have not been designed with AI tools in mind, so the use of such tools for their completion could impact on the integrity of your submission. The misuse of such tools could lead to investigation under the Academic Misconduct Procedure.",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": false,
+   "quote": "Plagiarism. You are relying on a source to complete your work which has not been identified or referenced;",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Plagiarism. You are relying on a source to complete your work which has not been identified or referenced;",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating. You are relying on a tool owned by another person to complete your assessment;",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": true,
+   "quote": "Fabrication. AI tools may generate artificial data that you later rely on to complete your assessment.",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Examples might include cheating, collusion, falsification, fabrication, contract cheating, impersonation, recycling, ethical misconduct, inappropriate sharing of work and plagiarism.",
+   "anchor": "10.1 Regulation introduction"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Examples might include cheating, collusion, falsification, fabrication, contract cheating, impersonation, recycling, ethical misconduct, inappropriate sharing of work and plagiarism.",
+   "anchor": "10.1 Regulation introduction"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Examples might include cheating, collusion, falsification, fabrication, contract cheating, impersonation, recycling, ethical misconduct, inappropriate sharing of work and plagiarism.",
+   "anchor": "10.1 Regulation introduction"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Examples might include cheating, collusion, falsification, fabrication, contract cheating, impersonation, recycling, ethical misconduct, inappropriate sharing of work and plagiarism.",
+   "anchor": "10.1 Regulation introduction"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "If a tutor raises a concern about the style of language in your work, you may be asked to summarise the content or paraphrase the grammatical functions and vocabulary used.",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "If a tutor raises a concern about the style of language in your work, you may be asked to summarise the content or paraphrase the grammatical functions and vocabulary used.",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "We advise that, as good practice, you keep different copies of the research notes you used or calculations you performed etc and keep a separate copy of the different iterations of drafts you have completed, in case you are ever asked to explain how you produced your work.",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  }
+ ],
+ "process": [
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "If we decide to investigate an allegation of academic misconduct then we expect you to be honest and truthful.",
+   "anchor": "10.1 Regulation introduction"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "We make decisions based on the balance of probabilities and we may apply more severe penalties if we find that you have not been honest and truthful during the investigations.",
+   "anchor": "10.1 Regulation introduction"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "You should seek impartial advice and support from the Students’ Union Advice Centre if you are suspected of being involved in Academic Misconduct.",
+   "anchor": "Support with academic misconduct investigations"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "If we find that you have breached the University’s regulations on academic misconduct then we will apply a penalty.",
+   "anchor": "10.1 Regulation introduction"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Where you have failed to complete the mandatory training, this may be taken into account when considering the allegation of academic misconduct and be an aggravating factor in determining an outcome.",
+   "anchor": "10.1 Regulation introduction"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "If an allegation(s) is upheld after you have been awarded credit or graduated, any credit, degree or other award may be revoked via the ‘revocation of award or credit’ regulation in Section 1.13.",
+   "anchor": "10.1 Regulation introduction"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "If an allegation(s) is upheld after you have been awarded credit or graduated, any credit, degree or other award may be revoked via the ‘revocation of award or credit’ regulation in Section 1.13.",
+   "anchor": "10.1 Regulation introduction"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "An upheld allegation may be referred to the Fitness to Practise Procedure for any students on professionally regulated courses.",
+   "anchor": "10.1 Regulation introduction"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic integrity",
+   "ai_named": false,
+   "quote": "Academic integrity means being honest, respectful, responsible, trustworthy and fair in all your academic work and conduct."
+  },
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct is when students gain an unfair advantage in the work they submit for credit."
+  }
+ ]
+}

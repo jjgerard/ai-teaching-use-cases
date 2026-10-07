@@ -1,0 +1,109 @@
+{
+ "doc_id": "huddersfield-d2-misconduct-procedure-202610",
+ "coder": "y-y6",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "We do not expect you to use AI tools to contribute to the completion of your assessment or online exam unless you have been explicitly told that you can. If you are told you may use AI, then it should be appropriately referenced.",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "exams_or_supervised",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "We do not expect you to use AI tools to contribute to the completion of your assessment or online exam unless you have been explicitly told that you can.",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Contract cheating. You are relying on a tool owned by another person to complete your assessment;",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools",
+   "tier": "contract cheating"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Plagiarism. You are relying on a source to complete your work which has not been identified or referenced;",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "If you translate large portions of text written initially in your native language and submit this for assessment, this may be considered to be misconduct, as it raises the question of authorship of the translated version.",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools",
+   "tier": "large portions"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "If you use translation tools, you should reference their use and be able to demonstrate full understanding of the language you have produced.",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools",
+   "tier": "any translation"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabrication. AI tools may generate artificial data that you later rely on to complete your assessment.",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  }
+ ],
+ "default_when_silent": {
+  "value": "prohibit_all",
+  "quote": "We do not expect you to use AI tools to contribute to the completion of your assessment or online exam unless you have been explicitly told that you can."
+ },
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "recommended",
+   "quote": "If you are told you may use AI, then it should be appropriately referenced."
+  },
+  "contents": [],
+  "location": [],
+  "records": {
+   "value": "recommended",
+   "quote": "We advise that, as good practice, you keep different copies of the research notes you used or calculations you performed etc and keep a separate copy of the different iterations of drafts you have completed, in case you are ever asked to explain how you produced your work."
+  },
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "If you are told you may use AI, then it should be appropriately referenced."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Plagiarism. You are relying on a source to complete your work which has not been identified or referenced;"
+  },
+  "exempt": []
+ }
+}

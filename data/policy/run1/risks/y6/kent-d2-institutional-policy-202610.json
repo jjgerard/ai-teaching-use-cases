@@ -1,0 +1,94 @@
+{
+ "doc_id": "kent-d2-institutional-policy-202610",
+ "coder": "y-y6",
+ "risks": [
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "AI tools have been developed in ways that may embed bias in decision-making.",
+   "anchor": "8) Equity and inclusion"
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "The University is aware of the environmental and sustainability impacts of AI use.",
+   "anchor": "9) Sustainability"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "human_oversight",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "AI will not be used to make decisions about marks or academic outcomes unless its use is explicitly authorised, clearly communicated, pedagogically justified, and always with human oversight.",
+   "anchor": "4) Human responsibility for assessment"
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Individuals remain accountable for the accuracy, quality, and integrity of their work, regardless of whether AI tools are used to support it.",
+   "anchor": "5) Integrity, transparency and accountability"
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Use of AI must be honest, responsible, and appropriately transparent.",
+   "anchor": "5) Integrity, transparency and accountability"
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Use AI ethically and responsibly",
+   "anchor": "Practical tips for using AI the right way"
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "In some areas, the use of AI is governed by specific University policies, regulations, or external requirements. These must always be followed.",
+   "anchor": "On related policies"
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Follow guidance provided by your module convenor",
+   "anchor": "Practical tips for using AI the right way"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "The University is committed to supporting staff and students to develop the knowledge, skills, and confidence needed to engage with AI critically, responsibly, and effectively.",
+   "anchor": "2) Capability, confidence and AI literacy"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Early engagement with relevant policies, guidance and support is essential in mitigating any risks associated with the use of AI.",
+   "anchor": "7) Safety, security and assurance"
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "These principles, and the guidance that supports them, will be reviewed regularly to ensure they remain appropriate and effective.",
+   "anchor": "10) Continuous review and improvement"
+  }
+ ]
+}

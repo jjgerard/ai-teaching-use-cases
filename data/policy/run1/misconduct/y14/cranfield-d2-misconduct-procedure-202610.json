@@ -1,0 +1,314 @@
+{
+ "doc_id": "cranfield-d2-misconduct-procedure-202610",
+ "coder": "y-y14",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Unacknowledged use of AI-generated content is considered academic misconduct.",
+   "anchor": "3.5 Help with assessments"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Any work submitted containing unacknowledged AI-generated content will be considered as submission of the work of others without attribution, which is considered to be plagiarism, and should be investigated as a form of academic misconduct.",
+   "anchor": "5.2 Detection of use of AI-generated content"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "This includes either changing or manipulating data in order to support a hypothesis, or inventing data (e.g. experimental results, interview questions or answers, survey results), which are then reported as genuine observations or measurements.",
+   "anchor": "2.6"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": true,
+   "quote": "In addition, the use of ‘article spinning’, paraphrasing software, AI-generated content or other online tools to disguise the use of others’ work as your own is considered academic misconduct.",
+   "anchor": "2.7"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "This may also include where work submitted for assessment has been completed (in full or in part) by generative AI Techniques or similar.",
+   "anchor": "2.7"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "The theft of another student’s or researcher’s work is viewed as a very serious offence and any student found committing such an act of academic misconduct will be liable to the most severe penalties.",
+   "anchor": "2.8"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "having access or attempting to gain access, during a formal examination, to any unauthorised material, electronic device or calculator;",
+   "anchor": "2.5 Cheating under test conditions"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion occurs where students work with someone else to complete assessed work which should be completed wholly independently.",
+   "anchor": "2.9 Collusion"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "allowing another person to impersonate you in a formal examination, progress review meeting or viva.",
+   "anchor": "2.5 Cheating under test conditions"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism or duplication is the submission, in whole or in part, of your own work that has previously been submitted for a different assignment or research project (either at Cranfield or elsewhere) or published.",
+   "anchor": "2.3"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "any investigation (whether formal or informal) will be undertaken to determine if academic misconduct has occurred, regardless of whether this was intentional or unintentional on the part of the student",
+   "anchor": "2 What is academic misconduct"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Intention to commit academic misconduct (or a lack of intention) may, however, be considered by an investigator when determining the appropriate penalty to be applied.",
+   "anchor": "2 What is academic misconduct"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": true,
+   "quote": "Unintentional inappropriate use of AI tools.",
+   "anchor": "Appendix C: Poor Academic Practice"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The University reviews the majority of assessments submitted by you, including research theses, using an external non-originality detection system (Turnitin).",
+   "anchor": "2.1"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "The OSI in isolation is not an indicator of plagiarism and must be supplemented by an academic assessment of the probable causes of a high similarity percentage.",
+   "anchor": "5.1"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "The university may use AI detection systems and techniques, for example as available within Turnitin, to identify possible AI or other machine generated content.",
+   "anchor": "5.1"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "This can be reviewed by staff to assist but is not an indicator of misconduct and must be supplemented by an academic assessment.",
+   "anchor": "5.1"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "restricted",
+   "ai_named": false,
+   "quote": "It is not enabled as standard – staff should contact the Student Casework Team for support with this.",
+   "anchor": "5.2"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "not_used",
+   "ai_named": true,
+   "quote": "The University does not have a formal tool in place for the detection of use by students of AI assistance in completing pieces of assessment.",
+   "anchor": "5.2"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "The following is a non-exhaustive list of features or characteristics staff should look out for when marking students’ work:",
+   "anchor": "5.2"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Where academic misconduct is detected or suspected at a viva itself (for example where the student does not seem to understand areas of the written thesis fully to the point it seems that they have not written it, or where academic misconduct is (inadvertently or otherwise) admitted), the thesis examiners may choose to:",
+   "anchor": "5.5"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Students should retain all versions of their work, and notes and advice provided to them. These can then be used to demonstrate that the work is their own in the event they are accused of academic misconduct.",
+   "anchor": "3.5"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "The Course Director or Supervisor may or may not talk to the student(s) to investigate the allegation",
+   "anchor": "8 Stage 1 - Informal investigation"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "The Student Casework Team will appoint a trained Academic Conduct Officer (ACO), or an Academic Conduct Panel, made up of at least three Academic Conduct Officers (ACOs) to carry out the formal investigation.",
+   "anchor": "9 Stage 2 - Formal investigation"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "formal investigation - detailed enquiries and a full and documented investigation is undertaken to verify the truth of any allegation and determine any appropriate penalty or redress",
+   "anchor": "6 Stages of an investigation"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "At the meeting, the ACO or Academic Conduct Panel will discuss the allegation with the student(s) before inviting them to make any further comments. This is an opportunity to admit or refute the allegation and to offer any explanations.",
+   "anchor": "9 Stage 2 - Formal investigation"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "It is highly likely in a formal investigation that the student(s) will be required to have a formal and structured meeting with the ACO or with the Academic Conduct Panel, at which notes are likely to be taken (usually by a note taker).",
+   "anchor": "9 Stage 2 - Formal investigation"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "ACP meets with the student or otherwise considers the evidence submitted if they cannot attend.",
+   "anchor": "9 Stage 2 - Formal investigation"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "Students have the right to be accompanied in any meeting they may have by any person they choose.",
+   "anchor": "7.3 Supporting the investigation"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Students have the right to request a review of any decision arising from a Stage 2 investigation, but only under specific circumstances.",
+   "anchor": "10 Stage 3 - Review"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Cases of suspected academic misconduct must be escalated to the Student Casework Team within 20 working days of the date of the release of the marks for that assessment (taught) or formal notification of the viva outcome (research)",
+   "anchor": "9 Stage 2 - Formal investigation"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "If the Course Director or Supervisor dismisses the allegation, they should notify the SAS lead and Student Casework Team, who will both keep a record.",
+   "anchor": "5.6 Reporting alleged academic misconduct"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Students will also be given feedback on how to avoid poor academic practice in future work and, in cases of plagiarism, be required to complete an on-line learning module.",
+   "anchor": "Appendix C"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "In the case of a first offence: a) written warning or b) a mark of zero, with examination/assignment re-sit opportunity, capped at 50% (40% for UG students) or",
+   "anchor": "Appendix A"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "In the case of a first offence: a) written warning or b) a mark of zero, with examination/assignment re-sit opportunity, capped at 50% (40% for UG students) or",
+   "anchor": "Appendix A"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "For taught course students, this is likely to be a reduced or zero mark for the work in question",
+   "anchor": "4.3"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "where the offence was deemed severe enough to warrant more than a warning, they should be given zero for that assessment.",
+   "anchor": "Appendix A"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "They may only be given an opportunity to re-sit or to revise and represent an assessment (in whole or in part) providing that the assessment in question is that student’s first attempt (or considered as their first attempt) at that assessment",
+   "anchor": "Appendix A"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "a recommendation of termination of registration on the grounds of lack of due diligence in their studies",
+   "anchor": "Appendix A"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "and/or may be instructed to grant only a lower award, not a student’s intended award.",
+   "anchor": "5.5"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Unless otherwise stated below a student will be considered to have committed a second offence of academic misconduct having previously been found guilty of a first offence, regardless of the categories of either offence, and shall be penalised accordingly.",
+   "anchor": "Appendix A"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The proportion of the assessed work which has been affected by plagiarism and/or collusion categorises the appropriate penalty, not the Overall Similarity Index score.",
+   "anchor": "Appendix A"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Academic Misconduct detected post-award",
+   "anchor": "Appendix B"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "“Academic misconduct” is defined by the University as an attempt by a student to gain an unfair advantage over others in the assessment associated with a programme of study"
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the use, without acknowledgement, of the intellectual work of other people, and the act of representing the ideas or discoveries of others as your own in submitted assessments and publications."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism or duplication is the submission, in whole or in part, of your own work that has previously been submitted for a different assignment or research project (either at Cranfield or elsewhere) or published."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating involves ‘contracting’ (through payment or other means) somebody else to complete an assessment (in full or in part) on your behalf, or obtaining and submitting an assessment as if it were your own."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion occurs where students work with someone else to complete assessed work which should be completed wholly independently."
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor Academic Practice may occur where a student demonstrates a lack of understanding of academic practice and where the offence is unintentional. It is not considered to be academic misconduct."
+  }
+ ]
+}

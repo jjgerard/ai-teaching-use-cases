@@ -1,0 +1,39 @@
+{
+ "doc_id": "huddersfield-d2-misconduct-procedure-202610",
+ "coder": "y-y6",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Fabrication. AI tools may generate artificial data that you later rely on to complete your assessment.",
+   "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It is your responsibility to ensure that any work you have presented or submitted for credit is your own, this applies whether the work has been produced by human or software.",
+   "anchor": "10.1 Regulation introduction"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "we provide a training module that you are required to complete successfully in the early stages of your studies.",
+   "anchor": "10.1 Regulation introduction"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "We strongly recommend that you use our services and read the guidance carefully because academic misconduct is a serious matter.",
+   "anchor": "10.1 Regulation introduction"
+  }
+ ]
+}

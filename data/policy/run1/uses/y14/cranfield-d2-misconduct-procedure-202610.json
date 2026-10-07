@@ -1,0 +1,134 @@
+{
+ "doc_id": "cranfield-d2-misconduct-procedure-202610",
+ "coder": "y-y14",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "The attributed use of AI generated or modified text by students in pieces of assessed work is permissible in principle; however, all use of AI tools must be fully acknowledged by students.",
+   "anchor": "2.10 The use of AI-generated content"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "The attributed use of AI generated or modified text by students in pieces of assessed work is permissible in principle; however, all use of AI tools must be fully acknowledged by students.",
+   "anchor": "2.10 The use of AI-generated content"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Students must state what the tools have been used for and reference any AI-generated content used in their submitted work.",
+   "anchor": "2.10 The use of AI-generated content"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "all use of AI tools must be fully acknowledged by students.",
+   "anchor": "2.10 The use of AI-generated content"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Students should also acknowledge where they have made use of translation and standard grammar-checking tools.",
+   "anchor": "2.10 The use of AI-generated content"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Students should also acknowledge where they have made use of translation and standard grammar-checking tools.",
+   "anchor": "2.10 The use of AI-generated content"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This may also include where work submitted for assessment has been completed (in full or in part) by generative AI Techniques or similar.",
+   "anchor": "2.7 Using another person to produce or complete an assessment",
+   "tier": "Contract cheating"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "In addition, the use of ‘article spinning’, paraphrasing software, AI-generated content or other online tools to disguise the use of others’ work as your own is considered academic misconduct.",
+   "anchor": "2.7 Using another person to produce or complete an assessment"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It is each student’s responsibility to make themselves aware of the significant risks associated with the excessive and indiscriminate use of AI-generated content.",
+   "anchor": "2.10 The use of AI-generated content"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This includes either changing or manipulating data in order to support a hypothesis, or inventing data (e.g. experimental results, interview questions or answers, survey results), which are then reported as genuine observations or measurements.",
+   "anchor": "2.6 Falsification/Fabrication of experimental or other investigative results"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "all use of AI tools must be fully acknowledged by students."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "Students must state what the tools have been used for and reference any AI-generated content used in their submitted work."
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "Students must state what the tools have been used for and reference any AI-generated content used in their submitted work."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Unacknowledged use of AI-generated content is considered academic misconduct."
+  },
+  "exempt": []
+ }
+}

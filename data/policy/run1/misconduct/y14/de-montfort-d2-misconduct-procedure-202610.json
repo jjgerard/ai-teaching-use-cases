@@ -1,0 +1,265 @@
+{
+ "doc_id": "de-montfort-d2-misconduct-procedure-202610",
+ "coder": "y-y14",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Use an AI tool to improve your use of the English language in your assessment submission without referencing this in line with referencing guidelines",
+   "anchor": "3.4 Contract Cheating and the use of Artificial Intelligence (AI) Generated Content"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "However, the use of AI in assessed pieces of work without prior approval, will constitute intentional academic misconduct where you:",
+   "anchor": "3.4 Contract Cheating and the use of Artificial Intelligence (AI) Generated Content"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Plagiarism is your intentional action to present work, data or concepts (including drafts and work in progress) as your own when it derives from another source (including from Artificial Intelligence which is not declared as agreed in your project brief), and from which you attempt to gain advantage.",
+   "anchor": "3.3 Plagiarism"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": true,
+   "quote": "Creating false references from an AI tool",
+   "anchor": "3.8"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Engaging with AI tools to contribute, or undertake in full, a piece of work to be assessed.",
+   "anchor": "3.4 Contract Cheating and the use of Artificial Intelligence (AI) Generated Content"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Paraphrasing work obtained from a published source and passing this off as your own.",
+   "anchor": "3.3 Plagiarism"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Accessing, or attempting to access, any electronic or technological device during an examination that is not permitted by the University",
+   "anchor": "3.6 Cheating in Examination or Test Conditions"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": false,
+   "quote": "Uploading any part of the work that will form your assessment to a site, including via social media, and external plagiarism checkers, through which another student/s could gain access.",
+   "anchor": "3.5 Collusion"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Providing another student/s with part or all the material that will form the assessment submission, including any draft work.",
+   "anchor": "3.5 Collusion"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonating another student or allowing another student or any other individual to impersonate you",
+   "anchor": "3.6"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "You are not permitted to use all or part of a piece of work for assessment that you have submitted previously for a different assessment",
+   "anchor": "3.9 Re-using previously assessed material"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "It is an action you take, accidentally or with intent, that has the potential to give you an unfair advantage in your assessment",
+   "anchor": "1. Overview"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "The penalties will be dependent on any prior history of academic misconduct, the nature of the misconduct and the level of intent you showed to gain advantage.",
+   "anchor": "1. Overview"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor academic practice may arise from a lack of understanding of how to produce a piece of work or assessment due to lack of experience or understanding.",
+   "anchor": "3.2 Poor Academic Practice"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "For written work, the University will use on-line tools such as Turnitin to provide staff with a level of information about how you have used external sources.",
+   "anchor": "4. How DMU Identifies Potential Academic Misconduct"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The member of staff will then use that information to assess how matches have occurred and to determine if they have any concerns about potential academic misconduct.",
+   "anchor": "4. How DMU Identifies Potential Academic Misconduct"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "If the academic misconduct allegation questions whether the work you submitted was solely authored by you, you may also be required to attend an oral examination or practical test prior to or as part of the Departmental Academic Misconduct Hearing.",
+   "anchor": "15. Departmental Academic Misconduct Hearing"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "Where the evidence shows that the misconduct is due to your poor academic practice, you will be invited to a meeting to discuss the allegation and to hear your response.",
+   "anchor": "13. Process for addressing poor academic practice"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": true,
+   "quote": "Any form of contract cheating including the unreferenced use of AI in assessment",
+   "anchor": "16. Academic Misconduct Panel"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The Academic Practice Officer will ensure that an appropriate investigation report is completed.",
+   "anchor": "12. Investigation Report"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The Departmental Academic Misconduct Hearing will consider the evidence of alleged academic misconduct and the response you have to the allegation, including any mitigation.",
+   "anchor": "15. Departmental Academic Misconduct Hearing"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The Departmental Academic Misconduct Hearing will be led by the Academic Practice Officer, or in the case of research degree students, by the Faculty Head of Research Students.",
+   "anchor": "15. Departmental Academic Misconduct Hearing"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "Where you choose not to attend, the consideration of your case will go ahead in your absence.",
+   "anchor": "15. Departmental Academic Misconduct Hearing"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "You are entitled to be accompanied to the Departmental Academic Misconduct Hearing meeting by a Student’s Companion.",
+   "anchor": "15. Departmental Academic Misconduct Hearing"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "If you disagree with the outcome or penalty, you may appeal the decision on the following grounds:",
+   "anchor": "15. Departmental Academic Misconduct Hearing"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Within ten university working days of that meeting, the outcome will be confirmed in writing.",
+   "anchor": "15. Departmental Academic Misconduct Hearing"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "Departmental Academic Misconduct Hearings and Academic Misconduct Panel will consider your case on the balance of probability and standard of proof.",
+   "anchor": "14. Process for addressing alleged academic misconduct"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Your academic profile will be updated with the outcome of the Academic Misconduct Panel.",
+   "anchor": "16. Academic Misconduct Panel"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Any additional work that you need to undertake or support that is required to help you to avoid poor practice in subsequent assessments",
+   "anchor": "13. Process for addressing poor academic practice"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "For taught programmes, the mark penalty that may be applied to the assessment in which the poor practice was identified",
+   "anchor": "13. Process for addressing poor academic practice"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Penalties given, if an allegation of academic misconduct is upheld, range from the requirement to engage in extra learning support through to expulsion from the University.",
+   "anchor": "1. Overview"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "The penalties will be dependent on any prior history of academic misconduct, the nature of the misconduct and the level of intent you showed to gain advantage.",
+   "anchor": "1. Overview"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The penalty awarded from a Departmental Academic Misconduct Hearing will take account of the nature and scale of the academic misconduct, your response to the findings and any mitigating circumstances that are relevant to the case.",
+   "anchor": "15. Departmental Academic Misconduct Hearing"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Under the General Regulations, the University can revoke the award of a degree where a case of serious misconduct is upheld.",
+   "anchor": "9. Misconduct identified after graduation"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "a penalty may also result in a referral to the relevant Professional Statutory Regulatory Body (PSRB) which may prevent you from practice in that profession.",
+   "anchor": "1. Overview"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": true,
+   "quote": "This policy sets out broad definitions of academic misconduct, including those relating to the use of Artificial Intelligence"
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice is, typically, inappropriate use of a referencing system and unintentionally passing off work as your own at a minor scale."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": true,
+   "quote": "Plagiarism is your intentional action to present work, data or concepts (including drafts and work in progress) as your own when it derives from another source (including from Artificial Intelligence which is not declared as agreed in your project brief), and from which you attempt to gain advantage."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": true,
+   "quote": "Contract cheating is your intentional action to engage with a third party (for example AI) to undertake some or all your assessment for you which you then submit and pass off as your own and attempt to gain advantage."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion is an intentional action whereby the assessment task requires you to submit your own work, but where you and another student/s liaise to inform one or both submissions."
+  },
+  {
+   "term": "Cheating in examination",
+   "ai_named": false,
+   "quote": "Cheating in examination or test conditions is your intentional attempt to gain advantage, for you and/or for another student/s"
+  },
+  {
+   "term": "Fabrication or falsification",
+   "ai_named": false,
+   "quote": "Falsification or fabrication of information means that you have intentionally used information within your assessment that is not real."
+  }
+ ]
+}

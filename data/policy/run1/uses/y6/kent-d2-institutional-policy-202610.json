@@ -1,0 +1,30 @@
+{
+ "doc_id": "kent-d2-institutional-policy-202610",
+ "coder": "y-y6",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Do not submit AI-generated work as your own",
+   "anchor": "Practical tips for using AI the right way"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "Always check your assignment brief, relevant policy, or local guidance, and speak to your Module Convenor or line manager if you are unsure."
+ },
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "use of AI in assessment will be set out in assessment briefs for each module"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Follow guidance provided by your module convenor"
+  }
+ ],
+ "acknowledgement": null
+}
