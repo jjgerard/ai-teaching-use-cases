@@ -1,0 +1,21 @@
+[
+ {"name":"The Ohio State University at Lima","outcome":"found",
+  "doc":{"url":"https://ai.osu.edu/resources-buckeyes/responsible-use","title":"Responsible Use | Artificial Intelligence at Ohio State","kind":"guide","format":"html","language":"en","date_as_shown":"(c) 2026, no publication date","retrieved_here":true,"http":200,"mentions_ai":true},
+  "rejected":[{"url":"https://teaching.resources.osu.edu/teaching-topics/ai-considerations-teaching-learning","why":"instructor-facing"}],
+  "other_pages":[],
+  "note":"Lima is a regional campus of Ohio State; page is the university-wide student/instructor guide on ai.osu.edu, not a lima.osu.edu page. No Lima-specific page found.",
+  "queries":["generative AI students guidance academic integrity (osu.edu, lima.osu.edu)"]},
+ {"name":"The University of Texas at Arlington","outcome":"not_found",
+  "rejected":[{"url":"https://ai.uta.edu/guidelines/","why":"employee-facing"},{"url":"https://ai.uta.edu/uta-advice-on-generative-ai/","why":"employee-facing (security/legal advisory)"},{"url":"https://ai.uta.edu/quick-start/","why":"faculty syllabus guidance"},{"url":"https://catalog.uta.edu/academicregulations/dishonesty/","why":"no AI mention"},{"url":"https://www.uta.edu/student-affairs/community-standards/students","why":"no AI mention"}],
+  "other_pages":[{"url":"https://ai.uta.edu/generative-ai-guidelines-for-instruction/","title":"Generative AI Guidelines for Instruction","audience":"staff"},{"url":"https://resources.uta.edu/research/policies-and-procedures/generative-artificial-intelligence.php","title":"Use of Generative Artificial Intelligence","audience":"staff"}],
+  "queries":["generative AI students guidance academic integrity (uta.edu)","UTA students use of AI tools academic integrity policy (uta.edu, libguides.uta.edu)","UTA Libraries students generative AI citing disclosure guide (uta.edu)","Community Standards scholastic dishonesty generative AI students (uta.edu)"]},
+ {"name":"University of Arkansas Community College at Batesville","outcome":"not_found",
+  "rejected":[{"url":"https://uaccb.edu/student-handbook","why":"no AI mention"},{"url":"https://www.uaccb.edu/images/uploads/20251118/uaccb-catalog-2024-2025-44478.pdf","why":"no AI mention"},{"url":"https://www.uaccb.edu/catalog/","why":"no AI mention"}],
+  "other_pages":[],
+  "queries":["artificial intelligence students policy academic honesty (uaccb.edu)","UACCB ChatGPT AI academic dishonesty student handbook (uaccb.edu)","generative AI students (uaccb.edu)","AI tools in the classroom library guide (uaccb.edu, uaccb.libguides.com)","artificial intelligence (uaccb.edu)"]},
+ {"name":"St. John's University","outcome":"found",
+  "doc":{"url":"https://www.stjohns.edu/academics/artificial-intelligence-ai-st-johns-university/academic-guidelines-and-resources","title":"St. John's University AI Policies and Guidelines for Academic and Administrative Use","kind":"guide","format":"html","language":"en","date_as_shown":"Updated August 2025","retrieved_here":true,"http":200,"mentions_ai":true},
+  "rejected":[{"url":"https://www.stjohns.edu/files/august-2023-generative-ai-guidelines","why":"faculty guidance"}],
+  "other_pages":[{"url":"https://www.stjohns.edu/sites/default/files/2025-08/ai_guidelines_0.pdf","title":"St. John's University Guidelines on the Use of Artificial Intelligence","audience":"students"}],
+  "queries":["generative AI students guidance academic integrity (stjohns.edu)","St. John's University students AI use academic integrity (stjohns.edu, guides.library.stjohns.edu)"]}
+]

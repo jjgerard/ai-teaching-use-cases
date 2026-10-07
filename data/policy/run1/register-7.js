@@ -1,7 +1,7 @@
 // Registers archive7 (England second documents and international draw 2) in documents.json / institutions.json and kinds.json. Run from repo root.
 const fs = require("fs"); const P = "data/policy/", R = P + "run1/";
 const docs = JSON.parse(fs.readFileSync(P + "documents.json")), insts = JSON.parse(fs.readFileSync(P + "institutions.json"));
-const man = JSON.parse(fs.readFileSync(R + "archive7/manifest.json")), tg = Object.fromEntries(JSON.parse(fs.readFileSync(R + "archive7/targets.json")).map((t) => [t.doc_id, t]));
+const A = process.argv[2] || "archive7"; const man = JSON.parse(fs.readFileSync(R + A + "/manifest.json")), tg = Object.fromEntries(JSON.parse(fs.readFileSync(R + A + "/targets.json")).map((t) => [t.doc_id, t]));
 const sample = Object.fromEntries(JSON.parse(fs.readFileSync(R + "intl2/sample.json")).map((s) => [s.doc_id, s]));
 const first = Object.fromEntries(docs.map((d) => [d.doc_id, d])); const have = new Set(docs.map((d) => d.doc_id));
 const kindsFile = R + "archive3/kinds.json"; const kinds = JSON.parse(fs.readFileSync(kindsFile)); let n = 0, ni = 0;
@@ -19,6 +19,6 @@ for (const m of man) {
     if (!insts.find((i) => i.institution_id === inst)) { insts.push({ institution_id: inst, name: s.name, country: s.country, region: s.country_name, sector: "university" }); ni++; }
     docs.push({ doc_id: m.doc_id, institution_id: inst, url_id: inst + "-students-genai", ...common });
   }
-  fs.copyFileSync(R + "archive7/snapshots/" + m.doc_id + ".txt", P + "snapshots/" + m.doc_id + ".txt"); n++;
+  fs.copyFileSync(R + A + "/snapshots/" + m.doc_id + ".txt", P + "snapshots/" + m.doc_id + ".txt"); n++;
 }
 fs.writeFileSync(P + "documents.json", JSON.stringify(docs, null, 1) + "\n"); fs.writeFileSync(P + "institutions.json", JSON.stringify(insts, null, 1) + "\n"); fs.writeFileSync(kindsFile, JSON.stringify(kinds, null, 1)); console.log("registered", n, "new institutions", ni);

@@ -1,0 +1,370 @@
+-
+Home
+
+-
+Research Guides
+
+-
+Artificial Intelligence (AI) for Undergraduate Students
+
+Artificial Intelligence (AI) for Undergraduate Students Guide
+Ask Us
+
+- Related Guides:
+Academic Integrity
+&bull; Artificial Intelligence (AI) for Graduate Students and Researchers
+
+Guide Sections
+
+Guide Introduction
+
+Switch section
+
+-
+
+Guide Introduction
+
+-
+
+Ethics of AI Use
+
+-
+
+Common Problems
+
+-
+
+AI in the Classroom
+
+-
+
+AI Tools
+
+-
+
+Prompt Writing
+
+Guide Introduction
+
+Purpose of this Guide
+
+This guide is intended for undergraduate students to help support their decision-making around and application of AI tools. This guide covers basic definitions important to understand, some of the ethical considerations of utilizing AI, common issues that can occur when using AI tools, best practices for students, and a selected list of AI tools.
+
+These sections are separated into tabs based on their topics, so navigate to the section(s) that interests you. This guide doesn't have to be read in its entirety, or in chronological order.
+
+Introduction to AI
+
+Definitions
+
+It is important to be specific when discussing AI, as this term is very generalized and can refer to many things. A typical Google Search utilizes AI to rank your results and give you suggested additional searches. ChatGPT also utilizes AI to generate entirely new content. Therefore, it's helpful to build an understanding of the key terms to help differentiate between Chatbots, Recommendation Systems, and Retrieval-Augmented Generation.
+
+Artificial Intelligence (AI): Technology that enables computers and machines to simulate human intelligence and problem-solving capabilities
+
+Machine Learning: A subset of AI that focuses on teaching machines to learn from data without being explicitly programmed. It uses algorithms that identify patterns and make predictions or decisions based on data.
+
+Deep Learning: A subset of machine learning that uses neural networks with many layers (hence “deep”) to analyze data and recognize complex patterns.
+
+Generative Artificial Intelligence (GenAI): AI that utilizes deep learning and training data to generate original, statistically probable outputs based on prompts
+
+Chatbot: A computer program that simulates human conversation with a user. Chatbots do not always use AI, but applications like ChatGPT use natural language processing (NLP) to interpret complex queries and make interactions more conversational
+
+- For Example:
+
+- Many icons that pop-up to provide customer service on websites are chatbots. Note that this is not always true, for instance, in the Library Ask Us portal, you're talking to a real person!
+
+Recommendation System: A recommendation system is an artificial intelligence or AI algorithm, usually associated with machine learning, that uses Big Data to suggest or recommend additional products to consumers
+
+- For Example:
+
+- Streaming Services' recommended TV shows and movies
+
+- Online Retailers' recommended products
+
+Retrieval-Augmented Generation: is a technique for enhancing the accuracy and reliability of generative AI models by combining the capabilities of LLMs and information fetched from specific and relevant data sources
+
+- For Example: Tools that include search results in their generated answers
+
+- Perplexity
+
+- Consensus
+
+Ethics of AI Use
+
+While AI tools can make our lives better, there are ethical implications of using these tools. These tools require enormous datasets to be trained (which can contain real life biases), and a large amount of energy and water to operate. There are also key issues around data privacy and copyright that are emerging in the field.
+
+Before you utilize AI, weigh the pros and cons. Consider whether the task at hand could be negatively impacted by a bias in information, and whether you're comfortable with your inputs being kept by the tool (this is particularly relevant in many workplaces, where you cannot input company information into AI tools).
+
+In this changing landscape, it is essential to utilize your critical thinking skills to make informed decisions about utilizing AI - not just in academia, but in the other areas of your life.
+
+Bias:
+
+The training data used to help AI 'learn' can, and often does, contain biases about women, racialized people, and other marginalized groups. Therefore it is critical to remember that AI is capable of perpetuating harmful biases or stereotypes.
+
+- 13 principles for using AI responsibly
+
+- 3 Types of Bias in AI
+
+- Research shows AI is often biased. Here's how to make algorithms work for all of us.
+
+Copyright:
+
+The intersection of copyright and Generative AI (GenAI) is an evolving field. Copyright considerations may arise when inputting (training) materials for GenAI, creating prompts, or sharing the output. Submitting copyrighted materials as prompts into GenAI applications may infringe upon the rights of the copyright holder or violate the terms of use. Additionally, the output from GenAI may lack originality, and combine both human and non-human creativity. Copyright laws in Canada are not clear on whether such works can be protected. The United States Intellectual Property Office does not consider works produced by GenAI protectable. For support in considering the copyright implications of GenAI, contact Catherine Gracey, the UNB Libraries Copyright Librarian, at catherine.gracey@unb.ca or copyright@unb.ca
+
+Environmental Concerns:
+
+AI is detrimental to the environment in a number of ways. While we might think of AI as just existing in the cloud, it does require physical data centres to operate. These data centres require an enormous amount of raw materials (including rare earth elements) to build, and electronic waste is produced in the process of building and running these centres. Additionally, to keep electrical components from overheating, a great deal of water is required.
+
+Each query therefore requires electricity and water to answer, and at levels far higher than a Google search. Before utilizing AI, consider whether your question could be answered with the help of a search engine.
+
+- How much water does AI consume? The public deserves to know
+
+- AI has an environmental problem. Here's what the world can do about that.
+
+- The green dilemma: can AI fulfil its potential without harming the environment?
+
+- As use of AI soars, so does the energy and water it requires
+
+- AI already uses as much energy as a small country. It's only the beginning.
+
+- Editorial: Generative AI is an energy hog and that could hurt progress fighting climate change
+
+Privacy:
+
+The inputs you feed into AI applications may be used for training data, or other purposes, ensure you read the terms of service, and are careful about inputting sensitive information. Companies may also be tracking your activity across different platforms, or your physical location, if you haven't explicitly opted out.
+
+- Privacy in an AI Era: How Do We Protect Our Personal Information?
+
+- Generative Artificial Intelligence and Data Privacy: A Primer
+
+- 45th closed session of the Global Privacy Assembly: Resolution on Generative Artificial Intelligence systems
+
+- Principles for responsible, trustworthy and privacy-protective generative AI technologies
+
+- The Impact of Artificial Intelligence on Data Protection and Privacy Brief
+
+Common Problems
+
+Hallucinations
+
+GenAI texts can put together highly sophisticated sentences, and convincingly make arguments - however, it is important to remember these tools are not immune from mistakes. Hallucinations refer to instances when AI outputs contain nonsensical or incorrect information, due to issues with training data, or the model itself. Therefore, it is always key to verify information, and use your critical thinking skills to examine AI outputs.
+
+Best Practices:
+
+- Select the right tool for your query. If you're looking for reliable research, it's important to select a tool with RAG capabilities (like Scopus AI or Web of Science Research Assistant), see more under the AI Tools tab), so that it is searching for sources rather than just using training data to generate an answer.
+
+- Fact check outputs. It is essential to validate information you've been given using reputable resources. Check any links you've been provided, and evaluate them using the SIFT Method or CRAAP Test.
+
+- Don't entirely rely on AI Research tools. As noted in the Ethics of AI Use tab, training data can be biased. You are more likely to get a comprehensive, balanced understanding if you use multiple tools for searching, including academic databases
+
+Tortured Phrases
+
+Tortured phrases are phrases that are incorrectly used in lieu of well-established ones. These can occur in Generative AI as the tool tries to predict which word should come next and does so incorrectly. They can also occur with AI editing tools when they suggest a synonym to prevent overusing a word. The below table highlights examples of how tortured phrases can look.
+
+Tortured Phrase
+Expected Phrase
+
+Warmth exchange
+Heat transfer
+
+Herbal language
+Natural Language
+
+Country of the artwork
+State of the art
+
+Gadget studying
+Machine learning
+
+Lactose bigotry
+Lactose intolerance
+
+Bosom malignancy
+Breast cancer
+
+Kidney disappointment
+Kidney failure
+
+Invulnerable framework
+Immune system
+
+While these literal translations may be correct, they differ from established phrases and can take on a different meaning entirely. Therefore, the inclusion of tortured phrases can make your writing less clear and effective.
+
+Best Practices:
+
+- Avoid relying on AI to write for you. While it might help you formulate some sentences, it will likely also produce unnatural phrases. Do not outsource your writing entirely to Generative AI.
+
+- Proof read your writing if you do use Generative AI. Validate any phrases that sound off to you, by quickly googling them to see if they are established phrases.
+
+- If you use an AI editing tool like Grammarly, review each suggested edit individually (don't batch accept edits). Individually review each edit, and reject edits that suggest swapping in synonyms in established phrases.
+
+AI in the Classroom
+
+Before You Start
+
+Navigating when to use AI can be confusing, as you must juggle considerations of academic integrity, reliability of outputs, and the copyright/intellectual property of materials. This section of the guide is aimed to support you in making informed choices about using AI technology for educational purposes. Before utilizing AI for academic purposes, consider the following questions:
+
+- Does my instructor have a policy on AI?
+
+- Have they specified how they would like me to acknowledge use (through a form, citation, or other method?)
+
+- Which aspect of my assignment or study plan could AI support? When would it not be appropriate?
+
+- What kind of output am I looking for? Based on this, which type of tool should I use?
+
+- Which AI tools are available to me, either as free tools, or through UNB subscriptions? See AI Tools Tab
+
+- Where can I go for help, if I have trouble navigating the tool, or if I'd like to verify information in an output?
+
+Academic Integrity
+
+Unless explicitly stated in assignment instructions, it is important that works you turn in for academic credit are original works. Review the Academic Integrity Guide tab on Generative Artificial Intelligence (AI) for support in navigating whether to utilize GenAI for assignments. If you're ever in doubt about whether your use of a tool is appropriate, connect with your course instructor. When you do use AI, cite it in the appropriate style or follow your instructor's procedures for acknowledgement.
+
+Citing AI
+
+When you use AI to support an academic assignment, it is important to properly acknowledge its use. Refer to your course syllabus to determine which citation style is appropriate. Then review the UNB Library Research Guide tab on Citing Generative AI.
+
+AI Tools
+
+There is an ever expanding number of AI tools available for use. This guide is intended to support students in deciding whether to engage with tools and selecting the appropriate tool for each task, but this is not an endorsement for any single application. Individuals should use their own discretion and ensure they critically evaluate the outputs of each of these tools to ensure that they are accurate.
+
+UNB Libraries Subscribed Tools
+
+UNB Libraries provides access to a number of AI driven research tools. As opposed to more generalized AI tools like ChatGPT or Microsoft Copilot, these are tools specifically tailored to academic research. The below descriptions and videos outline how to access and use these tools.
+
+Scopus AI
+
+See the Elsevier Guide to Scopus AI for further details.
+
+Web of Science AI
+
+JSTOR AI
+
+Consensus AI
+
+Additional Tools
+
+AI-driven Research Tools
+
+Tool
+Description
+Sources
+
+Undermind
+Research assistant that claims to emulate a human's systematic discovery process by adaptively reading hundreds of papers. Provides clear explanations and summaries.
+Semantic Scholar
+
+Elicit
+Search and literature review tool that locates, summaries and extracts data from journal articles. It helps brainstorm research questions and organizes key information from articles like methodologies, outcomes, findings and limitations into tables.
+Semantic Scholar
+
+Open Knowledge Maps
+Creates a visual interface to access scientific research, the base of which consists of knowledge maps, with the goal of developing an overview and identifying concepts relevant to the topic.
+BASE, PubMed and OpenAIRE
+
+STORM
+This tool applies LLM to compile organized, hierarchical, Wikipedia-like articles based on an initial query. This is an ongoing research project out of Stanford, so users must consent to being research participants before utilizing.
+Bing
+
+Text Generation Tools
+
+Tool
+Description
+
+ChatGPT
+Designed to generate human-like text responses for a wide range of tasks, including answering questions, drafting content and engaging in conversations. It leverages deep learning to understand and return contextually relevant replies.
+
+Google Notebook LM
+Helps you organize and interact with your documents. It collates your documents, slides, videos, URLs into virtual notebooks. It generates summaries and prompt questions about your content. The Audio Overview feature synthesizes your content into podcasts.
+
+Transcription Tools
+
+Tool
+Description
+
+Otter
+Transcribes audio files, records and meeting audio, and can summarize these transcriptions. This tool integrates with Zoom, Google Meet, and Teams.
+
+Transkribus
+Transcribes handwritten documents with impressive accuracy.
+
+Fathom Video
+This add-on for Zoom, Teams and Google Meet transcribes, records and summarizes meetings.
+
+Prompt Writing
+
+Prompt Writing
+
+An important skill to ensure you get the most relevant possible outputs is phrasing your query or prompt in a clear manner. Prompt writing is often referred to as 'prompt engineering' and it involves putting together a question or command that clearly outlines what you are looking for, and details about the request. Clearer prompts typically result in clearer outputs, so prompt writing is a key skill to practice.
+
+Leo S. Lo, a Librarian at the University of New Mexico developed the CLEAR path, which is a framework for developing effective prompts for use in generative AI interactions (2023).
+
+Concise
+
+- Unlike humans, GenAI can't always identify the key or important aspects of requests (see the video on the introduction page for an example)
+
+- Therefore, when your prompts are overly wordy or complicated, it is possible that the model you're using may misunderstand or misinterpret what you are looking for.
+
+- For instance, what issues do you see with the prompt: "Could you please put together a blurb on what a student union does and why we should support them"
+
+- Could you please is good manners, but unnecessary here
+
+- What do you mean by blurb? How long is a blurb?
+
+- Who is we? What do you mean by support?
+
+- An alternative: "Write a paragraph on the functions and importance of student unions
+
+Logical
+
+- Again, remember that GenAI can't necessarily sort through your question and identify where to start, so laying out the beginning and the end of the process could result in a stronger output
+
+- Explain how tasks are related or the progression from one to the next
+
+- For instance: "Review my list of assignments and deadlines, and using that information generate a schedule for completing these assignments"
+
+Explicit
+
+- You want to aim to be as specific as possible to ensure you get the desired output, oftentimes, without explicit instructions otherwise, ChatGPT will output your information in bullet points, or a list
+
+- If you're looking for paragraphs, or a table, make sure you state that clearly
+
+- While another person might surmise what you mean by "What should I know about operating a power tool," a more helpful way of phrasing the prompt for the sake of GenAI might be "List the steps and safety measures a person should take when using a sander"
+
+Adaptive
+
+- It's okay not to get it right on the first try, if at first you don't succeed, try try again!
+
+- You can provide additional prompts, or clarify earlier prompts if the output is not what you first asked for, think of prompt writing as a refining process, rather than a single attempt
+
+- When I asked ChatGPT to make me a schedule, it generated a numbered list with times listed next to the numbers.
+
+- I found this visually confusing, as the specific times imply the order, making the numbered list unnecessary. Therefore, I rephrased to ask for the information to be in a table format, which I found to be more clear
+
+Reflective
+
+- Finally, it is important to reflect on the information you're getting back, if it met your needs, and if your prompt writing strategies worked
+
+- GenAI is constantly evolving, so it's possible that approaches that were previously effective at generating the outputs you needed, won't be as effective anymore
+
+Lo, L. S. (2023). The CLEAR path: A framework for enhancing information literacy through prompt engineering. The Journal of Academic Librarianship, 49(4). https://doi.org/10.1016/j.acalib.2023.102720
+
+More Information
+
+-
+
+-
+Catherine Gracey
+
+- UNB Fredericton
+
+- catherine.gracey@unb.ca
+
+- Book a Meeting
+
+Subject Specialties:
+Computer Science, Entrepreneurship
+
+Last modified on February 3, 2026 10:56
+
+Share
+Share
