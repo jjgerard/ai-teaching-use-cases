@@ -1,0 +1,113 @@
+[
+ {
+  "name": "East Central University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.ecok.edu/policies-and-handbooks/Academic%20Integrity%20Policy%20Revised%20052024.pdf",
+   "title": "East Central University Academic Integrity Policy",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "language": "en",
+   "date_as_shown": "Revised 5/2024",
+   "retrieved_here": false,
+   "http": 404,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.ecok.edu/catalog/2526/2526_UniversityInformation/2526_Policies.php",
+    "why": "first 100k chars had no AI mention"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "East Central University generative AI students policy (allowed_domains ecok.edu)"
+  ],
+  "note": "Search snippet quotes AI cheating clauses, but WebFetch returned 404 for the PDF; fallback kind (academic integrity)."
+ },
+ {
+  "name": "Misericordia University",
+  "outcome": "not_found",
+  "doc": null,
+  "rejected": [
+   {
+    "url": "https://www.misericordia.edu/artificial-intelligence",
+    "why": "BS in AI program page, no student AI-use policy"
+   },
+   {
+    "url": "https://www.misericordia.edu/studenthandbook",
+    "why": "no AI mention; links 2026-2027 PDF on resources.finalsite.net, not fetched (URL not given in full)"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "Misericordia University generative AI students academic integrity",
+   "Misericordia student handbook artificial intelligence ChatGPT academic dishonesty policy",
+   "Misericordia library guide AI tools students citing generative AI",
+   "Misericordia University AI use policy syllabus statement students guidelines"
+  ]
+ },
+ {
+  "name": "University of Georgia",
+  "outcome": "found",
+  "doc": {
+   "url": "https://aihub.uga.edu/",
+   "title": "AI @ UGA (AI Leadership Council hub)",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "ongoing (2026 news)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://ctl.uga.edu/teaching-resources/generative-ai-teaching/academic-honesty-and-generative-ai/",
+    "title": "Academic Honesty & Generative AI",
+    "audience": "staff"
+   },
+   {
+    "url": "https://ctl.uga.edu/teaching-resources/generative-ai-teaching/generative-ai-policies-for-teaching-and-learning/",
+    "title": "Generative AI Policies for Teaching & Learning",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "University of Georgia generative AI students guidance (allowed_domains uga.edu)"
+  ],
+  "note": "Hub has a student 'Learn with AI' section (when to use, how to cite); a deeper student page may exist."
+ },
+ {
+  "name": "Alfred University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libraries.alfred.edu/c.php?g=1480968&p=11036931",
+   "title": "Ethics of AI - Artificial Intelligence (AI) Literacy - Libraries at Alfred University",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last Updated Sep 23, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://my.alfred.edu/teaching-learning-center/_docs/ai-task-force-final-report-082025.pdf",
+    "title": "AI Task Force Final Report",
+    "audience": "staff"
+   },
+   {
+    "url": "https://my.alfred.edu/student-policies/student-code-of-honor.cfm",
+    "title": "Student Code of Conduct",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "Alfred University generative AI students academic integrity (allowed_domains alfred.edu)"
+  ]
+ }
+]

@@ -1,0 +1,103 @@
+[
+ {
+  "name": "Université Sainte-Anne",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.usainteanne.ca/bibliotheque/plagiat",
+   "title": "Le plagiat : si aisé, mais si risqué",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "fr",
+   "date_as_shown": "September 2023 (info sheet referenced)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [],
+  "queries": [
+   "intelligence artificielle générative étudiants",
+   "Université Sainte-Anne intelligence artificielle étudiants fraude plagiat politique"
+  ]
+ },
+ {
+  "name": "NSCAD University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.nscad.ca/AI",
+   "title": "Generative Artificial Intelligence (AI) Launchpad",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last updated July 8, 2025",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://navigator.nscad.ca/wordpress/home/academicsadministration/university-policies/",
+    "title": "University Policies",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students academic integrity",
+   "NSCAD University artificial intelligence students policy"
+  ]
+ },
+ {
+  "name": "Brandon University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.brandonu.ca/senate-office/files/2025/08/Academic-Integrity-Policy-20241217.pdf",
+   "title": "Academic Integrity Policy (includes s.4.2 Statement on AI)",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "language": "en",
+   "date_as_shown": "Dec 17 2024 (from filename)",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.brandonu.ca/english/acceptable-ai-use/",
+    "title": "Acceptable AI use (English dept)",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students academic integrity",
+   "Brandon University artificial intelligence students guidance"
+  ]
+ },
+ {
+  "name": "Université du Québec à Montréal",
+  "outcome": "found",
+  "doc": {
+   "url": "https://collimateur.uqam.ca/collimateur/5-principes-pour-orienter-les-usages-de-lia-generative-a-luqam/",
+   "title": "5 principes pour orienter les usages de l'IA générative à l'UQAM",
+   "kind": "guide",
+   "format": "html",
+   "language": "fr",
+   "date_as_shown": "April 15, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://enseigner.uqam.ca/ia/conseils-ressources/",
+    "why": "instructors/grad students audience"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "intelligence artificielle générative étudiants",
+   "UQAM intelligence artificielle générative étudiants guide plagiat"
+  ]
+ }
+]

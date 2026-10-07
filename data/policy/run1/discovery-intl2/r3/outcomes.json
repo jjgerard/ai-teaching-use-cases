@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Northern Arizona University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://in.nau.edu/provost/academic-operations/resources-policies/artificial-intelligence/students/",
+   "title": "Artificial Intelligence Resources for Students",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "April 2024",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://in.nau.edu/provost/academic-operations/resources-policies/artificial-intelligence/faculty/",
+    "why": "faculty only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://libraryguides.nau.edu/c.php?g=1420191&p=10528493",
+    "title": "AI Detection Tools - AI Literacy",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students policy"
+  ]
+ },
+ {
+  "name": "University of Maryland Center for Environmental Science",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://www.umces.edu/policies-and-procedures",
+    "why": "fetched; no AI policy listed"
+   },
+   {
+    "url": "https://www.umces.edu/sites/default/files/Full%20Handbook_17Aug2022.pdf",
+    "why": "2022 handbook; search showed no AI content, not fetched"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "generative AI students academic integrity",
+   "UMCES AI use policy students",
+   "artificial intelligence generative AI use",
+   "UMCES graduate student handbook artificial intelligence"
+  ],
+  "note": "Degree programs run via partner USM universities; searches returned only unrelated results."
+ },
+ {
+  "name": "University of North Carolina at Pembroke",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.uncp.edu/AI",
+   "title": "AI Guidelines for Students",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last Updated April 15, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [],
+  "queries": [
+   "generative AI students guidance"
+  ]
+ },
+ {
+  "name": "International University of Professional Studies",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://www.iups.edu/writing-resources",
+    "why": "fetched; no AI mention"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "artificial intelligence students policy",
+   "academic integrity plagiarism ChatGPT AI",
+   "IUPS dissertation generative AI tools use"
+  ],
+  "note": "Only 3 IUPS-domain queries run plus none further; fewer than four distinct domain queries (the second search of 'academic integrity plagiarism ChatGPT AI' also ran an unfiltered search internally). Treat as weak not_found."
+ }
+]
