@@ -1,0 +1,65 @@
+{
+ "doc_id": "warwick-d2-guide-202610",
+ "coder": "y-y10",
+ "tools": [
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "prohibited",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "You are not permitted to use live translation or live transcription software that translates the seminar discussion or lecture as it happens.",
+   "anchor": "Permitted and prohibited uses of GenAI and other AI tools in the classroom"
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "meets_security_policy"
+   ],
+   "ai_named": false,
+   "quote": "you are allowed to use a translation tool that does not involve voice recording or voice capture other than your own to help you formulate your response during the seminar if you are unsure about the right wording.",
+   "anchor": "Permitted and prohibited uses of GenAI and other AI tools in the classroom"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Using such software involves the recording or capture of voices and transfer of voice data outside the University. This is not compatible with University policies and may also contravene data protection laws.",
+   "anchor": "Permitted and prohibited uses of GenAI and other AI tools in the classroom"
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Be mindful that uploading material protected by copyright can infringe copyright rules.",
+   "anchor": "Permitted and prohibited uses of GenAI – Guidance to Students"
+  }
+ ],
+ "safeguards": [],
+ "legal": [
+  {
+   "value": "data_protection",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "may also contravene data protection laws.",
+   "anchor": "Permitted and prohibited uses of GenAI and other AI tools in the classroom"
+  },
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "uploading material protected by copyright can infringe copyright rules.",
+   "anchor": "Permitted and prohibited uses of GenAI – Guidance to Students"
+  }
+ ]
+}

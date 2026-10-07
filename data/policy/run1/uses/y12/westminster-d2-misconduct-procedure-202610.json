@@ -1,0 +1,143 @@
+{
+ "doc_id": "westminster-d2-misconduct-procedure-202610",
+ "coder": "y-y12",
+ "uses": [
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Indeed, it is possible to use ChatGPT to provide advice on grammar and punctuation and it is acceptable to use ChatGPT to provide ideas for how an assignment (essay, report etc) might best be structured.",
+   "anchor": "Plagiarism using Generative AI"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Indeed, it is possible to use ChatGPT to provide advice on grammar and punctuation and it is acceptable to use ChatGPT to provide ideas for how an assignment (essay, report etc) might best be structured.",
+   "anchor": "Plagiarism using Generative AI"
+  },
+  {
+   "use": "get_feedback_on_draft",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using this tool is acceptable to get advice on how the essay could be improved in relation to grammar, spelling, wordiness, style, punctuation and tone.",
+   "anchor": "Plagiarism using Generative AI"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "However, it's not acceptable to submit a poorly written (but original) essay to ChatGPT and request the AI to re-write it in good, academic English.",
+   "anchor": "Plagiarism using Generative AI"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Presenting the output of tools that write for you as your own work is academic misconduct.",
+   "anchor": "Plagiarism using Generative AI"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Quotations from the published or unpublished work of other persons or Artificial Intelligence (AI) technology or other software must always be attributed, both at the appropriate point in the text, and in the bibliography at the end of the piece of work.",
+   "anchor": "Plagiarism using Generative AI"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "If permitted to use in your work, please ensure you are referencing the GenAI used correctly within the body of your work as well as your references list.",
+   "anchor": "Understanding plagiarism - FAQs"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Extensive quotations, close paraphrasing, copying from the work of another person, including another student, or using the ideas of another person, or Artificial intelligence (AI) technology or other software without proper acknowledgement, may constitute plagiarism.",
+   "anchor": "Plagiarism using Generative AI"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "we would advise you to check with your Module Leader, Module Handbook, and the Assessment Brief to check if the use of AI is permissible as this may depend on your assessment."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "we would advise you to check with your Module Leader, Module Handbook, and the Assessment Brief to check if the use of AI is permissible as this may depend on your assessment."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "we would advise you to check with your Module Leader, Module Handbook, and the Assessment Brief to check if the use of AI is permissible as this may depend on your assessment."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Students should include a paragraph at the end of any assignment that used Generative AI in compiling their submission, explaining which Generative AI was used (including the version where relevant/known), what they used the Generative AI for and how they used it to get the results/final submitted draft of their assignment."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "Students should include a paragraph at the end of any assignment that used Generative AI in compiling their submission, explaining which Generative AI was used (including the version where relevant/known), what they used the Generative AI for and how they used it to get the results/final submitted draft of their assignment."
+   },
+   {
+    "value": "tool_version",
+    "quote": "Students should include a paragraph at the end of any assignment that used Generative AI in compiling their submission, explaining which Generative AI was used (including the version where relevant/known), what they used the Generative AI for and how they used it to get the results/final submitted draft of their assignment."
+   },
+   {
+    "value": "how_used",
+    "quote": "Students should include a paragraph at the end of any assignment that used Generative AI in compiling their submission, explaining which Generative AI was used (including the version where relevant/known), what they used the Generative AI for and how they used it to get the results/final submitted draft of their assignment."
+   },
+   {
+    "value": "why_used",
+    "quote": "Students should include a paragraph at the end of any assignment that used Generative AI in compiling their submission, explaining which Generative AI was used (including the version where relevant/known), what they used the Generative AI for and how they used it to get the results/final submitted draft of their assignment."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "Students should include a paragraph at the end of any assignment that used Generative AI in compiling their submission, explaining which Generative AI was used (including the version where relevant/known), what they used the Generative AI for and how they used it to get the results/final submitted draft of their assignment."
+   },
+   {
+    "value": "with_references",
+    "quote": "If permitted to use in your work, please ensure you are referencing the GenAI used correctly within the body of your work as well as your references list."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "If permitted to use in your work, please ensure you are referencing the GenAI used correctly within the body of your work as well as your references list."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Failure to do so is academic misconduct."
+  },
+  "exempt": []
+ }
+}

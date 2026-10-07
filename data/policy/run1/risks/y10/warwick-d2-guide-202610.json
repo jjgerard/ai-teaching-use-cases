@@ -1,0 +1,67 @@
+{
+ "doc_id": "warwick-d2-guide-202610",
+ "coder": "y-y10",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "You should be particularly mindful of the tendency of GenAI tools to cite non-existent resources or information (“hallucinations”).",
+   "anchor": "Permitted and prohibited uses of GenAI – Guidance to Students"
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "There are also concerns about the quality of the data on which AI systems are trained, particularly regarding its robustness and accuracy, and biases.",
+   "anchor": "Limitations of GenAI"
+  },
+  {
+   "risk": "environmental_impact",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "the degree of energy use and the resulting environmental impact of the infrastructure (e.g., data centres) required for some AI systems is starting to attract more attention and concern.",
+   "anchor": "Limitations of GenAI"
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Students should be aware that GenAI tools can weaken the quality of your work – particularly if you rely on GenAI for accuracy, relevance and rigour.",
+   "anchor": "Permitted and prohibited uses of GenAI – Guidance to Students"
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "Be mindful that uploading material protected by copyright can infringe copyright rules.",
+   "anchor": "Permitted and prohibited uses of GenAI – Guidance to Students"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Therefore, you must always double check what the GenAI tools suggest to you and never substitute them for your own voice.",
+   "anchor": "Permitted and prohibited uses of GenAI – Guidance to Students"
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Academic integrity must be ensured in all activities involving the use of AI.",
+   "anchor": "Our approach to Artificial Intelligence (AI)"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "We seek to develop AI literacy among our students to instil good practice regarding the responsible use of AI as a tool to assist (but not replace) their learning and skills development.",
+   "anchor": "Our approach to Artificial Intelligence (AI)"
+  }
+ ]
+}

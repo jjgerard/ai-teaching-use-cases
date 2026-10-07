@@ -1,0 +1,258 @@
+{
+ "doc_id": "bpp-d2-misconduct-procedure-202610",
+ "coder": "y-y12",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "presenting the output of Artificial Intelligence tools without proper acknowledgement",
+   "anchor": "5. Academic Misconduct"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Work produced with AI should not be presented as if it is the student’s own independent work, and to do so is academic misconduct and is regarded as a form of plagiarism, as the student is presenting work of another (in this case an AI tool) as their own.",
+   "anchor": "5. Academic Misconduct"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication: is the presentation of data or such other results in reports intended to be based on empirical work which has either not been undertaken or fully completed and where the data or results have, in whole or in part, been deliberately invented or falsified.",
+   "anchor": "5. Academic Misconduct"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "paraphrasing or imitating the work of another without proper acknowledgement.",
+   "anchor": "5. Academic Misconduct"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Aiding and abetting is the act of assisting another student in the act of committing academic misconduct.",
+   "anchor": "5. Academic Misconduct"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonation: is the act of one person assuming the identity of another with the intent to gain an unfair advantage for the person being impersonated, for example, by undertaking an examination on the other’s behalf.",
+   "anchor": "5. Academic Misconduct"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract cheating: is the act of engaging a third party like an ‘essay mill’, sharing websites (including essay banks), or an individual lecturer, colleague, friend or relative to complete or contribute to the student’s research, assignments or examinations.",
+   "anchor": "5. Academic Misconduct"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "(ii) using unauthorised material or item in an examination or unseen assessment;",
+   "anchor": "5. Academic Misconduct"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Where academic misconduct is found, lack of intent to commit misconduct, lack of awareness of the principles of good academic practice, or any extenuating circumstances the student is/was experiencing, will not be considered a defence.",
+   "anchor": "2. Guiding Principles"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Intention: the student had the intention to gain an unfair advantage (the greater the intended unfair advantage the greater the seriousness);",
+   "anchor": "8. Penalties for Academic Misconduct"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Defensible ignorance may be assumed in the early stages of a student’s career (e.g., during the first stage of an undergraduate degree, or for postgraduate overseas students studying for the first time under UK higher education assessment conventions).",
+   "anchor": "4. Poor Academic Practice"
+  }
+ ],
+ "detection": [
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "The University may, as part of raising and determining concerns, use a viva voce examination (hereon in referred to as a viva) in order to establish the authenticity of the student’s work.",
+   "anchor": "6.1.6 Use of viva voce examinations"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Alleged concerns relating to academic practice must be reported to School Academic Misconduct Officers (AMOs) who are nominated by the Pro-Proctors to determine whether an alleged concern amounts to poor academic practice,",
+   "anchor": "6.1. Raising and Determining Concerns"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Where an alleged concern is referred for an academic misconduct investigation, the AMO must send the evidence upon which they rely and particularise the allegation(s).",
+   "anchor": "6.2. Investigation Procedures for Cases of Academic Misconduct"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student is permitted to make written representations at this stage, including through the submission of evidence.",
+   "anchor": "6.2. Investigation Procedures for Cases of Academic Misconduct"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The Academic Misconduct Panel is responsible for: (a) establishing whether the alleged violation is proven; (b) determining what, if any, mitigating circumstances apply; and, (c) deciding on a penalty.",
+   "anchor": "6.3. Hearing Procedure for Cases of Academic Misconduct"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "Where a student fails to attend the hearing without good cause, or has waived the right to attend the hearing, the Panel will proceed and consider the case and arrive at its findings and recommendation on the basis of the evidence before it.",
+   "anchor": "6.3. Hearing Procedure for Cases of Academic Misconduct"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student shall have the right to be accompanied at the hearing by an observer. Legal representation is not permitted.",
+   "anchor": "6.3. Hearing Procedure for Cases of Academic Misconduct"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Students found to have committed academic misconduct will have a right to appeal in accordance with the University’s academic appeals policy and procedure.",
+   "anchor": "2. Guiding Principles"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The allegation(s) and evidence must be sent to the Proctor’s Office within 20 working days of the AMO receiving an alleged concern",
+   "anchor": "6.2. Investigation Procedures for Cases of Academic Misconduct"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "students will be considered as innocent unless on the balance of probabilities the evidence presented, and decision made, is found otherwise at the conclusion of the case.",
+   "anchor": "2. Guiding Principles"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "The Office of Regulation and Compliance shall provide an annual report to the Education and Standards Committee summarising the cases that have been considered",
+   "anchor": "13. Monitoring, Evaluation and Review"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "In the case of poor academic practice, the primary aim shall be to endeavour to improve the student’s understanding of what constitutes academic malpractice and why",
+   "anchor": "7. Managing Issues of Poor Academic Practice"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "Written warning to be retained on the student’s record for the rest of the period of study within the University.",
+   "anchor": "8. Penalties for Academic Misconduct"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "The work presented is not significantly compromised by the academic misconduct, but the offence warrants the advantage being counteracted through deduction of marks.",
+   "anchor": "8. Penalties for Academic Misconduct"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "The work presented is moderately compromised by academic misconduct, and so the offence warrants the advantage being counteracted through capping of the assessment/examination to the pass mark.",
+   "anchor": "8. Penalties for Academic Misconduct"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "Assigning a mark of zero to the assessment and/or examination and requiring the student to retake the assessment and/or examination.",
+   "anchor": "8. Penalties for Academic Misconduct"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Assigning a mark of zero to the assessment and/or examination and requiring the student to retake the assessment and/or examination.",
+   "anchor": "8. Penalties for Academic Misconduct"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Assigning a mark of zero to the module and requiring the student to retake the assessments and/or examinations for that module.",
+   "anchor": "8. Penalties for Academic Misconduct"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Referral to the Proctor’s Office for Termination of Studies",
+   "anchor": "8. Penalties for Academic Misconduct"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "this may result in the graduate’s award receiving a lower classification, the original award being downgraded to a lower award, or the award being withdrawn in its entirety for not meeting the original award requirements.",
+   "anchor": "10. Procedure where Academic Misconduct is suspected post-Award"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Complete withdrawal of the original award, without any conferral of a lower award.",
+   "anchor": "10. Procedure where Academic Misconduct is suspected post-Award"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": true,
+   "quote": "Misuse of AI (third and subsequent offences)",
+   "anchor": "6.2.5 matrix"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": true,
+   "quote": "Misuse of AI (first and second offences))",
+   "anchor": "6.2.5 matrix"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "the University may be required to notify the statutory and/or professional body that the student is being investigated for academic misconduct.",
+   "anchor": "9. Statutory, Professional Body, and Apprenticeship-Based Awards"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": true,
+   "quote": "Plagiarism: is the act of presenting the work of another (this also includes presenting work produced using Artificial Intelligence tools – see point (k)) as one’s own."
+  },
+  {
+   "term": "Misuse of AI",
+   "ai_named": true,
+   "quote": "Work produced with AI should not be presented as if it is the student’s own independent work, and to do so is academic misconduct and is regarded as a form of plagiarism, as the student is presenting work of another (in this case an AI tool) as their own."
+  },
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "any act, or attempted act, leading to circumstances whereby a student might gain an unpermitted or unfair advantage in an assessment or in the determination of results"
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "An inept or inadvertent breach of the conventions or regulations of good academic practice, committed through a defensible ignorance of those conventions and regulations, where no distinguishable advantage may be or has been accrued to the student, and where there is no discernible intention to deceive."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion is the act of working together with one or more others in the preparation of an assessment for submission where the assessment brief or invigilation instructions do not expressly permit collaboration."
+  },
+  {
+   "term": "False attribution",
+   "ai_named": false,
+   "quote": "False Attribution: is where a student copies or paraphrases work from one source, but knowingly cites or attributes a different source to the work."
+  }
+ ]
+}

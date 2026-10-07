@@ -1,0 +1,243 @@
+{
+ "doc_id": "birmingham-city-d2-misconduct-procedure-202610",
+ "coder": "y-y12",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "AI tools must only be used when the assessment instructions permit its use and where you are able to demonstrate that the final submission is the product of your own independent work and thinking.",
+   "anchor": "Category B offences"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Copying or paraphrasing sections of AI-generated content so that the work is no longer your own",
+   "anchor": "Category B offences"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Failing to acknowledge use of AI tools when they have been used as a source of information",
+   "anchor": "Category B offences"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Submitting any item of assessment which contains work produced by someone else in a way which makes it look as though it is your own work.",
+   "anchor": "Category B offences"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism is duplication of material and means reproducing in any submitted work, a substantial amount of material you have previously used in other assessed work without acknowledging that such work has been so submitted.",
+   "anchor": "Category B offences"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Conspiring with others to reproduce the work of others without proper acknowledgement, including knowingly permitting work to be copied by another student.",
+   "anchor": "Category B offences"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "breaking exam rules in any way e.g. having notes or electronic devices that are not allowed, or accessing online information when it is not allowed.",
+   "anchor": "Category A offences"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "A specific form of plagiarism where you arrange for someone else to complete work on your behalf and then submit it as your own.",
+   "anchor": "Category A offences"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "This includes falsifying information, resources or data by making up research responses; inventing or changing someone else’s work to fit",
+   "anchor": "Category A offences"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "This is a form of cheating when you permit another individual to assume your identity with the intent to deceive and gain advantage during an examination.",
+   "anchor": "Category A offences"
+  }
+ ],
+ "liability": [
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "We recognise that students begin to develop their academic practice at different stages of their academic journey, and may not be familiar with the expectations of academic practice at university and / or in the UK.",
+   "anchor": "Category B offences"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Evidence of a plan to commit academic misconduct and / or gain an unfair advantage;",
+   "anchor": "Factors influencing the classification of misconduct as Minor or Moderate"
+  }
+ ],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "Turnitin report(s) on content that may be AI-generated",
+   "anchor": "Second offences"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Turnitin report(s) on content that may be plagiarised",
+   "anchor": "Second offences"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "In all cases, academic staff will apply their expert academic judgment in reaching a view as to whether a student has or has not compromised their academic integrity.",
+   "anchor": "Category B offences"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": true,
+   "quote": "Where an academic staff member believes that you may have compromised your academic integrity, you may be invited to attend a meeting to discuss your submission. In cases of potential AI misuse, this is a mandatory step for staff to take.",
+   "anchor": "Category B offences"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Formal referrals will be made to the Student Governance team and the approach taken will be determined by whether or not you have any record of previous academic misconduct offences.",
+   "anchor": "Category B offences"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "Student Governance will make the panel arrangements and will invite you to submit any evidence you wish to be considered by the panel. You will be invited to attend the panel hearing.",
+   "anchor": "Category A offences"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Student Governance will make the panel arrangements and will invite you to submit any evidence you wish to be considered by the panel. You will be invited to attend the panel hearing.",
+   "anchor": "Category A offences"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "You have the right to take someone with you to academic misconduct meetings.",
+   "anchor": "Student representation"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "If you wish to appeal against the penalty applied as a result of a first- or second-time Category B offence, you should complete an Academic Misconduct",
+   "anchor": "Appeals"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Appeals should be made within 10 working days of you attending a meeting with your Personal Tutor",
+   "anchor": "Appeals"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "Our decisions will be based on the balance of probabilities i.e. the person or panel making a decision will accept the explanation that is most likely to be true.",
+   "anchor": "Burden and standard of proof"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "Student Governance will record the offence on the casework system.",
+   "anchor": "First offences"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Within 10 days of receiving your assessment feedback, you will be required to meet your Personal Tutor or other suitable staff member to discuss your academic practice.",
+   "anchor": "First offences"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "For a first-time Category B offence, the feedback you receive will indicate that your mark has been reduced to reflect the proportion of work that is your own.",
+   "anchor": "First offences"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "the mark you receive for your work will be recorded as 0",
+   "anchor": "Moderate offences"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "should a further attempt be available under the Academic Regulations, you will be required to resubmit work for the element of the module in which the misconduct took place.",
+   "anchor": "Moderate offences"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "The resubmitted work will be capped at the pass mark.",
+   "anchor": "Moderate offences"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "University Disciplinary Panels are empowered to withdraw you.",
+   "anchor": "Third offences"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "In any case where a third offence of Category B misconduct is suspected, the misconduct will be considered Major and the case will be referred to a University Disciplinary Panel.",
+   "anchor": "Third offences"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "Classification of a second offence as Minor or Moderate is a matter of academic judgment and should take into account all the available evidence and circumstances of the case.",
+   "anchor": "Factors influencing the classification of misconduct as Minor or Moderate"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "we may investigate alleged academic misconduct under the Fitness to Practise Procedure rather than the Academic Misconduct Procedure.",
+   "anchor": "Who does this procedure apply to?"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct is conduct which has or may have the effect of providing you with an unfair advantage by relying on dishonest means to gain advantage and which therefore compromises your academic integrity."
+  },
+  {
+   "term": "AI misuse",
+   "ai_named": true,
+   "quote": "Any use of AI which means you have not independently demonstrated your own attainment is likely to be seen as academic misconduct."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Submitting any item of assessment which contains work produced by someone else in a way which makes it look as though it is your own work."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Conspiring with others to reproduce the work of others without proper acknowledgement, including knowingly permitting work to be copied by another student."
+  },
+  {
+   "term": "False presentation",
+   "ai_named": false,
+   "quote": "A specific form of plagiarism where you arrange for someone else to complete work on your behalf and then submit it as your own."
+  }
+ ]
+}

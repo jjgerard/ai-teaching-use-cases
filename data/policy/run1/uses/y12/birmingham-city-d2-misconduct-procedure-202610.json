@@ -1,0 +1,169 @@
+{
+ "doc_id": "birmingham-city-d2-misconduct-procedure-202610",
+ "coder": "y-y12",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "AI tools must only be used when the assessment instructions permit its use and where you are able to demonstrate that the final submission is the product of your own independent work and thinking.",
+   "anchor": "Category B offences"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Your assignment brief should state whether AI use is Prohibited, Restricted, Permitted or Required.",
+   "anchor": "Category B offences",
+   "tier": "Prohibited"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "Your assignment brief should state whether AI use is Prohibited, Restricted, Permitted or Required.",
+   "anchor": "Category B offences",
+   "tier": "Restricted"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Your assignment brief should state whether AI use is Prohibited, Restricted, Permitted or Required.",
+   "anchor": "Category B offences",
+   "tier": "Permitted"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Your assignment brief should state whether AI use is Prohibited, Restricted, Permitted or Required.",
+   "anchor": "Category B offences",
+   "tier": "Required"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "If the extent of AI allowed is unclear, you must assume that you are not permitted to use these tools unless for the early stages of your work e.g. helping you to structure your work, etc.",
+   "anchor": "Category B offences",
+   "tier": "Extent unclear"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "If the extent of AI allowed is unclear, you must assume that you are not permitted to use these tools unless for the early stages of your work e.g. helping you to structure your work, etc.",
+   "anchor": "Category B offences"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using AI to complete parts of the assessment so that the work does not reflect your own work, analysis, evaluation or calculations",
+   "anchor": "Category B offences"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using AI to complete parts of the assessment so that the work does not reflect your own work, analysis, evaluation or calculations",
+   "anchor": "Category B offences"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Copying or paraphrasing sections of AI-generated content so that the work is no longer your own",
+   "anchor": "Category B offences"
+  },
+  {
+   "use": "find_sources",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Failing to acknowledge use of AI tools when they have been used as a source of information",
+   "anchor": "Category B offences"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Submitting any item of assessment which contains work produced by someone else in a way which makes it look as though it is your own work.",
+   "anchor": "Category B offences"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This includes falsifying information, resources or data by making up research responses; inventing or changing someone else’s work to fit",
+   "anchor": "Category A offences"
+  }
+ ],
+ "default_when_silent": {
+  "value": "use_by_use_rule",
+  "quote": "If the extent of AI allowed is unclear, you must assume that you are not permitted to use these tools unless for the early stages of your work e.g. helping you to structure your work, etc."
+ },
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Your assignment brief should state whether AI use is Prohibited, Restricted, Permitted or Required."
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "Your assignment brief should state whether AI use is Prohibited, Restricted, Permitted or Required."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Please note that AI permissions may vary between modules, so make sure you check each assignment brief carefully."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Failing to acknowledge use of AI tools when they have been used as a source of information"
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Failing to acknowledge use of AI tools when they have been used as a source of information"
+  },
+  "exempt": []
+ }
+}

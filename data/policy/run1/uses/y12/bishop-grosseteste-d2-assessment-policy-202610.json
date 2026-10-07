@@ -1,0 +1,45 @@
+{
+ "doc_id": "bishop-grosseteste-d2-assessment-policy-202610",
+ "coder": "y-y12",
+ "uses": [
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "I understand that unidentified and unreferenced copied, AI generated material or purchased assignments constitute plagiarism which is considered academic misconduct and could result in investigation by an Academic Misconduct Panel.",
+   "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "I declare that the work submitted for assessment contains no section copied in whole or in part from any other source, including work I have submitted previously at this or another university, unless it is explicitly identified by means of quotation marks and accompanied by detailed references in the approved format.",
+   "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "I understand that unidentified and unreferenced copied, AI generated material or purchased assignments constitute plagiarism which is considered academic misconduct and could result in investigation by an Academic Misconduct Panel."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "I understand that unidentified and unreferenced copied, AI generated material or purchased assignments constitute plagiarism which is considered academic misconduct and could result in investigation by an Academic Misconduct Panel."
+  },
+  "exempt": []
+ }
+}

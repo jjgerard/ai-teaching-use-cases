@@ -1,0 +1,75 @@
+{
+ "doc_id": "bpp-d2-misconduct-procedure-202610",
+ "coder": "y-y12",
+ "uses": [
+  {
+   "use": "any_use",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement",
+    "other_rules_apply"
+   ],
+   "quote": "The University acknowledges the benefits of the use of AI technologies to support learning, and where such tools are used, these should be acknowledged in a student’s work openly and transparently.",
+   "anchor": "5. Academic Misconduct"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "presenting the output of Artificial Intelligence tools without proper acknowledgement",
+   "anchor": "5. Academic Misconduct"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Work produced with AI should not be presented as if it is the student’s own independent work, and to do so is academic misconduct and is regarded as a form of plagiarism, as the student is presenting work of another (in this case an AI tool) as their own.",
+   "anchor": "5. Academic Misconduct"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "paraphrasing or imitating the work of another without proper acknowledgement.",
+   "anchor": "5. Academic Misconduct"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabrication: is the presentation of data or such other results in reports intended to be based on empirical work which has either not been undertaken or fully completed and where the data or results have, in whole or in part, been deliberately invented or falsified.",
+   "anchor": "5. Academic Misconduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": {
+   "value": "recommended",
+   "quote": "The University acknowledges the benefits of the use of AI technologies to support learning, and where such tools are used, these should be acknowledged in a student’s work openly and transparently."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "presenting the output of Artificial Intelligence tools without proper acknowledgement"
+  },
+  "exempt": []
+ }
+}

@@ -1,0 +1,144 @@
+{
+ "doc_id": "westminster-d2-misconduct-procedure-202610",
+ "coder": "y-y12",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "The use of Generative AI (GenAI) systems when completing an assignment is academic misconduct if the use is not clearly cited and referenced in your work.",
+   "anchor": "Plagiarism using Generative AI"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Plagiarism is where a student presents work for assessment which contains the unacknowledged published or unpublished words, thoughts, judgements, ideas, structures or images of some other person or persons. This includes material sought from electronic sources such as Artificial Intelligence (AI) technology or other software, and material sourced or contracted from a third party.",
+   "anchor": "What is plagiarism?"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "However, it's not acceptable to submit a poorly written (but original) essay to ChatGPT and request the AI to re-write it in good, academic English.",
+   "anchor": "Plagiarism using Generative AI"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "The use of any machine or third-party human to generate an assignment on behalf of a student is a form of academic misconduct",
+   "anchor": "Plagiarism using Generative AI"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": true,
+   "quote": "Extensive quotations, close paraphrasing, copying from the work of another person, including another student, or using the ideas of another person, or Artificial intelligence (AI) technology or other software without proper acknowledgement, may constitute plagiarism.",
+   "anchor": "Plagiarism using Generative AI"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism is submitting, in whole or in part, work which has previously been submitted at the University of Westminster or elsewhere, without citing and referencing the earlier work.",
+   "anchor": "Self-plagiarism"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "regardless of whether you intended to plagiarise or not you'll still be held responsible for the work you hand in and the consequences will be the same.",
+   "anchor": "Understanding plagiarism - FAQs"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "the University employs text-matching software, such as Safe Assign and Turnitin, to help identify potential plagiarism in assignments.",
+   "anchor": "Understanding plagiarism - FAQs"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "The software does not detect plagiarism per se but does highlight text similarities.",
+   "anchor": "Understanding plagiarism - FAQs"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The University uses Turnitin Software, and your assessors will use their academic judgement to detect potential cases of commissioning.",
+   "anchor": "Plagiarism Commissioning"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "If your module leader believes your work may have been commissioned, you'll be invited to a Viva meeting. This is an informal meeting where you will be asked questions on your work to ascertain if you are the author.",
+   "anchor": "Plagiarism Commissioning"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "This is an informal meeting where you will be asked questions on your work to ascertain if you are the author.",
+   "anchor": "Plagiarism Commissioning"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "If it is believed you are not the author of the submitted work, then you'll be reported to Academic Standards for investigation and a Panel Hearing will be arranged.",
+   "anchor": "Plagiarism Commissioning"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "If it is believed you are not the author of the submitted work, then you'll be reported to Academic Standards for investigation and a Panel Hearing will be arranged.",
+   "anchor": "Plagiarism Commissioning"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "If it is believed you are not the author of the submitted work, then you'll be reported to Academic Standards for investigation and a Panel Hearing will be arranged.",
+   "anchor": "Plagiarism Commissioning"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "If you submit an assessment that is written by someone else, then you may risk failing the module or even exclusion from your degree.",
+   "anchor": "Plagiarism Commissioning"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "If you submit an assessment that is written by someone else, then you may risk failing the module or even exclusion from your degree.",
+   "anchor": "Plagiarism Commissioning"
+  },
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "The University of Westminster may impose a penalty on the assessments of those found in breach of academic integrity.",
+   "anchor": "Plagiarism using Generative AI"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": true,
+   "quote": "Plagiarism is where a student presents work for assessment which contains the unacknowledged published or unpublished words, thoughts, judgements, ideas, structures or images of some other person or persons. This includes material sought from electronic sources such as Artificial Intelligence (AI) technology or other software, and material sourced or contracted from a third party."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism is where a student presents for assessment work which that student has previously submitted for assessment as part of the same or another module or course, or at another institution."
+  },
+  {
+   "term": "Plagiarism commissioning",
+   "ai_named": false,
+   "quote": "Plagiarism Commissioning, also known as Contract Cheating, is a serious academic offence, where another individual completes an assessment on behalf of a student."
+  }
+ ]
+}

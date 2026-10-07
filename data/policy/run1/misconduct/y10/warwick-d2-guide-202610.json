@@ -1,0 +1,49 @@
+{
+ "doc_id": "warwick-d2-guide-202610",
+ "coder": "y-y10",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "You must not submit any AI-generated output as your own work.",
+   "anchor": "Permitted and prohibited uses of GenAI – Guidance to Students"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "You are not permitted to use generative AI tools such as ChatGPT during the class unless your tutor expressly authorises this for a particular seminar task.",
+   "anchor": "Permitted and prohibited uses of GenAI and other AI tools in the classroom"
+  },
+  {
+   "value": "data_or_upload_breach",
+   "ai_named": false,
+   "quote": "Using such software involves the recording or capture of voices and transfer of voice data outside the University. This is not compatible with University policies and may also contravene data protection laws.",
+   "anchor": "Permitted and prohibited uses of GenAI and other AI tools in the classroom"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": false,
+   "quote": "You might also be referred for disciplinary action.",
+   "anchor": "Permitted and prohibited uses of GenAI and other AI tools in the classroom"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": true,
+   "quote": "Submission of an assessment without a completed AI declaration will be treated as non-submission and awarded an automatic mark of zero.",
+   "anchor": "Academic Integrity"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "AI system",
+   "ai_named": true,
+   "quote": "a machine-based system that, for explicit or implicit objectives, infers, from the input it receives, how to generate outputs such as predictions, content, recommendations, or decisions that can influence physical or virtual environments."
+  }
+ ]
+}

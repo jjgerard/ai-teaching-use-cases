@@ -1,0 +1,70 @@
+{
+ "doc_id": "bishop-grosseteste-d2-assessment-policy-202610",
+ "coder": "y-y12",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "I understand that unidentified and unreferenced copied, AI generated material or purchased assignments constitute plagiarism which is considered academic misconduct and could result in investigation by an Academic Misconduct Panel.",
+   "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+  },
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "I understand that unidentified and unreferenced copied, AI generated material or purchased assignments constitute plagiarism which is considered academic misconduct and could result in investigation by an Academic Misconduct Panel.",
+   "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "I understand that unidentified and unreferenced copied, AI generated material or purchased assignments constitute plagiarism which is considered academic misconduct and could result in investigation by an Academic Misconduct Panel.",
+   "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "I declare that the work submitted for assessment contains no section copied in whole or in part from any other source",
+   "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "including work I have submitted previously at this or another university, unless it is explicitly identified by means of quotation marks and accompanied by detailed references in the approved format.",
+   "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "Work submitted electronically will be screened to check against other material on the web, other submitted work and for the inappropriate use of AI.",
+   "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "Work submitted electronically will be screened to check against other material on the web, other submitted work and for the inappropriate use of AI.",
+   "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": true,
+   "quote": "I understand that unidentified and unreferenced copied, AI generated material or purchased assignments constitute plagiarism which is considered academic misconduct and could result in investigation by an Academic Misconduct Panel.",
+   "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+  },
+  {
+   "value": "investigation",
+   "ai_named": true,
+   "quote": "I understand that unidentified and unreferenced copied, AI generated material or purchased assignments constitute plagiarism which is considered academic misconduct and could result in investigation by an Academic Misconduct Panel.",
+   "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}
