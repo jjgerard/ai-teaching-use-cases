@@ -1,0 +1,74 @@
+{
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can support brainstorming, research, productivity, and communication, but it should not replace your own thinking, analysis, or academic judgement.",
+   "anchor": "Responsible AI Use"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI can support brainstorming, research, productivity, and communication, but it should not replace your own thinking, analysis, or academic judgement.",
+   "anchor": "Responsible AI Use"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "AI-generated content is not always reliable and can sometimes be inaccurate, biased, incomplete, or misleading.",
+   "anchor": "Use AI critically and ethically"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "read your Subject Outline and assessment instructions"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "ask your Learning Facilitator if you are unsure"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Clearly state if, when, and how AI tools were used."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "identify which AI tools you used"
+   },
+   {
+    "value": "how_used",
+    "quote": "explain how they supported your work"
+   }
+  ],
+  "location": [],
+  "records": {
+   "value": "required",
+   "quote": "keep records of prompts or outputs so you can show how you used AI if asked"
+  },
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Acknowledge and reference AI use in accordance with university requirements."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Using AI where it is not permitted, or failing to acknowledge AI use where required, may be treated as academic misconduct."
+  },
+  "exempt": []
+ },
+ "doc_id": "torrens-university-australia-students-genai-202610",
+ "coder": "y-y21"
+}

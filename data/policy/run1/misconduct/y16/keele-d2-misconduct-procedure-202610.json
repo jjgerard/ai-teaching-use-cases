@@ -1,0 +1,298 @@
+{
+ "doc_id": "keele-d2-misconduct-procedure-202610",
+ "coder": "y-y16",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "Students should be aware that plagiarism can also include inappropriately using content directly from GenAI tools where it is not referenced or acknowledged.",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "First offence of unpermitted use of generative artificial intelligence tools in the production of an assignment.",
+   "anchor": "14. TARIFF OF PENALTIES"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Using GenAI tools inappropriately in an assessment to present work as one’s own, without proper attribution, or where it is explicitly prohibited to use GenAI tools.",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "The falsification of data or sources;",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "Attempting to manipulate an assessment to avoid academic misconduct being found;",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract Cheating (also known as commissioning) - the commissioning and/or submission of work to be assessed which is not the student’s own work and presenting it as if it were",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Taking a copy of another student’s work without their permission;",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Possession of unauthorised material and/or electronic devices in an examination, class test, or other assessment exercise;",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Giving another student a copy of all or part of one’s own work so that they can use it in the submission of an assignment;",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Allowing another person to impersonate yourself or impersonating another person in an",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism - the student submits the same or almost identical work for more than one assessment without proper acknowledgement.",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "The student’s intentions are not relevant to whether or not they have committed an offence of academic misconduct.",
+   "anchor": "10. STANDARD AND BURDEN OF PROOF"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "A student’s intentions, if they can be determined, will only be relevant in determining whether the standard penalty is appropriate.",
+   "anchor": "10. STANDARD AND BURDEN OF PROOF"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor citation where there is evidence that the student does not understand the rules of academic writing (e.g. year 1 student in the first semester);",
+   "anchor": "ANNEX A"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "the University can submit any assessment to text/patent matching software in order to identify non-original text.",
+   "anchor": "1. INTRODUCTION"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "Markers must not rely solely on the similarity index in a text/patent matching software report when deciding whether to refer a case.",
+   "anchor": "19. ROLES AND RESPONSIBILITIES"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Markers must consider the substance of the copied material, not only the quantity. It is a matter of academic judgement.",
+   "anchor": "19. ROLES AND RESPONSIBILITIES"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "If it is suspected that a student has submitted work that has not been written by them, the student will normally be asked to attend an interview with the marker and School Academic Conduct Officer.",
+   "anchor": "4. CONTRACT CHEATING"
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "This could include copies of any drafts of the work, the articles/books that were read, and any notes made.",
+   "anchor": "2. GOOD ACADEMIC PRACTICE"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Examiners (internal or external) or supervisors who have good cause to suspect academic misconduct (as defined in section 3) at the point of submission or during the preparation stages, must report the case to the relevant Academic Conduct Officer",
+   "anchor": "6. INITIATING THE ACADEMIC MISCONDUCT PROCESS"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "After receiving an allegation of academic misconduct, the Academic Conduct Officer will carry out an investigation.",
+   "anchor": "7. INVESTIGATION BY THE ACADEMIC CONDUCT OFFICER"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student can submit a response to the allegation.",
+   "anchor": "9. ACADEMIC MISCONDUCT COMMITTEE PRODEDURE"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The student will be emailed a letter inviting them to the meeting of the Academic Misconduct Committee.",
+   "anchor": "9. ACADEMIC MISCONDUCT COMMITTEE PRODEDURE"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If the student fails to attend without good reason, the Academic Misconduct Committee may deal with the case in their absence.",
+   "anchor": "9. ACADEMIC MISCONDUCT COMMITTEE PRODEDURE"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The following is a list of people who are permitted to accompany a student to any formal meetings with either the Academic Conduct Officer or the Academic Misconduct Committee",
+   "anchor": "8. STUDENT SUPPORT AND REPRESENTATION"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A student has the right to appeal to the Academic Misconduct Committee against the decision of an Academic Conduct Officer.",
+   "anchor": "16. APPEALS"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Appeals must be sent to the Head of Student Appeals, Complaints and Conduct within 10 calendar days of the date on the letter informing the student of the outcome.",
+   "anchor": "16. APPEALS"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "it is ‘more likely than not’ that misconduct has occurred. This is called proof on ‘the balance of probabilities’.",
+   "anchor": "10. STANDARD AND BURDEN OF PROOF"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "All proven academic misconduct offences including warnings will be recorded on a student’s record.",
+   "anchor": "15. RECORDING OF AN OFFENCE"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "For first offences of plagiarism, Academic Conduct Officers should ensure that students have the opportunity to learn from their mistake and direct them to appropriate support and guidance.",
+   "anchor": "12. PENALTIES ISSUED BY ACADEMIC CONDUCT OFFICERS"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "The issue of a written warning for academic misconduct plus allocation of a mark of zero for the assessment unit in question and with the normal consequences, if any, for reassessment.",
+   "anchor": "14. TARIFF OF PENALTIES"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "The issue of a written warning for academic misconduct plus allocation of a mark of zero for the assessment unit in question and with the normal consequences, if any, for reassessment.",
+   "anchor": "14. TARIFF OF PENALTIES"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "The final mark will be capped at the pass mark and cannot exceed the original mark, if given before the investigation.",
+   "anchor": "14. TARIFF OF PENALTIES"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "The original mark, if any, is held back until an acceptable version is submitted.",
+   "anchor": "14. TARIFF OF PENALTIES"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "A mark of 0 for the module (not just the examination) with the normal consequences, if any, for reassessment",
+   "anchor": "14. TARIFF OF PENALTIES"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Termination of studies with a bar on any future enrolment with the University.",
+   "anchor": "14. TARIFF OF PENALTIES"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "This 0 mark will be used in the degree calculation and so could impact on the class of degree awarded.",
+   "anchor": "14. TARIFF OF PENALTIES"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": true,
+   "quote": "Third offence of unpermitted use of generative artificial intelligence tools in the production of an assignment.",
+   "anchor": "14. TARIFF OF PENALTIES"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The tariff below lists the penalties that will normally be applied for a proven offence.",
+   "anchor": "13. PENALTIES ISSUED BY ACADEMIC MISCONDUCT COMMITTEE"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "Retrospective removal of credit and/or award, subject to confirmation by the Senate of the University and a bar on any future enrolment with the University.",
+   "anchor": "14. TARIFF OF PENALTIES"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "Where relevant the professional body will be informed.",
+   "anchor": "15. RECORDING OF AN OFFENCE"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic misconduct is any action or attempted action which may result in the student gaining an unfair academic advantage in an assessment or might assist someone else to gain an unfair advantage."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": true,
+   "quote": "Plagiarism - the student copies words or ideas from another person and presents those words/ideas as their own in an assessment without properly acknowledging and citing the source(s). Students should be aware that plagiarism can also include inappropriately using content directly from GenAI tools where it is not referenced or acknowledged."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism - the student submits the same or almost identical work for more than one assessment without proper acknowledgement."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion - a piece of work is prepared by more than one student, including work used for a piece of authorised collaborative group-work, and is presented in whole or in part for assessment as if it were the student’s own work;"
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating occurs when a student commissions and/or obtains work for assessment that has been written, either in full or in part, by another person, where input from another person is not allowed."
+  },
+  {
+   "term": "Essay mill",
+   "ai_named": false,
+   "quote": "The QAA definition of an essay mill is “An organisation or individual, usually with an online presence, that contracts with students to complete an assignment or assignments for a fee”."
+  }
+ ]
+}

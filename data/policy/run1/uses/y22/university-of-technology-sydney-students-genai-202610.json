@@ -1,0 +1,43 @@
+{
+ "doc_id": "university-of-technology-sydney-students-genai-202610",
+ "coder": "y-y22",
+ "uses": [
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission",
+    "needs_acknowledgement"
+   ],
+   "quote": "If you have the okay from your tutor or subject coordinator to use GenAI, it is still important to ensure that your assessments are your own original work, and any GenAI content is correctly acknowledged or referenced.",
+   "anchor": "Before using GenAI"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "Check with your tutor or subject coordinator to ensure using GenAI in assignments is okay (unauthorised use of GenAI is academic misconduct)."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Check with your tutor or subject coordinator to ensure using GenAI in assignments is okay (unauthorised use of GenAI is academic misconduct)."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you have the okay from your tutor or subject coordinator to use GenAI, it is still important to ensure that your assessments are your own original work, and any GenAI content is correctly acknowledged or referenced."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "cite_in_reference_list",
+   "quote": "You need to reference when you have used information from other sources in your work. This includes content from GenAI tools."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

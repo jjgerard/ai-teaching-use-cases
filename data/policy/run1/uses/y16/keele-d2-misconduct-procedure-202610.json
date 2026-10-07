@@ -1,0 +1,159 @@
+{
+ "doc_id": "keele-d2-misconduct-procedure-202610",
+ "coder": "y-y16",
+ "uses": [
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "students are permitted to use assistive AI tools to check spelling, grammar and punctuation (i.e., use of in-built spell-checkers) in all written assessments excluding formal examinations e.g. invigilated exams.",
+   "anchor": "5. PROOFREADING"
+  },
+  {
+   "use": "check_language",
+   "context": "exams_or_supervised",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "students are permitted to use assistive AI tools to check spelling, grammar and punctuation (i.e., use of in-built spell-checkers) in all written assessments excluding formal examinations e.g. invigilated exams.",
+   "anchor": "5. PROOFREADING"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "tier": "GenAI proofreading",
+   "quote": "Some GenAI tools additionally have the functionality to proofread a document. Students must consult the assessment brief which details what is appropriate use of GenAI in each specific assessment in accordance with the ‘Using GenAI in Assessment Scale’.",
+   "anchor": "5. PROOFREADING"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Before commencing assessments, students will be provided with an assessment brief to indicate what is appropriate use of GenAI and what is not.",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "or where it is explicitly prohibited to use GenAI tools.",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using GenAI tools inappropriately in an assessment to present work as one’s own, without proper attribution, or where it is explicitly prohibited to use GenAI tools.",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Students will be required to follow this guidance to acknowledge the use of GenAI in their assessed work, where it has been used as a tool to assist in the process of creating the academic work such as drafting ideas and planning, or structuring written materials.",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Students will be required to follow this guidance to acknowledge the use of GenAI in their assessed work, where it has been used as a tool to assist in the process of creating the academic work such as drafting ideas and planning, or structuring written materials.",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "Students should be aware that plagiarism can also include inappropriately using content directly from GenAI tools where it is not referenced or acknowledged.",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Having work translated from another language by another person or by using a translation service or software and submitting it as your own work;",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  },
+  {
+   "use": "any_use",
+   "context": "research_or_thesis",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Unpermitted use of generative artificial intelligence tools in the production of the research degree thesis or published work.",
+   "anchor": "14. TARIFF OF PENALTIES"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The falsification of data or sources;",
+   "anchor": "3. WHAT IS ACADEMIC MISCONDUCT"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "This will include such details as what and how generative AI (GenAI) usage is permitted for each specific assessment."
+  },
+  {
+   "value": "tiered_scale",
+   "quote": "Some GenAI tools additionally have the functionality to proofread a document. Students must consult the assessment brief which details what is appropriate use of GenAI in each specific assessment in accordance with the ‘Using GenAI in Assessment Scale’."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Students will be required to follow this guidance to acknowledge the use of GenAI in their assessed work, where it has been used as a tool to assist in the process of creating the academic work such as drafting ideas and planning, or structuring written materials."
+  },
+  "contents": [],
+  "location": [],
+  "records": {
+   "value": "recommended",
+   "quote": "Students are advised to retain all draft copies of their work to provide evidence that they wrote the work if challenged."
+  },
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Students will also find resources around how to reference the use of AI in assessments where it is permitted to do so."
+  },
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "Students should be aware that plagiarism can also include inappropriately using content directly from GenAI tools where it is not referenced or acknowledged."
+  },
+  "exempt": []
+ }
+}

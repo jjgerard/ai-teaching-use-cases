@@ -1,0 +1,132 @@
+{
+ "doc_id": "kcl-d2-misconduct-procedure-202610",
+ "coder": "y-y16",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "However, the use of generative AI tools to produce output which is then copied as part of a submission is not appropriate.",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "However, the use of generative AI tools to produce output which is then copied as part of a submission is not appropriate.",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "For the avoidance of doubt, generative Artificial Intelligence writing programmes are third party technologies and must only be used in accordance with College guidance.",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "Where a student chooses to ask another individual to proof read their work, engages a private tutor to assist with assessments, or uses writing technologies, this should be limited to learning activities which do not form part of the final stages of assessments submitted for credit, or highlighting errors in spelling, punctuation or grammar.",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "The service should not assist with substantive content creation or structuring of the assessment.",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "tier": "Writing technologies",
+   "quote": "The service should not assist with substantive content creation or structuring of the assessment.",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Above all, third parties cannot make substantive changes which compromise the authorship of the text",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "third parties cannot make substantive changes which compromise the authorship of the text (for example, translating whole sections of text, rather than individual phrases)",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "use": "generate_code",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "third parties cannot make substantive changes which compromise the authorship of the text (for example, translating whole sections of text, rather than individual phrases), revise calculations, formulae, equations, or code",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "use": "explain_or_tutor",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "correct information or references, or involve any tutoring.",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabrication",
+   "anchor": "3. Academic Misconduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "institution_wide",
+   "quote": "For the avoidance of doubt, generative Artificial Intelligence writing programmes are third party technologies and must only be used in accordance with College guidance."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "adheres to the guidelines of the assessment task"
+  }
+ ],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "doc_id": "australian-national-university-students-genai-202610",
+ "coder": "y-y22",
+ "uses": [
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "If allowed, use generative AI as a research/brainstorming prompt to guide you towards superior, substantiated sources.",
+   "anchor": "How to use Generative AI with integrity"
+  },
+  {
+   "use": "find_sources",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "If allowed, use generative AI as a research/brainstorming prompt to guide you towards superior, substantiated sources.",
+   "anchor": "How to use Generative AI with integrity"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Generative AI may be explicitly limited in some courses and actively encouraged in others.",
+   "anchor": "Can I use Generative AI for my assessment?"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Do not present material produced by generative AI as your own work, as this is an academic integrity breach.",
+   "anchor": "How to use Generative AI with integrity"
+  },
+  {
+   "use": "generate_assessed_text",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Do not use text produced by generative AI as a substitute for your own research and writing.",
+   "anchor": "How to use Generative AI with integrity"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "If generative AI is used in developing an assignment or content produced by generative AI content is used in an assignment, it must be appropriately acknowledged.",
+   "anchor": "How do I use generative AI responsibly and ethically?"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI is not a replacement for your thinking and originality of your ideas, arguments and creative output.",
+   "anchor": "How do I use generative AI responsibly and ethically?"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Generative AI is not an academic source, so it may be inappropriate to cite or use in an assignment.",
+   "anchor": "How do I use generative AI responsibly and ethically?"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "If you are unsure, speak to your course convener for clarification."
+ },
+ "decided_by": [
+  {
+   "value": "module_or_lecturer",
+   "quote": "Follow the task guidance set by your course convener."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "You should look first at class summaries and assessment outlines for any AI requirements in the course."
+  },
+  {
+   "value": "school_or_department",
+   "quote": "Due to the diversity of assessments and disciplines at ANU, applications of generative AI - and hence what is deemed appropriate - may differ across disciplines."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If generative AI is used in developing an assignment or content produced by generative AI content is used in an assignment, it must be appropriately acknowledged."
+  },
+  "contents": [
+   {
+    "value": "tool_name",
+    "quote": "Acknowledge the specific tools or methods used and how they contributed to completing the assignment piece."
+   },
+   {
+    "value": "how_used",
+    "quote": "Acknowledge the specific tools or methods used and how they contributed to completing the assignment piece."
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Reference as you would any source, following the Generative AI LibGuide."
+  },
+  "consequence": null,
+  "exempt": []
+ }
+}

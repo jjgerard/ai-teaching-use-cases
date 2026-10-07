@@ -1,0 +1,261 @@
+{
+ "doc_id": "kcl-d2-misconduct-procedure-202610",
+ "coder": "y-y16",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "may be considered under this policy as a form of academic misconduct if it provides an unfair advantage or casts doubt on the intellectual ownership of the content from the submitting student. For the avoidance of doubt, generative Artificial Intelligence writing programmes are third party technologies and must only be used in accordance with College guidance.",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "third party involvement is considered misconduct when it involves presenting someone else’s ideas as your own, or calls into question the integrity of the assessment.",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Third party production: when work submitted is substantively the product of a third party.",
+   "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication",
+   "anchor": "3. Academic Misconduct"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism",
+   "anchor": "3. Academic Misconduct"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism",
+   "anchor": "3. Academic Misconduct"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Provision of contract cheating services: providing, or arranging for another person to provide, contract cheating services for financial gain to students.",
+   "anchor": "3. Academic Misconduct"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Sharing assessment and examination materials outside of the assessment task is also against examination rules and therefore may be considered academic misconduct.",
+   "anchor": "File Sharing and Social Media Etiquette"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "It is not necessary to prove intention to commit academic misconduct and all cases will be considered in line with this policy, regardless of whether the misconduct was intentional.",
+   "anchor": "7. Investigating Academic Integrity Concerns"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "However, proven intent to commit academic misconduct is likely to be considered an aggravating factor when considering potential outcomes.",
+   "anchor": "7. Investigating Academic Integrity Concerns"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor academic practice involves an unintentional misunderstanding of scholarly practice.",
+   "anchor": "7. Investigating Academic Integrity Concerns"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Staff may use the electronic software “TurnitinUK” or other means to assist them in the process of detecting academic misconduct.",
+   "anchor": "6. Identifying Academic Integrity Concerns"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "academic judgement of relevant markers/module leads",
+   "anchor": "7. Investigating Academic Integrity Concerns"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "it is appropriate to ask the student to explain their answers, ideas, concepts or references.",
+   "anchor": "Stage One: Academic Integrity Meeting"
+  }
+ ],
+ "process": [
+  {
+   "value": "informal_conversation",
+   "ai_named": false,
+   "quote": "The meeting is not a hearing, and the meeting should be informal, supportive and exploratory.",
+   "anchor": "Stage One: Academic Integrity Meeting"
+  },
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "A suspected case of academic misconduct may be referred to a Misconduct Committee for the following reasons:",
+   "anchor": "Stage Two: Misconduct Committee"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "All concerns will be investigated in accordance with this policy and using the associated procedure.",
+   "anchor": "6. Identifying Academic Integrity Concerns"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "If a student declines to engage with the AIM, they will have the opportunity to provide a written response.",
+   "anchor": "Stage One: Academic Integrity Meeting"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Student Conduct & Appeals will review the information provided and determine whether the case requires a full hearing by a Misconduct Committee.",
+   "anchor": "Stage Two: Misconduct Committee"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "Proceedings under Stages 1-3 (below) are not invalidated or postponed due to the absence of the student, provided that the student has been given timely written notice of the AIM/Committee",
+   "anchor": "7. Investigating Academic Integrity Concerns"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The College understands that sometimes students make mistakes, and is committed to supporting all students, even where academic misconduct may have occurred.",
+   "anchor": "3. Academic Misconduct"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "Students may appeal the decision of a Misconduct Committee on either of both of the following grounds:",
+   "anchor": "Stage Three: Misconduct Appeal"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "Students should submit a Misconduct Appeal Form to the Associate Director, Student Conduct & Appeals (or their nominee), on behalf of the Vice Chancellor & President, within 10 working days of the date of the Misconduct Committee outcome.",
+   "anchor": "Stage Three: Misconduct Appeal"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "All cases will be considered on the balance of probabilities.",
+   "anchor": "1. Introduction"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "The outcome should be recorded by the Faculty/Department, including a summary of what was discussed in the AIM, all relevant evidence considered, and reasons for the outcome determined.",
+   "anchor": "Stage One: Academic Integrity Meeting"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "Under a Stage One AIM, Educative Outcomes or Restorative Outcomes (a)-(d) may be applied.",
+   "anchor": "Stage One: Academic Integrity Meeting"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "a formal warning, with those parts of the student's work that are unaffected by the concern to be marked",
+   "anchor": "Stage Two: Misconduct Committee"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "a formal warning, with those parts of the student's work that are unaffected by the concern to be marked, and the assessment result capped at the pass mark.",
+   "anchor": "Stage Two: Misconduct Committee"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "the cancellation of the results in an assessment/s and a mark of zero returned",
+   "anchor": "Stage Two: Misconduct Committee"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "the requirement that the student resubmit an amended version of the assessment.",
+   "anchor": "Stage Two: Misconduct Committee"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "expulsion (with or without credit retained).",
+   "anchor": "Stage Two: Misconduct Committee"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "A student’s final award will be withheld whilst any action is being taken under this policy.",
+   "anchor": "8. Academic Misconduct and Progression"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "All second instances where academic misconduct was upheld in the first instance, should be referred to Stage Two: Misconduct Committee (below).",
+   "anchor": "6. Identifying Academic Integrity Concerns"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "proven intent to commit academic misconduct is likely to be considered an aggravating factor when considering potential outcomes.",
+   "anchor": "7. Investigating Academic Integrity Concerns"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "a recommendation to the Academic Board that the student’s award be revoked",
+   "anchor": "Stage Two: Misconduct Committee"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "the College may report the student to that body under Academic Regulation 8.29.",
+   "anchor": "Stage Two: Misconduct Committee"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic misconduct",
+   "ai_named": false,
+   "quote": "Academic Misconduct is the adoption of working methods that are outside the spirit of the College regulations and the values of academic integrity."
+  },
+  {
+   "term": "Third party involvement",
+   "ai_named": false,
+   "quote": "Third party involvement: when a student receives unauthorized assistance from a third party which results in the submission of an individual assessment"
+  },
+  {
+   "term": "Third party production",
+   "ai_named": false,
+   "quote": "Third party production: when work submitted is substantively the product of a third party."
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor academic practice involves an unintentional misunderstanding of scholarly practice."
+  },
+  {
+   "term": "Contract cheating provision",
+   "ai_named": false,
+   "quote": "Provision of contract cheating services: providing, or arranging for another person to provide, contract cheating services for financial gain to students."
+  }
+ ]
+}

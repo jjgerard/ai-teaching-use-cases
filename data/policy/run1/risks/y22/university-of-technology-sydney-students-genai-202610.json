@@ -1,0 +1,30 @@
+{
+ "doc_id": "university-of-technology-sydney-students-genai-202610",
+ "coder": "y-y22",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI can produce content that seems realistic and factual; however, the information can be inaccurate, outdated and sometimes false.",
+   "anchor": "Key considerations when using GenAI"
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "GenAI can also be subject to biases or commercial agendas, which means you don't get the full perspective on a topic.",
+   "anchor": "Key considerations when using GenAI"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "It is important to use your critical thinking skills to evaluate and fact-check all content from GenAI.",
+   "anchor": "Key considerations when using GenAI"
+  }
+ ]
+}

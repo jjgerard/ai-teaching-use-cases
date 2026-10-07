@@ -1,0 +1,37 @@
+{
+ "doc_id": "concordia-university-of-edmonton-students-genai-202610",
+ "coder": "y-y22",
+ "risks": [
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "Has the potential to compromise privacy and collect data without authorization",
+   "anchor": "What is generative AI?"
+  },
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "Can generate incorrect information, produce biased content, and has limited ability to perform calculations",
+   "anchor": "What is generative AI?"
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "Can generate incorrect information, produce biased content, and has limited ability to perform calculations",
+   "anchor": "What is generative AI?"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Prior to using GenAI, you should have a clear understanding of course policy.",
+   "anchor": "To Use or Not to Use…"
+  }
+ ]
+}

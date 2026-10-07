@@ -1,0 +1,66 @@
+{
+ "doc_id": "australian-national-university-students-genai-202610",
+ "coder": "y-y22",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Copilot Enterprise",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Copilot Enterprise is available for all ANU staff and students by signing in with an ANU account.",
+   "anchor": "Which Generative AI tools should I choose?"
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "recommended",
+   "audience": "both",
+   "name": "Copilot Enterprise",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Copilot Enterprise is currently the main ANU endorsed tool for staff and students to use as it ensures privacy and accessibility.",
+   "anchor": "Can I use Generative AI for my assessment?"
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "warned",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "While these tools may be convenient and helpful, ANU cannot guarantee your data security in these cases.",
+   "anchor": "Which Generative AI tools should I choose?"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Do not put your personal information into a system which may breach your privacy.",
+   "anchor": "Don't"
+  },
+  {
+   "data_type": "research_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not put your unpublished research into a system which may feed into generative AI data.",
+   "anchor": "Don't"
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "If allowed, use the ANU supported tool, Copilot Enterprise, and log in with your ANU account.",
+   "anchor": "How to use Generative AI with integrity"
+  }
+ ],
+ "legal": []
+}

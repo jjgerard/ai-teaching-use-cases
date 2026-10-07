@@ -1,0 +1,46 @@
+{
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI-generated content is not always reliable and can sometimes be inaccurate, biased, incomplete, or misleading.",
+   "anchor": "Use AI critically and ethically"
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "AI-generated content is not always reliable and can sometimes be inaccurate, biased, incomplete, or misleading.",
+   "anchor": "Use AI critically and ethically"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "accountable_for_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "You remain responsible for the accuracy, originality, and integrity of all work you submit, including work created with AI assistance.",
+   "anchor": "Responsible AI Use"
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Always: - verify information using credible academic sources - review AI-generated content carefully",
+   "anchor": "Use AI critically and ethically"
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Using AI responsibly means using AI tools to support your learning while meeting assessment requirements and academic integrity expectations.",
+   "anchor": "Responsible AI Use"
+  }
+ ],
+ "doc_id": "torrens-university-australia-students-genai-202610",
+ "coder": "y-y21"
+}

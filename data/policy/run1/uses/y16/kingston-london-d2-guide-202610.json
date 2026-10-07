@@ -1,0 +1,141 @@
+{
+ "doc_id": "kingston-london-d2-guide-202610",
+ "coder": "y-y16",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "All of the core work including the writing, creativity, arguments, analysis and reasoning must be the students own work, and a student must not employ a third party to do this work, whether in draft or as a final version, on their behalf.",
+   "anchor": "Principles governing use of third party help"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "All of the core work including the writing, creativity, arguments, analysis and reasoning must be the students own work, and a student must not employ a third party to do this work, whether in draft or as a final version, on their behalf.",
+   "anchor": "Principles governing use of third party help"
+  },
+  {
+   "use": "assistive_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "This does not preclude the use of a human or AI ‘scribe’ where verbatim dictation might be required for a student with a particular learning support need.",
+   "anchor": "Principles governing use of third party help"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "Such edits should be for the purpose of editing grammar, spelling, punctuation, and syntax only",
+   "anchor": "Principles governing use of third party help"
+  },
+  {
+   "use": "format_references",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "formatting and sorting of existing footnotes and endnotes",
+   "anchor": "Principles governing use of third party help"
+  },
+  {
+   "use": "format_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "to add / edit references",
+   "anchor": "Principles governing use of third party help"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "to change the text of the work so as to clarify and/or develop the ideas and arguments.",
+   "anchor": "Principles governing use of third party help"
+  },
+  {
+   "use": "translate",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "to translate the work into English",
+   "anchor": "Principles governing use of third party help"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "In all cases, the assessment brief will specify the acceptable use of GAI. The information in the brief will take precedence over this guidance.",
+   "anchor": "Introduction"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "tier": "Explicit use of GAI",
+   "quote": "*Exceptions may apply to the use of Generative AI tools where specified in the assessment brief, particularly if the ‘Explicit use of GAI’ has been specified.",
+   "anchor": "Principles governing use of third party help"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "In all cases, the assessment brief will specify the acceptable use of GAI."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "conditional",
+   "quote": "Where a Generative AI has been used as part of the editorial process, then this must be acknowledged by the student."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "the student must acknowledge what form of contribution the third party has made, by stating for example, ‘this thesis/essay/dissertation was copy edited for conventions of language, spelling and grammar by ABC Editing Ltd’."
+   },
+   {
+    "value": "tool_name",
+    "quote": "the student must acknowledge what form of contribution the third party has made, by stating for example, ‘this thesis/essay/dissertation was copy edited for conventions of language, spelling and grammar by ABC Editing Ltd’."
+   }
+  ],
+  "location": [
+   {
+    "value": "statement_in_work",
+    "quote": "When submitting work, the student must acknowledge what form of contribution the third party has made, by stating for example, ‘this thesis/essay/dissertation was copy edited for conventions of language, spelling and grammar by ABC Editing Ltd’."
+   }
+  ],
+  "records": {
+   "value": "required",
+   "quote": "For work that has been edited by a proofing / GAI tool, then a record of the process followed must be kept."
+  },
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

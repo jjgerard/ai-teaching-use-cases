@@ -1,0 +1,41 @@
+{
+ "doc_id": "university-of-technology-sydney-students-genai-202610",
+ "coder": "y-y22",
+ "tools": [],
+ "data": [
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Some content may be restricted by licenses and copyright protections and cannot be used in GenAI tools (e.g. content taken from library resources).",
+   "anchor": "Before using GenAI"
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Before you enter any content into a GenAI tool, you need to check the license or terms and conditions to ensure the content can be used with the tool.",
+   "anchor": "Before using GenAI"
+  }
+ ],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Some content may be restricted by licenses and copyright protections and cannot be used in GenAI tools (e.g. content taken from library resources).",
+   "anchor": "Before using GenAI"
+  },
+  {
+   "value": "terms_of_service",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "you need to check the license or terms and conditions to ensure the content can be used with the tool.",
+   "anchor": "Before using GenAI"
+  }
+ ]
+}

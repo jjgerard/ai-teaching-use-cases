@@ -1,0 +1,65 @@
+{
+ "tools": [
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "See Torrens AI Tools for approved platforms and guidance.",
+   "anchor": "Use AI critically and ethically"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "assessment_material",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not upload the following into unapproved or public AI tools: - assessment briefs",
+   "anchor": "Responsible AI Use"
+  },
+  {
+   "data_type": "own_work",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not upload the following into unapproved or public AI tools: - assessment briefs - your own assignment drafts in unapproved tools",
+   "anchor": "Responsible AI Use"
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not upload the following into unapproved or public AI tools: - assessment briefs - your own assignment drafts in unapproved tools - personal information",
+   "anchor": "Responsible AI Use"
+  },
+  {
+   "data_type": "research_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "- personal information - unpublished research - university materials",
+   "anchor": "Responsible AI Use"
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "- personal information - unpublished research - university materials",
+   "anchor": "Responsible AI Use"
+  }
+ ],
+ "safeguards": [],
+ "legal": [],
+ "doc_id": "torrens-university-australia-students-genai-202610",
+ "coder": "y-y21"
+}

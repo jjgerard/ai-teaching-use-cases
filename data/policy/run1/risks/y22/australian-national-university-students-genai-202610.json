@@ -1,0 +1,69 @@
+{
+ "doc_id": "australian-national-university-students-genai-202610",
+ "coder": "y-y22",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Information produced by generative AI may be incorrect, unsubstantiated, or out of date.",
+   "anchor": "How do I use generative AI responsibly and ethically?"
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "relying on or using generative AI as a shortcut to learning carries the risk of undermining your work and credibility as a researcher",
+   "anchor": "How do I use generative AI responsibly and ethically?"
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "While these tools may be convenient and helpful, ANU cannot guarantee your data security in these cases.",
+   "anchor": "Which Generative AI tools should I choose?"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Check the accuracy of all information produced by generative AI by verifying that the information is accurate by searching and confirming with source materials.",
+   "anchor": "How to use Generative AI with integrity"
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Do not accept the output of generative AI without verifying that the information is accurate by searching and confirming with source materials.",
+   "anchor": "Don't"
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Remember that all tools you use to assist your study need to be used consistent with the University’s Academic integrity guidance and procedures",
+   "anchor": "How to use Generative AI with integrity"
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Understand how you can use AI to support your study including awareness of the different systems and their benefits and limitations to intelligently and ethically use generative AI.",
+   "anchor": "How to use Generative AI with integrity"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Understand how you can use AI to support your study including awareness of the different systems and their benefits and limitations to intelligently and ethically use generative AI.",
+   "anchor": "How to use Generative AI with integrity"
+  }
+ ]
+}

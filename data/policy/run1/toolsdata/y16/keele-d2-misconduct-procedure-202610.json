@@ -1,0 +1,31 @@
+{
+ "doc_id": "keele-d2-misconduct-procedure-202610",
+ "coder": "y-y16",
+ "tools": [
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "students are permitted to use assistive AI tools to check spelling, grammar and punctuation (i.e., use of in-built spell-checkers) in all written assessments excluding formal examinations e.g. invigilated exams.",
+   "anchor": "5. PROOFREADING"
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": true,
+   "quote": "Some GenAI tools additionally have the functionality to proofread a document. Students must consult the assessment brief which details what is appropriate use of GenAI in each specific assessment in accordance with the ‘Using GenAI in Assessment Scale’.",
+   "anchor": "5. PROOFREADING"
+  }
+ ],
+ "data": [],
+ "safeguards": [],
+ "legal": []
+}

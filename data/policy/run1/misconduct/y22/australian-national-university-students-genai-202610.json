@@ -1,0 +1,41 @@
+{
+ "doc_id": "australian-national-university-students-genai-202610",
+ "coder": "y-y22",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Do not present material produced by generative AI as your own work, as this is an academic integrity breach.",
+   "anchor": "How to use Generative AI with integrity"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Ghost writing/contract cheating - when we submit work written or rewritten by another party, in part or whole, as our own.",
+   "anchor": "How do I use generative AI responsibly and ethically?"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism - when we submit words or ideas copied, in part or whole, from other sources without acknowledgment",
+   "anchor": "How do I use generative AI responsibly and ethically?"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism - when we submit words or ideas copied, in part or whole, from other sources without acknowledgment"
+  },
+  {
+   "term": "Ghost writing/contract cheating",
+   "ai_named": false,
+   "quote": "Ghost writing/contract cheating - when we submit work written or rewritten by another party, in part or whole, as our own."
+  }
+ ]
+}
