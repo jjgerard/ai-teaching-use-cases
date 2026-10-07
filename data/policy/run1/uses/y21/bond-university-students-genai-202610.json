@@ -1,0 +1,252 @@
+{
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "It's important to understand that using Gen-AI as a replacement for your work is an academic integrity violation.",
+   "anchor": "Using Gen-AI to promote your abilities"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Inspire new ideas: Use Gen-AI to generate suggestions, ask questions, or provide insights that can spark your unique creative process.",
+   "anchor": "1. Only use Gen-AI to enhance, not replace, your creativity and skill"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "Refine our work: Leverage Gen-AI to polish and improve your output, but ensure that the core ideas and execution remain your own.",
+   "anchor": "1. Only use Gen-AI to enhance, not replace, your creativity and skill"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "For all students and classes, do not use Gen-AI to translate your work from another language into English.",
+   "anchor": "Amount of use"
+  },
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "It is OK to use Gen-AI to translate a word or a phrase, but you MUST NOT prompt Gen-AI tools to translate full sentences, large blocks of text, or entire documents.",
+   "anchor": "Amount of use",
+   "tier": "word or phrase"
+  },
+  {
+   "use": "revise_or_practise",
+   "context": "study",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "At Bond University, students can use Gen-AI where educators allow it. This includes classroom activities, discussions, revision, assessment development, and presentation planning.",
+   "anchor": "Amount of use"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "At Bond University, students can use Gen-AI where educators allow it. This includes classroom activities, discussions, revision, assessment development, and presentation planning.",
+   "anchor": "Amount of use"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Artificial Intelligence can be used for a wide range of purposes including planning, editing, sorting, structuring, designing, formatting, analysing, and visualising.",
+   "anchor": "How students can use Gen-AI at Bond University"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Artificial Intelligence can be used for a wide range of purposes including planning, editing, sorting, structuring, designing, formatting, analysing, and visualising.",
+   "anchor": "How students can use Gen-AI at Bond University"
+  },
+  {
+   "use": "analyse_data",
+   "context": "unspecified",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Artificial Intelligence can be used for a wide range of purposes including planning, editing, sorting, structuring, designing, formatting, analysing, and visualising.",
+   "anchor": "How students can use Gen-AI at Bond University"
+  },
+  {
+   "use": "rely_on_ai_as_source",
+   "context": "unspecified",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Be critical of the output, ensuring it’s reputable, accurate and current.",
+   "anchor": "The do's"
+  },
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "discouraged",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Do not simply copy and paste the Gen-AI output into ANY assessment submission and hope for the best.",
+   "anchor": "The don'ts"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "All AI tools and platforms are strictly prohibited.",
+   "anchor": "Category 1: AI-Prohibited (AI-P)",
+   "tier": "AI-Prohibited (AI-P)"
+  },
+  {
+   "use": "any_use",
+   "context": "exams_or_supervised",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Examples: Invigilated exams and oral tests.",
+   "anchor": "Category 1: AI-Prohibited (AI-P)",
+   "tier": "AI-Prohibited (AI-P)"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "In AI-supported assessments, students use unsupervised AI tools.",
+   "anchor": "Category 2: AI-Supported (AI-S)",
+   "tier": "AI-Supported (AI-S)"
+  },
+  {
+   "use": "generate_ideas",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Example: An assignment to design a communication campaign where students can use AI tools to develop stages of the campaign project and ideas for the use of different communication channels.",
+   "anchor": "Category 2: AI-Supported (AI-S)",
+   "tier": "AI-Supported (AI-S)"
+  },
+  {
+   "use": "plan_or_structure",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "Example: An assignment to design a communication campaign where students can use AI tools to develop stages of the campaign project and ideas for the use of different communication channels.",
+   "anchor": "Category 2: AI-Supported (AI-S)",
+   "tier": "AI-Supported (AI-S)"
+  },
+  {
+   "use": "check_language",
+   "context": "assessed_work",
+   "stance": "permitted",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI may be permitted to check expression and syntax.",
+   "anchor": "Category 2: AI-Supported (AI-S)",
+   "tier": "AI-Supported (AI-S)"
+  },
+  {
+   "use": "critical_analysis_and_evaluation",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "limited_extent"
+   ],
+   "quote": "Students must demonstrate critical thinking, synthesis, and original contribution beyond AI-generated content.",
+   "anchor": "Category 2: AI-Supported (AI-S)",
+   "tier": "AI-Supported (AI-S)"
+  },
+  {
+   "use": "any_use",
+   "context": "assessed_work",
+   "stance": "required",
+   "acknowledge": "required",
+   "conditions": [],
+   "quote": "AI tools constitute an essential and fundamental aspect of the assessment process.",
+   "anchor": "Category 3: AI-Focussed (AI-F)",
+   "tier": "AI-Focussed (AI-F)"
+  }
+ ],
+ "default_when_silent": {
+  "value": "ask_instructor",
+  "quote": "Confirm with educators before using Gen-AI."
+ },
+ "decided_by": [
+  {
+   "value": "tiered_scale",
+   "quote": "The Bond University AI Assessment Framework establishes clear categories for integrating AI into academic assessments, ensuring academic integrity, assurance of learning, and the development of digital literacy among students."
+  },
+  {
+   "value": "assessment_brief",
+   "quote": "Subject outlines and iLearn sites will indicate which category applies to an assessment item."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Staff must clearly communicate AI usage guidelines, and students need to follow these instructions carefully."
+  },
+  {
+   "value": "institution_wide",
+   "quote": "For all students and classes, do not use Gen-AI to translate your work from another language into English."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Every use of Gen-AI by students and staff must be declared."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "Students are expected to follow transparent disclosure practices, stating when and how AI has been used in their work."
+   }
+  ],
+  "location": [
+   {
+    "value": "coversheet_or_form",
+    "quote": "Submit a Statement of Authorship with every assessable piece of work."
+   }
+  ],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Declare the use of Gen-AI in accordance with the latest advice from the Library."
+  },
+  "consequence": null,
+  "exempt": []
+ },
+ "doc_id": "bond-university-students-genai-202610",
+ "coder": "y-y21"
+}

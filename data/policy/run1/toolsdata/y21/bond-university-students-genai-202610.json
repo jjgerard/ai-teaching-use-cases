@@ -1,0 +1,211 @@
+{
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Microsoft CoPilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "All students and staff can access CoPilot through the Edge Browser after single sign-on.",
+   "anchor": "Bond preferred Gen-AI tools"
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "provided",
+   "audience": "both",
+   "name": "Grammarly",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Bond University is committed to providing equitable access to Gen-AI tools for students and staff. The University has acquired licenses for all staff and students to use the following tools.",
+   "anchor": "Bond preferred Gen-AI tools"
+  },
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "recommended",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Use Bond recommended tools",
+   "anchor": "The do's"
+  },
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "conditional",
+   "audience": "both",
+   "name": null,
+   "conditions": [
+    "approved_tool_only"
+   ],
+   "ai_named": true,
+   "quote": "Only promote the use of the University-approved AI tools",
+   "anchor": "IT security"
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "warned",
+   "audience": "both",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Although these are not included in the University’s preferred tools, we recognise that their unique capabilities mean they can assist students and staff in their work. These tools pose greater risks to privacy, intellectual property and security than preferred tools.",
+   "anchor": "Other tools"
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "not_endorsed",
+   "audience": "both",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Bond University does not provide support for these tools, nor has the University approved any desktop-based software that may be associated with those solutions.",
+   "anchor": "Other tools"
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "prohibited",
+   "audience": "both",
+   "name": "DeepSeek",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Prohibited tools DeepSeek",
+   "anchor": "Prohibited tools"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "university_materials",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not upload class slides and documents, client or business information, or library documents to Gen-AI Tools.",
+   "anchor": "The don'ts"
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not upload class slides and documents, client or business information, or library documents to Gen-AI Tools.",
+   "anchor": "The don'ts"
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Do not upload class slides and documents, client or business information, or library documents to Gen-AI Tools.",
+   "anchor": "The don'ts"
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Even personal information should not be uploaded to avoid privacy violations.",
+   "anchor": "The don'ts"
+  },
+  {
+   "data_type": "personal_data",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Staff and students must never submit information about each other, study participants, or third parties such as clients, customers, or patients to Gen-AI platforms.",
+   "anchor": "Individual privacy"
+  },
+  {
+   "data_type": "research_data",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Staff and students must never submit information about each other, study participants, or third parties such as clients, customers, or patients to Gen-AI platforms.",
+   "anchor": "Individual privacy"
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Staff and students must never submit information about each other, study participants, or third parties such as clients, customers, or patients to Gen-AI platforms.",
+   "anchor": "Individual privacy"
+  },
+  {
+   "data_type": "university_materials",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Examples of Bond University materials that should NOT be uploaded include lecture slides, class materials such as task sheets and rubrics, and class readings.",
+   "anchor": "Intellectual property"
+  },
+  {
+   "data_type": "assessment_material",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Examples of Bond University materials that should NOT be uploaded include lecture slides, class materials such as task sheets and rubrics, and class readings.",
+   "anchor": "Intellectual property"
+  },
+  {
+   "data_type": "others_work_and_copyright",
+   "stance": "prohibited",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Most library resources are provided under license, and most licences prohibit uploads to Gen-AI platforms.",
+   "anchor": "Commercial agreements"
+  },
+  {
+   "data_type": "own_work",
+   "stance": "permitted",
+   "audience": "both",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "AI users should only input or upload content that is owned by them and content which they are comfortable being used by the AI platform.",
+   "anchor": "Intellectual property"
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "anonymise_before_entry",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "It is essential to anonymise all references to people and organisations.",
+   "anchor": "Individual privacy"
+  },
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "However, it will be essential that all users are assured of those protections before uploading personal or organisational information.",
+   "anchor": "Individual privacy"
+  }
+ ],
+ "legal": [
+  {
+   "value": "copyright",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Copyright infringement risks in inputs/outputs",
+   "anchor": "Data privacy and protection"
+  },
+  {
+   "value": "data_protection",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "Implement Robust Data Governance Frameworks: to ensure responsible collection, use, and protection of student & staff data, ensuring compliance with privacy laws",
+   "anchor": "IT security"
+  }
+ ],
+ "doc_id": "bond-university-students-genai-202610",
+ "coder": "y-y21"
+}

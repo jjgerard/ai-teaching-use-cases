@@ -110,3 +110,73 @@ No second document was found for Technological University Shannon (TUS) and Muns
 | Northeastern University London | robots_disallowed | northeastern-london-students-genai-202610 | https://www.nulondon.ac.uk/wp-content/uploads/2025/01/AY24-AQF7-Part-C-Assessment-Regulations-24.3.0.pdf | https://www.nulondon.ac.uk/academic-handbook/ai-strategy/ |
 
 No candidate page found at all (6): Stranmillis University College, Leeds Arts University, University College of Osteopathy, Scotland's Rural College, St Mary's University College, Health Sciences University.
+
+
+## Batch 7 (second documents for England, international draw 2): pages not archived
+
+Fetch these in a browser and import with `node policy/fetch.js import saved.html --id <doc_id> --url <url> --dir data/policy/run1/archive7`.
+
+| status | doc_id | institution | url |
+|---|---|---|---|
+| blocked | soas-london-d2-misconduct-procedure-202610 | SOAS University of London | https://www.soas.ac.uk/sites/default/files/2025-09/REG-183-10%20Academic%20Misconduct%20Procedure.pdf |
+| js_shell | southampton-solent-d2-misconduct-procedure-202610 | Southampton Solent University | https://students.solent.ac.uk/studying/what-we-expect-from-you/student-academic-misconduct |
+| robots_disallowed | teesside-d2-misconduct-procedure-202610 | Teesside University | https://connect.tees.ac.uk/docs/publicdocumentslibraries/default-document-library/legal-and-governance-services/academic-misconduct-regulations.pdf |
+| robots_disallowed | law-d2-assessment-policy-202610 | The University of Law | https://www.law.ac.uk/globalassets/13.-media--doc-repo/08.-policies/pdf_policies_ai-and-assessment-student-protocol.pdf |
+| blocked | ucl-d2-misconduct-procedure-202610 | University College London | https://www.ucl.ac.uk/study/current-students/academic-manual/chapters/chapter-6-student-casework-framework/section-9-student-academic-misconduct-procedure |
+| robots_disallowed | for-creative-arts-d2-misconduct-procedure-202610 | University for the Creative Arts | https://uca.assetbank-server.com/assetbank-uca/assetfile/69596 |
+| robots_disallowed | brighton-d2-assessment-policy-202610 | University of Brighton | https://unibrightonac.sharepoint.com/:b:/s/public/ET4jBPx7tdtEr4dABxqvZrMBEYv7SBjpJ0MET49NtzXOjg?e=3JPNkl |
+| blocked | east-london-d2-misconduct-procedure-202610 | University of East London | https://www.uel.ac.uk/about/governance/manual-general-regulations/part-7-academic-integrity-academic-misconduct-regulations-2025-26 |
+| blocked | gloucestershire-d2-misconduct-procedure-202610 | University of Gloucestershire | https://www.glos.ac.uk/information/knowledge-base/academic-regulations-for-taught-provision-2026-27/ |
+| blocked | herts-d2-assessment-policy-202610 | University of Hertfordshire | https://www.herts.ac.uk/__data/assets/pdf_file/0011/444926/Academic-Handbook-2025-2026.pdf |
+| error | northampton-d2-misconduct-procedure-202610 | University of Northampton | https://searchtundra.northampton.ac.uk/getfile.ashx?DocId=3837978882434213095&tag=6b623fba-68f4-4e99-915e-34128c51b1c6 |
+| blocked | city-st-georges-london-d2-misconduct-procedure-202610 | City St George's, University of London | https://studenthub.citystgeorges.ac.uk/__data/assets/pdf_file/0008/494576/Academic-Integrity-and-Misconduct-Policy.pdf |
+| js_shell | coventry-d2-misconduct-procedure-202610 | Coventry University | https://www.coventry.ac.uk/student-central/coventry/handbook/assessment-and-awards/academic-integrity/ |
+| blocked | falmouth-d2-misconduct-procedure-202610 | Falmouth University | https://www.falmouth.ac.uk/sites/default/files/media/downloads/academic-integrity-policy-23-july-2025.pdf |
+| js_shell | lancaster-d2-institutional-policy-202610 | Lancaster University | https://portal.lancaster.ac.uk/ask/university-position-ai/ |
+| blocked | london-school-hygiene-and-tropical-medicine-d2-assessment-policy-202610 | London School of Hygiene & Tropical Medicine | https://www.lshtm.ac.uk/media/74671 |
+| blocked | london-south-bank-d2-misconduct-procedure-202610 | London South Bank University | https://www.lsbu.ac.uk/_resources/pdf/policies-and-regulations/student-academic-misconduct-procedure.pdf |
+| blocked | newman-d2-institutional-policy-202610 | Newman University | https://newman.ac.uk/student-life-and-support/ai-guidelines/ |
+| robots_disallowed | northumbria-d2-misconduct-procedure-202610 | Northumbria University | https://corp.northumbria.ac.uk/-/media/university-policies/policy-master-versions/academic-misconduct-policy.pdf?modified=20250523120544 |
+| blocked | deakin-university-students-genai-202610 | Deakin University | https://www.deakin.edu.au/students/study-support/study-resources/artificial-intelligence |
+| blocked | the-university-of-notre-dame-australia-students-genai-202610 | The University of Notre Dame Australia | https://www.notredame.edu.au/students/support/study-support/academic-integrity |
+| blocked | monash-university-students-genai-202610 | Monash University | https://www.monash.edu/ai/ai-for-students |
+| blocked | edith-cowan-university-students-genai-202610 | Edith Cowan University | https://intranet.ecu.edu.au/student/my-studies/study-assistance/generative-ai-in-learning |
+| js_shell | university-of-newcastle-australia-students-genai-202610 | University of Newcastle Australia | https://libguides.newcastle.edu.au/AI-tools/students |
+| error | universite-de-sherbrooke-students-genai-202610 | Université de Sherbrooke | https://www.usherbrooke.ca/intelligence-artificielle/nouvelles/details/56944 |
+
+### International draw 2: institutions not searched (the search tool's per-turn limit ran out)
+
+Re-run `data/policy/run1/discovery-intl2/hN` for these batches with a fresh search budget: 
+
+- h10: University of New Brunswick
+- h10: Royal Roads University
+- h10: Western University
+- h10: Nipissing University
+- h11: Baylor University
+- h11: Vanguard University
+- h11: Stockton University
+- h11: Sarasota University
+- h12: Northern Arizona University
+- h12: University of Maryland Center for Environmental Science
+- h12: University of North Carolina at Pembroke
+- h12: International University of Professional Studies
+- h13: The Ohio State University at Lima
+- h13: The University of Texas at Arlington
+- h13: University of Arkansas Community College at Batesville
+- h2: Central Queensland University
+- h3: Southern Cross University
+- h5: The University of Queensland
+- h5: The University of Sydney
+- h5: La Trobe University
+- h6: Université Sainte-Anne
+- h7: NSCAD University
+- h7: Brandon University
+- h7: Université du Québec à Montréal
+- h8: St. Jerome's University
+- h8: Alberta University of the Arts
+- h9: Ontario Tech University
+- h9: Saint Paul University
+- h9: University of Victoria
+- h9: Huron University
+
+No outcome file at all: h14, h15

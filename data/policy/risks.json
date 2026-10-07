@@ -7761,5 +7761,2375 @@
     "anchor": null
    }
   ]
+ },
+ {
+  "doc_id": "arts-plymouth-d2-misconduct-procedure-202610",
+  "coder": "y-y1",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Students shall be considered responsible for the academic integrity of all work they submit for assessment, including group assessments.",
+    "anchor": "Responsibilities"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "All students must ensure that they are aware of, and comply with, University and course requirements and that they are not party to any behaviour which could be construed as academic misconduct.",
+    "anchor": "Responsibilities"
+   },
+   {
+    "duty": "report_concerns_or_incidents",
+    "bearer": "staff",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Where an internal marker suspects that a candidate has breached the Regulations in respect of assessed work other than a formal examination, they should advise the unit leader for the work in question.",
+    "anchor": "Initial action by internal or external marker"
+   }
+  ]
+ },
+ {
+  "doc_id": "aston-d2-misconduct-procedure-202610",
+  "coder": "y-y1",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "report_concerns_or_incidents",
+    "bearer": "staff",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "It is the responsibility of members of staff to refer cases of suspected academic offences to the Academic Offences Officer of the School in which the student is",
+    "anchor": "C1.6"
+   }
+  ]
+ },
+ {
+  "doc_id": "aub-d2-assessment-policy-202610",
+  "coder": "y-y1",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "unspecified",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Gen AI can contribute to a high-quality educational experience; used responsibly, it can enhance student learning.",
+    "anchor": "Technology"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "it is important that students understand both the benefits and limitations of Gen AI so that they are able to make informed decisions about its use in their subsequent professional lives.",
+    "anchor": "Technology"
+   }
+  ]
+ },
+ {
+  "doc_id": "bath-spa-d2-misconduct-procedure-202610",
+  "coder": "y-y1",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "It’s important you use generative artificial intelligence (AI) carefully",
+    "anchor": "How am I allowed to use AI in my work?"
+   },
+   {
+    "duty": "report_concerns_or_incidents",
+    "bearer": "staff",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "The member of staff who has identified the possible misconduct or had this reported to them must complete an Alleged Academic Misconduct Report Form and attach supporting evidence",
+    "anchor": "How is academic misconduct reported?"
+   }
+  ]
+ },
+ {
+  "doc_id": "surrey-d2-institutional-policy-202610",
+  "coder": "y-y10",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "GenAI tools are not always going to get it right and cannot be held accountable.",
+    "anchor": "Accountable"
+   },
+   {
+    "risk": "bias_or_discrimination",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "Bias awareness: Recognising and mitigating biases in GenAI models helps prevent discrimination and ensures fair outcomes.",
+    "anchor": "Considered"
+   },
+   {
+    "risk": "privacy_or_data_exposure",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "To reduce the risk of data breaches and misuse, personal, confidential, and commercially sensitive information (including Intellectual Property) must NOT be entered into GenAI tools",
+    "anchor": "Considered"
+   },
+   {
+    "risk": "environmental_impact",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "Recognising the high energy and water demands of AI technologies, the University will actively assess and report on the environmental impact of AI tools and services",
+    "anchor": "Sustainability"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "both",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Take responsibility for GenAI-assisted work; apply human oversight and verify outputs.",
+    "anchor": "Accountable"
+   },
+   {
+    "duty": "human_oversight",
+    "bearer": "both",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Take responsibility for GenAI-assisted work; apply human oversight and verify outputs.",
+    "anchor": "Accountable"
+   },
+   {
+    "duty": "verify_output",
+    "bearer": "both",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "It is essential to verify GenAI-generated results and understand the limitations of the tools being used.",
+    "anchor": "Accountable"
+   },
+   {
+    "duty": "verify_output",
+    "bearer": "staff",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Any AI generated code for use within approved systems needs to be reviewed in line with established code review practices before deployment.",
+    "anchor": "Approved tools"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "both",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "We encourage the informed and responsible use of GenAI.",
+    "anchor": "Purpose"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "GenAI technologies must be deployed responsibly and safely, with clear consideration of their societal and environmental impact.",
+    "anchor": "Ensuring Responsible and Sustainable Deployment"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "All use of GenAI tools must comply with applicable UK Data Protection legislation and University policies.",
+    "anchor": "Data protection & privacy"
+   },
+   {
+    "duty": "assess_risk_before_use",
+    "bearer": "staff",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "If you wish to propose a new tool or enable a GenAI feature for University use, please ensure it first goes through the appropriate assessment process — including a Vendor Risk Assessment (VRA) and a Data Protection Impact Assessment (DPIA)",
+    "anchor": "Approved tools"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "All users must read and understand this procedure before engaging with any form of GenAI during University work.",
+    "anchor": "Purpose"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "Staff will be supported through training and awareness programmes to remain informed about current developments in GenAI ethics, safety, and regulation",
+    "anchor": "Fostering Lifelong Education and Adaptability"
+   },
+   {
+    "duty": "keep_guidance_under_review",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "This procedure will be reviewed annually, or sooner in response to regulatory changes, to remain aligned with emerging GenAI advancements and ethical considerations.",
+    "anchor": "Review"
+   },
+   {
+    "duty": "ensure_equitable_access",
+    "bearer": "staff",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Teams engaged in GenAI related work must foster equitable participation to ensure GenAI tools and systems are fair, representative, and beneficial, avoid reinforcing bias or discrimination, and be accessible to all.",
+    "anchor": "Promoting Inclusion & Diversity"
+   }
+  ]
+ },
+ {
+  "doc_id": "sussex-d2-misconduct-procedure-202610",
+  "coder": "y-y10",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "warwick-d2-guide-202610",
+  "coder": "y-y10",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "You should be particularly mindful of the tendency of GenAI tools to cite non-existent resources or information (“hallucinations”).",
+    "anchor": "Permitted and prohibited uses of GenAI – Guidance to Students"
+   },
+   {
+    "risk": "bias_or_discrimination",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "There are also concerns about the quality of the data on which AI systems are trained, particularly regarding its robustness and accuracy, and biases.",
+    "anchor": "Limitations of GenAI"
+   },
+   {
+    "risk": "environmental_impact",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "the degree of energy use and the resulting environmental impact of the infrastructure (e.g., data centres) required for some AI systems is starting to attract more attention and concern.",
+    "anchor": "Limitations of GenAI"
+   },
+   {
+    "risk": "overreliance_or_loss_of_skills",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Students should be aware that GenAI tools can weaken the quality of your work – particularly if you rely on GenAI for accuracy, relevance and rigour.",
+    "anchor": "Permitted and prohibited uses of GenAI – Guidance to Students"
+   },
+   {
+    "risk": "copyright_or_ip_infringement",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Be mindful that uploading material protected by copyright can infringe copyright rules.",
+    "anchor": "Permitted and prohibited uses of GenAI – Guidance to Students"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "verify_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Therefore, you must always double check what the GenAI tools suggest to you and never substitute them for your own voice.",
+    "anchor": "Permitted and prohibited uses of GenAI – Guidance to Students"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Academic integrity must be ensured in all activities involving the use of AI.",
+    "anchor": "Our approach to Artificial Intelligence (AI)"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "We seek to develop AI literacy among our students to instil good practice regarding the responsible use of AI as a tool to assist (but not replace) their learning and skills development.",
+    "anchor": "Our approach to Artificial Intelligence (AI)"
+   }
+  ]
+ },
+ {
+  "doc_id": "west-england-d2-misconduct-procedure-202610",
+  "coder": "y-y10",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Using generative AI at UWE Bristol Students are responsible for ensuring that any use of these tools complies with all relevant requirements.",
+    "anchor": "Guidance on the use of Artificial Intelligence technologies"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Fully engage with the information and training opportunities provided by the University",
+    "anchor": "Responsibilities and Expectations"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": false,
+    "quote": "Be committed to ongoing staff development to effectively respond to technological advancements that may have an impact on academic integrity;",
+    "anchor": "Responsibilities and Expectations"
+   }
+  ]
+ },
+ {
+  "doc_id": "bimm-d2-assessment-policy-202610",
+  "coder": "y-y11",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "the use of Artificial Intelligence (AI) in the work you submit for assessment must comply with the guidelines set out in our Academic Integrity Policy and be fully attributed.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "birkbeck-london-d2-misconduct-procedure-202610",
+  "coder": "y-y11",
+  "risks": [
+   {
+    "risk": "copyright_or_ip_infringement",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "This can also include using generative AI tools which can take other people’s words and ideas without reference.",
+    "anchor": null
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "adhere to and comply with all applicable regulatory, legal and professional obligations and follow any relevant ethical requirements;",
+    "anchor": null
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "The College is committed to ethical and responsible use of generative AI.",
+    "anchor": null
+   },
+   {
+    "duty": "report_concerns_or_incidents",
+    "bearer": "staff",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "where you suspect that a student has produced work that breaches the Academic Integrity and Misconduct Policy, you have an obligation to report it for investigation.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "warwick-d2-misconduct-procedure-202610",
+  "coder": "y-y11",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "west-london-d2-misconduct-procedure-202610",
+  "coder": "y-y11",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "report_concerns_or_incidents",
+    "bearer": "staff",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Where a member of staff suspects that a major offence has been committed as part of any assessment, the Module Leader or assessor shall immediately notify the Head of Subject or authorised nominee.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "birmingham-city-d2-misconduct-procedure-202610",
+  "coder": "y-y12",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "bishop-grosseteste-d2-assessment-policy-202610",
+  "coder": "y-y12",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "I declare that the work is entirely my own.",
+    "anchor": "6. ARRANGEMENTS FOR THE SUBMISSION OF SUMMATIVE COURSEWORK"
+   }
+  ]
+ },
+ {
+  "doc_id": "bpp-d2-misconduct-procedure-202610",
+  "coder": "y-y12",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Students must refer to the Acceptable and Unacceptable Uses of AI guidance that accompanies this policy.",
+    "anchor": "5. Academic Misconduct"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": false,
+    "quote": "The University will ensure that all students are aware of, and educated on, the principles of good academic practice",
+    "anchor": "2. Guiding Principles"
+   }
+  ]
+ },
+ {
+  "doc_id": "westminster-d2-misconduct-procedure-202610",
+  "coder": "y-y12",
+  "risks": [
+   {
+    "risk": "overreliance_or_loss_of_skills",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "The use of any machine or third-party human to generate an assignment on behalf of a student is a form of academic misconduct, that not only provides an unfair advantage but inhibits the development of crucial critical thinking skills by that student.",
+    "anchor": "Plagiarism using Generative AI"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "regardless of whether you intended to plagiarise or not you'll still be held responsible for the work you hand in",
+    "anchor": "Understanding plagiarism - FAQs"
+   }
+  ]
+ },
+ {
+  "doc_id": "winchester-d2-misconduct-procedure-202610",
+  "coder": "y-y13",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "worcester-d2-assessment-policy-202610",
+  "coder": "y-y13",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "york-d2-misconduct-procedure-202610",
+  "coder": "y-y13",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "york-st-john-d2-misconduct-procedure-202610",
+  "coder": "y-y13",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Good academic practice involves students improving their note-making and writing skills, being motivated to direct their own studies, seeking advice if in doubt, engaging with and adhering to the University’s guidelines on Artificial Intelligence and any associated development and acknowledging the sources used by referencing correctly.",
+    "anchor": "27.6 Student responsibilities"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Good academic practice involves students improving their note-making and writing skills, being motivated to direct their own studies, seeking advice if in doubt, engaging with and adhering to the University’s guidelines on Artificial Intelligence and any associated development and acknowledging the sources used by referencing correctly.",
+    "anchor": "27.6 Student responsibilities"
+   }
+  ]
+ },
+ {
+  "doc_id": "brunel-london-d2-institutional-policy-202610",
+  "coder": "y-y14",
+  "risks": [
+   {
+    "risk": "inequity_of_access",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "We'll develop strategies to ensure students are not disadvantaged if they do not use Generative AI or do not have access to it.",
+    "anchor": "Inclusivity"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "ensure_equitable_access",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "We'll develop strategies to ensure students are not disadvantaged if they do not use Generative AI or do not have access to it.",
+    "anchor": "Inclusivity"
+   },
+   {
+    "duty": "no_compulsion_to_use",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "We'll develop strategies to ensure students are not disadvantaged if they do not use Generative AI or do not have access to it.",
+    "anchor": "Inclusivity"
+   },
+   {
+    "duty": "keep_guidance_under_review",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "We'll establish a Working Group to regularly monitor developments in AI technologies and their use in education, identify challenges and opportunities and share information and effective practice.",
+    "anchor": null
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "we'll ensure that Generative AI is used appropriately in teaching and learning.",
+    "anchor": null
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "Staff and students will receive clear guidelines on using Generative AI.",
+    "anchor": "Training"
+   }
+  ]
+ },
+ {
+  "doc_id": "canterbury-d2-misconduct-procedure-202610",
+  "coder": "y-y14",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "cranfield-d2-misconduct-procedure-202610",
+  "coder": "y-y14",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Such content can contain errors, and there are significant risks associated with the use of material generated by AI tools which may not have correctly drawn on, referenced, or attributed material that has been used.",
+    "anchor": "2.10 The use of AI-generated content"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "It is each student’s responsibility to make themselves aware of the significant risks associated with the excessive and indiscriminate use of AI-generated content.",
+    "anchor": "2.10 The use of AI-generated content"
+   },
+   {
+    "duty": "verify_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "It is essential that students take responsibility for the full and proper checking and referencing of all original source data.",
+    "anchor": "2.10 The use of AI-generated content"
+   },
+   {
+    "duty": "human_oversight",
+    "bearer": "staff",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "This can be reviewed by staff to assist but is not an indicator of misconduct and must be supplemented by an academic assessment.",
+    "anchor": "5.1"
+   },
+   {
+    "duty": "report_concerns_or_incidents",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Every employee and student of Cranfield has a duty to inform the appropriate authorities if they know or suspect that there has been a breach of good conduct.",
+    "anchor": "2 What is academic misconduct"
+   }
+  ]
+ },
+ {
+  "doc_id": "de-montfort-d2-misconduct-procedure-202610",
+  "coder": "y-y14",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Using information gained from an AI tool that may not provide you with real information",
+    "anchor": "3.8 Fabrication and/or falsification of information"
+   }
+  ],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "edge-hill-d2-misconduct-procedure-202610",
+  "coder": "y-y15",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "You are responsible for familiarising yourself with this information.",
+    "anchor": "Contract Cheating"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "You are expected to maintain academic integrity throughout your studies and to seek advice or support if you are unsure of how to do this.",
+    "anchor": "1. General Provisions"
+   },
+   {
+    "duty": "keep_guidance_under_review",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": false,
+    "quote": "They are refreshed annually and reviewed every three years",
+    "anchor": "1. General Provisions"
+   }
+  ]
+ },
+ {
+  "doc_id": "goldsmiths-london-d2-misconduct-procedure-202610",
+  "coder": "y-y15",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "expects all members of the University (staff and students) to respect and uphold these core values at all times.",
+    "anchor": "1.2 Academic Integrity and Responsibilities"
+   }
+  ]
+ },
+ {
+  "doc_id": "harper-adams-d2-guide-202610",
+  "coder": "y-y15",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "We require all students to show good academic practice – that means that you work with honesty in all your assessment work and study.",
+    "anchor": "Fairness and Integrity"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Please familiarise yourself with what good academic practice is – for example it means appropriate use of artificial intelligence and citing sources that are used in your work.",
+    "anchor": "Fairness and Integrity"
+   }
+  ]
+ },
+ {
+  "doc_id": "hartpury-d2-assessment-policy-202610",
+  "coder": "y-y15",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "avail themselves of the information and training opportunities provided which are aimed at developing their understanding of good academic practices and skills such as referencing, citation, paraphrasing and compiling a bibliography; and;",
+    "anchor": "The Student’s Responsibilities"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "undertake assessment in accordance with the academic regulations, policies and associated documents;",
+    "anchor": "The Student’s Responsibilities"
+   },
+   {
+    "duty": "human_oversight",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": false,
+    "quote": "It is important to note that the use of electronic detection software in this way is seen as an adjunct to the normal exercise of academic judgement not as a replacement for it.",
+    "anchor": "The use of text-matching and academic misconduct detection software"
+   }
+  ]
+ },
+ {
+  "doc_id": "imperial-d2-misconduct-procedure-202610",
+  "coder": "y-y16",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "report_concerns_or_incidents",
+    "bearer": "unspecified",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Allegations of academic misconduct must be reported as soon as possible and normally within 20 working days of detection",
+    "anchor": "Assessing the severity of academic misconduct"
+   }
+  ]
+ },
+ {
+  "doc_id": "kcl-d2-misconduct-procedure-202610",
+  "coder": "y-y16",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "For the avoidance of doubt, generative Artificial Intelligence writing programmes are third party technologies and must only be used in accordance with College guidance.",
+    "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "take responsibility for their own academic work and ensure that they comply with assessment requirements and this policy;",
+    "anchor": "2. Responsibilities"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Students should see university guidance on how to do this here.",
+    "anchor": "4. Proof Reading, Writing Services, Software and Technology"
+   },
+   {
+    "duty": "report_concerns_or_incidents",
+    "bearer": "both",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Staff and students should report any activity related to the provision or advertisement of contract cheating services which occurs within the King’s community to Student Conduct & Appeals (SCA).",
+    "anchor": "5. Academic Misconduct which is also a criminal offence"
+   }
+  ]
+ },
+ {
+  "doc_id": "keele-d2-misconduct-procedure-202610",
+  "coder": "y-y16",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "It is a student’s responsibility to ensure they are clear about what is appropriate use of GenAI for a specific assessment.",
+    "anchor": "5. PROOFREADING"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Students should always consult the Assessment Brief at the start of an assessment, and revisit this before submission to ensure it has been followed carefully. This will include such details as what and how generative AI (GenAI) usage is permitted for each specific assessment.",
+    "anchor": "2. GOOD ACADEMIC PRACTICE"
+   },
+   {
+    "duty": "human_oversight",
+    "bearer": "staff",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Markers must not rely solely on the similarity index in a text/patent matching software report when deciding whether to refer a case.",
+    "anchor": "19. ROLES AND RESPONSIBILITIES"
+   },
+   {
+    "duty": "report_concerns_or_incidents",
+    "bearer": "staff",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Academic staff who suspect academic misconduct in an assignment must refer the matter to the Academic Conduct Officer for consideration.",
+    "anchor": "19. ROLES AND RESPONSIBILITIES"
+   }
+  ]
+ },
+ {
+  "doc_id": "kingston-london-d2-guide-202610",
+  "coder": "y-y16",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Ultimately it is the student’s responsibility to ensure that the threshold between minor advice /corrections does not result in the core work including the writing, creativity, arguments, analysis and reasoning no longer being their own.",
+    "anchor": "Introduction"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "If the student chooses to use a third party, it is their responsibility to give them a copy of this statement or where a software tool(s) is used, to ensure usage falls within requirements of this statement.",
+    "anchor": "Principles governing use of third party help"
+   }
+  ]
+ },
+ {
+  "doc_id": "leeds-beckett-d2-misconduct-procedure-202610",
+  "coder": "y-y17",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "leedstrinity-d2-misconduct-procedure-202610",
+  "coder": "y-y17",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "students should be aware of its limitations as it is unable to take context into consideration and meaning can be lost.",
+    "anchor": "8. Proof-Reading and Translation Services"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "It is the responsibility of the student to ensure that their work conforms to academic integrity.",
+    "anchor": "2. Introduction"
+   }
+  ]
+ },
+ {
+  "doc_id": "liverpool-hope-d2-misconduct-procedure-202610",
+  "coder": "y-y17",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Students should consult the acceptable uses policy of the University.",
+    "anchor": "3.1 Use of Generative Artificial Intelligence"
+   }
+  ]
+ },
+ {
+  "doc_id": "londonmet-d2-misconduct-procedure-202610",
+  "coder": "y-y17",
+  "risks": [
+   {
+    "risk": "overreliance_or_loss_of_skills",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "over-reliance on these tools could lead to poor academic practice or academic misconduct",
+    "anchor": "London Metropolitan University principles on the use of Generative AI"
+   },
+   {
+    "risk": "bias_or_discrimination",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "We will work with students to understand the biases that may be perpetuated by AI and to minimise any inequities in access and usage.",
+    "anchor": "London Metropolitan University principles on the use of Generative AI"
+   },
+   {
+    "risk": "inequity_of_access",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "We will work with students to understand the biases that may be perpetuated by AI and to minimise any inequities in access and usage.",
+    "anchor": "London Metropolitan University principles on the use of Generative AI"
+   },
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "critical, and creative engagement with AI in class including to explain its unreliability",
+    "anchor": "London Metropolitan University principles on the use of Generative AI"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "keep_guidance_under_review",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "Course and module content at London Metropolitan University will be regularly reviewed to ensure the exploration and understanding of emerging technologies, including AI, within specific sectors.",
+    "anchor": null
+   },
+   {
+    "duty": "ensure_equitable_access",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "We will work with students to understand the biases that may be perpetuated by AI and to minimise any inequities in access and usage.",
+    "anchor": null
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "We will support students in their Generative AI literacy within wider learning skills development, assessment literacy, information literacy, digital literacy, and awareness of academic misconduct.",
+    "anchor": null
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "You are strongly advised to familiarise yourself with the Academic Misconduct Policy and Procedure",
+    "anchor": "Academic Misconduct"
+   },
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "You are also responsible for ensuring that all work submitted is your own and that it is appropriately referenced.",
+    "anchor": "Academic Misconduct"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "We permit the appropriate and responsible use of Generative AI applications by our students.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "loughborough-d2-misconduct-procedure-202610",
+  "coder": "y-y18",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "lse-d2-misconduct-procedure-202610",
+  "coder": "y-y18",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Any use of Artificial Intelligence software must strictly comply with the requirements specified by the department responsible for the assessment.",
+    "anchor": "What is an assessment integrity breach?"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "The responsibility for learning the proper forms of citation, assessment rules and permitted materials (including permitted calculators) lies with the individual student.",
+    "anchor": "What is an assessment integrity breach?"
+   }
+  ]
+ },
+ {
+  "doc_id": "manchester-metropolitan-d2-misconduct-procedure-202610",
+  "coder": "y-y18",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "The latter includes ‘hallucinated’ references, for example in instances where they have been generated by artificial intelligence.",
+    "anchor": "2.7 Falsification"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Students must refer to the assignment brief for details on the use of generative artificial intelligence within assignments, and must acknowledge its use in line with this.",
+    "anchor": "2.6 Generative artificial intelligence"
+   },
+   {
+    "duty": "report_concerns_or_incidents",
+    "bearer": "unspecified",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "All suspected academic misconduct must be reported to Assessment Management as soon as suspected and it will be investigated in all cases.",
+    "anchor": "1. Introduction"
+   }
+  ]
+ },
+ {
+  "doc_id": "middlesex-london-d2-misconduct-procedure-202610",
+  "coder": "y-y18",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "It will be the responsibility of students to ensure that the work they submit for assessment is entirely their own, or in the case of groupwork the group’s own",
+    "anchor": "Introduction"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Complete online ’Student Success Essentials’ course/Researcher Development programme as appropriate, during the induction period of the programme of study",
+    "anchor": "Roles and Responsibilities"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Abide by University rules and regulations",
+    "anchor": "Roles and Responsibilities"
+   },
+   {
+    "duty": "keep_guidance_under_review",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": false,
+    "quote": "This policy will be reviewed annually by the Assurance Committee to ensure continued compliance with regulatory requirements and institutional needs",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "newcastle-d2-misconduct-procedure-202610",
+  "coder": "y-y19",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Maintain high standards of academic conduct and honesty;",
+    "anchor": "Introduction"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Familiarise yourself with and apply the guidance provided on good academic practice, including the avoidance of plagiarism and other academic misconduct",
+    "anchor": "Introduction"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Abide by the Exam Rules and Guidance.",
+    "anchor": "Introduction"
+   }
+  ]
+ },
+ {
+  "doc_id": "norwich-arts-d2-misconduct-procedure-202610",
+  "coder": "y-y19",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "oxford-brookes-d2-misconduct-procedure-202610",
+  "coder": "y-y19",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Your responsibility to do your own work and give credit to others for their work applies to whatever is used in the production of assignments, including sources or Artificial Intelligence (AI) tools such as ChatGPT or Quillbot.",
+    "anchor": "Artificial Intelligence (AI)"
+   },
+   {
+    "duty": "verify_output",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Approach any information the AI tool produces cautiously (be a critical reader).",
+    "anchor": "Artificial Intelligence (AI)"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Observe the principles of Good Academic Practice at all times.",
+    "anchor": "Artificial Intelligence (AI)"
+   }
+  ]
+ },
+ {
+  "doc_id": "sheffield-hallam-d2-misconduct-procedure-202610",
+  "coder": "y-y19",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "bath-d2-misconduct-procedure-202610",
+  "coder": "y-y2",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "estate-management-d2-misconduct-procedure-202610",
+  "coder": "y-y2",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "st-marys-twickenham-london-d2-misconduct-procedure-202610",
+  "coder": "y-y2",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "ucb-d2-misconduct-procedure-202610",
+  "coder": "y-y2",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "federation-university-students-genai-202610",
+  "coder": "y-y20",
+  "risks": [
+   {
+    "risk": "privacy_or_data_exposure",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "Like all AI models, it can collect, store and reuse any data you provide.",
+    "anchor": "Why have we restricted the use of DeepSeek?"
+   },
+   {
+    "risk": "security_or_misuse",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "However, there are major security risks associated with the technology that you should be aware of.",
+    "anchor": "Why have we restricted the use of DeepSeek?"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "unspecified",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "However, we still urge you to be highly cautious when using any AI tools, particularly around sharing personal or sensitive data.",
+    "anchor": "What should I use instead?"
+   }
+  ]
+ },
+ {
+  "doc_id": "murdoch-university-students-genai-202610",
+  "coder": "y-y20",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "several issues with Copilot's accuracy and hallucinations were identified during testing, so please check any generated content carefully.",
+    "anchor": "Microsoft Copilot"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "verify_output",
+    "bearer": "unspecified",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "several issues with Copilot's accuracy and hallucinations were identified during testing, so please check any generated content carefully.",
+    "anchor": "Microsoft Copilot"
+   }
+  ]
+ },
+ {
+  "doc_id": "sae-university-college-students-genai-202610",
+  "coder": "y-y20",
+  "risks": [
+   {
+    "risk": "ethical_or_societal_harm",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "SAE does not condone how some AI models have been trained, particularly where artists’ rights have been compromised.",
+    "anchor": "Ethical Use of Gen AI"
+   },
+   {
+    "risk": "copyright_or_ip_infringement",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "SAE does not condone how some AI models have been trained, particularly where artists’ rights have been compromised.",
+    "anchor": "Ethical Use of Gen AI"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "We foster an environment where students are encouraged to critically engage with the technology, understand its potential impacts, and use it with care and responsibility.",
+    "anchor": "Ethical Use of Gen AI"
+   },
+   {
+    "duty": "keep_guidance_under_review",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "As GenAI evolves, so too will our position on its use, ensuring we remain responsive, responsible, and at the forefront of ethical and innovative practice.",
+    "anchor": "The Future of Gen AI and Careers in the Creative Industries"
+   }
+  ]
+ },
+ {
+  "doc_id": "university-of-the-sunshine-coast-students-genai-202610",
+  "coder": "y-y20",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "keep_guidance_under_review",
+    "bearer": "institution",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "This policy document must be maintained in accordance with the Policy Framework – Procedures and reviewed on two year policy review cycle.",
+    "anchor": "6. Authorities and responsibilities"
+   }
+  ]
+ },
+ {
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "It may also generate a fake response (an ‘AI hallucination’) such as generating fake references.",
+    "anchor": "4. Use must include considerations of risk and limitations"
+   },
+   {
+    "risk": "bias_or_discrimination",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Gen-AI tools do not consider that their answers may be discriminatory, and that marginalised people might be under-represented. This can result in biased and inaccurate output.",
+    "anchor": "4. Use must include considerations of risk and limitations"
+   },
+   {
+    "risk": "privacy_or_data_exposure",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Most Gen-AI tools collect data and learn from the content shared by users. Organisations that own and operate Gen-AI tools are rarely transparent about how they may use and share user-submitted content.",
+    "anchor": "5. Protect privacy, IP and commercial agreements"
+   },
+   {
+    "risk": "copyright_or_ip_infringement",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Copyright infringement risks in inputs/outputs",
+    "anchor": "Data privacy and protection"
+   },
+   {
+    "risk": "security_or_misuse",
+    "audience": "both",
+    "ai_named": false,
+    "quote": "These tools pose greater risks to privacy, intellectual property and security than preferred tools.",
+    "anchor": "Other tools"
+   },
+   {
+    "risk": "overreliance_or_loss_of_skills",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "Assessments are being designed to prioritise authentic learning and minimise over-reliance on AI.",
+    "anchor": "2. Follow the Bond University AI Assessment Framework"
+   },
+   {
+    "risk": "ethical_or_societal_harm",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Media literacy is being integrated into coursework to help students spot misinformation in AI outputs.",
+    "anchor": "4. Use must include considerations of risk and limitations"
+   },
+   {
+    "risk": "inequity_of_access",
+    "audience": "unspecified",
+    "ai_named": true,
+    "quote": "Mitigate educational inequalities: ensure equitable access to AI tools and equitable opportunities for students to achieve learning outcomes",
+    "anchor": "Bias and fairness"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "human_oversight",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "AI Literacy Programs: build human capacity and ensures human oversight and accountability for AI use.",
+    "anchor": "AI courageous community"
+   },
+   {
+    "duty": "accountable_for_output",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "AI Literacy Programs: build human capacity and ensures human oversight and accountability for AI use.",
+    "anchor": "AI courageous community"
+   },
+   {
+    "duty": "verify_output",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Be critical of the output, ensuring it’s reputable, accurate and current.",
+    "anchor": "The do's"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Gen-AI is powerful. Any powerful tool must be used with caution and adhere to ethical and safety guidelines.",
+    "anchor": "Ethical AI use in education"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "both",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "we ask everyone to be mindful and deliberate in their use of Gen-AI.",
+    "anchor": "2. Follow the Bond University AI Assessment Framework"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "The use of Gen-AI at Bond University must align with Bond’s Principles of Academic Integrity, and uphold the Student Code of Conduct and Academic Integrity Policy.",
+    "anchor": "Ethical AI use in education"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "All new students are required to complete the compulsory Academic Integrity Module.",
+    "anchor": "Ethical AI use in education"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Refresh your knowledge regularly — advice on Gen-AI changes frequently.",
+    "anchor": "The do's"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "It is essential that all members of the Bond University Community review and regularly update their knowledge on Academic Integrity compliance using the following resources:",
+    "anchor": "How to avoid Gen-AI misuse and its consequences"
+   },
+   {
+    "duty": "keep_guidance_under_review",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "The Library has developed these FAQs and will review and update individual referencing style guides for the start of each semester.",
+    "anchor": "How to cite and report Gen-AI use"
+   },
+   {
+    "duty": "ensure_equitable_access",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "Bond University is committed to providing equitable access to Gen-AI tools for students and staff.",
+    "anchor": "Bond preferred Gen-AI tools"
+   }
+  ],
+  "doc_id": "bond-university-students-genai-202610",
+  "coder": "y-y21"
+ },
+ {
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Check out QUT Library's collection of AI texts. A growing collection of new books on the topic. Stay up to date!",
+    "anchor": null
+   }
+  ],
+  "doc_id": "queensland-university-of-technology-students-genai-202610",
+  "coder": "y-y21"
+ },
+ {
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "AI-generated content is not always reliable and can sometimes be inaccurate, biased, incomplete, or misleading.",
+    "anchor": "Use AI critically and ethically"
+   },
+   {
+    "risk": "bias_or_discrimination",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "AI-generated content is not always reliable and can sometimes be inaccurate, biased, incomplete, or misleading.",
+    "anchor": "Use AI critically and ethically"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "You remain responsible for the accuracy, originality, and integrity of all work you submit, including work created with AI assistance.",
+    "anchor": "Responsible AI Use"
+   },
+   {
+    "duty": "verify_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Always: - verify information using credible academic sources - review AI-generated content carefully",
+    "anchor": "Use AI critically and ethically"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Using AI responsibly means using AI tools to support your learning while meeting assessment requirements and academic integrity expectations.",
+    "anchor": "Responsible AI Use"
+   }
+  ],
+  "doc_id": "torrens-university-australia-students-genai-202610",
+  "coder": "y-y21"
+ },
+ {
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Generative AI tools can produce invented, inaccurate, outdated, not relevant, or biased content.",
+    "anchor": null
+   },
+   {
+    "risk": "bias_or_discrimination",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Generative AI tools can produce invented, inaccurate, outdated, not relevant, or biased content.",
+    "anchor": null
+   },
+   {
+    "risk": "overreliance_or_loss_of_skills",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Relying on generative AI for translation into English negatively impacts on the learning process.",
+    "anchor": null
+   },
+   {
+    "risk": "security_or_misuse",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "If you provide your details to access one of these tools you may be at risk of identity theft.",
+    "anchor": null
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "It is your responsibility to read your Subject Outlines and check information on Ultra.",
+    "anchor": null
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "If you have just started out at Western, complete the Academic Integrity Module (AIM) as soon as possible.",
+    "anchor": null
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Western Sydney University encourages the appropriate use of generative AI.",
+    "anchor": null
+   }
+  ],
+  "doc_id": "western-sydney-university-students-genai-202610",
+  "coder": "y-y21"
+ },
+ {
+  "doc_id": "australian-national-university-students-genai-202610",
+  "coder": "y-y22",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Information produced by generative AI may be incorrect, unsubstantiated, or out of date.",
+    "anchor": "How do I use generative AI responsibly and ethically?"
+   },
+   {
+    "risk": "overreliance_or_loss_of_skills",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "relying on or using generative AI as a shortcut to learning carries the risk of undermining your work and credibility as a researcher",
+    "anchor": "How do I use generative AI responsibly and ethically?"
+   },
+   {
+    "risk": "privacy_or_data_exposure",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "While these tools may be convenient and helpful, ANU cannot guarantee your data security in these cases.",
+    "anchor": "Which Generative AI tools should I choose?"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "verify_output",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Check the accuracy of all information produced by generative AI by verifying that the information is accurate by searching and confirming with source materials.",
+    "anchor": "How to use Generative AI with integrity"
+   },
+   {
+    "duty": "verify_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Do not accept the output of generative AI without verifying that the information is accurate by searching and confirming with source materials.",
+    "anchor": "Don't"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Remember that all tools you use to assist your study need to be used consistent with the University’s Academic integrity guidance and procedures",
+    "anchor": "How to use Generative AI with integrity"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Understand how you can use AI to support your study including awareness of the different systems and their benefits and limitations to intelligently and ethically use generative AI.",
+    "anchor": "How to use Generative AI with integrity"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Understand how you can use AI to support your study including awareness of the different systems and their benefits and limitations to intelligently and ethically use generative AI.",
+    "anchor": "How to use Generative AI with integrity"
+   }
+  ]
+ },
+ {
+  "doc_id": "concordia-university-of-edmonton-students-genai-202610",
+  "coder": "y-y22",
+  "risks": [
+   {
+    "risk": "privacy_or_data_exposure",
+    "audience": "unspecified",
+    "ai_named": false,
+    "quote": "Has the potential to compromise privacy and collect data without authorization",
+    "anchor": "What is generative AI?"
+   },
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "unspecified",
+    "ai_named": false,
+    "quote": "Can generate incorrect information, produce biased content, and has limited ability to perform calculations",
+    "anchor": "What is generative AI?"
+   },
+   {
+    "risk": "bias_or_discrimination",
+    "audience": "unspecified",
+    "ai_named": false,
+    "quote": "Can generate incorrect information, produce biased content, and has limited ability to perform calculations",
+    "anchor": "What is generative AI?"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Prior to using GenAI, you should have a clear understanding of course policy.",
+    "anchor": "To Use or Not to Use…"
+   }
+  ]
+ },
+ {
+  "doc_id": "universite-laval-students-genai-202610",
+  "coder": "y-y22",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "university-of-technology-sydney-students-genai-202610",
+  "coder": "y-y22",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "GenAI can produce content that seems realistic and factual; however, the information can be inaccurate, outdated and sometimes false.",
+    "anchor": "Key considerations when using GenAI"
+   },
+   {
+    "risk": "bias_or_discrimination",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "GenAI can also be subject to biases or commercial agendas, which means you don't get the full perspective on a topic.",
+    "anchor": "Key considerations when using GenAI"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "verify_output",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "It is important to use your critical thinking skills to evaluate and fact-check all content from GenAI.",
+    "anchor": "Key considerations when using GenAI"
+   }
+  ]
+ },
+ {
+  "doc_id": "kwantlen-polytechnic-university-students-genai-202610",
+  "coder": "y-y23",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Generative AI can produce inaccurate or biased information, even if it seems confident in its responses.",
+    "anchor": "When generative AI is allowed in your course or assignment:"
+   },
+   {
+    "risk": "bias_or_discrimination",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Generative AI can produce inaccurate or biased information, even if it seems confident in its responses.",
+    "anchor": "When generative AI is allowed in your course or assignment:"
+   },
+   {
+    "risk": "ethical_or_societal_harm",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Evaluate the potential risks to Indigenous data sovereignty, reproducing cultural bias, and systemic inequalities by assessing whether AI is the most suitable source and evaluating GenAI results before using them.",
+    "anchor": "Social and Environmental Impact:"
+   },
+   {
+    "risk": "environmental_impact",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "GenAI tools use significant amounts of electricity, consider ways to limit power consumption.",
+    "anchor": "Social and Environmental Impact:"
+   },
+   {
+    "risk": "security_or_misuse",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "Be cautious of phishing attempts and unauthorized access.",
+    "anchor": "Protecting Your Privacy and Security:"
+   },
+   {
+    "risk": "copyright_or_ip_infringement",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Entering content made by instructors or other students to AI tools without permission infringes on copyright.",
+    "anchor": "Respect Intellectual Property: Copyright"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "verify_output",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "It’s important to check and evaluate output using other sources to consider different perspectives.",
+    "anchor": "When generative AI is allowed in your course or assignment:"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Use with integrity - see link Generative AI and Academic Integrity",
+    "anchor": null
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Carefully read your instructors' guidelines for use in assignments and course activities.",
+    "anchor": "Follow Instructor Guidelines:"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Keep up to date with the latest developments in AI and guidelines.",
+    "anchor": "When generative AI is allowed in your course or assignment:"
+   },
+   {
+    "duty": "no_compulsion_to_use",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "Using generative AI for personal studying is not required for students.",
+    "anchor": "Personal Study Practices:"
+   }
+  ]
+ },
+ {
+  "doc_id": "universite-du-quebec-en-outaouais-students-genai-202610",
+  "coder": "y-y23",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "bedfordshire-d2-misconduct-procedure-202610",
+  "coder": "y-y3",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "birmingham-d2-misconduct-procedure-202610",
+  "coder": "y-y3",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "To familiarise themselves with the guidance provided by the PAU and/or the University, in relation to the avoidance of plagiarism, including any requirements relating to the use and acknowledgement of AI tools.",
+    "anchor": "3. Student Responsibilities"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "To comply with Assessment instructions regarding the use of third-party tools and resources (including AI tools) and to make any required declarations or acknowledgements.",
+    "anchor": "3. Student Responsibilities"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Students are expected to undertake their Assessments with Academic Integrity",
+    "anchor": "3. Student Responsibilities"
+   }
+  ]
+ },
+ {
+  "doc_id": "bradford-d2-assessment-policy-202610",
+  "coder": "y-y3",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "bristol-d2-misconduct-procedure-202610",
+  "coder": "y-y3",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "cambridge-d2-misconduct-procedure-202610",
+  "coder": "y-y4",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "keep_guidance_under_review",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "The University is continuing to develop guidance materials to support staff and students in the effective and appropriate use of Artificial Intelligence tools and Large Language Models",
+    "anchor": "Artificial Intelligence (AI)"
+   }
+  ]
+ },
+ {
+  "doc_id": "chester-d2-misconduct-procedure-202610",
+  "coder": "y-y4",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "at all times, it is the sole responsibility of the student to act in a way that is consistent with the Academic Conduct Policy and to seek advice and guidance if they are unclear.",
+    "anchor": "1. Maintaining Academic Conduct"
+   },
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "students will act honestly and take responsibility for the contents of the work that they submit.",
+    "anchor": "3. Introduction"
+   }
+  ]
+ },
+ {
+  "doc_id": "cumbria-d2-misconduct-procedure-202610",
+  "coder": "y-y4",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Ensuring all submitted work is your own",
+    "anchor": "Turnitin & Intellectual Ownership"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "You are strongly encouraged to use the following resources to help you:",
+    "anchor": "Academic Integrity and Good Practice"
+   }
+  ]
+ },
+ {
+  "doc_id": "derby-d2-misconduct-procedure-202610",
+  "coder": "y-y4",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "east-anglia-d2-misconduct-procedure-202610",
+  "coder": "y-y5",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "without any form of falsification or fabrication (including fabrication by artificial intelligence software)",
+    "anchor": "5. WHAT IS PLAGIARISM?"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Avoiding plagiarism, collusion, and contract cheating is your responsibility.",
+    "anchor": "4. DOES THIS POLICY APPLY TO FORMATIVE WORK AS WELL AS SUMMATIVE?"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "If you join a course or module late and have missed the training, you must make sure you catch up on the training.",
+    "anchor": "11. HOW YOU CAN AVOID PLAGIARISM AND COLLUSION"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Academic integrity requires people to use, generate, and communicate in an ethical, honest and accountable manner.",
+    "anchor": "INTRODUCTION"
+   }
+  ]
+ },
+ {
+  "doc_id": "essex-d2-misconduct-procedure-202610",
+  "coder": "y-y5",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "exeter-d2-misconduct-procedure-202610",
+  "coder": "y-y5",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "All students are expected to read the materials provided in this resource and complete the quiz located at the end.",
+    "anchor": "Academic Honesty Resource and Quiz"
+   }
+  ]
+ },
+ {
+  "doc_id": "greater-manchester-d2-misconduct-procedure-202610",
+  "coder": "y-y5",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "greenwich-d2-assessment-policy-202610",
+  "coder": "y-y6",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "institution",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Programmes are encouraged to integrate generative AI into the learning and assessment process, recognising its potential to augment education and prepare students for an AI-enabled world in an ethical manner.",
+    "anchor": "Designing Assessment"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "staff",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "Staff are encouraged to incorporate generative AI as a learning tool and equally facilitate responsible AI usage from students.",
+    "anchor": "Learning Technologies"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "staff",
+    "strength": "should",
+    "ai_named": true,
+    "quote": "To promote transparency in assessment, staff should annually keep themselves appraised of the University’s AI guidance, the latest Academic Misconduct Procedure, and to incorporate suggestions and best practice from CPD workshops and AI in Teaching and Learning resources.",
+    "anchor": "Learning Technologies"
+   }
+  ]
+ },
+ {
+  "doc_id": "huddersfield-d2-misconduct-procedure-202610",
+  "coder": "y-y6",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": true,
+    "quote": "Fabrication. AI tools may generate artificial data that you later rely on to complete your assessment.",
+    "anchor": "10.2. Proofreading of assessments and the use of Artificial Intelligence (AI) tools"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "accountable_for_output",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "It is your responsibility to ensure that any work you have presented or submitted for credit is your own, this applies whether the work has been produced by human or software.",
+    "anchor": "10.1 Regulation introduction"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "we provide a training module that you are required to complete successfully in the early stages of your studies.",
+    "anchor": "10.1 Regulation introduction"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "We strongly recommend that you use our services and read the guidance carefully because academic misconduct is a serious matter.",
+    "anchor": "10.1 Regulation introduction"
+   }
+  ]
+ },
+ {
+  "doc_id": "hull-d2-misconduct-procedure-202610",
+  "coder": "y-y6",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "You should be honest about your sources, respect the work of others and take responsibility by understanding and following the University Regulations on assessments and examinations.",
+    "anchor": "Definitions"
+   },
+   {
+    "duty": "keep_guidance_under_review",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": false,
+    "quote": "The policy and procedures for academic misconduct are monitored and reviewed by the University Education Committee (EC) which is the final arbiter of these regulations.",
+    "anchor": "Scope"
+   }
+  ]
+ },
+ {
+  "doc_id": "kent-d2-institutional-policy-202610",
+  "coder": "y-y6",
+  "risks": [
+   {
+    "risk": "bias_or_discrimination",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "AI tools have been developed in ways that may embed bias in decision-making.",
+    "anchor": "8) Equity and inclusion"
+   },
+   {
+    "risk": "environmental_impact",
+    "audience": "both",
+    "ai_named": true,
+    "quote": "The University is aware of the environmental and sustainability impacts of AI use.",
+    "anchor": "9) Sustainability"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "human_oversight",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "AI will not be used to make decisions about marks or academic outcomes unless its use is explicitly authorised, clearly communicated, pedagogically justified, and always with human oversight.",
+    "anchor": "4) Human responsibility for assessment"
+   },
+   {
+    "duty": "accountable_for_output",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Individuals remain accountable for the accuracy, quality, and integrity of their work, regardless of whether AI tools are used to support it.",
+    "anchor": "5) Integrity, transparency and accountability"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Use of AI must be honest, responsible, and appropriately transparent.",
+    "anchor": "5) Integrity, transparency and accountability"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "both",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Use AI ethically and responsibly",
+    "anchor": "Practical tips for using AI the right way"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "both",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "In some areas, the use of AI is governed by specific University policies, regulations, or external requirements. These must always be followed.",
+    "anchor": "On related policies"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Follow guidance provided by your module convenor",
+    "anchor": "Practical tips for using AI the right way"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "The University is committed to supporting staff and students to develop the knowledge, skills, and confidence needed to engage with AI critically, responsibly, and effectively.",
+    "anchor": "2) Capability, confidence and AI literacy"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "both",
+    "strength": "should",
+    "ai_named": false,
+    "quote": "Early engagement with relevant policies, guidance and support is essential in mitigating any risks associated with the use of AI.",
+    "anchor": "7) Safety, security and assurance"
+   },
+   {
+    "duty": "keep_guidance_under_review",
+    "bearer": "institution",
+    "strength": "will",
+    "ai_named": true,
+    "quote": "These principles, and the guidance that supports them, will be reviewed regularly to ensure they remain appropriate and effective.",
+    "anchor": "10) Continuous review and improvement"
+   }
+  ]
+ },
+ {
+  "doc_id": "lincoln-d2-misconduct-procedure-202610",
+  "coder": "y-y7",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "Students are responsible for ensuring that any AI use complies with module-specific instructions and University policies.",
+    "anchor": "2.1.viii Unauthorised use of artificial intelligence (AI)"
+   },
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Students are expected to behave with honesty and integrity in relation to assessments.",
+    "anchor": "1 Introduction"
+   }
+  ]
+ },
+ {
+  "doc_id": "liverpool-d2-misconduct-procedure-202610",
+  "coder": "y-y7",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "manchester-d2-misconduct-procedure-202610",
+  "coder": "y-y7",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "students who must clearly indicate any lack of understanding concerning academic malpractice and must engage with the resources made available on this subject.",
+    "anchor": "2.2"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "in relation to more specific uses, students must ensure that this does not contravene the definitions of academic malpractice set out below.",
+    "anchor": "2.4"
+   }
+  ]
+ },
+ {
+  "doc_id": "plymouth-d2-assessment-policy-202610",
+  "coder": "y-y7",
+  "risks": [
+   {
+    "risk": "inaccurate_or_fabricated_output",
+    "audience": "students",
+    "ai_named": false,
+    "quote": "the statements/conclusions AI provides may be (at best) not relevant and (at worst) entirely incorrect for the piece of assessment you are completing.",
+    "anchor": "What are the limitations of AI?"
+   }
+  ],
+  "responsibilities": [
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "students are expected to use these responsibly and within the boundaries of academic integrity.",
+    "anchor": null
+   }
+  ]
+ },
+ {
+  "doc_id": "portsmouth-d2-misconduct-procedure-202610",
+  "coder": "y-y8",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "The use of AI in submitted work must adhere to principles of academic integrity, with proper citation and clear indication of where AI has been utilised.",
+    "anchor": "1.1.12 Artificial Intelligence"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Students have a responsibility to undertake available training, read relevant guidance, and take responsibility for the integrity of their work, including asking for clarification when needed.",
+    "anchor": "1.1 Key Principles"
+   }
+  ]
+ },
+ {
+  "doc_id": "roehampton-d2-misconduct-procedure-202610",
+  "coder": "y-y8",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "use_ethically_and_responsibly",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": true,
+    "quote": "I’ll take pride in doing my own work, avoid plagiarism or cheating, and use AI tools responsibly, always following the guidance of my tutors.",
+    "anchor": "Code of Conduct Student Pledges"
+   },
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "I will uphold university policies and values.",
+    "anchor": "Code of Conduct Student Pledges"
+   },
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "I’ll stay informed about university regulations and do my part to build a community where everyone feels safe, accepted, and able to thrive.",
+    "anchor": "Code of Conduct Student Pledges"
+   }
+  ]
+ },
+ {
+  "doc_id": "salford-d2-misconduct-procedure-202610",
+  "coder": "y-y8",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "stay_informed_and_trained",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Students are expected to be independent learners and have responsibility for ensuring that they familiarise themselves with matters of academic good practice and academic misconduct.",
+    "anchor": "Appendix C – Indicative Guidance for the Application of Sanctions"
+   }
+  ]
+ },
+ {
+  "doc_id": "sheffield-d2-misconduct-procedure-202610",
+  "coder": "y-y8",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Students undertaking research for a dissertation or other project/assignment must also comply with the relevant policies governing research, including the Research Ethics Policy.",
+    "anchor": "Purpose and definitions"
+   }
+  ]
+ },
+ {
+  "doc_id": "southampton-d2-misconduct-procedure-202610",
+  "coder": "y-y9",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Complying with and undertaking your research responsibly, following all necessary regulatory, legal, and professional obligations.",
+    "anchor": "1. What is Academic Responsibility and Conduct?"
+   }
+  ]
+ },
+ {
+  "doc_id": "staffordshire-d2-misconduct-procedure-202610",
+  "coder": "y-y9",
+  "risks": [],
+  "responsibilities": []
+ },
+ {
+  "doc_id": "suffolk-d2-misconduct-procedure-202610",
+  "coder": "y-y9",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Ultimately, it is the student’s responsibility to avoid infringements of regulations and policies and to ensure that they have behaved with academic integrity.",
+    "anchor": "Principles"
+   }
+  ]
+ },
+ {
+  "doc_id": "sunderland-d2-misconduct-procedure-202610",
+  "coder": "y-y9",
+  "risks": [],
+  "responsibilities": [
+   {
+    "duty": "comply_with_policy_and_law",
+    "bearer": "students",
+    "strength": "must",
+    "ai_named": false,
+    "quote": "Students are responsible for maintaining high standards of academic integrity and adhering to this Policy.",
+    "anchor": "6. Responsibilities"
+   }
+  ]
  }
 ]

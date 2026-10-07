@@ -1,0 +1,54 @@
+{
+ "found": [
+  {
+   "form": "course_or_module",
+   "requirement": "mandatory",
+   "audience": "students",
+   "quote": "All new students are required to complete the compulsory Academic Integrity Module. Continuing students should revise the module at least once each year.",
+   "anchor": "Ethical AI use in education",
+   "name": "Academic Integrity Module"
+  },
+  {
+   "form": "guide_toolkit_or_hub",
+   "requirement": "advised",
+   "audience": "both",
+   "quote": "We have developed a guide to Ethical use of Gen-AI in Education at Bond University which is essential for all student and staff to follow.",
+   "anchor": "3. Use must adhere to Bond's ethical use of Gen-Ai",
+   "name": "Ethical use of Gen-AI in Education at Bond University"
+  },
+  {
+   "form": "prompt_bank_or_tool_howto",
+   "requirement": "optional",
+   "audience": "unspecified",
+   "quote": "Prompt Coach - Write and improve your prompts - Prompts - Explore, save, and share prompts with CoPilot Prompt Gallery",
+   "anchor": "Microsoft CoPilot",
+   "name": "CoPilot Prompt Coach and Prompt Gallery"
+  },
+  {
+   "form": "referencing_help",
+   "requirement": "optional",
+   "audience": "unspecified",
+   "quote": "Use the Six-Step Gen-AI Statement Template, review the Library Gen-AI Referencing FAQ and always consult the authority, such as your subject educator or the publisher for their requirements.",
+   "anchor": "3. Use must adhere to Bond's ethical use of Gen-Ai",
+   "name": "Library Gen-AI Referencing FAQ"
+  },
+  {
+   "form": "named_academic_support",
+   "requirement": "optional",
+   "audience": "students",
+   "quote": "Instead, reach out to your educators first, the Academic Skills Centre, Library services, or your faculty Student Affairs and Service Quality team.",
+   "anchor": "The don'ts",
+   "name": "Academic Skills Centre"
+  },
+  {
+   "form": "disability_or_wellbeing_support",
+   "requirement": "optional",
+   "audience": "students",
+   "quote": "You can also access wellbeing support at BondCare.",
+   "anchor": "The don'ts",
+   "name": "BondCare"
+  }
+ ],
+ "doc_id": "bond-university-students-genai-202610",
+ "coder": "y-y21"
+}

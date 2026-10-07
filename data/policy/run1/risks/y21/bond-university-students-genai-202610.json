@@ -1,0 +1,152 @@
+{
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "It may also generate a fake response (an ‘AI hallucination’) such as generating fake references.",
+   "anchor": "4. Use must include considerations of risk and limitations"
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Gen-AI tools do not consider that their answers may be discriminatory, and that marginalised people might be under-represented. This can result in biased and inaccurate output.",
+   "anchor": "4. Use must include considerations of risk and limitations"
+  },
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Most Gen-AI tools collect data and learn from the content shared by users. Organisations that own and operate Gen-AI tools are rarely transparent about how they may use and share user-submitted content.",
+   "anchor": "5. Protect privacy, IP and commercial agreements"
+  },
+  {
+   "risk": "copyright_or_ip_infringement",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Copyright infringement risks in inputs/outputs",
+   "anchor": "Data privacy and protection"
+  },
+  {
+   "risk": "security_or_misuse",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "These tools pose greater risks to privacy, intellectual property and security than preferred tools.",
+   "anchor": "Other tools"
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "both",
+   "ai_named": true,
+   "quote": "Assessments are being designed to prioritise authentic learning and minimise over-reliance on AI.",
+   "anchor": "2. Follow the Bond University AI Assessment Framework"
+  },
+  {
+   "risk": "ethical_or_societal_harm",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Media literacy is being integrated into coursework to help students spot misinformation in AI outputs.",
+   "anchor": "4. Use must include considerations of risk and limitations"
+  },
+  {
+   "risk": "inequity_of_access",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Mitigate educational inequalities: ensure equitable access to AI tools and equitable opportunities for students to achieve learning outcomes",
+   "anchor": "Bias and fairness"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "human_oversight",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "AI Literacy Programs: build human capacity and ensures human oversight and accountability for AI use.",
+   "anchor": "AI courageous community"
+  },
+  {
+   "duty": "accountable_for_output",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "AI Literacy Programs: build human capacity and ensures human oversight and accountability for AI use.",
+   "anchor": "AI courageous community"
+  },
+  {
+   "duty": "verify_output",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "Be critical of the output, ensuring it’s reputable, accurate and current.",
+   "anchor": "The do's"
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "Gen-AI is powerful. Any powerful tool must be used with caution and adhere to ethical and safety guidelines.",
+   "anchor": "Ethical AI use in education"
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "both",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "we ask everyone to be mindful and deliberate in their use of Gen-AI.",
+   "anchor": "2. Follow the Bond University AI Assessment Framework"
+  },
+  {
+   "duty": "comply_with_policy_and_law",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": true,
+   "quote": "The use of Gen-AI at Bond University must align with Bond’s Principles of Academic Integrity, and uphold the Student Code of Conduct and Academic Integrity Policy.",
+   "anchor": "Ethical AI use in education"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "All new students are required to complete the compulsory Academic Integrity Module.",
+   "anchor": "Ethical AI use in education"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Refresh your knowledge regularly — advice on Gen-AI changes frequently.",
+   "anchor": "The do's"
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "both",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It is essential that all members of the Bond University Community review and regularly update their knowledge on Academic Integrity compliance using the following resources:",
+   "anchor": "How to avoid Gen-AI misuse and its consequences"
+  },
+  {
+   "duty": "keep_guidance_under_review",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "The Library has developed these FAQs and will review and update individual referencing style guides for the start of each semester.",
+   "anchor": "How to cite and report Gen-AI use"
+  },
+  {
+   "duty": "ensure_equitable_access",
+   "bearer": "institution",
+   "strength": "will",
+   "ai_named": true,
+   "quote": "Bond University is committed to providing equitable access to Gen-AI tools for students and staff.",
+   "anchor": "Bond preferred Gen-AI tools"
+  }
+ ],
+ "doc_id": "bond-university-students-genai-202610",
+ "coder": "y-y21"
+}

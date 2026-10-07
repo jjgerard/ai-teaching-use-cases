@@ -1,0 +1,58 @@
+{
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "It's important to understand that using Gen-AI as a replacement for your work is an academic integrity violation.",
+   "anchor": "Using Gen-AI to promote your abilities"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "The unauthorised or improper use of Gen-AI is academic misconduct, as set out in the Student Code of Conduct Policy.",
+   "anchor": "How to avoid Gen-AI misuse and its consequences"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "The University is also updating AI-powered plagiarism detection tools to better identify inappropriate use.",
+   "anchor": "2. Follow the Bond University AI Assessment Framework"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "The University is also updating AI-powered plagiarism detection tools to better identify inappropriate use.",
+   "anchor": "2. Follow the Bond University AI Assessment Framework"
+  }
+ ],
+ "process": [],
+ "outcomes": [
+  {
+   "value": "penalty_stated_without_detail",
+   "ai_named": true,
+   "quote": "Do not simply copy and paste the Gen-AI output into ANY assessment submission and hope for the best. The consequence of this could be a charge of academic misconduct; penalties can be severe.",
+   "anchor": "The don'ts"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": true,
+   "quote": "Poor or uncritical application of AI tools may naturally be reflected in lower grades through rubric design, not misconduct proceedings.",
+   "anchor": "Category 2: AI-Supported (AI-S)"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic integrity",
+   "ai_named": false,
+   "quote": "Academic Integrity at Bond means adhering, in words and actions and across all aspects of student life, to an academic moral code bound by the seven integrity principles of honesty, trust, fairness, respect, responsibility, courage, and professionalism."
+  }
+ ],
+ "doc_id": "bond-university-students-genai-202610",
+ "coder": "y-y21"
+}
