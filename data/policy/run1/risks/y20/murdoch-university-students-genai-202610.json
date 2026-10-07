@@ -1,0 +1,23 @@
+{
+ "doc_id": "murdoch-university-students-genai-202610",
+ "coder": "y-y20",
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "several issues with Copilot's accuracy and hallucinations were identified during testing, so please check any generated content carefully.",
+   "anchor": "Microsoft Copilot"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "verify_output",
+   "bearer": "unspecified",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "several issues with Copilot's accuracy and hallucinations were identified during testing, so please check any generated content carefully.",
+   "anchor": "Microsoft Copilot"
+  }
+ ]
+}

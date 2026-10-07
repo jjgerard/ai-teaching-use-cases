@@ -1,0 +1,74 @@
+{
+ "doc_id": "federation-university-students-genai-202610",
+ "coder": "y-y20",
+ "tools": [
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "prohibited",
+   "audience": "unspecified",
+   "name": "DeepSeek",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Federation University has restricted the use of DeepSeek AI within the Federation University Australia network due to data security concerns.",
+   "anchor": "DeepSeek"
+  },
+  {
+   "tool_class": "external_or_consumer_tools",
+   "stance": "warned",
+   "audience": "unspecified",
+   "name": "DeepSeek",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Like all AI models, it can collect, store and reuse any data you provide.",
+   "anchor": "Why have we restricted the use of DeepSeek?"
+  },
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "recommended",
+   "audience": "unspecified",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "We recommend Microsoft's Copilot because it has better built-in data security, and Microsoft is an approved University provider.",
+   "anchor": "What should I use instead?"
+  },
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "recommended",
+   "audience": "unspecified",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "We recommend Microsoft's Copilot because it has better built-in data security, and Microsoft is an approved University provider.",
+   "anchor": "What should I use instead?"
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "warned",
+   "audience": "unspecified",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "However, we still urge you to be highly cautious when using any AI tools, particularly around sharing personal or sensitive data.",
+   "anchor": "What should I use instead?"
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "check_terms_and_privacy",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Always check the settings on AI software before you start using it.",
+   "anchor": "Check the settings closely when using any AI software"
+  },
+  {
+   "value": "opt_out_of_training",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Switch off any settings for training the broader AI model",
+   "anchor": "Check the settings closely when using any AI software"
+  }
+ ],
+ "legal": []
+}

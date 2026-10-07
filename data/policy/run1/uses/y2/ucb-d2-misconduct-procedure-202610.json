@@ -1,0 +1,44 @@
+{
+ "doc_id": "ucb-d2-misconduct-procedure-202610",
+ "coder": "y-y2",
+ "uses": [
+  {
+   "use": "include_ai_output_in_work",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "the cutting and pasting of material derived from the Internet/AI tools and the direct transcription of the contents of a textbook or journal.",
+   "anchor": "1. Principles"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "fabricating evidence, results or data",
+   "anchor": "1. Principles"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "copying work done by others",
+   "anchor": "1. Principles"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

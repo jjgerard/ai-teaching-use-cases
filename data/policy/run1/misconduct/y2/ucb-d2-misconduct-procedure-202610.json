@@ -1,0 +1,227 @@
+{
+ "doc_id": "ucb-d2-misconduct-procedure-202610",
+ "coder": "y-y2",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "the cutting and pasting of material derived from the Internet/AI tools and the direct transcription of the contents of a textbook or journal.",
+   "anchor": "1. Principles"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "this includes auto-plagiarism, fabricating evidence, results or data, copying work done by others, cheating in examinations and/or obtaining assessments through a commercial transaction (‘contract cheating’) and inappropriate use of AI.",
+   "anchor": "1. Principles"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "fabricating evidence, results or data",
+   "anchor": "1. Principles"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "copying work done by others",
+   "anchor": "1. Principles"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "obtaining assessments through a commercial transaction (‘contract cheating’)",
+   "anchor": "1. Principles"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Cheating in an examination occurs when a student seeks to improve their performance in an examination by accessing or attempting to access material not listed on the front of the examination paper (the rubric).",
+   "anchor": "6 Cheating in an examination"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "This category includes collusion, auto plagiarism",
+   "anchor": "5.4 Moderate Plagiarism"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "auto plagiarism (submission of an assignment identical or closely related to one submitted at an earlier point and for which a mark has been received)",
+   "anchor": "5.4 Moderate Plagiarism"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "whether knowingly or unknowingly",
+   "anchor": "4. Process for dealing with suspected Plagiarism"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Serious plagiarism arises from deliberate attempts to deceive.",
+   "anchor": "5.6 Serious Plagiarism"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "This may particularly apply to students who may not yet be familiar with the requirements of Higher Education level assessment.",
+   "anchor": "5.2 Poor Academic Practice"
+  }
+ ],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Such meetings should also be used for assessments with high Turnitin Similarity/AI detection scores, as these scores are not definitive evidence.",
+   "anchor": "4. Process for dealing with suspected Plagiarism"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Such meetings should also be used for assessments with high Turnitin Similarity/AI detection scores, as these scores are not definitive evidence.",
+   "anchor": "4. Process for dealing with suspected Plagiarism"
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "AI detection reports should be shared with the student.",
+   "anchor": "4. Process for dealing with suspected Plagiarism"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "suspicions may be explored via a meeting with a student (by the Module Leader or nominee) about the assessment content, with the expectation that a student should be able to reasonably answer questions about their own assessment.",
+   "anchor": "4. Process for dealing with suspected Plagiarism"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "that member of staff should notify the Head of Department (or nominee) of their findings.",
+   "anchor": "4. Process for dealing with suspected Plagiarism"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Where the investigation finds that the student would benefit from additional support, the student will be directed accordingly.",
+   "anchor": "5.5 Process for dealing with Moderate Plagiarism"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "The student will be invited to respond, explaining how they believe that the suspected plagiarism may have taken place and, if necessary, to refute the allegation.",
+   "anchor": "4. Process for dealing with suspected Plagiarism"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "The student will be invited in writing to meet with the Head of Department or Deputy Dean, setting out the fact they are suspected of plagiarism.",
+   "anchor": "4. Process for dealing with suspected Plagiarism"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If a student does not respond to the request, the Head of Department/or Deputy Dean will make a judgement as to whether they believe plagiarism has taken place on the balance of probabilities.",
+   "anchor": "4. Process for dealing with suspected Plagiarism"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "They may invite another UCB student/Guild representative with them for support.",
+   "anchor": "4. Process for dealing with suspected Plagiarism"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "A student may appeal the penalty imposed for plagiarism on grounds of the appearance of new evidence or procedural irregularity.",
+   "anchor": "7 Right to Appeal"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "within five working days of receipt of the notification of the outcome of the plagiarism decision.",
+   "anchor": "7 Right to Appeal"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "Plagiarism will consider the ‘balance of probability’ whether plagiarism has occurred and its extent before forming a judgement and deciding an appropriate course of action.",
+   "anchor": "3. Detection of Plagiarism"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "it is added to the central record of academic misconduct.",
+   "anchor": "5.5 Process for dealing with Moderate Plagiarism"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "A record should be kept by the Head of Department (or nominee), but no further measures shall be taken.",
+   "anchor": "5.3 Process for dealing with Poor Academic Practice"
+  },
+  {
+   "value": "mark_reduction",
+   "ai_named": false,
+   "quote": "The mark obtained in the assessment may be downwardly adjusted to an appropriate level (reflecting the actual contribution of the student)",
+   "anchor": "5.5 Process for dealing with Moderate Plagiarism"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "failure of a module",
+   "anchor": "5.7 Process for dealing with Serious Plagiarism"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "disciplinary suspension for a period of one or two semesters",
+   "anchor": "5.7 Process for dealing with Serious Plagiarism"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "This category includes using significant unattributed material, clear intention of deception or repeated moderate plagiarism.",
+   "anchor": "5.6 Serious Plagiarism"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "number of factors will be taken into account in this categorisation, including;",
+   "anchor": "4. Process for dealing with suspected Plagiarism"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of a student claiming as their own, intentionally or by omission, work which was not done by that student."
+  },
+  {
+   "term": "contract cheating",
+   "ai_named": false,
+   "quote": "obtaining assessments through a commercial transaction (‘contract cheating’)"
+  },
+  {
+   "term": "auto plagiarism",
+   "ai_named": false,
+   "quote": "auto plagiarism (submission of an assignment identical or closely related to one submitted at an earlier point and for which a mark has been received)"
+  },
+  {
+   "term": "cheating in an examination",
+   "ai_named": false,
+   "quote": "Cheating in an examination occurs when a student seeks to improve their performance in an examination by accessing or attempting to access material not listed on the front of the examination paper (the rubric)."
+  }
+ ]
+}

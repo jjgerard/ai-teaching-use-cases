@@ -1,0 +1,252 @@
+{
+ "doc_id": "exeter-d2-misconduct-procedure-202610",
+ "coder": "y-y5",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of representing words, ideas, or work obtained from another source, without proper attribution or permission and presenting it as one's own original work.",
+   "anchor": "Definition of Offences"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "Misrepresentation: Misrepresenting data, or the work of someone else as your own, in whole or in part.",
+   "anchor": "Definition of Offences"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Self-plagiarism is the act of reusing your own previously submitted work without citation.",
+   "anchor": "Definition of Offences"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion: Collusion occurs where two or more students collaborate to produce work that is submitted as the individual work of one or more of the students.",
+   "anchor": "Definition of Offences"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Coercion: Coercion occurs when a student puts pressure on (or attempts to put pressure on) another student or member of staff to act in a particular way, with the intention of gaining an academic advantage.",
+   "anchor": "Definition of Offences"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication: Creation of false data, research or references with the intention of deceiving the marker.",
+   "anchor": "Definition of Offences"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "evidence of an attempt to disguise any of the forms of plagiarism listed above (which might involve the use of paraphrasing systems or translation systems, or a translator or third party who acts as more than a proof-reader under the University’s regulations) will normally be treated more severely than plagiarism alone.",
+   "anchor": "Definition of Offences"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Contract Cheating: Contract cheating involves a student requesting a third-party to complete an assessment, or part of an assessment, on their behalf, which may or may not involve a commercial transaction.",
+   "anchor": "Definition of Offences"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "The use or possession of unauthorised books, notes, software, electronic devices or other materials in an examination (unless specifically permitted).",
+   "anchor": "Examination Misconduct"
+  }
+ ],
+ "liability": [
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Misconduct is said to have taken place when a student has not been academically honest. This can be intentional or unintentional.",
+   "anchor": "Levels of Misconduct and Possible Offences"
+  },
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "In these cases there is no evidence that a student has set out to deceive a marker.",
+   "anchor": "The Academic Conduct and Practice Procedure"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "Poor academic practice. This may arise from a lack of understanding of academic protocols or a misunderstanding of expected academic conventions of the department.",
+   "anchor": "The Academic Conduct and Practice Procedure"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Turnitin (TII) is a software used by the University to highlight all of the places where a piece of work contains phrases, sentences or paragraphs which can be found in other sources.",
+   "anchor": "Turnitin"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "It is used to identify similarity to other sources within the TII database, but this is a technical support solution and not always 100% accurate.",
+   "anchor": "Turnitin"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "The Conduct Officers use their academic judgement to decide if the work needs to be referred into the Academic Misconduct process.",
+   "anchor": "Academic Integrity Resources and Academic Honesty Quiz"
+  },
+  {
+   "method": "forensic_or_specialist_analysis",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "This might include possible sources of plagiarism, for example, or a summary report written by an expert witness, showing where highlighted sections of your submission are a cause for concern.",
+   "anchor": "Department and Faculty Level Meetings"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "The Conduct Officers use their academic judgement to decide if the work needs to be referred into the Academic Misconduct process.",
+   "anchor": "Academic Integrity Resources and Academic Honesty Quiz"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "The ACO will then look at these concerns in more detail to decide if the suspected offence needs to be referred to the FCT for formal investigation.",
+   "anchor": "Department and Faculty Level Meetings"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "to present you with the opportunity to submit a defence to the Chair of the meeting, either in writing or in person.",
+   "anchor": "Department and Faculty Level Meetings"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "Faculty Level Meeting: concerns raised that may be either poor academic practice or academic misconduct, with possible penalties ranging from Tariff A – D",
+   "anchor": "Investigation Stage"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If you are not able to attend the meeting it will proceed without you.",
+   "anchor": "Department and Faculty Level Meetings"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "You are permitted to invite a supporter to attend your meeting with you, but they are not permitted to attend the meeting in your absence.",
+   "anchor": "Department and Faculty Level Meetings"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "You have ten working days to appeal your outcome decision from the date of the outcome letter we email you.",
+   "anchor": "Outcomes"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "You have ten working days to appeal your outcome decision from the date of the outcome letter we email you.",
+   "anchor": "Outcomes"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "The FCT will keep a record of students who have attended, and those who have chosen not to.",
+   "anchor": "Academic Honesty Workshops"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "As such, no penalty will be awarded, and the meeting is purely educational.",
+   "anchor": "Academic Honesty Workshops"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Some of the Tariff outcomes will require you to resubmit your work with the poor academic practice removed.",
+   "anchor": "Outcomes"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "In some cases (Tariff B outcomes) this will be for an un-capped mark, whereas in others (Tariff C) the mark will be capped.",
+   "anchor": "Outcomes"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "then you will be awarded a mark of zero for the work.",
+   "anchor": "Outcomes"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "A full list of the Tariff, Description of Offence and Penalty options can be found here.",
+   "anchor": "Outcomes"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Severe Academic Misconduct may be a second offence, or involve evidence of extensive plagiarism or cheating",
+   "anchor": "Levels of Misconduct and Possible Offences"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Academic offence",
+   "ai_named": false,
+   "quote": "An academic offence is defined as an act or failure to act that if undetected gives, or aims to give, an advantage over other students, or any behaviour which may deceive those setting, administering and marking a piece of work."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism is the act of representing words, ideas, or work obtained from another source, without proper attribution or permission and presenting it as one's own original work."
+  },
+  {
+   "term": "Self-plagiarism",
+   "ai_named": false,
+   "quote": "Self-plagiarism is the act of reusing your own previously submitted work without citation."
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion occurs where two or more students collaborate to produce work that is submitted as the individual work of one or more of the students."
+  },
+  {
+   "term": "Coercion",
+   "ai_named": false,
+   "quote": "Coercion occurs when a student puts pressure on (or attempts to put pressure on) another student or member of staff to act in a particular way, with the intention of gaining an academic advantage."
+  },
+  {
+   "term": "Fabrication",
+   "ai_named": false,
+   "quote": "Fabrication: Creation of false data, research or references with the intention of deceiving the marker."
+  },
+  {
+   "term": "Falsification",
+   "ai_named": false,
+   "quote": "Falsification: Inappropriate manipulation or selection of data, images or consents with the intention of deceiving the marker."
+  },
+  {
+   "term": "Contract cheating",
+   "ai_named": false,
+   "quote": "Contract cheating involves a student requesting a third-party to complete an assessment, or part of an assessment, on their behalf, which may or may not involve a commercial transaction."
+  },
+  {
+   "term": "Poor academic practice",
+   "ai_named": false,
+   "quote": "Poor Academic Practice may arise from lack of understanding of academic protocols or a misunderstanding of expected academic conventions of the Department."
+  }
+ ]
+}

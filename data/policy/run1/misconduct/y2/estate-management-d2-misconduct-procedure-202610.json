@@ -1,0 +1,246 @@
+{
+ "doc_id": "estate-management-d2-misconduct-procedure-202610",
+ "coder": "y-y2",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "An initial investigation may also be triggered where there are any other concerns about the authenticity of a piece of work, for example, concerns about falsification of data, unauthorised use of AI or ethical breaches.",
+   "anchor": "4.1 Stage 1: Identification of academic integrity concerns in an assessment"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsification of data, which is significant in either extent or importance",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "disguising_use",
+   "ai_named": false,
+   "quote": "A finding of academic misconduct may be made even if there is an absence of matching text, for example where words have been changed to avoid detection",
+   "anchor": "4.1 Stage 1: Identification of academic integrity concerns in an assessment"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Commissioning someone else to write the assignment, including the use of online academic writing services.",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "The use of another Author’s ideas or concepts which have been intentionally included as though the student’s own work but are actually the work of others.",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": false,
+   "quote": "The use of another Author’s ideas or concepts which have been intentionally included as though the student’s own work but are actually the work of others.",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Collusion i.e., unauthorised collaboration on assessable written, oral, or practical work with another person or persons.",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Impersonation or being impersonated.",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "The student has submitted work which is either identical or closely related to the work and ideas of another assignment previously submitted by themselves (replication).",
+   "anchor": "6.1 Penalty matrix"
+  }
+ ],
+ "liability": [
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Your intent, as far as possible;",
+   "anchor": "4.5 Stage 5: Academic Misconduct Panel"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "we are mindful of the fact that you are learning to write in an academic style required for higher education level study. We therefore take this into consideration when reviewing your submission.",
+   "anchor": "2. Scope"
+  },
+  {
+   "value": "strict_liability",
+   "ai_named": false,
+   "quote": "Unintentional or accidental collusion with another student to use or share work as part of an individual assessment.",
+   "anchor": "6.1 Penalty matrix"
+  }
+ ],
+ "detection": [
+  {
+   "method": "similarity_software",
+   "stance": "unreliable",
+   "ai_named": false,
+   "quote": "Text-matching software such as Turnitin can be used to trigger further review of a submission but will not be used as evidence of academic misconduct on its own even if the proportion of matching text is high.",
+   "anchor": "4.1 Stage 1: Identification of academic integrity concerns in an assessment"
+  },
+  {
+   "method": "similarity_software",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "Text-matching software such as Turnitin can be used to trigger further review of a submission",
+   "anchor": "4.1 Stage 1: Identification of academic integrity concerns in an assessment"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "An initial investigation may also be triggered where there are any other concerns about the authenticity of a piece of work, for example, concerns about falsification of data, unauthorised use of AI or ethical breaches.",
+   "anchor": "4.1 Stage 1: Identification of academic integrity concerns in an assessment"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "the submission will be referred to the Stage 4 process for further review by the Academic Misconduct Panel (AMP).",
+   "anchor": "4.3 Stage 3: Academic review"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "This procedure sets out how the University will investigate concerns about academic integrity related to assessments.",
+   "anchor": "1. Introduction"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "you will be given an opportunity to provide a ‘right to reply’ response",
+   "anchor": "4.4 Stage 4: Preparing for the Academic Misconduct Panel"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "You are encouraged to attend this meeting, which will normally be conducted virtually, to present your case.",
+   "anchor": "4.5 Stage 5: Academic Misconduct Panel"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "Where you choose not to provide a right to reply response the investigation will still proceed based on the evidence available.",
+   "anchor": "4.4 Stage 4: Preparing for the Academic Misconduct Panel"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "You can also be accompanied by a nominated guest (not a legal representative) who cannot contribute during the meeting but can observe the meeting to provide you support.",
+   "anchor": "4.5 Stage 5: Academic Misconduct Panel"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "You have the right to appeal on a decision made with relation to academic misconduct.",
+   "anchor": "9. Appeals"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "The whole process from the start of the investigation to the confirmation of the final outcome will not normally exceed 60 calendar days.",
+   "anchor": "4.6 Timings"
+  },
+  {
+   "value": "standard_of_proof",
+   "ai_named": false,
+   "quote": "the University will use the standard of proof based on the ‘balance of probabilities’ rather than ‘beyond all reasonable doubt.’",
+   "anchor": "1.1 Definition"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "If it is deemed that you have committed academic misconduct, this will be recorded on your academic record (the University’s individual record for each student) for that assessment and the Board of Examiners will be made aware.",
+   "anchor": "5. Confidentiality"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "If the investigator determines that poor academic practice has occurred, the Academic Support and Enhancement Team (ASET) will offer additional support around referencing and good academic practice.",
+   "anchor": "4.2 Stage 2: Initial evaluation"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "A2: Student has mark limited for assessment in which misconduct took place with right to resubmit*",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "zero_for_work",
+   "ai_named": false,
+   "quote": "B1: Student has mark reduced to zero for assessment in which misconduct took place with right to resubmit*;",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Where resubmission is not possible (for example, if the date you receive your outcome is after the release of module marks, or if the assessment under review is already a resubmission) the next option will be a retake",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "B2: Student has module mark reduced to zero for module in which",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "C2: Student removed from programme but remain eligible for lesser award;",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "degree_effect",
+   "ai_named": false,
+   "quote": "classification capped at a pass.",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "Repeated acts of misconduct demonstrating a refusal to learn from previous advice or sanctions.",
+   "anchor": "6.1 Penalty matrix"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "The panel will consider the following when making their penalty decision:",
+   "anchor": "4.5 Stage 5: Academic Misconduct Panel"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "The University reserves the right to withdraw and/or amend an award if evidence of academic misconduct becomes available after the conferment of that award.",
+   "anchor": "6.2 Withdrawal of awards"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "The University may be required to inform relevant Professional Statutory and Accrediting Bodies about cases of academic misconduct.",
+   "anchor": "5. Confidentiality"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "academic misconduct",
+   "ai_named": false,
+   "quote": "The University defines academic misconduct as acting without sufficient academic integrity and/or attempting to gain academic credit unfairly."
+  },
+  {
+   "term": "collusion",
+   "ai_named": false,
+   "quote": "Collusion i.e., unauthorised collaboration on assessable written, oral, or practical work with another person or persons."
+  }
+ ]
+}

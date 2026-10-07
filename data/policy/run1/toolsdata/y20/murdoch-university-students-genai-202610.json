@@ -1,0 +1,27 @@
+{
+ "doc_id": "murdoch-university-students-genai-202610",
+ "coder": "y-y20",
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "unspecified",
+   "name": "Microsoft Copilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Murdoch University has a licensing agreement with Microsoft for the use of Copilot, which provides an extra layer of protection compared to publicly available generative AI tools, such as ChatGPT.",
+   "anchor": "Microsoft Copilot"
+  }
+ ],
+ "data": [],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "unspecified",
+   "ai_named": false,
+   "quote": "Ensure you are signed in with your Murdoch account before entering any prompts.",
+   "anchor": "Microsoft Copilot"
+  }
+ ],
+ "legal": []
+}

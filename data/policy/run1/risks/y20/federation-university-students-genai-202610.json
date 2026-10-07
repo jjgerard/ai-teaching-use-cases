@@ -1,0 +1,30 @@
+{
+ "doc_id": "federation-university-students-genai-202610",
+ "coder": "y-y20",
+ "risks": [
+  {
+   "risk": "privacy_or_data_exposure",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "Like all AI models, it can collect, store and reuse any data you provide.",
+   "anchor": "Why have we restricted the use of DeepSeek?"
+  },
+  {
+   "risk": "security_or_misuse",
+   "audience": "unspecified",
+   "ai_named": true,
+   "quote": "However, there are major security risks associated with the technology that you should be aware of.",
+   "anchor": "Why have we restricted the use of DeepSeek?"
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "unspecified",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "However, we still urge you to be highly cautious when using any AI tools, particularly around sharing personal or sensitive data.",
+   "anchor": "What should I use instead?"
+  }
+ ]
+}

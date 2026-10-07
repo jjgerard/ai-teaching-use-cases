@@ -1,0 +1,44 @@
+{
+ "doc_id": "greater-manchester-d2-misconduct-procedure-202610",
+ "coder": "y-y5",
+ "uses": [
+  {
+   "use": "generate_assessed_text",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Commissioning – also known as “contract cheating” involves requesting another person or using AI to complete an assessment, or contribute to an assessment, such that the output of that commissioning in whole or part is then submitted as the student's own work.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "use": "fabricate_data_or_references",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Fabrication of data refers to the falsification of data (either qualitative or quantitative), through invention or amendment, which is then presented by the student as if it had been legitimately gathered in line with the norms of the discipline concerned.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "the summarising of another person’s work by simply changing a few words or altering the order of presentation, without acknowledgement;",
+   "anchor": "Types of Academic Misconduct"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [],
+ "acknowledgement": {
+  "duty": null,
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": null,
+  "exempt": []
+ }
+}

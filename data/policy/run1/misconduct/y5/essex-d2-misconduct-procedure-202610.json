@@ -1,0 +1,59 @@
+{
+ "doc_id": "essex-d2-misconduct-procedure-202610",
+ "coder": "y-y5",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "Misuse of artificial intelligence, machine learning or other automated technology to write material which is submitted as your own work for assessment",
+   "anchor": "Examples of academic offences"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "Misuse of artificial intelligence, machine learning or other automated technology to write material which is submitted as your own work for assessment",
+   "anchor": "Examples of academic offences"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism (copying or using other people’s work without proper referencing)",
+   "anchor": "Examples of academic offences"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "Cheating in exams",
+   "anchor": "Examples of academic offences"
+  },
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": false,
+   "quote": "Purchasing a pre-written essay for assessment",
+   "anchor": "Examples of academic offences"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Falsifying data or evidence",
+   "anchor": "Examples of academic offences"
+  }
+ ],
+ "liability": [],
+ "detection": [],
+ "process": [],
+ "outcomes": [],
+ "definitions": [
+  {
+   "term": "academic offence",
+   "ai_named": false,
+   "quote": "An academic offence is an attempt to gain an unfair advantage in any formal assessment, such as coursework and exams."
+  },
+  {
+   "term": "plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism (copying or using other people’s work without proper referencing)"
+  }
+ ]
+}

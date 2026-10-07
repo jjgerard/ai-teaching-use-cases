@@ -1,0 +1,72 @@
+{
+ "doc_id": "university-of-the-sunshine-coast-students-genai-202610",
+ "coder": "y-y20",
+ "uses": [
+  {
+   "use": "include_ai_output_in_work",
+   "context": "assessed_work",
+   "stance": "conditional",
+   "acknowledge": "required",
+   "conditions": [
+    "needs_acknowledgement"
+   ],
+   "quote": "The use of outputs from Artificial Intelligence tools without appropriate acknowledgement constitutes academic misconduct.",
+   "anchor": "4. Guidance for students"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Course coordinators can permit the use of tools for spelling and grammar checking",
+   "anchor": "4. Guidance for students"
+  },
+  {
+   "use": "rewrite_or_paraphrase_own_text",
+   "context": "unspecified",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "the use of the genAI functions of editing tools is prohibited.",
+   "anchor": "4. Guidance for students"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Course and assessment materials must clearly describe the conditions for the use of Artificial Intelligence in each assessment"
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Course coordinators can permit the use of tools for spelling and grammar checking"
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "Students must acknowledge any use of Artificial Intelligence tools in assessment tasks, in accordance with any advice provided by course coordinators and the University."
+  },
+  "contents": [
+   {
+    "value": "how_used",
+    "quote": "Students must describe how the Artificial Intelligence tool has been used, how they have significantly modified the output from the tool to be their own work, and how these results have been integrated into their work, as appropriate to the specific advice within their discipline or course."
+   },
+   {
+    "value": "own_contribution",
+    "quote": "Students must describe how the Artificial Intelligence tool has been used, how they have significantly modified the output from the tool to be their own work, and how these results have been integrated into their work, as appropriate to the specific advice within their discipline or course."
+   }
+  ],
+  "location": [],
+  "records": null,
+  "referencing": null,
+  "consequence": {
+   "value": "treated_as_misconduct",
+   "quote": "The use of outputs from Artificial Intelligence tools without appropriate acknowledgement constitutes academic misconduct."
+  },
+  "exempt": []
+ }
+}

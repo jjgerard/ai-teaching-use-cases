@@ -1,0 +1,31 @@
+{
+ "doc_id": "university-of-the-sunshine-coast-students-genai-202610",
+ "coder": "y-y20",
+ "tools": [
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "conditional",
+   "audience": "students",
+   "name": null,
+   "conditions": [
+    "needs_permission"
+   ],
+   "ai_named": false,
+   "quote": "Course coordinators can permit the use of tools for spelling and grammar checking",
+   "anchor": "4. Guidance for students"
+  },
+  {
+   "tool_class": "writing_and_translation_tools",
+   "stance": "prohibited",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "the use of the genAI functions of editing tools is prohibited.",
+   "anchor": "4. Guidance for students"
+  }
+ ],
+ "data": [],
+ "safeguards": [],
+ "legal": []
+}

@@ -1,0 +1,59 @@
+{
+ "doc_id": "university-of-the-sunshine-coast-students-genai-202610",
+ "coder": "y-y20",
+ "scope": "ai_specific",
+ "offences": [
+  {
+   "value": "undeclared_use",
+   "ai_named": true,
+   "quote": "The use of outputs from Artificial Intelligence tools without appropriate acknowledgement constitutes academic misconduct.",
+   "anchor": "4. Guidance for students"
+  },
+  {
+   "value": "unauthorised_use",
+   "ai_named": true,
+   "quote": "The unauthorised use of Artificial Intelligence or paraphrasing tools can be a form of plagiarism, cheating, or academic fraud and result in academic misconduct.",
+   "anchor": "4. Guidance for students"
+  }
+ ],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "may_be_used",
+   "ai_named": true,
+   "quote": "(j) high Artificial Intelligence score or percentage in a detection tool (such as Turnitin); or",
+   "anchor": "5. Guidance for staff"
+  },
+  {
+   "method": "staff_judgement",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "(d) artefacts of copying and pasting - for example, prompts or extra information left in the text suggestive of sourcing information from elsewhere;",
+   "anchor": "5. Guidance for staff"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "(k) a summary of the findings from an interview conducted by teaching staff with the student, which demonstrates the student’s lack of skills or knowledge regarding the assessment tasks under investigation.",
+   "anchor": "5. Guidance for staff"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "Before referring possible cases of academic misconduct to the Integrity Compliance Unit (ICU), the teaching team are required to highlight at least three strong indicators of secondary evidence for the ICU to investigate further",
+   "anchor": "5. Guidance for staff"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "Before referring possible cases of academic misconduct to the Integrity Compliance Unit (ICU), the teaching team are required to highlight at least three strong indicators of secondary evidence for the ICU to investigate further",
+   "anchor": "5. Guidance for staff"
+  }
+ ],
+ "outcomes": [],
+ "definitions": []
+}

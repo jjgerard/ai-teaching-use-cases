@@ -1,0 +1,240 @@
+{
+ "doc_id": "greater-manchester-d2-misconduct-procedure-202610",
+ "coder": "y-y5",
+ "scope": "general_misconduct",
+ "offences": [
+  {
+   "value": "contract_cheating_or_ghostwriting",
+   "ai_named": true,
+   "quote": "Commissioning – also known as “contract cheating” involves requesting another person or using AI to complete an assessment, or contribute to an assessment, such that the output of that commissioning in whole or part is then submitted as the student's own work.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "passing_off",
+   "ai_named": true,
+   "quote": "requesting another person or using AI to complete an assessment, or contribute to an assessment, such that the output of that commissioning in whole or part is then submitted as the student's own work.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "misuse_of_others_work",
+   "ai_named": false,
+   "quote": "Plagiarism may be defined as the representation of another person’s work, without acknowledgement of the source, as the student’s own for the purposes of satisfying",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "fabrication_or_falsification",
+   "ai_named": false,
+   "quote": "Fabrication of data refers to the falsification of data (either qualitative or quantitative), through invention or amendment",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "self_plagiarism_or_multiple_submission",
+   "ai_named": false,
+   "quote": "Duplication – refers to the inclusion in work of any material which is identical or similar to material which has already been submitted by the student for any other assessment within the University or elsewhere",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "facilitating_or_collusion",
+   "ai_named": false,
+   "quote": "Supporting an individual to commit any of the offences listed in 2.2 and 2.3 shall also be considered to be academic misconduct.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "impersonation_or_coercion",
+   "ai_named": false,
+   "quote": "Bribery and blackmail - paying or offering inducements or coercing another person to obtain higher marks or another form of advantage.",
+   "anchor": "Types of Academic Misconduct"
+  },
+  {
+   "value": "exam_or_supervised_breach",
+   "ai_named": false,
+   "quote": "the following relates specifically to conduct during examinations or in-class assessments and will also be considered to be academic misconduct:",
+   "anchor": "Types of Academic Misconduct"
+  }
+ ],
+ "liability": [
+  {
+   "value": "intent_considered",
+   "ai_named": false,
+   "quote": "Where it is concluded that there was no intent to deceive and/or that the academic misconduct occurred on a formative assessment, an informal warning may be issued to the student.",
+   "anchor": "Informal Warnings"
+  },
+  {
+   "value": "ignorance_mitigates",
+   "ai_named": false,
+   "quote": "If no apparent intent to deceive and likelihood of poor study skills, an informal warning may be issued (No previous offence)",
+   "anchor": "ANNEX B: Process flow chart"
+  }
+ ],
+ "detection": [
+  {
+   "method": "staff_judgement",
+   "stance": "used",
+   "ai_named": false,
+   "quote": "Marking tutors, invigilators, and exceptionally External Examiners and those considering appeals or mitigating evidence, are responsible for the identification of suspected cases of academic misconduct.",
+   "anchor": "Identification of Academic Misconduct"
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "A minor amount of work produced via the use of AI, the content of which upon questioning the student was not able to demonstrate a robust understanding.",
+   "anchor": "ANNEX D: Guidance on determining whether an offence is suspected minor or serious"
+  }
+ ],
+ "process": [
+  {
+   "value": "referral_to_officer_or_panel",
+   "ai_named": false,
+   "quote": "In cases where there is a suspected Serious Offence of academic misconduct, a School Hearing will be held.",
+   "anchor": "Procedure for dealing with Serious Offences"
+  },
+  {
+   "value": "hearing",
+   "ai_named": false,
+   "quote": "In cases where there is a suspected Minor Offence of academic misconduct, a Programme Hearing will be held, normally within one month of identification of the alleged offence.",
+   "anchor": "Procedure for Dealing with Minor Offences"
+  },
+  {
+   "value": "investigation",
+   "ai_named": false,
+   "quote": "If there is good reason to suspect academic misconduct has taken place in relation to an assessment which has been considered at an Assessment Board, this may be investigated retrospectively",
+   "anchor": "Retrospective investigation and identification of academic misconduct"
+  },
+  {
+   "value": "student_right_to_respond",
+   "ai_named": false,
+   "quote": "a letter or email explaining the possible consequences of the academic misconduct being proven and any other papers considered relevant should be emailed to the student along with the invitation to attend the meeting and/or provide a documentary response",
+   "anchor": "Procedure for Dealing with Minor Offences"
+  },
+  {
+   "value": "proceeds_if_absent",
+   "ai_named": false,
+   "quote": "If the student does not attend the interview, or chooses not to attend but to submit documentary evidence, the meeting will go ahead in the student’s absence",
+   "anchor": "Procedure for Dealing with Minor Offences"
+  },
+  {
+   "value": "support_for_student",
+   "ai_named": false,
+   "quote": "The student has the right to be supported at the meeting by one friend.",
+   "anchor": "Procedure for Dealing with Minor Offences"
+  },
+  {
+   "value": "appeal",
+   "ai_named": false,
+   "quote": "they may submit an academic misconduct appeal together with relevant evidence to the Head of Standards and Enhancement (or nominee) within fourteen calendar days of the outcome of the relevant Hearing being sent to the student.",
+   "anchor": "Appealing against an Academic Misconduct Decision"
+  },
+  {
+   "value": "timescale",
+   "ai_named": false,
+   "quote": "within fourteen calendar days of the outcome of the relevant Hearing being sent to the student.",
+   "anchor": "Appealing against an Academic Misconduct Decision"
+  },
+  {
+   "value": "records_or_register",
+   "ai_named": false,
+   "quote": "The applied penalty will be reported to the relevant Assessment Board and recorded on the Academic Misconduct Register.",
+   "anchor": "Procedure for Dealing with Minor Offences"
+  }
+ ],
+ "outcomes": [
+  {
+   "value": "educative_first_offence",
+   "ai_named": false,
+   "quote": "The Module Leader should arrange for the student to receive appropriate training and/or advice on how to avoid committing academic misconduct.",
+   "anchor": "Informal Warnings"
+  },
+  {
+   "value": "warning",
+   "ai_named": false,
+   "quote": "an informal warning may be issued to the student.",
+   "anchor": "Informal Warnings"
+  },
+  {
+   "value": "resubmission",
+   "ai_named": false,
+   "quote": "Fail attempt for the assessment component in question. Further attempt (if eligible) does not have capped mark i.e. Refer but with uncapped mark on next attempt.",
+   "anchor": "ANNEX C: Range of Penalties"
+  },
+  {
+   "value": "mark_cap",
+   "ai_named": false,
+   "quote": "Mark assessment component but cap at pass mark",
+   "anchor": "ANNEX C: Range of Penalties"
+  },
+  {
+   "value": "module_failure",
+   "ai_named": false,
+   "quote": "Fail module with no further attempts.",
+   "anchor": "ANNEX C: Range of Penalties"
+  },
+  {
+   "value": "suspension_or_exclusion",
+   "ai_named": false,
+   "quote": "Recommend to Senate expulsion of student from the University - with or without an interim award.",
+   "anchor": "ANNEX C: Range of Penalties"
+  },
+  {
+   "value": "tariff_or_factors",
+   "ai_named": false,
+   "quote": "In deciding the severity of the penalty for the minor offence, the Panel should normally take the following mitigating factors in taken into account:",
+   "anchor": "Procedure for Dealing with Minor Offences"
+  },
+  {
+   "value": "award_withdrawn_or_post_award",
+   "ai_named": false,
+   "quote": "exceptionally lead to an academic award being rescinded where approval or conferment has already occurred.",
+   "anchor": "Retrospective investigation and identification of academic misconduct"
+  },
+  {
+   "value": "professional_referral",
+   "ai_named": false,
+   "quote": "Students may also be subject to Fitness to Practise procedures, where relevant, which may have further consequences for the student.",
+   "anchor": "Purpose"
+  },
+  {
+   "value": "repeat_offence_escalation",
+   "ai_named": false,
+   "quote": "An informal warning can only be issued once.",
+   "anchor": "Informal Warnings"
+  }
+ ],
+ "definitions": [
+  {
+   "term": "Hearing",
+   "ai_named": false,
+   "quote": "Hearing: A formally convened meeting to consider alleged cases of academic misconduct."
+  },
+  {
+   "term": "Unfair means",
+   "ai_named": false,
+   "quote": "Unfair Means: This is another term for academic misconduct or academic malpractice."
+  },
+  {
+   "term": "Plagiarism",
+   "ai_named": false,
+   "quote": "Plagiarism may be defined as the representation of another person’s work, without acknowledgement of the source, as the student’s own for the purposes of satisfying"
+  },
+  {
+   "term": "Collusion",
+   "ai_named": false,
+   "quote": "Collusion is where two or more students collaborate to produce a piece of work in order to both/all gain advantage."
+  },
+  {
+   "term": "Fabrication of data",
+   "ai_named": false,
+   "quote": "Fabrication of data refers to the falsification of data (either qualitative or quantitative), through invention or amendment"
+  },
+  {
+   "term": "Commissioning",
+   "ai_named": true,
+   "quote": "Commissioning – also known as “contract cheating” involves requesting another person or using AI to complete an assessment, or contribute to an assessment"
+  },
+  {
+   "term": "Theft of work",
+   "ai_named": false,
+   "quote": "Theft of work – submitting another’s work as the suspected student’s own, either in whole or in part, without that student’s permission."
+  }
+ ]
+}
