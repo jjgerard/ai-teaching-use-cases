@@ -1,0 +1,103 @@
+[
+ {
+  "name": "St. Jerome's University",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://uwaterloo.ca/st-jeromes/faculty-and-staff-resources/instructor-information",
+    "why": "instructor page (staff-facing), seen in search only"
+   },
+   {
+    "url": "https://uwaterloo.ca/st-jeromes/about-st-jeromes/governance/policies-and-procedures",
+    "why": "policy list; no AI mention, links onward"
+   },
+   {
+    "url": "https://uwaterloo.ca/centre-for-teaching-excellence/Assessment-AI-Strategies",
+    "why": "University of Waterloo, not SJU; instructor-facing"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "generative AI students academic integrity (uwaterloo.ca)",
+   "St. Jerome's University artificial intelligence students policy (uwaterloo.ca)",
+   "St. Jerome's University generative AI course syllabus academic integrity statement (uwaterloo.ca)",
+   "St. Jerome's University student AI guidelines ChatGPT (uwaterloo.ca/st-jeromes, sju.ca)"
+  ],
+  "note": "Federated with Waterloo; own site has no student AI page found."
+ },
+ {
+  "name": "Alberta University of the Arts",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://www.auarts.ca/sites/default/files/2024-06/20240522_Student_Academic_Integrity_Policy.pdf",
+    "why": "search snippet showed no AI content; fetch returned 502 so unverified"
+   },
+   {
+    "url": "https://www.auarts.ca/continuing-education/professional-development/microcredentials/generative-ai-fundamentals",
+    "why": "course marketing page, not a student rules page"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "generative AI students academic integrity (auarts.ca)",
+   "Alberta University of the Arts AI policy students (auarts.ca)",
+   "AUArts academic integrity plagiarism generative AI use in coursework (auarts.ca)",
+   "AUArts artificial intelligence tools students studio guidelines (auarts.ca)"
+  ],
+  "note": "auarts.ca fetches returned HTTP 502 throughout; board minutes mention an AI committee."
+ },
+ {
+  "name": "Ontario Tech University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://academicintegrity.ontariotechu.ca/students/using-chatgpt.php",
+   "title": "Using Generative Artificial Intelligence",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "none",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://tlc.ontariotechu.ca/nexthub/artificial-intelligence/ai-scale/index.php",
+    "title": "AI in Assessment Scale",
+    "audience": "students"
+   },
+   {
+    "url": "https://nool.ontariotechu.ca/writing/generative-ai-for-academic-writing/index.php",
+    "title": "Generative Artificial Intelligence in Academic Writing",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students guide academic integrity (ontariotechu.ca)"
+  ]
+ },
+ {
+  "name": "Saint Paul University",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://ustpaul.ca/en/office-of-admission-registrar-and-student-services-2/reglements-scolaires/",
+    "why": "academic regulations; no AI mention"
+   },
+   {
+    "url": "https://ustpaul.ca/cadre-juridique-constitutif-de-luniversite-saint-paul/reglements-universitaires/",
+    "why": "policy list; no AI mention"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "generative AI students academic integrity (ustpaul.ca)",
+   "intelligence artificielle \u00e9tudiants Universit\u00e9 Saint-Paul plagiat (ustpaul.ca)",
+   "Saint Paul University generative AI ChatGPT students academic regulations (ustpaul.ca)",
+   "Universit\u00e9 Saint-Paul intelligence artificielle g\u00e9n\u00e9rative lignes directrices \u00e9tudiants (ustpaul.ca)"
+  ],
+  "note": "Applies uOttawa Regulation A-4 for integrity; no AI page found."
+ }
+]

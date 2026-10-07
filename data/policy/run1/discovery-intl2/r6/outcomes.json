@@ -1,0 +1,112 @@
+[
+ {
+  "name": "Saint Augustine's University",
+  "outcome": "not_found",
+  "rejected": [
+   {
+    "url": "https://www.st-aug.edu/student-conduct-integrity/",
+    "why": "no AI mention"
+   },
+   {
+    "url": "https://www.st-aug.edu/honor-code/",
+    "why": "no AI mention"
+   },
+   {
+    "url": "https://explore.st-aug.edu/exp/revolutionizing-education-how-ai-powered-tools-are-transforming-the-classroom",
+    "why": "marketing/SEO blog, not a student rule page"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "generative AI students policy academic integrity",
+   "Saint Augustine's University artificial intelligence academic integrity students",
+   "generative AI ChatGPT student policy",
+   "catalog handbook academic honesty artificial intelligence plagiarism"
+  ]
+ },
+ {
+  "name": "Appalachian State University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://ai.appstate.edu/guidance/policies",
+   "title": "Guidelines for Using Generative AI at App State",
+   "kind": "institutional_policy",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "none shown",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://academicaffairs.appstate.edu/sites/default/files/app_state_ai_syllabus_guidance.pdf",
+    "title": "Initial Recommendations on Generative AI Policy and Philosophy",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance"
+  ]
+ },
+ {
+  "name": "University of Illinois at Springfield",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.uis.edu/c.php?g=1429308&p=10605986",
+   "title": "Artificial Intelligence: Citing AI Content",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last updated August 20, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.uis.edu/resource/ai/generative-ai-teaching",
+    "why": "instructor-facing"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.uis.edu/news/syllabus-and-assignment-icons-guide-student-use",
+    "title": "Syllabus and Assignment Icons to Guide Student Use",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance",
+   "students AI academic integrity ChatGPT policy"
+  ]
+ },
+ {
+  "name": "Central Queensland University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.cqu.edu.au/study/experience/support/academic-integrity",
+   "title": "Academic Integrity - CQUniversity",
+   "kind": "misconduct_procedure",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.cqu.edu.au/news/1261798/back-to-school-with-generative-ai-what-schools-students-and-teachers-need-in-the-first-weeks-of-term",
+    "why": "HTTP 403 (bot wall); school-focused news"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "generative AI students guidance",
+   "students use of artificial intelligence academic integrity policy",
+   "CQUniversity students generative AI academic integrity study guide"
+  ]
+ }
+]
