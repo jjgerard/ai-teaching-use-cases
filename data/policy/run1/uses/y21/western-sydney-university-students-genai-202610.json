@@ -1,0 +1,63 @@
+{
+ "uses": [
+  {
+   "use": "translate",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "needs_permission"
+   ],
+   "quote": "Unless given permission, in short, the answer is no.",
+   "anchor": "Can I use generative AI to translate my work into English?"
+  },
+  {
+   "use": "check_language",
+   "context": "unspecified",
+   "stance": "conditional",
+   "acknowledge": "not_stated",
+   "conditions": [
+    "other_rules_apply"
+   ],
+   "quote": "So where generative AI use is restricted in your subjects, tools to assist with spelling and grammar can be used only where these do not use generative AI.",
+   "anchor": "Is Grammarly considered generative AI?"
+  },
+  {
+   "use": "copy_or_paraphrase_others_work",
+   "context": "assessed_work",
+   "stance": "prohibited",
+   "acknowledge": "not_stated",
+   "conditions": [],
+   "quote": "Using AI to paraphrase text from an article and then pasting that paraphrased text in your assignment is NOT original or appropriate.",
+   "anchor": "Can I use Quillbot to paraphrase text I find online?"
+  }
+ ],
+ "default_when_silent": null,
+ "decided_by": [
+  {
+   "value": "assessment_brief",
+   "quote": "Generative AI guidelines will be different for each assessment task."
+  },
+  {
+   "value": "module_or_lecturer",
+   "quote": "Read the generative AI statements in your Subject Outline for each new assessment task, check information on Ultra or check with your Subject Coordinator."
+  }
+ ],
+ "acknowledgement": {
+  "duty": {
+   "value": "always_required",
+   "quote": "If you are using generative AI, make sure you are acknowledging it."
+  },
+  "contents": [],
+  "location": [],
+  "records": null,
+  "referencing": {
+   "value": "follow_guide",
+   "quote": "Check the ‘Referencing/Acknowledging generative AI ’ section of the generative AI module for current advice on acknowledging generative AI."
+  },
+  "consequence": null,
+  "exempt": []
+ },
+ "doc_id": "western-sydney-university-students-genai-202610",
+ "coder": "y-y21"
+}

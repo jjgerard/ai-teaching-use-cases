@@ -1,0 +1,47 @@
+{
+ "scope": "ai_specific",
+ "offences": [],
+ "liability": [],
+ "detection": [
+  {
+   "method": "ai_detection_software",
+   "stance": "used",
+   "ai_named": true,
+   "quote": "AI detection reports help staff to identify when AI writing tools maybe have been used. These reports are not available to students.",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "restricted",
+   "ai_named": true,
+   "quote": "AI detection reports help staff to identify when AI writing tools maybe have been used. These reports are not available to students.",
+   "anchor": null
+  },
+  {
+   "method": "ai_detection_software",
+   "stance": "unreliable",
+   "ai_named": true,
+   "quote": "Avoid using any online tools for AI Detection. These tools are not reliable and may put you at risk.",
+   "anchor": null
+  },
+  {
+   "method": "oral_viva_or_interview",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "You may be asked to explain what you have written in your assessment or provide notes or an early draft of your assessment.",
+   "anchor": null
+  },
+  {
+   "method": "draft_or_version_history",
+   "stance": "may_be_used",
+   "ai_named": false,
+   "quote": "You may be asked to explain what you have written in your assessment or provide notes or an early draft of your assessment.",
+   "anchor": null
+  }
+ ],
+ "process": [],
+ "outcomes": [],
+ "definitions": [],
+ "doc_id": "western-sydney-university-students-genai-202610",
+ "coder": "y-y21"
+}

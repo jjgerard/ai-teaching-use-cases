@@ -1,0 +1,76 @@
+{
+ "tools": [
+  {
+   "tool_class": "institution_provided_tool",
+   "stance": "provided",
+   "audience": "students",
+   "name": "Microsoft Co-Pilot",
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Where the use of generative AI is permitted, the following tools are available to students:",
+   "anchor": null
+  },
+  {
+   "tool_class": "approved_or_validated_tools",
+   "stance": "permitted",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "This video explores our two university-endorsed generative AI tools: Microsoft Co-Pilot and Adobe.",
+   "anchor": null
+  },
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "discouraged",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": true,
+   "quote": "Avoid using any online tools for AI Detection. These tools are not reliable and may put you at risk.",
+   "anchor": null
+  },
+  {
+   "tool_class": "ai_detection_tools",
+   "stance": "warned",
+   "audience": "students",
+   "name": null,
+   "conditions": [],
+   "ai_named": false,
+   "quote": "If you provide your details to access one of these tools you may be at risk of identity theft.",
+   "anchor": null
+  }
+ ],
+ "data": [
+  {
+   "data_type": "personal_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Even with commercial data protection, you should be careful to avoid entering personal informational or anything confidential.",
+   "anchor": null
+  },
+  {
+   "data_type": "confidential_or_client_data",
+   "stance": "warned",
+   "audience": "students",
+   "conditions": [],
+   "ai_named": false,
+   "quote": "Even with commercial data protection, you should be careful to avoid entering personal informational or anything confidential.",
+   "anchor": null
+  }
+ ],
+ "safeguards": [
+  {
+   "value": "use_institutional_account",
+   "audience": "both",
+   "ai_named": false,
+   "quote": "Signing in with your student or staff ID enables commercial data protection.",
+   "anchor": null
+  }
+ ],
+ "legal": [],
+ "doc_id": "western-sydney-university-students-genai-202610",
+ "coder": "y-y21"
+}

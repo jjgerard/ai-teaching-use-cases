@@ -1,0 +1,60 @@
+{
+ "risks": [
+  {
+   "risk": "inaccurate_or_fabricated_output",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI tools can produce invented, inaccurate, outdated, not relevant, or biased content.",
+   "anchor": null
+  },
+  {
+   "risk": "bias_or_discrimination",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Generative AI tools can produce invented, inaccurate, outdated, not relevant, or biased content.",
+   "anchor": null
+  },
+  {
+   "risk": "overreliance_or_loss_of_skills",
+   "audience": "students",
+   "ai_named": true,
+   "quote": "Relying on generative AI for translation into English negatively impacts on the learning process.",
+   "anchor": null
+  },
+  {
+   "risk": "security_or_misuse",
+   "audience": "students",
+   "ai_named": false,
+   "quote": "If you provide your details to access one of these tools you may be at risk of identity theft.",
+   "anchor": null
+  }
+ ],
+ "responsibilities": [
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "must",
+   "ai_named": false,
+   "quote": "It is your responsibility to read your Subject Outlines and check information on Ultra.",
+   "anchor": null
+  },
+  {
+   "duty": "stay_informed_and_trained",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": false,
+   "quote": "If you have just started out at Western, complete the Academic Integrity Module (AIM) as soon as possible.",
+   "anchor": null
+  },
+  {
+   "duty": "use_ethically_and_responsibly",
+   "bearer": "students",
+   "strength": "should",
+   "ai_named": true,
+   "quote": "Western Sydney University encourages the appropriate use of generative AI.",
+   "anchor": null
+  }
+ ],
+ "doc_id": "western-sydney-university-students-genai-202610",
+ "coder": "y-y21"
+}
