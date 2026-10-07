@@ -1,0 +1,100 @@
+[
+ {
+  "name": "Baylor University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.baylor.edu/studentsguidetogenai",
+   "title": "Student Guide to Generative AI",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last updated September 9, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://its.web.baylor.edu/ai",
+    "why": "not fetched; ITS page, lower preference"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://honorcode.web.baylor.edu/academic-integrity-office/faculty-resources/suggestions-dealing-artificial-intelligence-ai-produced",
+    "title": "Suggestions for Dealing with AI-Produced Assignments",
+    "audience": "staff"
+   },
+   {
+    "url": "https://libguides.baylor.edu/studentsguidetogenai/academicintegrityandcitations",
+    "title": "Academic Integrity & Citations - Student Guide to Generative AI",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "Baylor University students generative AI policy"
+  ]
+ },
+ {
+  "name": "Vanguard University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://catalog.vanguard.edu/academic-policies/academic-integrity/academic-integrity.pdf",
+   "title": "Academic Integrity and Classroom Conduct",
+   "kind": "misconduct_procedure",
+   "format": "pdf",
+   "language": "en",
+   "date_as_shown": "August 18, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [],
+  "queries": [
+   "Vanguard University students generative AI academic integrity"
+  ]
+ },
+ {
+  "name": "Stockton University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://library.stockton.edu/genAI",
+   "title": "Generative Artificial Intelligence (GenAI): Home",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last updated May 1, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://stockton.edu/ctld/documents/generative-ai-faculty-guidelines.pdf",
+    "why": "faculty only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://stockton.edu/ctld/artificial-intelligence.html",
+    "title": "Generative AI in the Classroom (CTLD)",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "Stockton University students generative AI policy"
+  ]
+ },
+ {
+  "name": "Sarasota University",
+  "outcome": "unresolved",
+  "note": "Domain sarasotauniversity.org does not resolve (ENOTFOUND); two domain-filtered searches returned no results. Institution may be defunct.",
+  "rejected": [],
+  "other_pages": [],
+  "queries": [
+   "Sarasota University artificial intelligence students policy",
+   "Sarasota University"
+  ]
+ }
+]

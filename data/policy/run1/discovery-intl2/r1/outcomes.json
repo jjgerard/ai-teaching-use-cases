@@ -1,0 +1,126 @@
+[
+ {
+  "name": "University of New Brunswick",
+  "outcome": "found",
+  "doc": {
+   "url": "https://lib.unb.ca/guides/artificial-intelligence-ai-undergraduate-students",
+   "title": "Artificial Intelligence (AI) for Undergraduate Students",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last modified February 3, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://lib.unb.ca/guides/artificial-intelligence-ai-graduate-students-and-researchers",
+    "why": "graduate researchers only"
+   },
+   {
+    "url": "https://www.unb.ca/gradstudies/current/resources/regulations-and-guidelines/ai-guidelines.html",
+    "why": "graduate students only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://lib.unb.ca/guides/academic-integrity",
+    "title": "Academic Integrity",
+    "audience": "students"
+   },
+   {
+    "url": "https://lib.unb.ca/ai-literacy",
+    "title": "Artificial Intelligence Literacy",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance (unb.ca)",
+   "UNB library guide artificial intelligence undergraduate students ChatGPT academic integrity (unb.ca)"
+  ]
+ },
+ {
+  "name": "Royal Roads University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.royalroads.ca/current-students/academic-regulations-policies-procedures/generative-ai-royal-roads-university",
+   "title": "Generative AI at Royal Roads University",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.royalroads.ca/sites/default/files/2024-05/RRU%20AI%20Guidance%20Document%202024-05.pdf",
+    "title": "Generative AI at Royal Roads University (PDF, 2024-05)",
+    "audience": "students"
+   },
+   {
+    "url": "https://writeanswers.royalroads.ca/faq/212575",
+    "title": "Where can I find guidance for RRU students on using generative AI",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance (royalroads.ca)"
+  ],
+  "note": "Search snippet showed student-facing AI text; direct fetch of page and PDF returned 403 (not bypassed)."
+ },
+ {
+  "name": "Western University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://ai.uwo.ca/using-ai/principles-of-using-ai.html",
+   "title": "Principles of Using AI - AI at Western",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://grad.uwo.ca/governance/statements-guidance/ai.html",
+    "why": "graduate studies only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://ai.uwo.ca/governance/policies.html",
+    "title": "Western's Policies - AI at Western",
+    "audience": "students"
+   },
+   {
+    "url": "https://teaching.uwo.ca/elearning/generativeAI-resources.html",
+    "title": "Generative AI Resources - CTL",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "generative AI students guidance (uwo.ca)",
+   "Western University students generative AI academic integrity library guide (uwo.ca)"
+  ]
+ },
+ {
+  "name": "Nipissing University",
+  "outcome": "not_found",
+  "doc": null,
+  "rejected": [],
+  "other_pages": [],
+  "queries": [
+   "generative AI students guidance (nipissingu.ca)",
+   "Nipissing University artificial intelligence academic integrity students ChatGPT (nipissingu.ca)",
+   "Nipissing generative AI students (nipissingu.ca)",
+   "academic misconduct policy artificial intelligence (nipissingu.ca)"
+  ],
+  "note": "Searches returned no nipissingu.ca results; homepage fetched, confirms degree-granting; no AI links on it."
+ }
+]
