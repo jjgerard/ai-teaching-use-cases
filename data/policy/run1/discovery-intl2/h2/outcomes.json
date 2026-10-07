@@ -1,0 +1,114 @@
+[
+ {
+  "name": "Murdoch University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://libguides.murdoch.edu.au/genAI/tools",
+   "title": "AI Tools - Generative AI tools for study and research",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last updated 22 Sep 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://announcements.murdoch.edu.au/id/11294/",
+    "title": "Using Generative AI in your studies",
+    "audience": "students"
+   },
+   {
+    "url": "https://libguides.murdoch.edu.au/APA/generativeAI",
+    "title": "AI Generated Content - APA",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students guide (allowed_domains murdoch.edu.au)"
+  ]
+ },
+ {
+  "name": "Monash University",
+  "outcome": "found_unverified",
+  "doc": {
+   "url": "https://www.monash.edu/ai/ai-for-students",
+   "title": "AI for Students - Artificial intelligence at Monash",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "",
+   "retrieved_here": false,
+   "http": 403,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://monash.edu/student-academic-success/build-digital-capabilities/create-online/writing-with-artificial-intelligence",
+    "why": "HTTP 403 blocked"
+   },
+   {
+    "url": "https://www.monash.edu/graduate-research/support-and-resources/resources/guidance-on-generative-ai",
+    "why": "graduate researchers only"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.monash.edu/learning-teaching/TeachHQ/Teaching-practices/artificial-intelligence/generative-ai-and-assessment",
+    "title": "AI and assessment",
+    "audience": "staff"
+   }
+  ],
+  "queries": [
+   "generative AI students guide (allowed_domains monash.edu)"
+  ]
+ },
+ {
+  "name": "SAE University College",
+  "outcome": "found",
+  "doc": {
+   "url": "https://sae.edu.au/why-sae/gen-ai-in-creative-media-and-tech/",
+   "title": "GenAI in Creative Media and Tech - SAE University College",
+   "kind": "other",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://library.sae.edu.au/c.php?g=924499&p=7146081",
+    "why": "copyright/AI library page, not retrieved; narrower"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://sae.edu.au/about-us/policies-procedures/",
+    "title": "Policies and Procedures",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "generative AI students policy (allowed_domains sae.edu.au)"
+  ]
+ },
+ {
+  "name": "Central Queensland University",
+  "outcome": "unresolved",
+  "doc": null,
+  "rejected": [
+   {
+    "url": "https://www.cqu.edu.au/news/1261798/back-to-school-with-generative-ai-what-schools-students-and-teachers-need-in-the-first-weeks-of-term",
+    "why": "HTTP 403 blocked; news aimed at schools sector"
+   }
+  ],
+  "other_pages": [],
+  "queries": [
+   "generative AI students guide (allowed_domains cqu.edu.au)"
+  ]
+ }
+]
