@@ -1,0 +1,109 @@
+[
+ {
+  "name": "Southern Cross University",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.scu.edu.au/genai/students/",
+   "title": "Generative AI for Students in the Southern Cross Model",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://www.scu.edu.au/media/scu-dep/graduate-school/documents/Guidelines-for-HDR-candidates-on-the-use-of-Generative-AI-Version-3.0-10-Sept-2026.pdf",
+    "why": "HDR candidates only"
+   },
+   {
+    "url": "https://www.scu.edu.au/staff/teaching-and-learning/future-focus/genai/",
+    "why": "staff"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://www.scu.edu.au/current-students/learning-zone/academic-integrity-turnitin-and-genai/",
+    "title": "Academic Integrity, Turnitin, and Gen AI",
+    "audience": "students"
+   },
+   {
+    "url": "https://libguides.scu.edu.au/genAI",
+    "title": "GenAI library guide",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "students generative AI guide"
+  ]
+ },
+ {
+  "name": "The University of Queensland",
+  "outcome": "found",
+  "doc": {
+   "url": "https://guides.library.uq.edu.au/tools-and-techniques/ai-student-hub/ai-for-study",
+   "title": "AI for study - AI Student Hub",
+   "kind": "library_guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "October 2, 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [
+   {
+    "url": "https://guides.library.uq.edu.au/tools-and-techniques/ai-researcher-hub/acknowledgements-and-sources",
+    "why": "researchers"
+   }
+  ],
+  "other_pages": [
+   {
+    "url": "https://guides.library.uq.edu.au/tools-and-techniques/ai-student-hub/ai-for-assessment",
+    "title": "AI for assessment",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "students generative AI guide"
+  ]
+ },
+ {
+  "name": "The University of Sydney",
+  "outcome": "found",
+  "doc": {
+   "url": "https://www.sydney.edu.au/students/responsible-ai-use/using-ai-to-learn.html",
+   "title": "Using AI to learn",
+   "kind": "guide",
+   "format": "html",
+   "language": "en",
+   "date_as_shown": "Last updated 02 June 2026",
+   "retrieved_here": true,
+   "http": 200,
+   "mentions_ai": true
+  },
+  "rejected": [],
+  "other_pages": [
+   {
+    "url": "https://www.sydney.edu.au/students/academic-integrity/artificial-intelligence.html",
+    "title": "Artificial intelligence",
+    "audience": "students"
+   }
+  ],
+  "queries": [
+   "students generative AI guide"
+  ]
+ },
+ {
+  "name": "La Trobe University",
+  "outcome": "unresolved",
+  "note": "Search tool rejected latrobe.edu.au as an inaccessible domain (not a budget refusal) and WebFetch refused www.latrobe.edu.au. No workaround attempted.",
+  "rejected": [],
+  "other_pages": [],
+  "queries": [
+   "students generative AI guide (domain filter latrobe.edu.au, refused)"
+  ]
+ }
+]
