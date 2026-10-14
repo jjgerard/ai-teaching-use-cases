@@ -14,28 +14,28 @@
 :root{
   --face-display:"Plus Jakarta Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   --face-body:var(--face-display);--face-mono:ui-monospace,"Cascadia Mono","SF Mono",Consolas,monospace;
-  --paper:#eef1f6;--paper-raised:#fff;--paper-card:#fff;
-  --ink:#0f1b2d;--ink-soft:#3d4b61;--ink-faint:#58667c;
+  --paper:#e6ecf5;--paper-raised:#fff;--paper-card:#fff;
+  --ink:#0b1626;--ink-soft:#34425a;--ink-faint:#4f5d74;
   --accent:#2c5fb3;--accent-2:#4f85d8;--accent-ink:#1e4590;--accent-soft:rgba(44,95,179,.11);--on-accent:#fff;
   --cool:#0b6f57;--cool-soft:rgba(16,150,110,.13);--disc:#5b4bb0;--disc-soft:rgba(91,75,176,.12);
   --navy:#0f1f3d;--navy-deep:#0a1428;--sky:#c5d3ea;
-  --line:rgba(25,45,85,.12);--line-strong:rgba(25,45,85,.22);
+  --line:rgba(25,45,85,.14);--line-strong:rgba(25,45,85,.30);
   --radius:12px;--radius-lg:18px;
-  --glass:rgba(255,255,255,.58);--glass-strong:rgba(255,255,255,.80);--glass-edge:rgba(255,255,255,.75);--glass-hi:rgba(255,255,255,.85);
-  --blur:blur(18px) saturate(1.6);
-  --shadow:0 1px 1px rgba(25,45,85,.04),0 10px 32px rgba(30,55,100,.12);
+  --glass:rgba(255,255,255,.74);--glass-strong:rgba(255,255,255,.90);--glass-edge:rgba(255,255,255,.95);--glass-hi:#fff;
+  --blur:blur(16px) saturate(1.7);
+  --shadow:0 0 0 1px rgba(25,45,85,.07),0 1px 2px rgba(25,45,85,.08),0 12px 32px rgba(30,55,100,.14);
   --sh2:0 2px 4px rgba(25,45,85,.06),0 18px 46px rgba(30,55,100,.20);
   --btn-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 1px 2px rgba(10,22,48,.18),0 10px 24px color-mix(in srgb,var(--accent) 32%,transparent);
   --input-shadow:inset 0 1px 0 var(--glass-hi);
   --ring:0 0 0 4px color-mix(in srgb,var(--accent) 24%,transparent);
   --hero:linear-gradient(135deg,#0b1730 0%,#162f5c 55%,#2b5a9c 100%);
-  --mesh:radial-gradient(900px 640px at 6% -8%,rgba(80,110,200,.22),transparent 62%),
-         radial-gradient(820px 620px at 98% 2%,rgba(70,140,220,.20),transparent 60%),
+  --mesh:radial-gradient(900px 640px at 6% -8%,rgba(70,105,210,.34),transparent 62%),
+         radial-gradient(820px 620px at 98% 2%,rgba(60,140,225,.32),transparent 60%),
          radial-gradient(900px 700px at 78% 104%,rgba(120,150,210,.18),transparent 62%),
          radial-gradient(760px 560px at -4% 92%,rgba(100,140,200,.12),transparent 60%),
-         radial-gradient(520px 420px at 30% 52%,rgba(110,130,210,.14),transparent 70%),
-         radial-gradient(520px 420px at 72% 40%,rgba(100,160,220,.14),transparent 70%),
-         linear-gradient(180deg,#e8edf6,#f1f4f9 50%,#eef2f7);
+         radial-gradient(520px 420px at 30% 52%,rgba(120,110,215,.22),transparent 70%),
+         radial-gradient(520px 420px at 72% 40%,rgba(80,170,220,.22),transparent 70%),
+         linear-gradient(180deg,#dfe8f6,#e9eff8 50%,#e6edf6);
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --paper:#0a101c;--paper-raised:#111a2b;--paper-card:#0f1730;
