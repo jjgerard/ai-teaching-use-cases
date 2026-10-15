@@ -76,7 +76,7 @@ input,select,textarea,button{font-family:inherit}
 @media (max-width:640px){.tab-nav{position:static}.tab-link{border-bottom:1px solid rgba(255,255,255,.12);padding:.8rem .6rem}.tab-link.active{border-left:3px solid #78a9ff;border-bottom:1px solid rgba(255,255,255,.12)}}
 
 /* ---------- Square tiles ---------- */
-.card,.queue-card,.lead-card,.login-card,.modal,.trend-card,.analysis-card,.panel,.success-panel,.pending-box,.stat-strip,.study-panel,.facet-panel,.tooltip{
+.card,.queue-card,.lead-card,.login-card,.modal,.trend-card,.analysis-card,.panel,.success-panel,.pending-box,.stat-strip,.study-panel,.facet-panel{
   background:var(--paper-raised)!important;border:1px solid var(--line)!important;border-radius:0!important;box-shadow:none;-webkit-backdrop-filter:none;backdrop-filter:none}
 .analysis-card,.trend-card{border-top:3px solid var(--accent)!important;transition:box-shadow .15s}
 .analysis-card:hover,.trend-card:hover{box-shadow:0 6px 18px rgba(0,0,0,.12)}
@@ -93,6 +93,10 @@ input,select,textarea,button{font-family:inherit}
 .tbar-track{background:var(--paper-raised)}
 .datatable th{background:var(--paper)}.datatable tr:hover td{background:var(--accent-soft)}
 .note{border-radius:0}
+
+/* Tooltips stay dark with light text, as the pages intend */
+.tooltip,#chartTooltip{background:rgba(11,24,58,.94)!important;color:#eef3f9!important;border:1px solid rgba(255,255,255,.18)!important;border-radius:0!important;
+  -webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:0 12px 30px rgba(0,0,0,.35)}
 
 /* ---------- Form fields: filled, with a bottom rule ---------- */
 .field-row input[type=text],.field-row input[type=url],.field-row input[type=email],.field-row input[type=number],.field-row input[type=password],.field-row select,.field-row textarea,
