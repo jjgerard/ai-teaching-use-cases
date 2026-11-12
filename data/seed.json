@@ -6107,6 +6107,26 @@
       "ev": "Over 500 staff and students voluntarily attended introductory sessions, many continued through the programme, and several staff embedded the open workbook in their own teaching. Feedback was described as overwhelmingly positive, and several ethical messages (such as not uploading student work to third-party platforms without consent) were adopted university-wide. Participation remained mostly individual, with few whole-cohort bookings.",
       "th": "Staff Development",
       "repo": "qaa"
+    },
+    {
+      "t": "Voice-conversation assessment and practice with AI agents (HiEd.ai)",
+      "by": "HigherEd-AI Ltd (HiEd.ai), with Ulster University, RCSI School of Pharmacy and London Metropolitan University staff",
+      "inst": "Ulster University; RCSI School of Pharmacy; London Metropolitan University",
+      "u": "https://hied.ai",
+      "reg": "UK",
+      "yr": 2026,
+      "th": "Assessment & Feedback",
+      "disc": [
+        "Health & Medicine",
+        "Social Sciences"
+      ],
+      "tool": [
+        "Voice/Audio AI",
+        "Other"
+      ],
+      "s": "Educators build AI voice agents that students talk to, for example counselling a patient in pharmacy or discussing fictional cases in social work, with feedback at the end based on the educator's prompt. In December 2025, 140 final-year Ulster students took a summative spoken conversation that counted toward their degree; about 100 RCSI pharmacy students practised patient counselling, with 14 conversations running at once.",
+      "ev": "An anonymous survey of 69 Ulster students (49% of the cohort, collected before results) found 78% preferred the conversation to a recorded presentation, 77% to a formal exam and 68% to a written assignment; 43% ranked it first for building practice skills. The vendor reports 1,500+ conversations at a 99% call success rate. Evidence is student preference and usage data only, not measured learning outcomes, and comes from the vendor's own site.",
+      "repo": "hiedai"
     }
   ],
   "REPOS": {
@@ -6625,6 +6645,12 @@
       "short": "IU (Robison)",
       "url": "https://www.insidehighered.com/opinion/career-advice/teaching/2025/07/01/multiday-class-essay-chatgpt-era-opinion",
       "blurb": "An Inside Higher Ed opinion piece on a philosophy instructor's multi-day lockdown-browser essay format."
+    },
+    "hiedai": {
+      "label": "HiEd.ai — AI voice conversations for teaching and assessment",
+      "short": "HiEd.ai",
+      "url": "https://hied.ai",
+      "blurb": "Case study from the HiEd.ai platform (HigherEd-AI Ltd, Belfast) on spoken AI conversations used for practice and summative assessment."
     }
   }
 }
